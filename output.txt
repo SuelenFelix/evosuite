@@ -1,0 +1,391 @@
+/bin/python3 /home/suelenfelix/TCC/evosuite/script.py
+Executando com 2 workers. Pressione Ctrl+C para parar.
+
+>>> [PROJETO] devslm_proguard-spring-boot-example - Iniciando...
+
+>>> [PROJETO] tugcekonuklar_account-service - Iniciando...
+[devslm_proguard-spring-boot-example] Gerando testes para: com.slm.proguard.example.spring.boot.service.ExampleService
+[tugcekonuklar_account-service] Gerando testes para: com.account.service.service.TransferMoneyUseCaseImpl
+
+>>> [PROJETO] jethronap_jstat - Iniciando...
+RESULTADO: tugcekonuklar_account-service: ❌ FALHOU
+[jethronap_jstat] Gerando testes para: jstat.dataloader.utils.ParseUtils
+
+>>> [PROJETO] liuhongdi_apiversion - Iniciando...
+RESULTADO: devslm_proguard-spring-boot-example: ✅ SUCESSO
+[liuhongdi_apiversion] Gerando testes para: com.apiversion.demo.controller.GoodsV2Controller
+
+>>> [PROJETO] SelimHorri_project-tracking-system-backend-app - Iniciando...
+RESULTADO: liuhongdi_apiversion: ❌ FALHOU
+[SelimHorri_project-tracking-system-backend-app] Gerando testes para: com.pfa.app.service.impl.LocationServiceImpl
+
+>>> [PROJETO] setNewPassword_java-filmorate - Iniciando...
+RESULTADO: SelimHorri_project-tracking-system-backend-app: ❌ FALHOU
+[setNewPassword_java-filmorate] Gerando testes para: ru.yandex.practicum.filmorate.storage.memory.InMemoryFilmStorage
+
+>>> [PROJETO] marcobehlerjetbrains_maven-tutorial - Iniciando...
+RESULTADO: setNewPassword_java-filmorate: ❌ FALHOU
+[marcobehlerjetbrains_maven-tutorial] Gerando testes para: com.jetbrains.marco.Mp3Util
+
+>>> [PROJETO] samuelalmeida95_giveMeBack-api - Iniciando...
+RESULTADO: marcobehlerjetbrains_maven-tutorial: ✅ SUCESSO
+[samuelalmeida95_giveMeBack-api] Gerando testes para: projects.givemebackapi.controllers.AmigoEmprestimoController
+
+>>> [PROJETO] strategyengine_fsedistributionservice - Iniciando...
+RESULTADO: samuelalmeida95_giveMeBack-api: ❌ FALHOU
+[strategyengine_fsedistributionservice] Gerando testes para: com.strategyengine.xrpl.fsedistributionservice.service.impl.NftServiceImpl
+
+>>> [PROJETO] zevolution_netflix-hexagonal-architecture - Iniciando...
+RESULTADO: jethronap_jstat: ❌ FALHOU
+[zevolution_netflix-hexagonal-architecture] Gerando testes para: dev.zevolution.netflixhexaarch.transportlayers.restapi.AuthorsApiImpl
+
+>>> [PROJETO] analysys_presto-hbase-connector - Iniciando...
+RESULTADO: strategyengine_fsedistributionservice: ❌ FALHOU
+[analysys_presto-hbase-connector] Gerando testes para: com.analysys.presto.connector.hbase.meta.HBaseTableHandle
+
+>>> [PROJETO] ammaralii_interview-preparation-kit - Iniciando...
+RESULTADO: zevolution_netflix-hexagonal-architecture: ✅ SUCESSO
+[ammaralii_interview-preparation-kit] Gerando testes para: interviews.teamapt.online_assessment.questions.Question1
+
+>>> [PROJETO] raviyasas_springboot-gcs-demo - Iniciando...
+RESULTADO: analysys_presto-hbase-connector: ❌ FALHOU
+[raviyasas_springboot-gcs-demo] Gerando testes para: com.app.controller.FileController
+
+>>> [PROJETO] awslabs_kinesis-kafka-connector - Iniciando...
+RESULTADO: ammaralii_interview-preparation-kit: ✅ SUCESSO
+[awslabs_kinesis-kafka-connector] Gerando testes para: com.amazon.kinesis.kafka.FirehoseSinkTask
+
+>>> [PROJETO] cfrasinaru_Graph4J - Iniciando...
+RESULTADO: raviyasas_springboot-gcs-demo: ❌ FALHOU
+
+>>> [PROJETO] szerhusenBC_jwt-spring-security-demo - Iniciando...
+RESULTADO: awslabs_kinesis-kafka-connector: ❌ FALHOU
+[cfrasinaru_Graph4J] Gerando testes para: org.graph4j.Edge
+[szerhusenBC_jwt-spring-security-demo] Gerando testes para: org.zerhusen.security.rest.AuthenticationRestController
+
+>>> [PROJETO] arothuis_antlr4-calculator - Iniciando...
+RESULTADO: szerhusenBC_jwt-spring-security-demo: ❌ FALHOU
+RESULTADO: cfrasinaru_Graph4J: ✅ SUCESSO
+
+>>> [PROJETO] saiGou-14H_FaceSystem - Iniciando...
+[arothuis_antlr4-calculator] Gerando testes para: nl.arothuis.antlr4calculator.core.evaluator.CalculationListener
+[saiGou-14H_FaceSystem] Gerando testes para: com.org.controller.UserDepartmentController
+
+>>> [PROJETO] hhimanshu_spring-boot-liquibase - Iniciando...
+RESULTADO: saiGou-14H_FaceSystem: ✅ SUCESSO
+
+>>> [PROJETO] ssherwood_spring-boot-jpa - Iniciando...
+RESULTADO: arothuis_antlr4-calculator: ✅ SUCESSO
+[hhimanshu_spring-boot-liquibase] Gerando testes para: com.hhimanshu.persistence.entities.Author
+[ssherwood_spring-boot-jpa] Gerando testes para: io.undertree.symptom.domain.Gender
+
+>>> [PROJETO] dhatim_dropwizard-jwt-cookie-authentication - Iniciando...
+RESULTADO: hhimanshu_spring-boot-liquibase: ✅ SUCESSO
+
+>>> [PROJETO] c-guntur_jvms-compare - Iniciando...
+RESULTADO: ssherwood_spring-boot-jpa: ❌ FALHOU
+[c-guntur_jvms-compare] Gerando testes para: jvmscompare.benchmark.generated.PersonCombinedSummaryStats_combinedStatistics_JDK_Stream_Serial_jmhTest
+[dhatim_dropwizard-jwt-cookie-authentication] Gerando testes para: org.dhatim.dropwizard.jwt.cookie.authentication.SameSite
+
+>>> [PROJETO] PGSSoft_HttpClientMock - Iniciando...
+RESULTADO: dhatim_dropwizard-jwt-cookie-authentication: ❌ FALHOU
+[PGSSoft_HttpClientMock] Gerando testes para: com.pgssoft.httpclient.internal.action.SetStatusAction
+
+>>> [PROJETO] RTBHOUSE_kafka-workers - Iniciando...
+RESULTADO: PGSSoft_HttpClientMock: ✅ SUCESSO
+[RTBHOUSE_kafka-workers] Gerando testes para: com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque
+
+>>> [PROJETO] wiverson_jtoolprovider-plugin - Iniciando...
+RESULTADO: RTBHOUSE_kafka-workers: ❌ FALHOU
+[wiverson_jtoolprovider-plugin] Gerando testes para: io.github.wiverson.RunTool
+
+>>> [PROJETO] shabbirdwd53_springboot-mongodb - Iniciando...
+RESULTADO: wiverson_jtoolprovider-plugin: ✅ SUCESSO
+[shabbirdwd53_springboot-mongodb] Gerando testes para: com.dailycodebuffer.springbootmongodb.service.PhotoServiceImpl
+
+>>> [PROJETO] meicanhong_dannydb - Iniciando...
+RESULTADO: shabbirdwd53_springboot-mongodb: ❌ FALHOU
+[meicanhong_dannydb] Gerando testes para: com.danny.db.util.ByteArrayWrapper
+
+>>> [PROJETO] dream11_vertx-rest - Iniciando...
+RESULTADO: meicanhong_dannydb: ✅ SUCESSO
+[dream11_vertx-rest] Gerando testes para: com.dream11.rest.converter.BaseParamConverter
+
+>>> [PROJETO] fcrepo-exts_migration-utils - Iniciando...
+RESULTADO: c-guntur_jvms-compare: ✅ SUCESSO
+RESULTADO: dream11_vertx-rest: ❌ FALHOU
+
+>>> [PROJETO] matthewgallina_smockin - Iniciando...
+[fcrepo-exts_migration-utils] Gerando testes para: org.fcrepo.migration.pidlist.PidListManager
+
+>>> [PROJETO] oldfr_first_microservice - Iniciando...
+RESULTADO: fcrepo-exts_migration-utils: ❌ FALHOU
+
+>>> [PROJETO] TechPrimers_ratelimiter-example - Iniciando...
+RESULTADO: oldfr_first_microservice: ERRO clone
+[TechPrimers_ratelimiter-example] Gerando testes para: com.techprimers.ratelimiter.RatelimiterExampleApplication
+[matthewgallina_smockin] Gerando testes para: com.smockin.admin.controller.ApiImportController
+
+>>> [PROJETO] NeilMadden_salty-coffee - Iniciando...
+RESULTADO: matthewgallina_smockin: ❌ FALHOU
+[NeilMadden_salty-coffee] Gerando testes para: software.pando.crypto.nacl.Salsa20
+
+>>> [PROJETO] mariorez_kanban-quarkus - Iniciando...
+RESULTADO: NeilMadden_salty-coffee: ❌ FALHOU
+
+>>> [PROJETO] aws_aws-secretsmanager-jdbc - Iniciando...
+RESULTADO: TechPrimers_ratelimiter-example: ❌ FALHOU
+[aws_aws-secretsmanager-jdbc] Gerando testes para: com.amazonaws.secretsmanager.util.package-info
+
+>>> [PROJETO] jckleiner_notion-backup - Iniciando...
+RESULTADO: aws_aws-secretsmanager-jdbc: ❌ FALHOU
+[jckleiner_notion-backup] Gerando testes para: com.greydev.notionbackup.NotionBackup
+[mariorez_kanban-quarkus] Gerando testes para: org.seariver.kanbanboard.write.application.service.CreateCardHandler
+
+>>> [PROJETO] moacirrf_netbeans-markdown - Iniciando...
+RESULTADO: jckleiner_notion-backup: ✅ SUCESSO
+
+>>> [PROJETO] leanstacks_skeleton-ws-spring-boot - Iniciando...
+RESULTADO: mariorez_kanban-quarkus: ✅ SUCESSO
+[leanstacks_skeleton-ws-spring-boot] Gerando testes para: com.leanstacks.ws.security.AccountAuthenticationProvider
+
+>>> [PROJETO] darinpope_java-web-app - Iniciando...
+RESULTADO: leanstacks_skeleton-ws-spring-boot: ❌ FALHOU
+[darinpope_java-web-app] Gerando testes para: com.example.demo.DemoApplication
+[moacirrf_netbeans-markdown] Gerando testes para: io.github.moacirrf.netbeans.markdown.html.FirstElementTransformer
+
+>>> [PROJETO] olein_Java-AWS-RnD - Iniciando...
+RESULTADO: darinpope_java-web-app: ❌ FALHOU
+[olein_Java-AWS-RnD] Gerando testes para: com.rnd.aws.ServletInitializer
+
+>>> [PROJETO] aws-samples_msk-config-providers - Iniciando...
+RESULTADO: moacirrf_netbeans-markdown: ✅ SUCESSO
+
+>>> [PROJETO] fireinrain_javbus-telegram-bot - Iniciando...
+RESULTADO: aws-samples_msk-config-providers: Nenhuma classe alvo
+[fireinrain_javbus-telegram-bot] Gerando testes para: com.sunrise.javbusbot.TelegramBotApp
+
+>>> [PROJETO] BestSolution-at_mac-codesigner - Iniciando...
+RESULTADO: olein_Java-AWS-RnD: ✅ SUCESSO
+
+>>> [PROJETO] alexandreaquiles_dibujo - Iniciando...
+RESULTADO: fireinrain_javbus-telegram-bot: ✅ SUCESSO
+[BestSolution-at_mac-codesigner] Gerando testes para: at.bestsolution.maccodesigner.NotarizationUpload
+
+>>> [PROJETO] bhlangonijr_chesslib - Iniciando...
+RESULTADO: BestSolution-at_mac-codesigner: ✅ SUCESSO
+[alexandreaquiles_dibujo] Gerando testes para: dibujo.Position
+[bhlangonijr_chesslib] Gerando testes para: com.github.bhlangonijr.chesslib.Side
+
+>>> [PROJETO] daglii_graylog-spring - Iniciando...
+RESULTADO: alexandreaquiles_dibujo: ✅ SUCESSO
+
+>>> [PROJETO] abuijze_bike-rental-demo - Iniciando...
+RESULTADO: bhlangonijr_chesslib: ✅ SUCESSO
+[daglii_graylog-spring] Gerando testes para: com.dagli.graylog.controller.Controller
+[abuijze_bike-rental-demo] Gerando testes para: io.axoniq.demo.bikerental.bikerental.coreapi.ReturnBikeCommand
+
+>>> [PROJETO] nikoo28_java-solutions - Iniciando...
+RESULTADO: daglii_graylog-spring: ❌ FALHOU
+[nikoo28_java-solutions] Gerando testes para: leetcode.easy.JewelsAndStones
+
+>>> [PROJETO] momir96_Web-Shop-Moxilla - Iniciando...
+RESULTADO: abuijze_bike-rental-demo: ✅ SUCESSO
+[momir96_Web-Shop-Moxilla] Gerando testes para: com.example.web_shop.service.Impl.UserDetailsServiceImpl
+
+>>> [PROJETO] WoMakersCode_bootcamp-java-starwars-restapi - Iniciando...
+RESULTADO: nikoo28_java-solutions: ✅ SUCESSO
+[WoMakersCode_bootcamp-java-starwars-restapi] Gerando testes para: com.bootcampjava.startwars.service.JediService
+
+>>> [PROJETO] google_robotstxt-java - Iniciando...
+RESULTADO: momir96_Web-Shop-Moxilla: ❌ FALHOU
+[google_robotstxt-java] Gerando testes para: com.google.search.robotstxt.RobotsContents
+
+>>> [PROJETO] AgMonk_merge-gf-assets - Iniciando...
+RESULTADO: google_robotstxt-java: ✅ SUCESSO
+[AgMonk_merge-gf-assets] Gerando testes para: com.gin.mergegfassets.utils.TimeUtils
+
+>>> [PROJETO] joshuacrotts_logic-learning-assistance-tool - Iniciando...
+RESULTADO: WoMakersCode_bootcamp-java-starwars-restapi: ✅ SUCESSO
+
+>>> [PROJETO] gabrieldim_PDF-Generator-Spring-Boot - Iniciando...
+RESULTADO: AgMonk_merge-gf-assets: ✅ SUCESSO
+[gabrieldim_PDF-Generator-Spring-Boot] Gerando testes para: com.example.pdfgenerator.PdfGeneratorApplication
+[joshuacrotts_logic-learning-assistance-tool] Gerando testes para: com.llat.views.menu.FileMenu
+
+>>> [PROJETO] chenliangrui_EasyMrcp - Iniciando...
+RESULTADO: gabrieldim_PDF-Generator-Spring-Boot: ✅ SUCESSO
+
+>>> [PROJETO] FENGYU-008_ERP - Iniciando...
+RESULTADO: joshuacrotts_logic-learning-assistance-tool: ✅ SUCESSO
+[FENGYU-008_ERP] Gerando testes para: com.shark.erp.service.AdminService
+[chenliangrui_EasyMrcp] Gerando testes para: com.cfsl.easymrcp.sip.UserCredentialsImpl
+
+>>> [PROJETO] 52North_jackson-datatype-jts - Iniciando...
+RESULTADO: chenliangrui_EasyMrcp: ✅ SUCESSO
+
+>>> [PROJETO] liuhongdi_ratelimiter - Iniciando...
+RESULTADO: 52North_jackson-datatype-jts: ERRO build
+
+>>> [PROJETO] 2much2learn_article-aug31-reactive-crud-rest-api-using-spring-boot-spring-data-r2dbc - Iniciando...
+RESULTADO: FENGYU-008_ERP: ✅ SUCESSO
+[liuhongdi_ratelimiter] Gerando testes para: com.ratelimiter.demo.util.TimeUtil
+[2much2learn_article-aug31-reactive-crud-rest-api-using-spring-boot-spring-data-r2dbc] Gerando testes para: com.toomuch2learn.reactive.crud.catalogue.controller.CatalogueWSController
+
+>>> [PROJETO] felixgilioli_complete-o-codigo-java - Iniciando...
+RESULTADO: liuhongdi_ratelimiter: ✅ SUCESSO
+[felixgilioli_complete-o-codigo-java] Gerando testes para: br.com.felixgilioli.exercicios.medio.Strings
+
+>>> [PROJETO] Ontotext-AD_kafka-sink-graphdb - Iniciando...
+RESULTADO: 2much2learn_article-aug31-reactive-crud-rest-api-using-spring-boot-spring-data-r2dbc: ❌ FALHOU
+
+>>> [PROJETO] nejckorasa_s3-stream-unzip - Iniciando...
+RESULTADO: felixgilioli_complete-o-codigo-java: ✅ SUCESSO
+[nejckorasa_s3-stream-unzip] Gerando testes para: io.github.nejckorasa.s3.upload.Assertions
+
+>>> [PROJETO] spring-petclinic_spring-petclinic-reactive - Iniciando...
+RESULTADO: nejckorasa_s3-stream-unzip: ❌ FALHOU
+[spring-petclinic_spring-petclinic-reactive] Gerando testes para: org.springframework.samples.petclinic.vet.db.VetReactiveDaoMapper
+
+>>> [PROJETO] joshlong-attic_distributed-locking-with-spring-integration-locks - Iniciando...
+RESULTADO: spring-petclinic_spring-petclinic-reactive: ❌ FALHOU
+
+>>> [PROJETO] Xpectuer_miniJuliaSonar - Iniciando...
+RESULTADO: joshlong-attic_distributed-locking-with-spring-integration-locks: ERRO build
+[Xpectuer_miniJuliaSonar] Gerando testes para: tech.jiayezheng.miniJuliaSonar.Builtins
+
+>>> [PROJETO] piinalpin_springboot-jpa-specification - Iniciando...
+RESULTADO: Xpectuer_miniJuliaSonar: ✅ SUCESSO
+[piinalpin_springboot-jpa-specification] Gerando testes para: com.piinalpin.queryrequest.controller.OperatingSystemController
+
+>>> [PROJETO] oldfr_eureka_service_registry - Iniciando...
+RESULTADO: piinalpin_springboot-jpa-specification: ❌ FALHOU
+
+>>> [PROJETO] coding-parrot_chess-engine - Iniciando...
+RESULTADO: oldfr_eureka_service_registry: ERRO clone
+[coding-parrot_chess-engine] Gerando testes para: game.Move
+[Ontotext-AD_kafka-sink-graphdb] Gerando testes para: com.ontotext.kafka.logging.MskLogger
+
+>>> [PROJETO] Cyebukayire_springboot-Backend - Iniciando...
+RESULTADO: Ontotext-AD_kafka-sink-graphdb: ❌ FALHOU
+[Cyebukayire_springboot-Backend] Gerando testes para: net.javaguides.SpringbootBackendApplication
+
+>>> [PROJETO] Floppir_auth - Iniciando...
+RESULTADO: coding-parrot_chess-engine: ✅ SUCESSO
+[Floppir_auth] Gerando testes para: com.sigma.auth.payload.request.TokenRefreshRequest
+
+>>> [PROJETO] nscuro_bradamsa-ng - Iniciando...
+RESULTADO: Cyebukayire_springboot-Backend: ✅ SUCESSO
+
+>>> [PROJETO] JordiHOFC_Estudos-Desafio-PicPay-BackEnd - Iniciando...
+RESULTADO: Floppir_auth: ❌ FALHOU
+[JordiHOFC_Estudos-Desafio-PicPay-BackEnd] Gerando testes para: br.com.desafiobackend.picpay.transacoes.TransacoesApplication
+[nscuro_bradamsa-ng] Gerando testes para: com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory
+
+>>> [PROJETO] juancondorijara_as201-ms-procedure-be - Iniciando...
+RESULTADO: nscuro_bradamsa-ng: ✅ SUCESSO
+
+>>> [PROJETO] stickfigure_hattery - Iniciando...
+RESULTADO: JordiHOFC_Estudos-Desafio-PicPay-BackEnd: ✅ SUCESSO
+[juancondorijara_as201-ms-procedure-be] Gerando testes para: com.ms_procedure.service.impl.ProcedureServiceImpl
+[stickfigure_hattery] Gerando testes para: com.voodoodyne.hattery.util.TeeOutputStream
+
+>>> [PROJETO] ilxqx_spring-security-leaning-demo - Iniciando...
+RESULTADO: stickfigure_hattery: ❌ FALHOU
+[ilxqx_spring-security-leaning-demo] Gerando testes para: com.ilxqx.springsecuritylearning.security.JwtAuthenticationToken
+
+>>> [PROJETO] yoandypv_spring-boot-rabbit-mq - Iniciando...
+RESULTADO: juancondorijara_as201-ms-procedure-be: ❌ FALHOU
+[yoandypv_spring-boot-rabbit-mq] Gerando testes para: com.sacavix.mq.SpringBootRabbitMqApplication
+
+>>> [PROJETO] streamx-co_ExTree - Iniciando...
+RESULTADO: ilxqx_spring-security-leaning-demo: ✅ SUCESSO
+[streamx-co_ExTree] Gerando testes para: co.streamx.fluent.extree.function.math.package-info
+
+>>> [PROJETO] forax_kata-restrospective-11 - Iniciando...
+RESULTADO: streamx-co_ExTree: ❌ FALHOU
+
+>>> [PROJETO] projectdiscovery_nuclei-burp-plugin - Iniciando...
+RESULTADO: forax_kata-restrospective-11: Nenhuma classe alvo
+
+>>> [PROJETO] qoomon_maven-git-versioning-extension - Iniciando...
+RESULTADO: yoandypv_spring-boot-rabbit-mq: ✅ SUCESSO
+
+>>> [PROJETO] bonigarcia_webdrivermanager-examples - Iniciando...
+RESULTADO: projectdiscovery_nuclei-burp-plugin: ERRO build
+[qoomon_maven-git-versioning-extension] Gerando testes para: me.qoomon.maven.gitversioning.GAV
+
+>>> [PROJETO] GSMgeeth_medium-coffeeshop-sample - Iniciando...
+RESULTADO: qoomon_maven-git-versioning-extension: ❌ FALHOU
+[GSMgeeth_medium-coffeeshop-sample] Gerando testes para: com.blog.coffee_shop.service.impl.AuthenticationServiceImpl
+RESULTADO: bonigarcia_webdrivermanager-examples: ERRO build
+
+>>> [PROJETO] oldfr_second_microservice - Iniciando...
+
+>>> [PROJETO] yusufyilmazfr_podcast4j - Iniciando...
+RESULTADO: oldfr_second_microservice: ERRO clone
+[yusufyilmazfr_podcast4j] Gerando testes para: com.github.yusufyilmazfr.podcast4j.response.ValueResponse
+
+>>> [PROJETO] Mr-Hades1_minimq - Iniciando...
+RESULTADO: GSMgeeth_medium-coffeeshop-sample: ✅ SUCESSO
+[Mr-Hades1_minimq] Gerando testes para: com.singularityfold.client.Client
+
+>>> [PROJETO] folksdev_movie-api - Iniciando...
+RESULTADO: yusufyilmazfr_podcast4j: ✅ SUCESSO
+
+>>> [PROJETO] thibaultmeyer_cuid-java - Iniciando...
+RESULTADO: Mr-Hades1_minimq: ✅ SUCESSO
+[thibaultmeyer_cuid-java] Gerando testes para: module-info
+
+>>> [PROJETO] clean-arch-enablers-project_cae-framework - Iniciando...
+RESULTADO: thibaultmeyer_cuid-java: ❌ FALHOU
+[clean-arch-enablers-project_cae-framework] Gerando testes para: com.cae.autofeatures.autolog.native_io_extraction_mode.json.SimpleJsonBuilder
+
+>>> [PROJETO] crawler-commons_crawler-commons - Iniciando...
+RESULTADO: clean-arch-enablers-project_cae-framework: ❌ FALHOU
+[folksdev_movie-api] Gerando testes para: com.folksdev.movie.service.DirectorService
+[crawler-commons_crawler-commons] Gerando testes para: crawlercommons.robots.BaseRobotRules
+
+>>> [PROJETO] MSmirnov2407_Filmorate - Iniciando...
+RESULTADO: folksdev_movie-api: ✅ SUCESSO
+
+>>> [PROJETO] RaisaRS_java-filmorate - Iniciando...
+RESULTADO: crawler-commons_crawler-commons: ✅ SUCESSO
+[MSmirnov2407_Filmorate] Gerando testes para: ru.yandex.practicum.filmorate.dao.MpaRatingDbStorage
+[RaisaRS_java-filmorate] Gerando testes para: ru.yandex.practicum.filmorate.service.GenreDbService
+
+>>> [PROJETO] sfmohassel_spring-boot-mongodb-docker-compose-starter - Iniciando...
+RESULTADO: MSmirnov2407_Filmorate: ❌ FALHOU
+[sfmohassel_spring-boot-mongodb-docker-compose-starter] Gerando testes para: com.love.backend.LoveBackendApplication
+
+>>> [PROJETO] hamitmizrak_Patika_SpringBoot_Docker - Iniciando...
+RESULTADO: RaisaRS_java-filmorate: ✅ SUCESSO
+RESULTADO: hamitmizrak_Patika_SpringBoot_Docker: ERRO clone
+
+>>> [PROJETO] gnu-gnu_spring-kafka-example - Iniciando...
+[gnu-gnu_spring-kafka-example] Gerando testes para: com.gnu.spring.kafka.springkafkaexample.service.KafkaHandlerService
+
+>>> [PROJETO] lyubenblagoev_postfix-rest-server - Iniciando...
+RESULTADO: gnu-gnu_spring-kafka-example: ❌ FALHOU
+
+>>> [PROJETO] omnifaces_omniutils - Iniciando...
+RESULTADO: sfmohassel_spring-boot-mongodb-docker-compose-starter: ❌ FALHOU
+[lyubenblagoev_postfix-rest-server] Gerando testes para: com.lyubenblagoev.postfixrest.FileUtils
+
+>>> [PROJETO] rayokota_kafka-connect-jsonata - Iniciando...
+RESULTADO: omnifaces_omniutils: ERRO build
+[rayokota_kafka-connect-jsonata] Gerando testes para: io.yokota.kafka.connect.transform.jsonata.JsonataTransformation
+
+>>> [PROJETO] Project-Books_books-api - Iniciando...
+RESULTADO: rayokota_kafka-connect-jsonata: ❌ FALHOU
+[Project-Books_books-api] Gerando testes para: com.acme.client.AddIsbn13AuthorsBooksAwardsAwardNameProjection
+
+>>> [PROJETO] nativejdb_nativejdb - Iniciando...
+RESULTADO: Project-Books_books-api: ❌ FALHOU
+
+>>> [PROJETO] cami-la_spring-security-full-course-amigoscode - Iniciando...
+RESULTADO: lyubenblagoev_postfix-rest-server: ✅ SUCESSO
+[cami-la_spring-security-full-course-amigoscode] Gerando testes para: com.example.demo.security.ApplicationUserPermission
+[nativejdb_nativejdb] Gerando testes para: gdb.mi.service.command.output.MIExecAsyncOutput
+RESULTADO: nativejdb_nativejdb: ✅ SUCESSO
+RESULTADO: cami-la_spring-security-full-course-amigoscode: ✅ SUCESSO

@@ -1,0 +1,17 @@
+**/.idea/*
+**/*.iml
+**/*.log
+**/kex-instrumented*/*
+repo/*
+testJars/*
+test-jars/*
+trace/*
+fails/*
+**/target/*
+**/*.json
+**/kex-output*/*
+**/temp*/*
+**/test-temp*/*
+/kex-z3/src/main/resources/z3-*-linux64-native.zip
+/kex-z3/src/main/resources/z3-*-win64-native.zip
+/kex-z3/src/main/resources/z3-*-osx64-native.zip

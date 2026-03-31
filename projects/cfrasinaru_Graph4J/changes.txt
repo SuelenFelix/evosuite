@@ -1,0 +1,81 @@
+1.0.8
+	-RandomUnitDiskGenerator, RandomLayeredGenerator, RandomKNNGenerator
+	-StoerWagnerMinimumCut: computing a minimum weighted edge cut
+	-HavelHakimiBipartiteRealization: generator for bipartite graphs having a specified left/right degree sequence
+	-KleitmanWangDigraphRealization: generator for directed graphs having a specified (in-degree, out-degree) sequence
+	-HavelHakimiGraphRealization: generator for undirected graphs having a specified degree sequence
+	-DinicMaximumFlow
+	-Network: support data type for transportation (flow) networks
+	-PruferTreeEncoder and PruferTreeDecoder
+	-SpanningTreeIterator, WeightedSpanningTreeIterator, MinimumSpanningTreeIterator
+	-MycielskiGenerator: generator for Mycielski graphs
+	-ChordalGraphSupport contains algorithms for chordals graphs
+	-PathFinder contains method for finding various paths in unweighted graphs
+	-New traversal algorithms: LexBFSIterator, MaximumCardinalityIterator
+	-Improved method for creating the subgraph of a graph
+	-GraphMeasures includes methods for directed graphs
+	-Generator for random arborescences and DAGs
+	-TopologicalOrderIterator offers the level of a vertex in the DAG
+	-GraphTests contains methods that test various graph properties
+	-Graphs class renamed to GraphUtils
+	-Algorithms for general graph isomorphism
+	-Algorithms for forest isomorphism: ForestIsomorphism, RootedForestIsomorphism
+	-TreeMetrics: Improved methods for determining the diameter, center and periphery of a tree
+	-RandomForestGenerator: generator for random forests
+	-RandomHamiltonianGenerator: Generator for random Hamiltonian graphs and digraphs
+	-RandomOreGraphGenerator: generator for random graphs that have Ore's property
+	-PalmerHamiltonianCycle: Palmer's algorithm for finding a Hamiltonian cycle in a graph that satisfies Ore's condition 
+	
+1.0.7	2024-03-10
+	-Algorithms for tree isomorphism: RootedTreeIsomorphism, TreeIsomorphism
+	-Graphs class has a new method: isTree
+	
+1.0.6	2023-10-11
+	-Removed all implementations that require external dependencies
+	-VertexConnectivityAlgorithm: maximum vertex disjoint paths, minimum vertex cutset, vertex connectivity number
+	-EdgeConnectivityAlgorithm: maximum edge disjoint paths, minimum edge cutset, edge connectivity number
+	-Johnson's algorithm for determining all pairs shortes paths: JohnsonShortestPath
+	-A* algorithm for determining the shortest path using a distance heursitic: AStarAlgorithm
+	-Iterators over all cliques, with min and max size, DFS or BFS: DFSCliqueIterator, BFSCliqueIterator
+	
+1.0.5	2023-07-07
+	-Sequential and parallel implementations of Boruvka algorithm for MST: BoruvkaMinimumSpanningTreeDefault/Parallel
+	-Generator for Barabasi-Albert networks: BarabasiALbertGenerator
+	-Generator for Watts-Strogatz networks: WattsStrogatzGenerator
+	-Greedy coloring algorithms for bandwith and equitable coloring
+	-Exact backtracking coloring algoritms for bandwith and equitable coloring
+	-Generator for grid graphs and digraphs: GridGenerator
+	
+1.0.4	2023-04-27
+	-Parallel implementation of Filter-Kruskal algorithm for MST: ParallelFilterKruskal
+	-Improved algorithms for computing graph metrics (center, radius, etc): GraphMetrics
+	-Algorithm for counting the number of triangles in a graph: TriangleCounter
+	-Simple greedy heuristic for the vertex separator problem: GreedyVertexSeparator
+	-Parallel implementation of backtrack vertex coloring: ParallelBacktrackColoring
+	
+1.0.3	2023-04-29
+	- Exact algorithm for vertex coloring: BacktrackColoring
+	- Simple heuristic for determining a single maximal clique: MaximalCliqueFinder
+	- New heuristic algorithm for vertex coloring: RecursiveLargestFirst (RLF)
+	- New greedy coloring algorithms: Random, LargestDegreeFirst, SmallestDegreeLast, DSatur
+	- All graph generators run with safeMode(false)
+	- VertexSet uses a IntHashMap for improving the performance of vertex removal
+  
+1.0.2	2023-04-09
+	- Improved algorithm for enumerating maximal cliques: BronKerboschCliqueIterator
+	- Examples of using Graph4J API: org.graph4j.examples
+	- Support for tournament graphs: org.graph4j.support.Tournament
+	(determining if a digraph is tournament, obtaining a hamiltonian path in a tournament)
+  
+1.0.1	2023-03-19
+	- Algorithm for single pair shortest path: org.graph4j.alg.sp.BidirectionalDijkstra
+	- Algorithm for bridge detection: org.graph4j.alg.connectivity.BridgeDetectionAlgorithm
+	- Bug: Graph.maxVertexNumber() was not correct (should return -1 in case of an empty graph)
+	- Bug: Graph.addVertex() was not correct (due to maxVertexNumber being incorrect)
+
+Moved to Graph4JExt
+	-ILP (Gurobi) implementation for the vertex separator problem: GurobiVertexSeparator	
+	-ILP (Gurobi) implementation of the stable set model for equitable coloring: GurobiStableModelEquitableColoring
+	-CSP (Choco) implementation for vertex coloring: ChocoColoring
+	-Exact ILP coloring algoritms for bandwith and equitable coloring (using Gurobi)
+	-ILP (Gurobi) implementation of the assignment model for vertex coloring: GurobiAssignmentColoring

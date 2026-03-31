@@ -1,0 +1,14 @@
+{
+  "name": "at4j-docs",
+  "version": "1.2.0",
+  "description": "Azure Translator for Java docs",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress-carbon": "^1.6.0",
+    "vitepress": "^1.6.4"
+  }
+}

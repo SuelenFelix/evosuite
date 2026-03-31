@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Scale Java - Admin</title>
+    {#include adminHead}
+    {/include}
+</head>
+<body>
+{#include adminHeader}
+{/include}
+<main class="sj-content">
+    <div class="card sj-card">
+        <div class="card-header sj-card-header">
+            <span class="sj-card-title">New User</span>
+        </div>
+        <form action="/persons" method="post"
+              enctype="application/x-www-form-urlencoded">
+            <div class="card-body sj-card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <input type="text" class="form-control" name="firstName"
+                                       id="firstName" placeholder="First name">
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <input type="text" class="form-control" name="lastName"
+                                       id="lastName" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <input type="text" class="form-control" name="username"
+                                       id="username" placeholder="Username">
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <input type="password" class="form-control" name="password"
+                                       id="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Email">
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <input type="text" class="form-control" name="phone" id="phone"
+                                       placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8 form-group">
+                                <select name="roles" id="roles" multiple="multiple">
+                                    {#for role in roles}
+                                    <option value="{role.roleId}">{role.roleName}</option>
+                                    {/for}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="sj-card-footer">
+                <button type="submit" class="sj-tag-2">Save</button>
+                &nbsp;
+                <button type="reset" class="sj-tag-2">Clear</button>
+            </div>
+        </form>
+    </div>
+
+    <br/>
+    <div id="errorContainer"></div>
+</main>
+{#include adminFooter}
+{/include}
+<script type="text/javascript">
+    $(() => {
+        $('#roles').multiselect({
+            nonSelectedText: 'Select roles'
+        });
+    });
+
+    function onSave() {
+        const roles = [];
+        const _roles = $("#roles").val();
+        for(let i=0; i<_roles; i++) {
+            roles.push({ roleId: _roles[i] });
+        }
+        const user = {
+            firstName: $("#firstName").val(),
+            lastName: $("#lastName").val(),
+            username: $("#username").val(),
+            password: $("#password").val(),
+            email: $("#email").val(),
+            roles: roles
+        }
+        cs.RestCalls.save(
+            'persons',
+            user,
+            {
+                onSuccess: (data) => cs.navigate('admin/users')
+            },
+            'errorContainer'
+        );
+    }
+
+</script>
+</body>
+</html>

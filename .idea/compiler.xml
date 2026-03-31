@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-keycloak" />
+        <module name="movie" />
+        <module name="SUSTech-SQL-Project2" />
+        <module name="java-solutions" />
+        <module name="access-logs-demo" />
+        <module name="graylog-spring" />
+        <module name="quest" />
+        <module name="sonar-cloudformation-plugin" />
+        <module name="multi-tenant" />
+        <module name="bolt-java-starter-template" />
+        <module name="dietary" />
+        <module name="kex-annotation-processor" />
+        <module name="prestosql-hbase-338-ops" />
+        <module name="kex-runner" />
+        <module name="graphql-client" />
+        <module name="data-stream-vectorization" />
+        <module name="xml-doclet" />
+        <module name="properties-maven-plugin" />
+        <module name="spring-boot-ecommerce" />
+        <module name="controller-testing" />
+        <module name="javafixture" />
+        <module name="cc-webgraph" />
+        <module name="spring-boot-hibernate-search" />
+        <module name="SpringMvcSpringDataSpringRest" />
+        <module name="hexagonal" />
+        <module name="utg-student-dashboard" />
+        <module name="ERP" />
+        <module name="Open-Realm-of-Stars" />
+        <module name="kex-test" />
+        <module name="Online-Job-Portal" />
+        <module name="zowe-client-java-sdk" />
+        <module name="pdfgenerator" />
+        <module name="kex-core" />
+        <module name="symphony" />
+        <module name="gatcha" />
+        <module name="reactor-flow" />
+        <module name="kex-executor" />
+        <module name="filmorate" />
+        <module name="project-tracking-system-backend-app" />
+        <module name="InnovaMVC" />
+        <module name="love-backend" />
+        <module name="titanium-json-ld" />
+        <module name="fsedistributionservice" />
+        <module name="sf-wkb" />
+        <module name="cdk-constructs" />
+        <module name="fhir-owl" />
+        <module name="javasqlweb" />
+        <module name="pokeapi-reactor" />
+        <module name="Chip36" />
+        <module name="netbeans-markdown" />
+        <module name="dropwizard-prometheus" />
+        <module name="kex-ksmt" />
+        <module name="springboot-drools-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ERP" options="-parameters" />
+      <module name="InnovaMVC" options="-parameters" />
+      <module name="Online-Job-Portal" options="-parameters" />
+      <module name="SpringMvcSpringDataSpringRest" options="-parameters" />
+      <module name="access-logs-demo" options="-parameters" />
+      <module name="controller-testing" options="-parameters" />
+      <module name="dietary" options="-parameters" />
+      <module name="fhir-owl" options="-parameters -Xlint" />
+      <module name="filmorate" options="-parameters" />
+      <module name="fsedistributionservice" options="-parameters" />
+      <module name="gatcha" options="-parameters" />
+      <module name="graphql-client" options="-parameters" />
+      <module name="graylog-spring" options="-parameters" />
+      <module name="hexagonal" options="-parameters" />
+      <module name="javasqlweb" options="-parameters" />
+      <module name="love-backend" options="-parameters" />
+      <module name="movie" options="-parameters" />
+      <module name="multi-tenant" options="-parameters" />
+      <module name="pdfgenerator" options="-parameters" />
+      <module name="pokeapi-reactor" options="-parameters" />
+      <module name="project-tracking-system-backend-app" options="-parameters" />
+      <module name="properties-maven-plugin" options="-Xlint:all -O" />
+      <module name="quest" options="-parameters" />
+      <module name="spring-boot-ecommerce" options="-parameters" />
+      <module name="spring-boot-hibernate-search" options="-parameters" />
+      <module name="spring-boot-keycloak" options="-parameters" />
+      <module name="springboot-drools-demo" options="-parameters" />
+      <module name="zowe-client-java-sdk" options="-Xlint:unchecked" />
+    </option>
+  </component>
+</project>

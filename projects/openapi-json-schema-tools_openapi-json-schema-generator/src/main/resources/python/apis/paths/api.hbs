@@ -1,0 +1,15 @@
+# coding: utf-8
+
+{{> _helper_header }}
+
+{{#each pathItem.operations}}
+from {{packageName}}.paths.{{path.snakeCase}}.{{@key.original}}.operation import ApiFor{{@key.pascalCase}}
+{{/each}}
+
+
+class {{path.pascalCase}}(
+{{#each pathItem.operations}}
+    ApiFor{{@key.pascalCase}},
+{{/each}}
+):
+    pass

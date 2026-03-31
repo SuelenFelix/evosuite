@@ -1,0 +1,201 @@
+BidirectionalDijkstra - problema cu indexOf - in compute (mmeting)
+
+give a real world, practical example, that involves computing the Capacitated minimum spanning tree  (CMST) of a graph
+Enumerating all cycles in a graph/digraph (cycle/1975-johnson)
+
+------------------------------------------------------------
+Maximum (Weighted) Independent Set / Clique / Vertex Cover
+------------------------------------------------------------
+Boppana, R., & Halldórsson, M. M. (1992). Approximating maximum independent sets by excluding subgraphs. BIT Numerical Mathematics, 32(2), 180–196. Springer.
+https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.approximation.clique.maximum_independent_set.html
+
+Bar-Yehuda, R., and Even, S. (1985). “A local-ratio theorem for approximating the weighted vertex cover problem.” Annals of Discrete Mathematics, 25, 27–46 
+http://www.cs.technion.ac.il/~reuven/PDF/vc_lr.pdf
+
+Clarkson, Kenneth L. "A modification of the greedy algorithm for vertex cover." Information Processing Letters 16.1 (1983): 23-25.
+https://www.sciencedirect.com/science/article/pii/0020019083900078?via%3Dihub
+
+Algorithms for the maximum weight clique problems
+https://da.lib.kobe-u.ac.jp/da/kernel/D1007301/D1007301.pdf
+
+https://jgrapht.org/javadoc-SNAPSHOT/org.jgrapht.core/org/jgrapht/alg/vertexcover/package-summary.html
+https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.approximation.vertex_cover.min_weighted_vertex_cover.html
+
+
+------------------------------------------------------------
+Planarity
+------------------------------------------------------------
+https://cs.brown.edu/people/rtamassi/gdhandbook/
+https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.planarity.check_planarity.html
+https://jgrapht.org/javadoc-SNAPSHOT/org.jgrapht.core/org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector.html
+
+
+------------------------------------------------------------
+Spanning
+------------------------------------------------------------
+Capacitated minimum spanning tree algorithms (CMST)
+https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/spanning/AhujaOrlinSharmaCapacitatedMinimumSpanningTree.html
+https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/spanning/EsauWilliamsCapacitatedMinimumSpanningTree.html
+
+Iterator over all spanning trees of a graph in either increasing or decreasing cost.
+https://www.scielo.br/j/pope/a/XHswBwRwJyrfL88dmMwYNWp/?format=pdf&lang=en
+https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.SpanningTreeIterator.html
+
+
+
+------------------------------------------------------------
+Spanner
+------------------------------------------------------------
+https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/spanning/GreedyMultiplicativeSpanner.html
+
+Parallel Prim
+https://en.wikipedia.org/wiki/Prim%27s_algorithm
+
+
+
+-------------------------------------------------------
+3-coloring
+Wigderson’S Algorithm https://iq.opengenus.org/wigderson-algorithm/
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+Connectivity
+------------------------------------------------------------
+Karger's Algorithm
+https://en.wikipedia.org/wiki/Karger%27s_algorithm
+
+Edge/Vertex [min]cut iterators
+Gusfield-Gomory-Hu cut-tree / flow-tree
+https://github.com/jgrapht/jgrapht/blob/master/jgrapht-core/src/main/java/org/jgrapht/alg/flow/GusfieldGomoryHuCutTree.java
+https://github.com/jgrapht/jgrapht/blob/master/jgrapht-core/src/main/java/org/jgrapht/alg/flow/GusfieldEquivalentFlowTree.java
+
+k-vertex-connected
+https://en.wikipedia.org/wiki/K-vertex-connected_graph
+
+------------------------------------------------------------
+Shortest Paths:
+------------------------------------------------------------
+	
+Finding the k-shortest path between two nodes
+	https://cs.stackexchange.com/questions/18849/finding-the-k-shortest-path-between-two-nodes
+	https://en.wikipedia.org/wiki/K_shortest_path_routing
+
+Finding and listing induced paths and cycles: https://www.sciencedirect.com/science/article/pii/S0166218X12000327
+Finding an induced path that is not a shortest path: https://web.math.princeton.edu/~pds/papers/shortestpath/paper.pdf
+
+------------------------------------------------------------
+Assignment Problem
+------------------------------------------------------------
+Succesive shortest path algorithm
+https://github.com/kevin-wayne/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/AssignmentProblem.java
+
+Hungarian algorithm ( Kuhn Munkres Minimal Weight Bipartite Perfect Matching)
+https://github.com/jgrapht/jgrapht/blob/master/jgrapht-core/src/main/java/org/jgrapht/alg/matching/KuhnMunkresMinimalWeightBipartitePerfectMatching.java
+https://github.com/KevinStern/software-and-algorithms/blob/master/src/main/java/blogspot/software_and_algorithms/stern_library/optimization/HungarianAlgorithm.java
+
+Jonker-Volgenant Algorithm for Linear Assignment Problem
+R. Jonker and A. Volgenant, "A shortest augmenting path algorithm for dense and spare linear assignment problems"
+https://link.springer.com/article/10.1007/bf02278710
+https://github.com/yongyanghz/LAPJV-algorithm-c/blob/master/LAPJV/lap.cpp
+https://www.mathworks.com/matlabcentral/fileexchange/26836-lapjv-jonker-volgenant-algorithm-for-linear-assignment-problem-v3-0
+
+
+------------------------------------------------------------
+PageRank
+------------------------------------------------------------
+https://en.wikipedia.org/wiki/PageRank
+http://infolab.stanford.edu/~backrub/google.html
+https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/scoring/PageRank.html
+
+------------------------------------------------------------
+Scoring algorithms
+------------------------------------------------------------
+https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/scoring/package-summary.html
+
+
+------------------------------------------------------------
+Min-Cut
+------------------------------------------------------------
+Stoer-Wagner DONE
+https://github.com/kevin-wayne/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/GlobalMincut.java
+https://github.com/jgrapht/jgrapht/blob/master/jgrapht-core/src/main/java/org/jgrapht/alg/StoerWagnerMinimumCut.java
+
+Nagamochi-Ibaraki Algorithm?
+
+
+Coloring
+Welsh Powell Graph colouring Algorithm
+https://graphstream-project.org/doc/Algorithms/Welsh-Powell/
+
+
+A Bloom filter is a space-efficient probabilistic data structure, that is used to test whether an element is a member of a set.
+https://en.m.wikipedia.org/wiki/Bloom_filter
+
+Package .ordering
+vertex orderings: maximal neighborhood search (?), degeneracy (?)
+
+------------------------------------------------------------
+Generaratoare de grafuri
+------------------------------------------------------------
+- care au o anumita secventa (di)grafica folosind fluxuri
+Graph/Digraph/Bipartite realization problem
+DegreeSequenceGraphGenerator
+Havel-Hakimi
+https://networkx.org/documentation/stable/reference/generated/networkx.generators.degree_seq.random_degree_sequence_graph.html
+
+
+Classes of graphs
+Interval
+Indifference
+Unit-disk
+Permutation
+Cograph
+Split
+Threshhold
+Circle, Circular-arc
+String
+Intersection
+Perfect
+Trivially perfect
+Planar
+Caterpillar tree
+Chemical graph generator
+Ptolemaic
+Distance-hereditary
+
+K-Nearest Neighbor Graph (K-NNG)
+Efficient k-nearest neighbor graph construction for generic similarity measures.
+
+
+Uniform Cost Search
+Dynamic Connected Components (using Disjoint Sets)
+Reverse Cuthill Mckee Ordering
+Smallest Last Vertex Ordering
+Sequential Vertex Coloring
+
+
+
+    //graph
+    //vertices=4n, degree=4n, adjList=4n+2*4m, adjPos=4n+2*4m 
+    //vertexWeight=8n, edgeWeight=4n+2*8m
+    //vertexLabel=4n, edgeLabel=4n+2*4m
+    //
+    //vertexIndex=4n
+    //adjSet=n^2/64 ~ m
+    //labelVertexMap=4n + 16n
+    //labelEdgeMap=16m + 16m
+    //
+    //simple graph: 16n + 16m (adjPos true, adjSet false) OK    
+    //simple with fast adjacency test: 16n + 17m OK
+    //edge weighted graph: 20n + 32/33m  OK
+    //edge labeled graph: 20n + 24/25m OK
+    //vertex labeled graph:24n + 16m OK
+
+    //
+    //digraph
+    //vertices=4n, degree=4n, indegree=4n, adjList = 4n+4m, predList=4n+4m, predPos=4n + 4m
+    //vertexWeight=8n, edgeWeight=4n+8m
+    //vertexLabel=4n, edgeLabel=4n+4m
+    //simple digraph=24n + 12/13m OK
+    //simple weighted digraph=28n + 20/21m OK

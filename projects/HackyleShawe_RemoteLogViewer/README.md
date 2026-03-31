@@ -1,0 +1,614 @@
+**一款简单易用的远程日志查看器，可实时查看云服务器上的日志数据**
+
+**A SIMPLE and EFFECTIVE log viewer, which can load log data from a remote host log file in real time.**
+
+# 项目背景
+
+ **项目背景**
+
+- 场景1：在企业级开发中，公司的测试环境一般部署在某个远程的内网服务器上，我们想要查看该个测试环境的日志，就需要手动建立SSH，再执行日志查看命令，在终端查看日志
+
+- 场景2：我们自己写的小项目部署到云服务器上后，想要查看日志，也需要通过SSH连接到云服务器，通过执行文件查看命令，来看到日志信息
+
+ **在这个过程中：**
+
+1. 需要打开SSH客户端工具，例如MobaXterm、putty
+
+2. 连接到远程服务器：输入密码、用户名
+
+3. 手工键入日志文件查看命令：tail -f 日志文件路径
+
+4. 在Shell Terminal查看日志
+
+5.   存在问题：繁杂的重复操作，在Terminal上看得眼睛痛，不要根据关键字搜索日志，不好查看日志信息
+
+![](./img/bg01.png)
+
+> 以上是我司在内网测试环境，查看日志时的场景
+
+**那么，有没有办法把这一过程自动化呢？答案是肯定的。这便是本项目的设计初衷与目的！**
+
+# 功能特性
+
+**Features**
+
+- 实时日志：可**实时**抓取日志文件中**新产生**的日志数据
+- 历史日志
+  - 可查看该日志文件的**历史数据**
+  - 在整个日志文件中进行**搜索**
+- 对当前页面上的日志进行**关键字查询**，高亮显示
+- 支持打开**多个**的**前端页面**，**分别**抓取日志数据**渲染**到页面，多个页面之间互不影响，但只能抓取一个日志文件的数据
+- 可在YML配置文件中**自定义SSH**服务器地址和**日志文件**的位置
+
+**TODO**
+
+- 现阶段只**支持**获取文本文件中的日志数据，后续将可支持其他格式（例如**压缩文件**）的日志数据
+- 从Docker容器中捕获日志
+
+## 实时日志
+
+### 展示日志目标列表
+
+启动工具，进入首页，会展示所有已经配置了的日志抓取目标。点击Realtime Log，跳转到该个目标的实时日志查看页面。![](./img/feat-realtime-01.png)
+
+### 实时抓取
+
+点击“Start'即可开始**实时**抓取日志文件中**新产生**的日志数据
+
+![](./img/feat-realtime-04.png)
+
+**Start**：开始抓取日志文件中的历史记录，然后实时获取新产生的日志
+
+**Stop**：停止抓取
+
+**Clean**：清除当前页面上的所有日志数据，但不会断开连接，还是会实时地呈现后端推送过来的日志信息
+
+### 同时抓取
+
+支持打开**多个**的**前端页面**，**分别**抓取日志数据**渲染**到页面，但只能抓取一个日志文件的数据
+
+![](./img/feat-realtime-02.png)
+
+### 显示历史记录
+
+可查看该日志文件的**历史数据**
+
+![](./img/feat-realtime-03.png)
+
+
+
+### 页内搜索
+
+对当前页面上的日志数据进行**关键字查询**
+
+![](./img/feat-realtime-05.png)
+
+- 单击搜索框，将粘贴板上的数据复制到此个搜索框内
+- 双击搜索框，清除此个搜索框内的数据
+
+## 全文件搜索
+
+从首页进入全文件搜索页面
+
+![](./img/feat-search-01.png)
+
+**全文件搜索示例**
+
+![](./img/feat-search-02.png)
+
+
+
+# 本地运行
+
+**Step1：**https://github.com/HackyleShawe/RemoteLogViewer
+
+**Step2：克隆项目到本地，从IDEA中打开（需要JDK17），等待Maven自动配置完毕**
+
+**Step3：填写项目的配置文件（application.yml），log.targets**
+
+- 指定SSH的连接参数：host，port，username，password
+- 远程服务器上的日志所在位置：logPath
+
+**Step4：运行启动类**：RemoteLogViewerApp.java
+
+**Step5：** 进入Chrome，在地址栏输入：http://localhost:8989/ ，进入日志查看首页
+
+# 系统设计
+
+**前置知识**
+
+- SpringBoot
+- SSH（Secure Shell）
+- WebSocket
+- Web前端（HTML、CSS、JavaScript、jQuery）
+
+如果你对上述知识默认，那么这个章节你看起来可能比较吃力，但是如果你愿意一边看此项目，一边去了解相关的知识，那你一定可以掌握此项目的设计要领。
+
+
+
+**主要流程**
+
+1. 前端发起一个WebSocket连接到后端
+2. 连接建立成功后，后端通过SSH连接到远程服务器
+3. 执行日志文件查看命令：
+   - 实时日志：tail -1f 日志文件的绝对路径，例如：tail -1f /data/log/blog-consumer.log
+   - 历史日志查找：grep -E -i 关键词、正则 文件路径
+4. 从SSH连接会话中，获取到该个命令的执行结果，通过WebSocket推送到前端页面上
+5. 如果出现错误或被关闭，则释放WS和SSH会话
+
+**注意：在一个浏览器页面，点一次Start，开启一个WebSocket连接、一个SSH连接，当点击Stop时，关闭WebSocket连接、SSH连接。**
+
+**为什么不是一个浏览器页面，一个Websocket、SSH连接？**
+
+- 如果是这种情况，参数只能通过wbesocket的send()、handleTextMessage()方法传递
+- 第一次点击Start，会创建SSH连接，执行tail命令读取日志文件流，并保持流写出到WebSocket，
+- 第二次点击Start，会因为第一次点击的文件流没有关闭，导致第二次点击的SSH连接无法建立
+- 况且，一旦点击次数很多，那些开辟的SSH连接、tail命令的文件流累计起来，无法关闭！
+
+**缓存Websocket、SSH连接会话？**
+
+- 当前发起WebSocket连接到后端并成功后，在后端会缓存当次Websocket、SSH连接会话
+- 数据结构：HashMap<wsSessionId, Websocket、SSH连接会话>
+
+**既然每次点击“Start”都要建立一次WS、SSH会话连接，那为什么还要缓存?**
+
+- 页面上有一个“Stop”按钮，表示结束日志的抓取，意味着主动关闭本次WS连接
+- 那么在页面主动的关闭一个WS时，怎么找到该个WS会话呢
+- 所以在创建时就缓存下来
+
+
+
+ **如何定义WS的endpoint？对外暴露ws接口？**
+
+- 在YML中定义ws接口：endpoints: /ws/log/realtime,/ws/log/search
+- 在WS配置类（WebSocketConfig implements WebSocketConfigurer）注入
+
+**WS的参数怎么传递？**
+
+- 前端
+  - 拼接在WS的URL中
+  - 等待建立连接成功后在发送
+- 后端
+  - 从URL中获取：在拦截器WebSocketInterceptor捕获URL中的参数，放在WsSession的Attribute中，后续从该个attribute中get
+  - 从WS会话中获取：从会话处理器中的handleTextMessage中获取
+
+**WS连接什么时候释放？**
+
+- 出现错误或者连接被关闭时，handleTransportError，afterConnectionClosed
+- 前端发送主动关闭的信号时，通过个HTTP接口通知WS关闭
+
+**SSH连接什么时候释放？**在WS释放时
+
+**为什么不将日志目标的连接信息放置在MySQL数据库中？**
+
+- 适用于被查看的日志目标量不大、比较固定
+- 这是一款面向开发人员的工具，而非面向普通用户。开发人员肯定懂得如何在YML配置文件中定义连接信息。
+- 为了使得本工具更加的轻量化、便捷化，尽可能地减少依赖，因此不使用MySQL数据库。
+
+# 技术实现
+
+ **主要流程**
+
+1.   **前端发起**一个WebSocket连接到后端
+2.   连接建立成功后，**后端**通过**SSH连接到远程**服务器
+3.   执行**日志文件查看命令**：tail -1f 日志文件的绝对路径，例如：tail -1f /data/blog.hackyle.com/blog-business-logs/blog-business.log
+4.   **获取**到该个命令的执行**结果**，通过WebSocket**推送**到前端**页面**上
+
+**要点：**在一个浏览器页面，点一次Start，开启一个WebSocket连接、一个SSH连接，当点击Stop时，关闭WebSocket连接、SSH连接。
+
+**为什么不是一个浏览器页面，一个Websocket、SSH连接？**
+
+- 如果是这种情况，参数只能通过wbesocket的send()、handleTextMessage()方法传递
+- 第一次点击Start，会创建SSH连接，执行tail命令读取日志文件流，并保持流写出到WebSocket，
+- 第二次点击Start，会因为第一次点击的文件流没有关闭，导致第二次点击的SSH连接无法建立
+- 况且，一旦点击次数很多，那些开辟的SSH连接、tail命令的文件流累计起来，无法关闭！
+
+## 后端
+
+### 整合SSH
+
+**主要步骤**
+
+1.导入jsch的POM依赖
+
+2.在配置文件（application.yml）中定义SSH的连接参数
+
+3.写一个业务类，定义创建SSH会话、关闭会话的方法
+
+​    a)使用注解（使用@Value(“${jsch.host}”)）从配置文件中载入参数
+
+​	b)创建会话方法：Session buildConnect()
+
+​	c)关闭会话方法：void destroyConnect(Session sshSession)
+
+**application.yml中定义日志目标参数**
+
+```yaml
+log:
+  targets:
+    - code: A001 #需要唯一标识此条记录
+      host: 192.168.80.25 #SSH连接参数
+      port: 22
+      username: root
+      password: kyleshawe
+      # 远程服务器上的日志文件的绝对路径
+      # 例：/data/logs/app.log  #本质是执行命令"tail -10f /data/logs/app.log"，查看app.log文件的后10条记录
+      logPath: /data/log/blog-business.log
+    - code: A002
+      host: 192.168.80.25
+      port: 22
+      username: root
+      password: kyleshawe
+      logPath: /data/log/blog-consumer.log
+```
+
+**定义实体类去映射接收：** com/hackyle/log/viewer/pojo/LogTargetBean.java
+
+**注入到Spring容器：** com/hackyle/log/viewer/config/LogTargetConfiguration.java
+
+---
+
+**为什么不将日志目标的连接信息放置在MySQL数据库中？**
+
+- 适用于被查看的日志目标量不大、比较固定
+- 这是一款面向开发人员的工具，而非面向普通用户。开发人员肯定懂得如何在YML配置文件中定义连接信息。
+- 为了使得本工具更加的轻量化、便捷化，尽可能地减少依赖，因此不使用MySQL数据库。
+
+**SSH工具类：使用jsch工具模拟SSH客户端，与SSH服务端建立连接**
+
+- com/hackyle/log/viewer/util/JschUtils.java
+- Session **buildSshSession** (String host, int port, String username, String password) 构建并返回SSH连接会话
+- void **releaseSshSession** (Session sshSession) 释放一个SSH连接会话
+
+### 整合WebSocket Server
+
+**主要步骤**
+
+**1.导入WebSocket的starter依赖**
+
+**2.事件处理器：** 通过继承 TextWebSocketHandler 类并覆盖相应方法，可以对 websocket 的事件进行处理
+
+**3.WS握手（连接）拦截器**
+
+- 通过实现 HandshakeInterceptor 接口来定义握手拦截器，完全等价于SpringMVC中的拦截器
+
+- 最佳应用场景是：通过拦截器可以对ws请求进行认证
+
+**4.定义ws对前端暴露的API接口**
+
+- 通过实现 WebSocketConfigurer 类并覆盖相应的方法进行 websocket 的配置。
+
+- 我们主要覆盖 registerWebSocketHandlers 这个方法。
+
+- 通过向 WebSocketHandlerRegistry 设置不同参数来进行配置。其中 addHandler方法添加我们上面的写的 ws 的 handler 处理类，第二个参数是你暴露出的 ws 路径。
+
+- addInterceptors 添加我们写的握手过滤器。
+
+- setAllowedOrigins("*") 这个是关闭跨域校验，方便本地调试，线上推荐打开。
+
+#### 事件处理器
+
+**com.hackyle.log.viewer.ws.LogWebSocketHandler**
+
+- 定义WebSocket的一系列回调函数
+
+- 使用一个静态Map缓存当前所有已经建立了连接的会话
+
+**afterConnectionEstablished**方法：连接建立成功时调用
+
+- 创建WS会话
+- 接收前端传递的参数
+- 创建SSH连接会话
+- 根据前端传递的targetCode获取LogTargetBean
+- 缓存当前已经创建WebSocket的连接会话
+- 把WebSocket会话ID先发给前端，便于前端通过该会话ID关闭WebSocket连接
+- 调用日志获取服务，向前端推送日志数据
+
+ **afterConnectionClosed**方法：关闭连接后调用
+
+- 从缓存中移除该个已经创建了的WebSocket连接会话
+
+#### 握手拦截器
+
+**com.hackyle.log.viewer.ws.WebSocketInterceptor**
+
+- beforeHandshake：在握手前触发；afterHandshake：在握手后触发。
+
+- 功能与SpringMVC拦截器类似
+
+- 这里获取前端传递来的一些参数：要查看的是那个目标的日志、这次查看多少条日志
+
+#### 对外暴露ws接口
+
+ **com.hackyle.log.viewer.ws.WebSocketConfig**
+
+- 定义ws对外的访问接口
+- 将事件处理器、握手拦截器注入到WebSocketHandlerRegistry
+- 设置跨域访问
+
+
+
+### 实时日志数据获取与推送
+
+**com.hackyle.log.viewer.ws.LogWebSocketService**
+
+ **主要逻辑**
+
+1.   准备要执行的Shell命令：tail -1f 日志文件的绝对路径，例如：tail -1f /data/blog.hackyle.com/log-business-logs/blog-business.log
+
+2.   获取sshSession，创建一个执行Shell命令的Channel
+
+3.   从Channel中读取流，包装为字符流，一次读取一行日志数据
+
+4.   获取WebSocket Session，只要它没有被关闭，就将日志数据通过该Session推送出去
+
+```java
+private void sendRealtimeLogToWebSocketClient(WsSessionBean sessionDomain) throws Exception {
+    WebSocketSession wsSession = sessionDomain.getWebSocketSession();
+    Session sshSession = sessionDomain.getSshSession();
+
+    //String command = "ssh tpbbsc01 \"tail -" +count+ "f " +logPath+ "\""; //二级SSH跳板机在这里修改
+    String command = "tail -" +sessionDomain.getHistoryItems()+ "f " + sessionDomain.getLogTargetBean().getLogPath();
+    System.out.println("command: " + command);
+
+    //创建一个执行Shell命令的Channel
+    ChannelExec channelExec = (ChannelExec) sshSession.openChannel("exec");
+    channelExec.setCommand(command);
+    channelExec.connect();
+    InputStream inputStream = channelExec.getInputStream();
+
+    //包装为字符流，方便每次读取一行
+    BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+    String buf = "";
+    while ((buf = reader.readLine()) != null) {
+        if(wsSession.isOpen()) {
+            //往WebSocket中推送数据
+            wsSession.sendMessage(new TextMessage(buf));
+        }
+    }
+
+    //WebSocket、SSH Session的关闭，通过本类下的‘closeWebSocketServer’方法控制
+}
+```
+
+
+
+### 全文件搜索日志数据获取与推送
+
+**com.hackyle.log.viewer.ws.LogWebSocketService**
+
+ **主要逻辑**
+
+1.   准备要执行的Shell命令：grep [OPTION]... PATTERN 日志文件的绝对路径，例如：grep -i "登录入参" /data/blog.hackyle.com/log-business-logs/blog-business.log
+
+2.   获取sshSession，创建一个执行Shell命令的Channel
+
+3.   从Channel中读取流，包装为字符流，一次读取一行日志数据
+
+4.   获取WebSocket Session，只要它没有被关闭，就将日志数据通过该Session推送出去
+
+```java
+private void sendSearchLogToWebSocketClient(WsSessionBean sessionDomain) throws Exception {
+    WebSocketSession wsSession = sessionDomain.getWebSocketSession();
+    Session sshSession = sessionDomain.getSshSession();
+
+    String keywords = sessionDomain.getKeywords();
+    String[] ksArr = keywords.split("-");
+
+    String command = "";
+    if(ksArr.length == 1) { //只有一个关键字，直接搜索
+        //-E:支持正则，-i:忽略大小写
+        command = "grep -E -i \"" + keywords + "\" " + sessionDomain.getLogTargetBean().getLogPath();
+    } else { //多个关键字
+        String kws = String.join("|", ksArr);
+        command = "grep -E -i \"" + kws + "\" " + sessionDomain.getLogTargetBean().getLogPath();
+    }
+
+    System.out.println("command: " + command);
+
+    //创建一个执行Shell命令的Channel
+    ChannelExec channelExec = (ChannelExec) sshSession.openChannel("exec");
+    channelExec.setCommand(command);
+    channelExec.connect();
+    InputStream inputStream = channelExec.getInputStream();
+
+    //包装为字符流，方便每次读取一行
+    BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+    String buf = "";
+    while ((buf = reader.readLine()) != null) {
+        if(wsSession.isOpen()) {
+            //往WebSocket中推送数据
+            wsSession.sendMessage(new TextMessage(buf));
+        }
+
+    }
+}
+```
+
+
+
+## 前端
+
+### 整合WebSocket Client
+
+**WebSocket客户端**
+
+- 初始化实例对象，打开**WebSocket**：var ws = new WebSocket('ws://localhost:8989/ws/hello');
+
+- **ws.readyState**中枚举了不同的**状态**，可根据状态指定状态（ws的建立连接、发送消息、接收消息、关闭连接）的处理逻辑
+
+- **关闭WebSocket**：ws.close();
+
+![](./img/frontend01.png)
+
+> **src/main/resources/static/js/log-realtime.js**
+
+### 抓取控制
+
+![](./img/frontend02.png)
+
+Start：开始抓取日志文件中的历史记录，然后实时获取新产生的日志
+
+Stop：停止抓取
+
+Clean：清除当前页面上的所有日志数据，但不会断开连接，还是会实时地呈现后端推送过来的日志信息
+
+ 
+
+**为三个按钮分别添加一个Click事件，定义动作函数**
+
+Start：创建WebSocket实例，将后端发来的数据，不断追加到某个标签下
+
+Stop：前端手动关闭WebSocket，请求后端接口，关闭WebSocket Server
+
+![](./img/frontend03.png)
+
+> src/main/resources/static/js/log-realtime.js
+
+### 页内关键字搜索
+
+在本个页面内，进行关键字搜索。本质是模拟浏览器的Ctrl+F，进行HTML内容搜索
+
+![](./img/frontend04.png)
+
+**调用window.find()方法**
+
+- 官方文档：https://developer.mozilla.org/zh-CN/docs/Web/API/Window/find
+
+- API：window.find(aString, aCaseSensitive, aBackwards, aWrapAround, aWholeWord, aSearchInFrames, -ShowDialog);
+
+- 参数释义
+
+	- aString：将要搜索的字符串
+
+	- aCaseSensitive：布尔值，如果为true,表示搜索是区分大小写的。
+
+	- aBackwards：布尔值。如果为true, 表示搜索方向为向上搜索。
+
+	- aWrapAround：布尔值。如果为true, 表示为循环搜索。
+
+### 快速粘贴
+
+ **单击搜索框，将粘贴板上的数据复制到此个搜索框内**
+
+- 获取到该个搜索框
+
+- 调用document.execCommand(“copy”)，把粘贴板上的数据写入
+
+ 
+
+**使用第三方库clipboard接管粘贴板**
+
+```javascript
+/**
+ * 复制内容到剪贴板
+ * Notice：需要导入clipboard.min.js
+ * @param content 要复制的内容
+ */
+function copyHandle(content){
+    let copy = (e)=>{
+        e.preventDefault()
+        e.clipboardData.setData('text/plain',content)
+        // alert('复制成功')
+        document.removeEventListener('copy',copy)
+    }
+    document.addEventListener('copy',copy)
+    document.execCommand("Copy");
+}
+```
+
+**双击搜索框，清除此个搜索框内的数据**
+
+- 添加一个双击事件
+
+- 清除元素内的值
+
+ 
+
+## 手动关闭WS连接
+
+**背景**
+
+- 如果直接在Client端直接关闭，在Server端会抛异常（Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。）
+
+- 所以，后端设计一个接口，当要关闭某个WebSocket连接时，请求该个接口，并携带上WebSocket的SessionId
+
+ 
+
+**设计思想**
+
+1.   在前后端**建立连接**时，后端就把**sessionId**放入**缓存**，并响应**给前端**
+
+2.   **前端**得到sessionId，将其放在**sessionStorage**中，目的是使得该个id仅在本页面内有效
+
+3.   **前端**在请求关闭接口时，**携带**上该个**id**
+
+4.   **后端移除**该个id的**缓存**，并**关闭**所有**会话**信息
+
+ 
+
+### 后端
+
+接收前端请求：com/hackyle/log/viewer/controller/LogController.java
+
+```java
+/**
+  * 提供一个普通接口，强制关闭WebSocketServer端
+  */
+@RequestMapping("/log/stop")
+@ResponseBody
+public String stopWebSocket(@RequestParam("sid") String sid) {
+    if(null == sid || "".equals(sid.trim())) {
+        return "SessionID缺失";
+    }
+
+    return logService.closeWebSocketServer(sid) ? "WebSocketServer关闭成功" : "WebSocketServer关闭失败";
+}
+```
+
+实现：com.hackyle.log.viewer.service.impl.LogServiceImpl.java#closeWebSocketServer
+
+### 前端
+
+存入sessionStorage：src/main/resources/static/js/log-realtime.js
+
+![](./img/frontend05.png)
+
+**关闭WebSocket连接时，携带sessionId**：src/main/resources/static/js/index.js
+
+![](./img/frontend06.png)
+
+# 打成Jar运行
+
+ **背景**
+
+1. 每次需要查看日志时，都需要打开IDE环境，也挺麻烦的
+
+2. 解决办法是将本项目打成Jar，一键启动
+
+ 
+
+**Step1**：在POM.xml中添加打包插件
+
+![](./img/jar01.png)
+
+**Step2**：执行打包命令
+
+![](./img/jar02.png)
+
+**Step3**：将Jar放在合适的位置
+
+![](./img/jar03.png)
+
+**Step4**：写个启动脚本。本项目基于JDK17，建议手动设置临时的JDK环境变量，再启动Jar
+
+```bash
+# Windows操作系统批处理脚本，文件拓展名为：.cmd
+set JAVA_HOME=D:\ProgramFilesKS\Java\JDK17
+set path=%JAVA_HOME%\bin;%path%
+
+java -jar D:\D-Project\DevelopTools\remote-log-viewer.jar
+
+pause
+```
+

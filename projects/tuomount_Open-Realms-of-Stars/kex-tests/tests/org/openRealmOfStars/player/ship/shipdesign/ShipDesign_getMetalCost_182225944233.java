@@ -1,0 +1,212 @@
+package org.openRealmOfStars.player.ship.shipdesign;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.player.ship.shipdesign.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.String;
+import java.util.ArrayList;
+
+public class ShipDesign_getMetalCost_182225944233 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term119311;
+
+    public ShipDesign_getMetalCost_182225944233() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term119595 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipHullType");
+        Field term119594 = ((Class) term119595).getDeclaredField((String) "FREIGHTER");
+        ((Field) term119594).setAccessible(true);
+        Object enum380 = ((Field) term119594).get((Object) null);
+        Class<? extends Object> term119854 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipSize");
+        Field term119853 = ((Class) term119854).getDeclaredField((String) "MINOR");
+        ((Field) term119853).setAccessible(true);
+        Object enum381 = ((Field) term119853).get((Object) null);
+        Class<? extends Object> term120111 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.Attitude");
+        Field term120110 = ((Class) term120111).getDeclaredField((String) "EXPANSIONIST");
+        ((Field) term120110).setAccessible(true);
+        Object enum382 = ((Field) term120110).get((Object) null);
+        Class<? extends Object> term120414 = Class.forName((String) "org.openRealmOfStars.player.race.SocialSystem");
+        Field term120413 = ((Class) term120414).getDeclaredField((String) "PATRIARCHY");
+        ((Field) term120413).setAccessible(true);
+        Object enum383 = ((Field) term120413).get((Object) null);
+        ArrayList term119445 = new ArrayList();
+        ((ArrayList) term119445).add((Object)null);
+        ((ArrayList) term119445).add((Object)null);
+        ((ArrayList) term119445).add((Object)null);
+        Class<? extends Object> term120686 = Class.forName((String) "org.openRealmOfStars.ambient.BridgeCommandType");
+        Field term120685 = ((Class) term120686).getDeclaredField((String) "DARK_RED");
+        ((Field) term120685).setAccessible(true);
+        Object enum384 = ((Field) term120685).get((Object) null);
+        ArrayList term119470 = new ArrayList();
+        Class<? extends Object> term120947 = Class.forName((String) "org.openRealmOfStars.player.leader.NameGeneratorType");
+        Field term120946 = ((Class) term120947).getDeclaredField((String) "SCIFI_HUMAN");
+        ((Field) term120946).setAccessible(true);
+        Object enum385 = ((Field) term120946).get((Object) null);
+        Class<? extends Object> term121257 = Class.forName((String) "org.openRealmOfStars.player.race.SpaceRaceType");
+        Field term121256 = ((Class) term121257).getDeclaredField((String) "REGULAR");
+        ((Field) term121256).setAccessible(true);
+        Object enum386 = ((Field) term121256).get((Object) null);
+        Class<? extends Object> term121515 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipComponentType");
+        Field term121514 = ((Class) term121515).getDeclaredField((String) "STARBASE_COMPONENT");
+        ((Field) term121514).setAccessible(true);
+        Object enum387 = ((Field) term121514).get((Object) null);
+        Object term119494 = newInstance(Class.forName("org.openRealmOfStars.player.ship.ShipComponent"));
+        setIntField(term119494, term119494.getClass(), "index", -158694757);
+        setField(term119494, term119494.getClass(), "type", enum387);
+        setIntField(term119494, term119494.getClass(), "cost", -1855067606);
+        setIntField(term119494, term119494.getClass(), "metalCost", -433967657);
+        setField(term119494, term119494.getClass(), "name", "");
+        setIntField(term119494, term119494.getClass(), "energyRequirement", 1411661019);
+        setIntField(term119494, term119494.getClass(), "energyResource", 1020857327);
+        setIntField(term119494, term119494.getClass(), "ftlSpeed", 587603547);
+        setIntField(term119494, term119494.getClass(), "speed", -1049371381);
+        setIntField(term119494, term119494.getClass(), "tacticSpeed", -331201186);
+        setIntField(term119494, term119494.getClass(), "scannerRange", 406731696);
+        setIntField(term119494, term119494.getClass(), "cloakDetection", 690233885);
+        setIntField(term119494, term119494.getClass(), "cloaking", -1482271539);
+        setIntField(term119494, term119494.getClass(), "defenseValue", 52686140);
+        setIntField(term119494, term119494.getClass(), "baySize", -352835881);
+        setIntField(term119494, term119494.getClass(), "damage", 2119021005);
+        setIntField(term119494, term119494.getClass(), "weaponRange", 1361925101);
+        setIntField(term119494, term119494.getClass(), "initiativeBoost", -1702583840);
+        setIntField(term119494, term119494.getClass(), "cultureBonus", -1496594860);
+        setIntField(term119494, term119494.getClass(), "creditBonus", -1754638525);
+        setIntField(term119494, term119494.getClass(), "researchBonus", -1058018356);
+        setIntField(term119494, term119494.getClass(), "espionageBonus", -618930598);
+        setIntField(term119494, term119494.getClass(), "fleetCapacityBonus", -1912835189);
+        setIntField(term119494, term119494.getClass(), "hitBonus", 1508089655);
+        Class<? extends Object> term121826 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipComponentType");
+        Field term121825 = ((Class) term121826).getDeclaredField((String) "ORBITAL_NUKE");
+        ((Field) term121825).setAccessible(true);
+        Object enum388 = ((Field) term121825).get((Object) null);
+        Object term119520 = newInstance(Class.forName("org.openRealmOfStars.player.ship.ShipComponent"));
+        setIntField(term119520, term119520.getClass(), "index", 1344738281);
+        setField(term119520, term119520.getClass(), "type", enum388);
+        setIntField(term119520, term119520.getClass(), "cost", 2137586016);
+        setIntField(term119520, term119520.getClass(), "metalCost", 718944255);
+        setField(term119520, term119520.getClass(), "name", "");
+        setIntField(term119520, term119520.getClass(), "energyRequirement", -255278880);
+        setIntField(term119520, term119520.getClass(), "energyResource", 978936508);
+        setIntField(term119520, term119520.getClass(), "ftlSpeed", -782282859);
+        setIntField(term119520, term119520.getClass(), "speed", -289872820);
+        setIntField(term119520, term119520.getClass(), "tacticSpeed", 999463901);
+        setIntField(term119520, term119520.getClass(), "scannerRange", -1558642750);
+        setIntField(term119520, term119520.getClass(), "cloakDetection", 1177832973);
+        setIntField(term119520, term119520.getClass(), "cloaking", -808639910);
+        setIntField(term119520, term119520.getClass(), "defenseValue", -2087767976);
+        setIntField(term119520, term119520.getClass(), "baySize", 1541808857);
+        setIntField(term119520, term119520.getClass(), "damage", 2007310608);
+        setIntField(term119520, term119520.getClass(), "weaponRange", 462157519);
+        setIntField(term119520, term119520.getClass(), "initiativeBoost", -875956888);
+        setIntField(term119520, term119520.getClass(), "cultureBonus", 65647821);
+        setIntField(term119520, term119520.getClass(), "creditBonus", -1289614562);
+        setIntField(term119520, term119520.getClass(), "researchBonus", 201090501);
+        setIntField(term119520, term119520.getClass(), "espionageBonus", -1397182025);
+        setIntField(term119520, term119520.getClass(), "fleetCapacityBonus", -899619534);
+        setIntField(term119520, term119520.getClass(), "hitBonus", 1638508595);
+        Class<? extends Object> term122119 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipComponentType");
+        Field term122118 = ((Class) term122119).getDeclaredField((String) "FIGHTER_BAY");
+        ((Field) term122118).setAccessible(true);
+        Object enum389 = ((Field) term122118).get((Object) null);
+        Object term119546 = newInstance(Class.forName("org.openRealmOfStars.player.ship.ShipComponent"));
+        setIntField(term119546, term119546.getClass(), "index", -114151747);
+        setField(term119546, term119546.getClass(), "type", enum389);
+        setIntField(term119546, term119546.getClass(), "cost", -2025145756);
+        setIntField(term119546, term119546.getClass(), "metalCost", -1865692813);
+        setField(term119546, term119546.getClass(), "name", "");
+        setIntField(term119546, term119546.getClass(), "energyRequirement", 1996398924);
+        setIntField(term119546, term119546.getClass(), "energyResource", -400305198);
+        setIntField(term119546, term119546.getClass(), "ftlSpeed", 1551023146);
+        setIntField(term119546, term119546.getClass(), "speed", 545151275);
+        setIntField(term119546, term119546.getClass(), "tacticSpeed", -125397975);
+        setIntField(term119546, term119546.getClass(), "scannerRange", -595763151);
+        setIntField(term119546, term119546.getClass(), "cloakDetection", -1927187775);
+        setIntField(term119546, term119546.getClass(), "cloaking", -246129741);
+        setIntField(term119546, term119546.getClass(), "defenseValue", -1681312941);
+        setIntField(term119546, term119546.getClass(), "baySize", -2026593848);
+        setIntField(term119546, term119546.getClass(), "damage", -1523977596);
+        setIntField(term119546, term119546.getClass(), "weaponRange", -1036117253);
+        setIntField(term119546, term119546.getClass(), "initiativeBoost", -697114016);
+        setIntField(term119546, term119546.getClass(), "cultureBonus", 1991952957);
+        setIntField(term119546, term119546.getClass(), "creditBonus", 1877895251);
+        setIntField(term119546, term119546.getClass(), "researchBonus", 962916253);
+        setIntField(term119546, term119546.getClass(), "espionageBonus", 1580094069);
+        setIntField(term119546, term119546.getClass(), "fleetCapacityBonus", -890066143);
+        setIntField(term119546, term119546.getClass(), "hitBonus", 1782477754);
+        ArrayList term119492 = new ArrayList();
+        ((ArrayList) term119492).add(term119494);
+        ((ArrayList) term119492).add(term119520);
+        ((ArrayList) term119492).add(term119546);
+        term119311 = newInstance(Class.forName("org.openRealmOfStars.player.ship.shipdesign.ShipDesign"));
+        Object term119324 = newInstance(Class.forName("org.openRealmOfStars.player.ship.ShipHull"));
+        Object term119366 = newInstance(Class.forName("org.openRealmOfStars.player.race.SpaceRace"));
+        Object term119464 = newInstance(Class.forName("org.openRealmOfStars.audio.music.MusicFileInfo"));
+        setField(term119311, term119311.getClass(), "name", "dKoYnXLGEI");
+        setIntField(term119324, term119324.getClass(), "index", 665125325);
+        setField(term119324, term119324.getClass(), "name", "MQvSpklpkB");
+        setIntField(term119324, term119324.getClass(), "maxSlot", -1180829225);
+        setIntField(term119324, term119324.getClass(), "slotHull", -19961314);
+        setField(term119324, term119324.getClass(), "hullType", enum380);
+        setField(term119324, term119324.getClass(), "size", enum381);
+        setIntField(term119324, term119324.getClass(), "cost", 903876999);
+        setIntField(term119324, term119324.getClass(), "metalCost", -20697214);
+        setIntField(term119324, term119324.getClass(), "imageIndex", -374105961);
+        setDoubleField(term119324, term119324.getClass(), "fleetCapacity", 0.6300849762307866);
+        setField(term119366, term119366.getClass(), "id", "SbTxRdDQQc");
+        setField(term119366, term119366.getClass(), "name", "MrVdoUYAdO");
+        setField(term119366, term119366.getClass(), "nameSingle", "schPUnVfDW");
+        setField(term119366, term119366.getClass(), "attitude", enum382);
+        setField(term119366, term119366.getClass(), "imagePath", "CpdMEgjUka");
+        setField(term119366, term119366.getClass(), "bridgeId", "WRisHdgnmm");
+        setField(term119366, term119366.getClass(), "spaceShipId", "XxZiwWPLOx");
+        setField(term119366, term119366.getClass(), "socialSystem", enum383);
+        setField(term119366, term119366.getClass(), "genderList", term119445);
+        setField(term119366, term119366.getClass(), "speechSetId", "nyqsjMHTba");
+        setField(term119366, term119366.getClass(), "bridgeEffect", enum384);
+        setField(term119464, term119464.getClass(), "songName", "");
+        setField(term119464, term119464.getClass(), "author", "");
+        setField(term119464, term119464.getClass(), "fileName", "");
+        setBooleanField(term119464, term119464.getClass(), "custom", true);
+        setIntField(term119464, term119464.getClass(), "fadingLimit", -198328789);
+        setField(term119366, term119366.getClass(), "diplomacyMusic", term119464);
+        setField(term119366, term119366.getClass(), "traits", term119470);
+        setField(term119366, term119366.getClass(), "leaderNameGenerator", enum385);
+        setField(term119366, term119366.getClass(), "description", "dIQWOeKQVj");
+        setField(term119366, term119366.getClass(), "spaceRaceType", enum386);
+        setField(term119324, term119324.getClass(), "originalBuilder", term119366);
+        setField(term119311, term119311.getClass(), "hull", term119324);
+        setField(term119311, term119311.getClass(), "components", term119492);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.player.ship.shipdesign.ShipDesign");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getMetalCost", argTypes, term119311, args);
+    }
+
+};
+
+

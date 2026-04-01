@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jvms-compare</groupId>
@@ -61,7 +58,7 @@
                 </executions>
             </plugin>
 
-        </plugins>
+        <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
     </build>
 
     <dependencies>
@@ -129,7 +126,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.IntListFilter</argument>
                                         <argument>${execution.name}IntListFilter</argument>
                                     </arguments>
@@ -146,7 +143,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.IntListSum</argument>
                                         <argument>${execution.name}IntListSum</argument>
                                     </arguments>
@@ -163,7 +160,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.IntListTransform</argument>
                                         <argument>${execution.name}IntListTransform</argument>
                                     </arguments>
@@ -195,7 +192,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonFilterOnly</argument>
                                         <argument>${execution.name}PersonFilter</argument>
                                     </arguments>
@@ -212,7 +209,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonFilterAndGroup</argument>
                                         <argument>${execution.name}PersonFilterAndGroup</argument>
                                     </arguments>
@@ -229,7 +226,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonIntSummaryStats</argument>
                                         <argument>${execution.name}PersonIntSummaryStats</argument>
                                     </arguments>
@@ -246,7 +243,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonCombinedSummaryStats</argument>
                                         <argument>${execution.name}PersonCombinedSummaryStats</argument>
                                     </arguments>
@@ -574,7 +571,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>
                                             jvmscompare.benchmark.IntListFilter
                                         </argument>
@@ -596,7 +593,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>
                                             jvmscompare.benchmark.IntListSum
                                         </argument>
@@ -618,7 +615,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>
                                             jvmscompare.benchmark.IntListTransform
                                         </argument>
@@ -640,7 +637,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonFilterOnly</argument>
                                         <argument>${execution.name}PersonFilter</argument>
                                     </arguments>
@@ -660,7 +657,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonFilterAndGroup</argument>
                                         <argument>${execution.name}PersonFilterAndGroup</argument>
                                     </arguments>
@@ -680,7 +677,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonIntSummaryStats</argument>
                                         <argument>${execution.name}PersonIntSummaryStats</argument>
                                     </arguments>
@@ -700,7 +697,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonCombinedSummaryStats</argument>
                                         <argument>${execution.name}PersonCombinedSummaryStats</argument>
                                     </arguments>
@@ -774,7 +771,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>
                                             jvmscompare.benchmark.IntListFilter
                                         </argument>
@@ -795,7 +792,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>
                                             jvmscompare.benchmark.IntListSum
                                         </argument>
@@ -816,7 +813,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>
                                             jvmscompare.benchmark.IntListTransform
                                         </argument>
@@ -837,7 +834,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonFilterOnly</argument>
                                         <argument>${execution.name}PersonFilter</argument>
                                     </arguments>
@@ -856,7 +853,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonFilterAndGroup</argument>
                                         <argument>${execution.name}PersonFilterAndGroup</argument>
                                     </arguments>
@@ -875,7 +872,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonIntSummaryStats</argument>
                                         <argument>${execution.name}PersonIntSummaryStats</argument>
                                     </arguments>
@@ -894,7 +891,7 @@
                                         <argument>-Xms1024m</argument>
                                         <argument>-Xmx1024m</argument>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.benchmark.PersonCombinedSummaryStats</argument>
                                         <argument>${execution.name}PersonCombinedSummaryStats</argument>
                                     </arguments>
@@ -907,7 +904,7 @@
         </profile>
 
 
-        <!-- tester profile -->
+        
         <profile>
             <id>JavaInformation</id>
             <build>
@@ -926,7 +923,7 @@
                                     <executable>java</executable>
                                     <arguments>
                                         <argument>-classpath</argument>
-                                        <classpath/>
+                                        <classpath />
                                         <argument>jvmscompare.JavaInformation</argument>
                                     </arguments>
                                 </configuration>

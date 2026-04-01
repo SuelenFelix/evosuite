@@ -1,0 +1,215 @@
+package org.openRealmOfStars.player.fleet;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.player.fleet.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+
+public class FleetList_add_19133211565 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term2232412;
+     Object term2232418;
+
+    public FleetList_add_19133211565() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        ArrayList term2232413 = new ArrayList();
+        term2232412 = newInstance(Class.forName("org.openRealmOfStars.player.fleet.FleetList"));
+        setField(term2232412, term2232412.getClass(), "fleetList", term2232413);
+        setIntField(term2232412, term2232412.getClass(), "index", -1);
+        ArrayList term2232430 = new ArrayList();
+        ((ArrayList) term2232430).add((Object)null);
+        ((ArrayList) term2232430).add((Object)null);
+        ((ArrayList) term2232430).add((Object)null);
+        ((ArrayList) term2232430).add((Object)null);
+        ((ArrayList) term2232430).add((Object)null);
+        Object term2232421 = newInstance(Class.forName("org.openRealmOfStars.player.ship.Ship"));
+        Object term2232422 = newInstance(Class.forName("org.openRealmOfStars.player.ship.ShipHull"));
+        int[] term2232433 = (int[]) newIntArray(9);
+        Object term2232445 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        Object term2232453 = newInstance(Class.forName("org.openRealmOfStars.starMap.Coordinate"));
+        setIntField(term2232422, term2232422.getClass(), "index", -1355744438);
+        setField(term2232422, term2232422.getClass(), "name", null);
+        setIntField(term2232422, term2232422.getClass(), "maxSlot", -579617550);
+        setIntField(term2232422, term2232422.getClass(), "slotHull", -736942331);
+        setField(term2232422, term2232422.getClass(), "hullType", null);
+        setField(term2232422, term2232422.getClass(), "size", null);
+        setIntField(term2232422, term2232422.getClass(), "cost", 810663320);
+        setIntField(term2232422, term2232422.getClass(), "metalCost", 744667543);
+        setIntField(term2232422, term2232422.getClass(), "imageIndex", -1936069241);
+        setDoubleField(term2232422, term2232422.getClass(), "fleetCapacity", 0.0730602531264618);
+        setField(term2232422, term2232422.getClass(), "originalBuilder", null);
+        setField(term2232421, term2232421.getClass(), "hull", term2232422);
+        setField(term2232421, term2232421.getClass(), "components", term2232430);
+        setIntElement(term2232433, 0, -518572508);
+        setIntElement(term2232433, 1, 168185254);
+        setIntElement(term2232433, 2, -2034673249);
+        setIntElement(term2232433, 3, 1987630678);
+        setIntElement(term2232433, 4, 1287419363);
+        setIntElement(term2232433, 5, 2096838499);
+        setIntElement(term2232433, 6, 1047998981);
+        setIntElement(term2232433, 7, -319929487);
+        setIntElement(term2232433, 8, -1909494599);
+        setField(term2232421, term2232421.getClass(), "hullPoints", term2232433);
+        setIntField(term2232421, term2232421.getClass(), "shield", -2060025918);
+        setIntField(term2232421, term2232421.getClass(), "armor", -2011011088);
+        setIntField(term2232445, term2232445.getClass(), "imageType", 647386163);
+        setField(term2232445, term2232445.getClass(), "colorModel", null);
+        setField(term2232445, term2232445.getClass(), "raster", null);
+        setField(term2232445, term2232445.getClass(), "osis", null);
+        setField(term2232445, term2232445.getClass(), "properties", null);
+        setFloatField(term2232445, term2232445.getClass(), "accelerationPriority", 0.6310147F);
+        setField(term2232445, term2232445.getClass(), "surfaceManager", null);
+        setField(term2232421, term2232421.getClass(), "image", term2232445);
+        setIntField(term2232421, term2232421.getClass(), "colonist", -1991344032);
+        setIntField(term2232421, term2232421.getClass(), "metal", -1619715596);
+        setIntField(term2232421, term2232421.getClass(), "experience", 615613950);
+        setIntField(term2232421, term2232421.getClass(), "culture", 544388620);
+        setIntField(term2232421, term2232421.getClass(), "specialFlags", -530037083);
+        setIntField(term2232453, term2232453.getClass(), "x", -1572901693);
+        setIntField(term2232453, term2232453.getClass(), "y", 2079885608);
+        setField(term2232421, term2232421.getClass(), "tradeCoordinates", term2232453);
+        setField(term2232421, term2232421.getClass(), "name", null);
+        setField(term2232421, term2232421.getClass(), "iconId", null);
+        setField(term2232421, term2232421.getClass(), "description", null);
+        setIntField(term2232421, term2232421.getClass(), "prodCost", 0);
+        setIntField(term2232421, term2232421.getClass(), "metalCost", 0);
+        Object term2232458 = newInstance(Class.forName("org.openRealmOfStars.player.ship.Ship"));
+        setField(term2232458, term2232458.getClass(), "hull", null);
+        setField(term2232458, term2232458.getClass(), "components", null);
+        setField(term2232458, term2232458.getClass(), "hullPoints", null);
+        setIntField(term2232458, term2232458.getClass(), "shield", 0);
+        setIntField(term2232458, term2232458.getClass(), "armor", 0);
+        setField(term2232458, term2232458.getClass(), "image", null);
+        setIntField(term2232458, term2232458.getClass(), "colonist", 0);
+        setIntField(term2232458, term2232458.getClass(), "metal", 0);
+        setIntField(term2232458, term2232458.getClass(), "experience", 0);
+        setIntField(term2232458, term2232458.getClass(), "culture", 0);
+        setIntField(term2232458, term2232458.getClass(), "specialFlags", 0);
+        setField(term2232458, term2232458.getClass(), "tradeCoordinates", null);
+        setField(term2232458, term2232458.getClass(), "name", null);
+        setField(term2232458, term2232458.getClass(), "iconId", null);
+        setField(term2232458, term2232458.getClass(), "description", null);
+        setIntField(term2232458, term2232458.getClass(), "prodCost", 0);
+        setIntField(term2232458, term2232458.getClass(), "metalCost", 0);
+        Object term2232468 = newInstance(Class.forName("org.openRealmOfStars.player.ship.Ship"));
+        setField(term2232468, term2232468.getClass(), "hull", null);
+        setField(term2232468, term2232468.getClass(), "components", null);
+        setField(term2232468, term2232468.getClass(), "hullPoints", null);
+        setIntField(term2232468, term2232468.getClass(), "shield", 0);
+        setIntField(term2232468, term2232468.getClass(), "armor", 0);
+        setField(term2232468, term2232468.getClass(), "image", null);
+        setIntField(term2232468, term2232468.getClass(), "colonist", 0);
+        setIntField(term2232468, term2232468.getClass(), "metal", 0);
+        setIntField(term2232468, term2232468.getClass(), "experience", 0);
+        setIntField(term2232468, term2232468.getClass(), "culture", 0);
+        setIntField(term2232468, term2232468.getClass(), "specialFlags", 0);
+        setField(term2232468, term2232468.getClass(), "tradeCoordinates", null);
+        setField(term2232468, term2232468.getClass(), "name", null);
+        setField(term2232468, term2232468.getClass(), "iconId", null);
+        setField(term2232468, term2232468.getClass(), "description", null);
+        setIntField(term2232468, term2232468.getClass(), "prodCost", 0);
+        setIntField(term2232468, term2232468.getClass(), "metalCost", 0);
+        Object term2232478 = newInstance(Class.forName("org.openRealmOfStars.player.ship.Ship"));
+        setField(term2232478, term2232478.getClass(), "hull", null);
+        setField(term2232478, term2232478.getClass(), "components", null);
+        setField(term2232478, term2232478.getClass(), "hullPoints", null);
+        setIntField(term2232478, term2232478.getClass(), "shield", 0);
+        setIntField(term2232478, term2232478.getClass(), "armor", 0);
+        setField(term2232478, term2232478.getClass(), "image", null);
+        setIntField(term2232478, term2232478.getClass(), "colonist", 0);
+        setIntField(term2232478, term2232478.getClass(), "metal", 0);
+        setIntField(term2232478, term2232478.getClass(), "experience", 0);
+        setIntField(term2232478, term2232478.getClass(), "culture", 0);
+        setIntField(term2232478, term2232478.getClass(), "specialFlags", 0);
+        setField(term2232478, term2232478.getClass(), "tradeCoordinates", null);
+        setField(term2232478, term2232478.getClass(), "name", null);
+        setField(term2232478, term2232478.getClass(), "iconId", null);
+        setField(term2232478, term2232478.getClass(), "description", null);
+        setIntField(term2232478, term2232478.getClass(), "prodCost", 0);
+        setIntField(term2232478, term2232478.getClass(), "metalCost", 0);
+        ArrayList term2232419 = new ArrayList();
+        ((ArrayList) term2232419).add(term2232421);
+        ((ArrayList) term2232419).add(term2232458);
+        ((ArrayList) term2232419).add(term2232468);
+        ((ArrayList) term2232419).add(term2232478);
+        term2232418 = newInstance(Class.forName("org.openRealmOfStars.player.fleet.Fleet"));
+        Object term2232490 = newInstance(Class.forName("org.openRealmOfStars.starMap.Coordinate"));
+        Object term2232506 = newInstance(Class.forName("org.openRealmOfStars.starMap.Route"));
+        Object term2232512 = newInstance(Class.forName("org.openRealmOfStars.player.leader.Leader"));
+        Object term2232518 = newInstance(Class.forName("org.openRealmOfStars.ai.pathfinding.AStarSearch"));
+        setField(term2232418, term2232418.getClass(), "ships", term2232419);
+        setIntField(term2232490, term2232490.getClass(), "x", 0);
+        setIntField(term2232490, term2232490.getClass(), "y", 0);
+        setField(term2232418, term2232418.getClass(), "coordinate", term2232490);
+        setField(term2232418, term2232418.getClass(), "name", "HUJddvxYqt");
+        setIntField(term2232418, term2232418.getClass(), "movesLeft", -668983);
+        setDoubleField(term2232506, term2232506.getClass(), "startX", 0.0);
+        setDoubleField(term2232506, term2232506.getClass(), "startY", 0.0);
+        setDoubleField(term2232506, term2232506.getClass(), "endX", 0.0);
+        setDoubleField(term2232506, term2232506.getClass(), "endY", 0.0);
+        setField(term2232506, term2232506.getClass(), "nextPoints", null);
+        setIntField(term2232506, term2232506.getClass(), "ftlSpeed", 0);
+        setField(term2232418, term2232418.getClass(), "route", term2232506);
+        setField(term2232512, term2232512.getClass(), "name", null);
+        setField(term2232512, term2232512.getClass(), "homeworld", null);
+        setIntField(term2232512, term2232512.getClass(), "age", 0);
+        setIntField(term2232512, term2232512.getClass(), "timeInJob", 0);
+        setIntField(term2232512, term2232512.getClass(), "level", 0);
+        setIntField(term2232512, term2232512.getClass(), "experience", 0);
+        setField(term2232512, term2232512.getClass(), "militaryRank", null);
+        setField(term2232512, term2232512.getClass(), "gender", null);
+        setField(term2232512, term2232512.getClass(), "race", null);
+        setField(term2232512, term2232512.getClass(), "title", null);
+        setField(term2232512, term2232512.getClass(), "job", null);
+        setField(term2232512, term2232512.getClass(), "parent", null);
+        setIntField(term2232512, term2232512.getClass(), "parentIndex", 0);
+        setField(term2232512, term2232512.getClass(), "perkList", null);
+        setField(term2232512, term2232512.getClass(), "stats", null);
+        setField(term2232418, term2232418.getClass(), "commander", term2232512);
+        setIntField(term2232518, term2232518.getClass(), "maxX", 0);
+        setIntField(term2232518, term2232518.getClass(), "maxY", 0);
+        setField(term2232518, term2232518.getClass(), "blockMap", null);
+        setField(term2232518, term2232518.getClass(), "points", null);
+        setIntField(term2232518, term2232518.getClass(), "tx", 0);
+        setIntField(term2232518, term2232518.getClass(), "ty", 0);
+        setIntField(term2232518, term2232518.getClass(), "targetDistance", 0);
+        setField(term2232518, term2232518.getClass(), "targetPoint", null);
+        setIntField(term2232518, term2232518.getClass(), "routeIndex", 0);
+        setField(term2232418, term2232418.getClass(), "aStarSearch", term2232518);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.player.fleet.FleetList");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("org.openRealmOfStars.player.fleet.Fleet");
+        Object[] args = new Object[1];
+        args[0] = term2232418;
+        callMethod(klass, "add", argTypes, term2232412, args);
+    }
+
+};
+
+

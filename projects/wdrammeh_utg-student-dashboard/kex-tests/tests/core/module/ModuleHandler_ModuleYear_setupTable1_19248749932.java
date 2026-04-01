@@ -1,0 +1,60 @@
+package core.module;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static core.module.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class ModuleHandler_ModuleYear_setupTable1_19248749932 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term111453;
+
+    public ModuleHandler_ModuleYear_setupTable1_19248749932() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term111453 = newInstance(Class.forName("core.module.ModuleHandler$ModuleYear"));
+        setField(term111453, term111453.getClass(), "yearName", null);
+        setField(term111453, term111453.getClass(), "table1", null);
+        setField(term111453, term111453.getClass(), "table2", null);
+        setField(term111453, term111453.getClass(), "focusTable", null);
+        setField(term111453, term111453.getClass(), "model1", null);
+        setField(term111453, term111453.getClass(), "model2", null);
+        setField(term111453, term111453.getClass(), "focusModel", null);
+        setField(term111453, term111453.getClass(), "detailsItem", null);
+        setField(term111453, term111453.getClass(), "editItem", null);
+        setField(term111453, term111453.getClass(), "removeItem", null);
+        setField(term111453, term111453.getClass(), "confirmItem", null);
+        setField(term111453, term111453.getClass(), "newItem", null);
+        setField(term111453, term111453.getClass(), "popupMenu", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("core.module.ModuleHandler$ModuleYear");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "setupTable1", argTypes, term111453, args);
+    }
+
+};
+
+

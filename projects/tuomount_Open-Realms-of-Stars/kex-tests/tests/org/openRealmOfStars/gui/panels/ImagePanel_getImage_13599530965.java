@@ -1,0 +1,217 @@
+package org.openRealmOfStars.gui.panels;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.gui.panels.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class ImagePanel_getImage_13599530965 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term10931;
+
+    public ImagePanel_getImage_13599530965() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term10931 = newInstance(Class.forName("org.openRealmOfStars.gui.panels.ImagePanel"));
+        Object term10932 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        Object term10934 = newInstance(Class.forName("java.awt.image.WritableRaster"));
+        Object term10943 = newInstance(Class.forName("java.awt.image.Raster"));
+        Object term10952 = newInstance(Class.forName("java.awt.image.Raster"));
+        Object term10961 = newInstance(Class.forName("java.util.Hashtable"));
+        Object[] term10962 = (Object[]) newArray("java.util.Hashtable$Entry", 11);
+        Object term10963 = newInstance(Class.forName("java.util.Hashtable$Entry"));
+        Object term10986 = newInstance(Class.forName("javax.swing.event.EventListenerList"));
+        Object[] term10987 = (Object[]) newArray("java.lang.Object", 0);
+        Object term10988 = newInstance(Class.forName("javax.swing.ArrayTable"));
+        Object term10989 = newInstance(Class.forName("java.beans.VetoableChangeSupport"));
+        setIntField(term10932, term10932.getClass(), "imageType", -1972436591);
+        setField(term10932, term10932.getClass(), "colorModel", null);
+        setField(term10934, term10934.getClass(), "sampleModel", null);
+        setField(term10934, term10934.getClass(), "dataBuffer", null);
+        setIntField(term10934, term10934.getClass(), "minX", 68922753);
+        setIntField(term10934, term10934.getClass(), "minY", -220791533);
+        setIntField(term10934, term10934.getClass(), "width", 1741500243);
+        setIntField(term10934, term10934.getClass(), "height", -2070466617);
+        setIntField(term10934, term10934.getClass(), "sampleModelTranslateX", -1127721881);
+        setIntField(term10934, term10934.getClass(), "sampleModelTranslateY", 1074848808);
+        setIntField(term10934, term10934.getClass(), "numBands", -146054762);
+        setIntField(term10934, term10934.getClass(), "numDataElements", 798043553);
+        setField(term10943, term10943.getClass(), "sampleModel", null);
+        setField(term10943, term10943.getClass(), "dataBuffer", null);
+        setIntField(term10943, term10943.getClass(), "minX", 533197381);
+        setIntField(term10943, term10943.getClass(), "minY", 1048271679);
+        setIntField(term10943, term10943.getClass(), "width", -1529797673);
+        setIntField(term10943, term10943.getClass(), "height", -868676396);
+        setIntField(term10943, term10943.getClass(), "sampleModelTranslateX", 1922684808);
+        setIntField(term10943, term10943.getClass(), "sampleModelTranslateY", -2005784375);
+        setIntField(term10943, term10943.getClass(), "numBands", -288604325);
+        setIntField(term10943, term10943.getClass(), "numDataElements", -1268314569);
+        setField(term10952, term10952.getClass(), "sampleModel", null);
+        setField(term10952, term10952.getClass(), "dataBuffer", null);
+        setIntField(term10952, term10952.getClass(), "minX", 0);
+        setIntField(term10952, term10952.getClass(), "minY", 0);
+        setIntField(term10952, term10952.getClass(), "width", 0);
+        setIntField(term10952, term10952.getClass(), "height", 0);
+        setIntField(term10952, term10952.getClass(), "sampleModelTranslateX", 0);
+        setIntField(term10952, term10952.getClass(), "sampleModelTranslateY", 0);
+        setIntField(term10952, term10952.getClass(), "numBands", 0);
+        setIntField(term10952, term10952.getClass(), "numDataElements", 0);
+        setField(term10952, term10952.getClass(), "parent", null);
+        setField(term10943, term10943.getClass(), "parent", term10952);
+        setField(term10934, term10934.getClass(), "parent", term10943);
+        setField(term10932, term10932.getClass(), "raster", term10934);
+        setField(term10932, term10932.getClass(), "osis", null);
+        setIntField(term10963, term10963.getClass(), "hash", -193614844);
+        setField(term10963, term10963.getClass(), "key", null);
+        setField(term10963, term10963.getClass(), "value", null);
+        setField(term10963, term10963.getClass(), "next", null);
+        setElement(term10962, 8, term10963);
+        setField(term10961, term10961.getClass(), "table", term10962);
+        setIntField(term10961, term10961.getClass(), "count", 1);
+        setIntField(term10961, term10961.getClass(), "threshold", 8);
+        setFloatField(term10961, term10961.getClass(), "loadFactor", 0.75F);
+        setIntField(term10961, term10961.getClass(), "modCount", 1);
+        setField(term10961, term10961.getClass(), "keySet", null);
+        setField(term10961, term10961.getClass(), "entrySet", null);
+        setField(term10961, term10961.getClass(), "values", null);
+        setField(term10932, term10932.getClass(), "properties", term10961);
+        setFloatField(term10932, term10932.getClass(), "accelerationPriority", 0.51832694F);
+        setField(term10932, term10932.getClass(), "surfaceManager", null);
+        setField(term10931, term10931.getClass(), "image", term10932);
+        setField(term10931, term10931.getClass(), "text", "UlajhuVLaP");
+        setBooleanField(term10931, term10931.getClass(), "isAlignmentXSet", true);
+        setFloatField(term10931, term10931.getClass(), "alignmentX", 0.97262454F);
+        setBooleanField(term10931, term10931.getClass(), "isAlignmentYSet", true);
+        setFloatField(term10931, term10931.getClass(), "alignmentY", 0.76550204F);
+        setField(term10931, term10931.getClass(), "ui", null);
+        setField(term10986, term10986.getClass(), "listenerList", term10987);
+        setField(term10931, term10931.getClass(), "listenerList", term10986);
+        setField(term10988, term10988.getClass(), "table", null);
+        setField(term10931, term10931.getClass(), "clientProperties", term10988);
+        setField(term10989, term10989.getClass(), "map", null);
+        setField(term10989, term10989.getClass(), "source", null);
+        setField(term10931, term10931.getClass(), "vetoableChangeSupport", term10989);
+        setBooleanField(term10931, term10931.getClass(), "autoscrolls", true);
+        setField(term10931, term10931.getClass(), "border", null);
+        setIntField(term10931, term10931.getClass(), "flags", 0);
+        setField(term10931, term10931.getClass(), "inputVerifier", null);
+        setBooleanField(term10931, term10931.getClass(), "verifyInputWhenFocusTarget", false);
+        setField(term10931, term10931.getClass(), "paintingChild", null);
+        setField(term10931, term10931.getClass(), "popupMenu", null);
+        setField(term10931, term10931.getClass(), "revalidateRunnableScheduled", null);
+        setField(term10931, term10931.getClass(), "focusInputMap", null);
+        setField(term10931, term10931.getClass(), "ancestorInputMap", null);
+        setField(term10931, term10931.getClass(), "windowInputMap", null);
+        setField(term10931, term10931.getClass(), "actionMap", null);
+        setField(term10931, term10931.getClass(), "aaHint", null);
+        setField(term10931, term10931.getClass(), "lcdRenderingHint", null);
+        setField(term10931, term10931.getClass(), "component", null);
+        setField(term10931, term10931.getClass(), "layoutMgr", null);
+        setField(term10931, term10931.getClass(), "dispatcher", null);
+        setField(term10931, term10931.getClass(), "focusTraversalPolicy", null);
+        setBooleanField(term10931, term10931.getClass(), "focusCycleRoot", false);
+        setBooleanField(term10931, term10931.getClass(), "focusTraversalPolicyProvider", false);
+        setField(term10931, term10931.getClass(), "printingThreads", null);
+        setBooleanField(term10931, term10931.getClass(), "printing", false);
+        setField(term10931, term10931.getClass(), "containerListener", null);
+        setIntField(term10931, term10931.getClass(), "listeningChildren", 0);
+        setIntField(term10931, term10931.getClass(), "listeningBoundsChildren", 0);
+        setIntField(term10931, term10931.getClass(), "descendantsCount", 0);
+        setField(term10931, term10931.getClass(), "preserveBackgroundColor", null);
+        setIntField(term10931, term10931.getClass(), "numOfHWComponents", 0);
+        setIntField(term10931, term10931.getClass(), "numOfLWComponents", 0);
+        setField(term10931, term10931.getClass(), "modalComp", null);
+        setField(term10931, term10931.getClass(), "modalAppContext", null);
+        setIntField(term10931, term10931.getClass(), "containerSerializedDataVersion", 0);
+        setField(term10931, term10931.getClass(), "peer", null);
+        setField(term10931, term10931.getClass(), "parent", null);
+        setField(term10931, term10931.getClass(), "appContext", null);
+        setIntField(term10931, term10931.getClass(), "x", 0);
+        setIntField(term10931, term10931.getClass(), "y", 0);
+        setIntField(term10931, term10931.getClass(), "width", 0);
+        setIntField(term10931, term10931.getClass(), "height", 0);
+        setField(term10931, term10931.getClass(), "foreground", null);
+        setField(term10931, term10931.getClass(), "background", null);
+        setField(term10931, term10931.getClass(), "font", null);
+        setField(term10931, term10931.getClass(), "peerFont", null);
+        setField(term10931, term10931.getClass(), "cursor", null);
+        setField(term10931, term10931.getClass(), "locale", null);
+        setField(term10931, term10931.getClass(), "graphicsConfig", null);
+        setField(term10931, term10931.getClass(), "bufferStrategy", null);
+        setBooleanField(term10931, term10931.getClass(), "ignoreRepaint", false);
+        setBooleanField(term10931, term10931.getClass(), "visible", false);
+        setBooleanField(term10931, term10931.getClass(), "enabled", false);
+        setBooleanField(term10931, term10931.getClass(), "valid", false);
+        setField(term10931, term10931.getClass(), "dropTarget", null);
+        setField(term10931, term10931.getClass(), "popups", null);
+        setField(term10931, term10931.getClass(), "name", null);
+        setBooleanField(term10931, term10931.getClass(), "nameExplicitlySet", false);
+        setBooleanField(term10931, term10931.getClass(), "focusable", false);
+        setIntField(term10931, term10931.getClass(), "isFocusTraversableOverridden", 0);
+        setField(term10931, term10931.getClass(), "focusTraversalKeys", null);
+        setBooleanField(term10931, term10931.getClass(), "focusTraversalKeysEnabled", false);
+        setField(term10931, term10931.getClass(), "acc", null);
+        setField(term10931, term10931.getClass(), "minSize", null);
+        setBooleanField(term10931, term10931.getClass(), "minSizeSet", false);
+        setField(term10931, term10931.getClass(), "prefSize", null);
+        setBooleanField(term10931, term10931.getClass(), "prefSizeSet", false);
+        setField(term10931, term10931.getClass(), "maxSize", null);
+        setBooleanField(term10931, term10931.getClass(), "maxSizeSet", false);
+        setField(term10931, term10931.getClass(), "componentOrientation", null);
+        setBooleanField(term10931, term10931.getClass(), "newEventsOnly", false);
+        setField(term10931, term10931.getClass(), "componentListener", null);
+        setField(term10931, term10931.getClass(), "focusListener", null);
+        setField(term10931, term10931.getClass(), "hierarchyListener", null);
+        setField(term10931, term10931.getClass(), "hierarchyBoundsListener", null);
+        setField(term10931, term10931.getClass(), "keyListener", null);
+        setField(term10931, term10931.getClass(), "mouseListener", null);
+        setField(term10931, term10931.getClass(), "mouseMotionListener", null);
+        setField(term10931, term10931.getClass(), "mouseWheelListener", null);
+        setField(term10931, term10931.getClass(), "inputMethodListener", null);
+        setLongField(term10931, term10931.getClass(), "eventMask", 0L);
+        setField(term10931, term10931.getClass(), "changeSupport", null);
+        setField(term10931, term10931.getClass(), "objectLock", null);
+        setBooleanField(term10931, term10931.getClass(), "isPacked", false);
+        setIntField(term10931, term10931.getClass(), "boundsOp", 0);
+        setField(term10931, term10931.getClass(), "compoundShape", null);
+        setField(term10931, term10931.getClass(), "mixingCutoutRegion", null);
+        setBooleanField(term10931, term10931.getClass(), "isAddNotifyComplete", false);
+        setBooleanField(term10931, term10931.getClass(), "backgroundEraseDisabled", false);
+        setField(term10931, term10931.getClass(), "eventCache", null);
+        setBooleanField(term10931, term10931.getClass(), "coalescingEnabled", false);
+        setBooleanField(term10931, term10931.getClass(), "autoFocusTransferOnDisposal", false);
+        setIntField(term10931, term10931.getClass(), "componentSerializedDataVersion", 0);
+        setField(term10931, term10931.getClass(), "accessibleContext", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.gui.panels.ImagePanel");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getImage", argTypes, term10931, args);
+    }
+
+};
+
+

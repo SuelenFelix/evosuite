@@ -1,0 +1,217 @@
+package org.openRealmOfStars.player.race;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.player.race.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.String;
+import java.lang.Object;
+import java.util.ArrayList;
+
+public class SpaceRace_getSpeechSetId_2901948939 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term312643;
+
+    public SpaceRace_getSpeechSetId_2901948939() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term312972 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.Attitude");
+        Field term312971 = ((Class) term312972).getDeclaredField((String) "MERCHANTICAL");
+        ((Field) term312971).setAccessible(true);
+        Object enum963 = ((Field) term312971).get((Object) null);
+        Class<? extends Object> term313275 = Class.forName((String) "org.openRealmOfStars.player.race.SocialSystem");
+        Field term313274 = ((Class) term313275).getDeclaredField((String) "PATRIARCHY");
+        ((Field) term313274).setAccessible(true);
+        Object enum964 = ((Field) term313274).get((Object) null);
+        Class<? extends Object> term313537 = Class.forName((String) "org.openRealmOfStars.player.leader.Gender");
+        Field term313536 = ((Class) term313537).getDeclaredField((String) "NONE");
+        ((Field) term313536).setAccessible(true);
+        Object enum965 =  ((Field) term313536).get((Object) null);
+        ArrayList term312746 = new ArrayList();
+        ((ArrayList) term312746).add(enum965);
+        Class<? extends Object> term313771 = Class.forName((String) "org.openRealmOfStars.ambient.BridgeCommandType");
+        Field term313770 = ((Class) term313771).getDeclaredField((String) "TEST");
+        ((Field) term313770).setAccessible(true);
+        Object enum966 = ((Field) term313770).get((Object) null);
+        ArrayList term312820 = new ArrayList();
+        ((ArrayList) term312820).add((Object)null);
+        Object term312815 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312815, term312815.getClass(), "traitId", "");
+        setField(term312815, term312815.getClass(), "traitName", "");
+        setField(term312815, term312815.getClass(), "description", "");
+        setField(term312815, term312815.getClass(), "group", "");
+        setField(term312815, term312815.getClass(), "conflictsWithIds", term312820);
+        setByteField(term312815, term312815.getClass(), "traitPoints", (byte) -46);
+        ArrayList term312829 = new ArrayList();
+        ((ArrayList) term312829).add((Object)null);
+        ((ArrayList) term312829).add((Object)null);
+        Object term312824 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312824, term312824.getClass(), "traitId", "");
+        setField(term312824, term312824.getClass(), "traitName", "");
+        setField(term312824, term312824.getClass(), "description", "");
+        setField(term312824, term312824.getClass(), "group", "");
+        setField(term312824, term312824.getClass(), "conflictsWithIds", term312829);
+        setByteField(term312824, term312824.getClass(), "traitPoints", (byte) -46);
+        ArrayList term312838 = new ArrayList();
+        ((ArrayList) term312838).add((Object)null);
+        ((ArrayList) term312838).add((Object)null);
+        ((ArrayList) term312838).add((Object)null);
+        ((ArrayList) term312838).add((Object)null);
+        ((ArrayList) term312838).add((Object)null);
+        Object term312833 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312833, term312833.getClass(), "traitId", "");
+        setField(term312833, term312833.getClass(), "traitName", "");
+        setField(term312833, term312833.getClass(), "description", "");
+        setField(term312833, term312833.getClass(), "group", "");
+        setField(term312833, term312833.getClass(), "conflictsWithIds", term312838);
+        setByteField(term312833, term312833.getClass(), "traitPoints", (byte) 124);
+        ArrayList term312847 = new ArrayList();
+        ((ArrayList) term312847).add((Object)null);
+        ((ArrayList) term312847).add((Object)null);
+        ((ArrayList) term312847).add((Object)null);
+        ((ArrayList) term312847).add((Object)null);
+        ((ArrayList) term312847).add((Object)null);
+        ((ArrayList) term312847).add((Object)null);
+        Object term312842 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312842, term312842.getClass(), "traitId", "");
+        setField(term312842, term312842.getClass(), "traitName", "");
+        setField(term312842, term312842.getClass(), "description", "");
+        setField(term312842, term312842.getClass(), "group", "");
+        setField(term312842, term312842.getClass(), "conflictsWithIds", term312847);
+        setByteField(term312842, term312842.getClass(), "traitPoints", (byte) 105);
+        ArrayList term312856 = new ArrayList();
+        ((ArrayList) term312856).add((Object)null);
+        ((ArrayList) term312856).add((Object)null);
+        ((ArrayList) term312856).add((Object)null);
+        ((ArrayList) term312856).add((Object)null);
+        Object term312851 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312851, term312851.getClass(), "traitId", "");
+        setField(term312851, term312851.getClass(), "traitName", "");
+        setField(term312851, term312851.getClass(), "description", "");
+        setField(term312851, term312851.getClass(), "group", "");
+        setField(term312851, term312851.getClass(), "conflictsWithIds", term312856);
+        setByteField(term312851, term312851.getClass(), "traitPoints", (byte) 118);
+        ArrayList term312865 = new ArrayList();
+        ((ArrayList) term312865).add((Object)null);
+        ((ArrayList) term312865).add((Object)null);
+        ((ArrayList) term312865).add((Object)null);
+        ((ArrayList) term312865).add((Object)null);
+        ((ArrayList) term312865).add((Object)null);
+        Object term312860 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312860, term312860.getClass(), "traitId", "");
+        setField(term312860, term312860.getClass(), "traitName", "");
+        setField(term312860, term312860.getClass(), "description", "");
+        setField(term312860, term312860.getClass(), "group", "");
+        setField(term312860, term312860.getClass(), "conflictsWithIds", term312865);
+        setByteField(term312860, term312860.getClass(), "traitPoints", (byte) -14);
+        ArrayList term312874 = new ArrayList();
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        ((ArrayList) term312874).add((Object)null);
+        Object term312869 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312869, term312869.getClass(), "traitId", "");
+        setField(term312869, term312869.getClass(), "traitName", "");
+        setField(term312869, term312869.getClass(), "description", "");
+        setField(term312869, term312869.getClass(), "group", "");
+        setField(term312869, term312869.getClass(), "conflictsWithIds", term312874);
+        setByteField(term312869, term312869.getClass(), "traitPoints", (byte) -16);
+        ArrayList term312883 = new ArrayList();
+        ((ArrayList) term312883).add((Object)null);
+        ((ArrayList) term312883).add((Object)null);
+        ((ArrayList) term312883).add((Object)null);
+        Object term312878 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312878, term312878.getClass(), "traitId", "");
+        setField(term312878, term312878.getClass(), "traitName", "");
+        setField(term312878, term312878.getClass(), "description", "");
+        setField(term312878, term312878.getClass(), "group", "");
+        setField(term312878, term312878.getClass(), "conflictsWithIds", term312883);
+        setByteField(term312878, term312878.getClass(), "traitPoints", (byte) 22);
+        ArrayList term312892 = new ArrayList();
+        ((ArrayList) term312892).add((Object)null);
+        ((ArrayList) term312892).add((Object)null);
+        ((ArrayList) term312892).add((Object)null);
+        Object term312887 = newInstance(Class.forName("org.openRealmOfStars.player.race.trait.RaceTrait"));
+        setField(term312887, term312887.getClass(), "traitId", "");
+        setField(term312887, term312887.getClass(), "traitName", "");
+        setField(term312887, term312887.getClass(), "description", "");
+        setField(term312887, term312887.getClass(), "group", "");
+        setField(term312887, term312887.getClass(), "conflictsWithIds", term312892);
+        setByteField(term312887, term312887.getClass(), "traitPoints", (byte) -73);
+        ArrayList term312813 = new ArrayList();
+        ((ArrayList) term312813).add(term312815);
+        ((ArrayList) term312813).add(term312824);
+        ((ArrayList) term312813).add(term312833);
+        ((ArrayList) term312813).add(term312842);
+        ((ArrayList) term312813).add(term312851);
+        ((ArrayList) term312813).add(term312860);
+        ((ArrayList) term312813).add(term312869);
+        ((ArrayList) term312813).add(term312878);
+        ((ArrayList) term312813).add(term312887);
+        Class<? extends Object> term314050 = Class.forName((String) "org.openRealmOfStars.player.leader.NameGeneratorType");
+        Field term314049 = ((Class) term314050).getDeclaredField((String) "SCIFI_HUMAN");
+        ((Field) term314049).setAccessible(true);
+        Object enum967 = ((Field) term314049).get((Object) null);
+        Class<? extends Object> term314360 = Class.forName((String) "org.openRealmOfStars.player.race.SpaceRaceType");
+        Field term314359 = ((Class) term314360).getDeclaredField((String) "SPACE_PIRATE");
+        ((Field) term314359).setAccessible(true);
+        Object enum968 = ((Field) term314359).get((Object) null);
+        term312643 = newInstance(Class.forName("org.openRealmOfStars.player.race.SpaceRace"));
+        Object term312774 = newInstance(Class.forName("org.openRealmOfStars.audio.music.MusicFileInfo"));
+        setField(term312643, term312643.getClass(), "id", "FbQsgUOoDY");
+        setField(term312643, term312643.getClass(), "name", "xUMqyqCvcb");
+        setField(term312643, term312643.getClass(), "nameSingle", "UQNPJMVgtC");
+        setField(term312643, term312643.getClass(), "attitude", enum963);
+        setField(term312643, term312643.getClass(), "imagePath", "YxqBgErhNo");
+        setField(term312643, term312643.getClass(), "bridgeId", "WquZFpGWYY");
+        setField(term312643, term312643.getClass(), "spaceShipId", "DVdLunspbQ");
+        setField(term312643, term312643.getClass(), "socialSystem", enum964);
+        setField(term312643, term312643.getClass(), "genderList", term312746);
+        setField(term312643, term312643.getClass(), "speechSetId", "OUQVWAHprD");
+        setField(term312643, term312643.getClass(), "bridgeEffect", enum966);
+        setField(term312774, term312774.getClass(), "songName", "ptFvDczffY");
+        setField(term312774, term312774.getClass(), "author", "yDXeFOuvlq");
+        setField(term312774, term312774.getClass(), "fileName", "gvnDtiMlxS");
+        setBooleanField(term312774, term312774.getClass(), "custom", false);
+        setIntField(term312774, term312774.getClass(), "fadingLimit", 1674142259);
+        setField(term312643, term312643.getClass(), "diplomacyMusic", term312774);
+        setField(term312643, term312643.getClass(), "traits", term312813);
+        setField(term312643, term312643.getClass(), "leaderNameGenerator", enum967);
+        setField(term312643, term312643.getClass(), "description", "MyeSojBBPn");
+        setField(term312643, term312643.getClass(), "spaceRaceType", enum968);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.player.race.SpaceRace");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getSpeechSetId", argTypes, term312643, args);
+    }
+
+};
+
+

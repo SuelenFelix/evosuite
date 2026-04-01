@@ -1,13 +1,13 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>openapi-json-schema-generator-cli</artifactId>
     <packaging>jar</packaging>
     <groupId>org.openapijsonschematools</groupId>
     <name>openapi-json-schema-generator-project</name>
-    <!-- RELEASE_VERSION -->
+    
     <version>${revision}</version>
-    <!-- /RELEASE_VERSION -->
+    
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <defaultGoal>install</defaultGoal>
@@ -82,7 +82,7 @@
                 <version>${spotbugs-plugin.version}</version>
                 <configuration>
                     <failOnError>false</failOnError>
-                    <!-- https://spotbugs.readthedocs.io/en/stable/effort.html -->
+                    
                     <effort>min</effort>
                     <excludeFilterFile>src/main/resources/spotbugs-exclude.xml</excludeFilterFile>
                 </configuration>
@@ -112,7 +112,7 @@
                 <configuration>
                     <generateGitPropertiesFile>true</generateGitPropertiesFile>
                     <generateGitPropertiesFilename>${project.build.outputDirectory}/openapi-json-schema-generator-git.properties</generateGitPropertiesFilename>
-                    <!-- REVIEWER NOTE: Never allow external contributors to change these without full clarification. -->
+                    
                     <includeOnlyProperties>
                         <includeOnlyProperty>^git.build.(time|version)$</includeOnlyProperty>
                         <includeOnlyProperty>^git.commit.id.(abbrev|full)$</includeOnlyProperty>
@@ -189,8 +189,7 @@
                             <minimizeJar>false</minimizeJar>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
                             </transformers>
                             <filters>
                                 <filter>
@@ -417,7 +416,7 @@
             <version>3.19.0</version>
             <scope>test</scope>
         </dependency>
-        <!--https://github.com/airlift/airline-->
+        
         <dependency>
             <groupId>io.airlift</groupId>
             <artifactId>airline</artifactId>
@@ -445,9 +444,9 @@
         </dependency>
     </dependencies>
     <properties>
-        <!-- RELEASE_VERSION -->
+        
         <revision>4.5.1</revision>
-        <!-- /RELEASE_VERSION -->
+        
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>

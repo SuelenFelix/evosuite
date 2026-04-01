@@ -1,0 +1,64 @@
+package org.openapijsonschematools.codegen.config;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openapijsonschematools.codegen.config.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class GeneratorSettings_getModelNamePrefix_172906822732 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term48786;
+
+    public GeneratorSettings_getModelNamePrefix_172906822732() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term48786 = newInstance(Class.forName("org.openapijsonschematools.codegen.config.GeneratorSettings"));
+        setField(term48786, term48786.getClass(), "generatorName", null);
+        setField(term48786, term48786.getClass(), "apiPackage", null);
+        setField(term48786, term48786.getClass(), "modelPackage", null);
+        setField(term48786, term48786.getClass(), "invokerPackage", null);
+        setField(term48786, term48786.getClass(), "packageName", null);
+        setField(term48786, term48786.getClass(), "apiNameSuffix", null);
+        setField(term48786, term48786.getClass(), "modelNamePrefix", null);
+        setField(term48786, term48786.getClass(), "modelNameSuffix", null);
+        setField(term48786, term48786.getClass(), "groupId", null);
+        setField(term48786, term48786.getClass(), "artifactId", null);
+        setField(term48786, term48786.getClass(), "artifactVersion", null);
+        setField(term48786, term48786.getClass(), "additionalProperties", null);
+        setField(term48786, term48786.getClass(), "gitHost", null);
+        setField(term48786, term48786.getClass(), "gitUserId", null);
+        setField(term48786, term48786.getClass(), "gitRepoId", null);
+        setField(term48786, term48786.getClass(), "releaseNote", null);
+        setField(term48786, term48786.getClass(), "httpUserAgent", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openapijsonschematools.codegen.config.GeneratorSettings");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getModelNamePrefix", argTypes, term48786, args);
+    }
+
+};
+
+

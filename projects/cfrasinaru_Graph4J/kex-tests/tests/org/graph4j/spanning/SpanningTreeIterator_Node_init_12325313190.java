@@ -1,0 +1,210 @@
+package org.graph4j.spanning;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.spanning.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Double;
+import java.util.ArrayDeque;
+import java.lang.Integer;
+
+public class SpanningTreeIterator_Node_init_12325313190 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term141791;
+     Object term141910;
+     Object term141912;
+     Object term141914;
+     Object term141916;
+     Object term141918;
+
+    public SpanningTreeIterator_Node_init_12325313190() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Double term141798 = new Double(0.5883891057978492);
+        Double term141800 = new Double(0.9386273929473176);
+        Double term141802 = new Double(0.3478743797984428);
+        Double term141804 = new Double(0.7577489052812953);
+        Double term141806 = new Double(0.7132025883820788);
+        Double term141808 = new Double(0.9938738471810814);
+        Double term141815 = new Double(0.9665791052626924);
+        Double term141817 = new Double(0.3266337094192928);
+        Double term141819 = new Double(0.421561424803641);
+        Double term141821 = new Double(0.2526736279611844);
+        Double term141823 = new Double(0.09326927086958081);
+        Double term141825 = new Double(0.9433321846789665);
+        Double term141827 = new Double(0.9600828187640723);
+        Double term141834 = new Double(0.8877528865772201);
+        Double term141836 = new Double(0.6192487125288333);
+        Double term141838 = new Double(0.2679214363216502);
+        Double term141840 = new Double(0.2438116092887026);
+        Double term141842 = new Double(0.8359034876515007);
+        Double term141844 = new Double(0.12214972287583126);
+        Double term141846 = new Double(0.3988726270279356);
+        Double term141855 = new Double(0.6777439515845167);
+        Double term141857 = new Double(0.5958157016157475);
+        Object term141850 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term141854 = (Object[]) newArray("java.lang.Double", 2);
+        setBooleanField(term141850, term141850.getClass(), "directed", true);
+        setIntField(term141850, term141850.getClass(), "source", -2057919106);
+        setIntField(term141850, term141850.getClass(), "target", 1527025206);
+        setElement(term141854, 0, term141855);
+        setElement(term141854, 1, term141857);
+        setField(term141850, term141850.getClass(), "data", term141854);
+        setField(term141850, term141850.getClass(), "label", null);
+        ArrayDeque term141848 = new ArrayDeque();
+        ((ArrayDeque) term141848).add(term141850);
+        Double term141868 = new Double(0.02741339693517919);
+        Double term141870 = new Double(0.6556499778173672);
+        Double term141872 = new Double(0.7209855481213597);
+        Double term141874 = new Double(0.14758145600213812);
+        Double term141876 = new Double(0.022246611833629748);
+        Double term141878 = new Double(0.21169473590468513);
+        Object term141863 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term141867 = (Object[]) newArray("java.lang.Double", 6);
+        setBooleanField(term141863, term141863.getClass(), "directed", false);
+        setIntField(term141863, term141863.getClass(), "source", 1236589731);
+        setIntField(term141863, term141863.getClass(), "target", -1806561644);
+        setElement(term141867, 0, term141868);
+        setElement(term141867, 1, term141870);
+        setElement(term141867, 2, term141872);
+        setElement(term141867, 3, term141874);
+        setElement(term141867, 4, term141876);
+        setElement(term141867, 5, term141878);
+        setField(term141863, term141863.getClass(), "data", term141867);
+        setField(term141863, term141863.getClass(), "label", null);
+        Double term141885 = new Double(0.7261681667250225);
+        Object term141880 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term141884 = (Object[]) newArray("java.lang.Double", 1);
+        setBooleanField(term141880, term141880.getClass(), "directed", true);
+        setIntField(term141880, term141880.getClass(), "source", -1396920981);
+        setIntField(term141880, term141880.getClass(), "target", 502273141);
+        setElement(term141884, 0, term141885);
+        setField(term141880, term141880.getClass(), "data", term141884);
+        setField(term141880, term141880.getClass(), "label", null);
+        ArrayDeque term141861 = new ArrayDeque();
+        ((ArrayDeque) term141861).add(term141863);
+        ((ArrayDeque) term141861).add(term141880);
+        Object term141892 = newInstance(Class.forName("org.graph4j.spanning.SpanningTreeIterator$Node"));
+        setIntField(term141892, term141892.getClass(), "currentPos", -1983634048);
+        setIntField(term141892, term141892.getClass(), "root1", -1800595863);
+        setIntField(term141892, term141892.getClass(), "root2", 1953892479);
+        setIntField(term141892, term141892.getClass(), "parent1", 63933852);
+        setIntField(term141892, term141892.getClass(), "parent2", 1005260296);
+        setField(term141892, term141892.getClass(), "this$0", null);
+        ArrayDeque term141890 = new ArrayDeque();
+        ((ArrayDeque) term141890).add(term141892);
+        term141791 = newInstance(Class.forName("org.graph4j.spanning.SpanningTreeIterator"));
+        Object[] term141792 = (Object[]) newArray("org.graph4j.Edge", 3);
+        Object term141793 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term141797 = (Object[]) newArray("java.lang.Double", 6);
+        Object term141810 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term141814 = (Object[]) newArray("java.lang.Double", 7);
+        Object term141829 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term141833 = (Object[]) newArray("java.lang.Double", 7);
+        Object term141900 = newInstance(Class.forName("org.graph4j.spanning.SpanningTreeIterator$UnionFindExt"));
+        int[] term141903 = (int[]) newIntArray(4);
+        setField(term141791, term141791.getClass(), "graph", null);
+        setBooleanField(term141793, term141793.getClass(), "directed", true);
+        setIntField(term141793, term141793.getClass(), "source", -1614482762);
+        setIntField(term141793, term141793.getClass(), "target", 1110390716);
+        setElement(term141797, 0, term141798);
+        setElement(term141797, 1, term141800);
+        setElement(term141797, 2, term141802);
+        setElement(term141797, 3, term141804);
+        setElement(term141797, 4, term141806);
+        setElement(term141797, 5, term141808);
+        setField(term141793, term141793.getClass(), "data", term141797);
+        setField(term141793, term141793.getClass(), "label", null);
+        setElement(term141792, 0, term141793);
+        setBooleanField(term141810, term141810.getClass(), "directed", true);
+        setIntField(term141810, term141810.getClass(), "source", 239736147);
+        setIntField(term141810, term141810.getClass(), "target", -1094472530);
+        setElement(term141814, 0, term141815);
+        setElement(term141814, 1, term141817);
+        setElement(term141814, 2, term141819);
+        setElement(term141814, 3, term141821);
+        setElement(term141814, 4, term141823);
+        setElement(term141814, 5, term141825);
+        setElement(term141814, 6, term141827);
+        setField(term141810, term141810.getClass(), "data", term141814);
+        setField(term141810, term141810.getClass(), "label", null);
+        setElement(term141792, 1, term141810);
+        setBooleanField(term141829, term141829.getClass(), "directed", true);
+        setIntField(term141829, term141829.getClass(), "source", 1002719416);
+        setIntField(term141829, term141829.getClass(), "target", -464322205);
+        setElement(term141833, 0, term141834);
+        setElement(term141833, 1, term141836);
+        setElement(term141833, 2, term141838);
+        setElement(term141833, 3, term141840);
+        setElement(term141833, 4, term141842);
+        setElement(term141833, 5, term141844);
+        setElement(term141833, 6, term141846);
+        setField(term141829, term141829.getClass(), "data", term141833);
+        setField(term141829, term141829.getClass(), "label", null);
+        setElement(term141792, 2, term141829);
+        setField(term141791, term141791.getClass(), "edges", term141792);
+        setField(term141791, term141791.getClass(), "workTree", term141848);
+        setField(term141791, term141791.getClass(), "nextTree", term141861);
+        setIntField(term141791, term141791.getClass(), "currentPos", -921840156);
+        setField(term141791, term141791.getClass(), "stack", term141890);
+        setField(term141900, term141900.getClass(), "this$0", null);
+        setIntField(term141900, term141900.getClass(), "numVertices", 1351041442);
+        setBooleanField(term141900, term141900.getClass(), "pathCompression", false);
+        setIntElement(term141903, 0, 1240046991);
+        setIntElement(term141903, 1, -1401951049);
+        setIntElement(term141903, 2, -1907582918);
+        setIntElement(term141903, 3, -805804471);
+        setField(term141900, term141900.getClass(), "parent", term141903);
+        setIntField(term141900, term141900.getClass(), "numSets", -1729149654);
+        setField(term141791, term141791.getClass(), "unionFind", term141900);
+        setBooleanField(term141791, term141791.getClass(), "finished", false);
+        term141910 = new Integer(149296956);
+        term141912 = new Integer(1778911003);
+        term141914 = new Integer(1257643791);
+        term141916 = new Integer(2133926277);
+        term141918 = new Integer(-1586169626);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.spanning.SpanningTreeIterator$Node");
+        Class<?>[] argTypes = new Class<?>[6];
+        argTypes[0] = Class.forName("org.graph4j.spanning.SpanningTreeIterator");
+        argTypes[1] = int.class;
+        argTypes[2] = int.class;
+        argTypes[3] = int.class;
+        argTypes[4] = int.class;
+        argTypes[5] = int.class;
+        Object[] args = new Object[6];
+        args[0] = term141791;
+        args[1] = term141910;
+        args[2] = term141912;
+        args[3] = term141914;
+        args[4] = term141916;
+        args[5] = term141918;
+        Object instance = callConstructor(klass, argTypes, args);
+    }
+
+};
+
+

@@ -1,0 +1,157 @@
+package org.openRealmOfStars.game.state;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.game.state.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class AITurnView_setText_12573420178 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1417818;
+
+    public AITurnView_setText_12573420178() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term1417818 = newInstance(Class.forName("org.openRealmOfStars.game.state.AITurnView"));
+        setField(term1417818, term1417818.getClass(), "label", null);
+        setField(term1417818, term1417818.getClass(), "game", null);
+        setIntField(term1417818, term1417818.getClass(), "textAnim", 0);
+        setIntField(term1417818, term1417818.getClass(), "cx", 0);
+        setIntField(term1417818, term1417818.getClass(), "cy", 0);
+        setField(term1417818, term1417818.getClass(), "aiThread", null);
+        setBooleanField(term1417818, term1417818.getClass(), "readyToMove", false);
+        setField(term1417818, term1417818.getClass(), "nextState", null);
+        setField(term1417818, term1417818.getClass(), "nextStateObject", null);
+        setBooleanField(term1417818, term1417818.getClass(), "isAlignmentXSet", false);
+        setFloatField(term1417818, term1417818.getClass(), "alignmentX", 0.0F);
+        setBooleanField(term1417818, term1417818.getClass(), "isAlignmentYSet", false);
+        setFloatField(term1417818, term1417818.getClass(), "alignmentY", 0.0F);
+        setField(term1417818, term1417818.getClass(), "ui", null);
+        setField(term1417818, term1417818.getClass(), "listenerList", null);
+        setField(term1417818, term1417818.getClass(), "clientProperties", null);
+        setField(term1417818, term1417818.getClass(), "vetoableChangeSupport", null);
+        setBooleanField(term1417818, term1417818.getClass(), "autoscrolls", false);
+        setField(term1417818, term1417818.getClass(), "border", null);
+        setIntField(term1417818, term1417818.getClass(), "flags", 0);
+        setField(term1417818, term1417818.getClass(), "inputVerifier", null);
+        setBooleanField(term1417818, term1417818.getClass(), "verifyInputWhenFocusTarget", false);
+        setField(term1417818, term1417818.getClass(), "paintingChild", null);
+        setField(term1417818, term1417818.getClass(), "popupMenu", null);
+        setField(term1417818, term1417818.getClass(), "revalidateRunnableScheduled", null);
+        setField(term1417818, term1417818.getClass(), "focusInputMap", null);
+        setField(term1417818, term1417818.getClass(), "ancestorInputMap", null);
+        setField(term1417818, term1417818.getClass(), "windowInputMap", null);
+        setField(term1417818, term1417818.getClass(), "actionMap", null);
+        setField(term1417818, term1417818.getClass(), "aaHint", null);
+        setField(term1417818, term1417818.getClass(), "lcdRenderingHint", null);
+        setField(term1417818, term1417818.getClass(), "component", null);
+        setField(term1417818, term1417818.getClass(), "layoutMgr", null);
+        setField(term1417818, term1417818.getClass(), "dispatcher", null);
+        setField(term1417818, term1417818.getClass(), "focusTraversalPolicy", null);
+        setBooleanField(term1417818, term1417818.getClass(), "focusCycleRoot", false);
+        setBooleanField(term1417818, term1417818.getClass(), "focusTraversalPolicyProvider", false);
+        setField(term1417818, term1417818.getClass(), "printingThreads", null);
+        setBooleanField(term1417818, term1417818.getClass(), "printing", false);
+        setField(term1417818, term1417818.getClass(), "containerListener", null);
+        setIntField(term1417818, term1417818.getClass(), "listeningChildren", 0);
+        setIntField(term1417818, term1417818.getClass(), "listeningBoundsChildren", 0);
+        setIntField(term1417818, term1417818.getClass(), "descendantsCount", 0);
+        setField(term1417818, term1417818.getClass(), "preserveBackgroundColor", null);
+        setIntField(term1417818, term1417818.getClass(), "numOfHWComponents", 0);
+        setIntField(term1417818, term1417818.getClass(), "numOfLWComponents", 0);
+        setField(term1417818, term1417818.getClass(), "modalComp", null);
+        setField(term1417818, term1417818.getClass(), "modalAppContext", null);
+        setIntField(term1417818, term1417818.getClass(), "containerSerializedDataVersion", 0);
+        setField(term1417818, term1417818.getClass(), "peer", null);
+        setField(term1417818, term1417818.getClass(), "parent", null);
+        setField(term1417818, term1417818.getClass(), "appContext", null);
+        setIntField(term1417818, term1417818.getClass(), "x", 0);
+        setIntField(term1417818, term1417818.getClass(), "y", 0);
+        setIntField(term1417818, term1417818.getClass(), "width", 0);
+        setIntField(term1417818, term1417818.getClass(), "height", 0);
+        setField(term1417818, term1417818.getClass(), "foreground", null);
+        setField(term1417818, term1417818.getClass(), "background", null);
+        setField(term1417818, term1417818.getClass(), "font", null);
+        setField(term1417818, term1417818.getClass(), "peerFont", null);
+        setField(term1417818, term1417818.getClass(), "cursor", null);
+        setField(term1417818, term1417818.getClass(), "locale", null);
+        setField(term1417818, term1417818.getClass(), "graphicsConfig", null);
+        setField(term1417818, term1417818.getClass(), "bufferStrategy", null);
+        setBooleanField(term1417818, term1417818.getClass(), "ignoreRepaint", false);
+        setBooleanField(term1417818, term1417818.getClass(), "visible", false);
+        setBooleanField(term1417818, term1417818.getClass(), "enabled", false);
+        setBooleanField(term1417818, term1417818.getClass(), "valid", false);
+        setField(term1417818, term1417818.getClass(), "dropTarget", null);
+        setField(term1417818, term1417818.getClass(), "popups", null);
+        setField(term1417818, term1417818.getClass(), "name", null);
+        setBooleanField(term1417818, term1417818.getClass(), "nameExplicitlySet", false);
+        setBooleanField(term1417818, term1417818.getClass(), "focusable", false);
+        setIntField(term1417818, term1417818.getClass(), "isFocusTraversableOverridden", 0);
+        setField(term1417818, term1417818.getClass(), "focusTraversalKeys", null);
+        setBooleanField(term1417818, term1417818.getClass(), "focusTraversalKeysEnabled", false);
+        setField(term1417818, term1417818.getClass(), "acc", null);
+        setField(term1417818, term1417818.getClass(), "minSize", null);
+        setBooleanField(term1417818, term1417818.getClass(), "minSizeSet", false);
+        setField(term1417818, term1417818.getClass(), "prefSize", null);
+        setBooleanField(term1417818, term1417818.getClass(), "prefSizeSet", false);
+        setField(term1417818, term1417818.getClass(), "maxSize", null);
+        setBooleanField(term1417818, term1417818.getClass(), "maxSizeSet", false);
+        setField(term1417818, term1417818.getClass(), "componentOrientation", null);
+        setBooleanField(term1417818, term1417818.getClass(), "newEventsOnly", false);
+        setField(term1417818, term1417818.getClass(), "componentListener", null);
+        setField(term1417818, term1417818.getClass(), "focusListener", null);
+        setField(term1417818, term1417818.getClass(), "hierarchyListener", null);
+        setField(term1417818, term1417818.getClass(), "hierarchyBoundsListener", null);
+        setField(term1417818, term1417818.getClass(), "keyListener", null);
+        setField(term1417818, term1417818.getClass(), "mouseListener", null);
+        setField(term1417818, term1417818.getClass(), "mouseMotionListener", null);
+        setField(term1417818, term1417818.getClass(), "mouseWheelListener", null);
+        setField(term1417818, term1417818.getClass(), "inputMethodListener", null);
+        setLongField(term1417818, term1417818.getClass(), "eventMask", 0L);
+        setField(term1417818, term1417818.getClass(), "changeSupport", null);
+        setField(term1417818, term1417818.getClass(), "objectLock", null);
+        setBooleanField(term1417818, term1417818.getClass(), "isPacked", false);
+        setIntField(term1417818, term1417818.getClass(), "boundsOp", 0);
+        setField(term1417818, term1417818.getClass(), "compoundShape", null);
+        setField(term1417818, term1417818.getClass(), "mixingCutoutRegion", null);
+        setBooleanField(term1417818, term1417818.getClass(), "isAddNotifyComplete", false);
+        setBooleanField(term1417818, term1417818.getClass(), "backgroundEraseDisabled", false);
+        setField(term1417818, term1417818.getClass(), "eventCache", null);
+        setBooleanField(term1417818, term1417818.getClass(), "coalescingEnabled", false);
+        setBooleanField(term1417818, term1417818.getClass(), "autoFocusTransferOnDisposal", false);
+        setIntField(term1417818, term1417818.getClass(), "componentSerializedDataVersion", 0);
+        setField(term1417818, term1417818.getClass(), "accessibleContext", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.game.state.AITurnView");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = null;
+        callMethod(klass, "setText", argTypes, term1417818, args);
+    }
+
+};
+
+

@@ -1,0 +1,215 @@
+package org.openRealmOfStars.player.diplomacy.speeches;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.player.diplomacy.speeches.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.String;
+import java.util.LinkedList;
+
+public class SpeechSet_setSpeechData_12863753113 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term27120;
+     Object enum103;
+     Object term27317;
+
+    public SpeechSet_setSpeechData_12863753113() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term27134 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Class<? extends Object> term27502 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term27501 = ((Class) term27502).getDeclaredField((String) "TRADE_EMBARGO");
+        ((Field) term27501).setAccessible(true);
+        Object enum76 = ((Field) term27501).get((Object) null);
+        Class<? extends Object> term27833 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term27832 = ((Class) term27833).getDeclaredField((String) "ASK_PROTECTION");
+        ((Field) term27832).setAccessible(true);
+        Object enum77 = ((Field) term27832).get((Object) null);
+        Class<? extends Object> term28167 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term28166 = ((Class) term28167).getDeclaredField((String) "DECLINE");
+        ((Field) term28166).setAccessible(true);
+        Object enum78 = ((Field) term28166).get((Object) null);
+        Class<? extends Object> term28480 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term28479 = ((Class) term28480).getDeclaredField((String) "AGREE");
+        ((Field) term28479).setAccessible(true);
+        Object enum79 = ((Field) term28479).get((Object) null);
+        Class<? extends Object> term28787 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term28786 = ((Class) term28787).getDeclaredField((String) "OFFER_REJECTED");
+        ((Field) term28786).setAccessible(true);
+        Object enum80 = ((Field) term28786).get((Object) null);
+        Class<? extends Object> term29121 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term29120 = ((Class) term29121).getDeclaredField((String) "MOVE_FLEET");
+        ((Field) term29120).setAccessible(true);
+        Object enum81 = ((Field) term29120).get((Object) null);
+        Class<? extends Object> term29443 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term29442 = ((Class) term29443).getDeclaredField((String) "TRADE_EMBARGO_REALM_CHOICE");
+        ((Field) term29442).setAccessible(true);
+        Object enum82 = ((Field) term29442).get((Object) null);
+        Class<? extends Object> term29813 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term29812 = ((Class) term29813).getDeclaredField((String) "BORDER_WARS");
+        ((Field) term29812).setAccessible(true);
+        Object enum83 = ((Field) term29812).get((Object) null);
+        Class<? extends Object> term30138 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term30137 = ((Class) term30138).getDeclaredField((String) "NEUTRAL_GREET");
+        ((Field) term30137).setAccessible(true);
+        Object enum84 = ((Field) term30137).get((Object) null);
+        Class<? extends Object> term30469 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term30468 = ((Class) term30469).getDeclaredField((String) "HATE_GREET");
+        ((Field) term30468).setAccessible(true);
+        Object enum85 = ((Field) term30468).get((Object) null);
+        Class<? extends Object> term30791 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term30790 = ((Class) term30791).getDeclaredField((String) "DECLINE_WAR");
+        ((Field) term30790).setAccessible(true);
+        Object enum86 = ((Field) term30790).get((Object) null);
+        Class<? extends Object> term31116 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term31115 = ((Class) term31116).getDeclaredField((String) "HATE_GREET");
+        ((Field) term31115).setAccessible(true);
+        Object enum87 = ((Field) term31115).get((Object) null);
+        Class<? extends Object> term31438 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term31437 = ((Class) term31438).getDeclaredField((String) "DISLIKE_GREET");
+        ((Field) term31437).setAccessible(true);
+        Object enum88 = ((Field) term31437).get((Object) null);
+        Class<? extends Object> term31769 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term31768 = ((Class) term31769).getDeclaredField((String) "NEUTRAL_GREET");
+        ((Field) term31768).setAccessible(true);
+        Object enum89 = ((Field) term31768).get((Object) null);
+        Class<? extends Object> term32100 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term32099 = ((Class) term32100).getDeclaredField((String) "FRIENDS_GREET");
+        ((Field) term32099).setAccessible(true);
+        Object enum90 = ((Field) term32099).get((Object) null);
+        Class<? extends Object> term32431 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term32430 = ((Class) term32431).getDeclaredField((String) "MOVE_FLEET");
+        ((Field) term32430).setAccessible(true);
+        Object enum91 = ((Field) term32430).get((Object) null);
+        Class<? extends Object> term32753 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term32752 = ((Class) term32753).getDeclaredField((String) "MAKE_WAR");
+        ((Field) term32752).setAccessible(true);
+        Object enum92 = ((Field) term32752).get((Object) null);
+        Class<? extends Object> term33069 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term33068 = ((Class) term33069).getDeclaredField((String) "MOVE_FLEET");
+        ((Field) term33068).setAccessible(true);
+        Object enum93 = ((Field) term33068).get((Object) null);
+        Class<? extends Object> term33391 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term33390 = ((Class) term33391).getDeclaredField((String) "TRADE_ALLIANCE");
+        ((Field) term33390).setAccessible(true);
+        Object enum94 = ((Field) term33390).get((Object) null);
+        Class<? extends Object> term33725 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term33724 = ((Class) term33725).getDeclaredField((String) "FRIENDS_GREET");
+        ((Field) term33724).setAccessible(true);
+        Object enum95 = ((Field) term33724).get((Object) null);
+        Class<? extends Object> term34056 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term34055 = ((Class) term34056).getDeclaredField((String) "DECLINE_WAR");
+        ((Field) term34055).setAccessible(true);
+        Object enum96 = ((Field) term34055).get((Object) null);
+        Class<? extends Object> term34381 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term34380 = ((Class) term34381).getDeclaredField((String) "HATE_GREET");
+        ((Field) term34380).setAccessible(true);
+        Object enum97 = ((Field) term34380).get((Object) null);
+        Class<? extends Object> term34703 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term34702 = ((Class) term34703).getDeclaredField((String) "MOVE_FLEET");
+        ((Field) term34702).setAccessible(true);
+        Object enum98 = ((Field) term34702).get((Object) null);
+        Class<? extends Object> term35025 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term35024 = ((Class) term35025).getDeclaredField((String) "FRIENDS_GREET");
+        ((Field) term35024).setAccessible(true);
+        Object enum99 = ((Field) term35024).get((Object) null);
+        Class<? extends Object> term35356 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term35355 = ((Class) term35356).getDeclaredField((String) "OFFER_ACCEPTED");
+        ((Field) term35355).setAccessible(true);
+        Object enum100 = ((Field) term35355).get((Object) null);
+        Class<? extends Object> term35690 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term35689 = ((Class) term35690).getDeclaredField((String) "TRADE_EMBARGO_REALM_CHOICE");
+        ((Field) term35689).setAccessible(true);
+        Object enum101 = ((Field) term35689).get((Object) null);
+        Class<? extends Object> term36060 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term36059 = ((Class) term36060).getDeclaredField((String) "ASK_PROTECTION");
+        ((Field) term36059).setAccessible(true);
+        Object enum102 = ((Field) term36059).get((Object) null);
+        Class<? extends Object> term36394 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term36393 = ((Class) term36394).getDeclaredField((String) "TRADE_ALLIANCE");
+        ((Field) term36393).setAccessible(true);
+        enum103 = ((Field) term36393).get((Object) null);
+        Class<? extends Object> term36728 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        Field term36727 = ((Class) term36728).getDeclaredField((String) "AGREE");
+        ((Field) term36727).setAccessible(true);
+        Object enum104 = ((Field) term36727).get((Object) null);
+        term27120 = newInstance(Class.forName("org.openRealmOfStars.player.diplomacy.speeches.SpeechSet"));
+        Object term27133 = newInstance(Class.forName("java.util.EnumMap"));
+        Object[] term27314 = (Object[]) newArray("org.openRealmOfStars.player.diplomacy.speeches.SpeechType", 29);
+        Object[] term27315 = (Object[]) newArray("java.lang.Object", 29);
+        setField(term27120, term27120.getClass(), "spSetId", "UoYtihxVaS");
+        setField(term27133, term27133.getClass(), "keyType", term27134);
+        setElement(term27314, 0, enum76);
+        setElement(term27314, 1, enum77);
+        setElement(term27314, 2, enum78);
+        setElement(term27314, 3, enum79);
+        setElement(term27314, 4, enum80);
+        setElement(term27314, 5, enum81);
+        setElement(term27314, 6, enum82);
+        setElement(term27314, 7, enum83);
+        setElement(term27314, 8, enum84);
+        setElement(term27314, 9, enum85);
+        setElement(term27314, 10, enum86);
+        setElement(term27314, 11, enum87);
+        setElement(term27314, 12, enum88);
+        setElement(term27314, 13, enum89);
+        setElement(term27314, 14, enum90);
+        setElement(term27314, 15, enum91);
+        setElement(term27314, 16, enum92);
+        setElement(term27314, 17, enum93);
+        setElement(term27314, 18, enum94);
+        setElement(term27314, 19, enum95);
+        setElement(term27314, 20, enum96);
+        setElement(term27314, 21, enum97);
+        setElement(term27314, 22, enum98);
+        setElement(term27314, 23, enum99);
+        setElement(term27314, 24, enum100);
+        setElement(term27314, 25, enum101);
+        setElement(term27314, 26, enum102);
+        setElement(term27314, 27, enum103);
+        setElement(term27314, 28, enum104);
+        setField(term27133, term27133.getClass(), "keyUniverse", term27314);
+        setField(term27133, term27133.getClass(), "vals", term27315);
+        setIntField(term27133, term27133.getClass(), "size", 0);
+        setField(term27133, term27133.getClass(), "entrySet", null);
+        setField(term27133, term27133.getClass(), "keySet", null);
+        setField(term27133, term27133.getClass(), "values", null);
+        setField(term27120, term27120.getClass(), "speechData", term27133);
+        term27317 = new LinkedList();
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.player.diplomacy.speeches.SpeechSet");
+        Class<?>[] argTypes = new Class<?>[2];
+        argTypes[0] = Class.forName("org.openRealmOfStars.player.diplomacy.speeches.SpeechType");
+        argTypes[1] = Class.forName("java.util.List");
+        Object[] args = new Object[2];
+        args[0] = enum103;
+        args[1] = term27317;
+        callMethod(klass, "setSpeechData", argTypes, term27120, args);
+    }
+
+};
+
+

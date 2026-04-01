@@ -1,0 +1,2467 @@
+2026-04-01 16:03:13.167 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/Pradyuman7_Algorithmics/target/classes
+2026-04-01 16:03:13.253 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 16:03:13.335 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-01 16:03:14.334 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-01 16:03:14.775 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/pd/algorithms/*
+2026-04-01 16:03:14.776 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-01 16:03:14.799 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/Pradyuman7_Algorithmics/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 16:03:14.832 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/Pradyuman7_Algorithmics/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 40255 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/Pradyuman7_Algorithmics/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-01 16:03:14.846 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-01 16:04:54.881 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/FindMaxSubArrayProduct::<init>(int[]): void
+2026-04-01 16:04:54.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/FindMaxSubArrayProduct::<init>(int[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.nums = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 16:04:55.347 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindMaxSubArrayProduct_init_16466562220
+2026-04-01 16:04:55.353 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/FindMaxSubArrayProduct::findMaxProduct(): int
+2026-04-01 16:04:55.354 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/FindMaxSubArrayProduct::findMaxProduct(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.nums
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = %1.length
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (%3 != 0)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then1
+	%45 = phi {%label0 -> -2147483648; %if.then1 -> %28}
+	%23 = phi {%label0 -> 1; %if.then1 -> %37}
+	%38 = phi {%label0 -> 0; %if.then1 -> %39}
+	%13 = this.nums
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%16 = %13.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%18 = (%38 >= %16)
+	if (%18) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%20 = this.nums
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%24 = %20[%38]
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%36 = %23 * %24
+	goto %label2
+
+%label2: 	//predecessors %bb6
+	%28 = static Math.max(%36, %45)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%30 = this.nums
+	goto %bb7
+
+%bb7: 	//predecessors %label3
+	%33 = %30[%38]
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%35 = (%33 != 0)
+	if (%35) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb8
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb8, %if.else2
+	%37 = phi {%bb8 -> %36; %if.else2 -> 1}
+	%39 = %38 + 1
+	goto %label1
+
+%if.then2: 	//predecessors %bb4
+	goto %label4
+
+%label4: 	//predecessors %if.then2
+	%41 = this.nums
+	goto %bb9
+
+%bb9: 	//predecessors %label4
+	%43 = %41.length
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%50 = %43 - 1
+	goto %label5
+
+%label5: 	//predecessors %bb10, %if.then3
+	%77 = phi {%bb10 -> %45; %if.then3 -> %65}
+	%60 = phi {%bb10 -> 1; %if.then3 -> %74}
+	%75 = phi {%bb10 -> %50; %if.then3 -> %76}
+	%55 = (%75 < 0)
+	if (%55) goto %if.then4 else %if.else3
+
+%if.else3: 	//predecessors %label5
+	%57 = this.nums
+	goto %bb11
+
+%bb11: 	//predecessors %if.else3
+	%61 = %57[%75]
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%73 = %60 * %61
+	goto %label6
+
+%label6: 	//predecessors %bb12
+	%65 = static Math.max(%73, %77)
+	goto %label7
+
+%label7: 	//predecessors %label6
+	%67 = this.nums
+	goto %bb13
+
+%bb13: 	//predecessors %label7
+	%70 = %67[%75]
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%72 = (%70 != 0)
+	if (%72) goto %if.then3 else %if.else4
+
+%if.else4: 	//predecessors %bb14
+	goto %if.then3
+
+%if.then3: 	//predecessors %bb14, %if.else4
+	%74 = phi {%bb14 -> %73; %if.else4 -> 1}
+	%76 = %75 + -1
+	goto %label5
+
+%if.then4: 	//predecessors %label5
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then4
+	%retval1 = phi {%if.else0 -> 0; %if.then4 -> %77}
+	return %retval1
+2026-04-01 16:04:55.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428221
+2026-04-01 16:04:55.554 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindMaxSubArrayProduct_init_16466562222
+2026-04-01 16:04:55.629 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428223
+2026-04-01 16:04:55.630 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/FindMaxSubArrayProduct::<init>(int[]): void: null
+2026-04-01 16:04:55.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/FindMaxSubArrayProduct::findMaxProduct(): int: null
+2026-04-01 16:04:55.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/FindMaxSubArrayProduct::<init>(int[]): void processing is finished normally
+2026-04-01 16:04:55.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/FindMaxSubArrayProduct::findMaxProduct(): int processing is finished normally
+2026-04-01 16:04:55.637 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Find2DMatrixSum::<init>(int[][]): void
+2026-04-01 16:04:55.637 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Find2DMatrixSum::<init>(int[][]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.arr = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 16:04:55.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Find2DMatrixSum_init_2275186180
+2026-04-01 16:04:55.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Find2DMatrixSum::findSumOfMatrix(): int
+2026-04-01 16:04:55.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Find2DMatrixSum::findSumOfMatrix(): int
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then0
+	%39 = phi {%label0 -> 0; %if.then0 -> %32}
+	%37 = phi {%label0 -> 0; %if.then0 -> %38}
+	%5 = this.arr
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%8 = %5.length
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%10 = (%37 >= %8)
+	if (%10) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %label2
+
+%label2: 	//predecessors %if.else0, %label3
+	%32 = phi {%if.else0 -> %39; %label3 -> %34}
+	%35 = phi {%if.else0 -> 0; %label3 -> %36}
+	%17 = this.arr
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	%19 = %17[0]
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%22 = %19.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%24 = (%35 >= %22)
+	if (%24) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%26 = this.arr
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%29 = %26[%37]
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%33 = %29[%35]
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%34 = %32 + %33
+	goto %label3
+
+%label3: 	//predecessors %bb7
+	%36 = %35 + 1
+	goto %label2
+
+%if.then0: 	//predecessors %bb4
+	%38 = %37 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %bb1
+	return %39
+2026-04-01 16:04:55.784 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540241
+2026-04-01 16:04:55.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Find2DMatrixSum::findLongSumOfMatrix(): long
+2026-04-01 16:04:55.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Find2DMatrixSum::findLongSumOfMatrix(): long
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then0
+	%41 = phi {%label0 -> 0; %if.then0 -> %34}
+	%39 = phi {%label0 -> 0; %if.then0 -> %40}
+	%5 = this.arr
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%8 = %5.length
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%10 = (%39 >= %8)
+	if (%10) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %label2
+
+%label2: 	//predecessors %if.else0, %label3
+	%34 = phi {%if.else0 -> %41; %label3 -> %36}
+	%37 = phi {%if.else0 -> 0; %label3 -> %38}
+	%17 = this.arr
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	%19 = %17[0]
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%22 = %19.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%24 = (%37 >= %22)
+	if (%24) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%26 = this.arr
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%29 = %26[%39]
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%32 = %29[%37]
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%35 = (long) %32
+	%36 = %34 + %35
+	goto %label3
+
+%label3: 	//predecessors %bb7
+	%38 = %37 + 1
+	goto %label2
+
+%if.then0: 	//predecessors %bb4
+	%40 = %39 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %bb1
+	return %41
+2026-04-01 16:04:55.848 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998522
+2026-04-01 16:04:55.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Find2DMatrixSum_init_2275186183
+2026-04-01 16:04:55.964 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540244
+2026-04-01 16:04:56.041 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998525
+2026-04-01 16:04:56.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Find2DMatrixSum::<init>(int[][]): void: null
+2026-04-01 16:04:56.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Find2DMatrixSum::findSumOfMatrix(): int: null
+2026-04-01 16:04:56.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Find2DMatrixSum::findLongSumOfMatrix(): long: null
+2026-04-01 16:04:56.042 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Find2DMatrixSum::<init>(int[][]): void processing is finished normally
+2026-04-01 16:04:56.043 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Find2DMatrixSum::findSumOfMatrix(): int processing is finished normally
+2026-04-01 16:04:56.043 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Find2DMatrixSum::findLongSumOfMatrix(): long processing is finished normally
+2026-04-01 16:04:56.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Divisors::<init>(): void
+2026-04-01 16:04:56.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Divisors::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:56.097 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Divisors_init_4694070220
+2026-04-01 16:04:56.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Divisors::findDivisors(int): java/util/List
+2026-04-01 16:04:56.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Divisors::findDivisors(int): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%31 = new java/util/HashSet
+	special %31.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = static Integer.valueOf(1)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = interface %31.add(%4)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	goto %label2
+
+%label2: 	//predecessors %label1, %if.then0
+	%23 = phi {%label1 -> 2; %if.then0 -> %24}
+	%10 = arg$0 / 2
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	%12 = (%23 > %10)
+	if (%12) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%15 = arg$0 % %23
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%17 = (%15 != 0)
+	if (%17) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%21 = static Integer.valueOf(%23)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%22 = interface %31.add(%21)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb3, %bb5
+	%24 = %23 + 1
+	goto %label2
+
+%if.then1: 	//predecessors %bb2
+	%27 = static Integer.valueOf(arg$0)
+	goto %bb6
+
+%bb6: 	//predecessors %if.then1
+	%28 = interface %31.add(%27)
+	goto %label3
+
+%label3: 	//predecessors %bb6
+	%32 = new java/util/ArrayList
+	special %32.<init>(%31)
+	goto %bb7
+
+%bb7: 	//predecessors %label3
+	return %32
+2026-04-01 16:04:56.148 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Divisors_findDivisors_18002275141
+2026-04-01 16:04:56.207 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Divisors_init_4694070222
+2026-04-01 16:04:56.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Divisors_findDivisors_18002275143
+2026-04-01 16:04:56.252 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Divisors::<init>(): void: null
+2026-04-01 16:04:56.252 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Divisors::findDivisors(int): java/util/List: null
+2026-04-01 16:04:56.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Divisors::<init>(): void processing is finished normally
+2026-04-01 16:04:56.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Divisors::findDivisors(int): java/util/List processing is finished normally
+2026-04-01 16:04:56.261 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/TwoSum::<init>(): void
+2026-04-01 16:04:56.261 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/TwoSum::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:56.305 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.TwoSum_init_12672952880
+2026-04-01 16:04:56.306 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/TwoSum::twoSum(int[], int): int[]
+2026-04-01 16:04:56.306 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/TwoSum::twoSum(int[], int): int[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%65 = new java/util/HashMap
+	special %65.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	goto %label1
+
+%label1: 	//predecessors %label0, %goto0
+	%48 = phi {%label0 -> 0; %goto0 -> %49}
+	%6 = arg$0.length
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%8 = (%48 >= %6)
+	if (%8) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%11 = arg$0[%48]
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%14 = static Integer.valueOf(%11)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%16 = interface %65.containsKey(%14)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%18 = (%16 == false)
+	if (%18) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%21 = arg$0[%48]
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%24 = static Integer.valueOf(%21)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%26 = interface %65.get(%24)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%30 = (java/util/List) %26
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%31 = static Integer.valueOf(%48)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%32 = interface %30.add(%31)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto0
+
+%if.then0: 	//predecessors %bb4
+	%46 = new java/util/ArrayList
+	special %46.<init>()
+	goto %label2
+
+%label2: 	//predecessors %if.then0
+	%38 = static Integer.valueOf(%48)
+	goto %bb11
+
+%bb11: 	//predecessors %label2
+	%39 = interface %46.add(%38)
+	goto %label3
+
+%label3: 	//predecessors %bb11
+	%42 = arg$0[%48]
+	goto %bb12
+
+%bb12: 	//predecessors %label3
+	%45 = static Integer.valueOf(%42)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%47 = interface %65.put(%45, %46)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	goto %goto0
+
+%goto0: 	//predecessors %bb10, %bb14
+	%49 = %48 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %bb1
+	goto %label4
+
+%label4: 	//predecessors %if.then1, %if.then3
+	%93 = phi {%if.then1 -> 0; %if.then3 -> %94}
+	%54 = arg$0.length
+	goto %bb15
+
+%bb15: 	//predecessors %label4
+	%56 = (%93 >= %54)
+	if (%56) goto %if.then4 else %if.else2
+
+%if.else2: 	//predecessors %bb15
+	%59 = arg$0[%93]
+	goto %bb16
+
+%bb16: 	//predecessors %if.else2
+	%61 = arg$1 - %59
+	goto %label5
+
+%label5: 	//predecessors %bb16
+	%66 = static Integer.valueOf(%61)
+	goto %bb17
+
+%bb17: 	//predecessors %label5
+	%67 = new java/util/ArrayList
+	special %67.<init>()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%69 = interface %65.getOrDefault(%66, %67)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%71 = (java/util/List) %69
+	goto %label6
+
+%label6: 	//predecessors %bb19
+	%78 = interface %71.iterator()
+	goto %bb20
+
+%bb20: 	//predecessors %label6
+	goto %label7
+
+%label7: 	//predecessors %bb20, %if.then2
+	%75 = interface %78.hasNext()
+	goto %bb21
+
+%bb21: 	//predecessors %label7
+	%77 = (%75 == false)
+	if (%77) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb21
+	%80 = interface %78.next()
+	goto %bb22
+
+%bb22: 	//predecessors %if.else3
+	%82 = (java/lang/Integer) %80
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%92 = virtual %82.intValue()
+	goto %label8
+
+%label8: 	//predecessors %bb23
+	%87 = (%93 == %92)
+	if (%87) goto %if.then2 else %if.else4
+
+%if.else4: 	//predecessors %label8
+	%96 = new int[2]
+	goto %bb24
+
+%bb24: 	//predecessors %if.else4
+	%96[0] = %93
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%96[1] = %92
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	goto %bb.return0
+
+%if.then2: 	//predecessors %label8
+	goto %label7
+
+%if.then3: 	//predecessors %bb21
+	%94 = %93 + 1
+	goto %label4
+
+%if.then4: 	//predecessors %bb15
+	%97 = new int[0]
+	goto %bb27
+
+%bb27: 	//predecessors %if.then4
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb26, %bb27
+	%retval1 = phi {%bb26 -> %96; %bb27 -> %97}
+	return %retval1
+2026-04-01 16:04:56.375 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.TwoSum_twoSum_13857754251
+2026-04-01 16:04:56.421 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.TwoSum_init_12672952882
+2026-04-01 16:04:56.464 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.TwoSum_twoSum_13857754253
+2026-04-01 16:04:56.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/TwoSum::<init>(): void: null
+2026-04-01 16:04:56.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/TwoSum::<init>(): void processing is finished normally
+2026-04-01 16:04:56.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/TwoSum::twoSum(int[], int): int[]: null
+2026-04-01 16:04:56.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/TwoSum::twoSum(int[], int): int[] processing is finished normally
+2026-04-01 16:04:56.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/SearchWordInMatrix::<init>(): void
+2026-04-01 16:04:56.471 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/SearchWordInMatrix::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:56.511 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SearchWordInMatrix_init_19377592170
+2026-04-01 16:04:56.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/SearchWordInMatrix::exist(char[][], java/lang/String): bool
+2026-04-01 16:04:56.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/SearchWordInMatrix::exist(char[][], java/lang/String): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %if.then1
+	%24 = phi {%bb0 -> 0; %if.then1 -> %25}
+	%4 = arg$0.length
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%6 = (%24 >= %4)
+	if (%6) goto %if.then2 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %label1
+
+%label1: 	//predecessors %if.else0, %if.then0
+	%22 = phi {%if.else0 -> 0; %if.then0 -> %23}
+	%10 = arg$0[0]
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%13 = %10.length
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%15 = (%22 >= %13)
+	if (%15) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%19 = virtual this.dfs(arg$0, arg$1, %24, %22, 0)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%21 = (%19 == false)
+	if (%21) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb4
+	%23 = %22 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %bb3
+	%25 = %24 + 1
+	goto %label0
+
+%if.then2: 	//predecessors %bb1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else2, %if.then2
+	%retval1 = phi {%if.else2 -> 1; %if.then2 -> 0}
+	return %retval1
+2026-04-01 16:04:56.557 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SearchWordInMatrix_exist_17432196111
+2026-04-01 16:04:56.558 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/SearchWordInMatrix::dfs(char[][], java/lang/String, int, int, int): bool
+2026-04-01 16:04:56.558 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/SearchWordInMatrix::dfs(char[][], java/lang/String, int, int, int): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$1.length()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (arg$4 != %1)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%5 = arg$0.length
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%7 = (arg$2 >= %5)
+	if (%7) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%9 = arg$0[0]
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	%11 = %9.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%13 = (arg$3 >= %11)
+	if (%13) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%15 = (arg$2 < 0)
+	if (%15) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %if.else2
+	%17 = (arg$3 < 0)
+	if (%17) goto %if.then1 else %if.else4
+
+%if.else4: 	//predecessors %if.else3
+	%19 = arg$0[arg$2]
+	goto %bb5
+
+%bb5: 	//predecessors %if.else4
+	%22 = %19[arg$3]
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%23 = virtual arg$1.charAt(arg$4)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%25 = (%22 == %23)
+	if (%25) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %bb2, %bb4, %if.else2, %if.else3, %bb7
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb7
+	%27 = arg$0[arg$2]
+	goto %bb8
+
+%bb8: 	//predecessors %if.then2
+	%65 = %27[arg$3]
+	goto %label0
+
+%label0: 	//predecessors %bb8
+	%30 = arg$0[arg$2]
+	goto %bb9
+
+%bb9: 	//predecessors %label0
+	%30[arg$3] = 42
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%33 = arg$2 + 1
+	%34 = arg$4 + 1
+	%36 = virtual this.dfs(arg$0, arg$1, %33, arg$3, %34)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%38 = (%36 != false)
+	if (%38) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %bb11
+	%41 = arg$2 - 1
+	%42 = arg$4 + 1
+	goto %label1
+
+%label1: 	//predecessors %if.else5
+	%44 = virtual this.dfs(arg$0, arg$1, %41, arg$3, %42)
+	goto %bb12
+
+%bb12: 	//predecessors %label1
+	%46 = (%44 != false)
+	if (%46) goto %if.then3 else %if.else6
+
+%if.else6: 	//predecessors %bb12
+	%49 = arg$3 + 1
+	%50 = arg$4 + 1
+	goto %label2
+
+%label2: 	//predecessors %if.else6
+	%52 = virtual this.dfs(arg$0, arg$1, arg$2, %49, %50)
+	goto %bb13
+
+%bb13: 	//predecessors %label2
+	%54 = (%52 != false)
+	if (%54) goto %if.then3 else %if.else7
+
+%if.else7: 	//predecessors %bb13
+	%57 = arg$3 - 1
+	%58 = arg$4 + 1
+	goto %label3
+
+%label3: 	//predecessors %if.else7
+	%60 = virtual this.dfs(arg$0, arg$1, arg$2, %57, %58)
+	goto %bb14
+
+%bb14: 	//predecessors %label3
+	%62 = (%60 == false)
+	if (%62) goto %if.then4 else %if.then3
+
+%if.then3: 	//predecessors %bb11, %bb12, %bb13, %bb14
+	goto %bb.return0
+
+%if.then4: 	//predecessors %bb14
+	%64 = arg$0[arg$2]
+	goto %bb15
+
+%bb15: 	//predecessors %if.then4
+	%64[arg$3] = %65
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %if.then3, %bb16
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %if.then3 -> 1; %bb16 -> 0}
+	return %retval1
+2026-04-01 16:04:56.600 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SearchWordInMatrix_dfs_4151582712
+2026-04-01 16:04:56.639 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SearchWordInMatrix_init_19377592173
+2026-04-01 16:04:56.680 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SearchWordInMatrix_exist_17432196114
+2026-04-01 16:04:56.723 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SearchWordInMatrix_dfs_4151582715
+2026-04-01 16:04:56.724 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/SearchWordInMatrix::<init>(): void: null
+2026-04-01 16:04:56.724 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/SearchWordInMatrix::exist(char[][], java/lang/String): bool: null
+2026-04-01 16:04:56.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/SearchWordInMatrix::<init>(): void processing is finished normally
+2026-04-01 16:04:56.724 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/SearchWordInMatrix::dfs(char[][], java/lang/String, int, int, int): bool: null
+2026-04-01 16:04:56.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/SearchWordInMatrix::exist(char[][], java/lang/String): bool processing is finished normally
+2026-04-01 16:04:56.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/SearchWordInMatrix::dfs(char[][], java/lang/String, int, int, int): bool processing is finished normally
+2026-04-01 16:04:56.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/MaxSubArraySum::<init>(int[]): void
+2026-04-01 16:04:56.727 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/MaxSubArraySum::<init>(int[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.arr = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 16:04:56.768 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MaxSubArraySum_init_9753600050
+2026-04-01 16:04:56.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/MaxSubArraySum::getSum(): int
+2026-04-01 16:04:56.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/MaxSubArraySum::getSum(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.arr
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%18 = %1.length
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%4 = this.arr
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%9 = %4[0]
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%7 = this.arr
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%12 = %7[0]
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	goto %label3
+
+%label3: 	//predecessors %label2, %label5
+	%40 = phi {%label2 -> %9; %label5 -> %37}
+	%29 = phi {%label2 -> %12; %label5 -> %36}
+	%38 = phi {%label2 -> 1; %label5 -> %39}
+	%20 = (%38 >= %18)
+	if (%20) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label3
+	%22 = this.arr
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%32 = %22[%38]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%26 = this.arr
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%30 = %26[%38]
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%33 = %29 + %30
+	%36 = static Math.max(%32, %33)
+	goto %label4
+
+%label4: 	//predecessors %bb7
+	%37 = static Math.max(%40, %36)
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%39 = %38 + 1
+	goto %label3
+
+%if.then0: 	//predecessors %label3
+	return %40
+2026-04-01 16:04:56.820 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MaxSubArraySum_getSum_18438980881
+2026-04-01 16:04:56.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MaxSubArraySum_init_9753600052
+2026-04-01 16:04:56.904 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MaxSubArraySum_getSum_18438980883
+2026-04-01 16:04:56.905 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/MaxSubArraySum::<init>(int[]): void: null
+2026-04-01 16:04:56.905 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/MaxSubArraySum::<init>(int[]): void processing is finished normally
+2026-04-01 16:04:56.905 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/MaxSubArraySum::getSum(): int: null
+2026-04-01 16:04:56.905 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/MaxSubArraySum::getSum(): int processing is finished normally
+2026-04-01 16:04:56.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/PerfectPowerAlgorithm::<init>(): void
+2026-04-01 16:04:56.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/PerfectPowerAlgorithm::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:56.952 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.PerfectPowerAlgorithm_init_7224523000
+2026-04-01 16:04:56.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/PerfectPowerAlgorithm::isPerfectPower(int): int[]
+2026-04-01 16:04:56.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/PerfectPowerAlgorithm::isPerfectPower(int): int[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %if.then1
+	%36 = phi {%bb0 -> 2; %if.then1 -> %37}
+	%7 = (double) arg$0
+	%5 = (double) %36
+	%8 = 1.0 / %5
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%10 = static Math.pow(%7, %8)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%12 = static Math.round(%10)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%33 = (int) %12
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%16 = (%33 >= 2)
+	if (%16) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %label1
+	%21 = (double) %33
+	%22 = (double) %36
+	%25 = static Math.pow(%21, %22)
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%26 = (double) arg$0
+	%28 = (%25 cmpl %26)
+	%30 = (%28 != 0)
+	if (%30) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%38 = new int[2]
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%38[0] = %33
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%38[1] = %36
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb4
+	%37 = %36 + 1
+	goto %label0
+
+%bb.return0: 	//predecessors %if.else0, %bb7
+	%retval1 = phi {%if.else0 -> null; %bb7 -> %38}
+	return %retval1
+2026-04-01 16:04:56.998 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429981
+2026-04-01 16:04:57.046 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.PerfectPowerAlgorithm_init_7224523002
+2026-04-01 16:04:57.096 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429983
+2026-04-01 16:04:57.096 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/PerfectPowerAlgorithm::<init>(): void: null
+2026-04-01 16:04:57.097 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/PerfectPowerAlgorithm::isPerfectPower(int): int[]: null
+2026-04-01 16:04:57.097 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/PerfectPowerAlgorithm::<init>(): void processing is finished normally
+2026-04-01 16:04:57.097 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/PerfectPowerAlgorithm::isPerfectPower(int): int[] processing is finished normally
+2026-04-01 16:04:57.101 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Exponent::<init>(): void
+2026-04-01 16:04:57.102 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Exponent::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:57.149 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_init_15272578480
+2026-04-01 16:04:57.149 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Exponent::modExp(int, int, int): int
+2026-04-01 16:04:57.149 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Exponent::modExp(int, int, int): int
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then0
+	%34 = phi {%label0 -> 1; %if.then0 -> %31}
+	%32 = phi {%label0 -> 31; %if.then0 -> %33}
+	%6 = (%32 < 0)
+	if (%6) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%11 = %34 * %34
+	%12 = (long) arg$2
+	%29 = %11 % %12
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%16 = 1 << %32
+	%18 = %16 && arg$1
+	%20 = (%18 == 0)
+	if (%20) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	%23 = (long) arg$0
+	%26 = %29 * %23
+	%27 = (long) arg$2
+	%30 = %26 % %27
+	goto %bb0
+
+%bb0: 	//predecessors %if.else1
+	goto %if.then0
+
+%if.then0: 	//predecessors %label2, %bb0
+	%31 = phi {%label2 -> %29; %bb0 -> %30}
+	%33 = %32 + -1
+	goto %label1
+
+%if.then1: 	//predecessors %label1
+	%36 = (int) %34
+	return %36
+2026-04-01 16:04:57.195 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_modExp_17345852951
+2026-04-01 16:04:57.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Exponent::pow(int, int): int
+2026-04-01 16:04:57.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Exponent::pow(int, int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %if.else0
+	%6 = phi {%bb0 -> arg$1; %if.else0 -> %5}
+	%11 = phi {%bb0 -> 1; %if.else0 -> %10}
+	%5 = %6 + -1
+	%8 = (%6 <= 0)
+	if (%8) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%10 = %11 * arg$0
+	goto %label0
+
+%if.then0: 	//predecessors %label0
+	return %11
+2026-04-01 16:04:57.250 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_pow_18071531102
+2026-04-01 16:04:57.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/Exponent::pow(long, long): long
+2026-04-01 16:04:57.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/Exponent::pow(long, long): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %if.else0
+	%6 = phi {%bb0 -> arg$1; %if.else0 -> %5}
+	%13 = phi {%bb0 -> 1; %if.else0 -> %12}
+	%5 = %6 - 1
+	%8 = (%6 cmp 0)
+	%10 = (%8 <= 0)
+	if (%10) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%12 = %13 * arg$0
+	goto %label0
+
+%if.then0: 	//predecessors %label0
+	return %13
+2026-04-01 16:04:57.308 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_pow_18071213343
+2026-04-01 16:04:57.343 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_init_15272578484
+2026-04-01 16:04:57.383 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_modExp_17345852955
+2026-04-01 16:04:57.416 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_pow_18071531106
+2026-04-01 16:04:57.450 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.Exponent_pow_18071213347
+2026-04-01 16:04:57.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Exponent::<init>(): void: null
+2026-04-01 16:04:57.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Exponent::modExp(int, int, int): int: null
+2026-04-01 16:04:57.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Exponent::pow(int, int): int: null
+2026-04-01 16:04:57.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/Exponent::pow(long, long): long: null
+2026-04-01 16:04:57.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Exponent::<init>(): void processing is finished normally
+2026-04-01 16:04:57.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Exponent::modExp(int, int, int): int processing is finished normally
+2026-04-01 16:04:57.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Exponent::pow(int, int): int processing is finished normally
+2026-04-01 16:04:57.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/Exponent::pow(long, long): long processing is finished normally
+2026-04-01 16:04:57.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/CountDistinctElements::<init>(int[]): void
+2026-04-01 16:04:57.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/CountDistinctElements::<init>(int[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.arr = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 16:04:57.493 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountDistinctElements_init_10072082590
+2026-04-01 16:04:57.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/CountDistinctElements::countDistinct(): int
+2026-04-01 16:04:57.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/CountDistinctElements::countDistinct(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%22 = new java/util/HashSet
+	special %22.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	goto %label1
+
+%label1: 	//predecessors %label0, %label2
+	%20 = phi {%label0 -> 0; %label2 -> %21}
+	%5 = this.arr
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%8 = %5.length
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%10 = (%20 >= %8)
+	if (%10) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%12 = this.arr
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%15 = %12[%20]
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%18 = static Integer.valueOf(%15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%19 = virtual %22.add(%18)
+	goto %label2
+
+%label2: 	//predecessors %bb5
+	%21 = %20 + 1
+	goto %label1
+
+%if.then0: 	//predecessors %bb2
+	%24 = virtual %22.size()
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	return %24
+2026-04-01 16:04:57.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountDistinctElements_countDistinct_1804844101
+2026-04-01 16:04:57.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountDistinctElements_init_10072082592
+2026-04-01 16:04:57.597 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountDistinctElements_countDistinct_1804844103
+2026-04-01 16:04:57.598 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/CountDistinctElements::<init>(int[]): void: null
+2026-04-01 16:04:57.598 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/CountDistinctElements::countDistinct(): int: null
+2026-04-01 16:04:57.598 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/CountDistinctElements::<init>(int[]): void processing is finished normally
+2026-04-01 16:04:57.598 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/CountDistinctElements::countDistinct(): int processing is finished normally
+2026-04-01 16:04:57.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/CheckPrime::<init>(): void
+2026-04-01 16:04:57.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/CheckPrime::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:57.633 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CheckPrime_init_4170567200
+2026-04-01 16:04:57.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/CheckPrime::checkPrime(long): bool
+2026-04-01 16:04:57.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/CheckPrime::checkPrime(long): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 cmp 1)
+	%3 = (%1 != 0)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%5 = (arg$0 cmp 2)
+	%7 = (%5 <= 0)
+	if (%7) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%9 = arg$0 % 2
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%11 = (%9 cmp 0)
+	%13 = (%11 != 0)
+	if (%13) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.then0, %bb1
+	%15 = (double) arg$0
+	%17 = static Math.sqrt(%15)
+	goto %bb2
+
+%bb2: 	//predecessors %if.then1
+	%19 = (int) %17
+	%24 = %19 + 1
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then2
+	%36 = phi {%label0 -> 3; %if.then2 -> %37}
+	%26 = (%36 >= %24)
+	if (%26) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %label1
+	%29 = (long) %36
+	%31 = arg$0 % %29
+	goto %bb3
+
+%bb3: 	//predecessors %if.else3
+	%33 = (%31 cmp 0)
+	%35 = (%33 != 0)
+	if (%35) goto %if.then2 else %if.else4
+
+%if.else4: 	//predecessors %bb3
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb3
+	%37 = %36 + 2
+	goto %label1
+
+%if.then3: 	//predecessors %label1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else2, %if.else4, %if.then3
+	%retval1 = phi {%if.else0 -> 0; %if.else2 -> 0; %if.else4 -> 0; %if.then3 -> 1}
+	return %retval1
+2026-04-01 16:04:57.674 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CheckPrime_checkPrime_8952781471
+2026-04-01 16:04:57.711 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CheckPrime_init_4170567202
+2026-04-01 16:04:57.746 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CheckPrime_checkPrime_8952781473
+2026-04-01 16:04:57.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/CheckPrime::<init>(): void: null
+2026-04-01 16:04:57.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/CheckPrime::<init>(): void processing is finished normally
+2026-04-01 16:04:57.747 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/CheckPrime::checkPrime(long): bool: null
+2026-04-01 16:04:57.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/CheckPrime::checkPrime(long): bool processing is finished normally
+2026-04-01 16:04:57.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/MatrixMultiplication2D::<init>(): void
+2026-04-01 16:04:57.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/MatrixMultiplication2D::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:57.787 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MatrixMultiplication2D_init_14674424780
+2026-04-01 16:04:57.788 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/MatrixMultiplication2D::matrixMult2D(int[][], int[][]): int[][]
+2026-04-01 16:04:57.788 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/MatrixMultiplication2D::matrixMult2D(int[][], int[][]): int[][]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$0[0]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = %1.length
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = arg$1.length
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = (%4 != %5)
+	if (%7) goto %if.then3 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%13 = arg$0.length
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%10 = arg$1[0]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%12 = %10.length
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%76 = new int[%12][%13]
+	goto %label0
+
+%label0: 	//predecessors %bb6
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then1
+	%72 = phi {%label0 -> 0; %if.then1 -> %73}
+	%19 = arg$0.length
+	goto %bb7
+
+%bb7: 	//predecessors %label1
+	%21 = (%72 >= %19)
+	if (%21) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb7
+	goto %label2
+
+%label2: 	//predecessors %if.else1, %if.then0
+	%70 = phi {%if.else1 -> 0; %if.then0 -> %71}
+	%25 = arg$1[0]
+	goto %bb8
+
+%bb8: 	//predecessors %label2
+	%28 = %25.length
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%30 = (%70 >= %28)
+	if (%30) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb9
+	%34 = %76[%72]
+	goto %bb10
+
+%bb10: 	//predecessors %if.else2
+	%34[%70] = 0
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %label3
+
+%label3: 	//predecessors %bb11, %bb19
+	%68 = phi {%bb11 -> 0; %bb19 -> %69}
+	%40 = arg$1.length
+	goto %bb12
+
+%bb12: 	//predecessors %label3
+	%42 = (%68 >= %40)
+	if (%42) goto %if.then0 else %if.else3
+
+%if.else3: 	//predecessors %bb12
+	%65 = %76[%72]
+	goto %bb13
+
+%bb13: 	//predecessors %if.else3
+	%62 = %65[%70]
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%51 = arg$0[%72]
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%59 = %51[%68]
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%56 = arg$1[%68]
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%60 = %56[%70]
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%63 = %59 * %60
+	%67 = %62 + %63
+	%65[%70] = %67
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%69 = %68 + 1
+	goto %label3
+
+%if.then0: 	//predecessors %bb12
+	%71 = %70 + 1
+	goto %label2
+
+%if.then1: 	//predecessors %bb9
+	%73 = %72 + 1
+	goto %label1
+
+%if.then2: 	//predecessors %bb7
+	goto %bb.return0
+
+%if.then3: 	//predecessors %bb3
+	%75 = System.out
+	virtual %75.println("Matrix cannot be multiplicated due to their uncompatible orders")
+	goto %bb20
+
+%bb20: 	//predecessors %if.then3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then2, %bb20
+	%retval1 = phi {%if.then2 -> %76; %bb20 -> null}
+	return %retval1
+2026-04-01 16:04:57.825 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211411
+2026-04-01 16:04:57.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/MatrixMultiplication2D::showMat(int[][]): void
+2026-04-01 16:04:57.826 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/MatrixMultiplication2D::showMat(int[][]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = System.out
+	virtual %3.println("Matrix is Null")
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	%8 = arg$0.length
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	goto %label0
+
+%label0: 	//predecessors %bb2, %bb8
+	%34 = phi {%bb2 -> 0; %bb8 -> %35}
+	%10 = (%34 >= %8)
+	if (%10) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label0
+	%23 = arg$0[%34]
+	goto %label1
+
+%label1: 	//predecessors %if.else1
+	goto %label2
+
+%label2: 	//predecessors %label1, %bb7
+	%30 = phi {%label1 -> 0; %bb7 -> %31}
+	%16 = arg$0[0]
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%19 = %16.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%21 = (%30 >= %19)
+	if (%21) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%26 = System.out
+	%27 = %23[%30]
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	virtual %26.print(%27)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%29 = System.out
+	virtual %29.print(" ")
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%31 = %30 + 1
+	goto %label2
+
+%if.then1: 	//predecessors %bb4
+	%33 = System.out
+	virtual %33.println()
+	goto %bb8
+
+%bb8: 	//predecessors %if.then1
+	%35 = %34 + 1
+	goto %label0
+
+%if.then2: 	//predecessors %label0
+	%37 = System.out
+	virtual %37.println()
+	goto %goto0
+
+%goto0: 	//predecessors %bb1, %if.then2
+	return
+2026-04-01 16:04:57.862 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MatrixMultiplication2D_showMat_4041992012
+2026-04-01 16:04:57.900 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MatrixMultiplication2D_init_14674424783
+2026-04-01 16:04:57.935 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211414
+2026-04-01 16:04:57.976 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.MatrixMultiplication2D_showMat_4041992015
+2026-04-01 16:04:57.976 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/MatrixMultiplication2D::<init>(): void: null
+2026-04-01 16:04:57.976 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/MatrixMultiplication2D::matrixMult2D(int[][], int[][]): int[][]: null
+2026-04-01 16:04:57.976 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/MatrixMultiplication2D::showMat(int[][]): void: null
+2026-04-01 16:04:57.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/MatrixMultiplication2D::<init>(): void processing is finished normally
+2026-04-01 16:04:57.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/MatrixMultiplication2D::matrixMult2D(int[][], int[][]): int[][] processing is finished normally
+2026-04-01 16:04:57.977 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/MatrixMultiplication2D::showMat(int[][]): void processing is finished normally
+2026-04-01 16:04:57.981 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/SievePrimesAlgorithm::<init>(): void
+2026-04-01 16:04:57.981 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/SievePrimesAlgorithm::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:58.024 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SievePrimesAlgorithm_init_593477220
+2026-04-01 16:04:58.024 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/SievePrimesAlgorithm::start(): void
+2026-04-01 16:04:58.024 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/SievePrimesAlgorithm::start(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %bb1
+	%10 = phi {%bb0 -> 0; %bb1 -> %11}
+	%4 = SievePrimesAlgorithm.N
+	%6 = (%10 >= %4)
+	if (%6) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%8 = SievePrimesAlgorithm.prime
+	%8[%10] = 1
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%11 = %10 + 1
+	goto %label0
+
+%if.then0: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %if.then0, %if.then1
+	%45 = phi {%if.then0 -> 2; %if.then1 -> %46}
+	%18 = %45 * %45
+	%19 = SievePrimesAlgorithm.N
+	%21 = (%18 > %19)
+	if (%21) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label1
+	%23 = SievePrimesAlgorithm.prime
+	%26 = %23[%45]
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	%28 = (%26 == false)
+	if (%28) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb2
+	%31 = %45 * 2
+	goto %label2
+
+%label2: 	//predecessors %if.else2, %bb3
+	%42 = phi {%if.else2 -> %31; %bb3 -> %44}
+	%36 = SievePrimesAlgorithm.N
+	%38 = (%42 > %36)
+	if (%38) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %label2
+	%40 = SievePrimesAlgorithm.prime
+	%40[%42] = 0
+	goto %bb3
+
+%bb3: 	//predecessors %if.else3
+	%44 = %42 + %45
+	goto %label2
+
+%if.then1: 	//predecessors %bb2, %label2
+	%46 = %45 + 1
+	goto %label1
+
+%if.then2: 	//predecessors %label1
+	return
+2026-04-01 16:04:58.072 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SievePrimesAlgorithm_start_9805760061
+2026-04-01 16:04:58.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/SievePrimesAlgorithm::isPrime(int): bool
+2026-04-01 16:04:58.074 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/SievePrimesAlgorithm::isPrime(int): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 > 1)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 != 2)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.then0
+	%5 = arg$0 % 2
+	goto %bb1
+
+%bb1: 	//predecessors %if.then1
+	%7 = (%5 != 0)
+	if (%7) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb1
+	%9 = SievePrimesAlgorithm.prime
+	%11 = %9[arg$0]
+	goto %bb2
+
+%bb2: 	//predecessors %if.then2
+	%13 = (%11 == false)
+	if (%13) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb2
+	goto %label0
+
+%label0: 	//predecessors %if.else3
+	goto %bb.return0
+
+%if.then3: 	//predecessors %bb2
+	goto %goto0
+
+%catch0: 	//catches from %bb2, %if.then2, %if.else3
+	%15 = catch java/lang/ArrayIndexOutOfBoundsException
+goto %label1
+
+%label1: 	//predecessors %catch0
+	virtual %15.printStackTrace()
+	goto %goto0
+
+%goto0: 	//predecessors %if.then3, %label1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %label0, %goto0
+	%retval1 = phi {%if.else0 -> 0; %if.else1 -> 1; %if.else2 -> 0; %label0 -> 1; %goto0 -> 0}
+	return %retval1
+2026-04-01 16:04:58.115 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446032
+2026-04-01 16:04:58.157 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SievePrimesAlgorithm_init_593477223
+2026-04-01 16:04:58.199 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SievePrimesAlgorithm_start_9805760064
+2026-04-01 16:04:58.236 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446035
+2026-04-01 16:04:58.236 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/SievePrimesAlgorithm::<init>(): void: null
+2026-04-01 16:04:58.237 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/SievePrimesAlgorithm::start(): void: null
+2026-04-01 16:04:58.237 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/SievePrimesAlgorithm::isPrime(int): bool: null
+2026-04-01 16:04:58.237 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/SievePrimesAlgorithm::<init>(): void processing is finished normally
+2026-04-01 16:04:58.237 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/SievePrimesAlgorithm::start(): void processing is finished normally
+2026-04-01 16:04:58.237 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/SievePrimesAlgorithm::isPrime(int): bool processing is finished normally
+2026-04-01 16:04:58.240 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/GetDivSquareSum::<init>(): void
+2026-04-01 16:04:58.241 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/GetDivSquareSum::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:58.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.GetDivSquareSum_init_18096735200
+2026-04-01 16:04:58.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/GetDivSquareSum::sumDivSquare(int): long
+2026-04-01 16:04:58.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/GetDivSquareSum::sumDivSquare(int): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != 0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 != 1)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.then0
+	%5 = (arg$0 != 2)
+	if (%5) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %if.then1
+	goto %bb.return0
+
+%if.then2: 	//predecessors %if.then1
+	%7 = arg$0 * arg$0
+	%9 = 1 + %7
+	%11 = (long) %9
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then3
+	%72 = phi {%label0 -> %11; %if.then3 -> %69}
+	%70 = phi {%label0 -> 2; %if.then3 -> %71}
+	%21 = (double) %70
+	%19 = (double) arg$0
+	%22 = static Math.sqrt(%19)
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%24 = (%21 cmpg %22)
+	%26 = (%24 > 0)
+	if (%26) goto %if.then4 else %if.else3
+
+%if.else3: 	//predecessors %bb1
+	%29 = arg$0 % %70
+	goto %bb2
+
+%bb2: 	//predecessors %if.else3
+	%31 = (%29 != 0)
+	if (%31) goto %if.then3 else %if.else4
+
+%if.else4: 	//predecessors %bb2
+	%35 = %70 * %70
+	%38 = (long) %35
+	%67 = %72 + %38
+	goto %label2
+
+%label2: 	//predecessors %if.else4
+	%42 = arg$0 / %70
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%44 = arg$0 % %42
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%46 = (%44 != 0)
+	if (%46) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %bb4
+	%49 = arg$0 / %70
+	goto %bb5
+
+%bb5: 	//predecessors %if.else5
+	%52 = (%49 == %70)
+	if (%52) goto %if.then3 else %if.else6
+
+%if.else6: 	//predecessors %bb5
+	%57 = arg$0 / %70
+	goto %bb6
+
+%bb6: 	//predecessors %if.else6
+	%58 = arg$0 / %70
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%60 = %57 * %58
+	%63 = (long) %60
+	%68 = %67 + %63
+	goto %if.then3
+
+%if.then3: 	//predecessors %bb2, %bb4, %bb5, %bb7
+	%69 = phi {%bb2 -> %72; %bb4 -> %67; %bb5 -> %67; %bb7 -> %68}
+	%71 = %70 + 1
+	goto %label1
+
+%if.then4: 	//predecessors %bb1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %if.then4
+	%retval1 = phi {%if.else0 -> 0; %if.else1 -> 1; %if.else2 -> 5; %if.then4 -> %72}
+	return %retval1
+2026-04-01 16:04:58.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735831
+2026-04-01 16:04:58.356 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.GetDivSquareSum_init_18096735202
+2026-04-01 16:04:58.392 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735833
+2026-04-01 16:04:58.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/GetDivSquareSum::<init>(): void: null
+2026-04-01 16:04:58.392 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/GetDivSquareSum::sumDivSquare(int): long: null
+2026-04-01 16:04:58.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/GetDivSquareSum::<init>(): void processing is finished normally
+2026-04-01 16:04:58.393 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/GetDivSquareSum::sumDivSquare(int): long processing is finished normally
+2026-04-01 16:04:58.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/OccurrencesOfCharacters::<init>(java/lang/String): void
+2026-04-01 16:04:58.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/OccurrencesOfCharacters::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = new java/util/HashMap
+	special %2.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.hm = %2
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.s = arg$0
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%12 = virtual arg$0.toCharArray()
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	%9 = %12.length
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %bb5, %goto0
+	%53 = phi {%bb5 -> 0; %goto0 -> %54}
+	%11 = (%53 >= %9)
+	if (%11) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%46 = %12[%53]
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%18 = this.hm
+	goto %bb6
+
+%bb6: 	//predecessors %label2
+	%19 = static Character.valueOf(%46)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%21 = virtual %18.containsKey(%19)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%23 = (%21 == false)
+	if (%23) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb8
+	%41 = this.hm
+	goto %bb9
+
+%bb9: 	//predecessors %if.else1
+	%42 = static Character.valueOf(%46)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%30 = this.hm
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%31 = static Character.valueOf(%46)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%33 = virtual %30.get(%31)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%35 = (java/lang/Integer) %33
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%37 = virtual %35.intValue()
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%39 = %37 + 1
+	%43 = static Integer.valueOf(%39)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%44 = virtual %41.put(%42, %43)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	goto %goto0
+
+%if.then0: 	//predecessors %bb8
+	%49 = this.hm
+	goto %bb18
+
+%bb18: 	//predecessors %if.then0
+	%50 = static Character.valueOf(%46)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%51 = static Integer.valueOf(1)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%52 = virtual %49.put(%50, %51)
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	goto %goto0
+
+%goto0: 	//predecessors %bb17, %bb21
+	%54 = %53 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %label1
+	return
+2026-04-01 16:04:58.428 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.OccurrencesOfCharacters_init_14771693150
+2026-04-01 16:04:58.428 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfCharacter(char): int
+2026-04-01 16:04:58.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfCharacter(char): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.hm
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static Character.valueOf(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual %2.get(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = (%5 == null)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%10 = this.hm
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%11 = static Character.valueOf(arg$0)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%13 = virtual %10.get(%11)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%15 = (java/lang/Integer) %13
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%17 = virtual %15.intValue()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb8, %if.then0
+	%retval1 = phi {%bb8 -> %17; %if.then0 -> 0}
+	return %retval1
+2026-04-01 16:04:58.464 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412111
+2026-04-01 16:04:58.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfAllCharacters(): void
+2026-04-01 16:04:58.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfAllCharacters(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.hm
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.entrySet()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%10 = interface %3.iterator()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %label0
+
+%label0: 	//predecessors %bb3, %bb11
+	%7 = interface %10.hasNext()
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%9 = (%7 == false)
+	if (%9) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	%12 = interface %10.next()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else0
+	%19 = (java/util/Map$Entry) %12
+	goto %label1
+
+%label1: 	//predecessors %bb5
+	%26 = System.out
+	%17 = interface %19.getKey()
+	goto %bb6
+
+%bb6: 	//predecessors %label1
+	%23 = static String.valueOf(%17)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%21 = interface %19.getValue()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%24 = static String.valueOf(%21)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%27 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Character  has occured  times"))
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual %26.println(%27)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %label0
+
+%if.then0: 	//predecessors %bb4
+	return
+2026-04-01 16:04:58.498 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456712
+2026-04-01 16:04:58.528 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.OccurrencesOfCharacters_init_14771693153
+2026-04-01 16:04:58.560 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412114
+2026-04-01 16:04:58.592 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456715
+2026-04-01 16:04:58.593 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/OccurrencesOfCharacters::<init>(java/lang/String): void: null
+2026-04-01 16:04:58.593 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfCharacter(char): int: null
+2026-04-01 16:04:58.593 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfAllCharacters(): void: null
+2026-04-01 16:04:58.593 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/OccurrencesOfCharacters::<init>(java/lang/String): void processing is finished normally
+2026-04-01 16:04:58.594 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfCharacter(char): int processing is finished normally
+2026-04-01 16:04:58.594 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/OccurrencesOfCharacters::findNumOccurencesOfAllCharacters(): void processing is finished normally
+2026-04-01 16:04:58.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/CountSort::<init>(): void
+2026-04-01 16:04:58.599 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/CountSort::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:58.630 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountSort_init_11882285860
+2026-04-01 16:04:58.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/CountSort::countSort(int, int[]): int[]
+2026-04-01 16:04:58.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/CountSort::countSort(int, int[]): int[]
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %if.then0
+	%22 = phi {%label0 -> 0; %if.then0 -> %19}
+	%20 = phi {%label0 -> 0; %if.then0 -> %21}
+	%6 = arg$1.length
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%8 = (%20 >= %6)
+	if (%8) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%12 = arg$1[%20]
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%14 = (%22 >= %12)
+	if (%14) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%18 = arg$1[%20]
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb2
+	%19 = phi {%bb1 -> %22; %bb2 -> %18}
+	%21 = %20 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %bb0
+	%24 = %22 + 1
+	%96 = new int[%24]
+	goto %label2
+
+%label2: 	//predecessors %if.then1
+	goto %label3
+
+%label3: 	//predecessors %label2, %bb6
+	%43 = phi {%label2 -> 0; %bb6 -> %44}
+	%30 = arg$1.length
+	goto %bb3
+
+%bb3: 	//predecessors %label3
+	%32 = (%43 >= %30)
+	if (%32) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb3
+	%41 = arg$1[%43]
+	goto %bb4
+
+%bb4: 	//predecessors %if.else2
+	%38 = %96[%41]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%42 = %38 + 1
+	%96[%41] = %42
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%44 = %43 + 1
+	goto %label3
+
+%if.then2: 	//predecessors %bb3
+	goto %label4
+
+%label4: 	//predecessors %if.then2, %bb10
+	%67 = phi {%if.then2 -> 1; %bb10 -> %68}
+	%50 = %96.length
+	goto %bb7
+
+%bb7: 	//predecessors %label4
+	%52 = (%67 >= %50)
+	if (%52) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb7
+	%61 = %96[%67]
+	goto %bb8
+
+%bb8: 	//predecessors %if.else3
+	%59 = %67 - 1
+	%62 = %96[%59]
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%66 = %61 + %62
+	%96[%67] = %66
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%68 = %67 + 1
+	goto %label4
+
+%if.then3: 	//predecessors %bb7
+	%108 = new int[arg$0]
+	goto %label5
+
+%label5: 	//predecessors %if.then3
+	%71 = arg$0 - 1
+	goto %label6
+
+%label6: 	//predecessors %label5, %bb17
+	%99 = phi {%label5 -> %71; %bb17 -> %100}
+	%76 = (%99 < 0)
+	if (%76) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %label6
+	%80 = arg$1[%99]
+	goto %bb11
+
+%bb11: 	//predecessors %if.else4
+	%82 = %96[%80]
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%87 = %82 - 1
+	%88 = arg$1[%99]
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%108[%87] = %88
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%97 = arg$1[%99]
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%94 = %96[%97]
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%98 = %94 - 1
+	%96[%97] = %98
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%100 = %99 + -1
+	goto %label6
+
+%if.then4: 	//predecessors %label6
+	%102 = System.out
+	virtual %102.println("SORTED ARRAY")
+	goto %bb18
+
+%bb18: 	//predecessors %if.then4
+	goto %label7
+
+%label7: 	//predecessors %bb18, %bb20
+	%113 = phi {%bb18 -> 0; %bb20 -> %114}
+	%107 = (%113 >= arg$0)
+	if (%107) goto %if.then5 else %if.else5
+
+%if.else5: 	//predecessors %label7
+	%112 = %108[%113]
+	goto %bb19
+
+%bb19: 	//predecessors %if.else5
+	arg$1[%113] = %112
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%114 = %113 + 1
+	goto %label7
+
+%if.then5: 	//predecessors %label7
+	return arg$1
+2026-04-01 16:04:58.664 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountSort_countSort_15880353251
+2026-04-01 16:04:58.696 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountSort_init_11882285862
+2026-04-01 16:04:58.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.CountSort_countSort_15880353253
+2026-04-01 16:04:58.725 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/CountSort::<init>(): void: null
+2026-04-01 16:04:58.725 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/CountSort::countSort(int, int[]): int[]: null
+2026-04-01 16:04:58.725 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/CountSort::<init>(): void processing is finished normally
+2026-04-01 16:04:58.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/CountSort::countSort(int, int[]): int[] processing is finished normally
+2026-04-01 16:04:58.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/FindPhrase::<init>(): void
+2026-04-01 16:04:58.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/FindPhrase::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 16:04:58.757 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindPhrase_init_206500590
+2026-04-01 16:04:58.758 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/FindPhrase::timesFound(java/lang/String, java/lang/String): int
+2026-04-01 16:04:58.758 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/FindPhrase::timesFound(java/lang/String, java/lang/String): int
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %label2
+	%13 = phi {%label0 -> 0; %label2 -> %10}
+	%4 = phi {%label0 -> 0; %label2 -> %12}
+	%11 = virtual arg$0.indexOf(arg$1, %4)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%8 = (%11 == -1)
+	if (%8) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%10 = %13 + 1
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%12 = %11 + 1
+	goto %label1
+
+%if.then0: 	//predecessors %bb0
+	return %13
+2026-04-01 16:04:58.788 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindPhrase_timesFound_835432431
+2026-04-01 16:04:58.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindPhrase_init_206500592
+2026-04-01 16:04:58.851 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.FindPhrase_timesFound_835432433
+2026-04-01 16:04:58.852 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/FindPhrase::<init>(): void: null
+2026-04-01 16:04:58.852 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/FindPhrase::timesFound(java/lang/String, java/lang/String): int: null
+2026-04-01 16:04:58.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/FindPhrase::<init>(): void processing is finished normally
+2026-04-01 16:04:58.852 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/FindPhrase::timesFound(java/lang/String, java/lang/String): int processing is finished normally
+2026-04-01 16:04:58.854 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/BinarySearch::<init>(int[]): void
+2026-04-01 16:04:58.855 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/BinarySearch::<init>(int[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	static Arrays.sort(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.array = arg$0
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%1 = arg$0.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.size = %1
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-04-01 16:04:58.882 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.BinarySearch_init_8571170880
+2026-04-01 16:04:58.883 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/BinarySearch::search(int): bool
+2026-04-01 16:04:58.883 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/BinarySearch::search(int): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.size
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = %1 - 1
+	%5 = virtual this.binarySearch(0, %3, arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-04-01 16:04:58.915 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.BinarySearch_search_8851646741
+2026-04-01 16:04:58.915 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pd/algorithms/BinarySearch::binarySearch(int, int, int): bool
+2026-04-01 16:04:58.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pd/algorithms/BinarySearch::binarySearch(int, int, int): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 <= arg$1)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = arg$1 + arg$0
+	%23 = %3 / 2
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%6 = this.array
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%9 = %6[%23]
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%11 = (%9 <= arg$2)
+	if (%11) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%14 = %23 - 1
+	%27 = virtual this.binarySearch(arg$0, %14, arg$2)
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb2
+	%17 = this.array
+	goto %bb4
+
+%bb4: 	//predecessors %if.then1
+	%20 = %17[%23]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%22 = (%20 >= arg$2)
+	if (%22) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%25 = %23 + 1
+	%28 = virtual this.binarySearch(%25, arg$1, arg$2)
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb5
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb3, %bb6, %if.then2
+	%retval1 = phi {%if.else0 -> 0; %bb3 -> %27; %bb6 -> %28; %if.then2 -> 1}
+	return %retval1
+2026-04-01 16:04:58.945 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.BinarySearch_binarySearch_4262792672
+2026-04-01 16:04:58.976 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.BinarySearch_init_8571170883
+2026-04-01 16:04:59.007 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.BinarySearch_search_8851646744
+2026-04-01 16:04:59.038 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pd.algorithms.BinarySearch_binarySearch_4262792675
+2026-04-01 16:04:59.038 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/BinarySearch::<init>(int[]): void: null
+2026-04-01 16:04:59.039 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/BinarySearch::search(int): bool: null
+2026-04-01 16:04:59.039 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pd/algorithms/BinarySearch::binarySearch(int, int, int): bool: null
+2026-04-01 16:04:59.039 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/BinarySearch::<init>(int[]): void processing is finished normally
+2026-04-01 16:04:59.039 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/BinarySearch::search(int): bool processing is finished normally
+2026-04-01 16:04:59.039 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pd/algorithms/BinarySearch::binarySearch(int, int, int): bool processing is finished normally
+2026-04-01 16:04:59.039 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-01 16:04:59.039 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

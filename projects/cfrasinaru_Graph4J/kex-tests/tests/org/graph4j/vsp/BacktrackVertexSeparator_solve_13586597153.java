@@ -1,0 +1,216 @@
+package org.graph4j.vsp;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.vsp.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.util.ArrayList;
+import java.util.ArrayDeque;
+
+public class BacktrackVertexSeparator_solve_13586597153 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term52528;
+
+    public BacktrackVertexSeparator_solve_13586597153() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        ArrayDeque term52596 = new ArrayDeque();
+        Object term52593 = newInstance(Class.forName("org.graph4j.vsp.BacktrackVertexSeparator$Worker"));
+        Object[] term52595 = (Object[]) newArray("[I", 6);
+        Object term52604 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object term52611 = newInstance(Class.forName("java.security.AccessControlContext"));
+        Object term52616 = newInstance(Class.forName("java.lang.ThreadLocal$ThreadLocalMap"));
+        Object term52619 = newInstance(Class.forName("java.lang.ThreadLocal$ThreadLocalMap"));
+        Object term52625 = newInstance(Class.forName("java.lang.Object"));
+        Object term52626 = newInstance(Class.forName("java.lang.Object"));
+        setBooleanField(term52593, term52593.getClass(), "running", true);
+        setField(term52593, term52593.getClass(), "assignQueue", term52595);
+        setField(term52593, term52593.getClass(), "nodeStack", term52596);
+        setField(term52593, term52593.getClass(), "this$0", null);
+        setField(term52593, term52593.getClass(), "name", "");
+        setIntField(term52593, term52593.getClass(), "priority", -298905997);
+        setBooleanField(term52593, term52593.getClass(), "daemon", false);
+        setBooleanField(term52593, term52593.getClass(), "stillborn", false);
+        setLongField(term52593, term52593.getClass(), "eetop", 4502292577098212311L);
+        setField(term52593, term52593.getClass(), "target", null);
+        setField(term52604, term52604.getClass(), "parent", null);
+        setField(term52604, term52604.getClass(), "name", null);
+        setIntField(term52604, term52604.getClass(), "maxPriority", 10);
+        setBooleanField(term52604, term52604.getClass(), "destroyed", true);
+        setBooleanField(term52604, term52604.getClass(), "daemon", true);
+        setIntField(term52604, term52604.getClass(), "nUnstartedThreads", 436551890);
+        setIntField(term52604, term52604.getClass(), "nthreads", -1176677999);
+        setField(term52604, term52604.getClass(), "threads", null);
+        setIntField(term52604, term52604.getClass(), "ngroups", -1491389341);
+        setField(term52604, term52604.getClass(), "groups", null);
+        setField(term52593, term52593.getClass(), "group", term52604);
+        setField(term52593, term52593.getClass(), "contextClassLoader", null);
+        setField(term52611, term52611.getClass(), "context", null);
+        setBooleanField(term52611, term52611.getClass(), "isPrivileged", false);
+        setBooleanField(term52611, term52611.getClass(), "isAuthorized", true);
+        setField(term52611, term52611.getClass(), "privilegedContext", null);
+        setField(term52611, term52611.getClass(), "combiner", null);
+        setField(term52611, term52611.getClass(), "permissions", null);
+        setField(term52611, term52611.getClass(), "parent", null);
+        setBooleanField(term52611, term52611.getClass(), "isWrapped", false);
+        setBooleanField(term52611, term52611.getClass(), "isLimited", false);
+        setField(term52611, term52611.getClass(), "limitedContext", null);
+        setField(term52593, term52593.getClass(), "inheritedAccessControlContext", term52611);
+        setField(term52616, term52616.getClass(), "table", null);
+        setIntField(term52616, term52616.getClass(), "size", 0);
+        setIntField(term52616, term52616.getClass(), "threshold", 0);
+        setField(term52593, term52593.getClass(), "threadLocals", term52616);
+        setField(term52619, term52619.getClass(), "table", null);
+        setIntField(term52619, term52619.getClass(), "size", 0);
+        setIntField(term52619, term52619.getClass(), "threshold", 0);
+        setField(term52593, term52593.getClass(), "inheritableThreadLocals", term52619);
+        setLongField(term52593, term52593.getClass(), "stackSize", -3730936709704460408L);
+        setLongField(term52593, term52593.getClass(), "tid", -8614778293741404325L);
+        setIntField(term52593, term52593.getClass(), "threadStatus", -1204433663);
+        setField(term52593, term52593.getClass(), "parkBlocker", term52625);
+        setField(term52593, term52593.getClass(), "blocker", null);
+        setField(term52593, term52593.getClass(), "blockerLock", term52626);
+        setField(term52593, term52593.getClass(), "uncaughtExceptionHandler", null);
+        setLongField(term52593, term52593.getClass(), "threadLocalRandomSeed", 0L);
+        setIntField(term52593, term52593.getClass(), "threadLocalRandomProbe", 0);
+        setIntField(term52593, term52593.getClass(), "threadLocalRandomSecondarySeed", 0);
+        Object term52630 = newInstance(Class.forName("org.graph4j.vsp.BacktrackVertexSeparator$Worker"));
+        setBooleanField(term52630, term52630.getClass(), "running", false);
+        setField(term52630, term52630.getClass(), "assignQueue", null);
+        setField(term52630, term52630.getClass(), "nodeStack", null);
+        setField(term52630, term52630.getClass(), "this$0", null);
+        setField(term52630, term52630.getClass(), "name", null);
+        setIntField(term52630, term52630.getClass(), "priority", 0);
+        setBooleanField(term52630, term52630.getClass(), "daemon", false);
+        setBooleanField(term52630, term52630.getClass(), "stillborn", false);
+        setLongField(term52630, term52630.getClass(), "eetop", 0L);
+        setField(term52630, term52630.getClass(), "target", null);
+        setField(term52630, term52630.getClass(), "group", null);
+        setField(term52630, term52630.getClass(), "contextClassLoader", null);
+        setField(term52630, term52630.getClass(), "inheritedAccessControlContext", null);
+        setField(term52630, term52630.getClass(), "threadLocals", null);
+        setField(term52630, term52630.getClass(), "inheritableThreadLocals", null);
+        setLongField(term52630, term52630.getClass(), "stackSize", 0L);
+        setLongField(term52630, term52630.getClass(), "tid", 0L);
+        setIntField(term52630, term52630.getClass(), "threadStatus", 0);
+        setField(term52630, term52630.getClass(), "parkBlocker", null);
+        setField(term52630, term52630.getClass(), "blocker", null);
+        setField(term52630, term52630.getClass(), "blockerLock", null);
+        setField(term52630, term52630.getClass(), "uncaughtExceptionHandler", null);
+        setLongField(term52630, term52630.getClass(), "threadLocalRandomSeed", 0L);
+        setIntField(term52630, term52630.getClass(), "threadLocalRandomProbe", 0);
+        setIntField(term52630, term52630.getClass(), "threadLocalRandomSecondarySeed", 0);
+        Object term52642 = newInstance(Class.forName("org.graph4j.vsp.BacktrackVertexSeparator$Worker"));
+        setBooleanField(term52642, term52642.getClass(), "running", false);
+        setField(term52642, term52642.getClass(), "assignQueue", null);
+        setField(term52642, term52642.getClass(), "nodeStack", null);
+        setField(term52642, term52642.getClass(), "this$0", null);
+        setField(term52642, term52642.getClass(), "name", null);
+        setIntField(term52642, term52642.getClass(), "priority", 0);
+        setBooleanField(term52642, term52642.getClass(), "daemon", false);
+        setBooleanField(term52642, term52642.getClass(), "stillborn", false);
+        setLongField(term52642, term52642.getClass(), "eetop", 0L);
+        setField(term52642, term52642.getClass(), "target", null);
+        setField(term52642, term52642.getClass(), "group", null);
+        setField(term52642, term52642.getClass(), "contextClassLoader", null);
+        setField(term52642, term52642.getClass(), "inheritedAccessControlContext", null);
+        setField(term52642, term52642.getClass(), "threadLocals", null);
+        setField(term52642, term52642.getClass(), "inheritableThreadLocals", null);
+        setLongField(term52642, term52642.getClass(), "stackSize", 0L);
+        setLongField(term52642, term52642.getClass(), "tid", 0L);
+        setIntField(term52642, term52642.getClass(), "threadStatus", 0);
+        setField(term52642, term52642.getClass(), "parkBlocker", null);
+        setField(term52642, term52642.getClass(), "blocker", null);
+        setField(term52642, term52642.getClass(), "blockerLock", null);
+        setField(term52642, term52642.getClass(), "uncaughtExceptionHandler", null);
+        setLongField(term52642, term52642.getClass(), "threadLocalRandomSeed", 0L);
+        setIntField(term52642, term52642.getClass(), "threadLocalRandomProbe", 0);
+        setIntField(term52642, term52642.getClass(), "threadLocalRandomSecondarySeed", 0);
+        Object term52654 = newInstance(Class.forName("org.graph4j.vsp.BacktrackVertexSeparator$Worker"));
+        setBooleanField(term52654, term52654.getClass(), "running", false);
+        setField(term52654, term52654.getClass(), "assignQueue", null);
+        setField(term52654, term52654.getClass(), "nodeStack", null);
+        setField(term52654, term52654.getClass(), "this$0", null);
+        setField(term52654, term52654.getClass(), "name", null);
+        setIntField(term52654, term52654.getClass(), "priority", 0);
+        setBooleanField(term52654, term52654.getClass(), "daemon", false);
+        setBooleanField(term52654, term52654.getClass(), "stillborn", false);
+        setLongField(term52654, term52654.getClass(), "eetop", 0L);
+        setField(term52654, term52654.getClass(), "target", null);
+        setField(term52654, term52654.getClass(), "group", null);
+        setField(term52654, term52654.getClass(), "contextClassLoader", null);
+        setField(term52654, term52654.getClass(), "inheritedAccessControlContext", null);
+        setField(term52654, term52654.getClass(), "threadLocals", null);
+        setField(term52654, term52654.getClass(), "inheritableThreadLocals", null);
+        setLongField(term52654, term52654.getClass(), "stackSize", 0L);
+        setLongField(term52654, term52654.getClass(), "tid", 0L);
+        setIntField(term52654, term52654.getClass(), "threadStatus", 0);
+        setField(term52654, term52654.getClass(), "parkBlocker", null);
+        setField(term52654, term52654.getClass(), "blocker", null);
+        setField(term52654, term52654.getClass(), "blockerLock", null);
+        setField(term52654, term52654.getClass(), "uncaughtExceptionHandler", null);
+        setLongField(term52654, term52654.getClass(), "threadLocalRandomSeed", 0L);
+        setIntField(term52654, term52654.getClass(), "threadLocalRandomProbe", 0);
+        setIntField(term52654, term52654.getClass(), "threadLocalRandomSecondarySeed", 0);
+        ArrayList term52591 = new ArrayList();
+        ((ArrayList) term52591).add(term52593);
+        ((ArrayList) term52591).add(term52630);
+        ((ArrayList) term52591).add(term52642);
+        ((ArrayList) term52591).add(term52654);
+        term52528 = newInstance(Class.forName("org.graph4j.vsp.BacktrackVertexSeparator"));
+        Object term52679 = newInstance(Class.forName("org.graph4j.vsp.VertexSeparator"));
+        setLongField(term52528, term52528.getClass(), "timeLimit", 4616440478358528406L);
+        setLongField(term52528, term52528.getClass(), "startTime", 3427570961451840069L);
+        setBooleanField(term52528, term52528.getClass(), "timeExpired", true);
+        setField(term52679, term52679.getClass(), "graph", null);
+        setField(term52679, term52679.getClass(), "separator", null);
+        setField(term52679, term52679.getClass(), "leftShore", null);
+        setField(term52679, term52679.getClass(), "rightShore", null);
+        setIntField(term52679, term52679.getClass(), "maxShoreSize", 0);
+        setField(term52528, term52528.getClass(), "solution", term52679);
+        setField(term52528, term52528.getClass(), "workers", term52591);
+        setLongField(term52528, term52528.getClass(), "nodesExplored", -5447369594017685765L);
+        setIntField(term52528, term52528.getClass(), "minSepSize", 784981368);
+        setIntField(term52528, term52528.getClass(), "vertexConnectivity", 1786501867);
+        setIntField(term52528, term52528.getClass(), "greedySepSize", 608414757);
+        setIntField(term52528, term52528.getClass(), "LEFT", -67554229);
+        setIntField(term52528, term52528.getClass(), "RIGHT", 1715935221);
+        setIntField(term52528, term52528.getClass(), "SEP", 1396211446);
+        setIntField(term52528, term52528.getClass(), "UNKNOWN", -407124155);
+        setIntField(term52528, term52528.getClass(), "FAILURE", 488605627);
+        setIntField(term52528, term52528.getClass(), "POTENTIAL_SOLUTION", 469579894);
+        setIntField(term52528, term52528.getClass(), "maxShoreSize", 1767003547);
+        setField(term52528, term52528.getClass(), "graph", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.vsp.BacktrackVertexSeparator");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "solve", argTypes, term52528, args);
+    }
+
+};
+
+

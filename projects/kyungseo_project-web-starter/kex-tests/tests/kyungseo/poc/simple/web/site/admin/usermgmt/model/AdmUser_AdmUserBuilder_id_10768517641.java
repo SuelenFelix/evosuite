@@ -1,0 +1,211 @@
+package kyungseo.poc.simple.web.site.admin.usermgmt.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static kyungseo.poc.simple.web.site.admin.usermgmt.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Integer;
+import java.lang.Boolean;
+import java.util.ArrayList;
+import java.lang.Object;
+
+public class AdmUser_AdmUserBuilder_id_10768517641 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term6609;
+     Object term6786;
+
+    public AdmUser_AdmUserBuilder_id_10768517641() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term6610 = new Long(-4776514981294468834L);
+        Integer term6648 = new Integer(480137250);
+        Boolean term6686 = new Boolean(false);
+        Long term6691 = new Long(-7273680182770718108L);
+        ArrayList term6693 = new ArrayList();
+        ((ArrayList) term6693).add((Object)null);
+        ((ArrayList) term6693).add((Object)null);
+        ArrayList term6696 = new ArrayList();
+        ((ArrayList) term6696).add((Object)null);
+        ((ArrayList) term6696).add((Object)null);
+        ((ArrayList) term6696).add((Object)null);
+        ((ArrayList) term6696).add((Object)null);
+        Object term6690 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term6690, term6690.getClass(), "id", term6691);
+        setField(term6690, term6690.getClass(), "users", term6693);
+        setField(term6690, term6690.getClass(), "privileges", term6696);
+        setField(term6690, term6690.getClass(), "name", "");
+        Long term6701 = new Long(2809748481176687920L);
+        ArrayList term6703 = new ArrayList();
+        ((ArrayList) term6703).add((Object)null);
+        ((ArrayList) term6703).add((Object)null);
+        ArrayList term6706 = new ArrayList();
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        ((ArrayList) term6706).add((Object)null);
+        Object term6700 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term6700, term6700.getClass(), "id", term6701);
+        setField(term6700, term6700.getClass(), "users", term6703);
+        setField(term6700, term6700.getClass(), "privileges", term6706);
+        setField(term6700, term6700.getClass(), "name", "");
+        Long term6711 = new Long(-4058686252500969842L);
+        ArrayList term6713 = new ArrayList();
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ((ArrayList) term6713).add((Object)null);
+        ArrayList term6716 = new ArrayList();
+        ((ArrayList) term6716).add((Object)null);
+        ((ArrayList) term6716).add((Object)null);
+        ((ArrayList) term6716).add((Object)null);
+        ((ArrayList) term6716).add((Object)null);
+        ((ArrayList) term6716).add((Object)null);
+        ((ArrayList) term6716).add((Object)null);
+        Object term6710 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term6710, term6710.getClass(), "id", term6711);
+        setField(term6710, term6710.getClass(), "users", term6713);
+        setField(term6710, term6710.getClass(), "privileges", term6716);
+        setField(term6710, term6710.getClass(), "name", "");
+        Long term6721 = new Long(-5004803270846838598L);
+        ArrayList term6723 = new ArrayList();
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ((ArrayList) term6723).add((Object)null);
+        ArrayList term6726 = new ArrayList();
+        ((ArrayList) term6726).add((Object)null);
+        Object term6720 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term6720, term6720.getClass(), "id", term6721);
+        setField(term6720, term6720.getClass(), "users", term6723);
+        setField(term6720, term6720.getClass(), "privileges", term6726);
+        setField(term6720, term6720.getClass(), "name", "");
+        Long term6731 = new Long(6077991958696417121L);
+        ArrayList term6733 = new ArrayList();
+        ArrayList term6736 = new ArrayList();
+        ((ArrayList) term6736).add((Object)null);
+        ((ArrayList) term6736).add((Object)null);
+        Object term6730 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term6730, term6730.getClass(), "id", term6731);
+        setField(term6730, term6730.getClass(), "users", term6733);
+        setField(term6730, term6730.getClass(), "privileges", term6736);
+        setField(term6730, term6730.getClass(), "name", "");
+        Long term6741 = new Long(-2828343143039517941L);
+        ArrayList term6743 = new ArrayList();
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ((ArrayList) term6743).add((Object)null);
+        ArrayList term6746 = new ArrayList();
+        ((ArrayList) term6746).add((Object)null);
+        ((ArrayList) term6746).add((Object)null);
+        ((ArrayList) term6746).add((Object)null);
+        ((ArrayList) term6746).add((Object)null);
+        ((ArrayList) term6746).add((Object)null);
+        Object term6740 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term6740, term6740.getClass(), "id", term6741);
+        setField(term6740, term6740.getClass(), "users", term6743);
+        setField(term6740, term6740.getClass(), "privileges", term6746);
+        setField(term6740, term6740.getClass(), "name", "");
+        ArrayList term6688 = new ArrayList();
+        ((ArrayList) term6688).add(term6690);
+        ((ArrayList) term6688).add(term6700);
+        ((ArrayList) term6688).add(term6710);
+        ((ArrayList) term6688).add(term6720);
+        ((ArrayList) term6688).add(term6730);
+        ((ArrayList) term6688).add(term6710);
+        ((ArrayList) term6688).add(term6730);
+        ((ArrayList) term6688).add(term6740);
+        ((ArrayList) term6688).add(term6730);
+        Boolean term6752 = new Boolean(false);
+        term6609 = newInstance(Class.forName("kyungseo.poc.simple.web.site.admin.usermgmt.model.AdmUser$AdmUserBuilder"));
+        Object term6766 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term6767 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term6771 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term6776 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term6777 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term6781 = newInstance(Class.forName("java.time.LocalTime"));
+        setField(term6609, term6609.getClass(), "id", term6610);
+        setField(term6609, term6609.getClass(), "membername", "BdsLFSRWda");
+        setField(term6609, term6609.getClass(), "email", "tMhhBYonAI");
+        setField(term6609, term6609.getClass(), "password", "AaQRshwIQC");
+        setField(term6609, term6609.getClass(), "age", term6648);
+        setField(term6609, term6609.getClass(), "phoneNumber", "rHgKCfgCsg");
+        setField(term6609, term6609.getClass(), "country", "AWtIUOuutt");
+        setField(term6609, term6609.getClass(), "birthdate", "jBgJZpHifl");
+        setField(term6609, term6609.getClass(), "enabled", term6686);
+        setField(term6609, term6609.getClass(), "roles", term6688);
+        setField(term6609, term6609.getClass(), "isUsing2FA", term6752);
+        setField(term6609, term6609.getClass(), "secret", "AYnbmgRCKr");
+        setIntField(term6767, term6767.getClass(), "year", 2019);
+        setShortField(term6767, term6767.getClass(), "month", (short) 5);
+        setShortField(term6767, term6767.getClass(), "day", (short) 16);
+        setField(term6766, term6766.getClass(), "date", term6767);
+        setByteField(term6771, term6771.getClass(), "hour", (byte) 3);
+        setByteField(term6771, term6771.getClass(), "minute", (byte) 12);
+        setByteField(term6771, term6771.getClass(), "second", (byte) 27);
+        setIntField(term6771, term6771.getClass(), "nano", 775737832);
+        setField(term6766, term6766.getClass(), "time", term6771);
+        setField(term6609, term6609.getClass(), "regDate", term6766);
+        setIntField(term6777, term6777.getClass(), "year", 2016);
+        setShortField(term6777, term6777.getClass(), "month", (short) 12);
+        setShortField(term6777, term6777.getClass(), "day", (short) 2);
+        setField(term6776, term6776.getClass(), "date", term6777);
+        setByteField(term6781, term6781.getClass(), "hour", (byte) 7);
+        setByteField(term6781, term6781.getClass(), "minute", (byte) 38);
+        setByteField(term6781, term6781.getClass(), "second", (byte) 49);
+        setIntField(term6781, term6781.getClass(), "nano", 415044053);
+        setField(term6776, term6776.getClass(), "time", term6781);
+        setField(term6609, term6609.getClass(), "modDate", term6776);
+        term6786 = new Long(-8211859616692114655L);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("kyungseo.poc.simple.web.site.admin.usermgmt.model.AdmUser$AdmUserBuilder");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.Long");
+        Object[] args = new Object[1];
+        args[0] = term6786;
+        callMethod(klass, "id", argTypes, term6609, args);
+    }
+
+};
+
+

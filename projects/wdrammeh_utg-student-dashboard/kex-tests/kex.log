@@ -1,0 +1,3496 @@
+2026-04-01 17:25:18.118 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes
+2026-04-01 17:25:18.418 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 17:25:18.485 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-01 17:25:20.103 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-01 17:25:20.754 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package core/module/*
+2026-04-01 17:25:20.755 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-01 17:25:20.782 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 17:25:20.840 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/wdrammeh_utg-student-dashboard/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 36933 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-01 17:25:20.858 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-01 17:27:00.982 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::<init>(): void
+2026-04-01 17:27:00.983 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%92 = new proto/KPanel
+	%4 = new java/awt/BorderLayout
+	special %4.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special %92.<init>(%4)
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%6 = static Student.isGuest()
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%8 = (%6 == false)
+	if (%8) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%11 = static MComponent.createUnavailableActivity("Analysis")
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	virtual %92.add(%11, "Center")
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %goto0
+
+%if.then0: 	//predecessors %bb3
+	%14 = new java/awt/CardLayout
+	special %14.<init>()
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	this.cardLayout = %14
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%91 = new proto/KPanel
+	%18 = this.cardLayout
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	special %91.<init>(%18)
+	goto %label1
+
+%label1: 	//predecessors %bb8
+	%24 = this.cardLayout
+	goto %bb9
+
+%bb9: 	//predecessors %label1
+	%22 = virtual this.getModulesBasement()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%25 = virtual %91.add(%22)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	virtual %24.addLayoutComponent(%25, "courses")
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%31 = this.cardLayout
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%29 = virtual this.getSemestersBasement()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%32 = virtual %91.add(%29)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	virtual %31.addLayoutComponent(%32, "semesters")
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%38 = this.cardLayout
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%36 = virtual this.getYearsBasement()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%39 = virtual %91.add(%36)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	virtual %38.addLayoutComponent(%39, "years")
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%66 = new proto/KComboBox
+	%46 = new java/lang/String[3]
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%46[0] = "My Courses"
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%46[1] = "Semesters"
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%46[2] = "Academic Years"
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	special %66.<init>(%46)
+	goto %label2
+
+%label2: 	//predecessors %bb24
+	virtual %66.setToolTipText("Change Analysis")
+	goto %bb25
+
+%bb25: 	//predecessors %label2
+	%52 = invokeDynamic (core/module/ModuleAnalysis, proto/KComboBox, proto/KPanel): java/awt/event/ActionListener @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/awt/event/ActionEvent): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$new$0(proto/KComboBox, proto/KPanel, java/awt/event/ActionEvent): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/awt/event/ActionEvent): void)))
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	virtual %66.addActionListener(%52)
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%87 = new proto/KPanel
+	%57 = new java/awt/FlowLayout
+	special %57.<init>(2)
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	special %87.<init>(%57)
+	goto %label3
+
+%label3: 	//predecessors %bb28
+	%68 = new java/awt/Component[2]
+	goto %bb29
+
+%bb29: 	//predecessors %label3
+	%64 = new proto/KLabel
+	goto %label4
+
+%label4: 	//predecessors %bb29
+	%62 = static FontFactory.createPlainFont(15)
+	goto %bb30
+
+%bb30: 	//predecessors %label4
+	special %64.<init>("Showing analysis based on:", %62)
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%68[0] = %64
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%68[1] = %66
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	virtual %87.addAll(%68)
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%89 = new proto/KPanel
+	%73 = new java/awt/BorderLayout
+	special %73.<init>()
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	special %89.<init>(%73)
+	goto %label5
+
+%label5: 	//predecessors %bb35
+	%85 = new proto/KPanel
+	%83 = new java/awt/Component[1]
+	goto %bb36
+
+%bb36: 	//predecessors %label5
+	%81 = new proto/KLabel
+	%79 = FontFactory.BODY_HEAD_FONT
+	special %81.<init>("Analysis Center", %79)
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	%83[0] = %81
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	special %85.<init>(%83)
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	virtual %89.add(%85, "West")
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	virtual %89.add(%87, "East")
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	virtual %92.add(%89, "North")
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	virtual %92.add(%91, "Center")
+	goto %goto0
+
+%goto0: 	//predecessors %bb5, %bb42
+	static Board.addCard(%92, "Analysis")
+	goto %bb43
+
+%bb43: 	//predecessors %goto0
+	return
+2026-04-01 17:27:01.714 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_init_1150366940
+2026-04-01 17:27:01.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::answerActivity(): void
+2026-04-01 17:27:01.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::answerActivity(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	static Board.showCard("Analysis")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = static Student.isGuest()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%5 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$answerActivity$1(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	static SwingUtilities.invokeLater(%5)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb3
+	return
+2026-04-01 17:27:03.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_answerActivity_5673488271
+2026-04-01 17:27:03.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::getModulesBasement(): java/awt/Component
+2026-04-01 17:27:03.144 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::getModulesBasement(): java/awt/Component
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$3(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual this.newValueLabel(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.APlusLabel = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$5(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7 = virtual this.newValueLabel(%5)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.ANeutralLabel = %7
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%9 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$7(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%11 = virtual this.newValueLabel(%9)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.AMinusLabel = %11
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%13 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$9(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%15 = virtual this.newValueLabel(%13)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	this.BPlusLabel = %15
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%17 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$11(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%19 = virtual this.newValueLabel(%17)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	this.BNeutralLabel = %19
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%21 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$13(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%23 = virtual this.newValueLabel(%21)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	this.BMinusLabel = %23
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%25 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$15(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%27 = virtual this.newValueLabel(%25)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	this.CPlusLabel = %27
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%29 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$17(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%31 = virtual this.newValueLabel(%29)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	this.CNeutralLabel = %31
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%33 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$19(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%35 = virtual this.newValueLabel(%33)
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	this.CMinusLabel = %35
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%37 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$21(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%39 = virtual this.newValueLabel(%37)
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	this.DLabel = %39
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%41 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$23(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%43 = virtual this.newValueLabel(%41)
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	this.FLabel = %43
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	%45 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$24(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%47 = virtual this.newSingletonLabel(%45)
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	this.highestScoreLabel = %47
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%49 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$25(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	%51 = virtual this.newSingletonLabel(%49)
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	this.lowestScoreLabel = %51
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	%53 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$26(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	%55 = virtual this.newSingletonLabel(%53)
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	this.highestMajorScoreLabel = %55
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	%57 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$27(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	%59 = virtual this.newSingletonLabel(%57)
+	goto %bb44
+
+%bb44: 	//predecessors %bb43
+	this.lowestMajorScoreLabel = %59
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%61 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$28(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb46
+
+%bb46: 	//predecessors %bb45
+	%63 = virtual this.newSingletonLabel(%61)
+	goto %bb47
+
+%bb47: 	//predecessors %bb46
+	this.highestMinorScoreLabel = %63
+	goto %bb48
+
+%bb48: 	//predecessors %bb47
+	%65 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$29(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb49
+
+%bb49: 	//predecessors %bb48
+	%67 = virtual this.newSingletonLabel(%65)
+	goto %bb50
+
+%bb50: 	//predecessors %bb49
+	this.lowestMinorScoreLabel = %67
+	goto %bb51
+
+%bb51: 	//predecessors %bb50
+	%69 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$30(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb52
+
+%bb52: 	//predecessors %bb51
+	%71 = virtual this.newSingletonLabel(%69)
+	goto %bb53
+
+%bb53: 	//predecessors %bb52
+	this.highestDERScoreLabel = %71
+	goto %bb54
+
+%bb54: 	//predecessors %bb53
+	%73 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$31(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb55
+
+%bb55: 	//predecessors %bb54
+	%75 = virtual this.newSingletonLabel(%73)
+	goto %bb56
+
+%bb56: 	//predecessors %bb55
+	this.lowestDERScoreLabel = %75
+	goto %bb57
+
+%bb57: 	//predecessors %bb56
+	%77 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$32(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb58
+
+%bb58: 	//predecessors %bb57
+	%79 = virtual this.newSingletonLabel(%77)
+	goto %bb59
+
+%bb59: 	//predecessors %bb58
+	this.highestGERScoreLabel = %79
+	goto %bb60
+
+%bb60: 	//predecessors %bb59
+	%81 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$33(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb61
+
+%bb61: 	//predecessors %bb60
+	%83 = virtual this.newSingletonLabel(%81)
+	goto %bb62
+
+%bb62: 	//predecessors %bb61
+	this.lowestGERScoreLabel = %83
+	goto %bb63
+
+%bb63: 	//predecessors %bb62
+	%85 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$35(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb64
+
+%bb64: 	//predecessors %bb63
+	%87 = virtual this.newValueLabel(%85)
+	goto %bb65
+
+%bb65: 	//predecessors %bb64
+	this.majorsLabel = %87
+	goto %bb66
+
+%bb66: 	//predecessors %bb65
+	%89 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$37(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb67
+
+%bb67: 	//predecessors %bb66
+	%91 = virtual this.newValueLabel(%89)
+	goto %bb68
+
+%bb68: 	//predecessors %bb67
+	this.minorsLabel = %91
+	goto %bb69
+
+%bb69: 	//predecessors %bb68
+	%93 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$39(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb70
+
+%bb70: 	//predecessors %bb69
+	%95 = virtual this.newValueLabel(%93)
+	goto %bb71
+
+%bb71: 	//predecessors %bb70
+	this.DERsLabel = %95
+	goto %bb72
+
+%bb72: 	//predecessors %bb71
+	%97 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$41(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb73
+
+%bb73: 	//predecessors %bb72
+	%99 = virtual this.newValueLabel(%97)
+	goto %bb74
+
+%bb74: 	//predecessors %bb73
+	this.GERsLabel = %99
+	goto %bb75
+
+%bb75: 	//predecessors %bb74
+	%101 = invokeDynamic (core/module/ModuleAnalysis): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@core/module/ModuleAnalysis::lambda$getModulesBasement$43(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb76
+
+%bb76: 	//predecessors %bb75
+	%103 = virtual this.newValueLabel(%101)
+	goto %bb77
+
+%bb77: 	//predecessors %bb76
+	this.unclassifiedListLabel = %103
+	goto %bb78
+
+%bb78: 	//predecessors %bb77
+	%110 = new proto/KLabel
+	%108 = ModuleAnalysis.VALUE_FONT
+	%109 = Color.BLUE
+	special %110.<init>("", %108, %109)
+	goto %bb79
+
+%bb79: 	//predecessors %bb78
+	this.allModulesLabel = %110
+	goto %bb80
+
+%bb80: 	//predecessors %bb79
+	%112 = this.allModulesLabel
+	goto %bb81
+
+%bb81: 	//predecessors %bb80
+	virtual %112.underline(1)
+	goto %bb82
+
+%bb82: 	//predecessors %bb81
+	%115 = this.allModulesLabel
+	goto %bb83
+
+%bb83: 	//predecessors %bb82
+	%116 = ModuleAnalysis.FOCUS_CURSOR
+	virtual %115.setCursor(%116)
+	goto %bb84
+
+%bb84: 	//predecessors %bb83
+	%120 = this.allModulesLabel
+	goto %bb85
+
+%bb85: 	//predecessors %bb84
+	%121 = new core/module/ModuleAnalysis$1
+	special %121.<init>(this)
+	goto %bb86
+
+%bb86: 	//predecessors %bb85
+	virtual %120.addMouseListener(%121)
+	goto %bb87
+
+%bb87: 	//predecessors %bb86
+	%124 = new proto/KPanel
+	special %124.<init>()
+	goto %bb88
+
+%bb88: 	//predecessors %bb87
+	this.modulesBasement = %124
+	goto %bb89
+
+%bb89: 	//predecessors %bb88
+	%130 = this.modulesBasement
+	goto %bb90
+
+%bb90: 	//predecessors %bb89
+	%131 = new javax/swing/BoxLayout
+	%129 = this.modulesBasement
+	goto %bb91
+
+%bb91: 	//predecessors %bb90
+	special %131.<init>(%129, 1)
+	goto %bb92
+
+%bb92: 	//predecessors %bb91
+	virtual %130.setLayout(%131)
+	goto %bb93
+
+%bb93: 	//predecessors %bb92
+	%136 = new proto/KScrollPane
+	%135 = this.modulesBasement
+	goto %bb94
+
+%bb94: 	//predecessors %bb93
+	special %136.<init>(%135)
+	goto %bb95
+
+%bb95: 	//predecessors %bb94
+	return %136
+2026-04-01 17:27:03.911 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_getModulesBasement_7920695332
+2026-04-01 17:27:03.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::newValueLabel(java/lang/Runnable): proto/KLabel
+2026-04-01 17:27:03.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::newValueLabel(java/lang/Runnable): proto/KLabel
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%12 = new core/module/ModuleAnalysis$2
+	%4 = ModuleAnalysis.VALUE_FONT
+	%5 = Color.BLUE
+	special %12.<init>(this, "", %4, %5)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%10 = new core/module/ModuleAnalysis$3
+	special %10.<init>(this, %12, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	virtual %12.addMouseListener(%10)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual this.attachActiveOnFocus(%12, "None")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %12
+2026-04-01 17:27:04.488 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_newValueLabel_2018704563
+2026-04-01 17:27:04.488 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::newSingletonLabel(java/lang/Runnable): proto/KLabel
+2026-04-01 17:27:04.489 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::newSingletonLabel(java/lang/Runnable): proto/KLabel
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%12 = new core/module/ModuleAnalysis$4
+	%4 = ModuleAnalysis.VALUE_FONT
+	%5 = Color.BLUE
+	special %12.<init>(this, "", %4, %5)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%10 = new core/module/ModuleAnalysis$5
+	special %10.<init>(this, %12, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	virtual %12.addMouseListener(%10)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual this.attachActiveOnFocus(%12, "...")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %12
+2026-04-01 17:27:04.995 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_newSingletonLabel_17824369464
+2026-04-01 17:27:04.996 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::completeModulesBasement(): void
+2026-04-01 17:27:04.997 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::completeModulesBasement(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new java/awt/Container[1]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.modulesBasement
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	static MComponent.clear(%4)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%6 = static ModuleMemory.getList()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%8 = virtual %6.isEmpty()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%10 = (%8 == false)
+	if (%10) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb6
+	%16 = this.modulesBasement
+	goto %bb7
+
+%bb7: 	//predecessors %if.else0
+	%17 = new java/awt/Component[1]
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%15 = virtual this.createNoAnalysisPanel()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%17[0] = %15
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual %16.addAll(%17)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %goto0
+
+%if.then0: 	//predecessors %bb6
+	%164 = this.modulesBasement
+	goto %bb12
+
+%bb12: 	//predecessors %if.then0
+	%165 = new java/awt/Component[30]
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%22 = virtual this.newAnalysisHeader("By Grade")
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%165[0] = %22
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%24 = this.APlusLabel
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%27 = virtual this.newAnalysisPlate("A+", %24)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%165[1] = %27
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%29 = this.ANeutralLabel
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%32 = virtual this.newAnalysisPlate("A", %29)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%165[2] = %32
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%34 = this.AMinusLabel
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%37 = virtual this.newAnalysisPlate("A-", %34)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%165[3] = %37
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%39 = this.BPlusLabel
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%42 = virtual this.newAnalysisPlate("B+", %39)
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%165[4] = %42
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%44 = this.BNeutralLabel
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%47 = virtual this.newAnalysisPlate("B", %44)
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%165[5] = %47
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%49 = this.BMinusLabel
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%52 = virtual this.newAnalysisPlate("B-", %49)
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%165[6] = %52
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	%54 = this.CPlusLabel
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%57 = virtual this.newAnalysisPlate("C+", %54)
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	%165[7] = %57
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%59 = this.CNeutralLabel
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	%62 = virtual this.newAnalysisPlate("C", %59)
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	%165[8] = %62
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	%64 = this.CMinusLabel
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	%67 = virtual this.newAnalysisPlate("C-", %64)
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	%165[9] = %67
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	%69 = this.DLabel
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	%72 = virtual this.newAnalysisPlate("D", %69)
+	goto %bb44
+
+%bb44: 	//predecessors %bb43
+	%165[10] = %72
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%74 = this.FLabel
+	goto %bb46
+
+%bb46: 	//predecessors %bb45
+	%77 = virtual this.newAnalysisPlate("F", %74)
+	goto %bb47
+
+%bb47: 	//predecessors %bb46
+	%165[11] = %77
+	goto %label0
+
+%label0: 	//predecessors %bb47
+	%80 = virtual this.newAnalysisHeader("By Score")
+	goto %bb48
+
+%bb48: 	//predecessors %label0
+	%165[12] = %80
+	goto %bb49
+
+%bb49: 	//predecessors %bb48
+	%82 = this.highestScoreLabel
+	goto %bb50
+
+%bb50: 	//predecessors %bb49
+	%85 = virtual this.newAnalysisPlate("Best Score Overall", %82)
+	goto %bb51
+
+%bb51: 	//predecessors %bb50
+	%165[13] = %85
+	goto %bb52
+
+%bb52: 	//predecessors %bb51
+	%87 = this.lowestScoreLabel
+	goto %bb53
+
+%bb53: 	//predecessors %bb52
+	%90 = virtual this.newAnalysisPlate("Worst Score Overall", %87)
+	goto %bb54
+
+%bb54: 	//predecessors %bb53
+	%165[14] = %90
+	goto %bb55
+
+%bb55: 	//predecessors %bb54
+	%92 = this.highestMajorScoreLabel
+	goto %bb56
+
+%bb56: 	//predecessors %bb55
+	%95 = virtual this.newAnalysisPlate("Best Major Score", %92)
+	goto %bb57
+
+%bb57: 	//predecessors %bb56
+	%165[15] = %95
+	goto %bb58
+
+%bb58: 	//predecessors %bb57
+	%97 = this.lowestMajorScoreLabel
+	goto %bb59
+
+%bb59: 	//predecessors %bb58
+	%100 = virtual this.newAnalysisPlate("Worst Major Score", %97)
+	goto %bb60
+
+%bb60: 	//predecessors %bb59
+	%165[16] = %100
+	goto %bb61
+
+%bb61: 	//predecessors %bb60
+	%102 = this.highestMinorScoreLabel
+	goto %bb62
+
+%bb62: 	//predecessors %bb61
+	%105 = virtual this.newAnalysisPlate("Best Minor Score", %102)
+	goto %bb63
+
+%bb63: 	//predecessors %bb62
+	%165[17] = %105
+	goto %bb64
+
+%bb64: 	//predecessors %bb63
+	%107 = this.lowestMinorScoreLabel
+	goto %bb65
+
+%bb65: 	//predecessors %bb64
+	%110 = virtual this.newAnalysisPlate("Worst Minor Score", %107)
+	goto %bb66
+
+%bb66: 	//predecessors %bb65
+	%165[18] = %110
+	goto %bb67
+
+%bb67: 	//predecessors %bb66
+	%112 = this.highestDERScoreLabel
+	goto %bb68
+
+%bb68: 	//predecessors %bb67
+	%115 = virtual this.newAnalysisPlate("Best DER Score", %112)
+	goto %bb69
+
+%bb69: 	//predecessors %bb68
+	%165[19] = %115
+	goto %bb70
+
+%bb70: 	//predecessors %bb69
+	%117 = this.lowestDERScoreLabel
+	goto %bb71
+
+%bb71: 	//predecessors %bb70
+	%120 = virtual this.newAnalysisPlate("Worst DER Score", %117)
+	goto %bb72
+
+%bb72: 	//predecessors %bb71
+	%165[20] = %120
+	goto %bb73
+
+%bb73: 	//predecessors %bb72
+	%122 = this.highestGERScoreLabel
+	goto %bb74
+
+%bb74: 	//predecessors %bb73
+	%125 = virtual this.newAnalysisPlate("Best GER Score", %122)
+	goto %bb75
+
+%bb75: 	//predecessors %bb74
+	%165[21] = %125
+	goto %bb76
+
+%bb76: 	//predecessors %bb75
+	%127 = this.lowestGERScoreLabel
+	goto %bb77
+
+%bb77: 	//predecessors %bb76
+	%130 = virtual this.newAnalysisPlate("Worst GER Score", %127)
+	goto %bb78
+
+%bb78: 	//predecessors %bb77
+	%165[22] = %130
+	goto %label1
+
+%label1: 	//predecessors %bb78
+	%133 = virtual this.newAnalysisHeader("By Requirement")
+	goto %bb79
+
+%bb79: 	//predecessors %label1
+	%165[23] = %133
+	goto %bb80
+
+%bb80: 	//predecessors %bb79
+	%135 = this.majorsLabel
+	goto %bb81
+
+%bb81: 	//predecessors %bb80
+	%138 = virtual this.newAnalysisPlate("Majors", %135)
+	goto %bb82
+
+%bb82: 	//predecessors %bb81
+	%165[24] = %138
+	goto %bb83
+
+%bb83: 	//predecessors %bb82
+	%140 = this.minorsLabel
+	goto %bb84
+
+%bb84: 	//predecessors %bb83
+	%143 = virtual this.newAnalysisPlate("Minors", %140)
+	goto %bb85
+
+%bb85: 	//predecessors %bb84
+	%165[25] = %143
+	goto %bb86
+
+%bb86: 	//predecessors %bb85
+	%145 = this.DERsLabel
+	goto %bb87
+
+%bb87: 	//predecessors %bb86
+	%148 = virtual this.newAnalysisPlate("DERs", %145)
+	goto %bb88
+
+%bb88: 	//predecessors %bb87
+	%165[26] = %148
+	goto %bb89
+
+%bb89: 	//predecessors %bb88
+	%150 = this.GERsLabel
+	goto %bb90
+
+%bb90: 	//predecessors %bb89
+	%153 = virtual this.newAnalysisPlate("GERs", %150)
+	goto %bb91
+
+%bb91: 	//predecessors %bb90
+	%165[27] = %153
+	goto %bb92
+
+%bb92: 	//predecessors %bb91
+	%155 = this.unclassifiedListLabel
+	goto %bb93
+
+%bb93: 	//predecessors %bb92
+	%158 = virtual this.newAnalysisPlate("Unclassified", %155)
+	goto %bb94
+
+%bb94: 	//predecessors %bb93
+	%165[28] = %158
+	goto %bb95
+
+%bb95: 	//predecessors %bb94
+	%160 = this.allModulesLabel
+	goto %bb96
+
+%bb96: 	//predecessors %bb95
+	%163 = virtual this.newAnalysisPlate("All together", %160)
+	goto %bb97
+
+%bb97: 	//predecessors %bb96
+	%165[29] = %163
+	goto %bb98
+
+%bb98: 	//predecessors %bb97
+	virtual %164.addAll(%165)
+	goto %bb99
+
+%bb99: 	//predecessors %bb98
+	%167 = static ModuleMemory.getList()
+	goto %bb100
+
+%bb100: 	//predecessors %bb99
+	%169 = virtual %167.size()
+	goto %bb101
+
+%bb101: 	//predecessors %bb100
+	%216 = static Globals.checkPlurality(%169, "Courses")
+	goto %label2
+
+%label2: 	//predecessors %bb101
+	%172 = this.majorsList
+	goto %bb102
+
+%bb102: 	//predecessors %label2
+	%174 = virtual %172.size()
+	goto %bb103
+
+%bb103: 	//predecessors %bb102
+	%199 = static Globals.checkPlurality(%174, "Majors")
+	goto %label3
+
+%label3: 	//predecessors %bb103
+	%177 = this.minorsList
+	goto %bb104
+
+%bb104: 	//predecessors %label3
+	%179 = virtual %177.size()
+	goto %bb105
+
+%bb105: 	//predecessors %bb104
+	%202 = static Globals.checkPlurality(%179, "Minors")
+	goto %label4
+
+%label4: 	//predecessors %bb105
+	%182 = this.DERList
+	goto %bb106
+
+%bb106: 	//predecessors %label4
+	%184 = virtual %182.size()
+	goto %bb107
+
+%bb107: 	//predecessors %bb106
+	%205 = static Globals.checkPlurality(%184, "DERs")
+	goto %label5
+
+%label5: 	//predecessors %bb107
+	%187 = this.GERList
+	goto %bb108
+
+%bb108: 	//predecessors %label5
+	%189 = virtual %187.size()
+	goto %bb109
+
+%bb109: 	//predecessors %bb108
+	%208 = static Globals.checkPlurality(%189, "GERs")
+	goto %label6
+
+%label6: 	//predecessors %bb109
+	%192 = this.unclassifiedList
+	goto %bb110
+
+%bb110: 	//predecessors %label6
+	%194 = virtual %192.size()
+	goto %bb111
+
+%bb111: 	//predecessors %bb110
+	%211 = static Globals.checkPlurality(%194, "Un-classifications")
+	goto %label7
+
+%label7: 	//predecessors %bb111
+	%214 = new java/util/StringJoiner
+	special %214.<init>(" : ", "[", "]")
+	goto %label8
+
+%label8: 	//predecessors %label7
+	%201 = virtual %214.add(%199)
+	goto %bb112
+
+%bb112: 	//predecessors %label8
+	%204 = virtual %201.add(%202)
+	goto %bb113
+
+%bb113: 	//predecessors %bb112
+	%207 = virtual %204.add(%205)
+	goto %bb114
+
+%bb114: 	//predecessors %bb113
+	%210 = virtual %207.add(%208)
+	goto %bb115
+
+%bb115: 	//predecessors %bb114
+	%212 = virtual %210.add(%211)
+	goto %label9
+
+%label9: 	//predecessors %bb115
+	%219 = this.allModulesLabel
+	goto %bb116
+
+%bb116: 	//predecessors %label9
+	%217 = static String.valueOf(%214)
+	goto %bb117
+
+%bb117: 	//predecessors %bb116
+	%220 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" "))
+	goto %bb118
+
+%bb118: 	//predecessors %bb117
+	virtual %219.setText(%220)
+	goto %goto0
+
+%goto0: 	//predecessors %bb11, %bb118
+	%225 = new java/awt/Container[1]
+	goto %bb119
+
+%bb119: 	//predecessors %goto0
+	%224 = this.modulesBasement
+	goto %bb120
+
+%bb120: 	//predecessors %bb119
+	%225[0] = %224
+	goto %bb121
+
+%bb121: 	//predecessors %bb120
+	static MComponent.ready(%225)
+	goto %bb122
+
+%bb122: 	//predecessors %bb121
+	return
+2026-04-01 17:27:05.509 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_completeModulesBasement_7133156915
+2026-04-01 17:27:05.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::getSemestersBasement(): java/awt/Component
+2026-04-01 17:27:05.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::getSemestersBasement(): java/awt/Component
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new proto/KPanel
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.semestersBasement = %2
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%8 = this.semestersBasement
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = new javax/swing/BoxLayout
+	%7 = this.semestersBasement
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %9.<init>(%7, 1)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	virtual %8.setLayout(%9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%14 = new proto/KScrollPane
+	%13 = this.semestersBasement
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	special %14.<init>(%13)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	return %14
+2026-04-01 17:27:06.155 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_getSemestersBasement_9327364076
+2026-04-01 17:27:06.301 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_getSemestersBasement_9327364077
+2026-04-01 17:27:06.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::completeSemestersBasement(): void
+2026-04-01 17:27:06.303 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::completeSemestersBasement(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new java/util/ArrayList
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	ModuleAnalysis.semesterScores = %2
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%7 = new java/awt/Container[1]
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%6 = this.semestersBasement
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7[0] = %6
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	static MComponent.clear(%7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%9 = ModuleAnalysis.semestersList
+	%11 = virtual %9.isEmpty()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%13 = (%11 == false)
+	if (%13) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb6
+	%19 = this.semestersBasement
+	goto %bb7
+
+%bb7: 	//predecessors %if.else0
+	%20 = new java/awt/Component[1]
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%18 = virtual this.createNoAnalysisPanel()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%20[0] = %18
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual %19.addAll(%20)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %goto1
+
+%if.then0: 	//predecessors %bb6
+	%22 = ModuleAnalysis.semestersList
+	%29 = virtual %22.iterator()
+	goto %bb12
+
+%bb12: 	//predecessors %if.then0
+	goto %label1
+
+%label1: 	//predecessors %bb12, %bb53
+	%26 = interface %29.hasNext()
+	goto %bb13
+
+%bb13: 	//predecessors %label1
+	%28 = (%26 == false)
+	if (%28) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb13
+	%31 = interface %29.next()
+	goto %bb14
+
+%bb14: 	//predecessors %if.else1
+	%143 = (java/lang/String) %31
+	goto %label2
+
+%label2: 	//predecessors %bb14
+	%63 = static ModuleMemory.getFractionBySemester(%143)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%147 = new proto/KLabel
+	%39 = ModuleAnalysis.VALUE_FONT
+	%40 = Color.BLUE
+	special %147.<init>("", %39, %40)
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%43 = ModuleAnalysis.FOCUS_CURSOR
+	virtual %147.setCursor(%43)
+	goto %bb15
+
+%bb15: 	//predecessors %label4
+	%49 = new core/module/ModuleAnalysis$6
+	special %49.<init>(this, %143, %63)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	virtual %147.addMouseListener(%49)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%52 = virtual %63.size()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%54 = (%52 != 1)
+	if (%54) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb18
+	%57 = virtual %63.get(0)
+	goto %bb19
+
+%bb19: 	//predecessors %if.else2
+	%59 = (core/module/Course) %57
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%62 = virtual %59.getAbsoluteName()
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	virtual %147.setText(%62)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	goto %goto0
+
+%if.then1: 	//predecessors %bb18
+	%112 = virtual %63.size()
+	goto %label5
+
+%label5: 	//predecessors %if.then1
+	%114 = new java/util/StringJoiner
+	special %114.<init>(" : ", "[", "]")
+	goto %label6
+
+%label6: 	//predecessors %label5
+	%69 = static ModuleMemory.getMajorsBySemester(%143)
+	goto %bb23
+
+%bb23: 	//predecessors %label6
+	%71 = virtual %69.size()
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%74 = static Globals.checkPlurality(%71, "Majors")
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%75 = virtual %114.add(%74)
+	goto %label7
+
+%label7: 	//predecessors %bb25
+	%78 = static ModuleMemory.getMinorsBySemester(%143)
+	goto %bb26
+
+%bb26: 	//predecessors %label7
+	%80 = virtual %78.size()
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%83 = static Globals.checkPlurality(%80, "Minors")
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%84 = virtual %114.add(%83)
+	goto %label8
+
+%label8: 	//predecessors %bb28
+	%87 = static ModuleMemory.getDERsBySemester(%143)
+	goto %bb29
+
+%bb29: 	//predecessors %label8
+	%89 = virtual %87.size()
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%92 = static Globals.checkPlurality(%89, "DERs")
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%93 = virtual %114.add(%92)
+	goto %label9
+
+%label9: 	//predecessors %bb31
+	%96 = static ModuleMemory.getGERsBySemester(%143)
+	goto %bb32
+
+%bb32: 	//predecessors %label9
+	%98 = virtual %96.size()
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	%101 = static Globals.checkPlurality(%98, "GERs")
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%102 = virtual %114.add(%101)
+	goto %label10
+
+%label10: 	//predecessors %bb34
+	%105 = static ModuleMemory.getUnknownsBySemester(%143)
+	goto %bb35
+
+%bb35: 	//predecessors %label10
+	%107 = virtual %105.size()
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%110 = static Globals.checkPlurality(%107, "Un-classifications")
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	%111 = virtual %114.add(%110)
+	goto %label11
+
+%label11: 	//predecessors %bb37
+	%116 = static Globals.checkPlurality(%112, "Courses")
+	goto %bb38
+
+%bb38: 	//predecessors %label11
+	%117 = static String.valueOf(%114)
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	%120 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" "))
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	virtual %147.setText(%120)
+	goto %goto0
+
+%goto0: 	//predecessors %bb22, %bb40
+	virtual this.attachActiveOnFocus(%147, null)
+	goto %bb41
+
+%bb41: 	//predecessors %goto0
+	%151 = new proto/KLabel
+	%125 = static ModuleMemory.getCGPABySemester(%143)
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	%130 = static ModuleAnalysis.toFourth(%125)
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	%131 = ModuleAnalysis.VALUE_FONT
+	%132 = Color.BLUE
+	special %151.<init>(%130, %131, %132)
+	goto %label12
+
+%label12: 	//predecessors %bb43
+	%138 = ModuleAnalysis.semesterScores
+	%136 = virtual %151.getText()
+	goto %bb44
+
+%bb44: 	//predecessors %label12
+	%139 = static Double.valueOf(%136)
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%140 = virtual %138.add(%139)
+	goto %label13
+
+%label13: 	//predecessors %bb45
+	%155 = this.semestersBasement
+	goto %bb46
+
+%bb46: 	//predecessors %label13
+	%156 = new java/awt/Component[3]
+	goto %bb47
+
+%bb47: 	//predecessors %bb46
+	%146 = virtual this.newAnalysisHeader(%143)
+	goto %bb48
+
+%bb48: 	//predecessors %bb47
+	%156[0] = %146
+	goto %bb49
+
+%bb49: 	//predecessors %bb48
+	%150 = virtual this.newAnalysisPlate("Courses Registered", %147)
+	goto %bb50
+
+%bb50: 	//predecessors %bb49
+	%156[1] = %150
+	goto %label14
+
+%label14: 	//predecessors %bb50
+	%154 = virtual this.newAnalysisPlate("CGPA Earned", %151)
+	goto %bb51
+
+%bb51: 	//predecessors %label14
+	%156[2] = %154
+	goto %bb52
+
+%bb52: 	//predecessors %bb51
+	virtual %155.addAll(%156)
+	goto %bb53
+
+%bb53: 	//predecessors %bb52
+	goto %label1
+
+%if.then2: 	//predecessors %bb13
+	%175 = new proto/KLabel
+	%159 = ModuleAnalysis.semestersList
+	%161 = virtual %159.size()
+	goto %bb54
+
+%bb54: 	//predecessors %if.then2
+	%166 = static Globals.checkPlurality(%161, "Semesters")
+	goto %bb55
+
+%bb55: 	//predecessors %bb54
+	%167 = ModuleAnalysis.VALUE_FONT
+	%168 = Color.BLUE
+	special %175.<init>(%166, %167, %168)
+	goto %label15
+
+%label15: 	//predecessors %bb55
+	virtual %175.underline(1)
+	goto %bb56
+
+%bb56: 	//predecessors %label15
+	%210 = this.semestersBasement
+	goto %bb57
+
+%bb57: 	//predecessors %bb56
+	%211 = new java/awt/Component[6]
+	goto %bb58
+
+%bb58: 	//predecessors %bb57
+	%174 = virtual this.newAnalysisHeader("Overall")
+	goto %bb59
+
+%bb59: 	//predecessors %bb58
+	%211[0] = %174
+	goto %label16
+
+%label16: 	//predecessors %bb59
+	%178 = virtual this.newAnalysisPlate("All together", %175)
+	goto %bb60
+
+%bb60: 	//predecessors %label16
+	%211[1] = %178
+	goto %bb61
+
+%bb61: 	//predecessors %bb60
+	%187 = new proto/KLabel
+	goto %label17
+
+%label17: 	//predecessors %bb61
+	%184 = static ModuleMemory.getBestSemester()
+	goto %bb62
+
+%bb62: 	//predecessors %label17
+	%185 = ModuleAnalysis.VALUE_FONT
+	%186 = Color.BLUE
+	special %187.<init>(%184, %185, %186)
+	goto %bb63
+
+%bb63: 	//predecessors %bb62
+	%190 = virtual this.newAnalysisPlate("Best Semester", %187)
+	goto %bb64
+
+%bb64: 	//predecessors %bb63
+	%211[2] = %190
+	goto %bb65
+
+%bb65: 	//predecessors %bb64
+	%199 = new proto/KLabel
+	goto %label18
+
+%label18: 	//predecessors %bb65
+	%196 = static ModuleMemory.getWorstSemester()
+	goto %bb66
+
+%bb66: 	//predecessors %label18
+	%197 = ModuleAnalysis.VALUE_FONT
+	%198 = Color.BLUE
+	special %199.<init>(%196, %197, %198)
+	goto %bb67
+
+%bb67: 	//predecessors %bb66
+	%202 = virtual this.newAnalysisPlate("Worst Semester", %199)
+	goto %bb68
+
+%bb68: 	//predecessors %bb67
+	%211[3] = %202
+	goto %label19
+
+%label19: 	//predecessors %bb68
+	%205 = virtual this.newAnalysisHeader("Performance Sketch")
+	goto %bb69
+
+%bb69: 	//predecessors %label19
+	%211[4] = %205
+	goto %bb70
+
+%bb70: 	//predecessors %bb69
+	%209 = new core/module/ModuleAnalysis$Sketch
+	special %209.<init>()
+	goto %bb71
+
+%bb71: 	//predecessors %bb70
+	%211[5] = %209
+	goto %bb72
+
+%bb72: 	//predecessors %bb71
+	virtual %210.addAll(%211)
+	goto %goto1
+
+%goto1: 	//predecessors %bb11, %bb72
+	%216 = new java/awt/Container[1]
+	goto %bb73
+
+%bb73: 	//predecessors %goto1
+	%215 = this.semestersBasement
+	goto %bb74
+
+%bb74: 	//predecessors %bb73
+	%216[0] = %215
+	goto %bb75
+
+%bb75: 	//predecessors %bb74
+	static MComponent.ready(%216)
+	goto %bb76
+
+%bb76: 	//predecessors %bb75
+	return
+2026-04-01 17:27:07.001 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_completeSemestersBasement_12213254498
+2026-04-01 17:27:07.002 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::toFourth(double): java/lang/String
+2026-04-01 17:27:07.002 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::toFourth(double): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%9 = static String.valueOf(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = virtual %9.length()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = (%3 > 6)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	%7 = static Globals.round(arg$0, 4)
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%10 = static String.valueOf(%7)
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %bb2
+	%12 = phi {%if.else0 -> %9; %bb2 -> %10}
+	return %12
+2026-04-01 17:27:07.149 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_toFourth_10455189919
+2026-04-01 17:27:07.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::getYearsBasement(): javax/swing/JComponent
+2026-04-01 17:27:07.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::getYearsBasement(): javax/swing/JComponent
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new proto/KPanel
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.yearsBasement = %2
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%8 = this.yearsBasement
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = new javax/swing/BoxLayout
+	%7 = this.yearsBasement
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %9.<init>(%7, 1)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	virtual %8.setLayout(%9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%14 = new proto/KScrollPane
+	%13 = this.yearsBasement
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	special %14.<init>(%13)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	return %14
+2026-04-01 17:27:07.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_getYearsBasement_132971787210
+2026-04-01 17:27:07.653 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::completeYearsBasement(): void
+2026-04-01 17:27:07.655 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::completeYearsBasement(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new java/awt/Container[1]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.yearsBasement
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	static MComponent.clear(%4)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%6 = ModuleAnalysis.yearsList
+	%8 = virtual %6.isEmpty()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%10 = (%8 == false)
+	if (%10) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	%16 = this.yearsBasement
+	goto %bb6
+
+%bb6: 	//predecessors %if.else0
+	%17 = new java/awt/Component[1]
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%15 = virtual this.createNoAnalysisPanel()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%17[0] = %15
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	virtual %16.addAll(%17)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto3
+
+%if.then0: 	//predecessors %bb5
+	%19 = ModuleAnalysis.yearsList
+	%26 = virtual %19.iterator()
+	goto %bb11
+
+%bb11: 	//predecessors %if.then0
+	goto %label0
+
+%label0: 	//predecessors %bb11, %bb66
+	%23 = interface %26.hasNext()
+	goto %bb12
+
+%bb12: 	//predecessors %label0
+	%25 = (%23 == false)
+	if (%25) goto %if.then3 else %if.else1
+
+%if.else1: 	//predecessors %bb12
+	%28 = interface %26.next()
+	goto %bb13
+
+%bb13: 	//predecessors %if.else1
+	%207 = (java/lang/String) %28
+	goto %label1
+
+%label1: 	//predecessors %bb13
+	%75 = static ModuleMemory.getFractionByYear(%207)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%163 = new proto/KLabel
+	%36 = ModuleAnalysis.VALUE_FONT
+	%37 = Color.BLUE
+	special %163.<init>("", %36, %37)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%40 = ModuleAnalysis.FOCUS_CURSOR
+	virtual %163.setCursor(%40)
+	goto %bb14
+
+%bb14: 	//predecessors %label3
+	%46 = new core/module/ModuleAnalysis$7
+	special %46.<init>(this, %207, %75)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	virtual %163.addMouseListener(%46)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%167 = static ModuleMemory.getMajorsByYear(%207)
+	goto %label4
+
+%label4: 	//predecessors %bb16
+	%174 = static ModuleMemory.getMinorsByYear(%207)
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%181 = static ModuleMemory.getDERsByYear(%207)
+	goto %label6
+
+%label6: 	//predecessors %label5
+	%188 = static ModuleMemory.getGERsByYear(%207)
+	goto %label7
+
+%label7: 	//predecessors %label6
+	%195 = static ModuleMemory.getUnknownsByYear(%207)
+	goto %label8
+
+%label8: 	//predecessors %label7
+	%59 = virtual %75.size()
+	goto %bb17
+
+%bb17: 	//predecessors %label8
+	%61 = (%59 != 1)
+	if (%61) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb17
+	%64 = virtual %75.get(0)
+	goto %bb18
+
+%bb18: 	//predecessors %if.else2
+	%68 = (core/module/Course) %64
+	goto %label9
+
+%label9: 	//predecessors %bb18
+	%70 = virtual %68.getAbsoluteName()
+	goto %bb19
+
+%bb19: 	//predecessors %label9
+	%71 = virtual %68.getSemester()
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%74 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" []"))
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	virtual %163.setText(%74)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	goto %goto0
+
+%if.then1: 	//predecessors %bb17
+	%114 = virtual %75.size()
+	goto %label10
+
+%label10: 	//predecessors %if.then1
+	%116 = new java/util/StringJoiner
+	special %116.<init>(" : ", "[", "]")
+	goto %label11
+
+%label11: 	//predecessors %label10
+	%81 = virtual %167.size()
+	goto %bb23
+
+%bb23: 	//predecessors %label11
+	%84 = static Globals.checkPlurality(%81, "Majors")
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%85 = virtual %116.add(%84)
+	goto %label12
+
+%label12: 	//predecessors %bb24
+	%88 = virtual %174.size()
+	goto %bb25
+
+%bb25: 	//predecessors %label12
+	%91 = static Globals.checkPlurality(%88, "Minors")
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%92 = virtual %116.add(%91)
+	goto %label13
+
+%label13: 	//predecessors %bb26
+	%95 = virtual %181.size()
+	goto %bb27
+
+%bb27: 	//predecessors %label13
+	%98 = static Globals.checkPlurality(%95, "DERs")
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%99 = virtual %116.add(%98)
+	goto %label14
+
+%label14: 	//predecessors %bb28
+	%102 = virtual %188.size()
+	goto %bb29
+
+%bb29: 	//predecessors %label14
+	%105 = static Globals.checkPlurality(%102, "GERs")
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%106 = virtual %116.add(%105)
+	goto %label15
+
+%label15: 	//predecessors %bb30
+	%109 = virtual %195.size()
+	goto %bb31
+
+%bb31: 	//predecessors %label15
+	%112 = static Globals.checkPlurality(%109, "Un-classifications")
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%113 = virtual %116.add(%112)
+	goto %label16
+
+%label16: 	//predecessors %bb32
+	%118 = static Globals.checkPlurality(%114, "Courses")
+	goto %bb33
+
+%bb33: 	//predecessors %label16
+	%119 = static String.valueOf(%116)
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%122 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" "))
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	virtual %163.setText(%122)
+	goto %goto0
+
+%goto0: 	//predecessors %bb22, %bb35
+	virtual this.attachActiveOnFocus(%163, null)
+	goto %bb36
+
+%bb36: 	//predecessors %goto0
+	%153 = static ModuleMemory.getLecturersByYear(%207)
+	goto %label17
+
+%label17: 	//predecessors %bb36
+	%202 = new proto/KLabel
+	%129 = virtual %153.size()
+	goto %bb37
+
+%bb37: 	//predecessors %label17
+	%134 = static Globals.checkPlurality(%129, "Lecturers")
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	%135 = ModuleAnalysis.VALUE_FONT
+	%136 = Color.BLUE
+	special %202.<init>(%134, %135, %136)
+	goto %label18
+
+%label18: 	//predecessors %bb38
+	%139 = virtual %202.getText()
+	goto %bb39
+
+%bb39: 	//predecessors %label18
+	%141 = virtual %139.equals("No Lecturers")
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	%143 = (%141 == false)
+	if (%143) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %bb40
+	goto %goto1
+
+%if.then2: 	//predecessors %bb40
+	%145 = ModuleAnalysis.FOCUS_CURSOR
+	goto %goto1
+
+%goto1: 	//predecessors %if.else3, %if.then2
+	%148 = phi {%if.else3 -> null; %if.then2 -> %145}
+	virtual %202.setCursor(%148)
+	goto %bb41
+
+%bb41: 	//predecessors %goto1
+	virtual this.attachActiveOnFocus(%202, "No Lecturers")
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	%156 = new core/module/ModuleAnalysis$8
+	special %156.<init>(this, %202, %153, %207)
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	virtual %202.addMouseListener(%156)
+	goto %bb44
+
+%bb44: 	//predecessors %bb43
+	%221 = this.yearsBasement
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%222 = new java/awt/Component[9]
+	goto %bb46
+
+%bb46: 	//predecessors %bb45
+	%162 = virtual this.newAnalysisHeader(%207)
+	goto %bb47
+
+%bb47: 	//predecessors %bb46
+	%222[0] = %162
+	goto %label19
+
+%label19: 	//predecessors %bb47
+	%166 = virtual this.newAnalysisPlate("Courses Registered", %163)
+	goto %bb48
+
+%bb48: 	//predecessors %label19
+	%222[1] = %166
+	goto %label20
+
+%label20: 	//predecessors %bb48
+	%170 = virtual this.specificYearLabel("Majors", %167, %207)
+	goto %bb49
+
+%bb49: 	//predecessors %label20
+	%173 = virtual this.newAnalysisPlate("Majors", %170)
+	goto %bb50
+
+%bb50: 	//predecessors %bb49
+	%222[2] = %173
+	goto %label21
+
+%label21: 	//predecessors %bb50
+	%177 = virtual this.specificYearLabel("Minors", %174, %207)
+	goto %bb51
+
+%bb51: 	//predecessors %label21
+	%180 = virtual this.newAnalysisPlate("Minors", %177)
+	goto %bb52
+
+%bb52: 	//predecessors %bb51
+	%222[3] = %180
+	goto %label22
+
+%label22: 	//predecessors %bb52
+	%184 = virtual this.specificYearLabel("DERs", %181, %207)
+	goto %bb53
+
+%bb53: 	//predecessors %label22
+	%187 = virtual this.newAnalysisPlate("DERs", %184)
+	goto %bb54
+
+%bb54: 	//predecessors %bb53
+	%222[4] = %187
+	goto %label23
+
+%label23: 	//predecessors %bb54
+	%191 = virtual this.specificYearLabel("GERs", %188, %207)
+	goto %bb55
+
+%bb55: 	//predecessors %label23
+	%194 = virtual this.newAnalysisPlate("GERs", %191)
+	goto %bb56
+
+%bb56: 	//predecessors %bb55
+	%222[5] = %194
+	goto %label24
+
+%label24: 	//predecessors %bb56
+	%198 = virtual this.specificYearLabel("Unknowns", %195, %207)
+	goto %bb57
+
+%bb57: 	//predecessors %label24
+	%201 = virtual this.newAnalysisPlate("Unclassified", %198)
+	goto %bb58
+
+%bb58: 	//predecessors %bb57
+	%222[6] = %201
+	goto %label25
+
+%label25: 	//predecessors %bb58
+	%205 = virtual this.newAnalysisPlate("Lecturers", %202)
+	goto %bb59
+
+%bb59: 	//predecessors %label25
+	%222[7] = %205
+	goto %bb60
+
+%bb60: 	//predecessors %bb59
+	%217 = new proto/KLabel
+	goto %label26
+
+%label26: 	//predecessors %bb60
+	%209 = static ModuleMemory.getCGPAByYear(%207)
+	goto %bb61
+
+%bb61: 	//predecessors %label26
+	%214 = static ModuleAnalysis.toFourth(%209)
+	goto %bb62
+
+%bb62: 	//predecessors %bb61
+	%215 = ModuleAnalysis.VALUE_FONT
+	%216 = Color.BLUE
+	special %217.<init>(%214, %215, %216)
+	goto %bb63
+
+%bb63: 	//predecessors %bb62
+	%220 = virtual this.newAnalysisPlate("CGPA Earned", %217)
+	goto %bb64
+
+%bb64: 	//predecessors %bb63
+	%222[8] = %220
+	goto %bb65
+
+%bb65: 	//predecessors %bb64
+	virtual %221.addAll(%222)
+	goto %bb66
+
+%bb66: 	//predecessors %bb65
+	goto %label0
+
+%if.then3: 	//predecessors %bb12
+	%251 = static ModuleMemory.getLecturers()
+	goto %label27
+
+%label27: 	//predecessors %if.then3
+	%276 = new proto/KLabel
+	%227 = virtual %251.size()
+	goto %bb67
+
+%bb67: 	//predecessors %label27
+	%232 = static Globals.checkPlurality(%227, "distinguished lecturers")
+	goto %bb68
+
+%bb68: 	//predecessors %bb67
+	%233 = ModuleAnalysis.VALUE_FONT
+	%234 = Color.BLUE
+	special %276.<init>(%232, %233, %234)
+	goto %label28
+
+%label28: 	//predecessors %bb68
+	%237 = virtual %276.getText()
+	goto %bb69
+
+%bb69: 	//predecessors %label28
+	%239 = virtual %237.equals("No distinguished lecturers")
+	goto %bb70
+
+%bb70: 	//predecessors %bb69
+	%241 = (%239 == false)
+	if (%241) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb70
+	goto %goto2
+
+%if.then4: 	//predecessors %bb70
+	%243 = static Cursor.getPredefinedCursor(12)
+	goto %goto2
+
+%goto2: 	//predecessors %if.else4, %if.then4
+	%246 = phi {%if.else4 -> null; %if.then4 -> %243}
+	virtual %276.setCursor(%246)
+	goto %bb71
+
+%bb71: 	//predecessors %goto2
+	virtual this.attachActiveOnFocus(%276, "No distinguished lecturers")
+	goto %bb72
+
+%bb72: 	//predecessors %bb71
+	%253 = new core/module/ModuleAnalysis$9
+	special %253.<init>(this, %276, %251)
+	goto %bb73
+
+%bb73: 	//predecessors %bb72
+	virtual %276.addMouseListener(%253)
+	goto %bb74
+
+%bb74: 	//predecessors %bb73
+	%272 = new proto/KLabel
+	%256 = ModuleAnalysis.yearsList
+	%258 = virtual %256.size()
+	goto %bb75
+
+%bb75: 	//predecessors %bb74
+	%263 = static Globals.checkPlurality(%258, "Academic years")
+	goto %bb76
+
+%bb76: 	//predecessors %bb75
+	%264 = ModuleAnalysis.VALUE_FONT
+	%265 = Color.BLUE
+	special %272.<init>(%263, %264, %265)
+	goto %label29
+
+%label29: 	//predecessors %bb76
+	virtual %272.underline(1)
+	goto %bb77
+
+%bb77: 	//predecessors %label29
+	%320 = this.yearsBasement
+	goto %bb78
+
+%bb78: 	//predecessors %bb77
+	%321 = new java/awt/Component[6]
+	goto %bb79
+
+%bb79: 	//predecessors %bb78
+	%271 = virtual this.newAnalysisHeader("Overall")
+	goto %bb80
+
+%bb80: 	//predecessors %bb79
+	%321[0] = %271
+	goto %label30
+
+%label30: 	//predecessors %bb80
+	%275 = virtual this.newAnalysisPlate("All together", %272)
+	goto %bb81
+
+%bb81: 	//predecessors %label30
+	%321[1] = %275
+	goto %label31
+
+%label31: 	//predecessors %bb81
+	%279 = virtual this.newAnalysisPlate("My Tutors", %276)
+	goto %bb82
+
+%bb82: 	//predecessors %label31
+	%321[2] = %279
+	goto %bb83
+
+%bb83: 	//predecessors %bb82
+	%288 = new proto/KLabel
+	goto %label32
+
+%label32: 	//predecessors %bb83
+	%285 = static ModuleMemory.getBestYear()
+	goto %bb84
+
+%bb84: 	//predecessors %label32
+	%286 = ModuleAnalysis.VALUE_FONT
+	%287 = Color.BLUE
+	special %288.<init>(%285, %286, %287)
+	goto %bb85
+
+%bb85: 	//predecessors %bb84
+	%291 = virtual this.newAnalysisPlate("Best Year", %288)
+	goto %bb86
+
+%bb86: 	//predecessors %bb85
+	%321[3] = %291
+	goto %bb87
+
+%bb87: 	//predecessors %bb86
+	%300 = new proto/KLabel
+	goto %label33
+
+%label33: 	//predecessors %bb87
+	%297 = static ModuleMemory.getWorstYear()
+	goto %bb88
+
+%bb88: 	//predecessors %label33
+	%298 = ModuleAnalysis.VALUE_FONT
+	%299 = Color.BLUE
+	special %300.<init>(%297, %298, %299)
+	goto %bb89
+
+%bb89: 	//predecessors %bb88
+	%303 = virtual this.newAnalysisPlate("Worst Year", %300)
+	goto %bb90
+
+%bb90: 	//predecessors %bb89
+	%321[4] = %303
+	goto %bb91
+
+%bb91: 	//predecessors %bb90
+	%316 = new proto/KLabel
+	goto %label34
+
+%label34: 	//predecessors %bb91
+	%307 = static Student.getCGPA()
+	goto %bb92
+
+%bb92: 	//predecessors %label34
+	%308 = static Student.upperClassDivision()
+	goto %bb93
+
+%bb93: 	//predecessors %bb92
+	%313 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="    []"))
+	goto %bb94
+
+%bb94: 	//predecessors %bb93
+	%314 = ModuleAnalysis.VALUE_FONT
+	%315 = Color.BLUE
+	special %316.<init>(%313, %314, %315)
+	goto %bb95
+
+%bb95: 	//predecessors %bb94
+	%319 = virtual this.newAnalysisPlate("Current CGPA", %316)
+	goto %bb96
+
+%bb96: 	//predecessors %bb95
+	%321[5] = %319
+	goto %bb97
+
+%bb97: 	//predecessors %bb96
+	virtual %320.addAll(%321)
+	goto %goto3
+
+%goto3: 	//predecessors %bb10, %bb97
+	%326 = new java/awt/Container[1]
+	goto %bb98
+
+%bb98: 	//predecessors %goto3
+	%325 = this.yearsBasement
+	goto %bb99
+
+%bb99: 	//predecessors %bb98
+	%326[0] = %325
+	goto %bb100
+
+%bb100: 	//predecessors %bb99
+	static MComponent.ready(%326)
+	goto %bb101
+
+%bb101: 	//predecessors %bb100
+	return
+2026-04-01 17:27:08.243 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_completeYearsBasement_102638845211
+2026-04-01 17:27:08.244 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::specificYearLabel(java/lang/String, java/util/ArrayList, java/lang/String): proto/KLabel
+2026-04-01 17:27:08.244 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::specificYearLabel(java/lang/String, java/util/ArrayList, java/lang/String): proto/KLabel
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%34 = new proto/KLabel
+	%5 = virtual this.getProperValueText(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%6 = ModuleAnalysis.VALUE_FONT
+	%7 = Color.BLUE
+	special %34.<init>(%5, %6, %7)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%11 = virtual %34.getText()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%12 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" "))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%15 = virtual %11.replace(%12, "")
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual %34.setText(%15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%18 = virtual %34.getText()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%20 = virtual %18.equals("None")
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%22 = (%20 == false)
+	if (%22) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb7
+	goto %goto0
+
+%if.then0: 	//predecessors %bb7
+	%24 = ModuleAnalysis.FOCUS_CURSOR
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%27 = phi {%if.else0 -> null; %if.then0 -> %24}
+	virtual %34.setCursor(%27)
+	goto %bb8
+
+%bb8: 	//predecessors %goto0
+	%32 = new core/module/ModuleAnalysis$10
+	special %32.<init>(this, %34, arg$1, arg$2, arg$0)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	virtual %34.addMouseListener(%32)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual this.attachActiveOnFocus(%34, "None")
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return %34
+2026-04-01 17:27:08.843 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_specificYearLabel_98894605612
+2026-04-01 17:27:08.844 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::getProperValueText(java/util/ArrayList): java/lang/String
+2026-04-01 17:27:08.845 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::getProperValueText(java/util/ArrayList): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.isEmpty()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%5 = virtual arg$0.size()
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%7 = (%5 != 1)
+	if (%7) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%9 = virtual arg$0.get(0)
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	%11 = (core/module/Course) %9
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%18 = virtual %11.getName()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%14 = virtual arg$0.get(0)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%16 = (core/module/Course) %14
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%19 = virtual %16.getAbsoluteSemesterName()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%66 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" []"))
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb2
+	%22 = virtual arg$0.size()
+	goto %bb10
+
+%bb10: 	//predecessors %if.then1
+	%24 = (%22 != 2)
+	if (%24) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb10
+	%26 = virtual arg$0.get(0)
+	goto %bb11
+
+%bb11: 	//predecessors %if.else2
+	%28 = (core/module/Course) %26
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%35 = virtual %28.getName()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%31 = virtual arg$0.get(1)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%33 = (core/module/Course) %31
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%36 = virtual %33.getName()
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%67 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" & "))
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb10
+	%39 = virtual arg$0.size()
+	goto %bb18
+
+%bb18: 	//predecessors %if.then2
+	%41 = (%39 != 3)
+	if (%41) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb18
+	%43 = virtual arg$0.get(0)
+	goto %bb19
+
+%bb19: 	//predecessors %if.else3
+	%45 = (core/module/Course) %43
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%47 = virtual %45.getName()
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%68 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=", and 2 others..."))
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	goto %bb.return0
+
+%if.then3: 	//predecessors %bb18
+	%50 = virtual arg$0.get(0)
+	goto %bb23
+
+%bb23: 	//predecessors %if.then3
+	%52 = (core/module/Course) %50
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%62 = virtual %52.getName()
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%55 = virtual arg$0.get(1)
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%57 = (core/module/Course) %55
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%63 = virtual %57.getName()
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%60 = virtual arg$0.size()
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%64 = %60 - 2
+	%69 = invokeDynamic (java/lang/String, java/lang/String, int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=", , and  others..."))
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb9, %bb17, %bb22, %bb30
+	%retval1 = phi {%if.else0 -> "None"; %bb9 -> %66; %bb17 -> %67; %bb22 -> %68; %bb30 -> %69}
+	return %retval1
+2026-04-01 17:27:09.384 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_getProperValueText_198653125213
+2026-04-01 17:27:09.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::getProperValueText(core/module/Course): java/lang/String
+2026-04-01 17:27:09.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::getProperValueText(core/module/Course): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	%5 = virtual arg$0.getName()
+	goto %bb1
+
+%bb1: 	//predecessors %if.then0
+	%6 = virtual arg$0.getAbsoluteSemesterName()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = virtual arg$0.getScore()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = invokeDynamic (java/lang/String, java/lang/String, double): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" [] : %"))
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %bb3
+	%11 = phi {%if.else0 -> "..."; %bb3 -> %9}
+	return %11
+2026-04-01 17:27:09.962 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_getProperValueText_74027227714
+2026-04-01 17:27:09.963 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::newAnalysisHeader(java/lang/String): proto/KPanel
+2026-04-01 17:27:09.963 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::newAnalysisHeader(java/lang/String): proto/KPanel
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%12 = new proto/KPanel
+	%11 = new java/awt/Component[1]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%9 = new proto/KLabel
+	%6 = static FontFactory.createBoldFont(18)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = Color.RED
+	special %9.<init>(arg$0, %6, %7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%11[0] = %9
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %12.<init>(%11)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %12
+2026-04-01 17:27:10.542 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_newAnalysisHeader_98760853415
+2026-04-01 17:27:10.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::newAnalysisPlate(java/lang/String, proto/KLabel): proto/KPanel
+2026-04-01 17:27:10.542 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::newAnalysisPlate(java/lang/String, proto/KLabel): proto/KPanel
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%24 = new proto/KPanel
+	%4 = new java/awt/FlowLayout
+	special %4.<init>(0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %24.<init>(%4)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%23 = new java/awt/Component[3]
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%17 = new proto/KPanel
+	%15 = new java/awt/Component[1]
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%13 = new proto/KLabel
+	%11 = ModuleAnalysis.HINT_FONT
+	special %13.<init>(arg$0, %11)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%15[0] = %13
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	special %17.<init>(%15)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%23[0] = %17
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%20 = static Box.createHorizontalStrut(20)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%23[1] = %20
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%23[2] = arg$1
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual %24.addAll(%23)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return %24
+2026-04-01 17:27:11.025 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_newAnalysisPlate_10631649916
+2026-04-01 17:27:11.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::attachActiveOnFocus(proto/KLabel, java/lang/String): void
+2026-04-01 17:27:11.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::attachActiveOnFocus(proto/KLabel, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new core/module/ModuleAnalysis$11
+	special %2.<init>(this, arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	virtual arg$0.addMouseListener(%2)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:27:11.637 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_attachActiveOnFocus_75096264117
+2026-04-01 17:27:11.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::resetLists(): void
+2026-04-01 17:27:11.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::resetLists(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static ModuleMemory.getFractionByGrade("A+")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.APlusList = %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = static ModuleMemory.getFractionByGrade("A")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.ANeutralList = %3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%5 = static ModuleMemory.getFractionByGrade("A-")
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.AMinusList = %5
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%7 = static ModuleMemory.getFractionByGrade("B+")
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	this.BPlusList = %7
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%9 = static ModuleMemory.getFractionByGrade("B")
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	this.BNeutralList = %9
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%11 = static ModuleMemory.getFractionByGrade("B-")
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	this.BMinusList = %11
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%13 = static ModuleMemory.getFractionByGrade("C+")
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	this.CPlusList = %13
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%15 = static ModuleMemory.getFractionByGrade("C")
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	this.CNeutralList = %15
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%17 = static ModuleMemory.getFractionByGrade("C-")
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	this.CMinusList = %17
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%19 = static ModuleMemory.getFractionByGrade("D")
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	this.DList = %19
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%21 = static ModuleMemory.getFractionByGrade("F")
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	this.FList = %21
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%23 = static ModuleMemory.getMajors()
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	this.majorsList = %23
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%25 = static ModuleMemory.getMinors()
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	this.minorsList = %25
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%27 = static ModuleMemory.getDERs()
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	this.DERList = %27
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%29 = static ModuleMemory.getGERs()
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	this.GERList = %29
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%31 = static ModuleMemory.getUnknowns()
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	this.unclassifiedList = %31
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%33 = static ModuleMemory.getSemesters()
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	ModuleAnalysis.semestersList = %33
+	goto %label0
+
+%label0: 	//predecessors %bb33
+	%35 = static ModuleMemory.getAcademicYears()
+	goto %bb34
+
+%bb34: 	//predecessors %label0
+	ModuleAnalysis.yearsList = %35
+	goto %label1
+
+%label1: 	//predecessors %bb34
+	return
+2026-04-01 17:27:12.019 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_resetLists_32997529418
+2026-04-01 17:27:12.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::resetCourses(): void
+2026-04-01 17:27:12.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::resetCourses(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static ModuleMemory.getHighestScore()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.highestScoreCourse = %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = static ModuleMemory.getLowestScore()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.lowestScoreCourse = %3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%5 = static ModuleMemory.getHighestMajorScore()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.highestMajorScoreCourse = %5
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%7 = static ModuleMemory.getLowestMajorScore()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	this.lowestMajorScoreCourse = %7
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%9 = static ModuleMemory.getHighestMinorScore()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	this.highestMinorScoreCourse = %9
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%11 = static ModuleMemory.getLowestMinorScore()
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	this.lowestMinorScoreCourse = %11
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%13 = static ModuleMemory.getHighestDERScore()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	this.highestDERScoreCourse = %13
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%15 = static ModuleMemory.getLowestDERScore()
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	this.lowestDERScoreCourse = %15
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%17 = static ModuleMemory.getHighestGERScore()
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	this.highestGERScoreCourse = %17
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%19 = static ModuleMemory.getLowestGERScore()
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	this.lowestGERScoreCourse = %19
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	return
+2026-04-01 17:27:12.472 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test core.module.ModuleAnalysis_resetCourses_191554326319
+2026-04-01 17:27:12.487 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method core/module/ModuleAnalysis::resetLabels(): void
+2026-04-01 17:27:12.487 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - core/module/ModuleAnalysis::resetLabels(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = this.APlusLabel
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.APlusList
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual this.getProperValueText(%2)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %4.setText(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%10 = this.ANeutralLabel
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%8 = this.ANeutralList
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%11 = virtual this.getProperValueText(%8)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	virtual %10.setText(%11)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%16 = this.AMinusLabel
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%14 = this.AMinusList
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%17 = virtual this.getProperValueText(%14)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	virtual %16.setText(%17)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%22 = this.BPlusLabel
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%20 = this.BPlusList
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%23 = virtual this.getProperValueText(%20)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	virtual %22.setText(%23)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%28 = this.BNeutralLabel
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%26 = this.BNeutralList
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%29 = virtual this.getProperValueText(%26)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	virtual %28.setText(%29)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%34 = this.BMinusLabel
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%32 = this.BMinusList
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%35 = virtual this.getProperValueText(%32)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	virtual %34.setText(%35)
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%40 = this.CPlusLabel
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%38 = this.CPlusList
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%41 = virtual this.getProperValueText(%38)
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	virtual %40.setText(%41)
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%46 = this.CNeutralLabel
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%44 = this.CNeutralList
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%47 = virtual this.getProperValueText(%44)
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	virtual %46.setText(%47)
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%52 = this.CMinusLabel
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	%50 = this.CMinusList
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%53 = virtual this.getProperValueText(%50)
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	virtual %52.setText(%53)
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%58 = this.DLabel
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	%56 = this.DList
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	%59 = virtual this.getProperValueText(%56)
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	virtual %58.setText(%59)
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	%64 = this.FLabel
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	%62 = this.FList
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	%65 = virtual this.getProperValueText(%62)
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	virtual %64.setText(%65)
+	goto %bb44
+
+%bb44: 	//predecessors %bb43
+	%70 = this.highestScoreLabel
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%68 = this.highestScoreCourse
+	goto %bb46
+
+%bb46: 	//predecessors %bb45
+	%71 = virtual this.getProperValueText(%68)
+	goto %bb47
+
+%bb47: 	//predecessors %bb46
+	virtual %70.setText(%71)
+	goto %bb48
+
+%bb48: 	//predecessors %bb47
+	%76 = this.lowestScoreLabel
+	goto %bb49
+
+%bb49: 	//predecessors %bb48
+	%74 = this.lowestScoreCourse
+	goto %bb50
+
+%bb50: 	//predecessors %bb49
+	%77 = virtual this.getProperValueText(%74)
+	goto %bb51
+
+%bb51: 	//predecessors %bb50
+	virtual %76.setText(%77)
+	goto %bb52
+
+%bb52: 	//predecessors %bb51
+	%82 = this.highestMajorScoreLabel
+	goto %bb53
+
+%bb53: 	//predecessors %bb52
+	%80 = this.highestMajorScoreCourse
+	goto %bb54
+
+%bb54: 	//predecessors %bb53
+	%83 = virtual this.getProperValueText(%80)
+	goto %bb55
+
+%bb55: 	//predecessors %bb54
+	virtual %82.setText(%83)
+	goto %bb56
+
+%bb56: 	//predecessors %bb55
+	%88 = this.lowestMajorScoreLabel
+	goto %bb57
+
+%bb57: 	//predecessors %bb56
+	%86 = this.lowestMajorScoreCourse
+	goto %bb58
+
+%bb58: 	//predecessors %bb57
+	%89 = virtual this.getProperValueText(%86)
+	goto %bb59
+
+%bb59: 	//predecessors %bb58
+	virtual %88.setText(%89)
+	goto %bb60
+
+%bb60: 	//predecessors %bb59
+	%94 = this.highestMinorScoreLabel
+	goto %bb61
+
+%bb61: 	//predecessors %bb60
+	%92 = this.highestMinorScoreCourse
+	goto %bb62
+
+%bb62: 	//predecessors %bb61
+	%95 = virtual this.getProperValueText(%92)
+	goto %bb63
+
+%bb63: 	//predecessors %bb62
+	virtual %94.setText(%95)
+	goto %bb64
+
+%bb64: 	//predecessors %bb63
+	%100 = this.lowestMinorScoreLabel
+	goto %bb65
+
+%bb65: 	//predecessors %bb64
+	%98 = this.lowestMinorScoreCourse
+	goto %bb66
+
+%bb66: 	//predecessors %bb65
+	%101 = virtual this.getProperValueText(%98)
+	goto %bb67
+
+%bb67: 	//predecessors %bb66
+	virtual %100.setText(%101)
+	goto %bb68
+
+%bb68: 	//predecessors %bb67
+	%106 = this.highestDERScoreLabel
+	goto %bb69
+
+%bb69: 	//predecessors %bb68
+	%104 = this.highestDERScoreCourse
+	goto %bb70
+
+%bb70: 	//predecessors %bb69
+	%107 = virtual this.getProperValueText(%104)
+	goto %bb71
+
+%bb71: 	//predecessors %bb70
+	virtual %106.setText(%107)
+	goto %bb72
+
+%bb72: 	//predecessors %bb71
+	%112 = this.lowestDERScoreLabel
+	goto %bb73
+
+%bb73: 	//predecessors %bb72
+	%110 = this.lowestDERScoreCourse
+	goto %bb74
+
+%bb74: 	//predecessors %bb73
+	%113 = virtual this.getProperValueText(%110)
+	goto %bb75
+
+%bb75: 	//predecessors %bb74
+	virtual %112.setText(%113)
+	goto %bb76
+
+%bb76: 	//predecessors %bb75
+	%118 = this.highestGERScoreLabel
+	goto %bb77
+
+%bb77: 	//predecessors %bb76
+	%116 = this.highestGERScoreCourse
+	goto %bb78
+
+%bb78: 	//predecessors %bb77
+	%119 = virtual this.getProperValueText(%116)
+	goto %bb79
+
+%bb79: 	//predecessors %bb78
+	virtual %118.setText(%119)
+	goto %bb80
+
+%bb80: 	//predecessors %bb79
+	%124 = this.lowestGERScoreLabel
+	goto %bb81
+
+%bb81: 	//predecessors %bb80
+	%122 = this.lowestGERScoreCourse
+	goto %bb82
+
+%bb82: 	//predecessors %bb81
+	%125 = virtual this.getProperValueText(%122)
+	goto %bb83
+
+%bb83: 	//predecessors %bb82
+	virtual %124.setText(%125)
+	goto %bb84
+
+%bb84: 	//predecessors %bb83
+	%130 = this.majorsLabel
+	goto %bb85
+
+%bb85: 	//predecessors %bb84
+	%128 = this.majorsList
+	goto %bb86
+
+%bb86: 	//predecessors %bb85
+	%131 = virtual this.getProperValueText(%128)
+	goto %bb87
+
+%bb87: 	//predecessors %bb86
+	virtual %130.setText(%131)
+	goto %bb88
+
+%bb88: 	//predecessors %bb87
+	%136 = this.minorsLabel
+	goto %bb89
+
+%bb89: 	//predecessors %bb88
+	%134 = this.minorsList
+	goto %bb90
+
+%bb90: 	//predecessors %bb89
+	%137 = virtual this.getProperValueText(%134)
+	goto %bb91
+
+%bb91: 	//predecessors %bb90
+	virtual %136.setText(%137)
+	goto %bb92
+
+%bb92: 	//predecessors %bb91
+	%142 = this.DERsLabel
+	goto %bb93
+
+%bb93: 	//predecessors %bb92
+	%140 = this.DERList
+	goto %bb94
+
+%bb94: 	//predecessors %bb93
+	%143 = virtual this.getProperValueText(%140)
+	goto %bb95
+
+%bb95: 	//predecessors %bb94
+	virtual %142.setText(%143)
+	goto %bb96
+
+%bb96: 	//predecessors %bb95
+	%148 = this.GERsLabel
+	goto %bb97
+
+%bb97: 	//predecessors %bb96
+	%146 = this.GERList
+	goto %bb98
+
+%bb98: 	//predecessors %bb97
+	%149 = virtual this.getProperValueText(%146)
+	goto %bb99
+
+%bb99: 	//predecessors %bb98
+	virtual %148.setText(%149)
+	goto %bb100
+
+%bb100: 	//predecessors %bb99
+	%154 = this.unclassifiedListLabel
+	goto %bb101
+
+%bb101: 	//predecessors %bb100
+	%152 = this.unclassifiedList
+	goto %bb102
+
+%bb102: 	//predecessors %bb101
+	%155 = virtual this.getProperValueText(%152)
+	goto %bb103
+
+%bb103: 	//predecessors %bb102
+	virtual %154.setText(%155)
+	goto %bb104
+
+%bb104: 	//predecessors %bb103
+	return

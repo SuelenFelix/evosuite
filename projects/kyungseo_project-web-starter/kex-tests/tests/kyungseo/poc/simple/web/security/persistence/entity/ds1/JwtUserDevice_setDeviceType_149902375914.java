@@ -1,0 +1,211 @@
+package kyungseo.poc.simple.web.security.persistence.entity.ds1;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static kyungseo.poc.simple.web.security.persistence.entity.ds1.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Object;
+import java.lang.Boolean;
+import java.lang.Integer;
+import java.util.ArrayList;
+
+public class JwtUserDevice_setDeviceType_149902375914 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term24914;
+
+    public JwtUserDevice_setDeviceType_149902375914() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term24915 = new Long(2539855115472922877L);
+        Long term24918 = new Long(2225205033924782338L);
+        Boolean term24956 = new Boolean(false);
+        Integer term24958 = new Integer(-2129828854);
+        Long term24999 = new Long(7835393778718147329L);
+        Object term24998 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term24998, term24998.getClass(), "id", term24999);
+        setField(term24998, term24998.getClass(), "users", null);
+        setField(term24998, term24998.getClass(), "privileges", null);
+        setField(term24998, term24998.getClass(), "name", null);
+        Object term25001 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term25001, term25001.getClass(), "id", null);
+        setField(term25001, term25001.getClass(), "users", null);
+        setField(term25001, term25001.getClass(), "privileges", null);
+        setField(term25001, term25001.getClass(), "name", null);
+        Object term25002 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term25002, term25002.getClass(), "id", null);
+        setField(term25002, term25002.getClass(), "users", null);
+        setField(term25002, term25002.getClass(), "privileges", null);
+        setField(term25002, term25002.getClass(), "name", null);
+        Object term25003 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term25003, term25003.getClass(), "id", null);
+        setField(term25003, term25003.getClass(), "users", null);
+        setField(term25003, term25003.getClass(), "privileges", null);
+        setField(term25003, term25003.getClass(), "name", null);
+        Long term25005 = new Long(9159382852866553531L);
+        Object term25004 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term25004, term25004.getClass(), "id", term25005);
+        setField(term25004, term25004.getClass(), "users", null);
+        setField(term25004, term25004.getClass(), "privileges", null);
+        setField(term25004, term25004.getClass(), "name", null);
+        ArrayList term24996 = new ArrayList();
+        ((ArrayList) term24996).add(term24998);
+        ((ArrayList) term24996).add(term25001);
+        ((ArrayList) term24996).add(term25002);
+        ((ArrayList) term24996).add(term25003);
+        ((ArrayList) term24996).add(term25004);
+        Long term25067 = new Long(8420774984276198981L);
+        Long term25082 = new Long(8962086662826420449L);
+        Long term25085 = new Long(2629509803227198743L);
+        Boolean term25090 = new Boolean(false);
+        Integer term25092 = new Integer(-47438786);
+        ArrayList term25097 = new ArrayList();
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        ((ArrayList) term25097).add((Object)null);
+        Long term25129 = new Long(4633683327243391760L);
+        Long term25133 = new Long(-5857237775500629566L);
+        Boolean term25135 = new Boolean(true);
+        Long term25137 = new Long(-7432340314800293983L);
+        Boolean term25142 = new Boolean(true);
+        Long term25144 = new Long(6550654434780156893L);
+        Boolean term25149 = new Boolean(true);
+        term24914 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.JwtUserDevice"));
+        Object term24917 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term25022 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term25023 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term25027 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term25032 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term25033 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term25037 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term25066 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.JwtRefreshToken"));
+        Object term25081 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.JwtUserDevice"));
+        Object term25084 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term25102 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term25103 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term25128 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.JwtRefreshToken"));
+        Object term25132 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.JwtUserDevice"));
+        Object term25139 = newInstance(Class.forName("java.time.Instant"));
+        Object term25146 = newInstance(Class.forName("java.time.Instant"));
+        setField(term24914, term24914.getClass(), "id", term24915);
+        setField(term24917, term24917.getClass(), "id", term24918);
+        setField(term24917, term24917.getClass(), "membername", "PVyTkZKjNq");
+        setField(term24917, term24917.getClass(), "email", "RNUULrdSpr");
+        setField(term24917, term24917.getClass(), "password", "OBtSUjwRLK");
+        setField(term24917, term24917.getClass(), "enabled", term24956);
+        setField(term24917, term24917.getClass(), "age", term24958);
+        setField(term24917, term24917.getClass(), "phoneNumber", "QbLHBJXaMu");
+        setField(term24917, term24917.getClass(), "country", "OYMmpMJVgl");
+        setField(term24917, term24917.getClass(), "birthdate", "auhFemTfIs");
+        setField(term24917, term24917.getClass(), "roles", term24996);
+        setBooleanField(term24917, term24917.getClass(), "isUsing2FA", false);
+        setField(term24917, term24917.getClass(), "secret", "GuAJIPitoi");
+        setIntField(term25023, term25023.getClass(), "year", 2013);
+        setShortField(term25023, term25023.getClass(), "month", (short) 5);
+        setShortField(term25023, term25023.getClass(), "day", (short) 26);
+        setField(term25022, term25022.getClass(), "date", term25023);
+        setByteField(term25027, term25027.getClass(), "hour", (byte) 13);
+        setByteField(term25027, term25027.getClass(), "minute", (byte) 14);
+        setByteField(term25027, term25027.getClass(), "second", (byte) 4);
+        setIntField(term25027, term25027.getClass(), "nano", 125550160);
+        setField(term25022, term25022.getClass(), "time", term25027);
+        setField(term24917, term24917.getClass(), "regDate", term25022);
+        setIntField(term25033, term25033.getClass(), "year", 2019);
+        setShortField(term25033, term25033.getClass(), "month", (short) 8);
+        setShortField(term25033, term25033.getClass(), "day", (short) 15);
+        setField(term25032, term25032.getClass(), "date", term25033);
+        setByteField(term25037, term25037.getClass(), "hour", (byte) 13);
+        setByteField(term25037, term25037.getClass(), "minute", (byte) 37);
+        setByteField(term25037, term25037.getClass(), "second", (byte) 43);
+        setIntField(term25037, term25037.getClass(), "nano", 174771933);
+        setField(term25032, term25032.getClass(), "time", term25037);
+        setField(term24917, term24917.getClass(), "modDate", term25032);
+        setField(term24914, term24914.getClass(), "user", term24917);
+        setField(term24914, term24914.getClass(), "deviceType", "jdbenJidCP");
+        setField(term24914, term24914.getClass(), "deviceId", "bndQoQMcMY");
+        setField(term25066, term25066.getClass(), "id", term25067);
+        setField(term25066, term25066.getClass(), "token", "nSplWTTcpK");
+        setField(term25081, term25081.getClass(), "id", term25082);
+        setField(term25084, term25084.getClass(), "id", term25085);
+        setField(term25084, term25084.getClass(), "membername", "");
+        setField(term25084, term25084.getClass(), "email", "");
+        setField(term25084, term25084.getClass(), "password", "");
+        setField(term25084, term25084.getClass(), "enabled", term25090);
+        setField(term25084, term25084.getClass(), "age", term25092);
+        setField(term25084, term25084.getClass(), "phoneNumber", "");
+        setField(term25084, term25084.getClass(), "country", "");
+        setField(term25084, term25084.getClass(), "birthdate", "");
+        setField(term25084, term25084.getClass(), "roles", term25097);
+        setBooleanField(term25084, term25084.getClass(), "isUsing2FA", false);
+        setField(term25084, term25084.getClass(), "secret", "");
+        setField(term25102, term25102.getClass(), "date", null);
+        setField(term25102, term25102.getClass(), "time", null);
+        setField(term25084, term25084.getClass(), "regDate", term25102);
+        setField(term25103, term25103.getClass(), "date", null);
+        setField(term25103, term25103.getClass(), "time", null);
+        setField(term25084, term25084.getClass(), "modDate", term25103);
+        setField(term25081, term25081.getClass(), "user", term25084);
+        setField(term25081, term25081.getClass(), "deviceType", "DkUVQMwabd");
+        setField(term25081, term25081.getClass(), "deviceId", "TppVynnXqE");
+        setField(term25128, term25128.getClass(), "id", term25129);
+        setField(term25128, term25128.getClass(), "token", "");
+        setField(term25132, term25132.getClass(), "id", term25133);
+        setField(term25132, term25132.getClass(), "user", null);
+        setField(term25132, term25132.getClass(), "deviceType", null);
+        setField(term25132, term25132.getClass(), "deviceId", null);
+        setField(term25132, term25132.getClass(), "refreshToken", null);
+        setField(term25132, term25132.getClass(), "isRefreshActive", term25135);
+        setField(term25128, term25128.getClass(), "userDevice", term25132);
+        setField(term25128, term25128.getClass(), "refreshCount", term25137);
+        setLongField(term25139, term25139.getClass(), "seconds", 1272776321L);
+        setIntField(term25139, term25139.getClass(), "nanos", 768000000);
+        setField(term25128, term25128.getClass(), "expiryDate", term25139);
+        setField(term25081, term25081.getClass(), "refreshToken", term25128);
+        setField(term25081, term25081.getClass(), "isRefreshActive", term25142);
+        setField(term25066, term25066.getClass(), "userDevice", term25081);
+        setField(term25066, term25066.getClass(), "refreshCount", term25144);
+        setLongField(term25146, term25146.getClass(), "seconds", 1597352397L);
+        setIntField(term25146, term25146.getClass(), "nanos", 295000000);
+        setField(term25066, term25066.getClass(), "expiryDate", term25146);
+        setField(term24914, term24914.getClass(), "refreshToken", term25066);
+        setField(term24914, term24914.getClass(), "isRefreshActive", term25149);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.JwtUserDevice");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = "tXidIUmzlF";
+        callMethod(klass, "setDeviceType", argTypes, term24914, args);
+    }
+
+};
+
+

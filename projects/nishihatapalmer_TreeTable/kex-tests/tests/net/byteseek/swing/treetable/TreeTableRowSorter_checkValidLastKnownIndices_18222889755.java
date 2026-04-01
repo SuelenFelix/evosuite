@@ -1,0 +1,216 @@
+package net.byteseek.swing.treetable;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static net.byteseek.swing.treetable.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.Collection;
+import java.util.HashSet;
+import java.lang.Integer;
+
+public class TreeTableRowSorter_checkValidLastKnownIndices_18222889755 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term105101;
+     Object term105198;
+     Object term105200;
+
+    public TreeTableRowSorter_checkValidLastKnownIndices_18222889755() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Object term105104 = newInstance(Class.forName("javax.swing.RowSorter$SortKey"));
+        Object term105106 = newInstance(Class.forName("javax.swing.SortOrder"));
+        setIntField(term105104, term105104.getClass(), "column", -1683802689);
+        setField(term105106, term105106.getClass(), "name", null);
+        setIntField(term105106, term105106.getClass(), "ordinal", 2);
+        setField(term105104, term105104.getClass(), "sortOrder", term105106);
+        Object term105108 = newInstance(Class.forName("javax.swing.RowSorter$SortKey"));
+        Object term105110 = newInstance(Class.forName("javax.swing.SortOrder"));
+        setIntField(term105108, term105108.getClass(), "column", -1949346221);
+        setField(term105110, term105110.getClass(), "name", null);
+        setIntField(term105110, term105110.getClass(), "ordinal", 0);
+        setField(term105108, term105108.getClass(), "sortOrder", term105110);
+        Object term105112 = newInstance(Class.forName("javax.swing.RowSorter$SortKey"));
+        Object term105114 = newInstance(Class.forName("javax.swing.SortOrder"));
+        setIntField(term105112, term105112.getClass(), "column", 831638391);
+        setField(term105114, term105114.getClass(), "name", null);
+        setIntField(term105114, term105114.getClass(), "ordinal", 1);
+        setField(term105112, term105112.getClass(), "sortOrder", term105114);
+        ArrayList term105102 = new ArrayList();
+        ((ArrayList) term105102).add(term105104);
+        ((ArrayList) term105102).add(term105108);
+        ((ArrayList) term105102).add(term105112);
+        ArrayList term105118 = new ArrayList();
+        HashMap term105123 = new HashMap();
+        Set<Object> term105202 =  ((Map) term105123).keySet();
+        HashSet term105122 = new HashSet((Collection<? extends Object>) term105202);
+        ArrayList term105144 = new ArrayList();
+        ((ArrayList) term105144).add((Object)null);
+        ArrayList term105147 = new ArrayList();
+        HashSet term105150 = new HashSet();
+        ArrayList term105159 = new ArrayList();
+        ArrayList term105162 = new ArrayList();
+        HashSet term105165 = new HashSet();
+        term105101 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        Object[] term105141 = (Object[]) newArray("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow", 6);
+        Object term105142 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow"));
+        Object term105143 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        Object[] term105151 = (Object[]) newArray("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow", 0);
+        int[] term105152 = (int[]) newIntArray(0);
+        Object term105155 = newInstance(Class.forName("javax.swing.event.EventListenerList"));
+        Object term105157 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow"));
+        Object term105158 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        Object term105169 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow"));
+        Object term105170 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        Object term105174 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow"));
+        Object term105175 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        Object term105179 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow"));
+        Object term105180 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        Object term105184 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter$SortRow"));
+        Object term105185 = newInstance(Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter"));
+        int[] term105189 = (int[]) newIntArray(4);
+        Object term105196 = newInstance(Class.forName("javax.swing.event.EventListenerList"));
+        Object[] term105197 = (Object[]) newArray("java.lang.Object", 0);
+        setField(term105101, term105101.getClass(), "model", null);
+        setField(term105101, term105101.getClass(), "sortKeys", term105102);
+        setField(term105101, term105101.getClass(), "defaultSortKeys", term105118);
+        setField(term105101, term105101.getClass(), "unsortableColumns", term105122);
+        setField(term105101, term105101.getClass(), "nodeComparator", null);
+        setField(term105101, term105101.getClass(), "sortStrategy", null);
+        setField(term105143, term105143.getClass(), "model", null);
+        setField(term105143, term105143.getClass(), "sortKeys", term105144);
+        setField(term105143, term105143.getClass(), "defaultSortKeys", term105147);
+        setField(term105143, term105143.getClass(), "unsortableColumns", term105150);
+        setField(term105143, term105143.getClass(), "nodeComparator", null);
+        setField(term105143, term105143.getClass(), "sortStrategy", null);
+        setField(term105143, term105143.getClass(), "viewToModelIndex", term105151);
+        setField(term105143, term105143.getClass(), "modelToViewIndex", term105152);
+        setIntField(term105143, term105143.getClass(), "lastRowCount", -758870402);
+        setBooleanField(term105143, term105143.getClass(), "rebuildIndices", false);
+        setField(term105155, term105155.getClass(), "listenerList", null);
+        setField(term105143, term105143.getClass(), "listenerList", term105155);
+        setField(term105142, term105142.getClass(), "rowSorter", term105143);
+        setIntField(term105142, term105142.getClass(), "modelIndex", 72767889);
+        setElement(term105141, 0, term105142);
+        setField(term105158, term105158.getClass(), "model", null);
+        setField(term105158, term105158.getClass(), "sortKeys", term105159);
+        setField(term105158, term105158.getClass(), "defaultSortKeys", term105162);
+        setField(term105158, term105158.getClass(), "unsortableColumns", term105165);
+        setField(term105158, term105158.getClass(), "nodeComparator", null);
+        setField(term105158, term105158.getClass(), "sortStrategy", null);
+        setField(term105158, term105158.getClass(), "viewToModelIndex", null);
+        setField(term105158, term105158.getClass(), "modelToViewIndex", null);
+        setIntField(term105158, term105158.getClass(), "lastRowCount", 0);
+        setBooleanField(term105158, term105158.getClass(), "rebuildIndices", false);
+        setField(term105158, term105158.getClass(), "listenerList", null);
+        setField(term105157, term105157.getClass(), "rowSorter", term105158);
+        setIntField(term105157, term105157.getClass(), "modelIndex", 1699515029);
+        setElement(term105141, 1, term105157);
+        setField(term105170, term105170.getClass(), "model", null);
+        setField(term105170, term105170.getClass(), "sortKeys", null);
+        setField(term105170, term105170.getClass(), "defaultSortKeys", null);
+        setField(term105170, term105170.getClass(), "unsortableColumns", null);
+        setField(term105170, term105170.getClass(), "nodeComparator", null);
+        setField(term105170, term105170.getClass(), "sortStrategy", null);
+        setField(term105170, term105170.getClass(), "viewToModelIndex", null);
+        setField(term105170, term105170.getClass(), "modelToViewIndex", null);
+        setIntField(term105170, term105170.getClass(), "lastRowCount", 0);
+        setBooleanField(term105170, term105170.getClass(), "rebuildIndices", false);
+        setField(term105170, term105170.getClass(), "listenerList", null);
+        setField(term105169, term105169.getClass(), "rowSorter", term105170);
+        setIntField(term105169, term105169.getClass(), "modelIndex", 673153263);
+        setElement(term105141, 2, term105169);
+        setField(term105175, term105175.getClass(), "model", null);
+        setField(term105175, term105175.getClass(), "sortKeys", null);
+        setField(term105175, term105175.getClass(), "defaultSortKeys", null);
+        setField(term105175, term105175.getClass(), "unsortableColumns", null);
+        setField(term105175, term105175.getClass(), "nodeComparator", null);
+        setField(term105175, term105175.getClass(), "sortStrategy", null);
+        setField(term105175, term105175.getClass(), "viewToModelIndex", null);
+        setField(term105175, term105175.getClass(), "modelToViewIndex", null);
+        setIntField(term105175, term105175.getClass(), "lastRowCount", 0);
+        setBooleanField(term105175, term105175.getClass(), "rebuildIndices", false);
+        setField(term105175, term105175.getClass(), "listenerList", null);
+        setField(term105174, term105174.getClass(), "rowSorter", term105175);
+        setIntField(term105174, term105174.getClass(), "modelIndex", -1355715967);
+        setElement(term105141, 3, term105174);
+        setField(term105180, term105180.getClass(), "model", null);
+        setField(term105180, term105180.getClass(), "sortKeys", null);
+        setField(term105180, term105180.getClass(), "defaultSortKeys", null);
+        setField(term105180, term105180.getClass(), "unsortableColumns", null);
+        setField(term105180, term105180.getClass(), "nodeComparator", null);
+        setField(term105180, term105180.getClass(), "sortStrategy", null);
+        setField(term105180, term105180.getClass(), "viewToModelIndex", null);
+        setField(term105180, term105180.getClass(), "modelToViewIndex", null);
+        setIntField(term105180, term105180.getClass(), "lastRowCount", 0);
+        setBooleanField(term105180, term105180.getClass(), "rebuildIndices", false);
+        setField(term105180, term105180.getClass(), "listenerList", null);
+        setField(term105179, term105179.getClass(), "rowSorter", term105180);
+        setIntField(term105179, term105179.getClass(), "modelIndex", -972516789);
+        setElement(term105141, 4, term105179);
+        setField(term105185, term105185.getClass(), "model", null);
+        setField(term105185, term105185.getClass(), "sortKeys", null);
+        setField(term105185, term105185.getClass(), "defaultSortKeys", null);
+        setField(term105185, term105185.getClass(), "unsortableColumns", null);
+        setField(term105185, term105185.getClass(), "nodeComparator", null);
+        setField(term105185, term105185.getClass(), "sortStrategy", null);
+        setField(term105185, term105185.getClass(), "viewToModelIndex", null);
+        setField(term105185, term105185.getClass(), "modelToViewIndex", null);
+        setIntField(term105185, term105185.getClass(), "lastRowCount", 0);
+        setBooleanField(term105185, term105185.getClass(), "rebuildIndices", false);
+        setField(term105185, term105185.getClass(), "listenerList", null);
+        setField(term105184, term105184.getClass(), "rowSorter", term105185);
+        setIntField(term105184, term105184.getClass(), "modelIndex", 720077443);
+        setElement(term105141, 5, term105184);
+        setField(term105101, term105101.getClass(), "viewToModelIndex", term105141);
+        setIntElement(term105189, 0, -884523977);
+        setIntElement(term105189, 1, -1396233580);
+        setIntElement(term105189, 2, -654234892);
+        setIntElement(term105189, 3, -50930731);
+        setField(term105101, term105101.getClass(), "modelToViewIndex", term105189);
+        setIntField(term105101, term105101.getClass(), "lastRowCount", -1067876039);
+        setBooleanField(term105101, term105101.getClass(), "rebuildIndices", true);
+        setField(term105196, term105196.getClass(), "listenerList", term105197);
+        setField(term105101, term105101.getClass(), "listenerList", term105196);
+        term105198 = new Integer(-1143749623);
+        term105200 = new Integer(1961561878);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("net.byteseek.swing.treetable.TreeTableRowSorter");
+        Class<?>[] argTypes = new Class<?>[2];
+        argTypes[0] = int.class;
+        argTypes[1] = int.class;
+        Object[] args = new Object[2];
+        args[0] = term105198;
+        args[1] = term105200;
+        callMethod(klass, "checkValidLastKnownIndices", argTypes, term105101, args);
+    }
+
+};
+
+

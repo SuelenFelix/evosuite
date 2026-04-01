@@ -1,0 +1,1139 @@
+2026-04-01 17:13:58.994 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/openapi-json-schema-tools_openapi-json-schema-generator/target/classes
+2026-04-01 17:13:59.376 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 17:13:59.438 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-01 17:14:00.790 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-01 17:14:01.563 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package org/openapijsonschematools/codegen/validation/validators/*
+2026-04-01 17:14:01.564 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-01 17:14:01.592 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/openapi-json-schema-tools_openapi-json-schema-generator/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 17:14:01.627 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/openapi-json-schema-tools_openapi-json-schema-generator/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 34897 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/openapi-json-schema-tools_openapi-json-schema-generator/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-01 17:14:01.640 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-01 17:15:41.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/GenericValidator::<init>(java/util/List): void
+2026-04-01 17:15:41.686 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/GenericValidator::<init>(java/util/List): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.rules = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:15:42.925 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.GenericValidator_init_16170131920
+2026-04-01 17:15:42.941 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/GenericValidator::validate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationResult
+2026-04-01 17:15:42.941 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/GenericValidator::validate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationResult
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%11 = new org/openapijsonschematools/codegen/validation/validators/ValidationResult
+	special %11.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = this.rules
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = (%3 == null)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%9 = this.rules
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%10 = invokeDynamic (java/lang/Object, org/openapijsonschematools/codegen/validation/validators/ValidationResult): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/ValidationRule): void)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/GenericValidator::lambda$validate$0(java/lang/Object, org/openapijsonschematools/codegen/validation/validators/ValidationResult, org/openapijsonschematools/codegen/validation/validators/ValidationRule): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	interface %9.forEach(%10)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb3
+	return %11
+2026-04-01 17:15:43.224 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.GenericValidator_validate_6249600951
+2026-04-01 17:15:43.371 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.GenericValidator_init_16170131922
+2026-04-01 17:15:43.506 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.GenericValidator_validate_6249600953
+2026-04-01 17:15:43.507 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/GenericValidator::<init>(java/util/List): void: null
+2026-04-01 17:15:43.507 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/GenericValidator::validate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationResult: null
+2026-04-01 17:15:43.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/GenericValidator::<init>(java/util/List): void processing is finished normally
+2026-04-01 17:15:43.508 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/GenericValidator::validate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationResult processing is finished normally
+2026-04-01 17:15:43.511 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result
+2026-04-01 17:15:43.511 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-04-01 17:15:43.637 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_empty_11412430800
+2026-04-01 17:15:43.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(): void
+2026-04-01 17:15:43.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 17:15:43.768 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_init_10385846831
+2026-04-01 17:15:43.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(java/lang/String): void
+2026-04-01 17:15:43.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.details = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:15:43.861 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_init_8863315602
+2026-04-01 17:15:43.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::passed(): bool
+2026-04-01 17:15:43.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::passed(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return 1
+2026-04-01 17:15:43.985 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_passed_11863080113
+2026-04-01 17:15:44.088 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_empty_11412430804
+2026-04-01 17:15:44.173 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_init_10385846835
+2026-04-01 17:15:44.252 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_init_8863315606
+2026-04-01 17:15:44.336 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Pass_passed_11863080117
+2026-04-01 17:15:44.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result: null
+2026-04-01 17:15:44.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(): void: null
+2026-04-01 17:15:44.336 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(java/lang/String): void: null
+2026-04-01 17:15:44.337 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::passed(): bool: null
+2026-04-01 17:15:44.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result processing is finished normally
+2026-04-01 17:15:44.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(): void processing is finished normally
+2026-04-01 17:15:44.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::<init>(java/lang/String): void processing is finished normally
+2026-04-01 17:15:44.337 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Pass::passed(): bool processing is finished normally
+2026-04-01 17:15:44.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): void
+2026-04-01 17:15:44.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.rule = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.message = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-04-01 17:15:44.428 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_init_770243940
+2026-04-01 17:15:44.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): void
+2026-04-01 17:15:44.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.details = arg$2
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:15:44.500 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_init_6611110771
+2026-04-01 17:15:44.501 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Invalid::getDetails(): java/lang/String
+2026-04-01 17:15:44.501 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Invalid::getDetails(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.details
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:44.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getDetails_13976114572
+2026-04-01 17:15:44.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Invalid::getMessage(): java/lang/String
+2026-04-01 17:15:44.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Invalid::getMessage(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.message
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:44.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getMessage_8645619803
+2026-04-01 17:15:44.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Invalid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+2026-04-01 17:15:44.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Invalid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.rule
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:44.798 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getRule_12053716854
+2026-04-01 17:15:44.799 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Invalid::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity
+2026-04-01 17:15:44.799 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Invalid::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.rule
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.getSeverity()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 17:15:44.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getSeverity_6106752045
+2026-04-01 17:15:44.994 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_init_770243946
+2026-04-01 17:15:45.089 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_init_6611110777
+2026-04-01 17:15:45.184 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getDetails_13976114578
+2026-04-01 17:15:45.268 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getMessage_8645619809
+2026-04-01 17:15:45.342 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getRule_120537168510
+2026-04-01 17:15:45.416 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Invalid_getSeverity_61067520411
+2026-04-01 17:15:45.417 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): void: null
+2026-04-01 17:15:45.417 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): void: null
+2026-04-01 17:15:45.417 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Invalid::getDetails(): java/lang/String: null
+2026-04-01 17:15:45.417 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Invalid::getMessage(): java/lang/String: null
+2026-04-01 17:15:45.418 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Invalid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule: null
+2026-04-01 17:15:45.418 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Invalid::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity: null
+2026-04-01 17:15:45.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): void processing is finished normally
+2026-04-01 17:15:45.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Invalid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): void processing is finished normally
+2026-04-01 17:15:45.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Invalid::getDetails(): java/lang/String processing is finished normally
+2026-04-01 17:15:45.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Invalid::getMessage(): java/lang/String processing is finished normally
+2026-04-01 17:15:45.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Invalid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule processing is finished normally
+2026-04-01 17:15:45.418 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Invalid::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity processing is finished normally
+2026-04-01 17:15:45.421 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result
+2026-04-01 17:15:45.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-04-01 17:15:45.493 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_empty_11504881170
+2026-04-01 17:15:45.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(): void
+2026-04-01 17:15:45.494 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 17:15:45.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_init_10293396461
+2026-04-01 17:15:45.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String): void
+2026-04-01 17:15:45.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.details = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:15:45.630 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_init_8770865232
+2026-04-01 17:15:45.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String, java/lang/Throwable): void
+2026-04-01 17:15:45.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String, java/lang/Throwable): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.throwable = arg$1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.details = arg$0
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-04-01 17:15:45.726 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_init_15927387433
+2026-04-01 17:15:45.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::passed(): bool
+2026-04-01 17:15:45.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::passed(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return 0
+2026-04-01 17:15:45.815 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_passed_11955530484
+2026-04-01 17:15:45.868 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_empty_11504881175
+2026-04-01 17:15:45.921 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_init_10293396466
+2026-04-01 17:15:45.979 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_init_8770865237
+2026-04-01 17:15:46.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_init_15927387438
+2026-04-01 17:15:46.123 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Fail_passed_11955530489
+2026-04-01 17:15:46.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result: null
+2026-04-01 17:15:46.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(): void: null
+2026-04-01 17:15:46.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String): void: null
+2026-04-01 17:15:46.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String, java/lang/Throwable): void: null
+2026-04-01 17:15:46.124 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::passed(): bool: null
+2026-04-01 17:15:46.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result processing is finished normally
+2026-04-01 17:15:46.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(): void processing is finished normally
+2026-04-01 17:15:46.124 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String): void processing is finished normally
+2026-04-01 17:15:46.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::<init>(java/lang/String, java/lang/Throwable): void processing is finished normally
+2026-04-01 17:15:46.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Fail::passed(): bool processing is finished normally
+2026-04-01 17:15:46.130 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::<init>(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): void
+2026-04-01 17:15:46.130 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::<init>(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.severity = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.description = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.failureMessage = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.test = arg$3
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-04-01 17:15:46.208 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_init_20961303380
+2026-04-01 17:15:46.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getFailureMessage(): java/lang/String
+2026-04-01 17:15:46.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::getFailureMessage(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.failureMessage
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:46.285 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_getFailureMessage_5430461721
+2026-04-01 17:15:46.286 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::evaluate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result
+2026-04-01 17:15:46.286 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::evaluate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.test
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.apply(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result) %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-04-01 17:15:46.359 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_evaluate_14072553462
+2026-04-01 17:15:46.360 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity
+2026-04-01 17:15:46.360 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.severity
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:46.433 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_getSeverity_1689805823
+2026-04-01 17:15:46.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getDescription(): java/lang/String
+2026-04-01 17:15:46.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::getDescription(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.description
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:46.508 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_getDescription_7437762414
+2026-04-01 17:15:46.509 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+2026-04-01 17:15:46.509 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new org/openapijsonschematools/codegen/validation/validators/ValidationRule
+	%4 = Severity.ERROR
+	%5 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationRule::lambda$empty$0(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %6.<init>(%4, "empty", "failure message", %5)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %6
+2026-04-01 17:15:46.578 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_empty_900225165
+2026-04-01 17:15:46.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::create(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+2026-04-01 17:15:46.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::create(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/openapijsonschematools/codegen/validation/validators/ValidationRule
+	special %2.<init>(arg$0, arg$1, arg$2, arg$3)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-04-01 17:15:46.648 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_create_2232015516
+2026-04-01 17:15:46.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::error(java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+2026-04-01 17:15:46.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::error(java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new org/openapijsonschematools/codegen/validation/validators/ValidationRule
+	%3 = Severity.ERROR
+	special %4.<init>(%3, null, arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %4
+2026-04-01 17:15:46.722 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_error_13270698597
+2026-04-01 17:15:46.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::warn(java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+2026-04-01 17:15:46.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::warn(java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new org/openapijsonschematools/codegen/validation/validators/ValidationRule
+	%3 = Severity.WARNING
+	special %4.<init>(%3, arg$0, arg$1, arg$2)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %4
+2026-04-01 17:15:46.796 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_warn_9294601368
+2026-04-01 17:15:46.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule::toString(): java/lang/String
+2026-04-01 17:15:46.796 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.severity
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = static String.valueOf(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = this.description
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = this.failureMessage
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = invokeDynamic (java/lang/String, java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="ValidationRule{severity=, description='', failureMessage=''}"))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %9
+2026-04-01 17:15:46.867 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_toString_15803407899
+2026-04-01 17:15:46.929 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_init_209613033810
+2026-04-01 17:15:46.998 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_getFailureMessage_54304617211
+2026-04-01 17:15:47.070 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_evaluate_140725534612
+2026-04-01 17:15:47.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_getSeverity_16898058213
+2026-04-01 17:15:47.205 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_getDescription_74377624114
+2026-04-01 17:15:47.270 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_empty_9002251615
+2026-04-01 17:15:47.333 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_create_22320155116
+2026-04-01 17:15:47.392 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_error_132706985917
+2026-04-01 17:15:47.450 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_warn_92946013618
+2026-04-01 17:15:47.510 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_toString_158034078919
+2026-04-01 17:15:47.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::<init>(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): void: null
+2026-04-01 17:15:47.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getFailureMessage(): java/lang/String: null
+2026-04-01 17:15:47.511 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::evaluate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getDescription(): java/lang/String: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::create(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::error(java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::warn(java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule: null
+2026-04-01 17:15:47.512 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule::toString(): java/lang/String: null
+2026-04-01 17:15:47.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::<init>(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): void processing is finished normally
+2026-04-01 17:15:47.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getFailureMessage(): java/lang/String processing is finished normally
+2026-04-01 17:15:47.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::evaluate(java/lang/Object): org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result processing is finished normally
+2026-04-01 17:15:47.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getSeverity(): org/openapijsonschematools/codegen/validation/validators/Severity processing is finished normally
+2026-04-01 17:15:47.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::getDescription(): java/lang/String processing is finished normally
+2026-04-01 17:15:47.513 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::empty(): org/openapijsonschematools/codegen/validation/validators/ValidationRule processing is finished normally
+2026-04-01 17:15:47.513 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::create(org/openapijsonschematools/codegen/validation/validators/Severity, java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule processing is finished normally
+2026-04-01 17:15:47.513 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::error(java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule processing is finished normally
+2026-04-01 17:15:47.513 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::warn(java/lang/String, java/lang/String, java/util/function/Function): org/openapijsonschematools/codegen/validation/validators/ValidationRule processing is finished normally
+2026-04-01 17:15:47.513 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule::toString(): java/lang/String processing is finished normally
+2026-04-01 17:15:47.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Validated::isValid(): bool
+2026-04-01 17:15:47.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Validated::isValid(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return 0
+2026-04-01 17:15:47.573 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_isValid_14653327130
+2026-04-01 17:15:47.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated
+2026-04-01 17:15:47.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/openapijsonschematools/codegen/validation/validators/Invalid
+	special %2.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-04-01 17:15:47.633 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_invalid_757678521
+2026-04-01 17:15:47.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated
+2026-04-01 17:15:47.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/openapijsonschematools/codegen/validation/validators/Invalid
+	special %2.<init>(arg$0, arg$1, arg$2)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-04-01 17:15:47.681 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_invalid_6623676192
+2026-04-01 17:15:47.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Validated::valid(org/openapijsonschematools/codegen/validation/validators/ValidationRule): org/openapijsonschematools/codegen/validation/validators/Validated
+2026-04-01 17:15:47.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Validated::valid(org/openapijsonschematools/codegen/validation/validators/ValidationRule): org/openapijsonschematools/codegen/validation/validators/Validated
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/openapijsonschematools/codegen/validation/validators/Valid
+	special %2.<init>(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-04-01 17:15:47.728 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_valid_17753910743
+2026-04-01 17:15:47.774 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_isValid_14653327134
+2026-04-01 17:15:47.831 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_invalid_757678525
+2026-04-01 17:15:47.880 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_invalid_6623676196
+2026-04-01 17:15:47.927 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Validated_valid_17753910747
+2026-04-01 17:15:47.928 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Validated::isValid(): bool: null
+2026-04-01 17:15:47.928 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated: null
+2026-04-01 17:15:47.928 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated: null
+2026-04-01 17:15:47.929 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Validated::valid(org/openapijsonschematools/codegen/validation/validators/ValidationRule): org/openapijsonschematools/codegen/validation/validators/Validated: null
+2026-04-01 17:15:47.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Validated::isValid(): bool processing is finished normally
+2026-04-01 17:15:47.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated processing is finished normally
+2026-04-01 17:15:47.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Validated::invalid(org/openapijsonschematools/codegen/validation/validators/ValidationRule, java/lang/String, java/lang/String): org/openapijsonschematools/codegen/validation/validators/Validated processing is finished normally
+2026-04-01 17:15:47.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Validated::valid(org/openapijsonschematools/codegen/validation/validators/ValidationRule): org/openapijsonschematools/codegen/validation/validators/Validated processing is finished normally
+2026-04-01 17:15:47.930 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Valid::isValid(): bool
+2026-04-01 17:15:47.931 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Valid::isValid(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return 1
+2026-04-01 17:15:47.993 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_isValid_16841977010
+2026-04-01 17:15:47.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Valid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule): void
+2026-04-01 17:15:47.993 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Valid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.rule = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:15:48.064 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_init_3007771941
+2026-04-01 17:15:48.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Valid::getMessage(): java/lang/String
+2026-04-01 17:15:48.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Valid::getMessage(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return null
+2026-04-01 17:15:48.114 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_getMessage_5734377292
+2026-04-01 17:15:48.115 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Valid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+2026-04-01 17:15:48.115 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Valid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.rule
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:48.166 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_getRule_9142474343
+2026-04-01 17:15:48.233 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_isValid_16841977014
+2026-04-01 17:15:48.280 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_init_3007771945
+2026-04-01 17:15:48.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_getMessage_5734377296
+2026-04-01 17:15:48.393 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Valid_getRule_9142474347
+2026-04-01 17:15:48.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Valid::isValid(): bool: null
+2026-04-01 17:15:48.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Valid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule): void: null
+2026-04-01 17:15:48.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Valid::getMessage(): java/lang/String: null
+2026-04-01 17:15:48.394 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Valid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule: null
+2026-04-01 17:15:48.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Valid::isValid(): bool processing is finished normally
+2026-04-01 17:15:48.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Valid::<init>(org/openapijsonschematools/codegen/validation/validators/ValidationRule): void processing is finished normally
+2026-04-01 17:15:48.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Valid::getMessage(): java/lang/String processing is finished normally
+2026-04-01 17:15:48.394 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Valid::getRule(): org/openapijsonschematools/codegen/validation/validators/ValidationRule processing is finished normally
+2026-04-01 17:15:48.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Severity::values(): org/openapijsonschematools/codegen/validation/validators/Severity[]
+2026-04-01 17:15:48.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Severity::values(): org/openapijsonschematools/codegen/validation/validators/Severity[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = Severity.$VALUES
+	%3 = virtual %1.clone()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = (org/openapijsonschematools/codegen/validation/validators/Severity[]) %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-04-01 17:15:48.462 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Severity_values_3532469430
+2026-04-01 17:15:48.462 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Severity::valueOf(java/lang/String): org/openapijsonschematools/codegen/validation/validators/Severity
+2026-04-01 17:15:48.463 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Severity::valueOf(java/lang/String): org/openapijsonschematools/codegen/validation/validators/Severity
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Enum.valueOf(org/openapijsonschematools/codegen/validation/validators/Severity.class, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (org/openapijsonschematools/codegen/validation/validators/Severity) %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 17:15:48.527 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Severity_valueOf_1387834601
+2026-04-01 17:15:48.528 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/Severity::<init>(java/lang/String, int): void
+2026-04-01 17:15:48.528 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/Severity::<init>(java/lang/String, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 17:15:48.584 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Severity_init_5506615752
+2026-04-01 17:15:48.630 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Severity_values_3532469433
+2026-04-01 17:15:48.679 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Severity_valueOf_1387834604
+2026-04-01 17:15:48.727 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.Severity_init_5506615755
+2026-04-01 17:15:48.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Severity::values(): org/openapijsonschematools/codegen/validation/validators/Severity[]: null
+2026-04-01 17:15:48.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Severity::valueOf(java/lang/String): org/openapijsonschematools/codegen/validation/validators/Severity: null
+2026-04-01 17:15:48.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/Severity::<init>(java/lang/String, int): void: null
+2026-04-01 17:15:48.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Severity::values(): org/openapijsonschematools/codegen/validation/validators/Severity[] processing is finished normally
+2026-04-01 17:15:48.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Severity::valueOf(java/lang/String): org/openapijsonschematools/codegen/validation/validators/Severity processing is finished normally
+2026-04-01 17:15:48.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/Severity::<init>(java/lang/String, int): void processing is finished normally
+2026-04-01 17:15:48.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getDetails(): java/lang/String
+2026-04-01 17:15:48.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getDetails(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.details
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:48.787 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_getDetails_5200584540
+2026-04-01 17:15:48.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::setDetails(java/lang/String): void
+2026-04-01 17:15:48.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::setDetails(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = ValidationRule$Result.$assertionsDisabled
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%5 = this.details
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%7 = (%5 == null)
+	if (%7) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%10 = new java/lang/AssertionError
+	special %10.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	throw %10
+
+%if.then0: 	//predecessors %bb0, %bb1
+	this.details = arg$0
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	return
+2026-04-01 17:15:48.831 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_setDetails_13315394781
+2026-04-01 17:15:48.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::failed(): bool
+2026-04-01 17:15:48.832 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::failed(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.passed()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %5
+2026-04-01 17:15:48.875 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_failed_737892902
+2026-04-01 17:15:48.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getThrowable(): java/lang/Throwable
+2026-04-01 17:15:48.876 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getThrowable(): java/lang/Throwable
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.throwable
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:48.923 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_getThrowable_16980186713
+2026-04-01 17:15:48.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::thrown(): bool
+2026-04-01 17:15:48.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::thrown(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.throwable
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %5
+2026-04-01 17:15:48.969 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_thrown_7342888654
+2026-04-01 17:15:49.010 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_getDetails_5200584545
+2026-04-01 17:15:49.061 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_setDetails_13315394786
+2026-04-01 17:15:49.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_failed_737892907
+2026-04-01 17:15:49.154 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_getThrowable_16980186718
+2026-04-01 17:15:49.202 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationRule_Result_thrown_7342888659
+2026-04-01 17:15:49.202 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getDetails(): java/lang/String: null
+2026-04-01 17:15:49.202 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::setDetails(java/lang/String): void: null
+2026-04-01 17:15:49.202 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::failed(): bool: null
+2026-04-01 17:15:49.203 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getThrowable(): java/lang/Throwable: null
+2026-04-01 17:15:49.203 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::thrown(): bool: null
+2026-04-01 17:15:49.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getDetails(): java/lang/String processing is finished normally
+2026-04-01 17:15:49.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::setDetails(java/lang/String): void processing is finished normally
+2026-04-01 17:15:49.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::failed(): bool processing is finished normally
+2026-04-01 17:15:49.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::getThrowable(): java/lang/Throwable processing is finished normally
+2026-04-01 17:15:49.203 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationRule$Result::thrown(): bool processing is finished normally
+2026-04-01 17:15:49.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(java/util/List): void
+2026-04-01 17:15:49.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(java/util/List): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = static Collections.synchronizedList(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.validations = %1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-04-01 17:15:49.269 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_init_13630357570
+2026-04-01 17:15:49.269 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(): void
+2026-04-01 17:15:49.269 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new java/util/ArrayList
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>(%2)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-01 17:15:49.312 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_init_10908974171
+2026-04-01 17:15:49.313 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getAll(): java/util/List
+2026-04-01 17:15:49.313 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::getAll(): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.validations
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 17:15:49.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getAll_5314710602
+2026-04-01 17:15:49.358 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getValid(): java/util/List
+2026-04-01 17:15:49.358 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::getValid(): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.validations
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = interface %1.stream()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Validated): bool)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/Validated::isValid(): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = interface %4.filter(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Validated): org/openapijsonschematools/codegen/validation/validators/Valid)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getValid$0(org/openapijsonschematools/codegen/validation/validators/Validated): org/openapijsonschematools/codegen/validation/validators/Valid), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%12 = interface %8.map(%9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%13 = static Collectors.toList()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%15 = interface %12.collect(%13)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%17 = (java/util/List) %15
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	return %17
+2026-04-01 17:15:49.400 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getValid_12120949053
+2026-04-01 17:15:49.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getErrors(): java/util/List
+2026-04-01 17:15:49.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::getErrors(): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.validations
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = interface %1.stream()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Validated): bool)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getErrors$1(org/openapijsonschematools/codegen/validation/validators/Validated): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = interface %4.filter(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Validated): org/openapijsonschematools/codegen/validation/validators/Invalid)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getErrors$2(org/openapijsonschematools/codegen/validation/validators/Validated): org/openapijsonschematools/codegen/validation/validators/Invalid), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%12 = interface %8.map(%9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%13 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Invalid): bool)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getErrors$3(org/openapijsonschematools/codegen/validation/validators/Invalid): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%16 = interface %12.filter(%13)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%17 = static Collectors.toList()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%19 = interface %16.collect(%17)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%21 = (java/util/List) %19
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return %21
+2026-04-01 17:15:49.441 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getErrors_9938308184
+2026-04-01 17:15:49.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getWarnings(): java/util/List
+2026-04-01 17:15:49.442 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::getWarnings(): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.validations
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = interface %1.stream()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Validated): bool)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getWarnings$4(org/openapijsonschematools/codegen/validation/validators/Validated): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = interface %4.filter(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Validated): org/openapijsonschematools/codegen/validation/validators/Invalid)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getWarnings$5(org/openapijsonschematools/codegen/validation/validators/Validated): org/openapijsonschematools/codegen/validation/validators/Invalid), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%12 = interface %8.map(%9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%13 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(org/openapijsonschematools/codegen/validation/validators/Invalid): bool)), HandleBsmArgument(handle=@org/openapijsonschematools/codegen/validation/validators/ValidationResult::lambda$getWarnings$6(org/openapijsonschematools/codegen/validation/validators/Invalid): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%16 = interface %12.filter(%13)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%17 = static Collectors.toList()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%19 = interface %16.collect(%17)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%21 = (java/util/List) %19
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return %21
+2026-04-01 17:15:49.485 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getWarnings_8537753465
+2026-04-01 17:15:49.486 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::addResult(org/openapijsonschematools/codegen/validation/validators/Validated): void
+2026-04-01 17:15:49.486 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::addResult(org/openapijsonschematools/codegen/validation/validators/Validated): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%24 = this.validations
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	enter monitor %24
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = virtual arg$0.getRule()
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%5 = (%7 == null)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%8 = static ValidationRule.empty()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%10 = virtual %7.equals(%8)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%12 = (%10 != false)
+	if (%12) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%14 = this.validations
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%16 = interface %14.contains(arg$0)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%18 = (%16 != false)
+	if (%18) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb6
+	%20 = this.validations
+	goto %bb7
+
+%bb7: 	//predecessors %if.else2
+	%21 = interface %20.add(arg$0)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %if.then0
+
+%if.then0: 	//predecessors %label0, %bb4, %bb6, %bb8
+	exit monitor %24
+	goto %goto0
+
+%catch0: 	//catches from %catch0, %bb2, %if.else0, %if.then0, %bb8, %bb3, %label0, %if.else1, %bb5, %bb7, %bb4, %bb6, %if.else2
+	%25 = catch java/lang/Throwable
+exit monitor %24
+goto %bb9
+
+%bb9: 	//predecessors %catch0
+	throw %25
+
+%goto0: 	//predecessors %if.then0
+	return
+2026-04-01 17:15:49.548 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_addResult_18430096176
+2026-04-01 17:15:49.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/openapijsonschematools/codegen/validation/validators/ValidationResult::consume(org/openapijsonschematools/codegen/validation/validators/ValidationResult): org/openapijsonschematools/codegen/validation/validators/ValidationResult
+2026-04-01 17:15:49.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/openapijsonschematools/codegen/validation/validators/ValidationResult::consume(org/openapijsonschematools/codegen/validation/validators/ValidationResult): org/openapijsonschematools/codegen/validation/validators/ValidationResult
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%9 = this.validations
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	enter monitor %9
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4 = this.validations
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = arg$0.validations
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%6 = interface %4.addAll(%5)
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	exit monitor %9
+	goto %goto0
+
+%catch0: 	//catches from %catch0, %bb4, %bb2, %bb3, %label0
+	%10 = catch java/lang/Throwable
+exit monitor %9
+goto %bb5
+
+%bb5: 	//predecessors %catch0
+	throw %10
+
+%goto0: 	//predecessors %label0
+	return this
+2026-04-01 17:15:49.605 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_consume_18682251857
+2026-04-01 17:15:49.667 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_init_13630357578
+2026-04-01 17:15:49.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_init_10908974179
+2026-04-01 17:15:49.783 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getAll_53147106010
+2026-04-01 17:15:49.825 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getValid_121209490511
+2026-04-01 17:15:49.889 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getErrors_99383081812
+2026-04-01 17:15:49.949 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_getWarnings_85377534613
+2026-04-01 17:15:49.950 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getWarnings(): java/util/List: null
+2026-04-01 17:15:49.996 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_addResult_184300961714
+2026-04-01 17:15:50.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.openapijsonschematools.codegen.validation.validators.ValidationResult_consume_186822518515
+2026-04-01 17:15:50.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(java/util/List): void: null
+2026-04-01 17:15:50.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(): void: null
+2026-04-01 17:15:50.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getAll(): java/util/List: null
+2026-04-01 17:15:50.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getValid(): java/util/List: null
+2026-04-01 17:15:50.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getErrors(): java/util/List: null
+2026-04-01 17:15:50.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getWarnings(): java/util/List processing is finished normally
+2026-04-01 17:15:50.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::addResult(org/openapijsonschematools/codegen/validation/validators/Validated): void: null
+2026-04-01 17:15:50.053 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/openapijsonschematools/codegen/validation/validators/ValidationResult::consume(org/openapijsonschematools/codegen/validation/validators/ValidationResult): org/openapijsonschematools/codegen/validation/validators/ValidationResult: null
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(java/util/List): void processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::<init>(): void processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getAll(): java/util/List processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getValid(): java/util/List processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::getErrors(): java/util/List processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::addResult(org/openapijsonschematools/codegen/validation/validators/Validated): void processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/openapijsonschematools/codegen/validation/validators/ValidationResult::consume(org/openapijsonschematools/codegen/validation/validators/ValidationResult): org/openapijsonschematools/codegen/validation/validators/ValidationResult processing is finished normally
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-01 17:15:50.053 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

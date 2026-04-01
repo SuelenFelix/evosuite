@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -5,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.8</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath /> 
     </parent>
 
     <groupId>kyungseo.poc</groupId>
@@ -38,19 +39,7 @@
         </license>
     </licenses>
 
-    <!--
-    <scm>
-        <developerConnection>scm:git:git@github.com:kyungseo/project-web-starter.git</developerConnection>
-        <connection>scm:git@github.com:kyungseo/project-web-starter.git</connection>
-        <url>https://github.com/kyungseo/project-web-starter/tree/master</url>
-        <tag>HEAD</tag>
-    </scm>
-
-    <issueManagement>
-        <system>GitHub Issues</system>
-        <url>https://github.com/kyungseo/project-web-starter/issues</url>
-    </issueManagement>
-    -->
+    
 
     <properties>
         <default.encoding>UTF-8</default.encoding>
@@ -63,9 +52,9 @@
 
     <dependencies>
 
-        <!-- ============================================================== -->
-        <!-- Spring Boot -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -83,9 +72,9 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- Servlet : JSP/JSLT -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
@@ -97,9 +86,9 @@
             <version>2.2</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- Template -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -117,9 +106,9 @@
             <artifactId>thymeleaf-extras-springsecurity5</artifactId>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- API retry -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.retry</groupId>
             <artifactId>spring-retry</artifactId>
@@ -129,9 +118,9 @@
             <artifactId>spring-aspects</artifactId>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- atomikos -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jta-atomikos</artifactId>
@@ -142,9 +131,9 @@
             <version>4.0.6</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- Database & log4jdbc -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
@@ -154,7 +143,7 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
-        <!-- h2(com.h2database)를 사용하지 않는다면 jdbc dependency를 추가할 필요 없다 -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
@@ -165,9 +154,9 @@
             <version>1.16</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- Spring Data JPA & Querydsl -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -181,9 +170,9 @@
             <artifactId>querydsl-jpa</artifactId>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- MyBatis -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -195,9 +184,9 @@
             <version>1.4.6</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- Security -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -217,20 +206,20 @@
             <artifactId>jasypt-spring-boot-starter</artifactId>
             <version>3.0.4</version>
         </dependency>
-        <!-- 2fa -->
+        
         <dependency>
             <groupId>org.jboss.aerogear</groupId>
             <artifactId>aerogear-otp-java</artifactId>
             <version>1.0.0</version>
             <scope>compile</scope>
         </dependency>
-        <!-- Password Validation -->
+        
         <dependency>
             <groupId>org.passay</groupId>
             <artifactId>passay</artifactId>
             <version>1.0</version>
         </dependency>
-        <!-- User Agent parser -->
+        
         <dependency>
             <groupId>com.github.ua-parser</groupId>
             <artifactId>uap-java</artifactId>
@@ -242,10 +231,10 @@
             <version>4.8</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- MessageConverter -->
-        <!-- ============================================================== -->
-        <!-- For Java 8 Date/Time Support -->
+        
+        
+        
+        
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
@@ -254,25 +243,11 @@
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-oxm</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.thoughtworks.xstream</groupId>
-            <artifactId>xstream</artifactId>
-            <version>1.4.11.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-        </dependency>
-        -->
+        
 
-        <!-- ============================================================== -->
-        <!-- 3rd Party library -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
@@ -302,9 +277,9 @@
             <version>2.10</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- File Upload - 대용량 파일 처리 -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
@@ -322,9 +297,9 @@
             </exclusions>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- excel: poi & jxls -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -351,9 +326,9 @@
             <version>5.7.1</version>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- Developer Tools -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -371,10 +346,10 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- ============================================================== -->
-        <!-- API Doc -->
-        <!-- ============================================================== -->
-        <!-- SpringDoc -->
+        
+        
+        
+        
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
@@ -390,59 +365,22 @@
             <artifactId>springdoc-openapi-security</artifactId>
             <version>1.6.14</version>
         </dependency>
-        <!-- restdocs -->
-        <!--
-        <dependency>
-            <groupId>org.springframework.restdocs</groupId>
-            <artifactId>spring-restdocs-mockmvc</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.restdocs</groupId>
-            <artifactId>spring-restdocs-restassured</artifactId>
-            <scope>test</scope>
-        </dependency>
-        -->
+        
+        
 
-        <!-- ============================================================== -->
-        <!-- Tomcat Server -->
-        <!-- ============================================================== -->
-        <!--
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        -->
+        
+        
+        
+        
 
-        <!-- ============================================================== -->
-        <!-- for JDK9+ -->
-        <!-- ============================================================== -->
-        <!--
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-             <artifactId>jaxb-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>2.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-impl</artifactId>
-            <version>2.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.activation</groupId>
-            <artifactId>javax.activation</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-        -->
+        
+        
+        
+        
 
-        <!-- ============================================================== -->
-        <!-- for Test -->
-        <!-- ============================================================== -->
+        
+        
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -513,44 +451,15 @@
                         <exclude>**/*LiveTest.java</exclude>
                     </excludes>
                     <systemPropertyVariables>
-                        <!-- <provPersistenceTarget>h2</provPersistenceTarget> -->
+                        
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
 
-            <!-- ADD FOR springdoc-openapi -->
-            <!--
-            <plugin>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-maven-plugin</artifactId>
-                <version>0.2</version>
-                <executions>
-                    <execution>
-                        <phase>integration-test</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <apiDocsUrl>http://localhost:8080/v3/api-docs</apiDocsUrl>
-                    <outputFileName>openapi.json</outputFileName>
-                    <outputDir>${project.build.directory}</outputDir>
-                </configuration>
-            </plugin>
-            -->
+            
+            
 
-            <!-- 아래에서 '<version>3.1.0</version>'을 명기한 이유는 다음 에러 방지를 위해서임
-                Failed to execute goal org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources (default-resources)
-                on project simple-web Input length = 1 -> [Help 1]
-
-                또한 페이지 렌더링 시 다음과 같은 에러 발생함, 이를 방지하기 위해 fonts 항목을 추가
-                  Failed to decode downloaded font: http://localhost:8080/vendor/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2
-                  localhost/:1 OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
-                  localhost/:1 Failed to decode downloaded font: http://localhost:8080/vendor/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff
-                  localhost/:1 OTS parsing error: incorrect file size in WOFF header
-                  localhost/:1 Failed to decode downloaded font: http://localhost:8080/vendor/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf
-            -->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -562,7 +471,7 @@
                         <nonFilteredFileExtension>xls</nonFilteredFileExtension>
                         <nonFilteredFileExtension>zip</nonFilteredFileExtension>
                         <nonFilteredFileExtension>mmdb</nonFilteredFileExtension>
-                        <!-- fonts -->
+                        
                         <nonFilteredFileExtension>eot</nonFilteredFileExtension>
                         <nonFilteredFileExtension>svg</nonFilteredFileExtension>
                         <nonFilteredFileExtension>ttf</nonFilteredFileExtension>
@@ -572,8 +481,8 @@
                 </configuration>
             </plugin>
 
-            <!-- ADD FOR Querydsl -->
-            <!-- mvn eclipse:eclipse 를 실행하면 outputDirectory가 source directory에 추가된다. -->
+            
+            
             <plugin>
                 <groupId>com.mysema.maven</groupId>
                 <artifactId>apt-maven-plugin</artifactId>
@@ -597,13 +506,13 @@
                 <version>3.0.4</version>
             </plugin>
 
-        </plugins>
+        <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
 
     </build>
 
-    <!-- Profile 적용: mvn clean package -Pdev -->
-    <!-- Profile 적용: mvn spring-boot:run -Dspring-boot.run.profiles={profile_name} -->
-    <!-- Profile 적용: java -jar -Dspring.profiles.active=dev ./my-app-0.0.1-SNAPSHOT.jar -->
+    
+    
+    
     <profiles>
 
         <profile>

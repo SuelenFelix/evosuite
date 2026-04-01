@@ -1,0 +1,216 @@
+package org.graph4j.traversal;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.traversal.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class LexBFSIteratorInt_hasNext_3082019183 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term98896;
+
+    public LexBFSIteratorInt_hasNext_3082019183() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term98896 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt"));
+        boolean[] term98899 = (boolean[]) newBooleanArray(1);
+        Object term98901 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98902 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98903 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98904 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98909 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98914 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98921 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object term98927 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98934 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object[] term98935 = (Object[]) newArray("org.graph4j.util.IntHashMap$Entry", 20);
+        Object term98941 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98942 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98943 = newInstance(Class.forName("org.graph4j.traversal.LexBFSIteratorInt$Slice"));
+        Object term98950 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object term98958 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object[] term98959 = (Object[]) newArray("org.graph4j.util.IntHashMap$Entry", 20);
+        Object term98967 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object[] term98968 = (Object[]) newArray("org.graph4j.util.IntHashMap$Entry", 20);
+        Object[] term98974 = (Object[]) newArray("org.graph4j.traversal.LexBFSIteratorInt$Slice", 2);
+        setField(term98896, term98896.getClass(), "graph", null);
+        setIntField(term98896, term98896.getClass(), "startVertex", -1972823469);
+        setIntField(term98896, term98896.getClass(), "compIndex", -923390407);
+        setField(term98896, term98896.getClass(), "visited", term98899);
+        setField(term98904, term98904.getClass(), "prev", null);
+        setField(term98904, term98904.getClass(), "next", null);
+        setField(term98904, term98904.getClass(), "newSlice", null);
+        setIntField(term98904, term98904.getClass(), "pivotParent", 2015184957);
+        setIntField(term98904, term98904.getClass(), "level", 1154663622);
+        setField(term98904, term98904.getClass(), "this$0", null);
+        setField(term98904, term98904.getClass(), "posMap", null);
+        setField(term98904, term98904.getClass(), "graph", null);
+        setField(term98904, term98904.getClass(), "vertices", null);
+        setIntField(term98904, term98904.getClass(), "numVertices", 0);
+        setIntField(term98904, term98904.getClass(), "first", 0);
+        setField(term98904, term98904.getClass(), "bitset", null);
+        setField(term98903, term98903.getClass(), "prev", term98904);
+        setField(term98909, term98909.getClass(), "prev", null);
+        setField(term98909, term98909.getClass(), "next", null);
+        setField(term98909, term98909.getClass(), "newSlice", term98909);
+        setIntField(term98909, term98909.getClass(), "pivotParent", -611768568);
+        setIntField(term98909, term98909.getClass(), "level", 479240257);
+        setField(term98909, term98909.getClass(), "this$0", null);
+        setField(term98909, term98909.getClass(), "posMap", null);
+        setField(term98909, term98909.getClass(), "graph", null);
+        setField(term98909, term98909.getClass(), "vertices", null);
+        setIntField(term98909, term98909.getClass(), "numVertices", 0);
+        setIntField(term98909, term98909.getClass(), "first", 0);
+        setField(term98909, term98909.getClass(), "bitset", null);
+        setField(term98903, term98903.getClass(), "next", term98909);
+        setField(term98914, term98914.getClass(), "prev", null);
+        setField(term98914, term98914.getClass(), "next", term98902);
+        setField(term98914, term98914.getClass(), "newSlice", term98902);
+        setIntField(term98914, term98914.getClass(), "pivotParent", -188618513);
+        setIntField(term98914, term98914.getClass(), "level", 2032473075);
+        setField(term98914, term98914.getClass(), "this$0", null);
+        setField(term98914, term98914.getClass(), "posMap", null);
+        setField(term98914, term98914.getClass(), "graph", null);
+        setField(term98914, term98914.getClass(), "vertices", null);
+        setIntField(term98914, term98914.getClass(), "numVertices", 0);
+        setIntField(term98914, term98914.getClass(), "first", 0);
+        setField(term98914, term98914.getClass(), "bitset", null);
+        setField(term98903, term98903.getClass(), "newSlice", term98914);
+        setIntField(term98903, term98903.getClass(), "pivotParent", 1056435262);
+        setIntField(term98903, term98903.getClass(), "level", 2016018259);
+        setField(term98903, term98903.getClass(), "this$0", null);
+        setField(term98921, term98921.getClass(), "table", null);
+        setIntField(term98921, term98921.getClass(), "count", 0);
+        setIntField(term98921, term98921.getClass(), "threshold", 15);
+        setFloatField(term98921, term98921.getClass(), "loadFactor", 0.75F);
+        setField(term98903, term98903.getClass(), "posMap", term98921);
+        setField(term98903, term98903.getClass(), "graph", null);
+        setField(term98903, term98903.getClass(), "vertices", null);
+        setIntField(term98903, term98903.getClass(), "numVertices", 0);
+        setIntField(term98903, term98903.getClass(), "first", 0);
+        setField(term98903, term98903.getClass(), "bitset", null);
+        setField(term98902, term98902.getClass(), "prev", term98903);
+        setField(term98927, term98927.getClass(), "prev", null);
+        setField(term98927, term98927.getClass(), "next", null);
+        setField(term98927, term98927.getClass(), "newSlice", null);
+        setIntField(term98927, term98927.getClass(), "pivotParent", 0);
+        setIntField(term98927, term98927.getClass(), "level", 0);
+        setField(term98927, term98927.getClass(), "this$0", null);
+        setField(term98927, term98927.getClass(), "posMap", null);
+        setField(term98927, term98927.getClass(), "graph", null);
+        setField(term98927, term98927.getClass(), "vertices", null);
+        setIntField(term98927, term98927.getClass(), "numVertices", 0);
+        setIntField(term98927, term98927.getClass(), "first", 0);
+        setField(term98927, term98927.getClass(), "bitset", null);
+        setField(term98902, term98902.getClass(), "next", term98927);
+        setField(term98902, term98902.getClass(), "newSlice", term98909);
+        setIntField(term98902, term98902.getClass(), "pivotParent", 615756327);
+        setIntField(term98902, term98902.getClass(), "level", -1171119194);
+        setField(term98902, term98902.getClass(), "this$0", null);
+        setField(term98934, term98934.getClass(), "table", term98935);
+        setIntField(term98934, term98934.getClass(), "count", 0);
+        setIntField(term98934, term98934.getClass(), "threshold", 15);
+        setFloatField(term98934, term98934.getClass(), "loadFactor", 0.75F);
+        setField(term98902, term98902.getClass(), "posMap", term98934);
+        setField(term98902, term98902.getClass(), "graph", null);
+        setField(term98902, term98902.getClass(), "vertices", null);
+        setIntField(term98902, term98902.getClass(), "numVertices", 0);
+        setIntField(term98902, term98902.getClass(), "first", 0);
+        setField(term98902, term98902.getClass(), "bitset", null);
+        setField(term98901, term98901.getClass(), "prev", term98902);
+        setField(term98942, term98942.getClass(), "prev", term98909);
+        setField(term98943, term98943.getClass(), "prev", null);
+        setField(term98943, term98943.getClass(), "next", null);
+        setField(term98943, term98943.getClass(), "newSlice", null);
+        setIntField(term98943, term98943.getClass(), "pivotParent", 0);
+        setIntField(term98943, term98943.getClass(), "level", 0);
+        setField(term98943, term98943.getClass(), "this$0", null);
+        setField(term98943, term98943.getClass(), "posMap", null);
+        setField(term98943, term98943.getClass(), "graph", null);
+        setField(term98943, term98943.getClass(), "vertices", null);
+        setIntField(term98943, term98943.getClass(), "numVertices", 0);
+        setIntField(term98943, term98943.getClass(), "first", 0);
+        setField(term98943, term98943.getClass(), "bitset", null);
+        setField(term98942, term98942.getClass(), "next", term98943);
+        setField(term98942, term98942.getClass(), "newSlice", term98901);
+        setIntField(term98942, term98942.getClass(), "pivotParent", -921251972);
+        setIntField(term98942, term98942.getClass(), "level", 739178487);
+        setField(term98942, term98942.getClass(), "this$0", null);
+        setField(term98950, term98950.getClass(), "table", null);
+        setIntField(term98950, term98950.getClass(), "count", 0);
+        setIntField(term98950, term98950.getClass(), "threshold", 15);
+        setFloatField(term98950, term98950.getClass(), "loadFactor", 0.75F);
+        setField(term98942, term98942.getClass(), "posMap", term98950);
+        setField(term98942, term98942.getClass(), "graph", null);
+        setField(term98942, term98942.getClass(), "vertices", null);
+        setIntField(term98942, term98942.getClass(), "numVertices", 0);
+        setIntField(term98942, term98942.getClass(), "first", 0);
+        setField(term98942, term98942.getClass(), "bitset", null);
+        setField(term98941, term98941.getClass(), "prev", term98942);
+        setField(term98941, term98941.getClass(), "next", term98941);
+        setField(term98941, term98941.getClass(), "newSlice", term98904);
+        setIntField(term98941, term98941.getClass(), "pivotParent", -1669064978);
+        setIntField(term98941, term98941.getClass(), "level", -1350650574);
+        setField(term98941, term98941.getClass(), "this$0", null);
+        setField(term98958, term98958.getClass(), "table", term98959);
+        setIntField(term98958, term98958.getClass(), "count", 0);
+        setIntField(term98958, term98958.getClass(), "threshold", 15);
+        setFloatField(term98958, term98958.getClass(), "loadFactor", 0.75F);
+        setField(term98941, term98941.getClass(), "posMap", term98958);
+        setField(term98941, term98941.getClass(), "graph", null);
+        setField(term98941, term98941.getClass(), "vertices", null);
+        setIntField(term98941, term98941.getClass(), "numVertices", 0);
+        setIntField(term98941, term98941.getClass(), "first", 0);
+        setField(term98941, term98941.getClass(), "bitset", null);
+        setField(term98901, term98901.getClass(), "next", term98941);
+        setField(term98901, term98901.getClass(), "newSlice", term98903);
+        setIntField(term98901, term98901.getClass(), "pivotParent", -2070175203);
+        setIntField(term98901, term98901.getClass(), "level", 883783872);
+        setField(term98901, term98901.getClass(), "this$0", null);
+        setField(term98967, term98967.getClass(), "table", term98968);
+        setIntField(term98967, term98967.getClass(), "count", 0);
+        setIntField(term98967, term98967.getClass(), "threshold", 15);
+        setFloatField(term98967, term98967.getClass(), "loadFactor", 0.75F);
+        setField(term98901, term98901.getClass(), "posMap", term98967);
+        setField(term98901, term98901.getClass(), "graph", null);
+        setField(term98901, term98901.getClass(), "vertices", null);
+        setIntField(term98901, term98901.getClass(), "numVertices", 0);
+        setIntField(term98901, term98901.getClass(), "first", 0);
+        setField(term98901, term98901.getClass(), "bitset", null);
+        setField(term98896, term98896.getClass(), "head", term98901);
+        setElement(term98974, 0, term98914);
+        setElement(term98974, 1, term98909);
+        setField(term98896, term98896.getClass(), "vertexSlice", term98974);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.traversal.LexBFSIteratorInt");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "hasNext", argTypes, term98896, args);
+    }
+
+};
+
+

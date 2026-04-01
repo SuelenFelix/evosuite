@@ -1,0 +1,210 @@
+package org.openRealmOfStars.player.ship;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.player.ship.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.String;
+import java.util.ArrayList;
+
+public class Ship_hasComponent_60330406610 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term571338;
+
+    public Ship_hasComponent_60330406610() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term571573 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipHullType");
+        Field term571572 = ((Class) term571573).getDeclaredField((String) "PRIVATEER");
+        ((Field) term571572).setAccessible(true);
+        Object enum1815 = ((Field) term571572).get((Object) null);
+        Class<? extends Object> term571832 = Class.forName((String) "org.openRealmOfStars.player.ship.ShipSize");
+        Field term571831 = ((Class) term571832).getDeclaredField((String) "LARGE");
+        ((Field) term571831).setAccessible(true);
+        Object enum1816 = ((Field) term571831).get((Object) null);
+        Class<? extends Object> term572089 = Class.forName((String) "org.openRealmOfStars.player.diplomacy.Attitude");
+        Field term572088 = ((Class) term572089).getDeclaredField((String) "AGGRESSIVE");
+        ((Field) term572088).setAccessible(true);
+        Object enum1817 = ((Field) term572088).get((Object) null);
+        Class<? extends Object> term572386 = Class.forName((String) "org.openRealmOfStars.player.race.SocialSystem");
+        Field term572385 = ((Class) term572386).getDeclaredField((String) "EQUAL");
+        ((Field) term572385).setAccessible(true);
+        Object enum1818 = ((Field) term572385).get((Object) null);
+        ArrayList term571460 = new ArrayList();
+        ((ArrayList) term571460).add((Object)null);
+        ((ArrayList) term571460).add((Object)null);
+        ((ArrayList) term571460).add((Object)null);
+        ((ArrayList) term571460).add((Object)null);
+        ((ArrayList) term571460).add((Object)null);
+        ((ArrayList) term571460).add((Object)null);
+        ((ArrayList) term571460).add((Object)null);
+        Class<? extends Object> term572643 = Class.forName((String) "org.openRealmOfStars.ambient.BridgeCommandType");
+        Field term572642 = ((Class) term572643).getDeclaredField((String) "NUKE_START");
+        ((Field) term572642).setAccessible(true);
+        Object enum1819 = ((Field) term572642).get((Object) null);
+        ArrayList term571485 = new ArrayList();
+        ((ArrayList) term571485).add((Object)null);
+        ((ArrayList) term571485).add((Object)null);
+        ((ArrayList) term571485).add((Object)null);
+        ((ArrayList) term571485).add((Object)null);
+        ((ArrayList) term571485).add((Object)null);
+        ((ArrayList) term571485).add((Object)null);
+        Class<? extends Object> term572910 = Class.forName((String) "org.openRealmOfStars.player.leader.NameGeneratorType");
+        Field term572909 = ((Class) term572910).getDeclaredField((String) "ANCIENT_ROMAN");
+        ((Field) term572909).setAccessible(true);
+        Object enum1820 = ((Field) term572909).get((Object) null);
+        Class<? extends Object> term573226 = Class.forName((String) "org.openRealmOfStars.player.race.SpaceRaceType");
+        Field term573225 = ((Class) term573226).getDeclaredField((String) "SPACE_PIRATE");
+        ((Field) term573225).setAccessible(true);
+        Object enum1821 = ((Field) term573225).get((Object) null);
+        ArrayList term571507 = new ArrayList();
+        term571338 = newInstance(Class.forName("org.openRealmOfStars.player.ship.Ship"));
+        Object term571339 = newInstance(Class.forName("org.openRealmOfStars.player.ship.ShipHull"));
+        Object term571381 = newInstance(Class.forName("org.openRealmOfStars.player.race.SpaceRace"));
+        Object term571479 = newInstance(Class.forName("org.openRealmOfStars.audio.music.MusicFileInfo"));
+        int[] term571511 = (int[]) newIntArray(0);
+        Object term571514 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        Object term571516 = newInstance(Class.forName("java.awt.image.WritableRaster"));
+        Object term571525 = newInstance(Class.forName("java.awt.image.Raster"));
+        Object term571534 = newInstance(Class.forName("java.awt.image.Raster"));
+        Object term571543 = newInstance(Class.forName("java.util.Hashtable"));
+        Object[] term571544 = (Object[]) newArray("java.util.Hashtable$Entry", 11);
+        Object term571545 = newInstance(Class.forName("java.util.Hashtable$Entry"));
+        Object term571557 = newInstance(Class.forName("org.openRealmOfStars.starMap.Coordinate"));
+        setIntField(term571339, term571339.getClass(), "index", 1716602593);
+        setField(term571339, term571339.getClass(), "name", "iQpXmyPGbg");
+        setIntField(term571339, term571339.getClass(), "maxSlot", 1259032686);
+        setIntField(term571339, term571339.getClass(), "slotHull", -753648604);
+        setField(term571339, term571339.getClass(), "hullType", enum1815);
+        setField(term571339, term571339.getClass(), "size", enum1816);
+        setIntField(term571339, term571339.getClass(), "cost", 389915231);
+        setIntField(term571339, term571339.getClass(), "metalCost", 804747162);
+        setIntField(term571339, term571339.getClass(), "imageIndex", -791466650);
+        setDoubleField(term571339, term571339.getClass(), "fleetCapacity", 0.5447228125601069);
+        setField(term571381, term571381.getClass(), "id", "MtUFFbEksn");
+        setField(term571381, term571381.getClass(), "name", "CKkNPYjNue");
+        setField(term571381, term571381.getClass(), "nameSingle", "LJAxzAbcNQ");
+        setField(term571381, term571381.getClass(), "attitude", enum1817);
+        setField(term571381, term571381.getClass(), "imagePath", "yWZdWAwkaK");
+        setField(term571381, term571381.getClass(), "bridgeId", "ufMRpHwbAc");
+        setField(term571381, term571381.getClass(), "spaceShipId", "ofUsYgHrbN");
+        setField(term571381, term571381.getClass(), "socialSystem", enum1818);
+        setField(term571381, term571381.getClass(), "genderList", term571460);
+        setField(term571381, term571381.getClass(), "speechSetId", "OPCrVYcjnd");
+        setField(term571381, term571381.getClass(), "bridgeEffect", enum1819);
+        setField(term571479, term571479.getClass(), "songName", "");
+        setField(term571479, term571479.getClass(), "author", "");
+        setField(term571479, term571479.getClass(), "fileName", "");
+        setBooleanField(term571479, term571479.getClass(), "custom", false);
+        setIntField(term571479, term571479.getClass(), "fadingLimit", -523835907);
+        setField(term571381, term571381.getClass(), "diplomacyMusic", term571479);
+        setField(term571381, term571381.getClass(), "traits", term571485);
+        setField(term571381, term571381.getClass(), "leaderNameGenerator", enum1820);
+        setField(term571381, term571381.getClass(), "description", "AkDPotKMcg");
+        setField(term571381, term571381.getClass(), "spaceRaceType", enum1821);
+        setField(term571339, term571339.getClass(), "originalBuilder", term571381);
+        setField(term571338, term571338.getClass(), "hull", term571339);
+        setField(term571338, term571338.getClass(), "components", term571507);
+        setField(term571338, term571338.getClass(), "hullPoints", term571511);
+        setIntField(term571338, term571338.getClass(), "shield", 385209642);
+        setIntField(term571338, term571338.getClass(), "armor", -1815702004);
+        setIntField(term571514, term571514.getClass(), "imageType", 1141075113);
+        setField(term571514, term571514.getClass(), "colorModel", null);
+        setField(term571516, term571516.getClass(), "sampleModel", null);
+        setField(term571516, term571516.getClass(), "dataBuffer", null);
+        setIntField(term571516, term571516.getClass(), "minX", 1643922073);
+        setIntField(term571516, term571516.getClass(), "minY", -1512971740);
+        setIntField(term571516, term571516.getClass(), "width", 935946945);
+        setIntField(term571516, term571516.getClass(), "height", -143105487);
+        setIntField(term571516, term571516.getClass(), "sampleModelTranslateX", 16612505);
+        setIntField(term571516, term571516.getClass(), "sampleModelTranslateY", 1873376410);
+        setIntField(term571516, term571516.getClass(), "numBands", -507501606);
+        setIntField(term571516, term571516.getClass(), "numDataElements", 178633218);
+        setField(term571525, term571525.getClass(), "sampleModel", null);
+        setField(term571525, term571525.getClass(), "dataBuffer", null);
+        setIntField(term571525, term571525.getClass(), "minX", -2006303407);
+        setIntField(term571525, term571525.getClass(), "minY", -1787834533);
+        setIntField(term571525, term571525.getClass(), "width", 1502613791);
+        setIntField(term571525, term571525.getClass(), "height", -258767694);
+        setIntField(term571525, term571525.getClass(), "sampleModelTranslateX", -1209689852);
+        setIntField(term571525, term571525.getClass(), "sampleModelTranslateY", 1861949155);
+        setIntField(term571525, term571525.getClass(), "numBands", -1997894313);
+        setIntField(term571525, term571525.getClass(), "numDataElements", -788461525);
+        setField(term571534, term571534.getClass(), "sampleModel", null);
+        setField(term571534, term571534.getClass(), "dataBuffer", null);
+        setIntField(term571534, term571534.getClass(), "minX", 0);
+        setIntField(term571534, term571534.getClass(), "minY", 0);
+        setIntField(term571534, term571534.getClass(), "width", 0);
+        setIntField(term571534, term571534.getClass(), "height", 0);
+        setIntField(term571534, term571534.getClass(), "sampleModelTranslateX", 0);
+        setIntField(term571534, term571534.getClass(), "sampleModelTranslateY", 0);
+        setIntField(term571534, term571534.getClass(), "numBands", 0);
+        setIntField(term571534, term571534.getClass(), "numDataElements", 0);
+        setField(term571534, term571534.getClass(), "parent", null);
+        setField(term571525, term571525.getClass(), "parent", term571534);
+        setField(term571516, term571516.getClass(), "parent", term571525);
+        setField(term571514, term571514.getClass(), "raster", term571516);
+        setField(term571514, term571514.getClass(), "osis", null);
+        setIntField(term571545, term571545.getClass(), "hash", -701505284);
+        setField(term571545, term571545.getClass(), "key", null);
+        setField(term571545, term571545.getClass(), "value", null);
+        setField(term571545, term571545.getClass(), "next", null);
+        setElement(term571544, 6, term571545);
+        setField(term571543, term571543.getClass(), "table", term571544);
+        setIntField(term571543, term571543.getClass(), "count", 1);
+        setIntField(term571543, term571543.getClass(), "threshold", 8);
+        setFloatField(term571543, term571543.getClass(), "loadFactor", 0.75F);
+        setIntField(term571543, term571543.getClass(), "modCount", 1);
+        setField(term571543, term571543.getClass(), "keySet", null);
+        setField(term571543, term571543.getClass(), "entrySet", null);
+        setField(term571543, term571543.getClass(), "values", null);
+        setField(term571514, term571514.getClass(), "properties", term571543);
+        setFloatField(term571514, term571514.getClass(), "accelerationPriority", 0.20144695F);
+        setField(term571514, term571514.getClass(), "surfaceManager", null);
+        setField(term571338, term571338.getClass(), "image", term571514);
+        setIntField(term571338, term571338.getClass(), "colonist", -671901253);
+        setIntField(term571338, term571338.getClass(), "metal", -1402427175);
+        setIntField(term571338, term571338.getClass(), "experience", -455255888);
+        setIntField(term571338, term571338.getClass(), "culture", 1736913133);
+        setIntField(term571338, term571338.getClass(), "specialFlags", 80001823);
+        setIntField(term571557, term571557.getClass(), "x", -132224670);
+        setIntField(term571557, term571557.getClass(), "y", -2084438499);
+        setField(term571338, term571338.getClass(), "tradeCoordinates", term571557);
+        setField(term571338, term571338.getClass(), "name", null);
+        setField(term571338, term571338.getClass(), "iconId", null);
+        setField(term571338, term571338.getClass(), "description", null);
+        setIntField(term571338, term571338.getClass(), "prodCost", 0);
+        setIntField(term571338, term571338.getClass(), "metalCost", 0);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.player.ship.Ship");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "hasComponent", argTypes, term571338, args);
+    }
+
+};
+
+

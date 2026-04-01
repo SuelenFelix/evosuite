@@ -1,0 +1,55 @@
+package org.graph4j.util;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.util.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Integer;
+
+public class IntArrayList_contains_7787587518 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term156559;
+     Object term156572;
+
+    public IntArrayList_contains_7787587518() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term156559 = newInstance(Class.forName("org.graph4j.util.IntArrayList"));
+        int[] term156560 = (int[]) newIntArray(10);
+        setField(term156559, term156559.getClass(), "values", term156560);
+        setIntField(term156559, term156559.getClass(), "size", -1707089043);
+        term156572 = new Integer(1171380558);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.util.IntArrayList");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = int.class;
+        Object[] args = new Object[1];
+        args[0] = term156572;
+        callMethod(klass, "contains", argTypes, term156559, args);
+    }
+
+};
+
+

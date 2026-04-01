@@ -1,0 +1,211 @@
+package org.openRealmOfStars.ambient;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.ambient.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class BridgeThread_isStarted_16288839551 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term385;
+
+    public BridgeThread_isStarted_16288839551() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term385 = newInstance(Class.forName("org.openRealmOfStars.ambient.BridgeThread"));
+        Object term404 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object term405 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object term406 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object term407 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object[] term420 = (Object[]) newArray("java.lang.Thread", 6);
+        Object[] term422 = (Object[]) newArray("java.lang.ThreadGroup", 5);
+        Object[] term436 = (Object[]) newArray("java.lang.Thread", 5);
+        Object[] term438 = (Object[]) newArray("java.lang.ThreadGroup", 2);
+        Object term439 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object term446 = newInstance(Class.forName("java.lang.ThreadGroup"));
+        Object[] term466 = (Object[]) newArray("java.lang.Thread", 3);
+        Object[] term468 = (Object[]) newArray("java.lang.ThreadGroup", 1);
+        Object term469 = newInstance(Class.forName("java.security.AccessControlContext"));
+        Object[] term470 = (Object[]) newArray("java.security.ProtectionDomain", 0);
+        Object term473 = newInstance(Class.forName("java.security.AccessControlContext"));
+        Object[] term474 = (Object[]) newArray("java.security.ProtectionDomain", 2);
+        Object term475 = newInstance(Class.forName("java.security.ProtectionDomain"));
+        Object term478 = newInstance(Class.forName("java.security.ProtectionDomain"));
+        Object term483 = newInstance(Class.forName("java.security.AccessControlContext"));
+        Object term492 = newInstance(Class.forName("java.lang.ThreadLocal$ThreadLocalMap"));
+        Object term495 = newInstance(Class.forName("java.lang.ThreadLocal$ThreadLocalMap"));
+        Object term501 = newInstance(Class.forName("java.lang.Object"));
+        Object term502 = newInstance(Class.forName("java.lang.Object"));
+        setField(term385, term385.getClass(), "bridge", null);
+        setBooleanField(term385, term385.getClass(), "started", false);
+        setBooleanField(term385, term385.getClass(), "running", false);
+        setField(term385, term385.getClass(), "name", "oVcInYnLWB");
+        setIntField(term385, term385.getClass(), "priority", 568599855);
+        setBooleanField(term385, term385.getClass(), "daemon", false);
+        setBooleanField(term385, term385.getClass(), "stillborn", false);
+        setLongField(term385, term385.getClass(), "eetop", 2442117782898005296L);
+        setField(term385, term385.getClass(), "target", null);
+        setField(term407, term407.getClass(), "parent", null);
+        setField(term407, term407.getClass(), "name", null);
+        setIntField(term407, term407.getClass(), "maxPriority", 10);
+        setBooleanField(term407, term407.getClass(), "destroyed", false);
+        setBooleanField(term407, term407.getClass(), "daemon", true);
+        setIntField(term407, term407.getClass(), "nUnstartedThreads", -883034806);
+        setIntField(term407, term407.getClass(), "nthreads", 1585847225);
+        setField(term407, term407.getClass(), "threads", null);
+        setIntField(term407, term407.getClass(), "ngroups", 597278769);
+        setField(term407, term407.getClass(), "groups", null);
+        setField(term406, term406.getClass(), "parent", term407);
+        setField(term406, term406.getClass(), "name", "");
+        setIntField(term406, term406.getClass(), "maxPriority", 10);
+        setBooleanField(term406, term406.getClass(), "destroyed", false);
+        setBooleanField(term406, term406.getClass(), "daemon", false);
+        setIntField(term406, term406.getClass(), "nUnstartedThreads", -1685132342);
+        setIntField(term406, term406.getClass(), "nthreads", -1456670397);
+        setField(term406, term406.getClass(), "threads", term420);
+        setIntField(term406, term406.getClass(), "ngroups", 1622346318);
+        setElement(term422, 2, term405);
+        setField(term406, term406.getClass(), "groups", term422);
+        setField(term405, term405.getClass(), "parent", term406);
+        setField(term405, term405.getClass(), "name", "system");
+        setIntField(term405, term405.getClass(), "maxPriority", 10);
+        setBooleanField(term405, term405.getClass(), "destroyed", true);
+        setBooleanField(term405, term405.getClass(), "daemon", true);
+        setIntField(term405, term405.getClass(), "nUnstartedThreads", 1048535127);
+        setIntField(term405, term405.getClass(), "nthreads", -655067527);
+        setField(term405, term405.getClass(), "threads", term436);
+        setIntField(term405, term405.getClass(), "ngroups", -6029667);
+        setField(term439, term439.getClass(), "parent", null);
+        setField(term439, term439.getClass(), "name", null);
+        setIntField(term439, term439.getClass(), "maxPriority", 10);
+        setBooleanField(term439, term439.getClass(), "destroyed", false);
+        setBooleanField(term439, term439.getClass(), "daemon", false);
+        setIntField(term439, term439.getClass(), "nUnstartedThreads", 0);
+        setIntField(term439, term439.getClass(), "nthreads", 0);
+        setField(term439, term439.getClass(), "threads", null);
+        setIntField(term439, term439.getClass(), "ngroups", 0);
+        setField(term439, term439.getClass(), "groups", null);
+        setElement(term438, 0, term439);
+        setField(term446, term446.getClass(), "parent", null);
+        setField(term446, term446.getClass(), "name", null);
+        setIntField(term446, term446.getClass(), "maxPriority", 10);
+        setBooleanField(term446, term446.getClass(), "destroyed", false);
+        setBooleanField(term446, term446.getClass(), "daemon", false);
+        setIntField(term446, term446.getClass(), "nUnstartedThreads", 0);
+        setIntField(term446, term446.getClass(), "nthreads", 0);
+        setField(term446, term446.getClass(), "threads", null);
+        setIntField(term446, term446.getClass(), "ngroups", 0);
+        setField(term446, term446.getClass(), "groups", null);
+        setElement(term438, 1, term446);
+        setField(term405, term405.getClass(), "groups", term438);
+        setField(term404, term404.getClass(), "parent", term405);
+        setField(term404, term404.getClass(), "name", "system");
+        setIntField(term404, term404.getClass(), "maxPriority", 10);
+        setBooleanField(term404, term404.getClass(), "destroyed", false);
+        setBooleanField(term404, term404.getClass(), "daemon", false);
+        setIntField(term404, term404.getClass(), "nUnstartedThreads", -2068769794);
+        setIntField(term404, term404.getClass(), "nthreads", -117576464);
+        setField(term404, term404.getClass(), "threads", term466);
+        setIntField(term404, term404.getClass(), "ngroups", -1007160944);
+        setElement(term468, 0, term406);
+        setField(term404, term404.getClass(), "groups", term468);
+        setField(term385, term385.getClass(), "group", term404);
+        setField(term385, term385.getClass(), "contextClassLoader", null);
+        setField(term469, term469.getClass(), "context", term470);
+        setBooleanField(term469, term469.getClass(), "isPrivileged", true);
+        setBooleanField(term469, term469.getClass(), "isAuthorized", true);
+        setField(term475, term475.getClass(), "codesource", null);
+        setField(term475, term475.getClass(), "classloader", null);
+        setField(term475, term475.getClass(), "principals", null);
+        setField(term475, term475.getClass(), "permissions", null);
+        setBooleanField(term475, term475.getClass(), "hasAllPerm", false);
+        setBooleanField(term475, term475.getClass(), "staticPermissions", false);
+        setField(term475, term475.getClass(), "key", null);
+        setElement(term474, 0, term475);
+        setField(term478, term478.getClass(), "codesource", null);
+        setField(term478, term478.getClass(), "classloader", null);
+        setField(term478, term478.getClass(), "principals", null);
+        setField(term478, term478.getClass(), "permissions", null);
+        setBooleanField(term478, term478.getClass(), "hasAllPerm", false);
+        setBooleanField(term478, term478.getClass(), "staticPermissions", false);
+        setField(term478, term478.getClass(), "key", null);
+        setElement(term474, 1, term478);
+        setField(term473, term473.getClass(), "context", term474);
+        setBooleanField(term473, term473.getClass(), "isPrivileged", true);
+        setBooleanField(term473, term473.getClass(), "isAuthorized", true);
+        setField(term483, term483.getClass(), "context", null);
+        setBooleanField(term483, term483.getClass(), "isPrivileged", false);
+        setBooleanField(term483, term483.getClass(), "isAuthorized", false);
+        setField(term483, term483.getClass(), "privilegedContext", null);
+        setField(term483, term483.getClass(), "combiner", null);
+        setField(term483, term483.getClass(), "permissions", null);
+        setField(term483, term483.getClass(), "parent", null);
+        setBooleanField(term483, term483.getClass(), "isWrapped", false);
+        setBooleanField(term483, term483.getClass(), "isLimited", false);
+        setField(term483, term483.getClass(), "limitedContext", null);
+        setField(term473, term473.getClass(), "privilegedContext", term483);
+        setField(term473, term473.getClass(), "combiner", null);
+        setField(term473, term473.getClass(), "permissions", null);
+        setField(term473, term473.getClass(), "parent", null);
+        setBooleanField(term473, term473.getClass(), "isWrapped", false);
+        setBooleanField(term473, term473.getClass(), "isLimited", false);
+        setField(term473, term473.getClass(), "limitedContext", null);
+        setField(term469, term469.getClass(), "privilegedContext", term473);
+        setField(term469, term469.getClass(), "combiner", null);
+        setField(term469, term469.getClass(), "permissions", null);
+        setField(term469, term469.getClass(), "parent", null);
+        setBooleanField(term469, term469.getClass(), "isWrapped", false);
+        setBooleanField(term469, term469.getClass(), "isLimited", false);
+        setField(term469, term469.getClass(), "limitedContext", null);
+        setField(term385, term385.getClass(), "inheritedAccessControlContext", term469);
+        setField(term492, term492.getClass(), "table", null);
+        setIntField(term492, term492.getClass(), "size", 0);
+        setIntField(term492, term492.getClass(), "threshold", 0);
+        setField(term385, term385.getClass(), "threadLocals", term492);
+        setField(term495, term495.getClass(), "table", null);
+        setIntField(term495, term495.getClass(), "size", 0);
+        setIntField(term495, term495.getClass(), "threshold", 0);
+        setField(term385, term385.getClass(), "inheritableThreadLocals", term495);
+        setLongField(term385, term385.getClass(), "stackSize", 6375119433582206027L);
+        setLongField(term385, term385.getClass(), "tid", -8257434502486459194L);
+        setIntField(term385, term385.getClass(), "threadStatus", 590364439);
+        setField(term385, term385.getClass(), "parkBlocker", term501);
+        setField(term385, term385.getClass(), "blocker", null);
+        setField(term385, term385.getClass(), "blockerLock", term502);
+        setField(term385, term385.getClass(), "uncaughtExceptionHandler", null);
+        setLongField(term385, term385.getClass(), "threadLocalRandomSeed", 0L);
+        setIntField(term385, term385.getClass(), "threadLocalRandomProbe", 0);
+        setIntField(term385, term385.getClass(), "threadLocalRandomSecondarySeed", 0);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.ambient.BridgeThread");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "isStarted", argTypes, term385, args);
+    }
+
+};
+
+

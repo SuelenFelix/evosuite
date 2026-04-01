@@ -1,0 +1,216 @@
+package org.openRealmOfStars.gui.mapPanel;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.gui.mapPanel.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.lang.String;
+
+public class PlanetAnimation_getShipIndex_82657477715 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term23344;
+
+    public PlanetAnimation_getShipIndex_82657477715() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term23441 = Class.forName((String) "org.openRealmOfStars.gui.mapPanel.ParticleEffectType");
+        Field term23440 = ((Class) term23441).getDeclaredField((String) "ION_PARTICLE_LOW_ACTIVE");
+        ((Field) term23440).setAccessible(true);
+        Object enum67 = ((Field) term23440).get((Object) null);
+        Object term23356 = newInstance(Class.forName("org.openRealmOfStars.gui.mapPanel.ParticleEffect"));
+        Object term23364 = newInstance(Class.forName("java.awt.Color"));
+        setDoubleField(term23356, term23356.getClass(), "x", 0.08858836329417497);
+        setDoubleField(term23356, term23356.getClass(), "y", 0.8582456540284578);
+        setDoubleField(term23356, term23356.getClass(), "mx", 0.061434557058998585);
+        setDoubleField(term23356, term23356.getClass(), "my", 0.1621025751381594);
+        setIntField(term23356, term23356.getClass(), "ttl", -1938881385);
+        setField(term23356, term23356.getClass(), "type", enum67);
+        setIntField(term23364, term23364.getClass(), "value", -1629418973);
+        setField(term23364, term23364.getClass(), "frgbvalue", null);
+        setField(term23364, term23364.getClass(), "fvalue", null);
+        setFloatField(term23364, term23364.getClass(), "falpha", 0.4540159F);
+        setField(term23364, term23364.getClass(), "cs", null);
+        setField(term23356, term23356.getClass(), "color", term23364);
+        Class<? extends Object> term23777 = Class.forName((String) "org.openRealmOfStars.gui.mapPanel.ParticleEffectType");
+        Field term23776 = ((Class) term23777).getDeclaredField((String) "ANTIMATTER_PARTICLE");
+        ((Field) term23776).setAccessible(true);
+        Object enum68 = ((Field) term23776).get((Object) null);
+        Object term23367 = newInstance(Class.forName("org.openRealmOfStars.gui.mapPanel.ParticleEffect"));
+        Object term23375 = newInstance(Class.forName("java.awt.Color"));
+        setDoubleField(term23367, term23367.getClass(), "x", 0.8809657273235505);
+        setDoubleField(term23367, term23367.getClass(), "y", 0.33296332053567956);
+        setDoubleField(term23367, term23367.getClass(), "mx", 0.593079122289713);
+        setDoubleField(term23367, term23367.getClass(), "my", 0.7455431255888774);
+        setIntField(term23367, term23367.getClass(), "ttl", -100825168);
+        setField(term23367, term23367.getClass(), "type", enum68);
+        setIntField(term23375, term23375.getClass(), "value", 768407648);
+        setField(term23375, term23375.getClass(), "frgbvalue", null);
+        setField(term23375, term23375.getClass(), "fvalue", null);
+        setFloatField(term23375, term23375.getClass(), "falpha", 0.323507F);
+        setField(term23375, term23375.getClass(), "cs", null);
+        setField(term23367, term23367.getClass(), "color", term23375);
+        Class<? extends Object> term24101 = Class.forName((String) "org.openRealmOfStars.gui.mapPanel.ParticleEffectType");
+        Field term24100 = ((Class) term24101).getDeclaredField((String) "LASER_PARTICLE");
+        ((Field) term24100).setAccessible(true);
+        Object enum69 = ((Field) term24100).get((Object) null);
+        Object term23378 = newInstance(Class.forName("org.openRealmOfStars.gui.mapPanel.ParticleEffect"));
+        Object term23386 = newInstance(Class.forName("java.awt.Color"));
+        setDoubleField(term23378, term23378.getClass(), "x", 0.9459012738750242);
+        setDoubleField(term23378, term23378.getClass(), "y", 0.967474946781822);
+        setDoubleField(term23378, term23378.getClass(), "mx", 0.4429892630967539);
+        setDoubleField(term23378, term23378.getClass(), "my", 0.10126144382177782);
+        setIntField(term23378, term23378.getClass(), "ttl", -350454594);
+        setField(term23378, term23378.getClass(), "type", enum69);
+        setIntField(term23386, term23386.getClass(), "value", -1148142995);
+        setField(term23386, term23386.getClass(), "frgbvalue", null);
+        setField(term23386, term23386.getClass(), "fvalue", null);
+        setFloatField(term23386, term23386.getClass(), "falpha", 0.15736824F);
+        setField(term23386, term23386.getClass(), "cs", null);
+        setField(term23378, term23378.getClass(), "color", term23386);
+        Class<? extends Object> term24410 = Class.forName((String) "org.openRealmOfStars.gui.mapPanel.ParticleEffectType");
+        Field term24409 = ((Class) term24410).getDeclaredField((String) "BLUE_LASER_PARTICLE");
+        ((Field) term24409).setAccessible(true);
+        Object enum70 = ((Field) term24409).get((Object) null);
+        Object term23389 = newInstance(Class.forName("org.openRealmOfStars.gui.mapPanel.ParticleEffect"));
+        Object term23397 = newInstance(Class.forName("java.awt.Color"));
+        setDoubleField(term23389, term23389.getClass(), "x", 0.5029736700336335);
+        setDoubleField(term23389, term23389.getClass(), "y", 0.2617673558897229);
+        setDoubleField(term23389, term23389.getClass(), "mx", 0.052590327313127294);
+        setDoubleField(term23389, term23389.getClass(), "my", 0.004207750553928968);
+        setIntField(term23389, term23389.getClass(), "ttl", -233024044);
+        setField(term23389, term23389.getClass(), "type", enum70);
+        setIntField(term23397, term23397.getClass(), "value", 1820784228);
+        setField(term23397, term23397.getClass(), "frgbvalue", null);
+        setField(term23397, term23397.getClass(), "fvalue", null);
+        setFloatField(term23397, term23397.getClass(), "falpha", 0.6688843F);
+        setField(term23397, term23397.getClass(), "cs", null);
+        setField(term23389, term23389.getClass(), "color", term23397);
+        Object term23400 = newInstance(Class.forName("org.openRealmOfStars.gui.mapPanel.ParticleEffect"));
+        Object term23406 = newInstance(Class.forName("java.awt.Color"));
+        setDoubleField(term23400, term23400.getClass(), "x", 0.9107074560109533);
+        setDoubleField(term23400, term23400.getClass(), "y", 0.22308265923522352);
+        setDoubleField(term23400, term23400.getClass(), "mx", 0.46226950865842764);
+        setDoubleField(term23400, term23400.getClass(), "my", 0.6482086250011448);
+        setIntField(term23400, term23400.getClass(), "ttl", 1390820006);
+        setField(term23400, term23400.getClass(), "type", enum68);
+        setIntField(term23406, term23406.getClass(), "value", -828982065);
+        setField(term23406, term23406.getClass(), "frgbvalue", null);
+        setField(term23406, term23406.getClass(), "fvalue", null);
+        setFloatField(term23406, term23406.getClass(), "falpha", 0.77058387F);
+        setField(term23406, term23406.getClass(), "cs", null);
+        setField(term23400, term23400.getClass(), "color", term23406);
+        ArrayList term23354 = new ArrayList();
+        ((ArrayList) term23354).add(term23356);
+        ((ArrayList) term23354).add(term23367);
+        ((ArrayList) term23354).add(term23378);
+        ((ArrayList) term23354).add(term23389);
+        ((ArrayList) term23354).add(term23400);
+        Object term23415 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        setIntField(term23415, term23415.getClass(), "imageType", 908108726);
+        setField(term23415, term23415.getClass(), "colorModel", null);
+        setField(term23415, term23415.getClass(), "raster", null);
+        setField(term23415, term23415.getClass(), "osis", null);
+        setField(term23415, term23415.getClass(), "properties", null);
+        setFloatField(term23415, term23415.getClass(), "accelerationPriority", 0.0F);
+        setField(term23415, term23415.getClass(), "surfaceManager", null);
+        Object term23418 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        setIntField(term23418, term23418.getClass(), "imageType", 0);
+        setField(term23418, term23418.getClass(), "colorModel", null);
+        setField(term23418, term23418.getClass(), "raster", null);
+        setField(term23418, term23418.getClass(), "osis", null);
+        setField(term23418, term23418.getClass(), "properties", null);
+        setFloatField(term23418, term23418.getClass(), "accelerationPriority", 0.0F);
+        setField(term23418, term23418.getClass(), "surfaceManager", null);
+        Object term23421 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        setIntField(term23421, term23421.getClass(), "imageType", 0);
+        setField(term23421, term23421.getClass(), "colorModel", null);
+        setField(term23421, term23421.getClass(), "raster", null);
+        setField(term23421, term23421.getClass(), "osis", null);
+        setField(term23421, term23421.getClass(), "properties", null);
+        setFloatField(term23421, term23421.getClass(), "accelerationPriority", 0.0F);
+        setField(term23421, term23421.getClass(), "surfaceManager", null);
+        Object term23424 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        setIntField(term23424, term23424.getClass(), "imageType", 0);
+        setField(term23424, term23424.getClass(), "colorModel", null);
+        setField(term23424, term23424.getClass(), "raster", null);
+        setField(term23424, term23424.getClass(), "osis", null);
+        setField(term23424, term23424.getClass(), "properties", null);
+        setFloatField(term23424, term23424.getClass(), "accelerationPriority", 0.0F);
+        setField(term23424, term23424.getClass(), "surfaceManager", null);
+        Object term23427 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        setIntField(term23427, term23427.getClass(), "imageType", 0);
+        setField(term23427, term23427.getClass(), "colorModel", null);
+        setField(term23427, term23427.getClass(), "raster", null);
+        setField(term23427, term23427.getClass(), "osis", null);
+        setField(term23427, term23427.getClass(), "properties", null);
+        setFloatField(term23427, term23427.getClass(), "accelerationPriority", 0.0F);
+        setField(term23427, term23427.getClass(), "surfaceManager", null);
+        Object term23430 = newInstance(Class.forName("java.awt.image.BufferedImage"));
+        setIntField(term23430, term23430.getClass(), "imageType", 0);
+        setField(term23430, term23430.getClass(), "colorModel", null);
+        setField(term23430, term23430.getClass(), "raster", null);
+        setField(term23430, term23430.getClass(), "osis", null);
+        setField(term23430, term23430.getClass(), "properties", null);
+        setFloatField(term23430, term23430.getClass(), "accelerationPriority", 0.0F);
+        setField(term23430, term23430.getClass(), "surfaceManager", null);
+        ArrayList term23413 = new ArrayList();
+        ((ArrayList) term23413).add(term23415);
+        ((ArrayList) term23413).add(term23418);
+        ((ArrayList) term23413).add(term23421);
+        ((ArrayList) term23413).add(term23424);
+        ((ArrayList) term23413).add(term23427);
+        ((ArrayList) term23413).add(term23430);
+        term23344 = newInstance(Class.forName("org.openRealmOfStars.gui.mapPanel.PlanetAnimation"));
+        Object term23412 = newInstance(Class.forName("org.openRealmOfStars.gui.icons.AnimatedImage"));
+        setDoubleField(term23344, term23344.getClass(), "sx", 0.06469331916225318);
+        setDoubleField(term23344, term23344.getClass(), "sy", 0.9259830415214885);
+        setDoubleField(term23344, term23344.getClass(), "ex", 0.6688842921741369);
+        setDoubleField(term23344, term23344.getClass(), "ey", 0.8067108928296716);
+        setDoubleField(term23344, term23344.getClass(), "mx", 0.6293118636954493);
+        setDoubleField(term23344, term23344.getClass(), "my", 0.7705839211434976);
+        setIntField(term23344, term23344.getClass(), "count", 1559605714);
+        setIntField(term23344, term23344.getClass(), "animFrame", 1146601902);
+        setBooleanField(term23344, term23344.getClass(), "showAnim", false);
+        setField(term23344, term23344.getClass(), "particles", term23354);
+        setIntField(term23344, term23344.getClass(), "distance", 1221443226);
+        setField(term23412, term23412.getClass(), "animations", term23413);
+        setIntField(term23412, term23412.getClass(), "frame", 1084849225);
+        setIntField(term23412, term23412.getClass(), "sizeX", -1702055571);
+        setIntField(term23412, term23412.getClass(), "sizeY", -944542900);
+        setField(term23344, term23344.getClass(), "explosionAnim", term23412);
+        setIntField(term23344, term23344.getClass(), "animationType", 1658391716);
+        setIntField(term23344, term23344.getClass(), "shipIndex", 2143282300);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.gui.mapPanel.PlanetAnimation");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getShipIndex", argTypes, term23344, args);
+    }
+
+};
+
+

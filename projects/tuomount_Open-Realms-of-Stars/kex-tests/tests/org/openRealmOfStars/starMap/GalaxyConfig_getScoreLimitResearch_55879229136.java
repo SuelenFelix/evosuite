@@ -1,0 +1,217 @@
+package org.openRealmOfStars.starMap;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.openRealmOfStars.starMap.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.String;
+import java.util.ArrayList;
+
+public class GalaxyConfig_getScoreLimitResearch_55879229136 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1603230;
+
+    public GalaxyConfig_getScoreLimitResearch_55879229136() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term1603716 = Class.forName((String) "org.openRealmOfStars.player.government.RulerSelection");
+        Field term1603715 = ((Class) term1603716).getDeclaredField((String) "ELECTION_TYPE1");
+        ((Field) term1603715).setAccessible(true);
+        Object enum4797 = ((Field) term1603715).get((Object) null);
+        ArrayList term1603365 = new ArrayList();
+        ((ArrayList) term1603365).add((Object)null);
+        Class<? extends Object> term1604050 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1604049 = ((Class) term1604050).getDeclaredField((String) "GREEN");
+        ((Field) term1604049).setAccessible(true);
+        Object enum4798 = ((Field) term1604049).get((Object) null);
+        Class<? extends Object> term1604267 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1604266 = ((Class) term1604267).getDeclaredField((String) "RED");
+        ((Field) term1604266).setAccessible(true);
+        Object enum4799 = ((Field) term1604266).get((Object) null);
+        Class<? extends Object> term1604478 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1604477 = ((Class) term1604478).getDeclaredField((String) "BANANA");
+        ((Field) term1604477).setAccessible(true);
+        Object enum4800 = ((Field) term1604477).get((Object) null);
+        Class<? extends Object> term1604698 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1604697 = ((Class) term1604698).getDeclaredField((String) "BROWN");
+        ((Field) term1604697).setAccessible(true);
+        Object enum4801 = ((Field) term1604697).get((Object) null);
+        Class<? extends Object> term1604915 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1604914 = ((Class) term1604915).getDeclaredField((String) "SKY");
+        ((Field) term1604914).setAccessible(true);
+        Object enum4802 = ((Field) term1604914).get((Object) null);
+        Class<? extends Object> term1605126 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1605125 = ((Class) term1605126).getDeclaredField((String) "CHESTNUT");
+        ((Field) term1605125).setAccessible(true);
+        Object enum4803 = ((Field) term1605125).get((Object) null);
+        Class<? extends Object> term1605352 = Class.forName((String) "org.openRealmOfStars.player.PlayerColor");
+        Field term1605351 = ((Class) term1605352).getDeclaredField((String) "TAN");
+        ((Field) term1605351).setAccessible(true);
+        Object enum4804 = ((Field) term1605351).get((Object) null);
+        Class<? extends Object> term1605563 = Class.forName((String) "org.openRealmOfStars.player.AiDifficulty");
+        Field term1605562 = ((Class) term1605563).getDeclaredField((String) "CHALLENGING");
+        ((Field) term1605562).setAccessible(true);
+        Object enum4805 = ((Field) term1605562).get((Object) null);
+        Class<? extends Object> term1605803 = Class.forName((String) "org.openRealmOfStars.player.AiDifficulty");
+        Field term1605802 = ((Class) term1605803).getDeclaredField((String) "WEAK");
+        ((Field) term1605802).setAccessible(true);
+        Object enum4806 = ((Field) term1605802).get((Object) null);
+        Class<? extends Object> term1606022 = Class.forName((String) "org.openRealmOfStars.player.AiDifficulty");
+        Field term1606021 = ((Class) term1606022).getDeclaredField((String) "NORMAL");
+        ((Field) term1606021).setAccessible(true);
+        Object enum4807 = ((Field) term1606021).get((Object) null);
+        Class<? extends Object> term1606265 = Class.forName((String) "org.openRealmOfStars.player.scenario.StartingScenarioType");
+        Field term1606264 = ((Class) term1606265).getDeclaredField((String) "UTOPIA_WORLD");
+        ((Field) term1606264).setAccessible(true);
+        Object enum4808 = ((Field) term1606264).get((Object) null);
+        Class<? extends Object> term1606613 = Class.forName((String) "org.openRealmOfStars.starMap.planet.enums.WaterLevelType");
+        Field term1606612 = ((Class) term1606613).getDeclaredField((String) "MARINE");
+        ((Field) term1606612).setAccessible(true);
+        Object enum4809 = ((Field) term1606612).get((Object) null);
+        Class<? extends Object> term1606918 = Class.forName((String) "org.openRealmOfStars.starMap.planet.enums.TemperatureType");
+        Field term1606917 = ((Class) term1606918).getDeclaredField((String) "TROPICAL");
+        ((Field) term1606917).setAccessible(true);
+        Object enum4810 = ((Field) term1606917).get((Object) null);
+        ArrayList term1603581 = new ArrayList();
+        ((ArrayList) term1603581).add((Object)null);
+        ((ArrayList) term1603581).add((Object)null);
+        ((ArrayList) term1603581).add((Object)null);
+        ((ArrayList) term1603581).add((Object)null);
+        ArrayList term1603585 = new ArrayList();
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        ((ArrayList) term1603585).add((Object)null);
+        Class<? extends Object> term1607234 = Class.forName((String) "org.openRealmOfStars.starMap.PirateDifficultLevel");
+        Field term1607233 = ((Class) term1607234).getDeclaredField((String) "VERY_HARD");
+        ((Field) term1607233).setAccessible(true);
+        Object enum4811 = ((Field) term1607233).get((Object) null);
+        Class<? extends Object> term1607513 = Class.forName((String) "org.openRealmOfStars.starMap.event.karmaEvents.KarmaType");
+        Field term1607512 = ((Class) term1607513).getDeclaredField((String) "FIRST_AND_LAST");
+        ((Field) term1607512).setAccessible(true);
+        Object enum4812 = ((Field) term1607512).get((Object) null);
+        term1603230 = newInstance(Class.forName("org.openRealmOfStars.starMap.GalaxyConfig"));
+        Object[] term1603238 = (Object[]) newArray("org.openRealmOfStars.player.race.SpaceRace", 0);
+        Object[] term1603239 = (Object[]) newArray("java.lang.String", 6);
+        Object[] term1603312 = (Object[]) newArray("org.openRealmOfStars.player.government.Government", 1);
+        Object term1603313 = newInstance(Class.forName("org.openRealmOfStars.player.government.Government"));
+        Object[] term1603369 = (Object[]) newArray("org.openRealmOfStars.player.PlayerColor", 8);
+        Object[] term1603485 = (Object[]) newArray("org.openRealmOfStars.player.AiDifficulty", 6);
+        boolean[] term1603519 = (boolean[]) newBooleanArray(8);
+        Object[] term1603528 = (Object[]) newArray("org.openRealmOfStars.player.scenario.StartingScenario", 1);
+        Object term1603529 = newInstance(Class.forName("org.openRealmOfStars.player.scenario.StartingScenario"));
+        setIntField(term1603230, term1603230.getClass(), "sizeX", -1395309793);
+        setIntField(term1603230, term1603230.getClass(), "sizeY", -608730695);
+        setIntField(term1603230, term1603230.getClass(), "galaxySizeIndex", 2145215858);
+        setIntField(term1603230, term1603230.getClass(), "maxPlayers", -1266947454);
+        setIntField(term1603230, term1603230.getClass(), "solarSystemDistance", 1757896969);
+        setIntField(term1603230, term1603230.getClass(), "sunDensityIndex", 1442423704);
+        setIntField(term1603230, term1603230.getClass(), "startingPosition", 1119895054);
+        setField(term1603230, term1603230.getClass(), "playerRaces", term1603238);
+        setElement(term1603239, 0, "RXPTrfarTQ");
+        setElement(term1603239, 1, "rAOWIuJufp");
+        setElement(term1603239, 2, "LdgvBoHaRL");
+        setElement(term1603239, 3, "RHoGRZTOXv");
+        setElement(term1603239, 4, "BjfJAavQtv");
+        setElement(term1603239, 5, "cgaBfGHFeT");
+        setField(term1603230, term1603230.getClass(), "playerName", term1603239);
+        setField(term1603313, term1603313.getClass(), "id", "QhFADRmKZk");
+        setField(term1603313, term1603313.getClass(), "name", "ZSYtZhRfBl");
+        setField(term1603313, term1603313.getClass(), "rulerSelection", enum4797);
+        setField(term1603313, term1603313.getClass(), "rulerTitleMale", "HwvLEyTJzW");
+        setField(term1603313, term1603313.getClass(), "rulerTitleFemale", "zycNHyZBvk");
+        setField(term1603313, term1603313.getClass(), "traits", term1603365);
+        setElement(term1603312, 0, term1603313);
+        setField(term1603230, term1603230.getClass(), "playerGovernment", term1603312);
+        setElement(term1603369, 0, enum4798);
+        setElement(term1603369, 1, enum4799);
+        setElement(term1603369, 2, enum4800);
+        setElement(term1603369, 3, enum4801);
+        setElement(term1603369, 4, enum4802);
+        setElement(term1603369, 5, enum4803);
+        setElement(term1603369, 6, enum4804);
+        setElement(term1603369, 7, enum4798);
+        setField(term1603230, term1603230.getClass(), "playerColors", term1603369);
+        setElement(term1603485, 0, enum4805);
+        setElement(term1603485, 1, enum4806);
+        setElement(term1603485, 2, enum4805);
+        setElement(term1603485, 3, enum4806);
+        setElement(term1603485, 4, enum4807);
+        setElement(term1603485, 5, enum4805);
+        setField(term1603230, term1603230.getClass(), "playerDifficult", term1603485);
+        setBooleanElement(term1603519, 0, true);
+        setBooleanElement(term1603519, 3, true);
+        setBooleanElement(term1603519, 6, true);
+        setField(term1603230, term1603230.getClass(), "playerElderRealm", term1603519);
+        setField(term1603529, term1603529.getClass(), "id", "fEehlHfuDb");
+        setField(term1603529, term1603529.getClass(), "type", enum4808);
+        setField(term1603529, term1603529.getClass(), "name", "JTIJshhyHJ");
+        setField(term1603529, term1603529.getClass(), "description", "UvxrXiPXJr");
+        setIntField(term1603529, term1603529.getClass(), "numberOfScouts", -1174956875);
+        setIntField(term1603529, term1603529.getClass(), "numberOfColonyShips", -156919594);
+        setIntField(term1603529, term1603529.getClass(), "startingCredit", -1362736195);
+        setField(term1603529, term1603529.getClass(), "waterLevel", enum4809);
+        setField(term1603529, term1603529.getClass(), "temperature", enum4810);
+        setIntField(term1603529, term1603529.getClass(), "planetSize", 408905825);
+        setIntField(term1603529, term1603529.getClass(), "population", 186239775);
+        setIntField(term1603529, term1603529.getClass(), "colonyPop", 1943598634);
+        setField(term1603529, term1603529.getClass(), "extraTech", term1603581);
+        setField(term1603529, term1603529.getClass(), "buildings", term1603585);
+        setElement(term1603528, 0, term1603529);
+        setField(term1603230, term1603230.getClass(), "startingScenario", term1603528);
+        setIntField(term1603230, term1603230.getClass(), "chanceForPlanetaryEvent", 111241396);
+        setIntField(term1603230, term1603230.getClass(), "numberOfRoguePlanets", 81226700);
+        setIntField(term1603230, term1603230.getClass(), "scoringVictoryTurns", 1087845249);
+        setIntField(term1603230, term1603230.getClass(), "scoringCulture", -549875738);
+        setIntField(term1603230, term1603230.getClass(), "scoringConquer", 447514854);
+        setIntField(term1603230, term1603230.getClass(), "scoringResearch", 1202276395);
+        setIntField(term1603230, term1603230.getClass(), "scoringDiplomacy", -1142761341);
+        setIntField(term1603230, term1603230.getClass(), "scoringPopulation", 243952023);
+        setIntField(term1603230, term1603230.getClass(), "spacePiratesLevel", 2016878413);
+        setField(term1603230, term1603230.getClass(), "spacePiratesDifficulty", enum4811);
+        setField(term1603230, term1603230.getClass(), "karmaType", enum4812);
+        setIntField(term1603230, term1603230.getClass(), "karmaSpeed", 1878809374);
+        setIntField(term1603230, term1603230.getClass(), "spaceAnomaliesLevel", 1082268783);
+        setIntField(term1603230, term1603230.getClass(), "elderHeadStart", 1957469274);
+        setBooleanField(term1603230, term1603230.getClass(), "enableTutorial", false);
+        setBooleanField(term1603230, term1603230.getClass(), "aiOnly", true);
+        setField(term1603230, term1603230.getClass(), "difficultyLevel", enum4806);
+        setBooleanField(term1603230, term1603230.getClass(), "allNews", false);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.openRealmOfStars.starMap.GalaxyConfig");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getScoreLimitResearch", argTypes, term1603230, args);
+    }
+
+};
+
+

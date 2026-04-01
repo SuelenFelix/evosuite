@@ -1,0 +1,58 @@
+package org.graph4j.util;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.util.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Integer;
+
+public class IntHashMap_get_4789471378 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term154572;
+     Object term154577;
+
+    public IntHashMap_get_4789471378() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term154572 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object[] term154573 = (Object[]) newArray("org.graph4j.util.IntHashMap$Entry", 20);
+        setField(term154572, term154572.getClass(), "table", term154573);
+        setIntField(term154572, term154572.getClass(), "count", 2043392749);
+        setIntField(term154572, term154572.getClass(), "threshold", 15);
+        setFloatField(term154572, term154572.getClass(), "loadFactor", 0.75F);
+        term154577 = new Integer(-1171842723);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.util.IntHashMap");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = int.class;
+        Object[] args = new Object[1];
+        args[0] = term154577;
+        callMethod(klass, "get", argTypes, term154572, args);
+    }
+
+};
+
+

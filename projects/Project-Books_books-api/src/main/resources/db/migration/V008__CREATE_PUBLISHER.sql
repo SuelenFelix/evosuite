@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS publisher (
-    id    SERIAL       NOT NULL PRIMARY KEY,
-    name  VARCHAR(255) NOT NULL UNIQUE
-)

@@ -1,2 +1,0 @@
-ALTER TABLE author
-ALTER COLUMN about TYPE TEXT;

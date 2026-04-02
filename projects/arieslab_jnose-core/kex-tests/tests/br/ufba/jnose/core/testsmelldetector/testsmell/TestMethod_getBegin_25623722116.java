@@ -1,0 +1,52 @@
+package br.ufba.jnose.core.testsmelldetector.testsmell;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static br.ufba.jnose.core.testsmelldetector.testsmell.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class TestMethod_getBegin_25623722116 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term513;
+
+    public TestMethod_getBegin_25623722116() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term513 = newInstance(Class.forName("br.ufba.jnose.core.testsmelldetector.testsmell.TestMethod"));
+        setField(term513, term513.getClass(), "methodName", null);
+        setBooleanField(term513, term513.getClass(), "hasSmell", false);
+        setField(term513, term513.getClass(), "begin", null);
+        setField(term513, term513.getClass(), "end", null);
+        setField(term513, term513.getClass(), "range", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("br.ufba.jnose.core.testsmelldetector.testsmell.TestMethod");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getBegin", argTypes, term513, args);
+    }
+
+};
+
+

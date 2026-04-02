@@ -1,0 +1,184 @@
+2026-04-01 21:36:16.026 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/bulinha_residencia-serratec-music-manager-api/target/classes
+2026-04-01 21:36:16.145 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 21:36:16.205 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-01 21:36:17.142 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-01 21:36:17.647 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package br/org/serratec/mm/util/*
+2026-04-01 21:36:17.649 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-01 21:36:17.671 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/bulinha_residencia-serratec-music-manager-api/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 21:36:17.702 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/bulinha_residencia-serratec-music-manager-api/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 34901 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/bulinha_residencia-serratec-music-manager-api/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-01 21:36:17.714 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-01 21:37:57.747 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/org/serratec/mm/util/MMUtil::<init>(): void
+2026-04-01 21:37:57.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/org/serratec/mm/util/MMUtil::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 21:37:58.219 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.org.serratec.mm.util.MMUtil_init_9381213150
+2026-04-01 21:37:58.225 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/org/serratec/mm/util/MMUtil::encode(java/lang/String): java/lang/String
+2026-04-01 21:37:58.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/org/serratec/mm/util/MMUtil::encode(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = StandardCharsets.UTF_8
+	%3 = virtual %1.toString()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%7 = static URLEncoder.encode(arg$0, %3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	goto %bb.return0
+
+%catch0: 	//catches from %bb1, %bb0
+	%6 = catch java/io/UnsupportedEncodingException
+goto %label0
+
+%label0: 	//predecessors %catch0
+	virtual %6.printStackTrace()
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb2, %bb3
+	%retval1 = phi {%bb2 -> %7; %bb3 -> null}
+	return %retval1
+2026-04-01 21:37:58.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.org.serratec.mm.util.MMUtil_encode_12676008211
+2026-04-01 21:37:58.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/org/serratec/mm/util/MMUtil::getUsuarioLogado(): br/org/serratec/mm/model/Usuario
+2026-04-01 21:37:58.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/org/serratec/mm/util/MMUtil::getUsuarioLogado(): br/org/serratec/mm/model/Usuario
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static SecurityContextHolder.getContext()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.getAuthentication()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = interface %3.getPrincipal()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = (br/org/serratec/mm/security/UsuarioDetalhe) %5
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	%10 = this.usuarioRepository
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%11 = virtual %8.getUsername()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%13 = interface %10.findByEmail(%11)
+	goto %label1
+
+%label1: 	//predecessors %bb5
+	%15 = virtual %13.orElse(null)
+	goto %bb6
+
+%bb6: 	//predecessors %label1
+	%17 = (br/org/serratec/mm/model/Usuario) %15
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return %17
+2026-04-01 21:37:58.428 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.org.serratec.mm.util.MMUtil_getUsuarioLogado_9243214482
+2026-04-01 21:37:58.505 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.org.serratec.mm.util.MMUtil_init_9381213153
+2026-04-01 21:37:58.508 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:883)
+	at org.vorpal.research.kex.util.PathClassLoader.defineClass(PathClassLoader.kt:32)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:46)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 30 common frames omitted
+2026-04-01 21:37:58.508 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/org/serratec/mm/util/MMUtil::encode(java/lang/String): java/lang/String: null
+2026-04-01 21:37:58.509 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:883)
+	at org.vorpal.research.kex.util.PathClassLoader.defineClass(PathClassLoader.kt:32)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:46)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 30 common frames omitted
+2026-04-01 21:37:58.509 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/org/serratec/mm/util/MMUtil::getUsuarioLogado(): br/org/serratec/mm/model/Usuario: null
+2026-04-01 21:37:58.509 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/org/serratec/mm/util/MMUtil::<init>(): void: null
+2026-04-01 21:37:58.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/org/serratec/mm/util/MMUtil::encode(java/lang/String): java/lang/String processing is finished normally
+2026-04-01 21:37:58.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/org/serratec/mm/util/MMUtil::getUsuarioLogado(): br/org/serratec/mm/model/Usuario processing is finished normally
+2026-04-01 21:37:58.510 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/org/serratec/mm/util/MMUtil::<init>(): void processing is finished normally
+2026-04-01 21:37:58.510 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-01 21:37:58.510 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

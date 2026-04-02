@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.14</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath /> 
     </parent>
     <groupId>com.cos</groupId>
     <artifactId>blog</artifactId>
@@ -19,8 +18,8 @@
     </properties>
 
     <dependencies>
-        <!-- 추가 라이브러리 시작 -->
-        <!-- 시큐리티 태그 라이브러리 -->
+        
+        
 
         <dependency>
             <groupId>com.h2database</groupId>
@@ -34,23 +33,23 @@
         </dependency>
 
 
-        <!-- JSP 템플릿 엔진 라이브러리 변경-->
+        
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
 
 
-        <!-- JSTL -->
+        
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
 
-        <!-- 추가 라이브러리 종료 -->
+        
 
-        <!-- MySQL 8.0 버전 세팅해주세요 -->
+        
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -110,7 +109,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-        </plugins>
+        <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
     </build>
 
 </project>

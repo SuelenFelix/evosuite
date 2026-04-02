@@ -1,0 +1,212 @@
+package com.chip8.emulator;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.chip8.emulator.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.util.ArrayDeque;
+import java.util.HashMap;
+
+public class Decoder_dumpVxToVy_193730404419 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term777136;
+
+    public Decoder_dumpVxToVy_193730404419() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        ArrayDeque term787196 = new ArrayDeque();
+        ArrayDeque term797261 = new ArrayDeque();
+        HashMap term797267 = new HashMap();
+        term777136 = newInstance(Class.forName("com.chip8.emulator.Decoder"));
+        Object term777137 = newInstance(Class.forName("com.chip8.emulator.Memory"));
+        byte[] term777138 = (byte[]) newByteArray(16);
+        byte[] term777155 = (byte[]) newByteArray(16);
+        byte[] term777172 = (byte[]) newByteArray(16);
+        byte[] term777192 = (byte[]) newByteArray(65535);
+        Object term787200 = newInstance(Class.forName("com.chip8.emulator.Fetcher"));
+        Object term787202 = newInstance(Class.forName("com.chip8.emulator.Memory"));
+        byte[] term787203 = (byte[]) newByteArray(16);
+        byte[] term787220 = (byte[]) newByteArray(16);
+        byte[] term787237 = (byte[]) newByteArray(16);
+        byte[] term787257 = (byte[]) newByteArray(65535);
+        Object term797266 = newInstance(Class.forName("com.chip8.emulator.PixelManager"));
+        Object[] term797272 = (Object[]) newArray("[[Z", 1);
+        Object[] term797273 = (Object[]) newArray("[Z", 4);
+        boolean[] term797274 = (boolean[]) newBooleanArray(1);
+        boolean[] term797276 = (boolean[]) newBooleanArray(4);
+        boolean[] term797281 = (boolean[]) newBooleanArray(0);
+        boolean[] term797282 = (boolean[]) newBooleanArray(3);
+        Object[] term797290 = (Object[]) newArray("[Z", 6);
+        boolean[] term797291 = (boolean[]) newBooleanArray(4);
+        boolean[] term797296 = (boolean[]) newBooleanArray(3);
+        boolean[] term797300 = (boolean[]) newBooleanArray(6);
+        boolean[] term797307 = (boolean[]) newBooleanArray(4);
+        boolean[] term797312 = (boolean[]) newBooleanArray(1);
+        boolean[] term797314 = (boolean[]) newBooleanArray(5);
+        Object term797325 = newInstance(Class.forName("com.chip8.emulator.Keys"));
+        boolean[] term797326 = (boolean[]) newBooleanArray(16);
+        Object[] term797343 = (Object[]) newArray("java.lang.String", 16);
+        Object term797404 = newInstance(Class.forName("com.chip8.emulator.DecodeDetails"));
+        Object term797504 = newInstance(Class.forName("com.chip8.configs.Configs"));
+        setField(term777137, term777137.getClass(), "v", term777138);
+        setField(term777137, term777137.getClass(), "rpl", term777155);
+        setByteElement(term777172, 3, (byte) 32);
+        setByteElement(term777172, 4, (byte) 64);
+        setByteElement(term777172, 5, (byte) 32);
+        setByteElement(term777172, 7, (byte) 32);
+        setByteElement(term777172, 8, (byte) 64);
+        setByteElement(term777172, 9, (byte) 32);
+        setByteElement(term777172, 11, (byte) 32);
+        setByteElement(term777172, 12, (byte) 64);
+        setByteElement(term777172, 13, (byte) 32);
+        setField(term777137, term777137.getClass(), "audio", term777172);
+        setShortField(term777137, term777137.getClass(), "pitch", (short) 64);
+        setShortField(term777137, term777137.getClass(), "i", (short) 29265);
+        setShortField(term777137, term777137.getClass(), "pc", (short) 512);
+        setField(term777137, term777137.getClass(), "ram", term777192);
+        setByteField(term777137, term777137.getClass(), "delayTimer", (byte) 77);
+        setByteField(term777137, term777137.getClass(), "soundTimer", (byte) 14);
+        setField(term777137, term777137.getClass(), "stack", term787196);
+        setField(term777136, term777136.getClass(), "m", term777137);
+        setShortField(term787200, term787200.getClass(), "opcode", (short) 23105);
+        setField(term787202, term787202.getClass(), "v", term787203);
+        setField(term787202, term787202.getClass(), "rpl", term787220);
+        setByteElement(term787237, 3, (byte) 32);
+        setByteElement(term787237, 4, (byte) 64);
+        setByteElement(term787237, 5, (byte) 32);
+        setByteElement(term787237, 7, (byte) 32);
+        setByteElement(term787237, 8, (byte) 64);
+        setByteElement(term787237, 9, (byte) 32);
+        setByteElement(term787237, 11, (byte) 32);
+        setByteElement(term787237, 12, (byte) 64);
+        setByteElement(term787237, 13, (byte) 32);
+        setField(term787202, term787202.getClass(), "audio", term787237);
+        setShortField(term787202, term787202.getClass(), "pitch", (short) 64);
+        setShortField(term787202, term787202.getClass(), "i", (short) -20268);
+        setShortField(term787202, term787202.getClass(), "pc", (short) 512);
+        setField(term787202, term787202.getClass(), "ram", term787257);
+        setByteField(term787202, term787202.getClass(), "delayTimer", (byte) -101);
+        setByteField(term787202, term787202.getClass(), "soundTimer", (byte) 35);
+        setField(term787202, term787202.getClass(), "stack", term797261);
+        setField(term787200, term787200.getClass(), "m", term787202);
+        setLongField(term787200, term787200.getClass(), "currentTime", -4920224193275732920L);
+        setField(term777136, term777136.getClass(), "fetcher", term787200);
+        setField(term797266, term797266.getClass(), "fadeMap", term797267);
+        setElement(term797273, 0, term797274);
+        setBooleanElement(term797276, 0, true);
+        setElement(term797273, 1, term797276);
+        setElement(term797273, 2, term797281);
+        setBooleanElement(term797282, 0, true);
+        setElement(term797273, 3, term797282);
+        setElement(term797272, 0, term797273);
+        setField(term797266, term797266.getClass(), "display", term797272);
+        setIntField(term797266, term797266.getClass(), "x", -2027534003);
+        setIntField(term797266, term797266.getClass(), "y", 1063420942);
+        setBooleanField(term797266, term797266.getClass(), "fade", true);
+        setDoubleField(term797266, term797266.getClass(), "fadeSpeed", 0.20737514139742264);
+        setBooleanElement(term797291, 0, true);
+        setBooleanElement(term797291, 2, true);
+        setBooleanElement(term797291, 3, true);
+        setElement(term797290, 0, term797291);
+        setBooleanElement(term797296, 0, true);
+        setElement(term797290, 1, term797296);
+        setBooleanElement(term797300, 1, true);
+        setBooleanElement(term797300, 2, true);
+        setBooleanElement(term797300, 5, true);
+        setElement(term797290, 2, term797300);
+        setBooleanElement(term797307, 1, true);
+        setBooleanElement(term797307, 2, true);
+        setElement(term797290, 3, term797307);
+        setElement(term797290, 4, term797312);
+        setBooleanElement(term797314, 2, true);
+        setElement(term797290, 5, term797314);
+        setField(term797266, term797266.getClass(), "spriteViewer", term797290);
+        setIntField(term797266, term797266.getClass(), "spriteHeight", 1375330971);
+        setBooleanField(term797266, term797266.getClass(), "resolutionMode", true);
+        setIntField(term797266, term797266.getClass(), "currentPlane", -478195677);
+        setBooleanField(term797266, term797266.getClass(), "xoMode", false);
+        setField(term777136, term777136.getClass(), "pixels", term797266);
+        setShortField(term777136, term777136.getClass(), "opcode", (short) 26145);
+        setField(term797325, term797325.getClass(), "keys", term797326);
+        setElement(term797343, 0, "1");
+        setElement(term797343, 1, "2");
+        setElement(term797343, 2, "3");
+        setElement(term797343, 3, "4");
+        setElement(term797343, 4, "Q");
+        setElement(term797343, 5, "W");
+        setElement(term797343, 6, "E");
+        setElement(term797343, 7, "R");
+        setElement(term797343, 8, "A");
+        setElement(term797343, 9, "S");
+        setElement(term797343, 10, "D");
+        setElement(term797343, 11, "F");
+        setElement(term797343, 12, "Z");
+        setElement(term797343, 13, "X");
+        setElement(term797343, 14, "C");
+        setElement(term797343, 15, "V");
+        setField(term797325, term797325.getClass(), "binds", term797343);
+        setField(term777136, term777136.getClass(), "keys", term797325);
+        setField(term777136, term777136.getClass(), "detailed", "IpQuOGMgmj");
+        setShortField(term797404, term797404.getClass(), "opcode", (short) -31050);
+        setField(term797404, term797404.getClass(), "x", "pJbnHTYrxn");
+        setField(term797404, term797404.getClass(), "y", "iIRsCSYqXH");
+        setField(term797404, term797404.getClass(), "nnn", "nghfqDXyCG");
+        setField(term797404, term797404.getClass(), "nn", "WBAOTqErtm");
+        setField(term797404, term797404.getClass(), "n", "PqtVXXZMqK");
+        setField(term797404, term797404.getClass(), "iBefore", "rYbtIDVdnd");
+        setField(term797404, term797404.getClass(), "i", "UKAReurpHG");
+        setField(term797404, term797404.getClass(), "pc", "WVRMUmrljA");
+        setBooleanField(term797404, term797404.getClass(), "state", false);
+        setBooleanField(term797404, term797404.getClass(), "resolutionMode", true);
+        setField(term777136, term777136.getClass(), "d", term797404);
+        setBooleanField(term797504, term797504.getClass(), "printToConsole", true);
+        setBooleanField(term797504, term797504.getClass(), "disableUiUpdates", false);
+        setField(term797504, term797504.getClass(), "printSymbol", "#");
+        setBooleanField(term797504, term797504.getClass(), "spriteExtracting", false);
+        setBooleanField(term797504, term797504.getClass(), "roundPixels", true);
+        setBooleanField(term797504, term797504.getClass(), "blur", false);
+        setBooleanField(term797504, term797504.getClass(), "glow", false);
+        setDoubleField(term797504, term797504.getClass(), "blurValue", 0.7919370314903882);
+        setDoubleField(term797504, term797504.getClass(), "glowValue", 0.2109867221632754);
+        setField(term797504, term797504.getClass(), "bgColor", "NTlKJDDWlk");
+        setField(term797504, term797504.getClass(), "spriteColor", "vOuMEpOQAg");
+        setField(term797504, term797504.getClass(), "planeColor", "SIODFGaQhr");
+        setField(term797504, term797504.getClass(), "bothColor", "qYzsiuXOgS");
+        setBooleanField(term797504, term797504.getClass(), "quirkShift", true);
+        setBooleanField(term797504, term797504.getClass(), "quirkJump", false);
+        setBooleanField(term797504, term797504.getClass(), "quirkIncrementIndex", false);
+        setBooleanField(term797504, term797504.getClass(), "quirkOrder", false);
+        setField(term777136, term777136.getClass(), "c", term797504);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.chip8.emulator.Decoder");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "dumpVxToVy", argTypes, term777136, args);
+    }
+
+};
+
+

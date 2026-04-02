@@ -1,0 +1,210 @@
+package tech.jiayezheng.miniJuliaSonar.visitor;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static tech.jiayezheng.miniJuliaSonar.visitor.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.LinkedList;
+import java.lang.Object;
+import java.util.LinkedHashMap;
+import java.util.ArrayList;
+import java.lang.String;
+
+public class TypeInferencer_resolveCall_523798846121 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term109007;
+     Object term109008;
+     Object term109017;
+     Object term109085;
+
+    public TypeInferencer_resolveCall_523798846121() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term109007 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.visitor.TypeInferencer"));
+        term109008 = new LinkedList();
+        ((LinkedList) term109008).add((Object)null);
+        ((LinkedList) term109008).add((Object)null);
+        ((LinkedList) term109008).add((Object)null);
+        ((LinkedList) term109008).add((Object)null);
+        ((LinkedList) term109008).add((Object)null);
+        ((LinkedList) term109008).add((Object)null);
+        term109017 = new LinkedHashMap();
+        ArrayList term109086 = new ArrayList();
+        Class<? extends Object> term109165 = Class.forName((String) "tech.jiayezheng.miniJuliaSonar.ast.NodeType");
+        Field term109164 = ((Class) term109165).getDeclaredField((String) "Nothing");
+        ((Field) term109164).setAccessible(true);
+        Object enum368 = ((Field) term109164).get((Object) null);
+        Object term109092 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        Object term109093 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.Symbol"));
+        setField(term109093, term109093.getClass(), "type", null);
+        setField(term109093, term109093.getClass(), "nodeType", null);
+        setIntField(term109093, term109093.getClass(), "start", -1347358701);
+        setIntField(term109093, term109093.getClass(), "end", 806595993);
+        setField(term109093, term109093.getClass(), "file", null);
+        setField(term109093, term109093.getClass(), "parent", null);
+        setField(term109093, term109093.getClass(), "name", null);
+        setField(term109092, term109092.getClass(), "key", term109093);
+        setField(term109092, term109092.getClass(), "value", null);
+        setField(term109092, term109092.getClass(), "nodeType", enum368);
+        setIntField(term109092, term109092.getClass(), "start", 548228925);
+        setIntField(term109092, term109092.getClass(), "end", -749861210);
+        setField(term109092, term109092.getClass(), "file", "");
+        setField(term109092, term109092.getClass(), "parent", null);
+        setField(term109092, term109092.getClass(), "name", "");
+        Class<? extends Object> term109408 = Class.forName((String) "tech.jiayezheng.miniJuliaSonar.ast.NodeType");
+        Field term109407 = ((Class) term109408).getDeclaredField((String) "Ref");
+        ((Field) term109407).setAccessible(true);
+        Object enum369 = ((Field) term109407).get((Object) null);
+        Object term109102 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        Object term109103 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.Symbol"));
+        setField(term109103, term109103.getClass(), "type", null);
+        setField(term109103, term109103.getClass(), "nodeType", null);
+        setIntField(term109103, term109103.getClass(), "start", 1694224101);
+        setIntField(term109103, term109103.getClass(), "end", 937859191);
+        setField(term109103, term109103.getClass(), "file", null);
+        setField(term109103, term109103.getClass(), "parent", null);
+        setField(term109103, term109103.getClass(), "name", null);
+        setField(term109102, term109102.getClass(), "key", term109103);
+        setField(term109102, term109102.getClass(), "value", null);
+        setField(term109102, term109102.getClass(), "nodeType", enum369);
+        setIntField(term109102, term109102.getClass(), "start", -916584829);
+        setIntField(term109102, term109102.getClass(), "end", -2131181468);
+        setField(term109102, term109102.getClass(), "file", "");
+        setField(term109102, term109102.getClass(), "parent", null);
+        setField(term109102, term109102.getClass(), "name", "");
+        Object term109112 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        Object term109113 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.Symbol"));
+        setField(term109113, term109113.getClass(), "type", null);
+        setField(term109113, term109113.getClass(), "nodeType", null);
+        setIntField(term109113, term109113.getClass(), "start", 282916351);
+        setIntField(term109113, term109113.getClass(), "end", 880977281);
+        setField(term109113, term109113.getClass(), "file", null);
+        setField(term109113, term109113.getClass(), "parent", null);
+        setField(term109113, term109113.getClass(), "name", null);
+        setField(term109112, term109112.getClass(), "key", term109113);
+        setField(term109112, term109112.getClass(), "value", null);
+        setField(term109112, term109112.getClass(), "nodeType", null);
+        setIntField(term109112, term109112.getClass(), "start", 0);
+        setIntField(term109112, term109112.getClass(), "end", 0);
+        setField(term109112, term109112.getClass(), "file", null);
+        setField(term109112, term109112.getClass(), "parent", null);
+        setField(term109112, term109112.getClass(), "name", null);
+        Object term109118 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        setField(term109118, term109118.getClass(), "key", null);
+        setField(term109118, term109118.getClass(), "value", null);
+        setField(term109118, term109118.getClass(), "nodeType", null);
+        setIntField(term109118, term109118.getClass(), "start", 0);
+        setIntField(term109118, term109118.getClass(), "end", 0);
+        setField(term109118, term109118.getClass(), "file", null);
+        setField(term109118, term109118.getClass(), "parent", null);
+        setField(term109118, term109118.getClass(), "name", null);
+        Object term109121 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        setField(term109121, term109121.getClass(), "key", null);
+        setField(term109121, term109121.getClass(), "value", null);
+        setField(term109121, term109121.getClass(), "nodeType", null);
+        setIntField(term109121, term109121.getClass(), "start", 0);
+        setIntField(term109121, term109121.getClass(), "end", 0);
+        setField(term109121, term109121.getClass(), "file", null);
+        setField(term109121, term109121.getClass(), "parent", null);
+        setField(term109121, term109121.getClass(), "name", null);
+        Object term109124 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        setField(term109124, term109124.getClass(), "key", null);
+        setField(term109124, term109124.getClass(), "value", null);
+        setField(term109124, term109124.getClass(), "nodeType", null);
+        setIntField(term109124, term109124.getClass(), "start", 0);
+        setIntField(term109124, term109124.getClass(), "end", 0);
+        setField(term109124, term109124.getClass(), "file", null);
+        setField(term109124, term109124.getClass(), "parent", null);
+        setField(term109124, term109124.getClass(), "name", null);
+        Object term109127 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        setField(term109127, term109127.getClass(), "key", null);
+        setField(term109127, term109127.getClass(), "value", null);
+        setField(term109127, term109127.getClass(), "nodeType", null);
+        setIntField(term109127, term109127.getClass(), "start", 0);
+        setIntField(term109127, term109127.getClass(), "end", 0);
+        setField(term109127, term109127.getClass(), "file", null);
+        setField(term109127, term109127.getClass(), "parent", null);
+        setField(term109127, term109127.getClass(), "name", null);
+        Object term109130 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        setField(term109130, term109130.getClass(), "key", null);
+        setField(term109130, term109130.getClass(), "value", null);
+        setField(term109130, term109130.getClass(), "nodeType", null);
+        setIntField(term109130, term109130.getClass(), "start", 0);
+        setIntField(term109130, term109130.getClass(), "end", 0);
+        setField(term109130, term109130.getClass(), "file", null);
+        setField(term109130, term109130.getClass(), "parent", null);
+        setField(term109130, term109130.getClass(), "name", null);
+        Object term109133 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.KW"));
+        setField(term109133, term109133.getClass(), "key", null);
+        setField(term109133, term109133.getClass(), "value", null);
+        setField(term109133, term109133.getClass(), "nodeType", null);
+        setIntField(term109133, term109133.getClass(), "start", 0);
+        setIntField(term109133, term109133.getClass(), "end", 0);
+        setField(term109133, term109133.getClass(), "file", null);
+        setField(term109133, term109133.getClass(), "parent", null);
+        setField(term109133, term109133.getClass(), "name", null);
+        ArrayList term109090 = new ArrayList();
+        ((ArrayList) term109090).add(term109092);
+        ((ArrayList) term109090).add(term109102);
+        ((ArrayList) term109090).add(term109112);
+        ((ArrayList) term109090).add(term109118);
+        ((ArrayList) term109090).add(term109121);
+        ((ArrayList) term109090).add(term109124);
+        ((ArrayList) term109090).add(term109127);
+        ((ArrayList) term109090).add(term109130);
+        ((ArrayList) term109090).add(term109133);
+        Class<? extends Object> term109639 = Class.forName((String) "tech.jiayezheng.miniJuliaSonar.ast.NodeType");
+        Field term109638 = ((Class) term109639).getDeclaredField((String) "RSQUARE");
+        ((Field) term109638).setAccessible(true);
+        Object enum370 = ((Field) term109638).get((Object) null);
+        term109085 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.ast.Call"));
+        setField(term109085, term109085.getClass(), "name", null);
+        setField(term109085, term109085.getClass(), "args", term109086);
+        setField(term109085, term109085.getClass(), "keywords", term109090);
+        setBooleanField(term109085, term109085.getClass(), "isInit", false);
+        setField(term109085, term109085.getClass(), "nodeType", enum370);
+        setIntField(term109085, term109085.getClass(), "start", 371943306);
+        setIntField(term109085, term109085.getClass(), "end", 982388293);
+        setField(term109085, term109085.getClass(), "file", "zlBxjMwVHV");
+        setField(term109085, term109085.getClass(), "parent", null);
+        setField(term109085, term109085.getClass(), "name", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("tech.jiayezheng.miniJuliaSonar.visitor.TypeInferencer");
+        Class<?>[] argTypes = new Class<?>[4];
+        argTypes[0] = Class.forName("tech.jiayezheng.miniJuliaSonar.type.Type");
+        argTypes[1] = Class.forName("java.util.List");
+        argTypes[2] = Class.forName("java.util.Map");
+        argTypes[3] = Class.forName("tech.jiayezheng.miniJuliaSonar.ast.Call");
+        Object[] args = new Object[4];
+        args[0] = null;
+        args[1] = term109008;
+        args[2] = term109017;
+        args[3] = term109085;
+        callMethod(klass, "resolveCall", argTypes, term109007, args);
+    }
+
+};
+
+

@@ -1,0 +1,1086 @@
+2026-04-02 01:07:01.521 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/sashinpivotal_spring-boot-tdd/target/classes
+2026-04-02 01:07:01.604 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-02 01:07:01.681 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-02 01:07:02.461 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-02 01:07:02.968 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/pivotal/workshop/*
+2026-04-02 01:07:02.969 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-02 01:07:02.979 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/sashinpivotal_spring-boot-tdd/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-02 01:07:03.011 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/sashinpivotal_spring-boot-tdd/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 35511 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/sashinpivotal_spring-boot-tdd/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-02 01:07:03.025 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-02 01:08:43.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::<init>(): void
+2026-04-02 01:08:43.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 01:08:43.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_init_3821514700
+2026-04-02 01:08:43.534 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::<init>(java/lang/String, java/lang/String): void
+2026-04-02 01:08:43.534 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::<init>(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.name = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.type = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-04-02 01:08:43.650 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_init_1949811701
+2026-04-02 01:08:43.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::<init>(java/lang/Long, java/lang/String, java/lang/String): void
+2026-04-02 01:08:43.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::<init>(java/lang/Long, java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.id = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.name = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.type = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-04-02 01:08:43.732 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_init_18840590082
+2026-04-02 01:08:43.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::getName(): java/lang/String
+2026-04-02 01:08:43.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::getName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.name
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 01:08:43.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_getName_2041504183
+2026-04-02 01:08:43.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::getType(): java/lang/String
+2026-04-02 01:08:43.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::getType(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.type
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 01:08:43.870 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_getType_101216354
+2026-04-02 01:08:43.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::setName(java/lang/String): void
+2026-04-02 01:08:43.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::setName(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.name = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 01:08:43.932 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_setName_15157261505
+2026-04-02 01:08:43.933 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::setType(java/lang/String): void
+2026-04-02 01:08:43.933 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::setType(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.type = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 01:08:43.986 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_setType_17097549336
+2026-04-02 01:08:43.987 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::equals(java/lang/Object): bool
+2026-04-02 01:08:43.988 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (this != arg$0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%6 = virtual this.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%7 = virtual arg$0.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %if.then0, %bb2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb2
+	%57 = (io/pivotal/workshop/Car) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	%12 = this.id
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%14 = (%12 == null)
+	if (%14) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb3
+	%18 = this.id
+	goto %bb4
+
+%bb4: 	//predecessors %if.else2
+	%19 = %57.id
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%21 = virtual %18.equals(%19)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%23 = (%21 != false)
+	if (%23) goto %if.then4 else %if.else3
+
+%if.else3: 	//predecessors %bb6
+	goto %goto0
+
+%if.then3: 	//predecessors %bb3
+	%26 = %57.id
+	goto %bb7
+
+%bb7: 	//predecessors %if.then3
+	%28 = (%26 == null)
+	if (%28) goto %if.then4 else %goto0
+
+%goto0: 	//predecessors %if.else3, %bb7
+	goto %bb.return0
+
+%if.then4: 	//predecessors %bb6, %bb7
+	%30 = this.name
+	goto %bb8
+
+%bb8: 	//predecessors %if.then4
+	%32 = (%30 == null)
+	if (%32) goto %if.then5 else %if.else4
+
+%if.else4: 	//predecessors %bb8
+	%36 = this.name
+	goto %bb9
+
+%bb9: 	//predecessors %if.else4
+	%37 = %57.name
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%39 = virtual %36.equals(%37)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%41 = (%39 != false)
+	if (%41) goto %if.then6 else %if.else5
+
+%if.else5: 	//predecessors %bb11
+	goto %goto1
+
+%if.then5: 	//predecessors %bb8
+	%44 = %57.name
+	goto %bb12
+
+%bb12: 	//predecessors %if.then5
+	%46 = (%44 == null)
+	if (%46) goto %if.then6 else %goto1
+
+%goto1: 	//predecessors %if.else5, %bb12
+	goto %bb.return0
+
+%if.then6: 	//predecessors %bb11, %bb12
+	%48 = this.type
+	goto %bb13
+
+%bb13: 	//predecessors %if.then6
+	%50 = (%48 == null)
+	if (%50) goto %if.then7 else %if.else6
+
+%if.else6: 	//predecessors %bb13
+	%54 = this.type
+	goto %bb14
+
+%bb14: 	//predecessors %if.else6
+	%55 = %57.type
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%62 = virtual %54.equals(%55)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	goto %goto2
+
+%if.then7: 	//predecessors %bb13
+	%59 = %57.type
+	goto %bb17
+
+%bb17: 	//predecessors %if.then7
+	%61 = (%59 != null)
+	if (%61) goto %if.then8 else %if.else7
+
+%if.else7: 	//predecessors %bb17
+	goto %goto2
+
+%if.then8: 	//predecessors %bb17
+	goto %goto2
+
+%goto2: 	//predecessors %bb16, %if.else7, %if.then8
+	%64 = phi {%bb16 -> %62; %if.else7 -> 1; %if.then8 -> 0}
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %goto0, %goto1, %goto2
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %goto0 -> 0; %goto1 -> 0; %goto2 -> %64}
+	return %retval1
+2026-04-02 01:08:44.046 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_equals_18870536867
+2026-04-02 01:08:44.047 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/Car::hashCode(): int
+2026-04-02 01:08:44.047 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/Car::hashCode(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.id
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = this.id
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = virtual %5.hashCode()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %bb3, %if.then0
+	%9 = phi {%bb3 -> %7; %if.then0 -> 0}
+	goto %label0
+
+%label0: 	//predecessors %goto0
+	%20 = 31 * %9
+	%12 = this.name
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%14 = (%12 == null)
+	if (%14) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%16 = this.name
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%18 = virtual %16.hashCode()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %goto1
+
+%if.then1: 	//predecessors %bb4
+	goto %goto1
+
+%goto1: 	//predecessors %bb6, %if.then1
+	%21 = phi {%bb6 -> %18; %if.then1 -> 0}
+	%23 = %20 + %21
+	goto %label1
+
+%label1: 	//predecessors %goto1
+	%34 = 31 * %23
+	%26 = this.type
+	goto %bb7
+
+%bb7: 	//predecessors %label1
+	%28 = (%26 == null)
+	if (%28) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb7
+	%30 = this.type
+	goto %bb8
+
+%bb8: 	//predecessors %if.else2
+	%32 = virtual %30.hashCode()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %goto2
+
+%if.then2: 	//predecessors %bb7
+	goto %goto2
+
+%goto2: 	//predecessors %bb9, %if.then2
+	%35 = phi {%bb9 -> %32; %if.then2 -> 0}
+	%37 = %34 + %35
+	goto %label2
+
+%label2: 	//predecessors %goto2
+	return %37
+2026-04-02 01:08:44.108 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_hashCode_14383670118
+2026-04-02 01:08:44.171 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_init_3821514709
+2026-04-02 01:08:44.216 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_init_19498117010
+2026-04-02 01:08:44.268 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_init_188405900811
+2026-04-02 01:08:44.310 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_getName_20415041812
+2026-04-02 01:08:44.351 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_getType_1012163513
+2026-04-02 01:08:44.406 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_setName_151572615014
+2026-04-02 01:08:44.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_setType_170975493315
+2026-04-02 01:08:44.486 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_equals_188705368616
+2026-04-02 01:08:44.524 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.Car_hashCode_143836701117
+2026-04-02 01:08:44.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::<init>(): void: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::<init>(java/lang/String, java/lang/String): void: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::<init>(java/lang/Long, java/lang/String, java/lang/String): void: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::getName(): java/lang/String: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::getType(): java/lang/String: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::setName(java/lang/String): void: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::setType(java/lang/String): void: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::equals(java/lang/Object): bool: null
+2026-04-02 01:08:44.525 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/Car::hashCode(): int: null
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::<init>(): void processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::<init>(java/lang/String, java/lang/String): void processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::<init>(java/lang/Long, java/lang/String, java/lang/String): void processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::getName(): java/lang/String processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::getType(): java/lang/String processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::setName(java/lang/String): void processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::setType(java/lang/String): void processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::equals(java/lang/Object): bool processing is finished normally
+2026-04-02 01:08:44.526 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/Car::hashCode(): int processing is finished normally
+2026-04-02 01:08:44.531 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarService::<init>(io/pivotal/workshop/CarRepository): void
+2026-04-02 01:08:44.531 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarService::<init>(io/pivotal/workshop/CarRepository): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.carRepository = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-02 01:08:44.533 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-04-02 01:08:44.533 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-04-02 01:08:44.533 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarService::<init>(io/pivotal/workshop/CarRepository): void: null
+2026-04-02 01:08:44.534 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarService::getCarDetails(java/lang/String): io/pivotal/workshop/Car
+2026-04-02 01:08:44.534 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarService::getCarDetails(java/lang/String): io/pivotal/workshop/Car
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.carRepository
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%15 = interface %1.findByName(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = (%15 != null)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%8 = new io/pivotal/workshop/CarNotFoundException
+	special %8.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %8
+
+%if.then0: 	//predecessors %label0
+	%11 = virtual %15.getType()
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%14 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="1"))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual %15.setType(%14)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %15
+2026-04-02 01:08:44.575 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarService_getCarDetails_16928368250
+2026-04-02 01:08:44.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarService::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car
+2026-04-02 01:08:44.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarService::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.carRepository
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.save(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (io/pivotal/workshop/Car) %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-04-02 01:08:44.613 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarService_addCarDetails_7644225101
+2026-04-02 01:08:44.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarService::<init>(io/pivotal/workshop/CarRepository): void processing is finished normally
+2026-04-02 01:08:44.615 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:883)
+	at org.vorpal.research.kex.util.PathClassLoader.defineClass(PathClassLoader.kt:32)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:46)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 30 common frames omitted
+2026-04-02 01:08:44.615 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarService::getCarDetails(java/lang/String): io/pivotal/workshop/Car: null
+2026-04-02 01:08:44.615 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:883)
+	at org.vorpal.research.kex.util.PathClassLoader.defineClass(PathClassLoader.kt:32)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:46)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 30 common frames omitted
+2026-04-02 01:08:44.615 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarService::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car: null
+2026-04-02 01:08:44.615 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarService::getCarDetails(java/lang/String): io/pivotal/workshop/Car processing is finished normally
+2026-04-02 01:08:44.615 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarService::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car processing is finished normally
+2026-04-02 01:08:44.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarNotFoundException::<init>(): void
+2026-04-02 01:08:44.617 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarNotFoundException::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 01:08:44.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarNotFoundException_init_4702651560
+2026-04-02 01:08:44.692 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarNotFoundException_init_4702651561
+2026-04-02 01:08:44.693 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarNotFoundException::<init>(): void: null
+2026-04-02 01:08:44.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarNotFoundException::<init>(): void processing is finished normally
+2026-04-02 01:08:44.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarController::<init>(io/pivotal/workshop/CarService): void
+2026-04-02 01:08:44.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarController::<init>(io/pivotal/workshop/CarService): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.carService = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-02 01:08:44.733 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarController_init_2069474020
+2026-04-02 01:08:44.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarController::getCar(java/lang/String): io/pivotal/workshop/Car
+2026-04-02 01:08:44.733 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarController::getCar(java/lang/String): io/pivotal/workshop/Car
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.carService
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%9 = virtual %1.getCarDetails(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = virtual %9.getName()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%8 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="1"))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %9.setName(%8)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %9
+2026-04-02 01:08:44.734 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method io/pivotal/workshop/CarController::getCar(java/lang/String): io/pivotal/workshop/Car
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/ResponseEntity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEntity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-04-02 01:08:44.734 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method io/pivotal/workshop/CarController::getCar(java/lang/String): io/pivotal/workshop/Car
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/ResponseEntity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEntity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-04-02 01:08:44.734 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarController::getCar(java/lang/String): io/pivotal/workshop/Car: null
+2026-04-02 01:08:44.734 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarController::addCar(io/pivotal/workshop/Car): org/springframework/http/ResponseEntity
+2026-04-02 01:08:44.734 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarController::addCar(io/pivotal/workshop/Car): org/springframework/http/ResponseEntity
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.carService
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = virtual %1.addCarDetails(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%4 = static ServletUriComponentsBuilder.fromCurrentRequestUri()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%10 = virtual %4.path("/{id}")
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%11 = new java/lang/Object[1]
+	goto %label2
+
+%label2: 	//predecessors %bb2
+	%9 = virtual arg$0.getName()
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%11[0] = %9
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%13 = virtual %10.buildAndExpand(%11)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%15 = virtual %13.toUri()
+	goto %label3
+
+%label3: 	//predecessors %bb5
+	%17 = static ResponseEntity.created(%15)
+	goto %bb6
+
+%bb6: 	//predecessors %label3
+	%19 = interface %17.build()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return %19
+2026-04-02 01:08:44.735 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method io/pivotal/workshop/CarController::addCar(io/pivotal/workshop/Car): org/springframework/http/ResponseEntity
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/ResponseEntity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEntity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-04-02 01:08:44.735 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method io/pivotal/workshop/CarController::addCar(io/pivotal/workshop/Car): org/springframework/http/ResponseEntity
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/ResponseEntity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEntity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-04-02 01:08:44.735 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarController::addCar(io/pivotal/workshop/Car): org/springframework/http/ResponseEntity: null
+2026-04-02 01:08:44.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarController_init_2069474021
+2026-04-02 01:08:44.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarController::getCar(java/lang/String): io/pivotal/workshop/Car processing is finished normally
+2026-04-02 01:08:44.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarController::addCar(io/pivotal/workshop/Car): org/springframework/http/ResponseEntity processing is finished normally
+2026-04-02 01:08:44.772 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarController::<init>(io/pivotal/workshop/CarService): void: null
+2026-04-02 01:08:44.772 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarController::<init>(io/pivotal/workshop/CarService): void processing is finished normally
+2026-04-02 01:08:44.774 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarServiceCache::<init>(io/pivotal/workshop/CarRepository): void
+2026-04-02 01:08:44.775 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarServiceCache::<init>(io/pivotal/workshop/CarRepository): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.carRepository = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-04-02 01:08:44.775 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-04-02 01:08:44.775 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/data/jpa/repository/JpaRepository
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-04-02 01:08:44.775 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarServiceCache::<init>(io/pivotal/workshop/CarRepository): void: null
+2026-04-02 01:08:44.775 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarServiceCache::getCarDetails(java/lang/String): io/pivotal/workshop/Car
+2026-04-02 01:08:44.776 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarServiceCache::getCarDetails(java/lang/String): io/pivotal/workshop/Car
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.carRepository
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%15 = interface %1.findByName(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = (%15 != null)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%8 = new io/pivotal/workshop/CarNotFoundException
+	special %8.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %8
+
+%if.then0: 	//predecessors %label0
+	%11 = virtual %15.getType()
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%14 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="1"))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual %15.setType(%14)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %15
+2026-04-02 01:08:44.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarServiceCache_getCarDetails_7342394370
+2026-04-02 01:08:44.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/CarServiceCache::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car
+2026-04-02 01:08:44.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/CarServiceCache::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.carRepository
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.save(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (io/pivotal/workshop/Car) %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-04-02 01:08:44.866 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.CarServiceCache_addCarDetails_11034685241
+2026-04-02 01:08:44.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarServiceCache::<init>(io/pivotal/workshop/CarRepository): void processing is finished normally
+2026-04-02 01:08:44.867 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:883)
+	at org.vorpal.research.kex.util.PathClassLoader.defineClass(PathClassLoader.kt:32)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:46)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 30 common frames omitted
+2026-04-02 01:08:44.867 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarServiceCache::getCarDetails(java/lang/String): io/pivotal/workshop/Car: null
+2026-04-02 01:08:44.868 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: org/springframework/data/jpa/repository/JpaRepository
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:883)
+	at org.vorpal.research.kex.util.PathClassLoader.defineClass(PathClassLoader.kt:32)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:46)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jpa.repository.JpaRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 30 common frames omitted
+2026-04-02 01:08:44.868 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/CarServiceCache::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car: null
+2026-04-02 01:08:44.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarServiceCache::getCarDetails(java/lang/String): io/pivotal/workshop/Car processing is finished normally
+2026-04-02 01:08:44.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/CarServiceCache::addCarDetails(io/pivotal/workshop/Car): io/pivotal/workshop/Car processing is finished normally
+2026-04-02 01:08:44.870 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/SpringBootTddApplication::<init>(): void
+2026-04-02 01:08:44.870 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/SpringBootTddApplication::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 01:08:44.912 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.SpringBootTddApplication_init_13737802370
+2026-04-02 01:08:44.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/pivotal/workshop/SpringBootTddApplication::main(java/lang/String[]): void
+2026-04-02 01:08:44.913 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/pivotal/workshop/SpringBootTddApplication::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%0 = static SpringApplication.run(io/pivotal/workshop/SpringBootTddApplication.class, arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	return
+2026-04-02 01:08:44.957 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.SpringBootTddApplication_main_9972172331
+2026-04-02 01:08:44.999 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.SpringBootTddApplication_init_13737802372
+2026-04-02 01:08:45.041 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.pivotal.workshop.SpringBootTddApplication_main_9972172333
+2026-04-02 01:08:45.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/SpringBootTddApplication::<init>(): void: null
+2026-04-02 01:08:45.042 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/SpringBootTddApplication::<init>(): void processing is finished normally
+2026-04-02 01:08:45.042 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/pivotal/workshop/SpringBootTddApplication::main(java/lang/String[]): void: null
+2026-04-02 01:08:45.042 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/pivotal/workshop/SpringBootTddApplication::main(java/lang/String[]): void processing is finished normally
+2026-04-02 01:08:45.043 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-02 01:08:45.043 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

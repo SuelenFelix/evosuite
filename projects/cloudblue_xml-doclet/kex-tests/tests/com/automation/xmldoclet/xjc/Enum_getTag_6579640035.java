@@ -1,0 +1,210 @@
+package com.automation.xmldoclet.xjc;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.automation.xmldoclet.xjc.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.lang.Boolean;
+
+public class Enum_getTag_6579640035 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term32747;
+
+    public Enum_getTag_6579640035() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Object term32762 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32762, term32762.getClass(), "name", "");
+        setField(term32762, term32762.getClass(), "text", "");
+        Object term32765 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32765, term32765.getClass(), "name", "");
+        setField(term32765, term32765.getClass(), "text", "");
+        Object term32768 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32768, term32768.getClass(), "name", "");
+        setField(term32768, term32768.getClass(), "text", "");
+        Object term32771 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32771, term32771.getClass(), "name", "");
+        setField(term32771, term32771.getClass(), "text", "");
+        Object term32774 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32774, term32774.getClass(), "name", "");
+        setField(term32774, term32774.getClass(), "text", "");
+        Object term32777 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32777, term32777.getClass(), "name", "");
+        setField(term32777, term32777.getClass(), "text", "");
+        Object term32780 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TagInfo"));
+        setField(term32780, term32780.getClass(), "name", "");
+        setField(term32780, term32780.getClass(), "text", "");
+        ArrayList term32760 = new ArrayList();
+        ((ArrayList) term32760).add(term32762);
+        ((ArrayList) term32760).add(term32765);
+        ((ArrayList) term32760).add(term32768);
+        ((ArrayList) term32760).add(term32771);
+        ((ArrayList) term32760).add(term32774);
+        ((ArrayList) term32760).add(term32777);
+        ((ArrayList) term32760).add(term32780);
+        ArrayList term32787 = new ArrayList();
+        ((ArrayList) term32787).add((Object)null);
+        ((ArrayList) term32787).add((Object)null);
+        ArrayList term32791 = new ArrayList();
+        ((ArrayList) term32791).add((Object)null);
+        ((ArrayList) term32791).add((Object)null);
+        ((ArrayList) term32791).add((Object)null);
+        Object term32797 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TypeInfo"));
+        setField(term32797, term32797.getClass(), "wildcard", null);
+        setField(term32797, term32797.getClass(), "generic", null);
+        setField(term32797, term32797.getClass(), "qualified", null);
+        setField(term32797, term32797.getClass(), "dimension", null);
+        ArrayList term32795 = new ArrayList();
+        ((ArrayList) term32795).add(term32797);
+        ArrayList term32828 = new ArrayList();
+        ((ArrayList) term32828).add((Object)null);
+        ((ArrayList) term32828).add((Object)null);
+        ((ArrayList) term32828).add((Object)null);
+        ((ArrayList) term32828).add((Object)null);
+        ((ArrayList) term32828).add((Object)null);
+        ((ArrayList) term32828).add((Object)null);
+        ((ArrayList) term32828).add((Object)null);
+        Object term32826 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TypeInfo"));
+        Object term32827 = newInstance(Class.forName("com.automation.xmldoclet.xjc.Wildcard"));
+        setField(term32827, term32827.getClass(), "extendsBound", null);
+        setField(term32827, term32827.getClass(), "superBound", null);
+        setField(term32826, term32826.getClass(), "wildcard", term32827);
+        setField(term32826, term32826.getClass(), "generic", term32828);
+        setField(term32826, term32826.getClass(), "qualified", "");
+        setField(term32826, term32826.getClass(), "dimension", "");
+        ArrayList term32835 = new ArrayList();
+        ((ArrayList) term32835).add((Object)null);
+        ((ArrayList) term32835).add((Object)null);
+        ((ArrayList) term32835).add((Object)null);
+        ((ArrayList) term32835).add((Object)null);
+        ((ArrayList) term32835).add((Object)null);
+        ((ArrayList) term32835).add((Object)null);
+        Object term32833 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TypeInfo"));
+        Object term32834 = newInstance(Class.forName("com.automation.xmldoclet.xjc.Wildcard"));
+        setField(term32834, term32834.getClass(), "extendsBound", null);
+        setField(term32834, term32834.getClass(), "superBound", null);
+        setField(term32833, term32833.getClass(), "wildcard", term32834);
+        setField(term32833, term32833.getClass(), "generic", term32835);
+        setField(term32833, term32833.getClass(), "qualified", "");
+        setField(term32833, term32833.getClass(), "dimension", "");
+        Object term32840 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TypeInfo"));
+        setField(term32840, term32840.getClass(), "wildcard", null);
+        setField(term32840, term32840.getClass(), "generic", null);
+        setField(term32840, term32840.getClass(), "qualified", null);
+        setField(term32840, term32840.getClass(), "dimension", null);
+        ArrayList term32824 = new ArrayList();
+        ((ArrayList) term32824).add(term32826);
+        ((ArrayList) term32824).add(term32833);
+        ((ArrayList) term32824).add(term32826);
+        ((ArrayList) term32824).add(term32840);
+        ArrayList term32847 = new ArrayList();
+        ((ArrayList) term32847).add((Object)null);
+        ((ArrayList) term32847).add((Object)null);
+        ((ArrayList) term32847).add((Object)null);
+        ((ArrayList) term32847).add((Object)null);
+        ((ArrayList) term32847).add((Object)null);
+        ArrayList term32850 = new ArrayList();
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        ((ArrayList) term32850).add((Object)null);
+        Object term32845 = newInstance(Class.forName("com.automation.xmldoclet.xjc.EnumConstant"));
+        setField(term32845, term32845.getClass(), "comment", "");
+        setField(term32845, term32845.getClass(), "tag", term32847);
+        setField(term32845, term32845.getClass(), "annotation", term32850);
+        setField(term32845, term32845.getClass(), "name", "");
+        ArrayList term32843 = new ArrayList();
+        ((ArrayList) term32843).add(term32845);
+        ArrayList term32859 = new ArrayList();
+        ((ArrayList) term32859).add((Object)null);
+        ((ArrayList) term32859).add((Object)null);
+        ((ArrayList) term32859).add((Object)null);
+        Object term32858 = newInstance(Class.forName("com.automation.xmldoclet.xjc.AnnotationInstance"));
+        setField(term32858, term32858.getClass(), "argument", term32859);
+        setField(term32858, term32858.getClass(), "name", "");
+        setField(term32858, term32858.getClass(), "qualified", "");
+        Object term32864 = newInstance(Class.forName("com.automation.xmldoclet.xjc.AnnotationInstance"));
+        setField(term32864, term32864.getClass(), "argument", null);
+        setField(term32864, term32864.getClass(), "name", null);
+        setField(term32864, term32864.getClass(), "qualified", null);
+        Object term32865 = newInstance(Class.forName("com.automation.xmldoclet.xjc.AnnotationInstance"));
+        setField(term32865, term32865.getClass(), "argument", null);
+        setField(term32865, term32865.getClass(), "name", null);
+        setField(term32865, term32865.getClass(), "qualified", null);
+        Object term32866 = newInstance(Class.forName("com.automation.xmldoclet.xjc.AnnotationInstance"));
+        setField(term32866, term32866.getClass(), "argument", null);
+        setField(term32866, term32866.getClass(), "name", null);
+        setField(term32866, term32866.getClass(), "qualified", null);
+        ArrayList term32868 = new ArrayList();
+        Object term32867 = newInstance(Class.forName("com.automation.xmldoclet.xjc.AnnotationInstance"));
+        setField(term32867, term32867.getClass(), "argument", term32868);
+        setField(term32867, term32867.getClass(), "name", "");
+        setField(term32867, term32867.getClass(), "qualified", "");
+        ArrayList term32856 = new ArrayList();
+        ((ArrayList) term32856).add(term32858);
+        ((ArrayList) term32856).add(term32864);
+        ((ArrayList) term32856).add(term32865);
+        ((ArrayList) term32856).add(term32866);
+        ((ArrayList) term32856).add(term32864);
+        ((ArrayList) term32856).add(term32867);
+        ((ArrayList) term32856).add(term32865);
+        ((ArrayList) term32856).add(term32867);
+        Boolean term32911 = new Boolean(false);
+        term32747 = newInstance(Class.forName("com.automation.xmldoclet.xjc.Enum"));
+        Object term32785 = newInstance(Class.forName("com.automation.xmldoclet.xjc.TypeInfo"));
+        Object term32786 = newInstance(Class.forName("com.automation.xmldoclet.xjc.Wildcard"));
+        setField(term32747, term32747.getClass(), "comment", "NtRnIBURuf");
+        setField(term32747, term32747.getClass(), "tag", term32760);
+        setField(term32786, term32786.getClass(), "extendsBound", term32787);
+        setField(term32786, term32786.getClass(), "superBound", term32791);
+        setField(term32785, term32785.getClass(), "wildcard", term32786);
+        setField(term32785, term32785.getClass(), "generic", term32795);
+        setField(term32785, term32785.getClass(), "qualified", "psqMVxboBk");
+        setField(term32785, term32785.getClass(), "dimension", "qYwHevYIWw");
+        setField(term32747, term32747.getClass(), "clazz", term32785);
+        setField(term32747, term32747.getClass(), "_interface", term32824);
+        setField(term32747, term32747.getClass(), "constant", term32843);
+        setField(term32747, term32747.getClass(), "annotation", term32856);
+        setField(term32747, term32747.getClass(), "name", "fJiDaHuUft");
+        setField(term32747, term32747.getClass(), "qualified", "tTKBCnabIv");
+        setField(term32747, term32747.getClass(), "scope", "XPYkajqIOu");
+        setField(term32747, term32747.getClass(), "included", term32911);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.automation.xmldoclet.xjc.Enum");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getTag", argTypes, term32747, args);
+    }
+
+};
+
+

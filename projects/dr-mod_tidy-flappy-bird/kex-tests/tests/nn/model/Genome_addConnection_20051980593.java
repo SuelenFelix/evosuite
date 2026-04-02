@@ -1,0 +1,212 @@
+package nn.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static nn.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.lang.String;
+
+public class Genome_addConnection_20051980593 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term5271;
+     Object term5327;
+
+    public Genome_addConnection_20051980593() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term5384 = Class.forName((String) "nn.model.Type");
+        Field term5383 = ((Class) term5384).getDeclaredField((String) "SENSOR");
+        ((Field) term5383).setAccessible(true);
+        Object enum28 = ((Field) term5383).get((Object) null);
+        ArrayList term5278 = new ArrayList();
+        ((ArrayList) term5278).add((Object)null);
+        ((ArrayList) term5278).add((Object)null);
+        ((ArrayList) term5278).add((Object)null);
+        ((ArrayList) term5278).add((Object)null);
+        ((ArrayList) term5278).add((Object)null);
+        ((ArrayList) term5278).add((Object)null);
+        ((ArrayList) term5278).add((Object)null);
+        Object term5274 = newInstance(Class.forName("nn.model.Node"));
+        setField(term5274, term5274.getClass(), "type", enum28);
+        setIntField(term5274, term5274.getClass(), "innovation", 1436978289);
+        setField(term5274, term5274.getClass(), "connections", term5278);
+        setDoubleField(term5274, term5274.getClass(), "bias", 0.4007990803440893);
+        ArrayList term5272 = new ArrayList();
+        ((ArrayList) term5272).add(term5274);
+        Object term5286 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5286, term5286.getClass(), "in", null);
+        setField(term5286, term5286.getClass(), "out", null);
+        setFloatField(term5286, term5286.getClass(), "weight", 0.0F);
+        setBooleanField(term5286, term5286.getClass(), "expressed", false);
+        setIntField(term5286, term5286.getClass(), "innovation", 0);
+        Object term5290 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5290, term5290.getClass(), "in", null);
+        setField(term5290, term5290.getClass(), "out", null);
+        setFloatField(term5290, term5290.getClass(), "weight", 0.0F);
+        setBooleanField(term5290, term5290.getClass(), "expressed", false);
+        setIntField(term5290, term5290.getClass(), "innovation", 0);
+        Object term5294 = newInstance(Class.forName("nn.model.Connection"));
+        Object term5295 = newInstance(Class.forName("nn.model.Node"));
+        Object term5298 = newInstance(Class.forName("nn.model.Node"));
+        setField(term5295, term5295.getClass(), "type", null);
+        setIntField(term5295, term5295.getClass(), "innovation", -511248284);
+        setField(term5295, term5295.getClass(), "connections", null);
+        setDoubleField(term5295, term5295.getClass(), "bias", 0.5203027258462796);
+        setField(term5294, term5294.getClass(), "in", term5295);
+        setField(term5298, term5298.getClass(), "type", null);
+        setIntField(term5298, term5298.getClass(), "innovation", 788630042);
+        setField(term5298, term5298.getClass(), "connections", null);
+        setDoubleField(term5298, term5298.getClass(), "bias", 0.8988977247873451);
+        setField(term5294, term5294.getClass(), "out", term5298);
+        setFloatField(term5294, term5294.getClass(), "weight", 0.3483938F);
+        setBooleanField(term5294, term5294.getClass(), "expressed", false);
+        setIntField(term5294, term5294.getClass(), "innovation", -232352320);
+        Object term5304 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5304, term5304.getClass(), "in", null);
+        setField(term5304, term5304.getClass(), "out", null);
+        setFloatField(term5304, term5304.getClass(), "weight", 0.0F);
+        setBooleanField(term5304, term5304.getClass(), "expressed", false);
+        setIntField(term5304, term5304.getClass(), "innovation", 0);
+        Object term5308 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5308, term5308.getClass(), "in", null);
+        setField(term5308, term5308.getClass(), "out", null);
+        setFloatField(term5308, term5308.getClass(), "weight", 0.0F);
+        setBooleanField(term5308, term5308.getClass(), "expressed", false);
+        setIntField(term5308, term5308.getClass(), "innovation", 0);
+        Object term5312 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5312, term5312.getClass(), "in", null);
+        setField(term5312, term5312.getClass(), "out", null);
+        setFloatField(term5312, term5312.getClass(), "weight", 0.0F);
+        setBooleanField(term5312, term5312.getClass(), "expressed", false);
+        setIntField(term5312, term5312.getClass(), "innovation", 0);
+        ArrayList term5284 = new ArrayList();
+        ((ArrayList) term5284).add(term5286);
+        ((ArrayList) term5284).add(term5290);
+        ((ArrayList) term5284).add(term5294);
+        ((ArrayList) term5284).add(term5304);
+        ((ArrayList) term5284).add(term5308);
+        ((ArrayList) term5284).add(term5312);
+        term5271 = newInstance(Class.forName("nn.model.Genome"));
+        Object term5318 = newInstance(Class.forName("nn.model.NodeInnovator"));
+        Object term5320 = newInstance(Class.forName("nn.model.ConnectionInnovator"));
+        Object term5322 = newInstance(Class.forName("java.util.Random"));
+        Object term5323 = newInstance(Class.forName("java.util.concurrent.atomic.AtomicLong"));
+        setField(term5271, term5271.getClass(), "nodes", term5272);
+        setField(term5271, term5271.getClass(), "connections", term5284);
+        setIntField(term5318, term5318.getClass(), "counter", 100);
+        setField(term5271, term5271.getClass(), "nodeInnovator", term5318);
+        setIntField(term5320, term5320.getClass(), "counter", 100);
+        setField(term5271, term5271.getClass(), "connectionInnovator", term5320);
+        setLongField(term5323, term5323.getClass(), "value", 56987040343471L);
+        setField(term5322, term5322.getClass(), "seed", term5323);
+        setDoubleField(term5322, term5322.getClass(), "nextNextGaussian", 0.291814792946269);
+        setBooleanField(term5322, term5322.getClass(), "haveNextNextGaussian", true);
+        setField(term5271, term5271.getClass(), "random", term5322);
+        Class<? extends Object> term5474 = Class.forName((String) "nn.model.Type");
+        Field term5473 = ((Class) term5474).getDeclaredField((String) "SENSOR");
+        ((Field) term5473).setAccessible(true);
+        Object enum29 = ((Field) term5473).get((Object) null);
+        Object term5342 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5342, term5342.getClass(), "in", null);
+        setField(term5342, term5342.getClass(), "out", null);
+        setFloatField(term5342, term5342.getClass(), "weight", 0.116303444F);
+        setBooleanField(term5342, term5342.getClass(), "expressed", true);
+        setIntField(term5342, term5342.getClass(), "innovation", -383508597);
+        Object term5346 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5346, term5346.getClass(), "in", null);
+        setField(term5346, term5346.getClass(), "out", null);
+        setFloatField(term5346, term5346.getClass(), "weight", 0.39749312F);
+        setBooleanField(term5346, term5346.getClass(), "expressed", false);
+        setIntField(term5346, term5346.getClass(), "innovation", -489441521);
+        Object term5350 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5350, term5350.getClass(), "in", null);
+        setField(term5350, term5350.getClass(), "out", null);
+        setFloatField(term5350, term5350.getClass(), "weight", 0.4248085F);
+        setBooleanField(term5350, term5350.getClass(), "expressed", true);
+        setIntField(term5350, term5350.getClass(), "innovation", 1544768934);
+        Object term5354 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5354, term5354.getClass(), "in", null);
+        setField(term5354, term5354.getClass(), "out", null);
+        setFloatField(term5354, term5354.getClass(), "weight", 0.010071814F);
+        setBooleanField(term5354, term5354.getClass(), "expressed", false);
+        setIntField(term5354, term5354.getClass(), "innovation", -2134711835);
+        Object term5358 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5358, term5358.getClass(), "in", null);
+        setField(term5358, term5358.getClass(), "out", null);
+        setFloatField(term5358, term5358.getClass(), "weight", 0.0F);
+        setBooleanField(term5358, term5358.getClass(), "expressed", false);
+        setIntField(term5358, term5358.getClass(), "innovation", 0);
+        Object term5362 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5362, term5362.getClass(), "in", null);
+        setField(term5362, term5362.getClass(), "out", null);
+        setFloatField(term5362, term5362.getClass(), "weight", 0.0F);
+        setBooleanField(term5362, term5362.getClass(), "expressed", false);
+        setIntField(term5362, term5362.getClass(), "innovation", 0);
+        Object term5366 = newInstance(Class.forName("nn.model.Connection"));
+        setField(term5366, term5366.getClass(), "in", null);
+        setField(term5366, term5366.getClass(), "out", null);
+        setFloatField(term5366, term5366.getClass(), "weight", 0.58265007F);
+        setBooleanField(term5366, term5366.getClass(), "expressed", true);
+        setIntField(term5366, term5366.getClass(), "innovation", 529879356);
+        ArrayList term5340 = new ArrayList();
+        ((ArrayList) term5340).add(term5342);
+        ((ArrayList) term5340).add(term5346);
+        ((ArrayList) term5340).add(term5350);
+        ((ArrayList) term5340).add(term5354);
+        ((ArrayList) term5340).add(term5358);
+        ((ArrayList) term5340).add(term5362);
+        ((ArrayList) term5340).add(term5362);
+        ((ArrayList) term5340).add(term5366);
+        ArrayList term5375 = new ArrayList();
+        term5327 = newInstance(Class.forName("nn.model.Connection"));
+        Object term5328 = newInstance(Class.forName("nn.model.Node"));
+        Object term5373 = newInstance(Class.forName("nn.model.Node"));
+        setField(term5328, term5328.getClass(), "type", enum29);
+        setIntField(term5328, term5328.getClass(), "innovation", -139694079);
+        setField(term5328, term5328.getClass(), "connections", term5340);
+        setDoubleField(term5328, term5328.getClass(), "bias", 0.3334570821940357);
+        setField(term5327, term5327.getClass(), "in", term5328);
+        setField(term5373, term5373.getClass(), "type", enum29);
+        setIntField(term5373, term5373.getClass(), "innovation", 434914590);
+        setField(term5373, term5373.getClass(), "connections", term5375);
+        setDoubleField(term5373, term5373.getClass(), "bias", 0.6259114447412901);
+        setField(term5327, term5327.getClass(), "out", term5373);
+        setFloatField(term5327, term5327.getClass(), "weight", 0.34951717F);
+        setBooleanField(term5327, term5327.getClass(), "expressed", true);
+        setIntField(term5327, term5327.getClass(), "innovation", -819372164);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("nn.model.Genome");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("nn.model.Connection");
+        Object[] args = new Object[1];
+        args[0] = term5327;
+        callMethod(klass, "addConnection", argTypes, term5271, args);
+    }
+
+};
+
+

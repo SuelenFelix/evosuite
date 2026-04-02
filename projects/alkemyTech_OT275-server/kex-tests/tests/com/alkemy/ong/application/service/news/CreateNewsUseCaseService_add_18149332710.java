@@ -1,0 +1,214 @@
+package com.alkemy.ong.application.service.news;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.alkemy.ong.application.service.news.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Object;
+import java.util.ArrayList;
+
+public class CreateNewsUseCaseService_add_18149332710 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1;
+     Object term2;
+
+    public CreateNewsUseCaseService_add_18149332710() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term1 = newInstance(Class.forName("com.alkemy.ong.application.service.news.CreateNewsUseCaseService"));
+        setField(term1, term1.getClass(), "newsRepository", null);
+        setField(term1, term1.getClass(), "categoryRepository", null);
+        Long term3 = new Long(2442117782898005296L);
+        Long term42 = new Long(6375119433582206027L);
+        Long term83 = new Long(-8257434502486459194L);
+        Long term87 = new Long(-8400487765614892086L);
+        Long term90 = new Long(7411271909051562686L);
+        Object term82 = newInstance(Class.forName("com.alkemy.ong.domain.Comment"));
+        Object term86 = newInstance(Class.forName("com.alkemy.ong.domain.User"));
+        Object term89 = newInstance(Class.forName("com.alkemy.ong.domain.News"));
+        Object term92 = newInstance(Class.forName("java.sql.Timestamp"));
+        setField(term82, term82.getClass(), "id", term83);
+        setField(term82, term82.getClass(), "body", "");
+        setField(term86, term86.getClass(), "id", term87);
+        setField(term86, term86.getClass(), "firstName", null);
+        setField(term86, term86.getClass(), "lastName", null);
+        setField(term86, term86.getClass(), "email", null);
+        setField(term86, term86.getClass(), "password", null);
+        setField(term86, term86.getClass(), "imageUrl", null);
+        setField(term86, term86.getClass(), "role", null);
+        setField(term86, term86.getClass(), "token", null);
+        setField(term82, term82.getClass(), "createdBy", term86);
+        setField(term89, term89.getClass(), "id", term90);
+        setField(term89, term89.getClass(), "name", null);
+        setField(term89, term89.getClass(), "content", null);
+        setField(term89, term89.getClass(), "imageUrl", null);
+        setField(term89, term89.getClass(), "category", null);
+        setField(term89, term89.getClass(), "comments", null);
+        setField(term82, term82.getClass(), "associatedNews", term89);
+        setIntField(term92, term92.getClass(), "nanos", 23000000);
+        setLongField(term92, term92.getClass(), "fastTime", 1500710268000L);
+        setField(term92, term92.getClass(), "cdate", null);
+        setField(term82, term82.getClass(), "createTimestamp", term92);
+        Long term96 = new Long(8059786003080744426L);
+        Object term95 = newInstance(Class.forName("com.alkemy.ong.domain.Comment"));
+        Object term99 = newInstance(Class.forName("com.alkemy.ong.domain.User"));
+        Object term100 = newInstance(Class.forName("com.alkemy.ong.domain.News"));
+        Object term101 = newInstance(Class.forName("java.sql.Timestamp"));
+        setField(term95, term95.getClass(), "id", term96);
+        setField(term95, term95.getClass(), "body", "");
+        setField(term99, term99.getClass(), "id", null);
+        setField(term99, term99.getClass(), "firstName", null);
+        setField(term99, term99.getClass(), "lastName", null);
+        setField(term99, term99.getClass(), "email", null);
+        setField(term99, term99.getClass(), "password", null);
+        setField(term99, term99.getClass(), "imageUrl", null);
+        setField(term99, term99.getClass(), "role", null);
+        setField(term99, term99.getClass(), "token", null);
+        setField(term95, term95.getClass(), "createdBy", term99);
+        setField(term100, term100.getClass(), "id", null);
+        setField(term100, term100.getClass(), "name", null);
+        setField(term100, term100.getClass(), "content", null);
+        setField(term100, term100.getClass(), "imageUrl", null);
+        setField(term100, term100.getClass(), "category", null);
+        setField(term100, term100.getClass(), "comments", null);
+        setField(term95, term95.getClass(), "associatedNews", term100);
+        setIntField(term101, term101.getClass(), "nanos", 244000000);
+        setLongField(term101, term101.getClass(), "fastTime", 1345860612000L);
+        setField(term101, term101.getClass(), "cdate", null);
+        setField(term95, term95.getClass(), "createTimestamp", term101);
+        Long term105 = new Long(-5892135042702373494L);
+        Object term104 = newInstance(Class.forName("com.alkemy.ong.domain.Comment"));
+        Object term108 = newInstance(Class.forName("com.alkemy.ong.domain.User"));
+        Object term109 = newInstance(Class.forName("com.alkemy.ong.domain.News"));
+        Object term110 = newInstance(Class.forName("java.sql.Timestamp"));
+        setField(term104, term104.getClass(), "id", term105);
+        setField(term104, term104.getClass(), "body", "");
+        setField(term108, term108.getClass(), "id", null);
+        setField(term108, term108.getClass(), "firstName", null);
+        setField(term108, term108.getClass(), "lastName", null);
+        setField(term108, term108.getClass(), "email", null);
+        setField(term108, term108.getClass(), "password", null);
+        setField(term108, term108.getClass(), "imageUrl", null);
+        setField(term108, term108.getClass(), "role", null);
+        setField(term108, term108.getClass(), "token", null);
+        setField(term104, term104.getClass(), "createdBy", term108);
+        setField(term109, term109.getClass(), "id", null);
+        setField(term109, term109.getClass(), "name", null);
+        setField(term109, term109.getClass(), "content", null);
+        setField(term109, term109.getClass(), "imageUrl", null);
+        setField(term109, term109.getClass(), "category", null);
+        setField(term109, term109.getClass(), "comments", null);
+        setField(term104, term104.getClass(), "associatedNews", term109);
+        setIntField(term110, term110.getClass(), "nanos", 18000000);
+        setLongField(term110, term110.getClass(), "fastTime", 1515879330000L);
+        setField(term110, term110.getClass(), "cdate", null);
+        setField(term104, term104.getClass(), "createTimestamp", term110);
+        Long term114 = new Long(2120084523938730454L);
+        Object term113 = newInstance(Class.forName("com.alkemy.ong.domain.Comment"));
+        Object term117 = newInstance(Class.forName("com.alkemy.ong.domain.User"));
+        Object term118 = newInstance(Class.forName("com.alkemy.ong.domain.News"));
+        Object term119 = newInstance(Class.forName("java.sql.Timestamp"));
+        setField(term113, term113.getClass(), "id", term114);
+        setField(term113, term113.getClass(), "body", "");
+        setField(term117, term117.getClass(), "id", null);
+        setField(term117, term117.getClass(), "firstName", null);
+        setField(term117, term117.getClass(), "lastName", null);
+        setField(term117, term117.getClass(), "email", null);
+        setField(term117, term117.getClass(), "password", null);
+        setField(term117, term117.getClass(), "imageUrl", null);
+        setField(term117, term117.getClass(), "role", null);
+        setField(term117, term117.getClass(), "token", null);
+        setField(term113, term113.getClass(), "createdBy", term117);
+        setField(term118, term118.getClass(), "id", null);
+        setField(term118, term118.getClass(), "name", null);
+        setField(term118, term118.getClass(), "content", null);
+        setField(term118, term118.getClass(), "imageUrl", null);
+        setField(term118, term118.getClass(), "category", null);
+        setField(term118, term118.getClass(), "comments", null);
+        setField(term113, term113.getClass(), "associatedNews", term118);
+        setIntField(term119, term119.getClass(), "nanos", 837000000);
+        setLongField(term119, term119.getClass(), "fastTime", 1606034835000L);
+        setField(term119, term119.getClass(), "cdate", null);
+        setField(term113, term113.getClass(), "createTimestamp", term119);
+        Long term123 = new Long(-4365849114644724155L);
+        Long term127 = new Long(2486810210675247493L);
+        Long term130 = new Long(-7672528020740371001L);
+        Object term122 = newInstance(Class.forName("com.alkemy.ong.domain.Comment"));
+        Object term126 = newInstance(Class.forName("com.alkemy.ong.domain.User"));
+        Object term129 = newInstance(Class.forName("com.alkemy.ong.domain.News"));
+        Object term132 = newInstance(Class.forName("java.sql.Timestamp"));
+        setField(term122, term122.getClass(), "id", term123);
+        setField(term122, term122.getClass(), "body", "");
+        setField(term126, term126.getClass(), "id", term127);
+        setField(term126, term126.getClass(), "firstName", null);
+        setField(term126, term126.getClass(), "lastName", null);
+        setField(term126, term126.getClass(), "email", null);
+        setField(term126, term126.getClass(), "password", null);
+        setField(term126, term126.getClass(), "imageUrl", null);
+        setField(term126, term126.getClass(), "role", null);
+        setField(term126, term126.getClass(), "token", null);
+        setField(term122, term122.getClass(), "createdBy", term126);
+        setField(term129, term129.getClass(), "id", term130);
+        setField(term129, term129.getClass(), "name", null);
+        setField(term129, term129.getClass(), "content", null);
+        setField(term129, term129.getClass(), "imageUrl", null);
+        setField(term129, term129.getClass(), "category", null);
+        setField(term129, term129.getClass(), "comments", null);
+        setField(term122, term122.getClass(), "associatedNews", term129);
+        setIntField(term132, term132.getClass(), "nanos", 389000000);
+        setLongField(term132, term132.getClass(), "fastTime", 1429013051000L);
+        setField(term132, term132.getClass(), "cdate", null);
+        setField(term122, term122.getClass(), "createTimestamp", term132);
+        ArrayList term80 = new ArrayList();
+        ((ArrayList) term80).add(term82);
+        ((ArrayList) term80).add(term95);
+        ((ArrayList) term80).add(term104);
+        ((ArrayList) term80).add(term113);
+        ((ArrayList) term80).add(term122);
+        term2 = newInstance(Class.forName("com.alkemy.ong.domain.News"));
+        Object term41 = newInstance(Class.forName("com.alkemy.ong.domain.Category"));
+        setField(term2, term2.getClass(), "id", term3);
+        setField(term2, term2.getClass(), "name", "PAEBtnZtTD");
+        setField(term2, term2.getClass(), "content", "sjlJAEtRrb");
+        setField(term2, term2.getClass(), "imageUrl", "MuLcgQHgqz");
+        setField(term41, term41.getClass(), "id", term42);
+        setField(term41, term41.getClass(), "name", "xxtlPwDYFs");
+        setField(term41, term41.getClass(), "description", "jJCZpVmanW");
+        setField(term41, term41.getClass(), "imageUrl", "EGtDIRbSSb");
+        setField(term2, term2.getClass(), "category", term41);
+        setField(term2, term2.getClass(), "comments", term80);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.alkemy.ong.application.service.news.CreateNewsUseCaseService");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("com.alkemy.ong.domain.News");
+        Object[] args = new Object[1];
+        args[0] = term2;
+        callMethod(klass, "add", argTypes, term1, args);
+    }
+
+};
+
+

@@ -1,0 +1,201 @@
+2026-04-01 21:53:38.390 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/raffoulRicardo_movimento-qa-2023/target/classes
+2026-04-01 21:53:38.475 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 21:53:38.548 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-01 21:53:39.338 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-01 21:53:39.833 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package br/com/bluesoft/usuario/web/view/*
+2026-04-01 21:53:39.834 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-01 21:53:39.845 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/raffoulRicardo_movimento-qa-2023/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 21:53:39.876 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/raffoulRicardo_movimento-qa-2023/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 38147 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/raffoulRicardo_movimento-qa-2023/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-01 21:53:39.889 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-01 21:55:19.925 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::<init>(br/com/bluesoft/usuario/domain/Usuario): void
+2026-04-01 21:55:19.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::<init>(br/com/bluesoft/usuario/domain/Usuario): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = virtual arg$0.getId()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.id = %1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%3 = virtual arg$0.getNome()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.nome = %3
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%5 = virtual arg$0.getCpf()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	this.cpf = %5
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%7 = virtual arg$0.getCelular()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.celular = %7
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%9 = virtual arg$0.getDataNascimento()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%11 = (%9 == null)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb10
+	%14 = virtual arg$0.getDataNascimento()
+	goto %bb11
+
+%bb11: 	//predecessors %if.else0
+	%15 = static DateTimeFormatter.ofPattern("dd/MM/yyyy")
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%17 = virtual %14.format(%15)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %goto0
+
+%if.then0: 	//predecessors %bb10
+	goto %goto0
+
+%goto0: 	//predecessors %bb13, %if.then0
+	%19 = phi {%bb13 -> %17; %if.then0 -> ""}
+	this.dataNascimento = %19
+	goto %bb14
+
+%bb14: 	//predecessors %goto0
+	return
+2026-04-01 21:55:20.406 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_init_9805190100
+2026-04-01 21:55:20.411 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::toView(java/util/List): java/util/List
+2026-04-01 21:55:20.412 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::toView(java/util/List): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = interface arg$0.stream()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(br/com/bluesoft/usuario/domain/Usuario): br/com/bluesoft/usuario/web/view/UsuarioView)), HandleBsmArgument(handle=@br/com/bluesoft/usuario/web/view/UsuarioView::<init>(br/com/bluesoft/usuario/domain/Usuario): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = interface %2.map(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = static Collectors.toList()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = interface %6.collect(%7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = (java/util/List) %9
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %11
+2026-04-01 21:55:20.536 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_toView_12157649941
+2026-04-01 21:55:20.536 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::getId(): int
+2026-04-01 21:55:20.537 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::getId(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.id
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 21:55:20.615 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getId_2679781892
+2026-04-01 21:55:20.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::getNome(): java/lang/String
+2026-04-01 21:55:20.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::getNome(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.nome
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 21:55:20.684 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getNome_10835758883
+2026-04-01 21:55:20.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::getCpf(): java/lang/String
+2026-04-01 21:55:20.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::getCpf(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.cpf
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 21:55:20.747 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getCpf_2110032684
+2026-04-01 21:55:20.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::getCelular(): java/lang/String
+2026-04-01 21:55:20.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::getCelular(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.celular
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 21:55:20.806 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getCelular_1500290535
+2026-04-01 21:55:20.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/com/bluesoft/usuario/web/view/UsuarioView::getDataNascimento(): java/lang/String
+2026-04-01 21:55:20.807 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/com/bluesoft/usuario/web/view/UsuarioView::getDataNascimento(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.dataNascimento
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 21:55:20.862 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getDataNascimento_8782427086
+2026-04-01 21:55:20.922 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_init_9805190107
+2026-04-01 21:55:20.995 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_toView_12157649948
+2026-04-01 21:55:21.042 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getId_2679781899
+2026-04-01 21:55:21.096 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getNome_108357588810
+2026-04-01 21:55:21.140 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getCpf_21100326811
+2026-04-01 21:55:21.181 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getCelular_15002905312
+2026-04-01 21:55:21.241 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.com.bluesoft.usuario.web.view.UsuarioView_getDataNascimento_87824270813
+2026-04-01 21:55:21.241 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::<init>(br/com/bluesoft/usuario/domain/Usuario): void: null
+2026-04-01 21:55:21.241 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::toView(java/util/List): java/util/List: null
+2026-04-01 21:55:21.241 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::getId(): int: null
+2026-04-01 21:55:21.241 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::getNome(): java/lang/String: null
+2026-04-01 21:55:21.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::getCpf(): java/lang/String: null
+2026-04-01 21:55:21.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::getCelular(): java/lang/String: null
+2026-04-01 21:55:21.242 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/com/bluesoft/usuario/web/view/UsuarioView::getDataNascimento(): java/lang/String: null
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::<init>(br/com/bluesoft/usuario/domain/Usuario): void processing is finished normally
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::toView(java/util/List): java/util/List processing is finished normally
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::getId(): int processing is finished normally
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::getNome(): java/lang/String processing is finished normally
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::getCpf(): java/lang/String processing is finished normally
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::getCelular(): java/lang/String processing is finished normally
+2026-04-01 21:55:21.242 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/com/bluesoft/usuario/web/view/UsuarioView::getDataNascimento(): java/lang/String processing is finished normally
+2026-04-01 21:55:21.243 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-01 21:55:21.243 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

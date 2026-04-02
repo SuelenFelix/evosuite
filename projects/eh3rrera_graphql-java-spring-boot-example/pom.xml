@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
@@ -15,7 +14,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.3</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> 
 	</parent>
 
 	<properties>
@@ -56,25 +55,25 @@
 			<artifactId>graphql-spring-boot-starter</artifactId>
 			<version>${graphql.spring.starter.version}</version>
 		</dependency>
-		<dependency> <!-- to embed GraphiQL tool.  See http://localhost:8080/graphiql -->
+		<dependency> 
 			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>graphiql-spring-boot-starter</artifactId>
 			<version>${graphql.spring.starter.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency> <!-- See http://localhost:8080/altair -->
+		<dependency> 
 			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>altair-spring-boot-starter</artifactId>
 			<version>${graphql.spring.starter.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency> <!-- See http://localhost:8080/playground -->
+		<dependency> 
 			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>playground-spring-boot-starter</artifactId>
 			<version>${graphql.spring.starter.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency> <!-- See http://localhost:8080/voyager -->
+		<dependency> 
 			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>voyager-spring-boot-starter</artifactId>
 			<version>${graphql.spring.starter.version}</version>
@@ -124,7 +123,7 @@
 								<artifactId>lombok</artifactId>
 								<version>${lombok.version}</version>
 							</path>
-							<annotationProcessorPath> <!-- necessary to generate META-INF/spring-configuration-metadata.json -->
+							<annotationProcessorPath> 
 								<groupId>org.springframework.boot</groupId>
 								<artifactId>spring-boot-configuration-processor</artifactId>
 								<version>2.6.3</version>
@@ -158,7 +157,7 @@
 					</execution>
 				</executions>
 			</plugin>
-		</plugins>
+		<plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
 	</build>
 
 	<profiles>
@@ -177,7 +176,7 @@
 						<artifactId>maven-compiler-plugin</artifactId>
 						<configuration>
 							<release>${java.version}</release>
-							<!-- Below is needed to make lombok work with JDK16.  See https://github.com/rzwitserloot/lombok/issues/2681 -->
+							
 							<fork>true</fork>
 							<compilerArgs>
 								<arg>-J--add-opens=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED</arg>

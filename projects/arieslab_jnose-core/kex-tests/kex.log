@@ -1,0 +1,822 @@
+2026-04-02 00:05:44.508 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/arieslab_jnose-core/target/classes
+2026-04-02 00:05:44.628 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-02 00:05:44.685 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-02 00:05:45.625 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-02 00:05:46.202 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package br/ufba/jnose/dto/*
+2026-04-02 00:05:46.203 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-02 00:05:46.221 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/arieslab_jnose-core/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-02 00:05:46.251 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/arieslab_jnose-core/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 37443 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/arieslab_jnose-core/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-02 00:05:46.264 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-02 00:07:26.305 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::<init>(): void
+2026-04-02 00:07:26.305 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:26.762 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_init_19059263180
+2026-04-02 00:07:26.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::setCode(java/lang/String): void
+2026-04-02 00:07:26.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::setCode(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.code = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:26.900 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setCode_15577257841
+2026-04-02 00:07:26.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getCode(): java/lang/String
+2026-04-02 00:07:26.901 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getCode(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.code
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:26.986 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getCode_10173649442
+2026-04-02 00:07:26.987 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getRange(): java/lang/String
+2026-04-02 00:07:26.987 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getRange(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.range
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:27.065 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getRange_16036777083
+2026-04-02 00:07:27.066 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::setRange(java/lang/String): void
+2026-04-02 00:07:27.066 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::setRange(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.range = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:27.138 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setRange_20273461244
+2026-04-02 00:07:27.139 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getName(): java/lang/String
+2026-04-02 00:07:27.139 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.name
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:27.208 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getName_13196244305
+2026-04-02 00:07:27.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::setName(java/lang/String): void
+2026-04-02 00:07:27.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::setName(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.name = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:27.284 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setName_12554662986
+2026-04-02 00:07:27.285 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getMethod(): java/lang/String
+2026-04-02 00:07:27.285 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getMethod(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.method
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:27.375 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getMethod_19838355807
+2026-04-02 00:07:27.376 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::setMethod(java/lang/String): void
+2026-04-02 00:07:27.377 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::setMethod(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.method = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:27.433 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setMethod_1379217648
+2026-04-02 00:07:27.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::setTestClass(br/ufba/jnose/dto/TestClass): void
+2026-04-02 00:07:27.434 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::setTestClass(br/ufba/jnose/dto/TestClass): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.testClass = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:27.497 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setTestClass_11822980189
+2026-04-02 00:07:27.498 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getTestClass(): br/ufba/jnose/dto/TestClass
+2026-04-02 00:07:27.498 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getTestClass(): br/ufba/jnose/dto/TestClass
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.testClass
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:27.546 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getTestClass_113050361210
+2026-04-02 00:07:27.547 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getMethodNameHash(): java/lang/String
+2026-04-02 00:07:27.548 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getMethodNameHash(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%10 = static MessageDigest.getInstance("MD5")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%3 = StandardCharsets.UTF_8
+	%4 = this.method
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%7 = virtual %3.encode(%4)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual %10.update(%7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%16 = new java/lang/Object[1]
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%15 = new java/math/BigInteger
+	%13 = virtual %10.digest()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	special %15.<init>(1, %13)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%16[0] = %15
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%20 = static String.format("%032x", %16)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %goto0
+
+%catch0: 	//catches from %bb7, %bb3, %bb2, %label1, %bb5, %label0, %bb8, %bb6, %bb1, %bb4
+	%19 = catch java/lang/Exception
+goto %label2
+
+%label2: 	//predecessors %catch0
+	virtual %19.printStackTrace()
+	goto %bb9
+
+%bb9: 	//predecessors %label2
+	goto %bb.return0
+
+%goto0: 	//predecessors %bb8
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb9, %goto0
+	%retval1 = phi {%bb9 -> ""; %goto0 -> %20}
+	return %retval1
+2026-04-02 00:07:27.611 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getMethodNameHash_111323938911
+2026-04-02 00:07:27.612 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::getMethodNameFullURIHash(): java/lang/String
+2026-04-02 00:07:27.613 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::getMethodNameFullURIHash(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.testClass
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = System.out
+	virtual %5.println("testClass = null ===========================")
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %if.else0
+	%7 = this.testClass
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%13 = virtual %7.getProjectName()
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%10 = this.testClass
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%14 = virtual %10.getFullName()
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%15 = this.method
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%20 = invokeDynamic (java/lang/String, java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %label3
+
+%label3: 	//predecessors %label2
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%26 = static MessageDigest.getInstance("MD5")
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%19 = StandardCharsets.UTF_8
+	%23 = virtual %19.encode(%20)
+	goto %bb4
+
+%bb4: 	//predecessors %label5
+	virtual %26.update(%23)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%32 = new java/lang/Object[1]
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%31 = new java/math/BigInteger
+	%29 = virtual %26.digest()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	special %31.<init>(1, %29)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%32[0] = %31
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%38 = static String.format("%032x", %32)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %label6
+
+%label6: 	//predecessors %bb10
+	goto %goto0
+
+%catch0: 	//catches from %label5, %bb5, %bb6, %bb7, %bb9, %label4, %bb10, %bb8, %bb4
+	%39 = phi {%label5 -> ""; %bb5 -> ""; %bb6 -> ""; %bb7 -> ""; %bb9 -> ""; %label4 -> ""; %bb10 -> %38; %bb8 -> ""; %bb4 -> ""; %label3 -> ""}
+%37 = catch java/lang/Exception
+goto %label7
+
+%label7: 	//predecessors %catch0
+	virtual %37.printStackTrace()
+	goto %goto0
+
+%goto0: 	//predecessors %label6, %label7
+	%41 = phi {%label6 -> %38; %label7 -> %39}
+	return %41
+2026-04-02 00:07:27.660 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getMethodNameFullURIHash_207258916212
+2026-04-02 00:07:27.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestSmell::toString(): java/lang/String
+2026-04-02 00:07:27.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestSmell::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = this.name
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = this.method
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = this.range
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = invokeDynamic (java/lang/String, java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="TestSmell{name='', method='', range='[]'}"))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %7
+2026-04-02 00:07:27.709 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_toString_184358512713
+2026-04-02 00:07:27.751 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_init_190592631814
+2026-04-02 00:07:27.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setCode_155772578415
+2026-04-02 00:07:27.832 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getCode_101736494416
+2026-04-02 00:07:27.868 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getRange_160367770817
+2026-04-02 00:07:27.909 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setRange_202734612418
+2026-04-02 00:07:27.948 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getName_131962443019
+2026-04-02 00:07:27.987 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setName_125546629820
+2026-04-02 00:07:28.028 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getMethod_198383558021
+2026-04-02 00:07:28.070 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setMethod_13792176422
+2026-04-02 00:07:28.115 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_setTestClass_118229801823
+2026-04-02 00:07:28.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getTestClass_113050361224
+2026-04-02 00:07:28.200 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getMethodNameHash_111323938925
+2026-04-02 00:07:28.248 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_getMethodNameFullURIHash_207258916226
+2026-04-02 00:07:28.301 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestSmell_toString_184358512727
+2026-04-02 00:07:28.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::<init>(): void: null
+2026-04-02 00:07:28.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::setCode(java/lang/String): void: null
+2026-04-02 00:07:28.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getCode(): java/lang/String: null
+2026-04-02 00:07:28.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getRange(): java/lang/String: null
+2026-04-02 00:07:28.302 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::setRange(java/lang/String): void: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getName(): java/lang/String: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::setName(java/lang/String): void: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getMethod(): java/lang/String: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::setMethod(java/lang/String): void: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::setTestClass(br/ufba/jnose/dto/TestClass): void: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getTestClass(): br/ufba/jnose/dto/TestClass: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getMethodNameHash(): java/lang/String: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::getMethodNameFullURIHash(): java/lang/String: null
+2026-04-02 00:07:28.303 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestSmell::toString(): java/lang/String: null
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::<init>(): void processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::setCode(java/lang/String): void processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getCode(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getRange(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::setRange(java/lang/String): void processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getName(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::setName(java/lang/String): void processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getMethod(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::setMethod(java/lang/String): void processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::setTestClass(br/ufba/jnose/dto/TestClass): void processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getTestClass(): br/ufba/jnose/dto/TestClass processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getMethodNameHash(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::getMethodNameFullURIHash(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.304 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestSmell::toString(): java/lang/String processing is finished normally
+2026-04-02 00:07:28.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass$JunitVersion::values(): br/ufba/jnose/dto/TestClass$JunitVersion[]
+2026-04-02 00:07:28.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass$JunitVersion::values(): br/ufba/jnose/dto/TestClass$JunitVersion[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TestClass$JunitVersion.$VALUES
+	%3 = virtual %1.clone()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = (br/ufba/jnose/dto/TestClass$JunitVersion[]) %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-04-02 00:07:28.344 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_JunitVersion_values_4351882230
+2026-04-02 00:07:28.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass$JunitVersion::valueOf(java/lang/String): br/ufba/jnose/dto/TestClass$JunitVersion
+2026-04-02 00:07:28.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass$JunitVersion::valueOf(java/lang/String): br/ufba/jnose/dto/TestClass$JunitVersion
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Enum.valueOf(br/ufba/jnose/dto/TestClass$JunitVersion.class, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (br/ufba/jnose/dto/TestClass$JunitVersion) %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-02 00:07:28.381 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_JunitVersion_valueOf_568421801
+2026-04-02 00:07:28.382 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass$JunitVersion::<init>(java/lang/String, int): void
+2026-04-02 00:07:28.382 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass$JunitVersion::<init>(java/lang/String, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:28.416 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_JunitVersion_init_11393317762
+2026-04-02 00:07:28.452 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_JunitVersion_values_4351882233
+2026-04-02 00:07:28.488 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_JunitVersion_valueOf_568421804
+2026-04-02 00:07:28.523 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_JunitVersion_init_11393317765
+2026-04-02 00:07:28.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass$JunitVersion::values(): br/ufba/jnose/dto/TestClass$JunitVersion[]: null
+2026-04-02 00:07:28.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass$JunitVersion::valueOf(java/lang/String): br/ufba/jnose/dto/TestClass$JunitVersion: null
+2026-04-02 00:07:28.524 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass$JunitVersion::<init>(java/lang/String, int): void: null
+2026-04-02 00:07:28.524 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass$JunitVersion::values(): br/ufba/jnose/dto/TestClass$JunitVersion[] processing is finished normally
+2026-04-02 00:07:28.524 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass$JunitVersion::valueOf(java/lang/String): br/ufba/jnose/dto/TestClass$JunitVersion processing is finished normally
+2026-04-02 00:07:28.524 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass$JunitVersion::<init>(java/lang/String, int): void processing is finished normally
+2026-04-02 00:07:28.532 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::<init>(): void
+2026-04-02 00:07:28.532 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = new java/util/ArrayList
+	special %2.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.listTestSmell = %2
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-04-02 00:07:28.567 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_init_14468241610
+2026-04-02 00:07:28.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getLineSumTestSmells(): java/util/Map
+2026-04-02 00:07:28.568 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getLineSumTestSmells(): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.lineSumTestSmells
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:28.606 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getLineSumTestSmells_8004513141
+2026-04-02 00:07:28.606 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setLineSumTestSmells(java/util/Map): void
+2026-04-02 00:07:28.607 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setLineSumTestSmells(java/util/Map): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.lineSumTestSmells = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:28.648 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setLineSumTestSmells_8832658282
+2026-04-02 00:07:28.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getProjectName(): java/lang/String
+2026-04-02 00:07:28.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getProjectName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.projectName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:28.685 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getProjectName_19524405583
+2026-04-02 00:07:28.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setProjectName(java/lang/String): void
+2026-04-02 00:07:28.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setProjectName(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.projectName = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:28.722 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setProjectName_20554913744
+2026-04-02 00:07:28.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getPathFile(): java/lang/String
+2026-04-02 00:07:28.723 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getPathFile(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.pathFile
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:28.763 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getPathFile_3734567275
+2026-04-02 00:07:28.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setPathFile(java/lang/String): void
+2026-04-02 00:07:28.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setPathFile(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.pathFile = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:28.798 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setPathFile_12128857136
+2026-04-02 00:07:28.799 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getName(): java/lang/String
+2026-04-02 00:07:28.799 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.name
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:28.834 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getName_8605222737
+2026-04-02 00:07:28.835 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setName(java/lang/String): void
+2026-04-02 00:07:28.835 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setName(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.name = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:28.876 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setName_17145684558
+2026-04-02 00:07:28.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getNumberMethods(): java/lang/Integer
+2026-04-02 00:07:28.877 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getNumberMethods(): java/lang/Integer
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.numberMethods
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:28.912 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getNumberMethods_17980994169
+2026-04-02 00:07:28.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setNumberMethods(java/lang/Integer): void
+2026-04-02 00:07:28.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setNumberMethods(java/lang/Integer): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.numberMethods = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:28.955 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setNumberMethods_167932932610
+2026-04-02 00:07:28.956 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getNumberLine(): java/lang/Integer
+2026-04-02 00:07:28.956 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getNumberLine(): java/lang/Integer
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.numberLine
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:28.989 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getNumberLine_13058349611
+2026-04-02 00:07:28.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setNumberLine(java/lang/Integer): void
+2026-04-02 00:07:28.990 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setNumberLine(java/lang/Integer): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.numberLine = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:29.022 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setNumberLine_25863471412
+2026-04-02 00:07:29.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getProductionFile(): java/lang/String
+2026-04-02 00:07:29.023 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getProductionFile(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.productionFile
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:29.055 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getProductionFile_160458250713
+2026-04-02 00:07:29.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setProductionFile(java/lang/String): void
+2026-04-02 00:07:29.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setProductionFile(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.productionFile = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:29.087 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setProductionFile_199534829114
+2026-04-02 00:07:29.088 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getListTestSmell(): java/util/List
+2026-04-02 00:07:29.088 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getListTestSmell(): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.listTestSmell
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:29.119 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getListTestSmell_165840460615
+2026-04-02 00:07:29.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setListTestSmell(java/util/List): void
+2026-04-02 00:07:29.120 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setListTestSmell(java/util/List): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.listTestSmell = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:29.159 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setListTestSmell_131099662816
+2026-04-02 00:07:29.160 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getJunitVersion(): br/ufba/jnose/dto/TestClass$JunitVersion
+2026-04-02 00:07:29.160 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getJunitVersion(): br/ufba/jnose/dto/TestClass$JunitVersion
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.junitVersion
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = TestClass$JunitVersion.None
+	this.junitVersion = %5
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %if.else0
+	%7 = this.junitVersion
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	return %7
+2026-04-02 00:07:29.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getJunitVersion_171517373317
+2026-04-02 00:07:29.193 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setJunitVersion(br/ufba/jnose/dto/TestClass$JunitVersion): void
+2026-04-02 00:07:29.193 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setJunitVersion(br/ufba/jnose/dto/TestClass$JunitVersion): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.junitVersion = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:29.226 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setJunitVersion_8205845118
+2026-04-02 00:07:29.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::getFullName(): java/lang/String
+2026-04-02 00:07:29.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::getFullName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.fullName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-02 00:07:29.260 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getFullName_103161764819
+2026-04-02 00:07:29.261 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::setFullName(java/lang/String): void
+2026-04-02 00:07:29.261 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::setFullName(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.fullName = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-02 00:07:29.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setFullName_167700720820
+2026-04-02 00:07:29.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method br/ufba/jnose/dto/TestClass::toString(): java/lang/String
+2026-04-02 00:07:29.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - br/ufba/jnose/dto/TestClass::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%12 = this.projectName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%13 = this.pathFile
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%14 = this.name
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%15 = this.numberMethods
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%16 = this.numberLine
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%6 = this.junitVersion
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%17 = static String.valueOf(%6)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%18 = this.productionFile
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%10 = this.listTestSmell
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%19 = static String.valueOf(%10)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%21 = invokeDynamic (java/lang/String, java/lang/String, java/lang/String, java/lang/Integer, java/lang/Integer, java/lang/String, java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="TestClass{projectName=pathFile=, name='', numberMethods=, numberLine=, junitVersion='', productionFile='', listTestSmell=}"))
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return %21
+2026-04-02 00:07:29.329 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_toString_199228001221
+2026-04-02 00:07:29.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_init_144682416122
+2026-04-02 00:07:29.388 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getLineSumTestSmells_80045131423
+2026-04-02 00:07:29.418 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setLineSumTestSmells_88326582824
+2026-04-02 00:07:29.447 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getProjectName_195244055825
+2026-04-02 00:07:29.479 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setProjectName_205549137426
+2026-04-02 00:07:29.510 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getPathFile_37345672727
+2026-04-02 00:07:29.543 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setPathFile_121288571328
+2026-04-02 00:07:29.584 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getName_86052227329
+2026-04-02 00:07:29.624 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setName_171456845530
+2026-04-02 00:07:29.664 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getNumberMethods_179809941631
+2026-04-02 00:07:29.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setNumberMethods_167932932632
+2026-04-02 00:07:29.746 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getNumberLine_13058349633
+2026-04-02 00:07:29.775 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setNumberLine_25863471434
+2026-04-02 00:07:29.804 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getProductionFile_160458250735
+2026-04-02 00:07:29.831 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setProductionFile_199534829136
+2026-04-02 00:07:29.859 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getListTestSmell_165840460637
+2026-04-02 00:07:29.885 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setListTestSmell_131099662838
+2026-04-02 00:07:29.913 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getJunitVersion_171517373339
+2026-04-02 00:07:29.942 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setJunitVersion_8205845140
+2026-04-02 00:07:29.971 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_getFullName_103161764841
+2026-04-02 00:07:30.000 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_setFullName_167700720842
+2026-04-02 00:07:30.028 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test br.ufba.jnose.dto.TestClass_toString_199228001243
+2026-04-02 00:07:30.028 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::<init>(): void: null
+2026-04-02 00:07:30.028 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getLineSumTestSmells(): java/util/Map: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setLineSumTestSmells(java/util/Map): void: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getProjectName(): java/lang/String: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setProjectName(java/lang/String): void: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getPathFile(): java/lang/String: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setPathFile(java/lang/String): void: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getName(): java/lang/String: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setName(java/lang/String): void: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getNumberMethods(): java/lang/Integer: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setNumberMethods(java/lang/Integer): void: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getNumberLine(): java/lang/Integer: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setNumberLine(java/lang/Integer): void: null
+2026-04-02 00:07:30.029 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getProductionFile(): java/lang/String: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setProductionFile(java/lang/String): void: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getListTestSmell(): java/util/List: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setListTestSmell(java/util/List): void: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getJunitVersion(): br/ufba/jnose/dto/TestClass$JunitVersion: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setJunitVersion(br/ufba/jnose/dto/TestClass$JunitVersion): void: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::getFullName(): java/lang/String: null
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::setFullName(java/lang/String): void: null
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::<init>(): void processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getLineSumTestSmells(): java/util/Map processing is finished normally
+2026-04-02 00:07:30.030 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method br/ufba/jnose/dto/TestClass::toString(): java/lang/String: null
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setLineSumTestSmells(java/util/Map): void processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getProjectName(): java/lang/String processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setProjectName(java/lang/String): void processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getPathFile(): java/lang/String processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setPathFile(java/lang/String): void processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getName(): java/lang/String processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setName(java/lang/String): void processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getNumberMethods(): java/lang/Integer processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setNumberMethods(java/lang/Integer): void processing is finished normally
+2026-04-02 00:07:30.030 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getNumberLine(): java/lang/Integer processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setNumberLine(java/lang/Integer): void processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getProductionFile(): java/lang/String processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setProductionFile(java/lang/String): void processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getListTestSmell(): java/util/List processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setListTestSmell(java/util/List): void processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getJunitVersion(): br/ufba/jnose/dto/TestClass$JunitVersion processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setJunitVersion(br/ufba/jnose/dto/TestClass$JunitVersion): void processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::getFullName(): java/lang/String processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::setFullName(java/lang/String): void processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method br/ufba/jnose/dto/TestClass::toString(): java/lang/String processing is finished normally
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-02 00:07:30.031 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

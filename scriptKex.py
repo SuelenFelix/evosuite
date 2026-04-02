@@ -6,8 +6,10 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- CONFIGURAÇÃO ---
-BASE_DIR = "/home/suelenfelix/TCC/evosuite/projects"
-KEX_SCRIPT = "/home/suelenfelix/TCC/evosuite/kex/kex.py"
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+
+BASE_DIR = os.path.join(BASE_PATH, "projects")
+KEX_SCRIPT = os.path.join(BASE_PATH, "kex/kex.py")
 JAVA_HOME = "/usr/lib/jvm/java-11-openjdk-amd64"
 
 MAX_WORKERS = 2

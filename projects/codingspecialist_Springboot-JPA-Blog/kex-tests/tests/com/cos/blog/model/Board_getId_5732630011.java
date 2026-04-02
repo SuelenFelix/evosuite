@@ -1,0 +1,210 @@
+package com.cos.blog.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.cos.blog.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.String;
+import java.util.ArrayList;
+
+public class Board_getId_5732630011 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term13903;
+
+    public Board_getId_5732630011() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term14100 = Class.forName((String) "com.cos.blog.model.RoleType");
+        Field term14099 = ((Class) term14100).getDeclaredField((String) "ADMIN");
+        ((Field) term14099).setAccessible(true);
+        Object enum31 = ((Field) term14099).get((Object) null);
+        Object term13994 = newInstance(Class.forName("com.cos.blog.model.Reply"));
+        Object term13997 = newInstance(Class.forName("com.cos.blog.model.Board"));
+        Object term14000 = newInstance(Class.forName("com.cos.blog.model.User"));
+        Object term14002 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setIntField(term13994, term13994.getClass(), "id", 2063762142);
+        setField(term13994, term13994.getClass(), "content", "");
+        setIntField(term13997, term13997.getClass(), "id", 1658391716);
+        setField(term13997, term13997.getClass(), "title", null);
+        setField(term13997, term13997.getClass(), "content", null);
+        setIntField(term13997, term13997.getClass(), "count", 2143282300);
+        setField(term13997, term13997.getClass(), "user", null);
+        setField(term13997, term13997.getClass(), "replys", null);
+        setField(term13997, term13997.getClass(), "createDate", null);
+        setField(term13994, term13994.getClass(), "board", term13997);
+        setIntField(term14000, term14000.getClass(), "id", 977862393);
+        setField(term14000, term14000.getClass(), "username", null);
+        setField(term14000, term14000.getClass(), "password", null);
+        setField(term14000, term14000.getClass(), "email", null);
+        setField(term14000, term14000.getClass(), "role", null);
+        setField(term14000, term14000.getClass(), "oauth", null);
+        setField(term14000, term14000.getClass(), "createDate", null);
+        setField(term13994, term13994.getClass(), "user", term14000);
+        setField(term14002, term14002.getClass(), "date", null);
+        setField(term14002, term14002.getClass(), "time", null);
+        setField(term13994, term13994.getClass(), "createDate", term14002);
+        Object term14003 = newInstance(Class.forName("com.cos.blog.model.Reply"));
+        Object term14006 = newInstance(Class.forName("com.cos.blog.model.Board"));
+        Object term14009 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setIntField(term14003, term14003.getClass(), "id", 301401782);
+        setField(term14003, term14003.getClass(), "content", "");
+        setIntField(term14006, term14006.getClass(), "id", 1988605357);
+        setField(term14006, term14006.getClass(), "title", null);
+        setField(term14006, term14006.getClass(), "content", null);
+        setIntField(term14006, term14006.getClass(), "count", 808203320);
+        setField(term14006, term14006.getClass(), "user", null);
+        setField(term14006, term14006.getClass(), "replys", null);
+        setField(term14006, term14006.getClass(), "createDate", null);
+        setField(term14003, term14003.getClass(), "board", term14006);
+        setField(term14003, term14003.getClass(), "user", term14000);
+        setField(term14009, term14009.getClass(), "date", null);
+        setField(term14009, term14009.getClass(), "time", null);
+        setField(term14003, term14003.getClass(), "createDate", term14009);
+        Object term14010 = newInstance(Class.forName("com.cos.blog.model.Reply"));
+        Object term14013 = newInstance(Class.forName("com.cos.blog.model.Board"));
+        Object term14016 = newInstance(Class.forName("com.cos.blog.model.User"));
+        Object term14018 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setIntField(term14010, term14010.getClass(), "id", 765731371);
+        setField(term14010, term14010.getClass(), "content", "");
+        setIntField(term14013, term14013.getClass(), "id", 0);
+        setField(term14013, term14013.getClass(), "title", null);
+        setField(term14013, term14013.getClass(), "content", null);
+        setIntField(term14013, term14013.getClass(), "count", 0);
+        setField(term14013, term14013.getClass(), "user", null);
+        setField(term14013, term14013.getClass(), "replys", null);
+        setField(term14013, term14013.getClass(), "createDate", null);
+        setField(term14010, term14010.getClass(), "board", term14013);
+        setIntField(term14016, term14016.getClass(), "id", 0);
+        setField(term14016, term14016.getClass(), "username", null);
+        setField(term14016, term14016.getClass(), "password", null);
+        setField(term14016, term14016.getClass(), "email", null);
+        setField(term14016, term14016.getClass(), "role", null);
+        setField(term14016, term14016.getClass(), "oauth", null);
+        setField(term14016, term14016.getClass(), "createDate", null);
+        setField(term14010, term14010.getClass(), "user", term14016);
+        setField(term14018, term14018.getClass(), "date", null);
+        setField(term14018, term14018.getClass(), "time", null);
+        setField(term14010, term14010.getClass(), "createDate", term14018);
+        Object term14019 = newInstance(Class.forName("com.cos.blog.model.Reply"));
+        Object term14022 = newInstance(Class.forName("com.cos.blog.model.Board"));
+        Object term14025 = newInstance(Class.forName("com.cos.blog.model.User"));
+        Object term14027 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setIntField(term14019, term14019.getClass(), "id", -1631697577);
+        setField(term14019, term14019.getClass(), "content", "");
+        setIntField(term14022, term14022.getClass(), "id", 0);
+        setField(term14022, term14022.getClass(), "title", null);
+        setField(term14022, term14022.getClass(), "content", null);
+        setIntField(term14022, term14022.getClass(), "count", 0);
+        setField(term14022, term14022.getClass(), "user", null);
+        setField(term14022, term14022.getClass(), "replys", null);
+        setField(term14022, term14022.getClass(), "createDate", null);
+        setField(term14019, term14019.getClass(), "board", term14022);
+        setIntField(term14025, term14025.getClass(), "id", 0);
+        setField(term14025, term14025.getClass(), "username", null);
+        setField(term14025, term14025.getClass(), "password", null);
+        setField(term14025, term14025.getClass(), "email", null);
+        setField(term14025, term14025.getClass(), "role", null);
+        setField(term14025, term14025.getClass(), "oauth", null);
+        setField(term14025, term14025.getClass(), "createDate", null);
+        setField(term14019, term14019.getClass(), "user", term14025);
+        setField(term14027, term14027.getClass(), "date", null);
+        setField(term14027, term14027.getClass(), "time", null);
+        setField(term14019, term14019.getClass(), "createDate", term14027);
+        Object term14028 = newInstance(Class.forName("com.cos.blog.model.Reply"));
+        Object term14031 = newInstance(Class.forName("com.cos.blog.model.Board"));
+        Object term14034 = newInstance(Class.forName("com.cos.blog.model.User"));
+        Object term14036 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setIntField(term14028, term14028.getClass(), "id", -1703035419);
+        setField(term14028, term14028.getClass(), "content", "");
+        setIntField(term14031, term14031.getClass(), "id", 0);
+        setField(term14031, term14031.getClass(), "title", null);
+        setField(term14031, term14031.getClass(), "content", null);
+        setIntField(term14031, term14031.getClass(), "count", 0);
+        setField(term14031, term14031.getClass(), "user", null);
+        setField(term14031, term14031.getClass(), "replys", null);
+        setField(term14031, term14031.getClass(), "createDate", null);
+        setField(term14028, term14028.getClass(), "board", term14031);
+        setIntField(term14034, term14034.getClass(), "id", 0);
+        setField(term14034, term14034.getClass(), "username", null);
+        setField(term14034, term14034.getClass(), "password", null);
+        setField(term14034, term14034.getClass(), "email", null);
+        setField(term14034, term14034.getClass(), "role", null);
+        setField(term14034, term14034.getClass(), "oauth", null);
+        setField(term14034, term14034.getClass(), "createDate", null);
+        setField(term14028, term14028.getClass(), "user", term14034);
+        setField(term14036, term14036.getClass(), "date", null);
+        setField(term14036, term14036.getClass(), "time", null);
+        setField(term14028, term14028.getClass(), "createDate", term14036);
+        ArrayList term13992 = new ArrayList();
+        ((ArrayList) term13992).add(term13994);
+        ((ArrayList) term13992).add(term14003);
+        ((ArrayList) term13992).add(term14010);
+        ((ArrayList) term13992).add(term14019);
+        ((ArrayList) term13992).add(term14003);
+        ((ArrayList) term13992).add(term14028);
+        ((ArrayList) term13992).add(term14019);
+        term13903 = newInstance(Class.forName("com.cos.blog.model.Board"));
+        Object term13930 = newInstance(Class.forName("com.cos.blog.model.User"));
+        Object term13989 = newInstance(Class.forName("java.sql.Timestamp"));
+        Object term14039 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term14040 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term14044 = newInstance(Class.forName("java.time.LocalTime"));
+        setIntField(term13903, term13903.getClass(), "id", 1084849225);
+        setField(term13903, term13903.getClass(), "title", "WWBYemIuiK");
+        setField(term13903, term13903.getClass(), "content", "nHYQYkycCR");
+        setIntField(term13903, term13903.getClass(), "count", -1702055571);
+        setIntField(term13930, term13930.getClass(), "id", -944542900);
+        setField(term13930, term13930.getClass(), "username", "yBiVacDcZX");
+        setField(term13930, term13930.getClass(), "password", "QrKfEgQeoy");
+        setField(term13930, term13930.getClass(), "email", "oApgdbwnti");
+        setField(term13930, term13930.getClass(), "role", enum31);
+        setField(term13930, term13930.getClass(), "oauth", "YcgHACNgyo");
+        setIntField(term13989, term13989.getClass(), "nanos", 108000000);
+        setLongField(term13989, term13989.getClass(), "fastTime", 1743125992000L);
+        setField(term13989, term13989.getClass(), "cdate", null);
+        setField(term13930, term13930.getClass(), "createDate", term13989);
+        setField(term13903, term13903.getClass(), "user", term13930);
+        setField(term13903, term13903.getClass(), "replys", term13992);
+        setIntField(term14040, term14040.getClass(), "year", 2029);
+        setShortField(term14040, term14040.getClass(), "month", (short) 7);
+        setShortField(term14040, term14040.getClass(), "day", (short) 14);
+        setField(term14039, term14039.getClass(), "date", term14040);
+        setByteField(term14044, term14044.getClass(), "hour", (byte) 17);
+        setByteField(term14044, term14044.getClass(), "minute", (byte) 37);
+        setByteField(term14044, term14044.getClass(), "second", (byte) 39);
+        setIntField(term14044, term14044.getClass(), "nano", 333402299);
+        setField(term14039, term14039.getClass(), "time", term14044);
+        setField(term13903, term13903.getClass(), "createDate", term14039);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.cos.blog.model.Board");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getId", argTypes, term13903, args);
+    }
+
+};
+
+

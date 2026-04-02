@@ -1,0 +1,153 @@
+2026-04-01 22:37:54.622 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/projects/RTBHOUSE_kafka-workers/target/classes
+2026-04-01 22:37:54.773 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 22:37:54.824 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-04-01 22:37:55.843 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-04-01 22:37:56.362 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/rtbhouse/kafka/workers/impl/util/*
+2026-04-01 22:37:56.363 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-04-01 22:37:56.374 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/evosuite/projects/RTBHOUSE_kafka-workers/target/classes
+/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-04-01 22:37:56.406 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/evosuite/projects/RTBHOUSE_kafka-workers/kex-tests --config /home/suelenfelix/TCC/evosuite/kex/kex.ini --port 34211 --kfgClassPath /home/suelenfelix/TCC/evosuite/projects/RTBHOUSE_kafka-workers/target/classes:/home/suelenfelix/TCC/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-04-01 22:37:56.420 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-04-01 22:39:36.457 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/TimeUtils::<init>(): void
+2026-04-01 22:39:36.458 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/TimeUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 22:39:36.918 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_init_8768276130
+2026-04-01 22:39:36.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration): bool
+2026-04-01 22:39:36.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Clock.systemUTC()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static TimeUtils.isOlderThan(arg$0, arg$1, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 22:39:37.048 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19547635731
+2026-04-01 22:39:37.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Clock): bool
+2026-04-01 22:39:37.049 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Clock): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Instant.now(arg$2)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static TimeUtils.isOlderThan(arg$0, arg$1, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 22:39:37.149 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605902
+2026-04-01 22:39:37.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Instant): bool
+2026-04-01 22:39:37.150 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Instant): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.plus(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.isBefore(arg$2)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 22:39:37.229 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_1121897653
+2026-04-01 22:39:37.230 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant): java/time/Duration
+2026-04-01 22:39:37.230 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant): java/time/Duration
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Clock.systemUTC()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static TimeUtils.age(arg$0, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 22:39:37.300 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_2386455634
+2026-04-01 22:39:37.301 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant, java/time/Clock): java/time/Duration
+2026-04-01 22:39:37.301 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant, java/time/Clock): java/time/Duration
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Instant.now(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static Duration.between(arg$0, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-04-01 22:39:37.364 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_6673185685
+2026-04-01 22:39:37.425 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_init_8768276136
+2026-04-01 22:39:37.508 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19547635737
+2026-04-01 22:39:37.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605908
+2026-04-01 22:39:37.627 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_1121897659
+2026-04-01 22:39:37.678 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_23864556310
+2026-04-01 22:39:37.747 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_66731856811
+2026-04-01 22:39:37.748 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/TimeUtils::<init>(): void: null
+2026-04-01 22:39:37.749 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration): bool: null
+2026-04-01 22:39:37.749 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Clock): bool: null
+2026-04-01 22:39:37.749 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Instant): bool: null
+2026-04-01 22:39:37.749 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant): java/time/Duration: null
+2026-04-01 22:39:37.749 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant, java/time/Clock): java/time/Duration: null
+2026-04-01 22:39:37.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/TimeUtils::<init>(): void processing is finished normally
+2026-04-01 22:39:37.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration): bool processing is finished normally
+2026-04-01 22:39:37.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Clock): bool processing is finished normally
+2026-04-01 22:39:37.750 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/TimeUtils::isOlderThan(java/time/Instant, java/time/Duration, java/time/Instant): bool processing is finished normally
+2026-04-01 22:39:37.750 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant): java/time/Duration processing is finished normally
+2026-04-01 22:39:37.750 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/TimeUtils::age(java/time/Instant, java/time/Clock): java/time/Duration processing is finished normally
+2026-04-01 22:39:37.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/FunctionUtils::<init>(): void
+2026-04-01 22:39:37.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/FunctionUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-04-01 22:39:37.802 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.FunctionUtils_init_14100623180
+2026-04-01 22:39:37.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/rtbhouse/kafka/workers/impl/util/FunctionUtils::downcastIdentity(): java/util/function/Function
+2026-04-01 22:39:37.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/rtbhouse/kafka/workers/impl/util/FunctionUtils::downcastIdentity(): java/util/function/Function
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)), HandleBsmArgument(handle=@com/rtbhouse/kafka/workers/impl/util/FunctionUtils::lambda$downcastIdentity$0(java/lang/Object): java/lang/Object), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-04-01 22:39:37.849 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.FunctionUtils_downcastIdentity_21089788261
+2026-04-01 22:39:37.894 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.FunctionUtils_init_14100623182
+2026-04-01 22:39:37.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.rtbhouse.kafka.workers.impl.util.FunctionUtils_downcastIdentity_21089788263
+2026-04-01 22:39:37.938 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/FunctionUtils::<init>(): void: null
+2026-04-01 22:39:37.938 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/rtbhouse/kafka/workers/impl/util/FunctionUtils::downcastIdentity(): java/util/function/Function: null
+2026-04-01 22:39:37.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/FunctionUtils::<init>(): void processing is finished normally
+2026-04-01 22:39:37.939 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/rtbhouse/kafka/workers/impl/util/FunctionUtils::downcastIdentity(): java/util/function/Function processing is finished normally
+2026-04-01 22:39:37.939 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-04-01 22:39:37.939 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

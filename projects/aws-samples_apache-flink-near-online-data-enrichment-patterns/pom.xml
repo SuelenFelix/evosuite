@@ -1,5 +1,5 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.amazonaws.samples.stream.temperature</groupId>
@@ -113,9 +113,9 @@
     </dependencies>
 
 
-    <!-- This profile helps to make things run out of the box in IntelliJ -->
-    <!-- Its adds Flink's core classes to the runtime class path. -->
-    <!-- Otherwise they are missing in IntelliJ, because the dependency is 'provided' -->
+    
+    
+    
     <profiles>
         <profile>
             <id>add-dependencies-for-IDEA</id>
@@ -148,7 +148,7 @@
         <finalName>flink-sensor-app</finalName>
         <plugins>
 
-            <!-- Java Compiler -->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -159,14 +159,14 @@
                 </configuration>
             </plugin>
 
-            <!-- We use the maven-shade plugin to create a fat jar that contains all necessary dependencies. -->
-            <!-- Change the value of <mainClass>...</mainClass> if your program entry point changes. -->
+            
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.1.0</version>
                 <executions>
-                    <!-- Run shade goal on package phase -->
+                    
                     <execution>
                         <phase>package</phase>
                         <goals>
@@ -184,8 +184,7 @@
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <!-- Do not copy the signatures in the META-INF folder.
-                                    Otherwise, this might cause SecurityExceptions when using the JAR. -->
+                                    
                                     <artifact>*:*</artifact>
                                     <excludes>
                                         <exclude>META-INF/*.SF</exclude>
@@ -196,8 +195,7 @@
                                 </filter>
                             </filters>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>com.amazonaws.samples.stream.temperature.ProcessTemperatureStream
                                     </mainClass>
                                 </transformer>

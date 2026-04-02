@@ -1,0 +1,397 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------------< [0;36mcom.shark:ERP[0;1m >----------------------------[m
+[[1;34mINFO[m] [1mBuilding ERP 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:prepare-agent[m [1m(default)[m @ [36mERP[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/suelenfelix/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mERP[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 40 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mERP[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 36 source files to /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/target/classes
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[4,46] package org.springframework.context.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[5,57] package org.springframework.web.servlet.config.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[6,57] package org.springframework.web.servlet.config.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[9,40] cannot find symbol
+  symbol: class WebMvcConfigurer
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[8,2] cannot find symbol
+  symbol: class Configuration
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[11,33] cannot find symbol
+  symbol:   class InterceptorRegistry
+  location: class com.shark.erp.config.AdminWebConfig
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[9,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/AdminMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/AdminMapper.java:[6,2] cannot find symbol
+  symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[14,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.AdminService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[10,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[11,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[13,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[15,2] cannot find symbol
+  symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[23,62] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.shark.erp.controller.AdminController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[23,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.AdminController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[32,28] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.shark.erp.controller.AdminController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMapper.java:[5,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMapper.java:[9,2] cannot find symbol
+  symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[11,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/ExchangeGoodsMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/ExchangeGoodsMapper.java:[5,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/ExchangeGoodsMapper.java:[9,2] cannot find symbol
+  symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[16,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[31,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[47,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[60,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[73,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[86,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[10,2] cannot find symbol
+  symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[11,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[17,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[23,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[29,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[35,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[41,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/OrderMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/OrderMapper.java:[5,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/OrderMapper.java:[9,2] cannot find symbol
+  symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[16,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[31,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[47,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[60,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[73,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[10,2] cannot find symbol
+  symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[17,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[23,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[29,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[35,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[41,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[60,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/ErpApplication.java:[3,32] package org.springframework.boot does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/ErpApplication.java:[4,46] package org.springframework.boot.autoconfigure does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/ErpApplication.java:[6,2] cannot find symbol
+  symbol: class SpringBootApplication
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[5,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[6,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[7,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[10,2] cannot find symbol
+  symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[11,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[17,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.controller.GoodsMonitorController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMonitorMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMonitorMapper.java:[8,2] cannot find symbol
+  symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[19,12] cannot find symbol
+  symbol:   class JSONObject
+  location: class com.shark.erp.service.GoodsMonitorService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[3,39] package org.springframework.web.servlet does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[4,39] package org.springframework.web.servlet does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[6,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[7,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[8,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[13,42] cannot find symbol
+  symbol: class HandlerInterceptor
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[15,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.shark.erp.interceptor.LoginInterceptor
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[15,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.shark.erp.interceptor.LoginInterceptor
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[27,28] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.shark.erp.interceptor.LoginInterceptor
+[[1;34mINFO[m] 100 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.841 s
+[[1;34mINFO[m] Finished at: 2026-04-02T19:20:29-03:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.1:compile[m [1m(default-compile)[m on project [36mERP[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[4,46] package org.springframework.context.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[5,57] package org.springframework.web.servlet.config.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[6,57] package org.springframework.web.servlet.config.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[9,40] cannot find symbol
+[[1;31mERROR[m]   symbol: class WebMvcConfigurer
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[8,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Configuration
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/config/AdminWebConfig.java:[11,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class InterceptorRegistry
+[[1;31mERROR[m]   location: class com.shark.erp.config.AdminWebConfig
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[9,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/AdminMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/AdminMapper.java:[6,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/AdminService.java:[14,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.AdminService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[10,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[11,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[13,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[15,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[23,62] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpSession
+[[1;31mERROR[m]   location: class com.shark.erp.controller.AdminController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[23,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.AdminController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/AdminController.java:[32,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpSession
+[[1;31mERROR[m]   location: class com.shark.erp.controller.AdminController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMapper.java:[5,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMapper.java:[9,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[11,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/ExchangeGoodsMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/ExchangeGoodsMapper.java:[5,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/ExchangeGoodsMapper.java:[9,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[16,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[31,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[47,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[60,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[73,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/ExchangeGoodsService.java:[86,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.ExchangeGoodsService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[10,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[11,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[17,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[23,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[29,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[35,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[41,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.OrderController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/OrderMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/OrderMapper.java:[5,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/OrderMapper.java:[9,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[16,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[31,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[47,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[60,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/OrderService.java:[73,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.OrderService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/OrderController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[10,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[17,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[23,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[29,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[35,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[41,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[60,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.ExchangeGoodsController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/ExchangeGoodsController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/ErpApplication.java:[3,32] package org.springframework.boot does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/ErpApplication.java:[4,46] package org.springframework.boot.autoconfigure does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/ErpApplication.java:[6,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class SpringBootApplication
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[5,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[6,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[7,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[10,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Controller
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[3,28] package com.alibaba.fastjson does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[6,52] package org.springframework.beans.factory.annotation does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[7,38] package org.springframework.stereotype does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[11,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/controller/GoodsMonitorController.java:[17,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.controller.GoodsMonitorController
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMonitorMapper.java:[4,37] package org.apache.ibatis.annotations does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/mapper/GoodsMonitorMapper.java:[8,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Mapper
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/service/GoodsMonitorService.java:[19,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JSONObject
+[[1;31mERROR[m]   location: class com.shark.erp.service.GoodsMonitorService
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[3,39] package org.springframework.web.servlet does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[4,39] package org.springframework.web.servlet does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[6,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[7,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[8,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[13,42] cannot find symbol
+[[1;31mERROR[m]   symbol: class HandlerInterceptor
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[15,30] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class com.shark.erp.interceptor.LoginInterceptor
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[15,58] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class com.shark.erp.interceptor.LoginInterceptor
+[[1;31mERROR[m] /home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP/src/main/java/com/shark/erp/interceptor/LoginInterceptor.java:[27,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class com.shark.erp.interceptor.LoginInterceptor
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

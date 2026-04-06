@@ -97,7 +97,6 @@
                 </executions>
             </plugin>
 
-            <!-- Plugin para adicionar diretórios de teste -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
@@ -119,7 +118,6 @@
                 </executions>
             </plugin>
 
-            <!-- JaCoCo para coleta de cobertura -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -150,27 +148,16 @@
                 </executions>
             </plugin>
 
-            <!-- Surefire para executar todos os testes -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
+                <version>3.0.0-M7</version>
                 <configuration>
-                    <includes>
-                        <!-- Testes nativos -->
-                        <include>**/com/analytics/covid19/*Test.java</include>
-                        <include>**/com/analytics/covid19/**/*Test.java</include>
-
-                        <!-- Testes EvoSuite -->
-                        <include>**/*_ESTest.java</include>
-
-                        <!-- Testes Kex -->
-                        <include>**/kex-tests/tests/**/*.java</include>
-                    </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                     <forkCount>1</forkCount>
                     <reuseForks>false</reuseForks>
-                    <argLine>${surefire.argLine} --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.desktop/java.awt=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED -Djava.awt.headless=true -Djava.security.manager=allow -noverify</argLine>
+                    <argLine>${surefire.argLine} 
+                    </argLine>
                 </configuration>
             </plugin>
         </plugins>

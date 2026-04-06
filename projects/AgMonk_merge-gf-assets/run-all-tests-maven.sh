@@ -1,6 +1,6 @@
-#!/bin/bash
+# !/bin/bash
 
-PROJECT_DIR="/home/suelenfelix/TCC/evosuite/projects/mohaghighi_Covid19-Web-Application"
+PROJECT_DIR="/home/suelenfelix/TCC/evosuite/projects/AgMonk_merge-gf-assets"
 cd $PROJECT_DIR
 
 echo "========================================="
@@ -47,8 +47,12 @@ echo "2. Executando testes com Maven..."
 echo "   (Isso pode levar vários minutos)"
 
 # Executar testes com cobertura
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 \
+PATH=/usr/lib/jvm/java-11-openjdk-amd64/bin:$PATH \
 mvn clean test jacoco:report \
-    -Dtest="com.analytics.covid19.**.*Test,com.analytics.covid19.**.*_ESTest,com.analytics.covid19.**.*_*" \
+    -DforkCount=0 \
+    -DargLine="-Xmx2g" \
+    -Dtest="*Tests,com.gin.mergegfassets.**.*Test,com.gin.mergegfassets.**.*_ESTest,com.gin.mergegfassets.**.*_*" \
     -DfailIfNoTests=false \
     -Dmaven.test.failure.ignore=true
 

@@ -56,30 +56,45 @@ mvn clean test jacoco:report \
 mv pom.xml.backup pom.xml
 
 # 4. Mostrar resultados
-echo ""
-echo "========================================="
-echo "✅ RELATÓRIO FINAL"
-echo "========================================="
-
 if [ -f target/site/jacoco/index.html ]; then
-    echo "📁 Relatório HTML: target/site/jacoco/index.html"
+    # 4. Mostrar resultados
+    echo ""
+    echo "========================================="
+    echo "✅ RELATÓRIO FINAL"
+    echo "========================================="
 
-    # Extrair estatísticas
-    if [ -f target/site/jacoco/jacoco.csv ]; then
-        echo ""
-        echo "📊 COBERTURA TOTAL:"
-        awk -F',' '
-        NR>1 {
-            total += $5 + $6
-            covered += $6
-            classes++
-        }
-        END {
-            printf "   Classes: %d\n", classes
-            printf "   Instruções: %d/%d (%.2f%%)\n", covered, total, (covered*100/total)
-        }' target/site/jacoco/jacoco.csv
+    if [ -f target/site/jacoco/index.html ]; then
+        echo "📁 Relatório HTML: target/site/jacoco/index.html"
+
+        # Extrair estatísticas
+        if [ -f target/site/jacoco/jacoco.csv ]; then
+            echo ""
+            echo "📊 COBERTURA TOTAL (Calculada do CSV):"
+
+            awk -F',' '
+            NR==1 {
+                for(i=1;i<=NF;i++) {
+                    if($i=="INSTRUCTION_MISSED") m=i
+                    if($i=="INSTRUCTION_COVERED") c=i
+                }
+            }
+            NR>1 {
+                missed += $m
+                covered += $c
+                count++
+            }
+            END {
+                total = missed + covered
+                printf "   Classes Processadas: %d\n", count
+                if (total > 0) {
+                    printf "   Instruções Totais:   %d\n", total
+                    printf "   Instruções Cobertas: %d\n", covered
+                    printf "   Percentual Real:     %.2f%%\n", (covered*100/total)
+                }
+            }' target/site/jacoco/jacoco.csv
+        fi
     fi
-fi
+  fi
 
 echo ""
 echo "Para visualizar: firefox target/site/jacoco/index.html"

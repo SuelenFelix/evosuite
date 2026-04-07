@@ -156,10 +156,23 @@ for PROJECT_DIR in "$BASE_DIR"/*; do
             <version>3.0.0-M7</version>\
             <configuration>\
                 <testFailureIgnore>true</testFailureIgnore>\
-                <forkCount>1</forkCount>\
-                <reuseForks>false</reuseForks>\
-                <argLine>\${surefire.argLine}</argLine>\
+                <argLine>\${surefire.argLine} -Xmx1024m</argLine>\
+                \
+                <threadCount>1</threadCount>\
+                <properties>\
+                    <property>\
+                        <name>usedefaultlisteners</name>\
+                        <value>false</value>\
+                    </property>\
+                </properties>\
             </configuration>\
+            <dependencies>\
+                <dependency>\
+                    <groupId>org.apache.maven.surefire</groupId>\
+                    <artifactId>surefire-junit4</artifactId>\
+                    <version>2.22.2</version>\
+                </dependency>\
+            </dependencies>\
         </plugin>' pom.xml
     fi
 

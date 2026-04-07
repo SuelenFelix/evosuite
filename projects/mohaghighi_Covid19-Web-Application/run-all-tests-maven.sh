@@ -11,8 +11,6 @@ echo "========================================="
 # 1. Adicionar diretório Kex como fonte de teste no pom.xml
 echo "1. Configurando fontes de teste..."
 
-# Backup do pom.xml
-cp pom.xml pom.xml.backup
 
 # Adicionar diretório Kex como fonte de teste se não existir
 if ! grep -q "kex-tests/tests" pom.xml; then
@@ -48,12 +46,10 @@ echo "   (Isso pode levar vários minutos)"
 
 # Executar testes com cobertura
 mvn clean test jacoco:report \
-    -Dtest="com.analytics.covid19.**.*Test,com.analytics.covid19.**.*_ESTest,com.analytics.covid19.**.*_*" \
+    -Dtest="**/*Test,**/*Tests,**/*TestCase,**/*_ESTest, **/*_*" \
     -DfailIfNoTests=false \
     -Dmaven.test.failure.ignore=true
 
-# 3. Restaurar pom.xml
-mv pom.xml.backup pom.xml
 
 # 4. Mostrar resultados
 if [ -f target/site/jacoco/index.html ]; then
@@ -98,3 +94,14 @@ if [ -f target/site/jacoco/index.html ]; then
 
 echo ""
 echo "Para visualizar: firefox target/site/jacoco/index.html"
+
+# 3.5 Salvar CSV definitivo fora do target
+RESULTS_DIR="$PROJECT_DIR/jacoco-results"
+mkdir -p "$RESULTS_DIR"
+
+FINAL_CSV="$RESULTS_DIR/jacoco.csv"
+
+if [ -f target/site/jacoco/jacoco.csv ]; then
+    cp target/site/jacoco/jacoco.csv "$FINAL_CSV"
+    echo "📁 CSV salvo em: $FINAL_CSV"
+fi

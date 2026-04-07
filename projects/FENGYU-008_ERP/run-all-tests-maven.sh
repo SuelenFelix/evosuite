@@ -3,6 +3,28 @@
 PROJECT_DIR="/home/suelenfelix/TCC/evosuite/projects/FENGYU-008_ERP"
 cd $PROJECT_DIR
 
+echo ""
+echo "1.5 Movendo testes Kex e EvoSuite para src/test/java..."
+
+TEST_DIR="$PROJECT_DIR/src/test/java"
+
+# Criar diretório de teste se não existir
+mkdir -p "$TEST_DIR"
+
+# Mover Kex tests
+if [ -d "$PROJECT_DIR/kex-tests" ]; then
+    echo "📦 Movendo kex-tests..."
+    rsync -av --remove-source-files "$PROJECT_DIR/kex-tests/" "$TEST_DIR/"
+    rm -rf "$PROJECT_DIR/kex-tests"
+fi
+
+# Mover EvoSuite tests
+if [ -d "$PROJECT_DIR/evosuite-tests" ]; then
+    echo "📦 Movendo evosuite-tests..."
+    rsync -av --remove-source-files "$PROJECT_DIR/evosuite-tests/" "$TEST_DIR/"
+    rm -rf "$PROJECT_DIR/evosuite-tests"
+fi
+
 echo "========================================="
 echo "EXECUTANDO TODOS OS TESTES COM MAVEN"
 echo "Nativos + EvoSuite + Kex"
@@ -11,8 +33,6 @@ echo "========================================="
 # 1. Adicionar diretório Kex como fonte de teste no pom.xml
 echo "1. Configurando fontes de teste..."
 
-# Backup do pom.xml
-cp pom.xml pom.xml.backup
 
 # Adicionar diretório Kex como fonte de teste se não existir
 if ! grep -q "kex-tests/tests" pom.xml; then
@@ -48,12 +68,10 @@ echo "   (Isso pode levar vários minutos)"
 
 # Executar testes com cobertura
 mvn clean test jacoco:report \
-    -Dtest="com.shark.erp.**.*Test,com.shark.erp.**.*_ESTest,com.shark.erp.**.*_*" \
+    -Dtest="**/*Test,**/*Tests,**/*TestCase,**/*_ESTest, **/*_*" \
     -DfailIfNoTests=false \
     -Dmaven.test.failure.ignore=true
 
-# 3. Restaurar pom.xml
-mv pom.xml.backup pom.xml
 
 # 4. Mostrar resultados
 if [ -f target/site/jacoco/index.html ]; then
@@ -98,3 +116,14 @@ if [ -f target/site/jacoco/index.html ]; then
 
 echo ""
 echo "Para visualizar: firefox target/site/jacoco/index.html"
+
+# 3.5 Salvar CSV definitivo fora do target
+RESULTS_DIR="$PROJECT_DIR/jacoco-results"
+mkdir -p "$RESULTS_DIR"
+
+FINAL_CSV="$RESULTS_DIR/jacoco.csv"
+
+if [ -f target/site/jacoco/jacoco.csv ]; then
+    cp target/site/jacoco/jacoco.csv "$FINAL_CSV"
+    echo "📁 CSV salvo em: $FINAL_CSV"
+fi

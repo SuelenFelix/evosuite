@@ -1,6 +1,6 @@
-# !/bin/bash
+#!/bin/bash
 
-PROJECT_DIR="/home/suelenfelix/TCC/evosuite/projects/AgMonk_merge-gf-assets"
+PROJECT_DIR="/home/suelenfelix/TCC/evosuite/projects/akhunovaa_customer-service"
 cd $PROJECT_DIR
 
 echo "========================================="
@@ -10,6 +10,7 @@ echo "========================================="
 
 # 1. Adicionar diretório Kex como fonte de teste no pom.xml
 echo "1. Configurando fontes de teste..."
+
 
 # Adicionar diretório Kex como fonte de teste se não existir
 if ! grep -q "kex-tests/tests" pom.xml; then
@@ -44,12 +45,8 @@ echo "2. Executando testes com Maven..."
 echo "   (Isso pode levar vários minutos)"
 
 # Executar testes com cobertura
-JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 \
-PATH=/usr/lib/jvm/java-11-openjdk-amd64/bin:$PATH \
 mvn clean test jacoco:report \
-    -DforkCount=0 \
-    -DargLine="-Xmx2g" \
-    -Dtest="**/*Test,**/*Tests,**/*TestCase,**/*_ESTest, **/*_*" \
+    -Dtest="**/*Test,**/*Tests,**/*TestCase,**/*_ESTest*, **/*_*" \
     -DfailIfNoTests=false \
     -Dmaven.test.failure.ignore=true
 

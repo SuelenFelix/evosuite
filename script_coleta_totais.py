@@ -1,0 +1,92 @@
+import csv
+from pathlib import Path
+
+BASE_PATH = Path(__file__).resolve().parent
+PROJECTS_DIR = BASE_PATH / "projects"
+
+CSV_NAMES = [
+    "coverage_general.csv",
+    "coverage_native.csv",
+    "coverage_native_kex.csv",
+    "coverage_kex.csv",
+    "coverage_evosuite.csv",
+    "coverage_kex_evosuite.csv",
+    "coverage_native_evosuite.csv",
+]
+
+def list_projects(projects_dir: Path) -> list[Path]:
+    projects = []
+    for item in sorted(projects_dir.iterdir(), key=lambda p: p.name.lower()):
+        if item.is_dir() and (item / "pom.xml").exists():
+            projects.append(item)
+    return projects
+
+def clean_row(row: dict, project_name: str) -> dict:
+    row = dict(row)
+
+    # Remove chave None criada pelo DictReader quando há colunas extras
+    row.pop(None, None)
+
+    # Garante coluna project
+    if "project" not in row or not row["project"]:
+        row["project"] = project_name
+
+    return row
+
+def aggregate_csv(csv_name: str, projects: list[Path], output_dir: Path) -> None:
+    aggregated_rows = []
+    all_fields = set()
+
+    for project_path in projects:
+        project_csv = project_path / csv_name
+        if not project_csv.exists():
+            continue
+
+        with open(project_csv, "r", encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+
+            if reader.fieldnames is None:
+                continue
+
+            for row in reader:
+                cleaned = clean_row(row, project_path.name)
+                aggregated_rows.append(cleaned)
+                all_fields.update(cleaned.keys())
+
+    output_name = csv_name.replace(".csv", "_total.csv")
+    output_path = output_dir / output_name
+
+    if not aggregated_rows:
+        print(f"ℹ️ Nenhum arquivo encontrado para consolidar: {csv_name}")
+        return
+
+    # Coloca project primeiro, depois os demais em ordem alfabética
+    fieldnames = ["project"] + sorted(f for f in all_fields if f != "project")
+
+    with open(output_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(aggregated_rows)
+
+    print(f"✅ Consolidado gerado: {output_path} ({len(aggregated_rows)} linha(s))")
+
+def main():
+    if not PROJECTS_DIR.exists():
+        print(f"❌ Diretório não encontrado: {PROJECTS_DIR}")
+        return
+
+    projects = list_projects(PROJECTS_DIR)
+
+    if not projects:
+        print(f"❌ Nenhum projeto com pom.xml encontrado em: {PROJECTS_DIR}")
+        return
+
+    print(f"📁 {len(projects)} projeto(s) encontrado(s)")
+
+    for csv_name in CSV_NAMES:
+        aggregate_csv(csv_name, projects, BASE_PATH)
+
+    print("\n✅ Consolidação finalizada.")
+
+if __name__ == "__main__":
+    main()

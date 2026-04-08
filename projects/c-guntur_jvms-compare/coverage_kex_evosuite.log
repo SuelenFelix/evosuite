@@ -1,0 +1,711 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< jvms-compare:jvms-compare >----------------------
+[INFO] Building JVMs Compare 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jvms-compare ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ jvms-compare ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:build-classpath (build-classpath) @ jvms-compare ---
+[INFO] Dependencies classpath:
+/root/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/root/.m2/repository/org/eclipse/collections/eclipse-collections/10.0.0/eclipse-collections-10.0.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.0/junit-jupiter-5.5.0.jar:/root/.m2/repository/org/openjdk/jmh/jmh-core/1.23/jmh-core-1.23.jar:/root/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/root/.m2/repository/org/eclipse/collections/eclipse-collections-api/10.0.0/eclipse-collections-api-10.0.0.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jvms-compare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jvms-compare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ jvms-compare ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jvms-compare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jvms-compare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 132 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/evosuite-tests/jvmscompare/benchmark/generated/IntListTransform_transform_EC_Primitive_Stream_Parallel_jmhTest_ESTest.java: /app/src/test/java/evosuite-tests/jvmscompare/benchmark/generated/IntListTransform_transform_EC_Primitive_Stream_Parallel_jmhTest_ESTest.java uses unchecked or unsafe operations.
+[WARNING] /app/src/test/java/evosuite-tests/jvmscompare/benchmark/generated/IntListTransform_transform_EC_Primitive_Stream_Parallel_jmhTest_ESTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jvms-compare ---
+[INFO] Surefire report directory: /app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running jvmscompare.Environment_ESTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.evosuite.runtime.GuiSupport (file:/root/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.1.0/evosuite-standalone-runtime-1.1.0.jar) to field java.awt.GraphicsEnvironment.headless
+WARNING: Please consider reporting this to the maintainers of org.evosuite.runtime.GuiSupport
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.547 sec
+Running jvmscompare.JavaInformation_ESTest
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running jvmscompare.JavaInformation_main_5396869071
+##### Heap utilization statistics [MB] #####
+Used Memory:67
+Free Memory:428
+Total Memory:496
+Max Memory:7848
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+test(jvmscompare.JavaInformation_main_5396869071)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.SecurityException: Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:433)
+java.base/java.lang.System.setProperty(System.java:894)
+jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+jvmscompare.JavaInformation.main(JavaInformation.java:6)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+jvmscompare.JavaInformation_main_5396869071.test(JavaInformation_main_5396869071.java:50)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+	at org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:445)
+	at java.base/java.lang.System.setProperty(System.java:894)
+	at jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+	at jvmscompare.JavaInformation.main(JavaInformation.java:6)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at jvmscompare.JavaInformation_main_5396869071.test(JavaInformation_main_5396869071.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running jvmscompare.JavaInformation_printJavaInformation_9773580142
+##### Heap utilization statistics [MB] #####
+Used Memory:69
+Free Memory:426
+Total Memory:496
+Max Memory:7848
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(jvmscompare.JavaInformation_printJavaInformation_9773580142)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.SecurityException: Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:433)
+java.base/java.lang.System.setProperty(System.java:894)
+jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+jvmscompare.JavaInformation_printJavaInformation_9773580142.test(JavaInformation_printJavaInformation_9773580142.java:42)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+	at org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:445)
+	at java.base/java.lang.System.setProperty(System.java:894)
+	at jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at jvmscompare.JavaInformation_printJavaInformation_9773580142.test(JavaInformation_printJavaInformation_9773580142.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running jvmscompare.benchmark.generated.PersonFilterOnly_filter_EC_Lazy_Serial_jmhTest_ESTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.36 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec
+Running jvmscompare.benchmark.generated.IntListSum_sum_EC_Primitive_Stream_Parallel_jmhTest_ESTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 sec
+Running jvmscompare.benchmark.generated.IntListSum_sum_EC_Primitive_Eager_Serial_jmhTest_ESTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.475 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.443 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.414 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.643 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B2_init_2632512991
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_EC_Stream_Parallel_jmhTest_ESTest
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.895 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_init_2632512681
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.362 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest_ESTest
+Tests run: 20, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.218 sec <<< FAILURE!
+test05(jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest_ESTest)  Time elapsed: 3.353 sec  <<< ERROR!
+org.evosuite.runtime.mock.java.lang.MockRuntimeException: java.util.concurrent.ExecutionException: org.evosuite.runtime.TooManyResourcesException
+	at org.eclipse.collections.impl.lazy.parallel.AbstractParallelIterable.collectCombineOrdered(AbstractParallelIterable.java:239)
+	at org.eclipse.collections.impl.lazy.parallel.AbstractParallelIterable.collectCombine(AbstractParallelIterable.java:211)
+	at org.eclipse.collections.impl.lazy.parallel.AbstractParallelIterable.toList(AbstractParallelIterable.java:483)
+	at org.eclipse.collections.impl.lazy.parallel.list.AbstractParallelListIterable.groupBy(AbstractParallelListIterable.java:99)
+	at jvmscompare.benchmark.PersonFilterAndGroup.filterAndGroupByAge_EC_Lazy_Parallel(PersonFilterAndGroup.java:110)
+	at jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest.filterAndGroupByAge_EC_Lazy_Parallel_avgt_jmhStub(PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest.java:186)
+	at jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest_ESTest.test05(PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest_ESTest.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.ExecutionException: org.evosuite.runtime.TooManyResourcesException
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:1006)
+	at org.eclipse.collections.impl.lazy.parallel.AbstractParallelIterable.collectCombineOrdered(AbstractParallelIterable.java:230)
+	... 18 more
+Caused by: org.evosuite.runtime.TooManyResourcesException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:603)
+	... 20 more
+Caused by: org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 10000
+	at org.evosuite.runtime.LoopCounter.checkLoop(LoopCounter.java:116)
+	at org.eclipse.collections.impl.block.procedure.IfProcedure.value(IfProcedure.java:47)
+	at org.eclipse.collections.impl.lazy.parallel.list.ListIterableBatch.forEach(ListIterableBatch.java:41)
+	at org.eclipse.collections.impl.lazy.parallel.list.SelectListBatch.forEach(SelectListBatch.java:37)
+	at org.eclipse.collections.impl.lazy.parallel.AbstractParallelIterable.lambda$toList$2ccef6f0$1(AbstractParallelIterable.java:479)
+	at org.eclipse.collections.impl.lazy.parallel.AbstractParallelIterable.lambda$null$4(AbstractParallelIterable.java:223)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1448)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_init_19320543020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_filter_EC_Lazy_Parallel_jmhTest_ESTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.896 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_init_19320543021
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonIntSummaryStats_intSummaryStatistics_JDK_Stream_Serial_jmhTest_ESTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.546 sec
+Running jvmscompare.benchmark.generated.IntListSum_sum_JDK_Boxed_Stream_Parallel_jmhTest_ESTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.552 sec
+Running jvmscompare.benchmark.generated.PersonIntSummaryStats_intSummaryStatistics_EC_Lazy_Serial_jmhTest_ESTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.646 sec
+Running jvmscompare.benchmark.generated.IntListSum_jmhType_B2_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_init_15579160400
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.IntListTransform_transform_JDK_Boxed_Stream_Parallel_jmhTest_ESTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.342 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_init_1688338221
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_init_15579161020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_init_15579161021
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonIntSummaryStats_intSummaryStatistics_EC_Eager_Serial_jmhTest_ESTest
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.582 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_init_15579160401
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_init_5690769201
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_init_2632512680
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_filter_JDK_Stream_Parallel_jmhTest_ESTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.478 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_combinedStatistics_JDK_Stream_Parallel_jmhTest_ESTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.511 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_combinedStatistics_EC_Lazy_Serial_jmhTest_ESTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.049 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_init_5690769821
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769511
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_init_5690769820
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B2_init_15579160710
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769510
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 sec
+Running jvmscompare.benchmark.generated.IntListTransform_transform_EC_Primitive_Stream_Parallel_jmhTest_ESTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.724 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_init_2632513301
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B2_init_15579160711
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_combinedStatistics_EC_Stream_Parallel_jmhTest_ESTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.534 sec
+Running jvmscompare.benchmark.generated.IntListFilter_filter_EC_Primitive_Stream_Parallel_jmhTest_ESTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_init_16209416041
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.417 sec
+Running jvmscompare.benchmark.generated.IntListFilter_jmhType_B1_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_JDK_Stream_Serial_jmhTest_ESTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.193 sec
+Running jvmscompare.benchmark.generated.IntListSum_jmhType_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_init_1688338220
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.IntListFilter_filter_EC_Primitive_Eager_Serial_jmhTest_ESTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.404 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_init_5690769200
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonIntSummaryStats_jmhType_B1_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.345 sec
+Running jvmscompare.benchmark.generated.IntListSum_sum_JDK_Boxed_Stream_Serial_jmhTest_ESTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B2_init_2632512990
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.IntListFilter_filter_JDK_Boxed_Stream_Serial_jmhTest_ESTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 sec
+Running jvmscompare.benchmark.generated.IntListTransform_jmhType_B2_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_combinedStatistics_JDK_Stream_Serial_jmhTest_ESTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.042 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_filter_EC_Eager_Serial_jmhTest_ESTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.369 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_init_2632513300
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.IntListFilter_filter_EC_Boxed_Lazy_Parallel_jmhTest_ESTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 sec
+Running jvmscompare.benchmark.generated.IntListFilter_filter_JDK_Boxed_Stream_Parallel_jmhTest_ESTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.285 sec
+Running jvmscompare.benchmark.generated.IntListFilter_filter_EC_Boxed_Eager_Serial_jmhTest_ESTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.382 sec
+Running jvmscompare.benchmark.generated.IntListTransform_transform_EC_Primitive_Eager_Serial_jmhTest_ESTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.316 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_init_16209416040
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B2_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.377 sec
+Running jvmscompare.benchmark.IntListSum_ESTest
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 0
+Benchmark forks: 2
+Benchmark warmups: 0
+Benchmark measurements: 10
+
+##### Heap utilization statistics [MB] #####
+Used Memory:0
+Free Memory:0
+Total Memory:0
+Max Memory:0
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 37
+Benchmark forks: 2
+Benchmark warmups: 37
+Benchmark measurements: 10
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.299 sec
+Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122921
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.PersonFilterOnly_init_19320396180
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122920
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.PersonFilterOnly_init_19320396181
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418220
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418221
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.Environment_init_7588249781
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.JavaInformation_init_9162499113
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.Person_init_6749180280
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.JavaInformation_init_9162499110
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.JavaInformation_main_5396869074
+##### Heap utilization statistics [MB] #####
+Used Memory:1309
+Free Memory:6512
+Total Memory:7822
+Max Memory:7848
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(jvmscompare.JavaInformation_main_5396869074)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.SecurityException: Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:433)
+java.base/java.lang.System.setProperty(System.java:894)
+jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+jvmscompare.JavaInformation.main(JavaInformation.java:6)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+jvmscompare.JavaInformation_main_5396869074.test(JavaInformation_main_5396869074.java:44)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+	at org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:445)
+	at java.base/java.lang.System.setProperty(System.java:894)
+	at jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+	at jvmscompare.JavaInformation.main(JavaInformation.java:6)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at jvmscompare.JavaInformation_main_5396869074.test(JavaInformation_main_5396869074.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running jvmscompare.JavaInformation_printJavaInformation_9773580145
+##### Heap utilization statistics [MB] #####
+Used Memory:1309
+Free Memory:6512
+Total Memory:7822
+Max Memory:7848
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(jvmscompare.JavaInformation_printJavaInformation_9773580145)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.SecurityException: Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:433)
+java.base/java.lang.System.setProperty(System.java:894)
+jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+jvmscompare.JavaInformation_printJavaInformation_9773580145.test(JavaInformation_printJavaInformation_9773580145.java:42)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+	at org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:445)
+	at java.base/java.lang.System.setProperty(System.java:894)
+	at jvmscompare.JavaInformation.printJavaInformation(JavaInformation.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at jvmscompare.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at jvmscompare.JavaInformation_printJavaInformation_9773580145.test(JavaInformation_printJavaInformation_9773580145.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running jvmscompare.Environment_init_7588249780
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.Person_init_6749180281
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests in error: 
+  test(jvmscompare.JavaInformation_main_5396869071): Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")(..)
+  test(jvmscompare.JavaInformation_printJavaInformation_9773580142): Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")(..)
+  test05(jvmscompare.benchmark.generated.PersonFilterAndGroup_filterAndGroupByAge_EC_Lazy_Parallel_jmhTest_ESTest): java.util.concurrent.ExecutionException: org.evosuite.runtime.TooManyResourcesException
+  test(jvmscompare.JavaInformation_main_5396869074): Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")(..)
+  test(jvmscompare.JavaInformation_printJavaInformation_9773580145): Security manager blocks ("java.util.PropertyPermission" "java.vm.name" "write")(..)
+
+Tests run: 784, Failures: 0, Errors: 5, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ jvms-compare ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'JVMs Compare' with 80 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ jvms-compare ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'JVMs Compare' with 80 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:11 min
+[INFO] Finished at: 2026-04-08T05:11:49Z
+[INFO] ------------------------------------------------------------------------

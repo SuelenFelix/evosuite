@@ -1,0 +1,18 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'build.plugins.plugin[org.apache.maven.plugins:maven-surefire-plugin].dependencies.dependency.scope' for junit:junit:jar must be one of [compile, runtime, system] but is 'test'. @ line 199, column 12
+[ERROR] 'build.plugins.plugin[org.apache.maven.plugins:maven-surefire-plugin].dependencies.dependency.scope' for org.junit.vintage:junit-vintage-engine:jar must be one of [compile, runtime, system] but is 'test'. @ line 205, column 12
+[ERROR] 'build.plugins.plugin[org.apache.maven.plugins:maven-surefire-plugin].dependencies.dependency.scope' for org.evosuite:evosuite-standalone-runtime:jar must be one of [compile, runtime, system] but is 'test'. @ line 212, column 12
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project br.ufba.jnose:jnose-core:0.8.6 (/app/pom.xml) has 3 errors
+[ERROR]     'build.plugins.plugin[org.apache.maven.plugins:maven-surefire-plugin].dependencies.dependency.scope' for junit:junit:jar must be one of [compile, runtime, system] but is 'test'. @ line 199, column 12
+[ERROR]     'build.plugins.plugin[org.apache.maven.plugins:maven-surefire-plugin].dependencies.dependency.scope' for org.junit.vintage:junit-vintage-engine:jar must be one of [compile, runtime, system] but is 'test'. @ line 205, column 12
+[ERROR]     'build.plugins.plugin[org.apache.maven.plugins:maven-surefire-plugin].dependencies.dependency.scope' for org.evosuite:evosuite-standalone-runtime:jar must be one of [compile, runtime, system] but is 'test'. @ line 212, column 12
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException

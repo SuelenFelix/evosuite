@@ -76,10 +76,10 @@ public final class FileSystemHelper {
 <span class="pc bpc" id="L76" title="1 of 2 branches missed.">            String ext = internalName.endsWith(&quot;.class&quot;) ? &quot;&quot; : &quot;.class&quot;;</span>
 <span class="fc" id="L77">            FileObject fileObject = getClassFromJar(internalName + ext);</span>
 <span class="pc bpc" id="L78" title="1 of 2 branches missed.">            if (isNull(fileObject)) {</span>
-<span class="nc" id="L79">                fileObject = getClassIfOpenEditor(internalName + ext);</span>
+<span class="fc" id="L79">                fileObject = getClassIfOpenEditor(internalName + ext);</span>
             }
 
-<span class="pc bpc" id="L82" title="3 of 4 branches missed.">            if (isNull(fileObject) &amp;&amp; nonNull(classpath)) {</span>
+<span class="pc bpc" id="L82" title="2 of 4 branches missed.">            if (isNull(fileObject) &amp;&amp; nonNull(classpath)) {</span>
 <span class="nc" id="L83">                fileObject = classpath.findResource(internalName+ext);</span>
             }
 
@@ -90,14 +90,14 @@ public final class FileSystemHelper {
 
     private FileObject getClassIfOpenEditor(String internalName) throws FileStateInvalidException {
         // find jar path from attribute
-<span class="nc" id="L93">        URL url = (URL) file.getAttribute(CLASSFILE_ROOT);</span>
-<span class="nc bnc" id="L94" title="All 2 branches missed.">        if (nonNull(url)) {</span>
+<span class="fc" id="L93">        URL url = (URL) file.getAttribute(CLASSFILE_ROOT);</span>
+<span class="pc bpc" id="L94" title="1 of 2 branches missed.">        if (nonNull(url)) {</span>
 <span class="nc" id="L95">            FileObject jarFile = FileUtil.toFileObject(FileUtil.archiveOrDirForURL(url));</span>
 <span class="nc" id="L96">            return FileUtil</span>
 <span class="nc" id="L97">                    .getArchiveRoot(jarFile)</span>
 <span class="nc" id="L98">                    .getFileSystem().findResource(internalName);</span>
         }
-<span class="nc" id="L100">        return null;</span>
+<span class="fc" id="L100">        return null;</span>
     }
 
     private FileObject getClassFromJar(String internalName) throws FileStateInvalidException {

@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: net.byteseek.swing.treetable.TreeUtils_ESTest
+-------------------------------------------------------------------------------
+Tests run: 75, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 13.065 sec <<< FAILURE!
+test58(net.byteseek.swing.treetable.TreeUtils_ESTest)  Time elapsed: 4.1 sec  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at app//net.byteseek.swing.treetable.TreeUtils.getLevel(TreeUtils.java:438)
+	at app//net.byteseek.swing.treetable.TreeUtils.buildTextTree(TreeUtils.java:493)
+	at app//net.byteseek.swing.treetable.TreeUtils_ESTest.test58(TreeUtils_ESTest.java:683)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+test55(net.byteseek.swing.treetable.TreeUtils_ESTest)  Time elapsed: 4.006 sec  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at app//net.byteseek.swing.treetable.TreeUtils.getFurthestAncestor(TreeUtils.java:473)
+	at app//net.byteseek.swing.treetable.TreeUtils_ESTest.test55(TreeUtils_ESTest.java:656)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+test42(net.byteseek.swing.treetable.TreeUtils_ESTest)  Time elapsed: 4.301 sec  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at app//net.byteseek.swing.treetable.TreeUtils.getLevel(TreeUtils.java:438)
+	at app//net.byteseek.swing.treetable.TreeUtils_ESTest.test42(TreeUtils_ESTest.java:533)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+

@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: game.Game_loadGenome_76043159413
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.Game_loadGenome_76043159413)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: name can't be null
+	at java.base/java.io.FilePermission.init(FilePermission.java:321)
+	at java.base/java.io.FilePermission.<init>(FilePermission.java:488)
+	at java.base/java.lang.SecurityManager.checkRead(SecurityManager.java:661)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at game.Game.loadGenome(Game.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at game.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at game.Game_loadGenome_76043159413.test(Game_loadGenome_76043159413.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+

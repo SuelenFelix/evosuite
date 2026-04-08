@@ -1,0 +1,1354 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< com.github.s1ck:gdl >-------------------------
+[INFO] Building GDL - Graph Definition Language 0.3.10-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gdl ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ gdl ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- antlr4-maven-plugin:4.13.1:antlr4 (default) @ gdl ---
+[INFO] ANTLR 4: Processing source directory /app/src/main/antlr4
+[INFO] Processing grammar: org/s1ck/gdl/GDL.g4
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gdl ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ gdl ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 26 source files to /app/target/classes
+[INFO] /app/src/main/java/org/s1ck/gdl/GDLHandler.java: /app/src/main/java/org/s1ck/gdl/GDLHandler.java uses or overrides a deprecated API.
+[INFO] /app/src/main/java/org/s1ck/gdl/GDLHandler.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ gdl ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gdl ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ gdl ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 202 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/comparables/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/expressions/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/utils/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/booleans/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/exceptions/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/comparables/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/comparables/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/comparables/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/expressions/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/expressions/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/expressions/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/utils/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/utils/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/utils/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/booleans/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/booleans/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/booleans/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/predicates/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/exceptions/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/exceptions/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/exceptions/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/utils/Comparator_init_18313779608.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/utils/Comparator_init_18313779608.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/Edge_getTargetVertexId_3827666763.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/org/s1ck/gdl/model/Edge_getTargetVertexId_3827666763.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ gdl ---
+[INFO] Surefire report directory: /app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.s1ck.gdl.model.Vertex_referenceString_17878970645
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.s1ck.gdl.model.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of org.s1ck.gdl.model.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running org.s1ck.gdl.model.Vertex_referenceString_17878970642
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Graph_init_4762428750
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Edge_init_168085334812
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.GraphElement_init_18721411713
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_getLabel_11930357863
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_referenceString_212833010412
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setTargetVertexId_6438547744
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setProperties_46009268225
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getLowerBound_20962284016
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.Edge_toString_206865809722
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Edge_toString_206865809722)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.Element.getId(Element.java:39)
+	at org.s1ck.gdl.model.Edge.toString(Edge.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.Edge_toString_206865809722.test(Edge_toString_206865809722.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.Element_hashCode_178988934229
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_getProperties_14053141224
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setLowerBound_12843591177
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_equals_134120266713
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Vertex_init_17892954533
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.GraphElement_init_18721411710
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_hashCode_178988934214
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Edge_getSourceVertexId_100134921413
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_init_16808533480
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Edge_toString_206865809710
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running org.s1ck.gdl.model.Element_setLabel_76936737019
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setLabel_7693673704
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_equals_134120266728
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getUpperBound_145835124820
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_toString_11170508957
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_hashCode_16278105859
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.Literal_getValue_15197174807
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.comparables.Literal_getVariable_12163914552
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_init_4193419210
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_getVariable_16351614968
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.Literal_toString_8818598779
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.comparables.Literal_toString_8818598779)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.comparables.Literal.toString(Literal.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.comparables.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.comparables.Literal_toString_8818598779.test(Literal_toString_8818598779.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.comparables.PropertySelector_getVariable_16351614962
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_toString_13006299183
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_toString_13006299189
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_equals_20764972603
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.Literal_toString_8818598773
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_hashCode_7898702285
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.Literal_init_13574584970
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_equals_20764972608
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_getPropertyName_11126891727
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_init_18717488876
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.Literal_hashCode_3711001875
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.Literal_init_13574584976
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_hashCode_78987022811
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_getPropertyName_11126891721
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.Literal_getValue_15197174801
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_equals_3411835534
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.Literal_hashCode_37110018711
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.Literal_equals_7758648810
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_getVariable_7825193171
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_getVariable_7825193176
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.Literal_getVariable_12163914558
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_init_4193419215
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.Literal_equals_775864884
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_hashCode_16278105854
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_init_18717488870
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.PropertySelector_equals_34118355310
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_toString_11170508952
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_setProperties_46009268210
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_init_14488624130
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Graph_init_4762428752
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setLabels_168662220821
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.Edge_getTargetVertexId_3827666763
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setVariable_734442468
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_getVariable_165978668622
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.GraphElement_getGraphs_17136258665
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setLabels_16866222086
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Vertex_init_17892954530
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getTargetVertexId_38276667615
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Vertex_toString_19602159924
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Vertex_toString_19602159924)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.Element.getId(Element.java:39)
+	at org.s1ck.gdl.model.Vertex.toString(Vertex.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.Vertex_toString_19602159924.test(Vertex_toString_19602159924.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.Graph_toString_10216987261
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.s1ck.gdl.model.Element_setVariable_7344424623
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getUpperBound_14583512488
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_getLabels_200357479020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setTargetVertexId_64385477416
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getSourceVertexId_10013492141
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_hasVariableLength_1111983625
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_getLabels_20035747905
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_getVariable_16597866867
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_getProperties_1405314129
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_getId_20679233681
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_referenceString_189633916911
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.Predicate.fromGraphElement(Predicate.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021.test(Predicate_fromGraphElement_7419830021.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Not_getArguments_11374339611
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_toString_20471667983
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.predicates.booleans.Xor_getArguments_11377318095
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_init_12082089890
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Xor_getArguments_11377318091
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_getArguments_21121437931
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.Not.getVariables(Not.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726.test(Not_getVariables_8680063726.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Or_init_1624307070
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959142
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959142)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.Or.getVariables(Or.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959142.test(Or_getVariables_19133959142.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Not_init_2094551370
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.Xor.getVariables(Xor.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202.test(Xor_getVariables_8683042202.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.And.getVariables(And.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326.test(And_getVariables_8676176326.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Xor_toString_20478533863
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.Xor.getVariables(Xor.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206.test(Xor_getVariables_8683042206.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Not_getArguments_11374339615
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Not_init_2094551374
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.And.getVariables(And.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322.test(And_getVariables_8676176322.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Xor_init_12075224014
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.Or.getVariables(Or.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146.test(Or_getVariables_19133959146.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063722
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063722)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.booleans.Not.getVariables(Not.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.booleans.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063722.test(Not_getVariables_8680063722.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.booleans.Xor_init_12075224010
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_toString_20471667987
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Not_toString_20475555383
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_getArguments_21121437935
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_init_1624307074
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_toString_12020222167
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_init_12082089894
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.booleans.Xor_toString_20478533867
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Or_toString_12020222163
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_getArguments_11370452215
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_getArguments_11370452211
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.booleans.Not_toString_20475555387
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_hashCode_54060200215
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_toString_105136169213
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparator_514779372
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparableExpressions_11716849383
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getArguments_19614832691
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.expressions.Comparison.getVariables(Comparison.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.expressions.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812.test(Comparison_getVariables_206405643812.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparableExpressions_117168493811
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_toString_10513616925
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getArguments_19614832699
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_init_4455029650
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_equals_919153276
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparator_5147793710
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_init_4455029658
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_equals_9191532714
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_20640564384
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_20640564384)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.predicates.expressions.Comparison.getVariables(Comparison.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.predicates.expressions.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_20640564384.test(Comparison_getVariables_20640564384.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.predicates.expressions.Comparison_hashCode_5406020027
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Vertex_toString_19602159921
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.s1ck.gdl.model.Element_getLabel_119303578618
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Element_getLabel_119303578618)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.Element.getLabel(Element.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.Element_getLabel_119303578618.test(Element_getLabel_119303578618.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.Edge_getLowerBound_209622840118
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_addProperty_104510134711
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setUpperBound_5439714709
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setId_41855742
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setUpperBound_54397147021
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_getId_206792336816
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Element_getId_206792336816)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.Element.getId(Element.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.Element_getId_206792336816.test(Element_getId_206792336816.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.Element_addProperty_104510134726
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Element_addProperty_104510134726)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.Element.addProperty(Element.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.Element_addProperty_104510134726.test(Element_addProperty_104510134726.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.Edge_hasVariableLength_11119836217
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Edge_setSourceVertexId_12624373122
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.GraphElement_addToGraph_10819420431
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_referenceString_212833010427
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setSourceVertexId_126243731214
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_setLowerBound_128435911719
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.GraphElement_addToGraph_10819420434
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.GraphElement_addToGraph_10819420434)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.GraphElement.addToGraph(GraphElement.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.GraphElement_addToGraph_10819420434.test(GraphElement_addToGraph_10819420434.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.model.Edge_referenceString_189633916923
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_init_144886241315
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Element_setId_418557417
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.GraphElement_getGraphs_17136258662
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Graph_toString_10216987263
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Graph_toString_10216987263)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.model.Element.getId(Element.java:39)
+	at org.s1ck.gdl.model.Graph.toString(Graph.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.model.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.model.Graph_toString_10216987263.test(Graph_toString_10216987263.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.GDLLexer_ESTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.065 sec
+Running org.s1ck.gdl.GDLHandler_ESTest
+line 1:3 mismatched input '.' expecting {'[', '{'}
+line 1:9 mismatched input '.' expecting {'[', '{'}
+line 1:12 mismatched input '.' expecting {'[', '{'}
+line 1:19 mismatched input '.' expecting {'[', '{'}
+line 1:23 mismatched input '.' expecting {'[', '{'}
+line 1:34 token recognition error at: '$'
+line 1:35 mismatched input 'ConfigEqualityComparator' expecting {'[', '{'}
+line 1:59 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:3 mismatched input '.' expecting {'[', '{'}
+line 1:9 mismatched input '.' expecting {'[', '{'}
+line 1:12 mismatched input '.' expecting {'[', '{'}
+line 1:20 mismatched input '.' expecting {'[', '{'}
+line 1:24 mismatched input '.' expecting {'[', '{'}
+line 1:37 token recognition error at: '$'
+line 1:38 mismatched input 'ConfigEqualityComparator' expecting {'[', '{'}
+line 1:62 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:0 extraneous input '9k0FS63' expecting {<EOF>, '[', '(', '{', 'MATCH', 'CREATE', Identifier, ':'}
+line 1:9 token recognition error at: '%'
+line 1:8 extraneous input '4' expecting Identifier
+line 1:13 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:2 token recognition error at: '|'
+line 1:3 token recognition error at: '"nk@,w2e/Gl%0N'
+line 1:18 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:4 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:2 token recognition error at: '|'
+line 1:3 token recognition error at: '"nk@,w2e/Gl%0N'
+line 1:18 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:5 mismatched input '<' expecting {'[', '{'}
+line 1:7 token recognition error at: ';'
+line 1:9 token recognition error at: ''
+line 1:8 mismatched input 'O' expecting {'[', '{'}
+line 1:10 mismatched input 'cKt' expecting {'[', '{'}
+line 1:13 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:2 token recognition error at: '|'
+line 1:3 token recognition error at: '"nk@,w2e/Gl%0N'
+line 1:18 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:6 mismatched input '.' expecting {'[', '{'}
+line 1:9 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:3 mismatched input '.' expecting {'[', '{'}
+line 1:9 mismatched input '.' expecting {'[', '{'}
+line 1:12 mismatched input '.' expecting {'[', '{'}
+line 1:19 mismatched input '.' expecting {'[', '{'}
+line 1:23 mismatched input '.' expecting {'[', '{'}
+line 1:34 token recognition error at: '$'
+line 1:35 mismatched input 'ConfigEqualityComparator' expecting {'[', '{'}
+line 1:59 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:5 token recognition error at: ''
+line 1:6 token recognition error at: '%'
+line 1:7 token recognition error at: '@'
+line 1:8 token recognition error at: '&'
+line 1:15 mismatched input '<EOF>' expecting ':'
+line 1:0 token recognition error at: '@'
+line 1:1 extraneous input '7' expecting {<EOF>, '[', '(', '{', 'MATCH', 'CREATE', Identifier, ':'}
+line 1:4 token recognition error at: ''4XHdl'
+line 1:10 mismatched input '<EOF>' expecting {'[', '{'}
+line 1:5 mismatched input '<' expecting {'[', '{'}
+line 1:7 token recognition error at: ';'
+line 1:9 token recognition error at: ''
+line 1:8 mismatched input 'O' expecting {'[', '{'}
+line 1:10 mismatched input 'cKt' expecting {'[', '{'}
+line 1:13 mismatched input '<EOF>' expecting {'[', '{'}
+Tests run: 27, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.657 sec <<< FAILURE!
+test02(org.s1ck.gdl.GDLHandler_ESTest)  Time elapsed: 0.008 sec  <<< ERROR!
+java.io.FileNotFoundException
+	at org.evosuite.runtime.mock.java.io.MockFileInputStream.<init>(MockFileInputStream.java:86)
+	at org.evosuite.runtime.mock.java.io.MockFileInputStream.<init>(MockFileInputStream.java:60)
+	at org.antlr.v4.runtime.misc.Utils.readFile(Utils.java:106)
+	at org.antlr.v4.runtime.ANTLRFileStream.load(ANTLRFileStream.java:34)
+	at org.antlr.v4.runtime.ANTLRFileStream.<init>(ANTLRFileStream.java:28)
+	at org.antlr.v4.runtime.ANTLRFileStream.<init>(ANTLRFileStream.java:23)
+	at org.s1ck.gdl.GDLHandler$Builder.buildFromFile(GDLHandler.java:387)
+	at org.s1ck.gdl.GDLHandler_ESTest.test02(GDLHandler_ESTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.GDLLoader_ESTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.s1ck.gdl.GDLBaseListener_ESTest
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running org.s1ck.gdl.GDLParser_ESTest
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 missing {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'} at 'EOF'
+line 0:0 mismatched input 'EOF' expecting ComparisonOP
+line 0:0 extraneous input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 0:0 mismatched input 'EOF' expecting {']', '('}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting '{'
+line 0:-1 missing '[' at '<17>'
+line 1:0 mismatched input 'EOF' expecting '{'
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 0:-1 mismatched input '<14>' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '{'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', 'MATCH', 'CREATE', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', 'MATCH', 'CREATE', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 0:-1 mismatched input '<183>' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'}
+line 1:0 missing '*' at 'EOF'
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 0:-1 no viable alternative at input 'null'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 0:-1 mismatched input '<1136>' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 0:-1 no viable alternative at input ''.''
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 0:-1 no viable alternative at input 'null'
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 0:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'where', 'WHERE'}
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 0:-1 mismatched input 'WS' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 0:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'where', 'WHERE'}
+line 1:0 mismatched input 'EOF' expecting {'where', 'WHERE'}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 missing '*' at 'EOF'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 missing '*' at 'EOF'
+line 1:0 mismatched input 'EOF' expecting ':'
+line 0:-1 mismatched input ';3%KsS"4|/ V^91QOO' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'}
+line 1:0 missing {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'} at 'EOF'
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', Identifier, ':'}
+enter   definition, LT(1)=EOF
+line 0:-1 mismatched input 'org.s1ck.gdl.GDLParser$DefinitionsContext' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 missing {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'} at 'EOF'
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 missing {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'} at 'EOF'
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'[', '{'}
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 0:0 mismatched input 'EOF' expecting {']', '('}
+line 0:-1 missing '(' at ''.''
+line 0:-1 mismatched input '' expecting {'[', '(', '{', 'MATCH', 'CREATE', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting {'[', '(', '{', 'MATCH', 'CREATE', Identifier, ':'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '{'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 missing '*' at 'EOF'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'where', 'WHERE'}
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 0:-1 mismatched input '' expecting '*'
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 mismatched input 'EOF' expecting '{'
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 missing '*' at 'EOF'
+line 1:0 mismatched input 'EOF' expecting '('
+line 1:0 mismatched input 'EOF' expecting '['
+line 0:-1 missing {'where', 'WHERE'} at '<22>'
+line 1:0 missing {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'} at 'EOF'
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting 'MATCH'
+line 1:0 missing {StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, 'NaN', 'NULL'} at 'EOF'
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting '['
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting ':'
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'(', StringLiteral, BooleanLiteral, IntegerLiteral, FloatingPointLiteral, NOT, 'NaN', 'NULL', Identifier}
+line 0:0 mismatched input 'EOF' expecting {']', '*', '{'}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting Identifier
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+line 1:0 mismatched input 'EOF' expecting {'<-', '-'}
+Tests run: 281, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 sec
+Running org.s1ck.gdl.exceptions.InvalidReferenceException_init_7914443721
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.s1ck.gdl.exceptions.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
+	at org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561.test(DuplicateDeclarationException_init_6485787561.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException
+	at org.s1ck.gdl.exceptions.DuplicateDeclarationException.<init>(DuplicateDeclarationException.java:32)
+	... 19 more
+
+Running org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787560
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.exceptions.InvalidReferenceException_init_7914443720
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.Comparator_valueOf_19748712367
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_valueOf_19748712367)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at java.base/java.lang.Enum.valueOf(Enum.java:238)
+	at org.s1ck.gdl.utils.Comparator.valueOf(Comparator.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.utils.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.utils.Comparator_valueOf_19748712367.test(Comparator_valueOf_19748712367.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.utils.ContinuousId_apply_20475987133
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.Comparator_valueOf_19748712361
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_valueOf_19748712361)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.s1ck.gdl.utils.Comparator.PAEBtnZtTD
+	at java.base/java.lang.Enum.valueOf(Enum.java:240)
+	at org.s1ck.gdl.utils.Comparator.valueOf(Comparator.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.utils.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.utils.Comparator_valueOf_19748712361.test(Comparator_valueOf_19748712361.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.utils.ContinuousId_ESTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.Comparator_init_18313779602
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_init_18313779602)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.s1ck.gdl.utils.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
+	at org.s1ck.gdl.utils.Comparator_init_18313779602.test(Comparator_init_18313779602.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.utils.ContinuousId_init_16835605130
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.Comparator_values_14828408330
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.Comparator_fromString_21107254319
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_fromString_21107254319)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.s1ck.gdl.utils.Comparator.fromString(Comparator.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.s1ck.gdl.utils.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at org.s1ck.gdl.utils.Comparator_fromString_21107254319.test(Comparator_fromString_21107254319.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.utils.Comparator_ESTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.s1ck.gdl.utils.Comparator_fromString_21107254313
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.ContinuousId_init_16835605132
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.Comparator_init_18313779608
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_init_18313779608)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.s1ck.gdl.utils.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
+	at org.s1ck.gdl.utils.Comparator_init_18313779608.test(Comparator_init_18313779608.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running org.s1ck.gdl.utils.Comparator_toString_8610445145
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.Comparator_getInverse_86643477710
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.Comparator_values_14828408336
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.ContinuousId_apply_20475987131
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.utils.Comparator_getInverse_8664347774
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.Comparator_toString_86104451411
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests in error: 
+  test(org.s1ck.gdl.model.Edge_toString_206865809722)
+  test(org.s1ck.gdl.model.comparables.Literal_toString_8818598779)
+  test(org.s1ck.gdl.model.Vertex_toString_19602159924)
+  test(org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021)
+  test(org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726)
+  test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959142)
+  test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202)
+  test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326)
+  test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206)
+  test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322)
+  test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146)
+  test(org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063722)
+  test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812)
+  test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_20640564384)
+  test(org.s1ck.gdl.model.Element_getLabel_119303578618)
+  test(org.s1ck.gdl.model.Element_getId_206792336816)
+  test(org.s1ck.gdl.model.Element_addProperty_104510134726)
+  test(org.s1ck.gdl.model.GraphElement_addToGraph_10819420434)
+  test(org.s1ck.gdl.model.Graph_toString_10216987263)
+  test02(org.s1ck.gdl.GDLHandler_ESTest)
+  test(org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561)
+  test(org.s1ck.gdl.utils.Comparator_valueOf_19748712367): Name is null
+  test(org.s1ck.gdl.utils.Comparator_valueOf_19748712361): No enum constant org.s1ck.gdl.utils.Comparator.PAEBtnZtTD
+  test(org.s1ck.gdl.utils.Comparator_init_18313779602): Cannot reflectively create enum objects
+  test(org.s1ck.gdl.utils.Comparator_fromString_21107254319)
+  test(org.s1ck.gdl.utils.Comparator_init_18313779608): Cannot reflectively create enum objects
+
+Tests run: 618, Failures: 0, Errors: 26, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ gdl ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'GDL - Graph Definition Language' with 58 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ gdl ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'GDL - Graph Definition Language' with 58 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.507 s
+[INFO] Finished at: 2026-04-08T05:45:36Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,286 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.ducatillon.graphql-client:graphql-client >------------
+[INFO] Building graphql-client 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ graphql-client ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ graphql-client ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ graphql-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ graphql-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ graphql-client ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ graphql-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ graphql-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 52 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/data/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/util/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/ducatillon/graphqlclient/client/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ graphql-client ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+05:22:19.756 [main] INFO org.evosuite.runtime.agent.AgentLoader - dynamically loading javaagent
+05:22:19.767 [main] INFO org.evosuite.runtime.agent.AgentLoader - Using JavaAgent in /root/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.1.0/evosuite-standalone-runtime-1.1.0.jar
+05:22:19.775 [main] INFO org.evosuite.runtime.agent.AgentLoader - Classpath: /app/target/test-classes:/app/target/classes:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.1.0/evosuite-standalone-runtime-1.1.0.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.5/spring-boot-starter-web-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.5/spring-boot-starter-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.5/spring-boot-starter-logging-2.4.5.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.5/spring-boot-starter-json-2.4.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.5/spring-boot-starter-tomcat-2.4.5.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.45/tomcat-embed-core-9.0.45.jar:/root/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.45/tomcat-embed-websocket-9.0.45.jar:/root/.m2/repository/org/springframework/spring-web/5.3.6/spring-web-5.3.6.jar:/root/.m2/repository/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar:/root/.m2/repository/org/springframework/spring-webmvc/5.3.6/spring-webmvc-5.3.6.jar:/root/.m2/repository/org/springframework/spring-aop/5.3.6/spring-aop-5.3.6.jar:/root/.m2/repository/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar:/root/.m2/repository/org/springframework/spring-expression/5.3.6/spring-expression-5.3.6.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/2.4.5/spring-boot-starter-webflux-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.4.5/spring-boot-starter-reactor-netty-2.4.5.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.0.6/reactor-netty-http-1.0.6.jar:/root/.m2/repository/io/netty/netty-codec-http/4.1.63.Final/netty-codec-http-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-common/4.1.63.Final/netty-common-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.1.63.Final/netty-buffer-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.1.63.Final/netty-transport-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.1.63.Final/netty-codec-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-handler/4.1.63.Final/netty-handler-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-codec-http2/4.1.63.Final/netty-codec-http2-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns/4.1.63.Final/netty-resolver-dns-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-resolver/4.1.63.Final/netty-resolver-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-codec-dns/4.1.63.Final/netty-codec-dns-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.63.Final/netty-resolver-dns-native-macos-4.1.63.Final-osx-x86_64.jar:/root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.63.Final/netty-transport-native-unix-common-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.63.Final/netty-transport-native-epoll-4.1.63.Final-linux-x86_64.jar:/root/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.0.6/reactor-netty-core-1.0.6.jar:/root/.m2/repository/io/netty/netty-handler-proxy/4.1.63.Final/netty-handler-proxy-4.1.63.Final.jar:/root/.m2/repository/io/netty/netty-codec-socks/4.1.63.Final/netty-codec-socks-4.1.63.Final.jar:/root/.m2/repository/org/springframework/spring-webflux/5.3.6/spring-webflux-5.3.6.jar:/root/.m2/repository/org/springframework/boot/spring-boot-devtools/2.4.5/spring-boot-devtools-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot/2.4.5/spring-boot-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.5/spring-boot-autoconfigure-2.4.5.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.5/spring-boot-starter-test-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-test/2.4.5/spring-boot-test-2.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.5/spring-boot-test-autoconfigure-2.4.5.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/root/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/root/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/root/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/root/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.10.22/byte-buddy-1.10.22.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.22/byte-buddy-agent-1.10.22.jar:/root/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/root/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar:/root/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/root/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/root/.m2/repository/org/springframework/spring-core/5.3.6/spring-core-5.3.6.jar:/root/.m2/repository/org/springframework/spring-jcl/5.3.6/spring-jcl-5.3.6.jar:/root/.m2/repository/org/springframework/spring-test/5.3.6/spring-test-5.3.6.jar:/root/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar:/root/.m2/repository/io/projectreactor/reactor-test/3.4.5/reactor-test-3.4.5.jar:/root/.m2/repository/io/projectreactor/reactor-core/3.4.5/reactor-core-3.4.5.jar:/root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/root/.m2/repository/io/micrometer/micrometer-core/1.6.6/micrometer-core-1.6.6.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/root/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:
+05:22:19.776 [main] INFO org.evosuite.runtime.agent.AgentLoader - Going to attach agent to process 70
+05:22:20.016 [Attach Listener] INFO org.evosuite.runtime.agent.InstrumentingAgent - Executing agentmain of JavaAgent
+[INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213282
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213282
+[INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583241
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.5)
+
+2026-04-08 05:22:20.754  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : Starting GraphqlClientApplication using Java 11.0.16 on 9e63b48b2a98 with PID 70 (started by root in /app)
+2026-04-08 05:22:20.756  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : No active profile set, falling back to default profiles: default
+2026-04-08 05:22:21.601  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 05:22:21.613  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 05:22:21.613  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2026-04-08 05:22:21.685  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 05:22:21.685  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2026-04-08 05:22:21.940  INFO 70 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-08 05:22:22.132  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 05:22:22.141  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : Started GraphqlClientApplication in 1.846 seconds (JVM running for 2.941)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.676 s <<< FAILURE! - in com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583241
+[ERROR] test  Time elapsed: 3.676 s  <<< ERROR!
+org.springframework.web.reactive.function.client.WebClientResponseException$BadRequest: 400 Bad Request from POST https://countries.trevorblades.com/
+
+[INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_ESTest
+2026-04-08 05:22:24.004 ERROR 70 --- [           main] o.e.r.classhandling.ClassStateSupport    : Class com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_ESTest
+[INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341.test(GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341.java:42)
+
+[INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307622
+[INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307620
+[INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343.test(GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343.java:44)
+
+[INFO] Running com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281313
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281313
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281313.test(CountryClient_getCountryDetails_10747281313.java:45)
+
+[INFO] Running com.ducatillon.graphqlclient.client.CountryClient_init_14161502842
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.client.CountryClient_init_14161502842
+[INFO] Running com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281311
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.123 s <<< FAILURE! - in com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281311
+[ERROR] test  Time elapsed: 0.123 s  <<< ERROR!
+org.springframework.web.reactive.function.client.WebClientRequestException: failed to resolve 'sjlJAEtRrb' after 2 queries ; nested exception is java.net.UnknownHostException: failed to resolve 'sjlJAEtRrb' after 2 queries 
+Caused by: java.net.UnknownHostException: failed to resolve 'sjlJAEtRrb' after 2 queries 
+
+[INFO] Running com.ducatillon.graphqlclient.client.CountryClient_init_14161502840
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.client.CountryClient_init_14161502840
+[INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213280
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213280
+[INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583243
+2026-04-08 05:22:24.179 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at com.ducatillon.graphqlclient.GraphqlClientApplication.main(GraphqlClientApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.ducatillon.graphqlclient.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583243.test(GraphqlClientApplication_main_3448583243.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583243
+[ERROR] test  Time elapsed: 0.023 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583243.test(GraphqlClientApplication_main_3448583243.java:44)
+
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_init_2281408454
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_init_2281408454
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_init_5018078242
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.data.CountryDto_init_5018078242
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_getCountry_8587866733
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_getCountry_8587866733
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_setQuery_7330844822
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_setQuery_7330844822
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_setVariables_15526962599
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_setVariables_15526962599
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_getQuery_11567528980
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_getQuery_11567528980
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_setQuery_7330844828
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_setQuery_7330844828
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_getQuery_11567528986
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_getQuery_11567528986
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_getData_14879050191
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_getData_14879050191
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_init_21280427532
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_init_21280427532
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_setVariables_15526962593
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_setVariables_15526962593
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_ESTest
+2026-04-08 05:22:24.190  WARN 70 --- [           main] org.evosuite.runtime.sandbox.Sandbox     : Sandbox can be initalized only once
+2026-04-08 05:22:24.192 ERROR 70 --- [           main] o.e.r.classhandling.ClassStateSupport    : Found $jacocoInit in class com.fasterxml.jackson.databind.PropertyNamingStrategy
+2026-04-08 05:22:24.193 ERROR 70 --- [           main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.PropertyNamingStrategy was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-08 05:22:24.193 ERROR 70 --- [           main] o.e.r.classhandling.ClassStateSupport    : Class com.ducatillon.graphqlclient.data.GraphqlRequestBody was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-08 05:22:24.193 ERROR 70 --- [           main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.PropertyNamingStrategy$PropertyNamingStrategyBase was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-08 05:22:24.193 ERROR 70 --- [           main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.PropertyNamingStrategy$SnakeCaseStrategy was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_ESTest
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_init_5018078240
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_init_5018078240
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973047
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973047
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_init_2281408450
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_init_2281408450
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_69427505711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_69427505711
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973043
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973043
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_6942750575
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_6942750575
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_33925277110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_33925277110
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_getCountry_8587866731
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_getCountry_8587866731
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701576
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701576
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_init_21280427530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_init_21280427530
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459831
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896341
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896341
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_3392527714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_3392527714
+[INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459837
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459837
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_getData_14879050193
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_getData_14879050193
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896345
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896345
+[INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701572
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701572
+2026-04-08 05:22:24.316  WARN 70 --- [extShutdownHook] o.e.runtime.sandbox.MSecurityManager     : SUT asked for a runtime permission that EvoSuite does not recognize: closeClassLoader
+2026-04-08 05:22:26.338  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   GraphqlClientApplication_main_3448583241.test » BadRequest 400 Bad Request fro...
+[ERROR]   GraphqlClientApplication_main_3448583243.test:44 » IllegalArgument Args must n...
+[ERROR]   CountryClient_getCountryDetails_10747281311.test » WebClientRequest failed to ...
+[ERROR]   CountryClient_getCountryDetails_10747281313.test:45 » NullPointer
+[ERROR]   GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341.test:42 » NullPointer
+[ERROR]   GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343.test:44 » NullPointer
+[INFO] 
+[ERROR] Tests run: 49, Failures: 0, Errors: 6, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ graphql-client ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'graphql-client' with 7 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ graphql-client ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'graphql-client' with 7 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.146 s
+[INFO] Finished at: 2026-04-08T05:22:26Z
+[INFO] ------------------------------------------------------------------------

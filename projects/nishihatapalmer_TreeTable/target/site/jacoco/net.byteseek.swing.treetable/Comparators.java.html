@@ -51,7 +51,7 @@ public final class Comparators {
      *
      * Can set in {@link TreeTableModel#setGroupingComparator(Comparator)}.
      */
-<span class="nc" id="L54">    public static final Comparator&lt;TreeNode&gt; ALLOWS_CHILDREN = (o1, o2) -&gt; {</span>
+<span class="fc" id="L54">    public static final Comparator&lt;TreeNode&gt; ALLOWS_CHILDREN = (o1, o2) -&gt; {</span>
 <span class="nc" id="L55">        final boolean o1AllowsChildren = o1.getAllowsChildren();</span>
 <span class="nc bnc" id="L56" title="All 4 branches missed.">        return o1AllowsChildren == o2.getAllowsChildren() ? 0 : o1AllowsChildren ? -1 : 1;</span>
     };
@@ -66,7 +66,7 @@ public final class Comparators {
      *
      * Can set in {@link TreeTableModel#setGroupingComparator(Comparator)}.
      */
-<span class="nc" id="L69">    public static final Comparator&lt;TreeNode&gt; ALLOWS_CHILDREN_DESCENDING = (o1, o2) -&gt; {</span>
+<span class="fc" id="L69">    public static final Comparator&lt;TreeNode&gt; ALLOWS_CHILDREN_DESCENDING = (o1, o2) -&gt; {</span>
 <span class="nc" id="L70">        final boolean o1AllowsChildren = o1.getAllowsChildren();</span>
 <span class="nc bnc" id="L71" title="All 4 branches missed.">        return o1AllowsChildren == o2.getAllowsChildren() ? 0 : o1AllowsChildren ? 1 : -1;</span>
     };
@@ -81,7 +81,7 @@ public final class Comparators {
      *
      * Can set in {@link TreeTableModel#setGroupingComparator(Comparator)}.
      */
-<span class="nc" id="L84">    public static final Comparator&lt;TreeNode&gt; HAS_CHILDREN = (o1, o2) -&gt; {</span>
+<span class="fc" id="L84">    public static final Comparator&lt;TreeNode&gt; HAS_CHILDREN = (o1, o2) -&gt; {</span>
 <span class="nc bnc" id="L85" title="All 2 branches missed.">        final boolean o1HasChildren = o1.getChildCount() &gt; 0;</span>
 <span class="nc bnc" id="L86" title="All 6 branches missed.">        return o1HasChildren == o2.getChildCount() &gt; 0 ? 0 : o1HasChildren ? -1 : 1;</span>
     };
@@ -96,7 +96,7 @@ public final class Comparators {
      *
      * Can set in {@link TreeTableModel#setGroupingComparator(Comparator)}.
      */
-<span class="nc" id="L99">    public static final Comparator&lt;TreeNode&gt; HAS_CHILDREN_DESCENDING = (o1, o2) -&gt; {</span>
+<span class="fc" id="L99">    public static final Comparator&lt;TreeNode&gt; HAS_CHILDREN_DESCENDING = (o1, o2) -&gt; {</span>
 <span class="nc bnc" id="L100" title="All 2 branches missed.">        final boolean o1HasChildren = o1.getChildCount() &gt; 0;</span>
 <span class="nc bnc" id="L101" title="All 6 branches missed.">        return o1HasChildren == o2.getChildCount() &gt; 0 ? 0 : o1HasChildren ? 1 : -1;</span>
     };
@@ -111,7 +111,7 @@ public final class Comparators {
      *
      * Can set in {@link TreeTableModel#setGroupingComparator(Comparator)}.
      */
-<span class="nc" id="L114">    public static final Comparator&lt;TreeNode&gt; NUM_CHILDREN = Comparator.comparingInt(TreeNode::getChildCount);</span>
+<span class="fc" id="L114">    public static final Comparator&lt;TreeNode&gt; NUM_CHILDREN = Comparator.comparingInt(TreeNode::getChildCount);</span>
 
     /**
      * A static node comparator that groups nodes by the number of children they have, in descending order.
@@ -123,6 +123,6 @@ public final class Comparators {
      *
      * Can set in {@link TreeTableModel#setGroupingComparator(Comparator)}.
      */
-<span class="nc" id="L126">    public static final Comparator&lt;TreeNode&gt; NUM_CHILDREN_DESCENDING = (o1, o2) -&gt; o2.getChildCount() - o1.getChildCount();</span>
+<span class="pc" id="L126">    public static final Comparator&lt;TreeNode&gt; NUM_CHILDREN_DESCENDING = (o1, o2) -&gt; o2.getChildCount() - o1.getChildCount();</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

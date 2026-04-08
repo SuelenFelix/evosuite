@@ -46,20 +46,20 @@ public class TreeTableModelObjectArray extends TreeTableModel {
      * @throws IllegalArgumentException if columnModel is null.
      */
     public TreeTableModelObjectArray(TreeNode rootNode, TableColumnModel columnModel) {
-<span class="nc" id="L49">        super(rootNode);</span>
-<span class="nc" id="L50">        checkNull(columnModel, &quot;columnModel&quot;);</span>
-<span class="nc" id="L51">        this.columnModel = columnModel;</span>
-<span class="nc" id="L52">    }</span>
+<span class="fc" id="L49">        super(rootNode);</span>
+<span class="fc" id="L50">        checkNull(columnModel, &quot;columnModel&quot;);</span>
+<span class="fc" id="L51">        this.columnModel = columnModel;</span>
+<span class="fc" id="L52">    }</span>
 
     @Override
     public Object getColumnValue(TreeNode node, int column) {
-<span class="nc" id="L56">        final Object[] objects = TreeUtils.getUserObject(node);</span>
-<span class="nc bnc" id="L57" title="All 2 branches missed.">        return objects == null? null : objects[column];</span>
+<span class="fc" id="L56">        final Object[] objects = TreeUtils.getUserObject(node);</span>
+<span class="pc bpc" id="L57" title="1 of 2 branches missed.">        return objects == null? null : objects[column];</span>
     }
 
     @Override
     protected TableColumnModel createTableColumnModel() {
-<span class="nc" id="L62">        return columnModel;</span>
+<span class="fc" id="L62">        return columnModel;</span>
     }
 
 }

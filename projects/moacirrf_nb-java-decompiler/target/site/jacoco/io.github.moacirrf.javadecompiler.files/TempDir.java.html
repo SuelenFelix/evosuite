@@ -24,7 +24,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-<span class="nc" id="L27">public final class TempDir {</span>
+<span class="fc" id="L27">public final class TempDir {</span>
 
 <span class="fc" id="L29">    public static final String TEMP_DIR_PLUGIN = getProperty(&quot;java.io.tmpdir&quot;) + &quot;/nb_java_decompiler&quot;;</span>
 
@@ -52,8 +52,8 @@ import java.nio.file.Paths;
 
     private static void clearTempFolder(Path path) {
 <span class="fc" id="L54">        Exceptions.wrap(ExceptionHandler::handleException).run(() -&gt; {</span>
-<span class="pc bpc" id="L55" title="1 of 4 branches missed.">            if (Files.isDirectory(path) &amp;&amp; Files.list(path).count() &gt; 0) {</span>
-<span class="fc" id="L56">                Files.list(path).forEach(it -&gt; clearTempFolder(it));</span>
+<span class="pc bpc" id="L55" title="2 of 4 branches missed.">            if (Files.isDirectory(path) &amp;&amp; Files.list(path).count() &gt; 0) {</span>
+<span class="nc" id="L56">                Files.list(path).forEach(it -&gt; clearTempFolder(it));</span>
             }
 <span class="fc" id="L58">            path.toFile().setWritable(true);</span>
 <span class="fc" id="L59">            Files.deleteIfExists(path);</span>

@@ -72,12 +72,12 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * The current indentations at the border of the tree cell being rendered.
      * The left inset is set to indent the tree nodes.
      */
-<span class="nc" id="L75">    protected final Insets insets = new Insets(0, 0, 0, 0);</span>
+<span class="fc" id="L75">    protected final Insets insets = new Insets(0, 0, 0, 0);</span>
 
     /**
      * The number of pixels to indent per level of tree node.
      */
-<span class="nc" id="L80">    protected int pixelsPerLevel = DEFAULT_PIXELS_PER_LEVEL;</span>
+<span class="fc" id="L80">    protected int pixelsPerLevel = DEFAULT_PIXELS_PER_LEVEL;</span>
 
     /**
      * The label used to render expand or collapse handle icons.
@@ -118,13 +118,13 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @param treeTableModel The model to render cells for.
      * @throws IllegalArgumentException if the treeTableModel is null.
      */
-<span class="nc" id="L121">    public TreeCellRenderer(final TreeTableModel treeTableModel) {</span>
-<span class="nc bnc" id="L122" title="All 2 branches missed.">        if (treeTableModel == null) {</span>
-<span class="nc" id="L123">            throw new IllegalArgumentException(&quot;TreeTableModel cannot be null.&quot;);</span>
+<span class="fc" id="L121">    public TreeCellRenderer(final TreeTableModel treeTableModel) {</span>
+<span class="fc bfc" id="L122" title="All 2 branches covered.">        if (treeTableModel == null) {</span>
+<span class="fc" id="L123">            throw new IllegalArgumentException(&quot;TreeTableModel cannot be null.&quot;);</span>
         }
-<span class="nc" id="L125">        this.treeTableModel = treeTableModel;</span>
-<span class="nc" id="L126">        expandCollapseIconRenderer = new JLabel(&quot;&quot;, SwingConstants.RIGHT);</span>
-<span class="nc" id="L127">        expandCollapseIconRenderer.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, PADDING));</span>
+<span class="fc" id="L125">        this.treeTableModel = treeTableModel;</span>
+<span class="fc" id="L126">        expandCollapseIconRenderer = new JLabel(&quot;&quot;, SwingConstants.RIGHT);</span>
+<span class="fc" id="L127">        expandCollapseIconRenderer.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, PADDING));</span>
 <span class="nc" id="L128">        setExpandedIcon(UIManager.getIcon(&quot;Tree.expandedIcon&quot;));</span>
 <span class="nc" id="L129">        setCollapsedIcon(UIManager.getIcon(&quot;Tree.collapsedIcon&quot;));</span>
 <span class="nc" id="L130">        setBorder(new ExpandHandleBorder()); // The border paints the expand/collapse handles and handles the indentation of the node from the left.</span>
@@ -159,8 +159,8 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
 
     @Override
     public Dimension getPreferredSize() {
-<span class="nc" id="L162">        Dimension value = super.getPreferredSize();</span>
-<span class="nc bnc" id="L163" title="All 2 branches missed.">        if(value != null) {</span>
+<span class="fc" id="L162">        Dimension value = super.getPreferredSize();</span>
+<span class="pc bpc" id="L163" title="1 of 2 branches missed.">        if(value != null) {</span>
 <span class="nc" id="L164">            value = new Dimension(value.width + insets.left, value.height);</span>
         }
 <span class="nc" id="L166">        return value;</span>
@@ -183,7 +183,7 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @return The number of pixels per level of tree indent.
      */
     public int getPixelsPerLevel() {
-<span class="nc" id="L186">        return pixelsPerLevel;</span>
+<span class="fc" id="L186">        return pixelsPerLevel;</span>
     }
 
     /**
@@ -191,30 +191,30 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @param pixelsPerLevel the number of pixels per level of tree indent.
      */
     public void setPixelsPerLevel(final int pixelsPerLevel) {
-<span class="nc" id="L194">        this.pixelsPerLevel = pixelsPerLevel;</span>
-<span class="nc" id="L195">    }</span>
+<span class="fc" id="L194">        this.pixelsPerLevel = pixelsPerLevel;</span>
+<span class="fc" id="L195">    }</span>
 
     /**
      * Sets the icon to use to indicate an expanded tree node.
      * @param expandedIcon the icon to use to indicate an expanded tree node.
      */
     public void setExpandedIcon(final Icon expandedIcon) {
-<span class="nc" id="L202">        this.expandedIcon = expandedIcon;</span>
-<span class="nc" id="L203">        setMaxIconWidth();</span>
-<span class="nc" id="L204">    }</span>
+<span class="fc" id="L202">        this.expandedIcon = expandedIcon;</span>
+<span class="fc" id="L203">        setMaxIconWidth();</span>
+<span class="fc" id="L204">    }</span>
 
     /**
      * Sets the icon to use to indicate a collapsed tree node.
      * @param collapsedIcon the icon to use to indicate a collapsed tree node.
      */
     public void setCollapsedIcon(final Icon collapsedIcon) {
-<span class="nc" id="L211">        this.collapsedIcon = collapsedIcon;</span>
-<span class="nc" id="L212">        setMaxIconWidth();</span>
-<span class="nc" id="L213">    }</span>
+<span class="fc" id="L211">        this.collapsedIcon = collapsedIcon;</span>
+<span class="fc" id="L212">        setMaxIconWidth();</span>
+<span class="fc" id="L213">    }</span>
 
     @Override
     public String toString() {
-<span class="nc" id="L217">        return getClass().getSimpleName() + '('+ treeTableModel + ')';</span>
+<span class="fc" id="L217">        return getClass().getSimpleName() + '('+ treeTableModel + ')';</span>
     }
 
     /**
@@ -314,7 +314,7 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @return The text to use for a tooltip for this cell.
      */
     protected String getToolTipText(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
-<span class="nc bnc" id="L317" title="All 2 branches missed.">        return value == null ? &quot;&quot; : value.toString();</span>
+<span class="pc bpc" id="L317" title="1 of 2 branches missed.">        return value == null ? &quot;&quot; : value.toString();</span>
     }
 
     /**
@@ -328,7 +328,7 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @return The value to render for this cell.
      */
     protected Object getValue(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
-<span class="nc" id="L331">        return value;</span>
+<span class="fc" id="L331">        return value;</span>
     }
 
     /**
@@ -361,13 +361,13 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
     protected void setAdditionalProperties(final TreeNode treeNode, final JTable table, final Object value,
                                            final boolean isSelected, final boolean hasFocus, final int row, final int column) {
         // No implementation here; subclasses can use this to set whatever addditional properties they like.
-<span class="nc" id="L364">    }</span>
+<span class="fc" id="L364">    }</span>
 
     /**
      * @return The node which will be rendered if painted.
      */
     protected TreeNode getCurrentNode() {
-<span class="nc" id="L370">        return currentNode;</span>
+<span class="fc" id="L370">        return currentNode;</span>
     }
 
     /**
@@ -375,8 +375,8 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @param node The node to set.
      */
     protected final void setNode(final TreeNode node) {
-<span class="nc" id="L378">        currentNode = node;</span>
-<span class="nc" id="L379">    }</span>
+<span class="fc" id="L378">        currentNode = node;</span>
+<span class="fc" id="L379">    }</span>
 
     /**
      * Gets the icon for the node.  By default, this implementation fetches the node from the tree table model,
@@ -409,10 +409,10 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * Sets the maximum icon width to be the biggest of the expand icon and the collapse icon.
      */
     protected final void setMaxIconWidth() {
-<span class="nc bnc" id="L412" title="All 2 branches missed.">        int expandedWidth = expandedIcon == null? 0 : expandedIcon.getIconWidth();</span>
-<span class="nc bnc" id="L413" title="All 2 branches missed.">        int collapsedWidth = collapsedIcon == null? 0 : collapsedIcon.getIconWidth();</span>
-<span class="nc" id="L414">        maxIconWidth = Math.max(expandedWidth, collapsedWidth);</span>
-<span class="nc" id="L415">    }</span>
+<span class="pc bpc" id="L412" title="1 of 2 branches missed.">        int expandedWidth = expandedIcon == null? 0 : expandedIcon.getIconWidth();</span>
+<span class="pc bpc" id="L413" title="1 of 2 branches missed.">        int collapsedWidth = collapsedIcon == null? 0 : collapsedIcon.getIconWidth();</span>
+<span class="fc" id="L414">        maxIconWidth = Math.max(expandedWidth, collapsedWidth);</span>
+<span class="fc" id="L415">    }</span>
 
     /**
      * @return The number of pixels to indent for a node.
@@ -425,7 +425,7 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
     /**
      * A class which provides an expanded border to render the tree expand/collapse handle icon, indented by insets.left.
      */
-<span class="nc" id="L428">    protected class ExpandHandleBorder implements Border {</span>
+<span class="fc" id="L428">    protected class ExpandHandleBorder implements Border {</span>
 
         @Override
         public void paintBorder(final Component c, final Graphics g, final int x, final int y,
@@ -445,7 +445,7 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
 
         @Override
         public boolean isBorderOpaque() {
-<span class="nc" id="L448">            return false;</span>
+<span class="fc" id="L448">            return false;</span>
         }
     }
 

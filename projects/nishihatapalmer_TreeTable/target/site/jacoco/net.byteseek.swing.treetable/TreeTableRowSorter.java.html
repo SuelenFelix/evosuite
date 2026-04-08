@@ -63,7 +63,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      *                                                Constants
      */
 
-<span class="nc" id="L66">    protected static final int[] EMPTY_ARRAY = new int[0];</span>
+<span class="fc" id="L66">    protected static final int[] EMPTY_ARRAY = new int[0];</span>
 
     /**
      * Amount the SortRow array is expanded by over the new row count when it needs to resize to be bigger.
@@ -85,17 +85,17 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
     /**
      * The list of current sort keys.  This must not be null, but it can be empty.
      */
-<span class="nc" id="L88">    protected List&lt;SortKey&gt; sortKeys = Collections.emptyList();</span>
+<span class="fc" id="L88">    protected List&lt;SortKey&gt; sortKeys = Collections.emptyList();</span>
 
     /**
      * The list of default sort keys which are used if no other sort specified.
      */
-<span class="nc" id="L93">    protected List&lt;? extends SortKey&gt; defaultSortKeys = Collections.emptyList();</span>
+<span class="fc" id="L93">    protected List&lt;? extends SortKey&gt; defaultSortKeys = Collections.emptyList();</span>
 
     /**
      * A set of column model indexes which are not sortable.
      */
-<span class="nc" id="L98">    protected Set&lt;Integer&gt; unsortableColumns = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L98">    protected Set&lt;Integer&gt; unsortableColumns = new HashSet&lt;&gt;();</span>
 
     /**
      * The node comparator to use to compare nodes.
@@ -160,8 +160,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @throws IllegalArgumentException if the model passed in is null.
      */
     public TreeTableRowSorter(final TreeTableModel model) {
-<span class="nc" id="L163">        this(model, Collections.emptyList());</span>
-<span class="nc" id="L164">    }</span>
+<span class="fc" id="L163">        this(model, Collections.emptyList());</span>
+<span class="fc" id="L164">    }</span>
 
     /**
      * Constructs a TreeTableRowSorter given a TreeTableModel and one or more default sort keys.
@@ -178,8 +178,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @throws IllegalArgumentException if the model passed in is null.
      */
     public TreeTableRowSorter(final TreeTableModel model, final SortKey... defaultSortKeys) {
-<span class="nc" id="L181">        this(model, List.of(defaultSortKeys));</span>
-<span class="nc" id="L182">    }</span>
+<span class="fc" id="L181">        this(model, List.of(defaultSortKeys));</span>
+<span class="fc" id="L182">    }</span>
 
     /**
      * Constructs a TreeTableRowSorter given a TreeTableModel, and the list of default sort keys to use if no
@@ -196,17 +196,17 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param defaultSortKeys The default sort if no other sort is defined.  Can be empty or null if not defined.
      * @throws IllegalArgumentException if the model passed in is null.
      */
-<span class="nc" id="L199">    public TreeTableRowSorter(final TreeTableModel model, final List&lt;? extends SortKey&gt; defaultSortKeys) {</span>
-<span class="nc bnc" id="L200" title="All 2 branches missed.">        if (model == null) {</span>
-<span class="nc" id="L201">            throw new IllegalArgumentException(&quot;Must supply a non null TreeTableModel.&quot;);</span>
+<span class="fc" id="L199">    public TreeTableRowSorter(final TreeTableModel model, final List&lt;? extends SortKey&gt; defaultSortKeys) {</span>
+<span class="fc bfc" id="L200" title="All 2 branches covered.">        if (model == null) {</span>
+<span class="fc" id="L201">            throw new IllegalArgumentException(&quot;Must supply a non null TreeTableModel.&quot;);</span>
         }
-<span class="nc" id="L203">        this.model = model;</span>
-<span class="nc" id="L204">        this.nodeComparator = new TreeNodeComparator(model);</span>
-<span class="nc" id="L205">        setDefaultSortKeys(defaultSortKeys);</span>
-<span class="nc" id="L206">        setSortKeys(this.defaultSortKeys);</span>
-<span class="nc" id="L207">        rebuildIndices = true;</span>
-<span class="nc" id="L208">        buildSortIndices();</span>
-<span class="nc" id="L209">    }</span>
+<span class="fc" id="L203">        this.model = model;</span>
+<span class="fc" id="L204">        this.nodeComparator = new TreeNodeComparator(model);</span>
+<span class="fc" id="L205">        setDefaultSortKeys(defaultSortKeys);</span>
+<span class="fc" id="L206">        setSortKeys(this.defaultSortKeys);</span>
+<span class="fc" id="L207">        rebuildIndices = true;</span>
+<span class="fc" id="L208">        buildSortIndices();</span>
+<span class="fc" id="L209">    }</span>
 
 
     /* *****************************************************************************************************************
@@ -216,12 +216,12 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
 
     @Override
     public TreeTableModel getModel() {
-<span class="nc" id="L219">        return model;</span>
+<span class="fc" id="L219">        return model;</span>
     }
 
     @Override
     public void toggleSortOrder(final int column) {
-<span class="nc bnc" id="L224" title="All 2 branches missed.">        if (isSortable(column)) {</span>
+<span class="pc bpc" id="L224" title="1 of 2 branches missed.">        if (isSortable(column)) {</span>
 <span class="nc" id="L225">            checkValidColumn(column);</span>
 <span class="nc" id="L226">            setSortKeys(getSortStrategy().buildNewSortKeys(column, sortKeys));</span>
         }
@@ -229,54 +229,54 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
 
     @Override
     public int convertRowIndexToModel(final int index) {
-<span class="nc" id="L232">        checkValidIndex(index, model.getRowCount());</span>
-<span class="nc bnc" id="L233" title="All 2 branches missed.">        return isSorting() ? viewToModelIndex[index].modelIndex : index;</span>
+<span class="fc" id="L232">        checkValidIndex(index, model.getRowCount());</span>
+<span class="fc bfc" id="L233" title="All 2 branches covered.">        return isSorting() ? viewToModelIndex[index].modelIndex : index;</span>
     }
 
     @Override
     public int convertRowIndexToView(final int index) {
-<span class="nc" id="L238">        checkValidIndex(index, model.getRowCount());</span>
-<span class="nc bnc" id="L239" title="All 2 branches missed.">        return isSorting() ? modelToViewIndex[index] : index;</span>
+<span class="fc" id="L238">        checkValidIndex(index, model.getRowCount());</span>
+<span class="pc bpc" id="L239" title="1 of 2 branches missed.">        return isSorting() ? modelToViewIndex[index] : index;</span>
     }
 
     @Override
     public void setSortKeys(final List&lt;? extends SortKey&gt; keys) {
-<span class="nc bnc" id="L244" title="All 4 branches missed.">        final List&lt;? extends SortKey&gt; newKeys = keys == null || keys.isEmpty() ? defaultSortKeys : keys;</span>
-<span class="nc bnc" id="L245" title="All 2 branches missed.">        if (!sortKeys.equals(newKeys)) {</span>
-<span class="nc" id="L246">            this.sortKeys = getSortableKeys(newKeys);</span>
+<span class="fc bfc" id="L244" title="All 4 branches covered.">        final List&lt;? extends SortKey&gt; newKeys = keys == null || keys.isEmpty() ? defaultSortKeys : keys;</span>
+<span class="fc bfc" id="L245" title="All 2 branches covered.">        if (!sortKeys.equals(newKeys)) {</span>
+<span class="fc" id="L246">            this.sortKeys = getSortableKeys(newKeys);</span>
             /* Note on event ordering:
              * Sort order changed is fired before the sort indices are rebuilt, as is done for DefaultRowSorter.
              * The documentation for RowSorterEvent states that this message is fired first and is typically
              * followed by a SORTED message that indicates the sort order of the contents has actually been modified,
              * which will be sent when the sort indices are rebuilt.
              */
-<span class="nc" id="L253">            fireSortOrderChanged();</span>
-<span class="nc" id="L254">            buildSortIndices();</span>
+<span class="fc" id="L253">            fireSortOrderChanged();</span>
+<span class="fc" id="L254">            buildSortIndices();</span>
         }
-<span class="nc" id="L256">    }</span>
+<span class="fc" id="L256">    }</span>
 
     /**
      * @param keys The list of keys, which may contain columns that are not sortable.
      * @return A new list of keys that only has sortable columns in it.
      */
     protected List&lt;SortKey&gt; getSortableKeys(final List&lt;? extends SortKey&gt; keys) {
-<span class="nc" id="L263">        final List&lt;SortKey&gt; list = new ArrayList&lt;&gt;();</span>
-<span class="nc bnc" id="L264" title="All 2 branches missed.">        for (SortKey sortkey : keys) {</span>
-<span class="nc bnc" id="L265" title="All 2 branches missed.">            if (!unsortableColumns.contains(sortkey.getColumn())) {</span>
-<span class="nc" id="L266">                list.add(sortkey);</span>
+<span class="fc" id="L263">        final List&lt;SortKey&gt; list = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L264" title="All 2 branches covered.">        for (SortKey sortkey : keys) {</span>
+<span class="pc bpc" id="L265" title="1 of 2 branches missed.">            if (!unsortableColumns.contains(sortkey.getColumn())) {</span>
+<span class="fc" id="L266">                list.add(sortkey);</span>
             }
-<span class="nc" id="L268">        }</span>
-<span class="nc" id="L269">        return list;</span>
+<span class="fc" id="L268">        }</span>
+<span class="fc" id="L269">        return list;</span>
     }
 
     @Override
     public List&lt;? extends SortKey&gt; getSortKeys() {
-<span class="nc" id="L274">        return sortKeys;</span>
+<span class="fc" id="L274">        return sortKeys;</span>
     }
 
     @Override
     public int getViewRowCount() {
-<span class="nc" id="L279">        return model.getRowCount();</span>
+<span class="fc" id="L279">        return model.getRowCount();</span>
     }
 
     /**
@@ -295,45 +295,45 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      */
     @Override
     public int getModelRowCount() {
-<span class="nc" id="L298">        return model.getRowCount();</span>
+<span class="fc" id="L298">        return model.getRowCount();</span>
     }
 
     @Override
     public void modelStructureChanged() {
-<span class="nc" id="L303">        buildSortIndices();</span>
-<span class="nc" id="L304">    }</span>
+<span class="fc" id="L303">        buildSortIndices();</span>
+<span class="fc" id="L304">    }</span>
 
     @Override
     public void allRowsChanged() {
-<span class="nc" id="L308">        buildSortIndices();</span>
-<span class="nc" id="L309">    }</span>
+<span class="fc" id="L308">        buildSortIndices();</span>
+<span class="fc" id="L309">    }</span>
 
     @Override
     public void rowsInserted(final int firstModelIndex, final int endModelIndex) {
-<span class="nc" id="L313">        checkRangeIndices(firstModelIndex, endModelIndex);</span>
-<span class="nc bnc" id="L314" title="All 2 branches missed.">        if (rebuildIndices) {</span>
-<span class="nc" id="L315">            buildSortIndices();</span>
+<span class="fc" id="L313">        checkRangeIndices(firstModelIndex, endModelIndex);</span>
+<span class="fc bfc" id="L314" title="All 2 branches covered.">        if (rebuildIndices) {</span>
+<span class="fc" id="L315">            buildSortIndices();</span>
         } else {
-<span class="nc" id="L317">            insertSortIndices(firstModelIndex, endModelIndex);</span>
+<span class="fc" id="L317">            insertSortIndices(firstModelIndex, endModelIndex);</span>
         }
-<span class="nc" id="L319">    }</span>
+<span class="fc" id="L319">    }</span>
 
     @Override
     public void rowsDeleted(final int firstModelIndex, final int endModelIndex) {
         //checkRangeIndices(firstModelIndex, endModelIndex); // can only check indices *before* the change, not after.
-<span class="nc bnc" id="L324" title="All 2 branches missed.">        if (rebuildIndices) {</span>
-<span class="nc" id="L325">            buildSortIndices();</span>
+<span class="fc bfc" id="L324" title="All 2 branches covered.">        if (rebuildIndices) {</span>
+<span class="fc" id="L325">            buildSortIndices();</span>
         } else {
-<span class="nc" id="L327">            removeSortIndices(firstModelIndex, endModelIndex);</span>
+<span class="fc" id="L327">            removeSortIndices(firstModelIndex, endModelIndex);</span>
         }
-<span class="nc" id="L329">    }</span>
+<span class="fc" id="L329">    }</span>
 
     @Override
     public void rowsUpdated(final int firstModelIndex, final int endModelIndex) {
         //TODO: check assumption about not updating if all of the updates are not within the rows?  Should we update the ones that *are* within?
-<span class="nc bnc" id="L334" title="All 2 branches missed.">        if (isSorting()) {</span>
-<span class="nc" id="L335">            checkValidLastKnownIndices(firstModelIndex, endModelIndex);</span>
-<span class="nc bnc" id="L336" title="All 4 branches missed.">            if (rebuildIndices || endModelIndex &gt; firstModelIndex) {</span>
+<span class="fc bfc" id="L334" title="All 2 branches covered.">        if (isSorting()) {</span>
+<span class="fc" id="L335">            checkValidLastKnownIndices(firstModelIndex, endModelIndex);</span>
+<span class="pc bpc" id="L336" title="3 of 4 branches missed.">            if (rebuildIndices || endModelIndex &gt; firstModelIndex) {</span>
                 /*
                  * Rebuild if required, or if we update more than one row.
                  * If updating more than one row, it gets a little complex to determine the most efficient set of nodes to re-sort.
@@ -342,19 +342,19 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
                  * All code in standard Java Swing and in net.byteseek only ever updates a single row at a time,
                  * which happens when a column value is set on a node.
                  */
-<span class="nc" id="L345">                buildSortIndices();</span>
+<span class="fc" id="L345">                buildSortIndices();</span>
             } else {
 <span class="nc" id="L347">                updateSortIndices(firstModelIndex);</span>
             }
         }
-<span class="nc" id="L350">    }</span>
+<span class="fc" id="L350">    }</span>
 
     @Override
     public void rowsUpdated(final int firstModelIndex, final int endModelIndex, final int column) {
-<span class="nc bnc" id="L354" title="All 2 branches missed.">        if (TableUtils.columnInSortKeys(sortKeys, column)) {</span>
+<span class="fc bfc" id="L354" title="All 2 branches covered.">        if (TableUtils.columnInSortKeys(sortKeys, column)) {</span>
 <span class="nc" id="L355">            rowsUpdated(firstModelIndex, endModelIndex);</span>
         }
-<span class="nc" id="L357">    }</span>
+<span class="fc" id="L357">    }</span>
 
 
     /* *****************************************************************************************************************
@@ -365,7 +365,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @return true if we are sorting.
      */
     public boolean isSorting() {
-<span class="nc bnc" id="L368" title="All 2 branches missed.">        return viewToModelIndex != null; // invariant assumption: sorting if viewToModel index is not null.</span>
+<span class="fc bfc" id="L368" title="All 2 branches covered.">        return viewToModelIndex != null; // invariant assumption: sorting if viewToModel index is not null.</span>
     }
 
     /**
@@ -377,7 +377,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @return Whether the column with the model index provided is sortable.
      */
     public boolean isSortable(final int column) {
-<span class="nc bnc" id="L380" title="All 2 branches missed.">        return !unsortableColumns.contains(Integer.valueOf(column));</span>
+<span class="pc bpc" id="L380" title="1 of 2 branches missed.">        return !unsortableColumns.contains(Integer.valueOf(column));</span>
     }
 
     /**
@@ -386,25 +386,25 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param isSortable Whether the column is sortable or not.
      */
     public void setSortable(final int column, final boolean isSortable) {
-<span class="nc bnc" id="L389" title="All 2 branches missed.">        if (isSortable) {</span>
-<span class="nc" id="L390">            unsortableColumns.remove(Integer.valueOf(column));</span>
+<span class="fc bfc" id="L389" title="All 2 branches covered.">        if (isSortable) {</span>
+<span class="fc" id="L390">            unsortableColumns.remove(Integer.valueOf(column));</span>
         } else {
-<span class="nc" id="L392">            unsortableColumns.add(Integer.valueOf(column));</span>
+<span class="fc" id="L392">            unsortableColumns.add(Integer.valueOf(column));</span>
         }
-<span class="nc" id="L394">    }</span>
+<span class="fc" id="L394">    }</span>
 
     /**
      * Sets all columns to be sortable.
      */
     public void setAllColumnsSortable() {
-<span class="nc" id="L400">        unsortableColumns.clear();</span>
-<span class="nc" id="L401">    }</span>
+<span class="fc" id="L400">        unsortableColumns.clear();</span>
+<span class="fc" id="L401">    }</span>
 
     /**
      * @return the node comparator currently being used to compare node values.
      */
     public Comparator&lt;TreeNode&gt; getNodeComparator() {
-<span class="nc" id="L407">        return nodeComparator;</span>
+<span class="fc" id="L407">        return nodeComparator;</span>
     }
 
     /**
@@ -413,17 +413,17 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param nodeComparator The node comparator to use.
      */
     public void setNodeComparator(final Comparator&lt;TreeNode&gt; nodeComparator) {
-<span class="nc" id="L416">        this.nodeComparator = nodeComparator;</span>
-<span class="nc" id="L417">    }</span>
+<span class="fc" id="L416">        this.nodeComparator = nodeComparator;</span>
+<span class="fc" id="L417">    }</span>
 
     /**
      * @return the SortStrategy for this RowSorter.  If none is defined, a {@link TreeTableColumnSortStrategy} will be created.
      */
     public ColumnSortStrategy getSortStrategy() {
-<span class="nc bnc" id="L423" title="All 2 branches missed.">        if (sortStrategy == null) {</span>
-<span class="nc" id="L424">            sortStrategy = new TreeTableColumnSortStrategy();</span>
+<span class="fc bfc" id="L423" title="All 2 branches covered.">        if (sortStrategy == null) {</span>
+<span class="fc" id="L424">            sortStrategy = new TreeTableColumnSortStrategy();</span>
         }
-<span class="nc" id="L426">        return sortStrategy;</span>
+<span class="fc" id="L426">        return sortStrategy;</span>
     }
 
     /**
@@ -432,19 +432,19 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param sortStrategy The TreeTableColumnSortStrategy to use, or null if the default should be used.
      */
     public void setSortStrategy(final ColumnSortStrategy sortStrategy) {
-<span class="nc bnc" id="L435" title="All 2 branches missed.">        if (sortStrategy == null) {</span>
-<span class="nc" id="L436">            this.sortStrategy = new TreeTableColumnSortStrategy();</span>
+<span class="fc bfc" id="L435" title="All 2 branches covered.">        if (sortStrategy == null) {</span>
+<span class="fc" id="L436">            this.sortStrategy = new TreeTableColumnSortStrategy();</span>
         } else {
-<span class="nc" id="L438">            this.sortStrategy = sortStrategy;</span>
+<span class="fc" id="L438">            this.sortStrategy = sortStrategy;</span>
         }
-<span class="nc" id="L440">    }</span>
+<span class="fc" id="L440">    }</span>
 
     /**
      * Gets the list of sort keys to use if no other sort is defined.
      * @return The list of sort keys to use if no other sort is defined.
      */
     public List&lt;? extends SortKey&gt; getDefaultSortKeys() {
-<span class="nc" id="L447">        return defaultSortKeys;</span>
+<span class="fc" id="L447">        return defaultSortKeys;</span>
     }
 
     /**
@@ -453,22 +453,22 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      */
     public void setDefaultSortKeys(final List&lt;? extends SortKey&gt; newDefaults) {
         // Set the default sort keys to an unmodifiable list.
-<span class="nc bnc" id="L456" title="All 2 branches missed.">        if (newDefaults == null) {</span>
-<span class="nc" id="L457">            this.defaultSortKeys = Collections.emptyList();</span>
+<span class="fc bfc" id="L456" title="All 2 branches covered.">        if (newDefaults == null) {</span>
+<span class="fc" id="L457">            this.defaultSortKeys = Collections.emptyList();</span>
         } else {
-<span class="nc" id="L459">            List&lt;? extends SortKey&gt; noNullElementList = newDefaults.stream().filter(Objects::nonNull).collect(Collectors.toList());</span>
-<span class="nc bnc" id="L460" title="All 2 branches missed.">            this.defaultSortKeys = noNullElementList.isEmpty() ? Collections.emptyList() : Collections.unmodifiableList(noNullElementList);</span>
+<span class="fc" id="L459">            List&lt;? extends SortKey&gt; noNullElementList = newDefaults.stream().filter(Objects::nonNull).collect(Collectors.toList());</span>
+<span class="fc bfc" id="L460" title="All 2 branches covered.">            this.defaultSortKeys = noNullElementList.isEmpty() ? Collections.emptyList() : Collections.unmodifiableList(noNullElementList);</span>
         }
 
         // If the default sort keys are not empty, and we don't have any sort keys set, set sort keys to the defaults:
-<span class="nc bnc" id="L464" title="All 6 branches missed.">        if (!defaultSortKeys.isEmpty() &amp;&amp; (sortKeys == null || sortKeys.isEmpty())) {</span>
-<span class="nc" id="L465">            setSortKeys(newDefaults);</span>
+<span class="pc bpc" id="L464" title="1 of 6 branches missed.">        if (!defaultSortKeys.isEmpty() &amp;&amp; (sortKeys == null || sortKeys.isEmpty())) {</span>
+<span class="fc" id="L465">            setSortKeys(newDefaults);</span>
         }
-<span class="nc" id="L467">    }</span>
+<span class="fc" id="L467">    }</span>
 
     @Override
     public String toString() {
-<span class="nc" id="L471">        return getClass().getSimpleName() + '(' + model + ')';</span>
+<span class="fc" id="L471">        return getClass().getSimpleName() + '(' + model + ')';</span>
     }
 
 
@@ -487,11 +487,11 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @return Whether node 1 is less than (&lt;0), equal to (=0) or greater than (&gt;0) node 2.
      */
     protected int compare(final int modelRowIndex1, final int modelRowIndex2) {
-<span class="nc" id="L490">        TreeNode firstNode = model.getNodeAtModelIndex(modelRowIndex1);</span>
-<span class="nc" id="L491">        TreeNode secondNode = model.getNodeAtModelIndex(modelRowIndex2);</span>
+<span class="fc" id="L490">        TreeNode firstNode = model.getNodeAtModelIndex(modelRowIndex1);</span>
+<span class="fc" id="L491">        TreeNode secondNode = model.getNodeAtModelIndex(modelRowIndex2);</span>
 
         // If the nodes don't already share a parent, we have to find two comparable parent nodes that do.
-<span class="nc bnc" id="L494" title="All 2 branches missed.">        if (firstNode.getParent() != secondNode.getParent()) {</span>
+<span class="pc bpc" id="L494" title="1 of 2 branches missed.">        if (firstNode.getParent() != secondNode.getParent()) {</span>
 
             // If the nodes are at different levels, walk one of them back, so they are at the same level as each other.
 <span class="nc" id="L497">            final int firstLevel = TreeUtils.getLevel(firstNode);</span>
@@ -518,8 +518,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
         }
 
         // Nodes share a common parent - compare values, falling back to the model index order if they're still equal.
-<span class="nc" id="L521">        final int comparison = nodeComparator.compare(firstNode, secondNode);</span>
-<span class="nc bnc" id="L522" title="All 2 branches missed.">        return comparison == EQUAL_VALUE ? modelRowIndex1 - modelRowIndex2 : comparison;</span>
+<span class="fc" id="L521">        final int comparison = nodeComparator.compare(firstNode, secondNode);</span>
+<span class="pc bpc" id="L522" title="1 of 2 branches missed.">        return comparison == EQUAL_VALUE ? modelRowIndex1 - modelRowIndex2 : comparison;</span>
     }
 
     /**
@@ -527,18 +527,18 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * and otherwise clears them.
      */
     protected void buildSortIndices() {
-<span class="nc bnc" id="L530" title="All 2 branches missed.">        if (needToSort()) {</span>
-<span class="nc" id="L531">            sort();</span>
+<span class="fc bfc" id="L530" title="All 2 branches covered.">        if (needToSort()) {</span>
+<span class="fc" id="L531">            sort();</span>
         } else {
-<span class="nc" id="L533">            clearSortIndices();</span>
+<span class="fc" id="L533">            clearSortIndices();</span>
         }
-<span class="nc" id="L535">    }</span>
+<span class="fc" id="L535">    }</span>
 
     /**
      * @return true if we have sort keys or a grouping comparator set.
      */
     protected boolean needToSort() {
-<span class="nc bnc" id="L541" title="All 4 branches missed.">        return sortKeys.size() &gt; 0 || model.getGroupingComparator() != null;</span>
+<span class="fc bfc" id="L541" title="All 4 branches covered.">        return sortKeys.size() &gt; 0 || model.getGroupingComparator() != null;</span>
     }
 
     /**
@@ -546,41 +546,41 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * Also fires a rowSorter change message if we were sorting before clearing the indices.
      */
     protected void clearSortIndices() {
-<span class="nc" id="L549">        final boolean wasSorting = isSorting();</span>
-<span class="nc bnc" id="L550" title="All 2 branches missed.">        final int[] previousViewToModelIndex = wasSorting? buildViewToModelAsInts() : null;</span>
-<span class="nc" id="L551">        viewToModelIndex = null;</span>
-<span class="nc" id="L552">        modelToViewIndex = null;</span>
-<span class="nc bnc" id="L553" title="All 2 branches missed.">        if (wasSorting) {</span>
+<span class="fc" id="L549">        final boolean wasSorting = isSorting();</span>
+<span class="fc bfc" id="L550" title="All 2 branches covered.">        final int[] previousViewToModelIndex = wasSorting? buildViewToModelAsInts() : null;</span>
+<span class="fc" id="L551">        viewToModelIndex = null;</span>
+<span class="fc" id="L552">        modelToViewIndex = null;</span>
+<span class="fc bfc" id="L553" title="All 2 branches covered.">        if (wasSorting) {</span>
 <span class="nc" id="L554">            fireRowSorterChanged(previousViewToModelIndex);</span>
         }
-<span class="nc" id="L556">    }</span>
+<span class="fc" id="L556">    }</span>
 
     /**
      * Creates sort indexes and notifies a sort change.
      */
     protected void sort() {
-<span class="nc" id="L562">        final int[] previousViewToModelIndex = buildViewToModelAsInts();</span>
-<span class="nc" id="L563">        buildViewToModelIndex();</span>
-<span class="nc" id="L564">        buildModelToViewIndex();</span>
-<span class="nc" id="L565">        fireRowSorterChanged(previousViewToModelIndex);</span>
-<span class="nc" id="L566">    }</span>
+<span class="fc" id="L562">        final int[] previousViewToModelIndex = buildViewToModelAsInts();</span>
+<span class="fc" id="L563">        buildViewToModelIndex();</span>
+<span class="fc" id="L564">        buildModelToViewIndex();</span>
+<span class="fc" id="L565">        fireRowSorterChanged(previousViewToModelIndex);</span>
+<span class="fc" id="L566">    }</span>
 
     /**
      * Builds an array of SortRows that have model indexes in ascending order.
      * These are then sorted using SortRow.compare, which in turn invokes the compare() method on this RowSorter.
      */
     protected void buildViewToModelIndex() {
-<span class="nc" id="L573">        SortRow[] localViewToModelIndex = viewToModelIndex;</span>
-<span class="nc" id="L574">        final int newRowCount = model.getRowCount();</span>
+<span class="fc" id="L573">        SortRow[] localViewToModelIndex = viewToModelIndex;</span>
+<span class="fc" id="L574">        final int newRowCount = model.getRowCount();</span>
 
         // If we don't have an index, or the index is too small, create a new one.
-<span class="nc bnc" id="L577" title="All 4 branches missed.">        if (localViewToModelIndex == null || localViewToModelIndex.length &lt; newRowCount) {</span>
-<span class="nc" id="L578">            viewToModelIndex = localViewToModelIndex = new SortRow[newRowCount + EXPAND_SORTROW_SIZE];</span>
+<span class="pc bpc" id="L577" title="1 of 4 branches missed.">        if (localViewToModelIndex == null || localViewToModelIndex.length &lt; newRowCount) {</span>
+<span class="fc" id="L578">            viewToModelIndex = localViewToModelIndex = new SortRow[newRowCount + EXPAND_SORTROW_SIZE];</span>
         }
-<span class="nc" id="L580">        createModelOrderRows(newRowCount);</span>
-<span class="nc" id="L581">        Arrays.sort(localViewToModelIndex, 0, newRowCount); // The array can be bigger than the row count - only sort the valid rows.</span>
-<span class="nc" id="L582">        lastRowCount = newRowCount;</span>
-<span class="nc" id="L583">    }</span>
+<span class="fc" id="L580">        createModelOrderRows(newRowCount);</span>
+<span class="fc" id="L581">        Arrays.sort(localViewToModelIndex, 0, newRowCount); // The array can be bigger than the row count - only sort the valid rows.</span>
+<span class="fc" id="L582">        lastRowCount = newRowCount;</span>
+<span class="fc" id="L583">    }</span>
 
     /**
      * Builds the reverse index, of the model to the view, given a view to model index.
@@ -588,18 +588,18 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * Must build the view to model index first.
      */
     protected void buildModelToViewIndex() {
-<span class="nc" id="L591">        final SortRow[] localViewToModelIndex = viewToModelIndex;</span>
-<span class="nc" id="L592">        int[] localModelToViewIndex = modelToViewIndex;</span>
+<span class="fc" id="L591">        final SortRow[] localViewToModelIndex = viewToModelIndex;</span>
+<span class="fc" id="L592">        int[] localModelToViewIndex = modelToViewIndex;</span>
 
         // if we don't have an index, or the existing array is less than the size of our view to model index, create one:
-<span class="nc bnc" id="L595" title="All 4 branches missed.">        if (localModelToViewIndex == null || localModelToViewIndex.length &lt; localViewToModelIndex.length) {</span>
-<span class="nc" id="L596">            modelToViewIndex = localModelToViewIndex = new int[localViewToModelIndex.length];</span>
+<span class="pc bpc" id="L595" title="1 of 4 branches missed.">        if (localModelToViewIndex == null || localModelToViewIndex.length &lt; localViewToModelIndex.length) {</span>
+<span class="fc" id="L596">            modelToViewIndex = localModelToViewIndex = new int[localViewToModelIndex.length];</span>
         }
-<span class="nc" id="L598">        final int numRows = model.getRowCount(); // The number of rows may not be the same as the size of the array (which can be bigger).</span>
-<span class="nc bnc" id="L599" title="All 2 branches missed.">        for (int viewIndex = 0; viewIndex &lt; numRows; viewIndex++) {</span>
-<span class="nc" id="L600">            localModelToViewIndex[localViewToModelIndex[viewIndex].modelIndex] = viewIndex;</span>
+<span class="fc" id="L598">        final int numRows = model.getRowCount(); // The number of rows may not be the same as the size of the array (which can be bigger).</span>
+<span class="fc bfc" id="L599" title="All 2 branches covered.">        for (int viewIndex = 0; viewIndex &lt; numRows; viewIndex++) {</span>
+<span class="fc" id="L600">            localModelToViewIndex[localViewToModelIndex[viewIndex].modelIndex] = viewIndex;</span>
         }
-<span class="nc" id="L602">    }</span>
+<span class="fc" id="L602">    }</span>
 
     /**
      * Builds a copy of the view to model index as an integer array.
@@ -611,16 +611,16 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @return An integer array containing the viewToModel index, or an empty array if there is no index.
      */
     protected int[] buildViewToModelAsInts() {
-<span class="nc" id="L614">        final SortRow[] localViewToModel = viewToModelIndex;</span>
-<span class="nc bnc" id="L615" title="All 2 branches missed.">        if (localViewToModel != null) {</span>
-<span class="nc" id="L616">            final int numRows = lastRowCount;</span>
-<span class="nc" id="L617">            final int[] result = new int[numRows]; // must be the length before any changes made to view model index.</span>
-<span class="nc bnc" id="L618" title="All 2 branches missed.">            for (int index = 0; index &lt; numRows; index++) {</span>
-<span class="nc" id="L619">                result[index] = localViewToModel[index].modelIndex;</span>
+<span class="fc" id="L614">        final SortRow[] localViewToModel = viewToModelIndex;</span>
+<span class="fc bfc" id="L615" title="All 2 branches covered.">        if (localViewToModel != null) {</span>
+<span class="fc" id="L616">            final int numRows = lastRowCount;</span>
+<span class="fc" id="L617">            final int[] result = new int[numRows]; // must be the length before any changes made to view model index.</span>
+<span class="fc bfc" id="L618" title="All 2 branches covered.">            for (int index = 0; index &lt; numRows; index++) {</span>
+<span class="fc" id="L619">                result[index] = localViewToModel[index].modelIndex;</span>
             }
-<span class="nc" id="L621">            return result;</span>
+<span class="fc" id="L621">            return result;</span>
         }
-<span class="nc" id="L623">        return EMPTY_ARRAY;</span>
+<span class="fc" id="L623">        return EMPTY_ARRAY;</span>
     }
 
     /**
@@ -629,15 +629,15 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param numRows The number of rows to define.
      */
     protected void createModelOrderRows(final int numRows) {
-<span class="nc" id="L632">        final SortRow[] sortRows = viewToModelIndex;</span>
-<span class="nc bnc" id="L633" title="All 2 branches missed.">        for (int index = 0; index &lt; numRows; index++) {</span>
-<span class="nc bnc" id="L634" title="All 2 branches missed.">            if (sortRows[index] == null) {</span>
-<span class="nc" id="L635">                sortRows[index] = new SortRow(this, index);</span>
+<span class="fc" id="L632">        final SortRow[] sortRows = viewToModelIndex;</span>
+<span class="fc bfc" id="L633" title="All 2 branches covered.">        for (int index = 0; index &lt; numRows; index++) {</span>
+<span class="fc bfc" id="L634" title="All 2 branches covered.">            if (sortRows[index] == null) {</span>
+<span class="fc" id="L635">                sortRows[index] = new SortRow(this, index);</span>
             } else {
-<span class="nc" id="L637">                sortRows[index].setModelIndex(index);</span>
+<span class="fc" id="L637">                sortRows[index].setModelIndex(index);</span>
             }
         }
-<span class="nc" id="L640">    }</span>
+<span class="fc" id="L640">    }</span>
 
 
    /* *****************************************************************************************************************
@@ -669,7 +669,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @return true if the sorter is set to rebuild the sort indices completely on any update.
      */
     public boolean getRebuildIndices() {
-<span class="nc" id="L672">        return rebuildIndices;</span>
+<span class="fc" id="L672">        return rebuildIndices;</span>
     }
 
     /**
@@ -687,8 +687,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      *                       should be rebuilt, and {@code false} indicates they should be patched.
      */
     public void setRebuildIndices(final boolean rebuildIndices) {
-<span class="nc" id="L690">        this.rebuildIndices = rebuildIndices;</span>
-<span class="nc" id="L691">    }</span>
+<span class="fc" id="L690">        this.rebuildIndices = rebuildIndices;</span>
+<span class="fc" id="L691">    }</span>
 
     /**
      * If sorting, updates an index or rebuilds it entirely if rebuild conditions are met,
@@ -699,8 +699,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      */
     protected void insertSortIndices(final int firstModelIndex, final int endModelIndex) {
         //TODO: check assumption that we throw exception if all of the inserts are not within the last row count?
-<span class="nc bnc" id="L702" title="All 2 branches missed.">        if (isSorting()) {</span>
-<span class="nc" id="L703">            checkValidLastKnownIndices(firstModelIndex, endModelIndex);</span>
+<span class="fc bfc" id="L702" title="All 2 branches covered.">        if (isSorting()) {</span>
+<span class="fc" id="L703">            checkValidLastKnownIndices(firstModelIndex, endModelIndex);</span>
 
             //TODO: turns out, you don't have to supply this.  If you do, selection and editing are preserved.  If you don't, they aren't.
             //      could make it configurable behaviour - if you want more efficient (not creating a new copy of the entire index on every update),
@@ -709,7 +709,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
             //insertSortedRowsToIndices(firstModelIndex, endModelIndex);
             //fireRowSorterChanged(oldViewToModel);
 
-<span class="nc" id="L712">            final int[] selectedIndices = getSelectedRows();</span>
+<span class="fc" id="L712">            final int[] selectedIndices = getSelectedRows();</span>
             try {
 <span class="nc" id="L714">                insertSortedRowsToIndices(firstModelIndex, endModelIndex);</span>
 <span class="nc" id="L715">                fireRowSorterChanged(null); // no prior index supplied.</span>
@@ -717,24 +717,24 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
 <span class="nc" id="L717">                restoreSelectedRows(selectedIndices);</span>
             }
         }
-<span class="nc" id="L720">    }</span>
+<span class="fc" id="L720">    }</span>
 
     protected int[] getSelectedRows() {
-<span class="nc" id="L723">        final ListSelectionModel selectModel = model.getSelectionModel();</span>
-<span class="nc bnc" id="L724" title="All 2 branches missed.">        if (selectModel != null) {</span>
+<span class="fc" id="L723">        final ListSelectionModel selectModel = model.getSelectionModel();</span>
+<span class="pc bpc" id="L724" title="1 of 2 branches missed.">        if (selectModel != null) {</span>
 <span class="nc" id="L725">            final int[] selectedIndices = model.getSelectedRowModelIndexes();</span>
 <span class="nc" id="L726">            selectModel.setValueIsAdjusting(true);</span>
 <span class="nc" id="L727">            selectModel.clearSelection();</span>
 <span class="nc" id="L728">            return selectedIndices;</span>
         }
-<span class="nc" id="L730">        return EMPTY_ARRAY;</span>
+<span class="fc" id="L730">        return EMPTY_ARRAY;</span>
     }
 
     protected void restoreSelectedRows(final int[] selectedIndices) {
-<span class="nc" id="L734">        final int[] localIndex = modelToViewIndex;</span>
-<span class="nc" id="L735">        final ListSelectionModel selectModel = model.getSelectionModel();</span>
-<span class="nc bnc" id="L736" title="All 2 branches missed.">        for (int i = 0; i &lt; selectedIndices.length; i++) {</span>
-<span class="nc" id="L737">            final int selectedViewIndex = localIndex[selectedIndices[i]];</span>
+<span class="fc" id="L734">        final int[] localIndex = modelToViewIndex;</span>
+<span class="fc" id="L735">        final ListSelectionModel selectModel = model.getSelectionModel();</span>
+<span class="pc bpc" id="L736" title="1 of 2 branches missed.">        for (int i = 0; i &lt; selectedIndices.length; i++) {</span>
+<span class="fc" id="L737">            final int selectedViewIndex = localIndex[selectedIndices[i]];</span>
 <span class="nc" id="L738">            selectModel.addSelectionInterval(selectedViewIndex, selectedViewIndex);</span>
         }
 <span class="nc" id="L740">        selectModel.setValueIsAdjusting(false);</span>
@@ -743,22 +743,22 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
 
     protected void removeSortIndices(final int firstModelIndex, final int endModelIndex) {
         //TODO: check assumption that we throw exception if all of the inserts are not within the last row count?
-<span class="nc bnc" id="L746" title="All 2 branches missed.">        if (isSorting()) {</span>
-<span class="nc" id="L747">            checkValidLastKnownIndices(firstModelIndex, endModelIndex);</span>
-<span class="nc" id="L748">            final int[] oldViewToModel = buildViewToModelAsInts();</span>
+<span class="fc bfc" id="L746" title="All 2 branches covered.">        if (isSorting()) {</span>
+<span class="fc" id="L747">            checkValidLastKnownIndices(firstModelIndex, endModelIndex);</span>
+<span class="fc" id="L748">            final int[] oldViewToModel = buildViewToModelAsInts();</span>
 <span class="nc" id="L749">            removeSortedRowsFromIndices(firstModelIndex, endModelIndex);</span>
 <span class="nc" id="L750">            fireRowSorterChanged(oldViewToModel);</span>
         }
-<span class="nc" id="L752">    }</span>
+<span class="fc" id="L752">    }</span>
 
     //TODO: check indices here?
     protected void updateSortIndices(final int modelIndex) {
-<span class="nc bnc" id="L756" title="All 2 branches missed.">        if (isSorting()) {</span>
-<span class="nc" id="L757">            final int[] oldViewToModel = buildViewToModelAsInts();</span>
-<span class="nc" id="L758">            updateSiblings(modelIndex);</span>
-<span class="nc" id="L759">            fireRowSorterChanged(oldViewToModel);</span>
+<span class="fc bfc" id="L756" title="All 2 branches covered.">        if (isSorting()) {</span>
+<span class="fc" id="L757">            final int[] oldViewToModel = buildViewToModelAsInts();</span>
+<span class="fc" id="L758">            updateSiblings(modelIndex);</span>
+<span class="fc" id="L759">            fireRowSorterChanged(oldViewToModel);</span>
         }
-<span class="nc" id="L761">    }</span>
+<span class="fc" id="L761">    }</span>
 
 
     /**
@@ -772,21 +772,21 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param modelIndex The model index of the node that is updating.
      */
     protected void updateSiblings(final int modelIndex) {
-<span class="nc" id="L775">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L776">        final TreeNode updatingNode = localModel.getNodeAtModelIndex(modelIndex);</span>
-<span class="nc bnc" id="L777" title="All 2 branches missed.">        if (localModel.isVisible(updatingNode)) {</span>
-<span class="nc" id="L778">            final int updatingNodeViewIndex = modelToViewIndex[modelIndex];</span>
+<span class="fc" id="L775">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L776">        final TreeNode updatingNode = localModel.getNodeAtModelIndex(modelIndex);</span>
+<span class="fc bfc" id="L777" title="All 2 branches covered.">        if (localModel.isVisible(updatingNode)) {</span>
+<span class="fc" id="L778">            final int updatingNodeViewIndex = modelToViewIndex[modelIndex];</span>
 
-<span class="nc" id="L780">            int newViewIndex = findNextInsertionViewIndex(updatingNode, updatingNodeViewIndex, modelIndex);</span>
-<span class="nc bnc" id="L781" title="All 2 branches missed.">            if (newViewIndex == updatingNodeViewIndex) {</span>
-<span class="nc" id="L782">                newViewIndex = findPreviousInsertionViewIndex(updatingNode, updatingNodeViewIndex, modelIndex);</span>
+<span class="fc" id="L780">            int newViewIndex = findNextInsertionViewIndex(updatingNode, updatingNodeViewIndex, modelIndex);</span>
+<span class="pc bpc" id="L781" title="1 of 2 branches missed.">            if (newViewIndex == updatingNodeViewIndex) {</span>
+<span class="fc" id="L782">                newViewIndex = findPreviousInsertionViewIndex(updatingNode, updatingNodeViewIndex, modelIndex);</span>
             }
 
-<span class="nc bnc" id="L785" title="All 2 branches missed.">            if (newViewIndex != updatingNodeViewIndex) {</span>
+<span class="pc bpc" id="L785" title="1 of 2 branches missed.">            if (newViewIndex != updatingNodeViewIndex) {</span>
 <span class="nc" id="L786">                moveNodeToSiblingPosition(updatingNode, updatingNodeViewIndex, newViewIndex);</span>
             }
         }
-<span class="nc" id="L789">    }</span>
+<span class="fc" id="L789">    }</span>
 
     /**
      * Scan forward from updated node to see if it belongs after those nodes - if siblings are smaller than the updated node.
@@ -798,50 +798,50 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param updatingNodeModelIndex the model index of the updating node.
      */
     protected int findNextInsertionViewIndex(TreeNode updatingNode, int updatedNodeViewIndex, int updatingNodeModelIndex) {
-<span class="nc" id="L801">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L802">        final int numRows = lastRowCount; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L803">        final SortRow[] localViewToModelIndex = viewToModelIndex; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L804">        final Comparator&lt;TreeNode&gt; localComparator = nodeComparator; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L805">        final TreeNode parent = updatingNode.getParent();</span>
+<span class="fc" id="L801">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L802">        final int numRows = lastRowCount; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L803">        final SortRow[] localViewToModelIndex = viewToModelIndex; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L804">        final Comparator&lt;TreeNode&gt; localComparator = nodeComparator; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L805">        final TreeNode parent = updatingNode.getParent();</span>
 
         /*
          * Loop while we find siblings that are smaller than our updated node.
          * We don't attempt to calculate how many siblings there might be, we can detect non siblings and stop.
          */
-<span class="nc" id="L811">        TreeNode currentNode = updatingNode;</span>
-<span class="nc" id="L812">        int lastGoodViewIndex = updatedNodeViewIndex;</span>
-<span class="nc" id="L813">        int nodeCompare = -1;</span>
-<span class="nc bnc" id="L814" title="All 2 branches missed.">        while (nodeCompare &lt; 0) {</span>
-<span class="nc" id="L815">            final int nextSiblingIndex = lastGoodViewIndex + 1 + localModel.getLastKnownSubTreeCount(currentNode);</span>
+<span class="fc" id="L811">        TreeNode currentNode = updatingNode;</span>
+<span class="fc" id="L812">        int lastGoodViewIndex = updatedNodeViewIndex;</span>
+<span class="fc" id="L813">        int nodeCompare = -1;</span>
+<span class="pc bpc" id="L814" title="1 of 2 branches missed.">        while (nodeCompare &lt; 0) {</span>
+<span class="fc" id="L815">            final int nextSiblingIndex = lastGoodViewIndex + 1 + localModel.getLastKnownSubTreeCount(currentNode);</span>
 
             // Stop if the next sibling would be past the number of available rows:
-<span class="nc bnc" id="L818" title="All 2 branches missed.">            if (nextSiblingIndex &gt;= numRows) {</span>
-<span class="nc" id="L819">                break;</span>
+<span class="fc bfc" id="L818" title="All 2 branches covered.">            if (nextSiblingIndex &gt;= numRows) {</span>
+<span class="fc" id="L819">                break;</span>
             }
 
-<span class="nc" id="L822">            final int siblingModelIndex = localViewToModelIndex[nextSiblingIndex].modelIndex;</span>
-<span class="nc" id="L823">            final TreeNode siblingNode = localModel.getNodeAtModelIndex(siblingModelIndex);</span>
+<span class="fc" id="L822">            final int siblingModelIndex = localViewToModelIndex[nextSiblingIndex].modelIndex;</span>
+<span class="fc" id="L823">            final TreeNode siblingNode = localModel.getNodeAtModelIndex(siblingModelIndex);</span>
 
             // Stop if the next &quot;sibling&quot; node doesn't have the same parent (not a sibling)
-<span class="nc bnc" id="L826" title="All 2 branches missed.">            if (siblingNode.getParent() != parent) {</span>
+<span class="pc bpc" id="L826" title="1 of 2 branches missed.">            if (siblingNode.getParent() != parent) {</span>
 <span class="nc" id="L827">                break;</span>
             }
 
-<span class="nc" id="L830">            nodeCompare = localComparator.compare(siblingNode, updatingNode);</span>
-<span class="nc bnc" id="L831" title="All 2 branches missed.">            if (nodeCompare == 0) { // If they are equal, compare on their model indexes to provide stable sort.</span>
-<span class="nc" id="L832">                nodeCompare = siblingModelIndex - updatingNodeModelIndex;</span>
+<span class="fc" id="L830">            nodeCompare = localComparator.compare(siblingNode, updatingNode);</span>
+<span class="pc bpc" id="L831" title="1 of 2 branches missed.">            if (nodeCompare == 0) { // If they are equal, compare on their model indexes to provide stable sort.</span>
+<span class="fc" id="L832">                nodeCompare = siblingModelIndex - updatingNodeModelIndex;</span>
             }
 
             // Stop if the next sibling is equal or bigger than our updated node.
-<span class="nc bnc" id="L836" title="All 2 branches missed.">            if (nodeCompare &gt;= 0) {</span>
-<span class="nc" id="L837">                break;</span>
+<span class="fc bfc" id="L836" title="All 2 branches covered.">            if (nodeCompare &gt;= 0) {</span>
+<span class="fc" id="L837">                break;</span>
             }
 
             // Set the current view index and node to be the node that is still smaller than our updating node:
-<span class="nc" id="L841">            lastGoodViewIndex = nextSiblingIndex;</span>
-<span class="nc" id="L842">            currentNode = siblingNode;</span>
-<span class="nc" id="L843">        }</span>
-<span class="nc" id="L844">        return lastGoodViewIndex;</span>
+<span class="fc" id="L841">            lastGoodViewIndex = nextSiblingIndex;</span>
+<span class="fc" id="L842">            currentNode = siblingNode;</span>
+<span class="fc" id="L843">        }</span>
+<span class="fc" id="L844">        return lastGoodViewIndex;</span>
     }
 
     /*
@@ -850,95 +850,95 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * until we find the parent node.  Only nodes that share the same parent are siblings.
      */
     protected int findPreviousInsertionViewIndex(TreeNode updatingNode, int updatingNodeViewIndex, int updatingNodeModelIndex) {
-<span class="nc" id="L853">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L854">        final SortRow[] localViewToModelIndex = viewToModelIndex; // avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L855">        final Comparator&lt;TreeNode&gt; localComparator = nodeComparator; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L853">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L854">        final SortRow[] localViewToModelIndex = viewToModelIndex; // avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L855">        final Comparator&lt;TreeNode&gt; localComparator = nodeComparator; // avoid repeated getField - use a local reference.</span>
 
         /*
          * Loop while we find siblings that are bigger than our updated node.
          * We don't attempt to calculate how many siblings there might be, we can detect non siblings and stop.
          */
-<span class="nc" id="L861">        final TreeNode parent = updatingNode.getParent();</span>
-<span class="nc" id="L862">        int lastGoodViewIndex = updatingNodeViewIndex;</span>
-<span class="nc" id="L863">        int nodeCompare = 1;</span>
-<span class="nc bnc" id="L864" title="All 2 branches missed.">        while (nodeCompare &gt; 0) {</span>
+<span class="fc" id="L861">        final TreeNode parent = updatingNode.getParent();</span>
+<span class="fc" id="L862">        int lastGoodViewIndex = updatingNodeViewIndex;</span>
+<span class="fc" id="L863">        int nodeCompare = 1;</span>
+<span class="pc bpc" id="L864" title="1 of 2 branches missed.">        while (nodeCompare &gt; 0) {</span>
             // We have to just step back one, as we don't know what the next sibling will be.
             // The previous node could be a sibling, the original parent, or it could be part of a subtree of a sibling higher up.
-<span class="nc" id="L867">            final int previousSiblingIndex = lastGoodViewIndex - 1;</span>
+<span class="fc" id="L867">            final int previousSiblingIndex = lastGoodViewIndex - 1;</span>
 
             // Stop if we're past the start:
-<span class="nc bnc" id="L870" title="All 2 branches missed.">            if (previousSiblingIndex &lt; 0) {</span>
-<span class="nc" id="L871">                break;</span>
+<span class="fc bfc" id="L870" title="All 2 branches covered.">            if (previousSiblingIndex &lt; 0) {</span>
+<span class="fc" id="L871">                break;</span>
             }
 
             // Get the sibling node and model index:
-<span class="nc" id="L875">            final int siblingModelIndex = localViewToModelIndex[previousSiblingIndex].modelIndex;</span>
-<span class="nc" id="L876">            final TreeNode siblingNode = localModel.getNodeAtModelIndex(siblingModelIndex);</span>
+<span class="fc" id="L875">            final int siblingModelIndex = localViewToModelIndex[previousSiblingIndex].modelIndex;</span>
+<span class="fc" id="L876">            final TreeNode siblingNode = localModel.getNodeAtModelIndex(siblingModelIndex);</span>
 
             // If we found the original parent, then there are no more siblings - stop:
-<span class="nc bnc" id="L879" title="All 2 branches missed.">            if (siblingNode == parent) {</span>
-<span class="nc" id="L880">                break;</span>
+<span class="fc bfc" id="L879" title="All 2 branches covered.">            if (siblingNode == parent) {</span>
+<span class="fc" id="L880">                break;</span>
             }
 
             // If it shares the same parent as our original node, it's a sibling,
             // otherwise it's part of a subtree of the previous sibling (so we ignore it)
-<span class="nc bnc" id="L885" title="All 2 branches missed.">            if (siblingNode.getParent() == parent) {</span>
-<span class="nc" id="L886">                nodeCompare = localComparator.compare(siblingNode, updatingNode);</span>
-<span class="nc bnc" id="L887" title="All 2 branches missed.">                if (nodeCompare == 0) {</span>
-<span class="nc" id="L888">                    nodeCompare = siblingModelIndex - updatingNodeModelIndex; //TODO: check comparison correct here.</span>
+<span class="pc bpc" id="L885" title="1 of 2 branches missed.">            if (siblingNode.getParent() == parent) {</span>
+<span class="fc" id="L886">                nodeCompare = localComparator.compare(siblingNode, updatingNode);</span>
+<span class="pc bpc" id="L887" title="1 of 2 branches missed.">                if (nodeCompare == 0) {</span>
+<span class="fc" id="L888">                    nodeCompare = siblingModelIndex - updatingNodeModelIndex; //TODO: check comparison correct here.</span>
                 }
-<span class="nc bnc" id="L890" title="All 2 branches missed.">                if (nodeCompare &lt; 1) {</span>
-<span class="nc" id="L891">                    break; // Found a sibling equal to or smaller than the updating node.</span>
+<span class="fc bfc" id="L890" title="All 2 branches covered.">                if (nodeCompare &lt; 1) {</span>
+<span class="fc" id="L891">                    break; // Found a sibling equal to or smaller than the updating node.</span>
                 }
             }
 
-<span class="nc" id="L895">            lastGoodViewIndex = previousSiblingIndex;</span>
-<span class="nc" id="L896">        }</span>
-<span class="nc" id="L897">        return lastGoodViewIndex;</span>
+<span class="fc" id="L895">            lastGoodViewIndex = previousSiblingIndex;</span>
+<span class="fc" id="L896">        }</span>
+<span class="fc" id="L897">        return lastGoodViewIndex;</span>
     }
 
     protected void moveNodeToSiblingPosition(final TreeNode node, final int nodeViewIndex, final int siblingViewIndex) {
         // Avoid repeated getField - use a local reference.
-<span class="nc" id="L902">        final SortRow[] localViewToModelIndex = viewToModelIndex;</span>
+<span class="fc" id="L902">        final SortRow[] localViewToModelIndex = viewToModelIndex;</span>
 
         // Take a copy of the node to move and its children view index entries.
-<span class="nc" id="L905">        final int numNodes = 1 + model.getLastKnownSubTreeCount(node);</span>
-<span class="nc" id="L906">        final SortRow[] nodeRows = new SortRow[numNodes];</span>
-<span class="nc" id="L907">        System.arraycopy(localViewToModelIndex, nodeViewIndex, nodeRows, 0, numNodes);</span>
+<span class="fc" id="L905">        final int numNodes = 1 + model.getLastKnownSubTreeCount(node);</span>
+<span class="fc" id="L906">        final SortRow[] nodeRows = new SortRow[numNodes];</span>
+<span class="fc" id="L907">        System.arraycopy(localViewToModelIndex, nodeViewIndex, nodeRows, 0, numNodes);</span>
 
         // Calculate positions of move depending on whether it's moving up or down in the view:
         final int blockFrom; final int blockTo; final int blockNumToMove; final int moveToPos; final int lastViewIndex;
-<span class="nc bnc" id="L911" title="All 2 branches missed.">        if (siblingViewIndex &lt; nodeViewIndex) {    // Node is moving up in the view index - shift the other nodes down.</span>
-<span class="nc" id="L912">            blockFrom      = siblingViewIndex;                  // start at the position of the nodes to move to</span>
-<span class="nc" id="L913">            blockTo        = siblingViewIndex + numNodes;       // move them down by the number of nodes we're moving into its current position.</span>
-<span class="nc" id="L914">            blockNumToMove = nodeViewIndex - siblingViewIndex;  // number of nodes to move is the difference between their start points.</span>
-<span class="nc" id="L915">            moveToPos      = siblingViewIndex;                  // The moving node moves to the start of the sibling to move to.</span>
-<span class="nc" id="L916">            lastViewIndex  = nodeViewIndex + numNodes - 1;</span>
+<span class="fc bfc" id="L911" title="All 2 branches covered.">        if (siblingViewIndex &lt; nodeViewIndex) {    // Node is moving up in the view index - shift the other nodes down.</span>
+<span class="fc" id="L912">            blockFrom      = siblingViewIndex;                  // start at the position of the nodes to move to</span>
+<span class="fc" id="L913">            blockTo        = siblingViewIndex + numNodes;       // move them down by the number of nodes we're moving into its current position.</span>
+<span class="fc" id="L914">            blockNumToMove = nodeViewIndex - siblingViewIndex;  // number of nodes to move is the difference between their start points.</span>
+<span class="fc" id="L915">            moveToPos      = siblingViewIndex;                  // The moving node moves to the start of the sibling to move to.</span>
+<span class="fc" id="L916">            lastViewIndex  = nodeViewIndex + numNodes - 1;</span>
         } else {                                    // Node is moving down in the view index - shift the other nodes up.
-<span class="nc" id="L918">            blockFrom      = nodeViewIndex + numNodes;          // start just after the end of the moving node.</span>
-<span class="nc" id="L919">            blockTo        = nodeViewIndex;                     // move up to where the moving node starts.</span>
-<span class="nc" id="L920">            blockNumToMove = getViewIndexOfLastChild(siblingViewIndex) - blockFrom; // number of nodes is difference between block start and last child of node moving up.</span>
-<span class="nc" id="L921">            moveToPos      = nodeViewIndex + blockNumToMove;    // The moving node moves to after the nodes moving up.</span>
-<span class="nc" id="L922">            lastViewIndex  = blockFrom + blockNumToMove - 1;</span>
+<span class="fc" id="L918">            blockFrom      = nodeViewIndex + numNodes;          // start just after the end of the moving node.</span>
+<span class="fc" id="L919">            blockTo        = nodeViewIndex;                     // move up to where the moving node starts.</span>
+<span class="fc" id="L920">            blockNumToMove = getViewIndexOfLastChild(siblingViewIndex) - blockFrom; // number of nodes is difference between block start and last child of node moving up.</span>
+<span class="fc" id="L921">            moveToPos      = nodeViewIndex + blockNumToMove;    // The moving node moves to after the nodes moving up.</span>
+<span class="fc" id="L922">            lastViewIndex  = blockFrom + blockNumToMove - 1;</span>
         }
 
         // Move the other nodes up or down to make room for the moving node.
-<span class="nc" id="L926">        System.arraycopy(localViewToModelIndex, blockFrom, localViewToModelIndex, blockTo, blockNumToMove);</span>
+<span class="fc" id="L926">        System.arraycopy(localViewToModelIndex, blockFrom, localViewToModelIndex, blockTo, blockNumToMove);</span>
 
         // Copy over the updated rows into their new position.
-<span class="nc" id="L929">        System.arraycopy(nodeRows, 0, localViewToModelIndex, moveToPos, numNodes);</span>
+<span class="fc" id="L929">        System.arraycopy(nodeRows, 0, localViewToModelIndex, moveToPos, numNodes);</span>
 
         // Fix up the modelToViewIndex, from the smallest view index affected to the last view index affected.
-<span class="nc" id="L932">        final int[] localModelToViewIndex = modelToViewIndex; // Avoid repeated getField - use a local reference.</span>
-<span class="nc" id="L933">        final int viewIndexStart = Math.min(nodeViewIndex, siblingViewIndex);</span>
-<span class="nc bnc" id="L934" title="All 2 branches missed.">        for (int viewIndex = viewIndexStart; viewIndex &lt;= lastViewIndex; viewIndex++) {</span>
+<span class="fc" id="L932">        final int[] localModelToViewIndex = modelToViewIndex; // Avoid repeated getField - use a local reference.</span>
+<span class="fc" id="L933">        final int viewIndexStart = Math.min(nodeViewIndex, siblingViewIndex);</span>
+<span class="pc bnc" id="L934" title="All 2 branches missed.">        for (int viewIndex = viewIndexStart; viewIndex &lt;= lastViewIndex; viewIndex++) {</span>
 <span class="nc" id="L935">            localModelToViewIndex[localViewToModelIndex[viewIndex].modelIndex] = viewIndex;</span>
         }
 <span class="nc" id="L937">    }</span>
 
     protected int getViewIndexOfLastChild(final int viewIndex) {
-<span class="nc" id="L940">        final TreeNode node = model.getNodeAtModelIndex(viewToModelIndex[viewIndex].modelIndex);</span>
-<span class="nc" id="L941">        return viewIndex + model.getLastKnownSubTreeCount(node);</span>
+<span class="fc" id="L940">        final TreeNode node = model.getNodeAtModelIndex(viewToModelIndex[viewIndex].modelIndex);</span>
+<span class="fc" id="L941">        return viewIndex + model.getLastKnownSubTreeCount(node);</span>
     }
 
     /**
@@ -949,8 +949,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @return the index of a child in a parent, removing any filtered nodes if filtering is active, or -1 if not found.
      */
     protected int getFilteredChildIndex(final TreeNode parent, final TreeNode childToFind) {
-<span class="nc" id="L952">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
-<span class="nc bnc" id="L953" title="All 2 branches missed.">        if (localModel.isFiltering()) {</span>
+<span class="fc" id="L952">        final TreeTableModel localModel = model; // avoid repeated getField - use a local reference.</span>
+<span class="pc bpc" id="L953" title="1 of 2 branches missed.">        if (localModel.isFiltering()) {</span>
 <span class="nc bnc" id="L954" title="All 2 branches missed.">            if (!localModel.isFiltered(childToFind)) {</span>
 <span class="nc" id="L955">                int filteredChildIndex = -1;</span>
 <span class="nc bnc" id="L956" title="All 2 branches missed.">                for (int i = 0; i &lt; parent.getChildCount(); i++) {</span>
@@ -965,7 +965,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
             }
 <span class="nc" id="L966">            return -1;</span>
         }
-<span class="nc" id="L968">        return parent.getIndex(childToFind);</span>
+<span class="fc" id="L968">        return parent.getIndex(childToFind);</span>
     }
 
     /**
@@ -976,41 +976,41 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      */
     protected void insertSortedRowsToIndices(final int firstModelIndex, final int endModelIndex) {
         // Use local references to avoid repeated field access:
-<span class="nc" id="L979">        final int[] localModelToViewIndex = modelToViewIndex;</span>
-<span class="nc" id="L980">        final SortRow[] localViewToModelIndex = viewToModelIndex;</span>
+<span class="fc" id="L979">        final int[] localModelToViewIndex = modelToViewIndex;</span>
+<span class="fc" id="L980">        final SortRow[] localViewToModelIndex = viewToModelIndex;</span>
 
         // Ensure we have enough space in the indices for the insertions:
-<span class="nc" id="L983">        final int numToAdd = endModelIndex - firstModelIndex + 1;</span>
-<span class="nc" id="L984">        ensureIndicesHaveSpaceForIncrease(numToAdd);</span>
+<span class="fc" id="L983">        final int numToAdd = endModelIndex - firstModelIndex + 1;</span>
+<span class="fc" id="L984">        ensureIndicesHaveSpaceForIncrease(numToAdd);</span>
 
         /*
          * Adjust all ViewToModel entries from the insertion point to the end, to add the number of inserted nodes to their model index.
          * The model indexes are all increased by the number of rows being inserted to the model, so they continue
          * to point at the same row (but at a higher model index given the insertions).
          */
-<span class="nc" id="L991">        int localLastRowCount = lastRowCount;</span>
-<span class="nc bnc" id="L992" title="All 2 branches missed.">        for (int modelIndex = firstModelIndex; modelIndex &lt; localLastRowCount; modelIndex++) {</span>
-<span class="nc" id="L993">            final int viewIndex = localModelToViewIndex[modelIndex];</span>
-<span class="nc" id="L994">            localViewToModelIndex[viewIndex].modelIndex += numToAdd;</span>
+<span class="fc" id="L991">        int localLastRowCount = lastRowCount;</span>
+<span class="fc bfc" id="L992" title="All 2 branches covered.">        for (int modelIndex = firstModelIndex; modelIndex &lt; localLastRowCount; modelIndex++) {</span>
+<span class="fc" id="L993">            final int viewIndex = localModelToViewIndex[modelIndex];</span>
+<span class="fc" id="L994">            localViewToModelIndex[viewIndex].modelIndex += numToAdd;</span>
         }
 
         /*
          * Make space in the ModelToViewIndex for the new model rows, by moving all the rows after it up.
          * The new row view indexes will be set later when we determine the sorted insertion point (and thus view index) of each new row.
          */
-<span class="nc" id="L1001">        int numToMove = localLastRowCount - endModelIndex;</span>
-<span class="nc" id="L1002">        System.arraycopy(localModelToViewIndex, firstModelIndex, localModelToViewIndex, endModelIndex + 1, numToMove);</span>
+<span class="fc" id="L1001">        int numToMove = localLastRowCount - endModelIndex;</span>
+<span class="fc" id="L1002">        System.arraycopy(localModelToViewIndex, firstModelIndex, localModelToViewIndex, endModelIndex + 1, numToMove);</span>
 
         /*
          * Build a sorted list of the new rows to add.
          * Since we have to sort the inserted rows in this method, this might not be faster than just rebuilding if
          * we're inserting a substantial proportion of the total rows.
          */
-<span class="nc" id="L1009">        final List&lt;SortRow&gt; newRows = new ArrayList&lt;&gt;(numToAdd);</span>
-<span class="nc bnc" id="L1010" title="All 2 branches missed.">        for (int modelIndex = firstModelIndex; modelIndex &lt;= endModelIndex; modelIndex++) {</span>
-<span class="nc" id="L1011">            newRows.add(new SortRow(this, modelIndex));</span>
+<span class="fc" id="L1009">        final List&lt;SortRow&gt; newRows = new ArrayList&lt;&gt;(numToAdd);</span>
+<span class="fc bfc" id="L1010" title="All 2 branches covered.">        for (int modelIndex = firstModelIndex; modelIndex &lt;= endModelIndex; modelIndex++) {</span>
+<span class="fc" id="L1011">            newRows.add(new SortRow(this, modelIndex));</span>
         }
-<span class="nc" id="L1013">        Collections.sort(newRows);</span>
+<span class="fc" id="L1013">        Collections.sort(newRows);</span>
 
         /*
          * Insert new rows in the ViewToModelIndex in the correct sorted position (using binarySearch),
@@ -1019,9 +1019,9 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
          *
          * Assumes there will be at least one inserted row.
          */
-<span class="nc" id="L1022">        int numInsertedSoFar = 0;</span>
-<span class="nc" id="L1023">        int insertedRowNum = 0;</span>
-<span class="nc" id="L1024">        final SortRow firstRow = newRows.get(insertedRowNum);</span>
+<span class="fc" id="L1022">        int numInsertedSoFar = 0;</span>
+<span class="fc" id="L1023">        int insertedRowNum = 0;</span>
+<span class="fc" id="L1024">        final SortRow firstRow = newRows.get(insertedRowNum);</span>
 <span class="nc" id="L1025">        int insertionPoint = -1 - Arrays.binarySearch(localViewToModelIndex, 0, localLastRowCount, firstRow);</span>
 <span class="nc" id="L1026">        checkInsertionPoint(firstRow.modelIndex, insertionPoint);</span>
 <span class="nc bnc" id="L1027" title="All 2 branches missed.">        while (insertedRowNum &lt; numToAdd) {</span>
@@ -1113,10 +1113,10 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      */
     protected void removeSortedRowsFromIndices(final int firstModelIndex, final int endModelIndex) {
         // Initialize useful constants:
-<span class="nc" id="L1116">        final int[] localModelToViewIndex = modelToViewIndex; // avoid repeated field access, use a local ref.</span>
-<span class="nc" id="L1117">        final SortRow[] localViewToModelIndex = viewToModelIndex; // avoid repeated field access, use a local ref.</span>
-<span class="nc" id="L1118">        final int localLastRowCount = lastRowCount;</span>
-<span class="nc" id="L1119">        final int numToRemove = endModelIndex - firstModelIndex + 1;</span>
+<span class="fc" id="L1116">        final int[] localModelToViewIndex = modelToViewIndex; // avoid repeated field access, use a local ref.</span>
+<span class="fc" id="L1117">        final SortRow[] localViewToModelIndex = viewToModelIndex; // avoid repeated field access, use a local ref.</span>
+<span class="fc" id="L1118">        final int localLastRowCount = lastRowCount;</span>
+<span class="fc" id="L1119">        final int numToRemove = endModelIndex - firstModelIndex + 1;</span>
 
         /*
           * 0. Optimisation:
@@ -1124,11 +1124,11 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
           * Before we alter the indices, build a sorted list of view indexes affected by removing rows from the model.
           * This will let us identify consecutive blocks of nodes in the view, so we can remove them in a single operation later.
          */
-<span class="nc" id="L1127">        final int[] removedViewRows = new int[numToRemove];</span>
-<span class="nc bnc" id="L1128" title="All 2 branches missed.">        if (numToRemove &gt; 0) {</span>
-<span class="nc" id="L1129">            System.arraycopy(localModelToViewIndex, firstModelIndex, removedViewRows, 0, numToRemove);</span>
+<span class="fc" id="L1127">        final int[] removedViewRows = new int[numToRemove];</span>
+<span class="fc bfc" id="L1128" title="All 2 branches covered.">        if (numToRemove &gt; 0) {</span>
+<span class="fc" id="L1129">            System.arraycopy(localModelToViewIndex, firstModelIndex, removedViewRows, 0, numToRemove);</span>
         }
-<span class="nc" id="L1131">        Arrays.sort(removedViewRows);</span>
+<span class="fc" id="L1131">        Arrays.sort(removedViewRows);</span>
 
         /*
          * 1. Fix up all the Model indexes of the ViewToModelIndex AFTER the removed rows:
@@ -1138,7 +1138,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
          * by the number of rows being deleted from the model.
          * They will now point back to their original rows in the model before the rows were deleted from it.
          */
-<span class="nc bnc" id="L1141" title="All 2 branches missed.">        for (int modelIndex = endModelIndex + 1; modelIndex &lt; localLastRowCount; modelIndex++) {</span>
+<span class="pc bpc" id="L1141" title="1 of 2 branches missed.">        for (int modelIndex = endModelIndex + 1; modelIndex &lt; localLastRowCount; modelIndex++) {</span>
 <span class="nc" id="L1142">            final int viewIndex = localModelToViewIndex[modelIndex];</span>
 <span class="nc" id="L1143">            localViewToModelIndex[viewIndex].modelIndex -= numToRemove;</span>
         }
@@ -1151,8 +1151,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
          * left on the end, as they will be set correctly if new rows are subsequently added.
          *
          */
-<span class="nc" id="L1154">        final int positionAfterDeletions = endModelIndex + 1; //TODO: test - what if all rows up to end are deleted?  will we get an ArrayIndexOutOfBoundsException?</span>
-<span class="nc" id="L1155">        final int remainingToCopyBack = localLastRowCount - positionAfterDeletions;</span>
+<span class="fc" id="L1154">        final int positionAfterDeletions = endModelIndex + 1; //TODO: test - what if all rows up to end are deleted?  will we get an ArrayIndexOutOfBoundsException?</span>
+<span class="fc" id="L1155">        final int remainingToCopyBack = localLastRowCount - positionAfterDeletions;</span>
 <span class="nc" id="L1156">        System.arraycopy(localModelToViewIndex, positionAfterDeletions, localModelToViewIndex, firstModelIndex, remainingToCopyBack);</span>
 
         /*
@@ -1230,20 +1230,20 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param increase - the number of new rows to add to the indices.
      */
     protected void ensureIndicesHaveSpaceForIncrease(final int increase) {
-<span class="nc bnc" id="L1233" title="All 2 branches missed.">        if (lastRowCount + increase &gt; viewToModelIndex.length) {</span>
-<span class="nc" id="L1234">            final int newSize = lastRowCount + increase + EXPAND_SORTROW_SIZE;</span>
+<span class="fc bfc" id="L1233" title="All 2 branches covered.">        if (lastRowCount + increase &gt; viewToModelIndex.length) {</span>
+<span class="fc" id="L1234">            final int newSize = lastRowCount + increase + EXPAND_SORTROW_SIZE;</span>
 
              // Increase ModelToViewIndex size and copy over old elements:
-<span class="nc" id="L1237">            final int[] newModelToViewIndex = new int[newSize];</span>
-<span class="nc" id="L1238">            System.arraycopy(modelToViewIndex, 0, newModelToViewIndex, 0, lastRowCount);</span>
-<span class="nc" id="L1239">            modelToViewIndex = newModelToViewIndex;</span>
+<span class="fc" id="L1237">            final int[] newModelToViewIndex = new int[newSize];</span>
+<span class="fc" id="L1238">            System.arraycopy(modelToViewIndex, 0, newModelToViewIndex, 0, lastRowCount);</span>
+<span class="fc" id="L1239">            modelToViewIndex = newModelToViewIndex;</span>
 
             // Increase ViewToModelIndex size and copy over old elements:
-<span class="nc" id="L1242">            final SortRow[] newViewToModelIndex = new SortRow[newSize];</span>
-<span class="nc" id="L1243">            System.arraycopy(viewToModelIndex, 0, newViewToModelIndex, 0, lastRowCount);</span>
-<span class="nc" id="L1244">            viewToModelIndex = newViewToModelIndex;</span>
+<span class="fc" id="L1242">            final SortRow[] newViewToModelIndex = new SortRow[newSize];</span>
+<span class="fc" id="L1243">            System.arraycopy(viewToModelIndex, 0, newViewToModelIndex, 0, lastRowCount);</span>
+<span class="fc" id="L1244">            viewToModelIndex = newViewToModelIndex;</span>
         }
-<span class="nc" id="L1246">    }</span>
+<span class="fc" id="L1246">    }</span>
 
     /* *****************************************************************************************************************
      *                       Index checking methods, throwing IndexOutOfBounds exceptions.
@@ -1254,8 +1254,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param column The column index to check.
      */
     protected void checkValidColumn(final int column) {
-<span class="nc bnc" id="L1257" title="All 4 branches missed.">        if (column &lt; 0 || column &gt;= model.getColumnCount()) {</span>
-<span class="nc" id="L1258">            throw new IndexOutOfBoundsException(column);</span>
+<span class="pc bpc" id="L1257" title="1 of 4 branches missed.">        if (column &lt; 0 || column &gt;= model.getColumnCount()) {</span>
+<span class="fc" id="L1258">            throw new IndexOutOfBoundsException(column);</span>
         }
 <span class="nc" id="L1260">    }</span>
 
@@ -1275,21 +1275,21 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
          * current model count.  When we call this, the number of actual model rows may have
          * already been changed due to rows removed or inserted.
          */
-<span class="nc" id="L1278">        checkValidIndex(firstModelIndex, lastRowCount);</span>
-<span class="nc" id="L1279">        checkValidIndex(endModelIndex, lastRowCount);</span>
-<span class="nc bnc" id="L1280" title="All 2 branches missed.">        if (firstModelIndex &gt; endModelIndex) {</span>
+<span class="fc" id="L1278">        checkValidIndex(firstModelIndex, lastRowCount);</span>
+<span class="fc" id="L1279">        checkValidIndex(endModelIndex, lastRowCount);</span>
+<span class="pc bpc" id="L1280" title="1 of 2 branches missed.">        if (firstModelIndex &gt; endModelIndex) {</span>
 <span class="nc" id="L1281">            throw new IndexOutOfBoundsException(firstModelIndex);</span>
         }
-<span class="nc" id="L1283">    }</span>
+<span class="fc" id="L1283">    }</span>
 
     protected void checkRangeIndices(int firstModelIndex, int endModelIndex) {
-<span class="nc" id="L1286">        final int rowCount = model.getRowCount();</span>
-<span class="nc" id="L1287">        checkValidIndex(firstModelIndex, rowCount);</span>
-<span class="nc" id="L1288">        checkValidIndex(endModelIndex, rowCount);</span>
-<span class="nc bnc" id="L1289" title="All 2 branches missed.">        if (firstModelIndex &gt; endModelIndex) {</span>
+<span class="fc" id="L1286">        final int rowCount = model.getRowCount();</span>
+<span class="fc" id="L1287">        checkValidIndex(firstModelIndex, rowCount);</span>
+<span class="fc" id="L1288">        checkValidIndex(endModelIndex, rowCount);</span>
+<span class="pc bpc" id="L1289" title="1 of 2 branches missed.">        if (firstModelIndex &gt; endModelIndex) {</span>
 <span class="nc" id="L1290">            throw new IndexOutOfBoundsException(&quot;Invalid range&quot;);</span>
         }
-<span class="nc" id="L1292">    }</span>
+<span class="fc" id="L1292">    }</span>
 
     /**
      * Checks that an index is valid - it's not negative or past the number of rows .
@@ -1300,10 +1300,10 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @throws IndexOutOfBoundsException if the index is not valid.
      */
     protected int checkValidIndex(final int index, final int count) {
-<span class="nc bnc" id="L1303" title="All 4 branches missed.">        if (index &lt; 0 || index &gt;= count) {</span>
-<span class="nc" id="L1304">            throw new IndexOutOfBoundsException(index);</span>
+<span class="fc bfc" id="L1303" title="All 4 branches covered.">        if (index &lt; 0 || index &gt;= count) {</span>
+<span class="fc" id="L1304">            throw new IndexOutOfBoundsException(index);</span>
         }
-<span class="nc" id="L1306">        return index;</span>
+<span class="fc" id="L1306">        return index;</span>
     }
 
     /**
@@ -1314,11 +1314,11 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
      * @param insertionPoint the point in the view where the new row is being inserted.
      */
     protected void checkInsertionPoint(final int insertRowModelIndex, final int insertionPoint) {
-<span class="nc bnc" id="L1317" title="All 2 branches missed.">        if (insertionPoint &lt; 0) { // This should never happen - it means we already found the new thing we want to insert.</span>
-<span class="nc" id="L1318">            throw new RuntimeException(&quot;BUG in TreeTableRowSorter: a new SortRow with model index: &quot; + insertRowModelIndex +</span>
+<span class="fc bfc" id="L1317" title="All 2 branches covered.">        if (insertionPoint &lt; 0) { // This should never happen - it means we already found the new thing we want to insert.</span>
+<span class="fc" id="L1318">            throw new RuntimeException(&quot;BUG in TreeTableRowSorter: a new SortRow with model index: &quot; + insertRowModelIndex +</span>
                     &quot; was found to already exist in the ViewToModelIndex at position &quot; + -(insertionPoint + 1));
         }
-<span class="nc" id="L1321">    }</span>
+<span class="fc" id="L1321">    }</span>
 
 
     /* *****************************************************************************************************************
@@ -1340,10 +1340,10 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
          * @param sorter The TreeTableRowSorter to use to sort the rows.
          * @param modelIndex The model index of this sort row.
          */
-<span class="nc" id="L1343">        public SortRow(final TreeTableRowSorter sorter, final int modelIndex) {</span>
-<span class="nc" id="L1344">            this.rowSorter = sorter;</span>
-<span class="nc" id="L1345">            this.modelIndex = modelIndex;</span>
-<span class="nc" id="L1346">        }</span>
+<span class="fc" id="L1343">        public SortRow(final TreeTableRowSorter sorter, final int modelIndex) {</span>
+<span class="fc" id="L1344">            this.rowSorter = sorter;</span>
+<span class="fc" id="L1345">            this.modelIndex = modelIndex;</span>
+<span class="fc" id="L1346">        }</span>
 
         @Override
         public int compareTo(final SortRow o) {
@@ -1352,7 +1352,7 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
 
         @Override
         public String toString() {
-<span class="nc" id="L1355">            return getClass().getSimpleName() + '(' + modelIndex + ':' + rowSorter.getModel().getNodeAtModelIndex(modelIndex) + ')';</span>
+<span class="fc" id="L1355">            return getClass().getSimpleName() + '(' + modelIndex + ':' + rowSorter.getModel().getNodeAtModelIndex(modelIndex) + ')';</span>
         }
 
         /**
@@ -1362,8 +1362,8 @@ public class TreeTableRowSorter extends RowSorter&lt;TreeTableModel&gt; {
          * @param modelIndex The new model index for this sort row.
          */
         public void setModelIndex(final int modelIndex) {
-<span class="nc" id="L1365">            this.modelIndex = modelIndex;</span>
-<span class="nc" id="L1366">        }</span>
+<span class="fc" id="L1365">            this.modelIndex = modelIndex;</span>
+<span class="fc" id="L1366">        }</span>
     }
 
     /**

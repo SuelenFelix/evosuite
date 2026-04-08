@@ -1,0 +1,228 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ---------------< io.github.moacirrf:nb-java-decompiler >----------------
+[INFO] Building NB Java Decompiler 2.0-SNAPSHOT
+[INFO] --------------------------------[ nbm ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ nb-java-decompiler ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ nb-java-decompiler ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.5.0:resources (default-resources) @ nb-java-decompiler ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ nb-java-decompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /app/target/classes
+[INFO] /app/src/main/java/io/github/moacirrf/javadecompiler/DecompileAction.java: /app/src/main/java/io/github/moacirrf/javadecompiler/DecompileAction.java uses or overrides a deprecated API.
+[INFO] /app/src/main/java/io/github/moacirrf/javadecompiler/DecompileAction.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/main/java/io/github/moacirrf/javadecompiler/DecompileAction.java: /app/src/main/java/io/github/moacirrf/javadecompiler/DecompileAction.java uses unchecked or unsafe operations.
+[INFO] /app/src/main/java/io/github/moacirrf/javadecompiler/DecompileAction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- nbm-maven-plugin:4.7:manifest (default-manifest) @ nb-java-decompiler ---
+[INFO] NBM Plugin generates manifest
+[INFO] Adding on module's Class-Path:
+[INFO]     org.benf:cfr:jar:0.152
+[INFO]     com.machinezoo.noexception:noexception:jar:1.8.0
+[INFO]     com.machinezoo.stagean:stagean:jar:1.2.0
+[INFO]     org.slf4j:slf4j-api:jar:1.7.32
+[INFO]     org.netbeans.external:updater:jar:RELEASE130
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ nb-java-decompiler ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.5.0:testResources (default-testResources) @ nb-java-decompiler ---
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ nb-java-decompiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 48 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/validator/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/io/github/moacirrf/javadecompiler/files/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ nb-java-decompiler ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358360
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358360
+[INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183790
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183790
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639592
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639592
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639596
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639596
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_init_6835828104
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.TempDir_init_6835828104
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378051
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378051
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_init_6835828100
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.TempDir_init_6835828100
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378055
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378055
+[INFO] Running io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest
+[ERROR] Tests run: 8, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 3.293 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest
+[ERROR] test1(io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: childName: /default-line-separator.class folderName: /
+	at io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest.test1(FileSystemHelper_ESTest.java:49)
+
+[ERROR] test2(io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.util.NoSuchElementException
+	at io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest.test2(FileSystemHelper_ESTest.java:56)
+
+[ERROR] test6(io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest)  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class java.util.logging.LogRecord$CallerFinder
+	at io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest.test6(FileSystemHelper_ESTest.java:106)
+
+[INFO] Running io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613261
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613261
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937
+[ERROR] test(io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937.test(TempDir_clearTempFolder_16494910937.java:44)
+
+[INFO] Running io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613260
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613260
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910933
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910933
+[ERROR] test(io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910933)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910933.test(TempDir_clearTempFolder_16494910933.java:42)
+
+[INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_ESTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.008 s - in io.github.moacirrf.javadecompiler.files.TempDir_ESTest
+[INFO] Running io.github.moacirrf.javadecompiler.Installer_ESTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.006 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.Installer_ESTest
+[ERROR] test0(io.github.moacirrf.javadecompiler.Installer_ESTest)  Time elapsed: 3.002 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at io.github.moacirrf.javadecompiler.Installer_ESTest.test0(Installer_ESTest.java:63)
+Caused by: java.lang.NullPointerException
+
+[INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183792
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183792
+[INFO] Running io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358362
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358362
+[INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891603
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891603
+[INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891601
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891601
+[INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_ESTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_ESTest
+[INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892
+[ERROR] test(io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892.test(ExceptionHandler_handleException_16687867892.java:44)
+
+[INFO] Running io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest
+org.evosuite.runtime.mock.java.lang.MockThread.dumpStack(MockThread.java:147)
+<evosuite>.<evosuite>(<evosuite>)
+<evosuite>.<evosuite>(<evosuite>)
+[ERROR] Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.133 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest
+[ERROR] test07(io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: childName: /io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl.class folderName: /
+	at io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest.test07(NetbeansClassFileSourceImpl_ESTest.java:123)
+
+[ERROR] test04(io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: childName: /classfile-root.class folderName: /
+	at io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest.test04(NetbeansClassFileSourceImpl_ESTest.java:82)
+
+[ERROR] test05(io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: childName: /io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl.class folderName: /
+	at io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl_ESTest.test05(NetbeansClassFileSourceImpl_ESTest.java:99)
+
+[INFO] Running io.github.moacirrf.javadecompiler.cfr.DecompilerClassImpl_ESTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.56 s - in io.github.moacirrf.javadecompiler.cfr.DecompilerClassImpl_ESTest
+[INFO] Running io.github.moacirrf.javadecompiler.cfr.PluginDumperFactory_ESTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in io.github.moacirrf.javadecompiler.cfr.PluginDumperFactory_ESTest
+[INFO] Running io.github.moacirrf.javadecompiler.Bundle_ESTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in io.github.moacirrf.javadecompiler.Bundle_ESTest
+[INFO] Running io.github.moacirrf.javadecompiler.Bundle_init_20260786551
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.Bundle_init_20260786551
+[INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890
+[ERROR] test(io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ClassNotFoundException: kex.java.lang.Double
+	at io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890.setup(ExceptionHandler_handleException_16687867890.java:45)
+
+[INFO] Running io.github.moacirrf.javadecompiler.Bundle_init_20260786553
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.Bundle_init_20260786553
+[INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346593
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346593
+[INFO] Running io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367861
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367861
+[INFO] Running io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367860
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367860
+[INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346591
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346591
+[INFO] Running io.github.moacirrf.javadecompiler.DecompileAction_ESTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.DecompileAction_ESTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   NetbeansClassFileSourceImpl_ESTest.test04:82 childName: /classfile-root.class folderName: /
+[ERROR]   NetbeansClassFileSourceImpl_ESTest.test05:99 childName: /io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl.class folderName: /
+[ERROR]   NetbeansClassFileSourceImpl_ESTest.test07:123 childName: /io.github.moacirrf.javadecompiler.cfr.NetbeansClassFileSourceImpl.class folderName: /
+[ERROR]   FileSystemHelper_ESTest.test1:49 childName: /default-line-separator.class folderName: /
+[ERROR] Errors: 
+[ERROR]   ExceptionHandler_handleException_16687867890.setup:45 » ClassNotFound kex.java...
+[ERROR]   ExceptionHandler_handleException_16687867892.test:44 » NullPointer
+[ERROR]   Installer_ESTest.test0:63 » Execution java.lang.NullPointerException
+[ERROR]   FileSystemHelper_ESTest.test2:56 » NoSuchElement
+[ERROR]   FileSystemHelper_ESTest.test6:106 » NoClassDefFound Could not initialize class...
+[ERROR]   TempDir_clearTempFolder_16494910933.test:42 » NullPointer
+[ERROR]   TempDir_clearTempFolder_16494910937.test:44 » NullPointer
+[INFO] 
+[ERROR] Tests run: 64, Failures: 4, Errors: 7, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ nb-java-decompiler ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'NB Java Decompiler' with 12 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ nb-java-decompiler ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'NB Java Decompiler' with 12 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.691 s
+[INFO] Finished at: 2026-04-08T05:35:34Z
+[INFO] ------------------------------------------------------------------------

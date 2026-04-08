@@ -20,16 +20,16 @@ public class Game implements Drawable, Steppable {
     long allSteps;
 
 
-<span class="nc" id="L23">    public static int WIDTH = 600;</span>
-<span class="nc" id="L24">    public static int HEIGHT = 800;</span>
+<span class="fc" id="L23">    public static int WIDTH = 600;</span>
+<span class="fc" id="L24">    public static int HEIGHT = 800;</span>
 
-<span class="nc" id="L26">    public Game() {</span>
-<span class="nc" id="L27">        reCreateGame();</span>
-<span class="nc" id="L28">    }</span>
+<span class="fc" id="L26">    public Game() {</span>
+<span class="fc" id="L27">        reCreateGame();</span>
+<span class="fc" id="L28">    }</span>
 
     private void reCreateGame() {
-<span class="nc" id="L31">        collision = false;</span>
-<span class="nc" id="L32">        allSteps = 0;</span>
+<span class="fc" id="L31">        collision = false;</span>
+<span class="fc" id="L32">        allSteps = 0;</span>
         try {
 <span class="nc" id="L34">            this.bird = new Bird(WIDTH / 6, HEIGHT / 2);</span>
 <span class="nc" id="L35">            this.neuralNetwork = new NeuralNetwork(loadGenome(&quot;/birdGenome_10_0.genome&quot;));</span>
@@ -37,19 +37,19 @@ public class Game implements Drawable, Steppable {
 <span class="nc" id="L37">            this.pipesController = new PipesController(WIDTH, HEIGHT, WIDTH / 6);</span>
 <span class="nc" id="L38">            this.collisionDetector = new CollisionDetector(bottomPanel.getLavaLevel());</span>
 <span class="nc" id="L39">            this.font = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;/src/main/resources/imgs/font.ttf&quot;)).deriveFont(36f);</span>
-<span class="nc" id="L40">        } catch (IOException | FontFormatException e) {</span>
-<span class="nc" id="L41">            e.printStackTrace();</span>
+<span class="fc" id="L40">        } catch (IOException | FontFormatException e) {</span>
+<span class="fc" id="L41">            e.printStackTrace();</span>
 <span class="nc" id="L42">        }</span>
-<span class="nc" id="L43">    }</span>
+<span class="fc" id="L43">    }</span>
 
     public void action() {
 //        bird.action();
-<span class="nc" id="L47">    }</span>
+<span class="fc" id="L47">    }</span>
 
     @Override
     public void show(Graphics g) {
-<span class="nc" id="L51">        g.setColor(Color.CYAN);</span>
-<span class="nc" id="L52">        g.fillRect(0,0,480,720);</span>
+<span class="fc" id="L51">        g.setColor(Color.CYAN);</span>
+<span class="fc" id="L52">        g.fillRect(0,0,480,720);</span>
 <span class="nc" id="L53">        pipesController.show(g);</span>
 <span class="nc" id="L54">        bird.show(g);</span>
 
@@ -76,11 +76,11 @@ public class Game implements Drawable, Steppable {
 <span class="nc" id="L76">    }</span>
 
     private void shouldMakeAnAction(Bird bird) {
-<span class="nc" id="L79">        double birdY = (float) bird.getY() / HEIGHT;</span>
-<span class="nc" id="L80">        double pipeX = (float) pipesController.getCurrentPipe().getX() / WIDTH;</span>
-<span class="nc" id="L81">        double pipeyStart = (float) pipesController.getCurrentPipe().getyOpeningStart() / HEIGHT;</span>
-<span class="nc" id="L82">        double pipeyEnd = (float) pipesController.getCurrentPipe().getyOpeningEnd() / HEIGHT;</span>
-<span class="nc" id="L83">        double velocity = Math.abs(bird.getVelocity() / -13) - 1;</span>
+<span class="fc" id="L79">        double birdY = (float) bird.getY() / HEIGHT;</span>
+<span class="fc" id="L80">        double pipeX = (float) pipesController.getCurrentPipe().getX() / WIDTH;</span>
+<span class="fc" id="L81">        double pipeyStart = (float) pipesController.getCurrentPipe().getyOpeningStart() / HEIGHT;</span>
+<span class="fc" id="L82">        double pipeyEnd = (float) pipesController.getCurrentPipe().getyOpeningEnd() / HEIGHT;</span>
+<span class="fc" id="L83">        double velocity = Math.abs(bird.getVelocity() / -13) - 1;</span>
 
 <span class="nc" id="L85">        double[] calculate = this.neuralNetwork.calculate(new double[]{birdY, pipeX, pipeyStart, pipeyEnd});</span>
 
@@ -88,9 +88,9 @@ public class Game implements Drawable, Steppable {
 <span class="nc" id="L88">    }</span>
 
     private Genome loadGenome(String filename) {
-<span class="nc" id="L91">        FileInputStream fileInputStream</span>
+<span class="fc" id="L91">        FileInputStream fileInputStream</span>
                 = null;
-<span class="nc" id="L93">        Genome genome2 = null;</span>
+<span class="fc" id="L93">        Genome genome2 = null;</span>
         try {
 <span class="nc" id="L95">            fileInputStream = new FileInputStream(filename);</span>
 
@@ -98,14 +98,14 @@ public class Game implements Drawable, Steppable {
                 = new ObjectInputStream(fileInputStream);
 <span class="nc" id="L99">         genome2 = (Genome) objectInputStream.readObject();</span>
 <span class="nc" id="L100">        objectInputStream.close();</span>
-<span class="nc" id="L101">        } catch (FileNotFoundException e) {</span>
-<span class="nc" id="L102">            e.printStackTrace();</span>
+<span class="fc" id="L101">        } catch (FileNotFoundException e) {</span>
+<span class="fc" id="L102">            e.printStackTrace();</span>
 <span class="nc" id="L103">        } catch (IOException e) {</span>
 <span class="nc" id="L104">            e.printStackTrace();</span>
 <span class="nc" id="L105">        } catch (ClassNotFoundException e) {</span>
 <span class="nc" id="L106">            e.printStackTrace();</span>
-<span class="nc" id="L107">        }</span>
-<span class="nc" id="L108">        return genome2;</span>
+<span class="pc" id="L107">        }</span>
+<span class="fc" id="L108">        return genome2;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

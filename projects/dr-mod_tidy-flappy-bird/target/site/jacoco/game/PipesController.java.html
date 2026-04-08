@@ -13,15 +13,15 @@ public class PipesController implements Drawable, Steppable {
     private Pipe currentPipe;
     private final int xMarker;
     private Pipe lastPipe;
-<span class="nc" id="L16">    Random random = new Random(1);</span>
+<span class="fc" id="L16">    Random random = new Random(1);</span>
     public static final int PIPES_GAP = 400;
-<span class="nc" id="L18">    private int activeCount = 0;</span>
+<span class="fc" id="L18">    private int activeCount = 0;</span>
 
-<span class="nc" id="L20">    public PipesController(int width, int height, int xMarker) {</span>
-<span class="nc" id="L21">        this.pipes = new ArrayList&lt;&gt;();</span>
-<span class="nc" id="L22">        this.xMarker = xMarker;</span>
-<span class="nc" id="L23">        int pipesCount = width / PIPES_GAP + 1;</span>
-<span class="nc bnc" id="L24" title="All 2 branches missed.">        for (int i = 0; i &lt; pipesCount; i++) {</span>
+<span class="fc" id="L20">    public PipesController(int width, int height, int xMarker) {</span>
+<span class="fc" id="L21">        this.pipes = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L22">        this.xMarker = xMarker;</span>
+<span class="fc" id="L23">        int pipesCount = width / PIPES_GAP + 1;</span>
+<span class="pc bpc" id="L24" title="1 of 2 branches missed.">        for (int i = 0; i &lt; pipesCount; i++) {</span>
 <span class="nc" id="L25">            pipes.add(new Pipe(width + PIPES_GAP * i, random.nextInt(500) + 50));</span>
         }
 <span class="nc" id="L27">        currentPipe = pipes.get(0);</span>
@@ -35,13 +35,13 @@ public class PipesController implements Drawable, Steppable {
 
     @Override
     public void step() {
-<span class="nc" id="L38">        pipes.forEach(Pipe::step);</span>
-<span class="nc" id="L39">        repurposePipes();</span>
-<span class="nc" id="L40">        checkCurrentPipe();</span>
-<span class="nc" id="L41">    }</span>
+<span class="fc" id="L38">        pipes.forEach(Pipe::step);</span>
+<span class="fc" id="L39">        repurposePipes();</span>
+<span class="fc" id="L40">        checkCurrentPipe();</span>
+<span class="fc" id="L41">    }</span>
 
     private void checkCurrentPipe() {
-<span class="nc bnc" id="L44" title="All 2 branches missed.">        if (currentPipe.getX() + currentPipe.getWidth() &lt; this.xMarker) {</span>
+<span class="pc bpc" id="L44" title="1 of 2 branches missed.">        if (currentPipe.getX() + currentPipe.getWidth() &lt; this.xMarker) {</span>
 <span class="nc" id="L45">            Pipe nextCurrent = null;</span>
 <span class="nc bnc" id="L46" title="All 2 branches missed.">            for(Pipe pipe : pipes) {</span>
 <span class="nc bnc" id="L47" title="All 2 branches missed.">                if (pipe.getX() &gt; this.xMarker) {</span>
@@ -52,24 +52,24 @@ public class PipesController implements Drawable, Steppable {
 <span class="nc" id="L52">            currentPipe = nextCurrent;</span>
 <span class="nc" id="L53">            activeCount++;</span>
         }
-<span class="nc" id="L55">    }</span>
+<span class="fc" id="L55">    }</span>
 
     private void repurposePipes() {
-<span class="nc bnc" id="L58" title="All 2 branches missed.">        if (pipes.get(0).getX() &lt; -40) {</span>
+<span class="pc bpc" id="L58" title="1 of 2 branches missed.">        if (pipes.get(0).getX() &lt; -40) {</span>
 <span class="nc" id="L59">            Pipe pipe = pipes.remove(0);</span>
 <span class="nc" id="L60">            pipe.setX(lastPipe.getX() + PIPES_GAP);</span>
 <span class="nc" id="L61">            pipe.setyOpeningStart(random.nextInt(500) + 50);</span>
 <span class="nc" id="L62">            pipes.add(pipe);</span>
 <span class="nc" id="L63">            lastPipe = pipe;</span>
         }
-<span class="nc" id="L65">    }</span>
+<span class="fc" id="L65">    }</span>
 
     public int getActiveCount() {
-<span class="nc" id="L68">        return activeCount;</span>
+<span class="fc" id="L68">        return activeCount;</span>
     }
 
     public Pipe getCurrentPipe() {
-<span class="nc" id="L72">        return currentPipe;</span>
+<span class="fc" id="L72">        return currentPipe;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

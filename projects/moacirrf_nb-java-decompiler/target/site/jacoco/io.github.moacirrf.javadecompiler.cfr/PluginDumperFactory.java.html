@@ -38,24 +38,24 @@ import static org.openide.util.Exceptions.printStackTrace;
  */
 public class PluginDumperFactory implements DumperFactory {
 
-<span class="nc" id="L41">    private final IllegalIdentifierDump illegalIdentifierDump = new IllegalIdentifierDump.Nop();</span>
+<span class="fc" id="L41">    private final IllegalIdentifierDump illegalIdentifierDump = new IllegalIdentifierDump.Nop();</span>
 
     private final StringBuilder outBuffer;
     private final Options options;
 
-<span class="nc" id="L46">    public PluginDumperFactory(StringBuilder out, Options options) {</span>
-<span class="nc" id="L47">        this.outBuffer = out;</span>
-<span class="nc" id="L48">        this.options = options;</span>
-<span class="nc" id="L49">    }</span>
+<span class="fc" id="L46">    public PluginDumperFactory(StringBuilder out, Options options) {</span>
+<span class="fc" id="L47">        this.outBuffer = out;</span>
+<span class="fc" id="L48">        this.options = options;</span>
+<span class="fc" id="L49">    }</span>
 
     @Override
     public Dumper getNewTopLevelDumper(JavaTypeInstance classType, SummaryDumper summaryDumper, TypeUsageInformation typeUsageInformation, IllegalIdentifierDump illegalIdentifierDump) {
-<span class="nc" id="L53">        return new StringStreamDumper(new MethodErrorCollector.SummaryDumperMethodErrorCollector(classType, summaryDumper), outBuffer, typeUsageInformation, options, this.illegalIdentifierDump);</span>
+<span class="fc" id="L53">        return new StringStreamDumper(new MethodErrorCollector.SummaryDumperMethodErrorCollector(classType, summaryDumper), outBuffer, typeUsageInformation, options, this.illegalIdentifierDump);</span>
     }
 
     @Override
     public Dumper wrapLineNoDumper(Dumper dumper) {
-<span class="nc" id="L58">        return dumper;</span>
+<span class="fc" id="L58">        return dumper;</span>
     }
 
     /*
@@ -63,8 +63,8 @@ public class PluginDumperFactory implements DumperFactory {
      */
     @Override
     public SummaryDumper getSummaryDumper() {
-<span class="nc bnc" id="L66" title="All 2 branches missed.">        if (!options.optionIsSet(OptionsImpl.OUTPUT_DIR)) {</span>
-<span class="nc" id="L67">            return new NopSummaryDumper();</span>
+<span class="pc bpc" id="L66" title="1 of 2 branches missed.">        if (!options.optionIsSet(OptionsImpl.OUTPUT_DIR)) {</span>
+<span class="fc" id="L67">            return new NopSummaryDumper();</span>
         }
 
 <span class="nc" id="L70">        return new FileSummaryDumper(options.getOption(OptionsImpl.OUTPUT_DIR), options, null);</span>
@@ -72,12 +72,12 @@ public class PluginDumperFactory implements DumperFactory {
 
     @Override
     public ProgressDumper getProgressDumper() {
-<span class="nc" id="L75">        return ProgressDumperNop.INSTANCE;</span>
+<span class="fc" id="L75">        return ProgressDumperNop.INSTANCE;</span>
     }
 
     @Override
     public ExceptionDumper getExceptionDumper() {
-<span class="nc" id="L80">        return new ExceptionDumper() {</span>
+<span class="fc" id="L80">        return new ExceptionDumper() {</span>
             @Override
             public void noteException(String path, String comment, Exception e) {
 <span class="nc" id="L83">                printStackTrace(e);</span>
@@ -87,7 +87,7 @@ public class PluginDumperFactory implements DumperFactory {
 
     @Override
     public DumperFactory getFactoryWithPrefix(String prefix, int version) {
-<span class="nc" id="L90">        return this;</span>
+<span class="fc" id="L90">        return this;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

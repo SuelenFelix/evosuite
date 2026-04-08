@@ -30,24 +30,24 @@ public class InvoiceServiceImpl implements InvoiceService{
 
     @Override
     public List&lt;Invoice&gt; getAllInvoices() {
-<span class="nc" id="L33">        return invoiceList;</span>
+<span class="fc" id="L33">        return invoiceList;</span>
     }
 
     @Override
     public void saveInvoice(Invoice invoice) {
-<span class="nc" id="L38">        invoiceList.add(invoice);</span>
-<span class="nc" id="L39">    }</span>
+<span class="fc" id="L38">        invoiceList.add(invoice);</span>
+<span class="fc" id="L39">    }</span>
 
     @Override
     public void deleteInvoice(Long id) {
-<span class="nc" id="L43">        invoiceList.removeIf(element -&gt; element.getId().equals(id));</span>
-<span class="nc" id="L44">    }</span>
+<span class="fc" id="L43">        invoiceList.removeIf(element -&gt; element.getId().equals(id));</span>
+<span class="fc" id="L44">    }</span>
 
     @Override
     public void updateInvoice(Invoice newInvoice) {
-<span class="nc" id="L48">        Invoice oldInvoice = invoiceList.stream().filter(element -&gt; element.getId().equals(newInvoice.getId())).findFirst().get();</span>
-<span class="nc" id="L49">        int index = invoiceList.indexOf(oldInvoice);</span>
-<span class="nc" id="L50">        invoiceList.set(index, newInvoice);</span>
-<span class="nc" id="L51">    }</span>
+<span class="fc" id="L48">        Invoice oldInvoice = invoiceList.stream().filter(element -&gt; element.getId().equals(newInvoice.getId())).findFirst().get();</span>
+<span class="fc" id="L49">        int index = invoiceList.indexOf(oldInvoice);</span>
+<span class="fc" id="L50">        invoiceList.set(index, newInvoice);</span>
+<span class="fc" id="L51">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

@@ -1,0 +1,857 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< com.appsdeveloperblog.photoapp:NewSpringAuthorizationServer >-----
+[INFO] Building NewSpringAuthorizationServer 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ NewSpringAuthorizationServer ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ NewSpringAuthorizationServer ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ NewSpringAuthorizationServer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ NewSpringAuthorizationServer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ NewSpringAuthorizationServer ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ NewSpringAuthorizationServer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ NewSpringAuthorizationServer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/appsdeveloperblog/photoapp/oauthserver/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/appsdeveloperblog/photoapp/oauthserver/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/appsdeveloperblog/photoapp/oauthserver/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/appsdeveloperblog/photoapp/oauthserver/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ NewSpringAuthorizationServer ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+05:46:36.019 [main] INFO org.evosuite.runtime.agent.AgentLoader - dynamically loading javaagent
+05:46:36.032 [main] INFO org.evosuite.runtime.agent.AgentLoader - Using JavaAgent in /root/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.1.0/evosuite-standalone-runtime-1.1.0.jar
+05:46:36.039 [main] INFO org.evosuite.runtime.agent.AgentLoader - Classpath: /app/target/test-classes:/app/target/classes:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.1.0/evosuite-standalone-runtime-1.1.0.jar:/root/.m2/repository/org/springframework/security/spring-security-oauth2-authorization-server/0.2.2/spring-security-oauth2-authorization-server-0.2.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/root/.m2/repository/com/nimbusds/nimbus-jose-jwt/9.10.1/nimbus-jose-jwt-9.10.1.jar:/root/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/root/.m2/repository/org/springframework/security/spring-security-config/5.6.2/spring-security-config-5.6.2.jar:/root/.m2/repository/org/springframework/spring-beans/5.3.16/spring-beans-5.3.16.jar:/root/.m2/repository/org/springframework/spring-context/5.3.16/spring-context-5.3.16.jar:/root/.m2/repository/org/springframework/security/spring-security-oauth2-core/5.6.2/spring-security-oauth2-core-5.6.2.jar:/root/.m2/repository/org/springframework/security/spring-security-oauth2-jose/5.6.2/spring-security-oauth2-jose-5.6.2.jar:/root/.m2/repository/org/springframework/security/spring-security-oauth2-resource-server/5.6.2/spring-security-oauth2-resource-server-5.6.2.jar:/root/.m2/repository/org/springframework/security/spring-security-web/5.6.2/spring-security-web-5.6.2.jar:/root/.m2/repository/org/springframework/spring-expression/5.3.16/spring-expression-5.3.16.jar:/root/.m2/repository/org/springframework/spring-core/5.3.16/spring-core-5.3.16.jar:/root/.m2/repository/org/springframework/spring-jcl/5.3.16/spring-jcl-5.3.16.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.6.4/spring-boot-starter-security-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.4/spring-boot-starter-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot/2.6.4/spring-boot-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.4/spring-boot-autoconfigure-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.4/spring-boot-starter-logging-2.6.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.1/log4j-to-slf4j-2.17.1.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/root/.m2/repository/org/springframework/spring-aop/5.3.16/spring-aop-5.3.16.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.4/spring-boot-starter-web-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.4/spring-boot-starter-json-2.6.4.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.1/jackson-datatype-jdk8-2.13.1.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.1/jackson-datatype-jsr310-2.13.1.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.1/jackson-module-parameter-names-2.13.1.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.4/spring-boot-starter-tomcat-2.6.4.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.58/tomcat-embed-core-9.0.58.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.58/tomcat-embed-el-9.0.58.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.58/tomcat-embed-websocket-9.0.58.jar:/root/.m2/repository/org/springframework/spring-web/5.3.16/spring-web-5.3.16.jar:/root/.m2/repository/org/springframework/spring-webmvc/5.3.16/spring-webmvc-5.3.16.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.6.4/spring-boot-starter-test-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-test/2.6.4/spring-boot-test-2.6.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.6.4/spring-boot-test-autoconfigure-2.6.4.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/root/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/root/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/root/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/root/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/mockito/mockito-core/4.0.0/mockito-core-4.0.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.22/byte-buddy-agent-1.11.22.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/org/mockito/mockito-junit-jupiter/4.0.0/mockito-junit-jupiter-4.0.0.jar:/root/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/root/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/root/.m2/repository/org/springframework/spring-test/5.3.16/spring-test-5.3.16.jar:/root/.m2/repository/org/xmlunit/xmlunit-core/2.8.4/xmlunit-core-2.8.4.jar:/root/.m2/repository/org/springframework/security/spring-security-test/5.6.2/spring-security-test-5.6.2.jar:/root/.m2/repository/org/springframework/security/spring-security-core/5.6.2/spring-security-core-5.6.2.jar:/root/.m2/repository/org/springframework/security/spring-security-crypto/5.6.2/spring-security-crypto-5.6.2.jar:
+05:46:36.040 [main] INFO org.evosuite.runtime.agent.AgentLoader - Going to attach agent to process 69
+05:46:36.275 [Attach Listener] INFO org.evosuite.runtime.agent.InstrumentingAgent - Executing agentmain of JavaAgent
+[INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_ESTest
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "process reaper"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Attach Listener"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "surefire-forkedjvm-command-thread"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "surefire-forkedjvm-ping-30s"
+05:46:36.516 [main] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Common-Cleaner"
+05:46:36.547 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ReflectionUtils$FieldFilter
+05:46:36.679 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.aop.support.AopUtils
+05:46:36.681 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/aop/support/AopUtils
+05:46:36.695 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/aop/support/AopUtils
+05:46:36.696 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.aop.AopInvocationException
+05:46:36.697 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/aop/AopInvocationException
+05:46:36.697 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/aop/AopInvocationException
+05:46:36.698 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.NestedRuntimeException
+05:46:36.699 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/NestedRuntimeException
+05:46:36.702 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/NestedRuntimeException
+05:46:36.704 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationReadyEvent
+05:46:36.705 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationReadyEvent
+05:46:36.706 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationReadyEvent
+05:46:36.708 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.SpringApplicationEvent
+05:46:36.708 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/SpringApplicationEvent
+05:46:36.709 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/SpringApplicationEvent
+05:46:36.710 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationEvent
+05:46:36.710 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/ApplicationEvent
+05:46:36.711 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/ApplicationEvent
+05:46:36.712 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplicationShutdownHook$ApplicationContextClosedListener
+05:46:36.712 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/SpringApplicationShutdownHook$ApplicationContextClosedListener
+05:46:36.713 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/SpringApplicationShutdownHook$ApplicationContextClosedListener
+05:46:36.714 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationListener
+05:46:36.715 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationContextException
+05:46:36.716 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/ApplicationContextException
+05:46:36.716 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/ApplicationContextException
+05:46:36.717 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.FatalBeanException
+05:46:36.717 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/beans/FatalBeanException
+05:46:36.717 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/beans/FatalBeanException
+05:46:36.718 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.BeansException
+05:46:36.718 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/beans/BeansException
+05:46:36.719 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/beans/BeansException
+05:46:36.720 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.NestedExceptionUtils
+05:46:36.720 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/NestedExceptionUtils
+05:46:36.721 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/NestedExceptionUtils
+05:46:36.723 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.SimpleApplicationEventMulticaster
+05:46:36.723 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/SimpleApplicationEventMulticaster
+05:46:36.730 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/SimpleApplicationEventMulticaster
+05:46:36.732 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.AbstractApplicationEventMulticaster
+05:46:36.733 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/AbstractApplicationEventMulticaster
+05:46:36.746 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/AbstractApplicationEventMulticaster
+05:46:36.747 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.ApplicationEventMulticaster
+05:46:36.749 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.BeanClassLoaderAware
+05:46:36.749 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.Aware
+05:46:36.750 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.BeanFactoryAware
+05:46:36.751 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.NoSuchBeanDefinitionException
+05:46:36.751 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/beans/factory/NoSuchBeanDefinitionException
+05:46:36.754 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/beans/factory/NoSuchBeanDefinitionException
+05:46:36.755 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.GenericApplicationListener
+05:46:36.756 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.SmartApplicationListener
+05:46:36.758 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.Ordered
+05:46:36.759 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplicationShutdownHook$Handlers
+05:46:36.760 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/SpringApplicationShutdownHook$Handlers
+05:46:36.761 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/SpringApplicationShutdownHook$Handlers
+05:46:36.762 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplicationShutdownHandlers
+05:46:36.766 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationTypeMapping
+05:46:36.768 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationTypeMapping
+05:46:36.774 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/AnnotationTypeMapping
+05:46:36.776 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationConfigurationException
+05:46:36.776 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationConfigurationException
+05:46:36.777 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/AnnotationConfigurationException
+05:46:36.778 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationTypeMapping$MirrorSets$MirrorSet
+05:46:36.778 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationTypeMapping$MirrorSets$MirrorSet
+05:46:36.780 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/AnnotationTypeMapping$MirrorSets$MirrorSet
+05:46:36.780 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationStartedEvent
+05:46:36.781 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationStartedEvent
+05:46:36.781 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationStartedEvent
+05:46:36.782 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationEventPublisher
+05:46:36.784 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.LogbackLoggingSystem
+05:46:36.785 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/LogbackLoggingSystem
+05:46:36.792 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/logback/LogbackLoggingSystem
+05:46:36.794 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.Slf4JLoggingSystem
+05:46:36.794 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/Slf4JLoggingSystem
+05:46:36.796 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/Slf4JLoggingSystem
+05:46:36.796 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field BRIDGE_HANDLER
+05:46:36.797 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.AbstractLoggingSystem
+05:46:36.798 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/AbstractLoggingSystem
+05:46:36.799 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/AbstractLoggingSystem
+05:46:36.800 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.LoggingSystem
+05:46:36.800 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/LoggingSystem
+05:46:36.803 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/LoggingSystem
+05:46:36.804 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.LoggingSystem$NoOpLoggingSystem
+05:46:36.804 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/LoggingSystem$NoOpLoggingSystem
+05:46:36.805 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/LoggingSystem$NoOpLoggingSystem
+05:46:36.806 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.Environment
+05:46:36.807 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.PropertyResolver
+05:46:36.809 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.LogbackLoggingSystem$1
+05:46:36.809 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/LogbackLoggingSystem$1
+05:46:36.811 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.LoggingSystemProperties
+05:46:36.811 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/LoggingSystemProperties
+05:46:36.812 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/LoggingSystemProperties
+05:46:36.813 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.LogbackLoggingSystemProperties
+05:46:36.814 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/LogbackLoggingSystemProperties
+05:46:36.817 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/logback/LogbackLoggingSystemProperties
+05:46:36.817 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROLLINGPOLICY_FILE_NAME_PATTERN
+05:46:36.818 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROLLINGPOLICY_CLEAN_HISTORY_ON_START
+05:46:36.818 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROLLINGPOLICY_MAX_FILE_SIZE
+05:46:36.818 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROLLINGPOLICY_TOTAL_SIZE_CAP
+05:46:36.818 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field ROLLINGPOLICY_MAX_HISTORY
+05:46:36.819 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.LogbackConfigurator
+05:46:36.819 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/LogbackConfigurator
+05:46:36.820 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/logback/LogbackConfigurator
+05:46:36.821 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.DebugLogbackConfigurator
+05:46:36.822 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/DebugLogbackConfigurator
+05:46:36.822 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/logback/DebugLogbackConfigurator
+05:46:36.825 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.SpringBootJoranConfigurator
+05:46:36.826 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/SpringBootJoranConfigurator
+05:46:36.826 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/logback/SpringBootJoranConfigurator
+05:46:36.827 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.LoggingSystemFactory
+05:46:36.828 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.DelegatingLoggingSystemFactory
+05:46:36.828 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/DelegatingLoggingSystemFactory
+05:46:36.829 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/DelegatingLoggingSystemFactory
+05:46:36.830 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.LoggerConfigurationComparator
+05:46:36.830 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/LoggerConfigurationComparator
+05:46:36.831 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/LoggerConfigurationComparator
+05:46:36.833 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.Assert
+05:46:36.834 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/Assert
+05:46:36.841 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/Assert
+05:46:36.843 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.SpringProperties
+05:46:36.843 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/SpringProperties
+05:46:36.844 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/SpringProperties
+05:46:36.846 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.AbstractLoggingSystem$LogLevels
+05:46:36.847 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/AbstractLoggingSystem$LogLevels
+05:46:36.847 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/AbstractLoggingSystem$LogLevels
+05:46:36.848 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.LogLevel
+05:46:36.848 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/LogLevel
+05:46:36.848 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/LogLevel
+05:46:36.850 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.Resource
+05:46:36.851 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.InputStreamSource
+05:46:36.854 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ClassUtils
+05:46:36.856 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ClassUtils
+05:46:36.864 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ClassUtils
+05:46:36.868 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap
+05:46:36.868 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap
+05:46:36.871 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ConcurrentReferenceHashMap
+05:46:36.872 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$Task
+05:46:36.873 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$Task
+05:46:36.874 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/ConcurrentReferenceHashMap$Task
+05:46:36.875 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$2
+05:46:36.875 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$2
+05:46:36.876 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$3
+05:46:36.876 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$3
+05:46:36.877 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$1
+05:46:36.877 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$1
+05:46:36.878 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$4
+05:46:36.878 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$4
+05:46:36.879 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$5
+05:46:36.879 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$5
+05:46:36.880 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$ReferenceType
+05:46:36.880 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$ReferenceType
+05:46:36.881 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ConcurrentReferenceHashMap$ReferenceType
+05:46:36.882 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$Segment
+05:46:36.883 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$Segment
+05:46:36.885 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/ConcurrentReferenceHashMap$Segment
+05:46:36.886 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$ReferenceManager
+05:46:36.886 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$ReferenceManager
+05:46:36.887 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/ConcurrentReferenceHashMap$ReferenceManager
+05:46:36.887 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$Reference
+05:46:36.889 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.PriorityOrdered
+05:46:36.890 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.metrics.ApplicationStartup
+05:46:36.891 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.metrics.DefaultApplicationStartup
+05:46:36.891 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/metrics/DefaultApplicationStartup
+05:46:36.891 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/metrics/DefaultApplicationStartup
+05:46:36.891 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.metrics.StartupStep
+05:46:36.892 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.metrics.DefaultApplicationStartup$DefaultStartupStep
+05:46:36.892 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/metrics/DefaultApplicationStartup$DefaultStartupStep
+05:46:36.893 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/metrics/DefaultApplicationStartup$DefaultStartupStep
+05:46:36.893 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.metrics.StartupStep$Tags
+05:46:36.894 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.metrics.DefaultApplicationStartup$DefaultStartupStep$DefaultTags
+05:46:36.894 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/metrics/DefaultApplicationStartup$DefaultStartupStep$DefaultTags
+05:46:36.894 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/metrics/DefaultApplicationStartup$DefaultStartupStep$DefaultTags
+05:46:36.895 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplicationRunListeners
+05:46:36.896 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/SpringApplicationRunListeners
+05:46:36.897 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/SpringApplicationRunListeners
+05:46:36.898 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.support.BeanNameGenerator
+05:46:36.899 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationAwareOrderComparator
+05:46:36.899 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationAwareOrderComparator
+05:46:36.900 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/AnnotationAwareOrderComparator
+05:46:36.901 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.OrderComparator
+05:46:36.902 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/OrderComparator
+05:46:36.903 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/OrderComparator
+05:46:36.904 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationContextAware
+05:46:36.905 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.BootstrapRegistry
+05:46:36.907 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.CommandLinePropertySource
+05:46:36.907 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/CommandLinePropertySource
+05:46:36.908 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/CommandLinePropertySource
+05:46:36.908 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field COMMAND_LINE_PROPERTY_SOURCE_NAME
+05:46:36.908 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_NON_OPTION_ARGS_PROPERTY_NAME
+05:46:36.909 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.EnumerablePropertySource
+05:46:36.909 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/EnumerablePropertySource
+05:46:36.909 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/EnumerablePropertySource
+05:46:36.910 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.PropertySource
+05:46:36.910 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/PropertySource
+05:46:36.911 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/PropertySource
+05:46:36.912 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.PropertySource$ComparisonPropertySource
+05:46:36.912 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/PropertySource$ComparisonPropertySource
+05:46:36.912 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/PropertySource$ComparisonPropertySource
+05:46:36.912 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field USAGE_ERROR
+05:46:36.913 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.PropertySource$StubPropertySource
+05:46:36.913 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/PropertySource$StubPropertySource
+05:46:36.913 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/PropertySource$StubPropertySource
+05:46:36.914 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$Entry
+05:46:36.914 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$Entry
+05:46:36.915 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/ConcurrentReferenceHashMap$Entry
+05:46:36.916 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication
+05:46:36.916 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication
+05:46:36.917 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class com/appsdeveloperblog/photoapp/oauthserver/NewSpringAuthorizationServerApplication
+05:46:36.918 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.ApplicationArguments
+05:46:36.919 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.bind.Bindable$BindRestriction
+05:46:36.919 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/bind/Bindable$BindRestriction
+05:46:36.919 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/properties/bind/Bindable$BindRestriction
+05:46:36.921 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.config.DelegatingApplicationContextInitializer
+05:46:36.921 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/config/DelegatingApplicationContextInitializer
+05:46:36.922 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/config/DelegatingApplicationContextInitializer
+05:46:36.922 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field PROPERTY_NAME
+05:46:36.922 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationContextInitializer
+05:46:36.923 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.ConfigurablePropertyResolver
+05:46:36.924 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$TaskOption
+05:46:36.924 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$TaskOption
+05:46:36.924 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ConcurrentReferenceHashMap$TaskOption
+05:46:36.925 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableTypeProvider
+05:46:36.927 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationsScanner
+05:46:36.929 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationsScanner
+05:46:36.936 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/AnnotationsScanner
+05:46:36.938 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.BootstrapRegistryInitializer
+05:46:36.940 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.RepeatableContainers$NoRepeatableContainers
+05:46:36.940 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/RepeatableContainers$NoRepeatableContainers
+05:46:36.941 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/RepeatableContainers$NoRepeatableContainers
+05:46:36.942 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.RepeatableContainers
+05:46:36.942 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/RepeatableContainers
+05:46:36.943 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/RepeatableContainers
+05:46:36.944 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.RepeatableContainers$ExplicitRepeatableContainer
+05:46:36.944 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/RepeatableContainers$ExplicitRepeatableContainer
+05:46:36.946 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/RepeatableContainers$ExplicitRepeatableContainer
+05:46:36.947 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers
+05:46:36.947 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/RepeatableContainers$StandardRepeatableContainers
+05:46:36.948 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/RepeatableContainers$StandardRepeatableContainers
+05:46:36.951 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.source.ConfigurationPropertyName
+05:46:36.952 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/source/ConfigurationPropertyName
+05:46:36.956 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/properties/source/ConfigurationPropertyName
+05:46:36.958 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException
+05:46:36.958 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/source/InvalidConfigurationPropertyNameException
+05:46:36.959 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/properties/source/InvalidConfigurationPropertyNameException
+05:46:36.960 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.source.ConfigurationPropertyName$Elements
+05:46:36.960 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/source/ConfigurationPropertyName$Elements
+05:46:36.961 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/properties/source/ConfigurationPropertyName$Elements
+05:46:36.962 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.source.ConfigurationPropertyName$ElementType
+05:46:36.962 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/source/ConfigurationPropertyName$ElementType
+05:46:36.963 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/properties/source/ConfigurationPropertyName$ElementType
+05:46:36.963 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.EnvironmentCapable
+05:46:36.964 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.autoconfigure.BackgroundPreinitializer
+05:46:36.965 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/autoconfigure/BackgroundPreinitializer
+05:46:36.967 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/autoconfigure/BackgroundPreinitializer
+05:46:36.968 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.NativeDetector
+05:46:36.969 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/NativeDetector
+05:46:36.969 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/NativeDetector
+05:46:36.971 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationFilter$2
+05:46:36.971 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationFilter$2
+05:46:36.974 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationFilter
+05:46:36.976 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.PackagesAnnotationFilter
+05:46:36.977 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/PackagesAnnotationFilter
+05:46:36.977 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/PackagesAnnotationFilter
+05:46:36.980 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.StringUtils
+05:46:36.981 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/StringUtils
+05:46:36.987 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/StringUtils
+05:46:36.989 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationFilter$1
+05:46:36.989 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationFilter$1
+05:46:36.991 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.ContextIdApplicationContextInitializer
+05:46:36.991 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/ContextIdApplicationContextInitializer
+05:46:36.991 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/ContextIdApplicationContextInitializer
+05:46:36.992 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.AbstractApplicationEventMulticaster$DefaultListenerRetriever
+05:46:36.992 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/AbstractApplicationEventMulticaster$DefaultListenerRetriever
+05:46:36.994 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/AbstractApplicationEventMulticaster$DefaultListenerRetriever
+05:46:36.995 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.BeanFactory
+05:46:36.996 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.convert.ConversionService
+05:46:36.996 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.MessageSource
+05:46:36.997 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.autoconfigure.EnableAutoConfiguration
+05:46:36.998 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$Entries
+05:46:36.998 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.DecoratingProxy
+05:46:36.999 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.annotation.ComponentScan
+05:46:37.000 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotationSelectors$FirstDirectlyDeclared
+05:46:37.000 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/MergedAnnotationSelectors$FirstDirectlyDeclared
+05:46:37.001 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/MergedAnnotationSelectors$FirstDirectlyDeclared
+05:46:37.001 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotationSelector
+05:46:37.002 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.Lifecycle
+05:46:37.003 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.MultiValueMapAdapter
+05:46:37.003 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/MultiValueMapAdapter
+05:46:37.004 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/MultiValueMapAdapter
+05:46:37.005 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.MultiValueMap
+05:46:37.007 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$1
+05:46:37.007 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType$1
+05:46:37.010 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType
+05:46:37.012 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType
+05:46:37.017 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/ResolvableType
+05:46:37.019 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$VariableResolver
+05:46:37.019 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.SerializableTypeWrapper$TypeProvider
+05:46:37.020 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$EmptyType
+05:46:37.021 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType$EmptyType
+05:46:37.021 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/ResolvableType$EmptyType
+05:46:37.022 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.WebApplicationType
+05:46:37.022 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/WebApplicationType
+05:46:37.022 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/WebApplicationType
+05:46:37.023 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationPreparedEvent
+05:46:37.024 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationPreparedEvent
+05:46:37.024 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationPreparedEvent
+05:46:37.025 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.ApplicationContextFactory
+05:46:37.027 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ConfigurableApplicationContext
+05:46:37.028 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.ApplicationContext
+05:46:37.029 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.ListableBeanFactory
+05:46:37.029 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.HierarchicalBeanFactory
+05:46:37.030 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.support.ResourcePatternResolver
+05:46:37.030 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.ResourceLoader
+05:46:37.031 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotationSelectors
+05:46:37.032 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/MergedAnnotationSelectors
+05:46:37.032 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/MergedAnnotationSelectors
+05:46:37.033 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotationSelectors$Nearest
+05:46:37.033 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/MergedAnnotationSelectors$Nearest
+05:46:37.033 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/MergedAnnotationSelectors$Nearest
+05:46:37.034 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.SimpleCommandLinePropertySource
+05:46:37.034 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/SimpleCommandLinePropertySource
+05:46:37.034 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/SimpleCommandLinePropertySource
+05:46:37.037 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplication
+05:46:37.039 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/SpringApplication
+05:46:37.050 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/SpringApplication
+05:46:37.051 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.ConfigurableBootstrapContext
+05:46:37.052 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.BootstrapContext
+05:46:37.053 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.ExitCodeEvent
+05:46:37.053 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/ExitCodeEvent
+05:46:37.053 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/ExitCodeEvent
+05:46:37.054 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.ConfigurableEnvironment
+05:46:37.054 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.factory.config.BeanFactoryPostProcessor
+05:46:37.055 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.convert.support.ConfigurableConversionService
+05:46:37.055 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.convert.converter.ConverterRegistry
+05:46:37.056 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.CompositePropertySource
+05:46:37.056 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/CompositePropertySource
+05:46:37.058 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/CompositePropertySource
+05:46:37.060 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.apache.logging.log4j.spi.ExtendedLogger
+05:46:37.063 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.apache.logging.log4j.Logger
+05:46:37.067 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.apache.logging.slf4j.SLF4JProvider
+05:46:37.067 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/logging/slf4j/SLF4JProvider
+05:46:37.068 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/apache/logging/slf4j/SLF4JProvider
+05:46:37.069 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.apache.logging.log4j.spi.Provider
+05:46:37.069 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/apache/logging/log4j/spi/Provider
+05:46:37.071 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/apache/logging/log4j/spi/Provider
+05:46:37.075 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplicationShutdownHook
+05:46:37.076 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/SpringApplicationShutdownHook
+05:46:37.078 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/SpringApplicationShutdownHook
+05:46:37.079 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.support.PropertiesLoaderUtils
+05:46:37.080 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/io/support/PropertiesLoaderUtils
+05:46:37.081 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/io/support/PropertiesLoaderUtils
+05:46:37.082 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.PropertiesPersister
+05:46:37.083 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationsProcessor
+05:46:37.084 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.DeferredLogFactory
+05:46:37.086 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AttributeMethods
+05:46:37.087 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AttributeMethods
+05:46:37.089 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/AttributeMethods
+05:46:37.091 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.logback.LogbackLoggingSystem$Factory
+05:46:37.091 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/logback/LogbackLoggingSystem$Factory
+05:46:37.092 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/logback/LogbackLoggingSystem$Factory
+05:46:37.094 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.bind.Bindable
+05:46:37.094 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/bind/Bindable
+05:46:37.095 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/properties/bind/Bindable
+05:46:37.097 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer
+05:46:37.097 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/web/context/ServerPortInfoApplicationContextInitializer
+05:46:37.098 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/web/context/ServerPortInfoApplicationContextInitializer
+05:46:37.099 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.env.MapPropertySource
+05:46:37.099 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/env/MapPropertySource
+05:46:37.099 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/env/MapPropertySource
+05:46:37.100 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.env.EnvironmentPostProcessorApplicationListener
+05:46:37.100 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/env/EnvironmentPostProcessorApplicationListener
+05:46:37.101 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/env/EnvironmentPostProcessorApplicationListener
+05:46:37.101 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_ORDER
+05:46:37.103 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.LocalVariableTableParameterNameDiscoverer
+05:46:37.103 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/LocalVariableTableParameterNameDiscoverer
+05:46:37.106 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/LocalVariableTableParameterNameDiscoverer
+05:46:37.107 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ParameterNameDiscoverer
+05:46:37.108 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.asm.ClassVisitor
+05:46:37.109 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/asm/ClassVisitor
+05:46:37.111 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/asm/ClassVisitor
+05:46:37.112 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.LocalVariableTableParameterNameDiscoverer$ParameterNameDiscoveringVisitor
+05:46:37.112 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/LocalVariableTableParameterNameDiscoverer$ParameterNameDiscoveringVisitor
+05:46:37.112 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/LocalVariableTableParameterNameDiscoverer$ParameterNameDiscoveringVisitor
+05:46:37.112 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field STATIC_CLASS_INIT
+05:46:37.113 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.env.EnvironmentPostProcessorsFactory
+05:46:37.114 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.ClearCachesApplicationListener
+05:46:37.114 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/ClearCachesApplicationListener
+05:46:37.115 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/ClearCachesApplicationListener
+05:46:37.116 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$Factory
+05:46:37.116 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/log4j2/Log4J2LoggingSystem$Factory
+05:46:37.116 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/logging/log4j2/Log4J2LoggingSystem$Factory
+05:46:37.118 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem
+05:46:37.118 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/log4j2/Log4J2LoggingSystem
+05:46:37.121 [main] ERROR org.evosuite.runtime.instrumentation.RuntimeInstrumentation - Error while instrumenting class org/springframework/boot/logging/log4j2/Log4J2LoggingSystem: Class not found: org/apache/logging/log4j/core/config/composite/CompositeConfiguration: java.lang.NullPointerException: Class not found org/apache/logging/log4j/core/config/composite/CompositeConfiguration
+java.lang.RuntimeException: Class not found: org/apache/logging/log4j/core/config/composite/CompositeConfiguration: java.lang.NullPointerException: Class not found org/apache/logging/log4j/core/config/composite/CompositeConfiguration
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:56)
+	at org.evosuite.shaded.org.objectweb.asm.SymbolTable.addMergedType(SymbolTable.java:1202)
+	at org.evosuite.shaded.org.objectweb.asm.Frame.merge(Frame.java:1299)
+	at org.evosuite.shaded.org.objectweb.asm.Frame.merge(Frame.java:1244)
+	at org.evosuite.shaded.org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1610)
+	at org.evosuite.shaded.org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1546)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(MethodVisitor.java:773)
+	at org.evosuite.shaded.org.objectweb.asm.commons.LocalVariablesSorter.visitMaxs(LocalVariablesSorter.java:148)
+	at org.evosuite.runtime.instrumentation.MethodCallReplacementMethodAdapter.visitMaxs(MethodCallReplacementMethodAdapter.java:155)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(MethodVisitor.java:773)
+	at org.evosuite.runtime.instrumentation.KillSwitchMethodAdapter.visitMaxs(KillSwitchMethodAdapter.java:43)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(MethodVisitor.java:773)
+	at org.evosuite.runtime.instrumentation.LoopCounterMethodAdapter.visitMaxs(LoopCounterMethodAdapter.java:48)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:769)
+	at org.evosuite.shaded.org.objectweb.asm.commons.JSRInlinerAdapter.visitEnd(JSRInlinerAdapter.java:158)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:772)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:649)
+	at org.evosuite.shaded.org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:452)
+	at org.evosuite.runtime.instrumentation.RuntimeInstrumentation.transformBytes(RuntimeInstrumentation.java:157)
+	at org.evosuite.runtime.agent.TransformerForTests.transform(TransformerForTests.java:84)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:246)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:563)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader$4.run(BuiltinClassLoader.java:711)
+	at java.base/jdk.internal.loader.BuiltinClassLoader$4.run(BuiltinClassLoader.java:706)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.evosuite.runtime.classhandling.ClassStateSupport.loadClasses(ClassStateSupport.java:164)
+	at org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(ClassStateSupport.java:65)
+	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_ESTest_scaffolding.initializeClasses(NewSpringAuthorizationServerApplication_ESTest_scaffolding.java:79)
+	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_ESTest_scaffolding.initEvoSuiteFramework(NewSpringAuthorizationServerApplication_ESTest_scaffolding.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.NullPointerException: Class not found org/apache/logging/log4j/core/config/composite/CompositeConfiguration
+	at org.evosuite.runtime.util.ComputeClassWriter.typeInfo(ComputeClassWriter.java:189)
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:53)
+	... 68 common frames omitted
+05:46:37.123 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$SoftEntryReference
+05:46:37.123 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$SoftEntryReference
+05:46:37.123 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/ConcurrentReferenceHashMap$SoftEntryReference
+05:46:37.125 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.BeanUtils
+05:46:37.126 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/beans/BeanUtils
+05:46:37.130 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/beans/BeanUtils
+05:46:37.132 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.beans.BeanInstantiationException
+05:46:37.132 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/beans/BeanInstantiationException
+05:46:37.132 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/beans/BeanInstantiationException
+05:46:37.133 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.DefaultParameterNameDiscoverer
+05:46:37.133 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/DefaultParameterNameDiscoverer
+05:46:37.134 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/DefaultParameterNameDiscoverer
+05:46:37.134 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.PrioritizedParameterNameDiscoverer
+05:46:37.134 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/PrioritizedParameterNameDiscoverer
+05:46:37.134 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/PrioritizedParameterNameDiscoverer
+05:46:37.135 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.KotlinDetector
+05:46:37.135 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/KotlinDetector
+05:46:37.135 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/KotlinDetector
+05:46:37.136 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.StandardReflectionParameterNameDiscoverer
+05:46:37.137 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/StandardReflectionParameterNameDiscoverer
+05:46:37.137 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/StandardReflectionParameterNameDiscoverer
+05:46:37.138 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.UrlResource
+05:46:37.139 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/io/UrlResource
+05:46:37.141 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/io/UrlResource
+05:46:37.142 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.AbstractFileResolvingResource
+05:46:37.143 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/io/AbstractFileResolvingResource
+05:46:37.145 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/io/AbstractFileResolvingResource
+05:46:37.146 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.AbstractResource
+05:46:37.146 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/io/AbstractResource
+05:46:37.147 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/io/AbstractResource
+05:46:37.148 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.NestedIOException
+05:46:37.148 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/NestedIOException
+05:46:37.148 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/NestedIOException
+05:46:37.149 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer
+05:46:37.149 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/autoconfigure/SharedMetadataReaderFactoryContextInitializer
+05:46:37.150 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/autoconfigure/SharedMetadataReaderFactoryContextInitializer
+05:46:37.150 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field BEAN_NAME
+05:46:37.150 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.builder.ParentContextCloserApplicationListener
+05:46:37.151 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/builder/ParentContextCloserApplicationListener
+05:46:37.151 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/builder/ParentContextCloserApplicationListener
+05:46:37.151 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.aop.TargetClassAware
+05:46:37.152 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.AbstractApplicationEventMulticaster$ListenerCacheKey
+05:46:37.152 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/AbstractApplicationEventMulticaster$ListenerCacheKey
+05:46:37.153 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/AbstractApplicationEventMulticaster$ListenerCacheKey
+05:46:37.153 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.DeferredLog$Lines
+05:46:37.153 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/DeferredLog$Lines
+05:46:37.154 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/DeferredLog$Lines
+05:46:37.154 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.ApplicationContextEvent
+05:46:37.154 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/ApplicationContextEvent
+05:46:37.154 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/ApplicationContextEvent
+05:46:37.155 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.AbstractApplicationEventMulticaster$CachedListenerRetriever
+05:46:37.155 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/AbstractApplicationEventMulticaster$CachedListenerRetriever
+05:46:37.155 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/AbstractApplicationEventMulticaster$CachedListenerRetriever
+05:46:37.156 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AliasFor
+05:46:37.157 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.asm.MethodVisitor
+05:46:37.158 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/asm/MethodVisitor
+05:46:37.160 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/asm/MethodVisitor
+05:46:37.160 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field REQUIRES_ASM5
+05:46:37.161 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.LocalVariableTableParameterNameDiscoverer$LocalVariableTableVisitor
+05:46:37.161 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/LocalVariableTableParameterNameDiscoverer$LocalVariableTableVisitor
+05:46:37.162 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/LocalVariableTableParameterNameDiscoverer$LocalVariableTableVisitor
+05:46:37.162 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field CONSTRUCTOR
+05:46:37.163 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$DefaultVariableResolver
+05:46:37.163 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType$DefaultVariableResolver
+05:46:37.164 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/ResolvableType$DefaultVariableResolver
+05:46:37.164 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringApplicationRunListener
+05:46:37.165 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotation
+05:46:37.167 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MissingMergedAnnotation
+05:46:37.167 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/MissingMergedAnnotation
+05:46:37.167 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/MissingMergedAnnotation
+05:46:37.168 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AbstractMergedAnnotation
+05:46:37.168 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AbstractMergedAnnotation
+05:46:37.169 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/AbstractMergedAnnotation
+05:46:37.171 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.SerializableTypeWrapper
+05:46:37.171 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/SerializableTypeWrapper
+05:46:37.173 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/SerializableTypeWrapper
+05:46:37.175 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$TypeVariablesVariableResolver
+05:46:37.175 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType$TypeVariablesVariableResolver
+05:46:37.175 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/ResolvableType$TypeVariablesVariableResolver
+05:46:37.176 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.ContextRefreshedEvent
+05:46:37.176 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/ContextRefreshedEvent
+05:46:37.177 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/ContextRefreshedEvent
+05:46:37.178 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ReflectionUtils
+05:46:37.179 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ReflectionUtils
+05:46:37.184 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ReflectionUtils
+05:46:37.185 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ReflectionUtils$MethodFilter
+05:46:37.187 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.OrderComparator$OrderSourceProvider
+05:46:37.188 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotations$SearchStrategy
+05:46:37.188 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/MergedAnnotations$SearchStrategy
+05:46:37.188 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/MergedAnnotations$SearchStrategy
+05:46:37.189 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener
+05:46:37.190 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/autoconfigure/logging/ConditionEvaluationReportLoggingListener
+05:46:37.190 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/autoconfigure/logging/ConditionEvaluationReportLoggingListener
+05:46:37.191 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.DeferredLogs
+05:46:37.191 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/DeferredLogs
+05:46:37.192 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/DeferredLogs
+05:46:37.192 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ErrorHandler
+05:46:37.193 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.ValueExtractor
+05:46:37.194 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.aop.framework.AopProxyUtils
+05:46:37.195 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/aop/framework/AopProxyUtils
+05:46:37.195 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/aop/framework/AopProxyUtils
+05:46:37.197 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.io.support.SpringFactoriesLoader
+05:46:37.197 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/io/support/SpringFactoriesLoader
+05:46:37.198 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/io/support/SpringFactoriesLoader
+05:46:37.199 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationContextInitializedEvent
+05:46:37.200 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationContextInitializedEvent
+05:46:37.200 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationContextInitializedEvent
+05:46:37.201 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.rsocket.context.RSocketPortInfoApplicationContextInitializer
+05:46:37.201 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/rsocket/context/RSocketPortInfoApplicationContextInitializer
+05:46:37.201 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/rsocket/context/RSocketPortInfoApplicationContextInitializer
+05:46:37.202 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.properties.source.ConfigurationPropertyName$ElementsParser
+05:46:37.202 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/properties/source/ConfigurationPropertyName$ElementsParser
+05:46:37.203 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/properties/source/ConfigurationPropertyName$ElementsParser
+05:46:37.203 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_CAPACITY
+05:46:37.204 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationStartingEvent
+05:46:37.204 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationStartingEvent
+05:46:37.204 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationStartingEvent
+05:46:37.206 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.CollectionUtils
+05:46:37.207 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/CollectionUtils
+05:46:37.209 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/CollectionUtils
+05:46:37.209 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field DEFAULT_LOAD_FACTOR
+05:46:37.212 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.TypeMappedAnnotation
+05:46:37.213 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/TypeMappedAnnotation
+05:46:37.217 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/TypeMappedAnnotation
+05:46:37.219 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.IntrospectionFailureLogger$1
+05:46:37.219 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/IntrospectionFailureLogger$1
+05:46:37.220 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.IntrospectionFailureLogger
+05:46:37.220 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/IntrospectionFailureLogger
+05:46:37.221 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/IntrospectionFailureLogger
+05:46:37.221 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.IntrospectionFailureLogger$2
+05:46:37.221 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/IntrospectionFailureLogger$2
+05:46:37.222 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.GenericApplicationListenerAdapter
+05:46:37.223 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/GenericApplicationListenerAdapter
+05:46:37.223 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/context/event/GenericApplicationListenerAdapter
+05:46:37.224 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.aop.framework.Advised
+05:46:37.225 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer
+05:46:37.225 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/ConfigurationWarningsApplicationContextInitializer
+05:46:37.226 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/ConfigurationWarningsApplicationContextInitializer
+05:46:37.226 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.ContextClosedEvent
+05:46:37.226 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/ContextClosedEvent
+05:46:37.226 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/context/event/ContextClosedEvent
+05:46:37.227 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationTypeMappings
+05:46:37.228 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationTypeMappings
+05:46:37.229 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/AnnotationTypeMappings
+05:46:37.230 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent
+05:46:37.230 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationEnvironmentPreparedEvent
+05:46:37.230 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationEnvironmentPreparedEvent
+05:46:37.231 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.BootstrapContextClosedEvent
+05:46:37.231 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/BootstrapContextClosedEvent
+05:46:37.231 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/BootstrapContextClosedEvent
+05:46:37.232 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.FileEncodingApplicationListener
+05:46:37.232 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/FileEncodingApplicationListener
+05:46:37.233 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/FileEncodingApplicationListener
+05:46:37.234 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.autoconfigure.SpringBootApplication
+05:46:37.235 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.aop.SpringProxy
+05:46:37.237 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ObjectUtils
+05:46:37.238 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ObjectUtils
+05:46:37.243 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ObjectUtils
+05:46:37.245 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ResourceUtils
+05:46:37.245 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ResourceUtils
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/ResourceUtils
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field CLASSPATH_URL_PREFIX
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field FILE_URL_PREFIX
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field JAR_URL_PREFIX
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field WAR_URL_PREFIX
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_FILE
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_JAR
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_WAR
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_ZIP
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_WSJAR
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_VFSZIP
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_VFSFILE
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field URL_PROTOCOL_VFS
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field JAR_FILE_EXTENSION
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field JAR_URL_SEPARATOR
+05:46:37.248 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field WAR_URL_SEPARATOR
+05:46:37.250 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.DefaultBootstrapContext
+05:46:37.250 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/DefaultBootstrapContext
+05:46:37.252 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/DefaultBootstrapContext
+05:46:37.253 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.SpringBootConfiguration
+05:46:37.254 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.LinkedMultiValueMap
+05:46:37.254 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/LinkedMultiValueMap
+05:46:37.254 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/util/LinkedMultiValueMap
+05:46:37.255 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationTypeMappings$Cache
+05:46:37.255 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationTypeMappings$Cache
+05:46:37.256 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/AnnotationTypeMappings$Cache
+05:46:37.256 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationTypeMapping$MirrorSets
+05:46:37.257 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationTypeMapping$MirrorSets
+05:46:37.257 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/AnnotationTypeMapping$MirrorSets
+05:46:37.258 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.config.DelegatingApplicationListener
+05:46:37.258 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/config/DelegatingApplicationListener
+05:46:37.259 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/config/DelegatingApplicationListener
+05:46:37.259 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Adding bytecode for initializing field PROPERTY_NAME
+05:46:37.259 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.Banner$Mode
+05:46:37.260 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/Banner$Mode
+05:46:37.260 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/Banner$Mode
+05:46:37.260 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.MergedAnnotations
+05:46:37.261 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.config.AnsiOutputApplicationListener
+05:46:37.261 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/config/AnsiOutputApplicationListener
+05:46:37.262 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/config/AnsiOutputApplicationListener
+05:46:37.262 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$SyntheticParameterizedType
+05:46:37.262 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType$SyntheticParameterizedType
+05:46:37.263 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/ResolvableType$SyntheticParameterizedType
+05:46:37.263 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.EventPublishingRunListener
+05:46:37.264 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/EventPublishingRunListener
+05:46:37.264 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/EventPublishingRunListener
+05:46:37.264 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.availability.AvailabilityState
+05:46:37.265 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.event.ApplicationFailedEvent
+05:46:37.265 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/event/ApplicationFailedEvent
+05:46:37.265 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/context/event/ApplicationFailedEvent
+05:46:37.266 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.AnnotationsScanner$1
+05:46:37.266 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/AnnotationsScanner$1
+05:46:37.267 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.web.context.WebApplicationContext
+05:46:37.268 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.context.event.AbstractApplicationEventMulticaster$1
+05:46:37.268 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/context/event/AbstractApplicationEventMulticaster$1
+05:46:37.268 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.util.ConcurrentReferenceHashMap$Restructure
+05:46:37.268 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/util/ConcurrentReferenceHashMap$Restructure
+05:46:37.269 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/util/ConcurrentReferenceHashMap$Restructure
+05:46:37.269 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.OrderUtils
+05:46:37.269 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/OrderUtils
+05:46:37.270 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/OrderUtils
+05:46:37.272 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.context.logging.LoggingApplicationListener
+05:46:37.273 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/context/logging/LoggingApplicationListener
+05:46:37.276 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/boot/context/logging/LoggingApplicationListener
+05:46:37.279 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy
+05:46:37.282 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.ResolvableType$WildcardBounds
+05:46:37.282 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/ResolvableType$WildcardBounds
+05:46:37.282 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/ResolvableType$WildcardBounds
+05:46:37.284 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.TypeMappedAnnotations
+05:46:37.284 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/TypeMappedAnnotations
+05:46:37.285 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Found static initializer in class org/springframework/core/annotation/TypeMappedAnnotations
+05:46:37.286 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.Order
+05:46:37.287 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.core.annotation.TypeMappedAnnotations$MergedAnnotationFinder
+05:46:37.287 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/core/annotation/TypeMappedAnnotations$MergedAnnotationFinder
+05:46:37.288 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/core/annotation/TypeMappedAnnotations$MergedAnnotationFinder
+05:46:37.288 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.builder.ParentContextApplicationContextInitializer$ParentContextAvailableEvent
+05:46:37.289 [main] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/builder/ParentContextApplicationContextInitializer$ParentContextAvailableEvent
+05:46:37.289 [main] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/builder/ParentContextApplicationContextInitializer$ParentContextAvailableEvent
+05:46:37.290 [main] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.web.context.ConfigurableWebApplicationContext
+05:46:37.291 [main] ERROR org.evosuite.runtime.classhandling.ClassStateSupport - Found $jacocoInit in class org.springframework.util.ReflectionUtils$FieldFilter
+05:46:37.380 [Time-limited test] DEBUG org.evosuite.runtime.agent.TransformerForTests - Going to instrument: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$LevelSetLoggerConfig
+05:46:37.380 [Time-limited test] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class org/springframework/boot/logging/log4j2/Log4J2LoggingSystem$LevelSetLoggerConfig
+05:46:37.381 [Time-limited test] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class org/springframework/boot/logging/log4j2/Log4J2LoggingSystem$LevelSetLoggerConfig
+05:46:37.382 [main] INFO org.evosuite.runtime.thread.ThreadStopper - Found new thread
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.028 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_ESTest
+[INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
+[INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+2026-04-08 05:46:37.759  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Starting NewSpringAuthorizationServerApplication using Java 11.0.16 on a2299e09add9 with PID 69 (started by root in /app)
+2026-04-08 05:46:37.760  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 05:46:38.754  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2026-04-08 05:46:38.763  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 05:46:38.764  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2026-04-08 05:46:38.825  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 05:46:38.825  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1029 ms
+2026-04-08 05:46:39.620  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$858/0x00000008404e1c40@754a4634
+2026-04-08 05:46:39.669  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2026-04-08 05:46:39.991  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2026-04-08 05:46:40.000  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Started NewSpringAuthorizationServerApplication in 2.593 seconds (JVM running for 4.508)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.591 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
+[INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
+[INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
+2026-04-08 05:46:40.027 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.16.jar:5.3.16]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication.main(NewSpringAuthorizationServerApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.appsdeveloperblog.photoapp.oauthserver.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663.test(NewSpringAuthorizationServerApplication_main_17520057663.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
+[ERROR] test  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663.test(NewSpringAuthorizationServerApplication_main_17520057663.java:44)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   NewSpringAuthorizationServerApplication_main_17520057663.test:44 » IllegalArgument
+[INFO] 
+[ERROR] Tests run: 6, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ NewSpringAuthorizationServer ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'NewSpringAuthorizationServer' with 3 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ NewSpringAuthorizationServer ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'NewSpringAuthorizationServer' with 3 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.870 s
+[INFO] Finished at: 2026-04-08T05:46:40Z
+[INFO] ------------------------------------------------------------------------

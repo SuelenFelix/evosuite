@@ -16,20 +16,20 @@ public class ApiResponse&lt;T&gt; {
     private final T data;
     private final Map&lt;String, Object&gt; otherParams;
 
-<span class="nc" id="L19">    private ApiResponse(ApiResponseBuilder builder) {</span>
-<span class="nc" id="L20">        this.httpHeaders = builder.httpHeaders;</span>
-<span class="nc" id="L21">        this.httpStatusCode = builder.httpStatusCode;</span>
-<span class="nc" id="L22">        this.message = builder.message;</span>
-<span class="nc" id="L23">        this.data = (T) builder.data;</span>
-<span class="nc" id="L24">        this.otherParams = builder.otherParams;</span>
-<span class="nc" id="L25">    }</span>
+<span class="fc" id="L19">    private ApiResponse(ApiResponseBuilder builder) {</span>
+<span class="fc" id="L20">        this.httpHeaders = builder.httpHeaders;</span>
+<span class="fc" id="L21">        this.httpStatusCode = builder.httpStatusCode;</span>
+<span class="fc" id="L22">        this.message = builder.message;</span>
+<span class="fc" id="L23">        this.data = (T) builder.data;</span>
+<span class="fc" id="L24">        this.otherParams = builder.otherParams;</span>
+<span class="fc" id="L25">    }</span>
 
     public HttpHeaders getHttpHeaders() {
-<span class="nc" id="L28">        return httpHeaders;</span>
+<span class="fc" id="L28">        return httpHeaders;</span>
     }
 
     public int getHttpStatusCode() {
-<span class="nc" id="L32">        return httpStatusCode;</span>
+<span class="fc" id="L32">        return httpStatusCode;</span>
     }
 
     public String getMessage() {
@@ -46,17 +46,17 @@ public class ApiResponse&lt;T&gt; {
 
     public static class ApiResponseBuilder&lt;T&gt; {
 
-<span class="nc" id="L49">        private HttpHeaders httpHeaders = new HttpHeaders();</span>
+<span class="fc" id="L49">        private HttpHeaders httpHeaders = new HttpHeaders();</span>
         private final int httpStatusCode;
         private final String message;
         private T data;
-<span class="nc" id="L53">        private Map&lt;String, Object&gt; otherParams = Collections.emptyMap();</span>
+<span class="fc" id="L53">        private Map&lt;String, Object&gt; otherParams = Collections.emptyMap();</span>
 
 
-<span class="nc" id="L56">        public ApiResponseBuilder(int httpStatusCode, String message) {</span>
-<span class="nc" id="L57">            this.httpStatusCode = httpStatusCode;</span>
-<span class="nc" id="L58">            this.message = message;</span>
-<span class="nc" id="L59">        }</span>
+<span class="fc" id="L56">        public ApiResponseBuilder(int httpStatusCode, String message) {</span>
+<span class="fc" id="L57">            this.httpStatusCode = httpStatusCode;</span>
+<span class="fc" id="L58">            this.message = message;</span>
+<span class="fc" id="L59">        }</span>
 
         public ApiResponseBuilder&lt;T&gt; withHttpHeader(HttpHeaders httpHeader) {
 <span class="nc" id="L62">            this.httpHeaders = httpHeader;</span>
@@ -64,8 +64,8 @@ public class ApiResponse&lt;T&gt; {
         }
 
         public ApiResponseBuilder&lt;T&gt; withData(T data) {
-<span class="nc" id="L67">            this.data = data;</span>
-<span class="nc" id="L68">            return this;</span>
+<span class="fc" id="L67">            this.data = data;</span>
+<span class="fc" id="L68">            return this;</span>
         }
 
         public ApiResponseBuilder&lt;T&gt; withOtherParams(Map&lt;String, Object&gt; otherParams) {
@@ -74,9 +74,9 @@ public class ApiResponse&lt;T&gt; {
         }
 
         public ResponseEntity&lt;ApiResponse&gt; build() {
-<span class="nc" id="L77">            ApiResponse&lt;T&gt; apiResponse = new ApiResponse&lt;&gt;(this);</span>
-<span class="nc" id="L78">            return ResponseEntity.status(apiResponse.getHttpStatusCode()).headers(apiResponse.getHttpHeaders())</span>
-<span class="nc" id="L79">                    .body(apiResponse);</span>
+<span class="fc" id="L77">            ApiResponse&lt;T&gt; apiResponse = new ApiResponse&lt;&gt;(this);</span>
+<span class="fc" id="L78">            return ResponseEntity.status(apiResponse.getHttpStatusCode()).headers(apiResponse.getHttpHeaders())</span>
+<span class="fc" id="L79">                    .body(apiResponse);</span>
         }
     }
 }

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Display.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">flap-bird</a> &gt; <a href="index.source.html" class="el_package">presentation</a> &gt; <span class="el_source">Display.java</span></div><h1>Display.java</h1><pre class="source lang-java linenums">package presentation;
+
+import game.Game;
+import game.GameNN;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Display extends JPanel implements MouseListener, ActionListener, KeyListener {
+
+    Game game;
+
+<span class="nc" id="L14">    public Display() {</span>
+<span class="nc" id="L15">        setBackground(Color.black);</span>
+<span class="nc" id="L16">        setFocusable(true);</span>
+<span class="nc" id="L17">        setPreferredSize(new Dimension(480,720));</span>
+<span class="nc" id="L18">        addKeyListener(this);</span>
+<span class="nc" id="L19">        addMouseListener(this);</span>
+<span class="nc" id="L20">        this.game = new Game();</span>
+<span class="nc bnc" id="L21" title="All 2 branches missed.">        for (int i = 0; i &lt; 1000000; i++){</span>
+<span class="nc" id="L22">            this.game.step();</span>
+        }
+       
+//        new Timer(40, this).start();
+<span class="nc" id="L26">        new Timer(20, this).start();</span>
+<span class="nc" id="L27">    }</span>
+
+    @Override
+    public void paintComponent(Graphics g) {
+<span class="nc" id="L31">        super.paintComponent(g);</span>
+<span class="nc" id="L32">        Graphics2D g2 = (Graphics2D) g;</span>
+<span class="nc" id="L33">        game.show(g);</span>
+
+
+<span class="nc" id="L36">    }</span>
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L40">        this.game.step();</span>
+<span class="nc" id="L41">        repaint();</span>
+<span class="nc" id="L42">    }</span>
+
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+<span class="nc" id="L47">        this.game.action();</span>
+<span class="nc" id="L48">        repaint();</span>
+<span class="nc" id="L49">    }</span>
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+
+<span class="nc" id="L54">    }</span>
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+
+<span class="nc" id="L59">    }</span>
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+
+<span class="nc" id="L64">    }</span>
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
+<span class="nc" id="L69">    }</span>
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+<span class="nc" id="L74">    }</span>
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+<span class="nc" id="L78">        this.game.action();</span>
+<span class="nc" id="L79">        repaint();</span>
+<span class="nc" id="L80">    }</span>
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+
+<span class="nc" id="L85">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

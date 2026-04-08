@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TreeTableModel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">treetable</a> &gt; <a href="index.source.html" class="el_package">net.byteseek.swing.treetable</a> &gt; <span class="el_source">TreeTableModel.java</span></div><h1>TreeTableModel.java</h1><pre class="source lang-java linenums">/*
+ * BSD 3-Clause License
+ *
+ * Copyright (c) 2021, Matt Palmer
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the copyright holder nor the names of its
+ *    contributors may be used to endorse or promote products derived from
+ *    this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot;
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package net.byteseek.swing.treetable;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
+import java.util.WeakHashMap;
+import java.util.function.Predicate;
+import javax.swing.*;
+import javax.swing.event.TreeModelEvent;
+import javax.swing.event.TreeModelListener;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.DefaultTableColumnModel;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
+import javax.swing.tree.TreeNode;
+import net.byteseek.utils.collections.BlockModifyArrayList;
+
+/**
+ * A tree table model which binds to a JTable as a TableModel given a root tree node.
+ * It is abstract, as the implementor must provide a subclass implementing the following:
+ * &lt;ul&gt;
+ *     &lt;li&gt;what the column definitions are&lt;/li&gt;
+ *     &lt;li&gt;getter that maps columns to fields.&lt;/li&gt;
+ * &lt;/ul&gt;
+ *
+ * &lt;p&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/p&gt;
+ * To use it, instantiate a subclassed TreeTableModel with a root TreeNode, then bind it to a JTable.
+ * &lt;p&gt;
+ * There are other useful non-abstract methods subclasses can override to provide icons for the tree,
+ * allow cells to be editable and set their values, and so on.
+ */
+public abstract class TreeTableModel extends AbstractTableModel implements TreeModelListener {
+
+    //TODO: do we need to respond to look and feel changes and re-register any listeners...?
+
+    /* *****************************************************************************************************************
+     *                                         Constants
+     */
+
+    /*
+     * Keys to register keystroke events against.
+     */
+    protected static final String EXPAND_NODE_KEYSTROKE_KEY = &quot;treeTableExpandNode&quot;;
+    protected static final String COLLAPSE_NODE_KEYSTROKE_KEY = &quot;treeTableCollapseNode&quot;;
+    protected static final String TOGGLE_EXPAND_NODE_KEYSTROKE_KEY = &quot;treeTableToggleExpandNode&quot;;
+    protected static final String NAVIGATE_PARENT_KEY = &quot;treeTableNavigateParent&quot;;
+    protected static final String NAVIGATE_CHILDREN_KEY = &quot;treeTableNavigateChildren&quot;;
+
+
+    /**
+     * The TableColumnModel model index of the column which renders the tree structure and responds to clicks on expand
+     * or collapse handles.  This is fixed at 0, as making it mutable caused various issues with re-assigning renderers
+     * and handlers. It was doable, but overly complex.  It is simpler to say that the first column in the TableColumnModel
+     * is the column that handles the tree events. You can move columns in the TableColumnModel, so it does not display as the
+     * first column, but it is always logically the first column.
+     */
+    protected static final int TREE_COLUMN_INDEX = 0;
+
+    /**
+     * The index of the root node in the model (if showing) is always zero (it has to be the first item if it's showing).
+     */
+    protected static final int ROOT_MODEL_INDEX = 0;
+
+    /**
+     * Value returned by find methods if not found.
+     */
+    protected static final int NOT_LOCATED = -1;
+
+    /**
+     * Empty array to return when no nodes are selected.
+     */
+<span class="nc" id="L118">    protected static final int[] EMPTY_ARRAY = new int[0];</span>
+
+
+    /* *****************************************************************************************************************
+     *                                         Variables
+     */
+
+    /*
+     * User modifiable properties of the model:
+     */
+
+    /**
+     * The root node of the tree with which the model is initialised.  The root can be changed later  by calling setRoot().
+     */
+    protected TreeNode rootNode;
+
+    /**
+     * The JTable this TreeTableModel is current bound to.  Use bindTable() methods or unbindTable() methods to control.
+     */
+    protected JTable table; // the table currently bound to the tree model, or null if not currently bound.
+
+    /**
+     * Whether the root of the tree is visible in the tree or not.  Can be changed with setShowRoot().
+     */
+    protected boolean showRoot; // whether the root of the tree is shown.
+
+    /**
+     * Keystroke bindings for expanding, collapsing or toggling expansion of a node.
+     */
+<span class="nc" id="L147">    protected KeyStroke[] expandKeys = new KeyStroke[] { // key presses that expand a node.</span>
+<span class="nc" id="L148">                KeyStroke.getKeyStroke(KeyEvent.VK_ADD, 0, false),        // + on keypad</span>
+<span class="nc" id="L149">                KeyStroke.getKeyStroke(KeyEvent.VK_PLUS, 0, false),       // + on primary row</span>
+<span class="nc" id="L150">                KeyStroke.getKeyStroke(KeyEvent.VK_EQUALS, KeyEvent.SHIFT_DOWN_MASK, false)}; // + above = on UK/US keyboards.</span>
+<span class="nc" id="L151">    protected KeyStroke[] collapseKeys = new KeyStroke[] { // key presses that collapse a node.</span>
+<span class="nc" id="L152">                KeyStroke.getKeyStroke(KeyEvent.VK_MINUS, 0, false),      // - on primary row</span>
+<span class="nc" id="L153">                KeyStroke.getKeyStroke(KeyEvent.VK_SUBTRACT, 0, false)};  // - on keypad</span>
+<span class="nc" id="L154">    protected KeyStroke[] toggleKeys = new KeyStroke[] { // key presses that toggle node expansion</span>
+<span class="nc" id="L155">                KeyStroke.getKeyStroke(KeyEvent.VK_SPACE, 0, false)};</span>
+
+    /*
+     * Keystroke bindings for navigating up and down the tree structure.
+     */
+<span class="nc" id="L160">    protected KeyStroke[] navigateParent = new KeyStroke[] { // key presses that navigate up the tree.</span>
+<span class="nc" id="L161">            KeyStroke.getKeyStroke(KeyEvent.VK_LEFT, 0, false)};</span>
+
+<span class="nc" id="L163">    protected KeyStroke[] navigateChildren = new KeyStroke[] {</span>
+<span class="nc" id="L164">            KeyStroke.getKeyStroke(KeyEvent.VK_RIGHT, 0, false)};</span>
+
+    /**
+     * If true, will collapse an expanded node when navigateParent is pressed.
+     */
+<span class="nc" id="L169">    protected boolean collapseOnParentNavigation = true;</span>
+
+    /**
+     * If true, will expand a collapsed node when navigateChildren is pressed.
+     */
+<span class="nc" id="L174">    protected boolean expandOnChildNavigation = true;</span>
+
+    /**
+     * Whether to show an expand / collapse handle if there are no children for a node.
+     * If you are dynamically adding nodes on an expand event, then you will want the handle to be shown
+     * even if there are no children currently.  If you have a fixed tree, then this should be false.
+     */
+<span class="nc" id="L181">    protected boolean showExpandHandleIfNoChildren = false;</span>
+
+    /**
+     * The list of sort keys defined for this model. It is never null - only empty if no keys defined.
+     */
+<span class="nc" id="L186">    protected List&lt;? extends RowSorter.SortKey&gt; sortKeys = Collections.emptyList();</span>
+
+    /**
+     * The sort keys to use if no other sort keys are set (to maintain a table in an always-sorted state).
+     */
+<span class="nc" id="L191">    protected List&lt;? extends RowSorter.SortKey&gt; defaultSortKeys = Collections.emptyList();</span>
+
+    /**
+     * The sort strategy to set on a row sorter.  If null, the default strategy will be used.
+     */
+    protected TreeTableRowSorter.ColumnSortStrategy sortStrategy;
+
+    /**
+     * Groups sibling nodes together based on a grouping comparator (e.g. has children or doesn't).
+     */
+    protected Comparator&lt;TreeNode&gt; groupingComparator;
+
+    /**
+     * A filter predicate applied to tree nodes.
+     * Any nodes which the predicate test returns true for are filtered out.
+     * Set to null if not filtering.
+     */
+    private Predicate&lt;TreeNode&gt; filterPredicate;
+
+    /**
+     * The threshold number of visible nodes in the tree below which a linear scan will be used to find the model index
+     * of a node in the tree rather than using a tree scan.
+     * Defaults to 100 after profiling with the jmh benchmarking tool, which showed tree scans consistently outperformed
+     * linear scans at around that size of visible nodes in the tree, and that unsurprisingly, linear scans get
+     * consistently worse the larger the number of visible nodes, on average, while tree scan performance declines much less rapidly.
+     * There are edge cases where this won't be true, such as a large and very flat or deep tree, but should not
+     * be a lot worse than a linear scan of all the nodes in those cases.
+     */
+<span class="nc" id="L219">    protected final int linearScanThreshold = 100;</span>
+
+    /**
+     * The default column sort strategy to use when setting a row sorter.
+     * If null, the default strategy of the row sorter will be used.
+     */
+    protected TreeTableRowSorter.ColumnSortStrategy defaultColumnSortStrategy;
+
+    /*
+     * Cached/calculated properties of the model.
+     */
+
+    /**
+     * The TableColumnModel used by this TreeTableModel, and which will be set on a bound JTable.
+     * The method {@link #createTableColumnModel()} creates the model, which is an abstract method which must be provided
+     * by the subclass of this model.  It defines the column structure of the table and any associated renderers or editors
+     * for the data type of each column.
+     */
+    protected TableColumnModel columnModel;
+
+    /**
+     * A list of all the currently displayed nodes in the table.  This is essentially a view over the tree for the table.
+     * It uses a BlockModifyArrayList, which is a type of ArrayList that supports block insert and removals as single
+     * operations.  The normal ArrayList handles this by individual inserts and removals, each of which shifts the
+     * remaining elements in the array around, giving O(n * m) performance rather than O(n + m) for the BlockModifyArrayList.
+     */
+<span class="nc" id="L245">    protected final BlockModifyArrayList&lt;TreeNode&gt; displayedNodes = new BlockModifyArrayList&lt;&gt;();</span>
+
+    /**
+     * A map tracking which nodes are expanded, and how many visible children they have.
+     * It's a WeakHashMap to allow nodes which are no longer referenced anywhere else to be garbage collected.
+     * &lt;p&gt;
+     * An entry in the map of a node indicates that the node should be expanded. Remove a node from the map to collapse it.
+     * The value of the node key is the number of currently visible children in the table for that node (including sub-children).
+     * This is automatically updated - when a change is made to the number of children of a node the updated totals are
+     * propagated down the parents to the root, thus maintaining accurate child counts for each level of the tree.
+     * &lt;p&gt;
+     * Note that the expanded node count value is only valid for *currently visible nodes*.
+     * Nodes can remain &quot;expanded&quot; but not actually visible.
+     * This situation can happen when the expanded parent of an expanded child node is collapsed.
+     * So the child and children of the collapsed parent are no longer visible.
+     * However, the child itself is still in an expanded state and still has an entry in the map.
+     * If the parent was ever re-expanded, the child and children of the child would also be made visible again.
+     * Making visible again involves rebuilding the visible node structure and recalculating any counts as it builds.
+     * &lt;p&gt;
+     * This allows us to only worry about keeping visible node counts accurate and lets us ignore the invisible part
+     * of the tree for most operations.  There isn't really a downside to this, since the count itself is of no
+     * use when making nodes visible again.  All the children still need processing to determine which ones
+     * should be shown (e.g. if filtered), which will give us the actual count in the process of making them visible.
+     * The fact there is an entry, even if the count may be wrong, still tells us the only thing we need at that point,
+     * which is that it should be expanded and its visible children now need to be rebuilt.
+     */
+<span class="nc" id="L271">    protected final Map&lt;TreeNode, Integer&gt; expandedNodeCounts = new WeakHashMap&lt;&gt;(); // If a TreeNode is removed and no longer used, it will be garbage collected.</span>
+
+    /*
+     * Keyboard, mouse and tree events
+     */
+    protected MouseListener tableMouseListener;
+<span class="nc" id="L277">    protected final List&lt;ExpandCollapseListener&gt; eventListeners = new ArrayList&lt;&gt;(2); // tree event listeners.</span>
+    protected TreeClickHandler clickHandler; // the handler which processes expand/collapse click events.
+
+    /**
+     * The old header renderer assigned to the JTable before we bound to it.
+     * We hold on to it, so we can replace it if we unbind the TreeTableModel from the JTable.
+     */
+    protected TableCellRenderer oldHeaderRenderer;
+
+
+    /* *****************************************************************************************************************
+     *                                         Constructors
+     */
+
+    /**
+     * Constructs a TreeTableModel given the root node, the number of columns required.
+     * The root node will be displayed by default.
+     *
+     * @param rootNode The root node of the tree to display.
+     * @throws IllegalArgumentException if the rootNode is null.
+     */
+    public TreeTableModel(final TreeNode rootNode) {
+<span class="nc" id="L299">        this(rootNode, true);</span>
+<span class="nc" id="L300">    }</span>
+
+    /**
+     * Constructs a TreeTableModel given the root node, the number of columns required and whether to show the root
+     * of the tree.
+     *
+     * @param rootNode The root node of the tree to display.
+     * @param showRoot Whether to show the root node of the tree.
+     * @throws IllegalArgumentException if the rootNode is null.
+     */
+<span class="nc" id="L310">    public TreeTableModel(final TreeNode rootNode, final boolean showRoot) {</span>
+<span class="nc" id="L311">        checkNull(rootNode, &quot;rootNode&quot;);</span>
+<span class="nc" id="L312">        this.rootNode = rootNode;</span>
+<span class="nc" id="L313">        this.showRoot = showRoot;</span>
+        // If we aren't showing the root, expand it so it's children will be visible as top level nodes.
+<span class="nc bnc" id="L315" title="All 2 branches missed.">        if (!showRoot) {</span>
+<span class="nc" id="L316">            expandNode(rootNode);</span>
+        }
+<span class="nc" id="L318">        refreshTree();</span>
+<span class="nc" id="L319">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                             Abstract methods for subclasses to implement
+     *
+     * These methods define how a particular model obtains data and defines the columns of the table.
+     * These are obviously user specific, and must be defined by the subclass.
+     */
+
+    /**
+     * Returns the value of a node for a given column.
+     * Subclasses should implement this to map a column to node values.
+     *
+     * @param node The node to get a column value for.
+     * @param column The column to get the value for.
+     * @return The value of the column for the node.
+     */
+    public abstract Object getColumnValue(TreeNode node, int column);
+
+    /**
+     * Creates a TableColumnModel to define what columns the JTable should display for your subclass.
+     * This could be all available columns, or you can just add a few and add or remove them dynamically using
+     * the model later.  The model used is cached and can be obtained by a call to {@link #getTableColumnModel()}.
+     * &lt;p&gt;
+     * If no special TreeCellRenderer is set for the tree column with model index zero, then a default tree
+     * renderer will be added automatically after it is created.  The column with model index zero is always the
+     * column that renders and handles the tree events.  You can move the display order of columns you create,
+     * in the TableColumnModel, but the tree column is always the one with column model index zero.
+     * &lt;p&gt;
+     * You should generally include a TableColumn with model index zero, as that is the column that renders the
+     * tree structure, and responds to clicks on expand or collapse handles.
+     *
+     * @return A TableColumnModel with the columns you wish to display in the tree table initially.
+     */
+    protected abstract TableColumnModel createTableColumnModel();
+
+
+    /* *****************************************************************************************************************
+     *                        Methods to bind and unbind this model to and from a JTable
+     *
+     * To use a TreeTableModel, it must be bound to a JTable.
+     */
+
+    /**
+     * Binds a JTable to use this model and configures columns, sorters and listeners to
+     * react to mouse and keyboard events.
+     *
+     * @param table The JTable to bind to this TreeTableModel.
+     */
+    public void bindTable(final JTable table) {
+<span class="nc" id="L370">        bindTable(table, createDefaultRowSorter(), new TreeTableHeaderRenderer());</span>
+<span class="nc" id="L371">    }</span>
+
+    /**
+     * Binds a JTable to use this model and configures columns, sorters and listeners to
+     * react to mouse and keyboard events.
+     *
+     * @param table The JTable to bind to this TreeTableModel.
+     * @param rowSorter The row sorter to use with the table.
+     */
+    public void bindTable(final JTable table, final RowSorter&lt;TreeTableModel&gt; rowSorter) {
+<span class="nc" id="L381">        bindTable(table, rowSorter, new TreeTableHeaderRenderer());</span>
+<span class="nc" id="L382">    }</span>
+
+    /**
+     * Binds a JTable to use this model and configures columns, sorters and listeners to
+     * react to mouse and keyboard events.
+     *
+     * @param table The JTable to bind to this TreeTableModel.
+     * @param headerRenderer The renderer to use to draw the table header.
+     */
+    public void bindTable(final JTable table,  final TableCellRenderer headerRenderer) {
+<span class="nc" id="L392">        bindTable(table, createDefaultRowSorter(), headerRenderer);</span>
+<span class="nc" id="L393">    }</span>
+
+    /**
+     * Binds a JTable to use this model and configures columns, sorters and listeners to
+     * react to mouse and keyboard events.  Also unbinds from any table which is currently bound.
+     *
+     * @param tableToBind The JTable to bind to this TreeTableModel.  If null, then no new table will be bound, but no error is thrown.
+     * @param rowSorter The row sorter to use with the table.  Can be null if no sorting required.
+     * @param headerRenderer The renderer to use to draw the table header.  Can be null if no special header rendering required.
+     */
+    public void bindTable(final JTable tableToBind,
+                          final RowSorter&lt;TreeTableModel&gt; rowSorter,
+                          final TableCellRenderer headerRenderer) {
+<span class="nc" id="L406">        unbindTable(); // unbind any previous table.</span>
+<span class="nc" id="L407">        this.table = tableToBind; // fine to set to null if no table is being bound - we'll just remain unbound.</span>
+<span class="nc bnc" id="L408" title="All 2 branches missed.">        if (tableToBind != null) {</span>
+<span class="nc" id="L409">            tableToBind.setAutoCreateColumnsFromModel(false);</span>
+<span class="nc" id="L410">            tableToBind.setModel(this);</span>
+<span class="nc" id="L411">            tableToBind.setColumnModel(getTableColumnModel());</span>
+<span class="nc" id="L412">            tableToBind.setAutoCreateRowSorter(false);</span>
+<span class="nc bnc" id="L413" title="All 2 branches missed.">            if (rowSorter != null) {</span>
+<span class="nc" id="L414">                rowSorter.setSortKeys(sortKeys);</span>
+            }
+<span class="nc" id="L416">            tableToBind.setRowSorter(rowSorter);</span>
+<span class="nc" id="L417">            oldHeaderRenderer = tableToBind.getTableHeader().getDefaultRenderer();</span>
+<span class="nc bnc" id="L418" title="All 2 branches missed.">            if (headerRenderer != null) {</span>
+<span class="nc" id="L419">                tableToBind.getTableHeader().setDefaultRenderer(headerRenderer);</span>
+            }
+<span class="nc" id="L421">            addKeyboardActions(); //TODO: do we need to unbind keyboard actions?</span>
+<span class="nc" id="L422">            addMouseListener();   //TODO: do we need to unbind mouse listener?</span>
+        }
+<span class="nc" id="L424">    }</span>
+
+    /**
+     * Unbinds the model from the JTable.  Does nothing if the JTable isn't using this as its TableModel.     *
+     */
+    public void unbindTable() {
+<span class="nc bnc" id="L430" title="All 4 branches missed.">        if (table != null &amp;&amp; table.getModel() == this) {</span>
+<span class="nc" id="L431">            removeMouseListener();</span>
+<span class="nc" id="L432">            removeKeyboardActions();</span>
+<span class="nc" id="L433">            removeRowSorterAndCacheSortKeys();</span>
+<span class="nc" id="L434">            table.setColumnModel(new DefaultTableColumnModel());</span>
+<span class="nc" id="L435">            table.setAutoCreateColumnsFromModel(true);</span>
+<span class="nc" id="L436">            table.setModel(new DefaultTableModel());</span>
+<span class="nc" id="L437">            setTableHeaderRenderer(oldHeaderRenderer);</span>
+<span class="nc" id="L438">            table = null;</span>
+<span class="nc" id="L439">            oldHeaderRenderer = null;</span>
+        }
+<span class="nc" id="L441">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                             Optional methods for subclasses to implement
+     *
+     * These methods currently have blank implementations.  Override the ones you need.
+     */
+
+    /**
+     * Returns an icon for a given node, to be rendered against the node.
+     * The base implementation always returns null.
+     * Override this method to provide an icon for a tree node.
+     *
+     * @param node The node to get an icon for.
+     * @return The icon for that node, or null if no icon is defined.
+     */
+    public Icon getNodeIcon(final TreeNode node) {
+<span class="nc" id="L459">        return null; // Default is no icons - override this method to return the icon for a tree node.</span>
+    }
+
+    /**
+     * Sets the value of the column to the node.
+     * The base implementation does nothing.
+     * Override this method if you want to be able to set the value of tree nodes by column.
+     * You must implement this method if you want cells to be editable in the JTable in-place.
+     *
+     * @param node The node to set a column value for.
+     * @param column The column to set the value for.
+     * @param value The value to set.
+     */
+    public void setColumnValue(final TreeNode node, final int column, final Object value) {
+        // Default is read-only.  Subclasses must override to set column values.
+<span class="nc" id="L474">    }</span>
+
+    /**
+     *  Return true if the cell at rowIndex, columnIndex is editable.
+     *  The base implementation always returns false.
+     *  Override this method if you want to make table cells editable.
+     *
+     *  @param  rowIndex  the model index of the cell to edit.
+     *  @param  columnIndex the column model index of the cell to edit.
+     *  @return true if the cell at rowIndex / columnIndex is editable.
+     */
+    @Override
+    public boolean isCellEditable(final int rowIndex, final int columnIndex) {
+<span class="nc" id="L487">        return false; // Default is read-only.  Subclasses must override to set whether a cell is editable.</span>
+    }
+
+    /**
+     * Returns the class of Object used in the data for each column, given the column index.
+     * This allows the JTable to pick cell renderers for the types:
+     * Object, String, Double, Float, Number, Icon, IconImage and Date,
+     * and default cell editors for Object, String, Boolean, and Number, if you have not specified your own in the TableColumns.
+     * &lt;p&gt;
+     * If you are specifying your own cell renderers or cell editors in the TableColumns in the TableColumnModel,
+     * then you do not need to override this method.
+     * If you want to use the default renderers or editors in JTable,
+     * you should override this method to provide the appropriate types from the list of basic types above.
+     * If none is specified or otherwise available, JTable will fall back on rendering the string value of the Object.
+     *
+     * @param column The column to return the object class for.
+     * @return The class of object for values in the column.
+     */
+    @Override
+    public Class&lt;?&gt; getColumnClass(final int column) {
+<span class="nc" id="L507">        return Object.class;</span>
+    }
+
+    /**
+     * Returns a Comparator for a given column index.
+     * The base implementation always returns null - override this method if you want to specify custom comparators.
+     * If null, then the model will compare node values directly if they implement Comparable,
+     * or compare on the string value of the objects if they are not.
+     *
+     * @param column The column to return a Comparator for, or null if the default comparison is OK.
+     * @return A Comparator for the given column, or null if no special comparator is required.
+     */
+    public Comparator&lt;?&gt; getColumnComparator(final int column) {
+<span class="nc" id="L520">        return null; // Defaults to no special column comparators.</span>
+    }
+
+
+    /* *****************************************************************************************************************
+     *                                         Node grouping and sorting
+     *
+     * Gets and sets node grouping and sorting.
+     */
+
+    /**
+     * Returns true if a grouping comparator is set on the model.
+     * A grouping comparator can be set regardless of whether the model is bound to an actual table or not.
+     * @return true if a grouping comparator is set on the model.
+     */
+    public boolean isGrouping() {
+<span class="nc bnc" id="L536" title="All 2 branches missed.">        return groupingComparator != null;</span>
+    }
+
+    /**
+     * Returns the grouping comparator set on the model, or null if not set.
+     * The grouping comparator is used to group sibling nodes together by some criteria (e.g. all folders).
+     *
+     * @return a grouping Comparator for a node, or null if not set.
+     */
+    public Comparator&lt;TreeNode&gt; getGroupingComparator() {
+<span class="nc" id="L546">        return groupingComparator;</span>
+    }
+
+    /**
+     * Sets the node comparator to use, or null if no node comparisons are required.
+     * When a node comparator is set, nodes are always sorted first by that comparator, before any column sorts
+     * are applied.  This allows nodes to be grouped by some feature of the nodes.
+     *
+     * @param nodeComparator the node comparator to use, or null if no node comparisons are required.
+     */
+    public void setGroupingComparator(final Comparator&lt;TreeNode&gt; nodeComparator) {
+<span class="nc bnc" id="L557" title="All 2 branches missed.">        if (this.groupingComparator != nodeComparator) {</span>
+<span class="nc" id="L558">            boolean wasSorting = isSorting();</span>
+<span class="nc" id="L559">            this.groupingComparator = nodeComparator;</span>
+<span class="nc bnc" id="L560" title="All 4 branches missed.">            if (wasSorting || isSorting()) {</span>
+<span class="nc" id="L561">                fireTableDataChanged();</span>
+            }
+        }
+<span class="nc" id="L564">    }</span>
+
+    /**
+     * Clears any grouping comparator set on the model.
+     */
+    public void clearGroupingComparator() {
+<span class="nc" id="L570">        setGroupingComparator(null);</span>
+<span class="nc" id="L571">    }</span>
+
+    /**
+     * Sets whether sorting is enabled.
+     * &lt;p&gt;
+     * If sorting is set to enabled, and there is a table but no rowsorter, a default row sorter will be created.
+     * If sorting is set to disabled, and there is a table and a rowsorter, the rowsorter will be removed from the table,
+     * but it's sort keys will be cached when removed.
+     *
+     * @param sortingEnabled whether sorting is enabled.
+     */
+    public void setSortEnabled(final boolean sortingEnabled) {
+<span class="nc bnc" id="L583" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc bnc" id="L584" title="All 2 branches missed.">            if (sortingEnabled) {</span>
+<span class="nc" id="L585">                createAndSetRowSorterIfNotExists();</span>
+            } else {
+<span class="nc" id="L587">                removeRowSorterAndCacheSortKeys();</span>
+            }
+        }
+<span class="nc" id="L590">    }</span>
+
+    /**
+     * Returns true if any sorting is being performed by a bound JTable.
+     * A table may be sorting because columns are set to sort, or because a grouping comparator has been
+     * set on the tree nodes, or both.
+     * A row sorter must also be set on a bound table in order for sorting to occur.
+     *
+     * @return true if any sorting is being performed by a bound JTable.
+     */
+    public boolean isSorting() {
+<span class="nc bnc" id="L601" title="All 4 branches missed.">        return  table != null &amp;&amp; table.getRowSorter() != null &amp;&amp;</span>
+<span class="nc bnc" id="L602" title="All 4 branches missed.">                (!getSortKeys().isEmpty() || groupingComparator != null);</span>
+    }
+
+    /**
+     * Sets the default column sort strategy to use, and sets it on the bound table
+     * if a TreeTableRowSorter is currently being used.
+     * If there is no bound JTable or TreeTableRowSorter, calling this method does nothing.
+     *
+     * @param defaultColumnSortStrategy the default column sort strategy to use.
+     */
+    public void setColumnSortStrategy(final TreeTableRowSorter.ColumnSortStrategy defaultColumnSortStrategy) {
+<span class="nc" id="L613">        this.defaultColumnSortStrategy = defaultColumnSortStrategy;</span>
+<span class="nc bnc" id="L614" title="All 4 branches missed.">        if (table != null &amp;&amp; table.getRowSorter() instanceof TreeTableRowSorter) {</span>
+<span class="nc" id="L615">            ((TreeTableRowSorter) table.getRowSorter()).setSortStrategy(defaultColumnSortStrategy);</span>
+        }
+<span class="nc" id="L617">    }</span>
+
+    /**
+     * Returns an unmodifiable list of sort keys currently set, or an empty list if none are set.
+     * If no table is bound, or there is no row sorter, it will just be the ones cached in this model for binding later.
+     * If a table is bound, then the sort keys currently set on its row sorter will be returned.
+     * The presence of sort keys here does not imply that sorting is happening, which depends on whether a table is bound
+     * and sorting is enabled.
+     *
+     * @return an unmodifiable list of sort keys currently set, or an empty list of no keys are set.
+     */
+    public List&lt;? extends RowSorter.SortKey&gt; getSortKeys() {
+<span class="nc bnc" id="L629" title="All 2 branches missed.">        if (table == null) {</span>
+<span class="nc" id="L630">            return sortKeys;</span>
+        }
+<span class="nc" id="L632">        final RowSorter&lt;? extends TableModel&gt; rowSorter = table.getRowSorter();</span>
+<span class="nc bnc" id="L633" title="All 2 branches missed.">        return rowSorter == null ? sortKeys : rowSorter.getSortKeys();</span>
+    }
+
+    /**
+     * Sets the sort keys to sort the model with.  If you pass in null, an empty list will be set.
+     * You can set sort keys before binding occurs, and they will be cached for future binding.
+     * If bound to a table, it will also set those sort keys on its RowSorter.
+     *
+     * @param keys The list of sort keys to sort with.
+     */
+    public void setSortKeys(final List&lt;? extends RowSorter.SortKey&gt; keys) {
+        // Cache the keys set as an unmodifiable list of keys.
+<span class="nc bnc" id="L645" title="All 4 branches missed.">        sortKeys = keys == null || keys.isEmpty()? Collections.emptyList() : new ArrayList&lt;&gt;(keys);</span>
+
+        // If we're bound to a table and have a row sorter, set those sort keys on it.
+<span class="nc bnc" id="L648" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L649">            var rowSorter = table.getRowSorter();</span>
+<span class="nc bnc" id="L650" title="All 2 branches missed.">            if (rowSorter != null) {</span>
+<span class="nc" id="L651">                rowSorter.setSortKeys(sortKeys);</span>
+            }
+        }
+<span class="nc" id="L654">    }</span>
+
+    /**
+     * Sets a single sort key given the column and the sort order.
+     * @param column The column to sort.
+     * @param sortOrder The sort order of the column.
+     */
+    public void setSortKey(final int column, final SortOrder sortOrder) {
+<span class="nc" id="L662">        setSortKeys(new RowSorter.SortKey(column, sortOrder));</span>
+<span class="nc" id="L663">    }</span>
+
+    /**
+     * Sets the default sort keys to use if no other columns were selected for sort.
+     * @param defaultKeys The default sort keys to use if no other columns are sorted.
+     */
+    public void setDefaultSortKeys(final List&lt;? extends RowSorter.SortKey&gt; defaultKeys) {
+        // Cache the keys set.
+<span class="nc bnc" id="L671" title="All 2 branches missed.">        this.defaultSortKeys = defaultKeys == null ? Collections.emptyList() : removeNullEntries(defaultKeys);</span>
+
+        // If a table is set, and we're using a TreeTableRowSorter, set the default sort keys.
+<span class="nc bnc" id="L674" title="All 4 branches missed.">        if (table != null &amp;&amp; table.getRowSorter() instanceof TreeTableRowSorter) {</span>
+<span class="nc" id="L675">            final TreeTableRowSorter rowSorter = (TreeTableRowSorter) table.getRowSorter();</span>
+<span class="nc" id="L676">            rowSorter.setDefaultSortKeys(defaultSortKeys);</span>
+        }
+<span class="nc" id="L678">    }</span>
+
+    /**
+     * Sets the default sort keys to use if no other columns were selected for sort.
+     * @param defaultKeys  The default sort keys to use if no other columns are sorted.
+     */
+    public void setDefaultSortKeys(final RowSorter.SortKey... defaultKeys) {
+<span class="nc" id="L685">        setDefaultSortKeys(Arrays.asList(defaultKeys));</span>
+<span class="nc" id="L686">    }</span>
+
+    /**
+     * @return An unmodifiable list of the default sort keys currently set.
+     */
+    public List&lt;? extends RowSorter.SortKey&gt; getDefaultSortKeys() {
+<span class="nc" id="L692">        return Collections.unmodifiableList(defaultSortKeys);</span>
+    }
+
+    /**
+     * Sets the sort keys to sort the model with.  If you pass in null, an empty list will be set.
+     * You can set sort keys before binding occurs, and they will be cached for future binding.
+     * If bound to a table, it will also set those sort keys on its RowSorter,
+     * and create a TreeTableRowSorter for the table if one does not already exist.
+     * &lt;p&gt;
+     * This version of setSortKeys is useful to set keys programmatically,
+     *  as you can just specify as many keys as you like as direct parameters.
+     *
+     * @param keys The list of sort keys to sort with.
+     */
+    public void setSortKeys(final RowSorter.SortKey... keys) {
+<span class="nc bnc" id="L707" title="All 6 branches missed.">        if (keys == null || keys.length == 0 || keys[0] == null) {</span>
+<span class="nc" id="L708">            setSortKeys((List&lt;RowSorter.SortKey&gt;) null);</span>
+        } else {
+<span class="nc" id="L710">            setSortKeys(Arrays.asList(keys));</span>
+        }
+<span class="nc" id="L712">    }</span>
+
+    /**
+     * Clears sort keys to an empty list.
+     * Note that if the TreeTableRowSorter has default sort keys defined (to use in case
+     * of any empty set of sort keys), they will be set to the defaults by clearing.
+     * So if you clear sort keys and find you still have sort keys afterwards, it will be because of
+     * a non-empty list of default sort keys.
+     */
+    public void clearSortKeys() {
+<span class="nc" id="L722">        setSortKeys(Collections.emptyList());</span>
+<span class="nc" id="L723">    }</span>
+
+    /**
+     * Creates and sets a new default row sorter on a table, if a table is bound, and it doesn't have a row sorter.
+     */
+    protected void createAndSetRowSorterIfNotExists() {
+<span class="nc bnc" id="L729" title="All 4 branches missed.">        if (table != null &amp;&amp; table.getRowSorter() == null) {</span>
+<span class="nc" id="L730">            table.setRowSorter(createDefaultRowSorter());</span>
+        }
+<span class="nc" id="L732">    }</span>
+
+    /**
+     * @return a default row sorter with the latest default sort keys, sort keys and sort strategy.
+     */
+    protected TreeTableRowSorter createDefaultRowSorter() {
+<span class="nc" id="L738">        final TreeTableRowSorter rowSorter = new TreeTableRowSorter(this, defaultSortKeys);</span>
+<span class="nc" id="L739">        rowSorter.setSortKeys(sortKeys);</span>
+<span class="nc" id="L740">        rowSorter.setSortStrategy(defaultColumnSortStrategy);</span>
+<span class="nc" id="L741">        return rowSorter;</span>
+    }
+
+    /**
+     * When unbinding from a table, we will no longer get sort keys from its rowSorter.
+     * Take a copy of the last known state of sort keys in the table, if any are set.
+     * This ensures that a call to getSortKeys() while bound remains consistent after unbinding.
+     * Get and Set methods for sort keys remain consistent, whether bound to a table or not.
+     */
+    protected void removeRowSorterAndCacheSortKeys() {
+<span class="nc bnc" id="L751" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L752">            final RowSorter&lt;? extends TableModel&gt; rowSorter = table.getRowSorter();</span>
+<span class="nc bnc" id="L753" title="All 2 branches missed.">            if (rowSorter != null) {</span>
+<span class="nc" id="L754">                sortKeys = rowSorter.getSortKeys();</span>
+            }
+<span class="nc" id="L756">            table.setRowSorter(null);</span>
+        }
+<span class="nc" id="L758">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                    Filtering methods
+     *
+     * Methods which allow filtering nodes from the tree.
+     */
+
+    /**
+     * @return true if a filter is set.
+     */
+    public boolean isFiltering() {
+<span class="nc bnc" id="L771" title="All 2 branches missed.">        return filterPredicate != null;</span>
+    }
+
+    /**
+     * Returns true only if the node passed in is filtered out by an active filter, and false otherwise.
+     * If the node passed in is null, or there is no filter set, then it will return false.
+     * If there is a filter set, and the non-null node meets the filter conditions, then it returns true.
+     * &lt;p&gt;
+     * This method says nothing about whether a node is or would be visible in the tree.
+     * Even if it isn't filtered, it still might not be visible for other reasons, and it can be filtered even if it's not visible.
+     * If you need to check visibility of a node in the tree (which takes account of filtering too), use {@link #isVisible(TreeNode)}.
+     *
+     * @param node The node te test.
+     * @return true if a real node passed in matches an active filter, false in all other circumstances.
+     */
+    public boolean isFiltered(final TreeNode node) {
+<span class="nc bnc" id="L787" title="All 6 branches missed.">        return filterPredicate != null &amp;&amp; node != null &amp;&amp; filterPredicate.test(node);</span>
+    }
+
+    /**
+     * Sets a filter predicate on the model.  Any nodes which meet the predicate will be filtered out.
+     *
+     * @param filterPredicate The predicate used to filter a node.  If the test returns true, the node is filtered.
+     */
+    public void setNodeFilter(final Predicate&lt;TreeNode&gt; filterPredicate) {
+<span class="nc bnc" id="L796" title="All 2 branches missed.">        if (this.filterPredicate != filterPredicate) {</span>
+<span class="nc" id="L797">            this.filterPredicate = filterPredicate;</span>
+<span class="nc" id="L798">            refreshTree();</span>
+        }
+<span class="nc" id="L800">    }</span>
+
+    /**
+     * @return The current filter assigned to the model, or null if no filter is set.
+     */
+    public Predicate&lt;TreeNode&gt; getNodeFilter() {
+<span class="nc" id="L806">        return filterPredicate;</span>
+    }
+
+    /**
+     * Clears any filtering set on the model.
+     */
+    public void clearNodeFilter() {
+<span class="nc" id="L813">        setNodeFilter(null);</span>
+<span class="nc" id="L814">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                    TableModel interface methods.
+     *
+     * Methods required for a JTable to interact with this the data in this model.
+     */
+
+    @Override
+    public int getRowCount() {
+<span class="nc" id="L825">        return displayedNodes.size();</span>
+    }
+
+    @Override
+    public int getColumnCount() {
+<span class="nc" id="L830">        return getTableColumnModel().getColumnCount();</span>
+    }
+
+    /*
+     * {@inheritDoc}
+     * &lt;p&gt;
+     * Although it's not clear from the TableModel interface javadoc, &quot;row&quot; here refers to the model
+     * index in the TableModel, not the actual row in the JTable, which may be different if sorted.
+     * Likewise, column refers to the column model index, not the current position in the TableColumnModel.
+     */
+    @Override
+    public Object getValueAt(final int row, final int column) {
+<span class="nc" id="L842">        return getColumnValue( getNodeAtModelIndex(row), column);</span>
+    }
+
+    /*
+     * {@inheritDoc}
+     * &lt;p&gt;
+     * Although it's not clear from the TableModel interface javadoc, &quot;row&quot; here refers to the model
+     * index in the TableModel, not the actual row in the JTable, which may be different if sorted.
+     * Likewise, column refers to the column model index, not the current position in the TableColumnModel.
+     */
+    @Override
+    public void setValueAt(final Object aValue, final int row, final int column) {
+<span class="nc" id="L854">        setColumnValue( getNodeAtModelIndex(row), column, aValue);</span>
+<span class="nc" id="L855">        fireTableCellUpdated(row, column);</span>
+<span class="nc" id="L856">    }</span>
+
+
+    /* ****************************************************************************************************************
+     *                                Table methods
+     *
+     * Methods relating to a table we are bound to.
+     */
+
+    /**
+     * @return the JTable bound to this TreeTableModel, or null if one is not currently bound.
+     */
+    public JTable getTable() {
+<span class="nc" id="L869">        return table;</span>
+    }
+
+    /**
+     * Convenience method to get the current table header renderer on a bound table, if any.
+     * @return The renderer used for the table header, or null if not set or no table is bound.
+     */
+    public TableCellRenderer getTableHeaderRenderer() {
+<span class="nc bnc" id="L877" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L878">            final JTableHeader header = table.getTableHeader();</span>
+<span class="nc bnc" id="L879" title="All 2 branches missed.">            if (header != null) {</span>
+<span class="nc" id="L880">                return header.getDefaultRenderer();</span>
+            }
+        }
+<span class="nc" id="L883">        return null;</span>
+    }
+
+    /**
+     * Convenience method to sets the renderer for the table header, if we are bound to a table.
+     * @param renderer The renderer to use.
+     */
+    public void setTableHeaderRenderer(final TableCellRenderer renderer) {
+<span class="nc bnc" id="L891" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L892">            final JTableHeader header = table.getTableHeader();</span>
+<span class="nc bnc" id="L893" title="All 2 branches missed.">            if (header != null) {</span>
+<span class="nc" id="L894">                header.setDefaultRenderer(renderer);</span>
+            }
+        }
+<span class="nc" id="L897">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                    Tree Change methods
+     *
+     * Methods required for this model to listen for TreeModelListener events, or to manually notify the
+     * model that a node has changed.  Note that the tree structure has *already* changed once these methods
+     * are called, so a removed node will no longer be part of the actual tree even if it is currently being
+     * displayed (so must be removed from display), or new nodes may have been added which are not currently displayed (so must be added).
+     * This class can be subscribed to a DefaultTreeModel in order to respond to these tree events,
+     * or you can call the change methods yourself if not using a tree model once the node structure has been changed.
+     */
+
+    /**
+     * Refreshes the entire visible tree, rebuilding from the root upwards.
+     */
+    public void refreshTree() {
+<span class="nc" id="L915">         buildVisibleNodes();</span>
+<span class="nc" id="L916">         fireTableDataChanged();</span>
+<span class="nc" id="L917">    }</span>
+
+    //TODO: need Tree change tests.
+
+    @Override
+    public void treeNodesChanged(final TreeModelEvent e) {
+<span class="nc" id="L923">        final int[] childIndices = e.getChildIndices();</span>
+        // TreeModelListener interface specifies that null child indices are used to indicate the root node has changed.
+<span class="nc bnc" id="L925" title="All 2 branches missed.">        if (childIndices == null) {</span>
+<span class="nc bnc" id="L926" title="All 2 branches missed.">            if (showRoot) {</span>
+<span class="nc" id="L927">                fireTableRowsUpdated(0, 0);</span>
+            }
+        } else {
+<span class="nc" id="L930">            treeNodesChanged( getLastPathNode(e), childIndices);</span>
+        }
+<span class="nc" id="L932">    }</span>
+
+    /**
+     * Notifies the model that a node has changed one of its properties, but its structure hasn't changed or its children.
+     * @param nodeChanged The node that needs to be refreshed.
+     */
+    public void treeNodeChanged(final TreeNode nodeChanged) {
+<span class="nc bnc" id="L939" title="All 2 branches missed.">        if (isVisible(nodeChanged)) {</span>
+<span class="nc" id="L940">            final int modelIndex  = getModelIndexForTreeNode(nodeChanged);</span>
+<span class="nc" id="L941">            fireTableRowsUpdated(modelIndex, modelIndex);</span>
+        }
+<span class="nc" id="L943">    }</span>
+
+    /**
+     * Notifies the model that a set of siblings have changed (but not their children or child structure).
+     *
+     * @param parentNode The parent node of the children which changed.
+     * @param childIndices The indices of the children who changed in the parent.
+     */
+    public void treeNodesChanged(final TreeNode parentNode, final int[] childIndices) {
+<span class="nc bnc" id="L952" title="All 2 branches missed.">        if (childrenWillBeVisible(parentNode)) {</span>
+<span class="nc bnc" id="L953" title="All 2 branches missed.">            for (int childIndex : childIndices) {</span>
+<span class="nc" id="L954">                final int modelIndex = getModelIndexForTreeNode(parentNode.getChildAt(childIndex));</span>
+<span class="nc" id="L955">                fireTableRowsUpdated(modelIndex, modelIndex);</span>
+            }
+        }
+<span class="nc" id="L958">    }</span>
+
+    @Override
+    public void treeNodesInserted(final TreeModelEvent e) {
+<span class="nc" id="L962">        treeNodesInserted( getLastPathNode(e), e.getChildIndices());</span>
+<span class="nc" id="L963">    }</span>
+
+    /**
+     * Informs the model that a new node was inserted into the parent node with the child index given.
+     * @param parentNode The parent node that had a child inserted.
+     * @param childIndex The index the child was inserted at.
+     */
+    public void treeNodeInserted(final TreeNode parentNode, final int childIndex) {
+<span class="nc bnc" id="L971" title="All 2 branches missed.">        if (childrenWillBeVisible(parentNode)) {</span>
+<span class="nc" id="L972">            final int numInserted = insertChildNodeToModel(parentNode, childIndex);</span>
+<span class="nc" id="L973">            updateVisibleChildCounts(parentNode, numInserted);</span>
+        }
+<span class="nc" id="L975">    }</span>
+
+    /**
+     * Informs the model that new nodes were inserted into the parent node with the child indices given.
+     *
+     * @param parentNode The parent node that has new children.
+     * @param childIndices The indices of the new children.
+     */
+    public void treeNodesInserted(final TreeNode parentNode, final int[] childIndices) {
+<span class="nc bnc" id="L984" title="All 2 branches missed.">        if (childrenWillBeVisible(parentNode)) {</span>
+<span class="nc" id="L985">            final int numInserted = insertChildNodesToModel(parentNode, childIndices);</span>
+<span class="nc" id="L986">            updateVisibleChildCounts(parentNode, numInserted);</span>
+        }
+<span class="nc" id="L988">    }</span>
+
+    @Override
+    public void treeNodesRemoved(final TreeModelEvent e) {
+<span class="nc" id="L992">        treeNodesRemoved( getLastPathNode(e), e.getChildIndices(), e.getChildren());</span>
+<span class="nc" id="L993">    }</span>
+
+    /**
+     * Informs the model that child nodes have been removed from a parent node.
+     *
+     * @param previousParentNode The parent previously to the removed children.
+     * @param childIndices The indices of the nodes removed.
+     * @param removedChildren The child nodes which were removed.
+     */
+    public void treeNodesRemoved(final TreeNode previousParentNode, final int[] childIndices, final Object[] removedChildren) {
+<span class="nc bnc" id="L1003" title="All 2 branches missed.">        if (childrenWillBeVisible(previousParentNode)) {</span>
+<span class="nc" id="L1004">            final int numRemoved = removeVisibleNodes(childIndices, removedChildren);</span>
+<span class="nc" id="L1005">            updateVisibleChildCounts(previousParentNode, -numRemoved);</span>
+        }
+<span class="nc" id="L1007">    }</span>
+
+    /**
+     * Informs the model that a child node was removed from a parent node.
+     *
+     * @param previousParentNode The parent previously to the removed child.
+     * @param removedNode The removed child.
+     */
+    public void treeNodeRemoved(final TreeNode previousParentNode, final TreeNode removedNode) {
+<span class="nc bnc" id="L1016" title="All 2 branches missed.">        if (childrenWillBeVisible(previousParentNode)) {</span>
+<span class="nc" id="L1017">            final int numRemoved = removeVisibleNode(removedNode);</span>
+<span class="nc" id="L1018">            updateVisibleChildCounts(previousParentNode, -numRemoved);</span>
+        }
+<span class="nc" id="L1020">    }</span>
+
+    @Override
+    public void treeStructureChanged(final TreeModelEvent e) {
+<span class="nc" id="L1024">        final TreeNode parentNode = getLastPathNode(e);</span>
+<span class="nc bnc" id="L1025" title="All 4 branches missed.">        if (e.getPath().length == 1 &amp;&amp; parentNode != rootNode) { // only one object in path and not current root - set root.</span>
+<span class="nc" id="L1026">            setRoot(parentNode);</span>
+        } else {
+<span class="nc" id="L1028">            treeStructureChanged(parentNode);</span>
+        }
+<span class="nc" id="L1030">    }</span>
+
+    /**
+     * Informs the model that a node has changed its child structure a lot and so it should be rebuilt.
+     *
+     * @param changedNode The node whose child structure has changed.
+     */
+    public void treeStructureChanged(final TreeNode changedNode) {
+<span class="nc bnc" id="L1038" title="All 4 branches missed.">        if (isVisible(changedNode) || hiddenRootChildrenAreVisible(changedNode)) {</span>
+<span class="nc bnc" id="L1039" title="All 2 branches missed.">            if (isExpanded(changedNode)) {</span>
+<span class="nc" id="L1040">                 rebuildVisibleChildren(changedNode);</span>
+            }
+<span class="nc" id="L1042">            final int modelIndex = getModelIndexForTreeNode(changedNode);</span>
+<span class="nc" id="L1043">            fireTableRowsUpdated(modelIndex, modelIndex);</span>
+        }
+<span class="nc" id="L1045">    }</span>
+
+    /**
+     * Returns true if the node is an unfiltered, hidden root which is expanded - i.e. that it's children will be visible,
+     * even though it itself is not visible.
+     *
+     * @param node The node to check.
+     * @return true if the node is an unfiltered, hidden root which is expanded.
+     */
+    protected boolean hiddenRootChildrenAreVisible(final TreeNode node) {
+<span class="nc bnc" id="L1055" title="All 6 branches missed.">        return isHiddenRoot(node) &amp;&amp; !isFiltered(node) &amp;&amp; isExpanded(node); //TODO: why do we care if a hidden root is filtered?</span>
+    }
+
+    /**
+     * @param node The node to check.
+     * @return true if the node passed in is the root, and it's hidden.
+     */
+    protected boolean isHiddenRoot(final TreeNode node) {
+<span class="nc bnc" id="L1063" title="All 4 branches missed.">        return !showRoot &amp;&amp; node == rootNode;</span>
+    }
+
+    /**
+     * Rebuilds the tree from the changed node downwards.
+     * Must only be called on a node which is visible in the tree.
+     * @param changedNode The node whose children need rebuilding.
+     */
+    protected void rebuildVisibleChildren(final TreeNode changedNode) {
+<span class="nc bnc" id="L1072" title="All 2 branches missed.">        if (changedNode == rootNode) { // handle a complete tree refresh differently using refreshTree (takes account of hidden status of root node).</span>
+<span class="nc" id="L1073">            refreshTree();</span>
+        } else {
+<span class="nc" id="L1075">            int firstChildModelIndex = NOT_LOCATED;</span>
+
+            // 1. remove any prior visible children - filtering not required for nodes which are already visible.
+<span class="nc" id="L1078">            final int numOldChildren = getLastKnownSubTreeCount(changedNode);</span>
+<span class="nc bnc" id="L1079" title="All 2 branches missed.">            if (numOldChildren &gt; 0) {</span>
+<span class="nc" id="L1080">                firstChildModelIndex = getModelIndexForTreeNode(changedNode) + 1;</span>
+<span class="nc" id="L1081">                removeVisibleRows(firstChildModelIndex, firstChildModelIndex + numOldChildren - 1);</span>
+            }
+
+            // 2. insert any current children:
+<span class="nc" id="L1085">            int numNewChildren = 0;</span>
+<span class="nc bnc" id="L1086" title="All 2 branches missed.">            if (changedNode.getChildCount() &gt; 0) {</span>
+<span class="nc bnc" id="L1087" title="All 2 branches missed.">                if (firstChildModelIndex == NOT_LOCATED) { // don't recalculate model index if we already have it from removing.</span>
+<span class="nc" id="L1088">                    firstChildModelIndex = getModelIndexForTreeNode(changedNode) + 1;</span>
+                }
+<span class="nc" id="L1090">                numNewChildren = addVisibleChildren(firstChildModelIndex, changedNode);</span>
+            }
+
+            // 3. update visible node counts.
+<span class="nc" id="L1094">            expandedNodeCounts.put(changedNode, numNewChildren);</span>
+<span class="nc" id="L1095">            updateTreeChildCounts(changedNode, numNewChildren - numOldChildren);</span>
+        }
+<span class="nc" id="L1097">    }</span>
+
+    /**
+     * Sets the root of the tree to a new root node, and collapses any nodes previously expanded in the old tree.
+     * If the root is hidden, it will be expanded so that the children are visible.
+     *
+     * @param newRoot The new root node for the tree.
+     * @throws IllegalArgumentException if newRoot is null.
+     */
+    public void setRoot(final TreeNode newRoot) {
+<span class="nc" id="L1107">        checkNull(newRoot, &quot;newRoot&quot;);</span>
+<span class="nc bnc" id="L1108" title="All 2 branches missed.">        if (newRoot != rootNode) {</span>
+<span class="nc" id="L1109">            rootNode = newRoot;</span>
+<span class="nc" id="L1110">            clearExpansions();</span>
+<span class="nc bnc" id="L1111" title="All 2 branches missed.">            if (!showRoot) {</span>
+<span class="nc" id="L1112">                expandNode(rootNode);</span>
+            }
+<span class="nc" id="L1114">            refreshTree();</span>
+        }
+<span class="nc" id="L1116">    }</span>
+
+    /**
+     * @param e A TreeModelEvent.
+     * @return The last path element as a TreeNode.
+     */
+    protected TreeNode getLastPathNode(TreeModelEvent e) {
+<span class="nc" id="L1123">        return (TreeNode) e.getPath()[e.getPath().length - 1];</span>
+    }
+
+    protected int insertChildNodesToModel(final TreeNode parentNode, final int[] childIndices) {
+<span class="nc" id="L1127">        final int length = childIndices.length;</span>
+<span class="nc" id="L1128">        int from = 0;</span>
+<span class="nc" id="L1129">        int numInserted = 0;</span>
+<span class="nc bnc" id="L1130" title="All 2 branches missed.">        while (from &lt; length) {</span>
+<span class="nc" id="L1131">            final int to = TreeUtils.findLastConsecutiveIndex(from, childIndices); // process all consecutive insertions together.</span>
+<span class="nc bnc" id="L1132" title="All 2 branches missed.">            if (from == to) { // just inserting a single node (that potentially also has children, so numInserted may be bigger than one).</span>
+<span class="nc" id="L1133">                numInserted += insertChildNodeToModel(parentNode, childIndices[from]);</span>
+            } else { // inserting a consecutive block of nodes (that may have children themselves)
+<span class="nc" id="L1135">                numInserted += insertChildNodesToModel(parentNode, childIndices, from, to);</span>
+            }
+<span class="nc" id="L1137">            from = to + 1;</span>
+<span class="nc" id="L1138">        }</span>
+<span class="nc" id="L1139">        return numInserted;</span>
+    }
+
+    protected int insertChildNodeToModel(final TreeNode parentNode, final int childIndex) {
+<span class="nc" id="L1143">        final TreeNode insertedNode = parentNode.getChildAt(childIndex); // The node that was inserted.</span>
+<span class="nc bnc" id="L1144" title="All 2 branches missed.">        if (!isFiltered(insertedNode)) {</span>
+<span class="nc" id="L1145">            final List&lt;TreeNode&gt; newNodes = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L1146">            newNodes.add(insertedNode);</span>
+<span class="nc" id="L1147">            buildVisibleChildren(insertedNode, newNodes);</span>
+<span class="nc" id="L1148">            final int insertPosition = getModelIndexAtInsertPosition(parentNode, childIndex, 1);</span>
+<span class="nc" id="L1149">            displayedNodes.addAll(insertPosition, newNodes);</span>
+<span class="nc" id="L1150">            fireTableRowsInserted(insertPosition, insertPosition + newNodes.size() - 1);</span>
+<span class="nc" id="L1151">            return newNodes.size();</span>
+        }
+<span class="nc" id="L1153">        return 0;</span>
+    }
+
+    protected int insertChildNodesToModel(final TreeNode parentNode, final int[] childIndices, final int from, final int to) {
+<span class="nc" id="L1157">        final List&lt;TreeNode&gt; newNodes = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L1158" title="All 2 branches missed.">        for (int index = from; index &lt;= to; index++) {</span>
+<span class="nc" id="L1159">            final int childIndex = childIndices[index];</span>
+<span class="nc" id="L1160">            final TreeNode insertedNode = parentNode.getChildAt(childIndex); // The node that was inserted.</span>
+<span class="nc bnc" id="L1161" title="All 2 branches missed.">            if (!isFiltered(insertedNode)) {</span>
+<span class="nc" id="L1162">                newNodes.add(insertedNode);</span>
+<span class="nc" id="L1163">                buildVisibleChildren(insertedNode, newNodes);</span>
+            }
+        }
+<span class="nc bnc" id="L1166" title="All 2 branches missed.">        if (newNodes.size() &gt; 0) {</span>
+<span class="nc" id="L1167">            final int insertPosition = getModelIndexAtInsertPosition(parentNode, childIndices[from], to - from + 1);</span>
+<span class="nc" id="L1168">            displayedNodes.addAll(insertPosition, newNodes);</span>
+<span class="nc" id="L1169">            fireTableRowsInserted(insertPosition, insertPosition + newNodes.size() - 1);</span>
+        }
+<span class="nc" id="L1171">        return newNodes.size();</span>
+    }
+
+    protected int removeVisibleNodes(final int[] childIndices, final Object[] removedChildren) {
+<span class="nc" id="L1175">        final int length = childIndices.length;</span>
+<span class="nc" id="L1176">        int from = 0;</span>
+<span class="nc" id="L1177">        int numRemoved = 0;</span>
+<span class="nc bnc" id="L1178" title="All 2 branches missed.">        while (from &lt; length) {</span>
+<span class="nc" id="L1179">            final int to = TreeUtils.findLastConsecutiveIndex(from, childIndices); // process all consecutive insertions together.</span>
+<span class="nc bnc" id="L1180" title="All 2 branches missed.">            if (from == to) { // just removing a single node (that potentially also has removedChildren, so numRemoved may be bigger than one).</span>
+<span class="nc" id="L1181">                numRemoved += removeVisibleNode((TreeNode) removedChildren[from]);</span>
+            } else {          // removing a block of nodes.
+<span class="nc" id="L1183">                numRemoved += removeVisibleNodes(from, to, removedChildren);</span>
+            }
+<span class="nc" id="L1185">            from = to + 1;</span>
+<span class="nc" id="L1186">        }</span>
+<span class="nc" id="L1187">        return numRemoved;</span>
+    }
+
+    protected int removeVisibleNode(final TreeNode removedNode) {
+        //NOTE: node parent is already null and unlinked from tree when TreeModel.removeNodeFromParent is called,
+        // which fires the event which results in trying to remove the visible node here.  Therefore, we cannot use tree
+        // walking to determine the visible model index, and have to rely on a linear scan of the visible node list.
+<span class="nc" id="L1194">        final int modelIndex = getModelIndexLinearScan(removedNode);</span>
+<span class="nc bnc" id="L1195" title="All 2 branches missed.">        if (modelIndex &gt;= 0) {</span>
+<span class="nc" id="L1196">            final int numChildren = getLastKnownSubTreeCount(removedNode);</span>
+<span class="nc" id="L1197">            final int lastIndex = modelIndex + numChildren;</span>
+<span class="nc" id="L1198">            displayedNodes.remove(modelIndex, lastIndex);</span>
+<span class="nc" id="L1199">            fireTableRowsDeleted(modelIndex, lastIndex);</span>
+<span class="nc" id="L1200">            return 1 + numChildren;</span>
+        }
+<span class="nc" id="L1202">        return 0; // wasn't visible after all - so nothing removed.</span>
+    }
+
+    protected int removeVisibleNodes(final int from, final int to, final Object[] removedChildren) {
+        //NOTE: node parents are already null and unlinked from tree when TreeModel.removeNodeFromParent is called,
+        // which fires the event which results in trying to remove the visible nodes here.  Therefore, we cannot use tree
+        // walking to determine the visible model index, and have to rely on a linear scan of the visible node list.
+<span class="nc" id="L1209">        final int modelIndex = getModelIndexLinearScan((TreeNode) removedChildren[from]);</span>
+
+<span class="nc bnc" id="L1211" title="All 2 branches missed.">        if (modelIndex &gt;= 0) {</span>
+<span class="nc" id="L1212">            int numToRemove = 0;</span>
+<span class="nc bnc" id="L1213" title="All 2 branches missed.">            for (int index = from; index &lt;= to; index++) {</span>
+<span class="nc" id="L1214">                numToRemove += (getLastKnownSubTreeCount((TreeNode) removedChildren[index]) + 1);</span>
+            }
+<span class="nc" id="L1216">            final int lastIndex = modelIndex + numToRemove - 1;</span>
+<span class="nc" id="L1217">            displayedNodes.remove(modelIndex, lastIndex);</span>
+<span class="nc" id="L1218">            fireTableRowsDeleted(modelIndex, lastIndex);</span>
+<span class="nc" id="L1219">            return numToRemove;</span>
+        }
+<span class="nc" id="L1221">        return 0; // wasn't visible after all - so nothing removed.</span>
+    }
+
+    /**
+     * Returns the model index to insert a block of nodes into the model, as children of a parent node.
+     *
+     * @param parentNode The parent node which has new children inserted.
+     * @param childIndex The index of the child at which the insertions occurred.
+     * @param numInsertions The number of insertions which were made.
+     * @return the model index to insert a block of nodes into the model, as children of a parent node.
+     */
+    protected int getModelIndexAtInsertPosition(final TreeNode parentNode, final int childIndex, final int numInsertions) {
+<span class="nc" id="L1233">        final int afterInsertionIndex = childIndex + numInsertions;</span>
+<span class="nc" id="L1234">        final int numChildren = parentNode.getChildCount();</span>
+<span class="nc" id="L1235">        checkInsertionIndices(numChildren, childIndex, numInsertions);</span>
+        final int modelIndexToInsertAt;
+<span class="nc bnc" id="L1237" title="All 2 branches missed.">        if (numInsertions == numChildren) { // No previous nodes - the number of insertions equals the number of current children:</span>
+<span class="nc" id="L1238">            modelIndexToInsertAt = getModelIndexForTreeNode(parentNode) + 1; // Insert at the position just after the parent node.</span>
+<span class="nc bnc" id="L1239" title="All 2 branches missed.">        } else if (afterInsertionIndex == numChildren) { // If inserted at the end of existing children - just after the end of the insertions will be the total number of  children.</span>
+<span class="nc" id="L1240">            final TreeNode previousChild = parentNode.getChildAt(childIndex - 1); // previous last child is the one before the first inserted.</span>
+<span class="nc" id="L1241">            modelIndexToInsertAt = getModelIndexForTreeNode(previousChild) + getLastKnownSubTreeCount(previousChild) + 1; // insert one after last previous child and all its visible children.</span>
+<span class="nc" id="L1242">        }  else { // Inserting before the end of existing children, possibly at the start, or somewhere in the middle.</span>
+<span class="nc" id="L1243">            modelIndexToInsertAt = getModelIndexForTreeNode(parentNode.getChildAt(afterInsertionIndex)); // insert at the index in the current model of the child the last inserted node displaced.</span>
+        }
+<span class="nc" id="L1245">        return modelIndexToInsertAt;</span>
+    }
+
+    /**
+     * Throws an IndexOutOfBoundsException if the rowIndex &lt; 0, or the number of insertions at the
+     * rowIndex is greater than the total number of rows.
+     *
+     * @param numRows The number of rows
+     * @param insertIndex The row index to insert at, zero based.
+     * @param numInsertions The number of rows to insert.
+     */
+    protected void checkInsertionIndices(final int numRows, final int insertIndex, final int numInsertions) {
+<span class="nc bnc" id="L1257" title="All 2 branches missed.">        if (insertIndex &lt; 0) {</span>
+<span class="nc" id="L1258">            throw new IndexOutOfBoundsException(&quot;Inserted index must be zero or greater: &quot; + insertIndex);</span>
+        }
+<span class="nc bnc" id="L1260" title="All 2 branches missed.">        if (insertIndex + numInsertions &gt; numRows) {</span>
+<span class="nc" id="L1261">            throw new IndexOutOfBoundsException(&quot;Inserting &quot; + numInsertions + &quot; rows at row &quot; + insertIndex +</span>
+                    &quot; is more than the total number of rows: &quot; + numRows);
+        }
+<span class="nc" id="L1264">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                          Node and index getters
+     *
+     * Methods to get nodes, selected nodes, converting between model index and table rows.
+     */
+
+    /**
+     * @return the root node of the tree.
+     */
+    public TreeNode getRoot() {
+<span class="nc" id="L1277">        return rootNode;</span>
+    }
+
+    /**
+     * Gets the node at the model row, or null if the model index is out of bounds.
+     *
+     * @param modelIndex The row in the display model to get the node for.
+     * @return The node for the row in the (unsorted) model index, or null if out of bounds.
+     */
+    public TreeNode getNodeAtModelIndex(final int modelIndex) {
+<span class="nc bnc" id="L1287" title="All 2 branches missed.">        return validRow(modelIndex) ? displayedNodes.get(modelIndex) : null;</span>
+    }
+
+    /**
+     * Gets the node in a bound JTable given a table row index.
+     * The view row index can differ from the rows in this underlying model if the table is sorted or filtered.
+     *
+     * @param tableRow The row in the table to get the node from.
+     * @return The node at the tableRow position in the JTable, or null if the row is not a valid row.
+     */
+    public TreeNode getNodeAtTableRow(final int tableRow) {
+<span class="nc" id="L1298">        return getNodeAtModelIndex( getModelIndexForTableRow(tableRow));</span>
+    }
+
+    protected boolean validRow(final int tableRow) {
+<span class="nc bnc" id="L1302" title="All 4 branches missed.">        return tableRow &gt;= 0 &amp;&amp; tableRow &lt; getRowCount();</span>
+    }
+
+    /**
+     * Gets the first node which is currently selected in the JTable, or null if no row is selected.
+     *
+     * @return the node which is currently selected in the JTable, or null if no row is selected.
+     */
+    public TreeNode getSelectedNode() {
+<span class="nc bnc" id="L1311" title="All 2 branches missed.">        return table == null? null : getNodeAtTableRow(table.getSelectedRow());</span>
+    }
+
+    /**
+     * Gets a list of all the selected nodes in the JTable, or an empty list if no rows are selected.
+     * @return a list of all the selected nodes in the JTable, or an empty list if no rows are selected.
+     */
+    public List&lt;TreeNode&gt; getSelectedNodes() {
+<span class="nc bnc" id="L1319" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L1320">            final List&lt;TreeNode&gt; nodes = new ArrayList&lt;&gt;(table.getSelectedRowCount());</span>
+<span class="nc bnc" id="L1321" title="All 2 branches missed.">            for (int rowIndex : table.getSelectedRows()) {</span>
+<span class="nc" id="L1322">                nodes.add(getNodeAtTableRow(rowIndex));</span>
+            }
+<span class="nc" id="L1324">            return nodes;</span>
+        }
+<span class="nc" id="L1326">        return new ArrayList&lt;&gt;();</span>
+    }
+
+    /**
+     * @return The ListSelectionModel of the bound table, or null if a table is not bound.
+     */
+    public ListSelectionModel getSelectionModel() {
+<span class="nc bnc" id="L1333" title="All 2 branches missed.">        return table == null? null : table.getSelectionModel();</span>
+    }
+
+    //TODO: more extensive test of this would be good.
+    /**
+     * @return An array containing the model indexes of selected rows.
+     */
+    public int[] getSelectedRowModelIndexes() {
+<span class="nc" id="L1341">        final ListSelectionModel model = getSelectionModel();</span>
+<span class="nc bnc" id="L1342" title="All 4 branches missed.">        if (model != null &amp;&amp; model.getSelectedItemsCount() &gt; 0) {</span>
+<span class="nc" id="L1343">            final int[] selected = model.getSelectedIndices();</span>
+<span class="nc bnc" id="L1344" title="All 2 branches missed.">            for (int i = 0; i &lt; selected.length; i++) {</span>
+<span class="nc" id="L1345">                selected[i] = getModelIndexForTableRow(selected[i]);</span>
+            }
+<span class="nc" id="L1347">            return selected;</span>
+        }
+<span class="nc" id="L1349">        return EMPTY_ARRAY;</span>
+    }
+
+    /**
+     * Gets the index in the model of a row in a bound table.
+     * If the table is unsorted, the model and table indexes will be identical.
+     * If the table is sorted, then the row sorter can provide a mapping from the row in the visible table
+     * to the row in this underlying model.
+     *
+     * @param tableRow The row in the JTable to get the model index for.
+     * @return the model index of a row in a bound JTable.
+     */
+    public int getModelIndexForTableRow(final int tableRow) {
+<span class="nc bnc" id="L1362" title="All 2 branches missed.">        final RowSorter&lt;? extends TableModel&gt; rowSorter = table == null? null : table.getRowSorter();</span>
+<span class="nc bnc" id="L1363" title="All 4 branches missed.">        return rowSorter == null? tableRow : validRow(tableRow) ? rowSorter.convertRowIndexToModel(tableRow) : -1;</span>
+    }
+
+    /**
+     * Gets the index in the model of a node, or -1 if it isn't visible or part of the current tree.
+     *
+     * @param node The node to get the model index for.
+     * @return The index in the model of displayed nodes, or -1 if it isn't being displayed.
+     */
+    public int getModelIndexForTreeNode(final TreeNode node) {
+<span class="nc bnc" id="L1373" title="All 2 branches missed.">        return displayedNodes.size() &lt; linearScanThreshold ? getModelIndexLinearScan(node) : getModelIndexTreeScan(node);</span>
+    }
+
+    /**
+     * Gets the index in the model of a node, or -1 if it isn't visible or part of the current tree.
+     * Uses a simple linear scan of the visible node array list to find the node.
+     *
+     * @param node The node to get the model index for.
+     * @return The index in the model of displayed nodes, or -1 if it isn't being displayed.
+     */
+    protected int getModelIndexLinearScan(final TreeNode node) {
+<span class="nc" id="L1384">        return displayedNodes.indexOf(node);</span>
+    }
+
+    /**
+     * Gets the index in the model of a node, or -1 if it isn't visible or part of the current tree.
+     * Uses a tree scanning algorithm, walking back up the path of the node we're looking for and
+     * locating each ancestor, adding up how many visible nodes precede it, until we reach the
+     * node we want to find, or not.
+     * The sum of all visible preceding nodes gives us the model index of our node.
+     * &lt;p&gt;
+     * This is fast since we already track how many visible child nodes (including all sub nodes) each expanded
+     * folder contains.  So we can just walk the children of each ancestor adding up how many nodes will actually appear,
+     * and don't have to actually scan most of them. This will be a considerably smaller set of nodes than looking in all of them.
+     *
+     * @param node The node to get the model index for.
+     * @return The index in the model of displayed nodes, or -1 if it isn't being displayed.
+     */
+    protected int getModelIndexTreeScan(final TreeNode node) {
+        // Definitely not in tree if the node we're looking for is filtered.
+<span class="nc bnc" id="L1403" title="All 2 branches missed.">        if (isFiltered(node)) {</span>
+<span class="nc" id="L1404">            return NOT_LOCATED;</span>
+        }
+
+        // If it's the root node and not filtered (due to above test), it's only visible if showing root.
+<span class="nc bnc" id="L1408" title="All 2 branches missed.">        if (node == rootNode) {</span>
+<span class="nc bnc" id="L1409" title="All 2 branches missed.">            return showRoot? 0 : NOT_LOCATED;</span>
+        }
+
+        // Walk up the path from root to the node we want the model index for, adding up all the visible children
+        // that precede it in the model.
+<span class="nc" id="L1414">        final List&lt;TreeNode&gt; parentPath = buildPath(node); // last item is the root, first is the node to find.</span>
+<span class="nc" id="L1415">        final TreeNode ancestorRoot = parentPath.get(parentPath.size() - 1);</span>
+        CALCULATE_INDEX:
+<span class="nc bnc" id="L1417" title="All 2 branches missed.">        if (ancestorRoot == rootNode) { // If we're in the same tree (starts at the same root):</span>
+
+            /*
+             * Set the starting model index for the count of nodes.
+             * If the root is showing, and is unfiltered, it has index zero in the model, so adding the first child would be at 1.  Start count at 0.
+             * If the root isn't showing or is filtered, start at -1, so adding a single child to it would give index of zero.
+             */
+<span class="nc bnc" id="L1424" title="All 4 branches missed.">            int modelIndex = showRoot &amp;&amp; !isFiltered(rootNode) ? 0 : -1;</span>
+
+            // For each parent/child pair in the path starting from root and working upwards towards the node we want the model index for,
+            // add up all the visible child nodes that precede our path in the tree.
+            // The path is guaranteed to have at least two entries at this point -  the node itself and root,
+            // as we know it isn't the root node due to the first tests in this method.
+            // Start the loop at the second to last item in the path (child of root), since we need the parent of the child to find
+            // as well (we work in parent/child pairs), which will be the last item in the path (root).  Root has no parent, so we can't start there.
+<span class="nc" id="L1432">            final int childOfRootIndex = parentPath.size() - 2;</span>
+<span class="nc bnc" id="L1433" title="All 2 branches missed.">            for (int pathIndex = childOfRootIndex; pathIndex &gt;= 0; pathIndex--) {</span>
+                // As long as the parent node is expanded and unfiltered (so children will be visible)
+                // add up all the visible children of that parent which precede the child we want to find.
+<span class="nc" id="L1436">                final TreeNode parentNode = parentPath.get(pathIndex + 1); // Get the parent of the one we will find.  This is root initially.</span>
+<span class="nc bnc" id="L1437" title="All 4 branches missed.">                if (isExpanded(parentNode) &amp;&amp; !isFiltered(parentNode)) {</span>
+<span class="nc" id="L1438">                    final int visibleChildren = countVisibleChildrenUpToChild(parentNode, parentPath.get(pathIndex));</span>
+<span class="nc bnc" id="L1439" title="All 2 branches missed.">                    if (visibleChildren == NOT_LOCATED) { // e.g. if the child to find was filtered out.</span>
+<span class="nc" id="L1440">                        break CALCULATE_INDEX; // stop looking and fall through to return NOT_LOCATED.</span>
+                    }
+<span class="nc" id="L1442">                    modelIndex += visibleChildren;</span>
+                } else { // filtered or not expanded - path is not visible.
+                    break CALCULATE_INDEX; // stop looking and fall through to return NOT_LOCATED.
+                }
+            }
+<span class="nc" id="L1447">            return modelIndex;</span>
+        }
+<span class="nc" id="L1449">        return NOT_LOCATED;</span>
+    }
+
+    /**
+     * Returns the number of visible nodes in a parent node up to and including the node to find,
+     * or -1 if the child does not exist in that parent.
+     *
+     * @param parentNode The parent node to scan.
+     * @param childToFind The child node to find in the parent.
+     * @return the number of visible child nodes up to the child to find, or -1 if the child does not exist.
+     */
+    protected int countVisibleChildrenUpToChild(TreeNode parentNode, TreeNode childToFind) {
+<span class="nc" id="L1461">        int visibleNodeCount = 0;</span>
+<span class="nc bnc" id="L1462" title="All 2 branches missed.">        for (int child = 0; child &lt; parentNode.getChildCount(); child++) {</span>
+<span class="nc" id="L1463">            final TreeNode childNode = parentNode.getChildAt(child);</span>
+<span class="nc bnc" id="L1464" title="All 2 branches missed.">            if (!isFiltered(childNode)) {</span>
+<span class="nc" id="L1465">                visibleNodeCount++;</span>
+<span class="nc bnc" id="L1466" title="All 2 branches missed.">                if (childNode == childToFind) {</span>
+<span class="nc" id="L1467">                    return visibleNodeCount;</span>
+                }
+<span class="nc" id="L1469">                visibleNodeCount += getLastKnownSubTreeCount(childNode);</span>
+<span class="nc bnc" id="L1470" title="All 2 branches missed.">            } else if (childNode == childToFind) {</span>
+<span class="nc" id="L1471">                break; // we found the child, but it was filtered.  So there are no visible children up to a visible child.</span>
+            }
+        }
+<span class="nc" id="L1474">        return NOT_LOCATED;</span>
+    }
+
+    /**
+     * Builds the path of a node up to the root.  The first node in the list is the node we start with,
+     * and the last node will be the root node.
+     *
+     * @param node The node to get a path for.
+     * @return A list of nodes up to the root from the node you start with.
+     */
+    protected List&lt;TreeNode&gt; buildPath(final TreeNode node) {
+<span class="nc" id="L1485">        final List&lt;TreeNode&gt; path = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L1486">        TreeNode currentNode = node;</span>
+<span class="nc bnc" id="L1487" title="All 2 branches missed.">        while (currentNode != null ) {</span>
+<span class="nc" id="L1488">            path.add(currentNode);</span>
+<span class="nc" id="L1489">            currentNode = currentNode.getParent();</span>
+        }
+<span class="nc" id="L1491">        return path;</span>
+    }
+
+
+    /* *****************************************************************************************************************
+     *                                           Event listeners
+     */
+//TODO: can test these...
+
+    /**
+     * Adds a listener to TreeTableEvents, which inform the listener when a node is about to expand or collapse.
+     *
+     * @param listener The listener to be notified of tree expand or collapse events.
+     */
+    public void addExpandCollapseListener(final ExpandCollapseListener listener) {
+<span class="nc bnc" id="L1506" title="All 2 branches missed.">        if (!eventListeners.contains(listener)) {</span>
+<span class="nc" id="L1507">            eventListeners.add(listener);</span>
+        }
+<span class="nc" id="L1509">    }</span>
+
+    /**
+     * Removes a TreeTableEvent listener.
+     *
+     * @param listener The listener to remove.
+     */
+    public void removeExpandCollapseListener(final ExpandCollapseListener listener) {
+<span class="nc" id="L1517">        eventListeners.remove(listener);</span>
+<span class="nc" id="L1518">    }</span>
+
+    /**
+     * Adds a mouse listener for expand / collapse events to a JTable
+     **/
+    protected void addMouseListener() {
+<span class="nc bnc" id="L1524" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L1525">            tableMouseListener = new MouseAdapter() {</span>
+                @Override
+                public void mouseClicked(MouseEvent e) {
+<span class="nc" id="L1528">                    toggleExpansion(e); //TODO: restrict to just left mouse button?</span>
+<span class="nc" id="L1529">                }</span>
+            };
+<span class="nc" id="L1531">            table.addMouseListener(tableMouseListener);</span>
+        }
+<span class="nc" id="L1533">    }</span>
+
+    /**
+     * Removes a mouse listener for expand / collapse events
+     * from a JTable previously registered by a call to addMouseListener().
+     *
+     */
+    protected void removeMouseListener() {
+<span class="nc bnc" id="L1541" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L1542">            table.removeMouseListener(tableMouseListener);</span>
+        }
+<span class="nc" id="L1544">        tableMouseListener = null;</span>
+<span class="nc" id="L1545">    }</span>
+
+    /**
+     * Adds keyboard actions for + (expand), - (collapse) and space (toggle) selected node expansion.
+     */
+    protected void addKeyboardActions() {
+<span class="nc bnc" id="L1551" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L1552">            final InputMap inputMap = table.getInputMap(JComponent.WHEN_FOCUSED);</span>
+<span class="nc bnc" id="L1553" title="All 2 branches missed.">            for (KeyStroke keyStroke : expandKeys) {</span>
+<span class="nc" id="L1554">                inputMap.put(keyStroke, EXPAND_NODE_KEYSTROKE_KEY);</span>
+            }
+<span class="nc bnc" id="L1556" title="All 2 branches missed.">            for (KeyStroke keyStroke : collapseKeys) {</span>
+<span class="nc" id="L1557">                inputMap.put(keyStroke, COLLAPSE_NODE_KEYSTROKE_KEY);</span>
+            }
+<span class="nc bnc" id="L1559" title="All 2 branches missed.">            for (KeyStroke keyStroke : toggleKeys) {</span>
+<span class="nc" id="L1560">                inputMap.put(keyStroke, TOGGLE_EXPAND_NODE_KEYSTROKE_KEY);</span>
+            }
+<span class="nc bnc" id="L1562" title="All 2 branches missed.">            for (KeyStroke keyStroke : navigateParent) {</span>
+<span class="nc" id="L1563">                inputMap.put(keyStroke, NAVIGATE_PARENT_KEY);</span>
+            }
+<span class="nc bnc" id="L1565" title="All 2 branches missed.">            for (KeyStroke keyStroke : navigateChildren) {</span>
+<span class="nc" id="L1566">                inputMap.put(keyStroke, NAVIGATE_CHILDREN_KEY);</span>
+            }
+<span class="nc" id="L1568">            final ActionMap actionMap = table.getActionMap();</span>
+<span class="nc" id="L1569">            actionMap.put(EXPAND_NODE_KEYSTROKE_KEY, new TreeTableExpandAction());</span>
+<span class="nc" id="L1570">            actionMap.put(COLLAPSE_NODE_KEYSTROKE_KEY, new TreeTableCollapseAction());</span>
+<span class="nc" id="L1571">            actionMap.put(TOGGLE_EXPAND_NODE_KEYSTROKE_KEY, new TreeTableToggleExpandAction());</span>
+<span class="nc" id="L1572">            actionMap.put(NAVIGATE_PARENT_KEY, new TreeTableNavigateParentAction());</span>
+<span class="nc" id="L1573">            actionMap.put(NAVIGATE_CHILDREN_KEY, new TreeTableNavigateChildrenAction());</span>
+        }
+<span class="nc" id="L1575">    }</span>
+
+    /**
+     * Removes keyboard actions for + (expand), - (collapse) and space (toggle) selected node expansion.
+     */
+    protected void removeKeyboardActions() {
+<span class="nc bnc" id="L1581" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L1582">            final InputMap inputMap = table.getInputMap(JComponent.WHEN_FOCUSED);</span>
+<span class="nc bnc" id="L1583" title="All 2 branches missed.">            for (KeyStroke keyStroke : expandKeys) {</span>
+<span class="nc" id="L1584">                inputMap.remove(keyStroke);</span>
+            }
+<span class="nc bnc" id="L1586" title="All 2 branches missed.">            for (KeyStroke keyStroke : collapseKeys) {</span>
+<span class="nc" id="L1587">                inputMap.remove(keyStroke);</span>
+            }
+<span class="nc bnc" id="L1589" title="All 2 branches missed.">            for (KeyStroke keyStroke : toggleKeys) {</span>
+<span class="nc" id="L1590">                inputMap.remove(keyStroke);</span>
+            }
+<span class="nc bnc" id="L1592" title="All 2 branches missed.">            for (KeyStroke keyStroke : navigateParent) {</span>
+<span class="nc" id="L1593">                inputMap.remove(keyStroke);</span>
+            }
+<span class="nc bnc" id="L1595" title="All 2 branches missed.">            for (KeyStroke keyStroke : navigateChildren) {</span>
+<span class="nc" id="L1596">                inputMap.remove(keyStroke);</span>
+            }
+<span class="nc" id="L1598">            final ActionMap actionMap = table.getActionMap();</span>
+<span class="nc" id="L1599">            actionMap.remove(EXPAND_NODE_KEYSTROKE_KEY);</span>
+<span class="nc" id="L1600">            actionMap.remove(COLLAPSE_NODE_KEYSTROKE_KEY);</span>
+<span class="nc" id="L1601">            actionMap.remove(TOGGLE_EXPAND_NODE_KEYSTROKE_KEY);</span>
+<span class="nc" id="L1602">            actionMap.remove(NAVIGATE_PARENT_KEY);</span>
+<span class="nc" id="L1603">            actionMap.remove(NAVIGATE_CHILDREN_KEY);</span>
+        }
+<span class="nc" id="L1605">    }</span>
+
+    /**
+     * Sets the click handler for the primary tree column.  If not set explicitly, it will either default
+     * to the primary TableCellRenderer if it implements the TreeClickHandler interface, or a very rough default
+     * handler will be used that estimates the likely node indent for a tree when processing clicks.
+     *
+     * @param clickHandler The TreeClickHandler to process expand/collapse events for the primary tree column.
+     */
+    public void setTreeClickHandler(final TreeClickHandler clickHandler) {
+<span class="nc" id="L1615">        this.clickHandler = clickHandler;</span>
+<span class="nc" id="L1616">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                          Column methods
+     */
+
+    /**
+     * Returns the table column model telling JTable what columns to display and their order.
+     * &lt;p&gt;
+     * It calls createTableModel() if one has not yet been set, which is an abstract method which subclasses must implement.
+     * It will also automatically set a TreeCellRenderer on the TableColumn with model index zero, if a renderer is not
+     * already set on it.
+     *
+     * @return The TableColumnModel telling JTable what columns to display and their order.
+     */
+    public TableColumnModel getTableColumnModel() {
+<span class="nc bnc" id="L1633" title="All 2 branches missed.">        if (columnModel == null) {</span>
+<span class="nc" id="L1634">            columnModel = createTableColumnModel();</span>
+<span class="nc" id="L1635">            setTreeCellRendererOnFirstColumnIfNotSet(columnModel);</span>
+        }
+<span class="nc" id="L1637">        return columnModel;</span>
+    }
+
+    /**
+     * Scans through the columns in the TableColumnModel looking for the column with a model index of 0
+     * (TREE_COLUMN_INDEX).  If this column does not have a CellRenderer set on it, the default
+     * TreeCellRenderer will be set.  The column with a model index of 0 is always the column
+     * which renders the tree and responds to expand or collapse clicks.
+     *
+     * @param columnModel The TableColumnModel to scan.
+     */
+    protected void setTreeCellRendererOnFirstColumnIfNotSet(final TableColumnModel columnModel) {
+<span class="nc bnc" id="L1649" title="All 2 branches missed.">        for (int columnIndex = 0; columnIndex &lt; columnModel.getColumnCount(); columnIndex++) {</span>
+<span class="nc" id="L1650">            TableColumn column = columnModel.getColumn(columnIndex);</span>
+<span class="nc bnc" id="L1651" title="All 4 branches missed.">            if (column.getModelIndex() == TREE_COLUMN_INDEX &amp;&amp; column.getCellRenderer() == null) {</span>
+<span class="nc" id="L1652">                column.setCellRenderer(new TreeCellRenderer(this));</span>
+            }
+        }
+<span class="nc" id="L1655">    }</span>
+
+    /* *****************************************************************************************************************
+     *                                Node expansion and collapse and tree change.
+     */
+
+    /**
+     * @param node The node to check.
+     * @return true if the node is expanded.
+     */
+    public boolean isExpanded(final TreeNode node) {
+<span class="nc" id="L1666">        return expandedNodeCounts.containsKey(node);</span>
+    }
+
+    /**
+     * Toggles the expansion state of the node.
+     * @param node the node to toggle expansion.
+     */
+    public void toggleNode(final TreeNode node) {
+<span class="nc" id="L1674">        toggleExpansion(node, getModelIndexForTreeNode(node));</span>
+<span class="nc" id="L1675">    }</span>
+
+    /**
+     * @return a read only set of tree nodes which are currently expanded.  This will change as expanded nodes change.
+     */
+    public Set&lt;TreeNode&gt; getExpandedNodes() {
+<span class="nc" id="L1681">        return expandedNodeCounts.keySet();</span>
+    }
+
+    /**
+     * Gets whether to show the expand handle if there are no children present in a node.
+     * If you are adding nodes dynamically on expand, this should be true.
+     * If it is a fixed tree, you should probably set this to false.
+     * @return whether to show the expand handle if there are no children present in a node.
+     */
+    public boolean showExpandHandleIfNoChildren() {
+<span class="nc" id="L1691">        return showExpandHandleIfNoChildren;</span>
+    }
+
+    /**
+     * Sets whether to show the expand handle if there are no children present in a node.
+     * If you are adding nodes dynamically on expand, this should be true.
+     * If it is a fixed tree, you should probably set this to false.
+     */
+    public void setShowExpandHandleIfNoChildren(boolean showExpandHandleIfNoChildren) {
+<span class="nc" id="L1700">        this.showExpandHandleIfNoChildren = showExpandHandleIfNoChildren;</span>
+<span class="nc" id="L1701">    }</span>
+
+    /**
+     * Returns the number of visible subtree children exist for a node in the tree, or 0 if none are visible.
+     *
+     * @param parentNode The node to get the subtree count for.
+     * @return the number of visible subtree children exist for a node in the tree, or 0 if none are visible.
+     */
+    public int getVisibleSubTreeCount(final TreeNode parentNode) {
+        //TODO: refactor in terms of getLastKnownSubTreeCount?
+<span class="nc" id="L1711">        final Integer childCount = expandedNodeCounts.get(parentNode);</span>
+<span class="nc bnc" id="L1712" title="All 4 branches missed.">        return childCount == null ? 0 : isVisible(parentNode)? childCount : 0;</span>
+    }
+
+    /**
+     * Returns the number of children which were last known to be visible for a parent node.
+     * If the parent node is currently visible, this count will be correct.
+     * If the parent node is no longer visible, then the count is no longer maintained, and will be
+     * rebuilt when the node becomes visible again.
+     *
+     *
+     * @param parentNode The node to get a visible child count for.
+     * @return The number of visible children under this node (including any other expanded nodes underneath).
+     */
+    protected int getLastKnownSubTreeCount(final TreeNode parentNode) {
+<span class="nc" id="L1726">        final Integer childCount = expandedNodeCounts.get(parentNode);</span>
+<span class="nc bnc" id="L1727" title="All 2 branches missed.">        return childCount == null ? 0 : childCount;</span>
+    }
+
+    /**
+     * Returns how many unfiltered children a node has.
+     * &lt;p&gt;
+     * &lt;p&gt;&lt;b&gt;Performance Note:&lt;/b&gt;
+     * This may scan all the children of the parent and test against a filter to add up how many children are visible.
+     *
+     * @param parent The parent node to get the filtered child count for.
+     * @return how many unfiltered children a node has.
+     */
+    public int getFilteredChildCount(final TreeNode parent) {
+<span class="nc bnc" id="L1740" title="All 2 branches missed.">        return isFiltering() ? countFilteredChildren(parent) : parent.getChildCount();</span>
+    }
+
+    /**
+     * @param parent The parent to get the filtered child count for.
+     * @return the number of children for a parent if filtering is applied, or the child count of the parent if not.
+     */
+    protected int countFilteredChildren(final TreeNode parent) {
+<span class="nc" id="L1748">        int filteredChildCount = 0;</span>
+<span class="nc bnc" id="L1749" title="All 2 branches missed.">        for (int i = 0; i &lt; parent.getChildCount(); i++) {</span>
+<span class="nc bnc" id="L1750" title="All 2 branches missed.">            if (!isFiltered(parent.getChildAt(i))) {</span>
+<span class="nc" id="L1751">                filteredChildCount++;</span>
+            }
+        }
+<span class="nc" id="L1754">        return filteredChildCount;</span>
+    }
+
+    /**
+     * Sets a node to expand, if it isn't already expanded and allows children.
+     * Even if the node has no children but allows children, it will still be set to be expanded.
+     * Any children added to it would automatically be visible once expanded.
+     *
+     * @param node The node to expand.
+     */
+    public void expandNode(final TreeNode node) {
+<span class="nc bnc" id="L1765" title="All 2 branches missed.">        if (!isExpanded(node)) {</span>
+<span class="nc" id="L1766">            toggleExpansion(node, getModelIndexForTreeNode(node));</span>
+        }
+<span class="nc" id="L1768">    }</span>
+
+    /**
+     * Expands all nodes in the tree which allow children.
+     */
+    public void expandTree() {
+<span class="nc" id="L1774">        expandChildren(rootNode);</span>
+<span class="nc" id="L1775">    }</span>
+
+    /**
+     * Expands all nodes in the tree which allow children up to the maximum depth specified.
+     * A depth of one expands the root only, showing the children of the root.  A depth of 2 would also
+     * expand those children, showing 2 levels of node under the root.
+     *
+     * @param depth The number of levels of children to make visible under the root.
+     */
+    public void expandTree(final int depth) {
+<span class="nc" id="L1785">        expandChildren(rootNode, depth);</span>
+<span class="nc" id="L1786">    }</span>
+
+    /**
+     * Expands all nodes in the tree which allow children and also pass the node predicate test.
+     * Any child nodes of a node which doesn't pass the test will not be expanded further, but
+     * siblings of that node and their child nodes may be expanded if they pass the predicate.
+     *
+     * @param nodePredicate The predicate a node must pass in order to be expanded.
+     */
+    public void expandTree(final Predicate&lt;TreeNode&gt; nodePredicate) {
+<span class="nc" id="L1796">        expandChildren(rootNode, nodePredicate);</span>
+<span class="nc" id="L1797">    }</span>
+
+    /**
+     * Expands all nodes in the tree which allow children up to the maximum depth specified and which pass
+     * the node predicate test. Any child nodes of a node which doesn't pass the test will not be expanded further,
+     * but siblings of that node and their child nodes may be expanded if they pass the predicate.
+     *
+     * A depth of one expands the root only, showing the children of the root.  A depth of 2 would also
+     * expand those children, showing 2 levels of node under the root.
+     *
+     * @param depth The number of levels of children to make visible under the root.
+     * @param nodePredicate The predicate a node must pass in order to be expanded.
+     */
+    public void expandTree(final int depth, final Predicate&lt;TreeNode&gt; nodePredicate) {
+<span class="nc" id="L1811">        expandChildren(rootNode, depth, nodePredicate);</span>
+<span class="nc" id="L1812">    }</span>
+
+    /**
+     * Expands the parent node and all children and sub-children nodes which allow children.
+     *
+     * @param parentNode The node to expand and all children and sub-children.
+     */
+    public void expandChildren(final TreeNode parentNode) {
+<span class="nc bnc" id="L1820" title="All 2 branches missed.">        if (parentNode.getAllowsChildren()) {</span>
+<span class="nc" id="L1821">            TreeUtils.forEachChild(parentNode, this::expandChildren);</span>
+            /*
+             * Expand the parent AFTER the children are expanded.  This is much faster if many child and sub-child
+             * nodes are not currently visible, as they will only be added to the displayed nodes once their parent
+             * is finally expanded, instead of modifying the visual display continuously as all children get
+             * expanded.
+             */
+<span class="nc" id="L1828">            expandNode(parentNode);</span>
+        }
+<span class="nc" id="L1830">    }</span>
+
+    /**
+     * Expands the parent node and all children and sub-children if they meet the node predicate test.
+     * No further children will be expanded for a node that fails the predicate test,
+     * but other siblings of it that pass the test may be expanded if they pass the predicate.
+     *
+     * @param parentNode The node to expand along with children
+     * @param nodePredicate The predicate a node must pass in order to expand itself and its children.
+     */
+    public void expandChildren(final TreeNode parentNode, final Predicate&lt;TreeNode&gt; nodePredicate) {
+<span class="nc bnc" id="L1841" title="All 2 branches missed.">        if (nodePredicate.test(parentNode)) {</span>
+<span class="nc" id="L1842">            TreeUtils.forEachChild(parentNode, child -&gt; expandChildren(child, nodePredicate));</span>
+            /*
+             * Expand the parent AFTER the children are expanded.  This is much faster if many child and sub-child
+             * nodes are not currently visible, as they will only be added to the displayed nodes once their parent
+             * is finally expanded, instead of modifying the visual display continuously as all children get
+             * expanded.
+             */
+<span class="nc" id="L1849">            expandNode(parentNode);</span>
+        }
+<span class="nc" id="L1851">    }</span>
+
+    /**
+     * Expands the parent node and its children, and sub-children up to the depth (number of levels of sub-children)
+     * from the parent.  A depth of one gives the immediate children of the parent, 2 gives their children as well,
+     * and so on.
+     *
+     * @param parentNode The parent node to expand along with its children and sub-children up to the depth specified.
+     * @param depth The maximum depth to expand a parent node, 1 being its immediate children, 2 being their children and so on.
+     */
+    public void expandChildren(final TreeNode parentNode, final int depth) {
+<span class="nc bnc" id="L1862" title="All 2 branches missed.">        if (depth &gt; 0) { // as long as there's a depth level to expand...</span>
+<span class="nc bnc" id="L1863" title="All 2 branches missed.">            if (depth &gt; 1) { // don't bother trying to expand each child if they wouldn't be expanded anyway due to depth.</span>
+<span class="nc" id="L1864">                TreeUtils.forEachChild(parentNode, child -&gt; expandChildren(child, depth - 1));</span>
+            }
+            /*
+             * Expand the parent AFTER the children are expanded.  This is much faster if many child and sub-child
+             * nodes are not currently visible, as they will only be added to the displayed nodes once their parent
+             * is finally expanded, instead of modifying the visual display continuously as all children get
+             * expanded.
+             */
+<span class="nc" id="L1872">            expandNode(parentNode);</span>
+        }
+<span class="nc" id="L1874">    }</span>
+
+    /**
+     * Expands the parent node and all children and sub-children if they meet the node predicate test, up to the
+     * maximum depth of children specified.  No further children will be expanded for a node that fails the predicate test,
+     * but other siblings of it that pass the test may be expanded.
+     *
+     * @param parentNode The parent node to expand along with its children and sub-children up to the depth specified.
+     * @param depth The maximum depth to expand a parent node, 1 being its immediate children, 2 being their children and so on.
+     * @param nodePredicate The predicate a node must pass in order to expand itself and its children.
+     */
+    public void expandChildren(final TreeNode parentNode, final int depth, final Predicate&lt;TreeNode&gt; nodePredicate) {
+<span class="nc bnc" id="L1886" title="All 4 branches missed.">        if (depth &gt; 0 &amp;&amp; nodePredicate.test(parentNode)) { // as long as there's a depth level to expand and the node passes the test...</span>
+<span class="nc bnc" id="L1887" title="All 2 branches missed.">            if (depth &gt; 1) { // don't bother trying to expand children if they wouldn't be expanded anyway due to depth.</span>
+<span class="nc" id="L1888">                TreeUtils.forEachChild(parentNode, child -&gt; expandChildren(child, depth - 1, nodePredicate));</span>
+            }
+            /*
+             * Expand the parent AFTER the children are expanded.  This is much faster if many child and sub-child
+             * nodes are not currently visible, as they will only be added to the displayed nodes once their parent
+             * is finally expanded, instead of modifying the visual display continuously as all children get
+             * expanded.
+             */
+<span class="nc" id="L1896">            expandNode(parentNode);</span>
+        }
+<span class="nc" id="L1898">    }</span>
+
+    /**
+     * Collapses a node if it is already expanded.
+     * @param node The node to collapse.
+     */
+    public void collapseNode(final TreeNode node) {
+<span class="nc bnc" id="L1905" title="All 2 branches missed.">        if (isExpanded(node)) {</span>
+<span class="nc" id="L1906">            toggleExpansion(node, getModelIndexForTreeNode(node));</span>
+        }
+<span class="nc" id="L1908">    }</span>
+
+    /**
+     * Collapse all expansions in the tree.
+     * If the root is not showing, it will be expanded (or nothing in the tree could be visible).
+     */
+    public void collapseTree() {
+<span class="nc" id="L1915">        clearExpansions();</span>
+<span class="nc" id="L1916">        fireTableDataChanged();</span>
+<span class="nc" id="L1917">    }</span>
+
+    /**
+     * Collapses expansion of the parent node and all children (and sub children) of a parent node.
+     *
+     * @param parentNode The node to collapse all children.
+     */
+    public void collapseChildren(final TreeNode parentNode) {
+<span class="nc" id="L1925">        collapseNode(parentNode);</span>
+<span class="nc" id="L1926">        TreeUtils.forEachChild(parentNode, this::collapseChildren);</span>
+<span class="nc" id="L1927">    }</span>
+
+    /**
+     * Collapses expansion of the parent node andy any children that meet the node predicate.
+     * It will not continue collapsing children of any node that fails the predicate.
+     *
+     * @param parentNode The node and all children to collapse that meet the node predicate
+     * @param nodePredicate The predicate a node must meet to collapse.
+     */
+    public void collapseChildren(final TreeNode parentNode, final Predicate&lt;TreeNode&gt; nodePredicate) {
+<span class="nc bnc" id="L1937" title="All 2 branches missed.">        if (nodePredicate.test(parentNode)) {</span>
+<span class="nc" id="L1938">            collapseNode(parentNode);</span>
+<span class="nc" id="L1939">            TreeUtils.forEachChild(parentNode, child -&gt; collapseChildren(child, nodePredicate));</span>
+        }
+<span class="nc" id="L1941">    }</span>
+
+    /**
+     * Toggles the expansion state of the node.  If the node is currently visible, the model index of the node
+     * must be supplied, otherwise supply -1 for the model index.
+     * Listeners may change the node structure (e.g. dynamically add, remove or change nodes).
+     *
+     * @param node The node to toggle expansion.
+     * @param modelIndex The row in the model the node exists at, or -1 if the node isn't currently visible.
+     */
+    protected void toggleExpansion(final TreeNode node, final int modelIndex) {
+<span class="nc" id="L1952">        final boolean currentlyExpanded = isExpanded(node);</span>
+<span class="nc bnc" id="L1953" title="All 2 branches missed.">        if (node.getAllowsChildren()) {</span>
+<span class="nc bnc" id="L1954" title="All 2 branches missed.">            if (listenersApprove(node, currentlyExpanded)) {</span>
+<span class="nc bnc" id="L1955" title="All 2 branches missed.">                if (expansionChangeAffectsVisibleNodes(node, modelIndex)) {</span>
+<span class="nc" id="L1956">                    toggleVisibleExpansion(node, modelIndex, currentlyExpanded); // deal with changes to visible nodes.</span>
+                } else {
+<span class="nc" id="L1958">                    toggleInvisibleExpansion(node, currentlyExpanded); // node not visible - just toggle it's expanded state.</span>
+                }
+            }
+        }
+<span class="nc" id="L1962">    }</span>
+
+    /**
+     * @param node The node to expand or collapse.
+     * @param modelIndex A model index of the node in the visible tree, or negative if it isn't currently visible.
+     * @return true if expanding or collapsing the node may affect visible rows in the tree.
+     */
+    protected boolean expansionChangeAffectsVisibleNodes(final TreeNode node, final int modelIndex) {
+<span class="nc bnc" id="L1970" title="All 8 branches missed.">        return (modelIndex &gt;= 0 &amp;&amp; modelIndex &lt; displayedNodes.size()) || // it has a valid visible index</span>
+               (!showRoot &amp;&amp; node == rootNode);                           // or it's a hidden root node. //TODO: confirm logic here.
+    }
+
+    /**
+     * Toggles the expansion of a visible node in the tree, removes any old nodes and adds new ones back in.
+     *
+     * @param parentNode The visible node to toggle expansion.
+     * @param parentModelIndex The model row of the visible node.  Must be the model row of the node.
+     * @param currentlyExpanded Whether the node is currently expanded.
+     */
+    protected void toggleVisibleExpansion(final TreeNode parentNode, final int parentModelIndex, final boolean currentlyExpanded) {
+        final int childrenChanged;
+<span class="nc bnc" id="L1983" title="All 2 branches missed.">        if (currentlyExpanded) {</span>
+<span class="nc" id="L1984">            childrenChanged = getLastKnownSubTreeCount(parentNode);</span>
+<span class="nc" id="L1985">            removeVisibleRows(parentModelIndex + 1, childrenChanged);</span>
+<span class="nc" id="L1986">            expandedNodeCounts.remove(parentNode);</span>
+<span class="nc" id="L1987">            updateTreeChildCounts(parentNode.getParent(), -childrenChanged);</span>
+        } else {
+<span class="nc" id="L1989">            childrenChanged = addVisibleChildren(parentModelIndex, parentNode);</span>
+<span class="nc" id="L1990">            expandedNodeCounts.put(parentNode, childrenChanged);</span>
+<span class="nc" id="L1991">            updateTreeChildCounts(parentNode.getParent(), childrenChanged);</span>
+        }
+
+        // If we haven't removed or added any children, notify the table this one node may have changed.
+        // This forces a visual refresh which may alter the rendering of expand or collapse handles.
+<span class="nc bnc" id="L1996" title="All 2 branches missed.">        if (childrenChanged == 0) { //TODO: good to test this path?</span>
+<span class="nc" id="L1997">            fireTableRowsUpdated(parentModelIndex, parentModelIndex);</span>
+        }
+<span class="nc" id="L1999">    }</span>
+
+    /**
+     * Toggles expansion of a node which isn't currently visible, so no nodes to remove or add from the visible tree.
+     *
+     * @param node The node to toggle expansion.
+     * @param currentlyExpanded Whether the node is currently expanded.
+     */
+    protected void toggleInvisibleExpansion(final TreeNode node, final boolean currentlyExpanded) {
+<span class="nc bnc" id="L2008" title="All 2 branches missed.">        if (currentlyExpanded) {</span>
+<span class="nc" id="L2009">            expandedNodeCounts.remove(node);</span>
+        } else {
+<span class="nc" id="L2011">            expandedNodeCounts.put(node, 0); // no visible nodes right now, but still needs an entry.</span>
+        }
+<span class="nc" id="L2013">    }</span>
+
+    //TODO: good to have some tests that end up invoking this.
+    /**
+     * Updates the visible child count for a node with a delta change (negative or positive),
+     * and updates all of its parents with the adjusted delta.
+     * Must only be called for a node which is actually visible in the tree.
+     *
+     * @param node The node whose child count is changing by some negative or positive number.
+     * @param delta The change in the child count for the node.
+     */
+    protected void updateVisibleChildCounts(final TreeNode node, final int delta) {
+<span class="nc bnc" id="L2025" title="All 2 branches missed.">        if (delta != 0) {</span>
+<span class="nc" id="L2026">            final int existingChildren = getLastKnownSubTreeCount(node);</span>
+<span class="nc" id="L2027">            final int newVisibleChildren = existingChildren + delta;</span>
+<span class="nc" id="L2028">            expandedNodeCounts.put(node, newVisibleChildren);</span>
+<span class="nc" id="L2029">            updateTreeChildCounts(node.getParent(), newVisibleChildren);</span>
+        }
+<span class="nc" id="L2031">    }</span>
+
+    /**
+     * Updates all child counts down the tree to root given a starting node and the change in child counts,
+     * which can be negative or positive.
+     *
+     * @param startNode The node to start adjusting child counts for, down to the root node.
+     * @param delta The amount to adjust the child counts, negative or positive.
+     */
+    protected void updateTreeChildCounts(final TreeNode startNode, final int delta) {
+<span class="nc bnc" id="L2041" title="All 2 branches missed.">        if (delta != 0) {</span>
+<span class="nc" id="L2042">            final Map&lt;TreeNode, Integer&gt; nodeCounts = expandedNodeCounts;</span>
+<span class="nc" id="L2043">            TreeNode currentNode = startNode;</span>
+            // Propagate child counts down the tree, as long as the parents themselves are expanded.
+            // A collapsed parent should remain collapsed, and no further updates should be propagated downwards.
+<span class="nc bnc" id="L2046" title="All 4 branches missed.">            while (currentNode != null &amp;&amp; isExpanded(currentNode)) {</span>
+<span class="nc" id="L2047">                final int nodeCount = nodeCounts.get(currentNode); // can't be null, because it is expanded.</span>
+<span class="nc" id="L2048">                nodeCounts.put(currentNode, nodeCount + delta);</span>
+<span class="nc" id="L2049">                currentNode = currentNode.getParent();</span>
+<span class="nc" id="L2050">            }</span>
+        }
+<span class="nc" id="L2052">    }</span>
+
+    /**
+     * Clears the node expansion records for all nodes.
+     * If the root node is not showing, then the root will be re-expanded (as otherwise nothing can be visible in the tree).
+     */
+    protected void clearExpansions() {
+<span class="nc" id="L2059">        expandedNodeCounts.clear();</span>
+<span class="nc bnc" id="L2060" title="All 2 branches missed.">        if (!showRoot) { // expand the root if it's not showing - or nothing will ever be visible in the tree!</span>
+<span class="nc" id="L2061">            expandNode(rootNode);</span>
+        }
+<span class="nc" id="L2063">    }</span>
+
+    /**
+     * Toggles expansion of nodes based on a mouse click.
+     * If the mouse event is in on an expand/collapse handle, the expansion status of the node will be toggled.
+     *
+     * @param evt The mouse event to process.
+     */
+    protected void toggleExpansion(final MouseEvent evt) {
+<span class="nc bnc" id="L2072" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L2073">            final Point point = evt.getPoint();</span>
+<span class="nc" id="L2074">            final int tableRow = table.rowAtPoint(point);</span>
+<span class="nc" id="L2075">            final int columnIndex = table.columnAtPoint(point);</span>
+<span class="nc" id="L2076">            final int modelIndex = getModelIndexForTableRow(tableRow);</span>
+<span class="nc" id="L2077">            final TreeNode node = displayedNodes.get(modelIndex);</span>
+<span class="nc bnc" id="L2078" title="All 2 branches missed.">            if (getClickHandler().clickOnExpand(node, columnIndex, evt)) {</span>
+<span class="nc" id="L2079">                toggleExpansion(node, modelIndex);</span>
+            }
+        }
+<span class="nc" id="L2082">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                         Visible node management.
+     */
+
+    /**
+     * @return true if the root node will be displayed, false if not.
+     */
+    public boolean getShowRoot() {
+<span class="nc" id="L2093">        return showRoot;</span>
+    }
+
+    /**
+     * Sets whether the root node should be displayed or not, and updates the display model if the state changes.
+     * &lt;p&gt;
+     * If you set the root to be hidden, ensure that you have also expanded the root node,
+     * or the tree will be empty once the root node is hidden.
+     *
+     * @param showRoot whether the root node should be displayed or not.
+     */
+    public void setShowRoot(final boolean showRoot) {
+<span class="nc bnc" id="L2105" title="All 2 branches missed.">        if (this.showRoot != showRoot) {</span>
+<span class="nc" id="L2106">            toggleShowRoot();</span>
+        }
+<span class="nc" id="L2108">    }</span>
+
+    /**
+     * Toggles whether the root node is showing in the tree.
+     */
+    public void toggleShowRoot() {
+<span class="nc bnc" id="L2114" title="All 2 branches missed.">        this.showRoot = !showRoot;</span>
+        // if root node is filtered (whether showing or not), refresh the tree if we change its visible status.
+<span class="nc bnc" id="L2116" title="All 2 branches missed.">        if (isFiltered(rootNode)) {</span>
+<span class="nc" id="L2117">            refreshTree();</span>
+<span class="nc bnc" id="L2118" title="All 2 branches missed.">        } else if (showRoot) {</span>
+            //TODO: does this affect child counts of the expanded nodes?
+<span class="nc" id="L2120">            displayedNodes.add(ROOT_MODEL_INDEX, rootNode);</span>
+<span class="nc" id="L2121">            fireTableRowsInserted(ROOT_MODEL_INDEX, ROOT_MODEL_INDEX);</span>
+        } else {
+            //TODO: does this affect child counts of the expanded nodes?
+<span class="nc" id="L2124">            displayedNodes.remove(ROOT_MODEL_INDEX);</span>
+<span class="nc" id="L2125">            expandNode(rootNode); // if we hide the root and it is not expanded, nothing will be visible in the tree.</span>
+<span class="nc" id="L2126">            fireTableRowsDeleted(ROOT_MODEL_INDEX, ROOT_MODEL_INDEX);</span>
+        }
+<span class="nc" id="L2128">    }</span>
+
+    /**
+     * @param node The node to check.
+     * @return true if the node is currently visible in the tree.
+     */
+    public boolean isVisible(final TreeNode node) {
+        // Root node has the show/hide status, deal with that as a special case:
+<span class="nc bnc" id="L2136" title="All 2 branches missed.">        if (node == rootNode) {</span>
+<span class="nc bnc" id="L2137" title="All 4 branches missed.">            return showRoot &amp;&amp; !isFiltered(node);</span>
+        }
+        // We're visible if we're not null or filtered, and if all our parents are expanded and not filtered up to the root.
+<span class="nc bnc" id="L2140" title="All 4 branches missed.">        return node != null &amp;&amp; !isFiltered(node) &amp;&amp;</span>
+<span class="nc bnc" id="L2141" title="All 6 branches missed.">               TreeUtils.getFurthestAncestor(node, parent -&gt; isExpanded(parent) &amp;&amp; !isFiltered(parent)) == rootNode;</span>
+    }
+
+    /**
+     * @param parentNode The parent node to test.
+     * @return true if the children of the parent node will be visible in the tree.
+     */
+    public boolean childrenWillBeVisible(final TreeNode parentNode) {
+<span class="nc bnc" id="L2149" title="All 6 branches missed.">        return isExpanded(parentNode) &amp;&amp; (isVisible(parentNode) || isHiddenRoot(parentNode));</span>
+    }
+
+    /**
+     * @return An unmodifiable list view of all visible nodes in the model.
+     */
+    public List&lt;TreeNode&gt; getVisibleNodes() {
+<span class="nc" id="L2156">        return Collections.unmodifiableList(displayedNodes);</span>
+    }
+
+    /**
+     * Rebuilds the entire visible tree from the root.
+     * Does not alter any prior node expansions, so they will remain expanded when the tree is rebuilt.
+     */
+    protected void buildVisibleNodes() {
+<span class="nc" id="L2164">        displayedNodes.clear();</span>
+<span class="nc bnc" id="L2165" title="All 2 branches missed.">        if (showRoot) {</span>
+<span class="nc bnc" id="L2166" title="All 2 branches missed.">            if (!isFiltered(rootNode)) {</span>
+<span class="nc" id="L2167">                displayedNodes.add(rootNode);</span>
+<span class="nc" id="L2168">                buildVisibleChildren(rootNode, displayedNodes);</span>
+            }
+        } else {
+<span class="nc" id="L2171">            buildVisibleChildren(rootNode, displayedNodes);</span>
+        }
+<span class="nc" id="L2173">    }</span>
+
+    /**
+     * Removes rows from the visible display and notifies the table of the removal.
+     *
+     * @param firstRowToRemove The model row index to start removing.
+     * @param numberToRemove the number of model rows to remove.
+     */
+    protected void removeVisibleRows(final int firstRowToRemove, final int numberToRemove) {
+<span class="nc bnc" id="L2182" title="All 2 branches missed.">        if (numberToRemove &gt; 0) {</span>
+<span class="nc" id="L2183">            final int lastChildRow = firstRowToRemove + numberToRemove - 1;</span>
+<span class="nc bnc" id="L2184" title="All 2 branches missed.">            if (numberToRemove == 1) {</span>
+<span class="nc" id="L2185">                displayedNodes.remove(firstRowToRemove);</span>
+            } else {
+<span class="nc" id="L2187">                displayedNodes.remove(firstRowToRemove, lastChildRow);</span>
+            }
+<span class="nc" id="L2189">            fireTableRowsDeleted(firstRowToRemove, lastChildRow);</span>
+        }
+<span class="nc" id="L2191">    }</span>
+
+    /**
+     * Adds the children of the parent node to the displayed node list, and notifies the table of the insertion.
+     * @param parentModelRow The model index of the parent node.
+     * @param parentNode The parent node whose children should be added.
+     * @return The number of new child nodes added.
+     */
+    protected int addVisibleChildren(final int parentModelRow, final TreeNode parentNode) {
+<span class="nc" id="L2200">        final int childCount = parentNode.getChildCount();</span>
+<span class="nc bnc" id="L2201" title="All 2 branches missed.">        if (childCount &gt; 0) {</span>
+<span class="nc" id="L2202">            final int firstChildRow = parentModelRow + 1;</span>
+<span class="nc" id="L2203">            final List&lt;TreeNode&gt; newVisibleNodes = buildVisibleChildren(parentNode);</span>
+<span class="nc" id="L2204">            final int newChildren = newVisibleNodes.size();</span>
+<span class="nc bnc" id="L2205" title="All 2 branches missed.">            if (newChildren &gt; 0) {</span>
+<span class="nc bnc" id="L2206" title="All 2 branches missed.">                if (newChildren == 1) {</span>
+<span class="nc" id="L2207">                    displayedNodes.add(firstChildRow, newVisibleNodes.get(0));</span>
+                } else {
+<span class="nc" id="L2209">                    displayedNodes.addAll(firstChildRow, newVisibleNodes);</span>
+                }
+<span class="nc" id="L2211">                fireTableRowsInserted(firstChildRow, firstChildRow + newChildren - 1);</span>
+            }
+<span class="nc" id="L2213">            return newChildren;</span>
+        }
+<span class="nc" id="L2215">        return 0;</span>
+    }
+
+    /**
+     * Builds a list of nodes which would be visible from the node given.
+     * The node given does not yet have to be set as expanded in the model,
+     * but any children must already be expanded if their children will be built.
+     *
+     * @param node The node to build its children and their visible children for.
+     * @return A list of TreeNodes which are the visible children of that node and their children.
+     */
+    protected List&lt;TreeNode&gt; buildVisibleChildren(final TreeNode node) {
+<span class="nc bnc" id="L2227" title="All 2 branches missed.">        if (node.getChildCount() &gt; 0) {</span>
+<span class="nc" id="L2228">            final List&lt;TreeNode&gt; children = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L2229" title="All 2 branches missed.">            TreeUtils.forEachChild(node, child -&gt; !isFiltered(child), child -&gt; {</span>
+<span class="nc" id="L2230">                    children.add(child);</span>
+<span class="nc" id="L2231">                    buildVisibleChildren(child, children);</span>
+<span class="nc" id="L2232">                });</span>
+<span class="nc" id="L2233">            return children;</span>
+        }
+<span class="nc" id="L2235">        return Collections.emptyList();</span>
+    }
+
+    /**
+     * Builds a list of children which are visible from the node given and adds them to an existing List.
+     * The node given must already be expanded in the model for its visible children to be built.
+     * The parent node itself does not need to be visible - we will still get which children would be visible.
+     *
+     * @param parentNode The node to build visible children for.
+     * @param visibleNodes A list of TreeNodes which are the visible children of that node and their children.
+     */
+    protected int buildVisibleChildren(final TreeNode parentNode, final List&lt;TreeNode&gt; visibleNodes) {
+        // if expanded, then add in the visible children.
+<span class="nc bnc" id="L2248" title="All 2 branches missed.">        if (isExpanded(parentNode)) {</span>
+<span class="nc" id="L2249">            int totalVisibleChildren = 0;</span>
+<span class="nc bnc" id="L2250" title="All 2 branches missed.">            for (int childIndex = 0; childIndex &lt; parentNode.getChildCount(); childIndex++) {</span>
+<span class="nc" id="L2251">                final TreeNode child = parentNode.getChildAt(childIndex);</span>
+<span class="nc bnc" id="L2252" title="All 2 branches missed.">                if (!isFiltered(child)) {</span>
+<span class="nc" id="L2253">                    visibleNodes.add(child);</span>
+<span class="nc" id="L2254">                    totalVisibleChildren += (1 + buildVisibleChildren(child, visibleNodes)); // And this child and the children of the child if they're visible...</span>
+                }
+            }
+
+            // Reset the child count for each expanded node as it is built (some nodes may be filtered, or it may have changed entirely since last rebuild).
+<span class="nc" id="L2259">            expandedNodeCounts.put(parentNode, totalVisibleChildren); // ensure child counts for any expanded nodes are updated when the tree is rebuilt.</span>
+<span class="nc" id="L2260">            return totalVisibleChildren;</span>
+        }
+<span class="nc" id="L2262">        return 0;</span>
+    }
+
+    /**
+     * Calculates how many child nodes will be visible given a parent node.
+     * If you want a count of the visible nodes of a parent before it is actually expanded,
+     * you can say to expand the parent (no matter what it's actual expanded status right now).
+     * This will not actually expand the node in the tree - just count what would be visible if it was.
+     *
+     * @param node The node to get a count of visible children for.
+     * @param expandNode true if you want a count no matter whether it is currently expanded or not.
+     * @return A count of all children which would be visible in this parent.
+     */
+    protected int calculateVisibleChildNodes(final TreeNode node, final boolean expandNode) {
+<span class="nc bnc" id="L2276" title="All 4 branches missed.">        if (expandNode || isExpanded(node)) {</span>
+<span class="nc" id="L2277">            final int[] totalVisibleChildNodes = new int[1];</span>
+<span class="nc" id="L2278">            TreeUtils.forEachChild(node, child -&gt; totalVisibleChildNodes[0] += (1 + calculateVisibleChildNodes(child, false)));</span>
+<span class="nc" id="L2279">            return totalVisibleChildNodes[0];</span>
+        }
+<span class="nc" id="L2281">        return 0;</span>
+    }
+
+
+    /* *****************************************************************************************************************
+     *                                            Listeners and handlers.
+     */
+
+    protected boolean listenersApprove(final TreeNode node, final boolean isCollapsing) {
+<span class="nc bnc" id="L2290" title="All 2 branches missed.">        return isCollapsing ? listenersApprovedCollapseEvent(node) : listenersApprovedExpandEvent(node);</span>
+    }
+
+    protected boolean listenersApprovedExpandEvent(final TreeNode node) {
+<span class="nc bnc" id="L2294" title="All 2 branches missed.">        for (ExpandCollapseListener listener : eventListeners) {</span>
+<span class="nc bnc" id="L2295" title="All 2 branches missed.">            if (!listener.nodeExpanding(node)) {</span>
+<span class="nc" id="L2296">                return false;</span>
+            }
+<span class="nc" id="L2298">        }</span>
+<span class="nc" id="L2299">        return true;</span>
+    }
+
+    protected boolean listenersApprovedCollapseEvent(final TreeNode node) {
+<span class="nc bnc" id="L2303" title="All 2 branches missed.">        for (ExpandCollapseListener listener : eventListeners) {</span>
+<span class="nc bnc" id="L2304" title="All 2 branches missed.">            if (!listener.nodeCollapsing(node)) {</span>
+<span class="nc" id="L2305">                return false;</span>
+            }
+<span class="nc" id="L2307">        }</span>
+<span class="nc" id="L2308">        return true;</span>
+    }
+
+    protected TreeClickHandler getClickHandler() {
+<span class="nc bnc" id="L2312" title="All 2 branches missed.">        if (clickHandler == null) {</span>
+<span class="nc" id="L2313">            clickHandler = getOrCreateTreeClickHandler();</span>
+        }
+<span class="nc" id="L2315">        return clickHandler;</span>
+    }
+
+    protected TreeClickHandler getOrCreateTreeClickHandler() {
+<span class="nc" id="L2319">        final TableColumn column = TableUtils.getColumnWithModelIndex(getTableColumnModel(), TREE_COLUMN_INDEX);</span>
+<span class="nc bnc" id="L2320" title="All 2 branches missed.">        if (column != null) {</span>
+<span class="nc" id="L2321">            final TableCellRenderer renderer = column.getCellRenderer();</span>
+<span class="nc bnc" id="L2322" title="All 2 branches missed.">            if (renderer instanceof TreeClickHandler) {</span>
+<span class="nc" id="L2323">                return (TreeClickHandler) renderer;</span>
+            }
+        }
+<span class="nc" id="L2326">        return new TreeCellRenderer(this); // set a default click handler.</span>
+    }
+
+
+    /* *****************************************************************************************************************
+     *                             Key bindings
+     */
+
+    /**
+     * Sets the keystrokes used to expand a selected node in the tree.
+     * If null or empty, no keystrokes will be assigned.
+     *
+     * @param newExpandKeys The new set of keystrokes which will trigger an expand event on a selected node.
+     */
+    public void setExpandKeys(final KeyStroke... newExpandKeys) {
+<span class="nc bnc" id="L2341" title="All 2 branches missed.">        final KeyStroke[] newStrokes = newExpandKeys == null? new KeyStroke[0] : newExpandKeys.clone();</span>
+<span class="nc" id="L2342">        removeKeyboardActions();</span>
+<span class="nc" id="L2343">        this.expandKeys = newStrokes;</span>
+<span class="nc" id="L2344">        addKeyboardActions();</span>
+<span class="nc" id="L2345">    }</span>
+
+    /**
+     * Sets the keystrokes used to collapse a selected node in the tree.
+     * If null or empty, no keystrokes will be assigned.
+     *
+     * @param newCollapseKeys The new set of keystrokes which will trigger a collapse event on a selected node.
+     */
+    public void setCollapseKeys(final KeyStroke... newCollapseKeys) {
+<span class="nc bnc" id="L2354" title="All 2 branches missed.">        final KeyStroke[] newStrokes = newCollapseKeys == null? new KeyStroke[0] : newCollapseKeys.clone();</span>
+<span class="nc" id="L2355">        removeKeyboardActions();</span>
+<span class="nc" id="L2356">        this.collapseKeys = newStrokes;</span>
+<span class="nc" id="L2357">        addKeyboardActions();</span>
+<span class="nc" id="L2358">    }</span>
+
+    /**
+     * Sets the keystrokes used to toggle expansion of a selected node in the tree.
+     * If null or empty, no keystrokes will be assigned.
+     *
+     * @param newToggleKeys The new set of keystrokes which will trigger a toggle expansion event on a selected node.
+     */
+    public void setToggleKeys(final KeyStroke... newToggleKeys) {
+<span class="nc bnc" id="L2367" title="All 2 branches missed.">        final KeyStroke[] newStrokes = newToggleKeys == null? new KeyStroke[0] : newToggleKeys.clone();</span>
+<span class="nc" id="L2368">        removeKeyboardActions();</span>
+<span class="nc" id="L2369">        this.toggleKeys = newStrokes;</span>
+<span class="nc" id="L2370">        addKeyboardActions();</span>
+<span class="nc" id="L2371">    }</span>
+
+    /**
+     * Sets the keystrokes used to navigate to the parent node.
+     * If null or empty, no keystrokes will be assigned.
+     *
+     * @param newParentKeys The new set of keystrokes which will navigate to the parent node.
+     */
+    public void setNavigateParentKeys(final KeyStroke... newParentKeys) {
+<span class="nc bnc" id="L2380" title="All 2 branches missed.">        final KeyStroke[] newStrokes = newParentKeys == null? new KeyStroke[0] : newParentKeys.clone();</span>
+<span class="nc" id="L2381">        removeKeyboardActions();</span>
+<span class="nc" id="L2382">        this.navigateParent = newStrokes;</span>
+<span class="nc" id="L2383">        addKeyboardActions();</span>
+<span class="nc" id="L2384">    }</span>
+
+    /**
+     * Sets the keystrokes used to navigate to the child nodes.
+     * If null or empty, no keystrokes will be assigned.
+     *
+     * @param newChildrenKeys The new set of keystrokes which will navigate to the child node.
+     */
+    public void setNavigateChildrenKeys(final KeyStroke... newChildrenKeys) {
+<span class="nc bnc" id="L2393" title="All 2 branches missed.">        final KeyStroke[] newStrokes = newChildrenKeys == null? new KeyStroke[0] : newChildrenKeys.clone();</span>
+<span class="nc" id="L2394">        removeKeyboardActions();</span>
+<span class="nc" id="L2395">        this.navigateChildren = newStrokes;</span>
+<span class="nc" id="L2396">        addKeyboardActions();</span>
+<span class="nc" id="L2397">    }</span>
+
+    /**
+     * @return An array of KeyStrokes which will trigger an expansion event on the selected node.
+     */
+    public KeyStroke[] getExpandKeys() {
+<span class="nc" id="L2403">        return expandKeys;</span>
+    }
+
+    /**
+     * @return An array of KeyStrokes which will trigger a collapse event on the selected node.
+     */
+    public KeyStroke[] getCollapseKeys() {
+<span class="nc" id="L2410">        return collapseKeys;</span>
+    }
+
+    /**
+     * @return An array of KeyStrokes which will trigger a toggle expansion event on the selected node.
+     */
+    public KeyStroke[] getToggleKeys() {
+<span class="nc" id="L2417">        return toggleKeys;</span>
+    }
+
+    /**
+     * @return An array of KeyStrokes which navigates to the parent node.
+     */
+<span class="nc" id="L2423">    public KeyStroke[] getNavigateParentKeys() { return navigateParent; }</span>
+
+    /**
+     * @return An array of KeyStrokes which navigates to the child node.
+     */
+<span class="nc" id="L2428">    public KeyStroke[] getNavigateChildrenKeys() { return navigateChildren; }</span>
+
+    /**
+     * @return true if the current node will be collapsed on navigating to parent.
+     */
+<span class="nc" id="L2433">    public boolean getCollapseOnNavigateToParent() { return collapseOnParentNavigation; }</span>
+
+    /**
+     * @return true if the current node will be expanded on navigating to children.
+     */
+<span class="nc" id="L2438">    public boolean getExpandOnNavigateToChildren() { return expandOnChildNavigation; }</span>
+
+    /**
+     * Sets whether the current node will be collapsed if expanded, on navigating to parent.
+     * @param collapseParent true to collapse the current node.
+     */
+    public void setCollapseOnNavigateToParent(final boolean collapseParent) {
+<span class="nc" id="L2445">        collapseOnParentNavigation = collapseParent;</span>
+<span class="nc" id="L2446">    }</span>
+
+    /**
+     * Sets whether the current node will be expanded if collapsed on navigating to its children.
+     * @param expandChildren true to expand the current node.
+     */
+    public void setExpandOnNavigateToChildren(final boolean expandChildren) {
+<span class="nc" id="L2453">        expandOnChildNavigation = expandChildren;</span>
+<span class="nc" id="L2454">    }</span>
+
+    /* *****************************************************************************************************************
+     *                                     General methods
+     */
+
+    @Override
+    public String toString() {
+<span class="nc" id="L2462">        return getClass().getSimpleName() +</span>
+                &quot;(root node = &quot;  + rootNode + &quot;, show root = &quot; + showRoot +
+<span class="nc" id="L2464">                &quot;, size = &quot;      + displayedNodes.size() + &quot;, table = &quot; + table +</span>
+<span class="nc" id="L2465">                &quot;, filtering = &quot; + isFiltering() + &quot;, sorting = &quot; + isSorting() + &quot;, grouping = &quot; + isGrouping() + ')';</span>
+    }
+
+    protected void checkNull(final Object object, final String message) {
+<span class="nc bnc" id="L2469" title="All 2 branches missed.">        if (object == null) {</span>
+<span class="nc" id="L2470">            throw new IllegalArgumentException(&quot;Object cannot be null: &quot; + message);</span>
+        }
+<span class="nc" id="L2472">    }</span>
+
+    /* *****************************************************************************************************************
+     *                            Action classes to bind to keyboard events.
+     */
+
+    /**
+     * An action that toggles a tree node expanded or collapsed.
+     */
+<span class="nc" id="L2481">    protected abstract class TreeTableAbstractAction extends AbstractAction {</span>
+        @Override
+        public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L2484">            Object source = e.getSource();</span>
+<span class="nc bnc" id="L2485" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="nc" id="L2486">                final JTable table = (JTable) source;</span>
+<span class="nc" id="L2487">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
+<span class="nc" id="L2488">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
+<span class="nc bnc" id="L2489" title="All 4 branches missed.">                if (node != null &amp;&amp; shouldToggle(node)) {</span>
+<span class="nc" id="L2490">                    toggleExpansion(node, modelIndexRow);</span>
+                }
+            }
+<span class="nc" id="L2493">        }</span>
+        protected abstract boolean shouldToggle(TreeNode node);
+    }
+
+    /**
+     * An action that expands a node if it is not already expanded.
+     */
+<span class="nc" id="L2500">    protected class TreeTableExpandAction extends TreeTableAbstractAction {</span>
+        protected boolean shouldToggle(final TreeNode node) {
+<span class="nc bnc" id="L2502" title="All 2 branches missed.">            return !isExpanded(node);</span>
+        }
+    }
+
+    /**
+     * An action that collapses a node if it is currently expanded.
+     */
+<span class="nc" id="L2509">    protected class TreeTableCollapseAction  extends TreeTableAbstractAction {</span>
+        protected boolean shouldToggle(final TreeNode node) {
+<span class="nc" id="L2511">            return isExpanded(node);</span>
+        }
+    }
+
+    /**
+     * An action that toggles expansion or collapse of a node.
+     */
+<span class="nc" id="L2518">    protected class TreeTableToggleExpandAction extends TreeTableAbstractAction {</span>
+        protected boolean shouldToggle(final TreeNode node) {
+<span class="nc" id="L2520">            return true;</span>
+        }
+    }
+
+<span class="nc" id="L2524">    protected class TreeTableNavigateParentAction extends AbstractAction {</span>
+        @Override
+        public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L2527">            Object source = e.getSource();</span>
+<span class="nc bnc" id="L2528" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="nc" id="L2529">                final JTable table = (JTable) source;</span>
+<span class="nc" id="L2530">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
+<span class="nc" id="L2531">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
+<span class="nc bnc" id="L2532" title="All 2 branches missed.">                if (node != null) {</span>
+<span class="nc bnc" id="L2533" title="All 4 branches missed.">                    if (collapseOnParentNavigation &amp;&amp; isExpanded(node)) {</span>
+<span class="nc" id="L2534">                        toggleExpansion(node, modelIndexRow);</span>
+                    } else {
+<span class="nc" id="L2536">                        final TreeNode parentNode = node.getParent();</span>
+<span class="nc bnc" id="L2537" title="All 2 branches missed.">                        if (isVisible(parentNode)) {</span>
+<span class="nc" id="L2538">                            final int parentModelIndexRow = getModelIndexForTreeNode(parentNode);</span>
+<span class="nc" id="L2539">                            table.setRowSelectionInterval(parentModelIndexRow, parentModelIndexRow);</span>
+                        }
+                    }
+                }
+            }
+<span class="nc" id="L2544">        }</span>
+    }
+
+<span class="nc" id="L2547">    protected class TreeTableNavigateChildrenAction extends AbstractAction {</span>
+        @Override
+        public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L2550">            Object source = e.getSource();</span>
+<span class="nc bnc" id="L2551" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="nc" id="L2552">                final JTable table = (JTable) source;</span>
+<span class="nc" id="L2553">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
+<span class="nc" id="L2554">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
+<span class="nc bnc" id="L2555" title="All 2 branches missed.">                if (node != null) {</span>
+<span class="nc bnc" id="L2556" title="All 4 branches missed.">                    if (expandOnChildNavigation &amp;&amp; !isExpanded(node)) {</span>
+<span class="nc" id="L2557">                        toggleExpansion(node, modelIndexRow);</span>
+                    } else {
+                        //TODO: is this true if filtering?
+<span class="nc bnc" id="L2560" title="All 2 branches missed.">                        if (node.getChildCount() &gt; 0) {</span>
+<span class="nc" id="L2561">                            final int childRow = modelIndexRow + 1;</span>
+<span class="nc" id="L2562">                            table.setRowSelectionInterval(childRow, childRow);</span>
+                        }
+                    }
+                }
+            }
+<span class="nc" id="L2567">        }</span>
+    }
+
+    /**
+     * If the list passed in contains null entries, a new list is created without them.
+     * @param list The list to remove null entries from, if they exist.
+     * @return A list without null entries.
+     */
+    protected List&lt;? extends RowSorter.SortKey&gt; removeNullEntries(final List&lt;? extends RowSorter.SortKey&gt; list) {
+        final List&lt;? extends RowSorter.SortKey&gt; result;
+<span class="nc bnc" id="L2577" title="All 2 branches missed.">        if (list.contains(null)) {</span>
+<span class="nc" id="L2578">            result = new ArrayList&lt;&gt;(list);</span>
+<span class="nc" id="L2579">            result.removeIf(Objects::isNull);</span>
+        } else {
+<span class="nc" id="L2581">            result = list;</span>
+        }
+<span class="nc" id="L2583">        return result;</span>
+    }
+
+    /* *****************************************************************************************************************
+     *                                              Interfaces
+     */
+
+    /**
+     * An interface which decides if a click on a node is an expand or collapse click.
+     */
+    public interface TreeClickHandler {
+
+        /**
+         * Decides if a click on a node is an expand or collapse click. returns true if it is.
+         * &lt;p&gt;
+         * Note that the column is the index of the column clicked in the TableColumnModel, and that mouse coordinates
+         * are given in terms of the whole JTable.  So if your tree column has been moved to the right, for example, you
+         * need to calculate the start position of that column.  There is a method in TreeUtils which can
+         * calculate how much space columns to the left of a column take up (calculateWidthToLeft).
+         *
+         * @param node The node which was clicked on.
+         * @param column The index of the column in the TableColumnModel which was clicked.
+         *               Note that if the columns were dragged into new positions, the column model index will not match
+         *               the index in the TableColumnModel.  If you need the column model index, get it from the TableColumn.
+         * @param evt  The mouse event
+         * @return true if there was a click on expand/collapse for this node.
+         */
+        boolean clickOnExpand(TreeNode node, int column, MouseEvent evt);
+    }
+
+    /**
+     * An interface for a listener to respond to expand or collapse events in the tree, and to cancel them if required.
+     */
+    public interface ExpandCollapseListener {
+
+        /**
+         * Notifies the listener that the tree node will expand.
+         * @param node the node that is about to expand
+         * @return true if you want to allow the expansion.
+         */
+        boolean nodeExpanding(TreeNode node);
+
+        /**
+         * Notifies the listener that the tree node will collapse.
+         * @param node the node that is about to collapse
+         * @return true if you want to allow the collapse.
+         */
+        boolean nodeCollapsing(TreeNode node);
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

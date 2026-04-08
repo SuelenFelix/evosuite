@@ -15,7 +15,7 @@ import org.evosuite.runtime.mock.java.time.MockLocalDate;
 import org.junit.runner.RunWith;
 import pl.bykowski.invoicespringmvcexample.Invoice;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Invoice_ESTest extends Invoice_ESTest_scaffolding {
 
   @Test(timeout = 4000)

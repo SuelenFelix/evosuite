@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 import tech.jiayezheng.miniJuliaSonar.ast.KW;
 import tech.jiayezheng.miniJuliaSonar.ast.Symbol;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class KW_ESTest extends KW_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>GameNN.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">flap-bird</a> &gt; <a href="index.source.html" class="el_package">game</a> &gt; <span class="el_source">GameNN.java</span></div><h1>GameNN.java</h1><pre class="source lang-java linenums">package game;
+
+import nn.model.Genome;
+import nn.model.Population;
+import nn.neural.NeuralNetwork;
+import presentation.Drawable;
+
+import java.awt.*;
+import java.io.*;
+import java.util.*;
+import java.util.List;
+
+public class GameNN implements Drawable, Steppable {
+
+    public static final int BIRDS_NUMBER = 1000;
+    List&lt;Bird&gt; birds;
+    BottomPanel bottomPanel;
+    PipesController pipesController;
+    CollisionDetector collisionDetector;
+    boolean collision;
+    Font font;
+
+
+    Population population;
+
+    Map&lt;Genome, Double&gt; genomeFitnessMap;
+    Map&lt;NeuralNetwork, Genome&gt; nnGenomeMap;
+    Map&lt;Bird, NeuralNetwork&gt; birdNNMap;
+    long allSteps;
+
+
+
+<span class="nc" id="L33">    public static int WIDTH = 600;</span>
+<span class="nc" id="L34">    public static int HEIGHT = 800;</span>
+    private int attempt;
+
+<span class="nc" id="L37">    public GameNN() {</span>
+<span class="nc" id="L38">        population = new Population(new Random(1), BIRDS_NUMBER, null);</span>
+<span class="nc" id="L39">        reCreateGame();</span>
+<span class="nc" id="L40">    }</span>
+
+    private void reCreateGame() {
+<span class="nc" id="L43">        nnGenomeMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L44">        birdNNMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L45">        genomeFitnessMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L46">        allSteps = 0;</span>
+<span class="nc" id="L47">        System.out.println(&quot;Generation: &quot; + ++this.attempt);</span>
+<span class="nc" id="L48">        this.birds = new ArrayList&lt;&gt;();</span>
+        try {
+<span class="nc bnc" id="L50" title="All 2 branches missed.">            for (int i = 0; i &lt; BIRDS_NUMBER; i++) {</span>
+<span class="nc" id="L51">                this.birds.add(new Bird(WIDTH / 6, HEIGHT / 2));</span>
+            }
+<span class="nc bnc" id="L53" title="All 2 branches missed.">            for (int i = 0; i &lt; population.getGenomes().size(); i++) {</span>
+<span class="nc" id="L54">                var genome = population.getGenomes().get(i);</span>
+<span class="nc" id="L55">                NeuralNetwork neuralNetwork = new NeuralNetwork(genome);</span>
+<span class="nc" id="L56">                nnGenomeMap.put(neuralNetwork, genome);</span>
+<span class="nc" id="L57">                birdNNMap.put(birds.get(i), neuralNetwork);</span>
+            }
+
+<span class="nc" id="L60">            this.bottomPanel = new BottomPanel(WIDTH, HEIGHT);</span>
+<span class="nc" id="L61">            this.pipesController = new PipesController(WIDTH, HEIGHT, WIDTH / 6);</span>
+<span class="nc" id="L62">            this.collisionDetector = new CollisionDetector(bottomPanel.getLavaLevel());</span>
+<span class="nc" id="L63">            this.font = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;/Users/drmod/Downloads/imgs/font.ttf&quot;)).deriveFont(36f);</span>
+<span class="nc" id="L64">        } catch (IOException | FontFormatException e) {</span>
+<span class="nc" id="L65">            e.printStackTrace();</span>
+<span class="nc" id="L66">        }</span>
+<span class="nc" id="L67">    }</span>
+
+    public void action() {
+//        bird.action();
+<span class="nc" id="L71">    }</span>
+
+    @Override
+    public void show(Graphics g) {
+<span class="nc" id="L75">        pipesController.show(g);</span>
+//        for (Bird bird : birds) {
+//            bird.show(g);
+//        }
+
+<span class="nc" id="L80">        Iterator&lt;Bird&gt; iterator = birds.iterator();</span>
+<span class="nc" id="L81">        int i = 0;</span>
+<span class="nc bnc" id="L82" title="All 4 branches missed.">        while (iterator.hasNext() &amp;&amp; i &lt; 10) {</span>
+<span class="nc" id="L83">            iterator.next().show(g);</span>
+<span class="nc" id="L84">            i++;</span>
+        }
+
+<span class="nc" id="L87">        bottomPanel.show(g);</span>
+<span class="nc" id="L88">        g.setFont(font);</span>
+<span class="nc" id="L89">        g.setColor(Color.WHITE);</span>
+<span class="nc" id="L90">        g.drawString(String.format(&quot;%04d&quot;, pipesController.getActiveCount()),WIDTH - 100,40);</span>
+<span class="nc" id="L91">    }</span>
+
+    public void step() {
+<span class="nc" id="L94">        Iterator&lt;Bird&gt; iterator = birds.iterator();</span>
+<span class="nc bnc" id="L95" title="All 2 branches missed.">        while (iterator.hasNext()) {</span>
+<span class="nc" id="L96">            Bird bird = iterator.next();</span>
+            try{
+<span class="nc" id="L98">                shouldMakeAnAction(bird);</span>
+<span class="nc" id="L99">                bird.step();</span>
+<span class="nc" id="L100">            } catch (RuntimeException e) {</span>
+<span class="nc" id="L101">                saveFitness(bird, 0);</span>
+<span class="nc" id="L102">                iterator.remove();</span>
+<span class="nc" id="L103">            }</span>
+
+<span class="nc" id="L105">        }</span>
+
+<span class="nc" id="L107">        bottomPanel.step();</span>
+<span class="nc" id="L108">        pipesController.step();</span>
+
+//        if (collision) {
+//            reCreateGame();
+//        }
+
+<span class="nc" id="L114">        iterator = birds.iterator();</span>
+<span class="nc bnc" id="L115" title="All 2 branches missed.">        while (iterator.hasNext()) {</span>
+<span class="nc" id="L116">        Bird bird = iterator.next();</span>
+<span class="nc bnc" id="L117" title="All 2 branches missed.">            if (collisionDetector.collision(bird, pipesController.getCurrentPipe())) {</span>
+<span class="nc" id="L118">                int activeCount = pipesController.getActiveCount();</span>
+<span class="nc" id="L119">                float stepsFitness = allSteps / 100f;</span>
+
+<span class="nc" id="L121">                int entranceCenter = Math.abs(pipesController.getCurrentPipe().getyOpeningEnd() - pipesController.getCurrentPipe().getyOpeningStart()) / 2 + pipesController.getCurrentPipe().getyOpeningStart();</span>
+<span class="nc" id="L122">                double fromEntranceFitness = 1 - (Math.abs(entranceCenter - bird.getY()) / (double) HEIGHT * 1);</span>
+
+<span class="nc" id="L124">                double fitness = Math.pow(activeCount * 10, 2) + stepsFitness + fromEntranceFitness;</span>
+<span class="nc" id="L125">                saveFitness(bird, fitness);</span>
+<span class="nc bnc" id="L126" title="All 2 branches missed.">                if(birds.size() == 1) {</span>
+<span class="nc" id="L127">                    System.out.println(&quot;Pipes:&quot; + pipesController.getActiveCount());</span>
+                }
+<span class="nc" id="L129">                iterator.remove();</span>
+            }
+<span class="nc" id="L131">        }</span>
+<span class="nc bnc" id="L132" title="All 2 branches missed.">        if (birds.isEmpty()) {</span>
+<span class="nc" id="L133">            population.evaluate(genomeFitnessMap);</span>
+<span class="nc" id="L134">            reCreateGame();</span>
+//            this.collision = true;
+        }
+<span class="nc" id="L137">        allSteps++;</span>
+
+
+//        if (attempt &gt;= 10 &amp;&amp; pipesController.getActiveCount() &gt; 30000) {
+//            FileOutputStream fileOutputStream = null;
+//            try {
+//                for (int i = 0; i &lt; birds.size(); i++) {
+//                    fileOutputStream = new FileOutputStream(&quot;birdGenome_&quot;+attempt+&quot;_&quot;+i+&quot;.genome&quot;);
+//                    ObjectOutputStream objectOutputStream
+//                            = new ObjectOutputStream(fileOutputStream);
+////                Genome genome = population.best.getGenome();
+//                    Genome genome = nnGenomeMap.get(birdNNMap.get(birds.get(i)));
+//                    objectOutputStream.writeObject(genome);
+//                    objectOutputStream.flush();
+//                    objectOutputStream.close();
+//                }
+//
+//            } catch (FileNotFoundException e) {
+//                e.printStackTrace();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//            System.out.println(&quot;Reached, exiting&quot;);
+//            System.exit(0);
+//        }
+<span class="nc" id="L162">    }</span>
+
+    private void saveFitness(Bird bird, double fitness) {
+<span class="nc" id="L165">        NeuralNetwork neuralNetwork = birdNNMap.get(bird);</span>
+<span class="nc" id="L166">        Genome genome = nnGenomeMap.get(neuralNetwork);</span>
+<span class="nc" id="L167">        genomeFitnessMap.put(genome, fitness);</span>
+<span class="nc" id="L168">    }</span>
+
+    private void shouldMakeAnAction(Bird bird) {
+<span class="nc" id="L171">        NeuralNetwork neuralNetwork = this.birdNNMap.get(bird);</span>
+<span class="nc" id="L172">        double birdY = (float) bird.getY() / HEIGHT;</span>
+<span class="nc" id="L173">        double pipeX = (float) pipesController.getCurrentPipe().getX() / WIDTH;</span>
+<span class="nc" id="L174">        double pipeyStart = (float) pipesController.getCurrentPipe().getyOpeningStart() / HEIGHT;</span>
+<span class="nc" id="L175">        double pipeyEnd = (float) pipesController.getCurrentPipe().getyOpeningEnd() / HEIGHT;</span>
+<span class="nc" id="L176">        double velocity = Math.abs(bird.getVelocity() / -13) - 1;</span>
+
+<span class="nc" id="L178">        double[] calculate = neuralNetwork.calculate(new double[]{birdY, pipeX, pipeyStart, pipeyEnd});</span>
+
+<span class="nc bnc" id="L180" title="All 2 branches missed.">        if (calculate[0] &gt; 0.5) bird.action();</span>
+<span class="nc" id="L181">    }</span>
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

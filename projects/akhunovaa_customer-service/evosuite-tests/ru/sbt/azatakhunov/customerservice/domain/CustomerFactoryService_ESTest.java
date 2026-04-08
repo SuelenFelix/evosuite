@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 import ru.sbt.azatakhunov.customerservice.domain.CustomerFactoryService;
 import ru.sbt.azatakhunov.customerservice.domain.CustomerInfo;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class CustomerFactoryService_ESTest extends CustomerFactoryService_ESTest_scaffolding {
 
   @Test(timeout = 4000)

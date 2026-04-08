@@ -20,7 +20,7 @@ import org.openRealmOfStars.starMap.event.karmaEvents.RandomEventType;
 import org.openRealmOfStars.starMap.planet.Planet;
 import org.openRealmOfStars.utilities.namegenerators.RandomSystemNameGenerator;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class RandomEvent_ESTest extends RandomEvent_ESTest_scaffolding {
 
   @Test(timeout = 4000)

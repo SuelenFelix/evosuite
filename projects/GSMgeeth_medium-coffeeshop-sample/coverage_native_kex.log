@@ -1,0 +1,350 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.blog:CoffeeShop >-------------------------
+[INFO] Building CoffeeShop 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ CoffeeShop ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ CoffeeShop ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ CoffeeShop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ CoffeeShop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ CoffeeShop ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ CoffeeShop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ CoffeeShop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 85 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/dto/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/util/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/MenuItem_init_128535921712.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/MenuItem_init_128535921712.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/MenuItem_setIngredients_8713385227.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/blog/coffee_shop/model/MenuItem_setIngredients_8713385227.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ CoffeeShop ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.blog.coffee_shop.model.MenuItem_getName_84995146415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.blog.coffee_shop.model.MenuItem_getName_84995146415
+[INFO] Running com.blog.coffee_shop.model.MenuItem_setId_167956273
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setId_167956273
+[INFO] Running com.blog.coffee_shop.model.MenuItem_init_12853592171
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_init_12853592171
+[INFO] Running com.blog.coffee_shop.model.MenuItem_toString_198170920310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_toString_198170920310
+[INFO] Running com.blog.coffee_shop.model.MenuItem_getIngredients_199771835617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_getIngredients_199771835617
+[INFO] Running com.blog.coffee_shop.model.MenuItem_equals_135381172819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_equals_135381172819
+[INFO] Running com.blog.coffee_shop.model.MenuItem_init_143625335211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_init_143625335211
+[INFO] Running com.blog.coffee_shop.model.MenuItem_hashCode_18024984039
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_hashCode_18024984039
+[INFO] Running com.blog.coffee_shop.model.MenuItem_setIngredients_87133852218
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.model.MenuItem_setIngredients_87133852218
+[INFO] Running com.blog.coffee_shop.model.MenuItem_setName_17251392645
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setName_17251392645
+[INFO] Running com.blog.coffee_shop.model.MenuItem_hashCode_180249840320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_hashCode_180249840320
+[INFO] Running com.blog.coffee_shop.model.MenuItem_getId_20805324612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_getId_20805324612
+[INFO] Running com.blog.coffee_shop.model.MenuItem_setId_1679562714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setId_1679562714
+[INFO] Running com.blog.coffee_shop.model.MenuItem_getName_8499514644
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_getName_8499514644
+[INFO] Running com.blog.coffee_shop.model.MenuItem_equals_13538117288
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_equals_13538117288
+[INFO] Running com.blog.coffee_shop.model.MenuItem_getIngredients_19977183566
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_getIngredients_19977183566
+[INFO] Running com.blog.coffee_shop.model.MenuItem_init_14362533520
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_init_14362533520
+[INFO] Running com.blog.coffee_shop.model.MenuItem_getId_208053246113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_getId_208053246113
+[INFO] Running com.blog.coffee_shop.model.MenuItem_init_128535921712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_init_128535921712
+[INFO] Running com.blog.coffee_shop.model.MenuItem_setIngredients_8713385227
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setIngredients_8713385227
+[INFO] Running com.blog.coffee_shop.model.MenuItem_toString_198170920321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_toString_198170920321
+[INFO] Running com.blog.coffee_shop.model.MenuItem_setName_172513926416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setName_172513926416
+[INFO] Running com.blog.coffee_shop.CoffeeShopApplication_main_21296820481
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2026-04-08 01:10:52.198  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : Starting CoffeeShopApplication using Java 11.0.16 on 6c61c315ae4b with PID 69 (started by root in /app)
+2026-04-08 01:10:52.201  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 01:10:53.189  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 01:10:53.199  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 01:10:53.199  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-04-08 01:10:53.286  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 01:10:53.286  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1046 ms
+2026-04-08 01:10:53.591  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37bf5f6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ddd7390, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f563ed, org.springframework.security.web.header.HeaderWriterFilter@78b09896, org.springframework.security.web.authentication.logout.LogoutFilter@2f73b2ed, com.blog.coffee_shop.configuration.jwt.JWTFilter@4ca4513, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43f03e63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62fd5969, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4acc68fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@214de4b7, org.springframework.security.web.session.SessionManagementFilter@24ef377c, org.springframework.security.web.access.ExceptionTranslationFilter@6cd0d37d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55130616]
+2026-04-08 01:10:53.887  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 01:10:53.895  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : Started CoffeeShopApplication in 2.144 seconds (JVM running for 3.206)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.35 s - in com.blog.coffee_shop.CoffeeShopApplication_main_21296820481
+[INFO] Running com.blog.coffee_shop.controller.UserController_init_9124413601
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.UserController_init_9124413601
+[INFO] Running com.blog.coffee_shop.controller.UserController_init_9124413600
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.UserController_init_9124413600
+[INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_init_7125541580
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_init_7125541580
+[INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_getIdToken_18245694321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_getIdToken_18245694321
+[INFO] Running com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755361
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755361
+[INFO] Running com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755360
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755360
+[INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_setIdToken_10130884082
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_setIdToken_10130884082
+[INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_getIdToken_18245694324
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_getIdToken_18245694324
+[INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_setIdToken_10130884085
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_setIdToken_10130884085
+[INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_init_7125541583
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_init_7125541583
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_init_2606529898
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_init_2606529898
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_setPassword_208201998912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setPassword_208201998912
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_getPassword_4956775493
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getPassword_4956775493
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_getPassword_49567754911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getPassword_49567754911
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_setRememberMe_177540525414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setRememberMe_177540525414
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184728
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184728
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_setUsername_102681372210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setUsername_102681372210
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_toString_2848028627
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.blog.coffee_shop.dto.AuthDTO_toString_2848028627
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184722
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184722
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287181
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287181
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_isRememberMe_78266194013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_isRememberMe_78266194013
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_18086593144
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_18086593144
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_toString_13759373015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_toString_13759373015
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_getName_17872722561
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_getName_17872722561
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_isRememberMe_7826619405
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_isRememberMe_7826619405
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_getIngredients_10603975649
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_getIngredients_10603975649
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_init_19213931526
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_init_19213931526
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_toString_28480286215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_toString_28480286215
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_setRememberMe_17754052546
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setRememberMe_17754052546
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_setPassword_20820199894
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setPassword_20820199894
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_toString_137593730111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_toString_137593730111
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287189
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287189
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_setUsername_10268137222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setUsername_10268137222
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_init_19213931520
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_init_19213931520
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_getIngredients_10603975643
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_getIngredients_10603975643
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_180865931410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_180865931410
+[INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_getName_17872722567
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_getName_17872722567
+[INFO] Running com.blog.coffee_shop.dto.AuthDTO_init_2606529890
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_init_2606529890
+[INFO] Running com.blog.coffee_shop.util.Constant_init_7539660410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_init_7539660410
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139884
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139884
+[ERROR] test  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139884.test(Constant_UserRole_valueOf_20088139884.java:49)
+
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583301
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583301
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_values_15167835850
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_UserRole_values_15167835850
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_values_15167835853
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_UserRole_values_15167835853
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139881
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139881
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.blog.coffee_shop.util.Constant.UserRole.PAEBtnZtTD
+	at com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139881.test(Constant_UserRole_valueOf_20088139881.java:42)
+
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_init_19463927322
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.blog.coffee_shop.util.Constant_UserRole_init_19463927322
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.blog.coffee_shop.util.Constant_UserRole_init_19463927322.test(Constant_UserRole_init_19463927322.java:44)
+
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_init_19463927325
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.blog.coffee_shop.util.Constant_UserRole_init_19463927325
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.blog.coffee_shop.util.Constant_UserRole_init_19463927325.test(Constant_UserRole_init_19463927325.java:49)
+
+[INFO] Running com.blog.coffee_shop.util.Constant_init_7539660411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.util.Constant_init_7539660411
+[INFO] Running com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583300
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583300
+[INFO] Running com.blog.coffee_shop.CoffeeShopApplication_init_17531190440
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.CoffeeShopApplication_init_17531190440
+[INFO] Running com.blog.coffee_shop.CoffeeShopApplication_init_17531190442
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.CoffeeShopApplication_init_17531190442
+[INFO] Running com.blog.coffee_shop.CoffeeShopApplication_main_21296820483
+2026-04-08 01:10:53.986 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.blog.coffee_shop.CoffeeShopApplication.main(CoffeeShopApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.blog.coffee_shop.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.blog.coffee_shop.CoffeeShopApplication_main_21296820483.test(CoffeeShopApplication_main_21296820483.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in com.blog.coffee_shop.CoffeeShopApplication_main_21296820483
+[ERROR] test  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.blog.coffee_shop.CoffeeShopApplication_main_21296820483.test(CoffeeShopApplication_main_21296820483.java:44)
+
+[INFO] Running com.blog.coffee_shop.CoffeeShopApplicationTests
+2026-04-08 01:10:54.034  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.blog.coffee_shop.CoffeeShopApplicationTests], using SpringBootContextLoader
+2026-04-08 01:10:54.035  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.blog.coffee_shop.CoffeeShopApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:10:54.036  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.blog.coffee_shop.CoffeeShopApplicationTests]: CoffeeShopApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:10:54.060  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.blog.coffee_shop.CoffeeShopApplication for test class com.blog.coffee_shop.CoffeeShopApplicationTests
+2026-04-08 01:10:54.065  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2026-04-08 01:10:54.076  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@119b0892, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3e8e24, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4ed4a7e4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c7350b0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55651434, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bc4ef12, org.springframework.test.context.event.EventPublishingTestExecutionListener@50448409, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@5634a861, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2b0dc227, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37ad042b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43bdaa1b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30b975ad, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@75e09567, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a334bac, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@470d183]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2026-04-08 01:10:54.114  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : Starting CoffeeShopApplicationTests using Java 11.0.16 on 6c61c315ae4b with PID 69 (started by root in /app)
+2026-04-08 01:10:54.115  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 01:10:54.365  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@343fddd9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bbb44da, org.springframework.security.web.context.SecurityContextPersistenceFilter@235b4cb8, org.springframework.security.web.header.HeaderWriterFilter@77c3c037, org.springframework.security.web.authentication.logout.LogoutFilter@ab24484, com.blog.coffee_shop.configuration.jwt.JWTFilter@2f80cb79, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3290b1a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17fede14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712ac7e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4816ee24, org.springframework.security.web.session.SessionManagementFilter@10e5bf9c, org.springframework.security.web.access.ExceptionTranslationFilter@48a2db72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51f18e31]
+2026-04-08 01:10:54.666  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : Started CoffeeShopApplicationTests in 0.577 seconds (JVM running for 3.978)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.007 s - in com.blog.coffee_shop.CoffeeShopApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   CoffeeShopApplication_main_21296820483.test:44 » IllegalArgument Args must not...
+[ERROR]   Constant_UserRole_init_19463927322.test:44 » IllegalArgument Cannot reflective...
+[ERROR]   Constant_UserRole_init_19463927325.test:49 » IllegalArgument Cannot reflective...
+[ERROR]   Constant_UserRole_valueOf_20088139881.test:42 » IllegalArgument No enum consta...
+[ERROR]   Constant_UserRole_valueOf_20088139884.test:49 » NullPointer Name is null
+[INFO] 
+[ERROR] Tests run: 75, Failures: 0, Errors: 5, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ CoffeeShop ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'CoffeeShop' with 16 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ CoffeeShop ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'CoffeeShop' with 16 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.307 s
+[INFO] Finished at: 2026-04-08T01:10:55Z
+[INFO] ------------------------------------------------------------------------

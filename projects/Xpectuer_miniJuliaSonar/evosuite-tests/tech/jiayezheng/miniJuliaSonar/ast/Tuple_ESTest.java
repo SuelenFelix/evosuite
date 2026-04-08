@@ -18,7 +18,7 @@ import tech.jiayezheng.miniJuliaSonar.ast.Node;
 import tech.jiayezheng.miniJuliaSonar.ast.Root;
 import tech.jiayezheng.miniJuliaSonar.ast.Tuple;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Tuple_ESTest extends Tuple_ESTest_scaffolding {
 
   @Test(timeout = 4000)

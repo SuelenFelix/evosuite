@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MyObjectTreeTableModel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">treetable</a> &gt; <a href="index.source.html" class="el_package">net.byteseek.demo.treetable</a> &gt; <span class="el_source">MyObjectTreeTableModel.java</span></div><h1>MyObjectTreeTableModel.java</h1><pre class="source lang-java linenums">/*
+ * BSD 3-Clause License
+ *
+ * Copyright (c) 2021, Matt Palmer
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the copyright holder nor the names of its
+ *    contributors may be used to endorse or promote products derived from
+ *    this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot;
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package net.byteseek.demo.treetable;
+
+import java.util.Comparator;
+import javax.swing.Icon;
+import javax.swing.UIManager;
+import javax.swing.table.DefaultTableColumnModel;
+import javax.swing.table.TableColumnModel;
+import javax.swing.tree.TreeNode;
+import net.byteseek.swing.treetable.Comparators;
+import net.byteseek.swing.treetable.TableUtils;
+import net.byteseek.swing.treetable.TreeTableModel;
+import net.byteseek.swing.treetable.TreeUtils;
+
+public final class MyObjectTreeTableModel extends TreeTableModel {
+
+    private Icon leafIcon;              // tree node that allows no children.
+    private Icon openIcon;              // tree node displaying children.
+    private Icon closedIcon;            // tree node not displaying children.
+
+    public MyObjectTreeTableModel(final TreeNode rootNode, final boolean showRoot) {
+<span class="nc" id="L52">        super(rootNode, showRoot);</span>
+<span class="nc" id="L53">        setIcons();</span>
+<span class="nc" id="L54">        setGroupingComparator(Comparators.ALLOWS_CHILDREN);</span>
+<span class="nc" id="L55">        leafIcon = null;</span>
+<span class="nc" id="L56">    }</span>
+
+    @Override
+    public boolean isCellEditable(final int rowIndex, final int columnIndex) {
+<span class="nc bnc" id="L60" title="All 2 branches missed.">        return columnIndex &lt; 3; // can't edit the &quot;num children&quot; column as that is calculated, not stored.</span>
+    }
+
+    @Override
+    public Class&lt;?&gt; getColumnClass(final int columnIndex) {
+<span class="nc bnc" id="L65" title="All 5 branches missed.">        switch (columnIndex) {</span>
+<span class="nc" id="L66">            case 0: return String.class;</span>
+<span class="nc" id="L67">            case 1: return Long.class;</span>
+<span class="nc" id="L68">            case 2: return Boolean.class;</span>
+<span class="nc" id="L69">            case 3: return Integer.class;</span>
+        }
+<span class="nc" id="L71">        return Object.class;</span>
+    }
+
+    @Override
+    public Object getColumnValue(final TreeNode node, final int column) {
+<span class="nc" id="L76">        final MyObject obj = TreeUtils.getUserObject(node);</span>
+<span class="nc bnc" id="L77" title="All 5 branches missed.">        switch (column) {</span>
+<span class="nc" id="L78">            case 0: return obj.getDescription();</span>
+<span class="nc" id="L79">            case 1: return obj.getSize();</span>
+<span class="nc" id="L80">            case 2: return obj.isEnabled();</span>
+<span class="nc" id="L81">            case 3: return node.getChildCount();</span>
+<span class="nc" id="L82">            default: return null;</span>
+        }
+
+    }
+
+    @Override
+    public TableColumnModel createTableColumnModel() {
+<span class="nc" id="L89">        TableColumnModel result = new DefaultTableColumnModel();</span>
+<span class="nc" id="L90">        result.addColumn(TableUtils.createColumn(0, &quot;description&quot;));</span>
+<span class="nc" id="L91">        result.addColumn(TableUtils.createColumn(1, &quot;size&quot;));</span>
+<span class="nc" id="L92">        result.addColumn(TableUtils.createColumn(2, &quot;enabled&quot;));</span>
+<span class="nc" id="L93">        result.addColumn(TableUtils.createColumn(3, &quot;children&quot;));</span>
+<span class="nc" id="L94">        return result;</span>
+    }
+
+    @Override
+    public void setColumnValue(final TreeNode node, final int column, final Object value) {
+<span class="nc" id="L99">        final Object o = TreeUtils.getUserObject(node);</span>
+<span class="nc bnc" id="L100" title="All 2 branches missed.">        if (o instanceof MyObject) {</span>
+<span class="nc" id="L101">            final MyObject obj = (MyObject) o;</span>
+<span class="nc bnc" id="L102" title="All 4 branches missed.">            switch (column) {</span>
+                case 0: {
+<span class="nc" id="L104">                    obj.setDescription((String) value);</span>
+<span class="nc" id="L105">                    break;</span>
+                }
+                case 1: {
+<span class="nc" id="L108">                    obj.setSize((Long) value);</span>
+<span class="nc" id="L109">                    break;</span>
+                }
+                case 2: {
+<span class="nc" id="L112">                    obj.setEnabled((Boolean) value);</span>
+                    break;
+                }
+            }
+        }
+<span class="nc" id="L117">    }</span>
+
+    @Override
+    public Comparator&lt;?&gt; getColumnComparator(int column) {
+<span class="nc" id="L121">        return null; //TODO: test return special comparator for column values to enable sorting with that comparator.</span>
+    }
+
+    @Override
+    public Icon getNodeIcon(TreeNode node) {
+<span class="nc bnc" id="L126" title="All 2 branches missed.">        if (node != null) {</span>
+<span class="nc bnc" id="L127" title="All 2 branches missed.">            if (node.getAllowsChildren()) {</span>
+<span class="nc bnc" id="L128" title="All 2 branches missed.">                return isExpanded(node) ? openIcon : closedIcon;</span>
+            }
+<span class="nc" id="L130">            return leafIcon;</span>
+        }
+<span class="nc" id="L132">        return null;</span>
+    }
+
+    private void setIcons() {
+<span class="nc bnc" id="L136" title="All 2 branches missed.">        if (UIManager.getLookAndFeel().getID().equals(&quot;GTK&quot;)) {</span>
+<span class="nc" id="L137">            setLeafIcon(UIManager.getIcon(&quot;FileView.fileIcon&quot;));</span>
+<span class="nc" id="L138">            setOpenIcon(UIManager.getIcon(&quot;FileView.directoryIcon&quot;));</span>
+<span class="nc" id="L139">            setClosedIcon(UIManager.getIcon(&quot;FileView.directoryIcon&quot;));</span>
+        } else {
+            // Leaf, open and closed icons not available in all look and feels...not in GTK, but is in metal...
+<span class="nc" id="L142">            setLeafIcon(UIManager.getIcon(&quot;Tree.leafIcon&quot;));</span>
+<span class="nc" id="L143">            setOpenIcon(UIManager.getIcon(&quot;Tree.openIcon&quot;));</span>
+<span class="nc" id="L144">            setClosedIcon(UIManager.getIcon(&quot;Tree.closedIcon&quot;));</span>
+        }
+<span class="nc" id="L146">    }</span>
+
+    public void setLeafIcon(final Icon leafIcon) {
+<span class="nc" id="L149">        this.leafIcon = leafIcon;</span>
+<span class="nc" id="L150">    }</span>
+
+    public void setClosedIcon(final Icon closedIcon) {
+<span class="nc" id="L153">        this.closedIcon = closedIcon;</span>
+<span class="nc" id="L154">    }</span>
+
+    public void setOpenIcon(final Icon openIcon) {
+<span class="nc" id="L157">        this.openIcon = openIcon;</span>
+<span class="nc" id="L158">    }</span>
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

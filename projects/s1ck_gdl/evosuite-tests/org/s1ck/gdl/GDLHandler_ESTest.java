@@ -30,7 +30,7 @@ import org.s1ck.gdl.model.Graph;
 import org.s1ck.gdl.model.Vertex;
 import org.s1ck.gdl.model.predicates.Predicate;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class GDLHandler_ESTest extends GDLHandler_ESTest_scaffolding {
 
   @Test(timeout = 4000)

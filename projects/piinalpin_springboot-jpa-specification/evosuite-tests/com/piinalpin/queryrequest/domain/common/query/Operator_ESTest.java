@@ -24,7 +24,7 @@ import org.hibernate.collection.internal.PersistentIdentifierBag;
 import org.junit.runner.RunWith;
 import org.springframework.core.convert.support.GenericConversionService;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Operator_ESTest extends Operator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

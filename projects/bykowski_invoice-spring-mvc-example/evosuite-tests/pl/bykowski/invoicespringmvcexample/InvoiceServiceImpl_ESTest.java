@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 import pl.bykowski.invoicespringmvcexample.Invoice;
 import pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class InvoiceServiceImpl_ESTest extends InvoiceServiceImpl_ESTest_scaffolding {
 
   @Test(timeout = 4000)

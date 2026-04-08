@@ -1,0 +1,160 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.ebay.signaturevalidation:signaturevalidation:jar:1.0.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-beans:jar -> version 5.3.21 vs (?) @ line 65, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------< com.ebay.signaturevalidation:signaturevalidation >----------
+[INFO] Building signaturevalidation 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ signaturevalidation ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ signaturevalidation ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ signaturevalidation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ signaturevalidation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ signaturevalidation ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ signaturevalidation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ signaturevalidation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /app/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ signaturevalidation ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.ebay.signaturevalidation.ApplicationTests
+02:05:47.832 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+02:05:47.846 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+02:05:47.905 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ebay.signaturevalidation.ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+02:05:47.924 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ebay.signaturevalidation.ApplicationTests], using SpringBootContextLoader
+02:05:47.928 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.signaturevalidation.ApplicationTests]: class path resource [com/ebay/signaturevalidation/ApplicationTests-context.xml] does not exist
+02:05:47.929 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.signaturevalidation.ApplicationTests]: class path resource [com/ebay/signaturevalidation/ApplicationTestsContext.groovy] does not exist
+02:05:47.929 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ebay.signaturevalidation.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:05:47.992 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ebay.signaturevalidation.ApplicationTests]
+02:05:48.130 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ebay.signaturevalidation.ApplicationTests]: using defaults.
+02:05:48.131 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:05:48.149 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+02:05:48.150 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+02:05:48.150 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52a67293, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@793cef95, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@38f502fc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67c21bf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67afe909, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79f1e22e, org.springframework.test.context.event.EventPublishingTestExecutionListener@6903ed0e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@e154848, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@16ea0f22, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@60fc7f43, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16e195cf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3212d853, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@74c7522c]
+02:05:48.155 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@315b4202 testClass = ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@58e03769 testClass = ApplicationTests, locations = '{}', classes = '{class com.ebay.signaturevalidation.VerificationService, class com.ebay.signaturevalidation.SignatureService, class com.ebay.signaturevalidation.KeypairService}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2fbe26da, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@24c8d8be, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7c0f28f8, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7ba93755, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@306c7bf6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@62fad19], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.9)
+
+2026-04-08 02:05:48.568  INFO 69 --- [           main] c.e.s.ApplicationTests                   : Starting ApplicationTests using Java 11.0.16 on 5f5d32606e61 with PID 69 (started by root in /app)
+2026-04-08 02:05:48.570  INFO 69 --- [           main] c.e.s.ApplicationTests                   : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 02:05:49.179  INFO 69 --- [           main] c.e.s.ApplicationTests                   : Started ApplicationTests in 0.975 seconds (JVM running for 2.063)
+2026-04-08 02:05:49.495  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiSXh2dVRMb0FLS0hlS0Zoa3BxQ05CUSIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiaFd3YjNoczk2QzEyOTNucCJ9.2o02pR9SoTF4g_5qRXZm6tF4H52TarilIAKxoVUqjd8.3qaF0KJN-rFHHm_P.AMUAe9PPduew09mANIZ-O_68CCuv6EIx096rm9WyLZnYz5N1WFDQ3jP0RBkbaOtQZHImMSPXIHVaB96RWshLuJsUgCKmTAwkPVCZv3zhLxZVxMXtPUuJ-ppVmPIv0NzznWCOU5Kvb9Xux7ZtnlvLXgwOFEix-BaWNomUAazbsrUCbrp514GIea3butbyxXLNi6R9TJUNh8V2uan-optT1MMyS7eMQnVGL5rYBULk.9K5ucUqAu0DqkkhgubsHHw
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.533  INFO 69 --- [           main] c.e.s.VerificationService                : Message signature verified
+2026-04-08 02:05:49.549  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.557  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.562  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.571  INFO 69 --- [           main] c.e.s.VerificationService                : Message signature verified
+2026-04-08 02:05:49.576  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-123=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.581  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.586  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": invalid
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.593  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.598  INFO 69 --- [           main] c.e.s.VerificationService                : Calculated base:
+"content-digest": sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:
+"x-ebay-signature-key": eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwidGFnIjoiYVMxUlZybG9UdXdRaDBuRHZDOGJFZyIsImFsZyI6IkEyNTZHQ01LVyIsIml2IjoiYVRwdE5ubGJqalJCR2dQQiJ9.6ZfgB6dRVjMqrney1nOlJpPm11tDziWFk2RuhwWrCyE.6lKneGYFN_148y3C.7Z0IMkg0e1dBFq4K5QmBoLi6V_cXTDF5rLyFss16j2IJMtdIknHHQn49tmSzjtM1gS04ueruCdBWixuPdzWOpJk-F6BkfslIDvP10WXesb0chGgPqROzWPzYJtZLJDDACFeqLBSRC5aevBYNZIBtbwoOZd9Q0JUAOhaLkeOmJEbnYoJyfDY-XLB9LgySNsE9GM2lo72NmAnjTxFal3Icnqd7pVhbhG5gFvPJbNzZJgNXDKOxV3qJ4kkM6RIdxfuoqXe-8VTVOCUee4P5Ce6bw7wTFrpsZIiaKVb10r4tp7mf90Y2VyxTWMGJVtslI44dA4s8kz8lM_b9GE2jx8MYNOOqt7bJt_ATf87LiwSQ56SPdz0bEpWwYn8gqifj9SjtCyx4EOYQIHFIqbS0oUn8T_TIpvsSgD3RNP2jlFvxZI-9fHOOjhCqQ2_dyAWPWkLPtHERfwPUy5FDR3naKlucjfOKXzuraIqyX8pcZQbkq7ESiyTxZU-trkcvEDquOpJLWElxACYKhCBns00oG-TcOEzrAIBwXZlBMdQR7rLM3QmT3K4a-Yu1VBQ2bl4.FM42Am9AoxNanBs3cFCK0w
+"@method": POST
+"@path": /verifysignature
+"@authority": localhost:8080
+"@signature-params": ("content-digest" "x-ebay-signature-key" "@method" "@path" "@authority");created=1658440308
+2026-04-08 02:05:49.618  INFO 69 --- [           main] c.e.s.SignatureService                   : Message signed
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.873 s - in com.ebay.signaturevalidation.ApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ signaturevalidation ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'signaturevalidation' with 11 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ signaturevalidation ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'signaturevalidation' with 11 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.103 s
+[INFO] Finished at: 2026-04-08T02:05:50Z
+[INFO] ------------------------------------------------------------------------

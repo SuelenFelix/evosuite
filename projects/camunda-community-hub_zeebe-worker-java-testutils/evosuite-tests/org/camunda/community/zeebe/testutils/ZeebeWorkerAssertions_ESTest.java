@@ -5,26 +5,32 @@
 
 package org.camunda.community.zeebe.testutils;
 
-import org.junit.Test;
 import static org.junit.Assert.*;
-import org.camunda.community.zeebe.testutils.ActivatedJobStubAssert;
-import org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions;
+
 import org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class)
+@EvoRunnerParameters(
+    mockJVMNonDeterminism = true,
+    useVFS = true,
+    useVNET = true,
+    resetStaticState = true,
+    separateClassLoader = false)
 public class ZeebeWorkerAssertions_ESTest extends ZeebeWorkerAssertions_ESTest_scaffolding {
 
   @Test(timeout = 4000)
-  public void test0()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(858L);
-      ActivatedJobStubAssert activatedJobStubAssert0 = ZeebeWorkerAssertions.assertThat(activatedJobStub0);
+  public void test0() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(858L);
+    ActivatedJobStubAssert activatedJobStubAssert0 =
+        ZeebeWorkerAssertions.assertThat(activatedJobStub0);
   }
 
   @Test(timeout = 4000)
-  public void test1()  throws Throwable  {
-      ZeebeWorkerAssertions zeebeWorkerAssertions0 = new ZeebeWorkerAssertions();
+  public void test1() throws Throwable {
+    ZeebeWorkerAssertions zeebeWorkerAssertions0 = new ZeebeWorkerAssertions();
   }
 }

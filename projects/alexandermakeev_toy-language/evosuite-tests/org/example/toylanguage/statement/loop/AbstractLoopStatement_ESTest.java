@@ -25,7 +25,7 @@ import org.example.toylanguage.statement.loop.ForLoopStatement;
 import org.example.toylanguage.statement.loop.IterableLoopStatement;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class AbstractLoopStatement_ESTest extends AbstractLoopStatement_ESTest_scaffolding {
 
   @Test(timeout = 4000)

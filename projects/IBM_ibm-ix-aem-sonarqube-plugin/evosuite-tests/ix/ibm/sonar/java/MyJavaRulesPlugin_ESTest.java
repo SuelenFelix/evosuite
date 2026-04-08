@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 import org.sonar.api.Plugin;
 import org.sonar.api.SonarRuntime;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class MyJavaRulesPlugin_ESTest extends MyJavaRulesPlugin_ESTest_scaffolding {
 
   @Test(timeout = 4000)

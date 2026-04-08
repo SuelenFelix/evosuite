@@ -14,7 +14,7 @@ import org.example.toylanguage.expression.operator.Operator;
 import org.example.toylanguage.expression.operator.OperatorExpression;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Operator_ESTest extends Operator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

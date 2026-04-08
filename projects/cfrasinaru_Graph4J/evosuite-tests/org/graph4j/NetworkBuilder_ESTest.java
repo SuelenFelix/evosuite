@@ -20,7 +20,7 @@ import org.graph4j.NetworkImpl;
 import org.graph4j.PseudographImpl;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class NetworkBuilder_ESTest extends NetworkBuilder_ESTest_scaffolding {
 
   @Test(timeout = 4000)

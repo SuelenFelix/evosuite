@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TreeTableHeaderRenderer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">treetable</a> &gt; <a href="index.source.html" class="el_package">net.byteseek.swing.treetable</a> &gt; <span class="el_source">TreeTableHeaderRenderer.java</span></div><h1>TreeTableHeaderRenderer.java</h1><pre class="source lang-java linenums">/*
+ * BSD 3-Clause License
+ *
+ * Copyright (c) 2021, Matt Palmer
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the copyright holder nor the names of its
+ *    contributors may be used to endorse or promote products derived from
+ *    this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot;
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package net.byteseek.swing.treetable;
+
+import java.awt.Component;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Insets;
+import java.util.List;
+import javax.swing.BorderFactory;
+import javax.swing.Icon;
+import javax.swing.JLabel;
+import javax.swing.JTable;
+import javax.swing.RowSorter;
+import javax.swing.SortOrder;
+import javax.swing.UIManager;
+import javax.swing.border.Border;
+import javax.swing.border.CompoundBorder;
+import javax.swing.border.EtchedBorder;
+import javax.swing.plaf.basic.BasicTableHeaderUI;
+import javax.swing.plaf.basic.BasicTableUI;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableCellRenderer;
+
+/**
+ * Renders a header for a JTable which shows multi-column sorting,
+ * painting a number for each sort key against the icon for ascending or descending
+ * to show which is sorted first, second, or third.
+ * &lt;p&gt;
+ * It takes the font, foreground and background colors from the JTableHeader on the JTable.
+ */
+public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer {
+
+    /* *****************************************************************************************************************
+     *                                                Constants
+     */
+
+    /**
+     * White space above and below to raise header height a bit.
+     * Looks cramped if it is just the height of the text and icons.
+     */
+    protected static final int VERTICAL_PADDING = 4;
+
+    /**
+     * Padding to ensure sufficient room to paint text.
+     * If you try to paint in something exactly the size of the text,
+     * you get ellipses, it needs some margin.
+     */
+    protected static final int TEXT_PADDING = 8;
+
+    /**
+     * The inner border which contains the sort icons and sort order number
+     * to the left of the header when a column is sorted, and has no
+     * width if the column isn't sorted.
+     */
+<span class="nc" id="L86">    protected final SortIconBorder sortIconBorder = new SortIconBorder();</span>
+
+    /**
+     * The JLabel used to paint the icon and sort order number.
+     */
+    protected final JLabel paintLabel;
+
+
+    /* *****************************************************************************************************************
+     *                                                Variables
+     */
+
+    /**
+     * Whether to render the column header name in bold if the column is sorted.
+     */
+    protected boolean boldOnSorted;
+
+    /**
+     * Whether to show the sort order number or not.
+     */
+    protected boolean showNumber;
+
+    /**
+     * The icon for an ascending sort column.
+     */
+    protected Icon sortAscendingIcon;
+
+    /**
+     * The icon for a descending sort column.
+     */
+    protected Icon sortDescendingIcon;
+
+
+    /* *****************************************************************************************************************
+     *                          Cached or calculated properties of the TreeTableHeader.
+     */
+
+    /**
+     * The last font set in the header on a call to getTableCellRendererComponent().
+     * Cached in order that we can use it in the paintBorder() method of the SortIconBorder,
+     * and also so we can determine if we need to generate a new Bold version of it if bold on sorted is selected.
+     */
+    protected Font cachedHeaderFont;
+
+    /**
+     * A bold version of the cached header font to use when rendering the sort column header if sorted.
+     * If the cached header font is already bold, it will just be that font.
+     */
+    protected Font boldHeaderFont;
+
+    /**
+     * The number of the sort which is rendered with the icon, first column to be sorted, second, etc.
+     */
+    protected int sortOrderNumber;
+
+    /**
+     * The order of the current sort - ascending or descending (or unsorted, which will not be painted).
+     */
+    protected SortOrder sortOrder;
+
+    /**
+     * The maximum width of the ascending and descending icons,
+     * calculated to ensure we consistently use the same space no
+     * matter which one is showing (avoids jumping around visually).
+     */
+    protected int maxIconWidth;
+
+    /**
+     * The width of the sort number as text.  This is calculated from the font metrics when painting.
+     */
+    protected int sortNumberTextWidth;
+
+
+    /* *****************************************************************************************************************
+     *                                          Constructors
+     */
+
+    /**
+     * Constructs a TreeTableHeaderRenderer, showing sort order numbers on columns, and column headers are bold on sort.
+     */
+    public TreeTableHeaderRenderer() {
+<span class="nc" id="L167">        this(true);</span>
+<span class="nc" id="L168">    }</span>
+
+    /**
+     * Constructs a TreeTableHeaderRenderer given whether to display the column number or not.
+     * @param showNumber whether to display the sort order number or not on sorted columns.
+     */
+    public TreeTableHeaderRenderer(final boolean showNumber) {
+<span class="nc" id="L175">        this(showNumber, true);</span>
+<span class="nc" id="L176">    }</span>
+
+    /**
+     * Constructs a TreeTableHeaderRenderer given whether to display the column number or not.
+     * @param showNumber whether to display the sort order number or not on sorted columns.
+     * @param boldOnSorted whether the column header should be bold when it is sorted.
+     */
+<span class="nc" id="L183">    public TreeTableHeaderRenderer(final boolean showNumber, final boolean boldOnSorted) {</span>
+<span class="nc" id="L184">        setBorder(new EtchedBorder());</span>
+<span class="nc" id="L185">        paintLabel = new JLabel();</span>
+<span class="nc" id="L186">        paintLabel.setBorder(BorderFactory.createEmptyBorder());</span>
+<span class="nc" id="L187">        sortNumberTextWidth = 16; // start with 16 so we have something before a string is actually painted.</span>
+<span class="nc" id="L188">        setShowNumber(showNumber);</span>
+<span class="nc" id="L189">        setBoldOnSorted(boldOnSorted);</span>
+<span class="nc" id="L190">        setSortAscendingIcon(UIManager.getIcon(&quot;Table.ascendingSortIcon&quot;));</span>
+<span class="nc" id="L191">        setSortDescendingIcon(UIManager.getIcon(&quot;Table.descendingSortIcon&quot;));</span>
+<span class="nc" id="L192">        setHorizontalAlignment(JLabel.CENTER);</span>
+<span class="nc" id="L193">    }</span>
+
+
+    /* *****************************************************************************************************************
+     *                                      TableCellRenderer main method
+     */
+
+    @Override
+    public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+        //TODO: remove below!!!
+        BasicTableHeaderUI ui;
+        BasicTableUI ui2;
+        //TODO: remove above!!!
+<span class="nc bnc" id="L206" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="nc" id="L207">            JTableHeader header = table.getTableHeader();</span>
+<span class="nc bnc" id="L208" title="All 2 branches missed.">            if (header != null) {</span>
+<span class="nc" id="L209">                setForeground(header.getForeground());</span>
+<span class="nc" id="L210">                setBackground(header.getBackground());</span>
+<span class="nc bnc" id="L211" title="All 2 branches missed.">                String displayText = value == null? &quot;&quot; : value.toString();</span>
+<span class="nc" id="L212">                setText(displayText);</span>
+<span class="nc" id="L213">                setToolTipText(displayText);</span>
+<span class="nc" id="L214">                setColumnSortedProperties(table, column);</span>
+            }
+        }
+<span class="nc" id="L217">        return this;</span>
+    }
+
+
+    /* *****************************************************************************************************************
+     *                                            Getters and setters
+     */
+
+    /**
+     * {@inheritDoc}
+     * &lt;p&gt;
+     * This implementation ensures that whatever border is set, it is always wrapped in a CompoundBorder that
+     * has the SortIconBorder field as its inner border.  This inner border paints the sort icon and number.
+     */
+    @Override
+    public void setBorder(final Border border) {
+        // If the border is already a compound with our inner SortIconBorder,
+        // just set it directly to avoid repeatedly nesting compound borders.
+<span class="nc bnc" id="L235" title="All 4 branches missed.">        if (border instanceof CompoundBorder &amp;&amp; ((CompoundBorder) border).getInsideBorder() == sortIconBorder) {</span>
+<span class="nc" id="L236">            super.setBorder(border);</span>
+        } else {  // Wrap the border in a CompoundBorder using the SortIconBorder inside to render sort icon and number.
+<span class="nc" id="L238">            super.setBorder(new CompoundBorder(border, sortIconBorder));</span>
+        }
+<span class="nc" id="L240">    }</span>
+
+    /**
+     * Sets whether the column headers should be in a bold font if they are sorted.
+     *
+     * @param boldOnSorted whether the column headers should be in a bold font if they are sorted.
+     */
+    public void setBoldOnSorted(boolean boldOnSorted) {
+<span class="nc" id="L248">        this.boldOnSorted = boldOnSorted;</span>
+<span class="nc" id="L249">    }</span>
+
+    /**
+     * @return whether the column headers should be in a bold font if they are sorted.
+     */
+    public boolean getBoldOnSorted() {
+<span class="nc" id="L255">        return boldOnSorted;</span>
+    }
+
+    /**
+     * @return Whether the sort order number of the column should be displayed.
+     */
+    public boolean getShowNumber() {
+<span class="nc" id="L262">        return showNumber;</span>
+    }
+
+    /**
+     * Sets whether the sort order number of the column should be displayed.
+     * @param showNumber whether the sort order number of the column should be displayed.
+     */
+    public void setShowNumber(final boolean showNumber) {
+<span class="nc" id="L270">        this.showNumber = showNumber;</span>
+<span class="nc" id="L271">    }</span>
+
+    /**
+     * Sets the icon for an ascending sort.
+     * @param sortAscendingIcon the icon for an ascending sort.
+     */
+    public void setSortAscendingIcon(final Icon sortAscendingIcon) {
+<span class="nc" id="L278">        this.sortAscendingIcon = sortAscendingIcon;</span>
+<span class="nc" id="L279">        setMaxIconWidth();</span>
+<span class="nc" id="L280">    }</span>
+
+    /**
+     * @return the icon for an ascending sort.
+     */
+    public Icon getSortAscendingIcon() {
+<span class="nc" id="L286">        return sortAscendingIcon;</span>
+    }
+
+    /**
+     * Sets the icon for a descending sort.
+     * @param sortDescendingIcon the icon for a descending sort.
+     */
+    public void setSortDescendingIcon(final Icon sortDescendingIcon) {
+<span class="nc" id="L294">        this.sortDescendingIcon = sortDescendingIcon;</span>
+<span class="nc" id="L295">        setMaxIconWidth();</span>
+<span class="nc" id="L296">    }</span>
+
+    /**
+     * @return the icon for a descending sort.
+     */
+    public Icon getSortDescendingIcon() {
+<span class="nc" id="L302">        return sortDescendingIcon;</span>
+    }
+
+    /**
+     * Mostly make this available for test purposes.
+     * @return the inner border which is responsible for rendering the ascending / descending icons and column number.
+     */
+    protected Border getSortIconBorder() {
+<span class="nc" id="L310">        return sortIconBorder;</span>
+    }
+
+    /**
+     * Mostly make this available for test purposes.
+     * @return the JLabel that paints the icon and number.
+     */
+    protected JLabel getSortIconPainter() {
+<span class="nc" id="L318">        return paintLabel;</span>
+    }
+
+    /**
+     * Sets the maximum icon width for the descending and ascending icons.
+     */
+    protected final void setMaxIconWidth() {
+<span class="nc bnc" id="L325" title="All 2 branches missed.">        int descendingWidth = sortDescendingIcon == null? 0 : sortDescendingIcon.getIconWidth();</span>
+<span class="nc bnc" id="L326" title="All 2 branches missed.">        int ascendingWidth = sortAscendingIcon == null? 0 : sortAscendingIcon.getIconWidth();</span>
+<span class="nc" id="L327">        maxIconWidth = Math.max(descendingWidth, ascendingWidth);</span>
+<span class="nc" id="L328">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L332">        return getClass().getSimpleName() + &quot;(show sort number: &quot; + showNumber + ')';</span>
+    }
+
+    /**
+     * Sets the properties for a column, depending on whether it is sorted or not.
+     *
+     * @param table The table we are rendering for.
+     * @param column The column we need to set the sort properties for.
+     */
+    protected void setColumnSortedProperties(final JTable table, final int column) {
+<span class="nc" id="L342">        final List&lt;? extends RowSorter.SortKey&gt; sortKeys = table.getRowSorter().getSortKeys();</span>
+<span class="nc" id="L343">        final int columnModelIndex = table.convertColumnIndexToModel(column);</span>
+<span class="nc" id="L344">        final int sortKeyIndex = TableUtils.findSortKeyIndex(sortKeys, columnModelIndex);</span>
+<span class="nc bnc" id="L345" title="All 2 branches missed.">        sortOrder = sortKeyIndex &gt;= 0 ? sortKeys.get(sortKeyIndex).getSortOrder() : SortOrder.UNSORTED;</span>
+<span class="nc bnc" id="L346" title="All 2 branches missed.">        if (sortOrder == SortOrder.UNSORTED) {</span>
+<span class="nc" id="L347">            setUnsortedColumnProperties(table);</span>
+        } else {
+<span class="nc" id="L349">            setSortedColumnProperties(table, sortKeyIndex);</span>
+        }
+<span class="nc" id="L351">    }</span>
+
+    /**
+     * Sets the column properties for a sorted column.
+     * @param table The table for the the unsorted column.
+     * @param sortOrderNumber The sort number of the column.
+     */
+    protected void setSortedColumnProperties(final JTable table, final int sortOrderNumber) {
+<span class="nc" id="L359">        this.sortOrderNumber = sortOrderNumber;</span>
+<span class="nc bnc" id="L360" title="All 2 branches missed.">        sortIconBorder.insets.left = maxIconWidth + (showNumber ? sortNumberTextWidth : 0);</span>
+<span class="nc" id="L361">        setFont(getSortedColumnHeaderFont(table.getTableHeader().getFont()));</span>
+<span class="nc" id="L362">    }</span>
+
+    /**
+     * Sets the column properties if the column is not sorted.
+     * @param table The table for the the unsorted column.
+     */
+    protected void setUnsortedColumnProperties(final JTable table) {
+<span class="nc" id="L369">        sortOrder = SortOrder.UNSORTED;</span>
+<span class="nc" id="L370">        sortOrderNumber = -1;</span>
+<span class="nc" id="L371">        sortIconBorder.insets.left = 0;</span>
+<span class="nc" id="L372">        setFont(table.getTableHeader().getFont());</span>
+<span class="nc" id="L373">    }</span>
+
+    /**
+     * If boldOnSorted is true, then a bold font will be returned,
+     * otherwise the standard JTableHeader font is returned.
+     *
+     * @param headerFont The font used by the JTableHeader.
+     * @return the font to use for a sorted column header.
+     */
+    protected Font getSortedColumnHeaderFont(final Font headerFont) {
+<span class="nc bnc" id="L383" title="All 2 branches missed.">        if (boldOnSorted) {</span>
+<span class="nc" id="L384">            updateCachedFonts(headerFont);</span>
+<span class="nc" id="L385">            return boldHeaderFont;</span>
+        }
+<span class="nc" id="L387">        return headerFont;</span>
+    }
+
+    /**
+     * Checks that our cached font is up to date.  If not, it caches the new font and a new bold
+     * version of it to use on sorted columns.
+     *
+     * @param headerFont The font used by the JTableHeader.
+     */
+    protected void updateCachedFonts(final Font headerFont) {
+<span class="nc bnc" id="L397" title="All 2 branches missed.">        if (!headerFont.equals(cachedHeaderFont)) {</span>
+<span class="nc" id="L398">            cachedHeaderFont = headerFont;</span>
+<span class="nc bnc" id="L399" title="All 2 branches missed.">            boldHeaderFont = headerFont.isBold() ? headerFont</span>
+<span class="nc" id="L400">                                                 : headerFont.deriveFont(headerFont.getStyle() | Font.BOLD);</span>
+        }
+<span class="nc" id="L402">    }</span>
+
+    /**
+     * A border that leaves space to paint a sort icon and sort key number.
+     */
+<span class="nc" id="L407">    protected class SortIconBorder implements Border {</span>
+
+<span class="nc" id="L409">        protected final Insets insets = new Insets(VERTICAL_PADDING, 0, VERTICAL_PADDING, 0);</span>
+
+        @Override
+        public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
+<span class="nc bnc" id="L413" title="All 4 branches missed.">            if (sortOrderNumber &gt;= 0 &amp;&amp; sortOrder != SortOrder.UNSORTED) {</span>
+<span class="nc bnc" id="L414" title="All 2 branches missed.">                if (showNumber) {</span>
+<span class="nc" id="L415">                    setNumber(g);</span>
+                } else {
+<span class="nc" id="L417">                    setNoNumber();</span>
+                }
+<span class="nc" id="L419">                final JLabel labelToPaint = paintLabel;</span>
+<span class="nc bnc" id="L420" title="All 2 branches missed.">                labelToPaint.setIcon(sortOrder == SortOrder.ASCENDING ? sortAscendingIcon : sortDescendingIcon);</span>
+<span class="nc" id="L421">                labelToPaint.setSize(insets.left, height);</span>
+<span class="nc" id="L422">                labelToPaint.setFont(cachedHeaderFont);</span>
+<span class="nc" id="L423">                labelToPaint.setForeground(TreeTableHeaderRenderer.this.getForeground());</span>
+<span class="nc" id="L424">                labelToPaint.paint(g);</span>
+            }
+<span class="nc" id="L426">        }</span>
+
+        /**
+         * Sets the sort icon border with a sort order number.
+         *
+         * @param g the Graphics object which will be rendered on.
+         */
+        protected void setNumber(Graphics g) {
+<span class="nc" id="L434">            final String sortNumber = Integer.toString(sortOrderNumber + 1);</span>
+<span class="nc" id="L435">            final FontMetrics metrics = g.getFontMetrics(cachedHeaderFont);</span>
+<span class="nc" id="L436">            sortNumberTextWidth = metrics.stringWidth(sortNumber) + TEXT_PADDING;</span>
+<span class="nc" id="L437">            insets.left = maxIconWidth + sortNumberTextWidth;</span>
+<span class="nc" id="L438">            paintLabel.setText(sortNumber);</span>
+<span class="nc" id="L439">        }</span>
+
+        /**
+         * Sets the sort icon border with no sort number.
+         */
+        protected void setNoNumber() {
+<span class="nc" id="L445">            sortNumberTextWidth = 0;</span>
+<span class="nc" id="L446">            insets.left = maxIconWidth;</span>
+<span class="nc" id="L447">            paintLabel.setText(&quot;&quot;);</span>
+<span class="nc" id="L448">        }</span>
+
+        @Override
+        public Insets getBorderInsets(Component c) {
+<span class="nc" id="L452">            return insets;</span>
+        }
+
+        @Override
+        public boolean isBorderOpaque() {
+<span class="nc" id="L457">            return false;</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

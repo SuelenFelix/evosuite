@@ -21,7 +21,7 @@ import org.evosuite.runtime.testdata.FileSystemHandling;
 import org.junit.runner.RunWith;
 import top.gcszhn.movie.service.AutoCacheInputStream;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class AutoCacheInputStream_ESTest extends AutoCacheInputStream_ESTest_scaffolding {
 
   @Test(timeout = 4000)

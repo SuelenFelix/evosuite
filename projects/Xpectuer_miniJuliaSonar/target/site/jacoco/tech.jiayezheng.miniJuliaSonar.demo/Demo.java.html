@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Demo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.demo</a> &gt; <span class="el_source">Demo.java</span></div><h1>Demo.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.demo;
+
+import tech.jiayezheng.miniJuliaSonar.$;
+import tech.jiayezheng.miniJuliaSonar.Analyzer;
+import tech.jiayezheng.miniJuliaSonar.Options;
+import tech.jiayezheng.miniJuliaSonar.Progress;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+
+<span class="nc" id="L14">public class Demo {</span>
+
+    private static File OUTPUT_DIR;
+
+<span class="nc" id="L18">    private static final String CSS = $.readResource(&quot;tech/jiayezheng/miniJuliaSonar/css/demo.css&quot;);</span>
+<span class="nc" id="L19">    private static final String JS = $.readResource(&quot;tech/jiayezheng/miniJuliaSonar/js/highlight.js&quot;);</span>
+<span class="nc" id="L20">    private static final String JS_DEBUG = $.readResource(&quot;tech/jiayezheng/miniJuliaSonar/js/highlight-debug.js&quot;);</span>
+
+    private Analyzer analyzer;
+    private String rootPath;
+    private Linker linker;
+
+    private void makeOutputDir() {
+<span class="nc bnc" id="L27" title="All 2 branches missed.">        if (!OUTPUT_DIR.exists()) {</span>
+<span class="nc" id="L28">            OUTPUT_DIR.mkdirs();</span>
+<span class="nc" id="L29">            $.msg(&quot;Created directory: &quot; + OUTPUT_DIR.getAbsolutePath());</span>
+        }
+<span class="nc" id="L31">    }</span>
+
+
+
+    private void start(String fileOrDir, Map&lt;String, Object&gt; options) {
+<span class="nc" id="L36">        File f = new File(fileOrDir);</span>
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        File rootDir = f.isFile() ? f.getParentFile() : f;</span>
+        try
+        {
+<span class="nc" id="L40">            rootPath = $.unifyPath(rootDir);</span>
+        }
+<span class="nc" id="L42">        catch (Exception e)</span>
+        {
+<span class="nc" id="L44">            $.die(&quot;File not found: &quot; + f);</span>
+<span class="nc" id="L45">        }</span>
+
+<span class="nc" id="L47">        analyzer = new Analyzer(options);</span>
+<span class="nc" id="L48">        $.msg(&quot;Loading and analyzing files&quot;);</span>
+        try
+        {
+<span class="nc" id="L51">            analyzer.analyze(f.getPath());</span>
+        }
+        finally
+        {
+<span class="nc" id="L55">            analyzer.finish();</span>
+        }
+
+<span class="nc" id="L58">        generateHtml();</span>
+
+<span class="nc" id="L60">    }</span>
+
+    private void generateHtml() {
+
+<span class="nc" id="L64">        $.msg(&quot;\nGenerating HTML&quot;);</span>
+<span class="nc" id="L65">        makeOutputDir();</span>
+
+<span class="nc" id="L67">        linker = new Linker(rootPath, OUTPUT_DIR);</span>
+<span class="nc" id="L68">        linker.findLinks(analyzer);</span>
+
+<span class="nc" id="L70">        int rootLength = rootPath.length();</span>
+
+<span class="nc" id="L72">        int total = 0;</span>
+<span class="nc bnc" id="L73" title="All 2 branches missed.">        for (String path : analyzer.getLoadedFiles()) {</span>
+<span class="nc bnc" id="L74" title="All 2 branches missed.">            if (path.startsWith(rootPath)) {</span>
+<span class="nc" id="L75">                total++;</span>
+            }
+<span class="nc" id="L77">        }</span>
+
+<span class="nc" id="L79">        Progress progress = new Progress(total, 50);</span>
+
+<span class="nc bnc" id="L81" title="All 2 branches missed.">        for (String path : analyzer.getLoadedFiles()) {</span>
+<span class="nc bnc" id="L82" title="All 2 branches missed.">            if (path.startsWith(rootPath)) {</span>
+<span class="nc" id="L83">                progress.tick();</span>
+<span class="nc" id="L84">                File destFile = $.joinPath(OUTPUT_DIR, path.substring(rootLength));</span>
+<span class="nc" id="L85">                destFile.getParentFile().mkdirs();</span>
+<span class="nc" id="L86">                String destPath = destFile.getAbsolutePath() + &quot;.html&quot;;</span>
+<span class="nc" id="L87">                String html = markup(path);</span>
+                try {
+<span class="nc" id="L89">                    $.writeFile(destPath, html);</span>
+<span class="nc" id="L90">                } catch (Exception e) {</span>
+<span class="nc" id="L91">                    $.msg(&quot;Failed to write: &quot; + destPath);</span>
+<span class="nc" id="L92">                }</span>
+            }
+<span class="nc" id="L94">        }</span>
+
+<span class="nc" id="L96">        $.msg(&quot;\nWrote &quot; + analyzer.getLoadedFiles().size() + &quot; files to &quot; + OUTPUT_DIR);</span>
+<span class="nc" id="L97">    }</span>
+
+    private String markup(String path) {
+        String source;
+
+        try {
+<span class="nc" id="L103">            source = $.readFile(path);</span>
+<span class="nc" id="L104">        } catch (Exception e) {</span>
+<span class="nc" id="L105">            $.die(&quot;Failed to read file:&quot; + path);</span>
+<span class="nc" id="L106">            return &quot;&quot;;</span>
+<span class="nc" id="L107">        }</span>
+
+<span class="nc" id="L109">        List&lt;Style&gt; styles = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L110">        styles.addAll(linker.getStyles(path));</span>
+
+<span class="nc" id="L112">        String styledSource = new StyleApplier(path, source, styles).apply();</span>
+<span class="nc" id="L113">        String outline = new HtmlOutline(analyzer).generate(path);</span>
+
+<span class="nc" id="L115">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc" id="L116">        sb.append(&quot;&lt;html&gt;\n&quot;)</span>
+<span class="nc" id="L117">                .append(&quot;&lt;head&gt;\n&quot;)</span>
+<span class="nc" id="L118">                .append(&quot;&lt;meta charset=\&quot;utf-8\&quot;&gt;\n&quot;)</span>
+<span class="nc" id="L119">                .append(&quot;&lt;title&gt;&quot;).append(path).append(&quot;&lt;/title&gt;\n&quot;)</span>
+<span class="nc" id="L120">                .append(&quot;&lt;style type='text/css'&gt;\n&quot;).append(CSS).append(&quot;\n&lt;/style&gt;\n&quot;)</span>
+//                .append(&quot;&lt;script language=\&quot;JavaScript\&quot; type=\&quot;text/javascript\&quot;&gt;\n&quot;)
+//                .append(Analyzer.self.hasOption(&quot;debug&quot;) ? JS_DEBUG : JS)
+//                .append(&quot;&lt;/script&gt;\n&quot;)
+<span class="nc" id="L124">                .append(&quot;&lt;/head&gt;\n&lt;body&gt;\n&quot;)</span>
+<span class="nc" id="L125">                .append(&quot;&lt;table width=100% border='1px solid gray'&gt;&lt;tr&gt;&quot;)</span>
+<span class="nc" id="L126">                .append(&quot;&lt;td&gt;&quot;)</span>
+<span class="nc" id="L127">                .append(&quot;&lt;pre&gt;&quot;)</span>
+<span class="nc" id="L128">                .append(addLineNumbers(styledSource))</span>
+<span class="nc" id="L129">                .append(&quot;&lt;/pre&gt;&quot;)</span>
+<span class="nc" id="L130">                .append(&quot;&lt;/td&gt;&quot;)</span>
+<span class="nc" id="L131">                .append(&quot;&lt;td valign='top'&gt;&quot;)</span>
+<span class="nc" id="L132">                .append(outline)</span>
+<span class="nc" id="L133">                .append(&quot;&lt;/td&gt;&quot;)</span>
+<span class="nc" id="L134">                .append(&quot;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;&quot;);</span>
+<span class="nc" id="L135">        return sb.toString();</span>
+    }
+
+    private String addLineNumbers(String source) {
+<span class="nc" id="L139">        StringBuilder result = new StringBuilder((int) (source.length() * 1.2));</span>
+<span class="nc" id="L140">        int count = 1;</span>
+<span class="nc bnc" id="L141" title="All 2 branches missed.">        for (String line : source.split(&quot;\n&quot;)) {</span>
+<span class="nc" id="L142">            result.append(&quot;&lt;span class='lineno'&gt;&quot;);</span>
+<span class="nc" id="L143">            result.append(String.format(&quot;%1$4d&quot;, count++));</span>
+<span class="nc" id="L144">            result.append(&quot;&lt;/span&gt; &quot;);</span>
+<span class="nc" id="L145">            result.append(line);</span>
+<span class="nc" id="L146">            result.append(&quot;\n&quot;);</span>
+        }
+<span class="nc" id="L148">        return result.toString();</span>
+    }
+
+    private static void usage() {
+<span class="nc" id="L152">        $.msg(&quot;usage():\n&quot; );</span>
+<span class="nc" id="L153">        $.msg(&quot;\tto run:     java -jar target/miniJuliaSonar-&lt;version&gt;.jar &lt;workdir&gt; &lt;outdir&gt;\n&quot;);</span>
+        // $.msg(&quot;\tto test:     java -jar target/miniJuliaSonar-&lt;version&gt;.jar tech.jiayezheng.miniJuliaSonar.TestInference -generate tests\n&quot;);
+<span class="nc" id="L155">    }</span>
+
+
+    // entry
+    public static void main(String[] args) {
+<span class="nc" id="L160">        Options options = new Options(args);</span>
+
+<span class="nc" id="L162">        List&lt;String&gt; argsList = options.getArgs();</span>
+<span class="nc bnc" id="L163" title="All 2 branches missed.">        if(argsList.size() &lt; 1) {</span>
+<span class="nc" id="L164">            usage();</span>
+        }
+<span class="nc" id="L166">        String fileOrDir = argsList.get(0);</span>
+<span class="nc" id="L167">        OUTPUT_DIR = new File(argsList.get(1));</span>
+
+<span class="nc" id="L169">        new Demo().start(fileOrDir, options.getOptionsMap());</span>
+<span class="nc" id="L170">        $.msg($.getGCStats());</span>
+<span class="nc" id="L171">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

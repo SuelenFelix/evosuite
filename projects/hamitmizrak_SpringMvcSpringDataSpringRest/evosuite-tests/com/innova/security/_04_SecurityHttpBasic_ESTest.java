@@ -14,7 +14,7 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class _04_SecurityHttpBasic_ESTest extends _04_SecurityHttpBasic_ESTest_scaffolding {
 
   @Test(timeout = 4000)

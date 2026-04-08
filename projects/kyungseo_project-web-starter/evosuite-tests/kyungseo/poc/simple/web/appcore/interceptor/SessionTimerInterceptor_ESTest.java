@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
 import org.springframework.core.env.StandardEnvironment;
 import org.springframework.web.servlet.ModelAndView;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class SessionTimerInterceptor_ESTest extends SessionTimerInterceptor_ESTest_scaffolding {
 
   @Test(timeout = 4000)

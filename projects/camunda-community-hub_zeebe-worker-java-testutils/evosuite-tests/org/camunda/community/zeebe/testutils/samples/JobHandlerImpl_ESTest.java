@@ -5,51 +5,57 @@
 
 package org.camunda.community.zeebe.testutils.samples;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
+import static org.junit.Assert.*;
+
 import io.camunda.zeebe.client.api.response.ActivatedJob;
 import io.camunda.zeebe.client.api.worker.JobClient;
-import org.camunda.community.zeebe.testutils.samples.JobHandlerImpl;
 import org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class)
+@EvoRunnerParameters(
+    mockJVMNonDeterminism = true,
+    useVFS = true,
+    useVNET = true,
+    resetStaticState = true,
+    separateClassLoader = false)
 public class JobHandlerImpl_ESTest extends JobHandlerImpl_ESTest_scaffolding {
 
   @Test(timeout = 4000)
-  public void test0()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1863L));
-      // Undeclared exception!
-      try { 
-        JobHandlerImpl.Scenario.readScenario(activatedJobStub0);
-      } catch(NullPointerException e) {
-         //
-         // Name is null
-         //
-         verifyException("java.lang.Enum", e);
-      }
+  public void test0() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1863L));
+    // Undeclared exception!
+    try {
+      JobHandlerImpl.Scenario.readScenario(activatedJobStub0);
+    } catch (NullPointerException e) {
+      //
+      // Name is null
+      //
+      verifyException("java.lang.Enum", e);
+    }
   }
 
   @Test(timeout = 4000)
-  public void test1()  throws Throwable  {
-      JobHandlerImpl.Scenario jobHandlerImpl_Scenario0 = JobHandlerImpl.Scenario.THROW_ERROR;
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(0L);
-      jobHandlerImpl_Scenario0.writeScenario(activatedJobStub0);
+  public void test1() throws Throwable {
+    JobHandlerImpl.Scenario jobHandlerImpl_Scenario0 = JobHandlerImpl.Scenario.THROW_ERROR;
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(0L);
+    jobHandlerImpl_Scenario0.writeScenario(activatedJobStub0);
   }
 
   @Test(timeout = 4000)
-  public void test2()  throws Throwable  {
-      JobHandlerImpl jobHandlerImpl0 = new JobHandlerImpl();
-      // Undeclared exception!
-      try { 
-        jobHandlerImpl0.handle((JobClient) null, (ActivatedJob) null);
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-      }
+  public void test2() throws Throwable {
+    JobHandlerImpl jobHandlerImpl0 = new JobHandlerImpl();
+    // Undeclared exception!
+    try {
+      jobHandlerImpl0.handle((JobClient) null, (ActivatedJob) null);
+    } catch (NullPointerException e) {
+      //
+      // no message in exception (getMessage() returned null)
+      //
+    }
   }
 }

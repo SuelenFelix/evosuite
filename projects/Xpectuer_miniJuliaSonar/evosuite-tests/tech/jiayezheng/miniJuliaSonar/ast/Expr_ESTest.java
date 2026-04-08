@@ -17,7 +17,7 @@ import tech.jiayezheng.miniJuliaSonar.ast.Expr;
 import tech.jiayezheng.miniJuliaSonar.ast.Node;
 import tech.jiayezheng.miniJuliaSonar.ast.Root;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Expr_ESTest extends Expr_ESTest_scaffolding {
 
   @Test(timeout = 4000)

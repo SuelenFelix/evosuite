@@ -25,7 +25,7 @@ import org.openRealmOfStars.starMap.StarMap;
 import org.openRealmOfStars.starMap.event.ascensionEvents.AscensionEventType;
 import org.openRealmOfStars.starMap.event.ascensionEvents.AscensionEvents;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class AscensionEvents_ESTest extends AscensionEvents_ESTest_scaffolding {
 
   @Test(timeout = 4000)

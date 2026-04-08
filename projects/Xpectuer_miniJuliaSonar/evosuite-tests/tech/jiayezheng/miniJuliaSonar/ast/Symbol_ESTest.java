@@ -17,7 +17,7 @@ import tech.jiayezheng.miniJuliaSonar.ast.Node;
 import tech.jiayezheng.miniJuliaSonar.ast.Symbol;
 import tech.jiayezheng.miniJuliaSonar.ast.Union;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Symbol_ESTest extends Symbol_ESTest_scaffolding {
 
   @Test(timeout = 4000)

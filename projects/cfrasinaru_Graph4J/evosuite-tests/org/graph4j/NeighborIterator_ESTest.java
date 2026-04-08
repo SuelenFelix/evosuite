@@ -18,7 +18,7 @@ import org.graph4j.PseudographImpl;
 import org.graph4j.SuccessorIterator;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class NeighborIterator_ESTest extends NeighborIterator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

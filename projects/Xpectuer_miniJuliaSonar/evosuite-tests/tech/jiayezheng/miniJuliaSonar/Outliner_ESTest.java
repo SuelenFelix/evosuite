@@ -17,7 +17,7 @@ import tech.jiayezheng.miniJuliaSonar.Binding;
 import tech.jiayezheng.miniJuliaSonar.Outliner;
 import tech.jiayezheng.miniJuliaSonar.State;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Outliner_ESTest extends Outliner_ESTest_scaffolding {
 
   @Test(timeout = 4000)

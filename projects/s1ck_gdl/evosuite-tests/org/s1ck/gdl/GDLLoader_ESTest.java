@@ -24,7 +24,7 @@ import org.s1ck.gdl.model.Vertex;
 import org.s1ck.gdl.model.predicates.Predicate;
 import org.s1ck.gdl.utils.ContinuousId;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class GDLLoader_ESTest extends GDLLoader_ESTest_scaffolding {
 
   @Test(timeout = 4000)

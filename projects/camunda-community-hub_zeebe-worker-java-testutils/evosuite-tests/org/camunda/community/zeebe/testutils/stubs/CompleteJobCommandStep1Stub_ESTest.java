@@ -5,83 +5,99 @@
 
 package org.camunda.community.zeebe.testutils.stubs;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
+import static org.junit.Assert.*;
+
 import io.camunda.zeebe.client.api.ZeebeFuture;
 import io.camunda.zeebe.client.api.command.CompleteJobCommandStep1;
 import io.camunda.zeebe.client.api.command.FinalCommandStep;
 import io.camunda.zeebe.client.api.response.CompleteJobResponse;
 import java.time.Duration;
-import org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub;
-import org.camunda.community.zeebe.testutils.stubs.CompleteJobCommandStep1Stub;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
-public class CompleteJobCommandStep1Stub_ESTest extends CompleteJobCommandStep1Stub_ESTest_scaffolding {
+@RunWith(EvoRunner.class)
+@EvoRunnerParameters(
+    mockJVMNonDeterminism = true,
+    useVFS = true,
+    useVNET = true,
+    resetStaticState = true,
+    separateClassLoader = false)
+public class CompleteJobCommandStep1Stub_ESTest
+    extends CompleteJobCommandStep1Stub_ESTest_scaffolding {
 
   @Test(timeout = 4000)
-  public void test0()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(0L);
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub(activatedJobStub0);
-      // Undeclared exception!
-      try { 
-        completeJobCommandStep1Stub0.setVariablesInternal((String) null);
-      } catch(IllegalArgumentException e) {
-         //
-         // argument \"content\" is null
-         //
-         verifyException("com.fasterxml.jackson.databind.ObjectMapper", e);
-      }
+  public void test0() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(0L);
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub(activatedJobStub0);
+    // Undeclared exception!
+    try {
+      completeJobCommandStep1Stub0.setVariablesInternal((String) null);
+    } catch (IllegalArgumentException e) {
+      //
+      // argument \"content\" is null
+      //
+      verifyException("com.fasterxml.jackson.databind.ObjectMapper", e);
+    }
   }
 
   @Test(timeout = 4000)
-  public void test1()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1885L));
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub(activatedJobStub0);
-      // Undeclared exception!
-      try { 
-        completeJobCommandStep1Stub0.setVariablesInternal("");
-      } catch(RuntimeException e) {
-         //
-         // Failed to deserialize json '' to 'Map<String, Object>'
-         //
-         verifyException("io.camunda.zeebe.client.impl.ZeebeObjectMapper", e);
-      }
+  public void test1() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1885L));
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub(activatedJobStub0);
+    // Undeclared exception!
+    try {
+      completeJobCommandStep1Stub0.setVariablesInternal("");
+    } catch (RuntimeException e) {
+      //
+      // Failed to deserialize json '' to 'Map<String, Object>'
+      //
+      verifyException("io.camunda.zeebe.client.impl.ZeebeObjectMapper", e);
+    }
   }
 
   @Test(timeout = 4000)
-  public void test2()  throws Throwable  {
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub((ActivatedJobStub) null);
-      ZeebeFuture<CompleteJobResponse> zeebeFuture0 = completeJobCommandStep1Stub0.send();
+  public void test2() throws Throwable {
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub((ActivatedJobStub) null);
+    ZeebeFuture<CompleteJobResponse> zeebeFuture0 = completeJobCommandStep1Stub0.send();
   }
 
   @Test(timeout = 4000)
-  public void test3()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1885L));
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub(activatedJobStub0);
-      CompleteJobCommandStep1 completeJobCommandStep1_0 = completeJobCommandStep1Stub0.variables((Object) activatedJobStub0);
+  public void test3() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1885L));
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub(activatedJobStub0);
+    CompleteJobCommandStep1 completeJobCommandStep1_0 =
+        completeJobCommandStep1Stub0.variables((Object) activatedJobStub0);
   }
 
   @Test(timeout = 4000)
-  public void test4()  throws Throwable  {
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub((ActivatedJobStub) null);
-      CompleteJobCommandStep1 completeJobCommandStep1_0 = completeJobCommandStep1Stub0.setVariablesInternal("{vs[3r-MX'>@z?n");
+  public void test4() throws Throwable {
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub((ActivatedJobStub) null);
+    CompleteJobCommandStep1 completeJobCommandStep1_0 =
+        completeJobCommandStep1Stub0.setVariablesInternal("{vs[3r-MX'>@z?n");
   }
 
   @Test(timeout = 4000)
-  public void test5()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1885L));
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub(activatedJobStub0);
-      ZeebeFuture<CompleteJobResponse> zeebeFuture0 = completeJobCommandStep1Stub0.send();
+  public void test5() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub((-1885L));
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub(activatedJobStub0);
+    ZeebeFuture<CompleteJobResponse> zeebeFuture0 = completeJobCommandStep1Stub0.send();
   }
 
   @Test(timeout = 4000)
-  public void test6()  throws Throwable  {
-      CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 = new CompleteJobCommandStep1Stub((ActivatedJobStub) null);
-      Duration duration0 = Duration.ZERO;
-      FinalCommandStep<CompleteJobResponse> finalCommandStep0 = completeJobCommandStep1Stub0.requestTimeout(duration0);
+  public void test6() throws Throwable {
+    CompleteJobCommandStep1Stub completeJobCommandStep1Stub0 =
+        new CompleteJobCommandStep1Stub((ActivatedJobStub) null);
+    Duration duration0 = Duration.ZERO;
+    FinalCommandStep<CompleteJobResponse> finalCommandStep0 =
+        completeJobCommandStep1Stub0.requestTimeout(duration0);
   }
 }

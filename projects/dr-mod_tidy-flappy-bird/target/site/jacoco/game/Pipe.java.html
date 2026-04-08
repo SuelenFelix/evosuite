@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Pipe.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">flap-bird</a> &gt; <a href="index.source.html" class="el_package">game</a> &gt; <span class="el_source">Pipe.java</span></div><h1>Pipe.java</h1><pre class="source lang-java linenums">package game;
+
+import presentation.Drawable;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+public class Pipe implements Drawable, Steppable {
+
+    private static final int OPENING = 200;
+
+    private static BufferedImage IMAGE;
+    private static BufferedImage IMAGE2;
+
+    private int x;
+    private int yOpeningStart;
+    private int yOpeningEnd;
+
+    private final int width;
+
+    static {
+        try {
+<span class="nc" id="L28">            IMAGE = ImageIO.read(new File(&quot;/src/main/resources/imgs/pipe2.png&quot;));</span>
+<span class="nc" id="L29">            IMAGE2 = rotateImage(IMAGE, 180);</span>
+<span class="nc" id="L30">        } catch (IOException e) {</span>
+<span class="nc" id="L31">            e.printStackTrace();</span>
+<span class="nc" id="L32">        }</span>
+<span class="nc" id="L33">    }</span>
+
+<span class="nc" id="L35">    public Pipe(int x, int yOpeningStart) {</span>
+<span class="nc" id="L36">        this.x = x;</span>
+<span class="nc" id="L37">        this.yOpeningStart = yOpeningStart;</span>
+<span class="nc" id="L38">        this.yOpeningEnd = yOpeningStart + OPENING;</span>
+<span class="nc" id="L39">        width = IMAGE.getWidth();</span>
+<span class="nc" id="L40">    }</span>
+
+    @Override
+    public void step() {
+<span class="nc" id="L44">        this.x -= 5;</span>
+<span class="nc" id="L45">    }</span>
+
+    @Override
+    public void show(Graphics g) {
+<span class="nc" id="L49">        g.drawImage(IMAGE, x, yOpeningStart + OPENING, null);</span>
+<span class="nc" id="L50">        g.drawImage(IMAGE2, x, yOpeningStart - IMAGE2.getHeight(), null);</span>
+<span class="nc" id="L51">    }</span>
+
+
+    public int getX() {
+<span class="nc" id="L55">        return x;</span>
+    }
+
+    public void setX(int x) {
+<span class="nc" id="L59">        this.x = x;</span>
+<span class="nc" id="L60">    }</span>
+
+
+    public int getyOpeningStart() {
+<span class="nc" id="L64">        return this.yOpeningStart;</span>
+    }
+
+    public int getyOpeningEnd() {
+<span class="nc" id="L68">        return this.yOpeningEnd;</span>
+    }
+
+    public void setyOpeningStart(int yOpeningStart) {
+<span class="nc" id="L72">        this.yOpeningStart = yOpeningStart;</span>
+<span class="nc" id="L73">        this.yOpeningEnd = yOpeningStart + OPENING;</span>
+<span class="nc" id="L74">    }</span>
+
+    public int getWidth() {
+<span class="nc" id="L77">        return width;</span>
+    }
+
+    public static BufferedImage rotateImage(BufferedImage imag, int n) {
+<span class="nc" id="L81">        double rotationRequired = Math.toRadians(n);</span>
+<span class="nc" id="L82">        double locationX = imag.getWidth() / 2;</span>
+<span class="nc" id="L83">        double locationY = imag.getHeight() / 2;</span>
+<span class="nc" id="L84">        AffineTransform tx = AffineTransform.getRotateInstance(rotationRequired, locationX, locationY);</span>
+<span class="nc" id="L85">        AffineTransformOp op = new AffineTransformOp(tx, AffineTransformOp.TYPE_BILINEAR);</span>
+<span class="nc" id="L86">        BufferedImage newImage =new BufferedImage(imag.getWidth(), imag.getHeight(), BufferedImage.TYPE_INT_ARGB);</span>
+<span class="nc" id="L87">        op.filter(imag, newImage);</span>
+
+<span class="nc" id="L89">        return newImage;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

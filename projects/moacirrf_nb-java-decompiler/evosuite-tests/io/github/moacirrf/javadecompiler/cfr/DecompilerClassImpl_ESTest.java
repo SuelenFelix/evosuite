@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 import org.netbeans.modules.masterfs.filebasedfs.fileobjects.RootObjWindows;
 import org.openide.filesystems.FileObject;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class DecompilerClassImpl_ESTest extends DecompilerClassImpl_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -1,0 +1,335 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< example:spring-boot-junit5 >---------------------
+[INFO] Building spring-boot-junit5 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ spring-boot-junit5 ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default) @ spring-boot-junit5 ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ spring-boot-junit5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ spring-boot-junit5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /app/target/classes
+[INFO] /app/src/main/java/example/exception/CustomGlobalExceptionHandler.java: /app/src/main/java/example/exception/CustomGlobalExceptionHandler.java uses unchecked or unsafe operations.
+[INFO] /app/src/main/java/example/exception/CustomGlobalExceptionHandler.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ spring-boot-junit5 ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ spring-boot-junit5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ spring-boot-junit5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /app/target/test-classes
+[INFO] /app/src/test/java/example/controller/AuthorResourceTest.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/example/controller/AuthorResourceTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-junit5 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running example.controller.AuthorResourceTest
+02:14:18.330 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [example.controller.AuthorResourceTest], using SpringBootContextLoader
+02:14:18.340 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [example.controller.AuthorResourceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:14:18.342 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [example.controller.AuthorResourceTest]: AuthorResourceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:14:18.509 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration example.Application for test class example.controller.AuthorResourceTest
+02:14:18.609 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:14:18.630 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7167d81b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7cadf3ca, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@34fcc5e3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@737445ab, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c9cfcde, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f3c7b24, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7dbd70fd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cb53bfc, org.springframework.test.context.event.EventPublishingTestExecutionListener@779448b8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3bbdf835, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2d114d27, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@28fef9a2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7dfab58d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@29d29657, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@e0d9e3f]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.5)
+
+02:14:19.012 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+02:14:19.022 [main] INFO  e.controller.AuthorResourceTest - Starting AuthorResourceTest using Java 11.0.16 on 252f8fcefc0d with PID 70 (started by root in /app)
+02:14:19.023 [main] INFO  e.controller.AuthorResourceTest - The following 1 profile is active: "test"
+02:14:19.046 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application-test.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application-test.yml] - 2:13]
+02:14:19.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02:14:19.504 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+02:14:20.457 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:14:20.774 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:14:20.918 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:14:20.972 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+02:14:21.012 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02:14:21.115 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+02:14:21.597 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:14:21.605 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02:14:23.296 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+02:14:23.296 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+02:14:23.298 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+02:14:23.317 [main] INFO  e.controller.AuthorResourceTest - Started AuthorResourceTest in 4.648 seconds (JVM running for 5.926)
+02:14:23.400 [main] INFO  example.controller.AuthorResource - DELETE /api/v1/authors/0
+02:14:23.538 [main] ERROR e.e.CustomGlobalExceptionHandler - Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> example.controller.AuthorResource.create(example.dto.AuthorDto) with 3 errors: [Field error in object 'authorDto' on field 'lastName': rejected value [S@#¢∞name]; codes [Pattern.authorDto.lastName,Pattern.lastName,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [authorDto.lastName,lastName]; arguments []; default message [lastName],[Ljavax.validation.constraints.Pattern$Flag;@3b0341ea,^[A-Za-z0-9]+$]; default message [An alphanumeric last name is mandatory]] [Field error in object 'authorDto' on field 'email': rejected value [test_examplecom]; codes [Email.authorDto.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [authorDto.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@6b79d4e3,.*]; default message [A valid mail address is mandatory]] [Field error in object 'authorDto' on field 'firstName': rejected value [null]; codes [NotBlank.authorDto.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [authorDto.firstName,firstName]; arguments []; default message [firstName]]; default message [First name is mandatory]] 
+02:14:23.601 [main] INFO  example.controller.AuthorResource - DELETE /api/v1/authors/404
+02:14:23.624 [main] INFO  example.controller.AuthorResource - POST /api/v1/authors :AuthorDto(id=0, firstName=Test, lastName=Surname, email=test@example.com)
+02:14:23.632 [main] INFO  example.controller.AuthorResource - POST /api/v1/authors :AuthorDto(id=null, firstName=Test, lastName=Surname, email=test@example.com)
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.561 s - in example.controller.AuthorResourceTest
+[INFO] Running example.controller.BookResourceTest
+02:14:23.639 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [example.controller.BookResourceTest], using SpringBootContextLoader
+02:14:23.640 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [example.controller.BookResourceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:14:23.641 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [example.controller.BookResourceTest]: BookResourceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:14:23.645 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration example.Application for test class example.controller.BookResourceTest
+02:14:23.647 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:14:23.648 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@433b60b4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@387d2001, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6f13d9bd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@21c980c1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@39ef6a8c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68c32898, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19ecda0c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@74ce9e78, org.springframework.test.context.event.EventPublishingTestExecutionListener@36b73167, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47c158c1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3882c68f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@383fb2b9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@378c80d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7a46c1b0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@545ec6c9]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.5)
+
+02:14:23.673 [main] INFO  example.controller.BookResourceTest - Starting BookResourceTest using Java 11.0.16 on 252f8fcefc0d with PID 70 (started by root in /app)
+02:14:23.673 [main] INFO  example.controller.BookResourceTest - The following 1 profile is active: "test"
+02:14:23.676 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application-test.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application-test.yml] - 2:13]
+02:14:23.777 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02:14:23.782 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+02:14:23.899 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+02:14:23.900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+02:14:23.930 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:14:23.933 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+02:14:23.974 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:14:23.975 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02:14:24.496 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+02:14:24.497 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+02:14:24.498 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+02:14:24.504 [main] INFO  example.controller.BookResourceTest - Started BookResourceTest in 0.852 seconds (JVM running for 7.113)
+02:14:24.537 [main] INFO  example.controller.BookResource - POST /api/v1/books : BookDto(id=null, title=test, description=example, genre=Drama, price=null, author=AuthorDto(id=0, firstName=null, lastName=null, email=null))
+02:14:24.549 [main] INFO  example.controller.BookResource - GET /api/v1/books/0
+02:14:24.557 [main] ERROR e.e.CustomGlobalExceptionHandler - Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> example.controller.BookResource.create(example.dto.BookDto) with 3 errors: [Field error in object 'bookDto' on field 'genre': rejected value [null]; codes [NotNull.bookDto.genre,NotNull.genre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDto.genre,genre]; arguments []; default message [genre]]; default message [Genre is mandatory]] [Field error in object 'bookDto' on field 'author': rejected value [null]; codes [NotNull.bookDto.author,NotNull.author,NotNull.example.dto.AuthorDto,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDto.author,author]; arguments []; default message [author]]; default message [Author is mandatory]] [Field error in object 'bookDto' on field 'title': rejected value [null]; codes [NotBlank.bookDto.title,NotBlank.title,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDto.title,title]; arguments []; default message [title]]; default message [Title is mandatory]] 
+02:14:24.566 [main] INFO  example.controller.BookResource - GET /api/v1/books/404
+02:14:24.573 [main] INFO  example.controller.BookResource - POST /api/v1/books : BookDto(id=null, title=test, description=example, genre=Drama, price=null, author=AuthorDto(id=0, firstName=null, lastName=null, email=null))
+02:14:24.581 [main] INFO  example.controller.BookResource - GET /api/v1/books
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.918 s - in example.controller.BookResourceTest
+[INFO] Running example.controller.AuthorResourceRestTest
+02:14:24.587 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [example.controller.AuthorResourceRestTest], using SpringBootContextLoader
+02:14:24.588 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [example.controller.AuthorResourceRestTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:14:24.590 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:14:24.591 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e0b479b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c78121, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@54e29dd1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@552bd37b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61a861da, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5f582a47, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f143868, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@142f80fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@36ab8514, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@283f8b94, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@16562183, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e964be3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@14ffe200, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4048b820, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6735d393]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.5)
+
+02:14:24.614 [main] INFO  e.controller.AuthorResourceRestTest - Starting AuthorResourceRestTest using Java 11.0.16 on 252f8fcefc0d with PID 70 (started by root in /app)
+02:14:24.614 [main] INFO  e.controller.AuthorResourceRestTest - The following 1 profile is active: "test"
+02:14:24.616 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application-test.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application-test.yml] - 2:13]
+02:14:24.694 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02:14:24.699 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+02:14:24.899 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+02:14:24.910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+02:14:24.911 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:14:24.911 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+02:14:25.005 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:14:25.005 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 389 ms
+02:14:25.071 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+02:14:25.072 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+02:14:25.098 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:14:25.101 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+02:14:25.137 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:14:25.137 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02:14:25.509 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+02:14:25.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 38543 (http) with context path ''
+02:14:25.533 [main] INFO  e.controller.AuthorResourceRestTest - Started AuthorResourceRestTest in 0.94 seconds (JVM running for 8.141)
+02:14:25.613 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:14:25.613 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:14:25.614 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02:14:25.630 [http-nio-auto-1-exec-1] INFO  example.controller.AuthorResource - POST /api/v1/authors :AuthorDto(id=null, firstName=Test, lastName=Surname, email=test@example.com)
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+02:14:25.753 [http-nio-auto-1-exec-2] INFO  example.controller.AuthorResource - DELETE /api/v1/authors/2
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: select books0_.author_id as author_i6_1_0_, books0_.id as id1_1_0_, books0_.id as id1_1_1_, books0_.author_id as author_i6_1_1_, books0_.description as descript2_1_1_, books0_.genre as genre3_1_1_, books0_.price as price4_1_1_, books0_.title as title5_1_1_ from book books0_ where books0_.author_id=?
+Hibernate: delete from book where id=?
+Hibernate: delete from book where id=?
+Hibernate: delete from book where id=?
+Hibernate: delete from book where id=?
+Hibernate: delete from author where id=?
+02:14:25.802 [http-nio-auto-1-exec-3] INFO  example.controller.AuthorResource - POST /api/v1/authors :AuthorDto(id=1, firstName=Test, lastName=Surname, email=test@example.com)
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+02:14:25.823 [http-nio-auto-1-exec-4] INFO  example.controller.AuthorResource - DELETE /api/v1/authors/404
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.242 s - in example.controller.AuthorResourceRestTest
+[INFO] Running example.controller.BookResourceRestTest
+02:14:25.831 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [example.controller.BookResourceRestTest], using SpringBootContextLoader
+02:14:25.832 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [example.controller.BookResourceRestTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:14:25.835 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:14:25.835 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@152789f9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a6201ec, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@17f8c9f8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@29a7bf38, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6693b4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a218f35, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7b472480, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f0d0aaf, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b42cfc9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7dbcabb3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f9de3a0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@38c2ce8e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@753372d8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d4abefe, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3d1ad014]
+02:14:25.842 [http-nio-auto-1-exec-5] INFO  example.controller.BookResource - GET /api/v1/books
+Hibernate: select book0_.id as id1_1_, book0_.author_id as author_i6_1_, book0_.description as descript2_1_, book0_.genre as genre3_1_, book0_.price as price4_1_, book0_.title as title5_1_ from book book0_
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+02:14:25.983 [http-nio-auto-1-exec-6] INFO  example.controller.BookResource - POST /api/v1/books : BookDto(id=null, title=title1, description=example, genre=Romance, price=10, author=AuthorDto(id=1, firstName=null, lastName=null, email=null))
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+02:14:25.999 [http-nio-auto-1-exec-7] INFO  example.controller.BookResource - POST /api/v1/books : BookDto(id=1, title=title1, description=example, genre=Romance, price=10, author=AuthorDto(id=1, firstName=null, lastName=null, email=null))
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+02:14:26.017 [http-nio-auto-1-exec-8] INFO  example.controller.BookResource - GET /api/v1/books/1
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+02:14:26.029 [http-nio-auto-1-exec-9] INFO  example.controller.BookResource - GET /api/v1/books/404
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 s - in example.controller.BookResourceRestTest
+[INFO] Running example.dto.BookDtoTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.dto.BookDtoTest
+[INFO] Running example.dto.AuthorDtoTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDtoTest
+[INFO] Running example.repository.BookRepositoryTest
+02:14:26.048 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [example.repository.BookRepositoryTest], using SpringBootContextLoader
+02:14:26.048 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [example.repository.BookRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:14:26.049 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [example.repository.BookRepositoryTest]: BookRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:14:26.052 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration example.Application for test class example.repository.BookRepositoryTest
+02:14:26.053 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:14:26.054 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7982a859, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29d03b20, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@67c46f71, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@42253109, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2e899974, org.springframework.test.context.support.DirtiesContextTestExecutionListener@628aebe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@42d3e6ed, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@29152ac7, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b3544a8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8ab5e2e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55123558, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55516e2f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34207029, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@662802ad, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@225443c5]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.5)
+
+02:14:26.068 [main] INFO  e.repository.BookRepositoryTest - Starting BookRepositoryTest using Java 11.0.16 on 252f8fcefc0d with PID 70 (started by root in /app)
+02:14:26.068 [main] INFO  e.repository.BookRepositoryTest - The following 1 profile is active: "test"
+02:14:26.070 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application-test.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application-test.yml] - 2:13]
+02:14:26.155 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02:14:26.160 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+02:14:26.230 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+02:14:26.231 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+02:14:26.256 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:14:26.259 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+02:14:26.295 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:14:26.296 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02:14:26.692 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+02:14:26.692 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+02:14:26.693 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+02:14:26.699 [main] INFO  e.repository.BookRepositoryTest - Started BookRepositoryTest in 0.644 seconds (JVM running for 9.308)
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: delete from book where id=?
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: delete from book where id=?
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: delete from book where id=?
+Hibernate: delete from book where id=?
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+02:14:26.774 [main] INFO  o.s.t.c.t.TransactionContext - Began transaction (1) for test context [DefaultTestContext@313d018 testClass = BookRepositoryTest, testInstance = example.repository.BookRepositoryTest@3b72a757, testMethod = whenDeleteFromDerivedQuery_thenDeletingShouldBeSuccessful@BookRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@37d8765c testClass = BookRepositoryTest, locations = '{}', classes = '{class example.Application}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@7163aa25 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@49d42faf, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b508371, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@63262071, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6caa4dc5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@55638165, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2f162cc0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@468ea961]; rollback [true]
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: select book0_.id as id1_1_, book0_.author_id as author_i6_1_, book0_.description as descript2_1_, book0_.genre as genre3_1_, book0_.price as price4_1_, book0_.title as title5_1_ from book book0_ where book0_.title=?
+Hibernate: delete from book where id=?
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+02:14:26.807 [main] INFO  o.s.t.c.t.TransactionContext - Rolled back transaction for test: [DefaultTestContext@313d018 testClass = BookRepositoryTest, testInstance = example.repository.BookRepositoryTest@3b72a757, testMethod = whenDeleteFromDerivedQuery_thenDeletingShouldBeSuccessful@BookRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@37d8765c testClass = BookRepositoryTest, locations = '{}', classes = '{class example.Application}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@7163aa25 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@49d42faf, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b508371, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@63262071, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6caa4dc5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@55638165, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2f162cc0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.761 s - in example.repository.BookRepositoryTest
+[INFO] Running example.repository.DeleteInRelationshipsTest
+02:14:26.811 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [example.repository.DeleteInRelationshipsTest], using SpringBootContextLoader
+02:14:26.812 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [example.repository.DeleteInRelationshipsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:14:26.812 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [example.repository.DeleteInRelationshipsTest]: DeleteInRelationshipsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:14:26.814 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration example.Application for test class example.repository.DeleteInRelationshipsTest
+02:14:26.816 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:14:26.816 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@28bb53f4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b04fa85, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2fab0276, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@91e9106, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7bc84722, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67845a0c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@104b5c38, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d206996, org.springframework.test.context.event.EventPublishingTestExecutionListener@5468d247, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1179b6fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b998277, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@351b3c4b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27f33a45, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7be1b611, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6cfc0920]
+Hibernate: select count(*) as col_0_0_ from author author0_
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: delete from author where id=?
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: delete from author where id=?
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: select count(*) as col_0_0_ from author author0_
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: select count(*) as col_0_0_ from author author0_
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: insert into author (id, email, first_name, last_name) values (default, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: insert into book (id, author_id, description, genre, price, title) values (default, ?, ?, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from author author0_
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: delete from book where id=?
+Hibernate: delete from book where id=?
+Hibernate: select count(*) as col_0_0_ from book book0_
+Hibernate: select count(*) as col_0_0_ from author author0_
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select book0_.id as id1_1_0_, book0_.author_id as author_i6_1_0_, book0_.description as descript2_1_0_, book0_.genre as genre3_1_0_, book0_.price as price4_1_0_, book0_.title as title5_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.first_name as first_na3_0_1_, author1_.last_name as last_nam4_0_1_ from book book0_ inner join author author1_ on book0_.author_id=author1_.id where book0_.id=?
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.first_name as first_na3_0_0_, author0_.last_name as last_nam4_0_0_ from author author0_ where author0_.id=?
+Hibernate: delete from author where id=?
+Hibernate: delete from author where id=?
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in example.repository.DeleteInRelationshipsTest
+[INFO] Running example.service.BookServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in example.service.BookServiceTest
+[INFO] Running example.service.AuthorServiceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in example.service.AuthorServiceTest
+02:14:26.990 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02:14:26.992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:14:26.995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02:14:26.997 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02:14:26.998 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+02:14:26.999 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+02:14:27.140 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02:14:27.141 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+02:14:27.142 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+02:14:27.143 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02:14:27.144 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+02:14:27.144 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (default-cli) @ spring-boot-junit5 ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'spring-boot-junit5' with 17 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.881 s
+[INFO] Finished at: 2026-04-08T02:14:27Z
+[INFO] ------------------------------------------------------------------------

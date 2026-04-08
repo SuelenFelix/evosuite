@@ -1,0 +1,721 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< de.schauderhaft:beyond >-----------------------
+[INFO] Building beyond 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ beyond ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ beyond ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ beyond ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ beyond ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ beyond ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ beyond ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ beyond ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/caching/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/conversion/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/join/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/idgeneration/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidirectional/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/caching/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/caching/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/caching/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/conversion/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/conversion/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/conversion/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/join/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/join/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/join/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/idgeneration/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/idgeneration/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/idgeneration/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidirectional/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidirectional/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidirectional/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/Toy_sayHello_2306797991.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/Toy_sayHello_2306797991.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/Toy_sayHello_2306797991.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/de/schauderhaft/beyond/bidiinternal/Toy_sayHello_2306797991.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ beyond ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running de.schauderhaft.beyond.caching.CachingApplication_main_6834048293
+01:49:46.318 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at de.schauderhaft.beyond.caching.CachingApplication.main(CachingApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at de.schauderhaft.beyond.caching.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at de.schauderhaft.beyond.caching.CachingApplication_main_6834048293.test(CachingApplication_main_6834048293.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.534 s <<< FAILURE! - in de.schauderhaft.beyond.caching.CachingApplication_main_6834048293
+[ERROR] test  Time elapsed: 0.524 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at de.schauderhaft.beyond.caching.CachingApplication_main_6834048293.test(CachingApplication_main_6834048293.java:44)
+
+[INFO] Running de.schauderhaft.beyond.caching.Color_init_3903785220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.caching.Color_init_3903785220
+[INFO] Running de.schauderhaft.beyond.caching.CachingApplication_main_6834048291
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:46.923  INFO 72 --- [me-limited test] d.s.beyond.caching.CachingApplication    : Starting CachingApplication using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:46.924  INFO 72 --- [me-limited test] d.s.beyond.caching.CachingApplication    : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:47.447  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:47.520  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:47.895  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 01:49:48.170  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 01:49:49.485  INFO 72 --- [me-limited test] d.s.beyond.caching.CachingApplication    : Started CachingApplication in 3.12 seconds (JVM running for 4.895)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.089 s - in de.schauderhaft.beyond.caching.CachingApplication_main_6834048291
+[INFO] Running de.schauderhaft.beyond.caching.CachingApplication_init_10599678330
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.schauderhaft.beyond.caching.CachingApplication_init_10599678330
+[INFO] Running de.schauderhaft.beyond.caching.Color_init_3903785221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.caching.Color_init_3903785221
+[INFO] Running de.schauderhaft.beyond.caching.CachingApplication_init_10599678332
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.caching.CachingApplication_init_10599678332
+[INFO] Running de.schauderhaft.beyond.conversion.Minion_init_17548818860
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.conversion.Minion_init_17548818860
+[INFO] Running de.schauderhaft.beyond.conversion.Description_init_670305830
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.conversion.Description_init_670305830
+[INFO] Running de.schauderhaft.beyond.conversion.ConversionApplication_init_7496105210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.conversion.ConversionApplication_init_7496105210
+[INFO] Running de.schauderhaft.beyond.conversion.ConversionApplication_init_7496105212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.conversion.ConversionApplication_init_7496105212
+[INFO] Running de.schauderhaft.beyond.conversion.ConversionApplication_main_3730475171
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:49.588  INFO 72 --- [me-limited test] d.s.b.conversion.ConversionApplication   : Starting ConversionApplication using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:49.588  INFO 72 --- [me-limited test] d.s.b.conversion.ConversionApplication   : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:49.858  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:49.869  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JDBC repository interfaces.
+2026-04-08 01:49:50.122  WARN 72 --- [me-limited test] o.s.data.convert.CustomConversions       : Registering converter from class de.schauderhaft.beyond.conversion.Description to class org.springframework.data.jdbc.core.convert.JdbcValue as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2026-04-08 01:49:50.359  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-08 01:49:50.390  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-08 01:49:50.914  INFO 72 --- [me-limited test] d.s.b.conversion.ConversionApplication   : Started ConversionApplication in 1.361 seconds (JVM running for 6.328)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.356 s - in de.schauderhaft.beyond.conversion.ConversionApplication_main_3730475171
+[INFO] Running de.schauderhaft.beyond.conversion.Description_init_670305831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.schauderhaft.beyond.conversion.Description_init_670305831
+[INFO] Running de.schauderhaft.beyond.conversion.Minion_init_17548818861
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.schauderhaft.beyond.conversion.Minion_init_17548818861
+[INFO] Running de.schauderhaft.beyond.conversion.ConversionApplication_main_3730475173
+2026-04-08 01:49:50.971 ERROR 72 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.4.jar:5.3.4]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at de.schauderhaft.beyond.conversion.ConversionApplication.main(ConversionApplication.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at de.schauderhaft.beyond.conversion.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at de.schauderhaft.beyond.conversion.ConversionApplication_main_3730475173.test(ConversionApplication_main_3730475173.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in de.schauderhaft.beyond.conversion.ConversionApplication_main_3730475173
+[ERROR] test  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at de.schauderhaft.beyond.conversion.ConversionApplication_main_3730475173.test(ConversionApplication_main_3730475173.java:44)
+
+[INFO] Running de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_init_9898505032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_init_9898505032
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_init_14252159194
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.schauderhaft.beyond.bidiinternal.Minion_init_14252159194
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_addToy_3168271025
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in de.schauderhaft.beyond.bidiinternal.Minion_addToy_3168271025
+[ERROR] test  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at de.schauderhaft.beyond.bidiinternal.Minion_addToy_3168271025.test(Minion_addToy_3168271025.java:47)
+
+[INFO] Running de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_init_9898505030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_init_9898505030
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_init_786089331
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.schauderhaft.beyond.bidiinternal.Minion_init_786089331
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InvocationTargetException
+	at de.schauderhaft.beyond.bidiinternal.Minion_init_786089331.test(Minion_init_786089331.java:44)
+Caused by: java.lang.NullPointerException
+	at de.schauderhaft.beyond.bidiinternal.Minion_init_786089331.test(Minion_init_786089331.java:44)
+
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_showYourToys_15312308096
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.schauderhaft.beyond.bidiinternal.Minion_showYourToys_15312308096
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at de.schauderhaft.beyond.bidiinternal.Minion_showYourToys_15312308096.test(Minion_showYourToys_15312308096.java:45)
+
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Toy_sayHello_2306797991
+I'm SzjVpOQTyS and I'm a toy of MjGYSRKTNF
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.schauderhaft.beyond.bidiinternal.Toy_sayHello_2306797991
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_init_14252159190
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.bidiinternal.Minion_init_14252159190
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_addToy_3168271022
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.bidiinternal.Minion_addToy_3168271022
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Toy_sayHello_2306797993
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.schauderhaft.beyond.bidiinternal.Toy_sayHello_2306797993
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at de.schauderhaft.beyond.bidiinternal.Toy_sayHello_2306797993.test(Toy_sayHello_2306797993.java:44)
+
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Minion_showYourToys_15312308093
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.bidiinternal.Minion_showYourToys_15312308093
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Toy_init_9727524472
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.bidiinternal.Toy_init_9727524472
+[INFO] Running de.schauderhaft.beyond.bidiinternal.Toy_init_9727524470
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.bidiinternal.Toy_init_9727524470
+[INFO] Running de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_main_13664135071
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:51.074  INFO 72 --- [me-limited test] d.s.b.b.BiDiInternalApplication          : Starting BiDiInternalApplication using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:51.075  INFO 72 --- [me-limited test] d.s.b.b.BiDiInternalApplication          : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:51.223  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:51.238  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JDBC repository interfaces.
+2026-04-08 01:49:51.297  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-04-08 01:49:51.303  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-04-08 01:49:51.390  INFO 72 --- [me-limited test] d.s.b.b.BiDiInternalApplication          : Started BiDiInternalApplication in 0.334 seconds (JVM running for 6.804)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.337 s - in de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_main_13664135071
+[INFO] Running de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_main_13664135073
+2026-04-08 01:49:51.396 ERROR 72 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.4.jar:5.3.4]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication.main(BiDiInternalApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at de.schauderhaft.beyond.bidiinternal.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_main_13664135073.test(BiDiInternalApplication_main_13664135073.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_main_13664135073
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication_main_13664135073.test(BiDiInternalApplication_main_13664135073.java:44)
+
+[INFO] Running de.schauderhaft.beyond.bidirectional.BidirectionalApplication_init_16641372470
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.bidirectional.BidirectionalApplication_init_16641372470
+[INFO] Running de.schauderhaft.beyond.bidirectional.BidirectionalApplication_init_16641372472
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in de.schauderhaft.beyond.bidirectional.BidirectionalApplication_init_16641372472
+[INFO] Running de.schauderhaft.beyond.bidirectional.Person_init_19187140900
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.bidirectional.Person_init_19187140900
+[INFO] Running de.schauderhaft.beyond.bidirectional.BidirectionalApplication_main_20407002513
+2026-04-08 01:49:51.418 ERROR 72 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.4.jar:5.3.4]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at de.schauderhaft.beyond.bidirectional.BidirectionalApplication.main(BidirectionalApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at de.schauderhaft.beyond.bidirectional.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at de.schauderhaft.beyond.bidirectional.BidirectionalApplication_main_20407002513.test(BidirectionalApplication_main_20407002513.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.schauderhaft.beyond.bidirectional.BidirectionalApplication_main_20407002513
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at de.schauderhaft.beyond.bidirectional.BidirectionalApplication_main_20407002513.test(BidirectionalApplication_main_20407002513.java:44)
+
+[INFO] Running de.schauderhaft.beyond.bidirectional.Person_init_19187140901
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.bidirectional.Person_init_19187140901
+[INFO] Running de.schauderhaft.beyond.bidirectional.BidirectionalApplication_main_20407002511
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:51.463  INFO 72 --- [me-limited test] d.s.b.b.BidirectionalApplication         : Starting BidirectionalApplication using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:51.464  INFO 72 --- [me-limited test] d.s.b.b.BidirectionalApplication         : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:51.562  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:51.568  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:51.622  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-04-08 01:49:51.630  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-04-08 01:49:51.753  INFO 72 --- [me-limited test] d.s.b.b.BidirectionalApplication         : Started BidirectionalApplication in 0.318 seconds (JVM running for 7.167)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 s - in de.schauderhaft.beyond.bidirectional.BidirectionalApplication_main_20407002511
+[INFO] Running de.schauderhaft.beyond.join.JoinApplication_main_1169726433
+2026-04-08 01:49:51.760 ERROR 72 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.4.jar:5.3.4]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at de.schauderhaft.beyond.join.JoinApplication.main(JoinApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at de.schauderhaft.beyond.join.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at de.schauderhaft.beyond.join.JoinApplication_main_1169726433.test(JoinApplication_main_1169726433.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in de.schauderhaft.beyond.join.JoinApplication_main_1169726433
+[ERROR] test  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at de.schauderhaft.beyond.join.JoinApplication_main_1169726433.test(JoinApplication_main_1169726433.java:44)
+
+[INFO] Running de.schauderhaft.beyond.join.JoinApplication_init_2595903610
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.join.JoinApplication_init_2595903610
+[INFO] Running de.schauderhaft.beyond.join.Person_init_20836718851
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.join.Person_init_20836718851
+[INFO] Running de.schauderhaft.beyond.join.JoinApplication_init_2595903612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.join.JoinApplication_init_2595903612
+[INFO] Running de.schauderhaft.beyond.join.Person_init_20836718850
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.join.Person_init_20836718850
+[INFO] Running de.schauderhaft.beyond.join.JoinApplication_main_1169726431
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:51.807  INFO 72 --- [me-limited test] d.s.beyond.join.JoinApplication          : Starting JoinApplication using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:51.808  INFO 72 --- [me-limited test] d.s.beyond.join.JoinApplication          : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:51.884  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:51.891  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:51.926  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-04-08 01:49:51.929  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-04-08 01:49:52.014  INFO 72 --- [me-limited test] d.s.beyond.join.JoinApplication          : Started JoinApplication in 0.237 seconds (JVM running for 7.428)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 s - in de.schauderhaft.beyond.join.JoinApplication_main_1169726431
+[INFO] Running de.schauderhaft.beyond.idgeneration.Minion_init_19466708431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.idgeneration.Minion_init_19466708431
+[INFO] Running de.schauderhaft.beyond.idgeneration.IdGenerationApplication_init_2002546170
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.schauderhaft.beyond.idgeneration.IdGenerationApplication_init_2002546170
+[INFO] Running de.schauderhaft.beyond.idgeneration.StringIdMinion_init_6121386730
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.idgeneration.StringIdMinion_init_6121386730
+[INFO] Running de.schauderhaft.beyond.idgeneration.StringIdMinion_init_6121386731
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in de.schauderhaft.beyond.idgeneration.StringIdMinion_init_6121386731
+[INFO] Running de.schauderhaft.beyond.idgeneration.Minion_init_19466708430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.schauderhaft.beyond.idgeneration.Minion_init_19466708430
+[INFO] Running de.schauderhaft.beyond.idgeneration.IdGenerationApplication_init_2002546171
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.schauderhaft.beyond.idgeneration.IdGenerationApplication_init_2002546171
+[INFO] Running de.schauderhaft.beyond.caching.CachingApplicationTests
+2026-04-08 01:49:52.091  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.schauderhaft.beyond.caching.CachingApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:52.092  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [de.schauderhaft.beyond.caching.CachingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:52.093  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.schauderhaft.beyond.caching.CachingApplicationTests]: CachingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:52.122  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.schauderhaft.beyond.caching.CachingApplication for test class de.schauderhaft.beyond.caching.CachingApplicationTests
+2026-04-08 01:49:52.127  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 01:49:52.193  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e4e4c1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e7f3cfd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3ae126d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@46a488c2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6242ae3b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@65ddee5a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@56399b9e, org.springframework.test.context.event.EventPublishingTestExecutionListener@34b9eb03, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43fda8d9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49d831c2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53a7a60c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28bdbe88, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6a87026, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@ef60710]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:52.221  INFO 72 --- [           main] d.s.b.caching.CachingApplicationTests    : Starting CachingApplicationTests using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:52.222  INFO 72 --- [           main] d.s.b.caching.CachingApplicationTests    : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:52.315  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:52.323  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:52.430  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-04-08 01:49:52.433  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-04-08 01:49:52.574  INFO 72 --- [           main] d.s.b.caching.CachingApplicationTests    : Started CachingApplicationTests in 0.37 seconds (JVM running for 7.988)
+2026-04-08 01:49:53.041 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.042 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "COLOR" ("NAME") VALUES (?)]
+2026-04-08 01:49:53.079 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.080 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "COLOR" ("NAME") VALUES (?)]
+2026-04-08 01:49:53.088 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.088 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.092 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.092 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.094 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.095 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.097 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.097 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.102 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.102 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.105 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.107 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.111 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.112 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.114 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.116 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.121 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.121 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.124 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.125 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.127 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.127 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.129 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.129 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("COLOR", "NAME", "NUMBER_OF_EYES", "VERSION") VALUES (?, ?, ?, ?)]
+2026-04-08 01:49:53.146 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:53.147 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "MINION"."ID" AS "ID", "MINION"."NAME" AS "NAME", "MINION"."COLOR" AS "COLOR", "MINION"."VERSION" AS "VERSION", "MINION"."NUMBER_OF_EYES" AS "NUMBER_OF_EYES" FROM "MINION"]
+2026-04-08 01:49:53.169 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:53.169 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "COLOR"."ID" AS "ID", "COLOR"."NAME" AS "NAME" FROM "COLOR" WHERE "COLOR"."ID" = ?]
+2026-04-08 01:49:53.175 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:53.175 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "COLOR"."ID" AS "ID", "COLOR"."NAME" AS "NAME" FROM "COLOR" WHERE "COLOR"."ID" = ?]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.196 s - in de.schauderhaft.beyond.caching.CachingApplicationTests
+[INFO] Running de.schauderhaft.beyond.conversion.ConversionTest
+{"appearance":{"d":"d-value","c":"c-value"},"personality":{"a":"a-value","b":"b-value"}}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.schauderhaft.beyond.conversion.ConversionTest
+[INFO] Running de.schauderhaft.beyond.conversion.ConversionApplicationTests
+2026-04-08 01:49:53.280  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.schauderhaft.beyond.conversion.ConversionApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:53.280  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [de.schauderhaft.beyond.conversion.ConversionApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:53.280  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.schauderhaft.beyond.conversion.ConversionApplicationTests]: ConversionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:53.287  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.schauderhaft.beyond.conversion.ConversionApplication for test class de.schauderhaft.beyond.conversion.ConversionApplicationTests
+2026-04-08 01:49:53.291  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 01:49:53.292  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@96448ee, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@59509393, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d6dc2b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ec75228, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55cf5626, org.springframework.test.context.transaction.TransactionalTestExecutionListener@8de8b07, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b55f0a6, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fc7abf6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1016b44e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c6c93f8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@38e88e13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3a720ae3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1fe37d27, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1718de70]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:53.313  INFO 72 --- [           main] d.s.b.c.ConversionApplicationTests       : Starting ConversionApplicationTests using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:53.314  INFO 72 --- [           main] d.s.b.c.ConversionApplicationTests       : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:53.364  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:53.367  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JDBC repository interfaces.
+2026-04-08 01:49:53.391  WARN 72 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class de.schauderhaft.beyond.conversion.Description to class org.springframework.data.jdbc.core.convert.JdbcValue as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2026-04-08 01:49:53.421  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-04-08 01:49:53.425  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-04-08 01:49:53.509  INFO 72 --- [           main] d.s.b.c.ConversionApplicationTests       : Started ConversionApplicationTests in 0.215 seconds (JVM running for 8.923)
+2026-04-08 01:49:53.525 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.525 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("DESCRIPTION", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:53.529 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:53.529 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "MINION"."ID" AS "ID", "MINION"."NAME" AS "NAME", "MINION"."DESCRIPTION" AS "DESCRIPTION" FROM "MINION" WHERE "MINION"."ID" = ?]
+enjoys bedtime stories
+character childish
+loves Poochy
+favorite-stuffed-animal Tim
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 s - in de.schauderhaft.beyond.conversion.ConversionApplicationTests
+[INFO] Running de.schauderhaft.beyond.bidiinternal.BiDiInternalApplicationTests
+2026-04-08 01:49:53.543  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.schauderhaft.beyond.bidiinternal.BiDiInternalApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:53.544  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [de.schauderhaft.beyond.bidiinternal.BiDiInternalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:53.544  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.schauderhaft.beyond.bidiinternal.BiDiInternalApplicationTests]: BiDiInternalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:53.551  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.schauderhaft.beyond.bidiinternal.BiDiInternalApplication for test class de.schauderhaft.beyond.bidiinternal.BiDiInternalApplicationTests
+2026-04-08 01:49:53.554  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 01:49:53.554  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@332610ad, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@45bbb3e8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@795e8ef5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13976c57, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10b7b5f0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@80b70fd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5af7e2f, org.springframework.test.context.event.EventPublishingTestExecutionListener@2df24f19, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c76762, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5318731f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2db82155, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@128d397c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@294ab038, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@395abe85]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:53.567  INFO 72 --- [           main] d.s.b.b.BiDiInternalApplicationTests     : Starting BiDiInternalApplicationTests using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:53.568  INFO 72 --- [           main] d.s.b.b.BiDiInternalApplicationTests     : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:53.641  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:53.645  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JDBC repository interfaces.
+2026-04-08 01:49:53.709  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-04-08 01:49:53.715  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-04-08 01:49:53.856  INFO 72 --- [           main] d.s.b.b.BiDiInternalApplicationTests     : Started BiDiInternalApplicationTests in 0.299 seconds (JVM running for 9.27)
+2026-04-08 01:49:53.879 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.879 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("NAME") VALUES (?)]
+2026-04-08 01:49:53.885 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.886 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "TOY" ("MINION", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:53.887 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:53.887 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "TOY" ("MINION", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:53.891 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:53.892 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "MINION"."ID" AS "ID", "MINION"."NAME" AS "NAME" FROM "MINION" WHERE "MINION"."ID" = ?]
+2026-04-08 01:49:53.896 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:53.897 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "TOY"."NAME" AS "NAME" FROM "TOY" WHERE "TOY"."MINION" = ?]
+I'm Dolphin and I'm a toy of Bob
+I'm Tiger Duck and I'm a toy of Bob
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 s - in de.schauderhaft.beyond.bidiinternal.BiDiInternalApplicationTests
+[INFO] Running de.schauderhaft.beyond.bidirectional.BidirectionalApplicationTests
+2026-04-08 01:49:53.902  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.schauderhaft.beyond.bidirectional.BidirectionalApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:53.903  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [de.schauderhaft.beyond.bidirectional.BidirectionalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:53.903  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.schauderhaft.beyond.bidirectional.BidirectionalApplicationTests]: BidirectionalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:53.908  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.schauderhaft.beyond.bidirectional.BidirectionalApplication for test class de.schauderhaft.beyond.bidirectional.BidirectionalApplicationTests
+2026-04-08 01:49:53.911  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 01:49:53.911  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b171fbd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1ece052b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@20dc763b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c81e7c2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4fe8e318, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21e15093, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62cf873a, org.springframework.test.context.event.EventPublishingTestExecutionListener@21b3d356, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@294b045b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@285ac29, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1ced1d14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@237b54bc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5263f554, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7d28efd5]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:53.926  INFO 72 --- [           main] d.s.b.b.BidirectionalApplicationTests    : Starting BidirectionalApplicationTests using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:53.926  INFO 72 --- [           main] d.s.b.b.BidirectionalApplicationTests    : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:53.980  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:53.984  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:54.036  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2026-04-08 01:49:54.039  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2026-04-08 01:49:54.143  INFO 72 --- [           main] d.s.b.b.BidirectionalApplicationTests    : Started BidirectionalApplicationTests in 0.229 seconds (JVM running for 9.557)
+2026-04-08 01:49:54.153 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.153 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "PERSON" ("NAME") VALUES (?)]
+2026-04-08 01:49:54.164 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.165 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.167 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.169 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.172 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.172 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.174 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.175 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "PERSON" ("NAME") VALUES (?)]
+2026-04-08 01:49:54.179 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.181 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.185 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:54.186 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select * from Minion where evil_master = ?]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 s - in de.schauderhaft.beyond.bidirectional.BidirectionalApplicationTests
+[INFO] Running de.schauderhaft.beyond.join.JoinApplicationTests
+2026-04-08 01:49:54.200  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.schauderhaft.beyond.join.JoinApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:54.201  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [de.schauderhaft.beyond.join.JoinApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:54.201  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.schauderhaft.beyond.join.JoinApplicationTests]: JoinApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:54.206  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.schauderhaft.beyond.join.JoinApplication for test class de.schauderhaft.beyond.join.JoinApplicationTests
+2026-04-08 01:49:54.210  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 01:49:54.211  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33de9d85, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2f6352a3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@24455d50, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@bb160fb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4cc4f6bd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@798753cc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@77262e71, org.springframework.test.context.event.EventPublishingTestExecutionListener@77902ed6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c0a4f87, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5f5076f9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@19439ec4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f53f5a4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@21ebf9be, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7d50b4c4]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:54.227  INFO 72 --- [           main] d.s.beyond.join.JoinApplicationTests     : Starting JoinApplicationTests using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:54.227  INFO 72 --- [           main] d.s.beyond.join.JoinApplicationTests     : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:54.304  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:54.312  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:54.378  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2026-04-08 01:49:54.383  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2026-04-08 01:49:54.486  INFO 72 --- [           main] d.s.beyond.join.JoinApplicationTests     : Started JoinApplicationTests in 0.271 seconds (JVM running for 9.9)
+2026-04-08 01:49:54.497 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.497 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "PERSON" ("NAME") VALUES (?)]
+2026-04-08 01:49:54.503 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.503 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.507 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.508 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.512 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.513 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("EVIL_MASTER", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.514 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:54.514 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [select m.id as id, m.name name, m.number_of_eyes as number_of_eyes, p.name as master_name, p.id as master_evil_master from minion m join person p on p.id = m.evil_master]
+Bob - Gru
+Kevin - Gru
+Stuart - Gru
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.327 s - in de.schauderhaft.beyond.join.JoinApplicationTests
+[INFO] Running de.schauderhaft.beyond.idgeneration.IdGenerationApplicationTests
+2026-04-08 01:49:54.530  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.schauderhaft.beyond.idgeneration.IdGenerationApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:54.531  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [de.schauderhaft.beyond.idgeneration.IdGenerationApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:54.531  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.schauderhaft.beyond.idgeneration.IdGenerationApplicationTests]: IdGenerationApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:54.535  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.schauderhaft.beyond.idgeneration.IdGenerationApplication for test class de.schauderhaft.beyond.idgeneration.IdGenerationApplicationTests
+2026-04-08 01:49:54.536  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 01:49:54.537  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3368cf02, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2e76ade9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7a3ab73a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12a8d03b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67cd1db3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7ccfed46, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53630682, org.springframework.test.context.event.EventPublishingTestExecutionListener@71e2ddd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8318808, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@b97f195, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@408bb173, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@360d0c7a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@32f8a37b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@657e7e8]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2026-04-08 01:49:54.556  INFO 72 --- [           main] d.s.b.i.IdGenerationApplicationTests     : Starting IdGenerationApplicationTests using Java 11.0.16 on f4fb6b370ff8 with PID 72 (started by root in /app)
+2026-04-08 01:49:54.556  INFO 72 --- [           main] d.s.b.i.IdGenerationApplicationTests     : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:54.607  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 01:49:54.612  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JDBC repository interfaces.
+2026-04-08 01:49:54.677  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2026-04-08 01:49:54.681  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2026-04-08 01:49:54.772  INFO 72 --- [           main] d.s.b.i.IdGenerationApplicationTests     : Started IdGenerationApplicationTests in 0.23 seconds (JVM running for 10.186)
+2026-04-08 01:49:54.794 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-04-08 01:49:54.795 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE "MINION" SET "NAME" = ? WHERE "MINION"."ID" = ?]
+2026-04-08 01:49:54.801 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.801 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("ID", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.803 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:54.803 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "MINION"."ID" AS "ID", "MINION"."NAME" AS "NAME" FROM "MINION" WHERE "MINION"."ID" = ?]
+2026-04-08 01:49:54.817 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.818 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "MINION" ("NAME") VALUES (?)]
+2026-04-08 01:49:54.824 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing SQL update and returning generated keys
+2026-04-08 01:49:54.825 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO "STRING_ID_MINION" ("ID", "NAME") VALUES (?, ?)]
+2026-04-08 01:49:54.829 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-04-08 01:49:54.829 DEBUG 72 --- [           main] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT "STRING_ID_MINION"."ID" AS "ID", "STRING_ID_MINION"."NAME" AS "NAME" FROM "STRING_ID_MINION" WHERE "STRING_ID_MINION"."ID" = ?]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.303 s - in de.schauderhaft.beyond.idgeneration.IdGenerationApplicationTests
+2026-04-08 01:49:54.855  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 01:49:54.855  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-04-08 01:49:54.855  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-04-08 01:49:54.857  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-08 01:49:54.857  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-04-08 01:49:54.852  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-04-08 01:49:54.857  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2026-04-08 01:49:54.858  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2026-04-08 01:49:54.858  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-04-08 01:49:54.858  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2026-04-08 01:49:54.858  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2026-04-08 01:49:54.881  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2026-04-08 01:49:54.881  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2026-04-08 01:49:54.881  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-04-08 01:49:54.882  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-08 01:49:54.882  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2026-04-08 01:49:54.882  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-08 01:49:54.883  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-04-08 01:49:54.883  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2026-04-08 01:49:54.883  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2026-04-08 01:49:54.883  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-04-08 01:49:54.883  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BiDiInternalApplication_main_13664135073.test:44 » IllegalArgument Args must n...
+[ERROR]   Minion_addToy_3168271025.test:47 » NullPointer
+[ERROR]   Minion_init_786089331.test:44 » InvocationTarget
+[ERROR]   Minion_showYourToys_15312308096.test:45 » NullPointer
+[ERROR]   Toy_sayHello_2306797993.test:44 » NullPointer
+[ERROR]   BidirectionalApplication_main_20407002513.test:44 » IllegalArgument Args must ...
+[ERROR]   CachingApplication_main_6834048293.test:44 » IllegalArgument Args must not be ...
+[ERROR]   ConversionApplication_main_3730475173.test:44 » IllegalArgument Args must not ...
+[ERROR]   JoinApplication_main_1169726433.test:44 » IllegalArgument Args must not be nul...
+[INFO] 
+[ERROR] Tests run: 56, Failures: 0, Errors: 9, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ beyond ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'beyond' with 22 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ beyond ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'beyond' with 22 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.369 s
+[INFO] Finished at: 2026-04-08T01:49:55Z
+[INFO] ------------------------------------------------------------------------

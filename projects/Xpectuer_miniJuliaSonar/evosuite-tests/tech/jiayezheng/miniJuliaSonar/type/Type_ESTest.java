@@ -24,7 +24,7 @@ import tech.jiayezheng.miniJuliaSonar.type.Types;
 import tech.jiayezheng.miniJuliaSonar.type.UnionType;
 import tech.jiayezheng.miniJuliaSonar.type.VectorType;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Type_ESTest extends Type_ESTest_scaffolding {
 
   @Test(timeout = 4000)

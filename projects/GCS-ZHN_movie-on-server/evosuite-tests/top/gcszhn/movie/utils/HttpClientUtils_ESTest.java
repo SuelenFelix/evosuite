@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
 import top.gcszhn.movie.utils.HttpClientUtils;
 import top.gcszhn.movie.utils.HttpDataPair;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class HttpClientUtils_ESTest extends HttpClientUtils_ESTest_scaffolding {
 
   @Test(timeout = 4000)

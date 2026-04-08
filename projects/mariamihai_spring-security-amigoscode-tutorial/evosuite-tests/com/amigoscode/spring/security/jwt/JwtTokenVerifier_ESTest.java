@@ -26,7 +26,7 @@ import org.springframework.mock.web.PassThroughFilterChain;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.util.NestedServletException;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class JwtTokenVerifier_ESTest extends JwtTokenVerifier_ESTest_scaffolding {
 
   @Test(timeout = 4000)

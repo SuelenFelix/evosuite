@@ -1,0 +1,180 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.prac:react:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-test:jar -> duplicate declaration of version (?) @ line 63, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------------< com.prac:react >---------------------------
+[INFO] Building react 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ react ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ react ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ react ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ react ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 54 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ react ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ react ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ react ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /app/target/test-classes
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,22] unmappable character (0xEC) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,27] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,28] unmappable character (0x8C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,30] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,31] unmappable character (0xA4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,33] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,34] unmappable character (0xB8) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,36] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,37] unmappable character (0x98) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,39] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,40] unmappable character (0x94) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,43] unmappable character (0x86) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,44] unmappable character (0xB5) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,46] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,47] unmappable character (0xA9) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,50] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,51] unmappable character (0x8C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,53] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,54] unmappable character (0xA4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,56] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,57] unmappable character (0xB8) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,58] unmappable character (0xEBA5) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,62] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,63] unmappable character (0x98) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,65] unmappable character (0xA0) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,66] unmappable character (0xA4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,67] unmappable character (0xEBA9) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,71] unmappable character (0x82) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,72] unmappable character (0xAC) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,74] unmappable character (0x9A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,75] unmappable character (0xA9) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,77] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,78] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,80] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,81] unmappable character (0xBC) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,83] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,84] unmappable character (0xA0) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,87] unmappable character (0x96) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,88] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,90] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,91] unmappable character (0xB8) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,93] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,94] unmappable character (0x8C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,96] unmappable character (0x9D) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,97] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,99] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[16,100] unmappable character (0x98) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,19] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,20] unmappable character (0x8C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,22] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,23] unmappable character (0xA4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,25] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,26] unmappable character (0xB8) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,29] unmappable character (0x83) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,30] unmappable character (0x81) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,32] unmappable character (0x99) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,33] unmappable character (0xA9) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,35] unmappable character (0x97) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,36] unmappable character (0x90) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,38] unmappable character (0x84) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,39] unmappable character (0x9C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,42] unmappable character (0x82) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,43] unmappable character (0xBD) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,45] unmappable character (0x9E) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,46] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,48] unmappable character (0x90) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,49] unmappable character (0x98) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,51] unmappable character (0x96) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,52] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,53] unmappable character (0xECA7) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,56] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,57] unmappable character (0x94) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,60] unmappable character (0x8D) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,61] unmappable character (0xB0) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,63] unmappable character (0x9D) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,64] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,66] unmappable character (0x84) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,67] unmappable character (0xB0) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,68] unmappable character (0xEBA5) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,74] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,75] unmappable character (0x98) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,76] unmappable character (0xEAB8) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,80] unmappable character (0x9C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,81] unmappable character (0x84) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,83] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,84] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,86] unmappable character (0x84) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,87] unmappable character (0x9C) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,90] unmappable character (0x82) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,91] unmappable character (0xAC) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,93] unmappable character (0x9A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,94] unmappable character (0xA9) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,96] unmappable character (0x95) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,97] unmappable character (0x98) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,99] unmappable character (0x8A) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,100] unmappable character (0x94) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,103] unmappable character (0x96) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,104] unmappable character (0xB4) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,106] unmappable character (0x85) for encoding UTF-8
+[ERROR] /app/src/test/java/com/prac/react/service/MemberServiceTest.java:[17,107] unmappable character (0xB8) for encoding UTF-8
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ react ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.prac.react.algorithm.QuikSortTest
+02:09:03.920 [main] INFO com.prac.react.algorithm.QuikSortTest - ------Before sort------
+02:09:03.953 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='0', courseHash='null'}
+02:09:03.954 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='4', courseHash='null'}
+02:09:03.954 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='3', courseHash='null'}
+02:09:03.954 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='5', courseHash='null'}
+02:09:03.954 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='1', courseHash='null'}
+02:09:03.954 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='2', courseHash='null'}
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - ------After sort------
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='0', courseHash='null'}
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='1', courseHash='null'}
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='2', courseHash='null'}
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='3', courseHash='null'}
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='4', courseHash='null'}
+02:09:03.955 [main] INFO com.prac.react.algorithm.QuikSortTest - { course='null', courseName='null', memberNum='0', memeberHash='null', courseNum='5', courseHash='null'}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec - in com.prac.react.algorithm.QuikSortTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ react ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'react' with 46 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ react ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'react' with 46 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.431 s
+[INFO] Finished at: 2026-04-08T02:09:04Z
+[INFO] ------------------------------------------------------------------------

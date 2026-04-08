@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Analyzer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar</a> &gt; <span class="el_source">Analyzer.java</span></div><h1>Analyzer.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar;
+
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.ListMultimap;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import tech.jiayezheng.miniJuliaSonar.ast.Node;
+import tech.jiayezheng.miniJuliaSonar.ast.Symbol;
+import tech.jiayezheng.miniJuliaSonar.ast.Url;
+import tech.jiayezheng.miniJuliaSonar.type.*;
+import tech.jiayezheng.miniJuliaSonar.visitor.TypeInferencer;
+
+import java.io.File;
+import java.net.URL;
+import java.util.*;
+
+
+public class Analyzer {
+    // global static
+    public static Analyzer self;
+    public final Builtins builtins;
+
+    public String cacheDir;
+<span class="nc" id="L24">    public Stats stats = new Stats();</span>
+<span class="nc" id="L25">    public String cwd = null;</span>
+
+<span class="nc" id="L27">    public String sid = $.newSessionId();</span>
+    public Map&lt;String, Object&gt; options;
+<span class="nc" id="L29">    public Set&lt;Symbol&gt; resolved = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L30">    public Set&lt;Symbol&gt; unresolved = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L31">    public boolean multilineFunType = false;</span>
+    private AstCache astCache;
+<span class="nc" id="L33">    public Set&lt;String&gt; failedToParse = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L34">    public List&lt;String&gt; loadedFiles = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L35">    public List&lt;Binding&gt; allBindings = new ArrayList&lt;&gt;();</span>
+
+<span class="nc" id="L37">    public State moduleTable = new State(null, State.StateType.GLOBAL);</span>
+<span class="nc" id="L38">    public State globaltable = new State(null, State.StateType.GLOBAL);</span>
+    private String modelDir;
+    public String projectDir;
+<span class="nc" id="L41">    public int nCalled = 0;</span>
+<span class="nc" id="L42">    public List&lt;String&gt; path = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L43">    private Progress loadingProgress = null;</span>
+<span class="nc" id="L44">    public TypeInferencer inferencer = new TypeInferencer();</span>
+<span class="nc" id="L45">    public ListMultimap&lt;Node, Binding&gt; references = ArrayListMultimap.create();</span>
+<span class="nc" id="L46">    public ListMultimap&lt;String, Diagnostic&gt; semanticErrors = ArrayListMultimap.create();</span>
+
+<span class="nc" id="L48">    public Stack&lt;CallStackEntry&gt; callStack = new Stack&lt;&gt;();</span>
+<span class="nc" id="L49">    private Set&lt;FuncType&gt; uncalled = new HashSet&lt;&gt;();</span>
+
+
+    public Analyzer() {
+<span class="nc" id="L53">        this(null);</span>
+<span class="nc" id="L54">    }</span>
+
+<span class="nc" id="L56">    public Analyzer(Map&lt;String, Object&gt; options) {</span>
+<span class="nc" id="L57">        self = this;</span>
+<span class="nc bnc" id="L58" title="All 2 branches missed.">        if (options != null) {</span>
+<span class="nc" id="L59">            this.options = options;</span>
+        } else {
+<span class="nc" id="L61">            this.options = new HashMap&lt;&gt;();</span>
+        }
+
+<span class="nc" id="L64">        this.stats.putInt(&quot;startTime&quot;, System.currentTimeMillis());</span>
+
+<span class="nc" id="L66">        this.builtins = new Builtins();</span>
+
+<span class="nc" id="L68">        this.cacheDir = createCacheDir();</span>
+<span class="nc" id="L69">        this.astCache = new AstCache();</span>
+<span class="nc" id="L70">        addJuliaPath();</span>
+        // copyModels();
+
+
+<span class="nc" id="L74">    }</span>
+
+    private String createCacheDir() {
+<span class="nc" id="L77">        String dir = $.getTempFile(&quot;ast_cache&quot;);</span>
+<span class="nc" id="L78">        File f = new File(dir);</span>
+<span class="nc" id="L79">        $.msg(&quot;AST cache is at: &quot; + dir);</span>
+
+<span class="nc bnc" id="L81" title="All 2 branches missed.">        if (!f.exists()) {</span>
+<span class="nc bnc" id="L82" title="All 2 branches missed.">            if (!f.mkdirs()) {</span>
+<span class="nc" id="L83">                $.die(&quot;Failed to create tmp directory: &quot; + dir + &quot;. Please check permissions&quot;);</span>
+            }
+        }
+<span class="nc" id="L86">        return dir;</span>
+    }
+
+
+    public void setOption(String option) {
+<span class="nc" id="L91">        options.put(option, true);</span>
+<span class="nc" id="L92">    }</span>
+
+
+    public boolean hasOption(String option) {
+<span class="nc" id="L96">        Object op = options.get(option);</span>
+<span class="nc bnc" id="L97" title="All 4 branches missed.">        if (op != null &amp;&amp; op.equals(true)) {</span>
+<span class="nc" id="L98">            return true;</span>
+        } else {
+<span class="nc" id="L100">            return false;</span>
+        }
+    }
+
+
+    private void addJuliaPath() {
+<span class="nc" id="L106">        String path = System.getenv(&quot;JuliaPATH&quot;);</span>
+<span class="nc bnc" id="L107" title="All 2 branches missed.">        if (path != null) {</span>
+<span class="nc" id="L108">            String[] segments = path.split(&quot;:&quot;);</span>
+<span class="nc bnc" id="L109" title="All 2 branches missed.">            for (String p : segments) {</span>
+<span class="nc" id="L110">                addPath(p);</span>
+            }
+        }
+<span class="nc" id="L113">    }</span>
+
+    private void copyModels() {
+<span class="nc" id="L116">        URL resource = Thread.currentThread().getContextClassLoader().getResource(Globals.MODEL_LOCATION);</span>
+<span class="nc" id="L117">        String dest = $.getTempFile(&quot;models&quot;);</span>
+<span class="nc" id="L118">        this.modelDir = dest;</span>
+
+        try {
+<span class="nc" id="L121">            $.copyResourcesRecursively(resource, new File(dest));</span>
+<span class="nc" id="L122">            $.msg(&quot;copied models to: &quot; + modelDir);</span>
+<span class="nc" id="L123">        } catch (Exception e) {</span>
+<span class="nc" id="L124">            $.die(&quot;Failed to copy models. Please check permissions of writing to: &quot; + dest);</span>
+<span class="nc" id="L125">        }</span>
+<span class="nc" id="L126">        addPath(dest);</span>
+<span class="nc" id="L127">    }</span>
+
+    public void addPaths(@NotNull List&lt;String&gt; p) {
+<span class="nc bnc" id="L130" title="All 2 branches missed.">        for (String s : p) {</span>
+<span class="nc" id="L131">            addPath(s);</span>
+<span class="nc" id="L132">        }</span>
+<span class="nc" id="L133">    }</span>
+
+    public void addPath(String p) {
+<span class="nc" id="L136">        path.add($.unifyPath(p));</span>
+<span class="nc" id="L137">    }</span>
+
+    // main entry to the analyzer
+    public void analyze(String path) {
+<span class="nc" id="L141">        String upath = $.unifyPath(path);</span>
+<span class="nc" id="L142">        File f = new File(upath);</span>
+<span class="nc bnc" id="L143" title="All 2 branches missed.">        projectDir = f.isDirectory() ? f.getPath() : f.getParent();</span>
+<span class="nc" id="L144">        loadFileRecursive(upath);</span>
+<span class="nc" id="L145">    }</span>
+
+    /**
+     * Load all Julia source files recursively if the given fullname is a
+     * directory; otherwise just load a file.  Looks at file extension to
+     * determine whether to load a given file.
+     */
+    public void loadFileRecursive(String fullname) {
+<span class="nc" id="L153">        int count = countFileRecursive(fullname);</span>
+<span class="nc bnc" id="L154" title="All 2 branches missed.">        if (loadingProgress == null) {</span>
+<span class="nc" id="L155">            loadingProgress = new Progress(count, 50);</span>
+        }
+
+<span class="nc" id="L158">        File file_or_dir = new File(fullname);</span>
+
+<span class="nc bnc" id="L160" title="All 2 branches missed.">        if (file_or_dir.isDirectory()) {</span>
+<span class="nc bnc" id="L161" title="All 2 branches missed.">            for (File file : file_or_dir.listFiles()) {</span>
+<span class="nc" id="L162">                loadFileRecursive(file.getPath());</span>
+            }
+        } else {
+<span class="nc bnc" id="L165" title="All 2 branches missed.">            if (file_or_dir.getPath().endsWith(Globals.FILE_SUFFIX)) {</span>
+<span class="nc" id="L166">                loadFile(file_or_dir.getPath());</span>
+            }
+        }
+<span class="nc" id="L169">    }</span>
+
+
+
+    @Nullable
+    public Type loadFile(String path) {
+<span class="nc" id="L175">        path = $.unifyPath(path);</span>
+<span class="nc" id="L176">        File f = new File(path);</span>
+
+<span class="nc bnc" id="L178" title="All 2 branches missed.">        if (!f.canRead()) {</span>
+<span class="nc" id="L179">            return null;</span>
+        }
+
+<span class="nc" id="L182">        Type module = getCachedModule(path);</span>
+<span class="nc bnc" id="L183" title="All 2 branches missed.">        if(module != null) {</span>
+<span class="nc" id="L184">            return module;</span>
+        }
+        // set new CWD and save the old one on stack
+        // current work dir 当前工作路径
+<span class="nc" id="L188">        String oldcwd = cwd;</span>
+<span class="nc" id="L189">        setCWD(f.getParent());</span>
+
+        // pushImportStack(path);
+<span class="nc" id="L192">        Type type = parseAndResolve(path);</span>
+        // popImportStack(path);
+
+        // restore old CWD
+<span class="nc" id="L196">        setCWD(oldcwd);</span>
+
+<span class="nc" id="L198">        return type;</span>
+    }
+
+    @Nullable
+    private Type getCachedModule(String file) {
+<span class="nc" id="L203">        Type t = moduleTable.lookupType($.moduleQname(file));</span>
+<span class="nc bnc" id="L204" title="All 2 branches missed.">        if(t == null) {</span>
+<span class="nc" id="L205">            return null;</span>
+<span class="nc bnc" id="L206" title="All 2 branches missed.">        } else if(t instanceof UnionType) {</span>
+<span class="nc bnc" id="L207" title="All 2 branches missed.">            for (Type tt : ((UnionType) t).types) {</span>
+<span class="nc bnc" id="L208" title="All 2 branches missed.">                if (tt instanceof ModuleType) {</span>
+<span class="nc" id="L209">                    return (ModuleType) tt;</span>
+                }
+<span class="nc" id="L211">            }</span>
+<span class="nc" id="L212">            return  null;</span>
+<span class="nc bnc" id="L213" title="All 2 branches missed.">        } else if (t instanceof ModuleType) {</span>
+<span class="nc" id="L214">            return (ModuleType) t;</span>
+        } else {
+<span class="nc" id="L216">            return null;</span>
+        }
+    }
+
+    /**
+     * Entry For inference
+     */
+    @Nullable
+    private Type parseAndResolve(String file) {
+<span class="nc" id="L225">        loadingProgress.tick();</span>
+<span class="nc" id="L226">        Node ast = getAstForFile(file);</span>
+
+<span class="nc bnc" id="L228" title="All 2 branches missed.">        if (ast == null) {</span>
+<span class="nc" id="L229">            failedToParse.add(file);</span>
+<span class="nc" id="L230">            return null;</span>
+        } else {
+<span class="nc" id="L232">            Type type = inferencer.visit(ast, moduleTable);</span>
+<span class="nc" id="L233">            loadedFiles.add(file);</span>
+<span class="nc" id="L234">            return type;</span>
+        }
+    }
+
+    private Node getAstForFile(String file) {
+<span class="nc" id="L239">        return astCache.getAST(file);</span>
+    }
+
+    public void setCWD(String cd) {
+<span class="nc bnc" id="L243" title="All 2 branches missed.">        if (cd != null) {</span>
+<span class="nc" id="L244">            cwd = $.unifyPath(cd);</span>
+        }
+<span class="nc" id="L246">    }</span>
+
+
+    // count number of .py files
+    public int countFileRecursive(String fullname) {
+<span class="nc" id="L251">        File file_or_dir = new File(fullname);</span>
+<span class="nc" id="L252">        int sum = 0;</span>
+
+<span class="nc bnc" id="L254" title="All 2 branches missed.">        if (file_or_dir.isDirectory()) {</span>
+<span class="nc bnc" id="L255" title="All 2 branches missed.">            for (File file : file_or_dir.listFiles()) {</span>
+<span class="nc" id="L256">                sum += countFileRecursive(file.getPath());</span>
+            }
+        } else {
+<span class="nc bnc" id="L259" title="All 2 branches missed.">            if (file_or_dir.getPath().endsWith(Globals.FILE_SUFFIX)) {</span>
+<span class="nc" id="L260">                sum += 1;</span>
+            }
+        }
+<span class="nc" id="L263">        return sum;</span>
+    }
+
+    public void finish() {
+<span class="nc" id="L267">        $.msg(&quot;\nFinished loading files. &quot; + nCalled + &quot; functions were called.&quot;);</span>
+<span class="nc" id="L268">        $.msg(&quot;Analyzing uncalled functions&quot;);</span>
+<span class="nc" id="L269">        applyUncalled();</span>
+
+        // mark unused variables
+<span class="nc bnc" id="L272" title="All 2 branches missed.">        for (List&lt;Binding&gt; bset : $.correlateBindings(allBindings)) {</span>
+<span class="nc bnc" id="L273" title="All 2 branches missed.">            if (unusedBindingSet(bset)) {</span>
+<span class="nc" id="L274">                Binding first = bset.get(0);</span>
+<span class="nc" id="L275">                putProblem(first.node, &quot;Unused variable: &quot; + first.name);</span>
+            }
+<span class="nc" id="L277">        }</span>
+
+
+<span class="nc" id="L280">        $.msg(getAnalysisSummary());</span>
+<span class="nc" id="L281">        close();</span>
+<span class="nc" id="L282">    }</span>
+
+    @NotNull
+    public String getAnalysisSummary() {
+<span class="nc" id="L286">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc" id="L287">        sb.append(&quot;\n&quot; + $.banner(&quot;analysis summary&quot;));</span>
+
+<span class="nc" id="L289">        String duration = $.formatTime(System.currentTimeMillis() - stats.getInt(&quot;startTime&quot;));</span>
+<span class="nc" id="L290">        sb.append(&quot;\n- total time: &quot; + duration);</span>
+<span class="nc" id="L291">        sb.append(&quot;\n- modules loaded: &quot; + loadedFiles.size());</span>
+<span class="nc" id="L292">        sb.append(&quot;\n- semantic problems: &quot; + semanticErrors.size());</span>
+<span class="nc" id="L293">        sb.append(&quot;\n- failed to parse: &quot; + failedToParse.size());</span>
+
+        // calculate number of defs, refs, xrefs
+<span class="nc" id="L296">        int nDef = 0, nXRef = 0;</span>
+<span class="nc bnc" id="L297" title="All 2 branches missed.">        for (Binding b : getAllBindings()) {</span>
+<span class="nc" id="L298">            nDef += 1;</span>
+<span class="nc" id="L299">            nXRef += b.refs.size();</span>
+<span class="nc" id="L300">        }</span>
+
+<span class="nc" id="L302">        sb.append(&quot;\n- number of definitions: &quot; + nDef);</span>
+<span class="nc" id="L303">        sb.append(&quot;\n- number of cross references: &quot; + nXRef);</span>
+<span class="nc" id="L304">        sb.append(&quot;\n- number of references: &quot; + references.size());</span>
+
+<span class="nc" id="L306">        long nResolved = resolved.size();</span>
+<span class="nc" id="L307">        long nUnresolved = unresolved.size();</span>
+<span class="nc" id="L308">        sb.append(&quot;\n- resolved names: &quot; + nResolved);</span>
+<span class="nc" id="L309">        sb.append(&quot;\n- unresolved names: &quot; + nUnresolved);</span>
+<span class="nc" id="L310">        sb.append(&quot;\n- name resolve rate: &quot; + $.percent(nResolved, nResolved + nUnresolved));</span>
+<span class="nc" id="L311">        sb.append(&quot;\n&quot; + $.getGCStats());</span>
+
+<span class="nc" id="L313">        return sb.toString();</span>
+    }
+
+    public List&lt;Binding&gt; getAllBindings() {
+<span class="nc" id="L317">        return allBindings;</span>
+    }
+
+    private boolean unusedBindingSet(List&lt;Binding&gt; bindings) {
+<span class="nc bnc" id="L321" title="All 2 branches missed.">        for (Binding binding : bindings) {</span>
+<span class="nc bnc" id="L322" title="All 2 branches missed.">            if (!unused(binding)) {</span>
+<span class="nc" id="L323">                return false;</span>
+            }
+<span class="nc" id="L325">        }</span>
+<span class="nc" id="L326">        return true;</span>
+    }
+
+
+    private boolean unused(Binding binding) {
+<span class="nc bnc" id="L331" title="All 6 branches missed.">        return (!(binding.type instanceof PrimType) &amp;&amp;</span>
+                !(binding.type instanceof FuncType) &amp;&amp;
+                !(binding.type instanceof ModuleType)
+<span class="nc bnc" id="L334" title="All 2 branches missed.">                &amp;&amp; binding.refs.isEmpty());</span>
+    }
+
+    public void close() {
+
+<span class="nc" id="L339">        astCache.close();</span>
+<span class="nc" id="L340">        $.sleep(10);</span>
+<span class="nc bnc" id="L341" title="All 2 branches missed.">        if (!$.deleteDirectory($.getTempDir())) {</span>
+<span class="nc" id="L342">            $.msg(&quot;Failed to delete temp dir: &quot; + $.getTempDir());</span>
+        }
+<span class="nc" id="L344">    }</span>
+
+    public void applyUncalled() {
+<span class="nc" id="L347">        Progress progress = new Progress(this.uncalled.size(), 50);</span>
+
+<span class="nc bnc" id="L349" title="All 2 branches missed.">        while (!uncalled.isEmpty()) {</span>
+<span class="nc" id="L350">            List&lt;FuncType&gt; uncalledDup = new ArrayList&lt;&gt;(uncalled);</span>
+
+<span class="nc bnc" id="L352" title="All 2 branches missed.">            for (FuncType cl : uncalledDup) {</span>
+<span class="nc" id="L353">                progress.tick();</span>
+<span class="nc" id="L354">                inferencer.apply(cl, null, null, null);</span>
+<span class="nc" id="L355">            }</span>
+<span class="nc" id="L356">        }</span>
+<span class="nc" id="L357">    }</span>
+
+    @NotNull
+    public List&lt;String&gt; getLoadedFiles() {
+<span class="nc" id="L361">        List&lt;String&gt; files = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L362" title="All 2 branches missed.">        for (String file : loadedFiles) {</span>
+<span class="nc bnc" id="L363" title="All 2 branches missed.">            if (file.endsWith(Globals.FILE_SUFFIX)) {</span>
+<span class="nc" id="L364">                files.add(file);</span>
+            }
+<span class="nc" id="L366">        }</span>
+<span class="nc" id="L367">        return files;</span>
+    }
+
+    public void registerBinding(Binding binding) {
+<span class="nc" id="L371">        allBindings.add(binding);</span>
+<span class="nc" id="L372">    }</span>
+
+    public void putRef(Node node, Collection&lt;Binding&gt; bs) {
+<span class="nc bnc" id="L375" title="All 2 branches missed.">        if (!(node instanceof Url)) {</span>
+<span class="nc" id="L376">            List&lt;Binding&gt; bindings = references.get(node);</span>
+<span class="nc bnc" id="L377" title="All 2 branches missed.">            for (Binding b : bs) {</span>
+<span class="nc bnc" id="L378" title="All 2 branches missed.">                if (!bindings.contains(b)) {</span>
+<span class="nc" id="L379">                    bindings.add(b);</span>
+                }
+<span class="nc" id="L381">                b.addRef(node);</span>
+<span class="nc" id="L382">            }</span>
+        }
+<span class="nc" id="L384">    }</span>
+
+    public void putRef(@NotNull Node node, @NotNull Binding b) {
+<span class="nc" id="L387">        List&lt;Binding&gt; bs = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L388">        bs.add(b);</span>
+<span class="nc" id="L389">        putRef(node, bs);</span>
+<span class="nc" id="L390">    }</span>
+
+
+    public void putProblem(@NotNull Node loc, String msg) {
+<span class="nc" id="L394">        String file = loc.file;</span>
+<span class="nc bnc" id="L395" title="All 2 branches missed.">        if (file != null) {</span>
+<span class="nc" id="L396">            addFileErr(file, loc.start, loc.end, msg);</span>
+        }
+<span class="nc" id="L398">    }</span>
+
+    // for situations without a Node
+    public void putProblem(@Nullable String file, int begin, int end, String msg) {
+<span class="nc bnc" id="L402" title="All 2 branches missed.">        if (file != null) {</span>
+<span class="nc" id="L403">            addFileErr(file, begin, end, msg);</span>
+        }
+<span class="nc" id="L405">    }</span>
+
+
+    void addFileErr(String file, int begin, int end, String msg) {
+<span class="nc" id="L409">        Diagnostic d = new Diagnostic(file, Diagnostic.Category.ERROR, begin, end, msg);</span>
+<span class="nc" id="L410">        semanticErrors.put(file, d);</span>
+<span class="nc" id="L411">    }</span>
+
+    // Assume that same input(types) same output
+    public void addUncalled(@NotNull FuncType cl) {
+<span class="nc bnc" id="L415" title="All 2 branches missed.">        if (!cl.func.called) {</span>
+<span class="nc" id="L416">            uncalled.add(cl);</span>
+        }
+<span class="nc" id="L418">    }</span>
+
+
+    public void removeUncalled(FuncType f) {
+<span class="nc" id="L422">        uncalled.remove(f);</span>
+<span class="nc" id="L423">    }</span>
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

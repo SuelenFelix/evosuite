@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TreeTableColumnSortStrategy.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">treetable</a> &gt; <a href="index.source.html" class="el_package">net.byteseek.swing.treetable</a> &gt; <span class="el_source">TreeTableColumnSortStrategy.java</span></div><h1>TreeTableColumnSortStrategy.java</h1><pre class="source lang-java linenums">/*
+ * BSD 3-Clause License
+ *
+ * Copyright (c) 2021, Matt Palmer
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the copyright holder nor the names of its
+ *    contributors may be used to endorse or promote products derived from
+ *    this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot;
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package net.byteseek.swing.treetable;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.RowSorter;
+import javax.swing.SortOrder;
+
+/**
+ * A class that decides what the next set of sort keys will be, given the current set, a request to sort on a column,
+ * and a maximum number of columns to sort on.
+ * &lt;p&gt;
+ * It defaults to adding new sort columns to the end of current sorted columns, replacing the last column if we're
+ * at the maximum number of sort columns.  Existing columns maintain their sort position if clicked again, and cycle
+ * round ascending/descending/unsorted.  Once a column is unsorted, it is removed from the sorted column keys.
+ */
+public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSortStrategy {
+
+    /**
+     * The position that a new sort key should have in the sort list.
+     */
+<span class="nc" id="L52">    public enum NewSortKeyPosition {</span>
+        /**
+         * Make the sort key the first sorted key.
+         */
+<span class="nc" id="L56">        MAKE_FIRST,</span>
+
+        /**
+         * Make the sort key the last sorted key.
+         */
+<span class="nc" id="L61">        ADD_TO_END</span>
+    }
+
+    /**
+     * How to update the position of an existing sort key when it is toggled.
+     */
+<span class="nc" id="L67">    public enum UpdateSortKeyPosition {</span>
+        /**
+         * Make the sort key the first sorted key.
+         */
+<span class="nc" id="L71">        MAKE_FIRST,</span>
+
+        /**
+         * Don't move the sort key from it's current position.
+         */
+<span class="nc" id="L76">        KEEP_POSITION</span>
+    }
+
+    /**
+     * The action to take when removing a sort key.
+     */
+<span class="nc" id="L82">    public enum RemoveSortKeyAction {</span>
+        /**
+         * Removes the sort key from the list of sort keys. This is the default.
+         */
+<span class="nc" id="L86">        REMOVE,</span>
+
+        /**
+         * Removes the sort key from the list of sort keys, and also any subsequent keys defined.
+         * If we have 3 sort keys, and we make the second one unsorted, the second and third sort key would
+         * be removed from the list.
+         */
+<span class="nc" id="L93">        REMOVE_SUBSEQUENT,</span>
+
+        /**
+         * Clears all sort keys.
+         */
+<span class="nc" id="L98">        REMOVE_ALL</span>
+    }
+
+    /**
+     * The default maximum number of sort keys.
+     *
+     * In practice, more than 3 levels of sort will produce no real or useful change in any tree sort order.
+     * Even 3 levels is mostly unnecessary, unless you are sorting small-domain values first
+     * like booleans or other data that has a reduced number of different values.
+     */
+    protected static final int DEFAULT_MAX_SORT_KEYS = 3;
+
+    /**
+     * The maximum number of sort columns allowed.
+     */
+    protected int maximumSortKeys;
+
+    /**
+     * The position for a new sort key.
+     */
+    protected NewSortKeyPosition newSortKeyPosition;
+
+    /**
+     * The position for an updated sort key.
+     */
+    protected UpdateSortKeyPosition updateSortKeyPosition;
+
+    /**
+     * The action to take when a column becomes unsorted.
+     */
+    protected RemoveSortKeyAction removeSortKeyAction;
+
+    /**
+     * Constructs a TreeTableColumnSortStrategy with the default settings.
+     * New columns clicked are added to end of existing sort columns, replacing the last sort column if we're at max columns.
+     * Existing columns clicked are cycled around ascending/descending/unsorted, and maintain their sort position when clicked again.
+     * Once unsorted, the column is removed from the sort keys.
+     */
+    public TreeTableColumnSortStrategy() {
+<span class="nc" id="L137">        this(DEFAULT_MAX_SORT_KEYS, NewSortKeyPosition.ADD_TO_END, UpdateSortKeyPosition.KEEP_POSITION,</span>
+                RemoveSortKeyAction.REMOVE);
+<span class="nc" id="L139">    }</span>
+
+    /**
+     * Constructs a TreeTableColumnSortStrategy with the particular configuration passed in.
+     *
+     * @param maximumSortKeys The maximum number of sorted columns at any one time.
+     * @param newSortKeyPosition The position of a new sort key in the sort list.
+     * @param updateSortKeyPosition The position of an updated sort key in the sort list.
+     * @param removeSortKeyAction What to do when a sort key is removed.
+     * @throws IllegalArgumentException if any of the actions are null.
+     */
+    public TreeTableColumnSortStrategy(final int maximumSortKeys,
+                                       final NewSortKeyPosition newSortKeyPosition,
+                                       final UpdateSortKeyPosition updateSortKeyPosition,
+<span class="nc" id="L153">                                       final RemoveSortKeyAction removeSortKeyAction) {</span>
+<span class="nc bnc" id="L154" title="All 6 branches missed.">        if (newSortKeyPosition == null || updateSortKeyPosition == null || removeSortKeyAction == null) {</span>
+<span class="nc" id="L155">            throw new IllegalArgumentException(&quot;Actions to take cannot be null.&quot;);</span>
+        }
+<span class="nc" id="L157">        this.maximumSortKeys = maximumSortKeys;</span>
+<span class="nc" id="L158">        this.newSortKeyPosition = newSortKeyPosition;</span>
+<span class="nc" id="L159">        this.updateSortKeyPosition = updateSortKeyPosition;</span>
+<span class="nc" id="L160">        this.removeSortKeyAction = removeSortKeyAction;</span>
+<span class="nc" id="L161">    }</span>
+
+    @Override
+    public List&lt;RowSorter.SortKey&gt; buildNewSortKeys(final int columnToSort, final List&lt;? extends RowSorter.SortKey&gt; sortKeys) {
+<span class="nc" id="L165">        final List&lt;RowSorter.SortKey&gt; newKeys = new ArrayList&lt;&gt;(sortKeys);</span>
+<span class="nc" id="L166">        final int sortKeyIndex = findKeyColumn(newKeys, columnToSort);</span>
+<span class="nc bnc" id="L167" title="All 2 branches missed.">        if (sortKeyIndex &lt; 0) {</span>
+<span class="nc" id="L168">            addNewSortKey(newKeys, columnToSort);</span>
+        } else {
+<span class="nc" id="L170">            toggleExistingSortKey(newKeys, sortKeyIndex);</span>
+        }
+<span class="nc" id="L172">        return newKeys;</span>
+    }
+
+    /**
+     * @return the action to take on a new column becoming sorted.
+     */
+    public NewSortKeyPosition getNewSortKeyPosition() {
+<span class="nc" id="L179">        return newSortKeyPosition;</span>
+    }
+
+    /**
+     * Sets the action to take when a new column is sorted.
+     * @param newSortKeyPosition the action to take when a new column is sorted.
+     */
+    public void setNewSortKeyPosition(NewSortKeyPosition newSortKeyPosition) {
+<span class="nc" id="L187">        this.newSortKeyPosition = newSortKeyPosition;</span>
+<span class="nc" id="L188">    }</span>
+
+    /**
+     * @return the action to take on a sorted column becoming unsorted.
+     */
+    public RemoveSortKeyAction getRemoveSortKeyAction() {
+<span class="nc" id="L194">        return removeSortKeyAction;</span>
+    }
+
+    /**
+     * Sets the action to take when a sorted column becomes unsorted.
+     * @param removeSortKeyAction The action to take when a sorted column becomes unsorted.
+     */
+    public void setRemoveSortKeyAction(RemoveSortKeyAction removeSortKeyAction) {
+<span class="nc" id="L202">        this.removeSortKeyAction = removeSortKeyAction;</span>
+<span class="nc" id="L203">    }</span>
+
+    /**
+     * @return the action to take on an existing sorted column being toggled again.
+     */
+    public UpdateSortKeyPosition getUpdateSortKeyPosition() {
+<span class="nc" id="L209">        return updateSortKeyPosition;</span>
+    }
+
+    /**
+     * Sets the action to take when an existing sorted column is toggled.
+     * @param updateSortKeyPosition the action to take when an existing sorted column is toggled.
+     */
+    public void setUpdateSortKeyPosition(UpdateSortKeyPosition updateSortKeyPosition) {
+<span class="nc" id="L217">        this.updateSortKeyPosition = updateSortKeyPosition;</span>
+<span class="nc" id="L218">    }</span>
+
+    /**
+     * @return The maximum number of sorted columns.
+     */
+    public int getMaximumSortKeys() {
+<span class="nc" id="L224">        return maximumSortKeys;</span>
+    }
+
+    /**
+     * Sets the maximum number of sorted columns.
+     * @param maximumSortKeys the maximum number of sorted columns.
+     */
+    public void setMaximumSortKeys(final int maximumSortKeys) {
+<span class="nc" id="L232">        this.maximumSortKeys = maximumSortKeys;</span>
+<span class="nc" id="L233">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L237">        return getClass().getSimpleName() +</span>
+                &quot;(max columns: &quot; + maximumSortKeys +
+                &quot;, new: &quot; + newSortKeyPosition +
+                &quot;, existing: &quot; + updateSortKeyPosition +
+                &quot;, unsorted: &quot; + removeSortKeyAction + ')';
+    }
+
+    /**
+     * Adds a new ASCENDING sort key for the column, and puts it in the appropriate position in the sort list.
+     *
+     * @param newKeys A list of SortKeys to manipulate.
+     * @param columnToSort The index of the newly sorted column.
+     */
+    protected void addNewSortKey(final List&lt;RowSorter.SortKey&gt; newKeys, final int columnToSort) {
+<span class="nc" id="L251">        final RowSorter.SortKey newKey = new RowSorter.SortKey(columnToSort, SortOrder.ASCENDING);</span>
+<span class="nc bnc" id="L252" title="All 3 branches missed.">        switch(newSortKeyPosition) {</span>
+            case ADD_TO_END: { // always add to the end - if there isn't enough room, the last sort key is replaced.
+<span class="nc bnc" id="L254" title="All 2 branches missed.">                if (newKeys.size() &lt; maximumSortKeys) {</span>
+<span class="nc" id="L255">                    newKeys.add(newKey);</span>
+                } else {
+<span class="nc" id="L257">                    newKeys.set(newKeys.size() - 1, newKey);</span>
+                }
+<span class="nc" id="L259">                break;</span>
+            }
+            case MAKE_FIRST: { // adds to the start, and removes any existing ones past the max number of sorted columns.
+<span class="nc" id="L262">                newKeys.add(0, newKey);</span>
+<span class="nc" id="L263">                truncateList(newKeys, maximumSortKeys);</span>
+                break;
+            }
+        }
+<span class="nc" id="L267">    }</span>
+
+    /**
+     * Takes the appropriate action when an existing sorted column is toggled.
+     * @param newKeys The list of sort keys to manipulate.
+     * @param sortKeyIndex The index of the existing sort key in the list of sort keys.
+     */
+    protected void toggleExistingSortKey(final List&lt;RowSorter.SortKey&gt; newKeys, final int sortKeyIndex) {
+<span class="nc" id="L275">        final RowSorter.SortKey currentKey = newKeys.get(sortKeyIndex);</span>
+<span class="nc" id="L276">        final SortOrder nextState = nextSortOrder(currentKey.getSortOrder());</span>
+<span class="nc bnc" id="L277" title="All 2 branches missed.">        if (nextState == SortOrder.UNSORTED) {</span>
+<span class="nc" id="L278">            removeSortKey(newKeys, sortKeyIndex);</span>
+        } else {
+<span class="nc" id="L280">            updateSortKey(newKeys, sortKeyIndex, nextState);</span>
+        }
+<span class="nc" id="L282">    }</span>
+
+    /**
+     * The action to taken when a sorted column becomes unsorted.
+     * @param newKeys A list of new keys to manipulate.
+     * @param sortKeyIndex The index of the SortKey for the column which is becoming unsorted.
+     */
+    protected void removeSortKey(final List&lt;RowSorter.SortKey&gt; newKeys, final int sortKeyIndex) {
+<span class="nc bnc" id="L290" title="All 4 branches missed.">        switch (removeSortKeyAction) {</span>
+            case REMOVE: {
+<span class="nc" id="L292">                newKeys.remove(sortKeyIndex);</span>
+<span class="nc" id="L293">                break;</span>
+            }
+            case REMOVE_SUBSEQUENT: {
+<span class="nc" id="L296">                truncateList(newKeys, sortKeyIndex);</span>
+<span class="nc" id="L297">                break;</span>
+            }
+            case REMOVE_ALL: {
+<span class="nc" id="L300">                newKeys.clear();</span>
+                break;
+            }
+        }
+<span class="nc" id="L304">    }</span>
+
+    /**
+     * Updates a sort key to another sort order, and alters its position if required.
+     * @param sortKeys The list of sort keys
+     * @param sortKeyIndex The index of the sort key to update.
+     * @param newSortOrder The new sort order.
+     */
+    protected void updateSortKey(final List&lt;RowSorter.SortKey&gt; sortKeys, final int sortKeyIndex, final SortOrder newSortOrder) {
+<span class="nc" id="L313">        final RowSorter.SortKey newKey = new RowSorter.SortKey(sortKeys.get(sortKeyIndex).getColumn(), newSortOrder);</span>
+<span class="nc bnc" id="L314" title="All 3 branches missed.">        switch (updateSortKeyPosition) {</span>
+            case MAKE_FIRST: {
+<span class="nc" id="L316">                sortKeys.remove(sortKeyIndex);</span>
+<span class="nc" id="L317">                sortKeys.add(0, newKey);</span>
+<span class="nc" id="L318">                break;</span>
+            }
+            case KEEP_POSITION: {
+<span class="nc" id="L321">                sortKeys.set(sortKeyIndex, newKey);</span>
+                break;
+            }
+        }
+<span class="nc" id="L325">    }</span>
+
+    /**
+     * Cycles through and wraps around the SortOrder enum, from ASCENDING -&gt; DESCENDING -&gt; UNSORTED -&gt; ASCENDING -&gt; ...
+     * @param sortOrder A SortOrder enumeration.
+     * @return The next sort order (wrapping around).
+     */
+    protected SortOrder nextSortOrder(final SortOrder sortOrder) {
+<span class="nc" id="L333">        return SortOrder.values()[(sortOrder.ordinal() + 1) % SortOrder.values().length];</span>
+    }
+
+    /**
+     * Returns the index of a sort key for a particular column, or -1 if none is defined for that column.
+     *
+     * @param column The column to get a SortKey index for.
+     * @return The index of the SortKey for a particular column, or -1 if none is defined.
+     */
+    protected final int findKeyColumn(final List&lt;RowSorter.SortKey&gt; sortKeys, final int column) {
+<span class="nc" id="L343">        final List&lt;RowSorter.SortKey&gt; localKeys = sortKeys;</span>
+<span class="nc bnc" id="L344" title="All 2 branches missed.">        if (localKeys != null) {</span>
+<span class="nc bnc" id="L345" title="All 2 branches missed.">            for (int keyIndex = 0; keyIndex &lt; localKeys.size(); keyIndex++) {</span>
+<span class="nc bnc" id="L346" title="All 2 branches missed.">                if (localKeys.get(keyIndex).getColumn() == column) {</span>
+<span class="nc" id="L347">                    return keyIndex;</span>
+                }
+            }
+        }
+<span class="nc" id="L351">        return -1;</span>
+    }
+
+    /**
+     * Truncates a list down to a new size by removing elements from the end until it's the right size.
+     * This isn't particularly efficient, and could be avoided by refactoring the code that uses this to return lists
+     * rather than manipulating an existing List in place (then we could just return a subList).
+     * But the lists of sort keys are tiny (mostly just 3 elements at max), so we won't bother to do this small optimisation.
+     *
+     * @param list The list to truncate.
+     * @param newSize The new size of the truncated list.
+     */
+    protected final void truncateList(final List&lt;?&gt; list, final int newSize) {
+<span class="nc bnc" id="L364" title="All 2 branches missed.">        while (list.size() &gt; newSize) {</span>
+<span class="nc" id="L365">            list.remove(list.size() - 1);</span>
+        }
+<span class="nc" id="L367">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

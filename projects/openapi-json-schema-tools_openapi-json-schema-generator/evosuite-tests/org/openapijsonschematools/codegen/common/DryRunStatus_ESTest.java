@@ -23,7 +23,7 @@ import org.evosuite.runtime.mock.java.net.MockURI;
 import org.junit.runner.RunWith;
 import org.openapijsonschematools.codegen.common.DryRunStatus;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class DryRunStatus_ESTest extends DryRunStatus_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -24,7 +24,7 @@ import org.graph4j.VertexIndex;
 import org.graph4j.VertexIndexArray;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class GraphTests_ESTest extends GraphTests_ESTest_scaffolding {
 
   @Test(timeout = 4000)

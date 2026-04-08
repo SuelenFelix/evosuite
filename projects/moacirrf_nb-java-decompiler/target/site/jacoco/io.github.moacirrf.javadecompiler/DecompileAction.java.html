@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DecompileAction.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">NB Java Decompiler</a> &gt; <a href="index.source.html" class="el_package">io.github.moacirrf.javadecompiler</a> &gt; <span class="el_source">DecompileAction.java</span></div><h1>DecompileAction.java</h1><pre class="source lang-java linenums">/*
+ * Copyright (C) 2021 Moacir da Roza Flores &lt;moacirrf@gmail.com&gt;
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ */
+package io.github.moacirrf.javadecompiler;
+
+import static com.machinezoo.noexception.Exceptions.wrap;
+import static java.util.Objects.nonNull;
+import io.github.moacirrf.javadecompiler.files.TempDir;
+import io.github.moacirrf.javadecompiler.validator.FileValidator;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import org.netbeans.api.java.source.UiUtils;
+import org.openide.loaders.DataObject;
+import org.openide.awt.ActionID;
+import org.openide.awt.ActionReference;
+import org.openide.awt.ActionReferences;
+import org.openide.awt.ActionRegistration;
+import org.openide.filesystems.FileObject;
+import org.openide.filesystems.FileUtil;
+import org.openide.util.NbBundle.Messages;
+
+@ActionID(
+        category = &quot;Tools&quot;,
+        id = &quot;io.github.moacirrf.javadecompiler.DecompileAction&quot;
+)
+@ActionRegistration(
+        displayName = &quot;#CTL_DecompileAction&quot;
+)
+@ActionReferences(value = {
+    @ActionReference(path = &quot;Editors/Popup&quot;, position = 1425),
+    @ActionReference(path = &quot;UI/ToolActions&quot;, position = 2950)
+})
+@Messages(&quot;CTL_DecompileAction=Decompile&quot;)
+public final class DecompileAction implements ActionListener {
+
+    private final DataObject context;
+    private final Path decompilerDir;
+
+<span class="nc" id="L54">    public DecompileAction(DataObject context) {</span>
+<span class="nc" id="L55">        this.context = context;</span>
+<span class="nc" id="L56">        this.decompilerDir = TempDir.getTempDir();</span>
+<span class="nc" id="L57">    }</span>
+
+    @Override
+    public void actionPerformed(ActionEvent ev) {
+<span class="nc" id="L61">        FileObject file = context.getPrimaryFile();</span>
+<span class="nc bnc" id="L62" title="All 2 branches missed.">        if (FileValidator.validate(file)) {</span>
+<span class="nc" id="L63">            Decompiler&lt;String, FileObject&gt; decompiler = DecompilerFactory.create();</span>
+<span class="nc" id="L64">            writeToNewClass(file, decompiler.decompile(file));</span>
+        }
+<span class="nc" id="L66">    }</span>
+
+    private void writeToNewClass(FileObject file, String decompiled) {
+<span class="nc bnc" id="L69" title="All 4 branches missed.">        if (nonNull(decompiled) &amp;&amp; !decompiled.isEmpty()) {</span>
+<span class="nc" id="L70">            wrap(ExceptionHandler::handleException).run(() -&gt; {</span>
+<span class="nc" id="L71">                Path newFile = Path.of(decompilerDir.toString(), file.getName().concat(&quot;.java&quot;));</span>
+<span class="nc bnc" id="L72" title="All 2 branches missed.">                if (Files.exists(newFile)) {</span>
+<span class="nc" id="L73">                    newFile.toFile().setWritable(true);</span>
+<span class="nc" id="L74">                    Files.delete(newFile);</span>
+                }
+<span class="nc" id="L76">                Files.write(newFile, decompiled.getBytes());</span>
+<span class="nc" id="L77">                newFile.toFile().setReadOnly();</span>
+
+<span class="nc" id="L79">                FileObject newFileObject = FileUtil.createData(newFile.toFile());</span>
+<span class="nc" id="L80">                newFileObject.setAttribute(&quot;disable-java-errors&quot;, true);</span>
+<span class="nc" id="L81">                UiUtils.open(newFileObject, 1);</span>
+<span class="nc" id="L82">            });</span>
+        }
+<span class="nc" id="L84">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

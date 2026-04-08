@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 import tech.jiayezheng.miniJuliaSonar.Analyzer;
 import tech.jiayezheng.miniJuliaSonar.demo.HtmlOutline;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class HtmlOutline_ESTest extends HtmlOutline_ESTest_scaffolding {
 
   @Test(timeout = 4000)

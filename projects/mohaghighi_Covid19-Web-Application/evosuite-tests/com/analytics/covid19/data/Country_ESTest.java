@@ -24,7 +24,7 @@ import org.evosuite.runtime.mock.java.time.chrono.MockIsoChronology;
 import org.evosuite.runtime.mock.java.time.chrono.MockMinguoDate;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Country_ESTest extends Country_ESTest_scaffolding {
 
   @Test(timeout = 4000)

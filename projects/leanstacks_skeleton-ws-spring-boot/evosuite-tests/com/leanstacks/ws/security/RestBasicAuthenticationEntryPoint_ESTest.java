@@ -20,7 +20,7 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.junit.runner.RunWith;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class RestBasicAuthenticationEntryPoint_ESTest extends RestBasicAuthenticationEntryPoint_ESTest_scaffolding {
 
   @Test(timeout = 4000)

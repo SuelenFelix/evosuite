@@ -1,0 +1,137 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.automation:xml-doclet:jar:2.0.0
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< com.automation:xml-doclet >----------------------
+[INFO] Building XML Doclet 2.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ xml-doclet ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:prepare-agent (default) @ xml-doclet ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-jaxb23-plugin:0.14.0:generate (default) @ xml-doclet ---
+[INFO] Sources are not up-to-date, XJC will be executed.
+[INFO] Episode file [/app/target/generated-sources/xjc/META-INF/sun-jaxb.episode] was augmented with if-exists="true" attributes.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ xml-doclet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ xml-doclet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /app/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ xml-doclet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ xml-doclet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 708 source files to /app/target/test-classes
+[INFO] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/Interface_getComment_8903148971.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/Interface_getComment_8903148971.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/Interface_getComment_8903148971.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/Interface_getComment_8903148971.java: Recompile with -Xlint:unchecked for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/util/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/util/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 12 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[145,64] incompatible types: java.lang.Class<capture#1 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[146,64] incompatible types: java.lang.Class<capture#2 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[161,34] incompatible types: java.lang.Class<capture#3 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[162,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Boolean>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[166,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Byte>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[170,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Character>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[174,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Short>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[178,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Integer>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[182,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Long>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[186,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Double>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[190,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Float>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[194,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<boolean[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[198,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<byte[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[202,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<char[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[206,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<short[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[210,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<int[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[214,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<long[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[218,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<double[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[222,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<float[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[226,18] cannot find symbol
+  symbol:   method isArray()
+  location: variable clazz of type com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[238,70] cannot find symbol
+  symbol:   method getSuperclass()
+  location: variable clazz of type com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[239,31] cannot find symbol
+  symbol:   method getDeclaredFields()
+  location: variable clazz of type com.automation.xmldoclet.xjc.Class
+[INFO] 22 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.615 s
+[INFO] Finished at: 2026-04-08T01:04:50Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:testCompile (default-testCompile) on project xml-doclet: Compilation failure: Compilation failure: 
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[145,64] incompatible types: java.lang.Class<capture#1 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[146,64] incompatible types: java.lang.Class<capture#2 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[161,34] incompatible types: java.lang.Class<capture#3 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[162,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Boolean>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[166,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Byte>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[170,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Character>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[174,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Short>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[178,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Integer>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[182,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Long>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[186,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Double>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[190,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<java.lang.Float>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[194,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<boolean[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[198,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<byte[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[202,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<char[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[206,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<short[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[210,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<int[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[214,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<long[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[218,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<double[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[222,19] incomparable types: com.automation.xmldoclet.xjc.Class and java.lang.Class<float[]>
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[226,18] cannot find symbol
+[ERROR]   symbol:   method isArray()
+[ERROR]   location: variable clazz of type com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[238,70] cannot find symbol
+[ERROR]   symbol:   method getSuperclass()
+[ERROR]   location: variable clazz of type com.automation.xmldoclet.xjc.Class
+[ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[239,31] cannot find symbol
+[ERROR]   symbol:   method getDeclaredFields()
+[ERROR]   location: variable clazz of type com.automation.xmldoclet.xjc.Class
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

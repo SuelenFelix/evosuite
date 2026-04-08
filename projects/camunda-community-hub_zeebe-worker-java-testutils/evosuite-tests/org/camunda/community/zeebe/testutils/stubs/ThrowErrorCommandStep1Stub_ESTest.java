@@ -5,28 +5,39 @@
 
 package org.camunda.community.zeebe.testutils.stubs;
 
-import org.junit.Test;
 import static org.junit.Assert.*;
+
 import io.camunda.zeebe.client.api.command.ThrowErrorCommandStep1;
-import org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub;
-import org.camunda.community.zeebe.testutils.stubs.ThrowErrorCommandStep1Stub;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
-public class ThrowErrorCommandStep1Stub_ESTest extends ThrowErrorCommandStep1Stub_ESTest_scaffolding {
+@RunWith(EvoRunner.class)
+@EvoRunnerParameters(
+    mockJVMNonDeterminism = true,
+    useVFS = true,
+    useVNET = true,
+    resetStaticState = true,
+    separateClassLoader = false)
+public class ThrowErrorCommandStep1Stub_ESTest
+    extends ThrowErrorCommandStep1Stub_ESTest_scaffolding {
 
   @Test(timeout = 4000)
-  public void test0()  throws Throwable  {
-      ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(3142L);
-      ThrowErrorCommandStep1Stub throwErrorCommandStep1Stub0 = new ThrowErrorCommandStep1Stub(activatedJobStub0);
-      ThrowErrorCommandStep1.ThrowErrorCommandStep2 throwErrorCommandStep1_ThrowErrorCommandStep2_0 = throwErrorCommandStep1Stub0.errorCode(",Kb>LFM-@2/FW%ZU");
+  public void test0() throws Throwable {
+    ActivatedJobStub activatedJobStub0 = new ActivatedJobStub(3142L);
+    ThrowErrorCommandStep1Stub throwErrorCommandStep1Stub0 =
+        new ThrowErrorCommandStep1Stub(activatedJobStub0);
+    ThrowErrorCommandStep1.ThrowErrorCommandStep2 throwErrorCommandStep1_ThrowErrorCommandStep2_0 =
+        throwErrorCommandStep1Stub0.errorCode(",Kb>LFM-@2/FW%ZU");
   }
 
   @Test(timeout = 4000)
-  public void test1()  throws Throwable  {
-      ThrowErrorCommandStep1Stub throwErrorCommandStep1Stub0 = new ThrowErrorCommandStep1Stub((ActivatedJobStub) null);
-      ThrowErrorCommandStep1.ThrowErrorCommandStep2 throwErrorCommandStep1_ThrowErrorCommandStep2_0 = throwErrorCommandStep1Stub0.errorCode("org.camunda.community.zeebe.testutils.stubs.ThrowErrorCommandStep1Stub");
+  public void test1() throws Throwable {
+    ThrowErrorCommandStep1Stub throwErrorCommandStep1Stub0 =
+        new ThrowErrorCommandStep1Stub((ActivatedJobStub) null);
+    ThrowErrorCommandStep1.ThrowErrorCommandStep2 throwErrorCommandStep1_ThrowErrorCommandStep2_0 =
+        throwErrorCommandStep1Stub0.errorCode(
+            "org.camunda.community.zeebe.testutils.stubs.ThrowErrorCommandStep1Stub");
   }
 }

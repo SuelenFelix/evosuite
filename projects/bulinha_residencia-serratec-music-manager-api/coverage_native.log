@@ -1,0 +1,105 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< br.org.serratec.mm:music-manager >------------------
+[INFO] Building MusicManager 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ music-manager ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ music-manager ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ music-manager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ music-manager ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 48 source files to /app/target/classes
+[INFO] /app/src/main/java/br/org/serratec/mm/config/SecurityConfig.java: /app/src/main/java/br/org/serratec/mm/config/SecurityConfig.java uses or overrides a deprecated API.
+[INFO] /app/src/main/java/br/org/serratec/mm/config/SecurityConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ music-manager ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ music-manager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ music-manager ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /app/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ music-manager ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.org.serratec.mm.MusicManagerApplicationTests
+02:04:21.644 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+02:04:21.657 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+02:04:21.708 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [br.org.serratec.mm.MusicManagerApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+02:04:21.724 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.org.serratec.mm.MusicManagerApplicationTests], using SpringBootContextLoader
+02:04:21.729 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [br.org.serratec.mm.MusicManagerApplicationTests]: class path resource [br/org/serratec/mm/MusicManagerApplicationTests-context.xml] does not exist
+02:04:21.730 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [br.org.serratec.mm.MusicManagerApplicationTests]: class path resource [br/org/serratec/mm/MusicManagerApplicationTestsContext.groovy] does not exist
+02:04:21.730 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [br.org.serratec.mm.MusicManagerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:04:21.731 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.org.serratec.mm.MusicManagerApplicationTests]: MusicManagerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:04:21.782 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [br.org.serratec.mm.MusicManagerApplicationTests]
+02:04:21.860 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/app/target/classes/br/org/serratec/mm/MusicManagerApplication.class]
+02:04:21.861 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.org.serratec.mm.MusicManagerApplication for test class br.org.serratec.mm.MusicManagerApplicationTests
+02:04:21.977 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [br.org.serratec.mm.MusicManagerApplicationTests]: using defaults.
+02:04:21.978 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:04:22.001 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cfacf0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c8abec7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@45f241df, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f36f34d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72e36677, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b86826a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3c2dda7c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b9fa2f, org.springframework.test.context.event.EventPublishingTestExecutionListener@6d80e411, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32caae19, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60e67c06, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2bc59ab7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@410f53b2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@265287ec, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7507d96c]
+02:04:22.006 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3a1a0bc testClass = MusicManagerApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@35d114f4 testClass = MusicManagerApplicationTests, locations = '{}', classes = '{class br.org.serratec.mm.MusicManagerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5974b7e8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@746c411c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3d88e6b9, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@25ffd826, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7a1b8a46, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4eed46ee], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2026-04-08 02:04:22.359  INFO 69 --- [           main] b.o.s.mm.MusicManagerApplicationTests    : Starting MusicManagerApplicationTests using Java 11.0.16 on 721d3ce6fe7b with PID 69 (started by root in /app)
+2026-04-08 02:04:22.361  INFO 69 --- [           main] b.o.s.mm.MusicManagerApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 02:04:23.292  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 02:04:23.352  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2026-04-08 02:04:23.999  INFO 69 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 02:04:24.059  INFO 69 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2026-04-08 02:04:24.194  INFO 69 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 02:04:24.300  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 02:04:24.603  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 02:04:24.627  INFO 69 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 02:04:25.411  INFO 69 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 02:04:25.419  INFO 69 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 02:04:25.499  WARN 69 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 02:04:26.532  INFO 69 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-08 02:04:27.010  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@711680a8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55c32b49, org.springframework.security.web.context.SecurityContextPersistenceFilter@62c53bac, org.springframework.security.web.header.HeaderWriterFilter@4714da15, org.springframework.web.filter.CorsFilter@45a1aac5, org.springframework.security.web.authentication.logout.LogoutFilter@53d8cb17, br.org.serratec.mm.security.JwtAuthenticationFilter@5b59ddf2, br.org.serratec.mm.security.JwtAuthorizationFilter@1e0f15f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@743ae8f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36f789c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52dafc1a, org.springframework.security.web.session.SessionManagementFilter@15391072, org.springframework.security.web.access.ExceptionTranslationFilter@36b38e41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d42f794]
+2026-04-08 02:04:28.036  INFO 69 --- [           main] b.o.s.mm.MusicManagerApplicationTests    : Started MusicManagerApplicationTests in 5.983 seconds (JVM running for 7.103)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.587 s - in br.org.serratec.mm.MusicManagerApplicationTests
+2026-04-08 02:04:28.176  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 02:04:28.177  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 02:04:28.180  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ music-manager ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'MusicManager' with 41 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ music-manager ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'MusicManager' with 41 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.250 s
+[INFO] Finished at: 2026-04-08T02:04:29Z
+[INFO] ------------------------------------------------------------------------

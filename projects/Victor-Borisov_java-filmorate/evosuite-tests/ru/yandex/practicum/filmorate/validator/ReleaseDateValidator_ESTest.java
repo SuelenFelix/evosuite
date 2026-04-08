@@ -16,7 +16,7 @@ import org.evosuite.runtime.mock.java.time.MockLocalDate;
 import org.junit.runner.RunWith;
 import ru.yandex.practicum.filmorate.validator.ReleaseDateValidator;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class ReleaseDateValidator_ESTest extends ReleaseDateValidator_ESTest_scaffolding {
 
   @Test(timeout = 4000)

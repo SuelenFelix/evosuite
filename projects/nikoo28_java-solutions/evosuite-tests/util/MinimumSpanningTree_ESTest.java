@@ -16,7 +16,7 @@ import util.GraphEdge;
 import util.MinimumSpanningTree;
 import util.WeightedGraph;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class MinimumSpanningTree_ESTest extends MinimumSpanningTree_ESTest_scaffolding {
 
   @Test(timeout = 4000)

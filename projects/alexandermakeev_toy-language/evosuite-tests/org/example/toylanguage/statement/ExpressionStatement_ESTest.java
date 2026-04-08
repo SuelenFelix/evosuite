@@ -24,7 +24,7 @@ import org.example.toylanguage.expression.value.ClassValue;
 import org.example.toylanguage.statement.ExpressionStatement;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class ExpressionStatement_ESTest extends ExpressionStatement_ESTest_scaffolding {
 
   @Test(timeout = 4000)

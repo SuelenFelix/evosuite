@@ -28,7 +28,7 @@ import org.example.toylanguage.statement.InputStatement;
 import org.example.toylanguage.statement.ReturnStatement;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Statement_ESTest extends Statement_ESTest_scaffolding {
 
   @Test(timeout = 4000)

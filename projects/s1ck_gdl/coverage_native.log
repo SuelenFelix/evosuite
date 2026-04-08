@@ -1,0 +1,85 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< com.github.s1ck:gdl >-------------------------
+[INFO] Building GDL - Graph Definition Language 0.3.10-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gdl ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ gdl ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- antlr4-maven-plugin:4.13.1:antlr4 (default) @ gdl ---
+[INFO] ANTLR 4: Processing source directory /app/src/main/antlr4
+[INFO] Processing grammar: org/s1ck/gdl/GDL.g4
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gdl ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ gdl ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 26 source files to /app/target/classes
+[INFO] /app/src/main/java/org/s1ck/gdl/GDLHandler.java: /app/src/main/java/org/s1ck/gdl/GDLHandler.java uses or overrides a deprecated API.
+[INFO] /app/src/main/java/org/s1ck/gdl/GDLHandler.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ gdl ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gdl ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ gdl ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to /app/target/test-classes
+[INFO] /app/src/test/java/org/s1ck/gdl/GDLLoaderTest.java: /app/src/test/java/org/s1ck/gdl/GDLLoaderTest.java uses or overrides a deprecated API.
+[INFO] /app/src/test/java/org/s1ck/gdl/GDLLoaderTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ gdl ---
+[INFO] Surefire report directory: /app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.s1ck.gdl.GDLLoaderTest
+line 1:35 extraneous input '{' expecting Identifier
+line 1:48 mismatched input '23' expecting Identifier
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 sec
+Running org.s1ck.gdl.GDLHandlerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.s1ck.gdl.predicates.booleans.OrTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.predicates.booleans.NotTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.predicates.booleans.AndTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.predicates.booleans.XorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.test.ComparatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ gdl ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'GDL - Graph Definition Language' with 58 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ gdl ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'GDL - Graph Definition Language' with 58 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.091 s
+[INFO] Finished at: 2026-04-08T02:17:18Z
+[INFO] ------------------------------------------------------------------------

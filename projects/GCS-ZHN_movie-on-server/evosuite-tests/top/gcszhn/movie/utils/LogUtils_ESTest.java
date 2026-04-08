@@ -14,7 +14,7 @@ import org.evosuite.runtime.mock.java.lang.MockThrowable;
 import org.junit.runner.RunWith;
 import top.gcszhn.movie.utils.LogUtils;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class LogUtils_ESTest extends LogUtils_ESTest_scaffolding {
 
   @Test(timeout = 4000)

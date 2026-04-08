@@ -26,7 +26,7 @@ import tech.jiayezheng.miniJuliaSonar.TestInference;
 import tech.jiayezheng.miniJuliaSonar.ast.Dummy;
 import tech.jiayezheng.miniJuliaSonar.ast.LPAREN;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class TestInference_ESTest extends TestInference_ESTest_scaffolding {
 
   @Test(timeout = 4000)

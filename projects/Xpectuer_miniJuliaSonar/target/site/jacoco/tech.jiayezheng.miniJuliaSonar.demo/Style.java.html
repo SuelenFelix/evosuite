@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Style.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.demo</a> &gt; <span class="el_source">Style.java</span></div><h1>Style.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.demo;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import tech.jiayezheng.miniJuliaSonar.$;
+
+import java.util.List;
+
+
+/**
+ * Represents a simple style run for purposes of source highlighting.
+ */
+public class Style implements Comparable&lt;Style&gt; {
+
+<span class="nc" id="L15">    public enum Type {</span>
+<span class="nc" id="L16">        KEYWORD,</span>
+<span class="nc" id="L17">        COMMENT,</span>
+<span class="nc" id="L18">        STRING,</span>
+<span class="nc" id="L19">        DOC_STRING,</span>
+<span class="nc" id="L20">        IDENTIFIER,</span>
+<span class="nc" id="L21">        BUILTIN,</span>
+<span class="nc" id="L22">        NUMBER,</span>
+<span class="nc" id="L23">        CONSTANT,       // ALL_CAPS identifier</span>
+<span class="nc" id="L24">        FUNCTION,       // function name</span>
+<span class="nc" id="L25">        PARAMETER,      // function parameter</span>
+<span class="nc" id="L26">        LOCAL,          // local variable</span>
+<span class="nc" id="L27">        DECORATOR,      // function decorator</span>
+<span class="nc" id="L28">        CLASS,          // class name</span>
+<span class="nc" id="L29">        ATTRIBUTE,      // object attribute</span>
+<span class="nc" id="L30">        LINK,           // hyperlink</span>
+<span class="nc" id="L31">        ANCHOR,         // name anchor</span>
+<span class="nc" id="L32">        DELIMITER,</span>
+<span class="nc" id="L33">        TYPE_NAME,      // reference to a type (e.g. function or class name)</span>
+
+<span class="nc" id="L35">        ERROR,</span>
+<span class="nc" id="L36">        WARNING,</span>
+<span class="nc" id="L37">        INFO</span>
+    }
+
+
+    public Type type;
+    public int start;
+    public int end;
+
+    public String message;  // optional hover text
+    @Nullable
+    public String url;      // internal or external link
+    @Nullable
+    public String id;       // for hover highlight
+    public List&lt;String&gt; highlight;   // for hover highlight
+
+
+<span class="nc" id="L53">    public Style(Type type, int start, int end) {</span>
+<span class="nc" id="L54">        this.type = type;</span>
+<span class="nc" id="L55">        this.start = start;</span>
+<span class="nc" id="L56">        this.end = end;</span>
+<span class="nc" id="L57">    }</span>
+
+
+    @Override
+    public boolean equals(Object o) {
+<span class="nc bnc" id="L62" title="All 2 branches missed.">        if (!(o instanceof Style)) {</span>
+<span class="nc" id="L63">            return false;</span>
+        }
+<span class="nc" id="L65">        Style other = (Style) o;</span>
+<span class="nc bnc" id="L66" title="All 6 branches missed.">        return other.type == this.type</span>
+                &amp;&amp; other.start == this.start
+                &amp;&amp; other.end == this.end
+<span class="nc bnc" id="L69" title="All 2 branches missed.">                &amp;&amp; $.same(other.message, this.message)</span>
+<span class="nc bnc" id="L70" title="All 2 branches missed.">                &amp;&amp; $.same(other.url, this.url);</span>
+    }
+
+
+    public int compareTo(@NotNull Style other) {
+<span class="nc bnc" id="L75" title="All 2 branches missed.">        if (this.equals(other)) {</span>
+<span class="nc" id="L76">            return 0;</span>
+<span class="nc bnc" id="L77" title="All 2 branches missed.">        } else if (this.start &lt; other.start) {</span>
+<span class="nc" id="L78">            return -1;</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">        } else if (this.start &gt; other.start) {</span>
+<span class="nc" id="L80">            return 1;</span>
+        } else {
+<span class="nc" id="L82">            return this.hashCode() - other.hashCode();</span>
+        }
+    }
+
+
+    @NotNull
+    @Override
+    public String toString() {
+<span class="nc" id="L90">        return &quot;[&quot; + type + &quot; start=&quot; + start + &quot; end=&quot; + end + &quot;]&quot;;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

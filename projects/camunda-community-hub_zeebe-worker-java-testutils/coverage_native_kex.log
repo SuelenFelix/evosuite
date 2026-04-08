@@ -1,0 +1,248 @@
+[INFO] Scanning for projects...
+[WARNING] The project io.zeebe:zeebe-worker-java-testutils:jar:8.1.9-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------< io.zeebe:zeebe-worker-java-testutils >----------------
+[INFO] Building Zeebe Worker Java Test Utilities 8.1.9-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/maven-metadata.xml
+Downloading from zeebe: https://artifacts.camunda.com/artifactory/zeebe-io/io/grpc/grpc-api/maven-metadata.xml
+Downloading from zeebe-snapshots: https://artifacts.camunda.com/artifactory/zeebe-io-snapshots/io/grpc/grpc-api/maven-metadata.xml
+Progress (1): 4.1 kB
+Progress (1): 4.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/maven-metadata.xml (4.7 kB at 8.2 kB/s)
+[WARNING] Could not transfer metadata io.grpc:grpc-api/maven-metadata.xml from/to zeebe (https://artifacts.camunda.com/artifactory/zeebe-io/): authentication failed for https://artifacts.camunda.com/artifactory/zeebe-io/io/grpc/grpc-api/maven-metadata.xml, status: 401 Unauthorized
+Downloading from zeebe-snapshots: https://artifacts.camunda.com/artifactory/zeebe-io-snapshots/io/grpc/grpc-core/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/maven-metadata.xml
+Downloading from zeebe: https://artifacts.camunda.com/artifactory/zeebe-io/io/grpc/grpc-core/maven-metadata.xml
+Progress (1): 4.1 kB
+Progress (1): 6.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/maven-metadata.xml (6.3 kB at 46 kB/s)
+[WARNING] Could not transfer metadata io.grpc:grpc-core/maven-metadata.xml from/to zeebe (https://artifacts.camunda.com/artifactory/zeebe-io/): authentication failed for https://artifacts.camunda.com/artifactory/zeebe-io/io/grpc/grpc-core/maven-metadata.xml, status: 401 Unauthorized
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ zeebe-worker-java-testutils ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:prepare-agent (coverage-initialize) @ zeebe-worker-java-testutils ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.13:format (default) @ zeebe-worker-java-testutils ---
+[INFO] Processed 33 files (0 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ zeebe-worker-java-testutils ---
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ zeebe-worker-java-testutils ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 14 source files with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ zeebe-worker-java-testutils ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ zeebe-worker-java-testutils ---
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ zeebe-worker-java-testutils ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 19 source files with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/samples/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/stubs/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/samples/ReflectionUtils.java:[12,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/samples/ReflectionUtils.java:[16,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/samples/ReflectionUtils.java:[18,17] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/ReflectionUtils.java:[12,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/ReflectionUtils.java:[16,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/ReflectionUtils.java:[18,17] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/stubs/ReflectionUtils.java:[12,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/stubs/ReflectionUtils.java:[16,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/org/camunda/community/zeebe/testutils/stubs/ReflectionUtils.java:[18,17] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/org/camunda/community/zeebe/testutils/samples/JobHandlerImplTest.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/org/camunda/community/zeebe/testutils/samples/JobHandlerImplTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M9:test (default-test) @ zeebe-worker-java-testutils ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017380
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017380
+[INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241
+[ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241.test  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub.Status.PAEBtnZtTD
+	at java.base/java.lang.Enum.valueOf(Enum.java:240)
+	at org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub$Status.valueOf(ActivatedJobStub.java:262)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.camunda.community.zeebe.testutils.stubs.ReflectionUtils.callMethod(ReflectionUtils.java:338)
+	at org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241.test(ActivatedJobStub_Status_valueOf_15162457241.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761273
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761273
+[INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761270
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761270
+[INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244
+[ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244.test  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at java.base/java.lang.Enum.valueOf(Enum.java:238)
+	at org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub$Status.valueOf(ActivatedJobStub.java:262)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.camunda.community.zeebe.testutils.stubs.ReflectionUtils.callMethod(ReflectionUtils.java:338)
+	at org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244.test(ActivatedJobStub_Status_valueOf_15162457244.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152
+[ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152.test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.camunda.community.zeebe.testutils.stubs.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
+	at org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152.test(ActivatedJobStub_Status_init_18579543152.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155
+[ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155.test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.camunda.community.zeebe.testutils.stubs.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
+	at org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155.test(ActivatedJobStub_Status_init_18579543155.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017381
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017381
+[INFO] Running org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821
+[ERROR] org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821.test  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.camunda.community.zeebe.testutils.samples.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
+	at org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821.test(JobHandlerImpl_Scenario_init_7364989821.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820
+[ERROR] org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820.test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.camunda.community.zeebe.testutils.samples.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
+	at org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820.test(JobHandlerImpl_Scenario_init_7364989820.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running org.camunda.community.zeebe.testutils.samples.DivisionHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.467 s - in org.camunda.community.zeebe.testutils.samples.DivisionHandlerTest
+[INFO] Running org.camunda.community.zeebe.testutils.samples.AsyncJobHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.023 s - in org.camunda.community.zeebe.testutils.samples.AsyncJobHandlerTest
+[INFO] Running org.camunda.community.zeebe.testutils.samples.JobHandlerImplTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.camunda.community.zeebe.testutils.samples.JobHandlerImplTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   JobHandlerImpl_Scenario_init_7364989820.test:31 » IllegalArgument Cannot reflectively create enum objects
+[ERROR]   JobHandlerImpl_Scenario_init_7364989821.test:36 » IllegalArgument Cannot reflectively create enum objects
+[ERROR]   ActivatedJobStub_Status_init_18579543152.test:31 » IllegalArgument Cannot reflectively create enum objects
+[ERROR]   ActivatedJobStub_Status_init_18579543155.test:36 » IllegalArgument Cannot reflectively create enum objects
+[ERROR]   ActivatedJobStub_Status_valueOf_15162457241.test:31 » IllegalArgument No enum constant org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub.Status.PAEBtnZtTD
+[ERROR]   ActivatedJobStub_Status_valueOf_15162457244.test:40 » NullPointer Name is null
+[INFO] 
+[ERROR] Tests run: 19, Failures: 0, Errors: 6, Skipped: 0
+[INFO] 
+[ERROR] 
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:report (default-cli) @ zeebe-worker-java-testutils ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Zeebe Worker Java Test Utilities' with 21 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.272 s
+[INFO] Finished at: 2026-04-08T01:00:35Z
+[INFO] ------------------------------------------------------------------------

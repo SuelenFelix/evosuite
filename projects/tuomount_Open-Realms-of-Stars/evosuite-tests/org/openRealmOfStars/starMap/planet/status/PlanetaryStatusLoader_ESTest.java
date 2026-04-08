@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 import org.openRealmOfStars.starMap.planet.status.PlanetaryStatus;
 import org.openRealmOfStars.starMap.planet.status.PlanetaryStatusLoader;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class PlanetaryStatusLoader_ESTest extends PlanetaryStatusLoader_ESTest_scaffolding {
 
   @Test(timeout = 4000)

@@ -20,7 +20,7 @@ import tech.jiayezheng.miniJuliaSonar.Analyzer;
 import tech.jiayezheng.miniJuliaSonar.Builtins;
 import tech.jiayezheng.miniJuliaSonar.ast.Url;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Builtins_ESTest extends Builtins_ESTest_scaffolding {
 
   @Test(timeout = 4000)

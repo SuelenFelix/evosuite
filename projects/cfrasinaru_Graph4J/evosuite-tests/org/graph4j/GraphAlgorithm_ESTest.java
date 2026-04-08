@@ -16,7 +16,7 @@ import org.graph4j.metrics.GraphMetrics;
 import org.graph4j.spanning.PrimMinimumSpanningTree;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class GraphAlgorithm_ESTest extends GraphAlgorithm_ESTest_scaffolding {
 
   @Test(timeout = 4000)

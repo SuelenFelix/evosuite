@@ -16,7 +16,7 @@ import org.graph4j.MultigraphImpl;
 import org.graph4j.PseudographImpl;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Weighted_ESTest extends Weighted_ESTest_scaffolding {
 
   @Test(timeout = 4000)

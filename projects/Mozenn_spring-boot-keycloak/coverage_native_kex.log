@@ -1,0 +1,295 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.example:spring-boot-keycloak >------------------
+[INFO] Building spring-boot-keycloak 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ spring-boot-keycloak ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ spring-boot-keycloak ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ spring-boot-keycloak ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-keycloak ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ spring-boot-keycloak ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ spring-boot-keycloak ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-keycloak ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 65 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/service/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/Plant_hashCode_180491299517.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/mozen/springbootkeycloack/model/Plant_hashCode_180491299517.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-keycloak ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_hashCode_180491299531
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.mozen.springbootkeycloack.model.Plant_hashCode_180491299531
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_canEqual_55206369130
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springbootkeycloack.model.Plant_canEqual_55206369130
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setId_19851836857
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setId_19851836857
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getFamily_122529075121
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getFamily_122529075121
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_hashCode_180491299515
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_hashCode_180491299515
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_init_57034298119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_init_57034298119
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setFamily_62062306510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setFamily_62062306510
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setFamily_62062306528
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setFamily_62062306528
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_canEqual_55206369116
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_canEqual_55206369116
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_toString_197929461112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_toString_197929461112
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setScientificName_113647354525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setScientificName_113647354525
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setCreatedAt_140073951511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setCreatedAt_140073951511
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getScientificName_74570776122
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getScientificName_74570776122
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_init_143383876016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_init_143383876016
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_toString_197929461128
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_toString_197929461128
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_toString_197929461114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_toString_197929461114
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setName_17275538568
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setName_17275538568
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getCreatedAt_39274350122
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getCreatedAt_39274350122
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_init_57034298117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_init_57034298117
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setScientificName_11364735459
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springbootkeycloack.model.Plant_setScientificName_11364735459
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getScientificName_7457077614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getScientificName_7457077614
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setId_198518368525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setId_198518368525
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setScientificName_113647354527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setScientificName_113647354527
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_hashCode_180491299517
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_hashCode_180491299517
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getCreatedAt_3927435016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getCreatedAt_3927435016
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setCreatedAt_140073951512
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setCreatedAt_140073951512
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setFamily_62062306526
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setFamily_62062306526
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_toString_197929461113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_toString_197929461113
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getScientificName_74570776120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getScientificName_74570776120
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getFamily_122529075123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getFamily_122529075123
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_canEqual_55206369114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_canEqual_55206369114
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_equals_135622632029
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_equals_135622632029
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getCreatedAt_39274350124
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getCreatedAt_39274350124
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setName_172755385624
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setName_172755385624
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setId_198518368523
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springbootkeycloack.model.Plant_setId_198518368523
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_init_14338387600
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_init_14338387600
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_equals_135622632013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_equals_135622632013
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getName_84753687221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getName_84753687221
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setCreatedAt_140073951527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setCreatedAt_140073951527
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getId_18797418532
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getId_18797418532
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getName_84753687219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getName_84753687219
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getId_187974185318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getId_187974185318
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getName_8475368723
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getName_8475368723
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_init_143383876018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_init_143383876018
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_init_5703429811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_init_5703429811
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_equals_135622632015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_equals_135622632015
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_setName_172755385626
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_setName_172755385626
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getFamily_12252907515
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getFamily_12252907515
+[INFO] Running com.mozen.springbootkeycloack.model.Plant_getId_187974185320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.model.Plant_getId_187974185320
+[INFO] Running com.mozen.springbootkeycloack.controller.PlantController_getPlant_5683039291
+01:24:00.081 [Time-limited test] INFO com.mozen.springbootkeycloack.controller.PlantController - Request for plant 2442117782898005296 received
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in com.mozen.springbootkeycloack.controller.PlantController_getPlant_5683039291
+[ERROR] test  Time elapsed: 0.054 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springbootkeycloack.controller.PlantController_getPlant_5683039291.test(PlantController_getPlant_5683039291.java:48)
+
+[INFO] Running com.mozen.springbootkeycloack.controller.PlantController_getPlant_5683039293
+01:24:00.094 [Time-limited test] INFO com.mozen.springbootkeycloack.controller.PlantController - Request for plant null received
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.mozen.springbootkeycloack.controller.PlantController_getPlant_5683039293
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springbootkeycloack.controller.PlantController_getPlant_5683039293.test(PlantController_getPlant_5683039293.java:45)
+
+[INFO] Running com.mozen.springbootkeycloack.controller.PlantController_init_20211008332
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.controller.PlantController_init_20211008332
+[INFO] Running com.mozen.springbootkeycloack.controller.PlantController_init_20211008330
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.controller.PlantController_init_20211008330
+[INFO] Running com.mozen.springbootkeycloack.Application_init_11118487710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.Application_init_11118487710
+[INFO] Running com.mozen.springbootkeycloack.service.PlantService_getPlant_15303925190
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.mozen.springbootkeycloack.service.PlantService_getPlant_15303925190
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springbootkeycloack.service.PlantService_getPlant_15303925190.test(PlantService_getPlant_15303925190.java:45)
+
+[INFO] Running com.mozen.springbootkeycloack.Application_init_11118487711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springbootkeycloack.Application_init_11118487711
+[INFO] Running com.mozen.springbootkeycloack.DemoApplicationTests
+01:24:00.191 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:24:00.202 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:24:00.253 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mozen.springbootkeycloack.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:24:00.268 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mozen.springbootkeycloack.DemoApplicationTests], using SpringBootContextLoader
+01:24:00.274 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mozen.springbootkeycloack.DemoApplicationTests]: class path resource [com/mozen/springbootkeycloack/DemoApplicationTests-context.xml] does not exist
+01:24:00.275 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mozen.springbootkeycloack.DemoApplicationTests]: class path resource [com/mozen/springbootkeycloack/DemoApplicationTestsContext.groovy] does not exist
+01:24:00.275 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mozen.springbootkeycloack.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:24:00.276 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mozen.springbootkeycloack.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:24:00.327 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mozen.springbootkeycloack.DemoApplicationTests]
+01:24:00.413 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/app/target/classes/com/mozen/springbootkeycloack/Application.class]
+01:24:00.414 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mozen.springbootkeycloack.Application for test class com.mozen.springbootkeycloack.DemoApplicationTests
+01:24:00.516 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mozen.springbootkeycloack.DemoApplicationTests]: using defaults.
+01:24:00.517 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:24:00.542 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f17dd06, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7977f046, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ec98ccc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@441aa7ae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1534bdc6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@53079ae6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@718ad3a6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@603c2dee, org.springframework.test.context.event.EventPublishingTestExecutionListener@50d666a2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f6906f4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1859e55c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@190bf8e4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7a8b7e11, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d229912, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5a06eeef]
+01:24:00.546 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6ffdbeef testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4a3509b0 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.mozen.springbootkeycloack.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@42e4e589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@aa61e4e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@741741d0, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1320e68a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@608cd501, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2160e52a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+01:24:00.603 [main] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+01:24:00.605 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-04-08 01:24:00.915  INFO 69 --- [           main] c.m.s.DemoApplicationTests               : Starting DemoApplicationTests using Java 11.0.16 on 60dfc1ddd114 with PID 69 (started by root in /app)
+2026-04-08 01:24:00.916  INFO 69 --- [           main] c.m.s.DemoApplicationTests               : No active profile set, falling back to default profiles: default
+2026-04-08 01:24:01.512  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 01:24:01.551  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2026-04-08 01:24:02.072  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 01:24:02.325  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 01:24:02.412  INFO 69 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 01:24:02.475  INFO 69 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2026-04-08 01:24:02.621  INFO 69 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 01:24:02.754  INFO 69 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 01:24:03.244  INFO 69 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 01:24:03.262  INFO 69 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 01:24:03.527  WARN 69 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 01:24:03.766  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e603b6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f94d3ee, org.springframework.security.web.header.HeaderWriterFilter@693aefe8, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@7b3b57f6, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@34e646e, org.springframework.security.web.authentication.logout.LogoutFilter@6b08b51e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a18fa87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52785d6d, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@4f4b0337, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@32319302, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cf0ba04, org.springframework.security.web.session.SessionManagementFilter@2aadeca3, org.springframework.security.web.access.ExceptionTranslationFilter@b6a59b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12cab957]
+2026-04-08 01:24:04.383  INFO 69 --- [           main] c.m.s.DemoApplicationTests               : Started DemoApplicationTests in 3.777 seconds (JVM running for 5.225)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.363 s - in com.mozen.springbootkeycloack.DemoApplicationTests
+2026-04-08 01:24:04.531  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 01:24:04.532  INFO 69 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2026-04-08 01:24:04.626  WARN 69 --- [ionShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2026-04-08 01:24:04.627 ERROR 69 --- [ionShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2026-04-08 01:24:04.627  WARN 69 --- [ionShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2026-04-08 01:24:04.627 ERROR 69 --- [ionShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2026-04-08 01:24:04.627  WARN 69 --- [ionShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2026-04-08 01:24:04.628  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 01:24:04.630  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   PlantController_getPlant_5683039291.test:48 » NullPointer
+[ERROR]   PlantController_getPlant_5683039293.test:45 » NullPointer
+[ERROR]   PlantService_getPlant_15303925190.test:45 » NullPointer
+[INFO] 
+[ERROR] Tests run: 57, Failures: 0, Errors: 3, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ spring-boot-keycloak ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'spring-boot-keycloak' with 6 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ spring-boot-keycloak ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'spring-boot-keycloak' with 6 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.998 s
+[INFO] Finished at: 2026-04-08T01:24:05Z
+[INFO] ------------------------------------------------------------------------

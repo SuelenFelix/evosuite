@@ -1,0 +1,413 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.nscuro:bradamsa-ng >--------------------
+[INFO] Building bradamsa-ng 1.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bradamsa-ng ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ bradamsa-ng ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bradamsa-ng ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ bradamsa-ng ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ bradamsa-ng ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bradamsa-ng ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ bradamsa-ng ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 106 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/wsl/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/radamsa/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/intruder/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/command/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/wsl/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/wsl/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/wsl/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/radamsa/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/radamsa/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/radamsa/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/intruder/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/intruder/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/intruder/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/command/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/command/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/command/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/command/ExecutionResult_init_6227149140.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/command/ExecutionResult_init_6227149140.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/intruder/IntruderAttackOptions_getWslDistributionName_9527443635.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/github/nscuro/bradamsang/intruder/IntruderAttackOptions_getWslDistributionName_9527443635.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ bradamsa-ng ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSamplePaths_15889216337
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSamplePaths_15889216337
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_create_19969548571
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_create_19969548571
+[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_create_19969548571.test(RadamsaExecutorFactory_create_19969548571.java:44)
+
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_execute_20870919551
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_execute_20870919551
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_execute_20870919551.test(RadamsaExecutor_execute_20870919551.java:62)
+
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_getRadamsaVersion_11215242372
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_getRadamsaVersion_11215242372
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_getRadamsaVersion_11215242372.test(RadamsaExecutor_getRadamsaVersion_11215242372.java:44)
+
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_init_21314424760
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_init_21314424760
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_init_3925859280
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_init_3925859280
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSample_16746541671
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSample_16746541671
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_create_19969548573
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_create_19969548573
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_create_19969548573.test(RadamsaExecutorFactory_create_19969548573.java:44)
+
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_init_18737725912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_init_18737725912
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSamplePaths_17899033449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSamplePaths_17899033449
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSample_5712474528
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSample_5712474528
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSample_16746541676
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSample_16746541676
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSamplePaths_17899033444
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSamplePaths_17899033444
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSamplePaths_15889216332
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_withSamplePaths_15889216332
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_init_21314424765
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_init_21314424765
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_execute_20870919554
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_execute_20870919554
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: No options provided
+	at com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_execute_20870919554.test(RadamsaExecutor_execute_20870919554.java:46)
+
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_init_18737725910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutorFactory_init_18737725910
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_init_3925859283
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_init_3925859283
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSample_5712474523
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.radamsa.RadamsaOptions_getSample_5712474523
+[INFO] Running com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_getRadamsaVersion_11215242375
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_getRadamsaVersion_11215242375
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.radamsa.RadamsaExecutor_getRadamsaVersion_11215242375.test(RadamsaExecutor_getRadamsaVersion_11215242375.java:44)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_getWslVersion_18993415808
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_getWslVersion_18993415808
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_isWslAvailable_12108508562
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslSupport_isWslAvailable_12108508562
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_getWslVersion_18993415803
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_getWslVersion_18993415803
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslCommandExecutor_init_15030784850
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslCommandExecutor_init_15030784850
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_isDefault_19071648457
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_isDefault_19071648457
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_getInstalledDistributions_450726383
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslSupport_getInstalledDistributions_450726383
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.wsl.WslSupport_getInstalledDistributions_450726383.test(WslSupport_getInstalledDistributions_450726383.java:43)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslCommandExecutor_execute_55422623
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslCommandExecutor_execute_55422623
+[ERROR] test  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.wsl.WslCommandExecutor_execute_55422623.test(WslCommandExecutor_execute_55422623.java:48)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_parseWslDistribution_8911677314
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.wsl.WslSupport_parseWslDistribution_8911677314
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_getName_7909356761
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_getName_7909356761
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_getName_7909356766
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_getName_7909356766
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_isWindows10_15960277637
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslSupport_isWindows10_15960277637
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_isDefault_19071648452
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_isDefault_19071648452
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslCommandExecutor_init_15030784852
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslCommandExecutor_init_15030784852
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_isWslAvailable_12108508568
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.wsl.WslSupport_isWslAvailable_12108508568
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_toString_19226934159
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_toString_19226934159
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_toString_19226934154
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_toString_19226934154
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_parseWslDistribution_89116773110
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslSupport_parseWslDistribution_89116773110
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.wsl.WslSupport_parseWslDistribution_89116773110.test(WslSupport_parseWslDistribution_89116773110.java:45)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_convertToWslPath_7166348505
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslSupport_convertToWslPath_7166348505
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: LQFpaHEwXR is not a valid absolute Windows path
+	at com.github.nscuro.bradamsang.wsl.WslSupport_convertToWslPath_7166348505.test(WslSupport_convertToWslPath_7166348505.java:45)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_init_4750563050
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslSupport_init_4750563050
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslCommandExecutor_execute_55422621
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslCommandExecutor_execute_55422621
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.wsl.WslCommandExecutor_execute_55422621.test(WslCommandExecutor_execute_55422621.java:68)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_isWindows10_15960277631
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslSupport_isWindows10_15960277631
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_getInstalledDistributions_450726389
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslSupport_getInstalledDistributions_450726389
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.wsl.WslSupport_getInstalledDistributions_450726389.test(WslSupport_getInstalledDistributions_450726389.java:43)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_convertToWslPath_71663485011
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.wsl.WslSupport_convertToWslPath_71663485011
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.wsl.WslSupport_convertToWslPath_71663485011.test(WslSupport_convertToWslPath_71663485011.java:45)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_init_10909051775
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_init_10909051775
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslDistribution_init_10909051770
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslDistribution_init_10909051770
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupport_init_4750563056
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.wsl.WslSupport_init_4750563056
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_LogLevel_init_8767051075
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_LogLevel_init_8767051075
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.github.nscuro.bradamsang.BurpLogger_LogLevel_init_8767051075.test(BurpLogger_LogLevel_init_8767051075.java:47)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_error_7318277552
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_error_7318277552
+[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.BurpLogger_error_7318277552.test(BurpLogger_error_7318277552.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_LogLevel_values_14021591993
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.BurpLogger_LogLevel_values_14021591993
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_LogLevel_valueOf_9101287961
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_LogLevel_valueOf_9101287961
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.github.nscuro.bradamsang.BurpLogger.LogLevel.HqBOwkVqjD
+	at com.github.nscuro.bradamsang.BurpLogger_LogLevel_valueOf_9101287961.test(BurpLogger_LogLevel_valueOf_9101287961.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_info_10266417451
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_info_10266417451
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.BurpLogger_info_10266417451.test(BurpLogger_info_10266417451.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_toString_58392271713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_toString_58392271713
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_isWslModeEnabled_135162173211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_isWslModeEnabled_135162173211
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getPayloadCount_3009430119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getPayloadCount_3009430119
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_init_5245594417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_init_5245594417
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_init_5245594410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_init_5245594410
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_toString_5839227176
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_toString_5839227176
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getSamplePaths_6297975210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getSamplePaths_6297975210
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getSamplePaths_629797523
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getSamplePaths_629797523
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getWslDistributionName_9527443635
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getWslDistributionName_9527443635
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getPayloadCount_3009430112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getPayloadCount_3009430112
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_fromSettings_11903738801
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_fromSettings_11903738801
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_fromSettings_11903738801.test(IntruderAttackOptions_fromSettings_11903738801.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getWslDistributionName_95274436312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_getWslDistributionName_95274436312
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_isWslModeEnabled_13516217324
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_isWslModeEnabled_13516217324
+[INFO] Running com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_fromSettings_11903738808
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_fromSettings_11903738808
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.intruder.IntruderAttackOptions_fromSettings_11903738808.test(IntruderAttackOptions_fromSettings_11903738808.java:48)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_LogLevel_values_14021591990
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.BurpLogger_LogLevel_values_14021591990
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_getStdoutOutput_20404896682
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.ExecutionResult_getStdoutOutput_20404896682
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_init_6227149144
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.ExecutionResult_init_6227149144
+[INFO] Running com.github.nscuro.bradamsang.command.CommandExecutor_execute_4775619991
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.command.CommandExecutor_execute_4775619991
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.command.CommandExecutor_execute_4775619991.test(CommandExecutor_execute_4775619991.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.command.NativeCommandExecutor_init_14951400182
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.NativeCommandExecutor_init_14951400182
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_getStdoutOutput_20404896686
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.ExecutionResult_getStdoutOutput_20404896686
+[INFO] Running com.github.nscuro.bradamsang.command.NativeCommandExecutor_execute_12094768883
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.command.NativeCommandExecutor_execute_12094768883
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.command.NativeCommandExecutor_execute_12094768883.test(NativeCommandExecutor_execute_12094768883.java:46)
+
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_getExitCode_8639661715
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.ExecutionResult_getExitCode_8639661715
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_getExitCode_8639661711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.ExecutionResult_getExitCode_8639661711
+[INFO] Running com.github.nscuro.bradamsang.command.NativeCommandExecutor_init_14951400180
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.NativeCommandExecutor_init_14951400180
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_getStderrOutput_13413631173
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.command.ExecutionResult_getStderrOutput_13413631173
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_init_6227149140
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.nscuro.bradamsang.command.ExecutionResult_init_6227149140
+[INFO] Running com.github.nscuro.bradamsang.command.ExecutionResult_getStderrOutput_13413631177
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.nscuro.bradamsang.command.ExecutionResult_getStderrOutput_13413631177
+[INFO] Running com.github.nscuro.bradamsang.command.CommandExecutor_execute_4775619990
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.command.CommandExecutor_execute_4775619990
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.command.CommandExecutor_execute_4775619990.test(CommandExecutor_execute_4775619990.java:45)
+
+[INFO] Running com.github.nscuro.bradamsang.command.NativeCommandExecutor_execute_12094768881
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.command.NativeCommandExecutor_execute_12094768881
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.github.nscuro.bradamsang.command.NativeCommandExecutor_execute_12094768881.test(NativeCommandExecutor_execute_12094768881.java:52)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_error_18723594923
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_error_18723594923
+[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.BurpLogger_error_18723594923.test(BurpLogger_error_18723594923.java:226)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_warn_14158006175
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_warn_14158006175
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.BurpLogger_warn_14158006175.test(BurpLogger_warn_14158006175.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_debug_5424630500
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_debug_5424630500
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.BurpLogger_debug_5424630500.test(BurpLogger_debug_5424630500.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_LogLevel_init_8767051072
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_LogLevel_init_8767051072
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.github.nscuro.bradamsang.BurpLogger_LogLevel_init_8767051072.test(BurpLogger_LogLevel_init_8767051072.java:42)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_getTimestamp_10728142636
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_getTimestamp_10728142636
+[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.github.nscuro.bradamsang.BurpLogger_getTimestamp_10728142636.test(BurpLogger_getTimestamp_10728142636.java:40)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_LogLevel_valueOf_9101287964
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_LogLevel_valueOf_9101287964
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at com.github.nscuro.bradamsang.BurpLogger_LogLevel_valueOf_9101287964.test(BurpLogger_LogLevel_valueOf_9101287964.java:49)
+
+[INFO] Running com.github.nscuro.bradamsang.BurpLogger_error_14474799754
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.github.nscuro.bradamsang.BurpLogger_error_14474799754
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassNotFoundException: kex.java.lang.Character
+	at com.github.nscuro.bradamsang.BurpLogger_error_14474799754.setup(BurpLogger_error_14474799754.java:52)
+
+[INFO] Running com.github.nscuro.bradamsang.wsl.WslSupportTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.298 s - in com.github.nscuro.bradamsang.wsl.WslSupportTest
+[INFO] Running com.github.nscuro.bradamsang.BurpExtensionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 s - in com.github.nscuro.bradamsang.BurpExtensionTest
+[INFO] Running com.github.nscuro.bradamsang.BurpLoggerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.github.nscuro.bradamsang.BurpLoggerTest
+[INFO] Running burp.BurpExtenderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in burp.BurpExtenderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BurpLogger_LogLevel_init_8767051072.test:42 » IllegalArgument Cannot reflectiv...
+[ERROR]   BurpLogger_LogLevel_init_8767051075.test:47 » IllegalArgument Cannot reflectiv...
+[ERROR]   BurpLogger_LogLevel_valueOf_9101287961.test:42 » IllegalArgument No enum const...
+[ERROR]   BurpLogger_LogLevel_valueOf_9101287964.test:49 » NullPointer Name is null
+[ERROR]   BurpLogger_debug_5424630500.test:42 » NullPointer
+[ERROR]   BurpLogger_error_14474799754.setup:52 » ClassNotFound kex.java.lang.Character
+[ERROR]   BurpLogger_error_18723594923.test:226 » NullPointer
+[ERROR]   BurpLogger_error_7318277552.test:42 » NullPointer
+[ERROR]   BurpLogger_getTimestamp_10728142636.test:40 » NullPointer
+[ERROR]   BurpLogger_info_10266417451.test:42 » NullPointer
+[ERROR]   BurpLogger_warn_14158006175.test:42 » NullPointer
+[ERROR]   CommandExecutor_execute_4775619990.test:45 » NullPointer
+[ERROR]   CommandExecutor_execute_4775619991.test:42 » NullPointer
+[ERROR]   NativeCommandExecutor_execute_12094768881.test:52 » ArrayIndexOutOfBounds Inde...
+[ERROR]   NativeCommandExecutor_execute_12094768883.test:46 » NullPointer
+[ERROR]   IntruderAttackOptions_fromSettings_11903738801.test:42 » NullPointer
+[ERROR]   IntruderAttackOptions_fromSettings_11903738808.test:48 » NullPointer
+[ERROR]   RadamsaExecutorFactory_create_19969548571.test:44 » NullPointer
+[ERROR]   RadamsaExecutorFactory_create_19969548573.test:44 » NullPointer
+[ERROR]   RadamsaExecutor_execute_20870919551.test:62 » NullPointer
+[ERROR]   RadamsaExecutor_execute_20870919554.test:46 » IllegalArgument No options provi...
+[ERROR]   RadamsaExecutor_getRadamsaVersion_11215242372.test:44 » NullPointer
+[ERROR]   RadamsaExecutor_getRadamsaVersion_11215242375.test:44 » NullPointer
+[ERROR]   WslCommandExecutor_execute_55422621.test:68 » NullPointer
+[ERROR]   WslCommandExecutor_execute_55422623.test:48 » NullPointer
+[ERROR]   WslSupport_convertToWslPath_71663485011.test:45 » NullPointer
+[ERROR]   WslSupport_convertToWslPath_7166348505.test:45 » IllegalArgument LQFpaHEwXR is...
+[ERROR]   WslSupport_getInstalledDistributions_450726383.test:43 » NullPointer
+[ERROR]   WslSupport_getInstalledDistributions_450726389.test:43 » NullPointer
+[ERROR]   WslSupport_parseWslDistribution_89116773110.test:45 » NullPointer
+[INFO] 
+[ERROR] Tests run: 104, Failures: 0, Errors: 30, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (default-cli) @ bradamsa-ng ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'bradamsa-ng' with 18 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.656 s
+[INFO] Finished at: 2026-04-08T01:39:45Z
+[INFO] ------------------------------------------------------------------------

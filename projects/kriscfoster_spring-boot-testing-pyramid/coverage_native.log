@@ -1,0 +1,222 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.kriscfoster:controller-testing >-----------------
+[INFO] Building controller-testing 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ controller-testing ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ controller-testing ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ controller-testing ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ controller-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ controller-testing ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ controller-testing ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ controller-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /app/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ controller-testing ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest
+02:09:29.997 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+02:09:30.016 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+02:09:30.058 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+02:09:30.080 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest], using SpringBootContextLoader
+02:09:30.085 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest]: class path resource [com/kriscfoster/controllertesting/controller/WelcomeControllerIntegrationTest-context.xml] does not exist
+02:09:30.085 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest]: class path resource [com/kriscfoster/controllertesting/controller/WelcomeControllerIntegrationTestContext.groovy] does not exist
+02:09:30.085 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:09:30.086 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest]: WelcomeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:09:30.161 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest]
+02:09:30.240 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/app/target/classes/com/kriscfoster/controllertesting/ControllerTestingApplication.class]
+02:09:30.241 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kriscfoster.controllertesting.ControllerTestingApplication for test class com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest
+02:09:30.244 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest]: using defaults.
+02:09:30.245 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:09:30.257 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+02:09:30.257 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+02:09:30.258 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36d697ab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28831d69, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@315b4202, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58e03769, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a899811, org.springframework.test.context.event.EventPublishingTestExecutionListener@6a51ae7c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@171aa66, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@58739e5e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e2cdc51, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2969a9a6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25470477, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6182ffef]
+02:09:30.261 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@47eaf55c testClass = WelcomeControllerIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2c0798bd testClass = WelcomeControllerIntegrationTest, locations = '{}', classes = '{class com.kriscfoster.controllertesting.ControllerTestingApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2e3252 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4a9860, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@52559a69, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@5d69d78, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@35adf623, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@2796d828, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@3010b9fb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@63fd4dda, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+02:09:30.309 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2026-04-08 02:09:30.657  INFO 70 --- [           main] c.k.c.c.WelcomeControllerIntegrationTest : Starting WelcomeControllerIntegrationTest on 0847d1c69406 with PID 70 (started by root in /app)
+2026-04-08 02:09:30.659  INFO 70 --- [           main] c.k.c.c.WelcomeControllerIntegrationTest : No active profile set, falling back to default profiles: default
+2026-04-08 02:09:31.665  INFO 70 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-08 02:09:31.839  INFO 70 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-04-08 02:09:31.839  INFO 70 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-04-08 02:09:31.849  INFO 70 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2026-04-08 02:09:31.870  INFO 70 --- [           main] c.k.c.c.WelcomeControllerIntegrationTest : Started WelcomeControllerIntegrationTest in 1.547 seconds (JVM running for 2.554)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /welcome
+       Parameters = {name=[John]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.kriscfoster.controllertesting.controller.WelcomeController
+           Method = com.kriscfoster.controllertesting.controller.WelcomeController#welcome(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"13"]
+     Content type = text/plain;charset=UTF-8
+             Body = Welcome John!
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /welcome
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.kriscfoster.controllertesting.controller.WelcomeController
+           Method = com.kriscfoster.controllertesting.controller.WelcomeController#welcome(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"17"]
+     Content type = text/plain;charset=UTF-8
+             Body = Welcome Stranger!
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.083 s - in com.kriscfoster.controllertesting.controller.WelcomeControllerIntegrationTest
+[INFO] Running com.kriscfoster.controllertesting.controller.WelcomeControllerAcceptanceTest
+2026-04-08 02:09:31.998  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerAcceptanceTest], using SpringBootContextLoader
+2026-04-08 02:09:31.999  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerAcceptanceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 02:09:31.999  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kriscfoster.controllertesting.controller.WelcomeControllerAcceptanceTest]: WelcomeControllerAcceptanceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 02:09:32.001  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kriscfoster.controllertesting.ControllerTestingApplication for test class com.kriscfoster.controllertesting.controller.WelcomeControllerAcceptanceTest
+2026-04-08 02:09:32.004  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 02:09:32.005  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@27779b40, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56272a62, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cfc147c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f088e2a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4beab10, org.springframework.test.context.event.EventPublishingTestExecutionListener@6b25f5df, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37265333, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c84f223, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d132288, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@59dcb7f8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c66d83b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@17b83c7e]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2026-04-08 02:09:32.029  INFO 70 --- [           main] c.k.c.c.WelcomeControllerAcceptanceTest  : Starting WelcomeControllerAcceptanceTest on 0847d1c69406 with PID 70 (started by root in /app)
+2026-04-08 02:09:32.029  INFO 70 --- [           main] c.k.c.c.WelcomeControllerAcceptanceTest  : No active profile set, falling back to default profiles: default
+2026-04-08 02:09:32.359  INFO 70 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2026-04-08 02:09:32.368  INFO 70 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 02:09:32.368  INFO 70 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2026-04-08 02:09:32.429  INFO 70 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 02:09:32.430  INFO 70 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 399 ms
+2026-04-08 02:09:32.525  INFO 70 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-08 02:09:32.624  INFO 70 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 46649 (http) with context path ''
+2026-04-08 02:09:32.627  INFO 70 --- [           main] c.k.c.c.WelcomeControllerAcceptanceTest  : Started WelcomeControllerAcceptanceTest in 0.619 seconds (JVM running for 3.311)
+2026-04-08 02:09:32.704  INFO 70 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-08 02:09:32.705  INFO 70 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-08 02:09:32.711  INFO 70 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.733 s - in com.kriscfoster.controllertesting.controller.WelcomeControllerAcceptanceTest
+[INFO] Running com.kriscfoster.controllertesting.controller.WelcomeControllerUnitTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.kriscfoster.controllertesting.controller.WelcomeControllerUnitTest
+[INFO] Running com.kriscfoster.controllertesting.ControllerTestingApplicationTests
+2026-04-08 02:09:32.745  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kriscfoster.controllertesting.ControllerTestingApplicationTests], using SpringBootContextLoader
+2026-04-08 02:09:32.746  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kriscfoster.controllertesting.ControllerTestingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 02:09:32.746  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kriscfoster.controllertesting.ControllerTestingApplicationTests]: ControllerTestingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 02:09:32.750  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kriscfoster.controllertesting.ControllerTestingApplication for test class com.kriscfoster.controllertesting.ControllerTestingApplicationTests
+2026-04-08 02:09:32.751  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-08 02:09:32.752  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b37f67a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@52458842, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@30dc9a6f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2bbb9812, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ffb2f39, org.springframework.test.context.event.EventPublishingTestExecutionListener@1182bd1c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@45d952a1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32d52900, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e14a84, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8f6d59, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f4c6bb3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@144ade73]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2026-04-08 02:09:32.769  INFO 70 --- [           main] c.k.c.ControllerTestingApplicationTests  : Starting ControllerTestingApplicationTests on 0847d1c69406 with PID 70 (started by root in /app)
+2026-04-08 02:09:32.769  INFO 70 --- [           main] c.k.c.ControllerTestingApplicationTests  : No active profile set, falling back to default profiles: default
+2026-04-08 02:09:32.914  INFO 70 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-08 02:09:32.994  INFO 70 --- [           main] c.k.c.ControllerTestingApplicationTests  : Started ControllerTestingApplicationTests in 0.239 seconds (JVM running for 3.678)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 s - in com.kriscfoster.controllertesting.ControllerTestingApplicationTests
+2026-04-08 02:09:33.005  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-08 02:09:33.005  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-08 02:09:33.133  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ controller-testing ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'controller-testing' with 3 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ controller-testing ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'controller-testing' with 3 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.856 s
+[INFO] Finished at: 2026-04-08T02:09:33Z
+[INFO] ------------------------------------------------------------------------

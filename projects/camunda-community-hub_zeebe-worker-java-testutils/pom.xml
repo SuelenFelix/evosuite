@@ -31,6 +31,27 @@
   </parent>
 
   <dependencies>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.junit.vintage</groupId>
+    <artifactId>junit-vintage-engine</artifactId>
+    <version>5.10.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.evosuite</groupId>
+    <artifactId>evosuite-standalone-runtime</artifactId>
+    <version>1.1.0</version>
+    <scope>test</scope>
+</dependency>
+
     <dependency>
       <artifactId>zeebe-client-java</artifactId>
       <groupId>io.camunda</groupId>
@@ -77,6 +98,27 @@
 
   <dependencyManagement>
     <dependencies>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.junit.vintage</groupId>
+    <artifactId>junit-vintage-engine</artifactId>
+    <version>5.10.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.evosuite</groupId>
+    <artifactId>evosuite-standalone-runtime</artifactId>
+    <version>1.1.0</version>
+    <scope>test</scope>
+</dependency>
+
       <dependency>
         <artifactId>junit-bom</artifactId>
         <groupId>org.junit</groupId>
@@ -90,6 +132,27 @@
 
   <build>
     <plugins>
+
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>build-helper-maven-plugin</artifactId>
+    <version>3.3.0</version>
+    <executions>
+        <execution>
+            <id>add-kex-test-source</id>
+            <phase>generate-test-sources</phase>
+            <goals>
+                <goal>add-test-source</goal>
+            </goals>
+            <configuration>
+                <sources>
+                    <source>src/test/java/kex-tests</source>
+                </sources>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -168,6 +231,27 @@
       <id>community-action-maven-release</id>
       <build>
         <plugins>
+
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>build-helper-maven-plugin</artifactId>
+    <version>3.3.0</version>
+    <executions>
+        <execution>
+            <id>add-kex-test-source</id>
+            <phase>generate-test-sources</phase>
+            <goals>
+                <goal>add-test-source</goal>
+            </goals>
+            <configuration>
+                <sources>
+                    <source>src/test/java/kex-tests</source>
+                </sources>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>

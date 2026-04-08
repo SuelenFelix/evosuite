@@ -21,7 +21,7 @@ import org.springframework.mock.web.MockHttpSession;
 import top.gcszhn.movie.service.BaiduPanAuthService;
 import top.gcszhn.movie.service.BaiduPanService;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class BaiduPanAuthService_ESTest extends BaiduPanAuthService_ESTest_scaffolding {
 
   @Test(timeout = 4000)

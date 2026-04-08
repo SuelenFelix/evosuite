@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ModuleType.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.type</a> &gt; <span class="el_source">ModuleType.java</span></div><h1>ModuleType.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.type;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import tech.jiayezheng.miniJuliaSonar.$;
+import tech.jiayezheng.miniJuliaSonar.Analyzer;
+import tech.jiayezheng.miniJuliaSonar.State;
+
+public class ModuleType extends Type {
+
+
+    @NotNull
+    public String name;
+    @Nullable
+    public String qname;
+
+
+
+<span class="nc" id="L19">    public ModuleType(@NotNull String name, @Nullable String file, @NotNull State parent) {</span>
+<span class="nc" id="L20">        this.name = name;</span>
+<span class="nc" id="L21">        this.file = file;  // null for builtin modules</span>
+
+<span class="nc bnc" id="L23" title="All 2 branches missed.">        if (file != null) {</span>
+            // This will return null iff specified file is not prefixed by
+            // any path in the module search path -- i.e., the caller asked
+            // the analyzer to load a file not in the search path.
+<span class="nc" id="L27">            qname = $.moduleQname(file);</span>
+        }
+<span class="nc bnc" id="L29" title="All 2 branches missed.">        if (qname == null) {</span>
+<span class="nc" id="L30">            qname = name;</span>
+        }
+<span class="nc" id="L32">        setTable(new State(parent, State.StateType.MODULE));</span>
+<span class="nc" id="L33">        table.setPath(qname);</span>
+<span class="nc" id="L34">        table.setType(this);</span>
+
+
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        if (Analyzer.self.builtins != null) {</span>
+<span class="nc" id="L38">            table.addSuper(Analyzer.self.builtins.BaseModule.table);</span>
+        }
+<span class="nc" id="L40">    }</span>
+
+    public void setTable( State table) {
+<span class="nc" id="L43">        this.table = table;</span>
+<span class="nc" id="L44">    }</span>
+
+    @Override
+    public boolean typeEquals(Object other) {
+<span class="nc bnc" id="L48" title="All 2 branches missed.">        if (other instanceof ModuleType) {</span>
+<span class="nc" id="L49">            ModuleType co = (ModuleType) other;</span>
+<span class="nc bnc" id="L50" title="All 2 branches missed.">            if (file != null) {</span>
+<span class="nc" id="L51">                return file.equals(co.file);</span>
+            }
+        }
+<span class="nc bnc" id="L54" title="All 2 branches missed.">        return this == other;</span>
+    }
+
+    @Override
+    protected String printType(CyclicTypeRecorder ctr) {
+<span class="nc" id="L59">        return name;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

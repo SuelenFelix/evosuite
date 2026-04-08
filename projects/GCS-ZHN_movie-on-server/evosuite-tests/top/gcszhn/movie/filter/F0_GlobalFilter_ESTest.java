@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
 import org.springframework.mock.web.MockFilterChain;
 import top.gcszhn.movie.filter.F0_GlobalFilter;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class F0_GlobalFilter_ESTest extends F0_GlobalFilter_ESTest_scaffolding {
 
   @Test(timeout = 4000)

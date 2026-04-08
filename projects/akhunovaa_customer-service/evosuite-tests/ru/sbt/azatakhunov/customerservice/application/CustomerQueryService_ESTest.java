@@ -15,7 +15,7 @@ import ru.sbt.azatakhunov.customerservice.application.CustomerQueryService;
 import ru.sbt.azatakhunov.customerservice.domain.CustomerInfo;
 import ru.sbt.azatakhunov.customerservice.port.adapter.persistance.CustomerProjectionRepository;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class CustomerQueryService_ESTest extends CustomerQueryService_ESTest_scaffolding {
 
   @Test(timeout = 4000)

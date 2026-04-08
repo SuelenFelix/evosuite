@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
 import org.springframework.mock.web.MockFilterChain;
 import top.gcszhn.movie.filter.F1_AuthFilter;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class F1_AuthFilter_ESTest extends F1_AuthFilter_ESTest_scaffolding {
 
   @Test(timeout = 4000)

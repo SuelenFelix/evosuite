@@ -15,7 +15,7 @@ import tech.jiayezheng.miniJuliaSonar.ast.Block;
 import tech.jiayezheng.miniJuliaSonar.ast.Node;
 import tech.jiayezheng.miniJuliaSonar.ast.While;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class While_ESTest extends While_ESTest_scaffolding {
 
   @Test(timeout = 4000)

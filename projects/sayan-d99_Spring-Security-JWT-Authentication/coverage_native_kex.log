@@ -1,0 +1,309 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.example:spring-security-jwt-tutorial >--------------
+[INFO] Building Spring Security JWT Tutorial 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ spring-security-jwt-tutorial ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ spring-security-jwt-tutorial ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ spring-security-jwt-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-security-jwt-tutorial ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ spring-security-jwt-tutorial ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ spring-security-jwt-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-security-jwt-tutorial ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 50 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/models/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/controllers/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/security/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/User_getId_21101215230.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/example/springsecurityjwttutorial/entity/User_getId_21101215230.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-security-jwt-tutorial ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.springsecurityjwttutorial.controllers.UserController_getUserDetails_8352867561
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in com.example.springsecurityjwttutorial.controllers.UserController_getUserDetails_8352867561
+[ERROR] test  Time elapsed: 0.022 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.springsecurityjwttutorial.controllers.UserController_getUserDetails_8352867561.test(UserController_getUserDetails_8352867561.java:40)
+
+[INFO] Running com.example.springsecurityjwttutorial.controllers.UserController_init_4794575082
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.controllers.UserController_init_4794575082
+[INFO] Running com.example.springsecurityjwttutorial.controllers.UserController_init_4794575080
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.controllers.UserController_init_4794575080
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_setId_168007976511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_setId_168007976511
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_setPassword_69263216013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.example.springsecurityjwttutorial.entity.User_setPassword_69263216013
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_getPassword_8937102802
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_getPassword_8937102802
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_setPassword_6926321605
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_setPassword_6926321605
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_getEmail_7019048039
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_getEmail_7019048039
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_getId_21101215230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_getId_21101215230
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_toString_167419069114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.example.springsecurityjwttutorial.entity.User_toString_167419069114
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_setEmail_11255732194
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.example.springsecurityjwttutorial.entity.User_setEmail_11255732194
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_init_11287348407
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_init_11287348407
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_toString_16741906916
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.example.springsecurityjwttutorial.entity.User_toString_16741906916
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_getEmail_7019048031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_getEmail_7019048031
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_setEmail_112557321912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.example.springsecurityjwttutorial.entity.User_setEmail_112557321912
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_getPassword_89371028010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_getPassword_89371028010
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_setId_16800797653
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_setId_16800797653
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_init_112873484015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_init_112873484015
+[INFO] Running com.example.springsecurityjwttutorial.entity.User_getId_21101215238
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.entity.User_getId_21101215238
+[INFO] Running com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_init_14831886432
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_init_14831886432
+[INFO] Running com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_main_11066256393
+01:49:25.561 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:295)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication.main(SpringSecurityJwtTutorialApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.example.springsecurityjwttutorial.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_main_11066256393.test(SpringSecurityJwtTutorialApplication_main_11066256393.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.426 s <<< FAILURE! - in com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_main_11066256393
+[ERROR] test  Time elapsed: 0.426 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_main_11066256393.test(SpringSecurityJwtTutorialApplication_main_11066256393.java:44)
+
+[INFO] Running com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_main_11066256391
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-04-08 01:49:26.144  INFO 70 --- [me-limited test] e.s.SpringSecurityJwtTutorialApplication : Starting SpringSecurityJwtTutorialApplication using Java 11.0.16 on 829afc5cf115 with PID 70 (started by root in /app)
+2026-04-08 01:49:26.147  INFO 70 --- [me-limited test] e.s.SpringSecurityJwtTutorialApplication : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:29.357  INFO 70 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 01:49:29.448  INFO 70 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2026-04-08 01:49:30.290  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 01:49:30.305  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 01:49:30.308  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2026-04-08 01:49:30.439  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 01:49:30.439  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4222 ms
+2026-04-08 01:49:30.694  INFO 70 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 01:49:31.055  INFO 70 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 01:49:31.185  INFO 70 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 01:49:31.285  INFO 70 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2026-04-08 01:49:31.486  INFO 70 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 01:49:31.685  INFO 70 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 01:49:32.395  INFO 70 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 01:49:32.403  INFO 70 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 01:49:32.812  WARN 70 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 01:49:33.201  INFO 70 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@416467d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ec7e8f9, org.springframework.security.web.header.HeaderWriterFilter@6ed166c5, org.springframework.web.filter.CorsFilter@4339019f, org.springframework.security.web.authentication.logout.LogoutFilter@7c3aaf70, com.example.springsecurityjwttutorial.security.JWTFilter@1da5f0e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e0a5f25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e5e8d7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59d9eb46, org.springframework.security.web.session.SessionManagementFilter@27359d3d, org.springframework.security.web.access.ExceptionTranslationFilter@741ae7a2, org.springframework.security.web.access.intercept.AuthorizationFilter@54d50345]
+2026-04-08 01:49:33.411  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 01:49:33.419  INFO 70 --- [me-limited test] e.s.SpringSecurityJwtTutorialApplication : Started SpringSecurityJwtTutorialApplication in 7.845 seconds (JVM running for 9.484)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.845 s - in com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_main_11066256391
+[INFO] Running com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_init_14831886430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication_init_14831886430
+[INFO] Running com.example.springsecurityjwttutorial.security.JWTUtil_init_11787691850
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.springsecurityjwttutorial.security.JWTUtil_init_11787691850
+[INFO] Running com.example.springsecurityjwttutorial.security.JWTUtil_init_11787691851
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.springsecurityjwttutorial.security.JWTUtil_init_11787691851
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_init_114851103112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_init_114851103112
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_getPassword_9134864711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_getPassword_9134864711
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_init_5713783914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_init_5713783914
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_toString_169396688213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_toString_169396688213
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_getEmail_6821286127
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_getEmail_6821286127
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_setEmail_11057970282
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_setEmail_11057970282
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_init_11485110315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_init_11485110315
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_setPassword_6728559693
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_setPassword_6728559693
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_getEmail_6821286120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_getEmail_6821286120
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_toString_16939668826
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_toString_16939668826
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_setEmail_11057970289
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_setEmail_11057970289
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_getPassword_9134864718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_getPassword_9134864718
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_init_57137839111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_init_57137839111
+[INFO] Running com.example.springsecurityjwttutorial.models.LoginCredentials_setPassword_67285596910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.springsecurityjwttutorial.models.LoginCredentials_setPassword_67285596910
+[INFO] Running com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplicationTests
+2026-04-08 01:49:33.563  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplicationTests], using SpringBootContextLoader
+2026-04-08 01:49:33.565  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-08 01:49:33.566  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplicationTests]: SpringSecurityJwtTutorialApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-08 01:49:33.600  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplication for test class com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplicationTests
+2026-04-08 01:49:33.606  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2026-04-08 01:49:33.619  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59b65dce, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1386313f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5e922647, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@433c6abb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@288f173f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a22c4d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45cd7bc5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6504a875, org.springframework.test.context.event.EventPublishingTestExecutionListener@35e26d05, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@29fa6b65, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7c72ecc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47406941, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@61ecbee9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1bb740f2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2538bc06, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@61f6d381, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@656922a0]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-04-08 01:49:33.666  INFO 70 --- [           main] pringSecurityJwtTutorialApplicationTests : Starting SpringSecurityJwtTutorialApplicationTests using Java 11.0.16 on 829afc5cf115 with PID 70 (started by root in /app)
+2026-04-08 01:49:33.666  INFO 70 --- [           main] pringSecurityJwtTutorialApplicationTests : No active profile set, falling back to default profiles: default
+2026-04-08 01:49:34.707  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 01:49:34.734  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2026-04-08 01:49:35.019  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-08 01:49:35.029  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-08 01:49:35.059  INFO 70 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 01:49:35.066  INFO 70 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 01:49:35.126  INFO 70 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 01:49:35.127  INFO 70 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 01:49:35.305  WARN 70 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 01:49:36.413  INFO 70 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71e7adbb, org.springframework.security.web.context.SecurityContextPersistenceFilter@56846330, org.springframework.security.web.header.HeaderWriterFilter@66fb45e5, org.springframework.web.filter.CorsFilter@32091c14, org.springframework.security.web.authentication.logout.LogoutFilter@61874b9d, com.example.springsecurityjwttutorial.security.JWTFilter@2fd72332, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cfbbff7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30db5536, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c40ffef, org.springframework.security.web.session.SessionManagementFilter@6f5e16cf, org.springframework.security.web.access.ExceptionTranslationFilter@6dee8ae6, org.springframework.security.web.access.intercept.AuthorizationFilter@47b269c4]
+2026-04-08 01:49:36.729  INFO 70 --- [           main] pringSecurityJwtTutorialApplicationTests : Started SpringSecurityJwtTutorialApplicationTests in 3.094 seconds (JVM running for 12.794)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.36 s - in com.example.springsecurityjwttutorial.SpringSecurityJwtTutorialApplicationTests
+2026-04-08 01:49:37.118  INFO 70 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 01:49:37.119  INFO 70 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2026-04-08 01:49:37.123  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 01:49:37.126  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-08 01:49:37.129  INFO 70 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 01:49:37.129  INFO 70 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2026-04-08 01:49:37.132  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-08 01:49:37.136  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SpringSecurityJwtTutorialApplication_main_11066256393.test:44 » IllegalArgument
+[ERROR]   UserController_getUserDetails_8352867561.test:40 » NullPointer
+[INFO] 
+[ERROR] Tests run: 40, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ spring-security-jwt-tutorial ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Spring Security JWT Tutorial' with 9 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ spring-security-jwt-tutorial ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Spring Security JWT Tutorial' with 9 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.394 s
+[INFO] Finished at: 2026-04-08T01:49:37Z
+[INFO] ------------------------------------------------------------------------

@@ -16,7 +16,7 @@ import org.graph4j.Graph;
 import org.graph4j.vsp.VertexSeparatorAlgorithm;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class VertexSeparatorAlgorithm_ESTest extends VertexSeparatorAlgorithm_ESTest_scaffolding {
 
   @Test(timeout = 4000)

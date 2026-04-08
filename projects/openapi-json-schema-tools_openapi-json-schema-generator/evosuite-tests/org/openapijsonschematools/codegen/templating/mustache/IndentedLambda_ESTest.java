@@ -18,7 +18,7 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.junit.runner.RunWith;
 import org.openapijsonschematools.codegen.templating.mustache.IndentedLambda;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class IndentedLambda_ESTest extends IndentedLambda_ESTest_scaffolding {
 
   @Test(timeout = 4000)

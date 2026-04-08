@@ -24,7 +24,7 @@ import org.springframework.security.authentication.RememberMeAuthenticationProvi
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.jdbc.JdbcDaoImpl;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class JwtAuthorizationFilter_ESTest extends JwtAuthorizationFilter_ESTest_scaffolding {
 
   @Test(timeout = 4000)

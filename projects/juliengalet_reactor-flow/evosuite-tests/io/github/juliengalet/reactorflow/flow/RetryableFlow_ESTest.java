@@ -34,7 +34,7 @@ import reactor.core.publisher.Mono;
 import reactor.test.util.TestLogger;
 import reactor.util.Logger;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class RetryableFlow_ESTest extends RetryableFlow_ESTest_scaffolding {
 
   @Test(timeout = 4000)

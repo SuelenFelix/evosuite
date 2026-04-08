@@ -26,7 +26,7 @@ import org.example.toylanguage.statement.ConditionStatement;
 import org.example.toylanguage.statement.FunctionStatement;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class ConditionStatement_ESTest extends ConditionStatement_ESTest_scaffolding {
 
   @Test(timeout = 4000)

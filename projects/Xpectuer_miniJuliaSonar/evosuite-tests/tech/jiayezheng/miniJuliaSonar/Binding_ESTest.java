@@ -30,7 +30,7 @@ import tech.jiayezheng.miniJuliaSonar.type.Type;
 import tech.jiayezheng.miniJuliaSonar.type.VectorType;
 import tech.jiayezheng.miniJuliaSonar.visitor.TypeInferencer;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class Binding_ESTest extends Binding_ESTest_scaffolding {
 
   @Test(timeout = 4000)

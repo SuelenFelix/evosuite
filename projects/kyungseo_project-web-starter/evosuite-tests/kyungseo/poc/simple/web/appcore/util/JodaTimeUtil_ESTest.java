@@ -17,7 +17,7 @@ import org.evosuite.runtime.mock.java.time.MockInstant;
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class JodaTimeUtil_ESTest extends JodaTimeUtil_ESTest_scaffolding {
 
   @Test(timeout = 4000)

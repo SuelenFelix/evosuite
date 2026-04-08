@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Catch.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.ast</a> &gt; <span class="el_source">Catch.java</span></div><h1>Catch.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.ast;
+
+import java.util.List;
+
+public class Catch extends Node {
+    public List&lt;Node&gt; binders;
+    public Block body;
+
+    public Catch(List&lt;Node&gt; binders, Block body, int start, int end, String file) {
+<span class="nc" id="L10">        super(NodeType.Catch, start, end, file);</span>
+<span class="nc" id="L11">        this.binders = binders;</span>
+<span class="nc" id="L12">        this.body = body;</span>
+<span class="nc" id="L13">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L17">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc" id="L18">        sb.append(&quot;(catch &quot;);</span>
+<span class="nc" id="L19">        sb.append(&quot; [&quot;);</span>
+<span class="nc" id="L20">        binders.forEach((s) -&gt; sb.append(String.format(&quot; %s&quot;, s)));</span>
+<span class="nc" id="L21">        sb.append(&quot;] &quot;);</span>
+<span class="nc" id="L22">        sb.append(body);</span>
+<span class="nc" id="L23">        sb.append(&quot;)&quot;);</span>
+<span class="nc" id="L24">        return sb.toString();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

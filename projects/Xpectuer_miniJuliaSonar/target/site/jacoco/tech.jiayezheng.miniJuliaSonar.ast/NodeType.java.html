@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>NodeType.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.ast</a> &gt; <span class="el_source">NodeType.java</span></div><h1>NodeType.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.ast;
+
+<span class="nc" id="L3">public enum NodeType {</span>
+<span class="nc" id="L4">     Root,</span>
+<span class="nc" id="L5">	 KeyWord,</span>
+<span class="nc" id="L6">	 Assign,</span>
+<span class="nc" id="L7">	 Symbol,</span>
+<span class="nc" id="L8">	 Block,</span>
+<span class="nc" id="L9">	 Operator,</span>
+<span class="nc" id="L10">	 FuncCombine,</span>
+<span class="nc" id="L11">	 Call,</span>
+<span class="nc" id="L12">	 BinOp,</span>
+<span class="nc" id="L13">	 Char,</span>
+<span class="nc" id="L14">	 LPAREN,</span>
+<span class="nc" id="L15">	 RPAREN,</span>
+<span class="nc" id="L16">	 End,</span>
+<span class="nc" id="L17">	 Str,</span>
+<span class="nc" id="L18">	 FuncDef,</span>
+<span class="nc" id="L19">	 JuliaInt,</span>
+<span class="nc" id="L20">	 Comma,</span>
+<span class="nc" id="L21">	 Continue,</span>
+<span class="nc" id="L22">	 Break,</span>
+<span class="nc" id="L23">	 Tuple,</span>
+<span class="nc" id="L24">	 KW,</span>
+<span class="nc" id="L25">	 VarArg,</span>
+<span class="nc" id="L26">	 LSQUARE,</span>
+<span class="nc" id="L27">	 RSQUARE,</span>
+<span class="nc" id="L28">	 JuliaVector,</span>
+<span class="nc" id="L29">	 While,</span>
+<span class="nc" id="L30">	 For,</span>
+<span class="nc" id="L31">	 Do,</span>
+<span class="nc" id="L32">	 UnaryOp,</span>
+<span class="nc" id="L33">	 JuliaModule,</span>
+<span class="nc" id="L34">	 StructDef,</span>
+<span class="nc" id="L35">	 SubType,</span>
+<span class="nc" id="L36">	 BaseType,</span>
+<span class="nc" id="L37">	 Ref,</span>
+<span class="nc" id="L38">	 PrimitiveType,</span>
+<span class="nc" id="L39">	 TypeDecl,</span>
+<span class="nc" id="L40">	 QuoteNode,</span>
+<span class="nc" id="L41">	 Dot,</span>
+<span class="nc" id="L42">	 LBRACE,</span>
+<span class="nc" id="L43">	 RBRACE,</span>
+<span class="nc" id="L44">	 ParamType,</span>
+<span class="nc" id="L45">	 UnionType,</span>
+<span class="nc" id="L46">	 Where,</span>
+<span class="nc" id="L47">	 Catch,</span>
+<span class="nc" id="L48">	 Try,</span>
+<span class="nc" id="L49">	 AbstractType,</span>
+<span class="nc" id="L50">	 JuliaFloat,</span>
+<span class="nc" id="L51">    Imaginary,</span>
+<span class="nc" id="L52">	Complex,</span>
+<span class="nc" id="L53">	Missing,</span>
+<span class="nc" id="L54">	Nothing,</span>
+<span class="nc" id="L55">	Global,</span>
+<span class="nc" id="L56">	Return, DUMMY, JuliaBool, If</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

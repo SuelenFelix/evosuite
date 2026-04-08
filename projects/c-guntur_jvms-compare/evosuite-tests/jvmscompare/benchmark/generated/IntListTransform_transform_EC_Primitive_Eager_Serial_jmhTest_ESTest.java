@@ -36,7 +36,7 @@ import org.openjdk.jmh.runner.WorkloadParams;
 import org.openjdk.jmh.runner.options.TimeValue;
 import org.openjdk.jmh.util.SampleBuffer;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class IntListTransform_transform_EC_Primitive_Eager_Serial_jmhTest_ESTest extends IntListTransform_transform_EC_Primitive_Eager_Serial_jmhTest_ESTest_scaffolding {
 
   @Test(timeout = 4000)

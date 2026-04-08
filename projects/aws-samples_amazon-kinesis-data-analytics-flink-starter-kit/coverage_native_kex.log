@@ -1,0 +1,503 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< com.amazonaws.kda.samples:amazon-kinesis-data-analytics-flink-starter-kit >--
+[INFO] Building Amazon Kinesis Data Analytics Flink - Starter Kit 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to /app/target/classes
+[WARNING] /app/src/main/java/com/amazonaws/kda/flink/starterkit/SessionProcessor.java: /app/src/main/java/com/amazonaws/kda/flink/starterkit/SessionProcessor.java uses or overrides a deprecated API.
+[WARNING] /app/src/main/java/com/amazonaws/kda/flink/starterkit/SessionProcessor.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 64 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/Event_setTimestamp_12126833576.java: Some input files use or override a deprecated API.
+[WARNING] /app/src/test/java/kex-tests/tests/com/amazonaws/kda/flink/starterkit/Event_setTimestamp_12126833576.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Surefire report directory: /app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.901 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656)  Time elapsed: 0.862 sec  <<< ERROR!
+com.amazonaws.SdkClientException: Could not find region information for 'null' in SDK metadata.
+	at com.amazonaws.client.builder.AwsClientBuilder.getRegionObject(AwsClientBuilder.java:258)
+	at com.amazonaws.client.builder.AwsClientBuilder.withRegion(AwsClientBuilder.java:245)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.checkIfStreamExist(SessionUtil.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656.test(SessionUtil_checkIfStreamExist_19958582656.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553975
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr2_15616259983
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.amazonaws.kda.flink.starterkit.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.amazonaws.kda.flink.starterkit.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.checkIfRegionExist(SessionUtil.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488.test(SessionUtil_checkIfRegionExist_7949768488.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866039
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768483
+00:59:33.328 [Time-limited test] ERROR com.amazonaws.kda.flink.starterkit.SessionUtil - The provided region is not valid: vwbEQQNQrx
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586235
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr1_2842868572
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr3_156162503728
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526613
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr3_15616250377
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553970
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr1_28428685723
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414090
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027438
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311511
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr4_156162407630
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023240
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586214
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582651
+com.amazonaws.SdkClientException: Unable to load AWS credentials from any provider in the chain: [EnvironmentVariableCredentialsProvider: Unable to load AWS credentials from environment variables (AWS_ACCESS_KEY_ID (or AWS_ACCESS_KEY) and AWS_SECRET_KEY (or AWS_SECRET_ACCESS_KEY)), SystemPropertiesCredentialsProvider: Unable to load AWS credentials from Java system properties (aws.accessKeyId and aws.secretKey), WebIdentityTokenCredentialsProvider: You must specify a value for roleArn and roleSessionName, com.amazonaws.auth.profile.ProfileCredentialsProvider@73844af8: profile file cannot be null, com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper@5acee60c: Failed to connect to service endpoint: ]
+	at com.amazonaws.auth.AWSCredentialsProviderChain.getCredentials(AWSCredentialsProviderChain.java:136)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.getCredentialsFromContext(AmazonHttpClient.java:1257)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.runBeforeRequestHandlers(AmazonHttpClient.java:833)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:783)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:770)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:744)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:704)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:686)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:550)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:530)
+	at com.amazonaws.services.kinesis.AmazonKinesisClient.doInvoke(AmazonKinesisClient.java:2866)
+	at com.amazonaws.services.kinesis.AmazonKinesisClient.invoke(AmazonKinesisClient.java:2833)
+	at com.amazonaws.services.kinesis.AmazonKinesisClient.invoke(AmazonKinesisClient.java:2822)
+	at com.amazonaws.services.kinesis.AmazonKinesisClient.executeListShards(AmazonKinesisClient.java:1575)
+	at com.amazonaws.services.kinesis.AmazonKinesisClient.listShards(AmazonKinesisClient.java:1545)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.checkIfStreamExist(SessionUtil.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582651.test(SessionUtil_checkIfStreamExist_19958582651.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+00:59:35.799 [Time-limited test] ERROR com.amazonaws.kda.flink.starterkit.SessionUtil - Exception recieved while listing shards for stream: sQvGcVjdEx
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.447 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526634
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setTimestamp_121268335727
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974010
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023219
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at java.base/java.text.SimpleDateFormat.parse(SimpleDateFormat.java:1470)
+	at java.base/java.text.DateFormat.parse(DateFormat.java:393)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.validateDate(SessionUtil.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029.test(SessionUtil_validateDate_13306266029.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166216
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
+	at com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852.test(StreamPosition_init_1097510852.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr1_15616269591
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getTimestamp_13141759495
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr2_28428781825
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070112
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.checkIfBucketExist(SessionUtil.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477.test(SessionUtil_checkIfBucketExist_4936189477.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_setTimestamp_12126833576
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974031
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718121
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718121)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.amazonaws.kda.flink.starterkit.StreamPosition.OYbzXylRWW
+	at java.base/java.lang.Enum.valueOf(Enum.java:240)
+	at com.amazonaws.kda.flink.starterkit.StreamPosition.valueOf(StreamPosition.java:3)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718121.test(StreamPosition_valueOf_18123718121.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358420
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr4_15616240769
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358441
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866018
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_init_13306596090
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr1_156162695922
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024
+java.text.ParseException: Unparseable date: "xtftXXMbem"
+	at java.base/java.text.DateFormat.parse(DateFormat.java:395)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.validateDate(SessionUtil.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024.test(SessionUtil_validateDate_13306266024.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Invalid data format supplied. 'Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024)  Time elapsed: 0.002 sec  <<< ERROR!
+java.util.MissingFormatArgumentException: Format specifier '%s'
+	at java.base/java.util.Formatter.format(Formatter.java:2672)
+	at java.base/java.io.PrintStream.format(PrintStream.java:1053)
+	at java.base/java.io.PrintStream.printf(PrintStream.java:949)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.validateDate(SessionUtil.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024.test(SessionUtil_validateDate_13306266024.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.ParameterToolUtils_init_21208454970
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr3_2842887798
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718124
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718124)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at java.base/java.lang.Enum.valueOf(Enum.java:238)
+	at com.amazonaws.kda.flink.starterkit.StreamPosition.valueOf(StreamPosition.java:3)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718124.test(StreamPosition_valueOf_18123718124.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510855
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510855)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
+	at com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510855.test(StreamPosition_init_1097510855.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027417
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getTimestamp_131417594926
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.ParameterToolUtils_init_21208454971
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189472
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189472)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 4
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil.checkIfBucketExist(SessionUtil.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189472.test(SessionUtil_checkIfBucketExist_4936189472.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215436
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr2_156162599824
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414093
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215415
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166237
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr2_2842878184
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070133
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.amazonaws.kda.flink.starterkit.Event_init_133065960921
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311532
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr3_28428877929
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests in error: 
+  test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656): Could not find region information for 'null' in SDK metadata.
+  test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488)
+  test(com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029)
+  test(com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852): Cannot reflectively create enum objects
+  test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477)
+  test(com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718121): No enum constant com.amazonaws.kda.flink.starterkit.StreamPosition.OYbzXylRWW
+  test(com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024): Format specifier '%s'
+  test(com.amazonaws.kda.flink.starterkit.StreamPosition_valueOf_18123718124): Name is null
+  test(com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510855): Cannot reflectively create enum objects
+  test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189472): begin 0, end -1, length 4
+
+Tests run: 60, Failures: 0, Errors: 10, Skipped: 0
+
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Amazon Kinesis Data Analytics Flink - Starter Kit' with 6 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ amazon-kinesis-data-analytics-flink-starter-kit ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Amazon Kinesis Data Analytics Flink - Starter Kit' with 6 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.195 s
+[INFO] Finished at: 2026-04-08T00:59:36Z
+[INFO] ------------------------------------------------------------------------

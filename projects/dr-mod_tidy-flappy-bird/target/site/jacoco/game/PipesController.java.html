@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PipesController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">flap-bird</a> &gt; <a href="index.source.html" class="el_package">game</a> &gt; <span class="el_source">PipesController.java</span></div><h1>PipesController.java</h1><pre class="source lang-java linenums">package game;
+
+import presentation.Drawable;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class PipesController implements Drawable, Steppable {
+
+    List&lt;Pipe&gt; pipes;
+    private Pipe currentPipe;
+    private final int xMarker;
+    private Pipe lastPipe;
+<span class="nc" id="L16">    Random random = new Random(1);</span>
+    public static final int PIPES_GAP = 400;
+<span class="nc" id="L18">    private int activeCount = 0;</span>
+
+<span class="nc" id="L20">    public PipesController(int width, int height, int xMarker) {</span>
+<span class="nc" id="L21">        this.pipes = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L22">        this.xMarker = xMarker;</span>
+<span class="nc" id="L23">        int pipesCount = width / PIPES_GAP + 1;</span>
+<span class="nc bnc" id="L24" title="All 2 branches missed.">        for (int i = 0; i &lt; pipesCount; i++) {</span>
+<span class="nc" id="L25">            pipes.add(new Pipe(width + PIPES_GAP * i, random.nextInt(500) + 50));</span>
+        }
+<span class="nc" id="L27">        currentPipe = pipes.get(0);</span>
+<span class="nc" id="L28">        lastPipe = pipes.get(pipes.size() - 1);</span>
+<span class="nc" id="L29">    }</span>
+
+    @Override
+    public void show(Graphics g) {
+<span class="nc" id="L33">        pipes.forEach(it -&gt; it.show(g));</span>
+<span class="nc" id="L34">    }</span>
+
+    @Override
+    public void step() {
+<span class="nc" id="L38">        pipes.forEach(Pipe::step);</span>
+<span class="nc" id="L39">        repurposePipes();</span>
+<span class="nc" id="L40">        checkCurrentPipe();</span>
+<span class="nc" id="L41">    }</span>
+
+    private void checkCurrentPipe() {
+<span class="nc bnc" id="L44" title="All 2 branches missed.">        if (currentPipe.getX() + currentPipe.getWidth() &lt; this.xMarker) {</span>
+<span class="nc" id="L45">            Pipe nextCurrent = null;</span>
+<span class="nc bnc" id="L46" title="All 2 branches missed.">            for(Pipe pipe : pipes) {</span>
+<span class="nc bnc" id="L47" title="All 2 branches missed.">                if (pipe.getX() &gt; this.xMarker) {</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">                    if (nextCurrent == null) nextCurrent = pipe;</span>
+<span class="nc bnc" id="L49" title="All 2 branches missed.">                    else if (pipe.getX() &lt; nextCurrent.getX()) nextCurrent = pipe;</span>
+                }
+<span class="nc" id="L51">            }</span>
+<span class="nc" id="L52">            currentPipe = nextCurrent;</span>
+<span class="nc" id="L53">            activeCount++;</span>
+        }
+<span class="nc" id="L55">    }</span>
+
+    private void repurposePipes() {
+<span class="nc bnc" id="L58" title="All 2 branches missed.">        if (pipes.get(0).getX() &lt; -40) {</span>
+<span class="nc" id="L59">            Pipe pipe = pipes.remove(0);</span>
+<span class="nc" id="L60">            pipe.setX(lastPipe.getX() + PIPES_GAP);</span>
+<span class="nc" id="L61">            pipe.setyOpeningStart(random.nextInt(500) + 50);</span>
+<span class="nc" id="L62">            pipes.add(pipe);</span>
+<span class="nc" id="L63">            lastPipe = pipe;</span>
+        }
+<span class="nc" id="L65">    }</span>
+
+    public int getActiveCount() {
+<span class="nc" id="L68">        return activeCount;</span>
+    }
+
+    public Pipe getCurrentPipe() {
+<span class="nc" id="L72">        return currentPipe;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

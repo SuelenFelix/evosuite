@@ -1,4 +1,0 @@
-project,mode,coverage,status,details
-akhunovaa_customer-service,nativo+kex+evosuite,,exception,"Command '
-docker run --rm -v /home/suelenfelix/TCC/evosuite/projects/akhunovaa_customer-service:/app -v /home/suelenfelix/.m2:/root/.m2 -w /app maven:3.8.6-jdk-11 mvn clean test jacoco:report -Dtest=""**/*Test,**/*Tests,**/*TestCase,**/*_ESTest,**/*_*"" -DfailIfNoTests=false -DtestFailureIgnore=true -Dmaven.test.failure.ignore=true
-' timed out after 1800 seconds"

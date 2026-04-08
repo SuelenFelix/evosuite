@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_clearSortIndices_1452740532
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.687 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_clearSortIndices_1452740532)  Time elapsed: 1.687 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.487 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_clearSortIndices_1452740532)  Time elapsed: 0.486 sec  <<< ERROR!
 java.lang.OutOfMemoryError: Java heap space
 	at net.byteseek.swing.treetable.TreeTableRowSorter.buildViewToModelAsInts(TreeTableRowSorter.java:617)
 	at net.byteseek.swing.treetable.TreeTableRowSorter.clearSortIndices(TreeTableRowSorter.java:550)

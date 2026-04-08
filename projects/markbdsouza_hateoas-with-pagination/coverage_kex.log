@@ -1,0 +1,183 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.markbdsouza:hateoas-pagination >-----------------
+[INFO] Building hateoas-pagination 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ hateoas-pagination ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ hateoas-pagination ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ hateoas-pagination ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ hateoas-pagination ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ hateoas-pagination ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ hateoas-pagination ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ hateoas-pagination ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/customer/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/customer/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/customer/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/customer/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/customer/Customer_getFirstName_2165744365.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/markbdsouza/hateoaspagination/customer/Customer_getFirstName_2165744365.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ hateoas-pagination ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043
+06:20:29.612 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.markbdsouza.hateoaspagination.HateoasPaginationApplication.main(HateoasPaginationApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.markbdsouza.hateoaspagination.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043.test(HateoasPaginationApplication_main_13086503043.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.287 s <<< FAILURE! - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043
+[ERROR] test  Time elapsed: 0.285 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043.test(HateoasPaginationApplication_main_13086503043.java:44)
+
+[INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplication_init_16852133080
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_init_16852133080
+[INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503041
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+2026-04-08 06:20:30.025  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : Starting HateoasPaginationApplication using Java 11.0.16 on 87275665921d with PID 69 (started by root in /app)
+2026-04-08 06:20:30.026  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 06:20:30.671  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 06:20:30.720  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2026-04-08 06:20:31.338  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:20:31.348  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:20:31.349  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2026-04-08 06:20:31.434  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:20:31.435  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
+2026-04-08 06:20:31.476  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:20:31.692  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 06:20:31.703  INFO 69 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-08 06:20:32.063  INFO 69 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 06:20:32.120  INFO 69 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2026-04-08 06:20:32.264  INFO 69 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 06:20:32.366  INFO 69 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 06:20:32.907  INFO 69 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 06:20:32.915  INFO 69 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:20:33.329  WARN 69 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 06:20:33.681  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:20:33.688  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : Started HateoasPaginationApplication in 4.058 seconds (JVM running for 4.952)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.044 s - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503041
+[INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplication_init_16852133082
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_init_16852133082
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setId_46336201911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setId_46336201911
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_116739247413
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_116739247413
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_21657443614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_21657443614
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_28232865412
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_28232865412
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getLastName_7630462827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getLastName_7630462827
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getId_3332026110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getId_3332026110
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setId_4633620192
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setId_4633620192
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_3793318766
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_3793318766
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setLastName_194557857417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setLastName_194557857417
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_2165744365
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_2165744365
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_init_10147069449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_init_10147069449
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getId_333202611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getId_333202611
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
+[INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_11673924744
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_11673924744
+2026-04-08 06:20:33.854  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:20:33.855  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 06:20:33.858  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   HateoasPaginationApplication_main_13086503043.test:44 » IllegalArgument Args m...
+[INFO] 
+[ERROR] Tests run: 22, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ hateoas-pagination ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'hateoas-pagination' with 6 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ hateoas-pagination ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'hateoas-pagination' with 6 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.638 s
+[INFO] Finished at: 2026-04-08T06:20:34Z
+[INFO] ------------------------------------------------------------------------

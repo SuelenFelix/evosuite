@@ -1,0 +1,303 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.example:spring-boot-hibernate-search >--------------
+[INFO] Building demo 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ spring-boot-hibernate-search ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ spring-boot-hibernate-search ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ spring-boot-hibernate-search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-hibernate-search ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ spring-boot-hibernate-search ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ spring-boot-hibernate-search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-hibernate-search ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 84 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/index/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/service/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/Plant_setFamily_68005071910.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/Plant_setFamily_68005071910.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/SearchRequestDTO_setFields_6215538285.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/mozen/springboothibernatesearch/model/SearchRequestDTO_setFields_6215538285.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-hibernate-search ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getFamily_176900276121
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.mozen.springboothibernatesearch.model.Plant_getFamily_176900276121
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setName_12667396568
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setName_12667396568
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_setFields_62155382816
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_setFields_62155382816
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getCreatedAt_16934172856
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getCreatedAt_16934172856
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_init_1331649760
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_init_1331649760
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setId_68450990123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setId_68450990123
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_canEqual_74088749219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_canEqual_74088749219
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_hashCode_118938051731
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_hashCode_118938051731
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_init_7303308031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.Plant_init_7303308031
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setCreatedAt_159355399711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setCreatedAt_159355399711
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_equals_163806719229
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_equals_163806719229
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_setText_2587915674
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_setText_2587915674
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_toString_67862082712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_toString_67862082712
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setScientificName_16420023925
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setScientificName_16420023925
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_init_73033080317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_init_73033080317
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setCreatedAt_159355399727
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setCreatedAt_159355399727
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_hashCode_118938051715
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_hashCode_118938051715
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setId_6845099017
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setId_6845099017
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_getLimit_49843624614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_getLimit_49843624614
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_equals_632751377
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_equals_632751377
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_getLimit_4984362463
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_getLimit_4984362463
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_hashCode_51196181220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_hashCode_51196181220
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_getText_197866813512
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_getText_197866813512
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_setFields_6215538285
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_setFields_6215538285
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_hashCode_5119618129
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_hashCode_5119618129
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setFamily_68005071926
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setFamily_68005071926
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getScientificName_55496602320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getScientificName_55496602320
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getId_11145516592
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getId_11145516592
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getName_45313691219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getName_45313691219
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setName_126673965624
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setName_126673965624
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setScientificName_1642002399
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setScientificName_1642002399
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_init_15681773530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_init_15681773530
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getCreatedAt_169341728522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getCreatedAt_169341728522
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getId_111455165918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getId_111455165918
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_setLimit_185609856017
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_setLimit_185609856017
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_getFields_30460124613
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_getFields_30460124613
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_setFamily_68005071910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_setFamily_68005071910
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_init_13316497616
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_init_13316497616
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getScientificName_5549660234
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getScientificName_5549660234
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_toString_102272150210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_toString_102272150210
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_equals_163806719213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_equals_163806719213
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getName_4531369123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getName_4531369123
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_equals_6327513718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_equals_6327513718
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_canEqual_7408874928
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_canEqual_7408874928
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_init_156817735311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_init_156817735311
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_canEqual_185273747530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.Plant_canEqual_185273747530
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_toString_67862082728
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_toString_67862082728
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_getFamily_17690027615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_getFamily_17690027615
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_getFields_3046012462
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_getFields_3046012462
+[INFO] Running com.mozen.springboothibernatesearch.model.Plant_canEqual_185273747514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.Plant_canEqual_185273747514
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_setLimit_18560985606
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_setLimit_18560985606
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_toString_102272150221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_toString_102272150221
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_getText_19786681351
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_getText_19786681351
+[INFO] Running com.mozen.springboothibernatesearch.model.SearchRequestDTO_setText_25879156715
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.model.SearchRequestDTO_setText_25879156715
+[INFO] Running com.mozen.springboothibernatesearch.Application_init_18824447410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.Application_init_18824447410
+[INFO] Running com.mozen.springboothibernatesearch.ApplicationConfiguration_init_13010753111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.ApplicationConfiguration_init_13010753111
+[INFO] Running com.mozen.springboothibernatesearch.Application_init_18824447411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.Application_init_18824447411
+[INFO] Running com.mozen.springboothibernatesearch.ApplicationConfiguration_init_13010753110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.ApplicationConfiguration_init_13010753110
+[INFO] Running com.mozen.springboothibernatesearch.controller.PlantController_init_17546170392
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.mozen.springboothibernatesearch.controller.PlantController_init_17546170392
+[INFO] Running com.mozen.springboothibernatesearch.controller.PlantController_init_17546170390
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.controller.PlantController_init_17546170390
+[INFO] Running com.mozen.springboothibernatesearch.controller.PlantController_searchPlants_7125128033
+06:21:09.033 [Time-limited test] INFO com.mozen.springboothibernatesearch.controller.PlantController - Request for plant search received with data : null
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.mozen.springboothibernatesearch.controller.PlantController_searchPlants_7125128033
+[ERROR] test  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springboothibernatesearch.controller.PlantController_searchPlants_7125128033.test(PlantController_searchPlants_7125128033.java:45)
+
+[INFO] Running com.mozen.springboothibernatesearch.controller.PlantController_searchPlants_7125128031
+06:21:09.045 [Time-limited test] INFO com.mozen.springboothibernatesearch.controller.PlantController - Request for plant search received with data : SearchRequestDTO(text=PAEBtnZtTD, fields=[], limit=568599855)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.mozen.springboothibernatesearch.controller.PlantController_searchPlants_7125128031
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springboothibernatesearch.controller.PlantController_searchPlants_7125128031.test(PlantController_searchPlants_7125128031.java:52)
+
+[INFO] Running com.mozen.springboothibernatesearch.index.Indexer_indexPersistedData_1752307610
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.mozen.springboothibernatesearch.index.Indexer_indexPersistedData_1752307610
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springboothibernatesearch.index.Indexer_indexPersistedData_1752307610.test(Indexer_indexPersistedData_1752307610.java:42)
+
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_8540346935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_8540346935
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_10062878163
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_10062878163
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_5933520126
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_5933520126
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_1342439219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_1342439219
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_1342439214
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.mozen.springboothibernatesearch.index.IndexException_init_1342439214
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_8540346930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_8540346930
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_2906355967
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_2906355967
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_5933520121
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.mozen.springboothibernatesearch.index.IndexException_init_5933520121
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ClassNotFoundException: kex.java.util.ArrayList
+	at com.mozen.springboothibernatesearch.index.IndexException_init_5933520121.setup(IndexException_init_5933520121.java:51)
+
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_2906355962
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.mozen.springboothibernatesearch.index.IndexException_init_2906355962
+[INFO] Running com.mozen.springboothibernatesearch.index.IndexException_init_10062878168
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.mozen.springboothibernatesearch.index.IndexException_init_10062878168
+[INFO] Running com.mozen.springboothibernatesearch.service.PlantService_searchPlants_13687480520
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.mozen.springboothibernatesearch.service.PlantService_searchPlants_13687480520
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.mozen.springboothibernatesearch.service.PlantService_searchPlants_13687480520.test(PlantService_searchPlants_13687480520.java:58)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   PlantController_searchPlants_7125128031.test:52 » NullPointer
+[ERROR]   PlantController_searchPlants_7125128033.test:45 » NullPointer
+[ERROR]   IndexException_init_5933520121.setup:51 » ClassNotFound kex.java.util.ArrayLis...
+[ERROR]   Indexer_indexPersistedData_1752307610.test:42 » NullPointer
+[ERROR]   PlantService_searchPlants_13687480520.test:58 » NullPointer
+[INFO] 
+[ERROR] Tests run: 74, Failures: 0, Errors: 5, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ spring-boot-hibernate-search ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'demo' with 9 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ spring-boot-hibernate-search ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'demo' with 9 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.549 s
+[INFO] Finished at: 2026-04-08T06:21:09Z
+[INFO] ------------------------------------------------------------------------

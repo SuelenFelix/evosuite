@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Genome_copy_149369544417
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_copy_149369544417)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Genome_copy_149369544417)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1134)
 	at nn.model.Genome.newNodeMatching(Genome.java:160)

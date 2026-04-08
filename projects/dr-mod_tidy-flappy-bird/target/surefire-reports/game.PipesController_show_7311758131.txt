@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: game.PipesController_show_7311758131
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(game.PipesController_show_7311758131)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.PipesController_show_7311758131)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.Pipe.show(Pipe.java:49)
 	at game.PipesController.lambda$show$0(PipesController.java:33)

@@ -2,7 +2,7 @@
 Test set: nn.model.Genome_addNode_88481576521
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_addNode_88481576521)  Time elapsed: 0 sec  <<< ERROR!
+test(nn.model.Genome_addNode_88481576521)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.addNode(Genome.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

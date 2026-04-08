@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.neural.NodeProxier_getAllNodes_10111405499
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.neural.NodeProxier_getAllNodes_10111405499)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.neural.NodeProxier_getAllNodes_10111405499)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.NodeProxier.getAllNodes(NodeProxier.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

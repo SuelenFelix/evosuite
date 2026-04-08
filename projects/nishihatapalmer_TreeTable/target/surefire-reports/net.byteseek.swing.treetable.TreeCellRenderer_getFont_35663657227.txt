@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeCellRenderer_getFont_35663657227
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeCellRenderer_getFont_35663657227)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeCellRenderer_getFont_35663657227)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.swing.treetable.TreeCellRenderer.getFont(TreeCellRenderer.java:346)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

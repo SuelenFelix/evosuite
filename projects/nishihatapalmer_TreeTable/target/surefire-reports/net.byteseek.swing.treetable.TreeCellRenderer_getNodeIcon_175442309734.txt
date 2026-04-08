@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeCellRenderer_getNodeIcon_175442309734
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeCellRenderer_getNodeIcon_175442309734)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeCellRenderer_getNodeIcon_175442309734)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.swing.treetable.TreeCellRenderer.getNodeIcon(TreeCellRenderer.java:390)
 	at net.byteseek.swing.treetable.TreeCellRenderer.getNodeIcon(TreeCellRenderer.java:405)

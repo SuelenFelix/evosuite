@@ -1,0 +1,1581 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< com.cos:blog >----------------------------
+[INFO] Building blog 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ blog ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ blog ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ blog ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ blog ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ blog ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ blog ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ blog ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 518 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/controller/api/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/dto/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/test/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/handler/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/service/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/config/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/cos/blog/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/cos/blog/model/KakaoProfile_KakaoAccount_getEmail_17269263357.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/cos/blog/model/KakaoProfile_KakaoAccount_getEmail_17269263357.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/cos/blog/model/Reply_ReplyBuilder_id_2827363801.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/cos/blog/model/Reply_ReplyBuilder_id_2827363801.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ blog ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.cos.blog.model.User_getOauth_5055633316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.cos.blog.model.User_getOauth_5055633316
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_board_16633689811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_board_16633689811
+[INFO] Running com.cos.blog.model.User_canEqual_62117282216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_canEqual_62117282216
+[INFO] Running com.cos.blog.model.User_UserBuilder_username_32718971012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_username_32718971012
+[INFO] Running com.cos.blog.model.User_UserBuilder_email_1765261614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_email_1765261614
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getEmailneedsagreement_1615777054
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getEmailneedsagreement_1615777054
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_hashCode_31881422317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_hashCode_31881422317
+[INFO] Running com.cos.blog.model.User_UserBuilder_username_3271897102
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_username_3271897102
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_count_113573505614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_count_113573505614
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_init_882249579
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_init_882249579
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailverified_59467534813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailverified_59467534813
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_content_164203867713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_content_164203867713
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getEmail_17269263357
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getEmail_17269263357
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_createDate_209645904617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_createDate_209645904617
+[INFO] Running com.cos.blog.model.OAuthToken_init_108758067817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_init_108758067817
+[INFO] Running com.cos.blog.model.Reply_setUser_147613960329
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setUser_147613960329
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_hashCode_9957764229
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_hashCode_9957764229
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_title_7418981642
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_title_7418981642
+[INFO] Running com.cos.blog.model.Reply_getCreateDate_1377630759
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getCreateDate_1377630759
+[INFO] Running com.cos.blog.model.KakaoProfile_setId_8878950675
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setId_8878950675
+[INFO] Running com.cos.blog.model.Reply_builder_211136058719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_builder_211136058719
+[INFO] Running com.cos.blog.model.Reply_setBoard_181205577328
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setBoard_181205577328
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_setNickname_33545828415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_setNickname_33545828415
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_user_16618468524
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_user_16618468524
+[INFO] Running com.cos.blog.model.KakaoProfile_setProperties_12289867717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setProperties_12289867717
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_toString_169020790419
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_toString_169020790419
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_user_71122783615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_user_71122783615
+[INFO] Running com.cos.blog.model.Board_hashCode_29522894324
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_hashCode_29522894324
+[INFO] Running com.cos.blog.model.OAuthToken_setScope_189973814128
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setScope_189973814128
+[INFO] Running com.cos.blog.model.Board_getTitle_14436494372
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getTitle_14436494372
+[INFO] Running com.cos.blog.model.Board_getUser_18192102396
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getUser_18192102396
+[INFO] Running com.cos.blog.model.User_UserBuilder_toString_60373426819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_toString_60373426819
+[INFO] Running com.cos.blog.model.KakaoProfile_setConnectedat_9203857686
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setConnectedat_9203857686
+[INFO] Running com.cos.blog.model.OAuthToken_getScope_147606972522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getScope_147606972522
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_content_27985393111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_content_27985393111
+[INFO] Running com.cos.blog.model.OAuthToken_getRefreshtoken_189319619620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getRefreshtoken_189319619620
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_user_166184685212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.Reply_ReplyBuilder_user_166184685212
+[INFO] Running com.cos.blog.model.KakaoProfile_setKakaoaccount_16375750948
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setKakaoaccount_16375750948
+[INFO] Running com.cos.blog.model.User_init_136472962919
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.User_init_136472962919
+[INFO] Running com.cos.blog.model.Board_setCreateDate_204018797519
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setCreateDate_204018797519
+[INFO] Running com.cos.blog.model.User_getUsername_211005596023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getUsername_211005596023
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_init_882249578
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_init_882249578
+[INFO] Running com.cos.blog.model.User_getEmail_46591001425
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getEmail_46591001425
+[INFO] Running com.cos.blog.model.User_setPassword_45663737131
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setPassword_45663737131
+[INFO] Running com.cos.blog.model.Board_equals_15345773221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_equals_15345773221
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_id_20903383081
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_id_20903383081
+[INFO] Running com.cos.blog.model.Reply_getContent_174659775422
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getContent_174659775422
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_count_11357350564
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_count_11357350564
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_getProfileimage_177580313713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.KakaoProfile_Properties_getProfileimage_177580313713
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setProfileimageurl_9590529476
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setProfileimageurl_9590529476
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_content_27985393110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_content_27985393110
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_equals_144446309718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_equals_144446309718
+[INFO] Running com.cos.blog.model.User_getId_21429111121
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getId_21429111121
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setEmailneedsagreement_179378205530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setEmailneedsagreement_179378205530
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_content_164203867714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_content_164203867714
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getProfile_12868605721
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getProfile_12868605721
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getProfileimageurl_200639829114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getProfileimageurl_200639829114
+[INFO] Running com.cos.blog.model.OAuthToken_getAccesstoken_26636450518
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getAccesstoken_26636450518
+[INFO] Running com.cos.blog.model.KakaoProfile_getProperties_18384784073
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getProperties_18384784073
+[INFO] Running com.cos.blog.model.Board_getCreateDate_31150988134
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getCreateDate_31150988134
+[INFO] Running com.cos.blog.model.Reply_init_90217152821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_init_90217152821
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_toString_169020790410
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.Board_BoardBuilder_toString_169020790410
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.model.Board_BoardBuilder_toString_169020790410.test(Board_BoardBuilder_toString_169020790410.java:241)
+
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setEmail_130325791914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setEmail_130325791914
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_canEqual_204634157019
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_canEqual_204634157019
+[INFO] Running com.cos.blog.model.OAuthToken_setAccesstoken_12607053297
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setAccesstoken_12607053297
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_toString_19194546718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_toString_19194546718
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setEmailneedsagreement_179378205511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setEmailneedsagreement_179378205511
+[INFO] Running com.cos.blog.model.KakaoProfile_init_207997238213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_init_207997238213
+[INFO] Running com.cos.blog.model.Board_getContent_12973247984
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getContent_12973247984
+[INFO] Running com.cos.blog.model.Board_getUser_181921023932
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getUser_181921023932
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setThumbnailimageurl_18798263905
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setThumbnailimageurl_18798263905
+[INFO] Running com.cos.blog.model.Board_init_186620108541
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_init_186620108541
+[INFO] Running com.cos.blog.model.RoleType_init_10629639972
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.RoleType_init_10629639972
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.cos.blog.model.RoleType_init_10629639972.test(RoleType_init_10629639972.java:42)
+
+[INFO] Running com.cos.blog.model.User_UserBuilder_toString_6037342689
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_toString_6037342689
+[INFO] Running com.cos.blog.model.User_setCreateDate_144834836935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setCreateDate_144834836935
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_hashCode_169462200620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_hashCode_169462200620
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_toString_48501673221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_toString_48501673221
+[INFO] Running com.cos.blog.model.KakaoProfile_getId_190920090514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getId_190920090514
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_setThumbnailimage_20331880946
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_setThumbnailimage_20331880946
+[INFO] Running com.cos.blog.model.User_setId_883193508
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setId_883193508
+[INFO] Running com.cos.blog.model.RoleType_init_10629639975
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.RoleType_init_10629639975
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.cos.blog.model.RoleType_init_10629639975.test(RoleType_init_10629639975.java:47)
+
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getThumbnailimageurl_7494137822
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getThumbnailimageurl_7494137822
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_getNickname_19218007241
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_getNickname_19218007241
+[INFO] Running com.cos.blog.model.Board_getReplys_102072049933
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getReplys_102072049933
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_toString_48501673210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.KakaoProfile_Properties_toString_48501673210
+[INFO] Running com.cos.blog.model.User_UserBuilder_role_11062858785
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_role_11062858785
+[INFO] Running com.cos.blog.model.User_UserBuilder_init_582784170
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.User_UserBuilder_init_582784170
+[INFO] Running com.cos.blog.model.OAuthToken_hashCode_214379621915
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.OAuthToken_hashCode_214379621915
+[INFO] Running com.cos.blog.model.User_builder_167859520621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_builder_167859520621
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_toString_208958560021
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_toString_208958560021
+[INFO] Running com.cos.blog.model.Board_setReplys_133767308117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setReplys_133767308117
+[INFO] Running com.cos.blog.model.Board_canEqual_95762036138
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_canEqual_95762036138
+[INFO] Running com.cos.blog.model.KakaoProfile_setId_88789506718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setId_88789506718
+[INFO] Running com.cos.blog.model.KakaoProfile_getKakaoaccount_6014268184
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getKakaoaccount_6014268184
+[INFO] Running com.cos.blog.model.User_UserBuilder_email_176526164
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_email_176526164
+[INFO] Running com.cos.blog.model.OAuthToken_setTokentype_120063370925
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.OAuthToken_setTokentype_120063370925
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_toString_6336808087
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_toString_6336808087
+[INFO] Running com.cos.blog.model.Reply_init_210480667520
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_init_210480667520
+[INFO] Running com.cos.blog.model.User_hashCode_187402212617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_hashCode_187402212617
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getProfileneedsagreement_117417999620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getProfileneedsagreement_117417999620
+[INFO] Running com.cos.blog.model.KakaoProfile_toString_153451653125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_toString_153451653125
+[INFO] Running com.cos.blog.model.KakaoProfile_canEqual_22909246310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_canEqual_22909246310
+[INFO] Running com.cos.blog.model.Reply_getCreateDate_13776307525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getCreateDate_13776307525
+[INFO] Running com.cos.blog.model.OAuthToken_canEqual_89832177314
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_canEqual_89832177314
+[INFO] Running com.cos.blog.model.User_UserBuilder_oauth_573059336
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_oauth_573059336
+[INFO] Running com.cos.blog.model.User_setId_8831935029
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setId_8831935029
+[INFO] Running com.cos.blog.model.Board_getId_5732630011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getId_5732630011
+[INFO] Running com.cos.blog.model.Board_getCreateDate_3115098818
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getCreateDate_3115098818
+[INFO] Running com.cos.blog.model.Board_equals_15345773236
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_equals_15345773236
+[INFO] Running com.cos.blog.model.User_setRole_82448802412
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setRole_82448802412
+[INFO] Running com.cos.blog.model.OAuthToken_setRefreshtokenexpiresin_49163982612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setRefreshtokenexpiresin_49163982612
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_user_16618468525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_user_16618468525
+[INFO] Running com.cos.blog.model.Reply_getId_1239900455
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getId_1239900455
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getNickname_76859770412
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getNickname_76859770412
+[INFO] Running com.cos.blog.model.KakaoProfile_setProperties_122898677120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setProperties_122898677120
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_init_196373351119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_init_196373351119
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_build_13506455018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_build_13506455018
+[INFO] Running com.cos.blog.model.Board_setCreateDate_204018797518
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setCreateDate_204018797518
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_hashCode_16946220069
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_hashCode_16946220069
+[INFO] Running com.cos.blog.model.Board_setCreateDate_204018797535
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setCreateDate_204018797535
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_init_166036862011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_init_166036862011
+[INFO] Running com.cos.blog.model.User_UserBuilder_id_177584447611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_id_177584447611
+[INFO] Running com.cos.blog.model.KakaoProfile_canEqual_22909246323
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_canEqual_22909246323
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_toString_208958560010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_toString_208958560010
+[INFO] Running com.cos.blog.model.Reply_setContent_93511673027
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setContent_93511673027
+[INFO] Running com.cos.blog.model.Board_toString_80598863322
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.Board_toString_80598863322
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.model.Board_toString_80598863322.test(Board_toString_80598863322.java:203)
+
+[INFO] Running com.cos.blog.model.User_init_72737572441
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_init_72737572441
+[INFO] Running com.cos.blog.model.Board_hashCode_29522894338
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.Board_hashCode_29522894338
+[INFO] Running com.cos.blog.model.OAuthToken_getTokentype_2490874192
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getTokentype_2490874192
+[INFO] Running com.cos.blog.model.User_getCreateDate_11895754557
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getCreateDate_11895754557
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_content_16420386774
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_content_16420386774
+[INFO] Running com.cos.blog.model.User_getUsername_21100559602
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getUsername_21100559602
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_toString_6336808088
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_toString_6336808088
+[INFO] Running com.cos.blog.model.Board_getId_57326300126
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getId_57326300126
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_hashCode_99577642220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_hashCode_99577642220
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_canEqual_157166352716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_canEqual_157166352716
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_equals_12459353317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_equals_12459353317
+[INFO] Running com.cos.blog.model.KakaoProfile_setKakaoaccount_163757509421
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setKakaoaccount_163757509421
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getThumbnailimageurl_74941378213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getThumbnailimageurl_74941378213
+[INFO] Running com.cos.blog.model.RoleType_valueOf_21033348761
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.RoleType_valueOf_21033348761
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.cos.blog.model.RoleType.CpdMEgjUka
+	at com.cos.blog.model.RoleType_valueOf_21033348761.test(RoleType_valueOf_21033348761.java:42)
+
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getProfileneedsagreement_11741799961
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getProfileneedsagreement_11741799961
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_createDate_27661564213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_createDate_27661564213
+[INFO] Running com.cos.blog.model.User_getPassword_112970506924
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getPassword_112970506924
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailvalid_50754358031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailvalid_50754358031
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_createDate_2766156426
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_createDate_2766156426
+[INFO] Running com.cos.blog.model.OAuthToken_setTokentype_12006337098
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setTokentype_12006337098
+[INFO] Running com.cos.blog.model.User_equals_142533545115
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_equals_142533545115
+[INFO] Running com.cos.blog.model.User_UserBuilder_password_138239597713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_password_138239597713
+[INFO] Running com.cos.blog.model.Reply_canEqual_140689331732
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_canEqual_140689331732
+[INFO] Running com.cos.blog.model.Board_init_186620108527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.Board_init_186620108527
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_title_7418981643
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_title_7418981643
+[INFO] Running com.cos.blog.model.OAuthToken_setExpiresin_205372496827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setExpiresin_205372496827
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_id_2827363801
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_id_2827363801
+[INFO] Running com.cos.blog.model.User_UserBuilder_oauth_5730593316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_oauth_5730593316
+[INFO] Running com.cos.blog.model.User_setOauth_92923174734
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.User_setOauth_92923174734
+[INFO] Running com.cos.blog.model.User_UserBuilder_id_17758444761
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_id_17758444761
+[INFO] Running com.cos.blog.model.User_UserBuilder_createDate_15382899817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_createDate_15382899817
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_hashCode_31881422336
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_hashCode_31881422336
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_replys_204393550016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_replys_204393550016
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getEmail_172692633526
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getEmail_172692633526
+[INFO] Running com.cos.blog.model.User_getPassword_11297050693
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getPassword_11297050693
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_init_11447520530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_init_11447520530
+[INFO] Running com.cos.blog.model.KakaoProfile_hashCode_102375684111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.KakaoProfile_hashCode_102375684111
+[INFO] Running com.cos.blog.model.User_hashCode_187402212638
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_hashCode_187402212638
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_count_113573505615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_count_113573505615
+[INFO] Running com.cos.blog.model.Reply_equals_60273068831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_equals_60273068831
+[INFO] Running com.cos.blog.model.User_toString_191018548018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_toString_191018548018
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_createDate_2766156425
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_createDate_2766156425
+[INFO] Running com.cos.blog.model.User_getId_214291111222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getId_214291111222
+[INFO] Running com.cos.blog.model.Board_init_135144448440
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_init_135144448440
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_setNickname_3354582844
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_setNickname_3354582844
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_getProfileimage_17758031372
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_getProfileimage_17758031372
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_getNickname_192180072412
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_getNickname_192180072412
+[INFO] Running com.cos.blog.model.Reply_canEqual_140689331716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.Reply_canEqual_140689331716
+[INFO] Running com.cos.blog.model.Reply_setId_193974678910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setId_193974678910
+[INFO] Running com.cos.blog.model.User_setEmail_88957843032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setEmail_88957843032
+[INFO] Running com.cos.blog.model.Board_setTitle_101998102111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setTitle_101998102111
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setProfileneedsagreement_194049327427
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setProfileneedsagreement_194049327427
+[INFO] Running com.cos.blog.model.KakaoProfile_getProperties_183847840716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getProperties_183847840716
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_createDate_20964590468
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_createDate_20964590468
+[INFO] Running com.cos.blog.model.User_setPassword_45663737110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setPassword_45663737110
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_toString_19194546737
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_toString_19194546737
+[INFO] Running com.cos.blog.model.OAuthToken_setScope_189973814111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setScope_189973814111
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getProfileimageurl_20063982913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getProfileimageurl_20063982913
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_equals_124593533118
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_equals_124593533118
+[INFO] Running com.cos.blog.model.OAuthToken_setRefreshtoken_45275619626
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setRefreshtoken_45275619626
+[INFO] Running com.cos.blog.model.Board_equals_15345773219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_equals_15345773219
+[INFO] Running com.cos.blog.model.Board_setId_14904738339
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setId_14904738339
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_init_12867713120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_init_12867713120
+[INFO] Running com.cos.blog.model.Reply_getBoard_105398299723
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getBoard_105398299723
+[INFO] Running com.cos.blog.model.OAuthToken_getAccesstoken_2663645051
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getAccesstoken_2663645051
+[INFO] Running com.cos.blog.model.OAuthToken_toString_163303652916
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_toString_163303652916
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_init_16603686200
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_init_16603686200
+[INFO] Running com.cos.blog.model.Board_setUser_192541255915
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setUser_192541255915
+[INFO] Running com.cos.blog.model.User_getOauth_50556333127
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getOauth_50556333127
+[INFO] Running com.cos.blog.model.Board_toString_80598863339
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_toString_80598863339
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_canEqual_157166352735
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_canEqual_157166352735
+[INFO] Running com.cos.blog.model.OAuthToken_setRefreshtokenexpiresin_49163982629
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setRefreshtokenexpiresin_49163982629
+[INFO] Running com.cos.blog.model.User_UserBuilder_createDate_153828998117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_createDate_153828998117
+[INFO] Running com.cos.blog.model.Board_getCount_149688260728
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getCount_149688260728
+[INFO] Running com.cos.blog.model.Board_init_135144448426
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_init_135144448426
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailverified_128598907425
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailverified_128598907425
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setProfile_12433494719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setProfile_12433494719
+[INFO] Running com.cos.blog.model.Reply_setUser_147613960313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setUser_147613960313
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_setProfileimage_10787241595
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_setProfileimage_10787241595
+[INFO] Running com.cos.blog.model.Board_getCreateDate_31150988131
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getCreateDate_31150988131
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_equals_76750089815
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_equals_76750089815
+[INFO] Running com.cos.blog.model.Board_getReplys_10207204997
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getReplys_10207204997
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_init_128677131211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_init_128677131211
+[INFO] Running com.cos.blog.model.RoleType_values_16996020170
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.RoleType_values_16996020170
+[INFO] Running com.cos.blog.model.OAuthToken_canEqual_89832177331
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_canEqual_89832177331
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_content_16420386773
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_content_16420386773
+[INFO] Running com.cos.blog.model.Reply_getContent_17465977546
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getContent_17465977546
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_build_90696987014
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_build_90696987014
+[INFO] Running com.cos.blog.model.Reply_hashCode_15404401333
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_hashCode_15404401333
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setHasemail_102402785129
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setHasemail_102402785129
+[INFO] Running com.cos.blog.model.User_setCreateDate_144834836914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setCreateDate_144834836914
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_init_882249570
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_init_882249570
+[INFO] Running com.cos.blog.model.Board_setId_149047383332
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setId_149047383332
+[INFO] Running com.cos.blog.model.RoleType_valueOf_21033348764
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.RoleType_valueOf_21033348764
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at com.cos.blog.model.RoleType_valueOf_21033348764.test(RoleType_valueOf_21033348764.java:49)
+
+[INFO] Running com.cos.blog.model.OAuthToken_equals_170248440230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_equals_170248440230
+[INFO] Running com.cos.blog.model.User_setUsername_59856889630
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setUsername_59856889630
+[INFO] Running com.cos.blog.model.Board_getCount_149688260731
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getCount_149688260731
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getProfile_1286860572
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getProfile_1286860572
+[INFO] Running com.cos.blog.model.Board_canEqual_95762036122
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_canEqual_95762036122
+[INFO] Running com.cos.blog.model.User_setRole_82448802433
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setRole_82448802433
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_init_114475205311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_init_114475205311
+[INFO] Running com.cos.blog.model.KakaoProfile_equals_5750701669
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_equals_5750701669
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_canEqual_44177270219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_canEqual_44177270219
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getNickname_7685977041
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_getNickname_7685977041
+[INFO] Running com.cos.blog.model.Board_setCount_85765219914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setCount_85765219914
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_content_2798539312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_content_2798539312
+[INFO] Running com.cos.blog.model.Reply_setId_193974678926
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setId_193974678926
+[INFO] Running com.cos.blog.model.OAuthToken_setAccesstoken_126070532924
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setAccesstoken_126070532924
+[INFO] Running com.cos.blog.model.KakaoProfile_init_20799723820
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_init_20799723820
+[INFO] Running com.cos.blog.model.Reply_setBoard_181205577312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setBoard_181205577312
+[INFO] Running com.cos.blog.model.User_canEqual_62117282237
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_canEqual_62117282237
+[INFO] Running com.cos.blog.model.OAuthToken_hashCode_214379621932
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_hashCode_214379621932
+[INFO] Running com.cos.blog.model.KakaoProfile_getConnectedat_191472659215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getConnectedat_191472659215
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailverified_12859890746
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailverified_12859890746
+[INFO] Running com.cos.blog.model.User_setOauth_92923174713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setOauth_92923174713
+[INFO] Running com.cos.blog.model.RoleType_values_16996020173
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.RoleType_values_16996020173
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_toString_63368080815
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_toString_63368080815
+[INFO] Running com.cos.blog.model.Board_canEqual_95762036137
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_canEqual_95762036137
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setHasemail_102402785110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setHasemail_102402785110
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailvalid_2392538225
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailvalid_2392538225
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getHasemail_5052387933
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getHasemail_5052387933
+[INFO] Running com.cos.blog.model.OAuthToken_init_10875806780
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_init_10875806780
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_count_11357350565
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_count_11357350565
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_getThumbnailimage_9382089623
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_getThumbnailimage_9382089623
+[INFO] Running com.cos.blog.model.User_init_136472962940
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_init_136472962940
+[INFO] Running com.cos.blog.model.Board_init_186620108524
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_init_186620108524
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setThumbnailimageurl_187982639016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setThumbnailimageurl_187982639016
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_board_1663368984
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_board_1663368984
+[INFO] Running com.cos.blog.model.User_getCreateDate_118957545528
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getCreateDate_118957545528
+[INFO] Running com.cos.blog.model.Board_setCount_85765219933
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setCount_85765219933
+[INFO] Running com.cos.blog.model.Board_canEqual_95762036120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_canEqual_95762036120
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_id_2827363809
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_id_2827363809
+[INFO] Running com.cos.blog.model.User_UserBuilder_build_169507455918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_build_169507455918
+[INFO] Running com.cos.blog.model.Reply_setContent_93511673011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setContent_93511673011
+[INFO] Running com.cos.blog.model.Reply_getUser_202648410124
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getUser_202648410124
+[INFO] Running com.cos.blog.model.Board_setCount_85765219936
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setCount_85765219936
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getHasemail_50523879322
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getHasemail_50523879322
+[INFO] Running com.cos.blog.model.OAuthToken_getScope_14760697255
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getScope_14760697255
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_build_9069698707
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_build_9069698707
+[INFO] Running com.cos.blog.model.Reply_toString_3567156770
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_toString_3567156770
+[INFO] Running com.cos.blog.model.User_setEmail_88957843011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setEmail_88957843011
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_setProfileimage_107872415916
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_setProfileimage_107872415916
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_build_9069698706
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_build_9069698706
+[INFO] Running com.cos.blog.model.User_UserBuilder_role_110628587815
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_role_110628587815
+[INFO] Running com.cos.blog.model.User_builder_16785952060
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_builder_16785952060
+[INFO] Running com.cos.blog.model.KakaoProfile_setConnectedat_92038576819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_setConnectedat_92038576819
+[INFO] Running com.cos.blog.model.OAuthToken_getRefreshtoken_18931961963
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getRefreshtoken_18931961963
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_canEqual_4417727028
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_canEqual_4417727028
+[INFO] Running com.cos.blog.model.Board_getTitle_144364943727
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getTitle_144364943727
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailvalid_50754358012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailvalid_50754358012
+[INFO] Running com.cos.blog.model.Board_setUser_192541255937
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setUser_192541255937
+[INFO] Running com.cos.blog.model.Board_init_135144448423
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_init_135144448423
+[INFO] Running com.cos.blog.model.User_UserBuilder_build_16950745598
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_build_16950745598
+[INFO] Running com.cos.blog.model.OAuthToken_toString_163303652933
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_toString_163303652933
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailvalid_23925382224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getIsemailvalid_23925382224
+[INFO] Running com.cos.blog.model.User_UserBuilder_init_5827841710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_init_5827841710
+[INFO] Running com.cos.blog.model.KakaoProfile_getConnectedat_19147265922
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getConnectedat_19147265922
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_build_1350645509
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_build_1350645509
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setProfileimageurl_95905294717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setProfileimageurl_95905294717
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setNickname_19400271524
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setNickname_19400271524
+[INFO] Running com.cos.blog.model.Board_getReplys_102072049930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getReplys_102072049930
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setProfileneedsagreement_19404932748
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setProfileneedsagreement_19404932748
+[INFO] Running com.cos.blog.model.Board_setId_149047383335
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setId_149047383335
+[INFO] Running com.cos.blog.model.Board_getCount_14968826075
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getCount_14968826075
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_equals_14444630977
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_equals_14444630977
+[INFO] Running com.cos.blog.model.OAuthToken_getTokentype_24908741919
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getTokentype_24908741919
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_id_209033830812
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_id_209033830812
+[INFO] Running com.cos.blog.model.User_toString_191018548039
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_toString_191018548039
+[INFO] Running com.cos.blog.model.Board_builder_169526803128
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_builder_169526803128
+[INFO] Running com.cos.blog.model.User_setUsername_5985688969
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_setUsername_5985688969
+[INFO] Running com.cos.blog.model.Reply_ReplyBuilder_id_28273638010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_ReplyBuilder_id_28273638010
+[INFO] Running com.cos.blog.model.Board_builder_16952680310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_builder_16952680310
+[INFO] Running com.cos.blog.model.OAuthToken_setExpiresin_205372496810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setExpiresin_205372496810
+[INFO] Running com.cos.blog.model.Board_toString_80598863325
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.Board_toString_80598863325
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.model.Board_toString_80598863325.test(Board_toString_80598863325.java:107)
+
+[INFO] Running com.cos.blog.model.User_getEmail_4659100144
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getEmail_4659100144
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setProfile_124334947128
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setProfile_124334947128
+[INFO] Running com.cos.blog.model.KakaoProfile_getId_19092009051
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getId_19092009051
+[INFO] Running com.cos.blog.model.OAuthToken_equals_170248440213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.OAuthToken_equals_170248440213
+[INFO] Running com.cos.blog.model.Board_getId_57326300129
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getId_57326300129
+[INFO] Running com.cos.blog.model.Reply_equals_60273068815
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_equals_60273068815
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_getEmailneedsagreement_16157770523
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_getEmailneedsagreement_16157770523
+[INFO] Running com.cos.blog.model.User_init_72737572420
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.User_init_72737572420
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setEmail_130325791933
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setEmail_130325791933
+[INFO] Running com.cos.blog.model.Board_hashCode_29522894321
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.model.Board_hashCode_29522894321
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.model.Board_hashCode_29522894321.test(Board_hashCode_29522894321.java:223)
+
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_setThumbnailimage_203318809417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_setThumbnailimage_203318809417
+[INFO] Running com.cos.blog.model.Reply_getUser_20264841018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getUser_20264841018
+[INFO] Running com.cos.blog.model.Reply_init_9021715283
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_init_9021715283
+[INFO] Running com.cos.blog.model.Board_builder_169526803125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_builder_169526803125
+[INFO] Running com.cos.blog.model.Board_getUser_181921023929
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getUser_181921023929
+[INFO] Running com.cos.blog.model.OAuthToken_getRefreshtokenexpiresin_76072680023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getRefreshtokenexpiresin_76072680023
+[INFO] Running com.cos.blog.model.Reply_toString_35671567718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_toString_35671567718
+[INFO] Running com.cos.blog.model.KakaoProfile_equals_57507016622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_equals_57507016622
+[INFO] Running com.cos.blog.model.Board_getTitle_144364943730
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_getTitle_144364943730
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setNickname_194002715215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_Profile_setNickname_194002715215
+[INFO] Running com.cos.blog.model.Reply_setCreateDate_180550636514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setCreateDate_180550636514
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailverified_59467534832
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_setIsemailverified_59467534832
+[INFO] Running com.cos.blog.model.Board_setContent_48584377413
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setContent_48584377413
+[INFO] Running com.cos.blog.model.OAuthToken_getRefreshtokenexpiresin_7607268006
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getRefreshtokenexpiresin_7607268006
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_user_7112278366
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_user_7112278366
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_canEqual_20463415708
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_canEqual_20463415708
+[INFO] Running com.cos.blog.model.User_equals_142533545136
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_equals_142533545136
+[INFO] Running com.cos.blog.model.KakaoProfile_Properties_getThumbnailimage_93820896214
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_Properties_getThumbnailimage_93820896214
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_replys_20439355007
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_replys_20439355007
+[INFO] Running com.cos.blog.model.Reply_builder_21113605871
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_builder_21113605871
+[INFO] Running com.cos.blog.model.KakaoProfile_toString_153451653112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_toString_153451653112
+[INFO] Running com.cos.blog.model.User_UserBuilder_password_13823959773
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_UserBuilder_password_13823959773
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_equals_76750089834
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_equals_76750089834
+[INFO] Running com.cos.blog.model.Board_setUser_192541255934
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_setUser_192541255934
+[INFO] Running com.cos.blog.model.User_getRole_5377337445
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getRole_5377337445
+[INFO] Running com.cos.blog.model.Reply_getBoard_10539829977
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_getBoard_10539829977
+[INFO] Running com.cos.blog.model.Board_BoardBuilder_title_74189816413
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Board_BoardBuilder_title_74189816413
+[INFO] Running com.cos.blog.model.OAuthToken_getExpiresin_113934519021
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.model.OAuthToken_getExpiresin_113934519021
+[INFO] Running com.cos.blog.model.KakaoProfile_hashCode_102375684124
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_hashCode_102375684124
+[INFO] Running com.cos.blog.model.Reply_setCreateDate_180550636530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_setCreateDate_180550636530
+[INFO] Running com.cos.blog.model.Reply_hashCode_15404401317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_hashCode_15404401317
+[INFO] Running com.cos.blog.model.OAuthToken_getExpiresin_11393451904
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_getExpiresin_11393451904
+[INFO] Running com.cos.blog.model.OAuthToken_setRefreshtoken_4527561969
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.OAuthToken_setRefreshtoken_4527561969
+[INFO] Running com.cos.blog.model.User_getRole_53773374426
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.User_getRole_53773374426
+[INFO] Running com.cos.blog.model.Reply_init_21048066752
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.Reply_init_21048066752
+[INFO] Running com.cos.blog.model.KakaoProfile_KakaoAccount_init_19637335110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_KakaoAccount_init_19637335110
+[INFO] Running com.cos.blog.model.KakaoProfile_getKakaoaccount_60142681817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.model.KakaoProfile_getKakaoaccount_60142681817
+[INFO] Running com.cos.blog.BlogApplication_init_7977611342
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.BlogApplication_init_7977611342
+[INFO] Running com.cos.blog.handler.GlobalExceptionHandler_handleArgumentException_14785950591
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.handler.GlobalExceptionHandler_handleArgumentException_14785950591
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassNotFoundException: org.vorpal.research.kex.intrinsics.internal.FloatGenerator
+	at com.cos.blog.handler.GlobalExceptionHandler_handleArgumentException_14785950591.setup(GlobalExceptionHandler_handleArgumentException_14785950591.java:46)
+
+[INFO] Running com.cos.blog.handler.GlobalExceptionHandler_init_18450023250
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.handler.GlobalExceptionHandler_init_18450023250
+[INFO] Running com.cos.blog.handler.GlobalExceptionHandler_init_18450023252
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.handler.GlobalExceptionHandler_init_18450023252
+[INFO] Running com.cos.blog.handler.GlobalExceptionHandler_handleArgumentException_14785950593
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.handler.GlobalExceptionHandler_handleArgumentException_14785950593
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.handler.GlobalExceptionHandler_handleArgumentException_14785950593.test(GlobalExceptionHandler_handleArgumentException_14785950593.java:44)
+
+[INFO] Running com.cos.blog.controller.BoardController_init_15686703691
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.controller.BoardController_init_15686703691
+[INFO] Running com.cos.blog.controller.api.BoardApiController_init_17123998761
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.controller.api.BoardApiController_init_17123998761
+[INFO] Running com.cos.blog.controller.api.BoardApiController_init_17123998760
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.controller.api.BoardApiController_init_17123998760
+[INFO] Running com.cos.blog.controller.api.UserApiController_init_19689009710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.controller.api.UserApiController_init_19689009710
+[INFO] Running com.cos.blog.controller.api.UserApiController_init_19689009711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.controller.api.UserApiController_init_19689009711
+[INFO] Running com.cos.blog.controller.BoardController_init_15686703690
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.controller.BoardController_init_15686703690
+[INFO] Running com.cos.blog.dto.ResponseDto_init_45276849820
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_init_45276849820
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_getBoardId_7579718661
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_getBoardId_7579718661
+[INFO] Running com.cos.blog.dto.ResponseDto_canEqual_185629634717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_canEqual_185629634717
+[INFO] Running com.cos.blog.dto.ResponseDto_hashCode_60344704318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_hashCode_60344704318
+[INFO] Running com.cos.blog.dto.ResponseDto_setStatus_58245924614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_setStatus_58245924614
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_init_137016021022
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_init_137016021022
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_canEqual_4653957427
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_canEqual_4653957427
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_init_137016021010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_init_137016021010
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_status_18092636991
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_status_18092636991
+[INFO] Running com.cos.blog.dto.ResponseDto_init_4527684989
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_init_4527684989
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_init_152050670923
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_init_152050670923
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_setContent_9371723295
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_setContent_9371723295
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_getContent_12569130514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_getContent_12569130514
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_init_152050670911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_init_152050670911
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_data_7784923282
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_data_7784923282
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_toString_13750178629
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_toString_13750178629
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_setUserId_19469000315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_setUserId_19469000315
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_equals_12695583716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_equals_12695583716
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_toString_206596256021
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_toString_206596256021
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_status_18092636996
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_status_18092636996
+[INFO] Running com.cos.blog.dto.ResponseDto_setData_61682971915
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_setData_61682971915
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_getUserId_10973742912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_getUserId_10973742912
+[INFO] Running com.cos.blog.dto.ResponseDto_getStatus_4975066721
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_getStatus_4975066721
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_hashCode_17182450468
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_hashCode_17182450468
+[INFO] Running com.cos.blog.dto.ResponseDto_hashCode_6034470437
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_hashCode_6034470437
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_toString_20659625609
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_toString_20659625609
+[INFO] Running com.cos.blog.dto.ResponseDto_builder_210273450911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_builder_210273450911
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_init_8295620110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_init_8295620110
+[INFO] Running com.cos.blog.dto.ResponseDto_setStatus_5824592463
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_setStatus_5824592463
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_getBoardId_75797186613
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_getBoardId_75797186613
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_setUserId_1946900033
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.dto.ReplySaveRequestDto_setUserId_1946900033
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_init_8295620115
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_init_8295620115
+[INFO] Running com.cos.blog.dto.ResponseDto_setData_6168297194
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_setData_6168297194
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_canEqual_46539574219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_canEqual_46539574219
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_setBoardId_198437554816
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_setBoardId_198437554816
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_build_20656213708
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_build_20656213708
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_hashCode_171824504620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_hashCode_171824504620
+[INFO] Running com.cos.blog.dto.ResponseDto_toString_926873538
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_toString_926873538
+[INFO] Running com.cos.blog.dto.ResponseDto_equals_105213371816
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_equals_105213371816
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_toString_13750178624
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_toString_13750178624
+[INFO] Running com.cos.blog.dto.ResponseDto_init_38285168521
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_init_38285168521
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_getUserId_1097374290
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_getUserId_1097374290
+[INFO] Running com.cos.blog.dto.ResponseDto_init_38285168510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_init_38285168510
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_setBoardId_19843755484
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_setBoardId_19843755484
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_equals_126955837118
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_equals_126955837118
+[INFO] Running com.cos.blog.dto.ResponseDto_getData_14565396852
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_getData_14565396852
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_data_7784923287
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_data_7784923287
+[INFO] Running com.cos.blog.dto.ResponseDto_builder_21027345090
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_builder_21027345090
+[INFO] Running com.cos.blog.dto.ResponseDto_toString_9268735319
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_toString_9268735319
+[INFO] Running com.cos.blog.dto.ResponseDto_getStatus_49750667212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_getStatus_49750667212
+[INFO] Running com.cos.blog.dto.ResponseDto_getData_145653968513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_getData_145653968513
+[INFO] Running com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_build_20656213703
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_ResponseDtoBuilder_build_20656213703
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_getContent_1256913052
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_getContent_1256913052
+[INFO] Running com.cos.blog.dto.ResponseDto_canEqual_18562963476
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_canEqual_18562963476
+[INFO] Running com.cos.blog.dto.ReplySaveRequestDto_setContent_93717232917
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ReplySaveRequestDto_setContent_93717232917
+[INFO] Running com.cos.blog.dto.ResponseDto_equals_10521337185
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.dto.ResponseDto_equals_10521337185
+[INFO] Running com.cos.blog.BlogApplication_init_7977611340
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.BlogApplication_init_7977611340
+[INFO] Running com.cos.blog.BlogApplication_main_4211981303
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in com.cos.blog.BlogApplication_main_4211981303
+[ERROR] test  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.cos.blog.BlogApplication_main_4211981303.test(BlogApplication_main_4211981303.java:44)
+
+[INFO] Running com.cos.blog.config.SecurityConfig_init_12714392831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.config.SecurityConfig_init_12714392831
+[INFO] Running com.cos.blog.config.SecurityConfig_init_12714392830
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.config.SecurityConfig_init_12714392830
+[INFO] Running com.cos.blog.service.UserService_init_8167210440
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.service.UserService_init_8167210440
+[INFO] Running com.cos.blog.service.UserService__2782315313
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.service.UserService__2782315313
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.service.UserService__2782315313.test(UserService__2782315313.java:61)
+
+[INFO] Running com.cos.blog.service.UserService__11244196791
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.service.UserService__11244196791
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.service.UserService__11244196791.test(UserService__11244196791.java:42)
+
+[INFO] Running com.cos.blog.service.UserService__4504931432
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.service.UserService__4504931432
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.service.UserService__4504931432.test(UserService__4504931432.java:61)
+
+[INFO] Running com.cos.blog.service.UserService_init_8167210444
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.service.UserService_init_8167210444
+[INFO] Running com.cos.blog.BlogApplication_main_4211981301
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.14)
+
+2026-04-08 06:07:25.913  INFO 78 --- [me-limited test] com.cos.blog.BlogApplication             : Starting BlogApplication using Java 11.0.16 on 449761bae14a with PID 78 (started by root in /app)
+2026-04-08 06:07:25.916  INFO 78 --- [me-limited test] com.cos.blog.BlogApplication             : The following 1 profile is active: "dev"
+2026-04-08 06:07:26.591  INFO 78 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 06:07:26.661  INFO 78 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2026-04-08 06:07:27.257  INFO 78 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2026-04-08 06:07:27.267  INFO 78 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:07:27.267  INFO 78 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2026-04-08 06:07:27.501  INFO 78 --- [me-limited test] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-04-08 06:07:27.509  INFO 78 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:07:27.510  INFO 78 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1552 ms
+2026-04-08 06:07:27.719  INFO 78 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 06:07:27.773  INFO 78 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-04-08 06:07:27.951  INFO 78 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 06:07:28.055  INFO 78 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:07:29.183 ERROR 78 --- [me-limited test] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:295) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:252) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.cos.blog.BlogApplication.main(BlogApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.cos.blog.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.cos.blog.BlogApplication_main_4211981301.test(BlogApplication_main_4211981301.java:48) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	... 68 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	... 71 common frames omitted
+
+2026-04-08 06:07:29.187  WARN 78 --- [me-limited test] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:295) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:252) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.cos.blog.BlogApplication.main(BlogApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.cos.blog.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.cos.blog.BlogApplication_main_4211981301.test(BlogApplication_main_4211981301.java:48) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	... 68 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+	... 71 common frames omitted
+
+2026-04-08 06:07:29.191 ERROR 78 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2026-04-08 06:07:29.192  WARN 78 --- [me-limited test] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2026-04-08 06:07:29.194  INFO 78 --- [me-limited test] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-08 06:07:29.203  INFO 78 --- [me-limited test] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-04-08 06:07:29.224 ERROR 78 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1157) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:911) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.29.jar:5.3.29]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.cos.blog.BlogApplication.main(BlogApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.cos.blog.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.cos.blog.BlogApplication_main_4211981301.test(BlogApplication_main_4211981301.java:48) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:284) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:295) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:252) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.29.jar:5.3.29]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.29.jar:5.3.29]
+	... 35 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	... 52 common frames omitted
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.779 s <<< FAILURE! - in com.cos.blog.BlogApplication_main_4211981301
+[ERROR] test  Time elapsed: 3.779 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at com.cos.blog.BlogApplication_main_4211981301.test(BlogApplication_main_4211981301.java:48)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at com.cos.blog.BlogApplication_main_4211981301.test(BlogApplication_main_4211981301.java:48)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at com.cos.blog.BlogApplication_main_4211981301.test(BlogApplication_main_4211981301.java:48)
+
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_build_150896251212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_build_150896251212
+[INFO] Running com.cos.blog.test.Member_builder_6233818011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_builder_6233818011
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_email_135454576811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_email_135454576811
+[INFO] Running com.cos.blog.test.TempControllerTest_init_8302606694
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_init_8302606694
+[INFO] Running com.cos.blog.test.Member_hashCode_2652834612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_hashCode_2652834612
+[INFO] Running com.cos.blog.test.HttpControllerTest_putTest_66767502910
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.test.HttpControllerTest_putTest_66767502910
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.test.HttpControllerTest_putTest_66767502910.test(HttpControllerTest_putTest_66767502910.java:44)
+
+[INFO] Running com.cos.blog.test.Member_init_102968719514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_init_102968719514
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_username_16640828629
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_username_16640828629
+[INFO] Running com.cos.blog.test.ReplyControllerTest_init_15635515013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.ReplyControllerTest_init_15635515013
+[INFO] Running com.cos.blog.test.Member_setEmail_10109720429
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_setEmail_10109720429
+[INFO] Running com.cos.blog.test.HttpControllerTest_putTest_6676750294
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_putTest_6676750294
+[INFO] Running com.cos.blog.test.DummyControllerTest_1_init_21012305982
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.DummyControllerTest_1_init_21012305982
+[INFO] Running com.cos.blog.test.Member_setUsername_179584792822
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_setUsername_179584792822
+[INFO] Running com.cos.blog.test.HttpControllerTest_init_11860384096
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_init_11860384096
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_toString_8255987016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_toString_8255987016
+[INFO] Running com.cos.blog.test.Member_hashCode_2652834627
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_hashCode_2652834627
+[INFO] Running com.cos.blog.test.ReplyControllerTest_init_15635515010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.ReplyControllerTest_init_15635515010
+[INFO] Running com.cos.blog.test.Member_setPassword_144391310123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_setPassword_144391310123
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_email_13545457684
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_email_13545457684
+[INFO] Running com.cos.blog.test.HttpControllerTest_deleteTest_78867465111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_deleteTest_78867465111
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_password_15756781673
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_password_15756781673
+[INFO] Running com.cos.blog.test.Member_getId_25150571217
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getId_25150571217
+[INFO] Running com.cos.blog.test.DummyControllerTest_1_get_6275148881
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.DummyControllerTest_1_get_6275148881
+[INFO] Running com.cos.blog.test.Member_getUsername_2095054883
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getUsername_2095054883
+[INFO] Running com.cos.blog.test.Member_init_18359246720
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_init_18359246720
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_username_16640828622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_username_16640828622
+[INFO] Running com.cos.blog.test.Member_getEmail_143464045820
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getEmail_143464045820
+[INFO] Running com.cos.blog.test.BlogControllerTest_hello_12509655041
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.BlogControllerTest_hello_12509655041
+[INFO] Running com.cos.blog.test.HttpControllerTest_init_11860384090
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_init_11860384090
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_init_13710545520
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_init_13710545520
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_build_15089625125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_build_15089625125
+[INFO] Running com.cos.blog.test.HttpControllerTest_lombokTest_12911629907
+HttpControllerTest : getter : ssar
+HttpControllerTest : setter : cos
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_lombokTest_12911629907
+[INFO] Running com.cos.blog.test.ReplyControllerTest_getBoard_17153610481
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.test.ReplyControllerTest_getBoard_17153610481
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.test.ReplyControllerTest_getBoard_17153610481.test(ReplyControllerTest_getBoard_17153610481.java:45)
+
+[INFO] Running com.cos.blog.test.Member_toString_48423134413
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_toString_48423134413
+[INFO] Running com.cos.blog.test.BlogControllerTest_hello_12509655043
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.BlogControllerTest_hello_12509655043
+[INFO] Running com.cos.blog.test.HttpControllerTest_postTest_14144499803
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_postTest_14144499803
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_id_4389513248
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_id_4389513248
+[INFO] Running com.cos.blog.test.Member_builder_62338180116
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_builder_62338180116
+[INFO] Running com.cos.blog.test.TempControllerTest_tempImg_15505246196
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_tempImg_15505246196
+[INFO] Running com.cos.blog.test.HttpControllerTest_getTest_5993516662
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_getTest_5993516662
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_toString_82559870113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_toString_82559870113
+[INFO] Running com.cos.blog.test.TempControllerTest_init_8302606690
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_init_8302606690
+[INFO] Running com.cos.blog.test.Member_setPassword_14439131018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.test.Member_setPassword_14439131018
+[INFO] Running com.cos.blog.test.BlogControllerTest_init_8271943212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.BlogControllerTest_init_8271943212
+[INFO] Running com.cos.blog.test.Member_getUsername_20950548818
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getUsername_20950548818
+[INFO] Running com.cos.blog.test.Member_getEmail_14346404585
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getEmail_14346404585
+[INFO] Running com.cos.blog.test.BlogControllerTest_init_8271943210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.BlogControllerTest_init_8271943210
+[INFO] Running com.cos.blog.test.Member_getPassword_12647117554
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getPassword_12647117554
+[INFO] Running com.cos.blog.test.HttpControllerTest_postTest_14144499809
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.test.HttpControllerTest_postTest_14144499809
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.test.HttpControllerTest_postTest_14144499809.test(HttpControllerTest_postTest_14144499809.java:44)
+
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_password_157567816710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_password_157567816710
+[INFO] Running com.cos.blog.test.TempControllerTest_tempHome_1131419371
+tempHome()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_tempHome_1131419371
+[INFO] Running com.cos.blog.test.TempControllerTest_tempHome_1131419375
+tempHome()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_tempHome_1131419375
+[INFO] Running com.cos.blog.test.Member_getId_2515057122
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getId_2515057122
+[INFO] Running com.cos.blog.test.Member_setId_18122311226
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_setId_18122311226
+[INFO] Running com.cos.blog.test.Member_setUsername_17958479287
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.test.Member_setUsername_17958479287
+[INFO] Running com.cos.blog.test.Member_init_183592467215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_init_183592467215
+[INFO] Running com.cos.blog.test.Member_init_102968719529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_init_102968719529
+[INFO] Running com.cos.blog.test.Member_getPassword_126471175519
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_getPassword_126471175519
+[INFO] Running com.cos.blog.test.Member_setId_181223112221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_setId_181223112221
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_init_13710545527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_init_13710545527
+[INFO] Running com.cos.blog.test.ReplyControllerTest_getReply_12916962872
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.test.ReplyControllerTest_getReply_12916962872
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.test.ReplyControllerTest_getReply_12916962872.test(ReplyControllerTest_getReply_12916962872.java:40)
+
+[INFO] Running com.cos.blog.test.Member_equals_47521502110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_equals_47521502110
+[INFO] Running com.cos.blog.test.Member_setEmail_101097204224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_setEmail_101097204224
+[INFO] Running com.cos.blog.test.Member_equals_47521502125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_equals_47521502125
+[INFO] Running com.cos.blog.test.Member_toString_48423134428
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_toString_48423134428
+[INFO] Running com.cos.blog.test.Member_MemberBuilder_id_4389513241
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_MemberBuilder_id_4389513241
+[INFO] Running com.cos.blog.test.Member_canEqual_127937765011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.Member_canEqual_127937765011
+[INFO] Running com.cos.blog.test.DummyControllerTest_1_get_6275148883
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.DummyControllerTest_1_get_6275148883
+[INFO] Running com.cos.blog.test.TempControllerTest_tempJsp_15516355353
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_tempJsp_15516355353
+[INFO] Running com.cos.blog.test.HttpControllerTest_deleteTest_7886746515
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_deleteTest_7886746515
+[INFO] Running com.cos.blog.test.TempControllerTest_tempImg_15505246192
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_tempImg_15505246192
+[INFO] Running com.cos.blog.test.DummyControllerTest_1_init_21012305980
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.DummyControllerTest_1_init_21012305980
+[INFO] Running com.cos.blog.test.HttpControllerTest_getTest_5993516668
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.cos.blog.test.HttpControllerTest_getTest_5993516668
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.cos.blog.test.HttpControllerTest_getTest_5993516668.test(HttpControllerTest_getTest_5993516668.java:44)
+
+[INFO] Running com.cos.blog.test.Member_canEqual_127937765026
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cos.blog.test.Member_canEqual_127937765026
+[INFO] Running com.cos.blog.test.TempControllerTest_tempJsp_15516355357
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.TempControllerTest_tempJsp_15516355357
+[INFO] Running com.cos.blog.test.HttpControllerTest_lombokTest_12911629901
+HttpControllerTest : getter : ssar
+HttpControllerTest : setter : cos
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cos.blog.test.HttpControllerTest_lombokTest_12911629901
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BlogApplication_main_4211981301.test:48 » BeanCreation Error creating bean wit...
+[ERROR]   BlogApplication_main_4211981303.test:44 » IllegalArgument Args must not be nul...
+[ERROR]   GlobalExceptionHandler_handleArgumentException_14785950591.setup:46 » ClassNotFound
+[ERROR]   GlobalExceptionHandler_handleArgumentException_14785950593.test:44 » NullPointer
+[ERROR]   Board_BoardBuilder_toString_169020790410.test:241 » NullPointer
+[ERROR]   Board_hashCode_29522894321.test:223 » NullPointer
+[ERROR]   Board_toString_80598863322.test:203 » NullPointer
+[ERROR]   Board_toString_80598863325.test:107 » NullPointer
+[ERROR]   RoleType_init_10629639972.test:42 » IllegalArgument Cannot reflectively create...
+[ERROR]   RoleType_init_10629639975.test:47 » IllegalArgument Cannot reflectively create...
+[ERROR]   RoleType_valueOf_21033348761.test:42 » IllegalArgument No enum constant com.co...
+[ERROR]   RoleType_valueOf_21033348764.test:49 » NullPointer Name is null
+[ERROR]   UserService__11244196791.test:42 » NullPointer
+[ERROR]   UserService__2782315313.test:61 » NullPointer
+[ERROR]   UserService__4504931432.test:61 » NullPointer
+[ERROR]   HttpControllerTest_getTest_5993516668.test:44 » NullPointer
+[ERROR]   HttpControllerTest_postTest_14144499809.test:44 » NullPointer
+[ERROR]   HttpControllerTest_putTest_66767502910.test:44 » NullPointer
+[ERROR]   ReplyControllerTest_getBoard_17153610481.test:45 » NullPointer
+[ERROR]   ReplyControllerTest_getReply_12916962872.test:40 » NullPointer
+[INFO] 
+[ERROR] Tests run: 500, Failures: 0, Errors: 20, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ blog ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'blog' with 34 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ blog ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'blog' with 34 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.444 s
+[INFO] Finished at: 2026-04-08T06:07:30Z
+[INFO] ------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 Test set: com.app.sr.util.model.ApiResponse_init_18992320991
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.app.sr.util.model.ApiResponse_init_18992320991
-test  Time elapsed: 0 s  <<< ERROR!
+test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at com.app.sr.util.model.ApiResponse_init_18992320991.test(ApiResponse_init_18992320991.java:42)
 Caused by: java.lang.NullPointerException

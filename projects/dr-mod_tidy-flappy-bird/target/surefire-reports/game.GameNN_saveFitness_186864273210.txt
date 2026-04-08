@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: game.GameNN_saveFitness_186864273210
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(game.GameNN_saveFitness_186864273210)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+test(game.GameNN_saveFitness_186864273210)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.GameNN.saveFitness(GameNN.java:165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

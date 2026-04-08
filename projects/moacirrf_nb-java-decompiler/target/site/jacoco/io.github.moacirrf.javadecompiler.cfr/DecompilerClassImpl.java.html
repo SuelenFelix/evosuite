@@ -46,12 +46,12 @@ public final class DecompilerClassImpl implements Decompiler&lt;String, FileObje
     public String decompile(FileObject file) {
 <span class="nc" id="L47">        return wrap(ExceptionHandler::handleException).get(() -&gt; {</span>
 
-<span class="fc" id="L49">            String className = FileSystemHelper.extractName(file);</span>
-<span class="fc" id="L50">            FileSystemHelper helper = FileSystemHelper.of(file);</span>
+<span class="nc" id="L49">            String className = FileSystemHelper.extractName(file);</span>
+<span class="nc" id="L50">            FileSystemHelper helper = FileSystemHelper.of(file);</span>
 
-<span class="fc" id="L52">            ClassFileSource2 classFileSource = new NetbeansClassFileSourceImpl(helper);</span>
+<span class="nc" id="L52">            ClassFileSource2 classFileSource = new NetbeansClassFileSourceImpl(helper);</span>
 
-<span class="fc" id="L54">            StringBuilder out = new StringBuilder(HEADER_COMMENT);</span>
+<span class="nc" id="L54">            StringBuilder out = new StringBuilder(HEADER_COMMENT);</span>
 <span class="nc" id="L55">            Main.doClass(new DCCommonState(options, classFileSource), className, false, new PluginDumperFactory(out, options));</span>
 
 <span class="nc" id="L57">            return out.toString();</span>

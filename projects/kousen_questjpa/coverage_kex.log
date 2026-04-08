@@ -1,0 +1,884 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.oreilly:quest >--------------------------
+[INFO] Building quest 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ quest ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ quest ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ quest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ quest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ quest ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ quest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ quest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 230 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/json/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/controllers/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/services/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/config/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/json/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/json/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/json/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/controllers/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/controllers/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/controllers/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/services/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/services/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/services/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/config/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/config/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/oreilly/quest/config/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/Knight_getId_846902433.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/Knight_getId_846902433.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/Knight_getId_846902433.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/oreilly/quest/entities/Knight_getId_846902433.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ quest ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.oreilly.quest.controllers.QuestController_init_10129853311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.oreilly.quest.controllers.QuestController_init_10129853311
+[INFO] Running com.oreilly.quest.controllers.QuestController_init_10129853310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.controllers.QuestController_init_10129853310
+[INFO] Running com.oreilly.quest.QuestApplication_init_8756015352
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.QuestApplication_init_8756015352
+[INFO] Running com.oreilly.quest.entities.Task_toString_174198539739
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.oreilly.quest.entities.Task_toString_174198539739
+[INFO] Running com.oreilly.quest.entities.Castle_addToKnights_59591135226
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.oreilly.quest.entities.Castle_addToKnights_59591135226
+[ERROR] test  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Castle_addToKnights_59591135226.test(Castle_addToKnights_59591135226.java:51)
+
+[INFO] Running com.oreilly.quest.entities.Castle_toString_60673097843
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.oreilly.quest.entities.Castle_toString_60673097843
+[INFO] Running com.oreilly.quest.entities.Task_setName_196486307028
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setName_196486307028
+[INFO] Running com.oreilly.quest.entities.Title_init_21403712885
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.oreilly.quest.entities.Title_init_21403712885
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.oreilly.quest.entities.Title_init_21403712885.test(Title_init_21403712885.java:47)
+
+[INFO] Running com.oreilly.quest.entities.Knight_getQuest_7674390209
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Knight_getQuest_7674390209
+[INFO] Running com.oreilly.quest.entities.Castle_removeKnight_14406535795
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_removeKnight_14406535795
+[INFO] Running com.oreilly.quest.entities.Knight_getName_165237881423
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getName_165237881423
+[INFO] Running com.oreilly.quest.entities.Knight_hashCode_986138528
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_hashCode_986138528
+[INFO] Running com.oreilly.quest.entities.Castle_init_6127512722
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_init_6127512722
+[INFO] Running com.oreilly.quest.entities.Knight_setId_5147320014
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setId_5147320014
+[INFO] Running com.oreilly.quest.entities.Quest_removeKnight_100230002322
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Quest_removeKnight_100230002322
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Quest_removeKnight_100230002322.test(Quest_removeKnight_100230002322.java:49)
+
+[INFO] Running com.oreilly.quest.entities.Castle_equals_156617734319
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_equals_156617734319
+[INFO] Running com.oreilly.quest.entities.Castle_init_8022206522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_init_8022206522
+[INFO] Running com.oreilly.quest.entities.Task_hashCode_204222220938
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_hashCode_204222220938
+[INFO] Running com.oreilly.quest.entities.Task_getId_21170510675
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getId_21170510675
+[INFO] Running com.oreilly.quest.entities.Task_toString_174198539719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_toString_174198539719
+[INFO] Running com.oreilly.quest.entities.Castle_getCity_83233149711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_getCity_83233149711
+[INFO] Running com.oreilly.quest.entities.Knight_setTitle_5957481986
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setTitle_5957481986
+[INFO] Running com.oreilly.quest.entities.Knight_init_21289823991
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_init_21289823991
+[INFO] Running com.oreilly.quest.entities.Task_setId_174787447126
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setId_174787447126
+[INFO] Running com.oreilly.quest.entities.Castle_toString_60673097821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_toString_60673097821
+[INFO] Running com.oreilly.quest.entities.Castle_init_612751270
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_init_612751270
+[INFO] Running com.oreilly.quest.entities.Task_init_10442764232
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.oreilly.quest.entities.Task_init_10442764232
+[INFO] Running com.oreilly.quest.entities.Castle_getId_104266181029
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getId_104266181029
+[INFO] Running com.oreilly.quest.entities.Castle_setLongitude_78381769340
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setLongitude_78381769340
+[INFO] Running com.oreilly.quest.entities.Quest_setId_12393936426
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Quest_setId_12393936426
+[INFO] Running com.oreilly.quest.entities.Quest_setKnights_53488106730
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setKnights_53488106730
+[INFO] Running com.oreilly.quest.entities.Castle_getKnights_206803910725
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getKnights_206803910725
+[INFO] Running com.oreilly.quest.entities.Knight_getTitle_156757932821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getTitle_156757932821
+[INFO] Running com.oreilly.quest.entities.Castle_init_909779961
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_init_909779961
+[INFO] Running com.oreilly.quest.entities.Task_setQuest_4505187024
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setQuest_4505187024
+[INFO] Running com.oreilly.quest.entities.Castle_addToKnights_5959113524
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_addToKnights_5959113524
+[INFO] Running com.oreilly.quest.entities.Task_getQuest_14951674523
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getQuest_14951674523
+[INFO] Running com.oreilly.quest.entities.Quest_addToTasks_1772895762
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_addToTasks_1772895762
+[INFO] Running com.oreilly.quest.entities.Knight_getTitle_15675793285
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getTitle_15675793285
+[INFO] Running com.oreilly.quest.entities.Quest_hashCode_73452302615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_hashCode_73452302615
+[INFO] Running com.oreilly.quest.entities.Knight_getCastle_54537301614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getCastle_54537301614
+[INFO] Running com.oreilly.quest.entities.Knight_setCastle_156367347431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Knight_setCastle_156367347431
+[INFO] Running com.oreilly.quest.entities.Castle_setId_61262005230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setId_61262005230
+[INFO] Running com.oreilly.quest.entities.Task_setStartDate_67116678032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setStartDate_67116678032
+[INFO] Running com.oreilly.quest.entities.Quest_getId_8093518847
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getId_8093518847
+[INFO] Running com.oreilly.quest.entities.Castle_getLongitude_210833228317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getLongitude_210833228317
+[INFO] Running com.oreilly.quest.entities.Knight_setTitle_59574819822
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setTitle_59574819822
+[INFO] Running com.oreilly.quest.entities.Quest_equals_28583635131
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_equals_28583635131
+[INFO] Running com.oreilly.quest.entities.Quest_setName_65716388726
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setName_65716388726
+[INFO] Running com.oreilly.quest.entities.Task_setEndDate_183434957114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setEndDate_183434957114
+[INFO] Running com.oreilly.quest.entities.Knight_init_212898239917
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_init_212898239917
+[INFO] Running com.oreilly.quest.entities.Castle_setCity_88754507112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setCity_88754507112
+[INFO] Running com.oreilly.quest.entities.Castle_equals_156617734341
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_equals_156617734341
+[INFO] Running com.oreilly.quest.entities.Castle_setKnights_190807253528
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setKnights_190807253528
+[INFO] Running com.oreilly.quest.entities.Quest_setTasks_37340382728
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setTasks_37340382728
+[INFO] Running com.oreilly.quest.entities.Castle_getId_10426618107
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getId_10426618107
+[INFO] Running com.oreilly.quest.entities.Castle_setName_119484980732
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setName_119484980732
+[INFO] Running com.oreilly.quest.entities.Quest_getId_80935188424
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getId_80935188424
+[INFO] Running com.oreilly.quest.entities.Knight_setCastle_156367347415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setCastle_156367347415
+[INFO] Running com.oreilly.quest.entities.Castle_setState_184280904114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setState_184280904114
+[INFO] Running com.oreilly.quest.entities.Quest_getKnights_21602541312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getKnights_21602541312
+[INFO] Running com.oreilly.quest.entities.Knight_init_10660769260
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_init_10660769260
+[INFO] Running com.oreilly.quest.entities.Quest_addToKnights_9560158804
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_addToKnights_9560158804
+[INFO] Running com.oreilly.quest.entities.Quest_getKnights_21602541329
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getKnights_21602541329
+[INFO] Running com.oreilly.quest.entities.Castle_hashCode_111749066842
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_hashCode_111749066842
+[INFO] Running com.oreilly.quest.entities.Task_setEndDate_183434957134
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setEndDate_183434957134
+[INFO] Running com.oreilly.quest.entities.Task_setId_17478744716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setId_17478744716
+[INFO] Running com.oreilly.quest.entities.Title_init_21403712882
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Title_init_21403712882
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.oreilly.quest.entities.Title_init_21403712882.test(Title_init_21403712882.java:42)
+
+[INFO] Running com.oreilly.quest.entities.Quest_init_179073856717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_init_179073856717
+[INFO] Running com.oreilly.quest.entities.Knight_init_174058403718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_init_174058403718
+[INFO] Running com.oreilly.quest.entities.Task_getPriority_15641843869
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getPriority_15641843869
+[INFO] Running com.oreilly.quest.entities.Quest_getName_19179268418
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getName_19179268418
+[INFO] Running com.oreilly.quest.entities.Quest_equals_28583635114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_equals_28583635114
+[INFO] Running com.oreilly.quest.entities.Task_setCompleted_4421811516
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setCompleted_4421811516
+[INFO] Running com.oreilly.quest.entities.Task_getStartDate_83866563011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getStartDate_83866563011
+[INFO] Running com.oreilly.quest.entities.Castle_hashCode_111749066820
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_hashCode_111749066820
+[INFO] Running com.oreilly.quest.entities.Castle_getLongitude_210833228339
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getLongitude_210833228339
+[INFO] Running com.oreilly.quest.entities.Castle_getName_52502676131
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getName_52502676131
+[INFO] Running com.oreilly.quest.entities.Quest_setTasks_37340382711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setTasks_37340382711
+[INFO] Running com.oreilly.quest.entities.Castle_getName_5250267619
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getName_5250267619
+[INFO] Running com.oreilly.quest.entities.Title_valueOf_2704370601
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Title_valueOf_2704370601
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.oreilly.quest.entities.Title.PAEBtnZtTD
+	at com.oreilly.quest.entities.Title_valueOf_2704370601.test(Title_valueOf_2704370601.java:42)
+
+[INFO] Running com.oreilly.quest.entities.Task_getEndDate_102760995713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getEndDate_102760995713
+[INFO] Running com.oreilly.quest.entities.Castle_getState_202848983913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getState_202848983913
+[INFO] Running com.oreilly.quest.entities.Castle_setId_6126200528
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setId_6126200528
+[INFO] Running com.oreilly.quest.entities.Castle_getLatitude_154855382037
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getLatitude_154855382037
+[INFO] Running com.oreilly.quest.entities.Castle_getCity_83233149733
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getCity_83233149733
+[INFO] Running com.oreilly.quest.entities.Quest_removeKnight_10023000235
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_removeKnight_10023000235
+[INFO] Running com.oreilly.quest.entities.Task_getQuest_149516745223
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getQuest_149516745223
+[INFO] Running com.oreilly.quest.entities.Castle_setState_184280904136
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setState_184280904136
+[INFO] Running com.oreilly.quest.entities.Knight_getQuest_76743902025
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getQuest_76743902025
+[INFO] Running com.oreilly.quest.entities.Knight_hashCode_986138512
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_hashCode_986138512
+[INFO] Running com.oreilly.quest.entities.Quest_init_194299169018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_init_194299169018
+[INFO] Running com.oreilly.quest.entities.Task_equals_159353553417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_equals_159353553417
+[INFO] Running com.oreilly.quest.entities.Task_getName_61022765827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getName_61022765827
+[INFO] Running com.oreilly.quest.entities.Task_isCompleted_104256410135
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_isCompleted_104256410135
+[INFO] Running com.oreilly.quest.entities.Quest_setName_6571638879
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setName_6571638879
+[INFO] Running com.oreilly.quest.entities.Task_init_104427642322
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_init_104427642322
+[INFO] Running com.oreilly.quest.entities.Knight_setQuest_181208777010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setQuest_181208777010
+[INFO] Running com.oreilly.quest.entities.Castle_getLatitude_154855382015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getLatitude_154855382015
+[INFO] Running com.oreilly.quest.entities.Knight_toString_52062107513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_toString_52062107513
+[INFO] Running com.oreilly.quest.entities.Knight_getId_846902433
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getId_846902433
+[INFO] Running com.oreilly.quest.entities.Task_getDuration_131104542620
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Task_getDuration_131104542620
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Task_getDuration_131104542620.test(Task_getDuration_131104542620.java:52)
+
+[INFO] Running com.oreilly.quest.entities.Title_valueOf_2704370604
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Title_valueOf_2704370604
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at com.oreilly.quest.entities.Title_valueOf_2704370604.test(Title_valueOf_2704370604.java:49)
+
+[INFO] Running com.oreilly.quest.entities.Task_init_119652954621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_init_119652954621
+[INFO] Running com.oreilly.quest.entities.Knight_setName_674977548
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setName_674977548
+[INFO] Running com.oreilly.quest.entities.Knight_getName_16523788147
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getName_16523788147
+[INFO] Running com.oreilly.quest.entities.Task_setPriority_78642592010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setPriority_78642592010
+[INFO] Running com.oreilly.quest.entities.Quest_setId_123939364223
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setId_123939364223
+[INFO] Running com.oreilly.quest.entities.Castle_init_80222065224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_init_80222065224
+[INFO] Running com.oreilly.quest.entities.Quest_init_17907385670
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_init_17907385670
+[INFO] Running com.oreilly.quest.entities.Knight_setId_51473200120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setId_51473200120
+[INFO] Running com.oreilly.quest.entities.Task_equals_159353553437
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Task_equals_159353553437
+[INFO] Running com.oreilly.quest.entities.Task_getPriority_156418438629
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getPriority_156418438629
+[INFO] Running com.oreilly.quest.entities.Quest_removeTask_2743846313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_removeTask_2743846313
+[INFO] Running com.oreilly.quest.entities.Task_setStartDate_67116678012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setStartDate_67116678012
+[INFO] Running com.oreilly.quest.entities.Task_getId_211705106725
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getId_211705106725
+[INFO] Running com.oreilly.quest.entities.Knight_getId_8469024319
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getId_8469024319
+[INFO] Running com.oreilly.quest.entities.Knight_init_106607692616
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_init_106607692616
+[INFO] Running com.oreilly.quest.entities.Quest_toString_124528271616
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_toString_124528271616
+[INFO] Running com.oreilly.quest.entities.Task_setPriority_78642592030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setPriority_78642592030
+[INFO] Running com.oreilly.quest.entities.Task_getDuration_13110454260
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getDuration_13110454260
+[INFO] Running com.oreilly.quest.entities.Quest_setKnights_53488106713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setKnights_53488106713
+[INFO] Running com.oreilly.quest.entities.Quest_getName_191792684125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getName_191792684125
+[INFO] Running com.oreilly.quest.entities.Quest_toString_124528271633
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_toString_124528271633
+[INFO] Running com.oreilly.quest.entities.Task_getStartDate_83866563031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getStartDate_83866563031
+[INFO] Running com.oreilly.quest.entities.Quest_getTasks_33326443527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getTasks_33326443527
+[INFO] Running com.oreilly.quest.entities.Knight_getCastle_54537301630
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getCastle_54537301630
+[INFO] Running com.oreilly.quest.entities.Knight_equals_43882529027
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_equals_43882529027
+[INFO] Running com.oreilly.quest.entities.Title_values_2215933433
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Title_values_2215933433
+[INFO] Running com.oreilly.quest.entities.Castle_init_9097799623
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_init_9097799623
+[INFO] Running com.oreilly.quest.entities.Task_setQuest_45051870224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setQuest_45051870224
+[INFO] Running com.oreilly.quest.entities.Castle_setLongitude_78381769318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setLongitude_78381769318
+[INFO] Running com.oreilly.quest.entities.Task_hashCode_204222220918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_hashCode_204222220918
+[INFO] Running com.oreilly.quest.entities.Quest_removeTask_27438463120
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Quest_removeTask_27438463120
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Quest_removeTask_27438463120.test(Quest_removeTask_27438463120.java:49)
+
+[INFO] Running com.oreilly.quest.entities.Quest_getTasks_33326443510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_getTasks_33326443510
+[INFO] Running com.oreilly.quest.entities.Castle_setName_119484980710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setName_119484980710
+[INFO] Running com.oreilly.quest.entities.Knight_setName_6749775424
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setName_6749775424
+[INFO] Running com.oreilly.quest.entities.Knight_equals_43882529011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_equals_43882529011
+[INFO] Running com.oreilly.quest.entities.Task_init_11965295461
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_init_11965295461
+[INFO] Running com.oreilly.quest.entities.Task_getName_6102276587
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getName_6102276587
+[INFO] Running com.oreilly.quest.entities.Task_getEndDate_102760995733
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getEndDate_102760995733
+[INFO] Running com.oreilly.quest.entities.Quest_addToTasks_17728957619
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Quest_addToTasks_17728957619
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Quest_addToTasks_17728957619.test(Quest_addToTasks_17728957619.java:49)
+
+[INFO] Running com.oreilly.quest.entities.Castle_getKnights_20680391073
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getKnights_20680391073
+[INFO] Running com.oreilly.quest.entities.Knight_toString_52062107529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_toString_52062107529
+[INFO] Running com.oreilly.quest.entities.Title_values_2215933430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Title_values_2215933430
+[INFO] Running com.oreilly.quest.entities.Quest_hashCode_73452302632
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_hashCode_73452302632
+[INFO] Running com.oreilly.quest.entities.Quest_addToKnights_95601588021
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Quest_addToKnights_95601588021
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Quest_addToKnights_95601588021.test(Quest_addToKnights_95601588021.java:49)
+
+[INFO] Running com.oreilly.quest.entities.Knight_init_17405840372
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_init_17405840372
+[INFO] Running com.oreilly.quest.entities.Castle_setLatitude_189483638016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setLatitude_189483638016
+[INFO] Running com.oreilly.quest.entities.Castle_setKnights_19080725356
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setKnights_19080725356
+[INFO] Running com.oreilly.quest.entities.Quest_init_19429916901
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Quest_init_19429916901
+[INFO] Running com.oreilly.quest.entities.Task_setName_19648630708
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setName_19648630708
+[INFO] Running com.oreilly.quest.entities.Castle_setLatitude_189483638038
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setLatitude_189483638038
+[INFO] Running com.oreilly.quest.entities.Knight_setQuest_181208777026
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setQuest_181208777026
+[INFO] Running com.oreilly.quest.entities.Task_isCompleted_104256410115
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_isCompleted_104256410115
+[INFO] Running com.oreilly.quest.entities.Task_setCompleted_4421811536
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setCompleted_4421811536
+[INFO] Running com.oreilly.quest.entities.Castle_setCity_88754507134
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setCity_88754507134
+[INFO] Running com.oreilly.quest.entities.Castle_removeKnight_144065357927
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Castle_removeKnight_144065357927
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.entities.Castle_removeKnight_144065357927.test(Castle_removeKnight_144065357927.java:51)
+
+[INFO] Running com.oreilly.quest.entities.Castle_getState_202848983935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getState_202848983935
+[INFO] Running com.oreilly.quest.QuestApplication_main_4990385311
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.14)
+
+2026-04-08 06:16:48.686  INFO 75 --- [me-limited test] com.oreilly.quest.QuestApplication       : Starting QuestApplication using Java 11.0.16 on 40d5b2dc723c with PID 75 (started by root in /app)
+2026-04-08 06:16:48.688  INFO 75 --- [me-limited test] com.oreilly.quest.QuestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 06:16:49.480  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 06:16:49.687  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 199 ms. Found 4 JPA repository interfaces.
+2026-04-08 06:16:50.282  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:16:50.292  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:16:50.292  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2026-04-08 06:16:50.384  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:16:50.384  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1632 ms
+2026-04-08 06:16:50.400 DEBUG 75 --- [me-limited test] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2026-04-08 06:16:50.400 DEBUG 75 --- [me-limited test] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-04-08 06:16:50.498  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:16:50.783  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 06:16:50.860  INFO 75 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 06:16:50.909  INFO 75 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-04-08 06:16:51.054  INFO 75 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 06:16:51.179  INFO 75 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 06:16:51.916 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    drop table if exists castle CASCADE 
+2026-04-08 06:16:51.921 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    drop table if exists knight CASCADE 
+2026-04-08 06:16:51.921 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    drop table if exists quest CASCADE 
+2026-04-08 06:16:51.921 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    drop table if exists task CASCADE 
+2026-04-08 06:16:51.922 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    drop sequence if exists hibernate_sequence
+2026-04-08 06:16:51.924 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by 1
+2026-04-08 06:16:51.926 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    create table castle (
+       id bigint not null,
+        city varchar(255),
+        latitude double not null check (latitude<=90 AND latitude>=-90),
+        longitude double not null,
+        name varchar(255),
+        state varchar(255),
+        primary key (id)
+    )
+2026-04-08 06:16:51.935 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    create table knight (
+       id bigint not null,
+        name varchar(255),
+        title varchar(255),
+        castle_id bigint,
+        quest_id bigint,
+        primary key (id)
+    )
+2026-04-08 06:16:51.936 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    create table quest (
+       id bigint not null,
+        name varchar(255),
+        version bigint not null,
+        primary key (id)
+    )
+2026-04-08 06:16:51.938 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    create table task (
+       id bigint not null,
+        completed boolean not null,
+        created_date timestamp,
+        end_date date,
+        modified_date timestamp,
+        name varchar(255),
+        priority integer not null check (priority>=1 AND priority<=5),
+        start_date date,
+        quest_id bigint,
+        primary key (id)
+    )
+2026-04-08 06:16:51.939 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    alter table knight 
+       add constraint FKrah2iov57h05suo0p0944mvc5 
+       foreign key (castle_id) 
+       references castle
+2026-04-08 06:16:51.950 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    alter table knight 
+       add constraint FK8r7bqqpgrphuyeb3nrhbxhjit 
+       foreign key (quest_id) 
+       references quest
+2026-04-08 06:16:51.952 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    
+    alter table task 
+       add constraint FKlv9tbejtyrwlfk4eg5wugv81y 
+       foreign key (quest_id) 
+       references quest
+2026-04-08 06:16:51.955  INFO 75 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 06:16:51.963  INFO 75 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:16:52.296 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-08 06:16:52.303 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findByName' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findByIdWithTasks' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.deleteQuest' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.initializeDatabase' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-08 06:16:52.419  WARN 75 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 06:16:52.517 DEBUG 75 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-08 06:16:52.622 DEBUG 75 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2026-04-08 06:16:52.643 DEBUG 75 --- [me-limited test] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-08 06:16:52.653 DEBUG 75 --- [me-limited test] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-08 06:16:52.931  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:16:52.938  INFO 75 --- [me-limited test] com.oreilly.quest.QuestApplication       : Started QuestApplication in 4.669 seconds (JVM running for 6.164)
+2026-04-08 06:16:52.946 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [com.oreilly.quest.services.QuestService.initializeDatabase]
+2026-04-08 06:16:52.957 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
+2026-04-08 06:16:52.966 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    select
+        count(*) as col_0_0_ 
+    from
+        quest quest0_
+2026-04-08 06:16:52.994 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
+2026-04-08 06:16:52.995 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-08 06:16:52.999 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.043 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.044 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.045 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.046 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-08 06:16:53.046 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-08 06:16:53.047 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.048 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.048 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.049 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2026-04-08 06:16:53.049 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-08 06:16:53.049 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [com.oreilly.quest.services.QuestService.initializeDatabase]
+2026-04-08 06:16:53.071 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        quest
+        (name, version, id) 
+    values
+        (?, ?, ?)
+2026-04-08 06:16:53.077 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        task
+        (completed, created_date, end_date, modified_date, name, priority, quest_id, start_date, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-04-08 06:16:53.081 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        task
+        (completed, created_date, end_date, modified_date, name, priority, quest_id, start_date, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-04-08 06:16:53.082 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        task
+        (completed, created_date, end_date, modified_date, name, priority, quest_id, start_date, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-04-08 06:16:53.083 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        castle
+        (city, latitude, longitude, name, state, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2026-04-08 06:16:53.085 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        knight
+        (castle_id, name, quest_id, title, id) 
+    values
+        (?, ?, ?, ?, ?)
+2026-04-08 06:16:53.086 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        knight
+        (castle_id, name, quest_id, title, id) 
+    values
+        (?, ?, ?, ?, ?)
+2026-04-08 06:16:53.086 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+    insert 
+    into
+        knight
+        (castle_id, name, quest_id, title, id) 
+    values
+        (?, ?, ?, ?, ?)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.976 s - in com.oreilly.quest.QuestApplication_main_4990385311
+[INFO] Running com.oreilly.quest.QuestApplication_init_8756015350
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.QuestApplication_init_8756015350
+[INFO] Running com.oreilly.quest.config.AppInit_init_6811941030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.config.AppInit_init_6811941030
+[INFO] Running com.oreilly.quest.config.AppInit_init_6811941031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.config.AppInit_init_6811941031
+[INFO] Running com.oreilly.quest.json.Geometry_init_6961504364
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_init_6961504364
+[INFO] Running com.oreilly.quest.json.Location_getLng_4064677813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_getLng_4064677813
+[INFO] Running com.oreilly.quest.json.Location_getLat_4068425717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_getLat_4068425717
+[INFO] Running com.oreilly.quest.json.Response_getFormattedAddress_67644691414
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.oreilly.quest.json.Response_getFormattedAddress_67644691414
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.json.Response_getFormattedAddress_67644691414.test(Response_getFormattedAddress_67644691414.java:44)
+
+[INFO] Running com.oreilly.quest.json.Result_getFormattedAddress_7832132221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_getFormattedAddress_7832132221
+[INFO] Running com.oreilly.quest.json.Response_init_16389795098
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_init_16389795098
+[INFO] Running com.oreilly.quest.json.Response_getLocation_65513267013
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.json.Response_getLocation_65513267013
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.json.Response_getLocation_65513267013.test(Response_getLocation_65513267013.java:44)
+
+[INFO] Running com.oreilly.quest.json.Location_init_18930906230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_init_18930906230
+[INFO] Running com.oreilly.quest.json.Response_getResults_5337095491
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_getResults_5337095491
+[INFO] Running com.oreilly.quest.json.Location_getLat_4068425711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_getLat_4068425711
+[INFO] Running com.oreilly.quest.json.Result_setFormattedAddress_9589505262
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_setFormattedAddress_9589505262
+[INFO] Running com.oreilly.quest.json.Response_getFormattedAddress_6764469146
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_getFormattedAddress_6764469146
+[INFO] Running com.oreilly.quest.json.Response_init_16389795090
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_init_16389795090
+[INFO] Running com.oreilly.quest.json.Result_init_17457458170
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_init_17457458170
+[INFO] Running com.oreilly.quest.json.Geometry_toString_12416062873
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.oreilly.quest.json.Geometry_toString_12416062873
+[INFO] Running com.oreilly.quest.json.Geometry_init_6961504360
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_init_6961504360
+[INFO] Running com.oreilly.quest.json.Response_setStatus_13570337164
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_setStatus_13570337164
+[INFO] Running com.oreilly.quest.json.Location_toString_134763477211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_toString_134763477211
+[INFO] Running com.oreilly.quest.json.Response_setResults_18067327092
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_setResults_18067327092
+[INFO] Running com.oreilly.quest.json.Geometry_setLocation_17627855616
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Geometry_setLocation_17627855616
+[INFO] Running com.oreilly.quest.json.Result_setGeometry_53814508410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_setGeometry_53814508410
+[INFO] Running com.oreilly.quest.json.Response_toString_21105319367
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Response_toString_21105319367
+[INFO] Running com.oreilly.quest.json.Response_setResults_180673270910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_setResults_180673270910
+[INFO] Running com.oreilly.quest.json.Result_init_17457458176
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_init_17457458176
+[INFO] Running com.oreilly.quest.json.Geometry_getLocation_2876964035
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Geometry_getLocation_2876964035
+[INFO] Running com.oreilly.quest.json.Geometry_toString_12416062877
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_toString_12416062877
+[INFO] Running com.oreilly.quest.json.Location_setLng_20879940134
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_setLng_20879940134
+[INFO] Running com.oreilly.quest.json.Response_toString_211053193615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_toString_211053193615
+[INFO] Running com.oreilly.quest.json.Response_getStatus_48888010011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_getStatus_48888010011
+[INFO] Running com.oreilly.quest.json.Geometry_setLocation_17627855612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_setLocation_17627855612
+[INFO] Running com.oreilly.quest.json.Location_toString_13476347725
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_toString_13476347725
+[INFO] Running com.oreilly.quest.json.Result_getGeometry_6310302449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_getGeometry_6310302449
+[INFO] Running com.oreilly.quest.json.Result_toString_200376562811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_toString_200376562811
+[INFO] Running com.oreilly.quest.json.Response_getResults_5337095499
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_getResults_5337095499
+[INFO] Running com.oreilly.quest.json.Location_getLng_4064677819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_getLng_4064677819
+[INFO] Running com.oreilly.quest.json.Response_getLocation_6551326705
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.json.Response_getLocation_6551326705
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.oreilly.quest.json.Response_getLocation_6551326705.test(Response_getLocation_6551326705.java:46)
+
+[INFO] Running com.oreilly.quest.json.Result_toString_20037656285
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_toString_20037656285
+[INFO] Running com.oreilly.quest.json.Location_setLng_208799401310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_setLng_208799401310
+[INFO] Running com.oreilly.quest.json.Location_setLat_20883688038
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_setLat_20883688038
+[INFO] Running com.oreilly.quest.json.Result_getGeometry_6310302443
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_getGeometry_6310302443
+[INFO] Running com.oreilly.quest.json.Result_setGeometry_5381450844
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_setGeometry_5381450844
+[INFO] Running com.oreilly.quest.json.Response_setStatus_135703371612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_setStatus_135703371612
+[INFO] Running com.oreilly.quest.json.Location_init_18930906236
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_init_18930906236
+[INFO] Running com.oreilly.quest.json.Response_getStatus_4888801003
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_getStatus_4888801003
+[INFO] Running com.oreilly.quest.json.Geometry_getLocation_2876964031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_getLocation_2876964031
+[INFO] Running com.oreilly.quest.json.Result_getFormattedAddress_7832132227
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_getFormattedAddress_7832132227
+[INFO] Running com.oreilly.quest.json.Result_setFormattedAddress_9589505268
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_setFormattedAddress_9589505268
+[INFO] Running com.oreilly.quest.json.Location_setLat_20883688032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_setLat_20883688032
+[INFO] Running com.oreilly.quest.QuestApplication_main_4990385313
+2026-04-08 06:16:53.161 ERROR 75 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.29.jar:5.3.29]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:300) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.14.jar:2.7.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.14.jar:2.7.14]
+	at com.oreilly.quest.QuestApplication.main(QuestApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.oreilly.quest.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.oreilly.quest.QuestApplication_main_4990385313.test(QuestApplication_main_4990385313.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in com.oreilly.quest.QuestApplication_main_4990385313
+[ERROR] test  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.oreilly.quest.QuestApplication_main_4990385313.test(QuestApplication_main_4990385313.java:44)
+
+[INFO] Running com.oreilly.quest.services.QuestService_findByName_385037972
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_findByName_385037972
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.services.QuestService_findByName_385037972.test(QuestService_findByName_385037972.java:42)
+
+[INFO] Running com.oreilly.quest.services.QuestService_initializeDatabase_4375132940
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_initializeDatabase_4375132940
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.services.QuestService_initializeDatabase_4375132940.test(QuestService_initializeDatabase_4375132940.java:40)
+
+[INFO] Running com.oreilly.quest.services.QuestService_findAll_19780029051
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_findAll_19780029051
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.services.QuestService_findAll_19780029051.test(QuestService_findAll_19780029051.java:40)
+
+[INFO] Running com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664.test(QuestService_findByIdWithTasks_15328463664.java:45)
+
+[INFO] Running com.oreilly.quest.services.QuestService_deleteQuest_12224985485
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_deleteQuest_12224985485
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.services.QuestService_deleteQuest_12224985485.test(QuestService_deleteQuest_12224985485.java:63)
+
+[INFO] Running com.oreilly.quest.services.QuestService_findById_2567882403
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_findById_2567882403
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.oreilly.quest.services.QuestService_findById_2567882403.test(QuestService_findById_2567882403.java:45)
+
+2026-04-08 06:16:53.328  INFO 75 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:16:53.329  INFO 75 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2026-04-08 06:16:53.329 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists castle CASCADE 
+2026-04-08 06:16:53.331 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists knight CASCADE 
+2026-04-08 06:16:53.333 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists quest CASCADE 
+2026-04-08 06:16:53.333 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists task CASCADE 
+2026-04-08 06:16:53.334 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+    
+    drop sequence if exists hibernate_sequence
+2026-04-08 06:16:53.336  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 06:16:53.337  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   QuestApplication_main_4990385313.test:44 » IllegalArgument Args must not be nu...
+[ERROR]   Castle_addToKnights_59591135226.test:51 » NullPointer
+[ERROR]   Castle_removeKnight_144065357927.test:51 » NullPointer
+[ERROR]   Quest_addToKnights_95601588021.test:49 » NullPointer
+[ERROR]   Quest_addToTasks_17728957619.test:49 » NullPointer
+[ERROR]   Quest_removeKnight_100230002322.test:49 » NullPointer
+[ERROR]   Quest_removeTask_27438463120.test:49 » NullPointer
+[ERROR]   Task_getDuration_131104542620.test:52 » NullPointer
+[ERROR]   Title_init_21403712882.test:42 » IllegalArgument Cannot reflectively create en...
+[ERROR]   Title_init_21403712885.test:47 » IllegalArgument Cannot reflectively create en...
+[ERROR]   Title_valueOf_2704370601.test:42 » IllegalArgument No enum constant com.oreill...
+[ERROR]   Title_valueOf_2704370604.test:49 » NullPointer Name is null
+[ERROR]   Response_getFormattedAddress_67644691414.test:44 » NullPointer
+[ERROR]   Response_getLocation_65513267013.test:44 » NullPointer
+[ERROR]   Response_getLocation_6551326705.test:46 » IndexOutOfBounds Index 0 out of boun...
+[ERROR]   QuestService_deleteQuest_12224985485.test:63 » NullPointer
+[ERROR]   QuestService_findAll_19780029051.test:40 » NullPointer
+[ERROR]   QuestService_findByIdWithTasks_15328463664.test:45 » NullPointer
+[ERROR]   QuestService_findById_2567882403.test:45 » NullPointer
+[ERROR]   QuestService_findByName_385037972.test:42 » NullPointer
+[ERROR]   QuestService_initializeDatabase_4375132940.test:40 » NullPointer
+[INFO] 
+[ERROR] Tests run: 218, Failures: 0, Errors: 21, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ quest ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'quest' with 13 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ quest ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'quest' with 13 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.020 s
+[INFO] Finished at: 2026-04-08T06:16:53Z
+[INFO] ------------------------------------------------------------------------

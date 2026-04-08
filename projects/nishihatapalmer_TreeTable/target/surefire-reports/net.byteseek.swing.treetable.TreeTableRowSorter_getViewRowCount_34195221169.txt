@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_getViewRowCount_34195221169
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_getViewRowCount_34195221169)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_getViewRowCount_34195221169)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.swing.treetable.TreeTableRowSorter.getViewRowCount(TreeTableRowSorter.java:279)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

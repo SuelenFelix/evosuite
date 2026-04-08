@@ -1,0 +1,261 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.hhimanshu:spring-boot-liquibase >-----------------
+[INFO] Building spring-boot-liquibase 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ spring-boot-liquibase ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ spring-boot-liquibase ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-liquibase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-liquibase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ spring-boot-liquibase ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-liquibase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-liquibase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/business/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/persistence/entities/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/business/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/business/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/business/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/persistence/entities/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/persistence/entities/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/persistence/entities/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/hhimanshu/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/hhimanshu/persistence/entities/Book_getAuthor_5525417304.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/hhimanshu/persistence/entities/Book_getAuthor_5525417304.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-liquibase ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.hhimanshu.business.BooksManager_getAllBooks_17791210970
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in com.hhimanshu.business.BooksManager_getAllBooks_17791210970
+[ERROR] test  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hhimanshu.business.BooksManager_getAllBooks_17791210970.test(BooksManager_getAllBooks_17791210970.java:40)
+
+[INFO] Running com.hhimanshu.business.AuthorsManager_getAllAuthors_1139679950
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.hhimanshu.business.AuthorsManager_getAllAuthors_1139679950
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hhimanshu.business.AuthorsManager_getAllAuthors_1139679950.test(AuthorsManager_getAllAuthors_1139679950.java:40)
+
+[INFO] Running com.hhimanshu.SpringBootLiquibaseApplication_main_4564305653
+06:12:38.939 [Time-limited test] DEBUG org.springframework.boot.context.logging.ClasspathLoggingApplicationListener - Application failed to start with classpath: unknown
+06:12:39.284 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.hhimanshu.SpringBootLiquibaseApplication.main(SpringBootLiquibaseApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.hhimanshu.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.hhimanshu.SpringBootLiquibaseApplication_main_4564305653.test(SpringBootLiquibaseApplication_main_4564305653.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.61 s <<< FAILURE! - in com.hhimanshu.SpringBootLiquibaseApplication_main_4564305653
+[ERROR] test  Time elapsed: 0.61 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.hhimanshu.SpringBootLiquibaseApplication_main_4564305653.test(SpringBootLiquibaseApplication_main_4564305653.java:44)
+
+[INFO] Running com.hhimanshu.SpringBootLiquibaseApplication_main_4564305651
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2026-04-08 06:12:39.569  INFO 72 --- [me-limited test] c.h.SpringBootLiquibaseApplication       : Starting SpringBootLiquibaseApplication on da0b816f3928 with PID 72 (started by root in /app)
+2026-04-08 06:12:39.570  INFO 72 --- [me-limited test] c.h.SpringBootLiquibaseApplication       : No active profile set, falling back to default profiles: default
+2026-04-08 06:12:40.101  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2026-04-08 06:12:40.150  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 2 JPA repository interfaces.
+2026-04-08 06:12:40.684  INFO 72 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:12:40.694  INFO 72 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:12:40.695  INFO 72 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2026-04-08 06:12:40.762  INFO 72 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:12:40.762  INFO 72 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1151 ms
+2026-04-08 06:12:40.810  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:12:41.062  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 06:12:41.071  INFO 72 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fa243f68-0b9f-49e4-b4f3-47c3b20adab8'
+2026-04-08 06:12:41.867  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+2026-04-08 06:12:41.875  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : CREATE TABLE PUBLIC.DATABASECHANGELOGLOCK (ID INT NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP, LOCKEDBY VARCHAR(255), CONSTRAINT PK_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+2026-04-08 06:12:41.879  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+2026-04-08 06:12:41.882  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : DELETE FROM PUBLIC.DATABASECHANGELOGLOCK
+2026-04-08 06:12:41.883  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.DATABASECHANGELOGLOCK (ID, LOCKED) VALUES (1, FALSE)
+2026-04-08 06:12:41.885  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+2026-04-08 06:12:41.892  INFO 72 --- [me-limited test] l.lockservice.StandardLockService        : Successfully acquired change log lock
+2026-04-08 06:12:42.691  INFO 72 --- [me-limited test] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2026-04-08 06:12:42.692  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : CREATE TABLE PUBLIC.DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED TIMESTAMP NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35), DESCRIPTION VARCHAR(255), COMMENTS VARCHAR(255), TAG VARCHAR(255), LIQUIBASE VARCHAR(20), CONTEXTS VARCHAR(255), LABELS VARCHAR(255), DEPLOYMENT_ID VARCHAR(10))
+2026-04-08 06:12:42.693  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOG
+2026-04-08 06:12:42.694  INFO 72 --- [me-limited test] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2026-04-08 06:12:42.694  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2026-04-08 06:12:42.695  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+2026-04-08 06:12:42.715  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : CREATE TABLE PUBLIC.books (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255) NOT NULL, author INT NOT NULL, CONSTRAINT PK_BOOKS PRIMARY KEY (id), UNIQUE (id), UNIQUE (name))
+2026-04-08 06:12:42.722  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : COMMENT ON TABLE PUBLIC.books IS 'A table to contain all books'
+2026-04-08 06:12:42.723  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : Table books created
+2026-04-08 06:12:42.724  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : CREATE TABLE PUBLIC.authors (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(100) NOT NULL, CONSTRAINT PK_AUTHORS PRIMARY KEY (id))
+2026-04-08 06:12:42.725  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : COMMENT ON TABLE PUBLIC.authors IS 'A table to contain all the authors'
+2026-04-08 06:12:42.725  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : Table authors created
+2026-04-08 06:12:42.726  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : ALTER TABLE PUBLIC.books ADD CONSTRAINT author_fk FOREIGN KEY (author) REFERENCES PUBLIC.authors (id)
+2026-04-08 06:12:42.731  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : Foreign key constraint added to books (author)
+2026-04-08 06:12:42.731  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : ChangeSet db/changelog/01-create-books-and-author-schema.xml::01::hhimanshu ran successfully in 17ms
+2026-04-08 06:12:42.732  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : SELECT MAX(ORDEREXECUTED) FROM PUBLIC.DATABASECHANGELOG
+2026-04-08 06:12:42.736  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('01', 'hhimanshu', 'db/changelog/01-create-books-and-author-schema.xml', NOW(), 1, '8:24f659528e86ccf107759137a7e702ec', 'createTable tableName=books; createTable tableName=authors; addForeignKeyConstraint baseTableName=books, constraintName=author_fk, referencedTableName=authors', '', 'EXECUTED', NULL, NULL, '3.8.9', '5628762695')
+2026-04-08 06:12:42.744  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.authors (id, name) VALUES (1, 'author_01')
+2026-04-08 06:12:42.745  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into authors
+2026-04-08 06:12:42.745  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.authors (id, name) VALUES (2, 'author_02')
+2026-04-08 06:12:42.745  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into authors
+2026-04-08 06:12:42.746  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.authors (id, name) VALUES (3, 'author_03')
+2026-04-08 06:12:42.746  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into authors
+2026-04-08 06:12:42.746  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.authors (id, name) VALUES (4, 'author_04')
+2026-04-08 06:12:42.747  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into authors
+2026-04-08 06:12:42.747  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.authors (id, name) VALUES (5, 'author_05')
+2026-04-08 06:12:42.747  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into authors
+2026-04-08 06:12:42.748  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : ChangeSet db/changelog/02-insert-data-authors.xml::02::hhimanshu ran successfully in 5ms
+2026-04-08 06:12:42.748  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('02', 'hhimanshu', 'db/changelog/02-insert-data-authors.xml', NOW(), 2, '8:6204c525ce5c1c55f064888d078b8f05', 'insert tableName=authors; insert tableName=authors; insert tableName=authors; insert tableName=authors; insert tableName=authors', 'Inserting Authors', 'EXECUTED', NULL, NULL, '3.8.9', '5628762695')
+2026-04-08 06:12:42.749  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.books (id, name, author) VALUES (1, 'book_01_a_01', 01)
+2026-04-08 06:12:42.751  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into books
+2026-04-08 06:12:42.751  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.books (id, name, author) VALUES (2, 'book_02_a_02', 02)
+2026-04-08 06:12:42.752  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into books
+2026-04-08 06:12:42.753  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.books (id, name, author) VALUES (3, 'book_01_a_03', 03)
+2026-04-08 06:12:42.753  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into books
+2026-04-08 06:12:42.754  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.books (id, name, author) VALUES (4, 'book_01_a_04', 04)
+2026-04-08 06:12:42.754  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into books
+2026-04-08 06:12:42.755  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.books (id, name, author) VALUES (5, 'book_01_a_05', 05)
+2026-04-08 06:12:42.755  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : New row inserted into books
+2026-04-08 06:12:42.756  INFO 72 --- [me-limited test] liquibase.changelog.ChangeSet            : ChangeSet db/changelog/02-insert-data-books.xml::03::hhimanshu ran successfully in 7ms
+2026-04-08 06:12:42.756  INFO 72 --- [me-limited test] liquibase.executor.jvm.JdbcExecutor      : INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('03', 'hhimanshu', 'db/changelog/02-insert-data-books.xml', NOW(), 3, '8:00bd5e4dec9d011ab0b1abe14c4a5c8b', 'insert tableName=books; insert tableName=books; insert tableName=books; insert tableName=books; insert tableName=books', 'Inserting Books', 'EXECUTED', NULL, NULL, '3.8.9', '5628762695')
+2026-04-08 06:12:42.758  INFO 72 --- [me-limited test] l.lockservice.StandardLockService        : Successfully released change log lock
+2026-04-08 06:12:42.829  INFO 72 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-08 06:12:42.894  INFO 72 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 06:12:42.910  WARN 72 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 06:12:42.939  INFO 72 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2026-04-08 06:12:43.052  INFO 72 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2026-04-08 06:12:43.168  INFO 72 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 06:12:43.200  INFO 72 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:12:43.201  INFO 72 --- [me-limited test] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2026-04-08 06:12:43.668  INFO 72 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 06:12:43.675  INFO 72 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:12:43.822  INFO 72 --- [me-limited test] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2026-04-08 06:12:43.828  INFO 72 --- [me-limited test] c.h.SpringBootLiquibaseApplication       : Started SpringBootLiquibaseApplication in 4.54 seconds (JVM running for 5.819)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.542 s - in com.hhimanshu.SpringBootLiquibaseApplication_main_4564305651
+[INFO] Running com.hhimanshu.persistence.entities.Book_init_13005511287
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.hhimanshu.persistence.entities.Book_init_13005511287
+[INFO] Running com.hhimanshu.persistence.entities.Book_getName_8605865803
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_getName_8605865803
+[INFO] Running com.hhimanshu.persistence.entities.Author_init_13865710556
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_init_13865710556
+[INFO] Running com.hhimanshu.persistence.entities.Author_init_11442281065
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.hhimanshu.persistence.entities.Author_init_11442281065
+[INFO] Running com.hhimanshu.persistence.entities.Author_init_13865710551
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_init_13865710551
+[INFO] Running com.hhimanshu.persistence.entities.Book_getAuthor_55254173010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_getAuthor_55254173010
+[INFO] Running com.hhimanshu.persistence.entities.Author_init_11442281060
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_init_11442281060
+[INFO] Running com.hhimanshu.persistence.entities.Book_init_2742846920
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_init_2742846920
+[INFO] Running com.hhimanshu.persistence.entities.Author_toString_16896839579
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_toString_16896839579
+[INFO] Running com.hhimanshu.persistence.entities.Book_toString_2711711595
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_toString_2711711595
+[INFO] Running com.hhimanshu.persistence.entities.Book_init_2742846926
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_init_2742846926
+[INFO] Running com.hhimanshu.persistence.entities.Author_getId_13149995837
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_getId_13149995837
+[INFO] Running com.hhimanshu.persistence.entities.Author_toString_16896839574
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_toString_16896839574
+[INFO] Running com.hhimanshu.persistence.entities.Book_init_13005511281
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_init_13005511281
+[INFO] Running com.hhimanshu.persistence.entities.Book_getName_8605865809
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_getName_8605865809
+[INFO] Running com.hhimanshu.persistence.entities.Author_getName_5579262183
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_getName_5579262183
+[INFO] Running com.hhimanshu.persistence.entities.Book_toString_27117115911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_toString_27117115911
+[INFO] Running com.hhimanshu.persistence.entities.Book_getId_5038967912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_getId_5038967912
+[INFO] Running com.hhimanshu.persistence.entities.Author_getName_5579262188
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Author_getName_5579262188
+[INFO] Running com.hhimanshu.persistence.entities.Book_getAuthor_5525417304
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_getAuthor_5525417304
+[INFO] Running com.hhimanshu.persistence.entities.Author_getId_13149995832
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.hhimanshu.persistence.entities.Author_getId_13149995832
+[INFO] Running com.hhimanshu.persistence.entities.Book_getId_5038967918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.persistence.entities.Book_getId_5038967918
+[INFO] Running com.hhimanshu.SpringBootLiquibaseApplication_init_8329935692
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.SpringBootLiquibaseApplication_init_8329935692
+[INFO] Running com.hhimanshu.SpringBootLiquibaseApplication_init_8329935690
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.hhimanshu.SpringBootLiquibaseApplication_init_8329935690
+2026-04-08 06:12:43.997  INFO 72 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:12:43.999  INFO 72 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-08 06:12:43.999  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 06:12:44.001  INFO 72 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SpringBootLiquibaseApplication_main_4564305653.test:44 » IllegalArgument Args ...
+[ERROR]   AuthorsManager_getAllAuthors_1139679950.test:40 » NullPointer
+[ERROR]   BooksManager_getAllBooks_17791210970.test:40 » NullPointer
+[INFO] 
+[ERROR] Tests run: 28, Failures: 0, Errors: 3, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ spring-boot-liquibase ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'spring-boot-liquibase' with 5 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ spring-boot-liquibase ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'spring-boot-liquibase' with 5 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.571 s
+[INFO] Finished at: 2026-04-08T06:12:44Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,282 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.bootcampjava.startwars:Bootcamp-Java-Star-Wars >---------
+[INFO] Building Bootcamp-Java-Star-Wars 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ Bootcamp-Java-Star-Wars ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ Bootcamp-Java-Star-Wars ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ Bootcamp-Java-Star-Wars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ Bootcamp-Java-Star-Wars ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /app/target/classes
+[INFO] /app/src/main/java/com/bootcampjava/startwars/repository/JediRepositoryImpl.java: /app/src/main/java/com/bootcampjava/startwars/repository/JediRepositoryImpl.java uses or overrides a deprecated API.
+[INFO] /app/src/main/java/com/bootcampjava/startwars/repository/JediRepositoryImpl.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ Bootcamp-Java-Star-Wars ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ Bootcamp-Java-Star-Wars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ Bootcamp-Java-Star-Wars ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 48 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/service/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/service/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/service/JediService_delete_32573091111.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/bootcampjava/startwars/service/JediService_delete_32573091111.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ Bootcamp-Java-Star-Wars ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.bootcampjava.startwars.model.Jedi_init_167290349813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.bootcampjava.startwars.model.Jedi_init_167290349813
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setName_1144512234
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_setName_1144512234
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getVersion_181109669117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getVersion_181109669117
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setVersion_25847680918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setVersion_25847680918
+[INFO] Running com.bootcampjava.startwars.model.Jedi_init_2846243941
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_2846243941
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getName_183432779114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getName_183432779114
+[INFO] Running com.bootcampjava.startwars.model.Jedi_init_28462439412
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_28462439412
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getStrength_15193130545
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getStrength_15193130545
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getStrength_151931305416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getStrength_151931305416
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setName_11445122315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_setName_11445122315
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getName_18343277913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getName_18343277913
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getId_46984442020
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.model.Jedi_getId_46984442020
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.model.Jedi_getId_46984442020.test(Jedi_getId_46984442020.java:46)
+
+[INFO] Running com.bootcampjava.startwars.model.Jedi_init_16729034982
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_16729034982
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setId_5594858821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setId_5594858821
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setStrength_7415545888
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setStrength_7415545888
+[INFO] Running com.bootcampjava.startwars.model.Jedi_init_12480259030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_12480259030
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setVersion_2584768097
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setVersion_2584768097
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getVersion_18110966916
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getVersion_18110966916
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setStrength_74155458819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setStrength_74155458819
+[INFO] Running com.bootcampjava.startwars.model.Jedi_getId_4698444209
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_getId_4698444209
+[INFO] Running com.bootcampjava.startwars.model.Jedi_init_124802590311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_124802590311
+[INFO] Running com.bootcampjava.startwars.model.Jedi_setId_5594858810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_setId_5594858810
+[INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368071
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+2026-04-08 06:46:13.325  INFO 75 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : Starting BootcampJavaStarWarsApplication using Java 11.0.16 on 419af97c2636 with PID 75 (started by root in /app)
+2026-04-08 06:46:13.333  INFO 75 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 06:46:14.198  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 06:46:14.211  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2026-04-08 06:46:14.797  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:46:14.812  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:46:14.812  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2026-04-08 06:46:14.959  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:46:14.959  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1549 ms
+2026-04-08 06:46:15.094  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:46:15.550  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 06:46:17.714  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:46:17.749  INFO 75 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : Started BootcampJavaStarWarsApplication in 5.041 seconds (JVM running for 6.474)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.29 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368071
+[INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738032
+[INFO] Running com.bootcampjava.startwars.controller.JediController_init_3463863431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.controller.JediController_init_3463863431
+[INFO] Running com.bootcampjava.startwars.controller.JediController_init_3463863430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.controller.JediController_init_3463863430
+[INFO] Running com.bootcampjava.startwars.service.JediService_init_15650499450
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.service.JediService_init_15650499450
+[INFO] Running com.bootcampjava.startwars.service.JediService_init_15650499456
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.service.JediService_init_15650499456
+[INFO] Running com.bootcampjava.startwars.service.JediService_delete_3257309115
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_delete_3257309115
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_delete_3257309115.test(JediService_delete_3257309115.java:45)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_save_1291531053
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_save_1291531053
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_save_1291531053.test(JediService_save_1291531053.java:50)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_findById_3477615671
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findById_3477615671
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_findById_3477615671.test(JediService_findById_3477615671.java:45)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_findAll_2215971608
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findAll_2215971608
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_findAll_2215971608.test(JediService_findAll_2215971608.java:40)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_update_43422650510
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_update_43422650510
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_update_43422650510.test(JediService_update_43422650510.java:42)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_findById_3477615677
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findById_3477615677
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_findById_3477615677.test(JediService_findById_3477615677.java:45)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_delete_32573091111
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_delete_32573091111
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_delete_32573091111.test(JediService_delete_32573091111.java:45)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_update_4342265054
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_update_4342265054
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_update_4342265054.test(JediService_update_4342265054.java:50)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_findAll_2215971602
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findAll_2215971602
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_findAll_2215971602.test(JediService_findAll_2215971602.java:40)
+
+[INFO] Running com.bootcampjava.startwars.service.JediService_save_1291531059
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_save_1291531059
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bootcampjava.startwars.service.JediService_save_1291531059.test(JediService_save_1291531059.java:42)
+
+[INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738030
+[INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073
+2026-04-08 06:46:18.202 ERROR 75 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.16.jar:5.3.16]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.bootcampjava.startwars.BootcampJavaStarWarsApplication.main(BootcampJavaStarWarsApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.bootcampjava.startwars.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073.test(BootcampJavaStarWarsApplication_main_19432368073.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.139 s <<< FAILURE! - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073
+[ERROR] test  Time elapsed: 0.139 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073.test(BootcampJavaStarWarsApplication_main_19432368073.java:44)
+
+2026-04-08 06:46:18.613  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 06:46:18.619  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BootcampJavaStarWarsApplication_main_19432368073.test:44 » IllegalArgument Arg...
+[ERROR]   Jedi_getId_46984442020.test:46 » NullPointer
+[ERROR]   JediService_delete_32573091111.test:45 » NullPointer
+[ERROR]   JediService_delete_3257309115.test:45 » NullPointer
+[ERROR]   JediService_findAll_2215971602.test:40 » NullPointer
+[ERROR]   JediService_findAll_2215971608.test:40 » NullPointer
+[ERROR]   JediService_findById_3477615671.test:45 » NullPointer
+[ERROR]   JediService_findById_3477615677.test:45 » NullPointer
+[ERROR]   JediService_save_1291531053.test:50 » NullPointer
+[ERROR]   JediService_save_1291531059.test:42 » NullPointer
+[ERROR]   JediService_update_43422650510.test:42 » NullPointer
+[ERROR]   JediService_update_4342265054.test:50 » NullPointer
+[INFO] 
+[ERROR] Tests run: 40, Failures: 0, Errors: 12, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ Bootcamp-Java-Star-Wars ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Bootcamp-Java-Star-Wars' with 5 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ Bootcamp-Java-Star-Wars ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'Bootcamp-Java-Star-Wars' with 5 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.771 s
+[INFO] Finished at: 2026-04-08T06:46:19Z
+[INFO] ------------------------------------------------------------------------

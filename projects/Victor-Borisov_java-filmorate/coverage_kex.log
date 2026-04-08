@@ -1,0 +1,1646 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< ru.yandex.practicum:filmorate >--------------------
+[INFO] Building filmorate 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ filmorate ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ filmorate ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ filmorate ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ filmorate ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 33 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ filmorate ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ filmorate ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ filmorate ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 461 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/frienship/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/exception/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/filmlike/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/frienship/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/exception/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/filmlike/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/frienship/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/exception/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/filmlike/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/frienship/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/exception/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/filmlike/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/frienship/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/film/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/exception/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/filmlike/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/film/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/user/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/storage/mpa/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/service/user/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/Film_getGenres_5150639268.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/Film_getGenres_5150639268.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/Film_getGenres_5150639268.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/ru/yandex/practicum/filmorate/model/Film_getGenres_5150639268.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ filmorate ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_toString_17992968069
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in ru.yandex.practicum.filmorate.model.FilmGenre_toString_17992968069
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_20827505827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_20827505827
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_init_10873676110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_init_10873676110
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_setFilmId_19265609045
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_setFilmId_19265609045
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_init_158570187210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_init_158570187210
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getLogin_35012077120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getLogin_35012077120
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_toString_200375418810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_toString_200375418810
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_description_14166980014
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_description_14166980014
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_init_5210584414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_init_5210584414
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_build_596316549
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_build_596316549
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_name_1719896717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_name_1719896717
+[INFO] Running ru.yandex.practicum.filmorate.model.User_hashCode_125661613414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_hashCode_125661613414
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getUserId1_14100705517
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getUserId1_14100705517
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_setName_13488727285
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_setName_13488727285
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_getId_19832913652
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_getId_19832913652
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_equals_83985044116
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_equals_83985044116
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_toString_179929680619
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_toString_179929680619
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_description_14166980016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_description_14166980016
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_name_6663709513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_name_6663709513
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_setName_18180336935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_setName_18180336935
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setUserId1_14116128277
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setUserId1_14116128277
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setId_13924779087
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setId_13924779087
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_build_17592306468
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_build_17592306468
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getId_35702791724
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getId_35702791724
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_builder_11810182621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_builder_11810182621
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setRate_158681130617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setRate_158681130617
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_hashCode_124247198142
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_hashCode_124247198142
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_build_5963165420
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_build_5963165420
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getMpa_204043134529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getMpa_204043134529
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_setFilmId_19265609046
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.FilmLike_setFilmId_19265609046
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_hashCode_128853711618
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_hashCode_128853711618
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_init_20305532911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_init_20305532911
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_hashCode_24750199312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_hashCode_24750199312
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_builder_20254940021
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_builder_20254940021
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_duration_6734664215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_duration_6734664215
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_getGenreId_146173261313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_getGenreId_146173261313
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getId_3711720702
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getId_3711720702
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setGenres_83201650838
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setGenres_83201650838
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getDescription_15924047394
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getDescription_15924047394
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_hashCode_142623186718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_hashCode_142623186718
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_id_2695372621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_id_2695372621
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_equals_13317667437
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_equals_13317667437
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId1_2758933649
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId1_2758933649
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_init_8927592590
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_init_8927592590
+[INFO] Running ru.yandex.practicum.filmorate.model.User_equals_170530280928
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_equals_170530280928
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId2_27589240310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId2_27589240310
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setDuration_154356009814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setDuration_154356009814
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_genreId_9417533332
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_genreId_9417533332
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setId_137833375532
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setId_137833375532
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getName_4000454483
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getName_4000454483
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_name_6663709512
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_name_6663709512
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_equals_9775451926
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_equals_9775451926
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getGenres_51506392630
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getGenres_51506392630
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_genres_15361054277
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_genres_15361054277
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_init_8927592597
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_init_8927592597
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_build_1656415997
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_build_1656415997
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_20827505826
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_20827505826
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_login_14618138933
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_login_14618138933
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_hashCode_124247198120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_hashCode_124247198120
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setMpa_81352049537
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setMpa_81352049537
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_setId_129037009314
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_setId_129037009314
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setReleaseDate_149277904935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setReleaseDate_149277904935
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_getId_15141304002
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_getId_15141304002
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getStatusId_5001545295
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getStatusId_5001545295
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_builder_202549400211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_builder_202549400211
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_birthday_1501601545
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_birthday_1501601545
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_toString_92380024015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_toString_92380024015
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_init_14199287930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_init_14199287930
+[INFO] Running ru.yandex.practicum.filmorate.model.User_builder_30669311417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_builder_30669311417
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_name_17631249532
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_name_17631249532
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_id_209031541012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_id_209031541012
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getName_3859012955
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getName_3859012955
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_id_209031541014
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_id_209031541014
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_build_6777185353
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_build_6777185353
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_id_20903154101
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_id_20903154101
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_email_51854592810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_email_51854592810
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_toString_18888147749
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_toString_18888147749
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_toString_73171229143
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_toString_73171229143
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_equals_20118468210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_equals_20118468210
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_toString_12542066709
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_toString_12542066709
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_equals_14467061576
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_equals_14467061576
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_builder_20379017731
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_builder_20379017731
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_setId_17595310584
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_setId_17595310584
+[INFO] Running ru.yandex.practicum.filmorate.model.User_init_128805700216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_init_128805700216
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_login_146181389312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_login_146181389312
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_setFilmId_18764900904
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_setFilmId_18764900904
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_builder_3691943531
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_builder_3691943531
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setStatusId_27760393723
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setStatusId_27760393723
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_setUserId_19067393775
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_setUserId_19067393775
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_genres_153610542718
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_genres_153610542718
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setDescription_148935392334
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setDescription_148935392334
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getDuration_19736487326
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getDuration_19736487326
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_build_12856814565
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_build_12856814565
+[INFO] Running ru.yandex.practicum.filmorate.model.User_toString_74585644431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_toString_74585644431
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_init_15857018720
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_init_15857018720
+[INFO] Running ru.yandex.practicum.filmorate.model.User_init_12880570020
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_init_12880570020
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_toString_3473034086
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_toString_3473034086
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_toString_9238002407
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_toString_9238002407
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_init_69497163110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_init_69497163110
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getId_37117207018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getId_37117207018
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_toString_19653846449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_toString_19653846449
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_toString_75826168327
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_toString_75826168327
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_login_146181389311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_login_146181389311
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_hashCode_189539283218
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_hashCode_189539283218
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_genres_15361054279
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_genres_15361054279
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_build_667555998
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_build_667555998
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_userId_18808286756
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_userId_18808286756
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_init_48481059711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_init_48481059711
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_canEqual_100534731125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ru.yandex.practicum.filmorate.model.Friendship_canEqual_100534731125
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_setFilmId_192656090415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_setFilmId_192656090415
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_userId_18808286751
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_userId_18808286751
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setBirthday_41248303627
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setBirthday_41248303627
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_setName_181803369315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_setName_181803369315
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setUserId2_14116137888
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Friendship_setUserId2_14116137888
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_toString_103026644812
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_toString_103026644812
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_build_5963165411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_build_5963165411
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setName_133397527310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setName_133397527310
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_releaseDate_14509492615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_releaseDate_14509492615
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getEmail_163023905019
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getEmail_163023905019
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId1_2758933642
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId1_2758933642
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_init_7087508195
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_init_7087508195
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_setGenreId_9515437275
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_setGenreId_9515437275
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setLogin_735476459
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setLogin_735476459
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_canEqual_5276041148
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_canEqual_5276041148
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_id_2695372626
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_id_2695372626
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_getUserId_77935580712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_getUserId_77935580712
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_hashCode_178045341818
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_hashCode_178045341818
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getMpa_20404313457
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getMpa_20404313457
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setBirthday_41248303611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setBirthday_41248303611
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_20827505828
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_20827505828
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_builder_18889633831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_builder_18889633831
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getDuration_197364873228
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getDuration_197364873228
+[INFO] Running ru.yandex.practicum.filmorate.model.User_toString_74585644415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_toString_74585644415
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_duration_67346642116
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_duration_67346642116
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_equals_133176674316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.FilmLike_equals_133176674316
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_statusId_34689713811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_statusId_34689713811
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setId_139247790823
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setId_139247790823
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getRate_17978011289
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getRate_17978011289
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_name_176312495315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_name_176312495315
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_setUserId_190673937714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_setUserId_190673937714
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_releaseDate_1450949264
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_releaseDate_1450949264
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_builder_203790177323
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_builder_203790177323
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_getId_198329136512
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_getId_198329136512
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_init_48481059713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_init_48481059713
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_init_521058440
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_init_521058440
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_init_18203810950
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_init_18203810950
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_statusId_3468971384
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_statusId_3468971384
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getUserId2_1410060944
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getUserId2_1410060944
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_init_205486283710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_init_205486283710
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_init_2030553290
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_init_2030553290
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getUserId1_1410070553
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getUserId1_1410070553
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_getName_7570570353
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_getName_7570570353
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_canEqual_179964601141
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_canEqual_179964601141
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setId_11164021920
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setId_11164021920
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_getFilmId_7491065202
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_getFilmId_7491065202
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getId_113294605716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getId_113294605716
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_init_14199287935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_init_14199287935
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_init_3783443899
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_init_3783443899
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_genreId_9417533337
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_genreId_9417533337
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_canEqual_52760411417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_canEqual_52760411417
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_id_21120351186
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_id_21120351186
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getEmail_16302390503
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getEmail_16302390503
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_filmId_4331255146
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_filmId_4331255146
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_build_128568145612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_build_128568145612
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getLogin_3501207714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getLogin_3501207714
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getId_3570279172
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getId_3570279172
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_setGenreId_95154372715
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_setGenreId_95154372715
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_canEqual_5276041147
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_canEqual_5276041147
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_getGenreId_14617326133
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_getGenreId_14617326133
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_hashCode_18953928328
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_hashCode_18953928328
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_hashCode_17804534189
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_hashCode_17804534189
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_init_20305532910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_init_20305532910
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setUserId2_141161378822
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setUserId2_141161378822
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_toString_34730340813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_toString_34730340813
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_toString_7709196864
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_toString_7709196864
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_build_6777185358
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_build_6777185358
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_filmId_4331255141
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_filmId_4331255141
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_getFilmId_12410228224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_getFilmId_12410228224
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_setUserId_19067393774
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_setUserId_19067393774
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_email_5185459282
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_email_5185459282
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setEmail_205390746624
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setEmail_205390746624
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setMpa_81352049515
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_setMpa_81352049515
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_equals_169115865618
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_equals_169115865618
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_build_1656415996
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_build_1656415996
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_setFilmId_187649009014
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_setFilmId_187649009014
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getReleaseDate_160057127527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getReleaseDate_160057127527
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getGenres_5150639268
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ru.yandex.practicum.filmorate.model.Film_getGenres_5150639268
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getReleaseDate_16005712755
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getReleaseDate_16005712755
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId2_2758924033
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_userId2_2758924033
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getUserId2_14100609418
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ru.yandex.practicum.filmorate.model.Friendship_getUserId2_14100609418
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_init_3783443890
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_init_3783443890
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setStatusId_2776039379
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setStatusId_2776039379
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setDuration_154356009836
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setDuration_154356009836
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_toString_19369915579
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_toString_19369915579
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_getName_12262180003
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_getName_12262180003
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_birthday_15016015413
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_birthday_15016015413
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_email_51854592811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_email_51854592811
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_toString_188881477419
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Genre_toString_188881477419
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_getUserId_7793558073
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_getUserId_7793558073
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_description_1416698003
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_description_1416698003
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_name_16705081852
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_name_16705081852
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_toString_19653846444
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_toString_19653846444
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_canEqual_64254352817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_canEqual_64254352817
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_rate_149614476719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_rate_149614476719
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_toString_7709196869
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_toString_7709196869
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getName_38590129521
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getName_38590129521
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setReleaseDate_149277904913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_setReleaseDate_149277904913
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_hashCode_17804534188
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_hashCode_17804534188
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setUserId1_141161282721
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setUserId1_141161282721
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_setId_1116402196
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_setId_1116402196
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_equals_97754519216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_equals_97754519216
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_builder_188896338315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Friendship_builder_188896338315
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_build_667555993
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_build_667555993
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_toString_12542066704
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_toString_12542066704
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getDescription_159240473926
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getDescription_159240473926
+[INFO] Running ru.yandex.practicum.filmorate.model.User_builder_3066931141
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_builder_3066931141
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_hashCode_24750199326
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_hashCode_24750199326
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_id_3748898389
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_id_3748898389
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_toString_103026644810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_toString_103026644810
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_init_10873676115
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_init_10873676115
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getId_11329460572
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getId_11329460572
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_equals_13317667436
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_equals_13317667436
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_canEqual_3568781217
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_canEqual_3568781217
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_name_1719896712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_name_1719896712
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_id_20537811381
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_id_20537811381
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setName_131983112011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setName_131983112011
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_toString_75826168313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_toString_75826168313
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_name_666370954
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_name_666370954
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_equals_169115865640
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_equals_169115865640
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_id_37488983810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_id_37488983810
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_builder_36919435311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_builder_36919435311
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_builder_118101826211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_builder_118101826211
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_name_16705081857
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_name_16705081857
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_canEqual_179964601119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_canEqual_179964601119
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setName_133397527326
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_setName_133397527326
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getRate_179780112831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getRate_179780112831
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_init_6949716310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.FilmGenre_init_6949716310
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_filmId_19524716062
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_filmId_19524716062
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_toString_193699155719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_toString_193699155719
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_rate_149614476710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_rate_149614476710
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_birthday_15016015414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_birthday_15016015414
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setLogin_7354764525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_setLogin_7354764525
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setName_131983112033
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setName_131983112033
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_id_3748898381
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_id_3748898381
+[INFO] Running ru.yandex.practicum.filmorate.model.User_hashCode_125661613430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_hashCode_125661613430
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_builder_118101826212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_builder_118101826212
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_duration_6734664216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_duration_6734664216
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_canEqual_100534731111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_canEqual_100534731111
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_getName_122621800013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_getName_122621800013
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_init_2254638355
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_init_2254638355
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_hashCode_12885371168
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_hashCode_12885371168
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_equals_20118468224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Friendship_equals_20118468224
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_init_2254638350
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_FilmGenreBuilder_init_2254638350
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_toString_5419117604
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_toString_5419117604
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_init_182038109522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_init_182038109522
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_build_16564159914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_build_16564159914
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_toString_200375418819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_toString_200375418819
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_toString_73171229121
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_toString_73171229121
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_canEqual_17338256317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_canEqual_17338256317
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_toString_9238002408
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_toString_9238002408
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_build_14609335318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_build_14609335318
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_getFilmId_74910652012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_getFilmId_74910652012
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_getStatusId_50015452919
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_getStatusId_50015452919
+[INFO] Running ru.yandex.practicum.filmorate.model.User_equals_170530280912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_equals_170530280912
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_rate_14961447678
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_rate_14961447678
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_setName_134887272815
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_setName_134887272815
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_init_4848105970
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_init_4848105970
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_equals_144670615716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_equals_144670615716
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_build_17592306463
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_MpaBuilder_build_17592306463
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_hashCode_14262318678
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_hashCode_14262318678
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setRate_158681130639
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setRate_158681130639
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getBirthday_19940840666
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.User_getBirthday_19940840666
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_canEqual_356878127
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_canEqual_356878127
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_canEqual_6425435287
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Genre_canEqual_6425435287
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_setId_175953105814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_setId_175953105814
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_init_20548628370
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_init_20548628370
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_builder_12312864941
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Genre_builder_12312864941
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_init_7087508190
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_init_7087508190
+[INFO] Running ru.yandex.practicum.filmorate.model.User_canEqual_178550185813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_canEqual_178550185813
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_getId_151413040012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_getId_151413040012
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_toString_20037541889
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_toString_20037541889
+[INFO] Running ru.yandex.practicum.filmorate.model.User_canEqual_178550185829
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_canEqual_178550185829
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_filmId_19524716067
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_filmId_19524716067
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_toString_103026644821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_toString_103026644821
+[INFO] Running ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_id_20537811388
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Friendship_FriendshipBuilder_id_20537811388
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_build_14609335313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_build_14609335313
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_toString_5419117609
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_FilmLikeBuilder_toString_5419117609
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_getFilmId_12410228223
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_getFilmId_12410228223
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_id_21120351181
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_GenreBuilder_id_21120351181
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_releaseDate_14509492617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_releaseDate_14509492617
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setDescription_148935392312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setDescription_148935392312
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_canEqual_1733825637
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Mpa_canEqual_1733825637
+[INFO] Running ru.yandex.practicum.filmorate.model.User_getBirthday_199408406622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_getBirthday_199408406622
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setGenres_83201650816
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setGenres_83201650816
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_getName_40004544825
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_getName_40004544825
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_setId_137833375510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_setId_137833375510
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_getName_75705703513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_getName_75705703513
+[INFO] Running ru.yandex.practicum.filmorate.model.Genre_builder_123128649411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Genre_builder_123128649411
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_name_176312495313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_name_176312495313
+[INFO] Running ru.yandex.practicum.filmorate.model.Mpa_setId_12903700934
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.model.Mpa_setId_12903700934
+[INFO] Running ru.yandex.practicum.filmorate.model.User_UserBuilder_init_3783443898
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_UserBuilder_init_3783443898
+[INFO] Running ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_208275058217
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.Film_FilmBuilder_mpa_208275058217
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmGenre_equals_8398504416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmGenre_equals_8398504416
+[INFO] Running ru.yandex.practicum.filmorate.model.User_setEmail_20539074668
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.User_setEmail_20539074668
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_getUserId_7793558072
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_getUserId_7793558072
+[INFO] Running ru.yandex.practicum.filmorate.model.FilmLike_getFilmId_124102282213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.model.FilmLike_getFilmId_124102282213
+[INFO] Running ru.yandex.practicum.filmorate.FilmorateApplication_main_16113605771
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2026-04-08 06:45:15.266  INFO 75 --- [me-limited test] r.y.p.filmorate.FilmorateApplication     : Starting FilmorateApplication using Java 11.0.16 on 4ad83f8db13d with PID 75 (started by root in /app)
+2026-04-08 06:45:15.270  INFO 75 --- [me-limited test] r.y.p.filmorate.FilmorateApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 06:45:16.583  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-08 06:45:16.585  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-08 06:45:16.609  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2026-04-08 06:45:16.620  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-08 06:45:16.623  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 06:45:16.644  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2026-04-08 06:45:17.395  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:45:17.408  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:45:17.408  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-04-08 06:45:17.527  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:45:17.528  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2139 ms
+2026-04-08 06:45:17.659  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:45:18.150  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 06:45:18.379  INFO 75 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 06:45:18.475  INFO 75 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2026-04-08 06:45:18.729  INFO 75 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 06:45:18.934  INFO 75 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 06:45:19.280  INFO 75 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 06:45:19.291  INFO 75 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:45:19.445  WARN 75 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 06:45:20.058  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:45:20.073  INFO 75 --- [me-limited test] r.y.p.filmorate.FilmorateApplication     : Started FilmorateApplication in 5.416 seconds (JVM running for 9.781)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.489 s - in ru.yandex.practicum.filmorate.FilmorateApplication_main_16113605771
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_addLike_19684309334
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_addLike_19684309334
+[ERROR] test  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_addLike_19684309334.test(FilmController_addLike_19684309334.java:57)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_findAll_1669110510
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_findAll_1669110510
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_findAll_1669110510.test(FilmController_findAll_1669110510.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.GenreController_findAllMpa_21061536923
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.GenreController_findAllMpa_21061536923
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.GenreController_findAllMpa_21061536923.test(GenreController_findAllMpa_21061536923.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.GenreController_findAllMpa_21061536920
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.GenreController_findAllMpa_21061536920
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.GenreController_findAllMpa_21061536920.test(GenreController_findAllMpa_21061536920.java:46)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_getCommonFriends_179885961017
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_getCommonFriends_179885961017
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_getCommonFriends_179885961017.test(UserController_getCommonFriends_179885961017.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_create_41131698613
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_create_41131698613
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_create_41131698613.test(UserController_create_41131698613.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_findAll_1669110518
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_findAll_1669110518
+[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_findAll_1669110518.test(FilmController_findAll_1669110518.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.GenreController_init_13372449362
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.GenreController_init_13372449362
+[INFO] Running ru.yandex.practicum.filmorate.controller.MpaController_init_13600518162
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.MpaController_init_13600518162
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_update_29417199411
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_update_29417199411
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_update_29417199411.test(FilmController_update_29417199411.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_addFriend_7904087415
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_addFriend_7904087415
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_addFriend_7904087415.test(UserController_addFriend_7904087415.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_findById_10191383692
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_findById_10191383692
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_findById_10191383692.test(UserController_findById_10191383692.java:52)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_update_9091385414
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_update_9091385414
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_update_9091385414.test(UserController_update_9091385414.java:62)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_init_135063278119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.UserController_init_135063278119
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_validateName_109031378110
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_validateName_109031378110
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_validateName_109031378110.test(UserController_validateName_109031378110.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_create_4113169863
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_create_4113169863
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_create_4113169863.test(UserController_create_4113169863.java:62)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_update_90913854114
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_update_90913854114
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_update_90913854114.test(UserController_update_90913854114.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_deleteLike_15656381975
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_deleteLike_15656381975
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_deleteLike_15656381975.test(FilmController_deleteLike_15656381975.java:57)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_getFriends_31646985918
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_getFriends_31646985918
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_getFriends_31646985918.test(UserController_getFriends_31646985918.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_addFriend_790408745
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_addFriend_790408745
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_addFriend_790408745.test(UserController_addFriend_790408745.java:56)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_update_2941719943
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_update_2941719943
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_update_2941719943.test(FilmController_update_2941719943.java:92)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_findAll_138482200211
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_findAll_138482200211
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_findAll_138482200211.test(UserController_findAll_138482200211.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.MpaController_findAllMpa_9225412250
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.MpaController_findAllMpa_9225412250
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.MpaController_findAllMpa_9225412250.test(MpaController_findAllMpa_9225412250.java:46)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.MpaController_findMpaById_16413171771
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.MpaController_findMpaById_16413171771
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.MpaController_findMpaById_16413171771.test(MpaController_findMpaById_16413171771.java:51)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.GenreController_findMpaById_3986033534
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.GenreController_findMpaById_3986033534
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.GenreController_findMpaById_3986033534.test(GenreController_findMpaById_3986033534.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_findById_1983163199
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_findById_1983163199
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_findById_1983163199.test(FilmController_findById_1983163199.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_deleteFriend_9996563326
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_deleteFriend_9996563326
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_deleteFriend_9996563326.test(UserController_deleteFriend_9996563326.java:56)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_getFriends_3164698598
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_getFriends_3164698598
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_getFriends_3164698598.test(UserController_getFriends_3164698598.java:52)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_init_16199573567
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.controller.FilmController_init_16199573567
+[INFO] Running ru.yandex.practicum.filmorate.controller.MpaController_init_13600518165
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.MpaController_init_13600518165
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_init_161995735615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.controller.FilmController_init_161995735615
+[INFO] Running ru.yandex.practicum.filmorate.controller.ExceptionController_init_10030612381
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.ExceptionController_init_10030612381
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_findById_101913836912
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_findById_101913836912
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_findById_101913836912.test(UserController_findById_101913836912.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_findById_1983163191
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_findById_1983163191
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_findById_1983163191.test(FilmController_findById_1983163191.java:53)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_deleteLike_156563819713
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_deleteLike_156563819713
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_deleteLike_156563819713.test(FilmController_deleteLike_156563819713.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_findAll_13848220021
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_findAll_13848220021
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_findAll_13848220021.test(UserController_findAll_13848220021.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_create_79199354910
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_create_79199354910
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_create_79199354910.test(FilmController_create_79199354910.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.GenreController_findMpaById_3986033531
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.GenreController_findMpaById_3986033531
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.GenreController_findMpaById_3986033531.test(GenreController_findMpaById_3986033531.java:51)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_getPopular_119813684614
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_getPopular_119813684614
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_getPopular_119813684614.test(FilmController_getPopular_119813684614.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_validateName_10903137810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.UserController_validateName_10903137810
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_create_7919935492
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_create_7919935492
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_create_7919935492.test(FilmController_create_7919935492.java:97)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_getCommonFriends_17988596107
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_getCommonFriends_17988596107
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_getCommonFriends_17988596107.test(UserController_getCommonFriends_17988596107.java:56)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.ExceptionController_init_10030612380
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.ExceptionController_init_10030612380
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_getPopular_11981368466
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_getPopular_11981368466
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_getPopular_11981368466.test(FilmController_getPopular_11981368466.java:53)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.GenreController_init_13372449365
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.controller.GenreController_init_13372449365
+[INFO] Running ru.yandex.practicum.filmorate.controller.MpaController_findMpaById_16413171774
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.MpaController_findMpaById_16413171774
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.MpaController_findMpaById_16413171774.test(MpaController_findMpaById_16413171774.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.FilmController_addLike_196843093312
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.FilmController_addLike_196843093312
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.FilmController_addLike_196843093312.test(FilmController_addLike_196843093312.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.MpaController_findAllMpa_9225412253
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.MpaController_findAllMpa_9225412253
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.MpaController_findAllMpa_9225412253.test(MpaController_findAllMpa_9225412253.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_init_13506327819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.controller.UserController_init_13506327819
+[INFO] Running ru.yandex.practicum.filmorate.controller.UserController_deleteFriend_99965633216
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.controller.UserController_deleteFriend_99965633216
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.controller.UserController_deleteFriend_99965633216.test(UserController_deleteFriend_99965633216.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.FilmorateApplication_main_16113605773
+2026-04-08 06:45:20.262 ERROR 75 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at ru.yandex.practicum.filmorate.FilmorateApplication.main(FilmorateApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at ru.yandex.practicum.filmorate.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at ru.yandex.practicum.filmorate.FilmorateApplication_main_16113605773.test(FilmorateApplication_main_16113605773.java:44) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in ru.yandex.practicum.filmorate.FilmorateApplication_main_16113605773
+[ERROR] test  Time elapsed: 0.025 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at ru.yandex.practicum.filmorate.FilmorateApplication_main_16113605773.test(FilmorateApplication_main_16113605773.java:44)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.user.UserDbStorage_mapRowToUser_19977275555
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.user.UserDbStorage_mapRowToUser_19977275555
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.user.UserDbStorage_mapRowToUser_19977275555.test(UserDbStorage_mapRowToUser_19977275555.java:42)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.user.UserDbStorage_findById_9569386211
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.user.UserDbStorage_findById_9569386211
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.user.UserDbStorage_findById_9569386211.test(UserDbStorage_findById_9569386211.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.user.UserDbStorage_update_17818629393
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.user.UserDbStorage_update_17818629393
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.user.UserDbStorage_update_17818629393.test(UserDbStorage_update_17818629393.java:56)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.user.UserDbStorage_findAll_20374208960
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.user.UserDbStorage_findAll_20374208960
+[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.user.UserDbStorage_findAll_20374208960.test(UserDbStorage_findAll_20374208960.java:40)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.user.UserDbStorage_deleteById_920811354
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.user.UserDbStorage_deleteById_920811354
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.user.UserDbStorage_deleteById_920811354.test(UserDbStorage_deleteById_920811354.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.user.UserDbStorage_create_12840413842
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.user.UserDbStorage_create_12840413842
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.user.UserDbStorage_create_12840413842.test(UserDbStorage_create_12840413842.java:56)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_findMpaById_4460259771
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_findMpaById_4460259771
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_findMpaById_4460259771.test(MpaDbStorage_findMpaById_4460259771.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_findAllMpa_11646518200
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_findAllMpa_11646518200
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_findAllMpa_11646518200.test(MpaDbStorage_findAllMpa_11646518200.java:40)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_mapRowToMpa_14084223392
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_mapRowToMpa_14084223392
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.mpa.MpaDbStorage_mapRowToMpa_14084223392.test(MpaDbStorage_mapRowToMpa_14084223392.java:42)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_getPopular_2410058855
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_getPopular_2410058855
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_getPopular_2410058855.test(FilmDbStorage_getPopular_2410058855.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_findAll_12722316800
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_findAll_12722316800
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_findAll_12722316800.test(FilmDbStorage_findAll_12722316800.java:40)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_findById_1917494051
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_findById_1917494051
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_findById_1917494051.test(FilmDbStorage_findById_1917494051.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_create_7854266352
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_create_7854266352
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_create_7854266352.test(FilmDbStorage_create_7854266352.java:90)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_mapRowToFilm_10931255196
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_mapRowToFilm_10931255196
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_mapRowToFilm_10931255196.test(FilmDbStorage_mapRowToFilm_10931255196.java:42)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_deleteById_6731080814
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_deleteById_6731080814
+[ERROR] test  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_deleteById_6731080814.test(FilmDbStorage_deleteById_6731080814.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_update_2876050803
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_update_2876050803
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_update_2876050803.test(FilmDbStorage_update_2876050803.java:85)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_mapRowToFilmGenre_17935841297
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_mapRowToFilmGenre_17935841297
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.film.FilmDbStorage_mapRowToFilmGenre_17935841297.test(FilmDbStorage_mapRowToFilmGenre_17935841297.java:42)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_create_481313901
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_create_481313901
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_create_481313901.test(FriendshipDbStorage_create_481313901.java:50)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_update_4496901652
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_update_4496901652
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_update_4496901652.test(FriendshipDbStorage_update_4496901652.java:50)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_delete_16313643733
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_delete_16313643733
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_delete_16313643733.test(FriendshipDbStorage_delete_16313643733.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_findFriendshipByUserIds_5555828130
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_findFriendshipByUserIds_5555828130
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_findFriendshipByUserIds_5555828130.test(FriendshipDbStorage_findFriendshipByUserIds_5555828130.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_getFriendIdsByUserId_13620940254
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_getFriendIdsByUserId_13620940254
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_getFriendIdsByUserId_13620940254.test(FriendshipDbStorage_getFriendIdsByUserId_13620940254.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_mapRowToFriendship_7732588476
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_mapRowToFriendship_7732588476
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_mapRowToFriendship_7732588476.test(FriendshipDbStorage_mapRowToFriendship_7732588476.java:42)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_getCommonFriendIdsByUserIds_1374860215
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_getCommonFriendIdsByUserIds_1374860215
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.frienship.FriendshipDbStorage_getCommonFriendIdsByUserIds_1374860215.test(FriendshipDbStorage_getCommonFriendIdsByUserIds_1374860215.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_createFilmLike_6183138071
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_createFilmLike_6183138071
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_createFilmLike_6183138071.test(FilmLikeDbStorage_createFilmLike_6183138071.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_mapRowToFilmLike_2124560033
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_mapRowToFilmLike_2124560033
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_mapRowToFilmLike_2124560033.test(FilmLikeDbStorage_mapRowToFilmLike_2124560033.java:42)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_findFilmLikeByUserIdFilmId_16472473380
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_findFilmLikeByUserIdFilmId_16472473380
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_findFilmLikeByUserIdFilmId_16472473380.test(FilmLikeDbStorage_findFilmLikeByUserIdFilmId_16472473380.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_deleteFilmLike_3302598722
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_deleteFilmLike_3302598722
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_deleteFilmLike_3302598722.test(FilmLikeDbStorage_deleteFilmLike_3302598722.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_rateUpdate_16610717594
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_rateUpdate_16610717594
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.storage.filmlike.FilmLikeDbStorage_rateUpdate_16610717594.test(FilmLikeDbStorage_rateUpdate_16610717594.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.exception.ValidationException_init_2771031
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.exception.ValidationException_init_2771031
+[INFO] Running ru.yandex.practicum.filmorate.exception.ValidationException_init_2771030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.exception.ValidationException_init_2771030
+[INFO] Running ru.yandex.practicum.filmorate.exception.ObjectDoesNotExistException_init_12773924941
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.exception.ObjectDoesNotExistException_init_12773924941
+[INFO] Running ru.yandex.practicum.filmorate.exception.ObjectDoesNotExistException_init_12773924940
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.exception.ObjectDoesNotExistException_init_12773924940
+[INFO] Running ru.yandex.practicum.filmorate.FilmorateApplication_init_19879235810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.FilmorateApplication_init_19879235810
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_create_8123979462
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_create_8123979462
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_create_8123979462.test(UserService_create_8123979462.java:60)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_init_76371141617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.service.user.UserService_init_76371141617
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_getCommonFriends_12723927547
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_getCommonFriends_12723927547
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_getCommonFriends_12723927547.test(UserService_getCommonFriends_12723927547.java:53)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_getFriends_90724507315
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_getFriends_90724507315
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_getFriends_90724507315.test(UserService_getFriends_90724507315.java:46)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_addFriend_130275580613
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_addFriend_130275580613
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_addFriend_130275580613.test(UserService_addFriend_130275580613.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_getCommonFriends_127239275416
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_getCommonFriends_127239275416
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_getCommonFriends_127239275416.test(UserService_getCommonFriends_127239275416.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_init_7637114168
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.service.user.UserService_init_7637114168
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_findById_2045765631
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_findById_2045765631
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_findById_2045765631.test(UserService_findById_2045765631.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_addFriend_13027558064
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_addFriend_13027558064
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_addFriend_13027558064.test(UserService_addFriend_13027558064.java:53)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_findAll_1611070700
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_findAll_1611070700
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_findAll_1611070700.test(UserService_findAll_1611070700.java:44)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_update_3145763913
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_update_3145763913
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_update_3145763913.test(UserService_update_3145763913.java:60)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_findById_20457656310
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_findById_20457656310
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_findById_20457656310.test(UserService_findById_20457656310.java:46)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_findAll_1611070709
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_findAll_1611070709
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_findAll_1611070709.test(UserService_findAll_1611070709.java:44)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_getFriends_9072450736
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_getFriends_9072450736
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_getFriends_9072450736.test(UserService_getFriends_9072450736.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_deleteFriend_2240586005
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_deleteFriend_2240586005
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_deleteFriend_2240586005.test(UserService_deleteFriend_2240586005.java:53)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_deleteFriend_22405860014
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_deleteFriend_22405860014
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_deleteFriend_22405860014.test(UserService_deleteFriend_22405860014.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_update_31457639112
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_update_31457639112
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_update_31457639112.test(UserService_update_31457639112.java:46)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.user.UserService_create_81239794611
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.user.UserService_create_81239794611
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.user.UserService_create_81239794611.test(UserService_create_81239794611.java:46)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_deleteLike_16779083865
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_deleteLike_16779083865
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_deleteLike_16779083865.test(FilmService_deleteLike_16779083865.java:54)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_deleteLike_167790838613
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_deleteLike_167790838613
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_deleteLike_167790838613.test(FilmService_deleteLike_167790838613.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_init_6515919777
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.service.film.FilmService_init_6515919777
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_findById_3105865081
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_findById_3105865081
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_findById_3105865081.test(FilmService_findById_3105865081.java:50)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.MpaService_findAllMpa_21276675703
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.MpaService_findAllMpa_21276675703
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.MpaService_findAllMpa_21276675703.test(MpaService_findAllMpa_21276675703.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.GenreService_findAllGenre_7564885523
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.GenreService_findAllGenre_7564885523
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.GenreService_findAllGenre_7564885523.test(GenreService_findAllGenre_7564885523.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.GenreService_init_17757970765
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.service.film.GenreService_init_17757970765
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_getPopular_108586665714
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_getPopular_108586665714
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_getPopular_108586665714.test(FilmService_getPopular_108586665714.java:50)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_create_9042637382
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_create_9042637382
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_create_9042637382.test(FilmService_create_9042637382.java:95)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_getPopular_10858666576
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_getPopular_10858666576
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_getPopular_10858666576.test(FilmService_getPopular_10858666576.java:50)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_addLike_18561607444
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_addLike_18561607444
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_addLike_18561607444.test(FilmService_addLike_18561607444.java:54)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_findAll_546408620
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_findAll_546408620
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_findAll_546408620.test(FilmService_findAll_546408620.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_findAll_546408628
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_findAll_546408628
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_findAll_546408628.test(FilmService_findAll_546408628.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_update_40644218311
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_update_40644218311
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_update_40644218311.test(FilmService_update_40644218311.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_update_4064421833
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_update_4064421833
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_update_4064421833.test(FilmService_update_4064421833.java:90)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_create_90426373810
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_create_90426373810
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_create_90426373810.test(FilmService_create_90426373810.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.GenreService_findGenreById_18622741631
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.GenreService_findGenreById_18622741631
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.GenreService_findGenreById_18622741631.test(GenreService_findGenreById_18622741631.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.GenreService_findGenreById_18622741634
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.GenreService_findGenreById_18622741634
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.GenreService_findGenreById_18622741634.test(GenreService_findGenreById_18622741634.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.GenreService_init_17757970762
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.service.film.GenreService_init_17757970762
+[INFO] Running ru.yandex.practicum.filmorate.service.film.MpaService_findMpaById_14088916181
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.MpaService_findMpaById_14088916181
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.MpaService_findMpaById_14088916181.test(MpaService_findMpaById_14088916181.java:48)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.GenreService_findAllGenre_7564885520
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.GenreService_findAllGenre_7564885520
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.GenreService_findAllGenre_7564885520.test(GenreService_findAllGenre_7564885520.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.MpaService_findAllMpa_21276675700
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.MpaService_findAllMpa_21276675700
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.MpaService_findAllMpa_21276675700.test(MpaService_findAllMpa_21276675700.java:43)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.MpaService_init_6348362215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.yandex.practicum.filmorate.service.film.MpaService_init_6348362215
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_findById_3105865089
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_findById_3105865089
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_findById_3105865089.test(FilmService_findById_3105865089.java:47)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_init_65159197715
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.service.film.FilmService_init_65159197715
+[INFO] Running ru.yandex.practicum.filmorate.service.film.FilmService_addLike_185616074412
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.FilmService_addLike_185616074412
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.FilmService_addLike_185616074412.test(FilmService_addLike_185616074412.java:49)
+
+[INFO] Running ru.yandex.practicum.filmorate.service.film.MpaService_init_6348362212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.service.film.MpaService_init_6348362212
+[INFO] Running ru.yandex.practicum.filmorate.service.film.MpaService_findMpaById_14088916184
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ru.yandex.practicum.filmorate.service.film.MpaService_findMpaById_14088916184
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.yandex.practicum.filmorate.service.film.MpaService_findMpaById_14088916184.test(MpaService_findMpaById_14088916184.java:45)
+
+[INFO] Running ru.yandex.practicum.filmorate.FilmorateApplication_init_19879235812
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ru.yandex.practicum.filmorate.FilmorateApplication_init_19879235812
+2026-04-08 06:45:21.197  INFO 75 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:45:21.206  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 06:45:21.224  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   FilmorateApplication_main_16113605773.test:44 » IllegalArgument Args must not ...
+[ERROR]   FilmController_addLike_196843093312.test:47 » NullPointer
+[ERROR]   FilmController_addLike_19684309334.test:57 » NullPointer
+[ERROR]   FilmController_create_79199354910.test:45 » NullPointer
+[ERROR]   FilmController_create_7919935492.test:97 » NullPointer
+[ERROR]   FilmController_deleteLike_156563819713.test:47 » NullPointer
+[ERROR]   FilmController_deleteLike_15656381975.test:57 » NullPointer
+[ERROR]   FilmController_findAll_1669110510.test:48 » NullPointer
+[ERROR]   FilmController_findAll_1669110518.test:43 » NullPointer
+[ERROR]   FilmController_findById_1983163191.test:53 » NullPointer
+[ERROR]   FilmController_findById_1983163199.test:45 » NullPointer
+[ERROR]   FilmController_getPopular_119813684614.test:48 » NullPointer
+[ERROR]   FilmController_getPopular_11981368466.test:53 » NullPointer
+[ERROR]   FilmController_update_29417199411.test:45 » NullPointer
+[ERROR]   FilmController_update_2941719943.test:92 » NullPointer
+[ERROR]   GenreController_findAllMpa_21061536920.test:46 » NullPointer
+[ERROR]   GenreController_findAllMpa_21061536923.test:43 » NullPointer
+[ERROR]   GenreController_findMpaById_3986033531.test:51 » NullPointer
+[ERROR]   GenreController_findMpaById_3986033534.test:45 » NullPointer
+[ERROR]   MpaController_findAllMpa_9225412250.test:46 » NullPointer
+[ERROR]   MpaController_findAllMpa_9225412253.test:43 » NullPointer
+[ERROR]   MpaController_findMpaById_16413171771.test:51 » NullPointer
+[ERROR]   MpaController_findMpaById_16413171774.test:45 » NullPointer
+[ERROR]   UserController_addFriend_7904087415.test:47 » NullPointer
+[ERROR]   UserController_addFriend_790408745.test:56 » NullPointer
+[ERROR]   UserController_create_41131698613.test:45 » NullPointer
+[ERROR]   UserController_create_4113169863.test:62 » NullPointer
+[ERROR]   UserController_deleteFriend_99965633216.test:47 » NullPointer
+[ERROR]   UserController_deleteFriend_9996563326.test:56 » NullPointer
+[ERROR]   UserController_findAll_13848220021.test:47 » NullPointer
+[ERROR]   UserController_findAll_138482200211.test:43 » NullPointer
+[ERROR]   UserController_findById_101913836912.test:45 » NullPointer
+[ERROR]   UserController_findById_10191383692.test:52 » NullPointer
+[ERROR]   UserController_getCommonFriends_179885961017.test:47 » NullPointer
+[ERROR]   UserController_getCommonFriends_17988596107.test:56 » NullPointer
+[ERROR]   UserController_getFriends_31646985918.test:45 » NullPointer
+[ERROR]   UserController_getFriends_3164698598.test:52 » NullPointer
+[ERROR]   UserController_update_90913854114.test:45 » NullPointer
+[ERROR]   UserController_update_9091385414.test:62 » NullPointer
+[ERROR]   UserController_validateName_109031378110.test:45 » NullPointer
+[ERROR]   FilmService_addLike_185616074412.test:49 » NullPointer
+[ERROR]   FilmService_addLike_18561607444.test:54 » NullPointer
+[ERROR]   FilmService_create_90426373810.test:47 » NullPointer
+[ERROR]   FilmService_create_9042637382.test:95 » NullPointer
+[ERROR]   FilmService_deleteLike_167790838613.test:49 » NullPointer
+[ERROR]   FilmService_deleteLike_16779083865.test:54 » NullPointer
+[ERROR]   FilmService_findAll_546408620.test:45 » NullPointer
+[ERROR]   FilmService_findAll_546408628.test:45 » NullPointer
+[ERROR]   FilmService_findById_3105865081.test:50 » NullPointer
+[ERROR]   FilmService_findById_3105865089.test:47 » NullPointer
+[ERROR]   FilmService_getPopular_108586665714.test:50 » NullPointer
+[ERROR]   FilmService_getPopular_10858666576.test:50 » NullPointer
+[ERROR]   FilmService_update_40644218311.test:47 » NullPointer
+[ERROR]   FilmService_update_4064421833.test:90 » NullPointer
+[ERROR]   GenreService_findAllGenre_7564885520.test:43 » NullPointer
+[ERROR]   GenreService_findAllGenre_7564885523.test:43 » NullPointer
+[ERROR]   GenreService_findGenreById_18622741631.test:48 » NullPointer
+[ERROR]   GenreService_findGenreById_18622741634.test:45 » NullPointer
+[ERROR]   MpaService_findAllMpa_21276675700.test:43 » NullPointer
+[ERROR]   MpaService_findAllMpa_21276675703.test:43 » NullPointer
+[ERROR]   MpaService_findMpaById_14088916181.test:48 » NullPointer
+[ERROR]   MpaService_findMpaById_14088916184.test:45 » NullPointer
+[ERROR]   UserService_addFriend_130275580613.test:48 » NullPointer
+[ERROR]   UserService_addFriend_13027558064.test:53 » NullPointer
+[ERROR]   UserService_create_81239794611.test:46 » NullPointer
+[ERROR]   UserService_create_8123979462.test:60 » NullPointer
+[ERROR]   UserService_deleteFriend_22405860014.test:48 » NullPointer
+[ERROR]   UserService_deleteFriend_2240586005.test:53 » NullPointer
+[ERROR]   UserService_findAll_1611070700.test:44 » NullPointer
+[ERROR]   UserService_findAll_1611070709.test:44 » NullPointer
+[ERROR]   UserService_findById_2045765631.test:49 » NullPointer
+[ERROR]   UserService_findById_20457656310.test:46 » NullPointer
+[ERROR]   UserService_getCommonFriends_127239275416.test:48 » NullPointer
+[ERROR]   UserService_getCommonFriends_12723927547.test:53 » NullPointer
+[ERROR]   UserService_getFriends_90724507315.test:46 » NullPointer
+[ERROR]   UserService_getFriends_9072450736.test:49 » NullPointer
+[ERROR]   UserService_update_31457639112.test:46 » NullPointer
+[ERROR]   UserService_update_3145763913.test:60 » NullPointer
+[ERROR]   FilmDbStorage_create_7854266352.test:90 » NullPointer
+[ERROR]   FilmDbStorage_deleteById_6731080814.test:45 » NullPointer
+[ERROR]   FilmDbStorage_findAll_12722316800.test:40 » NullPointer
+[ERROR]   FilmDbStorage_findById_1917494051.test:45 » NullPointer
+[ERROR]   FilmDbStorage_getPopular_2410058855.test:45 » NullPointer
+[ERROR]   FilmDbStorage_mapRowToFilmGenre_17935841297.test:42 » NullPointer
+[ERROR]   FilmDbStorage_mapRowToFilm_10931255196.test:42 » NullPointer
+[ERROR]   FilmDbStorage_update_2876050803.test:85 » NullPointer
+[ERROR]   FilmLikeDbStorage_createFilmLike_6183138071.test:49 » NullPointer
+[ERROR]   FilmLikeDbStorage_deleteFilmLike_3302598722.test:49 » NullPointer
+[ERROR]   FilmLikeDbStorage_findFilmLikeByUserIdFilmId_16472473380.test:49 » NullPointer
+[ERROR]   FilmLikeDbStorage_mapRowToFilmLike_2124560033.test:42 » NullPointer
+[ERROR]   FilmLikeDbStorage_rateUpdate_16610717594.test:45 » NullPointer
+[ERROR]   FriendshipDbStorage_create_481313901.test:50 » NullPointer
+[ERROR]   FriendshipDbStorage_delete_16313643733.test:49 » NullPointer
+[ERROR]   FriendshipDbStorage_findFriendshipByUserIds_5555828130.test:49 » NullPointer
+[ERROR]   FriendshipDbStorage_getCommonFriendIdsByUserIds_1374860215.test:49 » NullPointer
+[ERROR]   FriendshipDbStorage_getFriendIdsByUserId_13620940254.test:45 » NullPointer
+[ERROR]   FriendshipDbStorage_mapRowToFriendship_7732588476.test:42 » NullPointer
+[ERROR]   FriendshipDbStorage_update_4496901652.test:50 » NullPointer
+[ERROR]   MpaDbStorage_findAllMpa_11646518200.test:40 » NullPointer
+[ERROR]   MpaDbStorage_findMpaById_4460259771.test:45 » NullPointer
+[ERROR]   MpaDbStorage_mapRowToMpa_14084223392.test:42 » NullPointer
+[ERROR]   UserDbStorage_create_12840413842.test:56 » NullPointer
+[ERROR]   UserDbStorage_deleteById_920811354.test:45 » NullPointer
+[ERROR]   UserDbStorage_findAll_20374208960.test:40 » NullPointer
+[ERROR]   UserDbStorage_findById_9569386211.test:45 » NullPointer
+[ERROR]   UserDbStorage_mapRowToUser_19977275555.test:42 » NullPointer
+[ERROR]   UserDbStorage_update_17818629393.test:56 » NullPointer
+[INFO] 
+[ERROR] Tests run: 439, Failures: 0, Errors: 107, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ filmorate ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'filmorate' with 34 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ filmorate ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'filmorate' with 34 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.192 s
+[INFO] Finished at: 2026-04-08T06:45:23Z
+[INFO] ------------------------------------------------------------------------

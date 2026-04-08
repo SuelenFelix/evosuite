@@ -2,7 +2,7 @@
 Test set: net.byteseek.demo.treetable.CSVTree_readAndDisplayTree_19065484425
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.demo.treetable.CSVTree_readAndDisplayTree_19065484425)  Time elapsed: 0 sec  <<< ERROR!
+test(net.byteseek.demo.treetable.CSVTree_readAndDisplayTree_19065484425)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.swing.treetable.TreeUtils.processCSVHeaders(TreeUtils.java:207)
 	at net.byteseek.demo.treetable.CSVTree.readAndDisplayTree(CSVTree.java:38)

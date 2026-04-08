@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TableUtils_HeaderSortResizeMouseClickListener_mouseClicked_18038508111
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TableUtils_HeaderSortResizeMouseClickListener_mouseClicked_18038508111)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TableUtils_HeaderSortResizeMouseClickListener_mouseClicked_18038508111)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: button doesn't exist 972867650
 	at java.desktop/java.awt.event.InputEvent.getMaskForButton(InputEvent.java:273)
 	at java.desktop/java.awt.event.MouseEvent.getModifiersEx(MouseEvent.java:654)

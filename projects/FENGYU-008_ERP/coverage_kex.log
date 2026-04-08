@@ -1,0 +1,1639 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< com.shark:ERP >----------------------------
+[INFO] Building ERP 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ ERP ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (prepare-agent) @ ERP ---
+[INFO] surefire.argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec,append=true
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ERP ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 39 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ ERP ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-test-source) @ ERP ---
+[INFO] Test Source directory: /app/evosuite-tests added.
+[INFO] Test Source directory: /app/src/test/java/kex-tests/tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ ERP ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ ERP ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 278 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/entity/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/service/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/entity/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/entity/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/entity/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/service/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/service/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/service/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/shark/erp/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/shark/erp/entity/Order_setQuantity_115772893210.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/shark/erp/entity/Order_setQuantity_115772893210.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ ERP ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.shark.erp.entity.Order_setChange_157099678416
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.shark.erp.entity.Order_setChange_157099678416
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getInventory_160670972116
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.GoodsMonitor_getInventory_160670972116
+[INFO] Running com.shark.erp.entity.Order_setId_171105397225
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.Order_setId_171105397225
+[INFO] Running com.shark.erp.entity.Admin_setUsername_143763129511
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Admin_setUsername_143763129511
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getCustomerId_169147581122
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_getCustomerId_169147581122
+[INFO] Running com.shark.erp.entity.ExchangeGoods_init_16886812220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ExchangeGoods_init_16886812220
+[INFO] Running com.shark.erp.entity.Customer_setId_17295790202
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Customer_setId_17295790202
+[INFO] Running com.shark.erp.entity.Purchase_setId_167350085515
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Purchase_setId_167350085515
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setGoodsName_89183366821
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ExchangeGoods_setGoodsName_89183366821
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setTimeDiff_74379069115
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.GoodsMonitor_setTimeDiff_74379069115
+[INFO] Running com.shark.erp.entity.Goods_getInventory_74697453715
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Goods_getInventory_74697453715
+[INFO] Running com.shark.erp.entity.Goods_setId_194253097219
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Goods_setId_194253097219
+[INFO] Running com.shark.erp.entity.Goods_getProductionTime_6911425824
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_getProductionTime_6911425824
+[INFO] Running com.shark.erp.entity.ReturnGoods_init_126127725515
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.entity.ReturnGoods_init_126127725515
+[INFO] Running com.shark.erp.entity.Customer_getName_16986411853
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Customer_getName_16986411853
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getGoodsId_5496078553
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ExchangeGoods_getGoodsId_5496078553
+[INFO] Running com.shark.erp.entity.Order_setPoint_112264899518
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_setPoint_112264899518
+[INFO] Running com.shark.erp.entity.ReturnGoods_setState_125215612714
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ReturnGoods_setState_125215612714
+[INFO] Running com.shark.erp.entity.Goods_getInventory_74697453732
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_getInventory_74697453732
+[INFO] Running com.shark.erp.entity.Order_setGoodsName_19724573996
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setGoodsName_19724573996
+[INFO] Running com.shark.erp.entity.Purchase_setSupplier_25241394119
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Purchase_setSupplier_25241394119
+[INFO] Running com.shark.erp.entity.Goods_setGoodsName_209103289723
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_setGoodsName_209103289723
+[INFO] Running com.shark.erp.entity.Order_getId_5201764901
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_getId_5201764901
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setGoodsName_14974985913
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.GoodsMonitor_setGoodsName_14974985913
+[INFO] Running com.shark.erp.entity.Goods_setId_19425309722
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Goods_setId_19425309722
+[INFO] Running com.shark.erp.entity.Goods_setUnitPrice_71715535314
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Goods_setUnitPrice_71715535314
+[INFO] Running com.shark.erp.entity.ReturnGoods_setCustomerId_126084677023
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.ReturnGoods_setCustomerId_126084677023
+[INFO] Running com.shark.erp.entity.Admin_getId_1067109211
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Admin_getId_1067109211
+[INFO] Running com.shark.erp.entity.Admin_setId_21245195412
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.shark.erp.entity.Admin_setId_21245195412
+[INFO] Running com.shark.erp.entity.Goods_setProductionTime_45988004225
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Goods_setProductionTime_45988004225
+[INFO] Running com.shark.erp.entity.Customer_setName_2123538311
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Customer_setName_2123538311
+[INFO] Running com.shark.erp.entity.ReturnGoods_getGoodsName_61593259120
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ReturnGoods_getGoodsName_61593259120
+[INFO] Running com.shark.erp.entity.Order_getChange_151497691215
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_getChange_151497691215
+[INFO] Running com.shark.erp.entity.Purchase_init_2204518760
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.entity.Purchase_init_2204518760
+[INFO] Running com.shark.erp.entity.Order_getPoint_123188581117
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Order_getPoint_123188581117
+[INFO] Running com.shark.erp.entity.Purchase_setGoodsId_7245102134
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Purchase_setGoodsId_7245102134
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getGoodsName_130075813
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.shark.erp.entity.GoodsMonitor_getGoodsName_130075813
+[INFO] Running com.shark.erp.entity.Order_getGoodsName_21352148395
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.shark.erp.entity.Order_getGoodsName_21352148395
+[INFO] Running com.shark.erp.entity.Purchase_getQuantity_189793428120
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.entity.Purchase_getQuantity_189793428120
+[INFO] Running com.shark.erp.entity.ReturnGoods_setGoodsId_7572189184
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.ReturnGoods_setGoodsId_7572189184
+[INFO] Running com.shark.erp.entity.Customer_getId_3341578141
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.shark.erp.entity.Customer_getId_3341578141
+[INFO] Running com.shark.erp.entity.Admin_init_6714705620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Admin_init_6714705620
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getExchangeTime_64035660711
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_getExchangeTime_64035660711
+[INFO] Running com.shark.erp.entity.Admin_getPassword_9064951225
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Admin_getPassword_9064951225
+[INFO] Running com.shark.erp.entity.Order_setGoodsId_7620633304
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setGoodsId_7620633304
+[INFO] Running com.shark.erp.entity.Purchase_getSupplier_18387563815
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Purchase_getSupplier_18387563815
+[INFO] Running com.shark.erp.entity.Goods_getUnitPrice_68566196713
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Goods_getUnitPrice_68566196713
+[INFO] Running com.shark.erp.entity.Order_setAmountPayable_59275180212
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Order_setAmountPayable_59275180212
+[INFO] Running com.shark.erp.entity.Order_getChange_151497691238
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_getChange_151497691238
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setInventory_16139922917
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.GoodsMonitor_setInventory_16139922917
+[INFO] Running com.shark.erp.entity.Goods_getPurchaseTime_42495248626
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_getPurchaseTime_42495248626
+[INFO] Running com.shark.erp.entity.Goods_setPurchaseTime_56938833810
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Goods_setPurchaseTime_56938833810
+[INFO] Running com.shark.erp.entity.Order_setSalesTime_55544595120
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_setSalesTime_55544595120
+[INFO] Running com.shark.erp.entity.Admin_getUsername_14871114510
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Admin_getUsername_14871114510
+[INFO] Running com.shark.erp.entity.Customer_setName_212353834
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Customer_setName_212353834
+[INFO] Running com.shark.erp.entity.ReturnGoods_getState_82848771128
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_getState_82848771128
+[INFO] Running com.shark.erp.entity.Goods_setInventory_177988380933
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_setInventory_177988380933
+[INFO] Running com.shark.erp.entity.Order_getId_52017649024
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Order_getId_52017649024
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setId_4111532862
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.GoodsMonitor_setId_4111532862
+[INFO] Running com.shark.erp.entity.Purchase_getPurchaseTime_15592236911
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Purchase_getPurchaseTime_15592236911
+[INFO] Running com.shark.erp.entity.ReturnGoods_setOrderId_102895145810
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ReturnGoods_setOrderId_102895145810
+[INFO] Running com.shark.erp.entity.Customer_setPoint_19769832996
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Customer_setPoint_19769832996
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getGoodsName_7290762285
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_getGoodsName_7290762285
+[INFO] Running com.shark.erp.entity.Admin_getPassword_90649512212
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Admin_getPassword_90649512212
+[INFO] Running com.shark.erp.entity.ReturnGoods_setOrderId_102895145825
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ReturnGoods_setOrderId_102895145825
+[INFO] Running com.shark.erp.entity.Order_getAmountPayable_39237168234
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_getAmountPayable_39237168234
+[INFO] Running com.shark.erp.entity.Goods_setCategory_198844102621
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Goods_setCategory_198844102621
+[INFO] Running com.shark.erp.entity.Goods_setCategory_19884410264
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Goods_setCategory_19884410264
+[INFO] Running com.shark.erp.entity.Purchase_getGoodsId_201783720116
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Purchase_getGoodsId_201783720116
+[INFO] Running com.shark.erp.entity.Goods_setExpirationTime_82472144029
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Goods_setExpirationTime_82472144029
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setOrderId_31605736110
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.shark.erp.entity.ExchangeGoods_setOrderId_31605736110
+[INFO] Running com.shark.erp.entity.Purchase_setPurchasePrice_156546198510
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Purchase_setPurchasePrice_156546198510
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getGoodsName_1300758112
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.GoodsMonitor_getGoodsName_1300758112
+[INFO] Running com.shark.erp.entity.Customer_init_11123392977
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Customer_init_11123392977
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getState_51652110828
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_getState_51652110828
+[INFO] Running com.shark.erp.entity.Order_setGoodsName_197245739929
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setGoodsName_197245739929
+[INFO] Running com.shark.erp.entity.Admin_setUsername_14376312954
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Admin_setUsername_14376312954
+[INFO] Running com.shark.erp.entity.Order_getGoodsId_19802840843
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_getGoodsId_19802840843
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getGoodsName_72907622820
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_getGoodsName_72907622820
+[INFO] Running com.shark.erp.entity.Goods_setGoodsName_20910328976
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Goods_setGoodsName_20910328976
+[INFO] Running com.shark.erp.entity.Order_setId_17110539722
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Order_setId_17110539722
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setCustomerId_16891117078
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_setCustomerId_16891117078
+[INFO] Running com.shark.erp.entity.Purchase_getGoodsId_20178372013
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Purchase_getGoodsId_20178372013
+[INFO] Running com.shark.erp.entity.Purchase_setSupplier_2524139416
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Purchase_setSupplier_2524139416
+[INFO] Running com.shark.erp.entity.Order_getSalesTime_71820339142
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_getSalesTime_71820339142
+[INFO] Running com.shark.erp.entity.Purchase_getPurchasePrice_176584210522
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Purchase_getPurchasePrice_176584210522
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setCustomerId_168911170723
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.ExchangeGoods_setCustomerId_168911170723
+[INFO] Running com.shark.erp.entity.Order_getCustomerId_11728152567
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_getCustomerId_11728152567
+[INFO] Running com.shark.erp.entity.Admin_setPassword_18021297346
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Admin_setPassword_18021297346
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getState_51652110813
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_getState_51652110813
+[INFO] Running com.shark.erp.entity.Goods_getId_2886994901
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Goods_getId_2886994901
+[INFO] Running com.shark.erp.entity.Purchase_setId_16735008552
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Purchase_setId_16735008552
+[INFO] Running com.shark.erp.entity.Purchase_setQuantity_11201758158
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.entity.Purchase_setQuantity_11201758158
+[INFO] Running com.shark.erp.entity.ReturnGoods_getOrderId_17133959569
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.ReturnGoods_getOrderId_17133959569
+[INFO] Running com.shark.erp.entity.Order_setAmountPayable_59275180235
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Order_setAmountPayable_59275180235
+[INFO] Running com.shark.erp.entity.Order_getAmountPayable_39237168211
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_getAmountPayable_39237168211
+[INFO] Running com.shark.erp.entity.Order_getState_194719733744
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.Order_getState_194719733744
+[INFO] Running com.shark.erp.entity.Order_getCustomerId_117281525630
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_getCustomerId_117281525630
+[INFO] Running com.shark.erp.entity.Admin_init_6714705627
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Admin_init_6714705627
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getId_91049973916
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.ExchangeGoods_getId_91049973916
+[INFO] Running com.shark.erp.entity.Goods_getId_28869949018
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Goods_getId_28869949018
+[INFO] Running com.shark.erp.entity.Order_getQuantity_193548739832
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Order_getQuantity_193548739832
+[INFO] Running com.shark.erp.entity.Purchase_getPurchaseTime_15592236924
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Purchase_getPurchaseTime_15592236924
+[INFO] Running com.shark.erp.entity.Goods_init_48948199317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_init_48948199317
+[INFO] Running com.shark.erp.entity.Order_setPoint_112264899541
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setPoint_112264899541
+[INFO] Running com.shark.erp.entity.ExchangeGoods_init_168868122215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.ExchangeGoods_init_168868122215
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getId_165258354810
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.GoodsMonitor_getId_165258354810
+[INFO] Running com.shark.erp.entity.ReturnGoods_getGoodsName_6159325915
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ReturnGoods_getGoodsName_6159325915
+[INFO] Running com.shark.erp.entity.ReturnGoods_setReturnTime_105434878527
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_setReturnTime_105434878527
+[INFO] Running com.shark.erp.entity.Order_setSalesTime_55544595143
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setSalesTime_55544595143
+[INFO] Running com.shark.erp.entity.Purchase_setGoodsId_72451021317
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Purchase_setGoodsId_72451021317
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getCustomerId_16914758117
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_getCustomerId_16914758117
+[INFO] Running com.shark.erp.entity.ReturnGoods_setReturnTime_105434878512
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ReturnGoods_setReturnTime_105434878512
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getOrderId_123656252124
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ExchangeGoods_getOrderId_123656252124
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setState_9285269214
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_setState_9285269214
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setId_41115328611
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.GoodsMonitor_setId_41115328611
+[INFO] Running com.shark.erp.entity.ReturnGoods_getCustomerId_3464669927
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ReturnGoods_getCustomerId_3464669927
+[INFO] Running com.shark.erp.entity.Order_setCustomerId_2584354788
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Order_setCustomerId_2584354788
+[INFO] Running com.shark.erp.entity.Order_setGoodsId_76206333027
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.shark.erp.entity.Order_setGoodsId_76206333027
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setTimeDiff_7437906916
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.GoodsMonitor_setTimeDiff_7437906916
+[INFO] Running com.shark.erp.entity.Purchase_setQuantity_112017581521
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Purchase_setQuantity_112017581521
+[INFO] Running com.shark.erp.entity.Order_getAmountPaid_156612634013
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.Order_getAmountPaid_156612634013
+[INFO] Running com.shark.erp.entity.Order_getAmountPaid_156612634036
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_getAmountPaid_156612634036
+[INFO] Running com.shark.erp.entity.Purchase_getQuantity_18979342817
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Purchase_getQuantity_18979342817
+[INFO] Running com.shark.erp.entity.ReturnGoods_setGoodsName_45317515121
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_setGoodsName_45317515121
+[INFO] Running com.shark.erp.entity.ReturnGoods_getGoodsId_79540096418
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.ReturnGoods_getGoodsId_79540096418
+[INFO] Running com.shark.erp.entity.Admin_setId_21245195419
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Admin_setId_21245195419
+[INFO] Running com.shark.erp.entity.Order_getState_194719733721
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_getState_194719733721
+[INFO] Running com.shark.erp.entity.Goods_getCategory_72018383020
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Goods_getCategory_72018383020
+[INFO] Running com.shark.erp.entity.ReturnGoods_setId_1917717242
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_setId_1917717242
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getGoodsId_54960785518
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_getGoodsId_54960785518
+[INFO] Running com.shark.erp.entity.Order_setQuantity_115772893233
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.Order_setQuantity_115772893233
+[INFO] Running com.shark.erp.entity.Purchase_getSupplier_183875638118
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Purchase_getSupplier_183875638118
+[INFO] Running com.shark.erp.entity.Order_setChange_157099678439
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setChange_157099678439
+[INFO] Running com.shark.erp.entity.Admin_getUsername_1487111453
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Admin_getUsername_1487111453
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setExchangeTime_163469743127
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.ExchangeGoods_setExchangeTime_163469743127
+[INFO] Running com.shark.erp.entity.Order_setState_152352892145
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_setState_152352892145
+[INFO] Running com.shark.erp.entity.Order_getSalesTime_71820339119
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_getSalesTime_71820339119
+[INFO] Running com.shark.erp.entity.Purchase_init_22045187613
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Purchase_init_22045187613
+[INFO] Running com.shark.erp.entity.ReturnGoods_setGoodsId_75721891819
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ReturnGoods_setGoodsId_75721891819
+[INFO] Running com.shark.erp.entity.Goods_setProductionTime_4598800428
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_setProductionTime_4598800428
+[INFO] Running com.shark.erp.entity.GoodsMonitor_init_18642022650
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.GoodsMonitor_init_18642022650
+[INFO] Running com.shark.erp.entity.Customer_getName_169864118510
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Customer_getName_169864118510
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getExchangeTime_64035660726
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_getExchangeTime_64035660726
+[INFO] Running com.shark.erp.entity.Admin_setPassword_180212973413
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Admin_setPassword_180212973413
+[INFO] Running com.shark.erp.entity.ReturnGoods_getCustomerId_34646699222
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ReturnGoods_getCustomerId_34646699222
+[INFO] Running com.shark.erp.entity.ReturnGoods_getState_82848771113
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_getState_82848771113
+[INFO] Running com.shark.erp.entity.Customer_getPoint_3775515075
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Customer_getPoint_3775515075
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setGoodsId_210222773719
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ExchangeGoods_setGoodsId_210222773719
+[INFO] Running com.shark.erp.entity.Goods_getExpirationTime_121548722428
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Goods_getExpirationTime_121548722428
+[INFO] Running com.shark.erp.entity.Goods_init_4894819930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_init_4894819930
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getInventory_16067097217
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.GoodsMonitor_getInventory_16067097217
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getId_16525835481
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.GoodsMonitor_getId_16525835481
+[INFO] Running com.shark.erp.entity.GoodsMonitor_init_18642022659
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.GoodsMonitor_init_18642022659
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setInventory_1613992298
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.GoodsMonitor_setInventory_1613992298
+[INFO] Running com.shark.erp.entity.ReturnGoods_setCustomerId_12608467708
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_setCustomerId_12608467708
+[INFO] Running com.shark.erp.entity.Order_getQuantity_19354873989
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_getQuantity_19354873989
+[INFO] Running com.shark.erp.entity.Purchase_getPurchasePrice_17658421059
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Purchase_getPurchasePrice_17658421059
+[INFO] Running com.shark.erp.entity.ReturnGoods_getGoodsId_7954009643
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ReturnGoods_getGoodsId_7954009643
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setId_11532370952
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.ExchangeGoods_setId_11532370952
+[INFO] Running com.shark.erp.entity.ReturnGoods_setState_125215612729
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ReturnGoods_setState_125215612729
+[INFO] Running com.shark.erp.entity.Order_setState_152352892122
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_setState_152352892122
+[INFO] Running com.shark.erp.entity.Customer_getId_3341578148
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Customer_getId_3341578148
+[INFO] Running com.shark.erp.entity.Goods_getUnitPrice_68566196730
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Goods_getUnitPrice_68566196730
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setGoodsName_8918336686
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ExchangeGoods_setGoodsName_8918336686
+[INFO] Running com.shark.erp.entity.Order_getGoodsName_213521483928
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Order_getGoodsName_213521483928
+[INFO] Running com.shark.erp.entity.Purchase_getId_5577296071
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Purchase_getId_5577296071
+[INFO] Running com.shark.erp.entity.Purchase_getId_55772960714
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Purchase_getId_55772960714
+[INFO] Running com.shark.erp.entity.Goods_getPurchaseTime_4249524869
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Goods_getPurchaseTime_4249524869
+[INFO] Running com.shark.erp.entity.Goods_getProductionTime_691142587
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.Goods_getProductionTime_691142587
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getOrderId_12365625219
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_getOrderId_12365625219
+[INFO] Running com.shark.erp.entity.ReturnGoods_setId_19177172417
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.ReturnGoods_setId_19177172417
+[INFO] Running com.shark.erp.entity.ReturnGoods_getId_20394587381
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.ReturnGoods_getId_20394587381
+[INFO] Running com.shark.erp.entity.Goods_getGoodsName_192827545722
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Goods_getGoodsName_192827545722
+[INFO] Running com.shark.erp.entity.Order_setCustomerId_25843547831
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.Order_setCustomerId_25843547831
+[INFO] Running com.shark.erp.entity.ReturnGoods_getReturnTime_179089738311
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.shark.erp.entity.ReturnGoods_getReturnTime_179089738311
+[INFO] Running com.shark.erp.entity.Customer_setId_17295790209
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Customer_setId_17295790209
+[INFO] Running com.shark.erp.entity.Order_setAmountPaid_135646509214
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.shark.erp.entity.Order_setAmountPaid_135646509214
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setGoodsId_21022277374
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.ExchangeGoods_setGoodsId_21022277374
+[INFO] Running com.shark.erp.entity.Purchase_setPurchaseTime_83841845525
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Purchase_setPurchaseTime_83841845525
+[INFO] Running com.shark.erp.entity.Goods_setUnitPrice_71715535331
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Goods_setUnitPrice_71715535331
+[INFO] Running com.shark.erp.entity.Order_getPoint_123188581140
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_getPoint_123188581140
+[INFO] Running com.shark.erp.entity.Goods_getCategory_7201838303
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.shark.erp.entity.Goods_getCategory_7201838303
+[INFO] Running com.shark.erp.entity.Order_init_25800499323
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Order_init_25800499323
+[INFO] Running com.shark.erp.entity.Goods_setInventory_177988380916
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.shark.erp.entity.Goods_setInventory_177988380916
+[INFO] Running com.shark.erp.entity.ReturnGoods_getReturnTime_179089738326
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_getReturnTime_179089738326
+[INFO] Running com.shark.erp.entity.Goods_setPurchaseTime_56938833827
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Goods_setPurchaseTime_56938833827
+[INFO] Running com.shark.erp.entity.Order_getGoodsId_198028408426
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_getGoodsId_198028408426
+[INFO] Running com.shark.erp.entity.Purchase_setPurchaseTime_83841845512
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.Purchase_setPurchaseTime_83841845512
+[INFO] Running com.shark.erp.entity.Goods_getGoodsName_19282754575
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Goods_getGoodsName_19282754575
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setId_115323709517
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.entity.ExchangeGoods_setId_115323709517
+[INFO] Running com.shark.erp.entity.Order_setAmountPaid_135646509237
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Order_setAmountPaid_135646509237
+[INFO] Running com.shark.erp.entity.Order_init_2580049930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.entity.Order_init_2580049930
+[INFO] Running com.shark.erp.entity.Order_setQuantity_115772893210
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Order_setQuantity_115772893210
+[INFO] Running com.shark.erp.entity.GoodsMonitor_setGoodsName_1497498594
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.GoodsMonitor_setGoodsName_1497498594
+[INFO] Running com.shark.erp.entity.Admin_getId_1067109218
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Admin_getId_1067109218
+[INFO] Running com.shark.erp.entity.ReturnGoods_init_12612772550
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_init_12612772550
+[INFO] Running com.shark.erp.entity.Goods_getExpirationTime_121548722411
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.Goods_getExpirationTime_121548722411
+[INFO] Running com.shark.erp.entity.Customer_setPoint_197698329913
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Customer_setPoint_197698329913
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getTimeDiff_152154915714
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.GoodsMonitor_getTimeDiff_152154915714
+[INFO] Running com.shark.erp.entity.Goods_setExpirationTime_82472144012
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Goods_setExpirationTime_82472144012
+[INFO] Running com.shark.erp.entity.Purchase_setPurchasePrice_156546198523
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.Purchase_setPurchasePrice_156546198523
+[INFO] Running com.shark.erp.entity.Customer_getPoint_37755150712
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.entity.Customer_getPoint_37755150712
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setOrderId_31605736125
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_setOrderId_31605736125
+[INFO] Running com.shark.erp.entity.ReturnGoods_getOrderId_171339595624
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.shark.erp.entity.ReturnGoods_getOrderId_171339595624
+[INFO] Running com.shark.erp.entity.ReturnGoods_getId_203945873816
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ReturnGoods_getId_203945873816
+[INFO] Running com.shark.erp.entity.GoodsMonitor_getTimeDiff_15215491575
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.GoodsMonitor_getTimeDiff_15215491575
+[INFO] Running com.shark.erp.entity.ExchangeGoods_getId_9104997391
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.entity.ExchangeGoods_getId_9104997391
+[INFO] Running com.shark.erp.entity.Customer_init_11123392970
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.Customer_init_11123392970
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setState_9285269229
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.entity.ExchangeGoods_setState_9285269229
+[INFO] Running com.shark.erp.entity.ReturnGoods_setGoodsName_4531751516
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ReturnGoods_setGoodsName_4531751516
+[INFO] Running com.shark.erp.entity.ExchangeGoods_setExchangeTime_163469743112
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.shark.erp.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
+WARNING: Please consider reporting this to the maintainers of com.shark.erp.entity.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.entity.ExchangeGoods_setExchangeTime_163469743112
+[INFO] Running com.shark.erp.controller.PurchaseController_init_5221504250
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.controller.PurchaseController_init_5221504250
+[INFO] Running com.shark.erp.controller.ReturnGoodsController_init_676883700
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.controller.ReturnGoodsController_init_676883700
+[INFO] Running com.shark.erp.controller.ReturnGoodsController_init_676883701
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.controller.ReturnGoodsController_init_676883701
+[INFO] Running com.shark.erp.controller.GoodsController_init_218679381
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.controller.GoodsController_init_218679381
+[INFO] Running com.shark.erp.controller.GoodsController_init_218679380
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.controller.GoodsController_init_218679380
+[INFO] Running com.shark.erp.controller.ExchangeGoodsController_init_11550133491
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.controller.ExchangeGoodsController_init_11550133491
+[INFO] Running com.shark.erp.controller.GoodsMonitorController_init_4854910941
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.controller.GoodsMonitorController_init_4854910941
+[INFO] Running com.shark.erp.controller.OrderController_init_13039418020
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.controller.OrderController_init_13039418020
+[INFO] Running com.shark.erp.controller.OrderController_init_13039418021
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.controller.OrderController_init_13039418021
+[INFO] Running com.shark.erp.controller.CustomerController_init_15614881560
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.controller.CustomerController_init_15614881560
+[INFO] Running com.shark.erp.controller.ExchangeGoodsController_init_11550133490
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.controller.ExchangeGoodsController_init_11550133490
+[INFO] Running com.shark.erp.controller.CustomerController_init_15614881561
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.controller.CustomerController_init_15614881561
+[INFO] Running com.shark.erp.controller.AdminController_init_17144063910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.controller.AdminController_init_17144063910
+[INFO] Running com.shark.erp.controller.HomeController_init_14812907571
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.controller.HomeController_init_14812907571
+[INFO] Running com.shark.erp.controller.AdminController_init_17144063911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.controller.AdminController_init_17144063911
+[INFO] Running com.shark.erp.controller.GoodsMonitorController_init_4854910940
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.controller.GoodsMonitorController_init_4854910940
+[INFO] Running com.shark.erp.controller.HomeController_init_14812907570
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.controller.HomeController_init_14812907570
+[INFO] Running com.shark.erp.controller.PurchaseController_init_5221504251
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.controller.PurchaseController_init_5221504251
+[INFO] Running com.shark.erp.ErpApplication_init_12507280200
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.ErpApplication_init_12507280200
+[INFO] Running com.shark.erp.ErpApplication_main_8741650161
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2026-04-08 06:11:12.060  INFO 9327 --- [me-limited test] com.shark.erp.ErpApplication             : Starting ErpApplication using Java 11.0.16 on 181c57b94622 with PID 9327 (started by root in /app)
+2026-04-08 06:11:12.063  INFO 9327 --- [me-limited test] com.shark.erp.ErpApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 06:11:13.194  INFO 9327 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:11:13.204  INFO 9327 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:11:13.204  INFO 9327 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2026-04-08 06:11:13.307  INFO 9327 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:11:13.307  INFO 9327 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2026-04-08 06:11:13.946  INFO 9327 --- [me-limited test] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-08 06:11:14.131  INFO 9327 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:11:14.140  INFO 9327 --- [me-limited test] com.shark.erp.ErpApplication             : Started ErpApplication in 2.604 seconds (JVM running for 3.42)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.82 s - in com.shark.erp.ErpApplication_main_8741650161
+[INFO] Running com.shark.erp.service.ReturnGoodsService_init_3917917041
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.service.ReturnGoodsService_init_3917917041
+[INFO] Running com.shark.erp.service.PurchaseService_init_4653597931
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.service.PurchaseService_init_4653597931
+[INFO] Running com.shark.erp.service.GoodsService_init_2961886321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.shark.erp.service.GoodsService_init_2961886321
+[INFO] Running com.shark.erp.service.ReturnGoodsService_init_3917917040
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.service.ReturnGoodsService_init_3917917040
+[INFO] Running com.shark.erp.service.CustomerService_init_20726757960
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.service.CustomerService_init_20726757960
+[INFO] Running com.shark.erp.service.ExchangeGoodsService_init_20225857971
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.shark.erp.service.ExchangeGoodsService_init_20225857971
+[INFO] Running com.shark.erp.service.CustomerService_init_20726757961
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.shark.erp.service.CustomerService_init_20726757961
+[INFO] Running com.shark.erp.service.GoodsMonitorService_init_17951113100
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.service.GoodsMonitorService_init_17951113100
+[INFO] Running com.shark.erp.service.GoodsService_init_2961886320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.service.GoodsService_init_2961886320
+[INFO] Running com.shark.erp.service.OrderService_init_19413721921
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.service.OrderService_init_19413721921
+[INFO] Running com.shark.erp.service.ExchangeGoodsService_init_20225857970
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.shark.erp.service.ExchangeGoodsService_init_20225857970
+[INFO] Running com.shark.erp.service.PurchaseService_init_4653597930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.shark.erp.service.PurchaseService_init_4653597930
+[INFO] Running com.shark.erp.service.GoodsMonitorService_init_17951113101
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.shark.erp.service.GoodsMonitorService_init_17951113101
+[INFO] Running com.shark.erp.service.OrderService_init_19413721920
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.shark.erp.service.OrderService_init_19413721920
+[INFO] Running com.shark.erp.service.AdminService_init_11919748791
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.service.AdminService_init_11919748791
+[INFO] Running com.shark.erp.service.AdminService_init_11919748790
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.service.AdminService_init_11919748790
+[INFO] Running com.shark.erp.ErpApplication_main_8741650163
+06:11:26.391 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.shark.erp.ErpApplication.main(ErpApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.shark.erp.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.shark.erp.ErpApplication_main_8741650163.test(ErpApplication_main_8741650163.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.272 s <<< FAILURE! - in com.shark.erp.ErpApplication_main_8741650163
+[ERROR] com.shark.erp.ErpApplication_main_8741650163.test  Time elapsed: 0.257 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.shark.erp.ErpApplication.main(ErpApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.shark.erp.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.shark.erp.ErpApplication_main_8741650163.test(ErpApplication_main_8741650163.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[INFO] Running com.shark.erp.ErpApplication_init_12507280202
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.shark.erp.ErpApplication_init_12507280202
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   ErpApplication_main_8741650163.test:44 » IllegalArgument Args must not be null
+[INFO] 
+[ERROR] Tests run: 250, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[ERROR] 
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ ERP ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'ERP' with 28 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ ERP ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'ERP' with 28 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:01 min
+[INFO] Finished at: 2026-04-08T06:11:27Z
+[INFO] ------------------------------------------------------------------------

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: game.CollisionDetector_collision_14609001613
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.CollisionDetector_collision_14609001613)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.CollisionDetector_collision_14609001613)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.CollisionDetector.collision(CollisionDetector.java:13)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_checkInsertionPoint_8491938658
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_checkInsertionPoint_8491938658)  Time elapsed: 0.023 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_checkInsertionPoint_8491938658)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.RuntimeException: BUG in TreeTableRowSorter: a new SortRow with model index: -1628536749 was found to already exist in the ViewToModelIndex at position 748022063
 	at net.byteseek.swing.treetable.TreeTableRowSorter.checkInsertionPoint(TreeTableRowSorter.java:1318)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

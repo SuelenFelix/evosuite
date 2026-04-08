@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Genome_newConnection_193562714023
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_newConnection_193562714023)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Genome_newConnection_193562714023)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.randomWeight(Genome.java:132)
 	at nn.model.Genome.newConnection(Genome.java:36)

@@ -1,0 +1,271 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< com.rnd:aws >-----------------------------
+[INFO] Building aws 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ aws ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ aws ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ aws ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ aws ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /app/target/classes
+[INFO] /app/src/main/java/com/rnd/aws/controller/WelcomeController.java: Some input files use unchecked or unsafe operations.
+[INFO] /app/src/main/java/com/rnd/aws/controller/WelcomeController.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ aws ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ aws ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ aws ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 52 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/util/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/controller/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/util/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/util/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/util/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/controller/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/controller/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/rnd/aws/controller/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/rnd/aws/model/StatusCode_init_7007927345.java: /app/src/test/java/kex-tests/tests/com/rnd/aws/model/StatusCode_init_7007927345.java uses or overrides a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/rnd/aws/model/StatusCode_init_7007927345.java: Recompile with -Xlint:deprecation for details.
+[INFO] /app/src/test/java/kex-tests/tests/com/rnd/aws/util/Util_toDtoList_14816318233.java: /app/src/test/java/kex-tests/tests/com/rnd/aws/util/Util_toDtoList_14816318233.java uses unchecked or unsafe operations.
+[INFO] /app/src/test/java/kex-tests/tests/com/rnd/aws/util/Util_toDtoList_14816318233.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ aws ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.rnd.aws.model.StatusCode_init_7007927342
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_init_7007927342
+[ERROR] test  Time elapsed: 0.033 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.rnd.aws.model.StatusCode_init_7007927342.test(StatusCode_init_7007927342.java:42)
+
+[INFO] Running com.rnd.aws.model.StatusCode_init_7007927345
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_init_7007927345
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Cannot reflectively create enum objects
+	at com.rnd.aws.model.StatusCode_init_7007927345.test(StatusCode_init_7007927345.java:47)
+
+[INFO] Running com.rnd.aws.model.ErrorModel_getField_3488791745
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getField_3488791745
+[INFO] Running com.rnd.aws.model.ErrorModel_init_55274450010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_55274450010
+[INFO] Running com.rnd.aws.model.ErrorModel_getDescription_10736635567
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_getDescription_10736635567
+[INFO] Running com.rnd.aws.model.StatusCode_valueOf_7093995564
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_valueOf_7093995564
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at com.rnd.aws.model.StatusCode_valueOf_7093995564.test(StatusCode_valueOf_7093995564.java:49)
+
+[INFO] Running com.rnd.aws.model.ErrorModel_getMessage_19741050813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getMessage_19741050813
+[INFO] Running com.rnd.aws.model.ErrorModel_init_1584981562
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_1584981562
+[INFO] Running com.rnd.aws.model.StatusCode_valueOf_7093995561
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_valueOf_7093995561
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.rnd.aws.model.StatusCode.PAEBtnZtTD
+	at com.rnd.aws.model.StatusCode_valueOf_7093995561.test(StatusCode_valueOf_7093995561.java:42)
+
+[INFO] Running com.rnd.aws.model.ErrorModel_init_5527445001
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_init_5527445001
+[INFO] Running com.rnd.aws.model.ErrorModel_init_7049976230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_7049976230
+[INFO] Running com.rnd.aws.model.ErrorModel_setMessage_15093811914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setMessage_15093811914
+[INFO] Running com.rnd.aws.model.ErrorModel_getDescription_107366355616
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getDescription_107366355616
+[INFO] Running com.rnd.aws.model.ErrorModel_init_15849815611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_init_15849815611
+[INFO] Running com.rnd.aws.model.ErrorModel_getMessage_197410508112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_getMessage_197410508112
+[INFO] Running com.rnd.aws.model.ErrorModel_setMessage_150938119113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_setMessage_150938119113
+[INFO] Running com.rnd.aws.model.ErrorModel_setDescription_9706127408
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_setDescription_9706127408
+[INFO] Running com.rnd.aws.model.ErrorModel_setDescription_97061274017
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setDescription_97061274017
+[INFO] Running com.rnd.aws.model.ErrorModel_init_7049976239
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_7049976239
+[INFO] Running com.rnd.aws.model.ErrorModel_setField_7725475906
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setField_7725475906
+[INFO] Running com.rnd.aws.model.ErrorModel_getField_34887917414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getField_34887917414
+[INFO] Running com.rnd.aws.model.ErrorModel_setField_77254759015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setField_77254759015
+[INFO] Running com.rnd.aws.model.StatusCode_values_2173691533
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.StatusCode_values_2173691533
+[INFO] Running com.rnd.aws.model.StatusCode_values_2173691530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.StatusCode_values_2173691530
+[INFO] Running com.rnd.aws.AwsApplication_main_13774330731
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.14)
+
+2026-04-08 06:37:08.554  INFO 77 --- [me-limited test] com.rnd.aws.AwsApplication               : Starting AwsApplication using Java 11.0.16 on 409ec6a9a51e with PID 77 (started by root in /app)
+2026-04-08 06:37:08.565  INFO 77 --- [me-limited test] com.rnd.aws.AwsApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-04-08 06:37:10.451  INFO 77 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:37:10.463  INFO 77 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:37:10.463  INFO 77 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2026-04-08 06:37:10.607  INFO 77 --- [me-limited test] o.a.c.c.C.[.[localhost].[/aws-demo]      : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:37:10.609  INFO 77 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1793 ms
+2026-04-08 06:37:11.115  INFO 77 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/aws-demo'
+2026-04-08 06:37:11.129  INFO 77 --- [me-limited test] com.rnd.aws.AwsApplication               : Started AwsApplication in 3.782 seconds (JVM running for 5.246)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.157 s - in com.rnd.aws.AwsApplication_main_13774330731
+[INFO] Running com.rnd.aws.AwsApplication_init_10008700690
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.rnd.aws.AwsApplication_init_10008700690
+[INFO] Running com.rnd.aws.controller.HealthController_init_10204080331
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.controller.HealthController_init_10204080331
+[INFO] Running com.rnd.aws.controller.HealthController_init_10204080330
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.controller.HealthController_init_10204080330
+[INFO] Running com.rnd.aws.controller.WelcomeController_init_542699650
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.rnd.aws.controller.WelcomeController_init_542699650
+[INFO] Running com.rnd.aws.controller.WelcomeController_init_542699651
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.controller.WelcomeController_init_542699651
+[INFO] Running com.rnd.aws.util.Util_copyProperty_12047119892
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.rnd.aws.util.Util_copyProperty_12047119892
+[INFO] Running com.rnd.aws.util.Util_copyProperty_12047119897
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.rnd.aws.util.Util_copyProperty_12047119897
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: source cannot be null
+	at com.rnd.aws.util.Util_copyProperty_12047119897.test(Util_copyProperty_12047119897.java:44)
+
+[INFO] Running com.rnd.aws.util.Util_convertClass_6943517421
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.rnd.aws.util.Util_convertClass_6943517421
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: destinationType cannot be null
+	at com.rnd.aws.util.Util_convertClass_6943517421.test(Util_convertClass_6943517421.java:46)
+
+[INFO] Running com.rnd.aws.util.Util_prepareSuccessResponse_16636040849
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.util.Util_prepareSuccessResponse_16636040849
+[INFO] Running com.rnd.aws.util.Util_init_8313619555
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_init_8313619555
+[INFO] Running com.rnd.aws.util.Util_toDtoList_14816318238
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.util.Util_toDtoList_14816318238
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.rnd.aws.util.Util_toDtoList_14816318238.test(Util_toDtoList_14816318238.java:44)
+
+[INFO] Running com.rnd.aws.util.ErrorUtil_init_9607379210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.ErrorUtil_init_9607379210
+[INFO] Running com.rnd.aws.util.Util_toDtoList_14816318233
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rnd.aws.util.Util_toDtoList_14816318233
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: destinationType cannot be null
+	at com.rnd.aws.util.Util_toDtoList_14816318233.test(Util_toDtoList_14816318233.java:56)
+
+[INFO] Running com.rnd.aws.util.ErrorUtil_init_9607379211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.ErrorUtil_init_9607379211
+[INFO] Running com.rnd.aws.util.Util_convertClass_6943517426
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.util.Util_convertClass_6943517426
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: source cannot be null
+	at com.rnd.aws.util.Util_convertClass_6943517426.test(Util_convertClass_6943517426.java:44)
+
+[INFO] Running com.rnd.aws.util.Util_prepareSuccessResponse_16636040844
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_prepareSuccessResponse_16636040844
+[INFO] Running com.rnd.aws.util.Util_init_8313619550
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_init_8313619550
+[INFO] Running com.rnd.aws.AwsApplication_main_13774330733
+2026-04-08 06:37:11.252 ERROR 77 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1359)
+	at com.rnd.aws.AwsApplication.main(AwsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.rnd.aws.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at com.rnd.aws.AwsApplication_main_13774330733.test(AwsApplication_main_13774330733.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! - in com.rnd.aws.AwsApplication_main_13774330733
+[ERROR] test  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.IllegalArgumentException: Args must not be null
+	at com.rnd.aws.AwsApplication_main_13774330733.test(AwsApplication_main_13774330733.java:44)
+
+[INFO] Running com.rnd.aws.AwsApplication_init_10008700692
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.rnd.aws.AwsApplication_init_10008700692
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   AwsApplication_main_13774330733.test:44 » IllegalArgument Args must not be nul...
+[ERROR]   StatusCode_init_7007927342.test:42 » IllegalArgument Cannot reflectively creat...
+[ERROR]   StatusCode_init_7007927345.test:47 » IllegalArgument Cannot reflectively creat...
+[ERROR]   StatusCode_valueOf_7093995561.test:42 » IllegalArgument No enum constant com.r...
+[ERROR]   StatusCode_valueOf_7093995564.test:49 » NullPointer Name is null
+[ERROR]   Util_convertClass_6943517421.test:46 » IllegalArgument destinationType cannot ...
+[ERROR]   Util_convertClass_6943517426.test:44 » IllegalArgument source cannot be null
+[ERROR]   Util_copyProperty_12047119897.test:44 » IllegalArgument source cannot be null
+[ERROR]   Util_toDtoList_14816318233.test:56 » IllegalArgument destinationType cannot be...
+[ERROR]   Util_toDtoList_14816318238.test:44 » NullPointer
+[INFO] 
+[ERROR] Tests run: 44, Failures: 0, Errors: 10, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ aws ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'aws' with 10 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ aws ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'aws' with 10 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.262 s
+[INFO] Finished at: 2026-04-08T06:37:12Z
+[INFO] ------------------------------------------------------------------------

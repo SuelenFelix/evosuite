@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableColumnSortStrategy_toggleExistingSortKey_45746194313
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_toggleExistingSortKey_45746194313)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_toggleExistingSortKey_45746194313)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index: -894662986, Size: 5
 	at java.base/java.util.LinkedList.checkElementIndex(LinkedList.java:559)
 	at java.base/java.util.LinkedList.get(LinkedList.java:480)

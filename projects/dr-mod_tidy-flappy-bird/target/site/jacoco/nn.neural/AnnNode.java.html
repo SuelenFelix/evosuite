@@ -21,14 +21,14 @@ class AnnNode {
 <span class="fc" id="L21">    }</span>
 
     public void connectInput(AnnConnection connection) {
-<span class="fc" id="L24">        inputs.add(connection);</span>
-<span class="fc" id="L25">        connection.setOut(this);</span>
-<span class="fc" id="L26">    }</span>
+<span class="nc" id="L24">        inputs.add(connection);</span>
+<span class="nc" id="L25">        connection.setOut(this);</span>
+<span class="nc" id="L26">    }</span>
 
     public void connectOutput(AnnConnection connection) {
-<span class="fc" id="L29">        outputs.add(connection);</span>
-<span class="fc" id="L30">        connection.setIn(this);</span>
-<span class="fc" id="L31">    }</span>
+<span class="nc" id="L29">        outputs.add(connection);</span>
+<span class="nc" id="L30">        connection.setIn(this);</span>
+<span class="nc" id="L31">    }</span>
 
     public Double getOutput() {
 <span class="fc" id="L34">        return output;</span>
@@ -55,16 +55,16 @@ class AnnNode {
 <span class="fc" id="L55">    }</span>
 
     public double calculateRecoursiveOutput(Function&lt;Double, Double&gt; activation, int deepCount) {
-<span class="fc bfc" id="L58" title="All 2 branches covered.">        if (deepCount == 1000) throw new RuntimeException(&quot;Recurrent&quot;);</span>
-<span class="fc bfc" id="L59" title="All 2 branches covered.">        if (output != null) return output;</span>
-<span class="fc bfc" id="L60" title="All 2 branches covered.">        if (type == AnnType.INPUT) throw new RuntimeException(&quot;Input node output is not set&quot;);</span>
+<span class="pc bpc" id="L58" title="1 of 2 branches missed.">        if (deepCount == 1000) throw new RuntimeException(&quot;Recurrent&quot;);</span>
+<span class="pc bpc" id="L59" title="1 of 2 branches missed.">        if (output != null) return output;</span>
+<span class="nc bnc" id="L60" title="All 2 branches missed.">        if (type == AnnType.INPUT) throw new RuntimeException(&quot;Input node output is not set&quot;);</span>
 
-<span class="fc" id="L62">        double sum = inputs.stream()</span>
-<span class="fc" id="L63">                .mapToDouble(x -&gt; x.getWeight() * x.getIn().calculateRecoursiveOutput(activation, deepCount + 1))</span>
-<span class="fc" id="L64">                .sum();</span>
+<span class="nc" id="L62">        double sum = inputs.stream()</span>
+<span class="nc" id="L63">                .mapToDouble(x -&gt; x.getWeight() * x.getIn().calculateRecoursiveOutput(activation, deepCount + 1))</span>
+<span class="nc" id="L64">                .sum();</span>
 //        output = activation.apply(sum + bias);
-<span class="fc" id="L66">        output = activation.apply(sum);</span>
-<span class="fc" id="L67">        return output;</span>
+<span class="nc" id="L66">        output = activation.apply(sum);</span>
+<span class="nc" id="L67">        return output;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

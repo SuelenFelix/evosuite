@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_rowsUpdated_50941863716
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_rowsUpdated_50941863716)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_rowsUpdated_50941863716)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index out of range: 1835568392
 	at net.byteseek.swing.treetable.TreeTableRowSorter.checkValidIndex(TreeTableRowSorter.java:1304)
 	at net.byteseek.swing.treetable.TreeTableRowSorter.checkValidLastKnownIndices(TreeTableRowSorter.java:1278)

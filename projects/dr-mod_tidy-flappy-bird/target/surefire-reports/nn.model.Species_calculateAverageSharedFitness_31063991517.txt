@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Species_calculateAverageSharedFitness_31063991517
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Species_calculateAverageSharedFitness_31063991517)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Species_calculateAverageSharedFitness_31063991517)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Species.calculateAverageSharedFitness(Species.java:57)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

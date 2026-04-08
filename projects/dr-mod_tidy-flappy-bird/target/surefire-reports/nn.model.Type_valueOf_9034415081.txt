@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Type_valueOf_9034415081
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Type_valueOf_9034415081)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Type_valueOf_9034415081)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant nn.model.Type.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at nn.model.Type.valueOf(Type.java:3)

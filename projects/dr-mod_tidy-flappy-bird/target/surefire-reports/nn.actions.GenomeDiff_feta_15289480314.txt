@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.actions.GenomeDiff_feta_15289480314
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.actions.GenomeDiff_feta_15289480314)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.actions.GenomeDiff_feta_15289480314)  Time elapsed: 0 sec  <<< ERROR!
 java.util.NoSuchElementException: No value present
 	at java.base/java.util.OptionalDouble.getAsDouble(OptionalDouble.java:128)
 	at nn.actions.GenomeDiff.averageWeight(GenomeDiff.java:92)

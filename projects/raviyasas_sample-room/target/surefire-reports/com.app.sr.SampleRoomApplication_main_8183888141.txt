@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.app.sr.SampleRoomApplication_main_8183888141
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.109 s - in com.app.sr.SampleRoomApplication_main_8183888141
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.003 s <<< FAILURE! - in com.app.sr.SampleRoomApplication_main_8183888141
+test  Time elapsed: 9.996 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
+	at app//com.app.sr.SampleRoomApplication_main_8183888141.test(SampleRoomApplication_main_8183888141.java:50)
+

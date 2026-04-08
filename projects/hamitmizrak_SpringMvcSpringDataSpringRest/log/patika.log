@@ -77,3 +77,32 @@
 2026-04-08 02:07:38.393  INFO 70 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-04-08 02:07:38.395  INFO 70 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-04-08 02:07:38.397  INFO 70 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-08 06:12:25.096  INFO 76 --- [Time-limited test] SpringMvcSpringDataSpringRestApplication : Starting SpringMvcSpringDataSpringRestApplication using Java 11.0.16 on bd22cc04698e with PID 76 (started by root in /app)
+2026-04-08 06:12:25.098  INFO 76 --- [Time-limited test] SpringMvcSpringDataSpringRestApplication : No active profile set, falling back to default profiles: default
+2026-04-08 06:12:26.236  INFO 76 --- [Time-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08 06:12:26.308  INFO 76 --- [Time-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2026-04-08 06:12:26.921  INFO 76 --- [Time-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-08 06:12:26.932  INFO 76 --- [Time-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08 06:12:26.932  INFO 76 --- [Time-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-04-08 06:12:27.005  INFO 76 --- [Time-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-08 06:12:27.005  INFO 76 --- [Time-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1861 ms
+2026-04-08 06:12:27.128  INFO 76 --- [Time-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08 06:12:27.402  INFO 76 --- [Time-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08 06:12:27.416  INFO 76 --- [Time-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2026-04-08 06:12:27.625  INFO 76 --- [Time-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-08 06:12:27.684  INFO 76 --- [Time-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2026-04-08 06:12:27.838  INFO 76 --- [Time-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-08 06:12:27.960  INFO 76 --- [Time-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-08 06:12:28.648  INFO 76 --- [Time-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-08 06:12:28.655  INFO 76 --- [Time-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:12:29.095  WARN 76 --- [Time-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-08 06:12:29.158  INFO 76 --- [Time-limited test] com.innova.beantuto.BeanDto              : Beanim başladı Hayırlı olsun
+2026-04-08 06:12:29.259  INFO 76 --- [Time-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2820410b, org.springframework.security.web.context.SecurityContextPersistenceFilter@516a11d9, org.springframework.security.web.header.HeaderWriterFilter@63bf585f, org.springframework.security.web.csrf.CsrfFilter@3630e02d, org.springframework.security.web.authentication.logout.LogoutFilter@30586461, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63981cea, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5cf19b65, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@205cfc47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57effc40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cebce5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10c7ffee, org.springframework.security.web.session.SessionManagementFilter@7efa4de3, org.springframework.security.web.access.ExceptionTranslationFilter@39ed24e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cfa5b25]
+2026-04-08 06:12:29.549  INFO 76 --- [Time-limited test] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-08 06:12:30.322  INFO 76 --- [Time-limited test] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-08 06:12:30.364  INFO 76 --- [Time-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-08 06:12:30.376  INFO 76 --- [Time-limited test] SpringMvcSpringDataSpringRestApplication : Started SpringMvcSpringDataSpringRestApplication in 5.683 seconds (JVM running for 7.863)
+2026-04-08 06:12:30.631 ERROR 76 --- [SpringApplicationShutdownHook] com.innova.beantuto.BeanDto              : Beanim öldü Geçmiş olsun
+2026-04-08 06:12:30.634  INFO 76 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08 06:12:30.636  INFO 76 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08 06:12:30.638  INFO 76 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

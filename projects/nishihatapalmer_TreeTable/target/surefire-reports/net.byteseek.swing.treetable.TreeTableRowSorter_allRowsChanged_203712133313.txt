@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_allRowsChanged_203712133313
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.233 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_allRowsChanged_203712133313)  Time elapsed: 1.233 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.117 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_allRowsChanged_203712133313)  Time elapsed: 2.117 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at net.byteseek.swing.treetable.TreeTableRowSorter.buildViewToModelAsInts(TreeTableRowSorter.java:619)
 	at net.byteseek.swing.treetable.TreeTableRowSorter.sort(TreeTableRowSorter.java:562)

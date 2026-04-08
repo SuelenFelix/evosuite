@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeUtils_processCSVHeaders_12473675453
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.175 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeUtils_processCSVHeaders_12473675453)  Time elapsed: 0.175 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeUtils_processCSVHeaders_12473675453)  Time elapsed: 0 sec  <<< ERROR!
 java.io.IOException: Stream closed
 	at java.base/java.io.BufferedReader.ensureOpen(BufferedReader.java:122)
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:319)

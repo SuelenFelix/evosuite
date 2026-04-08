@@ -3,11 +3,8 @@ Test set: game.Game_loadGenome_76043159413
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(game.Game_loadGenome_76043159413)  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.NullPointerException: name can't be null
-	at java.base/java.io.FilePermission.init(FilePermission.java:321)
-	at java.base/java.io.FilePermission.<init>(FilePermission.java:488)
-	at java.base/java.lang.SecurityManager.checkRead(SecurityManager.java:661)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:146)
+java.lang.NullPointerException
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
 	at game.Game.loadGenome(Game.java:95)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

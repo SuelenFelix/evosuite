@@ -1,0 +1,252 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< jvms-compare:jvms-compare >----------------------
+[INFO] Building JVMs Compare 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jvms-compare ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ jvms-compare ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:build-classpath (build-classpath) @ jvms-compare ---
+[INFO] Dependencies classpath:
+/root/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/root/.m2/repository/org/eclipse/collections/eclipse-collections/10.0.0/eclipse-collections-10.0.0.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.0/junit-jupiter-5.5.0.jar:/root/.m2/repository/org/openjdk/jmh/jmh-core/1.23/jmh-core-1.23.jar:/root/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/root/.m2/repository/org/eclipse/collections/eclipse-collections-api/10.0.0/eclipse-collections-api-10.0.0.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jvms-compare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jvms-compare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ jvms-compare ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jvms-compare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jvms-compare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 46 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/benchmark/generated/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/jvmscompare/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jvms-compare ---
+[INFO] Surefire report directory: /app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running jvmscompare.JavaInformation_main_5396869071
+##### Heap utilization statistics [MB] #####
+Used Memory:6
+Free Memory:489
+Total Memory:496
+Max Memory:7848
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
+Running jvmscompare.JavaInformation_printJavaInformation_9773580142
+##### Heap utilization statistics [MB] #####
+Used Memory:9
+Free Memory:486
+Total Memory:496
+Max Memory:7848
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B2_init_2632512991
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_init_2632512681
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_init_19320543020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_init_19320543021
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_init_15579160400
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_init_1688338221
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_init_15579161020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_init_15579161021
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_init_15579160401
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_init_5690769201
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_init_2632512680
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_init_5690769821
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769511
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_init_5690769820
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B2_init_15579160710
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769510
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_init_2632513301
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B2_init_15579160711
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_init_16209416041
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_init_1688338220
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_init_5690769200
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B2_init_2632512990
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_init_2632513300
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_init_16209416040
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122921
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.PersonFilterOnly_init_19320396180
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122920
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.PersonFilterOnly_init_19320396181
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418220
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418221
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.Environment_init_7588249781
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.JavaInformation_init_9162499113
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.Person_init_6749180280
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.549 sec
+Running jvmscompare.JavaInformation_init_9162499110
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.JavaInformation_main_5396869074
+##### Heap utilization statistics [MB] #####
+Used Memory:151
+Free Memory:344
+Total Memory:496
+Max Memory:7848
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.JavaInformation_printJavaInformation_9773580145
+##### Heap utilization statistics [MB] #####
+Used Memory:152
+Free Memory:343
+Total Memory:496
+Max Memory:7848
+Java Runtime Environment version: 11.0.16
+Java Runtime Environment vendor: Oracle Corporation
+
+Java Runtime Name: OpenJDK Runtime Environment
+Java Runtime Version: 11.0.16+8
+
+Java Virtual Machine name: anonymous
+Java Virtual Machine vendor: Oracle Corporation
+Java Virtual Machine version: 11.0.16+8
+
+Java Class Version: 55.0
+
+Benchmark size: 1000000
+Benchmark forks: 2
+Benchmark warmups: 20
+Benchmark measurements: 10
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.Environment_init_7588249780
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.Person_init_6749180281
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ jvms-compare ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'JVMs Compare' with 80 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ jvms-compare ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'JVMs Compare' with 80 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.495 s
+[INFO] Finished at: 2026-04-08T06:06:50Z
+[INFO] ------------------------------------------------------------------------

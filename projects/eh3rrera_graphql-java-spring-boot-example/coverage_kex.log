@@ -1,0 +1,282 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:DemoGraphQL >-----------------------
+[INFO] Building DemoGraphQL 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ DemoGraphQL ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ DemoGraphQL ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
+[INFO] 
+[INFO] --- lombok-maven-plugin:1.18.20.0:delombok (default) @ DemoGraphQL ---
+[WARNING] Skipping Delombok; no source to process.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ DemoGraphQL ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DemoGraphQL ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /app/target/classes
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.3.0:add-test-source (add-kex-test-source) @ DemoGraphQL ---
+[INFO] Test Source directory: /app/src/test/java/kex-tests added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ DemoGraphQL ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DemoGraphQL ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 94 source files to /app/target/test-classes
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[9,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[13,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[17,31] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/ReflectionUtils.java:[19,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/Book_getTitle_8558580214.java: Some input files use or override a deprecated API.
+[INFO] /app/src/test/java/kex-tests/tests/com/example/DemoGraphQL/model/Book_getTitle_8558580214.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ DemoGraphQL ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.DemoGraphQL.MyProperties_getH2_11632191114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.example.DemoGraphQL.MyProperties_getH2_11632191114
+[INFO] Running com.example.DemoGraphQL.model.Author_getLastName_88103000219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getLastName_88103000219
+[INFO] Running com.example.DemoGraphQL.model.Author_init_113269066412
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_113269066412
+[INFO] Running com.example.DemoGraphQL.model.Book_setAuthor_34965284211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setAuthor_34965284211
+[INFO] Running com.example.DemoGraphQL.model.Book_getId_16254020372
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getId_16254020372
+[INFO] Running com.example.DemoGraphQL.model.Author_equals_3722115529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_equals_3722115529
+[INFO] Running com.example.DemoGraphQL.model.Author_setFirstName_2613481566
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setFirstName_2613481566
+[INFO] Running com.example.DemoGraphQL.model.Book_init_6440153540
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_6440153540
+[INFO] Running com.example.DemoGraphQL.model.Author_init_8717051621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_8717051621
+[INFO] Running com.example.DemoGraphQL.model.Book_setAuthor_34965284226
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setAuthor_34965284226
+[INFO] Running com.example.DemoGraphQL.model.Book_setTitle_127952643720
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setTitle_127952643720
+[INFO] Running com.example.DemoGraphQL.model.Book_getTitle_85585802119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getTitle_85585802119
+[INFO] Running com.example.DemoGraphQL.model.Author_setId_58134573916
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setId_58134573916
+[INFO] Running com.example.DemoGraphQL.model.Author_getFirstName_985907165
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getFirstName_985907165
+[INFO] Running com.example.DemoGraphQL.model.Book_getIsbn_6912796321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getIsbn_6912796321
+[INFO] Running com.example.DemoGraphQL.model.Book_hashCode_170023089528
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.example.DemoGraphQL.model.Book_hashCode_170023089528
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.DemoGraphQL.model.Book_hashCode_170023089528.test(Book_hashCode_170023089528.java:47)
+
+[INFO] Running com.example.DemoGraphQL.model.Book_init_20866139516
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_init_20866139516
+[INFO] Running com.example.DemoGraphQL.model.Author_getLastName_8810300027
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getLastName_8810300027
+[INFO] Running com.example.DemoGraphQL.model.Author_getId_15130398115
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getId_15130398115
+[INFO] Running com.example.DemoGraphQL.model.Author_init_11326906640
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_11326906640
+[INFO] Running com.example.DemoGraphQL.model.Book_hashCode_170023089513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_hashCode_170023089513
+[INFO] Running com.example.DemoGraphQL.model.Book_setIsbn_16507486057
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setIsbn_16507486057
+[INFO] Running com.example.DemoGraphQL.model.Book_setId_11953602793
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setId_11953602793
+[INFO] Running com.example.DemoGraphQL.model.Author_setLastName_182759485420
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setLastName_182759485420
+[INFO] Running com.example.DemoGraphQL.model.Author_hashCode_7647512310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_hashCode_7647512310
+[INFO] Running com.example.DemoGraphQL.model.Book_setTitle_12795264375
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setTitle_12795264375
+[INFO] Running com.example.DemoGraphQL.model.Book_setId_119536027918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setId_119536027918
+[INFO] Running com.example.DemoGraphQL.model.Author_setFirstName_26134815618
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_setFirstName_26134815618
+[INFO] Running com.example.DemoGraphQL.model.Book_getTitle_8558580214
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getTitle_8558580214
+[INFO] Running com.example.DemoGraphQL.model.Author_toString_58723481311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_toString_58723481311
+[INFO] Running com.example.DemoGraphQL.model.Book_getId_162540203717
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getId_162540203717
+[INFO] Running com.example.DemoGraphQL.model.Book_getPageCount_64880540623
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getPageCount_64880540623
+[INFO] Running com.example.DemoGraphQL.model.Author_setLastName_18275948548
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setLastName_18275948548
+[INFO] Running com.example.DemoGraphQL.model.Author_hashCode_7647512322
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.DemoGraphQL.model.Author_hashCode_7647512322
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.DemoGraphQL.model.Author_hashCode_7647512322.test(Author_hashCode_7647512322.java:45)
+
+[INFO] Running com.example.DemoGraphQL.model.Book_setIsbn_165074860522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setIsbn_165074860522
+[INFO] Running com.example.DemoGraphQL.model.Author_init_17098233042
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_17098233042
+[INFO] Running com.example.DemoGraphQL.model.Author_toString_58723481323
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_toString_58723481323
+[INFO] Running com.example.DemoGraphQL.model.Author_equals_37221155221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_equals_37221155221
+[INFO] Running com.example.DemoGraphQL.model.Book_init_64401535415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_64401535415
+[INFO] Running com.example.DemoGraphQL.model.Book_getIsbn_691279636
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getIsbn_691279636
+[INFO] Running com.example.DemoGraphQL.model.Book_setPageCount_111930354424
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setPageCount_111930354424
+[INFO] Running com.example.DemoGraphQL.model.Author_getFirstName_9859071617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getFirstName_9859071617
+[INFO] Running com.example.DemoGraphQL.model.Book_equals_214604972627
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_equals_214604972627
+[INFO] Running com.example.DemoGraphQL.model.Author_getId_1513039813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getId_1513039813
+[INFO] Running com.example.DemoGraphQL.model.Book_getAuthor_12662787010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_getAuthor_12662787010
+[INFO] Running com.example.DemoGraphQL.model.Book_getAuthor_12662787025
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getAuthor_12662787025
+[INFO] Running com.example.DemoGraphQL.model.Author_setId_5813457394
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setId_5813457394
+[INFO] Running com.example.DemoGraphQL.model.Author_init_170982330414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_170982330414
+[INFO] Running com.example.DemoGraphQL.model.Book_toString_118947120529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_toString_118947120529
+[INFO] Running com.example.DemoGraphQL.model.Book_getPageCount_6488054068
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getPageCount_6488054068
+[INFO] Running com.example.DemoGraphQL.model.Book_setPageCount_11193035449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setPageCount_11193035449
+[INFO] Running com.example.DemoGraphQL.model.Author_init_87170516213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_87170516213
+[INFO] Running com.example.DemoGraphQL.model.Book_equals_214604972612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_equals_214604972612
+[INFO] Running com.example.DemoGraphQL.model.Book_init_2086613951
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_2086613951
+[INFO] Running com.example.DemoGraphQL.model.Book_toString_118947120514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_toString_118947120514
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_equals_4306409010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_equals_4306409010
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440772
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440772
+[INFO] Running com.example.DemoGraphQL.MyProperties_setArtifactId_5420718445
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_5420718445
+[INFO] Running com.example.DemoGraphQL.MyProperties_init_20276357020
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_init_20276357020
+[INFO] Running com.example.DemoGraphQL.MyProperties_setVersion_119034165315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setVersion_119034165315
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_getVersion_1869369471
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_getVersion_1869369471
+[INFO] Running com.example.DemoGraphQL.MyProperties_toString_148217985110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_toString_148217985110
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_canEqual_84722671911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_canEqual_84722671911
+[INFO] Running com.example.DemoGraphQL.MyProperties_toString_148217985121
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_toString_148217985121
+[INFO] Running com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
+[INFO] Running com.example.DemoGraphQL.MyProperties_canEqual_28142914319
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_canEqual_28142914319
+[INFO] Running com.example.DemoGraphQL.MyProperties_getH2_1163219113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getH2_1163219113
+[INFO] Running com.example.DemoGraphQL.MyProperties_equals_52273348618
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_equals_52273348618
+[INFO] Running com.example.DemoGraphQL.MyProperties_getArtifactId_19917929722
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getArtifactId_19917929722
+[INFO] Running com.example.DemoGraphQL.MyProperties_getVersion_3788606291
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getVersion_3788606291
+[INFO] Running com.example.DemoGraphQL.MyProperties_setVersion_11903416534
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_setVersion_11903416534
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_hashCode_40562258512
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_hashCode_40562258512
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440779
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440779
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_canEqual_8472267194
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_canEqual_8472267194
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_init_14618381260
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_init_14618381260
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_hashCode_4056225855
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_hashCode_4056225855
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_getVersion_1869369478
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_getVersion_1869369478
+[INFO] Running com.example.DemoGraphQL.MyProperties_getArtifactId_199179297213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getArtifactId_199179297213
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_toString_91638227513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_toString_91638227513
+[INFO] Running com.example.DemoGraphQL.MyProperties_setH2_2060049156
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setH2_2060049156
+[INFO] Running com.example.DemoGraphQL.MyProperties_canEqual_2814291438
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_canEqual_2814291438
+[INFO] Running com.example.DemoGraphQL.MyProperties_hashCode_97142016120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_hashCode_97142016120
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_toString_9163822756
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_toString_9163822756
+[INFO] Running com.example.DemoGraphQL.MyProperties_setH2_20600491517
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setH2_20600491517
+[INFO] Running com.example.DemoGraphQL.MyProperties_hashCode_9714201619
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_hashCode_9714201619
+[INFO] Running com.example.DemoGraphQL.MyProperties_getVersion_37886062912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getVersion_37886062912
+[INFO] Running com.example.DemoGraphQL.MyProperties_init_202763570211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_init_202763570211
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_equals_430640903
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_H2_equals_430640903
+[INFO] Running com.example.DemoGraphQL.MyProperties_equals_5227334867
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_equals_5227334867
+[INFO] Running com.example.DemoGraphQL.MyProperties_H2_init_14618381267
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_init_14618381267
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   Author_hashCode_7647512322.test:45 » NullPointer
+[ERROR]   Book_hashCode_170023089528.test:47 » NullPointer
+[INFO] 
+[ERROR] Tests run: 90, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /app/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (report) @ DemoGraphQL ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'DemoGraphQL' with 11 classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.11:report (default-cli) @ DemoGraphQL ---
+[INFO] Loading execution data file /app/target/jacoco.exec
+[INFO] Analyzed bundle 'DemoGraphQL' with 11 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.632 s
+[INFO] Finished at: 2026-04-08T06:08:11Z
+[INFO] ------------------------------------------------------------------------

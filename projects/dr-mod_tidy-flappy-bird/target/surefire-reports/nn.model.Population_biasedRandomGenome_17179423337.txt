@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Population_biasedRandomGenome_17179423337
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Population_biasedRandomGenome_17179423337)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(nn.model.Population_biasedRandomGenome_17179423337)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.stream.ReferencePipeline$6$1.accept(ReferencePipeline.java:246)
 	at java.base/java.util.LinkedList$LLSpliterator.forEachRemaining(LinkedList.java:1239)

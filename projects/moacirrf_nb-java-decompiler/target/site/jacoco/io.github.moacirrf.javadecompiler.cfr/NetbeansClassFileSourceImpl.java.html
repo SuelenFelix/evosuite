@@ -35,37 +35,37 @@ public class NetbeansClassFileSourceImpl implements ClassFileSource2 {
 
     private final FileSystemHelper helper;
 
-<span class="nc" id="L38">    public NetbeansClassFileSourceImpl(FileSystemHelper helper) {</span>
-<span class="nc" id="L39">        this.helper = helper;</span>
-<span class="nc" id="L40">    }</span>
+<span class="fc" id="L38">    public NetbeansClassFileSourceImpl(FileSystemHelper helper) {</span>
+<span class="fc" id="L39">        this.helper = helper;</span>
+<span class="fc" id="L40">    }</span>
 
     @Override
     public JarContent addJarContent(String jarPath, AnalysisType analysisType) {
         //we dont decompile complete jars
-<span class="nc" id="L45">        return null;</span>
+<span class="fc" id="L45">        return null;</span>
     }
 
     @Override
     public void informAnalysisRelativePathDetail(String usePath, String classFilePath) {
         // not used
-<span class="nc" id="L51">    }</span>
+<span class="fc" id="L51">    }</span>
 
     @Override
     public Collection&lt;String&gt; addJar(String jarPath) {
          // not used
-<span class="nc" id="L56">        return List.of();</span>
+<span class="fc" id="L56">        return List.of();</span>
     }
 
     @Override
     public String getPossiblyRenamedPath(String path) {
-<span class="nc" id="L61">        return path;</span>
+<span class="fc" id="L61">        return path;</span>
     }
 
     @Override
     public Pair&lt;byte[], String&gt; getClassFileContent(String path) throws IOException {
-<span class="nc" id="L66">        FileObject fileObj = helper.findResource(path);</span>
-<span class="nc bnc" id="L67" title="All 2 branches missed.">        if (isNull(fileObj)) {</span>
-<span class="nc" id="L68">            return null;</span>
+<span class="fc" id="L66">        FileObject fileObj = helper.findResource(path);</span>
+<span class="pc bpc" id="L67" title="1 of 2 branches missed.">        if (isNull(fileObj)) {</span>
+<span class="fc" id="L68">            return null;</span>
         }
 
 <span class="nc" id="L71">        return Pair.make(fileObj.asBytes(), path);</span>

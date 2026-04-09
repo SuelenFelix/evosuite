@@ -87,8 +87,8 @@ public class TreeNodeComparator implements Comparator&lt;TreeNode&gt; {
 <span class="fc" id="L87">        final TreeTableModel localModel = model; // use a local reference to avoid repeated field access.</span>
 
         // If a grouping comparator is set on the model, use that first:
-<span class="nc" id="L90">        final Comparator&lt;TreeNode&gt; groupingComparator = localModel.getGroupingComparator();</span>
-<span class="nc bnc" id="L91" title="All 2 branches missed.">        if (groupingComparator != null) {</span>
+<span class="fc" id="L90">        final Comparator&lt;TreeNode&gt; groupingComparator = localModel.getGroupingComparator();</span>
+<span class="pc bpc" id="L91" title="1 of 2 branches missed.">        if (groupingComparator != null) {</span>
 <span class="nc" id="L92">            final int comparison = groupingComparator.compare(node1, node2);</span>
 
             // If one is definitely smaller than the other, return a result:
@@ -104,8 +104,8 @@ public class TreeNodeComparator implements Comparator&lt;TreeNode&gt; {
         }
 
         // For all columns with a SortKey that are not UNSORTED:
-<span class="nc" id="L107">        final List&lt;? extends RowSorter.SortKey&gt; keys = localModel.getSortKeys();</span>
-<span class="nc bnc" id="L108" title="All 2 branches missed.">        for (RowSorter.SortKey sortKey : keys) {</span>
+<span class="fc" id="L107">        final List&lt;? extends RowSorter.SortKey&gt; keys = localModel.getSortKeys();</span>
+<span class="pc bpc" id="L108" title="1 of 2 branches missed.">        for (RowSorter.SortKey sortKey : keys) {</span>
 
 <span class="nc" id="L110">            final SortOrder order = sortKey.getSortOrder();</span>
 <span class="nc bnc" id="L111" title="All 2 branches missed.">            if (order != SortOrder.UNSORTED) {</span>
@@ -125,7 +125,7 @@ public class TreeNodeComparator implements Comparator&lt;TreeNode&gt; {
 <span class="nc" id="L125">        }</span>
 
         // No other sort comparison available - all sorted column values are equal.
-<span class="nc" id="L128">        return EQUAL_VALUE;</span>
+<span class="fc" id="L128">        return EQUAL_VALUE;</span>
     }
 
     /**
@@ -139,12 +139,12 @@ public class TreeNodeComparator implements Comparator&lt;TreeNode&gt; {
     protected int compareValues(final TreeNode node1, final TreeNode node2, final RowSorter.SortKey sortKey) {
 <span class="fc" id="L140">        final TreeTableModel localModel = model; // reduce field access - use a local reference.</span>
 <span class="fc" id="L141">        final int sortedColumn = sortKey.getColumn();</span>
-<span class="nc" id="L142">        final Object value1 = localModel.getColumnValue(node1, sortedColumn);</span>
-<span class="nc" id="L143">        final Object value2 = localModel.getColumnValue(node2, sortedColumn);</span>
+<span class="fc" id="L142">        final Object value1 = localModel.getColumnValue(node1, sortedColumn);</span>
+<span class="fc" id="L143">        final Object value2 = localModel.getColumnValue(node2, sortedColumn);</span>
 
         // Null value comparisons giving a total order.  null is &quot;smaller&quot; than not null, two nulls are equal.
-<span class="nc bnc" id="L146" title="All 4 branches missed.">        if (value1 == null || value2 == null) {</span>
-<span class="nc bnc" id="L147" title="All 4 branches missed.">            return value1 == value2 ? EQUAL_VALUE : value1 == null? LESS_THAN : GREATER_THAN;</span>
+<span class="pc bpc" id="L146" title="3 of 4 branches missed.">        if (value1 == null || value2 == null) {</span>
+<span class="pc bpc" id="L147" title="3 of 4 branches missed.">            return value1 == value2 ? EQUAL_VALUE : value1 == null? LESS_THAN : GREATER_THAN;</span>
         }
 
         // Compare values using the best comparator we can find for them:

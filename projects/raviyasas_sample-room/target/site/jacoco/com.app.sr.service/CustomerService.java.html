@@ -24,8 +24,8 @@ public class CustomerService {
 <span class="fc" id="L24">    }</span>
 
     public ResponseEntity&lt;ApiResponse&gt; findAll() {
-<span class="nc" id="L27">        List&lt;Customer&gt; customers = customerRepository.findAll();</span>
-<span class="nc" id="L28">        return responseBuilder.buildResponse(HttpStatus.OK.value(),&quot;Customer details&quot;,customers);</span>
+<span class="fc" id="L27">        List&lt;Customer&gt; customers = customerRepository.findAll();</span>
+<span class="fc" id="L28">        return responseBuilder.buildResponse(HttpStatus.OK.value(),&quot;Customer details&quot;,customers);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

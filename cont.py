@@ -17,7 +17,7 @@ def count_projects_with_coverage():
 
         total += 1
 
-        csv_file = project / "coverage_kex.csv"
+        csv_file = project / "coverage_native_evosuite_kex.csv"
         if csv_file.exists():
             done += 1
 

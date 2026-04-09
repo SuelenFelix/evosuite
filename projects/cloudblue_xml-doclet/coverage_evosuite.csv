@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-cloudblue_xml-doclet,evosuite,,no_jacoco_csv,maven_returncode=1
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+cloudblue_xml-doclet,evosuite,44.85,53.24,116,455,372,888,51,316,success,maven_returncode=0

@@ -25,50 +25,50 @@ public class Mating {
     public Genome crossover(FitnessGenome fitnessGenome, FitnessGenome fitnessGenome2) {
         List&lt;Connection&gt; moreFitConnections;
         List&lt;Connection&gt; lessFitConnections;
-<span class="pc bpc" id="L28" title="1 of 2 branches missed.">        if (fitnessGenome.compareTo(fitnessGenome2) &gt; 0) {</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">        if (fitnessGenome.compareTo(fitnessGenome2) &gt; 0) {</span>
 <span class="fc" id="L29">            moreFitConnections = fitnessGenome.getGenome().getConnections();</span>
 <span class="fc" id="L30">            lessFitConnections = fitnessGenome2.getGenome().getConnections();</span>
         } else {
-<span class="nc" id="L32">            moreFitConnections = fitnessGenome2.getGenome().getConnections();</span>
-<span class="nc" id="L33">            lessFitConnections = fitnessGenome.getGenome().getConnections();</span>
+<span class="fc" id="L32">            moreFitConnections = fitnessGenome2.getGenome().getConnections();</span>
+<span class="fc" id="L33">            lessFitConnections = fitnessGenome.getGenome().getConnections();</span>
         }
 
 <span class="fc" id="L36">        Map&lt;Integer, Connection&gt; moreFitConnectionsMap = moreFitConnections.stream()</span>
 <span class="fc" id="L37">                .collect(Collectors.toMap(Connection::getInnovation, Function.identity()));</span>
 <span class="fc" id="L38">        Map&lt;Integer, Connection&gt; lessFitConnectionsMap = lessFitConnections.stream()</span>
-<span class="nc" id="L39">                .collect(Collectors.toMap(Connection::getInnovation, Function.identity()));</span>
+<span class="fc" id="L39">                .collect(Collectors.toMap(Connection::getInnovation, Function.identity()));</span>
 
-<span class="nc" id="L41">        GenomeDiff genomeDiff = new GenomeDiff(moreFitConnections, lessFitConnections);</span>
+<span class="fc" id="L41">        GenomeDiff genomeDiff = new GenomeDiff(moreFitConnections, lessFitConnections);</span>
 
-<span class="nc" id="L43">        Genome offspring = new Genome(nodeInnovator, connectionInnovator, random);</span>
-<span class="nc" id="L44">        Map&lt;Node, Node&gt; offspringNodes = new HashMap&lt;&gt;();</span>
-<span class="nc" id="L45">        List&lt;ConnectionPair&gt; connectionPairs = genomeDiff.getMatchingGenes().stream()</span>
-<span class="nc" id="L46">                .map(it -&gt; new ConnectionPair(moreFitConnectionsMap.get(it), lessFitConnectionsMap.get(it)))</span>
-<span class="nc" id="L47">                .collect(toList());</span>
-
-
-<span class="nc" id="L50">        Set&lt;Connection&gt; excessAndDisjoint = Stream.concat(genomeDiff.getDisjointGenes().stream(),</span>
-<span class="nc" id="L51">                genomeDiff.getExcessGenes().stream())</span>
-<span class="nc" id="L52">                .filter(moreFitConnectionsMap::containsKey)</span>
-<span class="nc" id="L53">                .map(moreFitConnectionsMap::get)</span>
-<span class="nc" id="L54">                .collect(Collectors.toSet());</span>
+<span class="fc" id="L43">        Genome offspring = new Genome(nodeInnovator, connectionInnovator, random);</span>
+<span class="fc" id="L44">        Map&lt;Node, Node&gt; offspringNodes = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L45">        List&lt;ConnectionPair&gt; connectionPairs = genomeDiff.getMatchingGenes().stream()</span>
+<span class="fc" id="L46">                .map(it -&gt; new ConnectionPair(moreFitConnectionsMap.get(it), lessFitConnectionsMap.get(it)))</span>
+<span class="fc" id="L47">                .collect(toList());</span>
 
 
-<span class="nc bnc" id="L57" title="All 2 branches missed.">        for (ConnectionPair connectionPair : connectionPairs) {</span>
+<span class="fc" id="L50">        Set&lt;Connection&gt; excessAndDisjoint = Stream.concat(genomeDiff.getDisjointGenes().stream(),</span>
+<span class="fc" id="L51">                genomeDiff.getExcessGenes().stream())</span>
+<span class="fc" id="L52">                .filter(moreFitConnectionsMap::containsKey)</span>
+<span class="fc" id="L53">                .map(moreFitConnectionsMap::get)</span>
+<span class="fc" id="L54">                .collect(Collectors.toSet());</span>
+
+
+<span class="fc bfc" id="L57" title="All 2 branches covered.">        for (ConnectionPair connectionPair : connectionPairs) {</span>
             //if one of the connections is disabled there is a chance that the new connection is going to be disabled
-<span class="nc bnc" id="L59" title="All 2 branches missed.">            if ((connectionPair.getConnection1().isExpressed() != connectionPair.getConnection2().isExpressed())) {</span>
-<span class="nc bnc" id="L60" title="All 2 branches missed.">                boolean disabled = random.nextFloat() &lt; nn.Constants.MATCHING_GENES_DISABLED_PROBABILITY;</span>
-<span class="nc bnc" id="L61" title="All 2 branches missed.">                addNodesAndConnections(offspring, offspringNodes, random.nextBoolean() ? connectionPair.getConnection1() : connectionPair.getConnection2(), disabled);</span>
-<span class="nc" id="L62">            } else {</span>
-<span class="nc bnc" id="L63" title="All 2 branches missed.">                addNodesAndConnections(offspring, offspringNodes, random.nextBoolean() ? connectionPair.getConnection1() : connectionPair.getConnection2());</span>
+<span class="fc bfc" id="L59" title="All 2 branches covered.">            if ((connectionPair.getConnection1().isExpressed() != connectionPair.getConnection2().isExpressed())) {</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">                boolean disabled = random.nextFloat() &lt; nn.Constants.MATCHING_GENES_DISABLED_PROBABILITY;</span>
+<span class="pc bpc" id="L61" title="1 of 2 branches missed.">                addNodesAndConnections(offspring, offspringNodes, random.nextBoolean() ? connectionPair.getConnection1() : connectionPair.getConnection2(), disabled);</span>
+<span class="fc" id="L62">            } else {</span>
+<span class="pc bpc" id="L63" title="1 of 2 branches missed.">                addNodesAndConnections(offspring, offspringNodes, random.nextBoolean() ? connectionPair.getConnection1() : connectionPair.getConnection2());</span>
             }
-<span class="nc" id="L65">        }</span>
+<span class="fc" id="L65">        }</span>
 
-<span class="nc bnc" id="L67" title="All 2 branches missed.">        for (Connection connection : excessAndDisjoint) {</span>
-<span class="nc" id="L68">            addNodesAndConnections(offspring, offspringNodes, connection);</span>
-<span class="nc" id="L69">        }</span>
+<span class="fc bfc" id="L67" title="All 2 branches covered.">        for (Connection connection : excessAndDisjoint) {</span>
+<span class="fc" id="L68">            addNodesAndConnections(offspring, offspringNodes, connection);</span>
+<span class="fc" id="L69">        }</span>
 
-<span class="nc" id="L71">        return offspring;</span>
+<span class="fc" id="L71">        return offspring;</span>
     }
 
     private void addNodesAndConnections(Genome offspring, Map&lt;Node, Node&gt; offspringNodes, Connection connection) {

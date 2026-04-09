@@ -45,9 +45,9 @@ public class InvoiceServiceImpl implements InvoiceService{
 
     @Override
     public void updateInvoice(Invoice newInvoice) {
-<span class="pc" id="L48">        Invoice oldInvoice = invoiceList.stream().filter(element -&gt; element.getId().equals(newInvoice.getId())).findFirst().get();</span>
-<span class="nc" id="L49">        int index = invoiceList.indexOf(oldInvoice);</span>
-<span class="nc" id="L50">        invoiceList.set(index, newInvoice);</span>
-<span class="nc" id="L51">    }</span>
+<span class="fc" id="L48">        Invoice oldInvoice = invoiceList.stream().filter(element -&gt; element.getId().equals(newInvoice.getId())).findFirst().get();</span>
+<span class="fc" id="L49">        int index = invoiceList.indexOf(oldInvoice);</span>
+<span class="fc" id="L50">        invoiceList.set(index, newInvoice);</span>
+<span class="fc" id="L51">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

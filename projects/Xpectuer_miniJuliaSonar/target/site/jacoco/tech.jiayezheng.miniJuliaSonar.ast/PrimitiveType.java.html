@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PrimitiveType.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.ast</a> &gt; <span class="el_source">PrimitiveType.java</span></div><h1>PrimitiveType.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.ast;
+
+public class PrimitiveType extends Node {
+    public Symbol name;
+    public Symbol base;
+    public int size;
+
+    public PrimitiveType(Symbol name, Symbol base, int size, int start, int end, String file) {
+<span class="fc" id="L9">        super(NodeType.PrimitiveType, start, end, file);</span>
+<span class="fc" id="L10">        this.name = name;</span>
+<span class="fc" id="L11">        this.base = base;</span>
+<span class="fc" id="L12">        this.size = size;</span>
+<span class="fc" id="L13">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc bnc" id="L17" title="All 2 branches missed.">        if (base != null) {</span>
+<span class="nc" id="L18">            return String.format(&quot;(PrimType %s %d)&quot;, name, size);</span>
+        }
+<span class="nc" id="L20">        return String.format(&quot;(PrimType %s &lt;: %s %d)&quot;, name, base, size);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

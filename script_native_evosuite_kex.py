@@ -56,6 +56,18 @@ JACOCO_PLUGIN = """
 </plugin>
 """
 
+SUREFIRE_PLUGIN = """
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.5</version>
+    <configuration>
+        <failIfNoTests>false</failIfNoTests>
+        <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
+</plugin>
+"""
+
 def run(cmd, cwd=None, timeout=None):
     print("RUN:", cmd)
     return subprocess.run(
@@ -68,6 +80,23 @@ def run(cmd, cwd=None, timeout=None):
         stderr=subprocess.STDOUT,
         timeout=timeout
     )
+
+def inject_or_replace_surefire_plugin(text: str) -> str:
+    # Remove plugin existente do surefire, se houver
+    surefire_pattern = re.compile(
+        r"<plugin>\s*"
+        r"<groupId>\s*org\.apache\.maven\.plugins\s*</groupId>\s*"
+        r"<artifactId>\s*maven-surefire-plugin\s*</artifactId>.*?"
+        r"</plugin>",
+        re.DOTALL
+    )
+    text = surefire_pattern.sub("", text)
+
+    # Insere plugin novo no primeiro bloco <plugins>
+    if "<plugins>" in text:
+        text = text.replace("<plugins>", "<plugins>\n" + SUREFIRE_PLUGIN, 1)
+
+    return text
 
 def inject_assets_general(pom_path):
     with open(pom_path, "r", encoding="utf-8") as f:
@@ -88,7 +117,8 @@ def inject_assets_general(pom_path):
             text = text.replace("</project>", f"<dependencies>{deps_to_add}</dependencies>\n</project>")
 
     if "jacoco-maven-plugin" not in text and "<plugins>" in text:
-        text = text.replace("<plugins>", "<plugins>\n" + JACOCO_PLUGIN)
+        text = text.replace("<plugins>", "<plugins>\n" + JACOCO_PLUGIN, 1)
+
 
     with open(pom_path, "w", encoding="utf-8") as f:
         f.write(text)
@@ -176,41 +206,32 @@ def parse_jacoco(csv_path):
         for row in reader:
             totals["instruction_missed"] += int(row["INSTRUCTION_MISSED"])
             totals["instruction_covered"] += int(row["INSTRUCTION_COVERED"])
-
             totals["branch_missed"] += int(row["BRANCH_MISSED"])
             totals["branch_covered"] += int(row["BRANCH_COVERED"])
-
             totals["line_missed"] += int(row["LINE_MISSED"])
             totals["line_covered"] += int(row["LINE_COVERED"])
-
             totals["method_missed"] += int(row["METHOD_MISSED"])
             totals["method_covered"] += int(row["METHOD_COVERED"])
-
             totals["complexity_missed"] += int(row["COMPLEXITY_MISSED"])
             totals["complexity_covered"] += int(row["COMPLEXITY_COVERED"])
 
-    # Totais
     instruction_total = totals["instruction_missed"] + totals["instruction_covered"]
     branch_total = totals["branch_missed"] + totals["branch_covered"]
 
-    # Coberturas
     instruction_cov = (totals["instruction_covered"] / instruction_total * 100) if instruction_total else 0
     branch_cov = (totals["branch_covered"] / branch_total * 100) if branch_total else 0
 
     return {
         "instruction_coverage": round(instruction_cov, 2),
         "branch_coverage": round(branch_cov, 2),
-
         "complexity_missed": totals["complexity_missed"],
         "complexity_total": totals["complexity_missed"] + totals["complexity_covered"],
-
         "lines_missed": totals["line_missed"],
         "lines_total": totals["line_missed"] + totals["line_covered"],
-
         "methods_missed": totals["method_missed"],
         "methods_total": totals["method_missed"] + totals["method_covered"],
     }
-    
+
 def try_generate_partial_jacoco_report(project_path):
     m2 = os.path.expanduser("~/.m2")
     abs_path = os.path.abspath(project_path)
@@ -223,7 +244,7 @@ docker run --rm \
 -w /app \
 {image} \
 mvn jacoco:report -DskipTests
-""", timeout=300)    
+""", timeout=1800)
 
 def save_result(csv_file, project_name, metrics=None, mode="", status="", details=""):
     metrics = metrics or {}
@@ -276,7 +297,6 @@ def process_project(project_path):
     project_name = project_path.name
     project_csv = project_path / "coverage_native_evosuite_kex.csv"
     log_file = project_path / "coverage_native_evosuite_kex.log"
-
 
     print("=" * 80)
     print(f"🚀 Processando cobertura geral: {project_name}")
@@ -364,6 +384,7 @@ def process_project(project_path):
                 status="timeout",
                 details="maven_timeout"
             )
+
     except Exception as e:
         print(f"❌ Falha ao processar {project_name}: {e}")
         save_result(

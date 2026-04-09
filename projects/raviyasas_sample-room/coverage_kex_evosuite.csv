@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-raviyasas_sample-room,kex+evosuite,56.56,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+raviyasas_sample-room,kex+evosuite,56.56,26.09,31,64,21,62,13,41,success,maven_returncode=0

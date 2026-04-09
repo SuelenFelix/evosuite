@@ -5,6 +5,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ openapi-json-schema-generator-cli ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ openapi-json-schema-generator-cli ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -150,7 +151,7 @@ SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@307f4223
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.601 sec
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.653 sec
 
 Results :
 
@@ -167,6 +168,6 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.903 s
-[INFO] Finished at: 2026-04-08T05:42:45Z
+[INFO] Total time:  13.411 s
+[INFO] Finished at: 2026-04-09T12:31:47Z
 [INFO] ------------------------------------------------------------------------

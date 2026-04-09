@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-moacirrf_nb-java-decompiler,kex+evosuite,53.97,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+moacirrf_nb-java-decompiler,kex+evosuite,53.97,33.33,32,66,51,121,13,45,success,maven_returncode=0

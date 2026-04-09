@@ -2338,3 +2338,385 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 
 2026-04-09 04:55:50.448  INFO 75 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-04-09 04:55:50.449  INFO 75 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 12:35:31.245  INFO 74 --- [Time-limited test] c.s.a.p.HrManagementSystemApplication    : Starting HrManagementSystemApplication on 87353b3e7cc0 with PID 74 (started by root in /app)
+2026-04-09 12:35:31.246  INFO 74 --- [Time-limited test] c.s.a.p.HrManagementSystemApplication    : No active profile set, falling back to default profiles: default
+2026-04-09 12:35:31.983  INFO 74 --- [Time-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2026-04-09 12:35:32.000 DEBUG 74 --- [Time-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
+2026-04-09 12:35:32.016 DEBUG 74 --- [Time-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/DepartmentRepository.class]
+2026-04-09 12:35:32.016 DEBUG 74 --- [Time-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/EmployeeRepository.class]
+2026-04-09 12:35:32.016 DEBUG 74 --- [Time-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/UserCredentialRepository.class]
+2026-04-09 12:35:32.065 DEBUG 74 --- [Time-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
+2026-04-09 12:35:32.065  INFO 74 --- [Time-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 3 JPA repository interfaces.
+2026-04-09 12:35:32.247  INFO 74 --- [Time-limited test] c.s.app.pack.configs.CorsConfig          : ************ entering com.selimhorri.app.pack.configs.CorsConfig ************
+2026-04-09 12:35:32.685  INFO 74 --- [Time-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 12:35:32.697  INFO 74 --- [Time-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 12:35:32.697  INFO 74 --- [Time-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2026-04-09 12:35:32.775  INFO 74 --- [Time-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 12:35:32.776  INFO 74 --- [Time-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1493 ms
+2026-04-09 12:35:32.855 DEBUG 74 --- [Time-limited test] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2026-04-09 12:35:33.011  INFO 74 --- [Time-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 12:35:33.026  INFO 74 --- [Time-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 12:35:34.152 ERROR 74 --- [Time-limited test] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324) ~[spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:133) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:136) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:102) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:94) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:133) ~[spring-boot-autoconfigure-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.selimhorri.app.pack.HrManagementSystemApplication.main(HrManagementSystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.selimhorri.app.pack.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293441.test(HrManagementSystemApplication_main_16680293441.java:50) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	... 68 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	... 71 common frames omitted
+
+2026-04-09 12:35:34.205 DEBUG 74 --- [Time-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2026-04-09 12:35:34.212  INFO 74 --- [Time-limited test] c.s.a.p.s.impls.DepartmentServiceImpl    : ************ entering com.selimhorri.app.pack.services.impls.DepartmentServiceImpl ************
+2026-04-09 12:35:34.217  INFO 74 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 12:35:34.234 DEBUG 74 --- [Time-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2026-04-09 12:35:34.263  INFO 74 --- [Time-limited test] c.s.a.p.s.impls.EmployeeServiceImpl      : ************ entering com.selimhorri.app.pack.services.impls.EmployeeServiceImpl ************
+2026-04-09 12:35:34.275  INFO 74 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2026-04-09 12:35:34.279 DEBUG 74 --- [Time-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2026-04-09 12:35:34.295  INFO 74 --- [Time-limited test] c.s.app.pack.exceptions.ApiHandler       : ************ entering com.selimhorri.app.pack.exceptions.ApiHandler ************
+2026-04-09 12:35:34.339  WARN 74 --- [Time-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 12:35:34.416  INFO 74 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2026-04-09 12:35:34.552  INFO 74 --- [Time-limited test] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec6b6b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4de31283, org.springframework.security.web.header.HeaderWriterFilter@7cff1956, org.springframework.security.web.authentication.logout.LogoutFilter@74b4a6a8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57a4e485, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@185c0b25, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@235ef33b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eb55823, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5676d075, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@276884d1, org.springframework.security.web.session.SessionManagementFilter@45310075, org.springframework.security.web.access.ExceptionTranslationFilter@1e14b7c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@180d9c67]
+2026-04-09 12:35:34.552  INFO 74 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 12:35:34.728 DEBUG 74 --- [Time-limited test] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-09 12:35:34.820 DEBUG 74 --- [Time-limited test] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2026-04-09 12:35:34.860 DEBUG 74 --- [Time-limited test] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-09 12:35:34.876 DEBUG 74 --- [Time-limited test] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-09 12:35:35.034  INFO 74 --- [Time-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 12:35:35.036  INFO 74 --- [Time-limited test] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2026-04-09 12:35:35.073 DEBUG 74 --- [Time-limited test] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+2026-04-09 12:35:35.555 ERROR 74 --- [task-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	... 33 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	... 36 common frames omitted
+
+2026-04-09 12:35:35.556  WARN 74 --- [task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2026-04-09 12:35:35.572  INFO 74 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2026-04-09 12:35:35.966  INFO 74 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 12:35:35.973  INFO 74 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 12:35:35.974  INFO 74 --- [task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 12:35:35.983 DEBUG 74 --- [Time-limited test] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
+2026-04-09 12:35:36.102 DEBUG 74 --- [Time-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2026-04-09 12:35:36.170 DEBUG 74 --- [Time-limited test] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
+2026-04-09 12:35:36.183 DEBUG 74 --- [Time-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
+2026-04-09 12:35:36.193 DEBUG 74 --- [Time-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2026-04-09 12:35:36.203 DEBUG 74 --- [Time-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
+2026-04-09 12:35:36.210 DEBUG 74 --- [Time-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2026-04-09 12:35:36.222 DEBUG 74 --- [Time-limited test] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
+2026-04-09 12:35:36.229 DEBUG 74 --- [Time-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
+2026-04-09 12:35:36.230  INFO 74 --- [Time-limited test] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2026-04-09 12:35:36.237  INFO 74 --- [Time-limited test] c.s.a.p.HrManagementSystemApplication    : Started HrManagementSystemApplication in 5.24 seconds (JVM running for 8.198)
+2026-04-09 12:35:36.243  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/http/server/reactive/ContextPathCompositeHandler
+2026-04-09 12:35:36.244  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/http/server/reactive/ContextPathCompositeHandler
+2026-04-09 12:35:36.245  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/mapping/PropertyReferenceException
+2026-04-09 12:35:36.246  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/mapping/PropertyReferenceException
+2026-04-09 12:35:36.246  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Adding bytecode for initializing field ERROR_TEMPLATE
+2026-04-09 12:35:36.246  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Adding bytecode for initializing field HINTS_TEMPLATE
+2026-04-09 12:35:36.249  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/ExampleMatcher$PropertySpecifier
+2026-04-09 12:35:36.250  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/domain/ExampleMatcher$PropertySpecifier
+2026-04-09 12:35:36.251  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/http/server/reactive/ReactorHttpHandlerAdapter
+2026-04-09 12:35:36.253  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/http/server/reactive/ReactorHttpHandlerAdapter
+2026-04-09 12:35:36.255  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/apache/tomcat/util/buf/Utf8Encoder
+2026-04-09 12:35:36.256  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/apache/tomcat/util/buf/Utf8Encoder
+2026-04-09 12:35:36.257  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/geo/GeoPage
+2026-04-09 12:35:36.258  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/geo/GeoPage
+2026-04-09 12:35:36.259  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/PageImpl
+2026-04-09 12:35:36.260  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/domain/PageImpl
+2026-04-09 12:35:36.261  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/Chunk
+2026-04-09 12:35:36.261  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/domain/Chunk
+2026-04-09 12:35:36.263  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/core/codec/StringDecoder$LimitChecker
+2026-04-09 12:35:36.263  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/core/codec/StringDecoder$LimitChecker
+2026-04-09 12:35:36.264  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/core/io/buffer/DataBufferLimitException
+2026-04-09 12:35:36.264  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/core/io/buffer/DataBufferLimitException
+2026-04-09 12:35:36.264  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/assertj/core/extractor/ByNameSingleExtractor
+2026-04-09 12:35:36.265  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/assertj/core/extractor/ByNameSingleExtractor
+2026-04-09 12:35:36.265  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class com/mysql/cj/util/LazyString
+2026-04-09 12:35:36.266  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class com/mysql/cj/util/LazyString
+2026-04-09 12:35:36.266  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/util/function/SingletonSupplier
+2026-04-09 12:35:36.267  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/util/function/SingletonSupplier
+2026-04-09 12:35:36.267  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/ExampleMatcher$NoOpPropertyValueTransformer
+2026-04-09 12:35:36.267  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/domain/ExampleMatcher$NoOpPropertyValueTransformer
+2026-04-09 12:35:36.268  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/transaction/reactive/AbstractReactiveTransactionManager$ErrorPredicates
+2026-04-09 12:35:36.268  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/transaction/reactive/AbstractReactiveTransactionManager$ErrorPredicates
+2026-04-09 12:35:36.269  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/transaction/reactive/AbstractReactiveTransactionManager$ErrorPredicates$1
+2026-04-09 12:35:36.269  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/transaction/reactive/AbstractReactiveTransactionManager$ErrorPredicates$2
+2026-04-09 12:35:36.270  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/transaction/reactive/AbstractReactiveTransactionManager$ErrorPredicates$3
+2026-04-09 12:35:36.271  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/history/Revision
+2026-04-09 12:35:36.273  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/history/Revision
+2026-04-09 12:35:36.274  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/history/Revisions
+2026-04-09 12:35:36.275  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/history/Revisions
+2026-04-09 12:35:36.275  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/Unpaged
+2026-04-09 12:35:36.276  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/domain/Unpaged
+2026-04-09 12:35:36.276  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/util/MethodInvocationRecorder$Unrecorded
+2026-04-09 12:35:36.277  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/util/MethodInvocationRecorder$Unrecorded
+2026-04-09 12:35:36.277  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/util/MethodInvocationRecorder$Recorded
+2026-04-09 12:35:36.277  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/util/MethodInvocationRecorder$Recorded
+2026-04-09 12:35:36.278  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/SliceImpl
+2026-04-09 12:35:36.279  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/domain/SliceImpl
+2026-04-09 12:35:36.280  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/core/annotation/MergedAnnotationPredicates$FirstRunOfPredicate
+2026-04-09 12:35:36.280  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/core/annotation/MergedAnnotationPredicates$FirstRunOfPredicate
+2026-04-09 12:35:36.281  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/geo/CustomMetric
+2026-04-09 12:35:36.281  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/geo/CustomMetric
+2026-04-09 12:35:36.282  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class com/google/common/io/PatternFilenameFilter
+2026-04-09 12:35:36.282  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class com/google/common/io/PatternFilenameFilter
+2026-04-09 12:35:36.283  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/http/codec/xml/Jaxb2XmlDecoder$SplitHandler
+2026-04-09 12:35:36.283  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/http/codec/xml/Jaxb2XmlDecoder$SplitHandler
+2026-04-09 12:35:36.284  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/assertj/core/extractor/ResultOfExtractor
+2026-04-09 12:35:36.285  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/assertj/core/extractor/ResultOfExtractor
+2026-04-09 12:35:36.285  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/web/servlet/mvc/method/annotation/ResponseBodyEmitter$ErrorCallback
+2026-04-09 12:35:36.285  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/web/servlet/mvc/method/annotation/ResponseBodyEmitter$ErrorCallback
+2026-04-09 12:35:36.286  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/boot/web/client/RestTemplateBuilder$RequestFactoryCustomizer
+2026-04-09 12:35:36.287  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/boot/web/client/RestTemplateBuilder$RequestFactoryCustomizer
+2026-04-09 12:35:36.288  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/util/MultiValueMapCollector
+2026-04-09 12:35:36.289  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/util/MultiValueMapCollector
+2026-04-09 12:35:36.292  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/Sort$1
+2026-04-09 12:35:36.294  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/ExampleMatcher$MatchMode
+2026-04-09 12:35:36.294  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/domain/ExampleMatcher$MatchMode
+2026-04-09 12:35:36.295  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/assertj/core/extractor/ByNameMultipleExtractor
+2026-04-09 12:35:36.296  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/assertj/core/extractor/ByNameMultipleExtractor
+2026-04-09 12:35:36.297  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/mapping/PropertyPath$Key
+2026-04-09 12:35:36.297  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/mapping/PropertyPath$Key
+2026-04-09 12:35:36.298  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/web/method/HandlerTypePredicate$1
+2026-04-09 12:35:36.299  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/Range$Bound
+2026-04-09 12:35:36.300  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/domain/Range$Bound
+2026-04-09 12:35:36.301  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/Sort$NullHandling
+2026-04-09 12:35:36.301  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/domain/Sort$NullHandling
+2026-04-09 12:35:36.301  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/history/RevisionSort
+2026-04-09 12:35:36.302  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/history/RevisionSort
+2026-04-09 12:35:36.303  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/core/io/buffer/DataBufferUtils$ReadableByteChannelGenerator
+2026-04-09 12:35:36.303  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/core/io/buffer/DataBufferUtils$ReadableByteChannelGenerator
+2026-04-09 12:35:36.304  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class com/selimhorri/app/pack/security/UserDetailsImpl
+2026-04-09 12:35:36.305  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class com/selimhorri/app/pack/security/UserDetailsImpl
+2026-04-09 12:35:36.305  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/ExampleMatcher$PropertySpecifiers
+2026-04-09 12:35:36.306  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/domain/ExampleMatcher$PropertySpecifiers
+2026-04-09 12:35:36.307  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/assertj/core/extractor/ToStringExtractor
+2026-04-09 12:35:36.307  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/assertj/core/extractor/ToStringExtractor
+2026-04-09 12:35:36.308  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/web/util/HierarchicalUriComponents$UriTemplateEncoder
+2026-04-09 12:35:36.308  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/web/util/HierarchicalUriComponents$UriTemplateEncoder
+2026-04-09 12:35:36.309  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/boot/devtools/autoconfigure/TriggerFileFilter
+2026-04-09 12:35:36.310  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/boot/devtools/autoconfigure/TriggerFileFilter
+2026-04-09 12:35:36.310  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/util/MethodInvocationRecorder
+2026-04-09 12:35:36.311  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/util/MethodInvocationRecorder
+2026-04-09 12:35:36.312  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/util/MethodInvocationRecorder$DefaultPropertyNameDetectionStrategy
+2026-04-09 12:35:36.312  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Found static initializer in class org/springframework/data/util/MethodInvocationRecorder$DefaultPropertyNameDetectionStrategy
+2026-04-09 12:35:36.313  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/domain/Sort$TypedSort
+2026-04-09 12:35:36.313  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/domain/Sort$TypedSort
+2026-04-09 12:35:36.314  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/geo/GeoResult
+2026-04-09 12:35:36.315  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/geo/GeoResult
+2026-04-09 12:35:36.316  INFO 74 --- [main] .e.r.i.MethodCallReplacementClassAdapter : Adding mock interface to class org/springframework/data/util/GenericArrayTypeInformation
+2026-04-09 12:35:36.316  INFO 74 --- [main] o.e.r.i.CreateClassResetClassAdapter     : Creating brand-new static initializer in class org/springframework/data/util/GenericArrayTypeInformation
+2026-04-09 12:35:36.317  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $jacocoInit in class org.springframework.http.server.reactive.ContextPathCompositeHandler: reactor/core/publisher/Mono
+2026-04-09 12:35:36.318 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Found $jacocoInit in class com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer
+2026-04-09 12:35:36.318  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.http.server.reactive.ContextPathCompositeHandler: reactor/core/publisher/Mono
+2026-04-09 12:35:36.319  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.http.server.reactive.ReactorHttpHandlerAdapter: reactor/netty/http/server/HttpServerRequest
+2026-04-09 12:35:36.322  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.http.ReactiveHttpOutputMessage: org/reactivestreams/Publisher
+2026-04-09 12:35:36.322  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.http.codec.xml.Jaxb2XmlDecoder$SplitHandler: reactor/core/publisher/SynchronousSink
+2026-04-09 12:35:36.326  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.core.io.buffer.DataBufferUtils$ReadableByteChannelGenerator: reactor/core/publisher/SynchronousSink
+2026-04-09 12:35:36.328  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.http.ReactiveHttpInputMessage: reactor/core/publisher/Flux
+2026-04-09 12:35:36.328  INFO 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Error while checking for $gzoltarInit in class org.springframework.http.server.reactive.HttpHandler: reactor/core/publisher/Mono
+2026-04-09 12:35:36.329 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.329 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.format.annotation.DateTimeFormat$ISO was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.329 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.domain.Sort$Direction was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.329 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.deser.std.StdDeserializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.329 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.ClassTypeInformation was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.329 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.ParameterizedTypeInformation was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.LazyStreamable was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.JsonSerializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.domain.Sort was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.domain.PageRequest was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.annotation.OptBoolean was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.selimhorri.app.pack.models.entities.Employee was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.datatype.jsr310.deser.JSR310DateTimeDeserializerBase was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.TypeDiscoverer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.JsonDeserializer$None was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.mapping.PropertyPath was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.util.Converter$None was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.core.annotation.MergedAnnotationPredicates$UniquePredicate was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.datatype.jsr310.ser.JSR310SerializerBase was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.KeyDeserializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.web.method.HandlerTypePredicate$Builder was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.web.method.HandlerTypePredicate was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.ParentTypeAwareTypeInformation was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.geo.Metrics was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.annotation.JsonSerialize$Typing was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.selimhorri.app.pack.models.entities.UserCredential was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.JsonDeserializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.JsonSerializer$None was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.330 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.domain.Range was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.annotation.JsonSerialize$Inclusion was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.KeyDeserializer$None was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.security.core.authority.SimpleGrantedAuthority was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.domain.AbstractPageRequest was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.geo.Distance was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.annotation.JsonFormat$Shape was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.selimhorri.app.pack.models.entities.Department was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.databind.ser.std.StdSerializer was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.annotation.JsonFormat$Feature was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.datatype.jsr310.ser.JSR310FormattedSerializerBase was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.Lazy was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.domain.Sort$Order was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.geo.GeoResults was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.331 ERROR 74 --- [main] o.e.r.classhandling.ClassStateSupport    : Class org.springframework.data.util.TypeVariableTypeInformation was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:35:36.670  INFO 74 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 12:35:36.672  INFO 74 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

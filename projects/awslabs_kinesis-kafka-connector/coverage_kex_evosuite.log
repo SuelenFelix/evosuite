@@ -13,6 +13,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ amazon-kinesis-kafka-connector ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ amazon-kinesis-kafka-connector ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -53,22 +54,22 @@ WARNING: Illegal reflective access by org.evosuite.runtime.GuiSupport (file:/roo
 WARNING: Please consider reporting this to the maintainers of org.evosuite.runtime.GuiSupport
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.502 sec
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.591 sec
 Running com.amazon.kinesis.kafka.DataUtility_ESTest
 Unepxected error:class org.apache.kafka.connect.data.SchemaBuilder cannot be cast to class java.lang.String (org.apache.kafka.connect.data.SchemaBuilder is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
 Unepxected error:class org.apache.kafka.connect.data.ConnectSchema cannot be cast to class java.lang.String (org.apache.kafka.connect.data.ConnectSchema is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
-Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 sec
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec
 Running com.amazon.kinesis.kafka.AmazonKinesisSinkConnector_ESTest
-Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec
 Running com.amazon.kinesis.kafka.IAMUtility_ESTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.843 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.826 sec
 Running com.amazon.kinesis.kafka.FirehoseSinkTask_ESTest
 Connector Exceptionnull
 Unepxected error:class com.fasterxml.jackson.databind.node.LongNode cannot be cast to class java.lang.String (com.fasterxml.jackson.databind.node.LongNode is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.022 sec
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.959 sec
 Running com.amazon.kinesis.kafka.AmazonKinesisSinkTask_ESTest
 Unepxected error:class com.amazon.kinesis.kafka.AmazonKinesisSinkTask cannot be cast to class java.lang.String (com.amazon.kinesis.kafka.AmazonKinesisSinkTask is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.808 sec
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.827 sec
 
 Results :
 
@@ -85,6 +86,6 @@ Tests run: 92, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.514 s
-[INFO] Finished at: 2026-04-08T05:08:03Z
+[INFO] Total time:  8.645 s
+[INFO] Finished at: 2026-04-09T11:48:47Z
 [INFO] ------------------------------------------------------------------------

@@ -13,6 +13,7 @@
 [INFO] ----------------------------[ sonar-plugin ]----------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ibmix-aem-sonar-rules ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- sonar-packaging-maven-plugin:1.23.0.740:check (default-check) @ ibmix-aem-sonar-rules ---
 [INFO] 
@@ -115,39 +116,39 @@ WARNING: Illegal reflective access by org.evosuite.runtime.GuiSupport (file:/roo
 WARNING: Please consider reporting this to the maintainers of org.evosuite.runtime.GuiSupport
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in ix.ibm.sonar.java.RulesList_init_21231146984
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in ix.ibm.sonar.java.RulesList_init_21231146984
 [INFO] Running ix.ibm.sonar.java.visitors.AemContextExtensionFinder_ESTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.322 s -- in ix.ibm.sonar.java.visitors.AemContextExtensionFinder_ESTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.445 s -- in ix.ibm.sonar.java.visitors.AemContextExtensionFinder_ESTest
 [INFO] Running ix.ibm.sonar.java.MyJavaRulesPlugin_ESTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 s -- in ix.ibm.sonar.java.MyJavaRulesPlugin_ESTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.617 s -- in ix.ibm.sonar.java.MyJavaRulesPlugin_ESTest
 [INFO] Running ix.ibm.sonar.java.RulesList_ESTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in ix.ibm.sonar.java.RulesList_ESTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in ix.ibm.sonar.java.RulesList_ESTest
 [INFO] Running ix.ibm.sonar.java.RulesList_init_21231146980
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.RulesList_init_21231146980
 [INFO] Running ix.ibm.sonar.java.RulesList_getJavaTestChecks_7577431657
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.RulesList_getJavaTestChecks_7577431657
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.RulesList_getJavaTestChecks_7577431657
 [INFO] Running ix.ibm.sonar.java.utils.PackageConstants_ESTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.PackageConstants_ESTest
 [INFO] Running ix.ibm.sonar.java.utils.WarningConstants_init_14687913780
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in ix.ibm.sonar.java.utils.WarningConstants_init_14687913780
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in ix.ibm.sonar.java.utils.WarningConstants_init_14687913780
 [INFO] Running ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023651
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023651
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023651
 [INFO] Running ix.ibm.sonar.java.utils.LiteralConstants_ESTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in ix.ibm.sonar.java.utils.LiteralConstants_ESTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in ix.ibm.sonar.java.utils.LiteralConstants_ESTest
 [INFO] Running ix.ibm.sonar.java.utils.PackageConstants_init_12312090001
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.PackageConstants_init_12312090001
 [INFO] Running ix.ibm.sonar.java.utils.Constants_init_18298631621
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.Constants_init_18298631621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in ix.ibm.sonar.java.utils.Constants_init_18298631621
 [INFO] Running ix.ibm.sonar.java.utils.LiteralConstants_init_4079956470
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.LiteralConstants_init_4079956470
 [INFO] Running ix.ibm.sonar.java.utils.AemRecognizer_init_19129361240
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.AemRecognizer_init_19129361240
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in ix.ibm.sonar.java.utils.AemRecognizer_init_19129361240
 [INFO] Running ix.ibm.sonar.java.utils.Constants_init_18298631620
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.Constants_init_18298631620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.Constants_init_18298631620
 [INFO] Running ix.ibm.sonar.java.utils.PackageConstants_init_12312090000
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.PackageConstants_init_12312090000
 [INFO] Running ix.ibm.sonar.java.utils.AemRecognizer_init_19129361241
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in ix.ibm.sonar.java.utils.AemRecognizer_init_19129361241
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.AemRecognizer_init_19129361241
 [INFO] Running ix.ibm.sonar.java.utils.WarningConstants_init_14687913781
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.WarningConstants_init_14687913781
 [INFO] Running ix.ibm.sonar.java.utils.JavaFinder_init_10344771911
@@ -161,12 +162,12 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] Running ix.ibm.sonar.java.utils.MockChecker_init_4052172820
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.MockChecker_init_4052172820
 [INFO] Running ix.ibm.sonar.java.utils.MockChecker_init_4052172821
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.MockChecker_init_4052172821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.utils.MockChecker_init_4052172821
 [INFO] Running ix.ibm.sonar.java.utils.Constants_ESTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.utils.Constants_ESTest
 [INFO] Running ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023653
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! -- in ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023653
-[ERROR] ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023653.test -- Time elapsed: 0.005 s <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023653
+[ERROR] ix.ibm.sonar.java.utils.LiteralConstants_isLiteralConstantAvailable_9719023653.test -- Time elapsed: 0.006 s <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.ImmutableCollections$MapN.probe(ImmutableCollections.java:956)
 	at java.base/java.util.ImmutableCollections$MapN.get(ImmutableCollections.java:876)
@@ -182,15 +183,15 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running ix.ibm.sonar.java.RulesList_getChecks_20794066415
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.RulesList_getChecks_20794066415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.RulesList_getChecks_20794066415
 [INFO] Running ix.ibm.sonar.java.RulesList_getChecks_20794066411
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in ix.ibm.sonar.java.RulesList_getChecks_20794066411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.RulesList_getChecks_20794066411
 [INFO] Running ix.ibm.sonar.java.RulesList_getJavaChecks_8220899676
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.RulesList_getJavaChecks_8220899676
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.RulesList_getJavaChecks_8220899676
 [INFO] Running ix.ibm.sonar.java.RulesList_getJavaChecks_8220899672
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.RulesList_getJavaChecks_8220899672
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.RulesList_getJavaChecks_8220899672
 [INFO] Running ix.ibm.sonar.java.RulesList_getJavaTestChecks_7577431653
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ix.ibm.sonar.java.RulesList_getJavaTestChecks_7577431653
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ix.ibm.sonar.java.RulesList_getJavaTestChecks_7577431653
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -214,6 +215,6 @@ See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dump
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  28.766 s
-[INFO] Finished at: 2026-04-08T05:24:03Z
+[INFO] Total time:  27.556 s
+[INFO] Finished at: 2026-04-09T12:04:51Z
 [INFO] ------------------------------------------------------------------------

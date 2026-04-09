@@ -41,9 +41,9 @@ public class Species {
 
     public void assignBestGenome() {
 <span class="fc" id="L43">        FitnessGenome fittestGenome = genomes.stream().max(FitnessGenome::compareTo).orElse(null);</span>
-<span class="pc bpc" id="L44" title="1 of 2 branches missed.">        if (bestGenome.getFitness() &lt; fittestGenome.getFitness()) {</span>
-<span class="nc" id="L45">            bestGenome = fittestGenome;</span>
-<span class="nc" id="L46">            staleness = 0;</span>
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        if (bestGenome.getFitness() &lt; fittestGenome.getFitness()) {</span>
+<span class="fc" id="L45">            bestGenome = fittestGenome;</span>
+<span class="fc" id="L46">            staleness = 0;</span>
         } else {
 <span class="fc" id="L48">            staleness++;</span>
         }

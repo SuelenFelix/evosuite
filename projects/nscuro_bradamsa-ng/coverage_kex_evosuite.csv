@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-nscuro_bradamsa-ng,kex+evosuite,64.37,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+nscuro_bradamsa-ng,kex+evosuite,64.37,43.75,28,99,73,245,12,75,success,maven_returncode=0

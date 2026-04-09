@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-openapi-json-schema-tools_openapi-json-schema-generator,kex+evosuite,0.0,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+openapi-json-schema-tools_openapi-json-schema-generator,kex+evosuite,0.0,0.0,6525,6525,15651,15651,2078,2078,success,maven_returncode=0

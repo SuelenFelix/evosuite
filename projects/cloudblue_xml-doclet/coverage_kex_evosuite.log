@@ -13,6 +13,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ xml-doclet ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.8:prepare-agent (default) @ xml-doclet ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/app/target/jacoco.exec
@@ -95,8 +96,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.366 s
-[INFO] Finished at: 2026-04-08T05:16:16Z
+[INFO] Total time:  4.612 s
+[INFO] Finished at: 2026-04-09T11:57:06Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:testCompile (default-testCompile) on project xml-doclet: Compilation failure: Compilation failure: 
 [ERROR] /app/src/test/java/kex-tests/tests/com/automation/xmldoclet/xjc/EqualityUtils.java:[145,64] incompatible types: java.lang.Class<capture#1 of ? extends java.lang.Object> cannot be converted to com.automation.xmldoclet.xjc.Class

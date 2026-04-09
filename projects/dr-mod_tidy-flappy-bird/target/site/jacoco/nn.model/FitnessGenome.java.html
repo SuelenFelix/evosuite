@@ -24,8 +24,8 @@ public class FitnessGenome implements Comparable&lt;FitnessGenome&gt; {
     }
 
     public void setFitness(double fitness) {
-<span class="nc" id="L27">        this.fitness = fitness;</span>
-<span class="nc" id="L28">    }</span>
+<span class="fc" id="L27">        this.fitness = fitness;</span>
+<span class="fc" id="L28">    }</span>
 
     public FitnessGenome copy() {
 <span class="nc" id="L31">        return new FitnessGenome(genome.copy(), fitness);</span>
@@ -33,7 +33,7 @@ public class FitnessGenome implements Comparable&lt;FitnessGenome&gt; {
 
     @Override
     public String toString() {
-<span class="nc" id="L36">        return &quot;FitnessGenome{&quot; +</span>
+<span class="fc" id="L36">        return &quot;FitnessGenome{&quot; +</span>
                 &quot;fitness=&quot; + fitness +
                 &quot;, genome=&quot; + genome +
                 '}';

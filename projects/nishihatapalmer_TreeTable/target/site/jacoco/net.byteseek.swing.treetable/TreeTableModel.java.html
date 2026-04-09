@@ -1522,7 +1522,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      **/
     protected void addMouseListener() {
 <span class="nc bnc" id="L1524" title="All 2 branches missed.">        if (table != null) {</span>
-<span class="nc" id="L1525">            tableMouseListener = new MouseAdapter() {</span>
+<span class="pc" id="L1525">            tableMouseListener = new MouseAdapter() {</span>
                 @Override
                 public void mouseClicked(MouseEvent e) {
 <span class="nc" id="L1528">                    toggleExpansion(e); //TODO: restrict to just left mouse button?</span>
@@ -2203,8 +2203,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
 <span class="fc" id="L2203">            final List&lt;TreeNode&gt; newVisibleNodes = buildVisibleChildren(parentNode);</span>
 <span class="fc" id="L2204">            final int newChildren = newVisibleNodes.size();</span>
 <span class="pc bpc" id="L2205" title="1 of 2 branches missed.">            if (newChildren &gt; 0) {</span>
-<span class="fc bfc" id="L2206" title="All 2 branches covered.">                if (newChildren == 1) {</span>
-<span class="fc" id="L2207">                    displayedNodes.add(firstChildRow, newVisibleNodes.get(0));</span>
+<span class="pc bpc" id="L2206" title="1 of 2 branches missed.">                if (newChildren == 1) {</span>
+<span class="nc" id="L2207">                    displayedNodes.add(firstChildRow, newVisibleNodes.get(0));</span>
                 } else {
 <span class="fc" id="L2209">                    displayedNodes.addAll(firstChildRow, newVisibleNodes);</span>
                 }
@@ -2466,8 +2466,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     }
 
     protected void checkNull(final Object object, final String message) {
-<span class="pc bpc" id="L2469" title="1 of 2 branches missed.">        if (object == null) {</span>
-<span class="nc" id="L2470">            throw new IllegalArgumentException(&quot;Object cannot be null: &quot; + message);</span>
+<span class="fc bfc" id="L2469" title="All 2 branches covered.">        if (object == null) {</span>
+<span class="fc" id="L2470">            throw new IllegalArgumentException(&quot;Object cannot be null: &quot; + message);</span>
         }
 <span class="fc" id="L2472">    }</span>
 
@@ -2478,7 +2478,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that toggles a tree node expanded or collapsed.
      */
-<span class="nc" id="L2481">    protected abstract class TreeTableAbstractAction extends AbstractAction {</span>
+<span class="fc" id="L2481">    protected abstract class TreeTableAbstractAction extends AbstractAction {</span>
         @Override
         public void actionPerformed(ActionEvent e) {
 <span class="nc" id="L2484">            Object source = e.getSource();</span>
@@ -2497,7 +2497,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that expands a node if it is not already expanded.
      */
-<span class="nc" id="L2500">    protected class TreeTableExpandAction extends TreeTableAbstractAction {</span>
+<span class="fc" id="L2500">    protected class TreeTableExpandAction extends TreeTableAbstractAction {</span>
         protected boolean shouldToggle(final TreeNode node) {
 <span class="nc bnc" id="L2502" title="All 2 branches missed.">            return !isExpanded(node);</span>
         }
@@ -2506,7 +2506,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that collapses a node if it is currently expanded.
      */
-<span class="nc" id="L2509">    protected class TreeTableCollapseAction  extends TreeTableAbstractAction {</span>
+<span class="fc" id="L2509">    protected class TreeTableCollapseAction  extends TreeTableAbstractAction {</span>
         protected boolean shouldToggle(final TreeNode node) {
 <span class="nc" id="L2511">            return isExpanded(node);</span>
         }
@@ -2515,17 +2515,17 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that toggles expansion or collapse of a node.
      */
-<span class="nc" id="L2518">    protected class TreeTableToggleExpandAction extends TreeTableAbstractAction {</span>
+<span class="fc" id="L2518">    protected class TreeTableToggleExpandAction extends TreeTableAbstractAction {</span>
         protected boolean shouldToggle(final TreeNode node) {
-<span class="nc" id="L2520">            return true;</span>
+<span class="fc" id="L2520">            return true;</span>
         }
     }
 
-<span class="nc" id="L2524">    protected class TreeTableNavigateParentAction extends AbstractAction {</span>
+<span class="fc" id="L2524">    protected class TreeTableNavigateParentAction extends AbstractAction {</span>
         @Override
         public void actionPerformed(ActionEvent e) {
-<span class="nc" id="L2527">            Object source = e.getSource();</span>
-<span class="nc bnc" id="L2528" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="fc" id="L2527">            Object source = e.getSource();</span>
+<span class="pc bpc" id="L2528" title="1 of 2 branches missed.">            if (source instanceof JTable) {</span>
 <span class="nc" id="L2529">                final JTable table = (JTable) source;</span>
 <span class="nc" id="L2530">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
 <span class="nc" id="L2531">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
@@ -2541,14 +2541,14 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
                     }
                 }
             }
-<span class="nc" id="L2544">        }</span>
+<span class="fc" id="L2544">        }</span>
     }
 
-<span class="nc" id="L2547">    protected class TreeTableNavigateChildrenAction extends AbstractAction {</span>
+<span class="fc" id="L2547">    protected class TreeTableNavigateChildrenAction extends AbstractAction {</span>
         @Override
         public void actionPerformed(ActionEvent e) {
-<span class="nc" id="L2550">            Object source = e.getSource();</span>
-<span class="nc bnc" id="L2551" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="fc" id="L2550">            Object source = e.getSource();</span>
+<span class="pc bpc" id="L2551" title="1 of 2 branches missed.">            if (source instanceof JTable) {</span>
 <span class="nc" id="L2552">                final JTable table = (JTable) source;</span>
 <span class="nc" id="L2553">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
 <span class="nc" id="L2554">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
@@ -2564,7 +2564,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
                     }
                 }
             }
-<span class="nc" id="L2567">        }</span>
+<span class="fc" id="L2567">        }</span>
     }
 
     /**

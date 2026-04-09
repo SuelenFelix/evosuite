@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TableUtils_ESTest
 -------------------------------------------------------------------------------
-Tests run: 64, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.112 sec <<< FAILURE!
-test61(net.byteseek.swing.treetable.TableUtils_ESTest)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 64, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.027 sec <<< FAILURE!
+test61(net.byteseek.swing.treetable.TableUtils_ESTest)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.SecurityException: Security manager blocks ("java.awt.AWTPermission" "listenToAllAWTEvents")
 java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
 org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:433)

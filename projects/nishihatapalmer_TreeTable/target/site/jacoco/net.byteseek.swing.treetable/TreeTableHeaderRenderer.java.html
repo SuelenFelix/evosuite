@@ -203,7 +203,7 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
         BasicTableHeaderUI ui;
         BasicTableUI ui2;
         //TODO: remove above!!!
-<span class="nc bnc" id="L206" title="All 2 branches missed.">        if (table != null) {</span>
+<span class="pc bpc" id="L206" title="1 of 2 branches missed.">        if (table != null) {</span>
 <span class="nc" id="L207">            JTableHeader header = table.getTableHeader();</span>
 <span class="nc bnc" id="L208" title="All 2 branches missed.">            if (header != null) {</span>
 <span class="nc" id="L209">                setForeground(header.getForeground());</span>
@@ -214,7 +214,7 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
 <span class="nc" id="L214">                setColumnSortedProperties(table, column);</span>
             }
         }
-<span class="nc" id="L217">        return this;</span>
+<span class="fc" id="L217">        return this;</span>
     }
 
 
@@ -252,14 +252,14 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
      * @return whether the column headers should be in a bold font if they are sorted.
      */
     public boolean getBoldOnSorted() {
-<span class="nc" id="L255">        return boldOnSorted;</span>
+<span class="fc" id="L255">        return boldOnSorted;</span>
     }
 
     /**
      * @return Whether the sort order number of the column should be displayed.
      */
     public boolean getShowNumber() {
-<span class="nc" id="L262">        return showNumber;</span>
+<span class="fc" id="L262">        return showNumber;</span>
     }
 
     /**
@@ -275,15 +275,15 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
      * @param sortAscendingIcon the icon for an ascending sort.
      */
     public void setSortAscendingIcon(final Icon sortAscendingIcon) {
-<span class="nc" id="L278">        this.sortAscendingIcon = sortAscendingIcon;</span>
-<span class="nc" id="L279">        setMaxIconWidth();</span>
-<span class="nc" id="L280">    }</span>
+<span class="fc" id="L278">        this.sortAscendingIcon = sortAscendingIcon;</span>
+<span class="fc" id="L279">        setMaxIconWidth();</span>
+<span class="fc" id="L280">    }</span>
 
     /**
      * @return the icon for an ascending sort.
      */
     public Icon getSortAscendingIcon() {
-<span class="nc" id="L286">        return sortAscendingIcon;</span>
+<span class="fc" id="L286">        return sortAscendingIcon;</span>
     }
 
     /**
@@ -291,15 +291,15 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
      * @param sortDescendingIcon the icon for a descending sort.
      */
     public void setSortDescendingIcon(final Icon sortDescendingIcon) {
-<span class="nc" id="L294">        this.sortDescendingIcon = sortDescendingIcon;</span>
-<span class="nc" id="L295">        setMaxIconWidth();</span>
-<span class="nc" id="L296">    }</span>
+<span class="fc" id="L294">        this.sortDescendingIcon = sortDescendingIcon;</span>
+<span class="fc" id="L295">        setMaxIconWidth();</span>
+<span class="fc" id="L296">    }</span>
 
     /**
      * @return the icon for a descending sort.
      */
     public Icon getSortDescendingIcon() {
-<span class="nc" id="L302">        return sortDescendingIcon;</span>
+<span class="fc" id="L302">        return sortDescendingIcon;</span>
     }
 
     /**
@@ -307,7 +307,7 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
      * @return the inner border which is responsible for rendering the ascending / descending icons and column number.
      */
     protected Border getSortIconBorder() {
-<span class="nc" id="L310">        return sortIconBorder;</span>
+<span class="fc" id="L310">        return sortIconBorder;</span>
     }
 
     /**
@@ -315,21 +315,21 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
      * @return the JLabel that paints the icon and number.
      */
     protected JLabel getSortIconPainter() {
-<span class="nc" id="L318">        return paintLabel;</span>
+<span class="fc" id="L318">        return paintLabel;</span>
     }
 
     /**
      * Sets the maximum icon width for the descending and ascending icons.
      */
     protected final void setMaxIconWidth() {
-<span class="nc bnc" id="L325" title="All 2 branches missed.">        int descendingWidth = sortDescendingIcon == null? 0 : sortDescendingIcon.getIconWidth();</span>
-<span class="nc bnc" id="L326" title="All 2 branches missed.">        int ascendingWidth = sortAscendingIcon == null? 0 : sortAscendingIcon.getIconWidth();</span>
-<span class="nc" id="L327">        maxIconWidth = Math.max(descendingWidth, ascendingWidth);</span>
-<span class="nc" id="L328">    }</span>
+<span class="pc bpc" id="L325" title="1 of 2 branches missed.">        int descendingWidth = sortDescendingIcon == null? 0 : sortDescendingIcon.getIconWidth();</span>
+<span class="pc bpc" id="L326" title="1 of 2 branches missed.">        int ascendingWidth = sortAscendingIcon == null? 0 : sortAscendingIcon.getIconWidth();</span>
+<span class="fc" id="L327">        maxIconWidth = Math.max(descendingWidth, ascendingWidth);</span>
+<span class="fc" id="L328">    }</span>
 
     @Override
     public String toString() {
-<span class="nc" id="L332">        return getClass().getSimpleName() + &quot;(show sort number: &quot; + showNumber + ')';</span>
+<span class="fc" id="L332">        return getClass().getSimpleName() + &quot;(show sort number: &quot; + showNumber + ')';</span>
     }
 
     /**
@@ -380,11 +380,11 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
      * @return the font to use for a sorted column header.
      */
     protected Font getSortedColumnHeaderFont(final Font headerFont) {
-<span class="nc bnc" id="L383" title="All 2 branches missed.">        if (boldOnSorted) {</span>
+<span class="pc bpc" id="L383" title="1 of 2 branches missed.">        if (boldOnSorted) {</span>
 <span class="nc" id="L384">            updateCachedFonts(headerFont);</span>
 <span class="nc" id="L385">            return boldHeaderFont;</span>
         }
-<span class="nc" id="L387">        return headerFont;</span>
+<span class="fc" id="L387">        return headerFont;</span>
     }
 
     /**
@@ -449,12 +449,12 @@ public class TreeTableHeaderRenderer extends JLabel implements TableCellRenderer
 
         @Override
         public Insets getBorderInsets(Component c) {
-<span class="nc" id="L452">            return insets;</span>
+<span class="fc" id="L452">            return insets;</span>
         }
 
         @Override
         public boolean isBorderOpaque() {
-<span class="nc" id="L457">            return false;</span>
+<span class="fc" id="L457">            return false;</span>
         }
     }
 }

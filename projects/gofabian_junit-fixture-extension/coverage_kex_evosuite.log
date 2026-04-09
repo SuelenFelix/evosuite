@@ -5,6 +5,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ junit-fixture-extension ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ junit-fixture-extension ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -51,8 +52,8 @@ SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 [INFO] Running de.gofabian.jfixture.Scope_init_13609644926
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in de.gofabian.jfixture.Scope_init_13609644926
-[ERROR] test  Time elapsed: 0.021 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in de.gofabian.jfixture.Scope_init_13609644926
+[ERROR] test  Time elapsed: 0.02 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at de.gofabian.jfixture.Scope_init_13609644926.test(Scope_init_13609644926.java:51)
 
@@ -65,7 +66,7 @@ java.lang.NullPointerException: Name is null
 	at de.gofabian.jfixture.Scope_valueOf_17004594525.test(Scope_valueOf_17004594525.java:49)
 
 [INFO] Running de.gofabian.jfixture.FixtureExtension_ESTest
-[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.957 s - in de.gofabian.jfixture.FixtureExtension_ESTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.978 s - in de.gofabian.jfixture.FixtureExtension_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureManager_getFixtureLifecycle_15084767357
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureManager_getFixtureLifecycle_15084767357
 [INFO] Running de.gofabian.jfixture.FixtureDefinitionQueries_findById_18517286956
@@ -81,7 +82,7 @@ java.lang.IllegalArgumentException: missing parameter!
 	at de.gofabian.jfixture.FixtureMethodParser_1_setUp_1395159331.test(FixtureMethodParser_1_setUp_1395159331.java:92)
 
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818399
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818399
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818399
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818399.test(FixtureMethodParser_parseInstance_2200818399.java:45)
@@ -91,10 +92,10 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.FixtureDefinition_ESTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureDefinition_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818392
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818392
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.FixtureMethodParser_parseInstance_2200818392
 [INFO] Running de.gofabian.jfixture.FixtureManager_getFixtureDefinition_166462712614
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_getFixtureDefinition_166462712614
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_getFixtureDefinition_166462712614
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureManager_getFixtureDefinition_166462712614.test(FixtureManager_getFixtureDefinition_166462712614.java:46)
 
@@ -105,25 +106,25 @@ java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinition_isAutoUse_521241838.test(FixtureDefinition_isAutoUse_521241838.java:40)
 
 [INFO] Running de.gofabian.jfixture.FixtureManager_leave_16864615242
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureManager_leave_16864615242
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.FixtureManager_leave_16864615242
 [INFO] Running de.gofabian.jfixture.FixtureDefinitionQueries_ESTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in de.gofabian.jfixture.FixtureDefinitionQueries_ESTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in de.gofabian.jfixture.FixtureDefinitionQueries_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureManager_ESTest
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in de.gofabian.jfixture.FixtureManager_ESTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in de.gofabian.jfixture.FixtureManager_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_ESTest
 [INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in de.gofabian.jfixture.FixtureLifecycle_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_getDefinition_1187972711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_getDefinition_1187972711
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516458
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516458
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516458
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516458.test(FixtureMethodParser_parseClass_4286516458.java:45)
 
 [INFO] Running de.gofabian.jfixture.FixtureManager_init_3344476008
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureManager_init_3344476008
 [INFO] Running de.gofabian.jfixture.FixtureManager_getFixtureLifecycle_150847673515
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_getFixtureLifecycle_150847673515
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_getFixtureLifecycle_150847673515
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureManager_getFixtureLifecycle_150847673515.test(FixtureManager_getFixtureLifecycle_150847673515.java:46)
@@ -131,27 +132,27 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.ExtensionContextUtil_init_12975856191
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.ExtensionContextUtil_init_12975856191
 [INFO] Running de.gofabian.jfixture.FixtureManager_getFixtureDefinition_16646271266
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_getFixtureDefinition_16646271266
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_getFixtureDefinition_16646271266
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: could not find fixture by id FixtureId{type=null, name='oVcInYnLWB'}
 	at de.gofabian.jfixture.FixtureManager_getFixtureDefinition_16646271266.test(FixtureManager_getFixtureDefinition_16646271266.java:61)
 
 [INFO] Running de.gofabian.jfixture.FixtureDefinition_toString_12084631629
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_toString_12084631629
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_toString_12084631629
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinition_toString_12084631629.test(FixtureDefinition_toString_12084631629.java:40)
 
 [INFO] Running de.gofabian.jfixture.ExtensionContextUtil_init_12975856190
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.ExtensionContextUtil_init_12975856190
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_createFixtureDefinition_8132464666
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_createFixtureDefinition_8132464666
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_createFixtureDefinition_8132464666
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_createFixtureDefinition_8132464666.test(FixtureMethodParser_createFixtureDefinition_8132464666.java:58)
 
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_init_9298064300
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.FixtureMethodParser_init_9298064300
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureMethodParser_init_9298064300
 [INFO] Running de.gofabian.jfixture.FixtureDefinitionQueries_supportsType_3390322257
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinitionQueries_supportsType_3390322257
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -182,22 +183,22 @@ java.lang.NullPointerException
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureMethodParser_1_init_8476598770
 [INFO] Running de.gofabian.jfixture.FixtureDefinition_getId_8242785896
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_getId_8242785896
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinition_getId_8242785896.test(FixtureDefinition_getId_8242785896.java:40)
 
 [INFO] Running de.gofabian.jfixture.FixtureSession_ESTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.FixtureSession_ESTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.gofabian.jfixture.FixtureSession_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_isSetUp_7166478198
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_isSetUp_7166478198
 [INFO] Running de.gofabian.jfixture.FixtureDefinition_getScope_3788408110
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_getScope_3788408110
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_getScope_3788408110
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinition_getScope_3788408110.test(FixtureDefinition_getScope_3788408110.java:40)
 
 [INFO] Running de.gofabian.jfixture.ExtensionContextUtil_ESTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in de.gofabian.jfixture.ExtensionContextUtil_ESTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in de.gofabian.jfixture.ExtensionContextUtil_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_isSetUp_7166478192
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_isSetUp_7166478192
 [INFO] Running de.gofabian.jfixture.FixtureManager_setUp_11548320155
@@ -207,7 +208,7 @@ java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureManager_setUp_11548320155.test(FixtureManager_setUp_11548320155.java:65)
 
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_createInstance_21121864025
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_createInstance_21121864025
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_createInstance_21121864025
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_createInstance_21121864025.test(FixtureMethodParser_createInstance_21121864025.java:47)
@@ -215,7 +216,7 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_getObject_7347051843
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_getObject_7347051843
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_tearDown_18230204005
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureLifecycle_tearDown_18230204005
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureLifecycle_tearDown_18230204005
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: not set up
 	at de.gofabian.jfixture.FixtureLifecycle_tearDown_18230204005.test(FixtureLifecycle_tearDown_18230204005.java:47)
@@ -233,16 +234,16 @@ java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_1_tearDown_18956665705.test(FixtureMethodParser_1_tearDown_18956665705.java:53)
 
 [INFO] Running de.gofabian.jfixture.FixtureDefinition_toString_12084631624
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_toString_12084631624
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureDefinition_toString_12084631624
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinition_toString_12084631624.test(FixtureDefinition_toString_12084631624.java:40)
 
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_setUp_6459390284
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_setUp_6459390284
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_8390834473
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_8390834473
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_8390834473
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_8390834473.test(FixtureMethodParser_collectExternalClasses_8390834473.java:47)
 
@@ -261,9 +262,9 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_getObject_7347051849
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_getObject_7347051849
 [INFO] Running de.gofabian.jfixture.api.FixtureContext_init_8175058923
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.gofabian.jfixture.api.FixtureContext_init_8175058923
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.api.FixtureContext_init_8175058923
 [INFO] Running de.gofabian.jfixture.api.FixtureId_init_672479954
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.api.FixtureId_init_672479954
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.api.FixtureId_init_672479954
 [INFO] Running de.gofabian.jfixture.api.FixtureId_getName_13450150046
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.api.FixtureId_getName_13450150046
 [INFO] Running de.gofabian.jfixture.api.FixtureId_getType_13231797221
@@ -283,9 +284,9 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.api.FixtureId_toString_18181945533
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.api.FixtureId_toString_18181945533
 [INFO] Running de.gofabian.jfixture.api.FixtureId_toString_18181945537
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in de.gofabian.jfixture.api.FixtureId_toString_18181945537
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.api.FixtureId_toString_18181945537
 [INFO] Running de.gofabian.jfixture.api.FixtureId_ESTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.gofabian.jfixture.api.FixtureId_ESTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in de.gofabian.jfixture.api.FixtureId_ESTest
 [INFO] Running de.gofabian.jfixture.api.FixtureContext_ESTest
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in de.gofabian.jfixture.api.FixtureContext_ESTest
 [INFO] Running de.gofabian.jfixture.api.FixtureContext_addTearDown_2480778804
@@ -311,8 +312,8 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_1_init_8476598773
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureMethodParser_1_init_8476598773
 [INFO] Running de.gofabian.jfixture.FixtureManager_supports_27092078211
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_supports_27092078211
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_supports_27092078211
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureManager_supports_27092078211.test(FixtureManager_supports_27092078211.java:46)
 
@@ -323,7 +324,7 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.FixtureDefinitionQueries_findById_18517286952
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureDefinitionQueries_findById_18517286952
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_ESTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in de.gofabian.jfixture.FixtureMethodParser_ESTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in de.gofabian.jfixture.FixtureMethodParser_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureDefinitionQueries_init_3761821690
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureDefinitionQueries_init_3761821690
 [INFO] Running de.gofabian.jfixture.FixtureDefinition_isAutoUse_521241833
@@ -341,16 +342,16 @@ java.lang.NullPointerException
 [INFO] Running de.gofabian.jfixture.FixtureDefinitionQueries_init_3761821694
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureDefinitionQueries_init_3761821694
 [INFO] Running de.gofabian.jfixture.FixtureManager_resolve_43215956512
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_resolve_43215956512
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_resolve_43215956512
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureManager_resolve_43215956512.test(FixtureManager_resolve_43215956512.java:46)
 
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_init_255860380
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.FixtureLifecycle_init_255860380
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_83908344710
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_83908344710
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_83908344710
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_collectExternalClasses_83908344710.test(FixtureMethodParser_collectExternalClasses_83908344710.java:45)
 
@@ -385,7 +386,7 @@ java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinition_getDependencyIds_16090230427.test(FixtureDefinition_getDependencyIds_16090230427.java:40)
 
 [INFO] Running de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516451
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516451
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516451
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureMethodParser_parseClass_4286516451.test(FixtureMethodParser_parseClass_4286516451.java:47)
@@ -415,7 +416,7 @@ java.lang.NullPointerException
 	at de.gofabian.jfixture.FixtureDefinitionQueries_filterBy_8953846061.test(FixtureDefinitionQueries_filterBy_8953846061.java:57)
 
 [INFO] Running de.gofabian.jfixture.Scope_ESTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in de.gofabian.jfixture.Scope_ESTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in de.gofabian.jfixture.Scope_ESTest
 [INFO] Running de.gofabian.jfixture.FixtureManager_setUp_115483201513
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureManager_setUp_115483201513
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -441,8 +442,8 @@ java.lang.IllegalArgumentException: could not find fixture by id FixtureId{type=
 [INFO] Running de.gofabian.jfixture.Scope_getOrder_3912759277
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in de.gofabian.jfixture.Scope_getOrder_3912759277
 [INFO] Running de.gofabian.jfixture.FixtureLifecycle_tearDown_182302040011
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in de.gofabian.jfixture.FixtureLifecycle_tearDown_182302040011
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in de.gofabian.jfixture.FixtureLifecycle_tearDown_182302040011
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: not set up
 	at de.gofabian.jfixture.FixtureLifecycle_tearDown_182302040011.test(FixtureLifecycle_tearDown_182302040011.java:45)
 
@@ -523,6 +524,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.660 s
-[INFO] Finished at: 2026-04-08T05:22:37Z
+[INFO] Total time:  4.871 s
+[INFO] Finished at: 2026-04-09T12:03:24Z
 [INFO] ------------------------------------------------------------------------

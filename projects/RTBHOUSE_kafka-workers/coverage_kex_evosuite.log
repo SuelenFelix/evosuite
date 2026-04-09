@@ -5,6 +5,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ kafka-workers ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ kafka-workers ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -110,7 +111,7 @@
  T E S T S
 -------------------------------------------------------
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_values_18860199670
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_waitForShutdown_10633512817
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.rtbhouse.kafka.workers.api.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -118,7 +119,7 @@ WARNING: Please consider reporting this to the maintainers of com.rtbhouse.kafka
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_waitForShutdown_10633512817)  Time elapsed: 0.005 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_waitForShutdown_10633512817)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.KafkaWorkers.waitForShutdown(KafkaWorkers.java:172)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -142,12 +143,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.partitioner.RoundRobinPartitioner_init_9926519011
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.api.partitioner.DefaultPartitioner_init_15656936341
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.api.partitioner.HashFunctionPartitioner_init_8292209800
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.partitioner.HashFunctionPartitioner_init_8292209800)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.partitioner.HashFunctionPartitioner_init_8292209800)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -177,15 +178,15 @@ Caused by: java.lang.NullPointerException: hash function cannot be null
 Running com.rtbhouse.kafka.workers.api.partitioner.DefaultPartitioner_init_15656936340
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.partitioner.WorkerSubpartition_ESTest
-2026-04-08 05:44:57,551 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class com.google.common.cache.LocalCache$WeightedStrongValueReference
-2026-04-08 05:44:57,571 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.21 sec
+2026-04-09 12:34:01,064 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class com.google.common.cache.LocalCache$WeightedStrongValueReference
+2026-04-09 12:34:01,077 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.232 sec
 Running com.rtbhouse.kafka.workers.api.partitioner.RoundRobinPartitioner_init_9926519010
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTerminal_2672261354
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTerminal_2672261354
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_getStatus_2376688836
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.api.KafkaWorkers_getStatus_2376688836)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.KafkaWorkers.getStatus(KafkaWorkers.java:163)
@@ -211,7 +212,7 @@ java.lang.NullPointerException
 
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_valueOf_13939895646
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_valueOf_13939895646)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_valueOf_13939895646)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at com.rtbhouse.kafka.workers.api.KafkaWorkers$Status.valueOf(KafkaWorkers.java:55)
@@ -236,8 +237,8 @@ java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_valueOf_13939895641
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_valueOf_13939895641)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_valueOf_13939895641)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.api.KafkaWorkers.Status.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at com.rtbhouse.kafka.workers.api.KafkaWorkers$Status.valueOf(KafkaWorkers.java:55)
@@ -262,10 +263,10 @@ java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.WorkersException_init_6600506411
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_shutdown_10147352011
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_shutdown_10147352011)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_shutdown_10147352011)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -334,8 +335,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_start_13522011070
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_start_13522011070)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_start_13522011070)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -358,12 +359,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.WorkersException_init_6600506414
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTerminal_2672261359
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTransitionAllowed_20252893708
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTransitionAllowed_20252893708)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTransitionAllowed_20252893708)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.KafkaWorkers$Status.isTransitionAllowed(KafkaWorkers.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -389,10 +390,10 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_isTransitionAllowed_20252893703
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.WorkersException_init_556015793
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.WorkersException_init_556015790
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.WorkersException_init_556015790)  Time elapsed: 0.002 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.WorkersException_init_556015790)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ClassNotFoundException: kex.java.util.ArrayList$Itr
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -415,8 +416,8 @@ java.lang.ClassNotFoundException: kex.java.util.ArrayList$Itr
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_valueOf_189863965
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_valueOf_189863965)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_valueOf_189863965)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee.valueOf(RecordProcessingGuarantee.java:9)
@@ -441,8 +442,8 @@ java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_valueOf_189863961
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_valueOf_189863961)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_valueOf_189863961)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee.valueOf(RecordProcessingGuarantee.java:9)
@@ -467,8 +468,8 @@ java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_fromString_1168677997
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_fromString_1168677997)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_fromString_1168677997)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException
 	at com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee.fromString(RecordProcessingGuarantee.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -492,13 +493,14 @@ java.lang.IllegalArgumentException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_values_5110167990
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_ESTest
-2026-04-08 05:44:57,755 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
-2026-04-08 05:44:57,755 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.122 sec <<< FAILURE!
-test2(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_ESTest)  Time elapsed: 0.094 sec  <<< ERROR!
+2026-04-09 12:34:01,267 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
+2026-04-09 12:34:01,267 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.12 sec <<< FAILURE!
+test2(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_ESTest)  Time elapsed: 0.098 sec  <<< ERROR!
 java.lang.StackOverflowError
+	at org.evosuite.runtime.sandbox.MSecurityManager.checkIfRMIDuringTests(MSecurityManager.java)
 	at org.evosuite.runtime.sandbox.MSecurityManager.allowPermission(MSecurityManager.java:504)
 	at org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:431)
 	at java.base/java.lang.Class.checkMemberAccess(Class.java:2847)
@@ -1522,14 +1524,13 @@ java.lang.StackOverflowError
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.estimateInstanceSize(WeigherHelpers.java:46)
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.estimateInstanceSize(WeigherHelpers.java:46)
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.estimateInstanceSize(WeigherHelpers.java:46)
-	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.estimateInstanceSize(WeigherHelpers.java:46)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_init_18738416623
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_init_21315462060
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_headerSize_18630968929
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_headerSize_18630968929)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.headerSize(WeigherHelpers.java:56)
@@ -1583,7 +1584,7 @@ java.lang.NullPointerException
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_estimateInstanceSize_9633635641
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_estimateInstanceSize_9633635641)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_estimateInstanceSize_9633635641)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.estimateInstanceSize(WeigherHelpers.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1607,30 +1608,30 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_padding_11869768434
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_ESTest
-2026-04-08 05:44:57,868 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:44:57,869 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
-2026-04-08 05:44:57,870 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-2026-04-08 05:44:57,870 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+2026-04-09 12:34:01,383 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:01,384 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
+2026-04-09 12:34:01,384 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,384 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_padding_118697684311
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_paddedSize_1868193076
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.BytesWeigher_init_6237294760
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.BytesWeigher_ESTest
-2026-04-08 05:44:57,880 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:44:57,883 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
-2026-04-08 05:44:57,883 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-2026-04-08 05:44:57,883 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.BytesWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-2026-04-08 05:44:57,883 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-2026-04-08 05:44:57,883 [main] ERROR o.e.r.c.ClassStateSupport - Class org.apache.kafka.common.utils.Bytes was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,394 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:01,396 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
+2026-04-09 12:34:01,396 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,396 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.BytesWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,397 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,397 [main] ERROR o.e.r.c.ClassStateSupport - Class org.apache.kafka.common.utils.Bytes was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_weigh_20681701653
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_weigh_20681701653)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_weigh_20681701653)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1653,8 +1654,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_estimateInstanceSize_9633635648
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_estimateInstanceSize_9633635648)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_estimateInstanceSize_9633635648)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.estimateInstanceSize(WeigherHelpers.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1678,8 +1679,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_headerSize_18630968922
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_headerSize_18630968922)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_headerSize_18630968922)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers.headerSize(WeigherHelpers.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1703,8 +1704,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_weigh_20681701651
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_weigh_20681701651)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_weigh_20681701651)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1727,13 +1728,13 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_init_18738416620
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_ESTest
-2026-04-08 05:44:57,892 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:44:57,893 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
-2026-04-08 05:44:57,893 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-2026-04-08 05:44:57,893 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-2026-04-08 05:44:57,893 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,405 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:01,406 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class org.apache.commons.lang3.Validate
+2026-04-09 12:34:01,406 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,406 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:01,406 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_fieldSize_7852437615
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
@@ -1762,7 +1763,7 @@ java.lang.NullPointerException
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_weight_15312162025
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_weight_15312162025)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_weight_15312162025)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1785,10 +1786,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_init_2949728880
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_weigh_2102368821
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_weigh_2102368821)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.record.weigher.ByteArrayWeigher_weigh_2102368821)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1813,7 +1814,7 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.api.record.weigher.StringWeigher_init_2949728882
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_isHeapLarge_101589356510
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_paddedSize_18681930713
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.api.record.weigher.WeigherHelpers_fieldSize_78524376112
@@ -1898,7 +1899,7 @@ java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.
 
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_init_1293865716
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_init_1293865716)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_init_1293865716)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at com.rtbhouse.kafka.workers.api.record.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -1918,12 +1919,12 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_ESTest
-2026-04-08 05:44:57,912 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:44:57,912 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+2026-04-09 12:34:01,424 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:01,425 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
 Running com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_init_1293865712
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_init_1293865712)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.record.RecordProcessingGuarantee_init_1293865712)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at com.rtbhouse.kafka.workers.api.record.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -1945,8 +1946,8 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_values_18860199675
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_getStatus_2376688832
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_getStatus_2376688832)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_getStatus_2376688832)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1969,8 +1970,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_init_18737363887
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_init_18737363887)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_Status_init_18737363887)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at com.rtbhouse.kafka.workers.api.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -2039,8 +2040,8 @@ java.lang.ClassNotFoundException: java.io.ObjectStreamClass$EntryFuture
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.KafkaWorkers_waitForShutdown_10633512813
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.api.KafkaWorkers_waitForShutdown_10633512813)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.api.KafkaWorkers_waitForShutdown_10633512813)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2063,7 +2064,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.api.WorkersException_init_4804810965
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.queues.RecordsQueue_init_7026819080
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.queues.RecordsQueue_init_7026819081
@@ -2093,8 +2094,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.TaskManager_allThreadsNotRunning_20562496545
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.TaskManager_allThreadsNotRunning_20562496545)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.TaskManager_allThreadsNotRunning_20562496545)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2117,8 +2118,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_init_12412466520
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_init_12412466520)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_init_12412466520)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2141,8 +2142,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_remainingMsToPunctuate_190081112812
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_remainingMsToPunctuate_190081112812)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_remainingMsToPunctuate_190081112812)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2165,7 +2166,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_getTasksCount_7297624178
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_getTasksCount_7297624178)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2189,8 +2190,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_process_13305634191
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_process_13305634191)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_process_13305634191)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2213,8 +2214,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.SpreadSubpartitionsWorkerThreadAssignor_assign_12685361211
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.SpreadSubpartitionsWorkerThreadAssignor_assign_12685361211)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.SpreadSubpartitionsWorkerThreadAssignor_assign_12685361211)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.ArrayList.<init>(ArrayList.java:179)
 	at com.rtbhouse.kafka.workers.impl.task.SpreadSubpartitionsWorkerThreadAssignor.assign(SpreadSubpartitionsWorkerThreadAssignor.java:21)
@@ -2240,7 +2241,7 @@ java.lang.NullPointerException
 
 Running com.rtbhouse.kafka.workers.impl.task.TaskManager_notifyTask_5588044150
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.TaskManager_notifyTask_5588044150)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.impl.task.TaskManager_notifyTask_5588044150)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2264,7 +2265,7 @@ java.lang.NullPointerException
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_isNotRunning_17144053269
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_isNotRunning_17144053269)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_isNotRunning_17144053269)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2313,7 +2314,7 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.task.SpreadSubpartitionsWorkerThreadAssignor_init_7518228682
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_createRecordStatusObserver_1027886472
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_createRecordStatusObserver_1027886472)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2361,7 +2362,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerTaskImpl_init_3400527501
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running com.rtbhouse.kafka.workers.impl.task.TaskManager_stopThreads_1821284953
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.task.TaskManager_stopThreads_1821284953)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2411,8 +2412,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.TaskManager_rebalanceTasks_21090110572
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.TaskManager_rebalanceTasks_21090110572)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.TaskManager_rebalanceTasks_21090110572)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2435,8 +2436,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_shouldPunctuateNow_207045812211
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_shouldPunctuateNow_207045812211)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_shouldPunctuateNow_207045812211)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2459,8 +2460,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_clearTasks_8642876616
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_clearTasks_8642876616)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_clearTasks_8642876616)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2485,10 +2486,10 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.task.WorkerTaskImpl_init_3400527500
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.task.SpreadSubpartitionsWorkerThreadAssignor_init_7518228680
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.task.WorkerThread_close_10031076763
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_close_10031076763)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.WorkerThread_close_10031076763)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2511,8 +2512,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.TaskManager_startThreads_14752236014
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.TaskManager_startThreads_14752236014)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.TaskManager_startThreads_14752236014)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2535,8 +2536,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.task.TaskManager_notifyTaskManager_19523725671
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.task.TaskManager_notifyTaskManager_19523725671)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.task.TaskManager_notifyTaskManager_19523725671)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2559,7 +2560,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_run_8714965455
-2026-04-08 05:44:57,982 [Time-limited test] INFO  c.r.k.w.i.ShutdownListenerThread - waiting for being notify to shutdown
+2026-04-09 12:34:01,494 [Time-limited test] INFO  c.r.k.w.i.ShutdownListenerThread - waiting for being notify to shutdown
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.003 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_run_8714965455)  Time elapsed: 10.003 sec  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
@@ -2588,7 +2589,7 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.partitioner.SubpartitionSupplier_init_20192581
-2026-04-08 05:45:07,982 [Time-limited test] ERROR c.r.k.w.i.ShutdownListenerThread - InterruptedException: {}
+2026-04-09 12:34:11,494 [Time-limited test] ERROR c.r.k.w.i.ShutdownListenerThread - InterruptedException: {}
 java.lang.InterruptedException: null
 	at java.base/java.lang.Object.wait(Native Method)
 	at java.base/java.lang.Object.wait(Object.java:328)
@@ -2613,12 +2614,12 @@ java.lang.InterruptedException: null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.partitioner.SubpartitionSupplier_init_20192580
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_wrapIfNeeded_4848748989
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_wrapIfNeeded_4848748989)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_wrapIfNeeded_4848748989)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -2643,7 +2644,7 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_init_937039500
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_waitForShutdown_15905382067
-2026-04-08 05:45:07,990 [Time-limited test] INFO  c.r.k.w.i.ShutdownListenerThread - waiting for being notify to shutdown
+2026-04-09 12:34:11,502 [Time-limited test] INFO  c.r.k.w.i.ShutdownListenerThread - waiting for being notify to shutdown
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_waitForShutdown_15905382067)  Time elapsed: 10.001 sec  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
@@ -2771,8 +2772,8 @@ java.lang.ClassNotFoundException: kex.java.util.ArrayList$Itr
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_19276638210
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_19276638210)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_19276638210)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.ClassNotFoundException: kex.java.util.HashMap$ValueIterator
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2795,14 +2796,14 @@ java.lang.ClassNotFoundException: kex.java.util.HashMap$ValueIterator
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_18728737553
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_12120116014
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_19276638213
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_8073069542
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_8073069542)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_8073069542)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ClassNotFoundException: java.nio.file.FileSystems$BuiltinFileSystemHolder
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2825,42 +2826,42 @@ java.lang.ClassNotFoundException: java.nio.file.FileSystems$BuiltinFileSystemHol
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_19424239585
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_15522395880
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_8073069545
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.FailedCommitException_init_16171443160
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_3824274373
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_15522395883
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_2763253944
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_8365873681
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_3332247831
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_9919776143
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_18728737550
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-Running com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_8365873684
+Running com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_9919776143
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_18728737550
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_8365873684
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_19424239582
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_2763253941
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.FailedCommitException_init_20420238335
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_3332247834
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_17064413214
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_17064413214
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.FailedCommitException_init_20420238332
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.errors.FailedCommitException_init_20420238332)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.errors.FailedCommitException_init_20420238332)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ClassNotFoundException: kex.java.util.concurrent.atomic.AtomicLongArray
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
@@ -2883,7 +2884,7 @@ java.lang.ClassNotFoundException: kex.java.util.concurrent.atomic.AtomicLongArra
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_17064413211
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_14168571312
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_14168571312)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2909,7 +2910,7 @@ java.lang.ClassNotFoundException: java.io.ObjectStreamClass$EntryFuture
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.errors.BadOffsetException_init_14168571315
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_19771191052
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.errors.ProcessingTimeoutException_init_19771191052)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2937,7 +2938,7 @@ java.lang.ClassNotFoundException: kex.java.util.concurrent.atomic.AtomicStampedR
 Running com.rtbhouse.kafka.workers.impl.errors.ProcessingFailureException_init_12120116011
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.errors.FailedCommitException_init_16171443163
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadStatusException_init_3824274370
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.errors.BadSubpartitionException_init_14479942385
@@ -3019,8 +3020,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.punctuator.PunctuatorThread_process_4319836681
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.punctuator.PunctuatorThread_process_4319836681)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.punctuator.PunctuatorThread_process_4319836681)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -3043,7 +3044,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_getLast_15855211472
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_size_16268997242
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_size_16268997242)  Time elapsed: 0 sec  <<< ERROR!
@@ -3201,7 +3202,7 @@ java.lang.NullPointerException
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_getFirst_118724106520
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_getFirst_118724106520)  Time elapsed: 0.001 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_getFirst_118724106520)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.getFirst(SortedRanges.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3225,8 +3226,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeAll_107690952015
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeAll_107690952015)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeAll_107690952015)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at java.base/java.util.AbstractCollection.removeAll(AbstractCollection.java:380)
@@ -3254,8 +3255,8 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_init_6849788324
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_remove_66379686230
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_remove_66379686230)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_remove_66379686230)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.remove(SortedRanges.java:130)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3310,7 +3311,7 @@ Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_toString_11650096
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_getMinExistingElement_153608769423
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_getMinExistingElement_153608769423)  Time elapsed: 0.001 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_getMinExistingElement_153608769423)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:877)
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.getMinExistingElement(SortedRanges.java:47)
@@ -3385,7 +3386,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeElementsLowerOrEqual_119310961613
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_contains_16208960523
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_contains_16208960523)  Time elapsed: 0 sec  <<< ERROR!
@@ -3442,13 +3443,13 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_upperEndpoint_175782229412
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_iterator_1264480696
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_range_10946142365
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_clear_63957115217
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_init_10744679150
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_singleElementRange_14075034146
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.RangeUtils_init_3179686200
@@ -3507,8 +3508,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_builder_350998534
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_add_18943249628
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_add_18943249628)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_add_18943249628)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.TreeMap.compare(TreeMap.java:1291)
 	at java.base/java.util.TreeMap.put(TreeMap.java:536)
@@ -3535,8 +3536,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_addSingleElement_3419720810
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_addSingleElement_3419720810)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_addSingleElement_3419720810)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ClassCastException: class com.rtbhouse.kafka.workers.impl.range.BasicClosedRange cannot be cast to class java.lang.Comparable (com.rtbhouse.kafka.workers.impl.range.BasicClosedRange is in unnamed module of loader 'app'; java.lang.Comparable is in module java.base of loader 'bootstrap')
 	at java.base/java.util.TreeMap.compare(TreeMap.java:1291)
 	at java.base/java.util.TreeMap.put(TreeMap.java:536)
@@ -3564,8 +3565,8 @@ java.lang.ClassCastException: class com.rtbhouse.kafka.workers.impl.range.BasicC
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_extend_5699653072
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_extend_5699653072)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_extend_5699653072)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:127)
 	at com.rtbhouse.kafka.workers.impl.range.BasicClosedRange$Builder.extend(BasicClosedRange.java:60)
@@ -3592,8 +3593,8 @@ java.lang.IllegalArgumentException
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_init_17103722839
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_floorElement_28279638334
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_floorElement_28279638334)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_floorElement_28279638334)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.floorElement(SortedRanges.java:190)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3617,8 +3618,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.RangeUtils_reverseElementsStream_10024308803
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.RangeUtils_reverseElementsStream_10024308803)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.RangeUtils_reverseElementsStream_10024308803)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.RangeUtils.reverseElementsStream(RangeUtils.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3667,10 +3668,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_lowerEndpoint_47350452311
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_encloses_20639887394
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_encloses_20639887394)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_encloses_20639887394)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -3693,8 +3694,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeElementsLowerOrEqual_119310961632
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeElementsLowerOrEqual_119310961632)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeElementsLowerOrEqual_119310961632)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.removeElementsLowerOrEqual(SortedRanges.java:152)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3722,8 +3723,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_hashCode_6542499908
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_clear_63957115233
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_clear_63957115233)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_clear_63957115233)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.iterator(SortedRanges.java:80)
 	at java.base/java.util.AbstractCollection.clear(AbstractCollection.java:444)
@@ -3805,19 +3806,19 @@ java.lang.ClassCastException: class java.lang.Object cannot be cast to class com
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_size_11227422563
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_equals_20556331516
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_removeSingleElement_53982950312
-2026-04-08 05:45:18,098 [Time-limited test] WARN  c.r.k.w.i.range.SortedRanges - SortedRanges does not contain/enclose ClosedRange{-8257434502486459194, -8257434502486459194} (cannot remove)
+2026-04-09 12:34:21,619 [Time-limited test] WARN  c.r.k.w.i.range.SortedRanges - SortedRanges does not contain/enclose ClosedRange{-8257434502486459194, -8257434502486459194} (cannot remove)
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_singleElementRange_14075034141
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_iterator_12644806915
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_contains_16208960528
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_contains_16208960528)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_contains_16208960528)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -3892,8 +3893,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_containsSingleElement_69887077825
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_containsSingleElement_69887077825)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_containsSingleElement_69887077825)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.containsSingleElement(SortedRanges.java:71)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3943,8 +3944,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_range_10946142360
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_range_10946142360)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_range_10946142360)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:127)
 	at com.rtbhouse.kafka.workers.impl.range.BasicClosedRange.<init>(BasicClosedRange.java:14)
@@ -3970,8 +3971,8 @@ java.lang.IllegalArgumentException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.ClosedRange_size_16268997247
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_size_16268997247)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.ClosedRange_size_16268997247)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -3994,8 +3995,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_size_112274225622
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_size_112274225622)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_size_112274225622)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.size(SortedRanges.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4019,7 +4020,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.RangeUtils_init_3179686204
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_extend_5699653076
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_extend_5699653076)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -4047,7 +4048,7 @@ java.lang.IllegalArgumentException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_init_15418070881
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.RangeUtils_elementsStream_17675915822
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.range.RangeUtils_elementsStream_17675915822)  Time elapsed: 0 sec  <<< ERROR!
@@ -4105,7 +4106,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_upperEndpoint_17578222943
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_floorElement_28279638318
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_toString_11650096805
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_iterator_5095495477
@@ -4136,16 +4137,16 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_Builder_init_6849788320
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_hashCode_65424999017
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_builder_3509985313
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_lowerEndpoint_4735045232
+Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_builder_3509985313
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rtbhouse.kafka.workers.impl.range.BasicClosedRange_lowerEndpoint_4735045232
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.range.SortedRanges_iterator_50954954726
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_iterator_50954954726)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.range.SortedRanges_iterator_50954954726)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.range.SortedRanges.iterator(SortedRanges.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4169,17 +4170,17 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.pool.TopicPartitionPool_ESTest
-2026-04-08 05:45:18,122 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:45:18,123 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class com.google.common.cache.LocalCache$WeightedStrongValueReference
-2026-04-08 05:45:18,124 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+2026-04-09 12:34:21,643 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:21,645 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class com.google.common.cache.LocalCache$WeightedStrongValueReference
+2026-04-09 12:34:21,646 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running com.rtbhouse.kafka.workers.impl.pool.TopicPartitionPool_init_9742348221
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.pool.TopicPartitionPool_init_9742348220
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_waitForShutdown_3266237099
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_waitForShutdown_3266237099)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_waitForShutdown_3266237099)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -4202,10 +4203,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.util.FunctionUtils_init_14100623180
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605902
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605902)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605902)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException: clock
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
 	at java.base/java.time.Instant.now(Instant.java:288)
@@ -4231,8 +4232,8 @@ java.lang.NullPointerException: clock
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19547635737
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19547635737)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19547635737)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.util.TimeUtils.isOlderThan(TimeUtils.java:18)
 	at com.rtbhouse.kafka.workers.impl.util.TimeUtils.isOlderThan(TimeUtils.java:14)
@@ -4260,18 +4261,18 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_init_8768276130
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.util.FunctionUtils_downcastIdentity_21089788263
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.rtbhouse.kafka.workers.impl.util.FunctionUtils_downcastIdentity_21089788261
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rtbhouse.kafka.workers.impl.util.FunctionUtils_downcastIdentity_21089788261
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.util.FunctionUtils_init_14100623182
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_1121897653
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_init_8768276136
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605908
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605908)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19774605908)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: clock
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
 	at java.base/java.time.Instant.now(Instant.java:288)
@@ -4297,7 +4298,7 @@ java.lang.NullPointerException: clock
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_19547635731
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_1121897659
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_isOlderThan_1121897659)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -4324,8 +4325,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_23864556310
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_23864556310)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_23864556310)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.time.Duration.between(Duration.java:488)
 	at com.rtbhouse.kafka.workers.impl.util.TimeUtils.age(TimeUtils.java:26)
@@ -4353,7 +4354,7 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_2386455634
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_6673185685
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_6673185685)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: clock
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
@@ -4380,8 +4381,8 @@ java.lang.NullPointerException: clock
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_66731856811
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_66731856811)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.util.TimeUtils_age_66731856811)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: clock
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
 	at java.base/java.time.Instant.now(Instant.java:288)
@@ -4407,8 +4408,8 @@ java.lang.NullPointerException: clock
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.util.FunctionUtils_ESTest
-2026-04-08 05:45:18,157 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:45:18,157 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.impl.util.FunctionUtils was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+2026-04-09 12:34:21,671 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:21,671 [main] ERROR o.e.r.c.ClassStateSupport - Class com.rtbhouse.kafka.workers.impl.util.FunctionUtils was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_waitBeforeClose_10540686994
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
@@ -4459,8 +4460,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_shutdown_13997570476
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_shutdown_13997570476)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_shutdown_13997570476)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -4507,8 +4508,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_wrapIfNeeded_4848748985
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_wrapIfNeeded_4848748985)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_wrapIfNeeded_4848748985)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -4531,8 +4532,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_close_14934716633
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_close_14934716633)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_close_14934716633)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -4627,8 +4628,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_shutdown_17455997181
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_shutdown_17455997181)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.AbstractWorkersThread_shutdown_17455997181)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -4651,8 +4652,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetStatusCount_6087390896
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetStatusCount_6087390896)  Time elapsed: 0.008 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetStatusCount_6087390896)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState$TopicPartitionMetricInfo.getOffsetStatusCount(DefaultOffsetsState.java:438)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4676,10 +4677,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_getRanges_18624374298
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_valueOf_11453292524
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_valueOf_11453292524)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_valueOf_11453292524)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus.valueOf(OffsetStatus.java:3)
@@ -4704,14 +4705,14 @@ java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_doRemoveElementsLowerOrEqual_111477181510
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_getMinExistingElement_10837357401
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_toString_82963850810
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_size_67039030219
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_size_67039030219)  Time elapsed: 0 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_size_67039030219)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets.size(ConsumedOffsets.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4735,8 +4736,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_addConsumedRange_78016340716
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_addConsumedRange_78016340716)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_addConsumedRange_78016340716)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets.addConsumedRange(ConsumedOffsets.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4840,8 +4841,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_lowerEndpoint_13813335111
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_lowerEndpoint_13813335111)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_lowerEndpoint_13813335111)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.lowerEndpoint(ConsumedOffsets.java:152)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4889,10 +4890,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_init_10806341918
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetStatusCount_6087390892
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetStatusCount_6087390892)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetStatusCount_6087390892)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -4966,10 +4967,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_init_10806341910
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_init_4520109875
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_init_4520109875)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_init_4520109875)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at com.rtbhouse.kafka.workers.impl.offsets.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -4991,8 +4992,8 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_getConsumedAt_12987854401
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_size_14233686685
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_size_14233686685)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_size_14233686685)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.size(ConsumedOffsets.java:161)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5016,9 +5017,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_floor_10804246132
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_iterator_20892310315
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_iterator_20892310315)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.iterator(ConsumedOffsets.java:171)
@@ -5043,12 +5044,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_toString_17338339098
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_values_6532988490
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_values_6532988490
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_valueOf_11453292521
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_valueOf_11453292521)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus_valueOf_11453292521)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at com.rtbhouse.kafka.workers.impl.offsets.OffsetStatus.valueOf(OffsetStatus.java:3)
@@ -5073,10 +5074,10 @@ java.lang.IllegalArgumentException: No enum constant com.rtbhouse.kafka.workers.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_getConsumedAt_12987854409
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_upperEndpoint_20931934664
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_upperEndpoint_20931934664)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_upperEndpoint_20931934664)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.upperEndpoint(ConsumedOffsets.java:157)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5102,8 +5103,8 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_init_62211596112
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_doRemoveElementsLowerOrEqual_111477181522
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_doRemoveElementsLowerOrEqual_111477181522)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_doRemoveElementsLowerOrEqual_111477181522)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets.doRemoveElementsLowerOrEqual(ConsumedOffsets.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5159,8 +5160,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_lowerEndpoint_1381333513
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_lowerEndpoint_1381333513)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_lowerEndpoint_1381333513)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.lowerEndpoint(ConsumedOffsets.java:152)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5184,8 +5185,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_floor_108042461314
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_floor_108042461314)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_floor_108042461314)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.floorBinarySearch(CollectionUtils.java:28)
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.floorBinarySearch(CollectionUtils.java:17)
@@ -5257,7 +5258,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ceiling_13376430603
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_toString_8296385082
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_removeMaximumHeadRange_184326443221
@@ -5286,8 +5287,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_size_142336866813
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_size_142336866813)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_size_142336866813)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.size(ConsumedOffsets.java:161)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5311,8 +5312,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetRangesStatusCount_8078516757
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetRangesStatusCount_8078516757)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_getOffsetRangesStatusCount_8078516757)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState$TopicPartitionMetricInfo.getOffsetRangesStatusCount(DefaultOffsetsState.java:442)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5336,7 +5337,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_calculateOffsetStatusCounts_18018522931
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_contains_37678125017
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_contains_37678125017)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -5396,12 +5397,12 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_size_6703903027
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_calculateOffsetRangesStatusCounts_21011109215
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_getFirst_16395930196
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_calculateOffsetRangesStatusCounts_21011109210
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_calculateOffsetRangesStatusCounts_21011109210)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.offsets.DefaultOffsetsState_TopicPartitionMetricInfo_calculateOffsetRangesStatusCounts_21011109210)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -5451,7 +5452,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_shrinkFromLeft_155730010114
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets_ConsumedOffsetRange_shrinkFromLeft_155730010114)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.offsets.ConsumedOffsets$ConsumedOffsetRange.shrinkFromLeft(ConsumedOffsets.java:165)
@@ -5502,8 +5503,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_getLast_89861444222
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_getLast_89861444222)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_getLast_89861444222)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.getLast(RandomAccessArrayDeque.java:428)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5553,9 +5554,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_characteristics_158891811813
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_push_162356132033
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_push_162356132033)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.addFirst(RandomAccessArrayDeque.java:303)
@@ -5608,8 +5609,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_next_17062024151
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_next_17062024151)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_next_17062024151)  Time elapsed: 0.001 sec  <<< ERROR!
 java.util.NoSuchElementException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DescendingIterator.next(RandomAccessArrayDeque.java:764)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5633,8 +5634,8 @@ java.util.NoSuchElementException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeLast_75883639218
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeLast_75883639218)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeLast_75883639218)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.pollLast(RandomAccessArrayDeque.java:407)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.removeLast(RandomAccessArrayDeque.java:387)
@@ -5659,12 +5660,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_circularClear_29979347670
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_167336395359
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_estimateSize_130341159512
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_estimateSize_130341159512)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_estimateSize_130341159512)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.estimateSize(RandomAccessArrayDeque.java:885)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5688,8 +5689,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_element_5398031431
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_element_5398031431)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_element_5398031431)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.elementAt(RandomAccessArrayDeque.java:276)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.getFirst(RandomAccessArrayDeque.java:417)
@@ -5715,8 +5716,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_forEachRemaining_108734007010
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_forEachRemaining_108734007010)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_forEachRemaining_108734007010)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqIterator.forEachRemaining(RandomAccessArrayDeque.java:736)
@@ -5741,8 +5742,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_pollLast_40611985320
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_pollLast_40611985320)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_pollLast_40611985320)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.pollLast(RandomAccessArrayDeque.java:407)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -5766,10 +5767,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_inc_16657136217
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_iterator_103758588138
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_iterator_103758588138)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_iterator_103758588138)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.size(RandomAccessArrayDeque.java:667)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqIterator.<init>(RandomAccessArrayDeque.java:700)
@@ -5797,10 +5798,10 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_sub_16562708358
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_dec_167244638762
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_10023699634
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_10023699634)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_10023699634)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -5858,8 +5859,8 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_getFence_8648847078
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_forEachRemaining_8854740183
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_forEachRemaining_8854740183)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_forEachRemaining_8854740183)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DescendingIterator.forEachRemaining(RandomAccessArrayDeque.java:777)
@@ -5936,8 +5937,8 @@ java.lang.ArrayIndexOutOfBoundsException: Index -1968847291 out of bounds for le
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nBits_93674502367
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_5895231718
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_5895231718)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_5895231718)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.ceilingBinarySearch(CollectionUtils.java:64)
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.ceilingBinarySearch(CollectionUtils.java:52)
@@ -5988,8 +5989,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_5895231713
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_5895231713)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_5895231713)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.ceilingBinarySearch(CollectionUtils.java:64)
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.ceilingBinarySearch(CollectionUtils.java:52)
@@ -6039,8 +6040,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_size_162508961236
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_size_162508961236)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_size_162508961236)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.size(RandomAccessArrayDeque.java:667)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6064,7 +6065,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeLastOccurrence_15944341926
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_get_41074431057
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_get_41074431057)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -6116,12 +6117,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeFirstOccurrence_130304141725
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_spliterator_15980109340
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_spliterator_15980109340
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_estimateSize_13034115956
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_estimateSize_13034115956)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_estimateSize_13034115956)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.estimateSize(RandomAccessArrayDeque.java:885)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6175,14 +6176,14 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_init_15163681680
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_inc_16675606635
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_clear_90756427652
+Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_inc_16675606635
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_clear_90756427652
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_next_6159507937
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_next_6159507937)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_next_6159507937)  Time elapsed: 0 sec  <<< ERROR!
 java.util.NoSuchElementException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqIterator.next(RandomAccessArrayDeque.java:715)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6206,8 +6207,8 @@ java.util.NoSuchElementException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_newCapacity_16751823951
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_newCapacity_16751823951)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_newCapacity_16751823951)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.newCapacity(RandomAccessArrayDeque.java:181)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6231,8 +6232,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_retainAll_155699707744
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_retainAll_155699707744)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_retainAll_155699707744)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.retainAll(RandomAccessArrayDeque.java:933)
@@ -6257,8 +6258,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_toArray_33926608655
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_toArray_33926608655)  Time elapsed: 0.01 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_toArray_33926608655)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Arrays.copyOfRange(Arrays.java:3994)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.toArray(RandomAccessArrayDeque.java:1096)
@@ -6283,7 +6284,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_isEmpty_32339966237
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_circularClear_29979347653
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_circularClear_29979347653)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -6310,8 +6311,8 @@ java.lang.ArrayIndexOutOfBoundsException: Index -1786399638 out of bounds for le
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_forEachRemaining_8854740186
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_forEachRemaining_8854740186)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_forEachRemaining_8854740186)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DescendingIterator.forEachRemaining(RandomAccessArrayDeque.java:777)
@@ -6336,7 +6337,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_poll_67017097930
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_poll_67017097930)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.elementAt(RandomAccessArrayDeque.java:276)
@@ -6363,8 +6364,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_pollFirst_129172312119
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_pollFirst_129172312119)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_pollFirst_129172312119)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.elementAt(RandomAccessArrayDeque.java:276)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.pollFirst(RandomAccessArrayDeque.java:396)
@@ -6389,10 +6390,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_hasNext_20766640021
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_init_257493170
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_init_257493170)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_init_257493170)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -6418,8 +6419,8 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_tryAdvance_11474838211
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_tryAdvance_11474838211)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_tryAdvance_11474838211)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.tryAdvance(RandomAccessArrayDeque.java:872)
@@ -6444,8 +6445,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_postDelete_9062383785
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_postDelete_9062383785)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_postDelete_9062383785)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DescendingIterator.postDelete(RandomAccessArrayDeque.java:774)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6469,8 +6470,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_next_17062024154
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_next_17062024154)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_next_17062024154)  Time elapsed: 0.001 sec  <<< ERROR!
 java.util.NoSuchElementException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DescendingIterator.next(RandomAccessArrayDeque.java:764)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6494,8 +6495,8 @@ java.util.NoSuchElementException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nBits_93674502346
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nBits_93674502346)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nBits_93674502346)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NegativeArraySizeException: -232665
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.nBits(RandomAccessArrayDeque.java:958)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6519,8 +6520,8 @@ java.lang.NegativeArraySizeException: -232665
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_addLast_191154153112
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_addLast_191154153112)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_addLast_191154153112)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.addLast(RandomAccessArrayDeque.java:320)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6570,7 +6571,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_init_15163681685
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_14929963012
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_14929963012)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -6597,8 +6598,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeAll_47022590843
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeAll_47022590843)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeAll_47022590843)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.removeAll(RandomAccessArrayDeque.java:925)
@@ -6623,7 +6624,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_bulkRemove_49251266945
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeFirst_65896605817
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_removeFirst_65896605817)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -6652,8 +6653,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_trySplit_4070876463
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_trySplit_4070876463)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_trySplit_4070876463)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.trySplit(RandomAccessArrayDeque.java:845)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6677,8 +6678,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_peek_67961568732
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_peek_67961568732)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_peek_67961568732)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.elementAt(RandomAccessArrayDeque.java:276)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.peekFirst(RandomAccessArrayDeque.java:435)
@@ -6706,8 +6707,8 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_postDelete_14159148308
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_delete_94825245635
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_delete_94825245635)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_delete_94825245635)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.delete(RandomAccessArrayDeque.java:625)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6731,8 +6732,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_remove_20032611029
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_remove_20032611029)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_remove_20032611029)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.elementAt(RandomAccessArrayDeque.java:276)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.pollFirst(RandomAccessArrayDeque.java:396)
@@ -6759,8 +6760,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_bulkRemoveModified_33364933449
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_bulkRemoveModified_33364933449)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_bulkRemoveModified_33364933449)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.bulkRemoveModified(RandomAccessArrayDeque.java:979)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6859,8 +6860,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_isClear_149087608248
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_isClear_149087608248)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_isClear_149087608248)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 7098141 out of bounds for length 4
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.isClear(RandomAccessArrayDeque.java:965)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -6909,8 +6910,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offerFirst_196154395415
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offerFirst_196154395415)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offerFirst_196154395415)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.addFirst(RandomAccessArrayDeque.java:303)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.offerFirst(RandomAccessArrayDeque.java:357)
@@ -6935,7 +6936,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_sub_165627083564
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offerLast_154219090016
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offerLast_154219090016)  Time elapsed: 0 sec  <<< ERROR!
@@ -6963,8 +6964,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_toArray_208516154054
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_toArray_208516154054)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_toArray_208516154054)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Arrays.copyOfRange(Arrays.java:3995)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.toArray(RandomAccessArrayDeque.java:1096)
@@ -6990,8 +6991,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_7408475726
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_7408475726)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_7408475726)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.floorBinarySearch(CollectionUtils.java:28)
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.floorBinarySearch(CollectionUtils.java:17)
@@ -7016,8 +7017,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_7408475721
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_7408475721)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_floorBinarySearch_7408475721)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.floorBinarySearch(CollectionUtils.java:28)
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.floorBinarySearch(CollectionUtils.java:17)
@@ -7042,8 +7043,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_forEachRemaining_18009376234
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_forEachRemaining_18009376234)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_forEachRemaining_18009376234)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.forEachRemaining(RandomAccessArrayDeque.java:854)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7092,12 +7093,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_167336587560
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_remove_208403500651
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_add_160545008527
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_add_160545008527)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_add_160545008527)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.addLast(RandomAccessArrayDeque.java:320)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.add(RandomAccessArrayDeque.java:512)
@@ -7127,7 +7128,7 @@ Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_1
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_getFirst_50033436021
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_getFirst_50033436021)  Time elapsed: 0.001 sec  <<< ERROR!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_getFirst_50033436021)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.elementAt(RandomAccessArrayDeque.java:276)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.getFirst(RandomAccessArrayDeque.java:417)
@@ -7230,8 +7231,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_16443207024
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_16443207024)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.CollectionUtils_ceilingBinarySearch_16443207024)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.CollectionUtils.ceilingBinarySearch(CollectionUtils.java:64)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7281,8 +7282,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nonNullElementAt_17272827666
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nonNullElementAt_17272827666)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_nonNullElementAt_17272827666)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.nonNullElementAt(RandomAccessArrayDeque.java:285)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7306,8 +7307,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_addFirst_63527254711
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_addFirst_63527254711)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_addFirst_63527254711)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.addFirst(RandomAccessArrayDeque.java:303)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7333,8 +7334,8 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_inc_166571362163
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_remove_21381516574
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_remove_21381516574)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_remove_21381516574)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalStateException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqIterator.remove(RandomAccessArrayDeque.java:730)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7358,7 +7359,7 @@ java.lang.IllegalStateException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_init_7393468700
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_copyElements_30026827114
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_copyElements_30026827114)  Time elapsed: 0 sec  <<< ERROR!
@@ -7385,8 +7386,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_init_19470647710
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_init_19470647710)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DescendingIterator_init_19470647710)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -7415,10 +7416,10 @@ Caused by: java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_init_16733639532
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_getFence_8648847072
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_forEachRemaining_10873400705
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_forEachRemaining_10873400705)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_forEachRemaining_10873400705)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqIterator.forEachRemaining(RandomAccessArrayDeque.java:736)
@@ -7443,8 +7444,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offer_104804495028
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offer_104804495028)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_offer_104804495028)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.addLast(RandomAccessArrayDeque.java:320)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque.offerLast(RandomAccessArrayDeque.java:369)
@@ -7472,8 +7473,8 @@ java.lang.NullPointerException
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqIterator_hasNext_20766640026
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_tryAdvance_1147483825
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_tryAdvance_1147483825)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_tryAdvance_1147483825)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.tryAdvance(RandomAccessArrayDeque.java:872)
@@ -7498,8 +7499,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_forEachRemaining_180093762310
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_forEachRemaining_180093762310)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque_DeqSpliterator_forEachRemaining_180093762310)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.collection.RandomAccessArrayDeque$DeqSpliterator.forEachRemaining(RandomAccessArrayDeque.java:854)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7604,10 +7605,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_shutdown_5106212702
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.rtbhouse.kafka.workers.impl.cache.UniqueInstancesCache_ESTest
-2026-04-08 05:45:18,353 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
-2026-04-08 05:45:18,354 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class com.google.common.cache.LocalCache$WeightedStrongValueReference
-2026-04-08 05:45:18,355 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+2026-04-09 12:34:21,835 [main] WARN  o.e.runtime.sandbox.Sandbox - Sandbox can be initalized only once
+2026-04-09 12:34:21,836 [main] ERROR o.e.r.c.ClassStateSupport - Found $jacocoInit in class com.google.common.cache.LocalCache$WeightedStrongValueReference
+2026-04-09 12:34:21,837 [main] ERROR o.e.r.c.ClassStateSupport - Class com.google.common.base.Preconditions was not instrumented by EvoSuite. This could happen if you are running JUnit tests in a way that is not handled by EvoSuite, in which some classes are loaded be reflection before the tests are run. Consult the EvoSuite documentation for possible workarounds for this issue.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
 Running com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_logErrorIfThreadIsAlive_20735496214
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.rtbhouse.kafka.workers.impl.KafkaWorkersImpl_logErrorIfThreadIsAlive_20735496214)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -7657,8 +7658,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_markRecordProcessed_10693003293
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_markRecordProcessed_10693003293)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_markRecordProcessed_10693003293)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl.markRecordProcessed(RecordStatusObserverImpl.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7682,8 +7683,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_init_21334964900
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_init_21334964900)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_init_21334964900)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -7709,8 +7710,8 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_onFailure_18678066636
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_onFailure_18678066636)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl_onFailure_18678066636)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.rtbhouse.kafka.workers.impl.record.RecordStatusObserverImpl.onFailure(RecordStatusObserverImpl.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -7760,8 +7761,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.record.weigher.RecordWeigher_init_17606242180
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.record.weigher.RecordWeigher_init_17606242180)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.record.weigher.RecordWeigher_init_17606242180)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -7788,8 +7789,8 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running com.rtbhouse.kafka.workers.impl.record.weigher.RecordWeigher_init_17606242181
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.rtbhouse.kafka.workers.impl.record.weigher.RecordWeigher_init_17606242181)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.rtbhouse.kafka.workers.impl.record.weigher.RecordWeigher_init_17606242181)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -7942,8 +7943,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.rtbhouse.kafka.workers.impl.ShutdownListenerThread_run_8714965451
-2026-04-08 05:45:18,394 [Time-limited test] INFO  c.r.k.w.i.ShutdownListenerThread - waiting for being notify to shutdown
-2026-04-08 05:45:28,394 [Time-limited test] ERROR c.r.k.w.i.ShutdownListenerThread - InterruptedException: {}
+2026-04-09 12:34:21,877 [Time-limited test] INFO  c.r.k.w.i.ShutdownListenerThread - waiting for being notify to shutdown
+2026-04-09 12:34:31,877 [Time-limited test] ERROR c.r.k.w.i.ShutdownListenerThread - InterruptedException: {}
 java.lang.InterruptedException: null
 	at java.base/java.lang.Object.wait(Native Method)
 	at java.base/java.lang.Object.wait(Object.java:328)
@@ -8273,6 +8274,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  36.301 s
-[INFO] Finished at: 2026-04-08T05:45:28Z
+[INFO] Total time:  36.310 s
+[INFO] Finished at: 2026-04-09T12:34:32Z
 [INFO] ------------------------------------------------------------------------

@@ -7,31 +7,31 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-<span class="fc" id="L10">class NodeProxier {</span>
+<span class="nc" id="L10">class NodeProxier {</span>
 
-<span class="fc" id="L12">    private Map&lt;Node, AnnNode&gt; matchNodes = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L12">    private Map&lt;Node, AnnNode&gt; matchNodes = new HashMap&lt;&gt;();</span>
 
     public AnnNode convert(Node node){
-<span class="fc" id="L15">        return matchNodes.computeIfAbsent(node, this::convert2);</span>
+<span class="nc" id="L15">        return matchNodes.computeIfAbsent(node, this::convert2);</span>
     }
 
     private AnnNode convert2(Node node) {
-<span class="fc" id="L19">        return new AnnNode(convertType(node.getType()), node.getInnovation(), node.getBias());</span>
+<span class="nc" id="L19">        return new AnnNode(convertType(node.getType()), node.getInnovation(), node.getBias());</span>
     }
 
     private AnnType convertType(Type type) {
         AnnType result;
-<span class="pc bpc" id="L24" title="1 of 4 branches missed.">         switch(type) {</span>
-<span class="fc" id="L25">            case SENSOR: result = AnnType.INPUT; break;</span>
-<span class="fc" id="L26">            case HIDDEN: result = AnnType.HIDDEN; break;</span>
-<span class="fc" id="L27">            case OUTPUT: result = AnnType.OUTPUT; break;</span>
+<span class="nc bnc" id="L24" title="All 4 branches missed.">         switch(type) {</span>
+<span class="nc" id="L25">            case SENSOR: result = AnnType.INPUT; break;</span>
+<span class="nc" id="L26">            case HIDDEN: result = AnnType.HIDDEN; break;</span>
+<span class="nc" id="L27">            case OUTPUT: result = AnnType.OUTPUT; break;</span>
 <span class="nc" id="L28">            default: throw new RuntimeException();</span>
         }
-<span class="fc" id="L30">        return result;</span>
+<span class="nc" id="L30">        return result;</span>
     }
 
     public Collection&lt;AnnNode&gt; getAllNodes() {
-<span class="fc" id="L34">        return matchNodes.values();</span>
+<span class="nc" id="L34">        return matchNodes.values();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>State.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar</a> &gt; <span class="el_source">State.java</span></div><h1>State.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import tech.jiayezheng.miniJuliaSonar.ast.Node;
+import tech.jiayezheng.miniJuliaSonar.type.ModuleType;
+import tech.jiayezheng.miniJuliaSonar.type.Type;
+import tech.jiayezheng.miniJuliaSonar.type.Types;
+import tech.jiayezheng.miniJuliaSonar.type.UnionType;
+
+import java.util.*;
+
+/**
+ * Indentify Scope of the on-fly analysis
+ * Stores Intermediate Results of the analysis
+ * Lattice Product Value: symbol::String ↦ Set&lt;Binding&gt;
+ */
+public class State {
+
+
+    @Nullable
+    public Set&lt;String&gt; globalNames;
+
+    public Type lookupType(String name) {
+<span class="nc" id="L25">        Set&lt;Binding&gt; bs = lookup(name);</span>
+<span class="nc bnc" id="L26" title="All 2 branches missed.">        if (bs == null) {</span>
+<span class="nc" id="L27">            return null;</span>
+        } else {
+<span class="nc" id="L29">            return makeUnion(bs);</span>
+        }
+    }
+
+
+<span class="nc" id="L34">    public enum StateType {</span>
+<span class="nc" id="L35">        STRUCT,</span>
+<span class="nc" id="L36">        ATTRIBUTE,</span>
+<span class="nc" id="L37">        INSTANCE,</span>
+<span class="nc" id="L38">        FUNCTION,</span>
+<span class="nc" id="L39">        MODULE,</span>
+<span class="nc" id="L40">        GLOBAL,</span>
+<span class="nc" id="L41">        SCOPE</span>
+    }
+
+
+<span class="nc" id="L45">    @NotNull</span>
+    public Map&lt;String, Set&lt;Binding&gt;&gt; table = new HashMap&lt;&gt;(0);
+
+
+    @Nullable
+    public State parent;       // not null except global table
+
+    public void setParent(State parent) {
+<span class="nc" id="L53">        this.parent = parent;</span>
+<span class="nc" id="L54">    }</span>
+
+
+    @Nullable
+    public State forwarding; // decide where to go when function is over
+
+    public State getForwarding() {
+<span class="nc bnc" id="L61" title="All 2 branches missed.">        if (forwarding != null) {</span>
+<span class="nc" id="L62">            return forwarding;</span>
+        } else {
+<span class="nc" id="L64">            return this;</span>
+        }
+    }
+
+    @Nullable
+    public List&lt;State&gt; supers;
+
+    @Nullable
+    public Set&lt;String&gt; globalSymbols;
+
+    public StateType stateType;
+
+    public Type type;
+
+    public void setType(Type type) {
+<span class="nc" id="L79">        this.type = type;</span>
+<span class="nc" id="L80">    }</span>
+
+<span class="nc" id="L82">    @NotNull</span>
+    public String path = &quot;&quot;;
+
+    public void setPath(String path) {
+<span class="nc" id="L86">        this.path = path;</span>
+<span class="nc" id="L87">    }</span>
+
+    public String extendPath(String name) {
+<span class="nc" id="L90">        name = $.moduleName(name);</span>
+<span class="nc bnc" id="L91" title="All 2 branches missed.">        if (path.equals(&quot;&quot;)) {</span>
+<span class="nc" id="L92">            return name;</span>
+        }
+<span class="nc" id="L94">        return path + &quot;.&quot; + name;</span>
+    }
+
+
+<span class="nc" id="L98">    public State(@Nullable State parent, StateType type) {</span>
+<span class="nc" id="L99">        this.parent = parent;</span>
+<span class="nc" id="L100">        this.stateType = type;</span>
+<span class="nc" id="L101">        this.forwarding = this;</span>
+<span class="nc" id="L102">    }</span>
+
+<span class="nc" id="L104">    public State(@NotNull State s) {</span>
+<span class="nc" id="L105">        this.table = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L106">        this.table.putAll(s.table);</span>
+<span class="nc" id="L107">        this.parent = s.parent;</span>
+<span class="nc" id="L108">        this.parent = s.parent;</span>
+<span class="nc" id="L109">        this.stateType = s.stateType;</span>
+<span class="nc" id="L110">        this.forwarding = s.forwarding;</span>
+<span class="nc" id="L111">        this.supers = s.supers;</span>
+<span class="nc" id="L112">        this.globalSymbols = s.globalSymbols;</span>
+<span class="nc" id="L113">        this.type = s.type;</span>
+<span class="nc" id="L114">        this.path = s.path;</span>
+<span class="nc" id="L115">    }</span>
+
+    // erase and overwrite this to s's contents
+    public void overwrite(@NotNull State s) {
+<span class="nc" id="L119">        this.table = s.table;</span>
+<span class="nc" id="L120">        this.parent = s.parent;</span>
+<span class="nc" id="L121">        this.stateType = s.stateType;</span>
+<span class="nc" id="L122">        this.forwarding = s.forwarding;</span>
+<span class="nc" id="L123">        this.supers = s.supers;</span>
+<span class="nc" id="L124">        this.globalSymbols = s.globalSymbols;</span>
+<span class="nc" id="L125">        this.type = s.type;</span>
+<span class="nc" id="L126">        this.path = s.path;</span>
+<span class="nc" id="L127">    }</span>
+
+    @NotNull
+    public State copy() {
+<span class="nc" id="L131">        return new State(this);</span>
+    }
+
+    public void merge(State other) {
+<span class="nc bnc" id="L135" title="All 2 branches missed.">        for (Map.Entry&lt;String, Set&lt;Binding&gt;&gt; e2 : other.table.entrySet()) {</span>
+<span class="nc" id="L136">            Set&lt;Binding&gt; b1 = table.get(e2.getKey());</span>
+<span class="nc" id="L137">            Set&lt;Binding&gt; b2 = e2.getValue();</span>
+
+<span class="nc bnc" id="L139" title="All 4 branches missed.">            if (b1 != null &amp;&amp; b2 != null) {</span>
+<span class="nc" id="L140">                b1.addAll(b2);</span>
+<span class="nc bnc" id="L141" title="All 4 branches missed.">            } else if (b1 == null &amp;&amp; b2 != null) {</span>
+<span class="nc" id="L142">                table.put(e2.getKey(), b2);</span>
+            }
+<span class="nc" id="L144">        }</span>
+<span class="nc" id="L145">    }</span>
+
+    public static State merge(State state1, State state2) {
+<span class="nc" id="L148">        State ret = state1.copy();</span>
+<span class="nc" id="L149">        ret.merge(state2);</span>
+<span class="nc" id="L150">        return ret;</span>
+    }
+
+    public void addSuper(State sup) {
+<span class="nc bnc" id="L154" title="All 2 branches missed.">        if (supers == null) {</span>
+<span class="nc" id="L155">            supers = new ArrayList&lt;&gt;();</span>
+        }
+<span class="nc" id="L157">        supers.add(sup);</span>
+<span class="nc" id="L158">    }</span>
+
+    public void setStateType(StateType type) {
+<span class="nc" id="L161">        this.stateType = type;</span>
+<span class="nc" id="L162">    }</span>
+
+    public void addGlobalSymbol(@NotNull String symbol) {
+<span class="nc bnc" id="L165" title="All 2 branches missed.">        if (globalSymbols == null) {</span>
+<span class="nc" id="L166">            globalSymbols = new HashSet&lt;&gt;(1);</span>
+        }
+
+<span class="nc" id="L169">        globalSymbols.add(symbol);</span>
+<span class="nc" id="L170">    }</span>
+
+    public boolean isGlobalSymbol(@NotNull String symbol) {
+<span class="nc bnc" id="L173" title="All 2 branches missed.">        if (globalSymbols != null) {</span>
+<span class="nc" id="L174">            return globalSymbols.contains(symbol);</span>
+<span class="nc bnc" id="L175" title="All 2 branches missed.">        } else if (parent != null) {</span>
+<span class="nc" id="L176">            return parent.isGlobalSymbol(symbol);</span>
+        } else {
+<span class="nc" id="L178">            return false;</span>
+        }
+    }
+
+    public void remove(String id) {
+<span class="nc" id="L183">        table.remove(id);</span>
+<span class="nc" id="L184">    }</span>
+
+    // create new binding and insert
+    public void insert(String id, @NotNull Node node, @NotNull Type type, Binding.Kind kind) {
+<span class="nc" id="L188">        Binding b = new Binding(id, node, type, kind);</span>
+<span class="nc bnc" id="L189" title="All 2 branches missed.">        if (type instanceof ModuleType) {</span>
+<span class="nc" id="L190">            b.setQname(type.asModuleType().qname);</span>
+        } else {
+<span class="nc" id="L192">            b.setQname(extendPath(id));</span>
+        }
+<span class="nc" id="L194">        update(id,b);</span>
+<span class="nc" id="L195">    }</span>
+
+    @NotNull
+    public Set&lt;Binding&gt; update(String id, @NotNull Binding b) {
+<span class="nc" id="L199">        Set&lt;Binding&gt; bs = new HashSet&lt;&gt;(1);</span>
+<span class="nc" id="L200">        bs.add(b);</span>
+<span class="nc" id="L201">        table.put(id, bs);</span>
+<span class="nc" id="L202">        return bs;</span>
+    }
+
+    public Set&lt;Binding&gt; lookup(String name) {
+<span class="nc" id="L206">        Set&lt;Binding&gt; b = getModuleBindingIfGlobal(name);</span>
+<span class="nc bnc" id="L207" title="All 2 branches missed.">        if (b != null) {</span>
+<span class="nc" id="L208">            return b;</span>
+        } else {
+<span class="nc" id="L210">            Set&lt;Binding&gt; ent = lookupLocal(name);</span>
+<span class="nc bnc" id="L211" title="All 2 branches missed.">            if (ent != null) {</span>
+<span class="nc" id="L212">                return ent;</span>
+            } else {
+<span class="nc bnc" id="L214" title="All 2 branches missed.">                if (parent != null) {</span>
+<span class="nc" id="L215">                    return parent.lookup(name);</span>
+                } else {
+<span class="nc" id="L217">                    return null;</span>
+                }
+            }
+        }
+    }
+
+    @NotNull
+    public Collection&lt;Binding&gt; values() {
+<span class="nc" id="L225">        Set&lt;Binding&gt; ret = new HashSet&lt;&gt;();</span>
+<span class="nc bnc" id="L226" title="All 2 branches missed.">        for (Set&lt;Binding&gt; bs : table.values()) {</span>
+<span class="nc" id="L227">            ret.addAll(bs);</span>
+<span class="nc" id="L228">        }</span>
+<span class="nc" id="L229">        return ret;</span>
+    }
+
+    /**
+     * Look up a name in the current symbol table only. Don't recurse on the
+     * parent table.
+     */
+    @Nullable
+    public Set&lt;Binding&gt; lookupLocal(String name) {
+<span class="nc" id="L238">        return table.get(name);</span>
+    }
+
+    private Set&lt;Binding&gt; getModuleBindingIfGlobal(String name) {
+<span class="nc bnc" id="L242" title="All 2 branches missed.">        if (isGlobalName(name)) {</span>
+<span class="nc" id="L243">            State module = getGlobalTable();</span>
+<span class="nc bnc" id="L244" title="All 2 branches missed.">            if (module != this) {</span>
+<span class="nc" id="L245">                return module.lookupLocal(name);</span>
+            }
+        }
+<span class="nc" id="L248">        return null;</span>
+    }
+
+
+    public void addGlobalName(@NotNull String name) {
+<span class="nc bnc" id="L253" title="All 2 branches missed.">        if (globalNames == null) {</span>
+<span class="nc" id="L254">            globalNames = new HashSet&lt;&gt;(1);</span>
+        }
+<span class="nc" id="L256">        globalNames.add(name);</span>
+<span class="nc" id="L257">    }</span>
+
+
+    private State getGlobalTable() {
+<span class="nc" id="L261">        State result = getStateOfType(StateType.MODULE);</span>
+<span class="nc bnc" id="L262" title="All 2 branches missed.">        if (result != null) {</span>
+<span class="nc" id="L263">            return result;</span>
+        } else {
+<span class="nc" id="L265">            $.die(&quot;Couldn't find global table. Shouldn't happen&quot;);</span>
+<span class="nc" id="L266">            return this;</span>
+        }
+    }
+
+    private State getStateOfType(StateType type) {
+<span class="nc bnc" id="L271" title="All 2 branches missed.">        if (stateType == type) {</span>
+<span class="nc" id="L272">            return this;</span>
+<span class="nc bnc" id="L273" title="All 2 branches missed.">        } else if (parent == null) {</span>
+<span class="nc" id="L274">            return null;</span>
+        } else {
+<span class="nc" id="L276">            return parent.getStateOfType(type);</span>
+        }
+    }
+
+    public boolean isGlobalName(String name) {
+<span class="nc bnc" id="L281" title="All 2 branches missed.">        if (globalNames != null) {</span>
+<span class="nc" id="L282">            return globalNames.contains(name);</span>
+<span class="nc bnc" id="L283" title="All 2 branches missed.">        } else if (parent != null) {</span>
+<span class="nc" id="L284">            return parent.isGlobalName(name);</span>
+        } else {
+<span class="nc" id="L286">            return false;</span>
+        }
+    }
+
+
+    @NotNull
+<span class="nc" id="L292">    private static Set&lt;State&gt; looked = new HashSet&lt;State&gt;();</span>
+
+    public Set&lt;Binding&gt; lookupAttr(String attr) {
+<span class="nc bnc" id="L295" title="All 2 branches missed.">        if (looked.contains(this)) {</span>
+<span class="nc" id="L296">            return null;</span>
+        } else {
+<span class="nc" id="L298">            Set&lt;Binding&gt; b = lookupLocal(attr);</span>
+<span class="nc bnc" id="L299" title="All 2 branches missed.">            if (b != null) {</span>
+<span class="nc" id="L300">                return b;</span>
+            } else {
+<span class="nc bnc" id="L302" title="All 4 branches missed.">                if (supers != null &amp;&amp; !supers.isEmpty()) {</span>
+<span class="nc" id="L303">                    looked.add(this);</span>
+<span class="nc bnc" id="L304" title="All 2 branches missed.">                    for (State p : supers) {</span>
+<span class="nc" id="L305">                        b = p.lookupAttr(attr);</span>
+<span class="nc bnc" id="L306" title="All 2 branches missed.">                        if (b != null) {</span>
+<span class="nc" id="L307">                            looked.remove(this);</span>
+<span class="nc" id="L308">                            return b;</span>
+                        }
+<span class="nc" id="L310">                    }</span>
+<span class="nc" id="L311">                    looked.remove(this);</span>
+<span class="nc" id="L312">                    return null;</span>
+                } else {
+<span class="nc" id="L314">                    return null;</span>
+                }
+            }
+        }
+    }
+
+    public static Type makeUnion(Set&lt;Binding&gt; bs) {
+<span class="nc" id="L321">        Type t = Types.UNKNOWN;</span>
+<span class="nc bnc" id="L322" title="All 2 branches missed.">        for (Binding b : bs) {</span>
+<span class="nc" id="L323">            t = UnionType.union(t, b.type);</span>
+<span class="nc" id="L324">        }</span>
+<span class="nc" id="L325">        return t;</span>
+    }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

@@ -30,24 +30,24 @@ public class GameNN implements Drawable, Steppable {
 
 
 
-<span class="fc" id="L33">    public static int WIDTH = 600;</span>
-<span class="fc" id="L34">    public static int HEIGHT = 800;</span>
+<span class="nc" id="L33">    public static int WIDTH = 600;</span>
+<span class="nc" id="L34">    public static int HEIGHT = 800;</span>
     private int attempt;
 
-<span class="fc" id="L37">    public GameNN() {</span>
-<span class="fc" id="L38">        population = new Population(new Random(1), BIRDS_NUMBER, null);</span>
-<span class="fc" id="L39">        reCreateGame();</span>
-<span class="fc" id="L40">    }</span>
+<span class="nc" id="L37">    public GameNN() {</span>
+<span class="nc" id="L38">        population = new Population(new Random(1), BIRDS_NUMBER, null);</span>
+<span class="nc" id="L39">        reCreateGame();</span>
+<span class="nc" id="L40">    }</span>
 
     private void reCreateGame() {
-<span class="fc" id="L43">        nnGenomeMap = new HashMap&lt;&gt;();</span>
-<span class="fc" id="L44">        birdNNMap = new HashMap&lt;&gt;();</span>
-<span class="fc" id="L45">        genomeFitnessMap = new HashMap&lt;&gt;();</span>
-<span class="fc" id="L46">        allSteps = 0;</span>
-<span class="fc" id="L47">        System.out.println(&quot;Generation: &quot; + ++this.attempt);</span>
-<span class="fc" id="L48">        this.birds = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L43">        nnGenomeMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L44">        birdNNMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L45">        genomeFitnessMap = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L46">        allSteps = 0;</span>
+<span class="nc" id="L47">        System.out.println(&quot;Generation: &quot; + ++this.attempt);</span>
+<span class="nc" id="L48">        this.birds = new ArrayList&lt;&gt;();</span>
         try {
-<span class="pc bpc" id="L50" title="1 of 2 branches missed.">            for (int i = 0; i &lt; BIRDS_NUMBER; i++) {</span>
+<span class="nc bnc" id="L50" title="All 2 branches missed.">            for (int i = 0; i &lt; BIRDS_NUMBER; i++) {</span>
 <span class="nc" id="L51">                this.birds.add(new Bird(WIDTH / 6, HEIGHT / 2));</span>
             }
 <span class="nc bnc" id="L53" title="All 2 branches missed.">            for (int i = 0; i &lt; population.getGenomes().size(); i++) {</span>
@@ -61,14 +61,14 @@ public class GameNN implements Drawable, Steppable {
 <span class="nc" id="L61">            this.pipesController = new PipesController(WIDTH, HEIGHT, WIDTH / 6);</span>
 <span class="nc" id="L62">            this.collisionDetector = new CollisionDetector(bottomPanel.getLavaLevel());</span>
 <span class="nc" id="L63">            this.font = Font.createFont(Font.TRUETYPE_FONT, new File(&quot;/Users/drmod/Downloads/imgs/font.ttf&quot;)).deriveFont(36f);</span>
-<span class="fc" id="L64">        } catch (IOException | FontFormatException e) {</span>
-<span class="fc" id="L65">            e.printStackTrace();</span>
+<span class="nc" id="L64">        } catch (IOException | FontFormatException e) {</span>
+<span class="nc" id="L65">            e.printStackTrace();</span>
 <span class="nc" id="L66">        }</span>
-<span class="fc" id="L67">    }</span>
+<span class="nc" id="L67">    }</span>
 
     public void action() {
 //        bird.action();
-<span class="fc" id="L71">    }</span>
+<span class="nc" id="L71">    }</span>
 
     @Override
     public void show(Graphics g) {

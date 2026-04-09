@@ -21,38 +21,38 @@ public class Population {
     ConnectionInnovator connectionInnovator;
     NodeInnovator nodeInnovator;
 
-<span class="fc" id="L24">    public Population(Random random, int size, Evaluatable evaluator) {</span>
-<span class="fc" id="L25">        this.genomes = new ArrayList&lt;&gt;(size);</span>
+<span class="nc" id="L24">    public Population(Random random, int size, Evaluatable evaluator) {</span>
+<span class="nc" id="L25">        this.genomes = new ArrayList&lt;&gt;(size);</span>
 //        this.evaluator = evaluator;
-<span class="fc" id="L27">        this.specieses = new Specieses();</span>
-<span class="fc" id="L28">        this.random = random;</span>
-<span class="fc" id="L29">        this.populationSize = size;</span>
-<span class="fc" id="L30">        connectionInnovator = new ConnectionInnovator(10);</span>
-<span class="fc" id="L31">        nodeInnovator = new NodeInnovator(10);</span>
-<span class="fc bfc" id="L32" title="All 2 branches covered.">        for (int i = 0; i &lt; size; i++) {</span>
-<span class="fc" id="L33">            Genome genome = new Genome(nodeInnovator, connectionInnovator, random);</span>
-<span class="fc" id="L34">            Node node1 = new Node(Type.SENSOR, 1, 0);</span>
-<span class="fc" id="L35">            Node node2 = new Node(Type.SENSOR, 2, 0);</span>
-<span class="fc" id="L36">            Node node3 = new Node(Type.SENSOR, 3, 0);</span>
-<span class="fc" id="L37">            Node node4 = new Node(Type.SENSOR, 4, 0);</span>
-<span class="fc" id="L38">            Node node5 = new Node(Type.OUTPUT, 5, 0);</span>
+<span class="nc" id="L27">        this.specieses = new Specieses();</span>
+<span class="nc" id="L28">        this.random = random;</span>
+<span class="nc" id="L29">        this.populationSize = size;</span>
+<span class="nc" id="L30">        connectionInnovator = new ConnectionInnovator(10);</span>
+<span class="nc" id="L31">        nodeInnovator = new NodeInnovator(10);</span>
+<span class="nc bnc" id="L32" title="All 2 branches missed.">        for (int i = 0; i &lt; size; i++) {</span>
+<span class="nc" id="L33">            Genome genome = new Genome(nodeInnovator, connectionInnovator, random);</span>
+<span class="nc" id="L34">            Node node1 = new Node(Type.SENSOR, 1, 0);</span>
+<span class="nc" id="L35">            Node node2 = new Node(Type.SENSOR, 2, 0);</span>
+<span class="nc" id="L36">            Node node3 = new Node(Type.SENSOR, 3, 0);</span>
+<span class="nc" id="L37">            Node node4 = new Node(Type.SENSOR, 4, 0);</span>
+<span class="nc" id="L38">            Node node5 = new Node(Type.OUTPUT, 5, 0);</span>
 
-<span class="fc" id="L40">            Connection c1 = new Connection(node1, node5, 1, true, random.nextFloat() * 2f - 1f);</span>
-<span class="fc" id="L41">            Connection c2 = new Connection(node2, node5, 2, true, random.nextFloat() * 2f - 1f);</span>
-<span class="fc" id="L42">            Connection c3 = new Connection(node3, node5, 3, true, random.nextFloat() * 2f - 1f);</span>
-<span class="fc" id="L43">            Connection c4 = new Connection(node4, node5, 4, true, random.nextFloat() * 2f - 1f);</span>
+<span class="nc" id="L40">            Connection c1 = new Connection(node1, node5, 1, true, random.nextFloat() * 2f - 1f);</span>
+<span class="nc" id="L41">            Connection c2 = new Connection(node2, node5, 2, true, random.nextFloat() * 2f - 1f);</span>
+<span class="nc" id="L42">            Connection c3 = new Connection(node3, node5, 3, true, random.nextFloat() * 2f - 1f);</span>
+<span class="nc" id="L43">            Connection c4 = new Connection(node4, node5, 4, true, random.nextFloat() * 2f - 1f);</span>
 
-<span class="fc" id="L45">            List.of(node1, node2, node3, node4, node5).forEach(genome::addNode);</span>
-<span class="fc" id="L46">            List.of(c1, c2, c3, c4).forEach(genome::addConnection);</span>
+<span class="nc" id="L45">            List.of(node1, node2, node3, node4, node5).forEach(genome::addNode);</span>
+<span class="nc" id="L46">            List.of(c1, c2, c3, c4).forEach(genome::addConnection);</span>
 //            List.of(node1, node2, node5).forEach(genome::addNode);
 //            List.of(c1, c2).forEach(genome::addConnection);
-<span class="fc" id="L49">            genomes.add(genome);</span>
+<span class="nc" id="L49">            genomes.add(genome);</span>
         }
 
-<span class="fc" id="L52">    }</span>
+<span class="nc" id="L52">    }</span>
 
     public void evaluate(Map&lt;Genome, Double&gt; genomeFitnessMap) {
-<span class="fc" id="L55">        this.evaluator = genomeFitnessMap::get;</span>
+<span class="nc" id="L55">        this.evaluator = genomeFitnessMap::get;</span>
 <span class="nc" id="L56">        List&lt;Genome&gt; newGeneration = new ArrayList&lt;&gt;(populationSize);</span>
 
 
@@ -122,8 +122,8 @@ public class Population {
 <span class="nc" id="L122">    }</span>
 
     private Specieses killWorstPerformers(Specieses breakedIntoSPecies) {
-<span class="fc" id="L125">        List&lt;Species&gt; newList = new ArrayList&lt;&gt;();</span>
-<span class="pc bpc" id="L126" title="1 of 2 branches missed.">        for (Species speciece : breakedIntoSPecies.getSpecieces()) {</span>
+<span class="nc" id="L125">        List&lt;Species&gt; newList = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L126" title="All 2 branches missed.">        for (Species speciece : breakedIntoSPecies.getSpecieces()) {</span>
 
 <span class="nc" id="L128">            List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;(speciece.getGenomes());</span>
 <span class="nc" id="L129">            fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
@@ -133,7 +133,7 @@ public class Population {
 
 <span class="nc" id="L134">            newList.add(new Species(noWeak, speciece.getStaleness()));</span>
 <span class="nc" id="L135">        }</span>
-<span class="fc" id="L136">        return new Specieses(newList);</span>
+<span class="nc" id="L136">        return new Specieses(newList);</span>
     }
 
 //    public void evaluate(Map&lt;Genome, Double&gt; genomeFitnessMap) {
@@ -198,10 +198,10 @@ public class Population {
 //    }
 
     private Specieses deleteStaleSpecieses(Specieses specieses) {
-<span class="fc" id="L201">        List&lt;Species&gt; speciesSet = new ArrayList&lt;&gt;(specieses.getSpecieces());</span>
+<span class="nc" id="L201">        List&lt;Species&gt; speciesSet = new ArrayList&lt;&gt;(specieses.getSpecieces());</span>
 
-<span class="fc" id="L203">        Iterator&lt;Species&gt; iterator = speciesSet.iterator();</span>
-<span class="pc bpc" id="L204" title="1 of 2 branches missed.">        while (iterator.hasNext()) {</span>
+<span class="nc" id="L203">        Iterator&lt;Species&gt; iterator = speciesSet.iterator();</span>
+<span class="nc bnc" id="L204" title="All 2 branches missed.">        while (iterator.hasNext()) {</span>
 <span class="nc" id="L205">            Species next = iterator.next();</span>
 <span class="nc" id="L206">            next.assignBestGenome();</span>
 <span class="nc bnc" id="L207" title="All 2 branches missed.">            if (next.getStaleness() &gt;= STALENESS ) {</span>
@@ -209,7 +209,7 @@ public class Population {
 <span class="nc" id="L209">                System.out.println(&quot;Species removed&quot;);</span>
             }
 <span class="nc" id="L211">        }</span>
-<span class="fc" id="L212">        return new Specieses(speciesSet);</span>
+<span class="nc" id="L212">        return new Specieses(speciesSet);</span>
     }
 
 
@@ -243,7 +243,7 @@ public class Population {
 //    }
 
     public List&lt;Genome&gt; getGenomes() {
-<span class="fc" id="L246">        return genomes;</span>
+<span class="nc" id="L246">        return genomes;</span>
     }
 
 //    private List&lt;FitnessGenome&gt; getSpecieseOf(Specieses specieses, List&lt;FitnessGenome&gt; fitnessGenomesNoBadPerformers, FitnessGenome selectedGenome) {
@@ -292,8 +292,8 @@ public class Population {
     }
 
     private Species biasedRandomSpecies(List&lt;FitnessGenome&gt; fitnessGenomes, Specieses specieses) {
-<span class="fc" id="L295">        HashMap&lt;Species, Double&gt; speciesDouble = new HashMap&lt;&gt;();</span>
-<span class="pc bpc" id="L296" title="1 of 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
+<span class="nc" id="L295">        HashMap&lt;Species, Double&gt; speciesDouble = new HashMap&lt;&gt;();</span>
+<span class="nc bnc" id="L296" title="All 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
 <span class="nc" id="L297">            double averageFitness = species.getGenomes().stream()</span>
 <span class="nc" id="L298">                    .map(map -&gt; fitnessGenomes.stream()</span>
 <span class="nc" id="L299">                            .filter(it -&gt; it.getGenome().equals(map))</span>
@@ -306,9 +306,9 @@ public class Population {
 <span class="nc" id="L306">            speciesDouble.put(species, averageFitness);</span>
 <span class="nc" id="L307">        }</span>
 
-<span class="pc" id="L309">        double maxRandom = speciesDouble.values().stream().mapToDouble(x -&gt; x).sum();</span>
-<span class="fc" id="L310">        double randomSegment = random.nextFloat() * maxRandom;</span>
-<span class="fc" id="L311">        double accumulator = 0;</span>
+<span class="nc" id="L309">        double maxRandom = speciesDouble.values().stream().mapToDouble(x -&gt; x).sum();</span>
+<span class="nc" id="L310">        double randomSegment = random.nextFloat() * maxRandom;</span>
+<span class="nc" id="L311">        double accumulator = 0;</span>
 <span class="nc" id="L312">        Species selectedSpecies = speciesDouble.keySet().iterator().next();</span>
 <span class="nc bnc" id="L313" title="All 2 branches missed.">        for (Map.Entry&lt;Species, Double&gt; entry : speciesDouble.entrySet()) {</span>
 <span class="nc" id="L314">            accumulator += entry.getValue();</span>
@@ -321,7 +321,7 @@ public class Population {
     }
 
     private FitnessGenome biasedRandomGenome(List&lt;FitnessGenome&gt; fitnessGenomes) {
-<span class="fc" id="L324">        double sum = fitnessGenomes.stream()</span>
+<span class="nc" id="L324">        double sum = fitnessGenomes.stream()</span>
 <span class="nc" id="L325">                .mapToDouble(FitnessGenome::getFitness).sum();</span>
 <span class="nc" id="L326">        double randomSegment = random.nextFloat() * sum;</span>
 <span class="nc" id="L327">        double accumulator = 0;</span>
@@ -337,23 +337,23 @@ public class Population {
     }
 
     private List&lt;FitnessGenome&gt; calculateFitnessGenomes(Specieses specieses) {
-<span class="fc" id="L340">        List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;();</span>
-<span class="pc bpc" id="L341" title="1 of 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
+<span class="nc" id="L340">        List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L341" title="All 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
 <span class="nc bnc" id="L342" title="All 2 branches missed.">            for (FitnessGenome genome : species.getGenomes()) {</span>
 <span class="nc" id="L343">                double adjustedFitness = genome.getFitness() / species.getGenomes().size();</span>
 <span class="nc" id="L344">                fitnessGenomes.add(new FitnessGenome(genome.getGenome(), adjustedFitness));</span>
 <span class="nc" id="L345">            }</span>
 <span class="nc" id="L346">        }</span>
-<span class="pc" id="L347">        fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
-<span class="fc" id="L348">        return fitnessGenomes;</span>
+<span class="nc" id="L347">        fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
+<span class="nc" id="L348">        return fitnessGenomes;</span>
     }
 
     private Specieses breakIntoSpecies(List&lt;FitnessGenome&gt; genomes, Specieses specieses) {
-<span class="pc bpc" id="L352" title="1 of 2 branches missed.">        for (FitnessGenome genome : genomes) {</span>
-<span class="fc" id="L353">            Species suitableSpecies = null;</span>
-<span class="fc" id="L354">            double bestPheta = Float.MAX_VALUE;</span>
-<span class="fc bfc" id="L355" title="All 2 branches covered.">            for (Species oneSpecies : specieses.getSpecieces()) {</span>
-<span class="fc" id="L356">                FitnessGenome representative = oneSpecies.getBestGenome();</span>
+<span class="nc bnc" id="L352" title="All 2 branches missed.">        for (FitnessGenome genome : genomes) {</span>
+<span class="nc" id="L353">            Species suitableSpecies = null;</span>
+<span class="nc" id="L354">            double bestPheta = Float.MAX_VALUE;</span>
+<span class="nc bnc" id="L355" title="All 2 branches missed.">            for (Species oneSpecies : specieses.getSpecieces()) {</span>
+<span class="nc" id="L356">                FitnessGenome representative = oneSpecies.getBestGenome();</span>
 <span class="nc" id="L357">                GenomeDiff genomeDiff = new GenomeDiff(genome.getGenome().getConnections(), representative.getGenome().getConnections());</span>
 <span class="nc" id="L358">                double feta = genomeDiff.feta();</span>
 <span class="nc bnc" id="L359" title="All 4 branches missed.">                if (PHETA_THRESHOLD &gt; feta &amp;&amp; feta &lt; bestPheta) {</span>
@@ -362,12 +362,12 @@ public class Population {
                 }
 <span class="nc" id="L363">            }</span>
 
-<span class="pc bpc" id="L365" title="1 of 2 branches missed.">            if (Objects.nonNull(suitableSpecies)) {</span>
+<span class="nc bnc" id="L365" title="All 2 branches missed.">            if (Objects.nonNull(suitableSpecies)) {</span>
 <span class="nc" id="L366">                specieses.add(genome, suitableSpecies);</span>
             } else {
-<span class="fc" id="L368">                specieses.newSpecies(genome);</span>
+<span class="nc" id="L368">                specieses.newSpecies(genome);</span>
             }
-<span class="fc" id="L370">        }</span>
+<span class="nc" id="L370">        }</span>
 <span class="nc" id="L371">        return specieses;</span>
     }
 }

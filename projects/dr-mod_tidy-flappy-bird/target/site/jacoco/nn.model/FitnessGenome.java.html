@@ -5,27 +5,27 @@ public class FitnessGenome implements Comparable&lt;FitnessGenome&gt; {
     private Genome genome;
     private double fitness;
 
-<span class="fc" id="L8">    public FitnessGenome(Genome genome, double fitness) {</span>
-<span class="fc" id="L9">        this.genome = genome;</span>
-<span class="fc" id="L10">        this.fitness = fitness;</span>
-<span class="fc" id="L11">    }</span>
+<span class="nc" id="L8">    public FitnessGenome(Genome genome, double fitness) {</span>
+<span class="nc" id="L9">        this.genome = genome;</span>
+<span class="nc" id="L10">        this.fitness = fitness;</span>
+<span class="nc" id="L11">    }</span>
 
     @Override
     public int compareTo(FitnessGenome o) {
-<span class="fc" id="L15">        return Double.compare(this.fitness, o.fitness);</span>
+<span class="nc" id="L15">        return Double.compare(this.fitness, o.fitness);</span>
     }
 
     public Genome getGenome() {
-<span class="fc" id="L19">        return genome;</span>
+<span class="nc" id="L19">        return genome;</span>
     }
 
     public double getFitness() {
-<span class="fc" id="L23">        return fitness;</span>
+<span class="nc" id="L23">        return fitness;</span>
     }
 
     public void setFitness(double fitness) {
-<span class="fc" id="L27">        this.fitness = fitness;</span>
-<span class="fc" id="L28">    }</span>
+<span class="nc" id="L27">        this.fitness = fitness;</span>
+<span class="nc" id="L28">    }</span>
 
     public FitnessGenome copy() {
 <span class="nc" id="L31">        return new FitnessGenome(genome.copy(), fitness);</span>
@@ -33,7 +33,7 @@ public class FitnessGenome implements Comparable&lt;FitnessGenome&gt; {
 
     @Override
     public String toString() {
-<span class="fc" id="L36">        return &quot;FitnessGenome{&quot; +</span>
+<span class="nc" id="L36">        return &quot;FitnessGenome{&quot; +</span>
                 &quot;fitness=&quot; + fitness +
                 &quot;, genome=&quot; + genome +
                 '}';

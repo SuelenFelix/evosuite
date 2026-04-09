@@ -46,28 +46,28 @@
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.entity.convert.KeyConverterTest
 pyPRoafbTvkbIp1/ib5V1A==
 null
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s - in com.strategyengine.xrpl.fsedistributionservice.entity.convert.KeyConverterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 s - in com.strategyengine.xrpl.fsedistributionservice.entity.convert.KeyConverterTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.entity.convert.BaseEncodingPrivateKeyTest
 Wallet{privateKey=, publicKey=, classicAddress=rHTfx7p4ge8CfDhyoczpSwc84LWfiK3dhN, xAddress=XVP9iv5hnPGimcbFGpwrLagYw69EZkFiTaaih5rtzYy8PbV, isTest=false}
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in com.strategyengine.xrpl.fsedistributionservice.entity.convert.BaseEncodingPrivateKeyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in com.strategyengine.xrpl.fsedistributionservice.entity.convert.BaseEncodingPrivateKeyTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.TrustlinePaymentControllerTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.TrustlinePaymentControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.731 s - in com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.TrustlinePaymentControllerTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.WalletControllerTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.WalletControllerTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.AnalysisControllerTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.AnalysisControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in com.strategyengine.xrpl.fsedistributionservice.rest.trustlines.AnalysisControllerTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.AirDropSchedulerImplTest
-Future Week Wed Jun 17 02:18:37 UTC 2026
-[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.AirDropSchedulerImplTest
+Future Week Thu Jun 18 15:59:30 UTC 2026
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.AirDropSchedulerImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.CurrencyHexServiceImplTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.CurrencyHexServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.CurrencyHexServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.ValidationServiceImplTest
-[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.245 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.ValidationServiceImplTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.ValidationServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.TransactionHisotryServiceImplTest
-02:18:37.827 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.TransactionHistoryServiceImpl - Found Transaction history after Optional.empty for rFROMoHT7PMJxVyz3s8394zStRR68PqCz size 0 will be added to current total found 1
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.TransactionHisotryServiceImplTest
+15:59:31.268 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.TransactionHistoryServiceImpl - Found Transaction history after Optional.empty for rFROMoHT7PMJxVyz3s8394zStRR68PqCz size 0 will be added to current total found 1
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.TransactionHisotryServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImplTest
-02:18:37.876 [main] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
+15:59:31.315 [main] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
 java.lang.NullPointerException: null
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:230)
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesForCompare(XrplServiceImpl.java:194)
@@ -149,7 +149,7 @@ java.lang.NullPointerException: null
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-02:18:37.877 [main] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
+15:59:31.316 [main] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
 java.lang.NullPointerException: null
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:230)
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:237)
@@ -232,7 +232,7 @@ java.lang.NullPointerException: null
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-02:18:37.878 [main] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
+15:59:31.318 [main] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
 java.lang.NullPointerException: null
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:230)
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:237)
@@ -316,7 +316,7 @@ java.lang.NullPointerException: null
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-02:18:37.900 [pool-8-thread-1] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
+15:59:31.343 [pool-8-thread-1] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
 java.lang.NullPointerException: null
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:230)
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesForCompare(XrplServiceImpl.java:194)
@@ -330,7 +330,7 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-02:18:37.901 [pool-8-thread-1] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
+15:59:31.344 [pool-8-thread-1] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
 java.lang.NullPointerException: null
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:230)
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:237)
@@ -345,7 +345,7 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-02:18:37.901 [pool-8-thread-1] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
+15:59:31.344 [pool-8-thread-1] ERROR com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Error fetching trustlines for bingo!
 java.lang.NullPointerException: null
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:230)
 	at com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl.getTrustLinesWithRetry(XrplServiceImpl.java:237)
@@ -367,41 +367,41 @@ Exception in thread "pool-8-thread-1" java.lang.NullPointerException
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-02:18:37.913 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Completed fetching 1 trustlines for bingo!
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImplTest
+15:59:31.357 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImpl - Completed fetching 1 trustlines for bingo!
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.XrplServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.BlacklistServiceImplTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.BlacklistServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.BlacklistServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.AnalysisServiceImplTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.AnalysisServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImplTest
-02:18:37.960 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - getTotalFeeRequiredForSide - sendingDifferentIssuer for drop - service Fee - 2.0
-02:18:37.970 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:6200 totalFeesCollected:0.00 totalFeeRequiredForSize:1.00 remainingToCollect:1.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.970 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.99100 feePortionArdy:0.00100
-02:18:37.979 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:1.00 remainingToCollect:0.88 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.979 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.87208 feePortionArdy:0.00088
-02:18:37.981 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:52550 totalFeesCollected:0.01 totalFeeRequiredForSize:3.00 remainingToCollect:2.99 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.981 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:2.96309 feePortionArdy:0.00299
-02:18:37.984 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:52550 totalFeesCollected:0.00 totalFeeRequiredForSize:3.00 remainingToCollect:3.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.984 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:2.97300 feePortionArdy:0.00300
-02:18:37.986 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:52550 totalFeesCollected:1.01 totalFeeRequiredForSize:3.00 remainingToCollect:1.99 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.986 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:1.97209 feePortionArdy:0.00199
-02:18:37.988 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:1.00 remainingToCollect:1.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.988 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.99100 feePortionArdy:0.00100
-02:18:37.991 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:0.20 remainingToCollect:0.08 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.991 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.07928 feePortionArdy:0.00008
-02:18:37.993 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:0.10 remainingToCollect:0.10 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.993 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.09910 feePortionArdy:0.00010
-02:18:37.996 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:1.00 remainingToCollect:0.88 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.996 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.87208 feePortionArdy:0.00088
-02:18:37.998 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:0.10 remainingToCollect:0.10 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:37.998 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.09910 feePortionArdy:0.00010
-02:18:38.001 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:1.00 remainingToCollect:1.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:38.001 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.99100 feePortionArdy:0.00100
-02:18:38.003 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:0.20 remainingToCollect:0.08 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:38.004 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.07928 feePortionArdy:0.00008
-02:18:38.007 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:1000000 totalVerifiedRecipients:43 totalFeesCollected:1.00 totalFeeRequiredForSize:1.00 remainingToCollect:0.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-02:18:38.010 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:1000000 totalVerifiedRecipients:2000 totalFeesCollected:1.10 totalFeeRequiredForSize:1.00 remainingToCollect:-0.10 currency:te issuer:1234 snapCurrency:null snapIssuer:null
-[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImplTest
+15:59:31.409 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - getTotalFeeRequiredForSide - sendingDifferentIssuer for drop - service Fee - 2.0
+15:59:31.419 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:6200 totalFeesCollected:0.00 totalFeeRequiredForSize:1.00 remainingToCollect:1.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.419 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.99100 feePortionArdy:0.00100
+15:59:31.426 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:1.00 remainingToCollect:0.88 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.427 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.87208 feePortionArdy:0.00088
+15:59:31.429 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:52550 totalFeesCollected:0.01 totalFeeRequiredForSize:3.00 remainingToCollect:2.99 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.429 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:2.96309 feePortionArdy:0.00299
+15:59:31.431 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:52550 totalFeesCollected:0.00 totalFeeRequiredForSize:3.00 remainingToCollect:3.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.431 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:2.97300 feePortionArdy:0.00300
+15:59:31.433 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:52550 totalFeesCollected:1.01 totalFeeRequiredForSize:3.00 remainingToCollect:1.99 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.434 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:1.97209 feePortionArdy:0.00199
+15:59:31.436 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:1.00 remainingToCollect:1.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.436 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.99100 feePortionArdy:0.00100
+15:59:31.438 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:0.20 remainingToCollect:0.08 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.438 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.07928 feePortionArdy:0.00008
+15:59:31.440 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:0.10 remainingToCollect:0.10 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.441 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.09910 feePortionArdy:0.00010
+15:59:31.442 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:1.00 remainingToCollect:0.88 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.443 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.87208 feePortionArdy:0.00088
+15:59:31.445 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:0.10 remainingToCollect:0.10 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.445 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.09910 feePortionArdy:0.00010
+15:59:31.446 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:1 totalFeesCollected:0.00 totalFeeRequiredForSize:1.00 remainingToCollect:1.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.447 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.99100 feePortionArdy:0.00100
+15:59:31.449 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:2000000 totalVerifiedRecipients:8000 totalFeesCollected:0.12 totalFeeRequiredForSize:0.20 remainingToCollect:0.08 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.449 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropid:2000000 feePortionBurn:0.07928 feePortionArdy:0.00008
+15:59:31.452 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:1000000 totalVerifiedRecipients:43 totalFeesCollected:1.00 totalFeeRequiredForSize:1.00 remainingToCollect:0.00 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+15:59:31.455 [main] INFO com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImpl - dropId:1000000 totalVerifiedRecipients:2000 totalFeesCollected:1.10 totalFeeRequiredForSize:1.00 remainingToCollect:-0.10 currency:te issuer:1234 snapCurrency:null snapIssuer:null
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.AirdropVerificationServiceImplTest
 [INFO] Running com.strategyengine.xrpl.fsedistributionservice.service.impl.AirDropRunnerImplTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.strategyengine.xrpl.fsedistributionservice.service.impl.AirDropRunnerImplTest
 [INFO] 
@@ -420,6 +420,6 @@ Exception in thread "pool-8-thread-1" java.lang.NullPointerException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.525 s
-[INFO] Finished at: 2026-04-08T02:18:38Z
+[INFO] Total time:  8.793 s
+[INFO] Finished at: 2026-04-09T15:59:32Z
 [INFO] ------------------------------------------------------------------------

@@ -665,3 +665,26 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class net.bytebu
 2026-04-09 15:10:03.874  INFO 75 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-04-09 15:10:03.875  INFO 75 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2026-04-09 15:10:03.876  INFO 75 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-09 15:48:17.054  INFO 70 --- [main] gMvcSpringDataSpringRestApplicationTests : Starting SpringMvcSpringDataSpringRestApplicationTests using Java 11.0.16 on dd9db3da0fa2 with PID 70 (started by root in /app)
+2026-04-09 15:48:17.055  INFO 70 --- [main] gMvcSpringDataSpringRestApplicationTests : No active profile set, falling back to default profiles: default
+2026-04-09 15:48:18.119  INFO 70 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:48:18.175  INFO 70 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2026-04-09 15:48:18.787  INFO 70 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:48:18.836  INFO 70 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2026-04-09 15:48:18.973  INFO 70 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 15:48:19.072  INFO 70 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:48:19.358  INFO 70 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 15:48:19.380  INFO 70 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:48:20.100  INFO 70 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:48:20.107  INFO 70 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:48:20.583  WARN 70 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:48:20.747  INFO 70 --- [main] com.innova.beantuto.BeanDto              : Beanim başladı Hayırlı olsun
+2026-04-09 15:48:20.884  INFO 70 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57a804af, org.springframework.security.web.context.SecurityContextPersistenceFilter@561dca32, org.springframework.security.web.header.HeaderWriterFilter@7f0eec97, org.springframework.security.web.csrf.CsrfFilter@568d5c6d, org.springframework.security.web.authentication.logout.LogoutFilter@45b94500, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@501388ab, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@665865df, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@70e86191, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30033bf7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cd426ce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a303486, org.springframework.security.web.session.SessionManagementFilter@28ce594a, org.springframework.security.web.access.ExceptionTranslationFilter@61e81d71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17b8301]
+2026-04-09 15:48:21.294  INFO 70 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2026-04-09 15:48:21.385  INFO 70 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-09 15:48:22.205  INFO 70 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-09 15:48:22.243  INFO 70 --- [main] gMvcSpringDataSpringRestApplicationTests : Started SpringMvcSpringDataSpringRestApplicationTests in 5.54 seconds (JVM running for 6.683)
+2026-04-09 15:48:22.410 ERROR 70 --- [SpringApplicationShutdownHook] com.innova.beantuto.BeanDto              : Beanim öldü Geçmiş olsun
+2026-04-09 15:48:22.415  INFO 70 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:48:22.416  INFO 70 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 15:48:22.420  INFO 70 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

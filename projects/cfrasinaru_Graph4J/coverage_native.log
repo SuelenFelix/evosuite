@@ -51,39 +51,39 @@ Vertices do not form a walk, there is no edge 1-6
 Vertices do not form a trail, duplicate edge: 1-2
 Duplicates are not allowed: 1
 Vertices do not form a cycle, there is no edge: 5-1
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.graph4j.core.WalksCyclesTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in org.graph4j.core.WalksCyclesTest
 [INFO] Running org.graph4j.core.GraphsTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.graph4j.core.GraphsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.core.GraphsTest
 [INFO] Running org.graph4j.core.GraphMetricsTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.graph4j.core.GraphMetricsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.graph4j.core.GraphMetricsTest
 [INFO] Running org.graph4j.core.LineGraphTest
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.graph4j.core.LineGraphTest
 [INFO] Running org.graph4j.core.OperationsTest
-[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.graph4j.core.OperationsTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.graph4j.core.OperationsTest
 [INFO] Running org.graph4j.core.NetworkTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.graph4j.core.NetworkTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.graph4j.core.NetworkTest
 [INFO] Running org.graph4j.core.SimpleTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.graph4j.core.SimpleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.graph4j.core.SimpleTest
 [INFO] Running org.graph4j.core.IteratorTest
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.graph4j.core.IteratorTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.graph4j.core.IteratorTest
 [INFO] Running org.graph4j.core.BuilderTest
 [INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.graph4j.core.BuilderTest
 [INFO] Running org.graph4j.connectivity.VertexConnectivityTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in org.graph4j.connectivity.VertexConnectivityTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.graph4j.connectivity.VertexConnectivityTest
 [INFO] Running org.graph4j.connectivity.StoerWagnerTest
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.graph4j.connectivity.StoerWagnerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.graph4j.connectivity.StoerWagnerTest
 [INFO] Running org.graph4j.connectivity.BridgeDetectionTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.graph4j.connectivity.BridgeDetectionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.connectivity.BridgeDetectionTest
 [INFO] Running org.graph4j.connectivity.ConnectivityTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.graph4j.connectivity.ConnectivityTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.graph4j.connectivity.ConnectivityTest
 [INFO] Running org.graph4j.connectivity.EdgeConnectivityTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in org.graph4j.connectivity.EdgeConnectivityTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.graph4j.connectivity.EdgeConnectivityTest
 [INFO] Running org.graph4j.connectivity.StrongConnectivityTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.connectivity.StrongConnectivityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.connectivity.StrongConnectivityTest
 [INFO] Running org.graph4j.support.ChordalGraphSupportTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.graph4j.support.ChordalGraphSupportTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.graph4j.support.ChordalGraphSupportTest
 [INFO] Running org.graph4j.support.BipartiteGraphSupportTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.graph4j.support.BipartiteGraphSupportTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.graph4j.support.BipartiteGraphSupportTest
 [INFO] Running org.graph4j.util.VertexCollectionTest
 Vertices do not form a stable set, there is an edge connecting 3 and 4
 Vertices do not form a clique, there is no edge connecting 2 and 3
@@ -91,60 +91,60 @@ Vertices do not form a clique, there is no edge connecting 2 and 3
 [INFO] Running org.graph4j.flow.EdmondsKarpTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.graph4j.flow.EdmondsKarpTest
 [INFO] Running org.graph4j.flow.PushRelabelTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.flow.PushRelabelTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.flow.PushRelabelTest
 [INFO] Running org.graph4j.flow.DinicTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.graph4j.flow.DinicTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.flow.DinicTest
 [INFO] Running org.graph4j.isomorphism.TreeIsomorphismTest
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.graph4j.isomorphism.TreeIsomorphismTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.graph4j.isomorphism.TreeIsomorphismTest
 [INFO] Running org.graph4j.alg.BronKerboschTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.alg.BronKerboschTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.alg.BronKerboschTest
 [INFO] Running org.graph4j.alg.MaximalCliqueTest
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.alg.MaximalCliqueTest
 [INFO] Running org.graph4j.alg.TournamentTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.alg.TournamentTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.alg.TournamentTest
 [INFO] Running org.graph4j.alg.TriangleCounterTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.alg.TriangleCounterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.alg.TriangleCounterTest
 [INFO] Running org.graph4j.alg.TopologicalOrderTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.graph4j.alg.TopologicalOrderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.alg.TopologicalOrderTest
 [INFO] Running org.graph4j.alg.EulerianCircuitTest
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.alg.EulerianCircuitTest
 [INFO] Running org.graph4j.alg.HopcroftKarpTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.alg.HopcroftKarpTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.alg.HopcroftKarpTest
 [INFO] Running org.graph4j.alg.VertexOrderingTest
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.alg.VertexOrderingTest
 [INFO] Running org.graph4j.alg.CliqueIteratorTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.graph4j.alg.CliqueIteratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.graph4j.alg.CliqueIteratorTest
 [INFO] Running org.graph4j.alg.CycleDetectorTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.graph4j.alg.CycleDetectorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.alg.CycleDetectorTest
 [INFO] Running org.graph4j.alg.ColoringTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.graph4j.alg.ColoringTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.graph4j.alg.ColoringTest
 [INFO] Running org.graph4j.converters.PruferTreeConverterTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.graph4j.converters.PruferTreeConverterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.converters.PruferTreeConverterTest
 [INFO] Running org.graph4j.spanning.MSTTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.spanning.MSTTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.spanning.MSTTest
 [INFO] Running org.graph4j.spanning.SpanningTreeIteratorTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.graph4j.spanning.SpanningTreeIteratorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.graph4j.spanning.SpanningTreeIteratorTest
 [INFO] Running org.graph4j.spanning.MSTBoruvkaTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.graph4j.spanning.MSTBoruvkaTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in org.graph4j.spanning.MSTBoruvkaTest
 [INFO] Running org.graph4j.spanning.FilterKruskalSmallTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.graph4j.spanning.FilterKruskalSmallTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.graph4j.spanning.FilterKruskalSmallTest
 [INFO] Running org.graph4j.generators.GraphGeneratorTest
-[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.graph4j.generators.GraphGeneratorTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.graph4j.generators.GraphGeneratorTest
 [INFO] Running org.graph4j.generators.BipartiteRealizationTest
-{[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0-11, 0-13, 1-10, 1-12, 1-13, 2-10, 2-12, 2-13, 3-11, 3-12, 3-14, 4-10, 4-13, 6-13, 7-10, 8-10, 8-11, 8-14, 9-11, 9-12, 9-13, 9-14]}
+{[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0-11, 0-12, 0-13, 0-14, 1-10, 1-11, 1-12, 1-13, 1-14, 2-11, 2-12, 2-13, 2-14, 3-10, 3-11, 3-12, 3-14, 4-10, 4-11, 4-12, 4-13, 4-14, 5-10, 5-11, 5-12, 5-13, 5-14, 6-10, 6-12, 6-14, 7-10, 7-12, 7-13, 8-10, 8-11, 8-12, 8-13, 8-14, 9-10, 9-11, 9-12, 9-13]}
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.generators.BipartiteRealizationTest
 [INFO] Running org.graph4j.generators.GraphRealizationTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.graph4j.generators.GraphRealizationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.graph4j.generators.GraphRealizationTest
 [INFO] Running org.graph4j.generators.DigraphRealizationTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.graph4j.generators.DigraphRealizationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.graph4j.generators.DigraphRealizationTest
 [INFO] Running org.graph4j.shortestpath.BellmanFordTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.graph4j.shortestpath.BellmanFordTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.graph4j.shortestpath.BellmanFordTest
 [INFO] Running org.graph4j.shortestpath.BFSSingleSourceTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.shortestpath.BFSSingleSourceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.shortestpath.BFSSingleSourceTest
 [INFO] Running org.graph4j.shortestpath.JohnsonTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.shortestpath.JohnsonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.graph4j.shortestpath.JohnsonTest
 [INFO] Running org.graph4j.shortestpath.DijkstraTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.graph4j.shortestpath.DijkstraTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.graph4j.shortestpath.DijkstraTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -161,6 +161,6 @@ Vertices do not form a clique, there is no edge connecting 2 and 3
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.057 s
-[INFO] Finished at: 2026-04-08T02:04:55Z
+[INFO] Total time:  5.817 s
+[INFO] Finished at: 2026-04-09T15:45:43Z
 [INFO] ------------------------------------------------------------------------

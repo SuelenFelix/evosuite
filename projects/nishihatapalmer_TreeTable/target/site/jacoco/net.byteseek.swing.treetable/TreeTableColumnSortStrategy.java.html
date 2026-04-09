@@ -49,53 +49,53 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
     /**
      * The position that a new sort key should have in the sort list.
      */
-<span class="fc" id="L52">    public enum NewSortKeyPosition {</span>
+<span class="nc" id="L52">    public enum NewSortKeyPosition {</span>
         /**
          * Make the sort key the first sorted key.
          */
-<span class="fc" id="L56">        MAKE_FIRST,</span>
+<span class="nc" id="L56">        MAKE_FIRST,</span>
 
         /**
          * Make the sort key the last sorted key.
          */
-<span class="fc" id="L61">        ADD_TO_END</span>
+<span class="nc" id="L61">        ADD_TO_END</span>
     }
 
     /**
      * How to update the position of an existing sort key when it is toggled.
      */
-<span class="fc" id="L67">    public enum UpdateSortKeyPosition {</span>
+<span class="nc" id="L67">    public enum UpdateSortKeyPosition {</span>
         /**
          * Make the sort key the first sorted key.
          */
-<span class="fc" id="L71">        MAKE_FIRST,</span>
+<span class="nc" id="L71">        MAKE_FIRST,</span>
 
         /**
          * Don't move the sort key from it's current position.
          */
-<span class="fc" id="L76">        KEEP_POSITION</span>
+<span class="nc" id="L76">        KEEP_POSITION</span>
     }
 
     /**
      * The action to take when removing a sort key.
      */
-<span class="fc" id="L82">    public enum RemoveSortKeyAction {</span>
+<span class="nc" id="L82">    public enum RemoveSortKeyAction {</span>
         /**
          * Removes the sort key from the list of sort keys. This is the default.
          */
-<span class="fc" id="L86">        REMOVE,</span>
+<span class="nc" id="L86">        REMOVE,</span>
 
         /**
          * Removes the sort key from the list of sort keys, and also any subsequent keys defined.
          * If we have 3 sort keys, and we make the second one unsorted, the second and third sort key would
          * be removed from the list.
          */
-<span class="fc" id="L93">        REMOVE_SUBSEQUENT,</span>
+<span class="nc" id="L93">        REMOVE_SUBSEQUENT,</span>
 
         /**
          * Clears all sort keys.
          */
-<span class="fc" id="L98">        REMOVE_ALL</span>
+<span class="nc" id="L98">        REMOVE_ALL</span>
     }
 
     /**
@@ -134,9 +134,9 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * Once unsorted, the column is removed from the sort keys.
      */
     public TreeTableColumnSortStrategy() {
-<span class="fc" id="L137">        this(DEFAULT_MAX_SORT_KEYS, NewSortKeyPosition.ADD_TO_END, UpdateSortKeyPosition.KEEP_POSITION,</span>
+<span class="nc" id="L137">        this(DEFAULT_MAX_SORT_KEYS, NewSortKeyPosition.ADD_TO_END, UpdateSortKeyPosition.KEEP_POSITION,</span>
                 RemoveSortKeyAction.REMOVE);
-<span class="fc" id="L139">    }</span>
+<span class="nc" id="L139">    }</span>
 
     /**
      * Constructs a TreeTableColumnSortStrategy with the particular configuration passed in.
@@ -150,33 +150,33 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
     public TreeTableColumnSortStrategy(final int maximumSortKeys,
                                        final NewSortKeyPosition newSortKeyPosition,
                                        final UpdateSortKeyPosition updateSortKeyPosition,
-<span class="fc" id="L153">                                       final RemoveSortKeyAction removeSortKeyAction) {</span>
-<span class="pc bpc" id="L154" title="2 of 6 branches missed.">        if (newSortKeyPosition == null || updateSortKeyPosition == null || removeSortKeyAction == null) {</span>
-<span class="fc" id="L155">            throw new IllegalArgumentException(&quot;Actions to take cannot be null.&quot;);</span>
+<span class="nc" id="L153">                                       final RemoveSortKeyAction removeSortKeyAction) {</span>
+<span class="nc bnc" id="L154" title="All 6 branches missed.">        if (newSortKeyPosition == null || updateSortKeyPosition == null || removeSortKeyAction == null) {</span>
+<span class="nc" id="L155">            throw new IllegalArgumentException(&quot;Actions to take cannot be null.&quot;);</span>
         }
-<span class="fc" id="L157">        this.maximumSortKeys = maximumSortKeys;</span>
-<span class="fc" id="L158">        this.newSortKeyPosition = newSortKeyPosition;</span>
-<span class="fc" id="L159">        this.updateSortKeyPosition = updateSortKeyPosition;</span>
-<span class="fc" id="L160">        this.removeSortKeyAction = removeSortKeyAction;</span>
-<span class="fc" id="L161">    }</span>
+<span class="nc" id="L157">        this.maximumSortKeys = maximumSortKeys;</span>
+<span class="nc" id="L158">        this.newSortKeyPosition = newSortKeyPosition;</span>
+<span class="nc" id="L159">        this.updateSortKeyPosition = updateSortKeyPosition;</span>
+<span class="nc" id="L160">        this.removeSortKeyAction = removeSortKeyAction;</span>
+<span class="nc" id="L161">    }</span>
 
     @Override
     public List&lt;RowSorter.SortKey&gt; buildNewSortKeys(final int columnToSort, final List&lt;? extends RowSorter.SortKey&gt; sortKeys) {
-<span class="fc" id="L165">        final List&lt;RowSorter.SortKey&gt; newKeys = new ArrayList&lt;&gt;(sortKeys);</span>
-<span class="fc" id="L166">        final int sortKeyIndex = findKeyColumn(newKeys, columnToSort);</span>
-<span class="pc bpc" id="L167" title="1 of 2 branches missed.">        if (sortKeyIndex &lt; 0) {</span>
-<span class="fc" id="L168">            addNewSortKey(newKeys, columnToSort);</span>
+<span class="nc" id="L165">        final List&lt;RowSorter.SortKey&gt; newKeys = new ArrayList&lt;&gt;(sortKeys);</span>
+<span class="nc" id="L166">        final int sortKeyIndex = findKeyColumn(newKeys, columnToSort);</span>
+<span class="nc bnc" id="L167" title="All 2 branches missed.">        if (sortKeyIndex &lt; 0) {</span>
+<span class="nc" id="L168">            addNewSortKey(newKeys, columnToSort);</span>
         } else {
 <span class="nc" id="L170">            toggleExistingSortKey(newKeys, sortKeyIndex);</span>
         }
-<span class="fc" id="L172">        return newKeys;</span>
+<span class="nc" id="L172">        return newKeys;</span>
     }
 
     /**
      * @return the action to take on a new column becoming sorted.
      */
     public NewSortKeyPosition getNewSortKeyPosition() {
-<span class="fc" id="L179">        return newSortKeyPosition;</span>
+<span class="nc" id="L179">        return newSortKeyPosition;</span>
     }
 
     /**
@@ -184,14 +184,14 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @param newSortKeyPosition the action to take when a new column is sorted.
      */
     public void setNewSortKeyPosition(NewSortKeyPosition newSortKeyPosition) {
-<span class="fc" id="L187">        this.newSortKeyPosition = newSortKeyPosition;</span>
-<span class="fc" id="L188">    }</span>
+<span class="nc" id="L187">        this.newSortKeyPosition = newSortKeyPosition;</span>
+<span class="nc" id="L188">    }</span>
 
     /**
      * @return the action to take on a sorted column becoming unsorted.
      */
     public RemoveSortKeyAction getRemoveSortKeyAction() {
-<span class="fc" id="L194">        return removeSortKeyAction;</span>
+<span class="nc" id="L194">        return removeSortKeyAction;</span>
     }
 
     /**
@@ -199,14 +199,14 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @param removeSortKeyAction The action to take when a sorted column becomes unsorted.
      */
     public void setRemoveSortKeyAction(RemoveSortKeyAction removeSortKeyAction) {
-<span class="fc" id="L202">        this.removeSortKeyAction = removeSortKeyAction;</span>
-<span class="fc" id="L203">    }</span>
+<span class="nc" id="L202">        this.removeSortKeyAction = removeSortKeyAction;</span>
+<span class="nc" id="L203">    }</span>
 
     /**
      * @return the action to take on an existing sorted column being toggled again.
      */
     public UpdateSortKeyPosition getUpdateSortKeyPosition() {
-<span class="fc" id="L209">        return updateSortKeyPosition;</span>
+<span class="nc" id="L209">        return updateSortKeyPosition;</span>
     }
 
     /**
@@ -214,14 +214,14 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @param updateSortKeyPosition the action to take when an existing sorted column is toggled.
      */
     public void setUpdateSortKeyPosition(UpdateSortKeyPosition updateSortKeyPosition) {
-<span class="fc" id="L217">        this.updateSortKeyPosition = updateSortKeyPosition;</span>
-<span class="fc" id="L218">    }</span>
+<span class="nc" id="L217">        this.updateSortKeyPosition = updateSortKeyPosition;</span>
+<span class="nc" id="L218">    }</span>
 
     /**
      * @return The maximum number of sorted columns.
      */
     public int getMaximumSortKeys() {
-<span class="fc" id="L224">        return maximumSortKeys;</span>
+<span class="nc" id="L224">        return maximumSortKeys;</span>
     }
 
     /**
@@ -229,12 +229,12 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @param maximumSortKeys the maximum number of sorted columns.
      */
     public void setMaximumSortKeys(final int maximumSortKeys) {
-<span class="fc" id="L232">        this.maximumSortKeys = maximumSortKeys;</span>
-<span class="fc" id="L233">    }</span>
+<span class="nc" id="L232">        this.maximumSortKeys = maximumSortKeys;</span>
+<span class="nc" id="L233">    }</span>
 
     @Override
     public String toString() {
-<span class="fc" id="L237">        return getClass().getSimpleName() +</span>
+<span class="nc" id="L237">        return getClass().getSimpleName() +</span>
                 &quot;(max columns: &quot; + maximumSortKeys +
                 &quot;, new: &quot; + newSortKeyPosition +
                 &quot;, existing: &quot; + updateSortKeyPosition +
@@ -248,11 +248,11 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @param columnToSort The index of the newly sorted column.
      */
     protected void addNewSortKey(final List&lt;RowSorter.SortKey&gt; newKeys, final int columnToSort) {
-<span class="fc" id="L251">        final RowSorter.SortKey newKey = new RowSorter.SortKey(columnToSort, SortOrder.ASCENDING);</span>
-<span class="pc bpc" id="L252" title="2 of 3 branches missed.">        switch(newSortKeyPosition) {</span>
+<span class="nc" id="L251">        final RowSorter.SortKey newKey = new RowSorter.SortKey(columnToSort, SortOrder.ASCENDING);</span>
+<span class="nc bnc" id="L252" title="All 3 branches missed.">        switch(newSortKeyPosition) {</span>
             case ADD_TO_END: { // always add to the end - if there isn't enough room, the last sort key is replaced.
-<span class="pc bpc" id="L254" title="1 of 2 branches missed.">                if (newKeys.size() &lt; maximumSortKeys) {</span>
-<span class="fc" id="L255">                    newKeys.add(newKey);</span>
+<span class="nc bnc" id="L254" title="All 2 branches missed.">                if (newKeys.size() &lt; maximumSortKeys) {</span>
+<span class="nc" id="L255">                    newKeys.add(newKey);</span>
                 } else {
 <span class="nc" id="L257">                    newKeys.set(newKeys.size() - 1, newKey);</span>
                 }
@@ -264,7 +264,7 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
                 break;
             }
         }
-<span class="fc" id="L267">    }</span>
+<span class="nc" id="L267">    }</span>
 
     /**
      * Takes the appropriate action when an existing sorted column is toggled.
@@ -330,7 +330,7 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @return The next sort order (wrapping around).
      */
     protected SortOrder nextSortOrder(final SortOrder sortOrder) {
-<span class="fc" id="L333">        return SortOrder.values()[(sortOrder.ordinal() + 1) % SortOrder.values().length];</span>
+<span class="nc" id="L333">        return SortOrder.values()[(sortOrder.ordinal() + 1) % SortOrder.values().length];</span>
     }
 
     /**
@@ -340,15 +340,15 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @return The index of the SortKey for a particular column, or -1 if none is defined.
      */
     protected final int findKeyColumn(final List&lt;RowSorter.SortKey&gt; sortKeys, final int column) {
-<span class="fc" id="L343">        final List&lt;RowSorter.SortKey&gt; localKeys = sortKeys;</span>
-<span class="fc bfc" id="L344" title="All 2 branches covered.">        if (localKeys != null) {</span>
-<span class="pc bpc" id="L345" title="1 of 2 branches missed.">            for (int keyIndex = 0; keyIndex &lt; localKeys.size(); keyIndex++) {</span>
+<span class="nc" id="L343">        final List&lt;RowSorter.SortKey&gt; localKeys = sortKeys;</span>
+<span class="nc bnc" id="L344" title="All 2 branches missed.">        if (localKeys != null) {</span>
+<span class="nc bnc" id="L345" title="All 2 branches missed.">            for (int keyIndex = 0; keyIndex &lt; localKeys.size(); keyIndex++) {</span>
 <span class="nc bnc" id="L346" title="All 2 branches missed.">                if (localKeys.get(keyIndex).getColumn() == column) {</span>
 <span class="nc" id="L347">                    return keyIndex;</span>
                 }
             }
         }
-<span class="fc" id="L351">        return -1;</span>
+<span class="nc" id="L351">        return -1;</span>
     }
 
     /**
@@ -361,9 +361,9 @@ public class TreeTableColumnSortStrategy implements TreeTableRowSorter.ColumnSor
      * @param newSize The new size of the truncated list.
      */
     protected final void truncateList(final List&lt;?&gt; list, final int newSize) {
-<span class="pc bpc" id="L364" title="1 of 2 branches missed.">        while (list.size() &gt; newSize) {</span>
+<span class="nc bnc" id="L364" title="All 2 branches missed.">        while (list.size() &gt; newSize) {</span>
 <span class="nc" id="L365">            list.remove(list.size() - 1);</span>
         }
-<span class="fc" id="L367">    }</span>
+<span class="nc" id="L367">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

@@ -85,53 +85,53 @@
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.242 s -- in ix.ibm.sonar.java.MyJavaRulesDefinitionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 s -- in ix.ibm.sonar.java.MyJavaRulesDefinitionTest
 [INFO] Running ix.ibm.sonar.java.checks.mocks.AvoidMockingRequestAndResponseTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.306 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingRequestAndResponseTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.274 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingRequestAndResponseTest
 [INFO] Running ix.ibm.sonar.java.checks.mocks.AvoidMockingResourceHandlingObjectsTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingResourceHandlingObjectsTest
 [INFO] Running ix.ibm.sonar.java.checks.mocks.AvoidInjectMocksUsageTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in ix.ibm.sonar.java.checks.mocks.AvoidInjectMocksUsageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s -- in ix.ibm.sonar.java.checks.mocks.AvoidInjectMocksUsageTest
 [INFO] Running ix.ibm.sonar.java.checks.mocks.AvoidMockingOsgiComponentsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingOsgiComponentsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingOsgiComponentsTest
 [INFO] Running ix.ibm.sonar.java.checks.mocks.AvoidMockingSlingModelsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingSlingModelsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in ix.ibm.sonar.java.checks.mocks.AvoidMockingSlingModelsTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.PreferInjectionOverAdaptionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s -- in ix.ibm.sonar.java.checks.sling.PreferInjectionOverAdaptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in ix.ibm.sonar.java.checks.sling.PreferInjectionOverAdaptionTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.ThreadSafeObjectsTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in ix.ibm.sonar.java.checks.sling.ThreadSafeObjectsTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.CloseJcrSessionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in ix.ibm.sonar.java.checks.sling.CloseJcrSessionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s -- in ix.ibm.sonar.java.checks.sling.CloseJcrSessionTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.AvoidWcmUsePojoClassTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in ix.ibm.sonar.java.checks.sling.AvoidWcmUsePojoClassTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in ix.ibm.sonar.java.checks.sling.AvoidWcmUsePojoClassTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.AvoidOldSlingServletAnnotationsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in ix.ibm.sonar.java.checks.sling.AvoidOldSlingServletAnnotationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in ix.ibm.sonar.java.checks.sling.AvoidOldSlingServletAnnotationsTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.AvoidDeprecatedAdministrativeTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in ix.ibm.sonar.java.checks.sling.AvoidDeprecatedAdministrativeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in ix.ibm.sonar.java.checks.sling.AvoidDeprecatedAdministrativeTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.PostConstructExceptionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in ix.ibm.sonar.java.checks.sling.PostConstructExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s -- in ix.ibm.sonar.java.checks.sling.PostConstructExceptionTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.UseConstantsForLiteralsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in ix.ibm.sonar.java.checks.sling.UseConstantsForLiteralsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in ix.ibm.sonar.java.checks.sling.UseConstantsForLiteralsTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.UseInjectorSpecificAnnotationsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in ix.ibm.sonar.java.checks.sling.UseInjectorSpecificAnnotationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in ix.ibm.sonar.java.checks.sling.UseInjectorSpecificAnnotationsTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.UseConstantsForHttpCodesTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in ix.ibm.sonar.java.checks.sling.UseConstantsForHttpCodesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in ix.ibm.sonar.java.checks.sling.UseConstantsForHttpCodesTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.SlingServletExceptionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in ix.ibm.sonar.java.checks.sling.SlingServletExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s -- in ix.ibm.sonar.java.checks.sling.SlingServletExceptionTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.FilterExceptionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in ix.ibm.sonar.java.checks.sling.FilterExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s -- in ix.ibm.sonar.java.checks.sling.FilterExceptionTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.DefaultInjectionStrategyTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in ix.ibm.sonar.java.checks.sling.DefaultInjectionStrategyTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.SlingServletResourceOverPathTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in ix.ibm.sonar.java.checks.sling.SlingServletResourceOverPathTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in ix.ibm.sonar.java.checks.sling.SlingServletResourceOverPathTest
 [INFO] Running ix.ibm.sonar.java.checks.sling.TryWithResourcesResourceResolverRuleTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in ix.ibm.sonar.java.checks.sling.TryWithResourcesResourceResolverRuleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in ix.ibm.sonar.java.checks.sling.TryWithResourcesResourceResolverRuleTest
 [INFO] Running ix.ibm.sonar.java.checks.osgi.SeparateConfigurationClassTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in ix.ibm.sonar.java.checks.osgi.SeparateConfigurationClassTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in ix.ibm.sonar.java.checks.osgi.SeparateConfigurationClassTest
 [INFO] Running ix.ibm.sonar.java.checks.osgi.AvoidJcrApiTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in ix.ibm.sonar.java.checks.osgi.AvoidJcrApiTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in ix.ibm.sonar.java.checks.osgi.AvoidJcrApiTest
 [INFO] Running ix.ibm.sonar.java.checks.osgi.AvoidFelixAnnotationsTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in ix.ibm.sonar.java.checks.osgi.AvoidFelixAnnotationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in ix.ibm.sonar.java.checks.osgi.AvoidFelixAnnotationsTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -148,6 +148,6 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  23.675 s
-[INFO] Finished at: 2026-04-08T02:08:30Z
+[INFO] Total time:  27.667 s
+[INFO] Finished at: 2026-04-09T15:49:18Z
 [INFO] ------------------------------------------------------------------------

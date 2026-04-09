@@ -42,7 +42,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
 
   .   ____          _            __ _ _
@@ -53,22 +53,22 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.4)
 
-2026-04-08 01:50:55.057  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Starting NewSpringAuthorizationServerApplication using Java 11.0.16 on ea70e339be56 with PID 69 (started by root in /app)
-2026-04-08 01:50:55.061  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:50:58.294  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
-2026-04-08 01:50:58.308  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:50:58.309  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2026-04-08 01:50:58.393  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:50:58.394  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3262 ms
-2026-04-08 01:50:59.110  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$782/0x00000008403f9040@38987315
-2026-04-08 01:50:59.151  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2026-04-08 01:50:59.536  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
-2026-04-08 01:50:59.549  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Started NewSpringAuthorizationServerApplication in 5.117 seconds (JVM running for 6.509)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.474 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
+2026-04-09 15:38:30.004  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Starting NewSpringAuthorizationServerApplication using Java 11.0.16 on 2c9da119ce57 with PID 69 (started by root in /app)
+2026-04-09 15:38:30.007  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:38:30.947  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2026-04-09 15:38:30.959  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:38:30.959  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2026-04-09 15:38:31.030  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:38:31.031  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 983 ms
+2026-04-09 15:38:31.629  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$782/0x00000008403f9040@6220f14
+2026-04-09 15:38:31.667  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2026-04-09 15:38:31.917  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2026-04-09 15:38:31.926  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Started NewSpringAuthorizationServerApplication in 2.356 seconds (JVM running for 3.174)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.551 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
-2026-04-08 01:50:59.603 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:38:31.951 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.16.jar:5.3.16]
@@ -97,18 +97,18 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
-[ERROR] test  Time elapsed: 0.034 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
+[ERROR] test  Time elapsed: 0.026 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663.test(NewSpringAuthorizationServerApplication_main_17520057663.java:44)
 
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests
-2026-04-08 01:50:59.685  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests], using SpringBootContextLoader
-2026-04-08 01:50:59.688  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:50:59.689  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests]: NewSpringAuthorizationServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:50:59.726  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication for test class com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests
-2026-04-08 01:50:59.732  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
-2026-04-08 01:50:59.751  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@177515d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@52ff99cd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4c2af006, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44032fde, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7b676112, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5578be42, org.springframework.test.context.event.EventPublishingTestExecutionListener@4e49ce2b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@136965e3, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@53c6f96d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@435cc7f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4364712f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b7a52dd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7f93dd4e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ad5be4a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3ad85136]
+2026-04-09 15:38:32.008  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests], using SpringBootContextLoader
+2026-04-09 15:38:32.010  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:38:32.010  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests]: NewSpringAuthorizationServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:38:32.046  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication for test class com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests
+2026-04-09 15:38:32.051  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2026-04-09 15:38:32.064  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@177515d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@52ff99cd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4c2af006, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44032fde, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7b676112, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5578be42, org.springframework.test.context.event.EventPublishingTestExecutionListener@4e49ce2b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@136965e3, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@53c6f96d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@435cc7f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4364712f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b7a52dd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7f93dd4e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ad5be4a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3ad85136]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -118,12 +118,12 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.4)
 
-2026-04-08 01:50:59.853  INFO 69 --- [           main] pringAuthorizationServerApplicationTests : Starting NewSpringAuthorizationServerApplicationTests using Java 11.0.16 on ea70e339be56 with PID 69 (started by root in /app)
-2026-04-08 01:50:59.854  INFO 69 --- [           main] pringAuthorizationServerApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:51:00.673  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$782/0x00000008403f9040@609e57da
-2026-04-08 01:51:00.844  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2026-04-08 01:51:01.541  INFO 69 --- [           main] pringAuthorizationServerApplicationTests : Started NewSpringAuthorizationServerApplicationTests in 1.759 seconds (JVM running for 8.502)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.846 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests
+2026-04-09 15:38:32.107  INFO 69 --- [           main] pringAuthorizationServerApplicationTests : Starting NewSpringAuthorizationServerApplicationTests using Java 11.0.16 on 2c9da119ce57 with PID 69 (started by root in /app)
+2026-04-09 15:38:32.107  INFO 69 --- [           main] pringAuthorizationServerApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:38:32.491  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$782/0x00000008403f9040@4d634127
+2026-04-09 15:38:32.508  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2026-04-09 15:38:32.719  INFO 69 --- [           main] pringAuthorizationServerApplicationTests : Started NewSpringAuthorizationServerApplicationTests in 0.642 seconds (JVM running for 3.966)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.031 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplicationTests
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -147,6 +147,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  13.044 s
-[INFO] Finished at: 2026-04-08T01:51:03Z
+[INFO] Total time:  6.752 s
+[INFO] Finished at: 2026-04-09T15:38:33Z
 [INFO] ------------------------------------------------------------------------

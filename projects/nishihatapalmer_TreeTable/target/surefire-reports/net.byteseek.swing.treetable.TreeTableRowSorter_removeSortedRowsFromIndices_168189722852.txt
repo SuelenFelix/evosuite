@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: net.byteseek.swing.treetable.TreeTableRowSorter_removeSortedRowsFromIndices_168189722852
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_removeSortedRowsFromIndices_168189722852)  Time elapsed: 0.049 sec  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: arraycopy: last source index 1346386443 out of bounds for int[5]
+	at java.base/java.lang.System.arraycopy(Native Method)
+	at net.byteseek.swing.treetable.TreeTableRowSorter.removeSortedRowsFromIndices(TreeTableRowSorter.java:1129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.byteseek.swing.treetable.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at net.byteseek.swing.treetable.TreeTableRowSorter_removeSortedRowsFromIndices_168189722852.test(TreeTableRowSorter_removeSortedRowsFromIndices_168189722852.java:233)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+

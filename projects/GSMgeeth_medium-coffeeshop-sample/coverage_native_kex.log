@@ -82,7 +82,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.blog.coffee_shop.model.MenuItem_getName_84995146415
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.blog.coffee_shop.model.MenuItem_getName_84995146415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.blog.coffee_shop.model.MenuItem_getName_84995146415
 [INFO] Running com.blog.coffee_shop.model.MenuItem_setId_167956273
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setId_167956273
 [INFO] Running com.blog.coffee_shop.model.MenuItem_init_12853592171
@@ -98,11 +98,11 @@
 [INFO] Running com.blog.coffee_shop.model.MenuItem_hashCode_18024984039
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_hashCode_18024984039
 [INFO] Running com.blog.coffee_shop.model.MenuItem_setIngredients_87133852218
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.model.MenuItem_setIngredients_87133852218
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setIngredients_87133852218
 [INFO] Running com.blog.coffee_shop.model.MenuItem_setName_17251392645
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setName_17251392645
 [INFO] Running com.blog.coffee_shop.model.MenuItem_hashCode_180249840320
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_hashCode_180249840320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.model.MenuItem_hashCode_180249840320
 [INFO] Running com.blog.coffee_shop.model.MenuItem_getId_20805324612
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_getId_20805324612
 [INFO] Running com.blog.coffee_shop.model.MenuItem_setId_1679562714
@@ -122,7 +122,7 @@
 [INFO] Running com.blog.coffee_shop.model.MenuItem_setIngredients_8713385227
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setIngredients_8713385227
 [INFO] Running com.blog.coffee_shop.model.MenuItem_toString_198170920321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_toString_198170920321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.model.MenuItem_toString_198170920321
 [INFO] Running com.blog.coffee_shop.model.MenuItem_setName_172513926416
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.model.MenuItem_setName_172513926416
 [INFO] Running com.blog.coffee_shop.CoffeeShopApplication_main_21296820481
@@ -135,21 +135,21 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.2)
 
-2026-04-08 01:10:52.198  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : Starting CoffeeShopApplication using Java 11.0.16 on 6c61c315ae4b with PID 69 (started by root in /app)
-2026-04-08 01:10:52.201  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:10:53.189  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:10:53.199  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:10:53.199  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2026-04-08 01:10:53.286  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:10:53.286  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1046 ms
-2026-04-08 01:10:53.591  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37bf5f6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ddd7390, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f563ed, org.springframework.security.web.header.HeaderWriterFilter@78b09896, org.springframework.security.web.authentication.logout.LogoutFilter@2f73b2ed, com.blog.coffee_shop.configuration.jwt.JWTFilter@4ca4513, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43f03e63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62fd5969, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4acc68fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@214de4b7, org.springframework.security.web.session.SessionManagementFilter@24ef377c, org.springframework.security.web.access.ExceptionTranslationFilter@6cd0d37d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55130616]
-2026-04-08 01:10:53.887  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:10:53.895  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : Started CoffeeShopApplication in 2.144 seconds (JVM running for 3.206)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.35 s - in com.blog.coffee_shop.CoffeeShopApplication_main_21296820481
+2026-04-09 15:09:35.910  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : Starting CoffeeShopApplication using Java 11.0.16 on ffb20a970800 with PID 69 (started by root in /app)
+2026-04-09 15:09:35.913  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:09:36.903  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:09:36.913  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:09:36.914  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-04-09 15:09:37.006  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:09:37.006  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1052 ms
+2026-04-09 15:09:37.325  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1591ad61, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4daea420, org.springframework.security.web.context.SecurityContextPersistenceFilter@fb60d88, org.springframework.security.web.header.HeaderWriterFilter@5d1f837d, org.springframework.security.web.authentication.logout.LogoutFilter@357d2577, com.blog.coffee_shop.configuration.jwt.JWTFilter@1c96e20a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@277fc5cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bf2b661, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23b33d19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d55fd62, org.springframework.security.web.session.SessionManagementFilter@177d6e, org.springframework.security.web.access.ExceptionTranslationFilter@6d2ac5f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5311346c]
+2026-04-09 15:09:37.620  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:09:37.628  INFO 69 --- [me-limited test] c.b.coffee_shop.CoffeeShopApplication    : Started CoffeeShopApplication in 2.149 seconds (JVM running for 3.151)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.331 s - in com.blog.coffee_shop.CoffeeShopApplication_main_21296820481
 [INFO] Running com.blog.coffee_shop.controller.UserController_init_9124413601
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.UserController_init_9124413601
 [INFO] Running com.blog.coffee_shop.controller.UserController_init_9124413600
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.UserController_init_9124413600
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.controller.UserController_init_9124413600
 [INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_init_7125541580
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_init_7125541580
 [INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_getIdToken_18245694321
@@ -157,7 +157,7 @@
 [INFO] Running com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755361
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755361
 [INFO] Running com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755360
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755360
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.controller.CoffeeMenuController_init_4483755360
 [INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_setIdToken_10130884082
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.controller.AuthenticationController_JWTToken_setIdToken_10130884082
 [INFO] Running com.blog.coffee_shop.controller.AuthenticationController_JWTToken_getIdToken_18245694324
@@ -171,7 +171,7 @@
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_setPassword_208201998912
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setPassword_208201998912
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_getPassword_4956775493
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getPassword_4956775493
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.dto.AuthDTO_getPassword_4956775493
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_getPassword_49567754911
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getPassword_49567754911
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_setRememberMe_177540525414
@@ -183,15 +183,15 @@
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_toString_2848028627
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.blog.coffee_shop.dto.AuthDTO_toString_2848028627
 [INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184722
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184722
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setName_7878184722
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287181
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287181
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_isRememberMe_78266194013
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_isRememberMe_78266194013
 [INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_18086593144
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_18086593144
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_setIngredients_18086593144
 [INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_toString_13759373015
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_toString_13759373015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_toString_13759373015
 [INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_getName_17872722561
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_getName_17872722561
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_isRememberMe_7826619405
@@ -211,7 +211,7 @@
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287189
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_getUsername_5595287189
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_setUsername_10268137222
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_setUsername_10268137222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.dto.AuthDTO_setUsername_10268137222
 [INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_init_19213931520
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.MenuItemAddDTO_init_19213931520
 [INFO] Running com.blog.coffee_shop.dto.MenuItemAddDTO_getIngredients_10603975643
@@ -223,7 +223,7 @@
 [INFO] Running com.blog.coffee_shop.dto.AuthDTO_init_2606529890
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.dto.AuthDTO_init_2606529890
 [INFO] Running com.blog.coffee_shop.util.Constant_init_7539660410
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_init_7539660410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.util.Constant_init_7539660410
 [INFO] Running com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139884
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in com.blog.coffee_shop.util.Constant_UserRole_valueOf_20088139884
 [ERROR] test  Time elapsed: 0.006 s  <<< ERROR!
@@ -255,15 +255,15 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.blog.coffee_shop.util.Constant_UserRole_init_19463927325.test(Constant_UserRole_init_19463927325.java:49)
 
 [INFO] Running com.blog.coffee_shop.util.Constant_init_7539660411
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.util.Constant_init_7539660411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_init_7539660411
 [INFO] Running com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583300
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583300
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.util.Constant_UserRole_UserAuthorities_init_5898583300
 [INFO] Running com.blog.coffee_shop.CoffeeShopApplication_init_17531190440
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.CoffeeShopApplication_init_17531190440
 [INFO] Running com.blog.coffee_shop.CoffeeShopApplication_init_17531190442
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.blog.coffee_shop.CoffeeShopApplication_init_17531190442
 [INFO] Running com.blog.coffee_shop.CoffeeShopApplication_main_21296820483
-2026-04-08 01:10:53.986 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:09:37.713 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.22.jar:5.3.22]
@@ -292,18 +292,18 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in com.blog.coffee_shop.CoffeeShopApplication_main_21296820483
-[ERROR] test  Time elapsed: 0.024 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in com.blog.coffee_shop.CoffeeShopApplication_main_21296820483
+[ERROR] test  Time elapsed: 0.021 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.blog.coffee_shop.CoffeeShopApplication_main_21296820483.test(CoffeeShopApplication_main_21296820483.java:44)
 
 [INFO] Running com.blog.coffee_shop.CoffeeShopApplicationTests
-2026-04-08 01:10:54.034  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.blog.coffee_shop.CoffeeShopApplicationTests], using SpringBootContextLoader
-2026-04-08 01:10:54.035  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.blog.coffee_shop.CoffeeShopApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:10:54.036  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.blog.coffee_shop.CoffeeShopApplicationTests]: CoffeeShopApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:10:54.060  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.blog.coffee_shop.CoffeeShopApplication for test class com.blog.coffee_shop.CoffeeShopApplicationTests
-2026-04-08 01:10:54.065  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
-2026-04-08 01:10:54.076  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@119b0892, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3e8e24, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4ed4a7e4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c7350b0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55651434, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bc4ef12, org.springframework.test.context.event.EventPublishingTestExecutionListener@50448409, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@5634a861, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2b0dc227, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37ad042b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43bdaa1b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30b975ad, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@75e09567, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a334bac, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@470d183]
+2026-04-09 15:09:37.761  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.blog.coffee_shop.CoffeeShopApplicationTests], using SpringBootContextLoader
+2026-04-09 15:09:37.762  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.blog.coffee_shop.CoffeeShopApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:09:37.763  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.blog.coffee_shop.CoffeeShopApplicationTests]: CoffeeShopApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:09:37.786  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.blog.coffee_shop.CoffeeShopApplication for test class com.blog.coffee_shop.CoffeeShopApplicationTests
+2026-04-09 15:09:37.791  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2026-04-09 15:09:37.801  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@119b0892, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3e8e24, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4ed4a7e4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c7350b0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55651434, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bc4ef12, org.springframework.test.context.event.EventPublishingTestExecutionListener@50448409, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@5634a861, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2b0dc227, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37ad042b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43bdaa1b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30b975ad, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@75e09567, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a334bac, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@470d183]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -313,11 +313,11 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.2)
 
-2026-04-08 01:10:54.114  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : Starting CoffeeShopApplicationTests using Java 11.0.16 on 6c61c315ae4b with PID 69 (started by root in /app)
-2026-04-08 01:10:54.115  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:10:54.365  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@343fddd9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bbb44da, org.springframework.security.web.context.SecurityContextPersistenceFilter@235b4cb8, org.springframework.security.web.header.HeaderWriterFilter@77c3c037, org.springframework.security.web.authentication.logout.LogoutFilter@ab24484, com.blog.coffee_shop.configuration.jwt.JWTFilter@2f80cb79, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3290b1a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17fede14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712ac7e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4816ee24, org.springframework.security.web.session.SessionManagementFilter@10e5bf9c, org.springframework.security.web.access.ExceptionTranslationFilter@48a2db72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51f18e31]
-2026-04-08 01:10:54.666  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : Started CoffeeShopApplicationTests in 0.577 seconds (JVM running for 3.978)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.007 s - in com.blog.coffee_shop.CoffeeShopApplicationTests
+2026-04-09 15:09:37.840  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : Starting CoffeeShopApplicationTests using Java 11.0.16 on ffb20a970800 with PID 69 (started by root in /app)
+2026-04-09 15:09:37.841  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:09:38.084  INFO 69 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@343fddd9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bbb44da, org.springframework.security.web.context.SecurityContextPersistenceFilter@235b4cb8, org.springframework.security.web.header.HeaderWriterFilter@77c3c037, org.springframework.security.web.authentication.logout.LogoutFilter@ab24484, com.blog.coffee_shop.configuration.jwt.JWTFilter@2f80cb79, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3290b1a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17fede14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712ac7e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4816ee24, org.springframework.security.web.session.SessionManagementFilter@10e5bf9c, org.springframework.security.web.access.ExceptionTranslationFilter@48a2db72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51f18e31]
+2026-04-09 15:09:38.323  INFO 69 --- [           main] c.b.c.CoffeeShopApplicationTests         : Started CoffeeShopApplicationTests in 0.509 seconds (JVM running for 3.845)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.93 s - in com.blog.coffee_shop.CoffeeShopApplicationTests
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -345,6 +345,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.307 s
-[INFO] Finished at: 2026-04-08T01:10:55Z
+[INFO] Total time:  7.253 s
+[INFO] Finished at: 2026-04-09T15:09:39Z
 [INFO] ------------------------------------------------------------------------

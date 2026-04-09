@@ -23,9 +23,9 @@ public class Species {
 
 <span class="fc" id="L24">    public Species(List&lt;FitnessGenome&gt; genomes, int staleness) {</span>
 <span class="fc" id="L25">        this.genomes = genomes;</span>
-<span class="fc" id="L26">        this.bestGenome = genomes.get(0);</span>
-<span class="fc" id="L27">        this.staleness = staleness;</span>
-<span class="fc" id="L28">    }</span>
+<span class="nc" id="L26">        this.bestGenome = genomes.get(0);</span>
+<span class="nc" id="L27">        this.staleness = staleness;</span>
+<span class="nc" id="L28">    }</span>
 
     public void addGenome(FitnessGenome genome) {
 <span class="fc" id="L31">        this.genomes.add(genome);</span>
@@ -42,10 +42,10 @@ public class Species {
     public void assignBestGenome() {
 <span class="fc" id="L43">        FitnessGenome fittestGenome = genomes.stream().max(FitnessGenome::compareTo).orElse(null);</span>
 <span class="pc bpc" id="L44" title="1 of 2 branches missed.">        if (bestGenome.getFitness() &lt; fittestGenome.getFitness()) {</span>
-<span class="nc" id="L45">            bestGenome = fittestGenome;</span>
-<span class="nc" id="L46">            staleness = 0;</span>
+<span class="fc" id="L45">            bestGenome = fittestGenome;</span>
+<span class="fc" id="L46">            staleness = 0;</span>
         } else {
-<span class="fc" id="L48">            staleness++;</span>
+<span class="nc" id="L48">            staleness++;</span>
         }
 <span class="fc" id="L50">    }</span>
 

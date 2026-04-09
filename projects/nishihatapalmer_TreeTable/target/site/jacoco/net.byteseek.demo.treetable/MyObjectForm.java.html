@@ -103,7 +103,7 @@ public class MyObjectForm {
     public void initForm() {
 <span class="fc" id="L104">        MyObject rootObject = buildRandomTree(MAX_LEVELS, CHANCE_OUT_OF_TEN_FOR_CHILDREN);</span>
 <span class="fc bfc" id="L105" title="All 2 branches covered.">        TreeNode rootNode = TreeUtils.buildTree(rootObject, MyObject::getChildren, parent -&gt; !parent.getChildren().isEmpty());</span>
-<span class="fc" id="L106">        table1.setRowHeight(24);</span>
+<span class="nc" id="L106">        table1.setRowHeight(24);</span>
 <span class="nc" id="L107">        treeTableModel = createTreeTableModel(rootNode);</span>
 <span class="nc" id="L108">        treeModel = createTreeModel(rootNode);</span>
 <span class="nc" id="L109">        addButtonActionListeners();</span>
@@ -134,7 +134,7 @@ public class MyObjectForm {
             }
 <span class="nc" id="L135">        });</span>
 
-<span class="nc" id="L137">        sTextField.getDocument().addDocumentListener(new DocumentListener() {</span>
+<span class="pc" id="L137">        sTextField.getDocument().addDocumentListener(new DocumentListener() {</span>
             @Override
             public void insertUpdate(DocumentEvent e) {
 <span class="nc" id="L140">                updateFilter();</span>
@@ -175,9 +175,9 @@ public class MyObjectForm {
 <span class="nc" id="L175">    }</span>
 
     private DefaultTreeModel createTreeModel(TreeNode rootNode) {
-<span class="nc" id="L178">        DefaultTreeModel model = new DefaultTreeModel(rootNode);</span>
-<span class="nc" id="L179">        model.addTreeModelListener(treeTableModel);</span>
-<span class="nc" id="L180">        return model;</span>
+<span class="fc" id="L178">        DefaultTreeModel model = new DefaultTreeModel(rootNode);</span>
+<span class="fc" id="L179">        model.addTreeModelListener(treeTableModel);</span>
+<span class="fc" id="L180">        return model;</span>
     }
 
     private TreeTableModel createTreeTableModel(TreeNode rootNode) {
@@ -187,7 +187,7 @@ public class MyObjectForm {
 <span class="nc" id="L187">        renderer.setShowNumber(true); // true is default, this code is just for testing the false option.</span>
 
 <span class="nc" id="L189">        localTreeTableModel.bindTable(table1, renderer); //, new RowSorter.SortKey(0, SortOrder.ASCENDING));</span>
-<span class="nc" id="L190">        localTreeTableModel.addExpandCollapseListener(new TreeTableModel.ExpandCollapseListener() {</span>
+<span class="pc" id="L190">        localTreeTableModel.addExpandCollapseListener(new TreeTableModel.ExpandCollapseListener() {</span>
             @Override
             public boolean nodeExpanding(TreeNode node) {
 <span class="nc bnc" id="L193" title="All 2 branches missed.">                if (node.getChildCount() == 0) { // if a node is expanding but has no children, set it to allow no children.</span>
@@ -198,7 +198,7 @@ public class MyObjectForm {
 
             @Override
             public boolean nodeCollapsing(TreeNode node) {
-<span class="nc" id="L201">                return true;</span>
+<span class="fc" id="L201">                return true;</span>
             }
         });
 <span class="nc" id="L204">        return localTreeTableModel;</span>

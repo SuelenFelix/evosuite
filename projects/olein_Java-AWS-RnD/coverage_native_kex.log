@@ -60,23 +60,23 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.rnd.aws.model.StatusCode_init_7007927342
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_init_7007927342
-[ERROR] test  Time elapsed: 0.014 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_init_7007927342
+[ERROR] test  Time elapsed: 0.017 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.rnd.aws.model.StatusCode_init_7007927342.test(StatusCode_init_7007927342.java:42)
 
 [INFO] Running com.rnd.aws.model.StatusCode_init_7007927345
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_init_7007927345
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_init_7007927345
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.rnd.aws.model.StatusCode_init_7007927345.test(StatusCode_init_7007927345.java:47)
 
 [INFO] Running com.rnd.aws.model.ErrorModel_getField_3488791745
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getField_3488791745
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_getField_3488791745
 [INFO] Running com.rnd.aws.model.ErrorModel_init_55274450010
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_init_55274450010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_55274450010
 [INFO] Running com.rnd.aws.model.ErrorModel_getDescription_10736635567
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.rnd.aws.model.ErrorModel_getDescription_10736635567
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getDescription_10736635567
 [INFO] Running com.rnd.aws.model.StatusCode_valueOf_7093995564
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_valueOf_7093995564
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -86,7 +86,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running com.rnd.aws.model.ErrorModel_getMessage_19741050813
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getMessage_19741050813
 [INFO] Running com.rnd.aws.model.ErrorModel_init_1584981562
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_init_1584981562
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_1584981562
 [INFO] Running com.rnd.aws.model.StatusCode_valueOf_7093995561
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rnd.aws.model.StatusCode_valueOf_7093995561
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -96,9 +96,9 @@ java.lang.IllegalArgumentException: No enum constant com.rnd.aws.model.StatusCod
 [INFO] Running com.rnd.aws.model.ErrorModel_init_5527445001
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_5527445001
 [INFO] Running com.rnd.aws.model.ErrorModel_init_7049976230
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_init_7049976230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_init_7049976230
 [INFO] Running com.rnd.aws.model.ErrorModel_setMessage_15093811914
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setMessage_15093811914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_setMessage_15093811914
 [INFO] Running com.rnd.aws.model.ErrorModel_getDescription_107366355616
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getDescription_107366355616
 [INFO] Running com.rnd.aws.model.ErrorModel_init_15849815611
@@ -106,7 +106,7 @@ java.lang.IllegalArgumentException: No enum constant com.rnd.aws.model.StatusCod
 [INFO] Running com.rnd.aws.model.ErrorModel_getMessage_197410508112
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getMessage_197410508112
 [INFO] Running com.rnd.aws.model.ErrorModel_setMessage_150938119113
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_setMessage_150938119113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setMessage_150938119113
 [INFO] Running com.rnd.aws.model.ErrorModel_setDescription_9706127408
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setDescription_9706127408
 [INFO] Running com.rnd.aws.model.ErrorModel_setDescription_97061274017
@@ -118,9 +118,9 @@ java.lang.IllegalArgumentException: No enum constant com.rnd.aws.model.StatusCod
 [INFO] Running com.rnd.aws.model.ErrorModel_getField_34887917414
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_getField_34887917414
 [INFO] Running com.rnd.aws.model.ErrorModel_setField_77254759015
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.ErrorModel_setField_77254759015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.ErrorModel_setField_77254759015
 [INFO] Running com.rnd.aws.model.StatusCode_values_2173691533
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.model.StatusCode_values_2173691533
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.StatusCode_values_2173691533
 [INFO] Running com.rnd.aws.model.StatusCode_values_2173691530
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.model.StatusCode_values_2173691530
 [INFO] Running com.rnd.aws.AwsApplication_main_13774330731
@@ -133,28 +133,28 @@ java.lang.IllegalArgumentException: No enum constant com.rnd.aws.model.StatusCod
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.5.14)
 
-2026-04-08 01:40:07.770  INFO 70 --- [me-limited test] com.rnd.aws.AwsApplication               : Starting AwsApplication using Java 11.0.16 on 7d6ff3e8579f with PID 70 (started by root in /app)
-2026-04-08 01:40:07.781  INFO 70 --- [me-limited test] com.rnd.aws.AwsApplication               : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:40:08.977  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:40:09.019  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:40:09.020  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
-2026-04-08 01:40:09.143  INFO 70 --- [me-limited test] o.a.c.c.C.[.[localhost].[/aws-demo]      : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:40:09.143  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1253 ms
-2026-04-08 01:40:09.571  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/aws-demo'
-2026-04-08 01:40:09.586  INFO 70 --- [me-limited test] com.rnd.aws.AwsApplication               : Started AwsApplication in 2.582 seconds (JVM running for 4.178)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.86 s - in com.rnd.aws.AwsApplication_main_13774330731
+2026-04-09 15:31:13.530  INFO 69 --- [me-limited test] com.rnd.aws.AwsApplication               : Starting AwsApplication using Java 11.0.16 on bff07e8a7037 with PID 69 (started by root in /app)
+2026-04-09 15:31:13.533  INFO 69 --- [me-limited test] com.rnd.aws.AwsApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:31:14.415  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:31:14.434  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:31:14.435  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2026-04-09 15:31:14.519  INFO 69 --- [me-limited test] o.a.c.c.C.[.[localhost].[/aws-demo]      : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:31:14.519  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2026-04-09 15:31:14.826  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/aws-demo'
+2026-04-09 15:31:14.834  INFO 69 --- [me-limited test] com.rnd.aws.AwsApplication               : Started AwsApplication in 1.817 seconds (JVM running for 2.747)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.002 s - in com.rnd.aws.AwsApplication_main_13774330731
 [INFO] Running com.rnd.aws.AwsApplication_init_10008700690
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.AwsApplication_init_10008700690
 [INFO] Running com.rnd.aws.controller.HealthController_init_10204080331
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.controller.HealthController_init_10204080331
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.rnd.aws.controller.HealthController_init_10204080331
 [INFO] Running com.rnd.aws.controller.HealthController_init_10204080330
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.controller.HealthController_init_10204080330
 [INFO] Running com.rnd.aws.controller.WelcomeController_init_542699650
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.controller.WelcomeController_init_542699650
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.controller.WelcomeController_init_542699650
 [INFO] Running com.rnd.aws.controller.WelcomeController_init_542699651
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.controller.WelcomeController_init_542699651
 [INFO] Running com.rnd.aws.util.Util_copyProperty_12047119892
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.rnd.aws.util.Util_copyProperty_12047119892
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.rnd.aws.util.Util_copyProperty_12047119892
 [INFO] Running com.rnd.aws.util.Util_copyProperty_12047119897
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rnd.aws.util.Util_copyProperty_12047119897
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -168,9 +168,9 @@ java.lang.IllegalArgumentException: destinationType cannot be null
 	at com.rnd.aws.util.Util_convertClass_6943517421.test(Util_convertClass_6943517421.java:46)
 
 [INFO] Running com.rnd.aws.util.Util_prepareSuccessResponse_16636040849
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_prepareSuccessResponse_16636040849
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.util.Util_prepareSuccessResponse_16636040849
 [INFO] Running com.rnd.aws.util.Util_init_8313619555
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.util.Util_init_8313619555
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_init_8313619555
 [INFO] Running com.rnd.aws.util.Util_toDtoList_14816318238
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.rnd.aws.util.Util_toDtoList_14816318238
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -181,7 +181,7 @@ java.lang.NullPointerException
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.util.ErrorUtil_init_9607379210
 [INFO] Running com.rnd.aws.util.Util_toDtoList_14816318233
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rnd.aws.util.Util_toDtoList_14816318233
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: destinationType cannot be null
 	at com.rnd.aws.util.Util_toDtoList_14816318233.test(Util_toDtoList_14816318233.java:56)
 
@@ -194,11 +194,11 @@ java.lang.IllegalArgumentException: source cannot be null
 	at com.rnd.aws.util.Util_convertClass_6943517426.test(Util_convertClass_6943517426.java:44)
 
 [INFO] Running com.rnd.aws.util.Util_prepareSuccessResponse_16636040844
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.rnd.aws.util.Util_prepareSuccessResponse_16636040844
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_prepareSuccessResponse_16636040844
 [INFO] Running com.rnd.aws.util.Util_init_8313619550
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.rnd.aws.util.Util_init_8313619550
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.util.Util_init_8313619550
 [INFO] Running com.rnd.aws.AwsApplication_main_13774330733
-2026-04-08 01:40:09.722 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:31:14.906 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
@@ -227,20 +227,20 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.rnd.aws.AwsApplication_main_13774330733
-[ERROR] test  Time elapsed: 0.028 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in com.rnd.aws.AwsApplication_main_13774330733
+[ERROR] test  Time elapsed: 0.019 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.rnd.aws.AwsApplication_main_13774330733.test(AwsApplication_main_13774330733.java:44)
 
 [INFO] Running com.rnd.aws.AwsApplication_init_10008700692
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.rnd.aws.AwsApplication_init_10008700692
 [INFO] Running com.rnd.aws.AwsApplicationTests
-2026-04-08 01:40:09.795  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rnd.aws.AwsApplicationTests], using SpringBootContextLoader
-2026-04-08 01:40:09.797  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rnd.aws.AwsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:40:09.798  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rnd.aws.AwsApplicationTests]: AwsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:40:09.823  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rnd.aws.AwsApplication for test class com.rnd.aws.AwsApplicationTests
-2026-04-08 01:40:09.827  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:40:09.835  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@21ba2445, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@69d23296, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3c3820bb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@376c7d7d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4784efd9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3fba233d, org.springframework.test.context.event.EventPublishingTestExecutionListener@427ae189, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16a9eb2e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76332405, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@187e5235, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@d1d8e1a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5434e40c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3b48e183]
+2026-04-09 15:31:14.954  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rnd.aws.AwsApplicationTests], using SpringBootContextLoader
+2026-04-09 15:31:14.955  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rnd.aws.AwsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:31:14.957  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rnd.aws.AwsApplicationTests]: AwsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:31:14.981  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rnd.aws.AwsApplication for test class com.rnd.aws.AwsApplicationTests
+2026-04-09 15:31:14.985  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:31:14.994  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@21ba2445, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@69d23296, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3c3820bb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@376c7d7d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4784efd9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3fba233d, org.springframework.test.context.event.EventPublishingTestExecutionListener@427ae189, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16a9eb2e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76332405, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@187e5235, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@d1d8e1a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5434e40c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3b48e183]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -250,10 +250,10 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.5.14)
 
-2026-04-08 01:40:09.921  INFO 70 --- [           main] com.rnd.aws.AwsApplicationTests          : Starting AwsApplicationTests using Java 11.0.16 on 7d6ff3e8579f with PID 70 (started by root in /app)
-2026-04-08 01:40:09.921  INFO 70 --- [           main] com.rnd.aws.AwsApplicationTests          : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:40:10.562  INFO 70 --- [           main] com.rnd.aws.AwsApplicationTests          : Started AwsApplicationTests in 0.712 seconds (JVM running for 5.154)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.953 s - in com.rnd.aws.AwsApplicationTests
+2026-04-09 15:31:15.040  INFO 69 --- [           main] com.rnd.aws.AwsApplicationTests          : Starting AwsApplicationTests using Java 11.0.16 on bff07e8a7037 with PID 69 (started by root in /app)
+2026-04-09 15:31:15.041  INFO 69 --- [           main] com.rnd.aws.AwsApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:31:15.373  INFO 69 --- [           main] com.rnd.aws.AwsApplicationTests          : Started AwsApplicationTests in 0.367 seconds (JVM running for 3.286)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.704 s - in com.rnd.aws.AwsApplicationTests
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -286,6 +286,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.969 s
-[INFO] Finished at: 2026-04-08T01:40:13Z
+[INFO] Total time:  6.326 s
+[INFO] Finished at: 2026-04-09T15:31:16Z
 [INFO] ------------------------------------------------------------------------

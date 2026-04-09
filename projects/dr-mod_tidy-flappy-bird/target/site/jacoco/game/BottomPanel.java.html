@@ -33,29 +33,29 @@ public class BottomPanel implements Drawable, Steppable {
 
     @Override
     public void step() {
-<span class="nc bnc" id="L36" title="All 2 branches missed.">        for (int i = 0; i &lt; this.x.length; i++) {</span>
-<span class="nc bnc" id="L37" title="All 2 branches missed.">            if (this.x[i] + imageWidth &lt; 0) {</span>
-<span class="nc" id="L38">                int max = -1;</span>
-<span class="nc bnc" id="L39" title="All 2 branches missed.">                for (int j = 0; j &lt; this.x.length; j++) {</span>
-<span class="nc" id="L40">                    max = Math.max(this.x[j], max);</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">        for (int i = 0; i &lt; this.x.length; i++) {</span>
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">            if (this.x[i] + imageWidth &lt; 0) {</span>
+<span class="fc" id="L38">                int max = -1;</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">                for (int j = 0; j &lt; this.x.length; j++) {</span>
+<span class="fc" id="L40">                    max = Math.max(this.x[j], max);</span>
                 }
-<span class="nc" id="L42">                this.x[i] = max + imageWidth;</span>
+<span class="fc" id="L42">                this.x[i] = max + imageWidth;</span>
             }
         }
-<span class="nc bnc" id="L45" title="All 2 branches missed.">        for (int i = 0; i &lt; this.x.length; i++) {</span>
-<span class="nc" id="L46">            this.x[i] -= 5;</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        for (int i = 0; i &lt; this.x.length; i++) {</span>
+<span class="fc" id="L46">            this.x[i] -= 5;</span>
         }
-<span class="nc" id="L48">    }</span>
+<span class="fc" id="L48">    }</span>
 
     @Override
     public void show(Graphics g) {
-<span class="nc bnc" id="L52" title="All 2 branches missed.">        for (int i = 0; i &lt; this.x.length; i++) {</span>
+<span class="pc bpc" id="L52" title="1 of 2 branches missed.">        for (int i = 0; i &lt; this.x.length; i++) {</span>
 <span class="nc" id="L53">            g.drawImage(image, this.x[i], y, null);</span>
         }
 <span class="nc" id="L55">    }</span>
 
     public int getLavaLevel() {
-<span class="nc" id="L58">        return lavaLevel;</span>
+<span class="fc" id="L58">        return lavaLevel;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

@@ -58,7 +58,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.bootcampjava.startwars.model.Jedi_init_167290349813
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.bootcampjava.startwars.model.Jedi_init_167290349813
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.bootcampjava.startwars.model.Jedi_init_167290349813
 [INFO] Running com.bootcampjava.startwars.model.Jedi_setName_1144512234
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setName_1144512234
 [INFO] Running com.bootcampjava.startwars.model.Jedi_getVersion_181109669117
@@ -74,7 +74,7 @@
 [INFO] Running com.bootcampjava.startwars.model.Jedi_getStrength_15193130545
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getStrength_15193130545
 [INFO] Running com.bootcampjava.startwars.model.Jedi_getStrength_151931305416
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getStrength_151931305416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_getStrength_151931305416
 [INFO] Running com.bootcampjava.startwars.model.Jedi_setName_11445122315
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setName_11445122315
 [INFO] Running com.bootcampjava.startwars.model.Jedi_getName_18343277913
@@ -94,13 +94,13 @@ java.lang.NullPointerException
 [INFO] Running com.bootcampjava.startwars.model.Jedi_init_12480259030
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_12480259030
 [INFO] Running com.bootcampjava.startwars.model.Jedi_setVersion_2584768097
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_setVersion_2584768097
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setVersion_2584768097
 [INFO] Running com.bootcampjava.startwars.model.Jedi_getVersion_18110966916
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getVersion_18110966916
 [INFO] Running com.bootcampjava.startwars.model.Jedi_setStrength_74155458819
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_setStrength_74155458819
 [INFO] Running com.bootcampjava.startwars.model.Jedi_getId_4698444209
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_getId_4698444209
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.model.Jedi_getId_4698444209
 [INFO] Running com.bootcampjava.startwars.model.Jedi_init_124802590311
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.model.Jedi_init_124802590311
 [INFO] Running com.bootcampjava.startwars.model.Jedi_setId_5594858810
@@ -120,32 +120,32 @@ SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorSta
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.4)
 
-2026-04-08 01:53:27.381  INFO 70 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : Starting BootcampJavaStarWarsApplication using Java 11.0.16 on 940cb735f332 with PID 70 (started by root in /app)
-2026-04-08 01:53:27.384  INFO 70 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:53:27.962  INFO 70 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2026-04-08 01:53:27.975  INFO 70 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
-2026-04-08 01:53:28.445  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:53:28.455  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:53:28.456  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2026-04-08 01:53:28.521  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:53:28.521  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
-2026-04-08 01:53:28.623  INFO 70 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:53:28.895  INFO 70 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 01:53:29.425  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:53:29.433  INFO 70 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : Started BootcampJavaStarWarsApplication in 2.465 seconds (JVM running for 3.414)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.65 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368071
+2026-04-09 15:40:30.052  INFO 69 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : Starting BootcampJavaStarWarsApplication using Java 11.0.16 on e9f840b2022b with PID 69 (started by root in /app)
+2026-04-09 15:40:30.055  INFO 69 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:40:30.590  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-09 15:40:30.602  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2026-04-09 15:40:31.061  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:40:31.070  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:40:31.070  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2026-04-09 15:40:31.140  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:40:31.140  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2026-04-09 15:40:31.242  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:40:31.528  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 15:40:32.078  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:40:32.085  INFO 69 --- [me-limited test] c.b.s.BootcampJavaStarWarsApplication    : Started BootcampJavaStarWarsApplication in 2.446 seconds (JVM running for 3.412)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.628 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368071
 [INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738032
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738032
 [INFO] Running com.bootcampjava.startwars.controller.JediController_init_3463863431
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.bootcampjava.startwars.controller.JediController_init_3463863431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.controller.JediController_init_3463863431
 [INFO] Running com.bootcampjava.startwars.controller.JediController_init_3463863430
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.controller.JediController_init_3463863430
 [INFO] Running com.bootcampjava.startwars.service.JediService_init_15650499450
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.service.JediService_init_15650499450
 [INFO] Running com.bootcampjava.startwars.service.JediService_init_15650499456
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.service.JediService_init_15650499456
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.bootcampjava.startwars.service.JediService_init_15650499456
 [INFO] Running com.bootcampjava.startwars.service.JediService_delete_3257309115
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_delete_3257309115
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_delete_3257309115
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.bootcampjava.startwars.service.JediService_delete_3257309115.test(JediService_delete_3257309115.java:45)
@@ -157,7 +157,7 @@ java.lang.NullPointerException
 	at com.bootcampjava.startwars.service.JediService_save_1291531053.test(JediService_save_1291531053.java:50)
 
 [INFO] Running com.bootcampjava.startwars.service.JediService_findById_3477615671
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findById_3477615671
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findById_3477615671
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.bootcampjava.startwars.service.JediService_findById_3477615671.test(JediService_findById_3477615671.java:45)
@@ -175,14 +175,14 @@ java.lang.NullPointerException
 	at com.bootcampjava.startwars.service.JediService_update_43422650510.test(JediService_update_43422650510.java:42)
 
 [INFO] Running com.bootcampjava.startwars.service.JediService_findById_3477615677
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findById_3477615677
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_findById_3477615677
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.bootcampjava.startwars.service.JediService_findById_3477615677.test(JediService_findById_3477615677.java:45)
 
 [INFO] Running com.bootcampjava.startwars.service.JediService_delete_32573091111
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_delete_32573091111
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.bootcampjava.startwars.service.JediService_delete_32573091111
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.bootcampjava.startwars.service.JediService_delete_32573091111.test(JediService_delete_32573091111.java:45)
 
@@ -207,7 +207,7 @@ java.lang.NullPointerException
 [INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738030
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_init_15666738030
 [INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073
-2026-04-08 01:53:29.477 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:40:32.125 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.16.jar:5.3.16]
@@ -236,18 +236,18 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073
-[ERROR] test  Time elapsed: 0.02 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073
+[ERROR] test  Time elapsed: 0.017 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.bootcampjava.startwars.BootcampJavaStarWarsApplication_main_19432368073.test(BootcampJavaStarWarsApplication_main_19432368073.java:44)
 
 [INFO] Running com.bootcampjava.startwars.controller.JediControllerTest
-2026-04-08 01:53:29.534  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bootcampjava.startwars.controller.JediControllerTest], using SpringBootContextLoader
-2026-04-08 01:53:29.535  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.bootcampjava.startwars.controller.JediControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:53:29.536  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bootcampjava.startwars.controller.JediControllerTest]: JediControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:53:29.565  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bootcampjava.startwars.BootcampJavaStarWarsApplication for test class com.bootcampjava.startwars.controller.JediControllerTest
-2026-04-08 01:53:29.570  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:53:29.580  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56f730b2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47311277, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7930ffa9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e60b459, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@717d7587, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e906375, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40230eb9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b7aa898, org.springframework.test.context.event.EventPublishingTestExecutionListener@41b13f3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c0777b5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2489e84a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a39aa2b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@62b93086, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@254449bb, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4e642ee1]
+2026-04-09 15:40:32.178  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bootcampjava.startwars.controller.JediControllerTest], using SpringBootContextLoader
+2026-04-09 15:40:32.179  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.bootcampjava.startwars.controller.JediControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:40:32.180  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bootcampjava.startwars.controller.JediControllerTest]: JediControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:40:32.206  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bootcampjava.startwars.BootcampJavaStarWarsApplication for test class com.bootcampjava.startwars.controller.JediControllerTest
+2026-04-09 15:40:32.211  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:40:32.219  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56f730b2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47311277, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7930ffa9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e60b459, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@717d7587, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e906375, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40230eb9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b7aa898, org.springframework.test.context.event.EventPublishingTestExecutionListener@41b13f3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c0777b5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2489e84a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a39aa2b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@62b93086, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@254449bb, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4e642ee1]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -257,24 +257,24 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.4)
 
-2026-04-08 01:53:29.618  INFO 70 --- [           main] c.b.s.controller.JediControllerTest      : Starting JediControllerTest using Java 11.0.16 on 940cb735f332 with PID 70 (started by root in /app)
-2026-04-08 01:53:29.618  INFO 70 --- [           main] c.b.s.controller.JediControllerTest      : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:53:29.734  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2026-04-08 01:53:29.737  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2026-04-08 01:53:30.168  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:53:30.171  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2026-04-08 01:53:30.449  INFO 70 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-04-08 01:53:30.449  INFO 70 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-04-08 01:53:30.450  INFO 70 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2026-04-08 01:53:30.457  INFO 70 --- [           main] c.b.s.controller.JediControllerTest      : Started JediControllerTest in 0.866 seconds (JVM running for 4.438)
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.129 s - in com.bootcampjava.startwars.controller.JediControllerTest
+2026-04-09 15:40:32.254  INFO 69 --- [           main] c.b.s.controller.JediControllerTest      : Starting JediControllerTest using Java 11.0.16 on e9f840b2022b with PID 69 (started by root in /app)
+2026-04-09 15:40:32.254  INFO 69 --- [           main] c.b.s.controller.JediControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:40:32.367  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-09 15:40:32.370  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2026-04-09 15:40:32.783  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:40:32.785  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-09 15:40:33.065  INFO 69 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-04-09 15:40:33.066  INFO 69 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-04-09 15:40:33.066  INFO 69 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-04-09 15:40:33.072  INFO 69 --- [           main] c.b.s.controller.JediControllerTest      : Started JediControllerTest in 0.842 seconds (JVM running for 4.399)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.089 s - in com.bootcampjava.startwars.controller.JediControllerTest
 [INFO] Running com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests
-2026-04-08 01:53:30.639  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests], using SpringBootContextLoader
-2026-04-08 01:53:30.640  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:53:30.640  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests]: BootcampJavaStarWarsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:53:30.644  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bootcampjava.startwars.BootcampJavaStarWarsApplication for test class com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests
-2026-04-08 01:53:30.646  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:53:30.646  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@253c7189, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cfe72b0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@12f933c7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@156d7556, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@531bfe4b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c8f7d6a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77331437, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@98a0842, org.springframework.test.context.event.EventPublishingTestExecutionListener@56f569e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@525c0f74, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3da12ba4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64b0ec4a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b949de4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2981064d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1dc9e4d2]
+2026-04-09 15:40:33.246  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests], using SpringBootContextLoader
+2026-04-09 15:40:33.246  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:40:33.246  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests]: BootcampJavaStarWarsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:40:33.249  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bootcampjava.startwars.BootcampJavaStarWarsApplication for test class com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests
+2026-04-09 15:40:33.251  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:40:33.251  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@253c7189, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cfe72b0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@12f933c7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@156d7556, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@531bfe4b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c8f7d6a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77331437, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@98a0842, org.springframework.test.context.event.EventPublishingTestExecutionListener@56f569e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@525c0f74, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3da12ba4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64b0ec4a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b949de4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2981064d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1dc9e4d2]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -284,20 +284,20 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.4)
 
-2026-04-08 01:53:30.660  INFO 70 --- [           main] b.s.BootcampJavaStarWarsApplicationTests : Starting BootcampJavaStarWarsApplicationTests using Java 11.0.16 on 940cb735f332 with PID 70 (started by root in /app)
-2026-04-08 01:53:30.661  INFO 70 --- [           main] b.s.BootcampJavaStarWarsApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:53:30.732  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2026-04-08 01:53:30.735  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2026-04-08 01:53:30.782  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2026-04-08 01:53:30.785  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2026-04-08 01:53:30.985  INFO 70 --- [           main] b.s.BootcampJavaStarWarsApplicationTests : Started BootcampJavaStarWarsApplicationTests in 0.337 seconds (JVM running for 4.966)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.351 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests
-2026-04-08 01:53:31.095  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 01:53:31.097  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-04-08 01:53:31.099  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2026-04-08 01:53:31.100  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2026-04-08 01:53:31.102  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2026-04-08 01:53:31.102  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-04-09 15:40:33.271  INFO 69 --- [           main] b.s.BootcampJavaStarWarsApplicationTests : Starting BootcampJavaStarWarsApplicationTests using Java 11.0.16 on e9f840b2022b with PID 69 (started by root in /app)
+2026-04-09 15:40:33.272  INFO 69 --- [           main] b.s.BootcampJavaStarWarsApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:40:33.343  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-04-09 15:40:33.346  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2026-04-09 15:40:33.394  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-04-09 15:40:33.397  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-04-09 15:40:33.587  INFO 69 --- [           main] b.s.BootcampJavaStarWarsApplicationTests : Started BootcampJavaStarWarsApplicationTests in 0.333 seconds (JVM running for 4.914)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.346 s - in com.bootcampjava.startwars.BootcampJavaStarWarsApplicationTests
+2026-04-09 15:40:33.697  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 15:40:33.699  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 15:40:33.701  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-09 15:40:33.703  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-09 15:40:33.704  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-04-09 15:40:33.704  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -332,6 +332,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.820 s
-[INFO] Finished at: 2026-04-08T01:53:31Z
+[INFO] Total time:  7.723 s
+[INFO] Finished at: 2026-04-09T15:40:34Z
 [INFO] ------------------------------------------------------------------------

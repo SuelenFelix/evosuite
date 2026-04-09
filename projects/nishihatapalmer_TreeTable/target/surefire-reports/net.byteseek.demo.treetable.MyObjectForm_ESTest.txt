@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.demo.treetable.MyObjectForm_ESTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.361 sec <<< FAILURE!
-test3(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.026 sec  <<< ERROR!
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 2.753 sec <<< FAILURE!
+test3(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.657 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
 	at java.desktop/sun.awt.image.ToolkitImage.makeImageRep(ToolkitImage.java:295)
 	at java.desktop/sun.awt.image.ToolkitImage.getImageRep(ToolkitImage.java:304)
@@ -34,7 +34,7 @@ java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-test2(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.014 sec  <<< ERROR!
+test2(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.63 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
 	at java.desktop/sun.awt.image.ToolkitImage.makeImageRep(ToolkitImage.java:295)
 	at java.desktop/sun.awt.image.ToolkitImage.getImageRep(ToolkitImage.java:304)
@@ -66,7 +66,39 @@ java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-test0(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.012 sec  <<< ERROR!
+test1(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.548 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
+	at java.desktop/sun.awt.image.ToolkitImage.makeImageRep(ToolkitImage.java:295)
+	at java.desktop/sun.awt.image.ToolkitImage.getImageRep(ToolkitImage.java:304)
+	at java.desktop/sun.awt.image.ToolkitImage.addWatcher(ToolkitImage.java:218)
+	at java.desktop/sun.awt.image.ToolkitImage.getProperty(ToolkitImage.java:169)
+	at java.desktop/javax.swing.ImageIcon.<init>(ImageIcon.java:290)
+	at java.desktop/sun.swing.ImageIconUIResource.<init>(ImageIconUIResource.java:48)
+	at java.desktop/sun.swing.SwingUtilities2.lambda$makeIcon$1(SwingUtilities2.java:1729)
+	at java.desktop/javax.swing.UIDefaults.getFromHashtable(UIDefaults.java:224)
+	at java.desktop/javax.swing.UIDefaults.get(UIDefaults.java:169)
+	at java.desktop/javax.swing.MultiUIDefaults.get(MultiUIDefaults.java:65)
+	at java.desktop/javax.swing.UIDefaults.getIcon(UIDefaults.java:480)
+	at java.desktop/javax.swing.UIManager.getIcon(UIManager.java:780)
+	at net.byteseek.demo.treetable.MyObjectTreeTableModel.setIcons(MyObjectTreeTableModel.java:142)
+	at net.byteseek.demo.treetable.MyObjectTreeTableModel.<init>(MyObjectTreeTableModel.java:53)
+	at net.byteseek.demo.treetable.MyObjectForm.createTreeTableModel(MyObjectForm.java:184)
+	at net.byteseek.demo.treetable.MyObjectForm.initForm(MyObjectForm.java:107)
+	at net.byteseek.demo.treetable.MyObjectForm_ESTest.test1(MyObjectForm_ESTest.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+test0(net.byteseek.demo.treetable.MyObjectForm_ESTest)  Time elapsed: 0.596 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
 	at java.desktop/sun.awt.image.ToolkitImage.makeImageRep(ToolkitImage.java:295)
 	at java.desktop/sun.awt.image.ToolkitImage.getImageRep(ToolkitImage.java:304)

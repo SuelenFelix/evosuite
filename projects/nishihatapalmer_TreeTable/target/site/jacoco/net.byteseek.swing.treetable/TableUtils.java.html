@@ -341,7 +341,7 @@ public final class TableUtils {
 <span class="fc" id="L341">        protected HierarchyListener removeListener = new HierarchyListener() {</span>
             @Override
             public void hierarchyChanged(HierarchyEvent e) {
-<span class="nc bnc" id="L344" title="All 2 branches missed.">                if ((e.getChangeFlags() &amp; HierarchyEvent.DISPLAYABILITY_CHANGED) != 0) {</span>
+<span class="pc bpc" id="L344" title="1 of 2 branches missed.">                if ((e.getChangeFlags() &amp; HierarchyEvent.DISPLAYABILITY_CHANGED) != 0) {</span>
 <span class="nc bnc" id="L345" title="All 2 branches missed.">                    if (!component.isDisplayable()) {</span>
 <span class="nc" id="L346">                        deactivate();</span>
                     }
@@ -366,7 +366,7 @@ public final class TableUtils {
          * Makes the replacement listener active, intercepting AWTEvents.
          */
         public void activate() {
-<span class="nc" id="L369">            Toolkit.getDefaultToolkit().addAWTEventListener(this, AWTEvent.MOUSE_EVENT_MASK);</span>
+<span class="fc" id="L369">            Toolkit.getDefaultToolkit().addAWTEventListener(this, AWTEvent.MOUSE_EVENT_MASK);</span>
 <span class="nc" id="L370">            component.addHierarchyListener(removeListener);</span>
 <span class="nc" id="L371">        }</span>
 
@@ -374,7 +374,7 @@ public final class TableUtils {
          * Makes the replacement listener inactive, no longer intercepting AWTEvents.
          */
         public void deactivate() {
-<span class="nc" id="L377">            Toolkit.getDefaultToolkit().removeAWTEventListener(this);</span>
+<span class="fc" id="L377">            Toolkit.getDefaultToolkit().removeAWTEventListener(this);</span>
 <span class="nc" id="L378">            component.removeHierarchyListener(removeListener);</span>
 <span class="nc" id="L379">        }</span>
 

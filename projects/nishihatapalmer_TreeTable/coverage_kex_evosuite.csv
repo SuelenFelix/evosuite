@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-nishihatapalmer_TreeTable,kex+evosuite,54.18,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+nishihatapalmer_TreeTable,kex+evosuite,54.18,42.13,526,1006,901,2092,170,477,success,maven_returncode=0

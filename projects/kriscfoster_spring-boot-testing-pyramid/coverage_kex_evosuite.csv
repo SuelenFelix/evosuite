@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-kriscfoster_spring-boot-testing-pyramid,kex+evosuite,100.0,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+kriscfoster_spring-boot-testing-pyramid,kex+evosuite,100.0,0,0,6,0,9,0,6,success,maven_returncode=0

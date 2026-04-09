@@ -292,8 +292,8 @@ public class Population {
     }
 
     private Species biasedRandomSpecies(List&lt;FitnessGenome&gt; fitnessGenomes, Specieses specieses) {
-<span class="nc" id="L295">        HashMap&lt;Species, Double&gt; speciesDouble = new HashMap&lt;&gt;();</span>
-<span class="nc bnc" id="L296" title="All 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
+<span class="fc" id="L295">        HashMap&lt;Species, Double&gt; speciesDouble = new HashMap&lt;&gt;();</span>
+<span class="pc bpc" id="L296" title="1 of 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
 <span class="nc" id="L297">            double averageFitness = species.getGenomes().stream()</span>
 <span class="nc" id="L298">                    .map(map -&gt; fitnessGenomes.stream()</span>
 <span class="nc" id="L299">                            .filter(it -&gt; it.getGenome().equals(map))</span>
@@ -306,9 +306,9 @@ public class Population {
 <span class="nc" id="L306">            speciesDouble.put(species, averageFitness);</span>
 <span class="nc" id="L307">        }</span>
 
-<span class="nc" id="L309">        double maxRandom = speciesDouble.values().stream().mapToDouble(x -&gt; x).sum();</span>
-<span class="nc" id="L310">        double randomSegment = random.nextFloat() * maxRandom;</span>
-<span class="nc" id="L311">        double accumulator = 0;</span>
+<span class="pc" id="L309">        double maxRandom = speciesDouble.values().stream().mapToDouble(x -&gt; x).sum();</span>
+<span class="fc" id="L310">        double randomSegment = random.nextFloat() * maxRandom;</span>
+<span class="fc" id="L311">        double accumulator = 0;</span>
 <span class="nc" id="L312">        Species selectedSpecies = speciesDouble.keySet().iterator().next();</span>
 <span class="nc bnc" id="L313" title="All 2 branches missed.">        for (Map.Entry&lt;Species, Double&gt; entry : speciesDouble.entrySet()) {</span>
 <span class="nc" id="L314">            accumulator += entry.getValue();</span>
@@ -337,15 +337,15 @@ public class Population {
     }
 
     private List&lt;FitnessGenome&gt; calculateFitnessGenomes(Specieses specieses) {
-<span class="nc" id="L340">        List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;();</span>
-<span class="nc bnc" id="L341" title="All 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
+<span class="fc" id="L340">        List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;();</span>
+<span class="pc bpc" id="L341" title="1 of 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
 <span class="nc bnc" id="L342" title="All 2 branches missed.">            for (FitnessGenome genome : species.getGenomes()) {</span>
 <span class="nc" id="L343">                double adjustedFitness = genome.getFitness() / species.getGenomes().size();</span>
 <span class="nc" id="L344">                fitnessGenomes.add(new FitnessGenome(genome.getGenome(), adjustedFitness));</span>
 <span class="nc" id="L345">            }</span>
 <span class="nc" id="L346">        }</span>
-<span class="nc" id="L347">        fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
-<span class="nc" id="L348">        return fitnessGenomes;</span>
+<span class="pc" id="L347">        fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
+<span class="fc" id="L348">        return fitnessGenomes;</span>
     }
 
     private Specieses breakIntoSpecies(List&lt;FitnessGenome&gt; genomes, Specieses specieses) {

@@ -41,8 +41,8 @@ public class Pipe implements Drawable, Steppable {
 
     @Override
     public void step() {
-<span class="nc" id="L44">        this.x -= 5;</span>
-<span class="nc" id="L45">    }</span>
+<span class="fc" id="L44">        this.x -= 5;</span>
+<span class="fc" id="L45">    }</span>
 
     @Override
     public void show(Graphics g) {
@@ -52,29 +52,29 @@ public class Pipe implements Drawable, Steppable {
 
 
     public int getX() {
-<span class="nc" id="L55">        return x;</span>
+<span class="fc" id="L55">        return x;</span>
     }
 
     public void setX(int x) {
-<span class="nc" id="L59">        this.x = x;</span>
-<span class="nc" id="L60">    }</span>
+<span class="fc" id="L59">        this.x = x;</span>
+<span class="fc" id="L60">    }</span>
 
 
     public int getyOpeningStart() {
-<span class="nc" id="L64">        return this.yOpeningStart;</span>
+<span class="fc" id="L64">        return this.yOpeningStart;</span>
     }
 
     public int getyOpeningEnd() {
-<span class="nc" id="L68">        return this.yOpeningEnd;</span>
+<span class="fc" id="L68">        return this.yOpeningEnd;</span>
     }
 
     public void setyOpeningStart(int yOpeningStart) {
-<span class="nc" id="L72">        this.yOpeningStart = yOpeningStart;</span>
-<span class="nc" id="L73">        this.yOpeningEnd = yOpeningStart + OPENING;</span>
-<span class="nc" id="L74">    }</span>
+<span class="fc" id="L72">        this.yOpeningStart = yOpeningStart;</span>
+<span class="fc" id="L73">        this.yOpeningEnd = yOpeningStart + OPENING;</span>
+<span class="fc" id="L74">    }</span>
 
     public int getWidth() {
-<span class="nc" id="L77">        return width;</span>
+<span class="fc" id="L77">        return width;</span>
     }
 
     public static BufferedImage rotateImage(BufferedImage imag, int n) {

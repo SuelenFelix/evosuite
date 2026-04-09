@@ -5,6 +5,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ functional-web ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ functional-web ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -38,7 +39,7 @@
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -59,7 +60,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -80,7 +81,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -101,7 +102,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -122,7 +123,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -143,7 +144,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -164,7 +165,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -185,7 +186,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -206,7 +207,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -227,7 +228,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -248,7 +249,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -269,7 +270,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -290,7 +291,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -311,7 +312,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -332,7 +333,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
 	... 12 more
 
-Apr 08, 2026 5:06:12 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+Apr 09, 2026 11:46:54 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
 WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
 java.lang.NoClassDefFoundError: org/junit/platform/engine/support/discovery/SelectorResolver
 	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)
@@ -367,6 +368,6 @@ Caused by: java.lang.ClassNotFoundException: org.junit.platform.engine.support.d
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.582 s
-[INFO] Finished at: 2026-04-08T05:06:12Z
+[INFO] Total time:  2.713 s
+[INFO] Finished at: 2026-04-09T11:46:55Z
 [INFO] ------------------------------------------------------------------------

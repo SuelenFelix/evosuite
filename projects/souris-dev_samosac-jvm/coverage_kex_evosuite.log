@@ -5,6 +5,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ samosac ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ samosac ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -97,19 +98,19 @@ SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 [INFO] Running com.sachett.samosa.parser.SamosaBaseListener_ESTest
-[INFO] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.812 s - in com.sachett.samosa.parser.SamosaBaseListener_ESTest
+[INFO] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.818 s - in com.sachett.samosa.parser.SamosaBaseListener_ESTest
 [INFO] Running com.sachett.samosa.parser.SamosaBaseVisitor_ESTest
-[INFO] Tests run: 120, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s - in com.sachett.samosa.parser.SamosaBaseVisitor_ESTest
+[INFO] Tests run: 120, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s - in com.sachett.samosa.parser.SamosaBaseVisitor_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getReturnType_19477165114
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getReturnType_19477165114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getReturnType_19477165114
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getSymbolType_153708870412
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getSymbolType_153708870412
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_setValue_4162559195
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_setValue_4162559195
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_getName_20523472601
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_getName_20523472601
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_getName_20523472601
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_init_5460682940
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.IntSymbol_init_5460682940
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_init_5460682940
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_isSymbolType_204883726828
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.StringSymbol_isSymbolType_204883726828
 [ERROR] test  Time elapsed: 0.008 s  <<< ERROR!
@@ -133,7 +134,7 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_setInitializeExpressionPresent_98082430524
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_setInitializeExpressionPresent_98082430524
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_getCanBeUsedWithRelOp_16542351049
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.SymbolType_getCanBeUsedWithRelOp_16542351049
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.SymbolType_getCanBeUsedWithRelOp_16542351049
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getFirstAppearedLine_10421658232
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getFirstAppearedLine_10421658232
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_isInitialValueCalculated_19951794136
@@ -161,8 +162,8 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getSymbolType_45393541527
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getSymbolType_45393541527
 [INFO] Running com.sachett.samosa.samosac.symbol.ISymbol_DefaultImpls_getAugmentedName_2683517651
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.ISymbol_DefaultImpls_getAugmentedName_2683517651
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.ISymbol_DefaultImpls_getAugmentedName_2683517651
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.ISymbol$DefaultImpls.getAugmentedName, parameter this
 	at com.sachett.samosa.samosac.symbol.ISymbol_DefaultImpls_getAugmentedName_2683517651.test(ISymbol_DefaultImpls_getAugmentedName_2683517651.java:44)
 
@@ -175,7 +176,7 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getAugmentedName_188080071814
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getAugmentedName_188080071814
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_setInitialValueCalculated_11307474267
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_setInitialValueCalculated_11307474267
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.IntSymbol_setInitialValueCalculated_11307474267
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getName_95269281416
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getName_95269281416
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getFirstAppearedLine_409874662
@@ -187,19 +188,19 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getInitializeExpressionPresent_16619590138
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getInitializeExpressionPresent_16619590138
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getName_1304604751
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getName_1304604751
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getName_1304604751
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_174630454620
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_174630454620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_174630454620
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927818
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927818
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141
-[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141
+[ERROR] test  Time elapsed: 0.012 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.symboltable.SymbolTable.lookupBuiltinFunctionMatchingOverload, parameter name
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141.test(SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543141.java:53)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_4942467763
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_4942467763
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getTable_4942467763
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeIndex_20747489895
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setPrevScopeIndex_20747489895
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936532
@@ -215,7 +216,7 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getScopeIndex_96723676025
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getScopeIndex_96723676025
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408812
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408812
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408812
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408833
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBlockInCurrentCoordinates_41306408833
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -229,7 +230,7 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookup_117639098232.test(SymbolTable_lookup_117639098232.java:51)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_14762781968
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_14762781968
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_14762781968
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component3_158157032631
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component3_158157032631
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_18344675829
@@ -247,17 +248,17 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543120
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionMatchingOverload_135976543120
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_91302443123
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_91302443123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_91302443123
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_17463045461
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeTable_17463045461
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224734
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224734
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224734
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.symboltable.SymbolTable.lookupWithNearestScopeValue, parameter name
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupWithNearestScopeValue_76469224734.test(SymbolTable_lookupWithNearestScopeValue_76469224734.java:51)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_18646317989
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_18646317989
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_18646317989
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: symbolScope[0][0] must not be null
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_resetScopeIndex_18646317989.test(SymbolTable_resetScopeIndex_18646317989.java:78)
@@ -272,18 +273,18 @@ java.lang.NullPointerException
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240240
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240240
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.symboltable.SymbolTable.lookupBuiltinFunction, parameter name
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunction_201963240240.test(SymbolTable_lookupBuiltinFunction_201963240240.java:53)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806018
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806018
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806018
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.util.NoSuchElementException
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_restoreLastCoordinates_97607806018.test(SymbolTable_restoreLastCoordinates_97607806018.java:78)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876414
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876414
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeIndex_6801177014
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getPrevScopeIndex_6801177014
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToCoordinates_83555032116
@@ -293,7 +294,7 @@ java.lang.IndexOutOfBoundsException: Index -1922583790 out of bounds for length 
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToCoordinates_83555032116.test(SymbolTable_goToCoordinates_83555032116.java:86)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927837
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927837
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_equals_43112927837
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_203819759828
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_203819759828
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -305,7 +306,7 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_20381975987
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScope_20381975987
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_183446758228
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_183446758228
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_setRecordEntryCoordinates_183446758228
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564335
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564335
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_copy_193812079934
@@ -327,8 +328,8 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_goToBlock_66441738.test(SymbolTable_goToBlock_66441738.java:51)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876435
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876435
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876435
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.symboltable.SymbolTable.lookupInCoordinates, parameter name
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCoordinates_70612876435.test(SymbolTable_lookupInCoordinates_70612876435.java:53)
 
@@ -343,7 +344,7 @@ java.lang.NullPointerException
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859017631.test(SymbolTable_decrementScope_16859017631.java:54)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_9130244310
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_9130244310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_init_9130244310
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936513
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component4_158156936513
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_copy_193812079915
@@ -369,14 +370,14 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_81154704519.test(SymbolTableRecordEntry_init_81154704519.java:55)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110643
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110643
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110643
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_decrementScope_16859110643.test(SymbolTable_decrementScope_16859110643.java:49)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_1178325896
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_1178325896
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.symboltable.SymbolTable.insert, parameter symbol
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_insert_1178325896.test(SymbolTable_insert_1178325896.java:82)
 
@@ -401,7 +402,7 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_147627819627
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_getRecordEntryCoordinates_147627819627
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_ESTest
-[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.411 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_ESTest
+[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.403 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661842
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661842
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -409,11 +410,11 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 	at com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661842.test(SymbolTable_lookupBuiltinFunctionAllOverloads_185849661842.java:51)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982729
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982729
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982729
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564316
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_toString_139057564316
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982710
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component1_4607982710
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCurrentScopeOnly_106735327436
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupInCurrentScopeOnly_106735327436
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -425,7 +426,7 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_175935272324
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_175935272324
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480414
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_component5_100733480414
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_hashCode_87981595317
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_hashCode_87981595317
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -441,7 +442,7 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_17593527231
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_getCreateNewScopeEntryOnIncrement_17593527231
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_5841163858
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_5841163858
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_incrementScopeOverrideScopeCreation_5841163858
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_8115470450
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTableRecordEntry_init_8115470450
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_lookupBuiltinFunctionAllOverloads_185849661821
@@ -467,7 +468,7 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFunctions_12577493843
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.symboltable.SymbolTable_registerBuiltinFunctions_12577493843
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_getInitializeExpressionPresent_92390791623
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getInitializeExpressionPresent_92390791623
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getInitializeExpressionPresent_92390791623
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getAugmentedName_188080071829
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getAugmentedName_188080071829
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getInitializeExpressionPresent_166195901323
@@ -475,7 +476,7 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_getName_21464171716
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getName_21464171716
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_setInitialValueCalculated_113074742622
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_setInitialValueCalculated_113074742622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.IntSymbol_setInitialValueCalculated_113074742622
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_getAsString_10058488281
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.SymbolType_getAsString_10058488281
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_init_142284183315
@@ -487,9 +488,9 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 	at com.sachett.samosa.samosac.symbol.FunctionSymbol_init_142284183315.test(FunctionSymbol_init_142284183315.java:66)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getAugmentedName_133101328914
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getAugmentedName_133101328914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getAugmentedName_133101328914
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_setInitializeExpressionPresent_9808243059
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_setInitializeExpressionPresent_9808243059
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_setInitializeExpressionPresent_9808243059
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_Companion_init_3229287742
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_Companion_init_3229287742
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_getFirstAppearedLine_11406419122
@@ -497,9 +498,9 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolUtils_init_6613676670
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.SymbolUtils_init_6613676670
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_ESTest
-[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_ESTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_getFirstAppearedLine_69706363117
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getFirstAppearedLine_69706363117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getFirstAppearedLine_69706363117
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_isInferredType_28260687418
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_isInferredType_28260687418
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_setInitializeExpressionPresent_1188301419
@@ -509,8 +510,8 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_getSymbolCoordinates_169826431610
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getSymbolCoordinates_169826431610
 [INFO] Running com.sachett.samosa.samosac.symbol.ISymbol_ESTest
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.ISymbol_ESTest
-[ERROR] com.sachett.samosa.samosac.symbol.ISymbol_ESTest  Time elapsed: 0.035 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.ISymbol_ESTest
+[ERROR] com.sachett.samosa.samosac.symbol.ISymbol_ESTest  Time elapsed: 0.045 s  <<< ERROR!
 org.evosuite.shaded.org.mockito.exceptions.base.MockitoException: 
 
 Cannot mock/spy class kotlin.Pair
@@ -518,7 +519,7 @@ Mockito cannot mock/spy because :
  - final class
 
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_setValue_188875178120
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_setValue_188875178120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_setValue_188875178120
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_Companion_init_3229287740
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_Companion_init_3229287740
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolUtils_ESTest
@@ -528,13 +529,13 @@ Mockito cannot mock/spy because :
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getSymbolCoordinates_204336650810
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getSymbolCoordinates_204336650810
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_isInitialValueCalculated_199517941321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_isInitialValueCalculated_199517941321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_isInitialValueCalculated_199517941321
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_ESTest
-[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.sachett.samosa.samosac.symbol.StringSymbol_ESTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.symbol.StringSymbol_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getReturnType_194771651119
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getReturnType_194771651119
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_getSymbolCoordinates_13944122725
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_getSymbolCoordinates_13944122725
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_getSymbolCoordinates_13944122725
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_init_5455471210
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_init_5455471210
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_valueOf_35449609213
@@ -550,7 +551,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.sachett.samosa.samosac.symbol.SymbolType_init_17332218857.test(SymbolType_init_17332218857.java:60)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getName_9526928141
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getName_9526928141
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getName_9526928141
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_setSymbolCoordinates_71422725526
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_setSymbolCoordinates_71422725526
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_isInitialValueCalculated_11698014821
@@ -584,8 +585,8 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_getDefaultValue_146964870511
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.SymbolType_getDefaultValue_146964870511
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_isSymbolType_170373507628
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.IntSymbol_isSymbolType_170373507628
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.IntSymbol_isSymbolType_170373507628
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.IntSymbol.isSymbolType, parameter symbolType
 	at com.sachett.samosa.samosac.symbol.IntSymbol_isSymbolType_170373507628.test(IntSymbol_isSymbolType_170373507628.java:52)
 
@@ -620,13 +621,13 @@ Caused by: java.lang.NullPointerException: Parameter specified as non-null is nu
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_getAugmentedName_78114627214
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_getAugmentedName_78114627214
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_getFirstAppearedLine_6970636312
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getFirstAppearedLine_6970636312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_getFirstAppearedLine_6970636312
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_getDefaultValue_14696487054
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.SymbolType_getDefaultValue_14696487054
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_ESTest
-[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_ESTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_ESTest
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.sachett.samosa.samosac.symbol.SymbolType_ESTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.sachett.samosa.samosac.symbol.SymbolType_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_isInitialValueCalculated_4620823406
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_isInitialValueCalculated_4620823406
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_init_17332218850
@@ -636,11 +637,11 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.sachett.samosa.samosac.symbol.SymbolType_init_17332218850.test(SymbolType_init_17332218850.java:57)
 
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getParamList_17352177723
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getParamList_17352177723
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getParamList_17352177723
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_isInferredType_6249531818
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.StringSymbol_isInferredType_6249531818
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_ESTest
-[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.sachett.samosa.samosac.symbol.IntSymbol_ESTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.sachett.samosa.samosac.symbol.IntSymbol_ESTest
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getFirstAppearedLine_104216582317
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getFirstAppearedLine_104216582317
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_getInitializeExpressionPresent_9239079168
@@ -670,8 +671,8 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_getInitializeExpressionPresent_5788057248
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_getInitializeExpressionPresent_5788057248
 [INFO] Running com.sachett.samosa.samosac.symbol.SymbolType_valueOf_3544960926
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.SymbolType_valueOf_3544960926
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.SymbolType_valueOf_3544960926
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.sachett.samosa.samosac.symbol.SymbolType.NJhGgctbdj
 	at com.sachett.samosa.samosac.symbol.SymbolType_valueOf_3544960926.test(SymbolType_valueOf_3544960926.java:42)
 
@@ -684,8 +685,8 @@ java.lang.IllegalArgumentException: No enum constant com.sachett.samosa.samosac.
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_getValue_46578398519
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.BoolSymbol_getValue_46578398519
 [INFO] Running com.sachett.samosa.samosac.symbol.StringSymbol_setValue_41625591920
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.StringSymbol_setValue_41625591920
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.symbol.StringSymbol_setValue_41625591920
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.samosac.symbol.StringSymbol.setValue, parameter <set-?>
 	at com.sachett.samosa.samosac.symbol.StringSymbol_setValue_41625591920.test(StringSymbol_setValue_41625591920.java:52)
 
@@ -742,7 +743,7 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.symbol.FunctionSymbol_getFirstAppearedLine_4098746617
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.FunctionSymbol_getFirstAppearedLine_4098746617
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_setSymbolCoordinates_36892603426
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_setSymbolCoordinates_36892603426
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.symbol.IntSymbol_setSymbolCoordinates_36892603426
 [INFO] Running com.sachett.samosa.samosac.symbol.IntSymbol_isInitialValueCalculated_1169801486
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.symbol.IntSymbol_isInitialValueCalculated_1169801486
 [INFO] Running com.sachett.samosa.samosac.symbol.BoolSymbol_isSymbolType_40842448528
@@ -752,25 +753,25 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 	at com.sachett.samosa.samosac.symbol.BoolSymbol_isSymbolType_40842448528.test(BoolSymbol_isSymbolType_40842448528.java:52)
 
 [INFO] Running com.sachett.samosa.samosac.staticchecker.ExpressionChecker_ESTest
-[INFO] Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 s - in com.sachett.samosa.samosac.staticchecker.ExpressionChecker_ESTest
+[INFO] Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 s - in com.sachett.samosa.samosac.staticchecker.ExpressionChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.FunctionReturnsChecker_ESTest
 ###---- Checking returns -----
 ###---- Checking returns -----
 Inc scope in FunctionReturnsChecker
 Dec scope in FunctionReturnsChecker
-[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in com.sachett.samosa.samosac.staticchecker.FunctionReturnsChecker_ESTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.sachett.samosa.samosac.staticchecker.FunctionReturnsChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlNode_ESTest
 [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlNode_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_setDoesReturnProperly_2839683546
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_setDoesReturnProperly_2839683546
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_setDoesReturnProperly_2839683546
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581722
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581722
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581722
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType.PAEBtnZtTD
 	at com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581722.test(ControlBlockType_valueOf_20597581722.java:42)
 
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.IfControlNode_ESTest
-[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.IfControlNode_ESTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.IfControlNode_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_copy_149207679324
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_copy_149207679324
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -782,7 +783,7 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_toString_10730978925
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_toString_10730978925
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_ESTest
-[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_ESTest
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_init_12870154790
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_init_12870154790
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParent_9860616115
@@ -840,7 +841,7 @@ java.lang.NullPointerException
 	at com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_getDoesReturnProperly_19551007645.test(ControlBlock_getDoesReturnProperly_19551007645.java:91)
 
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParentFnSymbol_20492045151
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParentFnSymbol_20492045151
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParentFnSymbol_20492045151
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_values_17431787211
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_values_17431787211
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParentFnSymbol_204920451515
@@ -862,7 +863,7 @@ java.lang.NullPointerException
 	at com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_hashCode_61806947926.test(StrayBlock_hashCode_61806947926.java:46)
 
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.CodeBlock_ESTest
-[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.CodeBlock_ESTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.CodeBlock_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getDoesReturnProperly_29907650416
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getDoesReturnProperly_29907650416
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_getChildren_35385784412
@@ -872,7 +873,7 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParent_98606161119
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_getParent_98606161119
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581725
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581725
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581725
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_valueOf_20597581725.test(ControlBlockType_valueOf_20597581725.java:49)
@@ -902,9 +903,9 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlockType_init_3712160793.test(ControlBlockType_init_3712160793.java:47)
 
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_ESTest
-[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_ESTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.ControlBlock_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.WhileControlNode_ESTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.WhileControlNode_ESTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.WhileControlNode_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_equals_106675615427
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_equals_106675615427
 [INFO] Running com.sachett.samosa.samosac.staticchecker.analyzers.blocks.StrayBlock_component4_4433320209
@@ -928,17 +929,17 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 **--- Starting control paths analysis ---
 **--- Starting control paths analysis ---
 **--- Starting control paths analysis ---
-[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.sachett.samosa.samosac.staticchecker.analyzers.FunctionControlPathAnalyzer_ESTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in com.sachett.samosa.samosac.staticchecker.analyzers.FunctionControlPathAnalyzer_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_ESTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_ESTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.evaluators.StringExpressionEvaluator_ESTest
-[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in com.sachett.samosa.samosac.staticchecker.evaluators.StringExpressionEvaluator_ESTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.sachett.samosa.samosac.staticchecker.evaluators.StringExpressionEvaluator_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.evaluators.BoolExpressionEvaluator_ESTest
-[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in com.sachett.samosa.samosac.staticchecker.evaluators.BoolExpressionEvaluator_ESTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.sachett.samosa.samosac.staticchecker.evaluators.BoolExpressionEvaluator_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.evaluators.IntExpressionEvaluator_ESTest
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in com.sachett.samosa.samosac.staticchecker.evaluators.IntExpressionEvaluator_ESTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.sachett.samosa.samosac.staticchecker.evaluators.IntExpressionEvaluator_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.StringExpressionChecker_ESTest
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.sachett.samosa.samosac.staticchecker.StringExpressionChecker_ESTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.sachett.samosa.samosac.staticchecker.StringExpressionChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_init_1965487810
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_init_1965487810
 [INFO] Running com.sachett.samosa.samosac.staticchecker.StaticTypesChecker_ESTest
@@ -964,41 +965,41 @@ Visiting ExprIdentifier...
 Visiting ExprIdentifier...
 Visiting NormalDeclAssignStmt...
 Visiting NormalDeclAssignStmt...
-[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in com.sachett.samosa.samosac.staticchecker.StaticTypesChecker_ESTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.sachett.samosa.samosac.staticchecker.StaticTypesChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.ExpressionTypeDetector_ESTest
 ----- Finding expr type for expr -----
 ----- Finding expr type for expr -----
 ----- Finding expr type for expr -----
-[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.sachett.samosa.samosac.staticchecker.ExpressionTypeDetector_ESTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.sachett.samosa.samosac.staticchecker.ExpressionTypeDetector_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_Companion_init_2084609171
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_Companion_init_2084609171
 [INFO] Running com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_Companion_init_2084609170
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_Companion_init_2084609170
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_Companion_init_2084609170
 [INFO] Running com.sachett.samosa.samosac.staticchecker.BoolExpressionChecker_ESTest
-[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.sachett.samosa.samosac.staticchecker.BoolExpressionChecker_ESTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.sachett.samosa.samosac.staticchecker.BoolExpressionChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_init_1965487811
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.staticchecker.FunctionCallExprChecker_init_1965487811
 [INFO] Running com.sachett.samosa.samosac.staticchecker.IntExpressionChecker_ESTest
-[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in com.sachett.samosa.samosac.staticchecker.IntExpressionChecker_ESTest
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.sachett.samosa.samosac.staticchecker.IntExpressionChecker_ESTest
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_init_4029572004
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_init_4029572004
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_init_4029572004
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_init_824377624
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_init_824377624
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446697
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446697
-[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446697
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446697.test(CompilerKt_main_1_invoke_20713446697.java:54)
 
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_3646479370
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.065 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_3646479370
-[ERROR] test  Time elapsed: 0.065 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_3646479370
+[ERROR] test  Time elapsed: 0.072 s  <<< ERROR!
 java.nio.file.NoSuchFileException: tbcdzjIfER
 	at com.sachett.samosa.samosac.compiler.CompilerKt_main_3646479370.test(CompilerKt_main_3646479370.java:46)
 
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_ESTest
 samosac: No input files!
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in com.sachett.samosa.samosac.compiler.CompilerKt_ESTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in com.sachett.samosa.samosac.compiler.CompilerKt_ESTest
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_invoke_17517126953
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_invoke_17517126953
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1034,8 +1035,8 @@ java.lang.NullPointerException
 	at com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invokeSuspend_18349279395.test(CompilerKt_main_1_invokeSuspend_18349279395.java:52)
 
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_invokeSuspend_21404073831
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_invokeSuspend_21404073831
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_invokeSuspend_21404073831
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: call to 'resume' before 'invoke' with coroutine
 	at com.sachett.samosa.samosac.compiler.CompilerKt_main_1_1_1_invokeSuspend_21404073831.test(CompilerKt_main_1_1_1_invokeSuspend_21404073831.java:60)
 
@@ -1054,24 +1055,24 @@ java.lang.NullPointerException
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_create_8117941966
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_create_8117941966
 [INFO] Running com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446693
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446693
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446693
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.samosac.compiler.CompilerKt_main_1_invoke_20713446693.test(CompilerKt_main_1_invoke_20713446693.java:63)
 
 [INFO] Running com.sachett.samosa.samosac.codegen.CodegenCommons_ESTest
-[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in com.sachett.samosa.samosac.codegen.CodegenCommons_ESTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s - in com.sachett.samosa.samosac.codegen.CodegenCommons_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.CodeGenerator_ESTest
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.sachett.samosa.samosac.codegen.CodeGenerator_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_getMethodFromClass_13455641531
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_getMethodFromClass_13455641531
-[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_getMethodFromClass_13455641531
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_getMethodFromClass_13455641531.test(CodegenMethodMap_getMethodFromClass_13455641531.java:42)
 
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598124
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598124
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598124
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598124.test(CodegenDelegatedMethod_valueOf_3309598124.java:49)
 
@@ -1083,12 +1084,12 @@ java.lang.NullPointerException
 
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598121
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598121
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod.PAEBtnZtTD
 	at com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_valueOf_3309598121.test(CodegenDelegatedMethod_valueOf_3309598121.java:42)
 
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_ESTest
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_ESTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_values_1610705913
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_values_1610705913
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatable_ESTest
@@ -1103,7 +1104,7 @@ Visiting ParseTree 	(type) class com.sachett.samosa.parser.SamosaParser$Uncertai
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$UncertainCompoundStmtContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000003
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$UncertainCompoundStmtContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000003
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$UncertainCompoundStmtContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000003
-[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatable_ESTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatable_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegationManager_ESTest
 Delegating NormalDeclAssign
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$TypeInferredBooleanDeclAssignStmtContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000003
@@ -1119,7 +1120,7 @@ Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ReturnStm
 Delegating NormalDeclAssign
 Visiting ParseTree 	(type) class com.sachett.samosa.parser.SamosaParser$ReturnStmtContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000003
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ReturnStmtContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000003
-[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegationManager_ESTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegationManager_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_init_11872496320
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.codegen.utils.delegation.CodegenMethodMap_init_11872496320
 [INFO] Running com.sachett.samosa.samosac.codegen.utils.delegation.CodegenDelegatedMethod_init_7368324162
@@ -1147,7 +1148,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_values_658955530
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_values_658955530
 [INFO] Running com.sachett.samosa.samosac.codegen.compoundstmt.WhileStmtCodegen_ESTest
-[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in com.sachett.samosa.samosac.codegen.compoundstmt.WhileStmtCodegen_ESTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in com.sachett.samosa.samosac.codegen.compoundstmt.WhileStmtCodegen_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_values_658955533
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_values_658955533
 [INFO] Running com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_init_9223423245
@@ -1167,7 +1168,7 @@ Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ExplicitR
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ExplicitRetTypeFuncDefContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000001
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ImplicitRetTypeFuncDefContext 		(through) com.sachett.samosa.samosac.codegen.compoundstmt.FunctionCodegen@0000000025
 Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ImplicitRetTypeFuncDefContext 		(through) com.sachett.samosa.samosac.codegen.ClassFileGenerator@0000000001
-[INFO] Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in com.sachett.samosa.samosac.codegen.compoundstmt.FunctionCodegen_ESTest
+[INFO] Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in com.sachett.samosa.samosac.codegen.compoundstmt.FunctionCodegen_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_init_9223423242
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_init_9223423242
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1181,9 +1182,9 @@ java.lang.IllegalArgumentException: No enum constant com.sachett.samosa.samosac.
 	at com.sachett.samosa.samosac.codegen.compoundstmt.ControlNodeCodegenType_valueOf_5579259561.test(ControlNodeCodegenType_valueOf_5579259561.java:42)
 
 [INFO] Running com.sachett.samosa.samosac.codegen.compoundstmt.IfStmtCodegen_ESTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.sachett.samosa.samosac.codegen.compoundstmt.IfStmtCodegen_ESTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.sachett.samosa.samosac.codegen.compoundstmt.IfStmtCodegen_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.expressions.BooleanExprCodegen_ESTest
-[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in com.sachett.samosa.samosac.codegen.expressions.BooleanExprCodegen_ESTest
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.sachett.samosa.samosac.codegen.expressions.BooleanExprCodegen_ESTest
 [INFO] Running com.sachett.samosa.samosac.codegen.expressions.IExprCodegen_doIdentifierCodegen_4049978721
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.samosac.codegen.expressions.IExprCodegen_doIdentifierCodegen_4049978721
 [ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
@@ -1264,12 +1265,12 @@ Visiting RuleNode 	(type) class com.sachett.samosa.parser.SamosaParser$ProgramCo
 java.lang.String@0000000029java.lang.String@0000000030java.lang.String@0000000031java.lang.String@0000000032java.lang.String@0000000033java.lang.String@0000000034main([Ljava/lang/String;)V
 00000 [String  :  :     RETURN
 
-[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in com.sachett.samosa.samosac.codegen.ClassFileGenerator_ESTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in com.sachett.samosa.samosac.codegen.ClassFileGenerator_ESTest
 [INFO] Running com.sachett.samosa.logging.Severity_values_11871833931
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.sachett.samosa.logging.Severity_values_11871833931
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.sachett.samosa.logging.Severity_values_11871833931
 [INFO] Running com.sachett.samosa.logging.LoggingUtilsKt_fmterror_5414849035
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_fmterror_5414849035
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_fmterror_5414849035
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.logging.LoggingUtilsKt.fmterror, parameter message
 	at com.sachett.samosa.logging.LoggingUtilsKt_fmterror_5414849035.test(LoggingUtilsKt_fmterror_5414849035.java:51)
 
@@ -1280,7 +1281,7 @@ java.lang.IllegalArgumentException: No enum constant com.sachett.samosa.logging.
 	at com.sachett.samosa.logging.Severity_valueOf_16792137962.test(Severity_valueOf_16792137962.java:42)
 
 [INFO] Running com.sachett.samosa.logging.Severity_values_11871833934
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.logging.Severity_values_11871833934
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.sachett.samosa.logging.Severity_values_11871833934
 [INFO] Running com.sachett.samosa.logging.LoggingUtilsKt_fmtfatalerr_7159256414
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_fmtfatalerr_7159256414
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1288,17 +1289,17 @@ java.lang.NullPointerException: Parameter specified as non-null is null: method 
 	at com.sachett.samosa.logging.LoggingUtilsKt_fmtfatalerr_7159256414.test(LoggingUtilsKt_fmtfatalerr_7159256414.java:49)
 
 [INFO] Running com.sachett.samosa.logging.Severity_init_15809251930
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.logging.Severity_init_15809251930
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[Error, Line 1162663216] MuLcgQHgqz
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.sachett.samosa.logging.Severity_init_15809251930
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.sachett.samosa.logging.Severity_init_15809251930.test(Severity_init_15809251930.java:42)
 
 [INFO] Running com.sachett.samosa.logging.LoggingUtilsKt_fmterror_5414849032
-[Error, Line 1162663216] MuLcgQHgqz
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sachett.samosa.logging.LoggingUtilsKt_fmterror_5414849032
 [INFO] Running com.sachett.samosa.logging.LoggingUtilsKt_err_4646354163
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_err_4646354163
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_err_4646354163
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Parameter specified as non-null is null: method com.sachett.samosa.logging.LoggingUtilsKt.err, parameter message
 	at com.sachett.samosa.logging.LoggingUtilsKt_err_4646354163.test(LoggingUtilsKt_err_4646354163.java:44)
 
@@ -1344,8 +1345,8 @@ java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.sachett.samosa.logging.LoggingUtilsKt_fmtfatalerr_7159256411
 [Error, Line 568599855] sjlJAEtRrb
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_fmtfatalerr_7159256411
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.logging.LoggingUtilsKt_fmtfatalerr_7159256411
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.SecurityException: 
 Security manager blocks ("java.lang.RuntimePermission" "exitVM.-1")
 java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
@@ -1390,8 +1391,8 @@ java.lang.NullPointerException
 
 [INFO] Running com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_189174744522
 [Error] The function call: () -> main to start from the beginning is currently not supported. 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_189174744522
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_189174744522
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.SecurityException: 
 Security manager blocks ("java.lang.RuntimePermission" "exitVM.-1")
 java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
@@ -1450,7 +1451,7 @@ java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_putinInt_17906518184.test(Builtins_Functions_putinInt_17906518184.java:44)
 
 [INFO] Running com.sachett.samosa.builtins.Builtins_Functions_intToString_40622721021
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_intToString_40622721021
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_intToString_40622721021
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_intToString_40622721021.test(Builtins_Functions_intToString_40622721021.java:46)
@@ -1470,8 +1471,8 @@ java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_putinBoolie_63034542918.test(Builtins_Functions_putinBoolie_63034542918.java:46)
 
 [INFO] Running com.sachett.samosa.builtins.Builtins_Functions_putoutBoolie_167690822415
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_putoutBoolie_167690822415
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_putoutBoolie_167690822415
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_putoutBoolie_167690822415.test(Builtins_Functions_putoutBoolie_167690822415.java:46)
 
@@ -1523,10 +1524,10 @@ java.lang.NullPointerException
 java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_putinInt_179065181817.test(Builtins_Functions_putinInt_179065181817.java:46)
 
-[INFO] Running com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_18917474459
-[Error] The function call: () -> main to start from the beginning is currently not supported. 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_18917474459
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[INFO] Running com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_18917474459[Error] The function call: () -> main to start from the beginning is currently not supported. 
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_gotoBeginning_18917474459
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.SecurityException: 
 Security manager blocks ("java.lang.RuntimePermission" "exitVM.-1")
 java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
@@ -1591,7 +1592,7 @@ java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_putoutString_188808472516.test(Builtins_Functions_putoutString_188808472516.java:46)
 
 [INFO] Running com.sachett.samosa.builtins.Builtins_Functions_putoutInt_174691322714
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_putoutInt_174691322714
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.sachett.samosa.builtins.Builtins_Functions_putoutInt_174691322714
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.sachett.samosa.builtins.Builtins_Functions_putoutInt_174691322714.test(Builtins_Functions_putoutInt_174691322714.java:46)
@@ -1732,6 +1733,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  19.810 s
-[INFO] Finished at: 2026-04-08T05:47:01Z
+[INFO] Total time:  20.276 s
+[INFO] Finished at: 2026-04-09T12:36:06Z
 [INFO] ------------------------------------------------------------------------

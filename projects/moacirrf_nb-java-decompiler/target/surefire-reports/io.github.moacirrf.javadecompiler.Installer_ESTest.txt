@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: io.github.moacirrf.javadecompiler.Installer_ESTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.003 s - in io.github.moacirrf.javadecompiler.Installer_ESTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.006 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.Installer_ESTest
+test0(io.github.moacirrf.javadecompiler.Installer_ESTest)  Time elapsed: 3.002 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at io.github.moacirrf.javadecompiler.Installer_ESTest.test0(Installer_ESTest.java:63)
+Caused by: java.lang.NullPointerException
+

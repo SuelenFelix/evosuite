@@ -15,6 +15,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ events ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ events ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -209,23 +210,23 @@ WARNING: Illegal reflective access by me.nurio.events.handler.ReflectionUtils (f
 WARNING: Please consider reporting this to the maintainers of me.nurio.events.handler.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
 Running me.nurio.events.handler.EventDispatchEvent_toString_116902434811
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.handler.Event_ESTest
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.883 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.91 sec
 Running me.nurio.events.handler.EventDispatchEvent_getEvent_18057608439
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running me.nurio.events.handler.EventDispatchEvent_hashCode_6582646586
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running me.nurio.events.handler.EventDispatchEvent_hashCode_6582646586
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.handler.EventDispatchEvent_init_12848395917
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.handler.EventPriority_valueOf_11947526364
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(me.nurio.events.handler.EventPriority_valueOf_11947526364)  Time elapsed: 0.005 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+test(me.nurio.events.handler.EventPriority_valueOf_11947526364)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at me.nurio.events.handler.EventPriority.valueOf(EventPriority.java:7)
@@ -250,7 +251,7 @@ java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.handler.EventDispatchEvent_ESTest
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
 Running me.nurio.events.handler.EventDispatchEvent_isCancelled_4640158028
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.handler.EventDispatchEvent_getEvent_18057608431
@@ -306,7 +307,7 @@ java.lang.IllegalArgumentException: No enum constant me.nurio.events.handler.Eve
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.handler.EventDispatchEvent_equals_20957798312
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.handler.EventPriority_init_19431530422
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.handler.EventPriority_init_19431530422)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -329,12 +330,12 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.handler.EventDispatchEvent_setCancelled_5343301842
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running me.nurio.events.handler.EventPriority_values_16867830393
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running me.nurio.events.handler.EventPriority_values_16867830393
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.handler.Event_isCancelled_292083061
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.handler.Event_isCancelled_292083061)  Time elapsed: 0.001 sec  <<< ERROR!
+test(me.nurio.events.handler.Event_isCancelled_292083061)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -410,7 +411,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.handler.EventDispatchEvent_canEqual_59458464613
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.handler.EventDispatchEvent_setCancelled_53433018410
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.handler.EventDispatchEvent_init_128483959115
@@ -442,9 +443,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.ReflectedEventHandler_createEventManager_3269280232
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running me.nurio.events.ReflectedEventHandler_ESTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
 Running me.nurio.events.exceptions.EventHandlerNotFoundException_init_18810425560
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.exceptions.EventHandlerNotFoundException_init_18810425562
@@ -452,7 +453,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.exceptions.EventHandlerNotFoundException_init_16982725203
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.exceptions.EventHandlerNotFoundException_init_16982725201
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
 test(me.nurio.events.exceptions.EventHandlerNotFoundException_init_16982725201)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.ExceptionInInitializerError
 	at java.base/java.lang.Class.forName0(Native Method)
@@ -514,7 +515,7 @@ Running me.nurio.events.ReflectedEventHandler_createEventManager_3269280230
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.EventManagement_init_187674099511
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(me.nurio.events.internal.EventManagement_init_187674099511)  Time elapsed: 0.003 sec  <<< ERROR!
+test(me.nurio.events.internal.EventManagement_init_187674099511)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -544,7 +545,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.ReflectedEventManager_isDebugLoggingEnabled_39377191613
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.EventManagement_registerEvent_9218274851
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
 test(me.nurio.events.internal.EventManagement_registerEvent_9218274851)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NoSuchMethodException: java.lang.invoke.ProxyClassesDumper.dumpClass(java.lang.String, [[[Ljava.util.stream.SliceOps$3$1;)
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
@@ -564,8 +565,8 @@ java.lang.NoSuchMethodException: java.lang.invoke.ProxyClassesDumper.dumpClass(j
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.RegisteredEventHandler_init_4620471137
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.RegisteredEventHandler_init_4620471137)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(me.nurio.events.internal.RegisteredEventHandler_init_4620471137)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -613,11 +614,11 @@ java.lang.NullPointerException
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running me.nurio.events.internal.EventReflectionUtils_ESTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
 Running me.nurio.events.internal.EventManagement_getRegisteredEvents_2838113626
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(me.nurio.events.internal.EventManagement_getRegisteredEvents_2838113626)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.EventManagement.getRegisteredEvents(EventManagement.java:30)
@@ -676,9 +677,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.EventReflectionUtils_init_1550402642
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.EventManagement_getEventHandlerFor_8236540944
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.ReflectedEventManager_1_init_12186994901
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.EventManagement_getRegisteredEvents_2838113620
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.ReflectedEventManager_init_9968867137
@@ -713,7 +714,7 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.RegisteredEventHandler_getPriority_50286833411
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.EventManagement_unregisterEvent_210874608
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.EventManagement_unregisterEvent_210874608)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.EventManagement.unregisterEvent(EventManagement.java:62)
@@ -790,9 +791,9 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.ReflectedEventManager_isDebugLoggingEnabled_3937719166
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.EventReflectionUtils_init_1550402640
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running me.nurio.events.internal.EventManagement_init_18767409955
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running me.nurio.events.internal.EventManagement_init_18767409955
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.internal.ReflectedEventManager_registerEvents_6149461652
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(me.nurio.events.internal.ReflectedEventManager_registerEvents_6149461652)  Time elapsed: 0.002 sec  <<< ERROR!
@@ -844,7 +845,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.EventManagement_ESTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
 Running me.nurio.events.internal.ReflectedEventManager_unregisterEvents_152688413210
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.ReflectedEventManager_unregisterEvents_152688413210)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -873,7 +874,7 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_getHandlers_13157983682
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_init_11298626500
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_shouldIgnoreCancellable_10826671906
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_shouldIgnoreCancellable_10826671906)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -902,11 +903,11 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.annotations.HandledMethod_init_7651351522
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.annotations.AnnotationEventHandler_ESTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_addAnnotationHandler_9380464351
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_getEventPriority_7207139375
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_getEventPriority_7207139375)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler.getEventPriority(EventHandlerAnnotationEventHandler.java:28)
@@ -931,9 +932,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.HandledMethod_getMethod_8859042520
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.internal.annotations.HandledMethod_ESTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_getHandledMethodsFrom_12110106504
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_getHandledMethodsFrom_12110106504)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -986,8 +987,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.AnnotationEventHandler_shouldIgnoreCancellable_11467355785
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.AnnotationEventHandler_shouldIgnoreCancellable_11467355785)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(me.nurio.events.internal.annotations.AnnotationEventHandler_shouldIgnoreCancellable_11467355785)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1010,14 +1011,14 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_ESTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_hasHandlers_18621827463
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.annotations.HandledMethod_getMethod_8859042523
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.annotations.AnnotationEventHandler_getEventPriority_13448505911
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.AnnotationEventHandler_getEventPriority_13448505911)  Time elapsed: 0.001 sec  <<< ERROR!
+test(me.nurio.events.internal.annotations.AnnotationEventHandler_getEventPriority_13448505911)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1093,7 +1094,7 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_init_11298626504
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_init_18094682426
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_getEventPriority_7207139371
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_getEventPriority_7207139371)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -1169,7 +1170,7 @@ java.lang.NullPointerException
 
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_handledMethodsFrom_17047997725
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_handledMethodsFrom_17047997725)  Time elapsed: 0.001 sec  <<< ERROR!
+test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_handledMethodsFrom_17047997725)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.annotations.EventAnnotationHandlersManager.handledMethodsFrom(EventAnnotationHandlersManager.java:73)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1193,11 +1194,11 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_getAnnotation_15628063657
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_ESTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_getHandledMethodsFrom_121101065010
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_getHandledMethodsFrom_121101065010)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.annotations.EventAnnotationHandlersManager.handledMethodsFrom(EventAnnotationHandlersManager.java:73)
@@ -1223,12 +1224,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_init_18094682420
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.annotations.HandledMethod_getHandler_21105823551
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
 Running me.nurio.events.internal.annotations.AnnotationEventHandler_shouldHandle_6743311420
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.AnnotationEventHandler_shouldHandle_6743311420)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(me.nurio.events.internal.annotations.AnnotationEventHandler_shouldHandle_6743311420)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1251,8 +1252,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_addAnnotationHandler_9380464357
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_addAnnotationHandler_9380464357)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_addAnnotationHandler_9380464357)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.annotations.EventAnnotationHandlersManager.addAnnotationHandler(EventAnnotationHandlersManager.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1278,12 +1279,12 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.annotations.EventHandlerAnnotationEventHandler_getAnnotation_15628063653
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.annotations.HandledMethod_getHandler_21105823554
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.annotations.HandledMethod_init_7651351525
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.annotations.EventAnnotationHandlersManager_handledMethodsFrom_170479977211
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_handledMethodsFrom_170479977211)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(me.nurio.events.internal.annotations.EventAnnotationHandlersManager_handledMethodsFrom_170479977211)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.annotations.EventAnnotationHandlersManager.handledMethodsFrom(EventAnnotationHandlersManager.java:73)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1307,8 +1308,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.annotations.AnnotationEventHandler_shouldHandle_6743311423
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.annotations.AnnotationEventHandler_shouldHandle_6743311423)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(me.nurio.events.internal.annotations.AnnotationEventHandler_shouldHandle_6743311423)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1331,9 +1332,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.ReflectedEventManager_setDebugLoggingEnabled_144059071012
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.RegisteredEventHandler_getListener_138443275410
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.ReflectedEventManager_registerEvents_6149461659
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.ReflectedEventManager_registerEvents_6149461659)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -1360,7 +1361,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.ReflectedEventManager_unregisterEvents_15268841323
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.internal.ReflectedEventManager_callEvent_10697487674
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(me.nurio.events.internal.ReflectedEventManager_callEvent_10697487674)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -1388,7 +1389,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running me.nurio.events.internal.ReflectedEventManager_setDebugLoggingEnabled_14405907105
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.ReflectedEventManager_getRegisteredListeners_15657902981
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.internal.RegisteredEventHandler_getPriority_5028683344
@@ -1396,7 +1397,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running me.nurio.events.internal.ReflectedEventManager_1_init_12186994900
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running me.nurio.events.internal.EventManagement_getEventHandlerFor_4297702423
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(me.nurio.events.internal.EventManagement_getEventHandlerFor_4297702423)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.EventManagement.getEventHandlerFor(EventManagement.java:88)
@@ -1452,10 +1453,10 @@ java.lang.NullPointerException
 Running me.nurio.events.internal.RegisteredEventHandler_getEvent_6819301809
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.ReflectedEventManager_ESTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
 Running me.nurio.events.internal.EventReflectionUtils_getEventFromMethod_2686922083
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(me.nurio.events.internal.EventReflectionUtils_getEventFromMethod_2686922083)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(me.nurio.events.internal.EventReflectionUtils_getEventFromMethod_2686922083)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at me.nurio.events.internal.EventReflectionUtils.getEventFromMethod(EventReflectionUtils.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1507,7 +1508,7 @@ java.lang.ClassNotFoundException: kex.java.lang.Character$Subset
 Running me.nurio.events.internal.ReflectedEventManager_init_9968867130
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running me.nurio.events.internal.EventReflectionUtils_getEventFromMethod_2686922081
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(me.nurio.events.internal.EventReflectionUtils_getEventFromMethod_2686922081)  Time elapsed: 0.001 sec  <<< ERROR!
 me.nurio.events.exceptions.EventHandlerNotFoundException: Unable to find Event > Handled method doesn't have a event parameter or have more than one.
 	at me.nurio.events.internal.EventReflectionUtils.getEventFromMethod(EventReflectionUtils.java:21)
@@ -1627,6 +1628,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.510 s
-[INFO] Finished at: 2026-04-08T05:41:55Z
+[INFO] Total time:  6.485 s
+[INFO] Finished at: 2026-04-09T12:30:56Z
 [INFO] ------------------------------------------------------------------------

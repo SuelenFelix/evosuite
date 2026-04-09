@@ -5,6 +5,7 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ movie ---
+[INFO] Deleting /app/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.11:prepare-agent (default) @ movie ---
 [INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/app/target/jacoco.exec
@@ -116,6 +117,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.387 s
-[INFO] Finished at: 2026-04-08T05:22:32Z
+[INFO] Total time:  4.607 s
+[INFO] Finished at: 2026-04-09T12:03:19Z
 [INFO] ------------------------------------------------------------------------

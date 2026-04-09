@@ -49,8 +49,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.004 s
-[INFO] Finished at: 2026-04-08T02:11:43Z
+[INFO] Total time:  2.110 s
+[INFO] Finished at: 2026-04-09T15:52:34Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project covid-19: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test failed: org.junit.platform.commons.JUnitException: TestEngine with ID 'junit-vintage' failed to discover tests: Failed to parse version of junit:junit: 4.13.2 -> [Help 1]
 [ERROR] 

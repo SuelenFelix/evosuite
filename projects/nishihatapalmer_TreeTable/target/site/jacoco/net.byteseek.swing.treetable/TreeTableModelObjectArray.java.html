@@ -46,10 +46,10 @@ public class TreeTableModelObjectArray extends TreeTableModel {
      * @throws IllegalArgumentException if columnModel is null.
      */
     public TreeTableModelObjectArray(TreeNode rootNode, TableColumnModel columnModel) {
-<span class="fc" id="L49">        super(rootNode);</span>
-<span class="fc" id="L50">        checkNull(columnModel, &quot;columnModel&quot;);</span>
-<span class="fc" id="L51">        this.columnModel = columnModel;</span>
-<span class="fc" id="L52">    }</span>
+<span class="nc" id="L49">        super(rootNode);</span>
+<span class="nc" id="L50">        checkNull(columnModel, &quot;columnModel&quot;);</span>
+<span class="nc" id="L51">        this.columnModel = columnModel;</span>
+<span class="nc" id="L52">    }</span>
 
     @Override
     public Object getColumnValue(TreeNode node, int column) {
@@ -59,7 +59,7 @@ public class TreeTableModelObjectArray extends TreeTableModel {
 
     @Override
     protected TableColumnModel createTableColumnModel() {
-<span class="fc" id="L62">        return columnModel;</span>
+<span class="nc" id="L62">        return columnModel;</span>
     }
 
 }

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>$.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar</a> &gt; <span class="el_source">$.java</span></div><h1>$.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar;
+
+
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import sun.net.www.protocol.file.FileURLConnection;
+
+import java.io.*;
+import java.lang.management.GarbageCollectorMXBean;
+import java.lang.management.ManagementFactory;
+import java.net.JarURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.text.DecimalFormat;
+import java.util.*;
+import java.util.jar.JarEntry;
+import java.util.jar.JarFile;
+
+
+/**
+ * unsorted utility class
+ */
+<span class="nc" id="L28">public class $ {</span>
+
+    public static String baseFileName(String filename) {
+<span class="nc" id="L31">        return new File(filename).getName();</span>
+    }
+
+
+    public static String hashFileName(String filename) {
+<span class="nc" id="L36">        return Integer.toString(filename.hashCode());</span>
+    }
+
+
+    public static boolean same(@Nullable Object o1, @Nullable Object o2) {
+<span class="nc bnc" id="L41" title="All 2 branches missed.">        if (o1 == null) {</span>
+<span class="nc bnc" id="L42" title="All 2 branches missed.">            return o2 == null;</span>
+        } else {
+<span class="nc" id="L44">            return o1.equals(o2);</span>
+        }
+    }
+
+    public static String getTempFile(String file) {
+<span class="nc" id="L49">        String tmpDir = getTempDir();</span>
+<span class="nc" id="L50">        return makePathString(tmpDir, file);</span>
+    }
+
+    public static String getTempDir() {
+<span class="nc" id="L54">        String systemTemp = getSystemTempDir();</span>
+<span class="nc" id="L55">        return makePathString(systemTemp, &quot;juliaSonar-&quot; + Analyzer.self.sid);</span>
+    }
+
+    @NotNull
+    public static String getSystemTempDir() {
+<span class="nc" id="L60">        String tmp = System.getProperty(&quot;java.io.tmpdir&quot;);</span>
+<span class="nc" id="L61">        String sep = System.getProperty(&quot;file.separator&quot;);</span>
+<span class="nc bnc" id="L62" title="All 2 branches missed.">        if (tmp.endsWith(sep)) {</span>
+<span class="nc" id="L63">            return tmp;</span>
+        }
+<span class="nc" id="L65">        return tmp + sep;</span>
+    }
+
+
+    /**
+     * Returns the parent qname of {@code qname} -- everything up to the
+     * last dot (exclusive), or if there are no dots, the empty string.
+     */
+    public static String getQnameParent(@Nullable String qname) {
+<span class="nc bnc" id="L74" title="All 4 branches missed.">        if (qname == null || qname.isEmpty()) {</span>
+<span class="nc" id="L75">            return &quot;&quot;;</span>
+        }
+<span class="nc" id="L77">        int index = qname.lastIndexOf(&quot;.&quot;);</span>
+<span class="nc bnc" id="L78" title="All 2 branches missed.">        if (index == -1) {</span>
+<span class="nc" id="L79">            return &quot;&quot;;</span>
+        }
+<span class="nc" id="L81">        return qname.substring(0, index);</span>
+    }
+
+
+    @Nullable
+    public static String moduleQname(@NotNull String file) {
+<span class="nc" id="L87">        File f = new File(file);</span>
+
+<span class="nc bnc" id="L89" title="All 2 branches missed.">        if (f.getName().endsWith(&quot;__init__.py&quot;)) {</span>
+<span class="nc" id="L90">            file = f.getParent();</span>
+<span class="nc bnc" id="L91" title="All 2 branches missed.">        } else if (file.endsWith(Globals.FILE_SUFFIX)) {</span>
+<span class="nc" id="L92">            file = file.substring(0, file.length() - Globals.FILE_SUFFIX.length());</span>
+        }
+
+        // remove Windows like '\\' and 'C:'
+<span class="nc" id="L96">        file = file.replaceAll(&quot;^\\\\&quot;, &quot;&quot;);</span>
+<span class="nc" id="L97">        file = file.replaceAll(&quot;^[a-zA-Z]:&quot;, &quot;&quot;);</span>
+
+<span class="nc" id="L99">        return file.replace(&quot;.&quot;, &quot;%20&quot;).replace('/', '.').replace('\\', '.');</span>
+    }
+
+
+    /**
+     * Given an absolute {@code path} to a file (not a directory),
+     * returns the module name for the file.  If the file is an __init__.py,
+     * returns the last component of the file's parent directory, else
+     * returns the filename without path or extension.
+     */
+    public static String moduleName(String path) {
+<span class="nc" id="L110">        File f = new File(path);</span>
+<span class="nc" id="L111">        String name = f.getName();</span>
+<span class="nc bnc" id="L112" title="All 2 branches missed.">        if (name.equals(&quot;__init__.py&quot;)) {</span>
+<span class="nc" id="L113">            return f.getParentFile().getName();</span>
+<span class="nc bnc" id="L114" title="All 2 branches missed.">        } else if (name.endsWith(Globals.FILE_SUFFIX)) {</span>
+<span class="nc" id="L115">            return name.substring(0, name.length() - Globals.FILE_SUFFIX.length());</span>
+        } else {
+<span class="nc" id="L117">            return name;</span>
+        }
+    }
+
+
+    @NotNull
+    public static String arrayToString(@NotNull Collection&lt;String&gt; strings) {
+<span class="nc" id="L124">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc bnc" id="L125" title="All 2 branches missed.">        for (String s : strings) {</span>
+<span class="nc" id="L126">            sb.append(s).append(&quot;\n&quot;);</span>
+<span class="nc" id="L127">        }</span>
+<span class="nc" id="L128">        return sb.toString();</span>
+    }
+
+
+    @NotNull
+    public static String arrayToSortedStringSet(Collection&lt;String&gt; strings) {
+<span class="nc" id="L134">        Set&lt;String&gt; sorter = new TreeSet&lt;&gt;();</span>
+<span class="nc" id="L135">        sorter.addAll(strings);</span>
+<span class="nc" id="L136">        return arrayToString(sorter);</span>
+    }
+
+
+    public static void writeFile(String path, String contents) {
+<span class="nc" id="L141">        PrintWriter out = null;</span>
+        try {
+<span class="nc" id="L143">            out = new PrintWriter(new BufferedWriter(new FileWriter(path)));</span>
+<span class="nc" id="L144">            out.print(contents);</span>
+<span class="nc" id="L145">            out.flush();</span>
+<span class="nc" id="L146">        } catch (Exception e) {</span>
+<span class="nc" id="L147">            $.die(&quot;Failed to write: &quot; + path);</span>
+        } finally {
+<span class="nc bnc" id="L149" title="All 2 branches missed.">            if (out != null) {</span>
+<span class="nc" id="L150">                out.close();</span>
+            }
+        }
+<span class="nc" id="L153">    }</span>
+
+
+    @Nullable
+    public static String readFile(@NotNull String path) {
+        // Don't use line-oriented file read -- need to retain CRLF if present
+        // so the style-run and link offsets are correct.
+<span class="nc" id="L160">        byte[] content = getBytesFromFile(path);</span>
+<span class="nc bnc" id="L161" title="All 2 branches missed.">        if (content == null) {</span>
+<span class="nc" id="L162">            return null;</span>
+        } else {
+<span class="nc" id="L164">            return new String(content, StandardCharsets.UTF_8);</span>
+        }
+    }
+
+
+    @Nullable
+    public static byte[] getBytesFromFile(@NotNull String filename) {
+        try {
+<span class="nc" id="L172">            return FileUtils.readFileToByteArray(new File(filename));</span>
+<span class="nc" id="L173">        } catch (Exception e) {</span>
+<span class="nc" id="L174">            return null;</span>
+        }
+    }
+
+
+    static boolean isReadableFile(String path) {
+<span class="nc" id="L180">        File f = new File(path);</span>
+<span class="nc bnc" id="L181" title="All 4 branches missed.">        return f.canRead() &amp;&amp; f.isFile();</span>
+    }
+
+
+    @NotNull
+    public static String readWhole(@NotNull InputStream is) throws IOException {
+<span class="nc" id="L187">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc" id="L188">        byte[] bytes = new byte[8192];</span>
+
+        int nRead;
+<span class="nc bnc" id="L191" title="All 2 branches missed.">        while ((nRead = is.read(bytes, 0, 8192)) &gt; 0) {</span>
+<span class="nc" id="L192">            sb.append(new String(bytes, 0, nRead));</span>
+        }
+<span class="nc" id="L194">        return sb.toString();</span>
+    }
+
+
+    public static void copyResourcesRecursively(URL originUrl, File destination) throws Exception {
+<span class="nc" id="L199">        URLConnection urlConnection = originUrl.openConnection();</span>
+<span class="nc bnc" id="L200" title="All 2 branches missed.">        if (urlConnection instanceof JarURLConnection) {</span>
+<span class="nc" id="L201">            copyJarResourcesRecursively(destination, (JarURLConnection) urlConnection);</span>
+<span class="nc bnc" id="L202" title="All 2 branches missed.">        } else if (urlConnection instanceof FileURLConnection) {</span>
+<span class="nc" id="L203">            FileUtils.copyDirectory(new File(originUrl.getPath()), destination);</span>
+        } else {
+<span class="nc" id="L205">            die(&quot;Unsupported URL type: &quot; + urlConnection);</span>
+        }
+<span class="nc" id="L207">    }</span>
+
+
+    public static void copyJarResourcesRecursively(File destination, JarURLConnection jarConnection) {
+        JarFile jarFile;
+        try {
+<span class="nc" id="L213">            jarFile = jarConnection.getJarFile();</span>
+<span class="nc" id="L214">        } catch (Exception e) {</span>
+<span class="nc" id="L215">            $.die(&quot;Failed to get jar file)&quot;);</span>
+<span class="nc" id="L216">            return;</span>
+<span class="nc" id="L217">        }</span>
+
+<span class="nc" id="L219">        Enumeration&lt;JarEntry&gt; em = jarFile.entries();</span>
+<span class="nc bnc" id="L220" title="All 2 branches missed.">        while (em.hasMoreElements()) {</span>
+<span class="nc" id="L221">            JarEntry entry = em.nextElement();</span>
+<span class="nc bnc" id="L222" title="All 2 branches missed.">            if (entry.getName().startsWith(jarConnection.getEntryName())) {</span>
+<span class="nc" id="L223">                String fileName = StringUtils.removeStart(entry.getName(), jarConnection.getEntryName());</span>
+<span class="nc bnc" id="L224" title="All 2 branches missed.">                if (!fileName.equals(&quot;/&quot;)) {  // exclude the directory</span>
+<span class="nc" id="L225">                    InputStream entryInputStream = null;</span>
+                    try {
+<span class="nc" id="L227">                        entryInputStream = jarFile.getInputStream(entry);</span>
+<span class="nc" id="L228">                        FileUtils.copyInputStreamToFile(entryInputStream, new File(destination, fileName));</span>
+<span class="nc" id="L229">                    } catch (Exception e) {</span>
+<span class="nc" id="L230">                        die(&quot;Failed to copy resource: &quot; + fileName, e);</span>
+                    } finally {
+<span class="nc bnc" id="L232" title="All 2 branches missed.">                        if (entryInputStream != null) {</span>
+                            try {
+<span class="nc" id="L234">                                entryInputStream.close();</span>
+<span class="nc" id="L235">                            } catch (Exception e) {</span>
+<span class="nc" id="L236">                            }</span>
+                        }
+                    }
+                }
+            }
+<span class="nc" id="L241">        }</span>
+<span class="nc" id="L242">    }</span>
+
+
+    public static String readResource(String resource) {
+<span class="nc" id="L246">        InputStream s = Thread.currentThread().getContextClassLoader().getResourceAsStream(resource);</span>
+<span class="nc" id="L247">        return readWholeStream(s);</span>
+    }
+
+
+    /**
+     * get unique hash according to file content and filename
+     */
+    @NotNull
+    public static String getFileHash(@NotNull String path) {
+<span class="nc" id="L256">        byte[] bytes = getBytesFromFile(path);</span>
+<span class="nc" id="L257">        return $.getContentHash(path.getBytes()) + &quot;.&quot; + getContentHash(bytes);</span>
+    }
+
+
+    @NotNull
+    public static String getContentHash(byte[] fileContents) {
+        MessageDigest algorithm;
+
+        try {
+<span class="nc" id="L266">            algorithm = MessageDigest.getInstance(&quot;SHA-1&quot;);</span>
+<span class="nc" id="L267">        } catch (Exception e) {</span>
+<span class="nc" id="L268">            $.die(&quot;Failed to get SHA, shouldn't happen&quot;);</span>
+<span class="nc" id="L269">            return &quot;&quot;;</span>
+<span class="nc" id="L270">        }</span>
+
+<span class="nc" id="L272">        algorithm.reset();</span>
+<span class="nc" id="L273">        algorithm.update(fileContents);</span>
+<span class="nc" id="L274">        byte messageDigest[] = algorithm.digest();</span>
+<span class="nc" id="L275">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc bnc" id="L276" title="All 2 branches missed.">        for (byte aMessageDigest : messageDigest) {</span>
+<span class="nc" id="L277">            sb.append(String.format(&quot;%02x&quot;, 0xFF &amp; aMessageDigest));</span>
+        }
+<span class="nc" id="L279">        return sb.toString();</span>
+    }
+
+
+    static public String escapeQname(@NotNull String s) {
+<span class="nc" id="L284">        return s.replaceAll(&quot;[.&amp;@%-]&quot;, &quot;_&quot;);</span>
+    }
+
+
+    public static String escapeWindowsPath(String path) {
+<span class="nc" id="L289">        return path.replace(&quot;\\&quot;, &quot;\\\\&quot;);</span>
+    }
+
+
+    @NotNull
+    public static Collection&lt;String&gt; toStringCollection(@NotNull Collection&lt;Integer&gt; collection) {
+<span class="nc" id="L295">        List&lt;String&gt; ret = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L296" title="All 2 branches missed.">        for (Integer x : collection) {</span>
+<span class="nc" id="L297">            ret.add(x.toString());</span>
+<span class="nc" id="L298">        }</span>
+<span class="nc" id="L299">        return ret;</span>
+    }
+
+
+    @NotNull
+    static public String joinWithSep(@NotNull Collection&lt;String&gt; ls, String sep, @Nullable String start,
+                                     @Nullable String end) {
+<span class="nc" id="L306">        StringBuilder sb = new StringBuilder();</span>
+<span class="nc bnc" id="L307" title="All 4 branches missed.">        if (start != null &amp;&amp; ls.size() &gt; 1) {</span>
+<span class="nc" id="L308">            sb.append(start);</span>
+        }
+<span class="nc" id="L310">        int i = 0;</span>
+<span class="nc bnc" id="L311" title="All 2 branches missed.">        for (String s : ls) {</span>
+<span class="nc bnc" id="L312" title="All 2 branches missed.">            if (i &gt; 0) {</span>
+<span class="nc" id="L313">                sb.append(sep);</span>
+            }
+<span class="nc" id="L315">            sb.append(s);</span>
+<span class="nc" id="L316">            i++;</span>
+<span class="nc" id="L317">        }</span>
+<span class="nc bnc" id="L318" title="All 4 branches missed.">        if (end != null &amp;&amp; ls.size() &gt; 1) {</span>
+<span class="nc" id="L319">            sb.append(end);</span>
+        }
+<span class="nc" id="L321">        return sb.toString();</span>
+    }
+
+
+    public static void msg(String m) {
+<span class="nc bnc" id="L326" title="All 4 branches missed.">        if (Analyzer.self != null &amp;&amp; !Analyzer.self.hasOption(&quot;quiet&quot;)) {</span>
+<span class="nc" id="L327">            System.out.println(m);</span>
+        }
+<span class="nc" id="L329">    }</span>
+
+
+    public static void msg_(String m) {
+<span class="nc bnc" id="L333" title="All 4 branches missed.">        if (Analyzer.self != null &amp;&amp; !Analyzer.self.hasOption(&quot;quiet&quot;)) {</span>
+<span class="nc" id="L334">            System.out.print(m);</span>
+        }
+<span class="nc" id="L336">    }</span>
+
+
+    public static void testmsg(String m) {
+<span class="nc" id="L340">        System.out.println(m);</span>
+<span class="nc" id="L341">    }</span>
+
+
+    public static void die(String msg) {
+<span class="nc" id="L345">        die(msg, null);</span>
+<span class="nc" id="L346">    }</span>
+
+
+    public static void die(String msg, Exception e) {
+<span class="nc" id="L350">        System.err.println(msg);</span>
+
+<span class="nc bnc" id="L352" title="All 2 branches missed.">        if (e != null) {</span>
+<span class="nc" id="L353">            System.err.println(&quot;Exception: &quot; + e + &quot;\n&quot;);</span>
+        }
+
+<span class="nc" id="L356">        Thread.dumpStack();</span>
+<span class="nc" id="L357">        System.exit(2);</span>
+<span class="nc" id="L358">    }</span>
+
+
+    @Nullable
+    public static String readWholeFile(String filename) {
+        try {
+<span class="nc" id="L364">            return new Scanner(new File(filename)).useDelimiter(&quot;PYSONAR2END&quot;).next();</span>
+<span class="nc" id="L365">        } catch (FileNotFoundException e) {</span>
+<span class="nc" id="L366">            return null;</span>
+        }
+    }
+
+
+    public static String readWholeStream(InputStream in) {
+<span class="nc" id="L372">        return new Scanner(in).useDelimiter(&quot;\\Z&quot;).next();</span>
+    }
+
+
+    @NotNull
+    public static String percent(long num, long total) {
+<span class="nc bnc" id="L378" title="All 2 branches missed.">        if (total == 0) {</span>
+<span class="nc" id="L379">            return &quot;100%&quot;;</span>
+        } else {
+<span class="nc" id="L381">            int pct = (int) (num * 100 / total);</span>
+<span class="nc" id="L382">            return String.format(&quot;%1$3d&quot;, pct) + &quot;%&quot;;</span>
+        }
+    }
+
+
+    @NotNull
+    public static String formatTime(long millis) {
+<span class="nc" id="L389">        long sec = millis / 1000;</span>
+<span class="nc" id="L390">        long min = sec / 60;</span>
+<span class="nc" id="L391">        sec = sec % 60;</span>
+<span class="nc" id="L392">        long hr = min / 60;</span>
+<span class="nc" id="L393">        min = min % 60;</span>
+
+<span class="nc" id="L395">        return hr + &quot;:&quot; + min + &quot;:&quot; + sec;</span>
+    }
+
+
+    /**
+     * format number with fixed width
+     */
+    public static String formatNumber(Object n, int length) {
+<span class="nc bnc" id="L403" title="All 2 branches missed.">        if (length == 0) {</span>
+<span class="nc" id="L404">            length = 1;</span>
+        }
+
+<span class="nc bnc" id="L407" title="All 2 branches missed.">        if (n instanceof Integer) {</span>
+<span class="nc" id="L408">            return String.format(&quot;%1$&quot; + length + &quot;d&quot;, (int) n);</span>
+<span class="nc bnc" id="L409" title="All 2 branches missed.">        } else if (n instanceof Long) {</span>
+<span class="nc" id="L410">            return String.format(&quot;%1$&quot; + length + &quot;d&quot;, (long) n);</span>
+        } else {
+<span class="nc" id="L412">            return String.format(&quot;%1$&quot; + length + &quot;s&quot;, n.toString());</span>
+        }
+    }
+
+    public static boolean deleteDirectory(String directory) {
+<span class="nc" id="L417">        return deleteDirectory(new File(directory));</span>
+    }
+
+    public static boolean deleteDirectory(File directory) {
+<span class="nc bnc" id="L421" title="All 2 branches missed.">        if (directory.exists()) {</span>
+<span class="nc" id="L422">            File[] files = directory.listFiles();</span>
+<span class="nc bnc" id="L423" title="All 2 branches missed.">            if (files != null) {</span>
+<span class="nc bnc" id="L424" title="All 2 branches missed.">                for (File f : files) {</span>
+<span class="nc bnc" id="L425" title="All 2 branches missed.">                    if (f.isDirectory()) {</span>
+<span class="nc" id="L426">                        deleteDirectory(f);</span>
+                    } else {
+<span class="nc" id="L428">                        f.delete();</span>
+                    }
+                }
+            }
+        }
+<span class="nc" id="L433">        return directory.delete();</span>
+    }
+
+
+    public static String newSessionId() {
+<span class="nc" id="L438">        return UUID.randomUUID().toString();</span>
+    }
+
+
+    public static File makePath(String... files) {
+<span class="nc" id="L443">        File ret = new File(files[0]);</span>
+
+<span class="nc bnc" id="L445" title="All 2 branches missed.">        for (int i = 1; i &lt; files.length; i++) {</span>
+<span class="nc" id="L446">            ret = new File(ret, files[i]);</span>
+        }
+
+<span class="nc" id="L449">        return ret;</span>
+    }
+
+
+    public static String makePathString(String... files) {
+<span class="nc" id="L454">        return unifyPath(makePath(files).getPath());</span>
+    }
+
+
+    public static String unifyPath(String filename) {
+<span class="nc" id="L459">        return unifyPath(new File(filename));</span>
+    }
+
+
+    public static String unifyPath(File file) {
+        try {
+<span class="nc" id="L465">            return file.getCanonicalPath();</span>
+<span class="nc" id="L466">        } catch (Exception e) {</span>
+<span class="nc" id="L467">            die(&quot;Failed to get canonical path&quot;);</span>
+<span class="nc" id="L468">            return &quot;&quot;;</span>
+        }
+    }
+
+
+    public static String relPath(String path1, String path2) {
+<span class="nc" id="L474">        String a = unifyPath(path1);</span>
+<span class="nc" id="L475">        String b = unifyPath(path2);</span>
+
+<span class="nc" id="L477">        String[] as = a.split(&quot;[/\\\\]&quot;);</span>
+<span class="nc" id="L478">        String[] bs = b.split(&quot;[/\\\\]&quot;);</span>
+
+        int i;
+<span class="nc bnc" id="L481" title="All 2 branches missed.">        for (i = 0; i &lt; Math.min(as.length, bs.length); i++) {</span>
+<span class="nc bnc" id="L482" title="All 2 branches missed.">            if (!as[i].equals(bs[i])) {</span>
+<span class="nc" id="L483">                break;</span>
+            }
+        }
+
+<span class="nc" id="L487">        int ups = as.length - i - 1;</span>
+
+<span class="nc" id="L489">        File res = null;</span>
+
+<span class="nc bnc" id="L491" title="All 2 branches missed.">        for (int x = 0; x &lt; ups; x++) {</span>
+<span class="nc" id="L492">            res = new File(res, &quot;..&quot;);</span>
+        }
+
+<span class="nc bnc" id="L495" title="All 2 branches missed.">        for (int y = i; y &lt; bs.length; y++) {</span>
+<span class="nc" id="L496">            res = new File(res, bs[y]);</span>
+        }
+
+<span class="nc bnc" id="L499" title="All 2 branches missed.">        if (res == null) {</span>
+<span class="nc" id="L500">            return null;</span>
+        } else {
+<span class="nc" id="L502">            return res.getPath();</span>
+        }
+    }
+
+
+    public static String projRelPath(String file) {
+<span class="nc bnc" id="L508" title="All 2 branches missed.">        if (file.startsWith(Analyzer.self.projectDir)) {</span>
+<span class="nc" id="L509">            return file.substring(Analyzer.self.projectDir.length() + 1);</span>
+        } else {
+<span class="nc" id="L511">            return file;</span>
+        }
+    }
+
+
+    public static String projAbsPath(String file) {
+<span class="nc bnc" id="L517" title="All 4 branches missed.">        if (file.startsWith(&quot;/&quot;) || file.startsWith(Analyzer.self.projectDir)) {</span>
+<span class="nc" id="L518">            return file;</span>
+        } else {
+<span class="nc" id="L520">            return makePathString(Analyzer.self.projectDir, file);</span>
+        }
+    }
+
+
+    @NotNull
+    public static File joinPath(@NotNull File dir, String file) {
+<span class="nc" id="L527">        return joinPath(dir.getAbsolutePath(), file);</span>
+    }
+
+
+    @NotNull
+    public static File joinPath(String dir, String file) {
+<span class="nc" id="L533">        File file1 = new File(dir);</span>
+<span class="nc" id="L534">        File file2 = new File(file1, file);</span>
+<span class="nc" id="L535">        return file2;</span>
+    }
+
+    public static String banner(String msg) {
+<span class="nc" id="L539">        return &quot;---------------- &quot; + msg + &quot; ----------------&quot;;</span>
+    }
+
+
+    public static String printMem(long bytes) {
+<span class="nc" id="L544">        double dbytes = (double) bytes;</span>
+<span class="nc" id="L545">        DecimalFormat df = new DecimalFormat(&quot;#.##&quot;);</span>
+
+<span class="nc bnc" id="L547" title="All 2 branches missed.">        if (dbytes &lt; 1024) {</span>
+<span class="nc" id="L548">            return df.format(bytes);</span>
+<span class="nc bnc" id="L549" title="All 2 branches missed.">        } else if (dbytes &lt; 1024 * 1024) {</span>
+<span class="nc" id="L550">            return df.format(dbytes / 1024);</span>
+<span class="nc bnc" id="L551" title="All 2 branches missed.">        } else if (dbytes &lt; 1024 * 1024 * 1024) {</span>
+<span class="nc" id="L552">            return df.format(dbytes / 1024 / 1024) + &quot;M&quot;;</span>
+<span class="nc bnc" id="L553" title="All 2 branches missed.">        } else if (dbytes &lt; 1024 * 1024 * 1024 * 1024L) {</span>
+<span class="nc" id="L554">            return df.format(dbytes / 1024 / 1024 / 1024) + &quot;G&quot;;</span>
+        } else {
+<span class="nc" id="L556">            return &quot;Too big to show you&quot;;</span>
+        }
+    }
+
+
+    public static String getGCStats() {
+<span class="nc" id="L562">        long totalGC = 0;</span>
+<span class="nc" id="L563">        long gcTime = 0;</span>
+
+<span class="nc bnc" id="L565" title="All 2 branches missed.">        for (GarbageCollectorMXBean gc : ManagementFactory.getGarbageCollectorMXBeans()) {</span>
+<span class="nc" id="L566">            long count = gc.getCollectionCount();</span>
+
+<span class="nc bnc" id="L568" title="All 2 branches missed.">            if (count &gt;= 0) {</span>
+<span class="nc" id="L569">                totalGC += count;</span>
+            }
+
+<span class="nc" id="L572">            long time = gc.getCollectionTime();</span>
+
+<span class="nc bnc" id="L574" title="All 2 branches missed.">            if (time &gt;= 0) {</span>
+<span class="nc" id="L575">                gcTime += time;</span>
+            }
+<span class="nc" id="L577">        }</span>
+
+<span class="nc" id="L579">        StringBuilder sb = new StringBuilder();</span>
+
+<span class="nc" id="L581">        sb.append(banner(&quot;memory stats&quot;));</span>
+<span class="nc" id="L582">        sb.append(&quot;\n- total collections: &quot; + totalGC);</span>
+<span class="nc" id="L583">        sb.append(&quot;\n- total collection time: &quot; + formatTime(gcTime));</span>
+
+<span class="nc" id="L585">        Runtime runtime = Runtime.getRuntime();</span>
+<span class="nc" id="L586">        sb.append(&quot;\n- total memory: &quot; + $.printMem(runtime.totalMemory()));</span>
+
+<span class="nc" id="L588">        return sb.toString();</span>
+    }
+
+    // cancel duplication
+    public static List&lt;List&lt;Binding&gt;&gt; correlateBindings(List&lt;Binding&gt; bindings) {
+<span class="nc" id="L593">        Map&lt;Integer, List&lt;Binding&gt;&gt; bdHash = new HashMap&lt;&gt;();</span>
+<span class="nc bnc" id="L594" title="All 2 branches missed.">        for (Binding b : bindings) {</span>
+<span class="nc" id="L595">            int hash = b.hashCode();</span>
+<span class="nc bnc" id="L596" title="All 2 branches missed.">            if (!bdHash.containsKey(hash)) {</span>
+<span class="nc" id="L597">                bdHash.put(hash, new ArrayList&lt;&gt;());</span>
+            }
+<span class="nc" id="L599">            List&lt;Binding&gt; bs = bdHash.get(hash);</span>
+<span class="nc" id="L600">            bs.add(b);</span>
+<span class="nc" id="L601">        }</span>
+<span class="nc" id="L602">        return new ArrayList&lt;&gt;(bdHash.values());</span>
+    }
+
+    public static boolean deleteFile(String file) {
+<span class="nc" id="L606">        return new File(file).delete();</span>
+    }
+
+    public static void sleep(long millis) {
+        try {
+<span class="nc" id="L611">            Thread.sleep(millis);</span>
+<span class="nc" id="L612">        } catch (InterruptedException e) {</span>
+<span class="nc" id="L613">        }</span>
+<span class="nc" id="L614">    }</span>
+
+    public static void debugf(String format, Object... args) {
+<span class="nc bnc" id="L617" title="All 2 branches missed.">        if (Analyzer.self.hasOption(&quot;debug&quot;)) {</span>
+<span class="nc" id="L618">            System.out.printf(format, args);</span>
+<span class="nc" id="L619">            System.out.println();</span>
+        }
+<span class="nc" id="L621">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

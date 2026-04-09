@@ -5,20 +5,20 @@ import java.util.List;
 import java.util.function.Function;
 
 class AnnNode {
-<span class="fc" id="L8">    private Double output = null;</span>
+<span class="nc" id="L8">    private Double output = null;</span>
     private List&lt;AnnConnection&gt; inputs;
     private List&lt;AnnConnection&gt; outputs;
     private AnnType type;
     private int id;
     private double bias;
 
-<span class="fc" id="L15">    public AnnNode(AnnType type, int id, double bias) {</span>
-<span class="fc" id="L16">        this.id = id;</span>
-<span class="fc" id="L17">        this.type = type;</span>
-<span class="fc" id="L18">        this.inputs = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L19">        this.outputs = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L20">        this.bias = bias;</span>
-<span class="fc" id="L21">    }</span>
+<span class="nc" id="L15">    public AnnNode(AnnType type, int id, double bias) {</span>
+<span class="nc" id="L16">        this.id = id;</span>
+<span class="nc" id="L17">        this.type = type;</span>
+<span class="nc" id="L18">        this.inputs = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L19">        this.outputs = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L20">        this.bias = bias;</span>
+<span class="nc" id="L21">    }</span>
 
     public void connectInput(AnnConnection connection) {
 <span class="nc" id="L24">        inputs.add(connection);</span>
@@ -31,32 +31,32 @@ class AnnNode {
 <span class="nc" id="L31">    }</span>
 
     public Double getOutput() {
-<span class="fc" id="L34">        return output;</span>
+<span class="nc" id="L34">        return output;</span>
     }
 
     public List&lt;AnnConnection&gt; getInputs() {
-<span class="fc" id="L38">        return inputs;</span>
+<span class="nc" id="L38">        return inputs;</span>
     }
 
     public List&lt;AnnConnection&gt; getOutputs() {
-<span class="fc" id="L42">        return outputs;</span>
+<span class="nc" id="L42">        return outputs;</span>
     }
 
     public AnnType getType() {
-<span class="fc" id="L46">        return type;</span>
+<span class="nc" id="L46">        return type;</span>
     }
 
     public int getId() {
-<span class="fc" id="L50">        return id;</span>
+<span class="nc" id="L50">        return id;</span>
     }
 
     public void setOutput(Double output) {
-<span class="fc" id="L54">        this.output = output;</span>
-<span class="fc" id="L55">    }</span>
+<span class="nc" id="L54">        this.output = output;</span>
+<span class="nc" id="L55">    }</span>
 
     public double calculateRecoursiveOutput(Function&lt;Double, Double&gt; activation, int deepCount) {
-<span class="pc bpc" id="L58" title="1 of 2 branches missed.">        if (deepCount == 1000) throw new RuntimeException(&quot;Recurrent&quot;);</span>
-<span class="pc bpc" id="L59" title="1 of 2 branches missed.">        if (output != null) return output;</span>
+<span class="nc bnc" id="L58" title="All 2 branches missed.">        if (deepCount == 1000) throw new RuntimeException(&quot;Recurrent&quot;);</span>
+<span class="nc bnc" id="L59" title="All 2 branches missed.">        if (output != null) return output;</span>
 <span class="nc bnc" id="L60" title="All 2 branches missed.">        if (type == AnnType.INPUT) throw new RuntimeException(&quot;Input node output is not set&quot;);</span>
 
 <span class="nc" id="L62">        double sum = inputs.stream()</span>

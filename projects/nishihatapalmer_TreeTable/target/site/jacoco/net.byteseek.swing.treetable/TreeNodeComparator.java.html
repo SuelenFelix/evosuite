@@ -78,13 +78,13 @@ public class TreeNodeComparator implements Comparator&lt;TreeNode&gt; {
      *
      * @param model The TreeTableModel to obtain column values and sort keys from.
      */
-<span class="fc" id="L81">    public TreeNodeComparator(final TreeTableModel model) {</span>
-<span class="fc" id="L82">        this.model = model;</span>
-<span class="fc" id="L83">    }</span>
+<span class="nc" id="L81">    public TreeNodeComparator(final TreeTableModel model) {</span>
+<span class="nc" id="L82">        this.model = model;</span>
+<span class="nc" id="L83">    }</span>
 
     @Override
     public int compare(final TreeNode node1, final TreeNode node2) {
-<span class="fc" id="L87">        final TreeTableModel localModel = model; // use a local reference to avoid repeated field access.</span>
+<span class="nc" id="L87">        final TreeTableModel localModel = model; // use a local reference to avoid repeated field access.</span>
 
         // If a grouping comparator is set on the model, use that first:
 <span class="nc" id="L90">        final Comparator&lt;TreeNode&gt; groupingComparator = localModel.getGroupingComparator();</span>
@@ -137,8 +137,8 @@ public class TreeNodeComparator implements Comparator&lt;TreeNode&gt; {
      * @return the result of comparing the two nodes.
      */
     protected int compareValues(final TreeNode node1, final TreeNode node2, final RowSorter.SortKey sortKey) {
-<span class="fc" id="L140">        final TreeTableModel localModel = model; // reduce field access - use a local reference.</span>
-<span class="fc" id="L141">        final int sortedColumn = sortKey.getColumn();</span>
+<span class="nc" id="L140">        final TreeTableModel localModel = model; // reduce field access - use a local reference.</span>
+<span class="nc" id="L141">        final int sortedColumn = sortKey.getColumn();</span>
 <span class="nc" id="L142">        final Object value1 = localModel.getColumnValue(node1, sortedColumn);</span>
 <span class="nc" id="L143">        final Object value2 = localModel.getColumnValue(node2, sortedColumn);</span>
 

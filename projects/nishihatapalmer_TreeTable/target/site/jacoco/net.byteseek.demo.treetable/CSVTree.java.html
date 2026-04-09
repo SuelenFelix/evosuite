@@ -21,7 +21,7 @@ import java.util.Arrays;
  * unless the cursor is a resize cursor.  In that case, if it is a double-click, it will resize the column to fit
  * the contents.
  */
-<span class="fc" id="L24">public class CSVTree {</span>
+<span class="nc" id="L24">public class CSVTree {</span>
 
     /**
      * Reads CSV data and constructs a tree structure based on specified ID and parent ID columns,
@@ -34,7 +34,7 @@ import java.util.Arrays;
      */
     public static void readAndDisplayTree(BufferedReader reader, String idColumnName, String parentIdColumnName, char separatorChar) throws IOException{
         // Get the CSV headers and the indexes of the id and parent id columns:
-<span class="fc" id="L37">        TreeUtils.CSVTableHeaderInfo headerInfo =</span>
+<span class="nc" id="L37">        TreeUtils.CSVTableHeaderInfo headerInfo =</span>
 <span class="nc" id="L38">                TreeUtils.processCSVHeaders(reader, idColumnName, parentIdColumnName, separatorChar);</span>
 
         // Create an iterator for the table tree data:
@@ -58,16 +58,16 @@ import java.util.Arrays;
      * @param headers  An array of column headers for the table.
      */
     public static void displayTree(DefaultMutableTreeNode rootNode, Object[] headers) throws IOException {
-<span class="fc" id="L61">        javax.swing.SwingUtilities.invokeLater(() -&gt; {</span>
+<span class="nc" id="L61">        javax.swing.SwingUtilities.invokeLater(() -&gt; {</span>
             // Build the column model
-<span class="fc" id="L63">            javax.swing.table.TableColumnModel columnModel = TableUtils.buildTableColumnModel(Arrays.asList(headers));</span>
+<span class="nc" id="L63">            javax.swing.table.TableColumnModel columnModel = TableUtils.buildTableColumnModel(Arrays.asList(headers));</span>
 
             // Create a TreeTableModelObjectArray from the root node and column model.
-<span class="fc" id="L66">            TreeTableModelObjectArray treeTableModel = new TreeTableModelObjectArray(rootNode, columnModel);</span>
-<span class="fc" id="L67">            treeTableModel.setShowRoot(false);</span>
+<span class="nc" id="L66">            TreeTableModelObjectArray treeTableModel = new TreeTableModelObjectArray(rootNode, columnModel);</span>
+<span class="nc" id="L67">            treeTableModel.setShowRoot(false);</span>
 
             // Create a JTable and set the TreeTableModelObjectArray as its model
-<span class="fc" id="L70">            javax.swing.JTable table = new javax.swing.JTable();</span>
+<span class="nc" id="L70">            javax.swing.JTable table = new javax.swing.JTable();</span>
 <span class="nc" id="L71">            treeTableModel.bindTable(table);</span>
 
             // Replace the default look and feel mouse click listener so it sorts on every click,
@@ -87,7 +87,7 @@ import java.util.Arrays;
 <span class="nc" id="L87">            frame.setLocationRelativeTo(null);</span>
 <span class="nc" id="L88">            frame.setVisible(true);</span>
 <span class="nc" id="L89">        });</span>
-<span class="fc" id="L90">    }</span>
+<span class="nc" id="L90">    }</span>
     
     /**
      * The entry point of the CSVTree program. This method reads a CSV file, parses the data,
@@ -101,9 +101,9 @@ import java.util.Arrays;
      *                       If nothing is provided, it will default to a comma.
      */
     public static void main(String[] args) {
-<span class="pc bpc" id="L104" title="3 of 4 branches missed.">        if (args.length &lt; 3 || args.length &gt; 4) {</span>
-<span class="fc" id="L105">            System.err.println(&quot;Usage: java CSVTree &lt;fileName&gt; &lt;idColumnName&gt; &lt;parentIdColumnName&gt; [&lt;separatorChar&gt;]&quot;);</span>
-<span class="fc" id="L106">            return;</span>
+<span class="nc bnc" id="L104" title="All 4 branches missed.">        if (args.length &lt; 3 || args.length &gt; 4) {</span>
+<span class="nc" id="L105">            System.err.println(&quot;Usage: java CSVTree &lt;fileName&gt; &lt;idColumnName&gt; &lt;parentIdColumnName&gt; [&lt;separatorChar&gt;]&quot;);</span>
+<span class="nc" id="L106">            return;</span>
         }
 <span class="nc bnc" id="L108" title="All 4 branches missed.">        char separatorChar = args.length == 3 ? ',' : args[3].length() == 1 ? args[3].charAt(0) : (char) Integer.parseInt(args[3], 16);</span>
 <span class="nc" id="L109">        try (BufferedReader reader = new BufferedReader(new FileReader(args[0]))) {</span>

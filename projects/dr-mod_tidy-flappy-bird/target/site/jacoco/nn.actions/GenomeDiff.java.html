@@ -18,8 +18,8 @@ public class GenomeDiff {
     private Map&lt;Integer, Connection&gt; mapGenome1;
     private Map&lt;Integer, Connection&gt; mapGenome2;
 
-<span class="fc" id="L21">    public GenomeDiff(List&lt;Connection&gt; genome1, List&lt;Connection&gt; genome2) {</span>
-<span class="fc" id="L22">        this.mapGenome1 = genome1.stream()</span>
+<span class="nc" id="L21">    public GenomeDiff(List&lt;Connection&gt; genome1, List&lt;Connection&gt; genome2) {</span>
+<span class="nc" id="L22">        this.mapGenome1 = genome1.stream()</span>
 <span class="nc" id="L23">                .collect(Collectors.toMap(Connection::getInnovation, Function.identity()));</span>
 <span class="nc" id="L24">        this.mapGenome2 = genome2.stream()</span>
 <span class="nc" id="L25">                .collect(Collectors.toMap(Connection::getInnovation, Function.identity()));</span>
@@ -48,31 +48,31 @@ public class GenomeDiff {
 <span class="nc" id="L48">    }</span>
 
     public Set&lt;Integer&gt; getMatchingGenes() {
-<span class="fc" id="L51">        return matchingGenes;</span>
+<span class="nc" id="L51">        return matchingGenes;</span>
     }
 
     public Set&lt;Integer&gt; getExcessGenes() {
-<span class="fc" id="L55">        return excessGenes;</span>
+<span class="nc" id="L55">        return excessGenes;</span>
     }
 
     public Set&lt;Integer&gt; getDisjointGenes() {
-<span class="fc" id="L59">        return disjointGenes;</span>
+<span class="nc" id="L59">        return disjointGenes;</span>
     }
 
     public double feta() {
-<span class="fc" id="L63">        float c1 = nn.Constants.C1;</span>
-<span class="fc" id="L64">        float c2 = nn.Constants.C2;</span>
-<span class="fc" id="L65">        float c3 = nn.Constants.C3;</span>
+<span class="nc" id="L63">        float c1 = nn.Constants.C1;</span>
+<span class="nc" id="L64">        float c2 = nn.Constants.C2;</span>
+<span class="nc" id="L65">        float c3 = nn.Constants.C3;</span>
         float n;
-<span class="pc bpc" id="L67" title="2 of 4 branches missed.">        if (mapGenome1.size() &lt;= N_THRESHOLD &amp;&amp; mapGenome2.size() &lt;= N_THRESHOLD) {</span>
-<span class="fc" id="L68">            n = 1;</span>
+<span class="nc bnc" id="L67" title="All 4 branches missed.">        if (mapGenome1.size() &lt;= N_THRESHOLD &amp;&amp; mapGenome2.size() &lt;= N_THRESHOLD) {</span>
+<span class="nc" id="L68">            n = 1;</span>
         } else {
 <span class="nc" id="L70">            n = Math.max(mapGenome1.size(), mapGenome2.size());</span>
         }
 
 
-<span class="fc" id="L74">        var e = this.excessGenes.size();</span>
-<span class="fc" id="L75">        var d = this.disjointGenes.size();</span>
+<span class="nc" id="L74">        var e = this.excessGenes.size();</span>
+<span class="nc" id="L75">        var d = this.disjointGenes.size();</span>
 <span class="nc" id="L76">        float w = (float) this.averageWeight();</span>
 
 
@@ -82,27 +82,27 @@ public class GenomeDiff {
     }
 
     double averageWeight() {
-<span class="pc" id="L85">        return matchingGenes.stream()</span>
-<span class="fc" id="L86">                .mapToDouble(it -&gt; {</span>
+<span class="nc" id="L85">        return matchingGenes.stream()</span>
+<span class="nc" id="L86">                .mapToDouble(it -&gt; {</span>
 <span class="nc" id="L87">                    float weight1 = mapGenome1.get(it).getWeight();</span>
 <span class="nc" id="L88">                    float weight2 = mapGenome2.get(it).getWeight();</span>
 <span class="nc" id="L89">                    return Math.abs(weight1 - weight2);</span>
                 })
-<span class="fc" id="L91">                .average()</span>
+<span class="nc" id="L91">                .average()</span>
 <span class="nc" id="L92">                .getAsDouble();</span>
     }
 
     private Set&lt;Integer&gt; calculateMatching(Map&lt;Integer, Connection&gt; mapGenome1, Map&lt;Integer, Connection&gt; mapGenome2) {
-<span class="fc" id="L96">        Set&lt;Integer&gt; matching = new HashSet&lt;&gt;(mapGenome1.keySet());</span>
-<span class="fc" id="L97">        matching.retainAll(mapGenome2.keySet());</span>
-<span class="fc" id="L98">        return matching;</span>
+<span class="nc" id="L96">        Set&lt;Integer&gt; matching = new HashSet&lt;&gt;(mapGenome1.keySet());</span>
+<span class="nc" id="L97">        matching.retainAll(mapGenome2.keySet());</span>
+<span class="nc" id="L98">        return matching;</span>
     }
 
 
     private static Set&lt;Integer&gt; calculateExcess(Map&lt;Integer, Connection&gt; biggerGenome, Integer highestInnovation, Integer endOfInnovation) {
-<span class="fc" id="L103">        return biggerGenome.keySet().stream()</span>
-<span class="pc bnc" id="L104" title="All 4 branches missed.">                .filter(it -&gt; it &lt;= highestInnovation &amp;&amp; it &gt; endOfInnovation)</span>
-<span class="fc" id="L105">                .collect(Collectors.toSet());</span>
+<span class="nc" id="L103">        return biggerGenome.keySet().stream()</span>
+<span class="nc bnc" id="L104" title="All 4 branches missed.">                .filter(it -&gt; it &lt;= highestInnovation &amp;&amp; it &gt; endOfInnovation)</span>
+<span class="nc" id="L105">                .collect(Collectors.toSet());</span>
     }
 
     private static Integer getMaxInnovation(Set&lt;Integer&gt; integers) {

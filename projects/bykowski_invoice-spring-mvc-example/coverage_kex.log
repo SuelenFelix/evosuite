@@ -46,11 +46,11 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_setPrice_14207243044
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in pl.bykowski.invoicespringmvcexample.Invoice_setPrice_14207243044
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in pl.bykowski.invoicespringmvcexample.Invoice_setPrice_14207243044
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getPrice_65315615612
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_getPrice_65315615612
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643586
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643586
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_getAllInvoices_4731643586
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_init_15042974369
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.Invoice_init_15042974369
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_init_15531079510
@@ -59,12 +59,12 @@
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_getName_20905993247
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292124
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292124
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.util.NoSuchElementException: No value present
 	at pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292124.test(InvoiceServiceImpl_updateInvoice_18804292124.java:114)
 
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getName_209059932416
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.Invoice_getName_209059932416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_getName_209059932416
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325980
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325980
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getDate_22904060214
@@ -87,24 +87,24 @@ java.lang.NullPointerException
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-2026-04-08 06:06:42.548  INFO 70 --- [me-limited test] p.b.i.InvoiceSpringMvcExampleApplication : Starting InvoiceSpringMvcExampleApplication using Java 11.0.16 on 53e6319f9304 with PID 70 (started by root in /app)
-2026-04-08 06:06:42.550  INFO 70 --- [me-limited test] p.b.i.InvoiceSpringMvcExampleApplication : No active profile set, falling back to default profiles: default
-2026-04-08 06:06:43.426  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:06:43.436  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:06:43.437  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2026-04-08 06:06:43.505  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:06:43.505  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
-2026-04-08 06:06:43.928  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:06:43.937  INFO 70 --- [me-limited test] p.b.i.InvoiceSpringMvcExampleApplication : Started InvoiceSpringMvcExampleApplication in 1.789 seconds (JVM running for 2.644)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.973 s - in pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772251
+2026-04-09 12:55:45.688  INFO 70 --- [me-limited test] p.b.i.InvoiceSpringMvcExampleApplication : Starting InvoiceSpringMvcExampleApplication using Java 11.0.16 on 9be455f55765 with PID 70 (started by root in /app)
+2026-04-09 12:55:45.692  INFO 70 --- [me-limited test] p.b.i.InvoiceSpringMvcExampleApplication : No active profile set, falling back to default profiles: default
+2026-04-09 12:55:46.588  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 12:55:46.601  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 12:55:46.602  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-04-09 12:55:46.674  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 12:55:46.674  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 936 ms
+2026-04-09 12:55:47.048  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 12:55:47.056  INFO 70 --- [me-limited test] p.b.i.InvoiceSpringMvcExampleApplication : Started InvoiceSpringMvcExampleApplication in 1.802 seconds (JVM running for 2.692)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.02 s - in pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772251
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getDate_2290406025
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.Invoice_getDate_2290406025
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_getDate_2290406025
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_setId_9529525112
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_setId_9529525112
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getId_52291075310
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_getId_52291075310
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772253
-2026-04-08 06:06:43.971 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 12:55:47.090 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.15.jar:5.3.15]
@@ -134,7 +134,7 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772253
-[ERROR] test  Time elapsed: 0.025 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0.026 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_main_10954772253.test(InvoiceSpringMvcExampleApplication_main_10954772253.java:44)
 
@@ -143,7 +143,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_setPrice_142072430413
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_setPrice_142072430413
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325981
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325981
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.InvoiceController_init_2333325981
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_setName_3707227568
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_setName_3707227568
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getId_5229107531
@@ -157,13 +157,13 @@ java.lang.NullPointerException
 	at pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_updateInvoice_18804292129.test(InvoiceServiceImpl_updateInvoice_18804292129.java:45)
 
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_getPrice_6531561563
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.Invoice_getPrice_6531561563
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_getPrice_6531561563
 [INFO] Running pl.bykowski.invoicespringmvcexample.Invoice_setDate_149557737615
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.Invoice_setDate_149557737615
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_init_7189142212
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.InvoiceSpringMvcExampleApplication_init_7189142212
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538082
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538082
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_saveInvoice_7873538082
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312833
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312833
 [INFO] Running pl.bykowski.invoicespringmvcexample.InvoiceServiceImpl_deleteInvoice_3513312838
@@ -207,6 +207,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.137 s
-[INFO] Finished at: 2026-04-08T06:06:44Z
+[INFO] Total time:  5.294 s
+[INFO] Finished at: 2026-04-09T12:55:47Z
 [INFO] ------------------------------------------------------------------------

@@ -42,10 +42,10 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.example.qrcodeexample.qrcodedemo.QRCodeGenerator_init_5641944240
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.example.qrcodeexample.qrcodedemo.QRCodeGenerator_init_5641944240
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.example.qrcodeexample.qrcodedemo.QRCodeGenerator_init_5641944240
 [INFO] Running com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_main_19254360943
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.337 s <<< FAILURE! - in com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_main_19254360943
-[ERROR] test  Time elapsed: 0.336 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.617 s <<< FAILURE! - in com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_main_19254360943
+[ERROR] test  Time elapsed: 0.616 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_main_19254360943.test(QrcodedemoApplication_main_19254360943.java:44)
 
@@ -61,20 +61,20 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.5)
 
-2026-04-08 06:39:33.699  INFO 70 --- [me-limited test] c.e.q.qrcodedemo.QrcodedemoApplication   : Starting QrcodedemoApplication using Java 11.0.16 on 120aafcfb529 with PID 70 (started by root in /app)
-2026-04-08 06:39:33.701  INFO 70 --- [me-limited test] c.e.q.qrcodedemo.QrcodedemoApplication   : No active profile set, falling back to default profiles: default
-2026-04-08 06:39:34.935  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:39:34.951  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:39:34.951  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
-2026-04-08 06:39:35.032  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:39:35.033  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
-2026-04-08 06:39:35.489  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:39:35.499  INFO 70 --- [me-limited test] c.e.q.qrcodedemo.QrcodedemoApplication   : Started QrcodedemoApplication in 2.415 seconds (JVM running for 3.808)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.411 s - in com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_main_19254360941
+2026-04-09 13:31:16.186  INFO 70 --- [me-limited test] c.e.q.qrcodedemo.QrcodedemoApplication   : Starting QrcodedemoApplication using Java 11.0.16 on 2cb39faebdba with PID 70 (started by root in /app)
+2026-04-09 13:31:16.196  INFO 70 --- [me-limited test] c.e.q.qrcodedemo.QrcodedemoApplication   : No active profile set, falling back to default profiles: default
+2026-04-09 13:31:18.810  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:31:18.835  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:31:18.836  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2026-04-09 13:31:19.027  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:31:19.030  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2668 ms
+2026-04-09 13:31:20.010  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 13:31:20.027  INFO 70 --- [me-limited test] c.e.q.qrcodedemo.QrcodedemoApplication   : Started QrcodedemoApplication in 4.808 seconds (JVM running for 7.03)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.796 s - in com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_main_19254360941
 [INFO] Running com.example.qrcodeexample.qrcodedemo.QRCodeGenerator_init_5641944241
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.qrcodeexample.qrcodedemo.QRCodeGenerator_init_5641944241
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.example.qrcodeexample.qrcodedemo.QRCodeGenerator_init_5641944241
 [INFO] Running com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_init_15488730902
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_init_15488730902
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.example.qrcodeexample.qrcodedemo.QrcodedemoApplication_init_15488730902
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -98,6 +98,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  9.222 s
-[INFO] Finished at: 2026-04-08T06:39:36Z
+[INFO] Total time:  12.716 s
+[INFO] Finished at: 2026-04-09T13:31:20Z
 [INFO] ------------------------------------------------------------------------

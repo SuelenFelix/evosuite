@@ -73,16 +73,16 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358360
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358360
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s - in io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358360
 [INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183790
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183790
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183790
 [INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639592
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639592
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639592
 [INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639596
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639596
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.TempDir_removeTempDir_646639596
 [INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_init_6835828104
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.TempDir_init_6835828104
 [INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378051
@@ -92,10 +92,10 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 [INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378055
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.files.TempDir_getTempDir_14260378055
 [INFO] Running io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613261
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613261
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.moacirrf.javadecompiler.files.FileSystemHelper_init_4030613261
 [INFO] Running io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937
-[ERROR] test(io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937)  Time elapsed: 0.004 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937
+[ERROR] test(io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937)  Time elapsed: 0.007 s  <<< ERROR!
 java.lang.NullPointerException
 	at io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910937.test(TempDir_clearTempFolder_16494910937.java:44)
 
@@ -108,35 +108,35 @@ java.lang.NullPointerException
 	at io.github.moacirrf.javadecompiler.files.TempDir_clearTempFolder_16494910933.test(TempDir_clearTempFolder_16494910933.java:42)
 
 [INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183792
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183792
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_create_19390183792
 [INFO] Running io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358362
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358362
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.Bundle_CTLDecompileAction_7562358362
 [INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891603
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891603
 [INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891601
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891601
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.ExceptionHandler_init_18173891601
 [INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892
-[ERROR] test(io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892)  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892
+[ERROR] test(io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892)  Time elapsed: 0.003 s  <<< ERROR!
 java.lang.NullPointerException
 	at io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867892.test(ExceptionHandler_handleException_16687867892.java:44)
 
 [INFO] Running io.github.moacirrf.javadecompiler.Bundle_init_20260786551
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.Bundle_init_20260786551
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.Bundle_init_20260786551
 [INFO] Running io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890
-[ERROR] test(io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890)  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890
+[ERROR] test(io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.ClassNotFoundException: kex.java.lang.Double
 	at io.github.moacirrf.javadecompiler.ExceptionHandler_handleException_16687867890.setup(ExceptionHandler_handleException_16687867890.java:45)
 
 [INFO] Running io.github.moacirrf.javadecompiler.Bundle_init_20260786553
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.Bundle_init_20260786553
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.Bundle_init_20260786553
 [INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346593
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346593
 [INFO] Running io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367861
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367861
 [INFO] Running io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367860
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367860
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.moacirrf.javadecompiler.validator.FileValidator_init_16051367860
 [INFO] Running io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346591
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.moacirrf.javadecompiler.DecompilerFactory_init_8301346591
 [INFO] 
@@ -165,6 +165,6 @@ Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstre
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.317 s
-[INFO] Finished at: 2026-04-08T06:21:00Z
+[INFO] Total time:  4.444 s
+[INFO] Finished at: 2026-04-09T13:11:35Z
 [INFO] ------------------------------------------------------------------------

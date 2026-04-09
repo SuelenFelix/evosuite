@@ -53,8 +53,8 @@ public class TreeTableModelObjectArray extends TreeTableModel {
 
     @Override
     public Object getColumnValue(TreeNode node, int column) {
-<span class="fc" id="L56">        final Object[] objects = TreeUtils.getUserObject(node);</span>
-<span class="pc bpc" id="L57" title="1 of 2 branches missed.">        return objects == null? null : objects[column];</span>
+<span class="nc" id="L56">        final Object[] objects = TreeUtils.getUserObject(node);</span>
+<span class="nc bnc" id="L57" title="All 2 branches missed.">        return objects == null? null : objects[column];</span>
     }
 
     @Override

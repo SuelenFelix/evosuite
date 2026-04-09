@@ -138,7 +138,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.innova.transactiontuto.TransactionTutorials_init_12647106973
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.innova.transactiontuto.TransactionTutorials_init_12647106973
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.innova.transactiontuto.TransactionTutorials_init_12647106973
 [INFO] Running com.innova.transactiontuto.TransactionTutorials_main_8881476935
 java.lang.ArithmeticException: / by zero
 	at com.innova.transactiontuto.TransactionTutorials.main(TransactionTutorials.java:19)
@@ -161,8 +161,8 @@ java.lang.ArithmeticException: / by zero
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.innova.transactiontuto.TransactionTutorials_main_8881476935
-[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.innova.transactiontuto.TransactionTutorials_main_8881476935
+[ERROR] test  Time elapsed: 0.012 s  <<< ERROR!
 java.lang.ArithmeticException: ak burda sıfır hatası var
 	at com.innova.transactiontuto.TransactionTutorials_main_8881476935.test(TransactionTutorials_main_8881476935.java:44)
 
@@ -190,29 +190,29 @@ java.lang.ArithmeticException: / by zero
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.innova.transactiontuto.TransactionTutorials_main_8881476932
-[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.innova.transactiontuto.TransactionTutorials_main_8881476932
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.ArithmeticException: ak burda sıfır hatası var
 	at com.innova.transactiontuto.TransactionTutorials_main_8881476932.test(TransactionTutorials_main_8881476932.java:50)
 
 [INFO] Running com.innova.transactiontuto.TransactionTutorials_init_12647106970
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.transactiontuto.TransactionTutorials_init_12647106970
 [INFO] Running com.innova.transactiontuto.TransactionTutorials_deneme_12962325054
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.transactiontuto.TransactionTutorials_deneme_12962325054
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.transactiontuto.TransactionTutorials_deneme_12962325054
 [INFO] Running com.innova.entity.ComputerEntity_setComputerTrade_101872191725
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_setComputerTrade_101872191725
 [INFO] Running com.innova.entity.AuditEntity_canEqual_65758827213
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_canEqual_65758827213
 [INFO] Running com.innova.entity.ComputerEntity_setComputerId_19604792296
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_setComputerId_19604792296
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_setComputerId_19604792296
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_build_8218405625
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_build_8218405625
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_build_8218405625
 [INFO] Running com.innova.entity.ComputerEntity_setComputerId_196047922923
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_setComputerId_196047922923
 [INFO] Running com.innova.entity.AuditEntity_init_180372969617
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_init_180372969617
 [INFO] Running com.innova.entity.ComputerEntity_hashCode_11351625630
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_hashCode_11351625630
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_hashCode_11351625630
 [INFO] Running com.innova.entity.PersonEntity_setPersonName_8259865421
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_setPersonName_8259865421
 [INFO] Running com.innova.entity.AuditEntity_setAuditName_136051422611
@@ -220,7 +220,7 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.PersonEntity_setPersonId_16687608995
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_setPersonId_16687608995
 [INFO] Running com.innova.entity.PersonEntity_setPersonName_825986546
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_setPersonName_825986546
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_setPersonName_825986546
 [INFO] Running com.innova.entity.AuditEntity_canEqual_6575882724
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_canEqual_6575882724
 [INFO] Running com.innova.entity.PersonEntity_builder_172015523915
@@ -266,11 +266,11 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.AuditEntity_hashCode_59526103214
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_hashCode_59526103214
 [INFO] Running com.innova.entity.AuditEntity_getAuditName_11977567861
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.AuditEntity_getAuditName_11977567861
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_getAuditName_11977567861
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_build_198626606814
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_build_198626606814
 [INFO] Running com.innova.entity.PersonEntity_init_98423712114
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_init_98423712114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_init_98423712114
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_personPrice_67318722810
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_personPrice_67318722810
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerPrice_17400699224
@@ -280,7 +280,7 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.ComputerEntity_getCreatedDate_3860707335
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_getCreatedDate_3860707335
 [INFO] Running com.innova.entity.PersonEntity_setDate_108335942123
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_setDate_108335942123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_setDate_108335942123
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_init_11898128500
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_init_11898128500
 [INFO] Running com.innova.entity.ComputerEntity_init_67840729633
@@ -298,7 +298,7 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.PersonEntity_hashCode_129140105026
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_hashCode_129140105026
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_personPrice_6731872283
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_personPrice_6731872283
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_personPrice_6731872283
 [INFO] Running com.innova.entity.ComputerEntity_toString_62427594614
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_toString_62427594614
 [INFO] Running com.innova.entity.AuditEntity_toString_11060207226
@@ -326,9 +326,9 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_toString_17352687016
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_toString_17352687016
 [INFO] Running com.innova.entity.PersonEntity_getPersonId_91018627116
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_getPersonId_91018627116
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_getPersonId_91018627116
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerPrice_174006992212
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerPrice_174006992212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerPrice_174006992212
 [INFO] Running com.innova.entity.AuditEntity_AuditEntityBuilder_init_14317357184
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_AuditEntityBuilder_init_14317357184
 [INFO] Running com.innova.entity.ComputerEntity_getComputerPrice_3263312184
@@ -336,7 +336,7 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.ComputerEntity_setCreatedDate_181936115127
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_setCreatedDate_181936115127
 [INFO] Running com.innova.entity.PersonEntity_getPersonName_15323197822
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_getPersonName_15323197822
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_getPersonName_15323197822
 [INFO] Running com.innova.entity.ComputerEntity_setComputerName_129672339424
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_setComputerName_129672339424
 [INFO] Running com.innova.entity.ComputerEntity_setComputerName_12967233947
@@ -354,11 +354,11 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.PersonEntity_init_194735070513
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_init_194735070513
 [INFO] Running com.innova.entity.ComputerEntity_getComputerTrade_18358053793
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_getComputerTrade_18358053793
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_getComputerTrade_18358053793
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_personName_20415305642
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_personName_20415305642
 [INFO] Running com.innova.entity.PersonEntity_setPersonId_166876089920
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_setPersonId_166876089920
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_setPersonId_166876089920
 [INFO] Running com.innova.entity.AuditEntity_builder_4620219299
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_builder_4620219299
 [INFO] Running com.innova.entity.PersonEntity_hashCode_129140105011
@@ -368,13 +368,13 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.AuditEntity_builder_4620219290
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_builder_4620219290
 [INFO] Running com.innova.entity.ComputerEntity_getComputerId_38108041518
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_getComputerId_38108041518
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_getComputerId_38108041518
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerId_9594506811
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerId_9594506811
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_personId_16055114251
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_personId_16055114251
 [INFO] Running com.innova.entity.PersonEntity_getPersonId_9101862711
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_getPersonId_9101862711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_getPersonId_9101862711
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_personName_20415305649
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_personName_20415305649
 [INFO] Running com.innova.entity.ComputerEntity_hashCode_11351625613
@@ -412,7 +412,7 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.PersonEntity_getDate_12668947554
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_getDate_12668947554
 [INFO] Running com.innova.entity.PersonEntity_setPersonPrice_2594046427
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.PersonEntity_setPersonPrice_2594046427
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_setPersonPrice_2594046427
 [INFO] Running com.innova.entity.ComputerEntity_setComputerPrice_5267113389
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_setComputerPrice_5267113389
 [INFO] Running com.innova.entity.AuditEntity_getAuditName_119775678610
@@ -420,7 +420,7 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.PersonEntity_toString_180216074012
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_toString_180216074012
 [INFO] Running com.innova.entity.AuditEntity_init_165147657316
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.AuditEntity_init_165147657316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_init_165147657316
 [INFO] Running com.innova.entity.ComputerEntity_canEqual_113933304812
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_canEqual_113933304812
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_init_14660712188
@@ -428,13 +428,13 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.entity.AuditEntity_AuditEntityBuilder_auditName_15388781
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.AuditEntity_AuditEntityBuilder_auditName_15388781
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_toString_20115270697
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_toString_20115270697
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_toString_20115270697
 [INFO] Running com.innova.entity.PersonEntity_PersonEntityBuilder_date_214334310511
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_PersonEntityBuilder_date_214334310511
 [INFO] Running com.innova.entity.PersonEntity_canEqual_3855174610
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.PersonEntity_canEqual_3855174610
 [INFO] Running com.innova.entity.ComputerEntity_canEqual_113933304829
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.entity.ComputerEntity_canEqual_113933304829
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_canEqual_113933304829
 [INFO] Running com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerName_82120537410
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.entity.ComputerEntity_ComputerEntityBuilder_computerName_82120537410
 [INFO] Running com.innova.entity.PersonEntity_builder_17201552390
@@ -442,12 +442,12 @@ java.lang.ArithmeticException: ak burda sıfır hatası var
 [INFO] Running com.innova.controller.ThymeleafController_init_8660447830
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.ThymeleafController_init_8660447830
 [INFO] Running com.innova.controller.ComputerController_init_7151644910
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.innova.controller.ComputerController_init_7151644910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.innova.controller.ComputerController_init_7151644910
 [INFO] Running com.innova.controller.ThymeleafController_init_8660447831
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.ThymeleafController_init_8660447831
 [INFO] Running com.innova.controller.PersonDelivedQueryController_getSavePerson_16191784891
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.controller.PersonDelivedQueryController_getSavePerson_16191784891
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.controller.PersonDelivedQueryController_getSavePerson_16191784891
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.controller.PersonDelivedQueryController_getSavePerson_16191784891.test(PersonDelivedQueryController_getSavePerson_16191784891.java:40)
 
@@ -478,7 +478,7 @@ java.lang.NullPointerException
 	at com.innova.controller.ComputerController_getFindComputer_13582492212.test(ComputerController_getFindComputer_13582492212.java:42)
 
 [INFO] Running com.innova.controller.SecurityController_init_1044300861
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.controller.SecurityController_init_1044300861
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.SecurityController_init_1044300861
 [INFO] Running com.innova.controller.ComputerController_getUpdateComputer_19073019235
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.controller.ComputerController_getUpdateComputer_19073019235
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -488,8 +488,8 @@ java.lang.NullPointerException
 [INFO] Running com.innova.controller.FormValidationController_init_4984604251
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.FormValidationController_init_4984604251
 [INFO] Running com.innova.controller.ComputerController_getComputerSelectPriceMin_1049867358
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.controller.ComputerController_getComputerSelectPriceMin_1049867358
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.controller.ComputerController_getComputerSelectPriceMin_1049867358
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.controller.ComputerController_getComputerSelectPriceMin_1049867358.test(ComputerController_getComputerSelectPriceMin_1049867358.java:45)
 
@@ -526,8 +526,8 @@ java.lang.NullPointerException
 [INFO] Running com.innova.controller.FormValidationController_init_4984604250
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.FormValidationController_init_4984604250
 [INFO] Running com.innova.controller.ComputerController_getUpdateComputer_190730192314
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.controller.ComputerController_getUpdateComputer_190730192314
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.controller.ComputerController_getUpdateComputer_190730192314
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.controller.ComputerController_getUpdateComputer_190730192314.test(ComputerController_getUpdateComputer_190730192314.java:51)
 
@@ -562,7 +562,7 @@ java.lang.NullPointerException
 	at com.innova.controller.PersonDelivedQueryController_getFindStartsPerson_18596726552.test(PersonDelivedQueryController_getFindStartsPerson_18596726552.java:42)
 
 [INFO] Running com.innova.controller.LoginController_init_575773791
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.LoginController_init_575773791
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.controller.LoginController_init_575773791
 [INFO] Running com.innova.controller.SecurityController_init_1044300860
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.controller.SecurityController_init_1044300860
 [INFO] Running com.innova.controller.ComputerController_getComputerSelectAll_169426310215
@@ -630,13 +630,13 @@ java.lang.NullPointerException
 [INFO] Running com.innova.dto.ProductDto_ProductDtoBuilder_toString_16266763455
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_ProductDtoBuilder_toString_16266763455
 [INFO] Running com.innova.dto.ProductDto_ProductDtoBuilder_productName_12903398828
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_ProductDtoBuilder_productName_12903398828
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_ProductDtoBuilder_productName_12903398828
 [INFO] Running com.innova.dto.FormValidationDto_FormValidationDtoBuilder_userSurname_146870561210
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_userSurname_146870561210
 [INFO] Running com.innova.dto.ProductDto_ProductDtoBuilder_productPrice_6245037989
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_ProductDtoBuilder_productPrice_6245037989
 [INFO] Running com.innova.dto.FormValidationDto_FormValidationDtoBuilder_init_8048945828
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_init_8048945828
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_init_8048945828
 [INFO] Running com.innova.dto.FormValidationDto_setEmailAddress_117322493625
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.dto.FormValidationDto_setEmailAddress_117322493625
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -661,7 +661,7 @@ java.lang.NullPointerException
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_userMessage_165616039213
 [INFO] Running com.innova.dto.ProductDto_main_60536762318
 ProductDto(productId=null, productName=null, productPrice=0.0)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_main_60536762318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_main_60536762318
 [INFO] Running com.innova.dto.ProductDto_setProductId_127111593923
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_setProductId_127111593923
 [INFO] Running com.innova.dto.ProductDto_ProductDtoBuilder_productPrice_6245037983
@@ -712,8 +712,8 @@ java.lang.NullPointerException
 	at com.innova.dto.FormValidationDto_getEmailAddress_1788841123.test(FormValidationDto_getEmailAddress_1788841123.java:40)
 
 [INFO] Running com.innova.dto.FormValidationDto_canEqual_191220136029
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.dto.FormValidationDto_canEqual_191220136029
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.dto.FormValidationDto_canEqual_191220136029
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.dto.FormValidationDto_canEqual_191220136029.test(FormValidationDto_canEqual_191220136029.java:42)
 
@@ -751,7 +751,7 @@ Inıt Metot PostConstruct : tShwQLRGNe
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_init_5556195650
 [INFO] Running com.innova.dto.ProductDto_main_6053676232
 ProductDto(productId=null, productName=null, productPrice=0.0)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_main_6053676232
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_main_6053676232
 [INFO] Running com.innova.dto.FormValidationDto_FormValidationDtoBuilder_init_8048945820
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_init_8048945820
 [INFO] Running com.innova.dto.FormValidationDto_setUserName_16085924746
@@ -767,7 +767,7 @@ java.lang.NullPointerException
 	at com.innova.dto.FormValidationDto_getUserSurname_13752712282.test(FormValidationDto_getUserSurname_13752712282.java:40)
 
 [INFO] Running com.innova.dto.FormValidationDto_init_96924794116
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.FormValidationDto_init_96924794116
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_init_96924794116
 [INFO] Running com.innova.dto.FormValidationDto_getEmailAddress_17888411220
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.dto.FormValidationDto_getEmailAddress_17888411220
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -777,7 +777,7 @@ java.lang.NullPointerException
 [INFO] Running com.innova.dto.ProductDto_getProductPrice_14420407526
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_getProductPrice_14420407526
 [INFO] Running com.innova.dto.FormValidationDto_FormValidationDtoBuilder_userAge_171646381912
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_userAge_171646381912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_userAge_171646381912
 [INFO] Running com.innova.dto.FormValidationDto_setEmailAddress_11732249368
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.dto.FormValidationDto_setEmailAddress_11732249368
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -795,9 +795,9 @@ java.lang.NullPointerException
 	at com.innova.dto.FormValidationDto_getUserAge_12291627474.test(FormValidationDto_getUserAge_12291627474.java:40)
 
 [INFO] Running com.innova.dto.ProductDto_init_102464128514
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_init_102464128514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_init_102464128514
 [INFO] Running com.innova.dto.ProductDto_setProductPrice_7923599529
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_setProductPrice_7923599529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_setProductPrice_7923599529
 [INFO] Running com.innova.dto.FormValidationDto_builder_174519569917
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_builder_174519569917
 [INFO] Running com.innova.dto.ProductDto_preinit_5716153701
@@ -844,13 +844,13 @@ java.lang.NullPointerException
 [INFO] Running com.innova.dto.ProductDto_builder_43613023919
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_builder_43613023919
 [INFO] Running com.innova.dto.FormValidationDto_FormValidationDtoBuilder_build_155652632414
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_build_155652632414
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_build_155652632414
 [INFO] Running com.innova.dto.ProductDto_builder_4361302393
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_builder_4361302393
 [INFO] Running com.innova.dto.ProductDto_setProductName_15905240088
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_setProductName_15905240088
 [INFO] Running com.innova.dto.ProductDto_equals_127609759710
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_equals_127609759710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_equals_127609759710
 [INFO] Running com.innova.dto.FormValidationDto_equals_157860330711
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.dto.FormValidationDto_equals_157860330711
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -888,7 +888,7 @@ java.lang.NullPointerException
 [INFO] Running com.innova.dto.ProductDto_ProductDtoBuilder_productId_15081691897
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_ProductDtoBuilder_productId_15081691897
 [INFO] Running com.innova.dto.FormValidationDto_setUserSurname_147832204424
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.dto.FormValidationDto_setUserSurname_147832204424
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.dto.FormValidationDto_setUserSurname_147832204424
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.dto.FormValidationDto_setUserSurname_147832204424.test(FormValidationDto_setUserSurname_147832204424.java:42)
@@ -898,7 +898,7 @@ java.lang.NullPointerException
 [INFO] Running com.innova.dto.FormValidationDto_FormValidationDtoBuilder_toString_25943873115
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.FormValidationDto_FormValidationDtoBuilder_toString_25943873115
 [INFO] Running com.innova.dto.ProductDto_init_102464128530
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.dto.ProductDto_init_102464128530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_init_102464128530
 [INFO] Running com.innova.dto.ProductDto_toString_31665123231
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.dto.ProductDto_toString_31665123231
 [INFO] Running com.innova.dto.FormValidationDto_builder_17451956990
@@ -910,7 +910,7 @@ java.lang.NullPointerException
 [INFO] Running com.innova.cors.CorsServices_mesaj_17764325233
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.cors.CorsServices_mesaj_17764325233
 [INFO] Running com.innova.cors.CorsServices_mesaj_17764325231
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.cors.CorsServices_mesaj_17764325231
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.cors.CorsServices_mesaj_17764325231
 [INFO] Running com.innova.cors.CorsServices_init_20515204562
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.cors.CorsServices_init_20515204562
 [INFO] Running com.innova.cors.CorsServices_init_20515204560
@@ -962,7 +962,7 @@ java.lang.NullPointerException
 	at com.innova.beantuto.BeanController_getBeanBasic_15540387715.test(BeanController_getBeanBasic_15540387715.java:46)
 
 [INFO] Running com.innova.beantuto.BeanDto_canEqual_70485848610
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.beantuto.BeanDto_canEqual_70485848610
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_canEqual_70485848610
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_canEqual_70485848610.test(BeanDto_canEqual_70485848610.java:44)
@@ -998,13 +998,13 @@ java.lang.NullPointerException
 	at com.innova.beantuto.PostContruct_init_15614226029.test(PostContruct_init_15614226029.java:43)
 
 [INFO] Running com.innova.beantuto.BeanDto_equals_9930414324
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_equals_9930414324
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.beantuto.BeanDto_equals_9930414324
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_equals_9930414324.test(BeanDto_equals_9930414324.java:42)
 
 [INFO] Running com.innova.beantuto.PostContruct_equals_90182753214
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.PostContruct_equals_90182753214
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContruct_equals_90182753214
 [INFO] Running com.innova.beantuto.BeanController_init_18420278020
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanController_init_18420278020
 [INFO] Running com.innova.beantuto._03_BeanIntialDestroy_beanInitial_15503749061
@@ -1067,7 +1067,7 @@ java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_getBeanData_64925047220.test(BeanDto_getBeanData_64925047220.java:40)
 
 [INFO] Running com.innova.beantuto.BeanDto_builder_52836907017
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanDto_builder_52836907017
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.BeanDto_builder_52836907017
 [INFO] Running com.innova.beantuto.PostContructTutorials_canEqual_21030107426
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContructTutorials_canEqual_21030107426
 [INFO] Running com.innova.beantuto.PostContruct_hashCode_13505142077
@@ -1110,7 +1110,7 @@ java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_destroyBEanMethod_61917910616.test(BeanDto_destroyBEanMethod_61917910616.java:40)
 
 [INFO] Running com.innova.beantuto.BeanDto_BeanDtoBuilder_beanName_12930377052
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.BeanDto_BeanDtoBuilder_beanName_12930377052
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanDto_BeanDtoBuilder_beanName_12930377052
 [INFO] Running com.innova.beantuto.BeanDto_setBeanData_20593743848
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_setBeanData_20593743848
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1131,7 +1131,7 @@ PostContructTutorials(logger=null)
 [INFO] Running com.innova.beantuto._01_BeanBasic_init_14902223930
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto._01_BeanBasic_init_14902223930
 [INFO] Running com.innova.beantuto.BeanDto_init_10229882129
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.BeanDto_init_10229882129
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanDto_init_10229882129
 [INFO] Running com.innova.beantuto.BeanController_init_18420278024
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanController_init_18420278024
 [INFO] Running com.innova.beantuto.BeanDto_toString_105875050812
@@ -1149,7 +1149,7 @@ java.lang.NullPointerException
 [INFO] Running com.innova.beantuto.BeanDto_BeanDtoBuilder_build_104817656510
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanDto_BeanDtoBuilder_build_104817656510
 [INFO] Running com.innova.beantuto.PostContructTutorials_init_5328690490
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContructTutorials_init_5328690490
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.PostContructTutorials_init_5328690490
 [INFO] Running com.innova.beantuto._01_BeanBasic_init_14902223932
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto._01_BeanBasic_init_14902223932
 [INFO] Running com.innova.beantuto.PostContruct_hashCode_135051420716
@@ -1191,8 +1191,8 @@ java.lang.NullPointerException
 [INFO] Running com.innova.beantuto.PostContructTutorials_equals_12988481135
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContructTutorials_equals_12988481135
 [INFO] Running com.innova.beantuto.BeanDto_getBeanData_6492504725
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.beantuto.BeanDto_getBeanData_6492504725
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_getBeanData_6492504725
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_getBeanData_6492504725.test(BeanDto_getBeanData_6492504725.java:40)
 
@@ -1203,14 +1203,14 @@ java.lang.NullPointerException
 [INFO] Running com.innova.beantuto.BeanDto_init_160420635928
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanDto_init_160420635928
 [INFO] Running com.innova.beantuto.BeanDto_canEqual_70485848625
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_canEqual_70485848625
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.beantuto.BeanDto_canEqual_70485848625
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_canEqual_70485848625.test(BeanDto_canEqual_70485848625.java:42)
 
 [INFO] Running com.innova.beantuto.BeanDto_getId_6228196763
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.beantuto.BeanDto_getId_6228196763
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_getId_6228196763
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.beantuto.BeanDto_getId_6228196763.test(BeanDto_getId_6228196763.java:40)
 
@@ -1234,11 +1234,11 @@ java.lang.NullPointerException
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContructTutorials_hashCode_8501614387
 [INFO] Running com.innova.beantuto.PostContructTutorials_main_5826171071
 PostContructTutorials(logger=null)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.PostContructTutorials_main_5826171071
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContructTutorials_main_5826171071
 [INFO] Running com.innova.beantuto.BeanController_getBeanBasic_15540387711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.BeanController_getBeanBasic_15540387711
 [INFO] Running com.innova.beantuto.PostContruct_canEqual_9766490315
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContruct_canEqual_9766490315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.beantuto.PostContruct_canEqual_9766490315
 [INFO] Running com.innova.beantuto.BeanDto_toString_105875050827
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.beantuto.BeanDto_toString_105875050827
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1248,8 +1248,8 @@ java.lang.NullPointerException
 [INFO] Running com.innova.beantuto.PostContructTutorials_hashCode_85016143816
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.beantuto.PostContructTutorials_hashCode_85016143816
 [INFO] Running com.innova.SpringMvcSpringDataSpringRestApplication_main_14136511863
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.innova.SpringMvcSpringDataSpringRestApplication_main_14136511863
-[ERROR] test  Time elapsed: 0.044 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.innova.SpringMvcSpringDataSpringRestApplication_main_14136511863
+[ERROR] test  Time elapsed: 0.043 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.innova.SpringMvcSpringDataSpringRestApplication_main_14136511863.test(SpringMvcSpringDataSpringRestApplication_main_14136511863.java:44)
 
@@ -1263,39 +1263,39 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-2026-04-08 06:12:25.096  INFO 76 --- [me-limited test] SpringMvcSpringDataSpringRestApplication : Starting SpringMvcSpringDataSpringRestApplication using Java 11.0.16 on bd22cc04698e with PID 76 (started by root in /app)
-2026-04-08 06:12:25.098  INFO 76 --- [me-limited test] SpringMvcSpringDataSpringRestApplication : No active profile set, falling back to default profiles: default
-2026-04-08 06:12:26.236  INFO 76 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 06:12:26.308  INFO 76 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
-2026-04-08 06:12:26.921  INFO 76 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:12:26.932  INFO 76 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:12:26.932  INFO 76 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2026-04-08 06:12:27.005  INFO 76 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:12:27.005  INFO 76 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1861 ms
-2026-04-08 06:12:27.128  INFO 76 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 06:12:27.402  INFO 76 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 06:12:27.416  INFO 76 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
-2026-04-08 06:12:27.625  INFO 76 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 06:12:27.684  INFO 76 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
-2026-04-08 06:12:27.838  INFO 76 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 06:12:27.960  INFO 76 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2026-04-08 06:12:28.648  INFO 76 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 06:12:28.655  INFO 76 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:12:29.095  WARN 76 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 06:12:29.158  INFO 76 --- [me-limited test] com.innova.beantuto.BeanDto              : Beanim başladı Hayırlı olsun
+2026-04-09 13:01:31.648  INFO 75 --- [me-limited test] SpringMvcSpringDataSpringRestApplication : Starting SpringMvcSpringDataSpringRestApplication using Java 11.0.16 on 8fde920b52d4 with PID 75 (started by root in /app)
+2026-04-09 13:01:31.650  INFO 75 --- [me-limited test] SpringMvcSpringDataSpringRestApplication : No active profile set, falling back to default profiles: default
+2026-04-09 13:01:32.796  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 13:01:32.869  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2026-04-09 13:01:33.483  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:01:33.494  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:01:33.494  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-04-09 13:01:33.565  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:01:33.565  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
+2026-04-09 13:01:33.685  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 13:01:33.953  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 13:01:33.966  INFO 75 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2026-04-09 13:01:34.164  INFO 75 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 13:01:34.221  INFO 75 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2026-04-09 13:01:34.386  INFO 75 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 13:01:34.515  INFO 75 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 13:01:35.224  INFO 75 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 13:01:35.233  INFO 75 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 13:01:35.674  WARN 75 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 13:01:35.733  INFO 75 --- [me-limited test] com.innova.beantuto.BeanDto              : Beanim başladı Hayırlı olsun
 Beanim başladı Hayırlı olsun
-2026-04-08 06:12:29.259  INFO 76 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2820410b, org.springframework.security.web.context.SecurityContextPersistenceFilter@516a11d9, org.springframework.security.web.header.HeaderWriterFilter@63bf585f, org.springframework.security.web.csrf.CsrfFilter@3630e02d, org.springframework.security.web.authentication.logout.LogoutFilter@30586461, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63981cea, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5cf19b65, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@205cfc47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57effc40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cebce5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10c7ffee, org.springframework.security.web.session.SessionManagementFilter@7efa4de3, org.springframework.security.web.access.ExceptionTranslationFilter@39ed24e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cfa5b25]
-2026-04-08 06:12:29.549  INFO 76 --- [me-limited test] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2026-04-08 06:12:30.322  INFO 76 --- [me-limited test] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2026-04-08 06:12:30.364  INFO 76 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:12:30.376  INFO 76 --- [me-limited test] SpringMvcSpringDataSpringRestApplication : Started SpringMvcSpringDataSpringRestApplication in 5.683 seconds (JVM running for 7.863)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.719 s - in com.innova.SpringMvcSpringDataSpringRestApplication_main_14136511861
+2026-04-09 13:01:35.830  INFO 75 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40c6bf6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ce51b97, org.springframework.security.web.header.HeaderWriterFilter@51e14886, org.springframework.security.web.csrf.CsrfFilter@2c847e18, org.springframework.security.web.authentication.logout.LogoutFilter@3fe54ef0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59889fae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1d1e4033, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@617a8a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9368acd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c6caf6c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b3e0337, org.springframework.security.web.session.SessionManagementFilter@24cccae8, org.springframework.security.web.access.ExceptionTranslationFilter@406ddd87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59dfccbe]
+2026-04-09 13:01:36.083  INFO 75 --- [me-limited test] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-09 13:01:36.832  INFO 75 --- [me-limited test] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-09 13:01:36.873  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 13:01:36.886  INFO 75 --- [me-limited test] SpringMvcSpringDataSpringRestApplication : Started SpringMvcSpringDataSpringRestApplication in 5.636 seconds (JVM running for 7.806)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.673 s - in com.innova.SpringMvcSpringDataSpringRestApplication_main_14136511861
 [INFO] Running com.innova.services.ServletExamples_init_14149226320
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.services.ServletExamples_init_14149226320
 [INFO] Running com.innova.services.PersonServices_getProduces_12775768334
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.services.PersonServices_getProduces_12775768334
 [INFO] Running com.innova.services.HeaderBodyServices_init_14217153511
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.services.HeaderBodyServices_init_14217153511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.innova.services.HeaderBodyServices_init_14217153511
 [INFO] Running com.innova.services.ServletExamples_init_14149226321
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.services.ServletExamples_init_14149226321
 [INFO] Running com.innova.services.TransactionServices_init_20597227622
@@ -1337,8 +1337,8 @@ java.lang.NullPointerException
 [INFO] Running com.innova.services.TransactionServices_ilkelTransaction_15300312573
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.innova.services.TransactionServices_ilkelTransaction_15300312573
 [INFO] Running com.innova.services.PostmanServices_postProduct_13124108094
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.services.PostmanServices_postProduct_13124108094
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.services.PostmanServices_postProduct_13124108094
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.services.PostmanServices_postProduct_13124108094.test(PostmanServices_postProduct_13124108094.java:49)
 
@@ -1481,7 +1481,7 @@ java.lang.NullPointerException
 	at com.innova.audit.BaseEntity_getCreatedDate_106888887512.test(BaseEntity_getCreatedDate_106888887512.java:40)
 
 [INFO] Running com.innova.audit.BaseEntity_getId_8711632560
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.audit.BaseEntity_getId_8711632560
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.audit.BaseEntity_getId_8711632560
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.audit.BaseEntity_getId_8711632560.test(BaseEntity_getId_8711632560.java:40)
@@ -1505,7 +1505,7 @@ java.lang.NullPointerException
 	at com.innova.audit.BaseEntity_setCreatedBy_2449899416.test(BaseEntity_setCreatedBy_2449899416.java:42)
 
 [INFO] Running com.innova.audit.BaseEntity_setId_130120501415
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.innova.audit.BaseEntity_setId_130120501415
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.innova.audit.BaseEntity_setId_130120501415
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.innova.audit.BaseEntity_setId_130120501415.test(BaseEntity_setId_130120501415.java:42)
@@ -1534,11 +1534,11 @@ java.lang.NullPointerException
 java.lang.NullPointerException
 	at com.innova.audit.BaseEntity_setUpdatedDate_194968020219.test(BaseEntity_setUpdatedDate_194968020219.java:42)
 
-2026-04-08 06:12:30.631 ERROR 76 --- [ionShutdownHook] com.innova.beantuto.BeanDto              : Beanim öldü Geçmiş olsun
+2026-04-09 13:01:37.154 ERROR 75 --- [ionShutdownHook] com.innova.beantuto.BeanDto              : Beanim öldü Geçmiş olsun
 Beanim öldü Geçmiş olsun
-2026-04-08 06:12:30.634  INFO 76 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:12:30.636  INFO 76 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 06:12:30.638  INFO 76 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 13:01:37.156  INFO 75 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 13:01:37.159  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 13:01:37.162  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -1676,6 +1676,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  14.132 s
-[INFO] Finished at: 2026-04-08T06:12:31Z
+[INFO] Total time:  14.044 s
+[INFO] Finished at: 2026-04-09T13:01:37Z
 [INFO] ------------------------------------------------------------------------

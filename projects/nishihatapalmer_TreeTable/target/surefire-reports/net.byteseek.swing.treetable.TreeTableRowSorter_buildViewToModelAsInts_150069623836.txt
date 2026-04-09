@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_buildViewToModelAsInts_150069623836
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.871 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_buildViewToModelAsInts_150069623836)  Time elapsed: 1.871 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.144 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_buildViewToModelAsInts_150069623836)  Time elapsed: 0.144 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at net.byteseek.swing.treetable.TreeTableRowSorter.buildViewToModelAsInts(TreeTableRowSorter.java:619)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

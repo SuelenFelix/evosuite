@@ -122,8 +122,8 @@ public final class TableUtils {
      */
     public static int calculateWidthToLeftOfColumn(final TableColumnModel columnModel, final int colIndex) {
 <span class="fc" id="L124">        int width = 0;</span>
-<span class="fc bfc" id="L125" title="All 2 branches covered.">        for (int col = colIndex - 1; col &gt;= 0; col--) {</span>
-<span class="fc" id="L126">            width += columnModel.getColumn(col).getWidth();</span>
+<span class="pc bpc" id="L125" title="1 of 2 branches missed.">        for (int col = colIndex - 1; col &gt;= 0; col--) {</span>
+<span class="nc" id="L126">            width += columnModel.getColumn(col).getWidth();</span>
         }
 <span class="fc" id="L128">        return width;</span>
     }
@@ -136,13 +136,13 @@ public final class TableUtils {
      * @return the TableColumn in the TableColumnModel with the given model index, or null if no such column exists.
      */
     public static TableColumn getColumnWithModelIndex(final TableColumnModel columnModel, final int modelIndex) {
-<span class="fc bfc" id="L139" title="All 2 branches covered.">        for (int columnIndex = 0; columnIndex &lt; columnModel.getColumnCount(); columnIndex++) {</span>
-<span class="fc" id="L140">            final TableColumn column = columnModel.getColumn(columnIndex);</span>
-<span class="fc bfc" id="L141" title="All 2 branches covered.">            if (column.getModelIndex() == modelIndex) {</span>
-<span class="fc" id="L142">                return column;</span>
+<span class="pc bnc" id="L139" title="All 2 branches missed.">        for (int columnIndex = 0; columnIndex &lt; columnModel.getColumnCount(); columnIndex++) {</span>
+<span class="nc" id="L140">            final TableColumn column = columnModel.getColumn(columnIndex);</span>
+<span class="nc bnc" id="L141" title="All 2 branches missed.">            if (column.getModelIndex() == modelIndex) {</span>
+<span class="nc" id="L142">                return column;</span>
             }
         }
-<span class="fc" id="L145">        return null;</span>
+<span class="nc" id="L145">        return null;</span>
     }
 
     /**
@@ -151,7 +151,7 @@ public final class TableUtils {
      * @return true if a column with the column model index exists in the list of sort keys.
      */
     public static boolean columnInSortKeys(final List&lt;? extends RowSorter.SortKey&gt; sortKeys, final int modelIndex) {
-<span class="fc bfc" id="L154" title="All 2 branches covered.">        return findSortKeyIndex(sortKeys, modelIndex) &gt;= 0;</span>
+<span class="pc bpc" id="L154" title="1 of 2 branches missed.">        return findSortKeyIndex(sortKeys, modelIndex) &gt;= 0;</span>
     }
 
     /**
@@ -164,8 +164,8 @@ public final class TableUtils {
 <span class="fc bfc" id="L164" title="All 2 branches covered.">        if (sortKeys != null) {</span>
 <span class="fc bfc" id="L165" title="All 2 branches covered.">            for (int sortKeyIndex = 0; sortKeyIndex &lt; sortKeys.size(); sortKeyIndex++) {</span>
 <span class="fc" id="L166">                RowSorter.SortKey key = sortKeys.get(sortKeyIndex);</span>
-<span class="fc bfc" id="L167" title="All 2 branches covered.">                if (key.getColumn() == modelIndex) {</span>
-<span class="fc" id="L168">                    return sortKeyIndex;</span>
+<span class="pc bpc" id="L167" title="1 of 2 branches missed.">                if (key.getColumn() == modelIndex) {</span>
+<span class="nc" id="L168">                    return sortKeyIndex;</span>
                 }
             }
         }
@@ -179,9 +179,9 @@ public final class TableUtils {
      * @param columnIndex The column index to toggle the sort state of.
      */
     public static void toggleSortColumn(JTable table, int columnIndex) {
-<span class="fc bfc" id="L182" title="All 2 branches covered.">        if (columnIndex &gt;= 0) {</span>
-<span class="fc bfc" id="L183" title="All 2 branches covered.">            RowSorter&lt;?&gt; sorter = table == null? null : table.getRowSorter();</span>
-<span class="fc bfc" id="L184" title="All 2 branches covered.">            if (sorter != null) {</span>
+<span class="pc bpc" id="L182" title="1 of 2 branches missed.">        if (columnIndex &gt;= 0) {</span>
+<span class="pc bpc" id="L183" title="1 of 2 branches missed.">            RowSorter&lt;?&gt; sorter = table == null? null : table.getRowSorter();</span>
+<span class="pc bpc" id="L184" title="1 of 2 branches missed.">            if (sorter != null) {</span>
 <span class="nc" id="L185">                sorter.toggleSortOrder(table.convertColumnIndexToModel(columnIndex));</span>
             }
         }
@@ -195,10 +195,10 @@ public final class TableUtils {
      * @param columnIndex The index of the column to resize to fit contents.
      */
     public static void resizeColumnToFitContents(JTable table, int columnIndex) {
-<span class="fc bfc" id="L198" title="All 4 branches covered.">        if (columnIndex &gt;= 0 &amp;&amp; table != null) {</span>
-<span class="fc" id="L199">            TableColumn tableColumn = table.getColumnModel().getColumn(columnIndex);</span>
-<span class="fc" id="L200">            tableColumn.setPreferredWidth(calculateFitToContentWidth(table, columnIndex));</span>
-<span class="fc" id="L201">            table.doLayout();</span>
+<span class="pc bpc" id="L198" title="2 of 4 branches missed.">        if (columnIndex &gt;= 0 &amp;&amp; table != null) {</span>
+<span class="nc" id="L199">            TableColumn tableColumn = table.getColumnModel().getColumn(columnIndex);</span>
+<span class="nc" id="L200">            tableColumn.setPreferredWidth(calculateFitToContentWidth(table, columnIndex));</span>
+<span class="nc" id="L201">            table.doLayout();</span>
         }
 <span class="fc" id="L203">    }</span>
 
@@ -214,22 +214,22 @@ public final class TableUtils {
      */
     public static int calculateFitToContentWidth(JTable table, int columnIndex) {
 <span class="fc" id="L216">        int fitWidth = 0;</span>
-<span class="fc bfc" id="L217" title="All 4 branches covered.">        if (table != null &amp;&amp; columnIndex &gt;= 0) {</span>
-<span class="fc" id="L218">            TableColumn column = table.getColumnModel().getColumn(columnIndex);</span>
+<span class="pc bpc" id="L217" title="3 of 4 branches missed.">        if (table != null &amp;&amp; columnIndex &gt;= 0) {</span>
+<span class="nc" id="L218">            TableColumn column = table.getColumnModel().getColumn(columnIndex);</span>
 
             // Get the table header column width:
-<span class="fc" id="L221">            TableCellRenderer headerRenderer = table.getTableHeader().getDefaultRenderer();</span>
-<span class="fc" id="L222">            Component headerComp = headerRenderer.getTableCellRendererComponent(table, column.getHeaderValue(), false, false, -1, columnIndex);</span>
-<span class="fc" id="L223">            fitWidth = Math.max(column.getMinWidth(), headerComp.getPreferredSize().width);</span>
+<span class="nc" id="L221">            TableCellRenderer headerRenderer = table.getTableHeader().getDefaultRenderer();</span>
+<span class="nc" id="L222">            Component headerComp = headerRenderer.getTableCellRendererComponent(table, column.getHeaderValue(), false, false, -1, columnIndex);</span>
+<span class="nc" id="L223">            fitWidth = Math.max(column.getMinWidth(), headerComp.getPreferredSize().width);</span>
 
             // Find any bigger preferred sizes given the data in the rows:
-<span class="fc" id="L226">            int maxColumnWidth = column.getMaxWidth();</span>
-<span class="fc bfc" id="L227" title="All 2 branches covered.">            for (int row = 0; row &lt; table.getRowCount(); row++) {</span>
-<span class="fc" id="L228">                TableCellRenderer cellRenderer = table.getCellRenderer(row, columnIndex);</span>
-<span class="fc" id="L229">                Component c = table.prepareRenderer(cellRenderer, row, columnIndex);</span>
-<span class="fc" id="L230">                fitWidth = Math.max(fitWidth, c.getPreferredSize().width + table.getIntercellSpacing().width);</span>
+<span class="nc" id="L226">            int maxColumnWidth = column.getMaxWidth();</span>
+<span class="nc bnc" id="L227" title="All 2 branches missed.">            for (int row = 0; row &lt; table.getRowCount(); row++) {</span>
+<span class="nc" id="L228">                TableCellRenderer cellRenderer = table.getCellRenderer(row, columnIndex);</span>
+<span class="nc" id="L229">                Component c = table.prepareRenderer(cellRenderer, row, columnIndex);</span>
+<span class="nc" id="L230">                fitWidth = Math.max(fitWidth, c.getPreferredSize().width + table.getIntercellSpacing().width);</span>
 
-<span class="pc bpc" id="L232" title="1 of 2 branches missed.">                if (fitWidth &gt;= maxColumnWidth) {</span>
+<span class="nc bnc" id="L232" title="All 2 branches missed.">                if (fitWidth &gt;= maxColumnWidth) {</span>
 <span class="nc" id="L233">                    fitWidth = maxColumnWidth;</span>
 <span class="nc" id="L234">                    break;</span>
                 }
@@ -240,7 +240,7 @@ public final class TableUtils {
 
     public static boolean isResizeCursor(Cursor cursor) {
 <span class="fc" id="L242">        int cursorType = cursor.getType();</span>
-<span class="fc bfc" id="L243" title="All 4 branches covered.">        return cursorType == Cursor.E_RESIZE_CURSOR || cursorType == Cursor.W_RESIZE_CURSOR;</span>
+<span class="pc bpc" id="L243" title="2 of 4 branches missed.">        return cursorType == Cursor.E_RESIZE_CURSOR || cursorType == Cursor.W_RESIZE_CURSOR;</span>
     }
 
     /**
@@ -271,10 +271,10 @@ public final class TableUtils {
 
         @Override
         public void mouseClicked(MouseEvent e) {
-<span class="fc bfc" id="L274" title="All 6 branches covered.">            if (e.getClickCount() %2 == 0 &amp;&amp; SwingUtilities.isLeftMouseButton(e) &amp;&amp; header.isEnabled()) {</span>
-<span class="fc" id="L275">                toggleSortColumn(header.getTable(), header.columnAtPoint(e.getPoint()));</span>
+<span class="nc bnc" id="L274" title="All 6 branches missed.">            if (e.getClickCount() %2 == 0 &amp;&amp; SwingUtilities.isLeftMouseButton(e) &amp;&amp; header.isEnabled()) {</span>
+<span class="nc" id="L275">                toggleSortColumn(header.getTable(), header.columnAtPoint(e.getPoint()));</span>
             }
-<span class="fc" id="L277">        }</span>
+<span class="nc" id="L277">        }</span>
 
     }
 
@@ -287,17 +287,17 @@ public final class TableUtils {
 
         @Override
         public void mouseClicked(MouseEvent e) {
-<span class="fc bfc" id="L290" title="All 2 branches covered.">            if (SwingUtilities.isLeftMouseButton(e)) {</span>
-<span class="fc bfc" id="L291" title="All 2 branches covered.">                JTableHeader header = e.getSource() instanceof JTableHeader ? (JTableHeader) e.getSource() : null;</span>
-<span class="pc bpc" id="L292" title="1 of 4 branches missed.">                if (header != null &amp;&amp; header.isEnabled()) {</span>
-<span class="pc bpc" id="L293" title="1 of 2 branches missed.">                    if (!isResizeCursor(header.getCursor())) {</span>
-<span class="fc" id="L294">                        toggleSortColumn(header.getTable(), header.columnAtPoint(e.getPoint()));</span>
+<span class="nc bnc" id="L290" title="All 2 branches missed.">            if (SwingUtilities.isLeftMouseButton(e)) {</span>
+<span class="nc bnc" id="L291" title="All 2 branches missed.">                JTableHeader header = e.getSource() instanceof JTableHeader ? (JTableHeader) e.getSource() : null;</span>
+<span class="nc bnc" id="L292" title="All 4 branches missed.">                if (header != null &amp;&amp; header.isEnabled()) {</span>
+<span class="nc bnc" id="L293" title="All 2 branches missed.">                    if (!isResizeCursor(header.getCursor())) {</span>
+<span class="nc" id="L294">                        toggleSortColumn(header.getTable(), header.columnAtPoint(e.getPoint()));</span>
 <span class="nc bnc" id="L295" title="All 2 branches missed.">                    } else if (e.getClickCount() == 2) {</span>
 <span class="nc" id="L296">                        resizeColumnToFitContents(header.getTable(), header.columnAtPoint(e.getPoint()));</span>
                     }
                 }
             }
-<span class="fc" id="L300">        }</span>
+<span class="nc" id="L300">        }</span>
     }
 
 
@@ -380,14 +380,14 @@ public final class TableUtils {
 
         @Override
         public void eventDispatched(AWTEvent event) {
-<span class="fc bfc" id="L383" title="All 6 branches covered.">            if (event.getSource() == component &amp;&amp; event.getID() == eventReplacementId &amp;&amp; event instanceof MouseEvent) {</span>
-<span class="fc" id="L384">                MouseEvent mouseEvent = (MouseEvent) event;</span>
-<span class="pc bpc" id="L385" title="1 of 2 branches missed.">                if (shouldReplace(mouseEvent)) {</span>
-<span class="fc" id="L386">                    handleWithReplacement(mouseEvent);</span>
-<span class="fc" id="L387">                    mouseEvent.consume(); // prevent any other mouse listeners from consuming this event.</span>
+<span class="nc bnc" id="L383" title="All 6 branches missed.">            if (event.getSource() == component &amp;&amp; event.getID() == eventReplacementId &amp;&amp; event instanceof MouseEvent) {</span>
+<span class="nc" id="L384">                MouseEvent mouseEvent = (MouseEvent) event;</span>
+<span class="nc bnc" id="L385" title="All 2 branches missed.">                if (shouldReplace(mouseEvent)) {</span>
+<span class="nc" id="L386">                    handleWithReplacement(mouseEvent);</span>
+<span class="nc" id="L387">                    mouseEvent.consume(); // prevent any other mouse listeners from consuming this event.</span>
                 }
             }
-<span class="fc" id="L390">        }</span>
+<span class="nc" id="L390">        }</span>
 
         /**
          * A method which subclasses can use to implement additional logic to determine if the event should be
@@ -406,22 +406,22 @@ public final class TableUtils {
          * @param event The event for the replacement listener to process.
          */
         protected void handleWithReplacement(MouseEvent event) {
-<span class="fc bfc" id="L409" title="All 2 branches covered.">            if (replacementListener != null) {</span>
-<span class="pc bpc" id="L410" title="1 of 6 branches missed.">                switch (event.getID()) {</span>
+<span class="pc bpc" id="L409" title="1 of 2 branches missed.">            if (replacementListener != null) {</span>
+<span class="nc bnc" id="L410" title="All 6 branches missed.">                switch (event.getID()) {</span>
                     case MouseEvent.MOUSE_PRESSED:
-<span class="fc" id="L412">                        replacementListener.mousePressed(event);</span>
-<span class="fc" id="L413">                        break;</span>
+<span class="nc" id="L412">                        replacementListener.mousePressed(event);</span>
+<span class="nc" id="L413">                        break;</span>
                     case MouseEvent.MOUSE_RELEASED:
-<span class="fc" id="L415">                        replacementListener.mouseReleased(event);</span>
-<span class="fc" id="L416">                        break;</span>
+<span class="nc" id="L415">                        replacementListener.mouseReleased(event);</span>
+<span class="nc" id="L416">                        break;</span>
                     case MouseEvent.MOUSE_CLICKED:
 <span class="nc" id="L418">                        replacementListener.mouseClicked(event);</span>
 <span class="nc" id="L419">                        break;</span>
                     case MouseEvent.MOUSE_EXITED:
-<span class="fc" id="L421">                        replacementListener.mouseExited(event);</span>
-<span class="fc" id="L422">                        break;</span>
+<span class="nc" id="L421">                        replacementListener.mouseExited(event);</span>
+<span class="nc" id="L422">                        break;</span>
                     case MouseEvent.MOUSE_ENTERED:
-<span class="fc" id="L424">                        replacementListener.mouseEntered(event);</span>
+<span class="nc" id="L424">                        replacementListener.mouseEntered(event);</span>
                         break;
                 }
             }

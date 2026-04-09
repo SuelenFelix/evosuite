@@ -66,7 +66,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.amigoscode.spring.security.Application_init_11211414480
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.amigoscode.spring.security.Application_init_11211414480
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.amigoscode.spring.security.Application_init_11211414480
 [INFO] Running com.amigoscode.spring.security.controller.TemplateController_getLoginView_6761831304
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.controller.TemplateController_getLoginView_6761831304
 [INFO] Running com.amigoscode.spring.security.controller.TemplateController_init_1966512170
@@ -80,7 +80,7 @@
 [INFO] Running com.amigoscode.spring.security.controller.TemplateController_getLoginView_6761831301
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.controller.TemplateController_getLoginView_6761831301
 [INFO] Running com.amigoscode.spring.security.Application_main_7445784443
-06:20:23.076 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+13:10:58.052 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
 	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
@@ -107,8 +107,8 @@ java.lang.IllegalArgumentException: Args must not be null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.253 s <<< FAILURE! - in com.amigoscode.spring.security.Application_main_7445784443
-[ERROR] test  Time elapsed: 0.253 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.237 s <<< FAILURE! - in com.amigoscode.spring.security.Application_main_7445784443
+[ERROR] test  Time elapsed: 0.236 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.amigoscode.spring.security.Application_main_7445784443.test(Application_main_7445784443.java:44)
 
@@ -119,15 +119,15 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.amigoscode.spring.security.student.Student_getName_3070358232
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.Student_getName_3070358232
 [INFO] Running com.amigoscode.spring.security.student.StudentManagementController_getAllStudents_14981825476
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.student.StudentManagementController_getAllStudents_14981825476
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentManagementController_getAllStudents_14981825476
 [INFO] Running com.amigoscode.spring.security.student.Student_toString_8247219163
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.amigoscode.spring.security.student.Student_toString_8247219163
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.amigoscode.spring.security.student.Student_toString_8247219163
 [INFO] Running com.amigoscode.spring.security.student.StudentManagementController_registerNewStudent_1383192762
 Student{studentId=-616727354, name='jJCZpVmanW'}
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentManagementController_registerNewStudent_1383192762
 [INFO] Running com.amigoscode.spring.security.student.StudentController_getStudent_421375361
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.amigoscode.spring.security.student.StudentController_getStudent_421375361
-[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in com.amigoscode.spring.security.student.StudentController_getStudent_421375361
+[ERROR] test  Time elapsed: 0.007 s  <<< ERROR!
 java.lang.IllegalStateException: Student 568599855 does not exist.
 	at com.amigoscode.spring.security.student.StudentController_getStudent_421375361.test(StudentController_getStudent_421375361.java:47)
 
@@ -148,7 +148,7 @@ java.lang.NullPointerException
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.Student_init_5216090140
 [INFO] Running com.amigoscode.spring.security.student.StudentManagementController_deleteStudent_16171589683
 -1955890973
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.student.StudentManagementController_deleteStudent_16171589683
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentManagementController_deleteStudent_16171589683
 [INFO] Running com.amigoscode.spring.security.student.Student_getStudentId_20557152435
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.Student_getStudentId_20557152435
 [INFO] Running com.amigoscode.spring.security.student.StudentController_init_4864973232
@@ -161,24 +161,24 @@ null
 [INFO] Running com.amigoscode.spring.security.student.StudentManagementController_updateStudent_19834750169
 null null[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentManagementController_updateStudent_19834750169
 [INFO] Running com.amigoscode.spring.security.student.StudentManagementController_updateStudent_19834750164
--2038273078 Student{studentId=1227103734, name='EGtDIRbSSb'}[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentManagementController_updateStudent_19834750164
+-2038273078 Student{studentId=1227103734, name='EGtDIRbSSb'}[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.student.StudentManagementController_updateStudent_19834750164
 [INFO] Running com.amigoscode.spring.security.student.StudentController_init_4864973230
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentController_init_4864973230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.student.StudentController_init_4864973230
 [INFO] Running com.amigoscode.spring.security.student.Student_init_5216090144
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.student.Student_init_5216090144
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.Student_init_5216090144
 [INFO] Running com.amigoscode.spring.security.student.StudentManagementController_init_3661610425
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.student.StudentManagementController_init_3661610425
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.student.StudentManagementController_init_3661610425
 [INFO] Running com.amigoscode.spring.security.Application_init_11211414482
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.Application_init_11211414482
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.Application_init_11211414482
 [INFO] Running com.amigoscode.spring.security.security.ApplicationUserAuthority_valueOf_7638965805
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.amigoscode.spring.security.security.ApplicationUserAuthority_valueOf_7638965805
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.amigoscode.spring.security.security.ApplicationUserAuthority_valueOf_7638965805
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at com.amigoscode.spring.security.security.ApplicationUserAuthority_valueOf_7638965805.test(ApplicationUserAuthority_valueOf_7638965805.java:49)
 
 [INFO] Running com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135570
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135570
-[ERROR] test  Time elapsed: 0.01 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! - in com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135570
+[ERROR] test  Time elapsed: 0.022 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135570.test(ApplicationUserRole_init_11375135570.java:54)
 
@@ -199,7 +199,7 @@ java.lang.IllegalArgumentException: No enum constant com.amigoscode.spring.secur
 	at com.amigoscode.spring.security.security.ApplicationUserAuthority_valueOf_7638965801.test(ApplicationUserAuthority_valueOf_7638965801.java:42)
 
 [INFO] Running com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135571
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135571
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135571
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.amigoscode.spring.security.security.ApplicationUserRole_init_11375135571.test(ApplicationUserRole_init_11375135571.java:49)
@@ -211,7 +211,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.amigoscode.spring.security.security.ApplicationUserAuthority_init_11425608252.test(ApplicationUserAuthority_init_11425608252.java:44)
 
 [INFO] Running com.amigoscode.spring.security.security.ApplicationUserAuthority_values_2718661774
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.security.ApplicationUserAuthority_values_2718661774
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.security.ApplicationUserAuthority_values_2718661774
 [INFO] Running com.amigoscode.spring.security.security.ApplicationUserAuthority_getPermission_15317298513
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.security.ApplicationUserAuthority_getPermission_15317298513
 [INFO] Running com.amigoscode.spring.security.Application_main_7445784441
@@ -224,23 +224,23 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.5)
 
-2026-04-08 06:20:23.539  INFO 69 --- [me-limited test] c.a.spring.security.Application          : Starting Application using Java 11.0.16 on 8a092fc8d775 with PID 69 (started by root in /app)
-2026-04-08 06:20:23.541  INFO 69 --- [me-limited test] c.a.spring.security.Application          : No active profile set, falling back to default profiles: default
-2026-04-08 06:20:24.524  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:20:24.535  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:20:24.535  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
-2026-04-08 06:20:24.598  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:20:24.598  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1016 ms
-2026-04-08 06:20:24.917  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30a8bc0b, org.springframework.security.web.context.SecurityContextPersistenceFilter@37cf4d46, org.springframework.security.web.header.HeaderWriterFilter@a3c417e, org.springframework.security.web.authentication.logout.LogoutFilter@24c37730, com.amigoscode.spring.security.jwt.JwtUsernameAndPasswordAuthenticationFilter@6fd59aab, com.amigoscode.spring.security.jwt.JwtTokenVerifier@2a6276af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4efd4ef8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d3cc0df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6683343f, org.springframework.security.web.session.SessionManagementFilter@f2331db, org.springframework.security.web.access.ExceptionTranslationFilter@4e71fae8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cbda0ef]
-2026-04-08 06:20:25.012  INFO 69 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 06:20:25.103  INFO 69 --- [me-limited test] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2026-04-08 06:20:25.250  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:20:25.258  INFO 69 --- [me-limited test] c.a.spring.security.Application          : Started Application in 2.083 seconds (JVM running for 3.2)
+2026-04-09 13:10:58.512  INFO 70 --- [me-limited test] c.a.spring.security.Application          : Starting Application using Java 11.0.16 on caaf2824c94f with PID 70 (started by root in /app)
+2026-04-09 13:10:58.513  INFO 70 --- [me-limited test] c.a.spring.security.Application          : No active profile set, falling back to default profiles: default
+2026-04-09 13:10:59.540  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:10:59.553  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:10:59.553  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2026-04-09 13:10:59.627  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:10:59.628  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
+2026-04-09 13:10:59.941  INFO 70 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ef41c82, org.springframework.security.web.context.SecurityContextPersistenceFilter@69837456, org.springframework.security.web.header.HeaderWriterFilter@4ca4b0ad, org.springframework.security.web.authentication.logout.LogoutFilter@427d29d3, com.amigoscode.spring.security.jwt.JwtUsernameAndPasswordAuthenticationFilter@28509a47, com.amigoscode.spring.security.jwt.JwtTokenVerifier@3df23771, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c315972, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14a1a0f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41c8fc19, org.springframework.security.web.session.SessionManagementFilter@20bf3e15, org.springframework.security.web.access.ExceptionTranslationFilter@2e94ec11, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7928355b]
+2026-04-09 13:11:00.041  INFO 70 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 13:11:00.120  INFO 70 --- [me-limited test] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-04-09 13:11:00.232  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 13:11:00.239  INFO 70 --- [me-limited test] c.a.spring.security.Application          : Started Application in 2.081 seconds (JVM running for 3.172)
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.086 s - in com.amigoscode.spring.security.Application_main_7445784441
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_getSecretKey_12509383859
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_getSecretKey_12509383859
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_getSecretKey_12509383851
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_getSecretKey_12509383851
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.jwt.JwtConfig_getSecretKey_12509383851
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_getAuthorizationHeader_129171315815
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_getAuthorizationHeader_129171315815
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_getTokenPrefix_20493678613
@@ -276,11 +276,11 @@ io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 80 bi
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_init_16216632730
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_init_16216632730
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_getTokenPrefix_204936786111
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_getTokenPrefix_204936786111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.jwt.JwtConfig_getTokenPrefix_204936786111
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_getAuthorizationHeader_12917131587
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_getAuthorizationHeader_12917131587
 [INFO] Running com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_getPassword_8629236478
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_getPassword_8629236478
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_getPassword_8629236478
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_setTokenPrefix_19463170454
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_setTokenPrefix_19463170454
 [INFO] Running com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_getPassword_8629236473
@@ -292,7 +292,7 @@ io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 80 bi
 [INFO] Running com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_init_10979482070
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_init_10979482070
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_setTokenExpirationAfterDays_133649947814
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.JwtConfig_setTokenExpirationAfterDays_133649947814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.amigoscode.spring.security.jwt.JwtConfig_setTokenExpirationAfterDays_133649947814
 [INFO] Running com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_getUsername_19181299141
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.amigoscode.spring.security.jwt.UsernameAndPasswordAuthenticationRequest_getUsername_19181299141
 [INFO] Running com.amigoscode.spring.security.jwt.JwtConfig_setTokenPrefix_194631704512
@@ -305,7 +305,7 @@ io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 80 bi
 java.lang.NullPointerException
 	at com.amigoscode.spring.security.jwt.JwtSecretKey_secretKey_18964911413.test(JwtSecretKey_secretKey_18964911413.java:43)
 
-2026-04-08 06:20:25.387  INFO 69 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 13:11:00.369  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -339,6 +339,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.087 s
-[INFO] Finished at: 2026-04-08T06:20:25Z
+[INFO] Total time:  6.166 s
+[INFO] Finished at: 2026-04-09T13:11:00Z
 [INFO] ------------------------------------------------------------------------

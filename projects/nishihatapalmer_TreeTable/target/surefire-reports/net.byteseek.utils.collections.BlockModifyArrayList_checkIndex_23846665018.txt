@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.utils.collections.BlockModifyArrayList_checkIndex_23846665018
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(net.byteseek.utils.collections.BlockModifyArrayList_checkIndex_23846665018)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+test(net.byteseek.utils.collections.BlockModifyArrayList_checkIndex_23846665018)  Time elapsed: 0.021 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index = 0 size = 0
 	at net.byteseek.utils.collections.BlockModifyArrayList.checkIndex(BlockModifyArrayList.java:316)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

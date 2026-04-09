@@ -2,7 +2,7 @@
 Test set: net.byteseek.demo.treetable.MyObjectForm_createTreeTableModel_3232797689
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(net.byteseek.demo.treetable.MyObjectForm_createTreeTableModel_3232797689)  Time elapsed: 0.002 sec  <<< ERROR!
+test(net.byteseek.demo.treetable.MyObjectForm_createTreeTableModel_3232797689)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Object cannot be null: rootNode
 	at net.byteseek.swing.treetable.TreeTableModel.checkNull(TreeTableModel.java:2470)
 	at net.byteseek.swing.treetable.TreeTableModel.<init>(TreeTableModel.java:311)

@@ -56,34 +56,34 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.elltor.md.Main_init_1655242852
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.elltor.md.Main_init_1655242852
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.elltor.md.Main_init_1655242852
 [INFO] Running com.elltor.md.Main_init_1655242850
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.Main_init_1655242850
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.Main_init_1655242850
 [INFO] Running com.elltor.md.Main_main_5420872891
 Hello World
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.elltor.md.Main_main_5420872891
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.elltor.md.Main_main_5420872891
 [INFO] Running com.elltor.md.Main_main_5420872893
 Hello World
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.elltor.md.Main_main_5420872893
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.Main_main_5420872893
 [INFO] Running com.elltor.md.util.MdKiller_Section_getType_113300083321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.elltor.md.util.MdKiller_Section_getType_113300083321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.elltor.md.util.MdKiller_Section_getType_113300083321
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_title_153631226816
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.elltor.md.util.MdKiller_SectionBuilder_title_153631226816
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_title_153631226816
 [INFO] Running com.elltor.md.util.MdKiller_init_16934760970
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_init_16934760970
 [INFO] Running com.elltor.md.util.MdKiller_TableDataBuilder_endTable_1775687097
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.elltor.md.util.MdKiller_TableDataBuilder_endTable_1775687097
-[ERROR] test(com.elltor.md.util.MdKiller_TableDataBuilder_endTable_1775687097)  Time elapsed: 0.008 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in com.elltor.md.util.MdKiller_TableDataBuilder_endTable_1775687097
+[ERROR] test(com.elltor.md.util.MdKiller_TableDataBuilder_endTable_1775687097)  Time elapsed: 0.006 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_TableDataBuilder_endTable_1775687097.test(MdKiller_TableDataBuilder_endTable_1775687097.java:45)
 
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_text_66540209610
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_text_66540209610
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_text_66540209610
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_endRef_163628501528
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_endRef_163628501528
 [INFO] Running com.elltor.md.util.MdKiller_Style_init_18451131302
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Style_init_18451131302
-[ERROR] test(com.elltor.md.util.MdKiller_Style_init_18451131302)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Style_init_18451131302
+[ERROR] test(com.elltor.md.util.MdKiller_Style_init_18451131302)  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.elltor.md.util.MdKiller_Style_init_18451131302.test(MdKiller_Style_init_18451131302.java:44)
 
@@ -126,19 +126,19 @@ java.lang.NullPointerException
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_text_24052257911
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_text_24052257911
 [INFO] Running com.elltor.md.util.MdKiller_Section_Type_init_5352038215
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_Type_init_5352038215
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_Type_init_5352038215
 [ERROR] test(com.elltor.md.util.MdKiller_Section_Type_init_5352038215)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.elltor.md.util.MdKiller_Section_Type_init_5352038215.test(MdKiller_Section_Type_init_5352038215.java:47)
 
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_parseStyle_4506404985
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_parseStyle_4506404985
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_parseStyle_4506404985
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_of_9018475011
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_of_9018475011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_of_9018475011
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_init_1997691967
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_MetaData_init_1997691967
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_of_19628361042
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.elltor.md.util.MdKiller_Fonts_of_19628361042
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_of_19628361042
 [INFO] Running com.elltor.md.util.MdKiller_TableDataBuilder_data_1307737043
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_TableDataBuilder_data_1307737043
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_text_11060844075
@@ -170,17 +170,17 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.elltor.md.util.MdKiller_MetaData_Type_init_20179079755.test(MdKiller_MetaData_Type_init_20179079755.java:47)
 
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_endOl_168420026542
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_endOl_168420026542
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_endOl_168420026542
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_init_5956140571
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_MetaData_init_5956140571
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_generateString_79948864610
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_MetaData_generateString_79948864610
-[ERROR] test(com.elltor.md.util.MdKiller_MetaData_generateString_79948864610)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] test(com.elltor.md.util.MdKiller_MetaData_generateString_79948864610)  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: The delimiter must not be null
 	at com.elltor.md.util.MdKiller_MetaData_generateString_79948864610.test(MdKiller_MetaData_generateString_79948864610.java:49)
 
 [INFO] Running com.elltor.md.util.MdKiller_Section_getData_127465313125
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_getData_127465313125
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_getData_127465313125
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_Type_valueOf_20594187884
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_MetaData_Type_valueOf_20594187884
 [ERROR] test(com.elltor.md.util.MdKiller_MetaData_Type_valueOf_20594187884)  Time elapsed: 0.001 s  <<< ERROR!
@@ -188,8 +188,8 @@ java.lang.NullPointerException: Name is null
 	at com.elltor.md.util.MdKiller_MetaData_Type_valueOf_20594187884.test(MdKiller_MetaData_Type_valueOf_20594187884.java:49)
 
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_ref_3158078626
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_ref_3158078626
-[ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_ref_3158078626)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_ref_3158078626
+[ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_ref_3158078626)  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_SectionBuilder_ref_3158078626.test(MdKiller_SectionBuilder_ref_3158078626.java:45)
 
@@ -200,7 +200,7 @@ java.lang.NullPointerException
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_generateLinkList_20876030166
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_MetaData_generateLinkList_20876030166
 [INFO] Running com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098524
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098524
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098524
 [ERROR] test(com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098524)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098524.test(MdKiller_Section_Type_valueOf_9821098524.java:49)
@@ -208,41 +208,41 @@ java.lang.NullPointerException: Name is null
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_bigTitle_66153448414
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_bigTitle_66153448414
 [INFO] Running com.elltor.md.util.MdKiller_MdParser_findRoot_1701508084
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_MdParser_findRoot_1701508084
-[ERROR] test(com.elltor.md.util.MdKiller_MdParser_findRoot_1701508084)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_MdParser_findRoot_1701508084
+[ERROR] test(com.elltor.md.util.MdKiller_MdParser_findRoot_1701508084)  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_MdParser_findRoot_1701508084.test(MdKiller_MdParser_findRoot_1701508084.java:44)
 
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_Type_values_15673883853
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_MetaData_Type_values_15673883853
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_MetaData_Type_values_15673883853
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_links_2945734636
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_links_2945734636
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_links_2945734636
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_br_7377844952
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_br_7377844952
-[ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_br_7377844952)  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_br_7377844952
+[ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_br_7377844952)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_SectionBuilder_br_7377844952.test(MdKiller_SectionBuilder_br_7377844952.java:45)
 
 [INFO] Running com.elltor.md.util.MdKiller_Style_valueOf_12818347801
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Style_valueOf_12818347801
-[ERROR] test(com.elltor.md.util.MdKiller_Style_valueOf_12818347801)  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Style_valueOf_12818347801
+[ERROR] test(com.elltor.md.util.MdKiller_Style_valueOf_12818347801)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.elltor.md.util.MdKiller.Style.eqJfYWRaEL
 	at com.elltor.md.util.MdKiller_Style_valueOf_12818347801.test(MdKiller_Style_valueOf_12818347801.java:42)
 
 [INFO] Running com.elltor.md.util.MdKiller_MdParser_init_20448040810
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_MdParser_init_20448040810
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_isEmpty_5565893729
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_isEmpty_5565893729
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_isEmpty_5565893729
 [INFO] Running com.elltor.md.util.MdKiller_Section_childIsEmpty_13726738555
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_childIsEmpty_13726738555
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_childIsEmpty_13726738555
 [INFO] Running com.elltor.md.util.MdKiller_init_16934760972
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_init_16934760972
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_init_16934760972
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_link_133173009032
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_link_133173009032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_link_133173009032
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_endUl_168402151946
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_endUl_168402151946
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_endUl_168402151946
 [INFO] Running com.elltor.md.util.MdKiller_Style_valueOf_12818347805
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Style_valueOf_12818347805
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Style_valueOf_12818347805
 [ERROR] test(com.elltor.md.util.MdKiller_Style_valueOf_12818347805)  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at com.elltor.md.util.MdKiller_Style_valueOf_12818347805.test(MdKiller_Style_valueOf_12818347805.java:49)
@@ -264,7 +264,7 @@ java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_SectionBuilder_code_143190187648.test(MdKiller_SectionBuilder_code_143190187648.java:45)
 
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_table_199439709430
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_table_199439709430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_table_199439709430
 [INFO] Running com.elltor.md.util.MdKiller_MdParser_parse_11405515862
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_MdParser_parse_11405515862
 [ERROR] test(com.elltor.md.util.MdKiller_MdParser_parse_11405515862)  Time elapsed: 0 s  <<< ERROR!
@@ -278,19 +278,19 @@ java.lang.IllegalArgumentException: No enum constant com.elltor.md.util.MdKiller
 	at com.elltor.md.util.MdKiller_MetaData_Type_valueOf_20594187881.test(MdKiller_MetaData_Type_valueOf_20594187881.java:42)
 
 [INFO] Running com.elltor.md.util.MdKiller_Style_values_17738651830
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Style_values_17738651830
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Style_values_17738651830
 [INFO] Running com.elltor.md.util.MdKiller_TableDataBuilder_data_20348004575
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_TableDataBuilder_data_20348004575
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_TableDataBuilder_data_20348004575
 [INFO] Running com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098521
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098521
-[ERROR] test(com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098521)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098521
+[ERROR] test(com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098521)  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.elltor.md.util.MdKiller.Section.Type.sjlJAEtRrb
 	at com.elltor.md.util.MdKiller_Section_Type_valueOf_9821098521.test(MdKiller_Section_Type_valueOf_9821098521.java:42)
 
 [INFO] Running com.elltor.md.util.MdKiller_Section_setParent_84229957131
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_setParent_84229957131
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_setParent_84229957131
 [INFO] Running com.elltor.md.util.MdKiller_Section_setChildren_96149137735
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_setChildren_96149137735
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_setChildren_96149137735
 [INFO] Running com.elltor.md.util.MdKiller_Section_parseData_2285226339
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_parseData_2285226339
 [INFO] Running com.elltor.md.util.MdKiller_Section_addChild_3323192983
@@ -300,17 +300,17 @@ java.lang.IllegalArgumentException: No enum constant com.elltor.md.util.MdKiller
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_isEmpty_5565893723
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_isEmpty_5565893723
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_subTitle_127703803624
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_subTitle_127703803624
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_SectionBuilder_subTitle_127703803624
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_init_3240168496
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_init_3240168496
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_init_3240168496
 [INFO] Running com.elltor.md.util.MdKiller_Section_getParent_11298115129
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_getParent_11298115129
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_generateString_7994886465
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.elltor.md.util.MdKiller_MetaData_generateString_7994886465
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.elltor.md.util.MdKiller_MetaData_generateString_7994886465
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_of_9018475017
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_of_9018475017
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_of_9018475017
 [INFO] Running com.elltor.md.util.MdKiller_Style_values_17738651834
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Style_values_17738651834
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Style_values_17738651834
 [INFO] Running com.elltor.md.util.MdKiller_Section_parseTableSection_76617853217
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_parseTableSection_76617853217
 [ERROR] test(com.elltor.md.util.MdKiller_Section_parseTableSection_76617853217)  Time elapsed: 0.001 s  <<< ERROR!
@@ -336,7 +336,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_Type_values_15673883850
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_MetaData_Type_values_15673883850
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_toString_18429577824
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_toString_18429577824
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_toString_18429577824
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_build_98706317054
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_build_98706317054
 [ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_build_98706317054)  Time elapsed: 0.001 s  <<< ERROR!
@@ -350,45 +350,45 @@ java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_Section_parse_4366111237.test(MdKiller_Section_parse_4366111237.java:49)
 
 [INFO] Running com.elltor.md.util.MdKiller_MetaData_init_7365314093
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_MetaData_init_7365314093
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_MetaData_init_7365314093
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_text_15309639247
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.elltor.md.util.MdKiller_SectionBuilder_text_15309639247
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_text_15309639247
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_init_3240168490
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_init_3240168490
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Fonts_init_3240168490
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_endCode_106928896750
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_endCode_106928896750
 [INFO] Running com.elltor.md.util.MdKiller_Section_parseUnOrderListSection_128926576115
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_parseUnOrderListSection_128926576115
-[ERROR] test(com.elltor.md.util.MdKiller_Section_parseUnOrderListSection_128926576115)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_parseUnOrderListSection_128926576115
+[ERROR] test(com.elltor.md.util.MdKiller_Section_parseUnOrderListSection_128926576115)  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_Section_parseUnOrderListSection_128926576115.test(MdKiller_Section_parseUnOrderListSection_128926576115.java:49)
 
 [INFO] Running com.elltor.md.util.MdKiller_Section_Type_values_14741402553
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_Type_values_14741402553
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_Type_values_14741402553
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_of_19628361048
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Fonts_of_19628361048
 [INFO] Running com.elltor.md.util.MdKiller_Fonts_toString_184295778210
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Fonts_toString_184295778210
-[ERROR] test(com.elltor.md.util.MdKiller_Fonts_toString_184295778210)  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Fonts_toString_184295778210
+[ERROR] test(com.elltor.md.util.MdKiller_Fonts_toString_184295778210)  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_Fonts_toString_184295778210.test(MdKiller_Fonts_toString_184295778210.java:44)
 
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_init_16717361293
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_SectionBuilder_init_16717361293
 [INFO] Running com.elltor.md.util.MdKiller_SectionBuilder_ul_7321818644
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_ul_7321818644
-[ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_ul_7321818644)  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_SectionBuilder_ul_7321818644
+[ERROR] test(com.elltor.md.util.MdKiller_SectionBuilder_ul_7321818644)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_SectionBuilder_ul_7321818644.test(MdKiller_SectionBuilder_ul_7321818644.java:45)
 
 [INFO] Running com.elltor.md.util.MdKiller_Section_parseRefSection_116171123111
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_parseRefSection_116171123111
-[ERROR] test(com.elltor.md.util.MdKiller_Section_parseRefSection_116171123111)  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.elltor.md.util.MdKiller_Section_parseRefSection_116171123111
+[ERROR] test(com.elltor.md.util.MdKiller_Section_parseRefSection_116171123111)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.elltor.md.util.MdKiller_Section_parseRefSection_116171123111.test(MdKiller_Section_parseRefSection_116171123111.java:49)
 
 [INFO] Running com.elltor.md.util.MdKiller_Section_setData_94694476127
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.elltor.md.util.MdKiller_Section_setData_94694476127
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.elltor.md.util.MdKiller_Section_setData_94694476127
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -440,6 +440,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.937 s
-[INFO] Finished at: 2026-04-08T06:17:03Z
+[INFO] Total time:  2.919 s
+[INFO] Finished at: 2026-04-09T13:07:39Z
 [INFO] ------------------------------------------------------------------------

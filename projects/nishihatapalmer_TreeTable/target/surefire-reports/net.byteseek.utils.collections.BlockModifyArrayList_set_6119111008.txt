@@ -2,7 +2,7 @@
 Test set: net.byteseek.utils.collections.BlockModifyArrayList_set_6119111008
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.utils.collections.BlockModifyArrayList_set_6119111008)  Time elapsed: 0.001 sec  <<< ERROR!
+test(net.byteseek.utils.collections.BlockModifyArrayList_set_6119111008)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index = 0 size = 0
 	at net.byteseek.utils.collections.BlockModifyArrayList.checkIndex(BlockModifyArrayList.java:316)
 	at net.byteseek.utils.collections.BlockModifyArrayList.set(BlockModifyArrayList.java:151)

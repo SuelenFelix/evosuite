@@ -89,15 +89,15 @@ WARNING: Illegal reflective access by com.chip8.configs.ReflectionUtils (file:/a
 WARNING: Please consider reporting this to the maintainers of com.chip8.configs.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
 Running com.chip8.configs.Configs_isBlur_4369820666
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.ConfigsSaver_init_609494225
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setBlurValue_194471703425
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getGlowValue_14132775414
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getPlaneColor_443711912
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_equals_92622186735
@@ -107,7 +107,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getPlaneColor_19147453895
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.ConfigsSaver_loadSymbol_17813274712
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setPlaneColor_144528400968
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setQuirkIncrementIndex_54369022272
@@ -119,9 +119,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setPrintSymbol_99042372720
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setBgColor_193109157466
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.chip8.configs.DefaultValues_getGlowValue_14132775455
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.configs.DefaultValues_getGlowValue_14132775455
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkOrder_33438280717
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setGlowValue_154414507473
@@ -141,8 +141,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setGlowValue_154414507432
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.KeybindSaver_save_17730998457
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.configs.KeybindSaver_save_17730998457)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+test(com.chip8.configs.KeybindSaver_save_17730998457)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.configs.KeybindSaver.save(KeybindSaver.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -170,25 +170,25 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setRoundPixels_68234818061
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isQuirkShift_121809631356
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_setQuirkIndex_10738213576
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isDisableUiUpdates_14905704679
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getSpriteColor_193487783245
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_getSpriteColor_44978119450
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getPrintSymbol_109347454342
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_setPrintToConsole_113235768226
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setDisableUiUpdates_108973526158
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setBothColor_74954419665
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.QuirkSaver_init_4536609593
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.chip8.configs.DefaultValues_isBlur_147332620411
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_isBlur_43698206645
@@ -196,15 +196,15 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkJump_83305552154
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkJump_83305552115
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setQuirkJump_183140150732
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getBgColor_111961055049
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setDisableUiUpdates_82057300968
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setBlur_201065090270
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkIncrementIndex_129067240455
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isQuirkIndex_110012544917
@@ -212,32 +212,32 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setDisableUiUpdates_108973526119
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setBlur_37400812423
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_getPlaneColor_191474538946
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_isGlow_161629801812
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_init_5786803490
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.chip8.configs.ConfigsSaver_loadSymbol_17813274717
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getBgColor_111961055010
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_isGlow_161629801853
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.KeybindSaver_equals_81255577110
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_setQuirkJump_7890676375
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_setGlowValue_36616319665
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_setMouseKbLayout_9590470461
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_canEqual_65427453038
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.QuirkSaver_save_4301337381
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.configs.QuirkSaver_save_4301337381)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.configs.QuirkSaver_save_4301337381)  Time elapsed: 0 sec  <<< ERROR!
 java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
 	at com.chip8.configs.QuirkSaver.save(QuirkSaver.java:33)
@@ -324,15 +324,15 @@ java.util.NoSuchElementException: No line found
 Running com.chip8.configs.DefaultValues_setPrintSymbol_91988454366
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setQuirkShift_22535299933
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isSpriteExtracting_184853505343
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isQuirkJump_107725274957
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_isQuirkShift_121809631315
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.ConfigsSaver_init_609494220
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_setQuirkOrder_65836050773
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isGlow_2940102527
@@ -344,7 +344,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setPlaneColor_46502426123
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_canEqual_65427453079
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.KeybindSaver_load_3494951348
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.chip8.configs.KeybindSaver_load_3494951348)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -380,9 +380,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setGlowValue_36616319626
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_toString_3322449877
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.chip8.configs.Configs_getPrintSymbol_10934745433
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.chip8.configs.Configs_getPrintSymbol_10934745433
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_setRoundPixels_68234818022
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkShift_69221195753
@@ -390,15 +390,15 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.KeybindSaver_init_19775093092
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getBlurValue_184275931213
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getBgColor_79069772044
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setQuirkOrder_125194776336
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.KeybindSaver_hashCode_12612424465
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_getBothColor_9123016366
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.ColorSaver_init_8769559081
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_setBgColor_193109157427
@@ -418,7 +418,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isDisableUiUpdates_4197378032
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getBothColor_147235739052
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setGlow_186767908871
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setBlurValue_194471703464
@@ -428,13 +428,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_equals_145843715978
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setPrintSymbol_91988454325
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getBlurValue_5418997148
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getBlurValue_54189971447
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkShift_69221195714
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isPrintToConsole_158788306849
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isBlur_147332620452
@@ -450,13 +450,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_equals_145843715937
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setSpriteColor_183182701622
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_setDisableUiUpdates_82057300927
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setPrintSymbol_99042372759
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setBgColor_2078330421
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.QuirkSaver_save_4301337384
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.chip8.configs.QuirkSaver_save_4301337384)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -484,23 +484,23 @@ java.util.NoSuchElementException: No line found
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.configs.DefaultValues_setRebindLayout_207015362460
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.chip8.configs.Configs_getBothColor_147235739013
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.configs.Configs_getBothColor_147235739013
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setPlaneColor_46502426164
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getGlowValue_17689805169
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isGlow_29401025246
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setRoundPixels_122796009028
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getBothColor_91230163647
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.chip8.configs.DefaultValues_setSpriteColor_183182701663
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.chip8.configs.Configs_isRoundPixels_1367123025
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.configs.DefaultValues_setSpriteColor_183182701663
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.configs.Configs_isRoundPixels_1367123025
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_getBgColor_7906977203
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setBlurValue_43994199231
@@ -508,25 +508,25 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.ConfigsSaver_loadValue_9666961234
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_hashCode_47753519276
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.QuirkSaver_init_4536609590
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isQuirkIncrementIndex_129067240416
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_isPrintToConsole_15878830688
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_isRoundPixels_204702057210
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_toString_187708377281
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_init_13316279210
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setQuirkShift_168495527170
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.KeybindSaver_toString_177200213613
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setRebindLayout_207015362419
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.KeybindSaver_load_3494951341
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.chip8.configs.KeybindSaver_load_3494951341)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -562,17 +562,17 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setQuirkShift_168495527131
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_init_57868034939
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_canEqual_173038449636
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_canEqual_173038449675
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_isQuirkOrder_205027621959
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_setBothColor_163511483030
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_init_133162792141
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.KeybindSaver_canEqual_83931424
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_isPrintToConsole_79677595840
@@ -580,13 +580,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_getPrintSymbol_81683372748
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.DefaultValues_setMouseKbLayout_9590470420
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.ConfigsSaver_loadState_17694836283
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_equals_92622186774
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.ColorSaver_init_8769559080
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_isSpriteExtracting_18485350534
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setPlaneColor_144528400929
@@ -594,20 +594,20 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setQuirkOrder_65836050734
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.KeybindSaver_init_19775093099
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.chip8.configs.Configs_isRoundPixels_13671230244
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.configs.Configs_isRoundPixels_13671230244
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setQuirkShift_22535299974
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isRoundPixels_204702057251
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setGlow_186767908830
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.Configs_setQuirkIncrementIndex_54369022233
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.configs.KeybindSaver_save_17730998450
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.configs.KeybindSaver_save_17730998450)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.configs.KeybindSaver_save_17730998450)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
 	at com.chip8.configs.KeybindSaver.save(KeybindSaver.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -635,13 +635,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isQuirkIndex_110012544958
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_setPrintToConsole_113235768267
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setQuirkJump_183140150771
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.DefaultValues_isDisableUiUpdates_149057046750
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setBothColor_163511483069
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_getGlowValue_176898051648
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_setSpriteColor_55283201067
@@ -663,8 +663,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.configs.Configs_hashCode_47753519237
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfEqualRegisters_133815112095
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_skipIfEqualRegisters_133815112095)  Time elapsed: 0.011 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_skipIfEqualRegisters_133815112095)  Time elapsed: 0.016 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.skipIfEqualRegisters(Decoder.java:328)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -688,7 +688,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_setKeys_37900971569
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.chip8.emulator.Memory_setRpl_140108750314
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Scroll_init_3070827962
@@ -723,10 +723,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_init_19031004120
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.chip8.emulator.Loader_setMemory_73132158613
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_returnFromSubroutine_195849037880
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_returnFromSubroutine_195849037880)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_returnFromSubroutine_195849037880)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.returnFromSubroutine(Decoder.java:210)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -833,11 +833,11 @@ java.lang.NullPointerException
 Running com.chip8.emulator.Loader_loadToMemory_2177363592
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_setD_706937007148
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running com.chip8.emulator.Decoder_dumpVxToVy_193730404419
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_draw16x16_70003690840
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSetSoundToVx_1434732012113
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getI_13507553257
@@ -909,7 +909,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_setDisplay_164918524370
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getIBefore_210177751556
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_init_1681046438125
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_shiftLeft_29006662532
@@ -973,9 +973,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_canEqual_181687965774
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_setSpriteViewer_127426339475
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.chip8.emulator.Fetcher_equals_134031086312
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.emulator.Fetcher_equals_134031086312
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_getDelayTimer_195517383537
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_getOpcode_208853021922
@@ -1059,8 +1059,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_hires_19518514158
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_hires_19518514158)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_hires_19518514158)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
 	at com.chip8.emulator.PixelManager.clearDisplay(PixelManager.java:78)
@@ -1279,7 +1279,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_fillVxToVy_147859737293
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfEqual_107284350416
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_initializeMemory_15908218861
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_setCurrentPlane_183780369036
@@ -1287,8 +1287,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_getCurrentTime_18328792178
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_scrollDown_31374711611
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.PixelManager_scrollDown_31374711611)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.PixelManager_scrollDown_31374711611)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
 	at com.chip8.emulator.PixelManager.scrollDown(PixelManager.java:192)
@@ -1340,9 +1340,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_setOpcode_183986912668
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_drawingPlane_94484871443
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailFont_1536742425115
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getPc_1309188482134
@@ -1350,7 +1350,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_getM_125324079823
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_font_24260712949
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_getKeys_2793409161
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_getM_12532407987
@@ -1370,7 +1370,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailRplFill_171444092145
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_addVxVy_111590073427
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_detailBinary_175308439597
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_registerFill_162716830131
@@ -1419,8 +1419,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfEqualRegisters_133815112018
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_drawDisplay_141698424638
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_drawDisplay_141698424638)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_drawDisplay_141698424638)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at com.chip8.emulator.PixelManager.clearSprite(PixelManager.java:99)
 	at com.chip8.emulator.Decoder.drawDisplay(Decoder.java:517)
@@ -1447,8 +1447,8 @@ java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 Running com.chip8.emulator.DecodeDetails_scrollDown_21188740082
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_setVxToDelay_1106700988121
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_setVxToDelay_1106700988121)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_setVxToDelay_1106700988121)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.setVxToDelay(Decoder.java:628)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1538,8 +1538,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_init_8596131250
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_getKey_1310912447122
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_getKey_1310912447122)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_getKey_1310912447122)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.getKey(Decoder.java:636)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1577,7 +1577,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getI_135075532133
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_clearDisplay_2217073428
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_equals_68281437511
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.PixelManager_drawScrolling_2453180828
@@ -1589,7 +1589,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_getLoadedRom_147185422429
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_equals_150643986938
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_scrollDown_14626389789
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.Decoder_scrollDown_14626389789)  Time elapsed: 0 sec  <<< ERROR!
@@ -1616,7 +1616,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Keys_init_18476586480
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_setOpcode_60502893861
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getNnn_94973303953
@@ -1653,8 +1653,8 @@ java.nio.file.NoSuchFileException: lMUBBGRjfY
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(com.chip8.emulator.Executer_init_970992490)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+test(com.chip8.emulator.Executer_init_970992490)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1681,7 +1681,7 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running com.chip8.emulator.DecodeDetails_detailAddVxVy_60376004698
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_getOpcode_1754916072137
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_clearDisplay_1364439552
@@ -1712,10 +1712,10 @@ java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Memory_setV_90814820113
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_scrollUp_109260995213
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_scrollUp_109260995213)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_scrollUp_109260995213)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 7
 	at com.chip8.emulator.PixelManager.drawScrolling(PixelManager.java:144)
 	at com.chip8.emulator.PixelManager.scrollUp(PixelManager.java:206)
@@ -1749,7 +1749,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_isResolutionMode_105845429666
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_init_15926802030
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSetDelayToVx_1078100872112
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_setM_21910919210
@@ -1800,7 +1800,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSubtract7_200938635100
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_lores_13786737497
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.Decoder_lores_13786737497)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
@@ -1827,9 +1827,9 @@ java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_getFetcher_214125962958
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_hashCode_41603241817
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSkipIfKeyNotEq_160076540233
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_setRpl_140108750341
@@ -1977,7 +1977,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_equals_64528909150
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getOpcode_689981992126
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.PixelManager_draw_4630558632
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.PixelManager_draw_4630558632)  Time elapsed: 0 sec  <<< ERROR!
@@ -2012,8 +2012,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_getCurrentPlane_152063804025
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_subtract_1107594604105
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_subtract_1107594604105)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_subtract_1107594604105)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.subtract(Decoder.java:423)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2068,8 +2068,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_getKeys_27934091138
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_drawingPlane_944848714120
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_drawingPlane_944848714120)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_drawingPlane_944848714120)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.drawingPlane(Decoder.java:621)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2095,9 +2095,9 @@ java.lang.NullPointerException
 Running com.chip8.emulator.Decoder_toString_71447864576
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
 Running com.chip8.emulator.Decoder_setVxToDelay_110670098844
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_registerDump_11657441553
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_clearDisplay_22170734284
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getOpcode_68998199250
@@ -2134,7 +2134,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_toString_38086449831
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailJumpWithOff_923683069105
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_setOpcode_1839869126145
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_canEqual_144945172024
@@ -2202,8 +2202,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getIBefore_2101777515132
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_seek_2171782132
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Fetcher_seek_2171782132)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Fetcher_seek_2171782132)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index -29734 out of bounds for length 65535
 	at com.chip8.emulator.Fetcher.seek(Fetcher.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2233,7 +2233,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfNextLargeIndex_87650140610
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_canEqual_144945172051
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.PixelManager_getY_39417086219
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_pitch_46372316052
@@ -2241,8 +2241,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_setFetcher_102673186223
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_timerDecrement_29642813121
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Fetcher_timerDecrement_29642813121)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Fetcher_timerDecrement_29642813121)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Fetcher.timerDecrement(Fetcher.java:76)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2296,7 +2296,7 @@ java.nio.file.NoSuchFileException: lnJVsFNsCN
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.chip8.emulator.DecodeDetails_setX_188183389362
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getPc_130918848258
@@ -2304,13 +2304,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_setOpcode_21214840239
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_setMemory_73132158632
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_getC_49493191764
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_detailJumpAddress_94665446487
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSkipIfKeyNotEq_1600765402109
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_subtract5_74806938329
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_erase_63571714352
@@ -2353,7 +2353,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailAddToIndex_2042316672114
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_setI_1881848308144
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.PixelManager_getSpriteViewer_33773686864
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_setFetcher_201784249766
@@ -2361,9 +2361,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSkipIfEqualReg_54874909491
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_jumpAddress_195777887814
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Loader_setName_33867327931
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_getY_135090908128
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_equals_3265425715
@@ -2426,20 +2426,20 @@ java.lang.NullPointerException
 Running com.chip8.emulator.Loader_equals_3265425734
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailReturnFromEx_8945752559
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_setDetailed_314614599147
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_rplFill_206834799156
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_detailSubtract7_20093863524
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_setFadeMap_135068625169
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_getDecoder_11243474265
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Loader_hexDump_58380010522
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.chip8.emulator.Loader_hexDump_58380010522)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Loader_hexDump_58380010522)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.apache.commons.io.HexDump.dump(HexDump.java:108)
 	at com.chip8.emulator.Loader.hexDump(Loader.java:63)
@@ -2466,8 +2466,8 @@ java.lang.NullPointerException
 Running com.chip8.emulator.PixelManager_setXoMode_72430863979
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_random_1276684123114
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_random_1276684123114)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_random_1276684123114)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.random(Decoder.java:511)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2497,13 +2497,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_getFadeSpeed_192613630921
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_getDelayTimer_195517383510
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_isFade_24707486962
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_hashCode_19660241625
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfKeyEqual_705950135118
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.chip8.emulator.Decoder_skipIfKeyEqual_705950135118)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.skipIfKeyEqual(Decoder.java:601)
@@ -2534,8 +2534,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_dumpVxToVy_199951195516
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfEqual_107284350493
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_skipIfEqual_107284350493)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_skipIfEqual_107284350493)  Time elapsed: 0.008 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.skipIfEqual(Decoder.java:308)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2561,8 +2561,8 @@ java.lang.NullPointerException
 Running com.chip8.emulator.Scroll_values_9615658233
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_binaryOr_145727516101
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_binaryOr_145727516101)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_binaryOr_145727516101)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.binaryOr(Decoder.java:381)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2822,7 +2822,7 @@ java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 Running com.chip8.emulator.PixelManager_canEqual_198436479881
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_setRam_140064159919
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_pitch_82187445747
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_jumpAddress_195777887891
@@ -2857,8 +2857,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_getN_13508033755
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_lores_137867374984
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_lores_137867374984)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_lores_137867374984)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.lores(Decoder.java:240)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2888,12 +2888,12 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_equals_1673925010150
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_toString_27663199014
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
 Running com.chip8.emulator.Fetcher_init_17056428916
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.PixelManager_erase_63571714310
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.PixelManager_erase_63571714310)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.PixelManager_erase_63571714310)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index -1724487863 out of bounds for length 1
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2944,7 +2944,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_setC_39542812172
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_setY_1881832932139
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSetVarReg_106011597794
@@ -3119,7 +3119,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_setPc_100882441069
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_getV_12553245473
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Loader_hexDump_5838001053
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_getDecoder_112434742620
@@ -3202,11 +3202,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_setSpriteHeight_94098081934
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_largeIndex_7029370719
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_detailRandom_160676026930
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_setDecoder_118251732224
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_fetch_26950980917
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.Fetcher_fetch_26950980917)  Time elapsed: 0 sec  <<< ERROR!
@@ -3241,8 +3241,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_decode_15970947441
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfKeyNotEqual_1245882716119
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_skipIfKeyNotEqual_1245882716119)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_skipIfKeyNotEqual_1245882716119)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.skipIfKeyNotEqual(Decoder.java:611)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3274,8 +3274,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_init_159915742
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_initializeMemory_159082188628
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Memory_initializeMemory_159082188628)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Memory_initializeMemory_159082188628)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Memory.initializeMemory(Memory.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3325,8 +3325,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.PixelManager_scrollLeft_9445172156
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.PixelManager_scrollLeft_9445172156)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.PixelManager_scrollLeft_9445172156)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
 	at com.chip8.emulator.PixelManager.scrollLeft(PixelManager.java:252)
@@ -3353,9 +3353,9 @@ java.lang.NullPointerException
 Running com.chip8.emulator.PixelManager_hashCode_105775319482
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_exit_9507775179
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_setDecoder_11825173229
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailAudioBuffer_1037628098122
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Scroll_init_3070827965
@@ -3409,9 +3409,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailCallSub_54295416612
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSkipIfNotEqReg_1715072603103
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_fade_4233338891
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_exit_2630735466
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_rplDump_2114490406132
@@ -3440,15 +3440,15 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_registerFill_16271683054
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_init_168104643849
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Fetcher_getCurrentTime_183287921724
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailShiftRight_1907719070101
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_getI_125533703234
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_getStack_93586923012
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_toString_1135590587151
@@ -3500,14 +3500,14 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_detailJumpWithOff_92368306929
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_hires_198496458481
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_setN_188184350366
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_getD_993529501140
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_init_15991570
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.PixelManager_init_15991570)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.PixelManager_init_15991570)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -3533,9 +3533,9 @@ Caused by: java.lang.NegativeArraySizeException: -1748391876
 	... 19 more
 
 Running com.chip8.emulator.Memory_setStack_112052388222
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.chip8.emulator.Scroll_values_9615658230
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.chip8.emulator.Scroll_values_9615658230
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_scrollDown_14626389712
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.Decoder_scrollDown_14626389712)  Time elapsed: 0 sec  <<< ERROR!
@@ -3564,8 +3564,8 @@ java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Decoder_addToIndex_1168460046125
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_addToIndex_1168460046125)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_addToIndex_1168460046125)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.addToIndex(Decoder.java:661)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3616,10 +3616,10 @@ java.lang.NullPointerException
 Running com.chip8.emulator.DecodeDetails_scrollUp_145076124983
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_jumpWithOffset_139835254536
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_rplFill_2068347991133
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_rplFill_2068347991133)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_rplFill_2068347991133)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.rplFill(Decoder.java:746)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3643,16 +3643,16 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Fetcher_toString_38086449815
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
-Running com.chip8.emulator.DecodeDetails_detailSetVxToDetail_208130856110
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.chip8.emulator.DecodeDetails_detailSetVxToDetail_208130856110
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_setStack_112052388249
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_scrollBy_92094402115
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_shiftLeft_290066625109
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_shiftLeft_290066625109)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_shiftLeft_290066625109)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.shiftLeft(Decoder.java:467)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3690,8 +3690,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailSkipIfEqualReg_54874909415
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_audioBuffer_186680667088
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_audioBuffer_186680667088)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_audioBuffer_186680667088)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.audioBuffer(Decoder.java:271)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3818,11 +3818,11 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.Fetcher_equals_134031086328
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_setFadeSpeed_96601366774
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_setFetcher_10267318628
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_draw_46305586344
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.PixelManager_draw_46305586344)  Time elapsed: 0 sec  <<< ERROR!
@@ -3878,7 +3878,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_scrollDown_31374711653
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_setDetailed_31461459970
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Loader_setBytes_158086119011
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_getSpriteHeight_187750638565
@@ -3886,7 +3886,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailRplDump_1668298506120
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_setLoader_104296380010
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_getLoader_105209334621
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_canEqual_83681688635
@@ -3927,7 +3927,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailBinary_175308439521
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_toString_31415727426
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailShiftRight_190771907025
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_skipIfNotEqualRegisters_100681982934
@@ -3945,8 +3945,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailCallSub_54295416688
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_hires_195185141585
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_hires_195185141585)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_hires_195185141585)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.hires(Decoder.java:247)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3970,7 +3970,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.PixelManager_scrollLeft_9445172114
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.chip8.emulator.PixelManager_scrollLeft_9445172114)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 63 out of bounds for length 1
 	at com.chip8.emulator.PixelManager.drawScrolling(PixelManager.java:140)
@@ -4027,10 +4027,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_getFadeSpeed_192613630963
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Keys_init_18476586481
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_scrollRight_16095347454
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_scrollRight_16095347454)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_scrollRight_16095347454)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 127 out of bounds for length 6
 	at com.chip8.emulator.PixelManager.drawScrolling(PixelManager.java:142)
 	at com.chip8.emulator.PixelManager.scrollRight(PixelManager.java:226)
@@ -4087,7 +4087,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_rplDump_211449040655
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_getFetcher_11625970324
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.Decoder_binaryAnd_514219026102
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.emulator.Decoder_binaryAnd_514219026102)  Time elapsed: 0 sec  <<< ERROR!
@@ -4114,16 +4114,16 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.chip8.emulator.DecodeDetails_getNn_1309139471130
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_fader_2325430479
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_forceOpcode_20130107442
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_scrollUp_92512673354
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_scrollRight_177701988613
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(com.chip8.emulator.PixelManager_scrollRight_177701988613)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.PixelManager_scrollRight_177701988613)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
 	at com.chip8.emulator.PixelManager.scrollRight(PixelManager.java:232)
@@ -4150,13 +4150,13 @@ java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
 Running com.chip8.emulator.DecodeDetails_scrollRight_125138344877
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_execute_10558055341
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.emulator.DecodeDetails_setIBefore_1290296491143
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_drawScrolling_24531808250
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_audioBuffer_186680667011
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_bcd_111983791551
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.PixelManager_toString_54699350441
@@ -4199,8 +4199,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_getSoundTimer_175138538538
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_scrollLeft_730334205
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_scrollLeft_730334205)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_scrollLeft_730334205)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 126 out of bounds for length 7
 	at com.chip8.emulator.PixelManager.erase(PixelManager.java:169)
 	at com.chip8.emulator.PixelManager.scrollLeft(PixelManager.java:252)
@@ -4228,7 +4228,7 @@ java.lang.ArrayIndexOutOfBoundsException: Index 126 out of bounds for length 7
 Running com.chip8.emulator.Decoder_addToIndex_116846004648
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.DecodeDetails_detailReturnFromEx_89457525585
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_binaryAnd_51421902625
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_draw16x16_700036908117
@@ -4267,7 +4267,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_getMemory_7794797383
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_init_9709924915
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.chip8.emulator.Executer_init_9709924915)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -4300,7 +4300,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Memory_setPc_198251227218
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_setM_11450495565
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Loader_fontData_190036624424
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Executer_canEqual_148697700427
@@ -4312,8 +4312,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_callSubroutine_202914960615
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.emulator.Decoder_draw_297441572116
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.chip8.emulator.Decoder_draw_297441572116)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(com.chip8.emulator.Decoder_draw_297441572116)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.chip8.emulator.Decoder.draw(Decoder.java:538)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4390,8 +4390,8 @@ java.lang.UnsatisfiedLinkError: /root/.openjfx/cache/11/libglass.so: libX11.so.6
 	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:678)
 	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:195)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.191 sec <<< FAILURE!
-test(com.chip8.Main_main_14921220473)  Time elapsed: 0.191 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.193 sec <<< FAILURE!
+test(com.chip8.Main_main_14921220473)  Time elapsed: 0.193 sec  <<< ERROR!
 java.lang.RuntimeException: java.lang.UnsatisfiedLinkError: no glass in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib]
 	at com.sun.javafx.tk.quantum.QuantumToolkit.startup(QuantumToolkit.java:268)
 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:269)
@@ -4558,8 +4558,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.FadePixel_hashCode_11829824066
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.Audio_tone_654782871
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE!
-test(com.chip8.ui.Audio_tone_654782871)  Time elapsed: 0.019 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE!
+test(com.chip8.ui.Audio_tone_654782871)  Time elapsed: 0.018 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED Infinity Hz, 8 bit, mono, 1 bytes/frame,  is supported.
 	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
 	at java.desktop/javax.sound.sampled.AudioSystem.getSourceDataLine(AudioSystem.java:534)
@@ -4588,7 +4588,7 @@ java.lang.IllegalArgumentException: No line matching interface SourceDataLine su
 Running com.chip8.ui.RandomColors_init_2393814640
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.UiElements_init_17483481761
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.chip8.ui.FadePixel_canEqual_698668985
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.FadePixel_toString_16937420967
@@ -4673,7 +4673,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.FadePixel_getPlane_84259720310
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.FadePixel_setPlane_10978345673
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.chip8.ui.Audio_tone_8319537472
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(com.chip8.ui.Audio_tone_8319537472)  Time elapsed: 0 sec  <<< ERROR!
@@ -4908,6 +4908,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.556 s
-[INFO] Finished at: 2026-04-08T06:19:54Z
+[INFO] Total time:  8.367 s
+[INFO] Finished at: 2026-04-09T13:10:29Z
 [INFO] ------------------------------------------------------------------------

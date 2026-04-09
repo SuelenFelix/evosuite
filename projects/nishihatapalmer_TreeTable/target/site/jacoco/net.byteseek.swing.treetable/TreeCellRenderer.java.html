@@ -119,12 +119,12 @@ public class TreeCellRenderer extends DefaultTableCellRenderer implements TreeTa
      * @throws IllegalArgumentException if the treeTableModel is null.
      */
 <span class="fc" id="L121">    public TreeCellRenderer(final TreeTableModel treeTableModel) {</span>
-<span class="fc bfc" id="L122" title="All 2 branches covered.">        if (treeTableModel == null) {</span>
+<span class="pc bpc" id="L122" title="1 of 2 branches missed.">        if (treeTableModel == null) {</span>
 <span class="fc" id="L123">            throw new IllegalArgumentException(&quot;TreeTableModel cannot be null.&quot;);</span>
         }
-<span class="fc" id="L125">        this.treeTableModel = treeTableModel;</span>
-<span class="fc" id="L126">        expandCollapseIconRenderer = new JLabel(&quot;&quot;, SwingConstants.RIGHT);</span>
-<span class="fc" id="L127">        expandCollapseIconRenderer.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, PADDING));</span>
+<span class="nc" id="L125">        this.treeTableModel = treeTableModel;</span>
+<span class="nc" id="L126">        expandCollapseIconRenderer = new JLabel(&quot;&quot;, SwingConstants.RIGHT);</span>
+<span class="nc" id="L127">        expandCollapseIconRenderer.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, PADDING));</span>
 <span class="nc" id="L128">        setExpandedIcon(UIManager.getIcon(&quot;Tree.expandedIcon&quot;));</span>
 <span class="nc" id="L129">        setCollapsedIcon(UIManager.getIcon(&quot;Tree.collapsedIcon&quot;));</span>
 <span class="nc" id="L130">        setBorder(new ExpandHandleBorder()); // The border paints the expand/collapse handles and handles the indentation of the node from the left.</span>

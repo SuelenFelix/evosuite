@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.neural.AnnType_init_2201578722
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.neural.AnnType_init_2201578722)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.neural.AnnType_init_2201578722)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at nn.neural.ReflectionUtils.callConstructor(ReflectionUtils.java:321)

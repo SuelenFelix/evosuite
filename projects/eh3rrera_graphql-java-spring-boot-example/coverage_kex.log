@@ -66,13 +66,13 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.example.DemoGraphQL.MyProperties_getH2_11632191114
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.example.DemoGraphQL.MyProperties_getH2_11632191114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.example.DemoGraphQL.MyProperties_getH2_11632191114
 [INFO] Running com.example.DemoGraphQL.model.Author_getLastName_88103000219
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getLastName_88103000219
 [INFO] Running com.example.DemoGraphQL.model.Author_init_113269066412
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_113269066412
 [INFO] Running com.example.DemoGraphQL.model.Book_setAuthor_34965284211
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setAuthor_34965284211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setAuthor_34965284211
 [INFO] Running com.example.DemoGraphQL.model.Book_getId_16254020372
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getId_16254020372
 [INFO] Running com.example.DemoGraphQL.model.Author_equals_3722115529
@@ -102,7 +102,7 @@ java.lang.NullPointerException
 	at com.example.DemoGraphQL.model.Book_hashCode_170023089528.test(Book_hashCode_170023089528.java:47)
 
 [INFO] Running com.example.DemoGraphQL.model.Book_init_20866139516
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_init_20866139516
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_20866139516
 [INFO] Running com.example.DemoGraphQL.model.Author_getLastName_8810300027
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getLastName_8810300027
 [INFO] Running com.example.DemoGraphQL.model.Author_getId_15130398115
@@ -110,7 +110,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Author_init_11326906640
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_11326906640
 [INFO] Running com.example.DemoGraphQL.model.Book_hashCode_170023089513
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_hashCode_170023089513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_hashCode_170023089513
 [INFO] Running com.example.DemoGraphQL.model.Book_setIsbn_16507486057
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setIsbn_16507486057
 [INFO] Running com.example.DemoGraphQL.model.Book_setId_11953602793
@@ -118,13 +118,13 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Author_setLastName_182759485420
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setLastName_182759485420
 [INFO] Running com.example.DemoGraphQL.model.Author_hashCode_7647512310
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_hashCode_7647512310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_hashCode_7647512310
 [INFO] Running com.example.DemoGraphQL.model.Book_setTitle_12795264375
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setTitle_12795264375
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setTitle_12795264375
 [INFO] Running com.example.DemoGraphQL.model.Book_setId_119536027918
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setId_119536027918
 [INFO] Running com.example.DemoGraphQL.model.Author_setFirstName_26134815618
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_setFirstName_26134815618
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setFirstName_26134815618
 [INFO] Running com.example.DemoGraphQL.model.Book_getTitle_8558580214
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getTitle_8558580214
 [INFO] Running com.example.DemoGraphQL.model.Author_toString_58723481311
@@ -136,8 +136,8 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Author_setLastName_18275948548
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setLastName_18275948548
 [INFO] Running com.example.DemoGraphQL.model.Author_hashCode_7647512322
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.DemoGraphQL.model.Author_hashCode_7647512322
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.example.DemoGraphQL.model.Author_hashCode_7647512322
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.example.DemoGraphQL.model.Author_hashCode_7647512322.test(Author_hashCode_7647512322.java:45)
 
@@ -148,7 +148,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Author_toString_58723481323
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_toString_58723481323
 [INFO] Running com.example.DemoGraphQL.model.Author_equals_37221155221
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_equals_37221155221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_equals_37221155221
 [INFO] Running com.example.DemoGraphQL.model.Book_init_64401535415
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_64401535415
 [INFO] Running com.example.DemoGraphQL.model.Book_getIsbn_691279636
@@ -166,7 +166,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Book_getAuthor_12662787025
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getAuthor_12662787025
 [INFO] Running com.example.DemoGraphQL.model.Author_setId_5813457394
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setId_5813457394
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.example.DemoGraphQL.model.Author_setId_5813457394
 [INFO] Running com.example.DemoGraphQL.model.Author_init_170982330414
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_170982330414
 [INFO] Running com.example.DemoGraphQL.model.Book_toString_118947120529
@@ -174,7 +174,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Book_getPageCount_6488054068
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getPageCount_6488054068
 [INFO] Running com.example.DemoGraphQL.model.Book_setPageCount_11193035449
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setPageCount_11193035449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setPageCount_11193035449
 [INFO] Running com.example.DemoGraphQL.model.Author_init_87170516213
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_87170516213
 [INFO] Running com.example.DemoGraphQL.model.Book_equals_214604972612
@@ -204,7 +204,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
 [INFO] Running com.example.DemoGraphQL.MyProperties_canEqual_28142914319
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_canEqual_28142914319
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_canEqual_28142914319
 [INFO] Running com.example.DemoGraphQL.MyProperties_getH2_1163219113
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getH2_1163219113
 [INFO] Running com.example.DemoGraphQL.MyProperties_equals_52273348618
@@ -214,11 +214,11 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_getVersion_3788606291
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getVersion_3788606291
 [INFO] Running com.example.DemoGraphQL.MyProperties_setVersion_11903416534
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_setVersion_11903416534
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setVersion_11903416534
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_hashCode_40562258512
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_hashCode_40562258512
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440779
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440779
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440779
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_canEqual_8472267194
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_canEqual_8472267194
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_init_14618381260
@@ -248,7 +248,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_init_202763570211
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_init_202763570211
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_equals_430640903
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_H2_equals_430640903
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_equals_430640903
 [INFO] Running com.example.DemoGraphQL.MyProperties_equals_5227334867
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_equals_5227334867
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_init_14618381267
@@ -277,6 +277,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.632 s
-[INFO] Finished at: 2026-04-08T06:08:11Z
+[INFO] Total time:  4.752 s
+[INFO] Finished at: 2026-04-09T12:57:16Z
 [INFO] ------------------------------------------------------------------------

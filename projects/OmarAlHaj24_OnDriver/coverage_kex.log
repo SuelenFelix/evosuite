@@ -62,13 +62,13 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.API.OnDriver.OnDriverApplication_main_1246168593
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.43 s <<< FAILURE! - in com.API.OnDriver.OnDriverApplication_main_1246168593
-[ERROR] test  Time elapsed: 0.424 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.413 s <<< FAILURE! - in com.API.OnDriver.OnDriverApplication_main_1246168593
+[ERROR] test  Time elapsed: 0.409 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.API.OnDriver.OnDriverApplication_main_1246168593.test(OnDriverApplication_main_1246168593.java:44)
 
 [INFO] Running com.API.OnDriver.OnDriverApplication_init_2519461452
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.OnDriverApplication_init_2519461452
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.API.OnDriver.OnDriverApplication_init_2519461452
 [INFO] Running com.API.OnDriver.OnDriverApplication_main_1246168591
 
   .   ____          _            __ _ _
@@ -79,16 +79,16 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.2)
 
-2026-04-08 06:37:23.581  INFO 72 --- [me-limited test] com.API.OnDriver.OnDriverApplication     : Starting OnDriverApplication using Java 11.0.16 on dfe32ddc278f with PID 72 (started by root in /app)
-2026-04-08 06:37:23.584  INFO 72 --- [me-limited test] com.API.OnDriver.OnDriverApplication     : No active profile set, falling back to default profiles: default
-2026-04-08 06:37:24.969  INFO 72 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:37:24.986  INFO 72 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:37:24.987  INFO 72 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2026-04-08 06:37:25.069  INFO 72 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:37:25.069  INFO 72 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
-2026-04-08 06:37:25.590  INFO 72 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:37:25.608  INFO 72 --- [me-limited test] com.API.OnDriver.OnDriverApplication     : Started OnDriverApplication in 2.614 seconds (JVM running for 5.941)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.571 s - in com.API.OnDriver.OnDriverApplication_main_1246168591
+2026-04-09 13:28:23.204  INFO 77 --- [me-limited test] com.API.OnDriver.OnDriverApplication     : Starting OnDriverApplication using Java 11.0.16 on 41a42174e9b5 with PID 77 (started by root in /app)
+2026-04-09 13:28:23.209  INFO 77 --- [me-limited test] com.API.OnDriver.OnDriverApplication     : No active profile set, falling back to default profiles: default
+2026-04-09 13:28:25.794  INFO 77 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:28:25.817  INFO 77 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:28:25.817  INFO 77 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-04-09 13:28:25.957  INFO 77 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:28:25.958  INFO 77 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2443 ms
+2026-04-09 13:28:27.319  INFO 77 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 13:28:27.346  INFO 77 --- [me-limited test] com.API.OnDriver.OnDriverApplication     : Started OnDriverApplication in 5.478 seconds (JVM running for 9.376)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.448 s - in com.API.OnDriver.OnDriverApplication_main_1246168591
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_init_10245097908
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_init_10245097908
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165834
@@ -100,15 +100,15 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_init_131166571711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Passenger_init_131166571711
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165814
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165814
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_viewRides_151137910131
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_viewRides_151137910131
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_viewRides_151137910131
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_viewRides_151137910131.test(Driver_viewRides_151137910131.java:60)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsDriver_94778869913
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsDriver_94778869913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsDriver_94778869913
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_setUsername_11325733061
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_setUsername_11325733061
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -132,8 +132,8 @@ java.lang.IndexOutOfBoundsException: Index -298852874 out of bounds for length 2
 	at com.API.OnDriver.CustomerSubsystem.Driver_suggestOffer_84043487910.test(Driver_suggestOffer_84043487910.java:398)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448328
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448328
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448328
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448328.test(Admin_suspend_11816448328.java:50)
 
@@ -144,7 +144,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_getMobileNumber_77292183311.test(User_getMobileNumber_77292183311.java:40)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_viewRating_20530486865
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.DriverController_viewRating_20530486865
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_viewRating_20530486865
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_update_199351555423
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_update_199351555423
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -152,27 +152,27 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_update_199351555423.test(Driver_update_199351555423.java:57)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.UserStatus_valueOf_16748243241
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.UserStatus_valueOf_16748243241
-[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.UserStatus_valueOf_16748243241
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant com.API.OnDriver.CustomerSubsystem.UserStatus.gwTUlYNpjM
 	at com.API.OnDriver.CustomerSubsystem.UserStatus_valueOf_16748243241.test(UserStatus_valueOf_16748243241.java:42)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016214
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016214
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016214
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016214.test(Driver_startRide_50689016214.java:142)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394264
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394264
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394264
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394264.test(Passenger_checkOffers_14420394264.java:299)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_addFavouriteArea_16942599549
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_addFavouriteArea_16942599549
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_listFavouriteAreas_11859792710
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.API.OnDriver.CustomerSubsystem.DriverController_listFavouriteAreas_11859792710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_listFavouriteAreas_11859792710
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_acceptOffer_12009341665
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_acceptOffer_12009341665
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_getSystemRides_11438378883
@@ -192,27 +192,27 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_requestRide_15787397797
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_requestRide_15787397797
 [INFO] Running com.API.OnDriver.CustomerSubsystem.AdminController_applyDiscount_184130360811
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.AdminController_applyDiscount_184130360811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.AdminController_applyDiscount_184130360811
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_init_7149249740
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_init_7149249740
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getVerified_18476499908
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getVerified_18476499908
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getVerified_18476499908
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_4758315886
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_4758315886
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_4758315886
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_rateRide_14841277554
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Passenger_rateRide_14841277554
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_verifyDriver_13371298077
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_verifyDriver_13371298077
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_verifyDriver_13371298077
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Admin_verifyDriver_13371298077.test(Admin_verifyDriver_13371298077.java:50)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_startRide_203237531614
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.DriverController_startRide_203237531614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_startRide_203237531614
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_listPastRides_14847595418
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_listPastRides_14847595418
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_listPastRides_14847595418
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_viewOffers_8816701804
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_viewOffers_8816701804
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_viewOffers_8816701804
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_registerAsDriver_17571828363
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.IdentityManager_registerAsDriver_17571828363
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -228,7 +228,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_rateRide_1941048269
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_rateRide_1941048269
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_getSystemRides_11438378889
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_getSystemRides_11438378889
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_getSystemRides_11438378889
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Admin_getSystemRides_11438378889.test(Admin_getSystemRides_11438378889.java:48)
@@ -236,25 +236,25 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165813
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165813
 [INFO] Running com.API.OnDriver.CustomerSubsystem.AdminController_getSystemRides_8820089643
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.AdminController_getSystemRides_8820089643
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.AdminController_getSystemRides_8820089643
 [INFO] Running com.API.OnDriver.CustomerSubsystem.AdminController_getSystemRides_8820089649
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.AdminController_getSystemRides_8820089649
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_isFirstRide_147246937016
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_isFirstRide_147246937016
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_isFirstRide_147246937016
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_isFirstRide_147246937016.test(Passenger_isFirstRide_147246937016.java:50)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_toString_70167826511
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Passenger_toString_70167826511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.API.OnDriver.CustomerSubsystem.Passenger_toString_70167826511
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_logout_148586175915
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.IdentityManager_logout_148586175915
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.IdentityManager_logout_148586175915
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.IdentityManager_logout_148586175915.test(IdentityManager_logout_148586175915.java:44)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_init_131166571712
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Passenger_init_131166571712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.API.OnDriver.CustomerSubsystem.Passenger_init_131166571712
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_getEmail_6809439613
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_getEmail_6809439613
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -276,7 +276,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_listPastRides_4613590307.test(Passenger_listPastRides_4613590307.java:165)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_getPassenger_79236683716
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_getPassenger_79236683716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_getPassenger_79236683716
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_getPastRide_15358413438
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_getPastRide_15358413438
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -284,7 +284,7 @@ java.lang.IndexOutOfBoundsException: Index 1270666529 out of bounds for length 4
 	at com.API.OnDriver.CustomerSubsystem.Passenger_getPastRide_15358413438.test(Passenger_getPastRide_15358413438.java:180)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016235
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016235
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016235
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_addFavouriteArea_16942599541
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_addFavouriteArea_16942599541
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_4758315884
@@ -310,9 +310,9 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.IdentityManager_registerAsPassenger_2240008811.test(IdentityManager_registerAsPassenger_2240008811.java:44)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_2208514065
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_2208514065
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_2208514065
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_toString_18507774068
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_toString_18507774068
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_toString_18507774068
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_toString_18507774068.test(User_toString_18507774068.java:40)
@@ -326,17 +326,17 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_viewRating_172562910111
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_viewRating_172562910111
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_viewAllRating_17925649753
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Rating_viewAllRating_17925649753
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Rating_viewAllRating_17925649753
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getDriverLicense_4014499482
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getDriverLicense_4014499482
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394265
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394265
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394265
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_checkOffers_14420394265.test(Passenger_checkOffers_14420394265.java:120)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.UserStatus_init_5114356705
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.UserStatus_init_5114356705
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.UserStatus_init_5114356705
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.API.OnDriver.CustomerSubsystem.UserStatus_init_5114356705.test(UserStatus_init_5114356705.java:47)
@@ -354,15 +354,15 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_toString_185077740617.test(User_toString_185077740617.java:40)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_addFavArea_201817370333
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_addFavArea_201817370333
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_addFavArea_201817370333
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_addFavArea_201817370333.test(Driver_addFavArea_201817370333.java:57)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getRating_10696799297
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getRating_10696799297
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getRating_10696799297
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_acceptOffer_21167531546
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_acceptOffer_21167531546
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_acceptOffer_21167531546
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_acceptOffer_21167531546.test(Passenger_acceptOffer_21167531546.java:147)
@@ -378,7 +378,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Rating_addRating_3178166026.test(Rating_addRating_3178166026.java:52)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getNumberOfPassengers_185903997138
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNumberOfPassengers_185903997138
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNumberOfPassengers_185903997138
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_addRating_3178166023
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Rating_addRating_3178166023
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -402,7 +402,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_endRide_132649829716
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_endRide_132649829716
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsPassenger_14791978154
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsPassenger_14791978154
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsPassenger_14791978154
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_getAverageRating_13332631801
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Rating_getAverageRating_13332631801
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_viewAllRating_17925649757
@@ -418,7 +418,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_init_17712613160
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_init_17712613160
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165835
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165835
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165835
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_listFavouriteAreas_20882165835.test(Driver_listFavouriteAreas_20882165835.java:55)
@@ -426,7 +426,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_endRide_132649829736
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_endRide_132649829736
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382037
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382037
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382037
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_endRide_132649829715
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_endRide_132649829715
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_suggestOffer_84043487931
@@ -474,7 +474,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_init_10245097900
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_init_10245097900
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382019
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382019
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382019
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_getEmail_680943964
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_getEmail_680943964
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -494,7 +494,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_rateRide_14841277553
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Passenger_rateRide_14841277553
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_getPassenger_7923668378
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_getPassenger_7923668378
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_getPassenger_7923668378
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_listPastRides_46135903015
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Passenger_listPastRides_46135903015
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -510,9 +510,9 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293339
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293339
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getNumberOfPassengers_185903997119
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNumberOfPassengers_185903997119
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNumberOfPassengers_185903997119
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_47583158827
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_47583158827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getNationalID_47583158827
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_init_8390706490
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_init_8390706490
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_acceptOffer_211675315414
@@ -528,11 +528,11 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Rating_getAverageRating_13332631805.test(Rating_getAverageRating_13332631805.java:45)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382038
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382038
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getCurrentRide_210093382038
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_init_83907064910
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_init_83907064910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_init_83907064910
 [INFO] Running com.API.OnDriver.CustomerSubsystem.AdminController_getRideEvents_17641352734
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.AdminController_getRideEvents_17641352734
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.AdminController_getRideEvents_17641352734
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getDriverLicense_4014499484
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getDriverLicense_4014499484
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_getPassword_166370947914
@@ -542,7 +542,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_getPassword_166370947914.test(User_getPassword_166370947914.java:40)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getRating_10696799299
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getRating_10696799299
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getRating_10696799299
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_requestRide_15787397791
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_requestRide_15787397791
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_getAverageRating_13332631806
@@ -552,11 +552,11 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Rating_getAverageRating_13332631806.test(Rating_getAverageRating_13332631806.java:45)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_setCurrentRide_23372080417
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_setCurrentRide_23372080417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_setCurrentRide_23372080417
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_suggestOffer_56465132712
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.DriverController_suggestOffer_56465132712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_suggestOffer_56465132712
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448322
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448322
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Admin_suspend_11816448322
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293322
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293322
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_setVerified_6173391685
@@ -576,7 +576,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_requestRide_195447492812.test(Passenger_requestRide_195447492812.java:52)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293324
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293324
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_toString_109029293324
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_addFavArea_201817370312
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_addFavArea_201817370312
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_getUsername_15760515509
@@ -596,7 +596,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_init_11285331130
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Admin_init_11285331130
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016215
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016215
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016215
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_startRide_50689016215.test(Driver_startRide_50689016215.java:178)
@@ -608,7 +608,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Passenger_getPastRide_153584134317.test(Passenger_getPastRide_153584134317.java:55)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsDriver_9477886995
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsDriver_9477886995
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_loginAsDriver_9477886995
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_acceptOffer_120093416611
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_acceptOffer_120093416611
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_viewAllRating_17925649754
@@ -624,7 +624,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_viewOffers_88167018010
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.PassengerController_viewOffers_88167018010
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_suggestOffer_5646513274
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.DriverController_suggestOffer_5646513274
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_suggestOffer_5646513274
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_getDateOfBirth_3128098079
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Passenger_getDateOfBirth_3128098079
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_init_11285331136
@@ -662,7 +662,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_viewRides_151137910132.test(Driver_viewRides_151137910132.java:60)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_endRide_121276718115
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_endRide_121276718115
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.DriverController_endRide_121276718115
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_getRideEvents_150230634910
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_getRideEvents_150230634910
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -672,7 +672,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getVerified_184764999029
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getVerified_184764999029
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_getUserStatus_183443090815
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_getUserStatus_183443090815
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_getUserStatus_183443090815
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_getUserStatus_183443090815.test(User_getUserStatus_183443090815.java:40)
@@ -680,9 +680,9 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Rating_init_3919290835
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Rating_init_3919290835
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getRating_106967992930
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_getRating_106967992930
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getRating_106967992930
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_22085140611
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_22085140611
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_22085140611
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Admin_applyDiscount_22085140611.test(Admin_applyDiscount_22085140611.java:50)
@@ -690,7 +690,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_setCurrentRide_23372080418
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_setCurrentRide_23372080418
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_viewRating_172562910133
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_viewRating_172562910133
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.Driver_viewRating_172562910133
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.Driver_viewRating_172562910133.test(Driver_viewRating_172562910133.java:55)
@@ -724,7 +724,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_getUsername_15760515500.test(User_getUsername_15760515500.java:40)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_setUserStatus_197883077816
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_setUserStatus_197883077816
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_setUserStatus_197883077816
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_setUserStatus_197883077816.test(User_setUserStatus_197883077816.java:42)
@@ -734,7 +734,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_setVerified_61733916828
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_setVerified_61733916828
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Passenger_toString_70167826510
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Passenger_toString_70167826510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Passenger_toString_70167826510
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_setDriverLicense_103899005224
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_setDriverLicense_103899005224
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_getPassword_16637094795
@@ -758,13 +758,13 @@ java.lang.IndexOutOfBoundsException: Index 1956590498 out of bounds for length 0
 	at com.API.OnDriver.CustomerSubsystem.Passenger_getPastRide_15358413439.test(Passenger_getPastRide_15358413439.java:157)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.User_setUsername_113257330610
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_setUsername_113257330610
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.User_setUsername_113257330610
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.CustomerSubsystem.User_setUsername_113257330610.test(User_setUsername_113257330610.java:42)
 
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_getDriver_195682412117
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_getDriver_195682412117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.IdentityManager_getDriver_195682412117
 [INFO] Running com.API.OnDriver.CustomerSubsystem.IdentityManager_registerAsDriver_175718283611
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.CustomerSubsystem.IdentityManager_registerAsDriver_175718283611
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -774,7 +774,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_getDriverLicense_40144994825
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_getDriverLicense_40144994825
 [INFO] Running com.API.OnDriver.CustomerSubsystem.Driver_setDriverLicense_10389900522
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.CustomerSubsystem.Driver_setDriverLicense_10389900522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.Driver_setDriverLicense_10389900522
 [INFO] Running com.API.OnDriver.CustomerSubsystem.DriverController_viewRide_2511278233
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.CustomerSubsystem.DriverController_viewRide_2511278233
 [INFO] Running com.API.OnDriver.CustomerSubsystem.PassengerController_listPastRides_14847595412
@@ -804,13 +804,13 @@ java.lang.NullPointerException
 	at com.API.OnDriver.DataSubsystem.ListManager_isAvailable_170432942320.test(ListManager_isAvailable_170432942320.java:49)
 
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_addToAdmin_6919494028
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.DataSubsystem.ListManager_addToAdmin_6919494028
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.DataSubsystem.ListManager_addToAdmin_6919494028
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.DataSubsystem.ListManager_addToAdmin_6919494028.test(ListManager_addToAdmin_6919494028.java:49)
 
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_addToArea_46448446810
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_addToArea_46448446810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.DataSubsystem.ListManager_addToArea_46448446810
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_listAllPendingDrivers_20368335803
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_listAllPendingDrivers_20368335803
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_addToPassenger_17602775405
@@ -828,7 +828,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.DataSubsystem.ListManager_addToDriver_6771429588.test(ListManager_addToDriver_6771429588.java:49)
 
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_init_152407408518
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.DataSubsystem.ListManager_init_152407408518
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_init_152407408518
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_isAvailable_17043294232
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_isAvailable_17043294232
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_getRide_144318281215
@@ -838,11 +838,11 @@ java.lang.IndexOutOfBoundsException: Index -1588772969 out of bounds for length 
 	at com.API.OnDriver.DataSubsystem.ListManager_getRide_144318281215.test(ListManager_getRide_144318281215.java:58)
 
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_getAdmin_56117334513
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_getAdmin_56117334513
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.DataSubsystem.ListManager_getAdmin_56117334513
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_getInstance_4262879781
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_getInstance_4262879781
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_listAllPendingDrivers_203683358021
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.DataSubsystem.ListManager_listAllPendingDrivers_203683358021
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.DataSubsystem.ListManager_listAllPendingDrivers_203683358021
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.DataSubsystem.ListManager_listAllPendingDrivers_203683358021.test(ListManager_listAllPendingDrivers_203683358021.java:47)
@@ -876,7 +876,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_getPassenger_1073634016
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_getPassenger_1073634016
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_getAllRides_57075453430
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.DataSubsystem.ListManager_getAllRides_57075453430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.DataSubsystem.ListManager_getAllRides_57075453430
 [INFO] Running com.API.OnDriver.DataSubsystem.ListManager_addRide_191973756117
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.DataSubsystem.ListManager_addRide_191973756117
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -908,8 +908,8 @@ java.lang.NullPointerException
 	at com.API.OnDriver.RideSubsystem.Area_unsubscribe_114389991913.test(Area_unsubscribe_114389991913.java:47)
 
 [INFO] Running com.API.OnDriver.RideSubsystem.Ride_addOffer_38445046815
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.RideSubsystem.Ride_addOffer_38445046815
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.RideSubsystem.Ride_addOffer_38445046815
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.API.OnDriver.RideSubsystem.Ride_addOffer_38445046815.test(Ride_addOffer_38445046815.java:52)
 
@@ -984,7 +984,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.RideSubsystem.Ride_toStringPassenger_183332633329.test(Ride_toStringPassenger_183332633329.java:50)
 
 [INFO] Running com.API.OnDriver.RideSubsystem.Area_getLocation_12777102351
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Area_getLocation_12777102351
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.RideSubsystem.Area_getLocation_12777102351
 [INFO] Running com.API.OnDriver.RideSubsystem.Area_init_14445671120
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Area_init_14445671120
 [INFO] Running com.API.OnDriver.RideSubsystem.Offer_toString_6324351197
@@ -1012,7 +1012,7 @@ java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.RideSubsystem.Ride_getNumberOfPassengers_3731980123
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Ride_getNumberOfPassengers_3731980123
 [INFO] Running com.API.OnDriver.RideSubsystem.Ride_getEvents_212972964829
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Ride_getEvents_212972964829
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.RideSubsystem.Ride_getEvents_212972964829
 [INFO] Running com.API.OnDriver.RideSubsystem.Offer_init_15800804928
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Offer_init_15800804928
 [INFO] Running com.API.OnDriver.RideSubsystem.Area_isDiscounted_64994640110
@@ -1030,7 +1030,7 @@ java.lang.NullPointerException
 	at com.API.OnDriver.RideSubsystem.Area_notifyDrivers_20910281687.test(Area_notifyDrivers_20910281687.java:47)
 
 [INFO] Running com.API.OnDriver.RideSubsystem.Ride_getAccepted_15326067713
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Ride_getAccepted_15326067713
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.RideSubsystem.Ride_getAccepted_15326067713
 [INFO] Running com.API.OnDriver.RideSubsystem.Ride_getAcceptedOffer_12686560089
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.RideSubsystem.Ride_getAcceptedOffer_12686560089
 [INFO] Running com.API.OnDriver.RideSubsystem.Ride_getDestination_15257458763
@@ -1068,7 +1068,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.EventSubsystem.IDateTime_isWeekend_18540995213
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.EventSubsystem.IDateTime_isWeekend_18540995213
 [INFO] Running com.API.OnDriver.EventSubsystem.MakeOfferEvent_init_1137545441
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.EventSubsystem.MakeOfferEvent_init_1137545441
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.EventSubsystem.MakeOfferEvent_init_1137545441
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at com.API.OnDriver.EventSubsystem.MakeOfferEvent_init_1137545441.test(MakeOfferEvent_init_1137545441.java:44)
@@ -1076,7 +1076,7 @@ Caused by: java.lang.NullPointerException
 	at com.API.OnDriver.EventSubsystem.MakeOfferEvent_init_1137545441.test(MakeOfferEvent_init_1137545441.java:44)
 
 [INFO] Running com.API.OnDriver.EventSubsystem.IDateTime_getInstance_15338499305
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.EventSubsystem.IDateTime_getInstance_15338499305
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.EventSubsystem.IDateTime_getInstance_15338499305
 [INFO] Running com.API.OnDriver.EventSubsystem.EventName_valueOf_16669738281
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.EventSubsystem.EventName_valueOf_16669738281
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1086,7 +1086,7 @@ java.lang.IllegalArgumentException: No enum constant com.API.OnDriver.EventSubsy
 [INFO] Running com.API.OnDriver.EventSubsystem.EventName_values_11749434253
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.EventSubsystem.EventName_values_11749434253
 [INFO] Running com.API.OnDriver.EventSubsystem.IDateTime_init_16575006304
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.EventSubsystem.IDateTime_init_16575006304
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.API.OnDriver.EventSubsystem.IDateTime_init_16575006304
 [INFO] Running com.API.OnDriver.EventSubsystem.IDateTime_getInstance_15338499301
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.EventSubsystem.IDateTime_getInstance_15338499301
 [INFO] Running com.API.OnDriver.EventSubsystem.Event_toString_19208118933
@@ -1112,7 +1112,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running com.API.OnDriver.EventSubsystem.Event_init_18286995520
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.API.OnDriver.EventSubsystem.Event_init_18286995520
 [INFO] Running com.API.OnDriver.EventSubsystem.EventName_init_3848231102
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.API.OnDriver.EventSubsystem.EventName_init_3848231102
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.API.OnDriver.EventSubsystem.EventName_init_3848231102
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.API.OnDriver.EventSubsystem.EventName_init_3848231102.test(EventName_init_3848231102.java:42)
@@ -1281,6 +1281,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  14.286 s
-[INFO] Finished at: 2026-04-08T06:37:27Z
+[INFO] Total time:  22.363 s
+[INFO] Finished at: 2026-04-09T13:28:29Z
 [INFO] ------------------------------------------------------------------------

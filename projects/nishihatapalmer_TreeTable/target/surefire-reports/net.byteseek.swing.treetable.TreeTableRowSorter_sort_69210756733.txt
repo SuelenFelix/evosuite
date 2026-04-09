@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_sort_69210756733
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(net.byteseek.swing.treetable.TreeTableRowSorter_sort_69210756733)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NegativeArraySizeException: -470798982
 	at net.byteseek.swing.treetable.TreeTableRowSorter.buildViewToModelAsInts(TreeTableRowSorter.java:617)

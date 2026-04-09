@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-moacirrf_nb-java-decompiler,kex,18.85,success,maven_returncode=0; tests_selected=26
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+moacirrf_nb-java-decompiler,kex,18.85,11.9,54,66,97,121,34,45,success,maven_returncode=0; tests_selected=26

@@ -94,7 +94,7 @@
 [INFO] Running com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029313
 Loading //app/opencv_java.dll
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.05 s <<< FAILURE! - in com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029313
-[ERROR] com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029313.test  Time elapsed: 0.033 s  <<< ERROR!
+[ERROR] com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029313.test  Time elapsed: 0.034 s  <<< ERROR!
 java.lang.UnsatisfiedLinkError: Can't load library: //app/opencv_java.dll
 	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2633)
 	at java.base/java.lang.Runtime.load0(Runtime.java:768)
@@ -124,87 +124,87 @@ java.lang.UnsatisfiedLinkError: Can't load library: //app/opencv_java.dll
 [INFO] Running com.gin.mergegfassets.script.MergeImage_init_14305092761
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.script.MergeImage_init_14305092761
 [INFO] Running com.gin.mergegfassets.script.MergeImage_init_14305092760
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.script.MergeImage_init_14305092760
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.script.MergeImage_init_14305092760
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224053
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224053
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224053
 [INFO] Running com.gin.mergegfassets.entity.Config_canEqual_1949640749
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.Config_canEqual_1949640749
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_canEqual_1949640749
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_20873133562
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_20873133562 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_20873133562
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_20873133562
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_20873133562
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getFile_17679464996
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_getFile_17679464996 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_getFile_17679464996
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_getFile_17679464996
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_getFile_17679464996
 [INFO] Running com.gin.mergegfassets.entity.Config_hashCode_105788523010
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_hashCode_105788523010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_hashCode_105788523010
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_equals_42423585914
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFilePair_equals_42423585914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFilePair_equals_42423585914
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_toString_13836822248
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_toString_13836822248 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_toString_13836822248
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in com.gin.mergegfassets.entity.AssetFilePair_toString_13836822248
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in com.gin.mergegfassets.entity.AssetFilePair_toString_13836822248
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224021
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224021 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224021
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224021
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_setExtensions_46916224021
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isHe_58714204814
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_isHe_58714204814 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_isHe_58714204814
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_isHe_58714204814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_isHe_58714204814
 [INFO] Running com.gin.mergegfassets.entity.Config_getAssetPath_14623094032
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_getAssetPath_14623094032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_getAssetPath_14623094032
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520223
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520223 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520223
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520223
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520223
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_init_74289095332
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_init_74289095332
-[ERROR] com.gin.mergegfassets.entity.AssetFile_init_74289095332.test  Time elapsed: 0.025 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_init_74289095332
+[ERROR] com.gin.mergegfassets.entity.AssetFile_init_74289095332.test  Time elapsed: 0.027 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -235,35 +235,35 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_set
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setHd_53911749124
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_setHd_53911749124
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setHd_53911749124
 [INFO] Running com.gin.mergegfassets.entity.Config_canEqual_19496407421
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_canEqual_19496407421
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_canEqual_19496407421
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getFile_176794649938
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_getFile_176794649938
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_getFile_176794649938
 [INFO] Running com.gin.mergegfassets.entity.Config_setAssetPath_162506684317
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_setAssetPath_162506684317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_setAssetPath_162506684317
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_equals_187610280960
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_equals_187610280960
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_equals_187610280960
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isHd_58714108745
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -277,14 +277,14 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_getRawFile_13828090371
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFilePair_getRawFile_13828090371
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in com.gin.mergegfassets.entity.AssetFilePair_getRawFile_13828090371
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_similar_121031625635
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_similar_121031625635
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_similar_121031625635
 [ERROR] com.gin.mergegfassets.entity.AssetFile_similar_121031625635.test  Time elapsed: 0.028 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.entity.AssetFile.similar(AssetFile.java:197)
@@ -314,106 +314,106 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_89136900613
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_89136900613
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_208731335611
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_208731335611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_getAlphaFiles_208731335611
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_setRawFile_592706393
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_setRawFile_592706393 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_setRawFile_592706393
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFilePair_setRawFile_592706393
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFilePair_setRawFile_592706393
 [INFO] Running com.gin.mergegfassets.entity.Config_getAssetPath_146230940314
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_getAssetPath_146230940314
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_getAssetPath_146230940314
 [INFO] Running com.gin.mergegfassets.entity.Config_getAssetPath_146230940315
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.gin.mergegfassets.entity.Config_getAssetPath_146230940315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_getAssetPath_146230940315
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_toString_138368222417
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.gin.mergegfassets.entity.AssetFilePair_toString_138368222417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in com.gin.mergegfassets.entity.AssetFilePair_toString_138368222417
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_8913690064
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_8913690064 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_8913690064
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_8913690064
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFilePair_setAlphaFiles_8913690064
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_canEqual_3799267706
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_canEqual_3799267706 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_canEqual_3799267706
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_canEqual_3799267706
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFilePair_canEqual_3799267706
 [INFO] Running com.gin.mergegfassets.entity.Config_toString_156864492012
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in com.gin.mergegfassets.entity.Config_toString_156864492012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.gin.mergegfassets.entity.Config_toString_156864492012
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_canEqual_107194018029
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_canEqual_107194018029 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_canEqual_107194018029
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_canEqual_107194018029
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.gin.mergegfassets.entity.AssetFile_canEqual_107194018029
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getCharacter_10023464158
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_getCharacter_10023464158 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_getCharacter_10023464158
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_getCharacter_10023464158
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_getCharacter_10023464158
 [INFO] Running com.gin.mergegfassets.entity.Config_equals_60919855520
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_equals_60919855520
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_equals_60919855520
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336810
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336810 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336810
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336810
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setVersion_175125632052
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setVersion_175125632052
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_setVersion_175125632052
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347
-[ERROR] com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347.test  Time elapsed: 0.029 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347
+[ERROR] com.gin.mergegfassets.entity.AssetFilePair_hashCode_8729225347.test  Time elapsed: 0.027 s  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.io.UnixFileSystem.hashCode(UnixFileSystem.java:330)
 	at java.base/java.io.File.hashCode(File.java:2237)
@@ -454,8 +454,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.038 s <<< FAILURE! - in com.gin.mergegfassets.entity.Config_init_165391713712
-[ERROR] com.gin.mergegfassets.entity.Config_init_165391713712.test  Time elapsed: 10.022 s  <<< ERROR!
+请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.035 s <<< FAILURE! - in com.gin.mergegfassets.entity.Config_init_165391713712
+[ERROR] com.gin.mergegfassets.entity.Config_init_165391713712.test  Time elapsed: 10.021 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -497,28 +497,28 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_set
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setVersion_175125632020
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setVersion_175125632020
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setVersion_175125632020
 [INFO] Running com.gin.mergegfassets.entity.Config_equals_6091985559
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.Config_equals_6091985559
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_equals_6091985559
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_toFormatName_5933550995
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_toFormatName_5933550995 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_toFormatName_5933550995
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_toFormatName_5933550995
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_toFormatName_5933550995
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_matchPair_7815580682
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_matchPair_7815580682 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_matchPair_7815580682
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_matchPair_7815580682
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_matchPair_7815580682
 [INFO] Running com.gin.mergegfassets.entity.Config_toString_156864492023
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -532,35 +532,35 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_get
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_getParentPath_20239249257
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_getParentPath_20239249257
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_getParentPath_20239249257
 [INFO] Running com.gin.mergegfassets.entity.Config_canEqual_19496407410
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.Config_canEqual_19496407410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_canEqual_19496407410
 [INFO] Running com.gin.mergegfassets.entity.Config_getOutputPath_19508113683
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.Config_getOutputPath_19508113683
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_getOutputPath_19508113683
 [INFO] Running com.gin.mergegfassets.entity.Config_getOutputPath_195081136815
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.Config_getOutputPath_195081136815
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_getOutputPath_195081136815
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getVersion_173222995241
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_getVersion_173222995241
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_getVersion_173222995241
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setCharacter_83958897551
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -574,14 +574,14 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_getParentPath_202392492539
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_getParentPath_202392492539
 [INFO] Running com.gin.mergegfassets.entity.Config_setAssetPath_16250668436
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.Config_setAssetPath_16250668436
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_setAssetPath_16250668436
 [INFO] Running com.gin.mergegfassets.entity.Config_setOutputPath_8944348006
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -595,56 +595,56 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_getThreads_8552718924
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_getThreads_8552718924
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getRelativePath_651362291
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_getRelativePath_651362291 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_getRelativePath_651362291
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_getRelativePath_651362291
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_getRelativePath_651362291
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_canEqual_107194018061
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_canEqual_107194018061
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_canEqual_107194018061
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_canEqual_37992677015
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.AssetFilePair_canEqual_37992677015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFilePair_canEqual_37992677015
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_hashCode_197017781230
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_hashCode_197017781230 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_hashCode_197017781230
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_hashCode_197017781230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_hashCode_197017781230
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586154
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586154
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586154
 [INFO] Running com.gin.mergegfassets.entity.Config_setAssetPath_16250668435
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.Config_setAssetPath_16250668435
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_setAssetPath_16250668435
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077212
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077212 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077212
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077212
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isHd_58714108713
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_isHd_58714108713 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
@@ -658,72 +658,72 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_set
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setParentPath_82132124318
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_setParentPath_82132124318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_setParentPath_82132124318
 [INFO] Running com.gin.mergegfassets.entity.Config_equals_6091985558
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_equals_6091985558
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_equals_6091985558
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586122
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586122 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586122
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586122
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_setAlpha_45795586122
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_hashCode_87292253416
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_hashCode_87292253416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFilePair_hashCode_87292253416
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isDifference_19039798415
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_isDifference_19039798415 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_isDifference_19039798415
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_isDifference_19039798415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_isDifference_19039798415
 [INFO] Running com.gin.mergegfassets.entity.Config_setThreads_13654607788
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.Config_setThreads_13654607788
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_setThreads_13654607788
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_toFilename_1355135364
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_toFilename_1355135364 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_toFilename_1355135364
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in com.gin.mergegfassets.entity.AssetFile_toFilename_1355135364
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.gin.mergegfassets.entity.AssetFile_toFilename_1355135364
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setCharacter_83958897519
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setCharacter_83958897519 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setCharacter_83958897519
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_setCharacter_83958897519
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setCharacter_83958897519
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_hashCode_197017781262
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_hashCode_197017781262
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_hashCode_197017781262
 [INFO] Running com.gin.mergegfassets.entity.Config_init_211410077113
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_init_211410077113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_init_211410077113
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setHd_53911749156
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.gin.mergegfassets.entity.AssetFile_setHd_53911749156
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_setHd_53911749156
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setHe_53911653057
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -737,15 +737,15 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_isSkin_154107126448
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.AssetFile_isSkin_154107126448
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_toFilename_13551353636
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_toFilename_13551353636
-[ERROR] com.gin.mergegfassets.entity.AssetFile_toFilename_13551353636.test  Time elapsed: 0.027 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_toFilename_13551353636
+[ERROR] com.gin.mergegfassets.entity.AssetFile_toFilename_13551353636.test  Time elapsed: 0.026 s  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.lang.StringBuilder.<init>(StringBuilder.java:128)
 	at com.gin.mergegfassets.entity.AssetFile.toFormatName(AssetFile.java:225)
@@ -771,28 +771,28 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.entity.Config_init_21141007711
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_init_21141007711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_init_21141007711
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setFile_180704392517
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setFile_180704392517 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setFile_180704392517
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setFile_180704392517
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_setFile_180704392517
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084511
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084511 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084511
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084511
 [INFO] Running com.gin.mergegfassets.entity.Config_setThreads_136546077819
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_setThreads_136546077819
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_setThreads_136546077819
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setDifference_118314129826
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setDifference_118314129826 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
@@ -806,14 +806,14 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in com.gin.mergegfassets.entity.Config_toString_156864492011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.gin.mergegfassets.entity.Config_toString_156864492011
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setSkin_194290584259
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setSkin_194290584259
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_setSkin_194290584259
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setDifference_118314129858
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -827,8 +827,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_toFormatName_59335509937
-[ERROR] com.gin.mergegfassets.entity.AssetFile_toFormatName_59335509937.test  Time elapsed: 0.029 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_toFormatName_59335509937
+[ERROR] com.gin.mergegfassets.entity.AssetFile_toFormatName_59335509937.test  Time elapsed: 0.028 s  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.lang.StringBuilder.<init>(StringBuilder.java:128)
 	at com.gin.mergegfassets.entity.AssetFile.toFormatName(AssetFile.java:225)
@@ -865,7 +865,7 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_setThreads_13654607787
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_setThreads_13654607787
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isDifference_19039798447
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
@@ -879,15 +879,15 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_hashCode_105788523011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_hashCode_105788523011
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getRelativePath_6513622933
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_getRelativePath_6513622933
-[ERROR] com.gin.mergegfassets.entity.AssetFile_getRelativePath_6513622933.test  Time elapsed: 0.028 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_getRelativePath_6513622933
+[ERROR] com.gin.mergegfassets.entity.AssetFile_getRelativePath_6513622933.test  Time elapsed: 0.029 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.entity.AssetFile.getRelativePath(AssetFile.java:164)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -916,15 +916,15 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_hashCode_105788523022
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_hashCode_105788523022
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_matchPair_78155806834
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_matchPair_78155806834
-[ERROR] com.gin.mergegfassets.entity.AssetFile_matchPair_78155806834.test  Time elapsed: 0.027 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_matchPair_78155806834
+[ERROR] com.gin.mergegfassets.entity.AssetFile_matchPair_78155806834.test  Time elapsed: 0.031 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.entity.AssetFile.similar(AssetFile.java:197)
 	at com.gin.mergegfassets.entity.AssetFile.matchPair(AssetFile.java:176)
@@ -954,35 +954,35 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077244
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.AssetFile_isDamaged_67202077244
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isHe_58714204846
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_isHe_58714204846
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_isHe_58714204846
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084543
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084543
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_isAlpha_27994084543
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setFile_180704392549
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_setFile_180704392549
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_setFile_180704392549
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_init_7428909530
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_init_7428909530 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_init_7428909530
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_init_7428909530
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in com.gin.mergegfassets.entity.AssetFile_init_7428909530
 [ERROR] com.gin.mergegfassets.entity.AssetFile_init_7428909530.test  Time elapsed: 0.029 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -1014,71 +1014,71 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_getThreads_8552718925
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_getThreads_8552718925
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_equals_4242358595
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFilePair_equals_4242358595 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFilePair_equals_4242358595
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.gin.mergegfassets.entity.AssetFilePair_equals_4242358595
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFilePair_equals_4242358595
 [INFO] Running com.gin.mergegfassets.entity.Config_setOutputPath_8944348007
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_setOutputPath_8944348007
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.Config_setOutputPath_8944348007
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336842
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336842
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_getExtensions_191888336842
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setHe_53911653025
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setHe_53911653025 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setHe_53911653025
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_setHe_53911653025
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_setHe_53911653025
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_setRawFile_5927063912
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFilePair_setRawFile_5927063912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_setRawFile_5927063912
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setParentPath_82132124350
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.entity.AssetFile_setParentPath_82132124350
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_setParentPath_82132124350
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_setSkin_194290584227
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_setSkin_194290584227 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_setSkin_194290584227
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.gin.mergegfassets.entity.AssetFile_setSkin_194290584227
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.entity.AssetFile_setSkin_194290584227
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_equals_187610280928
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_equals_187610280928 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_equals_187610280928
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_equals_187610280928
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_equals_187610280928
 [INFO] Running com.gin.mergegfassets.entity.Config_init_165391713713
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.036 s <<< FAILURE! - in com.gin.mergegfassets.entity.Config_init_165391713713
-[ERROR] com.gin.mergegfassets.entity.Config_init_165391713713.test  Time elapsed: 10.021 s  <<< ERROR!
+请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.037 s <<< FAILURE! - in com.gin.mergegfassets.entity.Config_init_165391713713
+[ERROR] com.gin.mergegfassets.entity.Config_init_165391713713.test  Time elapsed: 10.022 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1127,17 +1127,17 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_sim
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_similar_12103162563
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.gin.mergegfassets.entity.AssetFile_similar_12103162563
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_similar_12103162563
 [INFO] Running com.gin.mergegfassets.entity.Config_getThreads_85527189216
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.Config_getThreads_85527189216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.Config_getThreads_85527189216
 [INFO] Running com.gin.mergegfassets.entity.Config_init_16539171370
-请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.04 s <<< FAILURE! - in com.gin.mergegfassets.entity.Config_init_16539171370
-[ERROR] com.gin.mergegfassets.entity.Config_init_16539171370.test  Time elapsed: 10.022 s  <<< ERROR!
+请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.035 s <<< FAILURE! - in com.gin.mergegfassets.entity.Config_init_16539171370
+[ERROR] com.gin.mergegfassets.entity.Config_init_16539171370.test  Time elapsed: 10.02 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1179,60 +1179,60 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUti
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520255
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.AssetFile_setDamaged_103661520255
 [INFO] Running com.gin.mergegfassets.entity.Config_init_211410077114
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.entity.Config_init_211410077114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_init_211410077114
 [INFO] Running com.gin.mergegfassets.entity.Config_getOutputPath_19508113684
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.Config_getOutputPath_19508113684
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_getOutputPath_19508113684
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_toString_145941812263
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in com.gin.mergegfassets.entity.AssetFile_toString_145941812263
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in com.gin.mergegfassets.entity.AssetFile_toString_145941812263
 [INFO] Running com.gin.mergegfassets.entity.Config_setOutputPath_89443480018
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.ReflectionUtils (file:/app/target/test-classes/) to field java.lang.reflect.Field.modifiers
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.entity.Config_setOutputPath_89443480018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.entity.Config_setOutputPath_89443480018
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_getVersion_17322299529
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_getVersion_17322299529 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_getVersion_17322299529
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.gin.mergegfassets.entity.AssetFile_getVersion_17322299529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFile_getVersion_17322299529
 [INFO] Running com.gin.mergegfassets.entity.AssetFilePair_init_15990689739
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.entity.AssetFilePair_init_15990689739
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.entity.AssetFilePair_init_15990689739
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_isSkin_154107126416
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_isSkin_154107126416 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_isSkin_154107126416
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.entity.AssetFile_isSkin_154107126416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.gin.mergegfassets.entity.AssetFile_isSkin_154107126416
 [INFO] Running com.gin.mergegfassets.entity.AssetFile_toString_145941812231
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.entity.AssetFile_toString_145941812231 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.entity.AssetFile_toString_145941812231
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.gin.mergegfassets.entity.AssetFile_toString_145941812231
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.gin.mergegfassets.entity.AssetFile_toString_145941812231
 [INFO] Running com.gin.mergegfassets.MergeGfAssetsApplication_init_10199399270
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.MergeGfAssetsApplication_init_10199399270
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.gin.mergegfassets.MergeGfAssetsApplication_init_10199399270
 [INFO] Running com.gin.mergegfassets.MergeGfAssetsApplication_init_10199399272
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.MergeGfAssetsApplication_init_10199399272
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.MergeGfAssetsApplication_init_10199399272
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863752
-请提供输出目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.037 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863752
-[ERROR] com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863752.test  Time elapsed: 10.02 s  <<< ERROR!
+请提供输出目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.033 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863752
+[ERROR] com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863752.test  Time elapsed: 10.019 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1268,8 +1268,8 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858835
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858835
-[ERROR] com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858835.test  Time elapsed: 0.026 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858835
+[ERROR] com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858835.test  Time elapsed: 0.028 s  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
 	at java.base/java.io.FileReader.<init>(FileReader.java:75)
@@ -1295,8 +1295,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376414
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376414
-[ERROR] com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376414.test  Time elapsed: 0.026 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376414
+[ERROR] com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376414.test  Time elapsed: 0.024 s  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:228)
 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
@@ -1323,12 +1323,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.JsonUtils_init_19369211840
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.utils.JsonUtils_init_19369211840
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.gin.mergegfassets.utils.JsonUtils_init_19369211840
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_init_100837889211
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.utils.FileUtils_init_100837889211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.utils.FileUtils_init_100837889211
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_hasKeywords_19282929814
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_hasKeywords_19282929814
-[ERROR] com.gin.mergegfassets.utils.FileUtils_hasKeywords_19282929814.test  Time elapsed: 0.028 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_hasKeywords_19282929814
+[ERROR] com.gin.mergegfassets.utils.FileUtils_hasKeywords_19282929814.test  Time elapsed: 0.025 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.hasKeywords(FileUtils.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1352,10 +1352,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.NumberUtils_isInt_8833448613
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.utils.NumberUtils_isInt_8833448613
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.NumberUtils_isInt_8833448613
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_65976072715
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_65976072715
-[ERROR] com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_65976072715.test  Time elapsed: 0.028 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_65976072715
+[ERROR] com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_65976072715.test  Time elapsed: 0.025 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.deleteFileWithKeyword(FileUtils.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1381,8 +1381,8 @@ java.lang.NullPointerException
 [INFO] Running com.gin.mergegfassets.utils.TimeUtils_init_20167576272
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.utils.TimeUtils_init_20167576272
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968926
-请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.035 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968926
-[ERROR] com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968926.test  Time elapsed: 10.021 s  <<< ERROR!
+请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.036 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968926
+[ERROR] com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968926.test  Time elapsed: 10.02 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1423,8 +1423,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_list
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_listFiles_9985079535
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_listFiles_9985079535
-[ERROR] com.gin.mergegfassets.utils.FileUtils_listFiles_9985079535.test  Time elapsed: 0.028 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_listFiles_9985079535
+[ERROR] com.gin.mergegfassets.utils.FileUtils_listFiles_9985079535.test  Time elapsed: 0.029 s  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
 	at com.gin.mergegfassets.utils.FileUtils.listFiles(FileUtils.java:79)
@@ -1449,7 +1449,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.NumberUtils_isInt_8833448611
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.gin.mergegfassets.utils.NumberUtils_isInt_8833448611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.utils.NumberUtils_isInt_8833448611
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readNumber_14021714688
 null >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.035 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readNumber_14021714688
 [ERROR] com.gin.mergegfassets.utils.IoUtils_readNumber_14021714688.test  Time elapsed: 10.02 s  <<< ERROR!
@@ -1488,7 +1488,7 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.JsonUtils_init_19369211843
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.utils.JsonUtils_init_19369211843
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.gin.mergegfassets.utils.JsonUtils_init_19369211843
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readCommand_4940487604
 MuLcgQHgqz >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.038 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readCommand_4940487604
 [ERROR] com.gin.mergegfassets.utils.IoUtils_readCommand_4940487604.test  Time elapsed: 10.022 s  <<< ERROR!
@@ -1527,20 +1527,20 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_listAllFiles_205760328620
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.utils.FileUtils_listAllFiles_205760328620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.FileUtils_listAllFiles_205760328620
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_init_10083788920
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.FileUtils_init_10083788920
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.FileUtils_init_10083788920
 [INFO] Running com.gin.mergegfassets.utils.TasksUtil_init_10094389190
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.gin.mergegfassets.utils.TasksUtil_init_10094389190
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in com.gin.mergegfassets.utils.TasksUtil_init_10094389190
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_removeDir_6409938356
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_removeDir_6409938356 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_removeDir_6409938356
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.FileUtils_removeDir_6409938356
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.utils.FileUtils_removeDir_6409938356
 [INFO] Running com.gin.mergegfassets.utils.CmdUtils_getRuntime_18779604904
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.CmdUtils_getRuntime_18779604904
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.utils.CmdUtils_getRuntime_18779604904
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_move_18962715712
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_move_18962715712 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
@@ -1548,7 +1548,7 @@ WARNING: Please consider reporting this to the maintainers of com.gin.mergegfass
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_move_18962715712
-[ERROR] com.gin.mergegfassets.utils.FileUtils_move_18962715712.test  Time elapsed: 0.027 s  <<< ERROR!
+[ERROR] com.gin.mergegfassets.utils.FileUtils_move_18962715712.test  Time elapsed: 0.03 s  <<< ERROR!
 java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 10
 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
 	at java.base/java.lang.String.substring(String.java:1874)
@@ -1576,7 +1576,7 @@ java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 10
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_move_189627157113
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_move_189627157113
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_move_189627157113
 [ERROR] com.gin.mergegfassets.utils.FileUtils_move_189627157113.test  Time elapsed: 0.027 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.move(FileUtils.java:31)
@@ -1601,9 +1601,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_init_12299338545
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.IoUtils_init_12299338545
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.utils.IoUtils_init_12299338545
 [INFO] Running com.gin.mergegfassets.utils.TimeUtils_init_20167576270
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.utils.TimeUtils_init_20167576270
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.TimeUtils_init_20167576270
 [INFO] Running com.gin.mergegfassets.utils.CmdUtils_init_19269724583
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.gin.mergegfassets.utils.CmdUtils_init_19269724583
 [INFO] Running com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858832
@@ -1612,8 +1612,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.JsonUtils_read
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858832
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858832
-[ERROR] com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858832.test  Time elapsed: 0.025 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858832
+[ERROR] com.gin.mergegfassets.utils.JsonUtils_readFromFile_10280858832.test  Time elapsed: 0.027 s  <<< ERROR!
 java.io.FileNotFoundException: Invalid file path
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
 	at java.base/java.io.FileReader.<init>(FileReader.java:75)
@@ -1644,8 +1644,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_move
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_moveToDir_19158993311
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_moveToDir_19158993311
-[ERROR] com.gin.mergegfassets.utils.FileUtils_moveToDir_19158993311.test  Time elapsed: 0.031 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_moveToDir_19158993311
+[ERROR] com.gin.mergegfassets.utils.FileUtils_moveToDir_19158993311.test  Time elapsed: 0.027 s  <<< ERROR!
 java.lang.StringIndexOutOfBoundsException: String index out of range: -1484323151
 	at java.base/java.lang.String.substring(String.java:1841)
 	at java.base/java.io.File.getName(File.java:457)
@@ -1671,8 +1671,8 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -148432315
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863757
-请提供输出目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.039 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863757
-[ERROR] com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863757.test  Time elapsed: 10.022 s  <<< ERROR!
+请提供输出目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.035 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863757
+[ERROR] com.gin.mergegfassets.utils.IoUtils_readOutputPath_15664863757.test  Time elapsed: 10.021 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1708,11 +1708,11 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.TimeUtils_printlnTimeCost_7800997673
-用时： 1.7756280636E9s
+用时： 1.7757390049E9s
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in com.gin.mergegfassets.utils.TimeUtils_printlnTimeCost_7800997673
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968921
-请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.034 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968921
-[ERROR] com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968921.test  Time elapsed: 10.02 s  <<< ERROR!
+请提供assets目录路径 >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.036 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968921
+[ERROR] com.gin.mergegfassets.utils.IoUtils_readAssetPath_6929968921.test  Time elapsed: 10.021 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1748,20 +1748,20 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_hasKeywords_1928292983
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.FileUtils_hasKeywords_1928292983
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.gin.mergegfassets.utils.FileUtils_hasKeywords_1928292983
 [INFO] Running com.gin.mergegfassets.utils.TimeUtils_printlnTimeCost_7800997671
-vrQLuWIDJX用时： -2.442116007269899E15s
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.gin.mergegfassets.utils.TimeUtils_printlnTimeCost_7800997671
+vrQLuWIDJX用时： -2.4421160071589575E15s
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.gin.mergegfassets.utils.TimeUtils_printlnTimeCost_7800997671
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_6597607274
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_6597607274 (file:/app/target/test-classes/) to field java.io.File$PathStatus.CHECKED
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_6597607274
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_6597607274
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.gin.mergegfassets.utils.FileUtils_deleteFileWithKeyword_6597607274
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_copyToDir_116183695918
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyToDir_116183695918
-[ERROR] com.gin.mergegfassets.utils.FileUtils_copyToDir_116183695918.test  Time elapsed: 0.027 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyToDir_116183695918
+[ERROR] com.gin.mergegfassets.utils.FileUtils_copyToDir_116183695918.test  Time elapsed: 0.031 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.copyToDir(FileUtils.java:105)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1785,9 +1785,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_init_12299338540
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.IoUtils_init_12299338540
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.utils.IoUtils_init_12299338540
 [INFO] Running com.gin.mergegfassets.utils.NumberUtils_init_18798051830
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.NumberUtils_init_18798051830
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.gin.mergegfassets.utils.NumberUtils_init_18798051830
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596210
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596210 (file:/app/target/test-classes/) to field java.io.File$PathStatus.INVALID
@@ -1795,10 +1795,10 @@ WARNING: Please consider reporting this to the maintainers of com.gin.mergegfass
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
 扫描目录 BYqFIqCKAV | 发现 0 个文件 | 用时： 0.0s
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596210
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_copyFile_166993755519
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyFile_166993755519
-[ERROR] com.gin.mergegfassets.utils.FileUtils_copyFile_166993755519.test  Time elapsed: 0.026 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyFile_166993755519
+[ERROR] com.gin.mergegfassets.utils.FileUtils_copyFile_166993755519.test  Time elapsed: 0.028 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.copyFile(FileUtils.java:111)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1822,10 +1822,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.TasksUtil_init_10094389191
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in com.gin.mergegfassets.utils.TasksUtil_init_10094389191
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in com.gin.mergegfassets.utils.TasksUtil_init_10094389191
 [INFO] Running com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869925
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869925
-[ERROR] com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869925.test  Time elapsed: 0.033 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! - in com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869925
+[ERROR] com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869925.test  Time elapsed: 0.031 s  <<< ERROR!
 java.io.IOException: Cannot run program "Explorer.exe": error=2, No such file or directory
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
@@ -1865,10 +1865,10 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_list
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_listAllFiles_20576032869
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.gin.mergegfassets.utils.FileUtils_listAllFiles_20576032869
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.FileUtils_listAllFiles_20576032869
 [INFO] Running com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869922
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869922
-[ERROR] com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869922.test  Time elapsed: 0.029 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! - in com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869922
+[ERROR] com.gin.mergegfassets.utils.CmdUtils_explorerSelect_21343869922.test  Time elapsed: 0.03 s  <<< ERROR!
 java.io.IOException: Cannot run program "Explorer.exe": error=2, No such file or directory
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
@@ -1908,8 +1908,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_copy
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_copyFile_16699375558
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyFile_16699375558
-[ERROR] com.gin.mergegfassets.utils.FileUtils_copyFile_16699375558.test  Time elapsed: 0.029 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyFile_16699375558
+[ERROR] com.gin.mergegfassets.utils.FileUtils_copyFile_16699375558.test  Time elapsed: 0.032 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.copyFile(FileUtils.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1933,8 +1933,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readCommand_4940487609
-null >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.039 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readCommand_4940487609
-[ERROR] com.gin.mergegfassets.utils.IoUtils_readCommand_4940487609.test  Time elapsed: 10.023 s  <<< ERROR!
+null >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.043 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readCommand_4940487609
+[ERROR] com.gin.mergegfassets.utils.IoUtils_readCommand_4940487609.test  Time elapsed: 10.024 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -1970,8 +1970,8 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596221
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596221
-[ERROR] com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596221.test  Time elapsed: 0.026 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596221
+[ERROR] com.gin.mergegfassets.utils.FileUtils_listAllFilesWithTimeCost_111602596221.test  Time elapsed: 0.03 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.listAllFilesWithTimeCost(FileUtils.java:143)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2000,8 +2000,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.FileUtils_copy
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.FileUtils_copyToDir_11618369597
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.051 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyToDir_11618369597
-[ERROR] com.gin.mergegfassets.utils.FileUtils_copyToDir_11618369597.test  Time elapsed: 0.036 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.057 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_copyToDir_11618369597
+[ERROR] com.gin.mergegfassets.utils.FileUtils_copyToDir_11618369597.test  Time elapsed: 0.041 s  <<< ERROR!
 java.nio.file.NoSuchFileException: pCTimMblYc
 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
@@ -2062,8 +2062,8 @@ WARNING: Illegal reflective access by com.gin.mergegfassets.utils.JsonUtils_writ
 WARNING: Please consider reporting this to the maintainers of com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376411
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376411
-[ERROR] com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376411.test  Time elapsed: 0.023 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376411
+[ERROR] com.gin.mergegfassets.utils.JsonUtils_writeToFile_21449376411.test  Time elapsed: 0.027 s  <<< ERROR!
 java.io.FileNotFoundException: Invalid file path
 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:231)
 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
@@ -2090,10 +2090,10 @@ java.io.FileNotFoundException: Invalid file path
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.CmdUtils_getRuntime_18779604901
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.gin.mergegfassets.utils.CmdUtils_getRuntime_18779604901
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.utils.CmdUtils_getRuntime_18779604901
 [INFO] Running com.gin.mergegfassets.utils.IoUtils_readNumber_14021714683
-sjlJAEtRrb >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readNumber_14021714683
-[ERROR] com.gin.mergegfassets.utils.IoUtils_readNumber_14021714683.test  Time elapsed: 10.027 s  <<< ERROR!
+sjlJAEtRrb >> [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.041 s <<< FAILURE! - in com.gin.mergegfassets.utils.IoUtils_readNumber_14021714683
+[ERROR] com.gin.mergegfassets.utils.IoUtils_readNumber_14021714683.test  Time elapsed: 10.024 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at java.base@11.0.16/java.io.FileInputStream.readBytes(Native Method)
 	at java.base@11.0.16/java.io.FileInputStream.read(FileInputStream.java:279)
@@ -2129,10 +2129,10 @@ org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 
 [ERROR] Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
 [INFO] Running com.gin.mergegfassets.utils.NumberUtils_init_18798051832
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.gin.mergegfassets.utils.NumberUtils_init_18798051832
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.gin.mergegfassets.utils.NumberUtils_init_18798051832
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_moveToDir_191589933112
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_moveToDir_191589933112
-[ERROR] com.gin.mergegfassets.utils.FileUtils_moveToDir_191589933112.test  Time elapsed: 0.027 s  <<< ERROR!
+[ERROR] com.gin.mergegfassets.utils.FileUtils_moveToDir_191589933112.test  Time elapsed: 0.026 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.gin.mergegfassets.utils.FileUtils.moveToDir(FileUtils.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2156,10 +2156,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running com.gin.mergegfassets.utils.CmdUtils_init_19269724580
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.gin.mergegfassets.utils.CmdUtils_init_19269724580
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.gin.mergegfassets.utils.CmdUtils_init_19269724580
 [INFO] Running com.gin.mergegfassets.utils.FileUtils_listFiles_99850795316
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_listFiles_99850795316
-[ERROR] com.gin.mergegfassets.utils.FileUtils_listFiles_99850795316.test  Time elapsed: 0.029 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in com.gin.mergegfassets.utils.FileUtils_listFiles_99850795316
+[ERROR] com.gin.mergegfassets.utils.FileUtils_listFiles_99850795316.test  Time elapsed: 0.027 s  <<< ERROR!
 java.lang.NullPointerException: dir is marked non-null but is null
 	at com.gin.mergegfassets.utils.FileUtils.listFiles(FileUtils.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2184,8 +2184,8 @@ java.lang.NullPointerException: dir is marked non-null but is null
 
 [INFO] Running com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029311
 Loading //app/opencv_java.dll
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.053 s <<< FAILURE! - in com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029311
-[ERROR] com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029311.test  Time elapsed: 0.037 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.05 s <<< FAILURE! - in com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029311
+[ERROR] com.gin.mergegfassets.MergeGfAssetsApplication_main_13965029311.test  Time elapsed: 0.035 s  <<< ERROR!
 java.lang.UnsatisfiedLinkError: Can't load library: //app/opencv_java.dll
 	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2633)
 	at java.base/java.lang.Runtime.load0(Runtime.java:768)
@@ -2275,6 +2275,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  09:36 min
-[INFO] Finished at: 2026-04-08T06:03:23Z
+[INFO] Total time:  09:34 min
+[INFO] Finished at: 2026-04-09T12:52:25Z
 [INFO] ------------------------------------------------------------------------

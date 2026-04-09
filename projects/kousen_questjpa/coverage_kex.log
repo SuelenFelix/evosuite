@@ -68,19 +68,19 @@
 [INFO] Running com.oreilly.quest.controllers.QuestController_init_10129853311
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.oreilly.quest.controllers.QuestController_init_10129853311
 [INFO] Running com.oreilly.quest.controllers.QuestController_init_10129853310
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.controllers.QuestController_init_10129853310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.controllers.QuestController_init_10129853310
 [INFO] Running com.oreilly.quest.QuestApplication_init_8756015352
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.QuestApplication_init_8756015352
 [INFO] Running com.oreilly.quest.entities.Task_toString_174198539739
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.oreilly.quest.entities.Task_toString_174198539739
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Task_toString_174198539739
 [INFO] Running com.oreilly.quest.entities.Castle_addToKnights_59591135226
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.oreilly.quest.entities.Castle_addToKnights_59591135226
-[ERROR] test  Time elapsed: 0.013 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.oreilly.quest.entities.Castle_addToKnights_59591135226
+[ERROR] test  Time elapsed: 0.01 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.oreilly.quest.entities.Castle_addToKnights_59591135226.test(Castle_addToKnights_59591135226.java:51)
 
 [INFO] Running com.oreilly.quest.entities.Castle_toString_60673097843
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.oreilly.quest.entities.Castle_toString_60673097843
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.oreilly.quest.entities.Castle_toString_60673097843
 [INFO] Running com.oreilly.quest.entities.Task_setName_196486307028
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setName_196486307028
 [INFO] Running com.oreilly.quest.entities.Title_init_21403712885
@@ -90,7 +90,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.oreilly.quest.entities.Title_init_21403712885.test(Title_init_21403712885.java:47)
 
 [INFO] Running com.oreilly.quest.entities.Knight_getQuest_7674390209
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Knight_getQuest_7674390209
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getQuest_7674390209
 [INFO] Running com.oreilly.quest.entities.Castle_removeKnight_14406535795
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_removeKnight_14406535795
 [INFO] Running com.oreilly.quest.entities.Knight_getName_165237881423
@@ -102,7 +102,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.oreilly.quest.entities.Knight_setId_5147320014
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setId_5147320014
 [INFO] Running com.oreilly.quest.entities.Quest_removeKnight_100230002322
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Quest_removeKnight_100230002322
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.oreilly.quest.entities.Quest_removeKnight_100230002322
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.oreilly.quest.entities.Quest_removeKnight_100230002322.test(Quest_removeKnight_100230002322.java:49)
@@ -116,9 +116,9 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.entities.Task_getId_21170510675
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getId_21170510675
 [INFO] Running com.oreilly.quest.entities.Task_toString_174198539719
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_toString_174198539719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Task_toString_174198539719
 [INFO] Running com.oreilly.quest.entities.Castle_getCity_83233149711
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_getCity_83233149711
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getCity_83233149711
 [INFO] Running com.oreilly.quest.entities.Knight_setTitle_5957481986
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setTitle_5957481986
 [INFO] Running com.oreilly.quest.entities.Knight_init_21289823991
@@ -126,17 +126,17 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.entities.Task_setId_174787447126
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setId_174787447126
 [INFO] Running com.oreilly.quest.entities.Castle_toString_60673097821
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_toString_60673097821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_toString_60673097821
 [INFO] Running com.oreilly.quest.entities.Castle_init_612751270
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_init_612751270
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_init_612751270
 [INFO] Running com.oreilly.quest.entities.Task_init_10442764232
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.oreilly.quest.entities.Task_init_10442764232
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_init_10442764232
 [INFO] Running com.oreilly.quest.entities.Castle_getId_104266181029
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getId_104266181029
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_getId_104266181029
 [INFO] Running com.oreilly.quest.entities.Castle_setLongitude_78381769340
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setLongitude_78381769340
 [INFO] Running com.oreilly.quest.entities.Quest_setId_12393936426
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Quest_setId_12393936426
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setId_12393936426
 [INFO] Running com.oreilly.quest.entities.Quest_setKnights_53488106730
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_setKnights_53488106730
 [INFO] Running com.oreilly.quest.entities.Castle_getKnights_206803910725
@@ -148,11 +148,11 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.entities.Task_setQuest_4505187024
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setQuest_4505187024
 [INFO] Running com.oreilly.quest.entities.Castle_addToKnights_5959113524
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_addToKnights_5959113524
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_addToKnights_5959113524
 [INFO] Running com.oreilly.quest.entities.Task_getQuest_14951674523
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getQuest_14951674523
 [INFO] Running com.oreilly.quest.entities.Quest_addToTasks_1772895762
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_addToTasks_1772895762
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Quest_addToTasks_1772895762
 [INFO] Running com.oreilly.quest.entities.Knight_getTitle_15675793285
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getTitle_15675793285
 [INFO] Running com.oreilly.quest.entities.Quest_hashCode_73452302615
@@ -160,7 +160,7 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.entities.Knight_getCastle_54537301614
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_getCastle_54537301614
 [INFO] Running com.oreilly.quest.entities.Knight_setCastle_156367347431
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Knight_setCastle_156367347431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setCastle_156367347431
 [INFO] Running com.oreilly.quest.entities.Castle_setId_61262005230
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setId_61262005230
 [INFO] Running com.oreilly.quest.entities.Task_setStartDate_67116678032
@@ -212,7 +212,7 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.entities.Task_setId_17478744716
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setId_17478744716
 [INFO] Running com.oreilly.quest.entities.Title_init_21403712882
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.entities.Title_init_21403712882
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.oreilly.quest.entities.Title_init_21403712882
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.oreilly.quest.entities.Title_init_21403712882.test(Title_init_21403712882.java:42)
@@ -316,7 +316,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running com.oreilly.quest.entities.Knight_setId_51473200120
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_setId_51473200120
 [INFO] Running com.oreilly.quest.entities.Task_equals_159353553437
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Task_equals_159353553437
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_equals_159353553437
 [INFO] Running com.oreilly.quest.entities.Task_getPriority_156418438629
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_getPriority_156418438629
 [INFO] Running com.oreilly.quest.entities.Quest_removeTask_2743846313
@@ -386,7 +386,7 @@ java.lang.NullPointerException
 	at com.oreilly.quest.entities.Quest_addToTasks_17728957619.test(Quest_addToTasks_17728957619.java:49)
 
 [INFO] Running com.oreilly.quest.entities.Castle_getKnights_20680391073
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_getKnights_20680391073
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Castle_getKnights_20680391073
 [INFO] Running com.oreilly.quest.entities.Knight_toString_52062107529
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Knight_toString_52062107529
 [INFO] Running com.oreilly.quest.entities.Title_values_2215933430
@@ -406,7 +406,7 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.entities.Castle_setKnights_19080725356
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Castle_setKnights_19080725356
 [INFO] Running com.oreilly.quest.entities.Quest_init_19429916901
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.entities.Quest_init_19429916901
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Quest_init_19429916901
 [INFO] Running com.oreilly.quest.entities.Task_setName_19648630708
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.entities.Task_setName_19648630708
 [INFO] Running com.oreilly.quest.entities.Castle_setLatitude_189483638038
@@ -437,40 +437,40 @@ java.lang.NullPointerException
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.7.14)
 
-2026-04-08 06:16:48.686  INFO 75 --- [me-limited test] com.oreilly.quest.QuestApplication       : Starting QuestApplication using Java 11.0.16 on 40d5b2dc723c with PID 75 (started by root in /app)
-2026-04-08 06:16:48.688  INFO 75 --- [me-limited test] com.oreilly.quest.QuestApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 06:16:49.480  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 06:16:49.687  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 199 ms. Found 4 JPA repository interfaces.
-2026-04-08 06:16:50.282  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:16:50.292  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:16:50.292  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
-2026-04-08 06:16:50.384  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:16:50.384  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1632 ms
-2026-04-08 06:16:50.400 DEBUG 75 --- [me-limited test] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
-2026-04-08 06:16:50.400 DEBUG 75 --- [me-limited test] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
-2026-04-08 06:16:50.498  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 06:16:50.783  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 06:16:50.860  INFO 75 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 06:16:50.909  INFO 75 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
-2026-04-08 06:16:51.054  INFO 75 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 06:16:51.179  INFO 75 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2026-04-08 06:16:51.916 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:24.264  INFO 74 --- [me-limited test] com.oreilly.quest.QuestApplication       : Starting QuestApplication using Java 11.0.16 on 69e570fcf725 with PID 74 (started by root in /app)
+2026-04-09 13:07:24.267  INFO 74 --- [me-limited test] com.oreilly.quest.QuestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 13:07:25.062  INFO 74 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 13:07:25.245  INFO 74 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 4 JPA repository interfaces.
+2026-04-09 13:07:25.861  INFO 74 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:07:25.871  INFO 74 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:07:25.871  INFO 74 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2026-04-09 13:07:25.962  INFO 74 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:07:25.962  INFO 74 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1636 ms
+2026-04-09 13:07:25.978 DEBUG 74 --- [me-limited test] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2026-04-09 13:07:25.978 DEBUG 74 --- [me-limited test] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-04-09 13:07:26.086  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 13:07:26.367  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 13:07:26.446  INFO 74 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 13:07:26.504  INFO 74 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-04-09 13:07:26.675  INFO 74 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 13:07:26.795  INFO 74 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 13:07:27.504 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     drop table if exists castle CASCADE 
-2026-04-08 06:16:51.921 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.509 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     drop table if exists knight CASCADE 
-2026-04-08 06:16:51.921 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.509 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     drop table if exists quest CASCADE 
-2026-04-08 06:16:51.921 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.509 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     drop table if exists task CASCADE 
-2026-04-08 06:16:51.922 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.510 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     drop sequence if exists hibernate_sequence
-2026-04-08 06:16:51.924 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by 1
-2026-04-08 06:16:51.926 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.512 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by 1
+2026-04-09 13:07:27.514 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     create table castle (
        id bigint not null,
@@ -481,7 +481,7 @@ java.lang.NullPointerException
         state varchar(255),
         primary key (id)
     )
-2026-04-08 06:16:51.935 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.523 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     create table knight (
        id bigint not null,
@@ -491,7 +491,7 @@ java.lang.NullPointerException
         quest_id bigint,
         primary key (id)
     )
-2026-04-08 06:16:51.936 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.524 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     create table quest (
        id bigint not null,
@@ -499,7 +499,7 @@ java.lang.NullPointerException
         version bigint not null,
         primary key (id)
     )
-2026-04-08 06:16:51.938 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.525 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     create table task (
        id bigint not null,
@@ -513,125 +513,125 @@ java.lang.NullPointerException
         quest_id bigint,
         primary key (id)
     )
-2026-04-08 06:16:51.939 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.527 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     alter table knight 
        add constraint FKrah2iov57h05suo0p0944mvc5 
        foreign key (castle_id) 
        references castle
-2026-04-08 06:16:51.950 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.536 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     alter table knight 
        add constraint FK8r7bqqpgrphuyeb3nrhbxhjit 
        foreign key (quest_id) 
        references quest
-2026-04-08 06:16:51.952 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.538 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     
     alter table task 
        add constraint FKlv9tbejtyrwlfk4eg5wugv81y 
        foreign key (quest_id) 
        references quest
-2026-04-08 06:16:51.955  INFO 75 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 06:16:51.963  INFO 75 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:16:52.296 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2026-04-08 06:16:52.303 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findByName' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findByIdWithTasks' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.deleteQuest' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2026-04-08 06:16:52.304 TRACE 75 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.initializeDatabase' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2026-04-08 06:16:52.419  WARN 75 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 06:16:52.517 DEBUG 75 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-04-08 06:16:52.622 DEBUG 75 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
-2026-04-08 06:16:52.643 DEBUG 75 --- [me-limited test] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-04-08 06:16:52.653 DEBUG 75 --- [me-limited test] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-04-08 06:16:52.931  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:16:52.938  INFO 75 --- [me-limited test] com.oreilly.quest.QuestApplication       : Started QuestApplication in 4.669 seconds (JVM running for 6.164)
-2026-04-08 06:16:52.946 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [com.oreilly.quest.services.QuestService.initializeDatabase]
-2026-04-08 06:16:52.957 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
-2026-04-08 06:16:52.966 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:27.540  INFO 74 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 13:07:27.548  INFO 74 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 13:07:27.867 TRACE 74 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-09 13:07:27.874 TRACE 74 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findByName' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-09 13:07:27.875 TRACE 74 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.initializeDatabase' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-09 13:07:27.875 TRACE 74 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findByIdWithTasks' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-09 13:07:27.875 TRACE 74 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.deleteQuest' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-09 13:07:27.875 TRACE 74 --- [me-limited test] t.a.AnnotationTransactionAttributeSource : Adding transactional method 'com.oreilly.quest.services.QuestService.findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2026-04-09 13:07:27.985  WARN 74 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 13:07:28.089 DEBUG 74 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-09 13:07:28.191 DEBUG 74 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2026-04-09 13:07:28.211 DEBUG 74 --- [me-limited test] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-09 13:07:28.221 DEBUG 74 --- [me-limited test] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-09 13:07:28.506  INFO 74 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 13:07:28.514  INFO 74 --- [me-limited test] com.oreilly.quest.QuestApplication       : Started QuestApplication in 4.681 seconds (JVM running for 6.214)
+2026-04-09 13:07:28.520 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [com.oreilly.quest.services.QuestService.initializeDatabase]
+2026-04-09 13:07:28.533 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
+2026-04-09 13:07:28.543 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     select
         count(*) as col_0_0_ 
     from
         quest quest0_
-2026-04-08 06:16:52.994 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
-2026-04-08 06:16:52.995 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
-2026-04-08 06:16:52.999 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.573 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
+2026-04-09 13:07:28.574 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-09 13:07:28.578 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.043 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.619 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.044 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.620 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.045 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.621 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.046 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
-2026-04-08 06:16:53.046 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
-2026-04-08 06:16:53.047 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.621 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-09 13:07:28.622 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-09 13:07:28.624 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.048 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.625 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.048 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.626 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.049 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.626 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     call next value for hibernate_sequence
-2026-04-08 06:16:53.049 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
-2026-04-08 06:16:53.049 TRACE 75 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [com.oreilly.quest.services.QuestService.initializeDatabase]
-2026-04-08 06:16:53.071 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.627 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2026-04-09 13:07:28.627 TRACE 74 --- [me-limited test] o.s.t.i.TransactionInterceptor           : Completing transaction for [com.oreilly.quest.services.QuestService.initializeDatabase]
+2026-04-09 13:07:28.650 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         quest
         (name, version, id) 
     values
         (?, ?, ?)
-2026-04-08 06:16:53.077 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.655 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         task
         (completed, created_date, end_date, modified_date, name, priority, quest_id, start_date, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-04-08 06:16:53.081 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.660 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         task
         (completed, created_date, end_date, modified_date, name, priority, quest_id, start_date, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-04-08 06:16:53.082 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.661 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         task
         (completed, created_date, end_date, modified_date, name, priority, quest_id, start_date, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-04-08 06:16:53.083 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.663 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         castle
         (city, latitude, longitude, name, state, id) 
     values
         (?, ?, ?, ?, ?, ?)
-2026-04-08 06:16:53.085 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.664 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         knight
         (castle_id, name, quest_id, title, id) 
     values
         (?, ?, ?, ?, ?)
-2026-04-08 06:16:53.086 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.665 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         knight
         (castle_id, name, quest_id, title, id) 
     values
         (?, ?, ?, ?, ?)
-2026-04-08 06:16:53.086 DEBUG 75 --- [me-limited test] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.665 DEBUG 74 --- [me-limited test] org.hibernate.SQL                        : 
     insert 
     into
         knight
         (castle_id, name, quest_id, title, id) 
     values
         (?, ?, ?, ?, ?)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.976 s - in com.oreilly.quest.QuestApplication_main_4990385311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.999 s - in com.oreilly.quest.QuestApplication_main_4990385311
 [INFO] Running com.oreilly.quest.QuestApplication_init_8756015350
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.QuestApplication_init_8756015350
 [INFO] Running com.oreilly.quest.config.AppInit_init_6811941030
@@ -645,7 +645,7 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.json.Location_getLat_4068425717
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_getLat_4068425717
 [INFO] Running com.oreilly.quest.json.Response_getFormattedAddress_67644691414
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.oreilly.quest.json.Response_getFormattedAddress_67644691414
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.json.Response_getFormattedAddress_67644691414
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.oreilly.quest.json.Response_getFormattedAddress_67644691414.test(Response_getFormattedAddress_67644691414.java:44)
@@ -675,7 +675,7 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.json.Result_init_17457458170
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_init_17457458170
 [INFO] Running com.oreilly.quest.json.Geometry_toString_12416062873
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.oreilly.quest.json.Geometry_toString_12416062873
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Geometry_toString_12416062873
 [INFO] Running com.oreilly.quest.json.Geometry_init_6961504360
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_init_6961504360
 [INFO] Running com.oreilly.quest.json.Response_setStatus_13570337164
@@ -685,17 +685,17 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.json.Response_setResults_18067327092
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_setResults_18067327092
 [INFO] Running com.oreilly.quest.json.Geometry_setLocation_17627855616
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Geometry_setLocation_17627855616
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_setLocation_17627855616
 [INFO] Running com.oreilly.quest.json.Result_setGeometry_53814508410
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_setGeometry_53814508410
 [INFO] Running com.oreilly.quest.json.Response_toString_21105319367
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Response_toString_21105319367
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_toString_21105319367
 [INFO] Running com.oreilly.quest.json.Response_setResults_180673270910
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_setResults_180673270910
 [INFO] Running com.oreilly.quest.json.Result_init_17457458176
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_init_17457458176
 [INFO] Running com.oreilly.quest.json.Geometry_getLocation_2876964035
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Geometry_getLocation_2876964035
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_getLocation_2876964035
 [INFO] Running com.oreilly.quest.json.Geometry_toString_12416062877
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Geometry_toString_12416062877
 [INFO] Running com.oreilly.quest.json.Location_setLng_20879940134
@@ -711,9 +711,9 @@ java.lang.NullPointerException
 [INFO] Running com.oreilly.quest.json.Result_getGeometry_6310302449
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_getGeometry_6310302449
 [INFO] Running com.oreilly.quest.json.Result_toString_200376562811
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Result_toString_200376562811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Result_toString_200376562811
 [INFO] Running com.oreilly.quest.json.Response_getResults_5337095499
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Response_getResults_5337095499
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.oreilly.quest.json.Response_getResults_5337095499
 [INFO] Running com.oreilly.quest.json.Location_getLng_4064677819
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_getLng_4064677819
 [INFO] Running com.oreilly.quest.json.Response_getLocation_6551326705
@@ -747,7 +747,7 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 [INFO] Running com.oreilly.quest.json.Location_setLat_20883688032
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.oreilly.quest.json.Location_setLat_20883688032
 [INFO] Running com.oreilly.quest.QuestApplication_main_4990385313
-2026-04-08 06:16:53.161 ERROR 75 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 13:07:28.736 ERROR 74 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.29.jar:5.3.29]
@@ -800,8 +800,8 @@ java.lang.NullPointerException
 	at com.oreilly.quest.services.QuestService_findAll_19780029051.test(QuestService_findAll_19780029051.java:40)
 
 [INFO] Running com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.oreilly.quest.services.QuestService_findByIdWithTasks_15328463664.test(QuestService_findByIdWithTasks_15328463664.java:45)
 
@@ -817,25 +817,25 @@ java.lang.NullPointerException
 java.lang.NullPointerException
 	at com.oreilly.quest.services.QuestService_findById_2567882403.test(QuestService_findById_2567882403.java:45)
 
-2026-04-08 06:16:53.328  INFO 75 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:16:53.329  INFO 75 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2026-04-08 06:16:53.329 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.906  INFO 74 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 13:07:28.907  INFO 74 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2026-04-09 13:07:28.907 DEBUG 74 --- [ionShutdownHook] org.hibernate.SQL                        : 
     
     drop table if exists castle CASCADE 
-2026-04-08 06:16:53.331 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.910 DEBUG 74 --- [ionShutdownHook] org.hibernate.SQL                        : 
     
     drop table if exists knight CASCADE 
-2026-04-08 06:16:53.333 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.911 DEBUG 74 --- [ionShutdownHook] org.hibernate.SQL                        : 
     
     drop table if exists quest CASCADE 
-2026-04-08 06:16:53.333 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.911 DEBUG 74 --- [ionShutdownHook] org.hibernate.SQL                        : 
     
     drop table if exists task CASCADE 
-2026-04-08 06:16:53.334 DEBUG 75 --- [ionShutdownHook] org.hibernate.SQL                        : 
+2026-04-09 13:07:28.912 DEBUG 74 --- [ionShutdownHook] org.hibernate.SQL                        : 
     
     drop sequence if exists hibernate_sequence
-2026-04-08 06:16:53.336  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 06:16:53.337  INFO 75 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 13:07:28.913  INFO 74 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 13:07:28.915  INFO 74 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -879,6 +879,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.020 s
-[INFO] Finished at: 2026-04-08T06:16:53Z
+[INFO] Total time:  10.040 s
+[INFO] Finished at: 2026-04-09T13:07:29Z
 [INFO] ------------------------------------------------------------------------

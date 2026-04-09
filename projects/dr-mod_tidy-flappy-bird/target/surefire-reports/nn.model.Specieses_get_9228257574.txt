@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Specieses_get_9228257574
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Specieses_get_9228257574)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Specieses_get_9228257574)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.RuntimeException: genome doesn't belong to any species
 	at nn.model.Specieses.get(Specieses.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableColumnSortStrategy_UpdateSortKeyPosition_valueOf_12007118361
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_UpdateSortKeyPosition_valueOf_12007118361)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_UpdateSortKeyPosition_valueOf_12007118361)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant net.byteseek.swing.treetable.TreeTableColumnSortStrategy.UpdateSortKeyPosition.SzjVpOQTyS
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at net.byteseek.swing.treetable.TreeTableColumnSortStrategy$UpdateSortKeyPosition.valueOf(TreeTableColumnSortStrategy.java:67)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.utils.collections.BlockModifyArrayList_getGrowSize_29112125421
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.utils.collections.BlockModifyArrayList_getGrowSize_29112125421)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
+test(net.byteseek.utils.collections.BlockModifyArrayList_getGrowSize_29112125421)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.utils.collections.BlockModifyArrayList.getGrowSize(BlockModifyArrayList.java:351)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

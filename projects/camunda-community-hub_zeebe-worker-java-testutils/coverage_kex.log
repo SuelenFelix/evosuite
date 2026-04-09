@@ -60,7 +60,7 @@ Downloading from zeebe: https://artifacts.camunda.com/artifactory/zeebe-io/io/gr
 [INFO] Running org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017380
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017380
 [INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241
 [ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457241.test  Time elapsed: 0.005 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub.Status.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
@@ -86,11 +86,11 @@ java.lang.IllegalArgumentException: No enum constant org.camunda.community.zeebe
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761273
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761273
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761273
 [INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761270
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761270
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_values_20082761270
 [INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244
 [ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_valueOf_15162457244.test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
@@ -116,7 +116,7 @@ java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152
 [ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543152.test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -137,8 +137,8 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 [INFO] Running org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155
-[ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155.test  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155
+[ERROR] org.camunda.community.zeebe.testutils.stubs.ActivatedJobStub_Status_init_18579543155.test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at org.camunda.community.zeebe.testutils.stubs.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
@@ -161,7 +161,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.camunda.community.zeebe.testutils.ZeebeWorkerAssertions_init_5710017381
 [INFO] Running org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821
-[ERROR] org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821.test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989821.test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at org.camunda.community.zeebe.testutils.samples.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
@@ -182,7 +182,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 
 [INFO] Running org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820
-[ERROR] org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820.test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] org.camunda.community.zeebe.testutils.samples.JobHandlerImpl_Scenario_init_7364989820.test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at org.camunda.community.zeebe.testutils.samples.ReflectionUtils.callConstructor(ReflectionUtils.java:329)
@@ -225,6 +225,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.634 s
-[INFO] Finished at: 2026-04-08T06:06:55Z
+[INFO] Total time:  4.714 s
+[INFO] Finished at: 2026-04-09T12:55:58Z
 [INFO] ------------------------------------------------------------------------

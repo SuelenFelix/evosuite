@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_modelStructureChanged_177646909312
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_modelStructureChanged_177646909312)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_modelStructureChanged_177646909312)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NegativeArraySizeException: -1456184732
 	at net.byteseek.swing.treetable.TreeTableRowSorter.buildViewToModelAsInts(TreeTableRowSorter.java:617)
 	at net.byteseek.swing.treetable.TreeTableRowSorter.sort(TreeTableRowSorter.java:562)

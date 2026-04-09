@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>For.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.ast</a> &gt; <span class="el_source">For.java</span></div><h1>For.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.ast;
+
+
+public class For extends Node {
+    public Node target;
+    public Node iter;
+    public Block body;
+
+    public For(Node target, Node iter, Block body, int start, int end, String file) {
+<span class="fc" id="L10">        super(NodeType.For, start, end, file);</span>
+<span class="fc" id="L11">        this.target = target;</span>
+<span class="fc" id="L12">        this.iter = iter;</span>
+<span class="fc" id="L13">        addChildren(target, iter);</span>
+<span class="fc" id="L14">        addChildren(body);</span>
+<span class="fc" id="L15">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L19">        return String.format(&quot;(for %s in %s %s)&quot;, target, iter, body);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

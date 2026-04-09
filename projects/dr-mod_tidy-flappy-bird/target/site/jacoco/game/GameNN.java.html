@@ -91,18 +91,18 @@ public class GameNN implements Drawable, Steppable {
 <span class="nc" id="L91">    }</span>
 
     public void step() {
-<span class="nc" id="L94">        Iterator&lt;Bird&gt; iterator = birds.iterator();</span>
-<span class="nc bnc" id="L95" title="All 2 branches missed.">        while (iterator.hasNext()) {</span>
-<span class="nc" id="L96">            Bird bird = iterator.next();</span>
+<span class="fc" id="L94">        Iterator&lt;Bird&gt; iterator = birds.iterator();</span>
+<span class="pc bpc" id="L95" title="1 of 2 branches missed.">        while (iterator.hasNext()) {</span>
+<span class="fc" id="L96">            Bird bird = iterator.next();</span>
             try{
 <span class="nc" id="L98">                shouldMakeAnAction(bird);</span>
 <span class="nc" id="L99">                bird.step();</span>
-<span class="nc" id="L100">            } catch (RuntimeException e) {</span>
-<span class="nc" id="L101">                saveFitness(bird, 0);</span>
-<span class="nc" id="L102">                iterator.remove();</span>
+<span class="fc" id="L100">            } catch (RuntimeException e) {</span>
+<span class="fc" id="L101">                saveFitness(bird, 0);</span>
+<span class="fc" id="L102">                iterator.remove();</span>
 <span class="nc" id="L103">            }</span>
 
-<span class="nc" id="L105">        }</span>
+<span class="fc" id="L105">        }</span>
 
 <span class="nc" id="L107">        bottomPanel.step();</span>
 <span class="nc" id="L108">        pipesController.step();</span>
@@ -162,13 +162,13 @@ public class GameNN implements Drawable, Steppable {
 <span class="nc" id="L162">    }</span>
 
     private void saveFitness(Bird bird, double fitness) {
-<span class="nc" id="L165">        NeuralNetwork neuralNetwork = birdNNMap.get(bird);</span>
-<span class="nc" id="L166">        Genome genome = nnGenomeMap.get(neuralNetwork);</span>
-<span class="nc" id="L167">        genomeFitnessMap.put(genome, fitness);</span>
-<span class="nc" id="L168">    }</span>
+<span class="fc" id="L165">        NeuralNetwork neuralNetwork = birdNNMap.get(bird);</span>
+<span class="fc" id="L166">        Genome genome = nnGenomeMap.get(neuralNetwork);</span>
+<span class="fc" id="L167">        genomeFitnessMap.put(genome, fitness);</span>
+<span class="fc" id="L168">    }</span>
 
     private void shouldMakeAnAction(Bird bird) {
-<span class="nc" id="L171">        NeuralNetwork neuralNetwork = this.birdNNMap.get(bird);</span>
+<span class="fc" id="L171">        NeuralNetwork neuralNetwork = this.birdNNMap.get(bird);</span>
 <span class="nc" id="L172">        double birdY = (float) bird.getY() / HEIGHT;</span>
 <span class="nc" id="L173">        double pipeX = (float) pipesController.getCurrentPipe().getX() / WIDTH;</span>
 <span class="nc" id="L174">        double pipeyStart = (float) pipesController.getCurrentPipe().getyOpeningStart() / HEIGHT;</span>

@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-GSMgeeth_medium-coffeeshop-sample,nativo+evosuite,33.55,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+GSMgeeth_medium-coffeeshop-sample,native+evosuite,33.55,6.67,64,87,126,208,50,72,success,maven_returncode=0

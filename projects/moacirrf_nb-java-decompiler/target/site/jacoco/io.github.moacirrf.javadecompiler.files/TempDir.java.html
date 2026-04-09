@@ -52,8 +52,8 @@ import java.nio.file.Paths;
 
     private static void clearTempFolder(Path path) {
 <span class="fc" id="L54">        Exceptions.wrap(ExceptionHandler::handleException).run(() -&gt; {</span>
-<span class="pc bpc" id="L55" title="2 of 4 branches missed.">            if (Files.isDirectory(path) &amp;&amp; Files.list(path).count() &gt; 0) {</span>
-<span class="nc" id="L56">                Files.list(path).forEach(it -&gt; clearTempFolder(it));</span>
+<span class="pc bpc" id="L55" title="1 of 4 branches missed.">            if (Files.isDirectory(path) &amp;&amp; Files.list(path).count() &gt; 0) {</span>
+<span class="fc" id="L56">                Files.list(path).forEach(it -&gt; clearTempFolder(it));</span>
             }
 <span class="fc" id="L58">            path.toFile().setWritable(true);</span>
 <span class="fc" id="L59">            Files.deleteIfExists(path);</span>

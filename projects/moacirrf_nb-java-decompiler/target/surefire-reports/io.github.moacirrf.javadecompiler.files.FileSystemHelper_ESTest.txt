@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.776 s <<< FAILURE! - in io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest
+test2(io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest)  Time elapsed: 0.015 s  <<< ERROR!
+java.util.NoSuchElementException
+	at io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest.test2(FileSystemHelper_ESTest.java:56)
+
+test4(io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.SecurityException: 
+Security manager blocks ("java.io.FilePermission" "/default-line-separator.class" "write")
+java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:433)
+java.base/java.lang.SecurityManager.checkWrite(SecurityManager.java:752)
+java.base/java.io.File.canWrite(File.java:803)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.refreshImpl(FileObj.java:332)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.refresh(BaseFileObj.java:874)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.refresh(FileObj.java:355)
+org.openide.filesystems.FileObject.refresh(FileObject.java:1233)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObjectFactory$AsyncRefreshAtomicAction.run(FileObjectFactory.java:898)
+org.openide.filesystems.EventControl.runAtomicAction(EventControl.java:102)
+org.openide.filesystems.FileSystem.runAtomicAction(FileSystem.java:494)
+org.openide.filesystems.FileUtil.runAtomicAction(FileUtil.java:402)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObjectFactory.refreshFromGetter(FileObjectFactory.java:906)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObjectFactory.issueIfExist(FileObjectFactory.java:318)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObjectFactory.getFileObject(FileObjectFactory.java:207)
+org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObjectFactory.getValidFileObject(FileObjectFactory.java:777)
+org.netbeans.modules.masterfs.filebasedfs.FileBasedFileSystem.getFileObject(FileBasedFileSystem.java:119)
+org.netbeans.modules.masterfs.filebasedfs.FileBasedFileSystem.getFileObject(FileBasedFileSystem.java:109)
+org.netbeans.modules.masterfs.filebasedfs.FileBasedFileSystem.findResource(FileBasedFileSystem.java:205)
+io.github.moacirrf.javadecompiler.files.FileSystemHelper.getClassFromJar(FileSystemHelper.java:104)
+io.github.moacirrf.javadecompiler.files.FileSystemHelper.lambda$findResource$0(FileSystemHelper.java:77)
+com.machinezoo.noexception.CheckedExceptionHandler.get(CheckedExceptionHandler.java:1835)
+io.github.moacirrf.javadecompiler.files.FileSystemHelper.findResource(FileSystemHelper.java:75)
+io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest.test4(FileSystemHelper_ESTest.java:74)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+	at io.github.moacirrf.javadecompiler.files.FileSystemHelper_ESTest.test4(FileSystemHelper_ESTest.java:74)
+

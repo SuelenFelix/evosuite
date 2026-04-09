@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-s1ck_gdl,nativo+evosuite,88.12,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+s1ck_gdl,native+evosuite,90.34,77.78,100,790,148,1724,28,517,success,maven_returncode=0

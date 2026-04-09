@@ -30,7 +30,7 @@ public class Vector implements Serializable {
 <span class="fc bfc" id="L30" title="All 2 branches covered.">        if (target == null) {</span>
 <span class="fc" id="L31">            return new float[]{x, y};</span>
         }
-<span class="pc bpc" id="L33" title="1 of 2 branches missed.">        if (target.length &gt;= 2) {</span>
+<span class="fc bfc" id="L33" title="All 2 branches covered.">        if (target.length &gt;= 2) {</span>
 <span class="fc" id="L34">            target[0] = x;</span>
 <span class="fc" id="L35">            target[1] = y;</span>
         }
@@ -107,7 +107,7 @@ public class Vector implements Serializable {
 
     public Vector normalize() {
 <span class="fc" id="L109">        float m = mag();</span>
-<span class="pc bpc" id="L110" title="1 of 4 branches missed.">        if (m != 0 &amp;&amp; m != 1) {</span>
+<span class="fc bfc" id="L110" title="All 4 branches covered.">        if (m != 0 &amp;&amp; m != 1) {</span>
 <span class="fc" id="L111">            return div(m);</span>
         }
 <span class="fc" id="L113">        return new Vector(x, y);</span>
@@ -137,11 +137,11 @@ public class Vector implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-<span class="pc bpc" id="L140" title="1 of 2 branches missed.">        if (!(obj instanceof Vector)) {</span>
+<span class="fc bfc" id="L140" title="All 2 branches covered.">        if (!(obj instanceof Vector)) {</span>
 <span class="fc" id="L141">            return false;</span>
         }
-<span class="nc" id="L143">        final Vector p = (Vector) obj;</span>
-<span class="nc bnc" id="L144" title="All 4 branches missed.">        return x == p.x &amp;&amp; y == p.y;</span>
+<span class="fc" id="L143">        final Vector p = (Vector) obj;</span>
+<span class="fc bfc" id="L144" title="All 4 branches covered.">        return x == p.x &amp;&amp; y == p.y;</span>
     }
 
 

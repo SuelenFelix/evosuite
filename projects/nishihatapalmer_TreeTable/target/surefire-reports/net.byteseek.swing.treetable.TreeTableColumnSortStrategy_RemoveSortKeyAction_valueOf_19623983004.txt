@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_valueOf_19623983004
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_valueOf_19623983004)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_valueOf_19623983004)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at net.byteseek.swing.treetable.TreeTableColumnSortStrategy$RemoveSortKeyAction.valueOf(TreeTableColumnSortStrategy.java:82)

@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeCellRenderer_setCollapsedIcon_530061928
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeCellRenderer_setCollapsedIcon_530061928)  Time elapsed: 0.004 sec  <<< ERROR!
-java.lang.reflect.InaccessibleObjectException: Unable to make field private java.util.ArrayList jdk.internal.loader.URLClassPath.path accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @f55ecec
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeCellRenderer_setCollapsedIcon_530061928)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.util.ArrayList jdk.internal.loader.URLClassPath.path accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @71a509c
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:340)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:280)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:176)

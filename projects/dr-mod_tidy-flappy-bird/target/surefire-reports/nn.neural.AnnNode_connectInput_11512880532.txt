@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.neural.AnnNode_connectInput_11512880532
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.neural.AnnNode_connectInput_11512880532)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.neural.AnnNode_connectInput_11512880532)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.AnnNode.connectInput(AnnNode.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

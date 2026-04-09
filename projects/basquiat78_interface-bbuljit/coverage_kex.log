@@ -150,7 +150,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_init_3395218262
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_init_3395218262
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_init_3395218262
 [INFO] Running io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411781
 
   .   ____          _            __ _ _
@@ -161,18 +161,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.0)
 
-2026-04-08 06:06:22.403  INFO 71 --- [me-limited test] i.b.i.InterfaceBbuljitApplication        : Starting InterfaceBbuljitApplication using Java 11.0.16 on cf84fecfd203 with PID 71 (started by root in /app)
-2026-04-08 06:06:22.406  INFO 71 --- [me-limited test] i.b.i.InterfaceBbuljitApplication        : The following 1 profile is active: "local"
-2026-04-08 06:06:23.230  INFO 71 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2026-04-08 06:06:23.243  INFO 71 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:06:23.243  INFO 71 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
-2026-04-08 06:06:23.322  INFO 71 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:06:23.322  INFO 71 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 867 ms
-2026-04-08 06:06:23.668  INFO 71 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2026-04-08 06:06:23.677  INFO 71 --- [me-limited test] i.b.i.InterfaceBbuljitApplication        : Started InterfaceBbuljitApplication in 1.765 seconds (JVM running for 2.86)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.959 s - in io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411781
+2026-04-09 12:55:25.058  INFO 70 --- [me-limited test] i.b.i.InterfaceBbuljitApplication        : Starting InterfaceBbuljitApplication using Java 11.0.16 on c892fb645184 with PID 70 (started by root in /app)
+2026-04-09 12:55:25.061  INFO 70 --- [me-limited test] i.b.i.InterfaceBbuljitApplication        : The following 1 profile is active: "local"
+2026-04-09 12:55:25.895  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2026-04-09 12:55:25.906  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 12:55:25.906  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2026-04-09 12:55:25.988  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 12:55:25.988  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 881 ms
+2026-04-09 12:55:26.336  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2026-04-09 12:55:26.344  INFO 70 --- [me-limited test] i.b.i.InterfaceBbuljitApplication        : Started InterfaceBbuljitApplication in 1.806 seconds (JVM running for 2.863)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.002 s - in io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411781
 [INFO] Running io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411783
-2026-04-08 06:06:23.702 ERROR 71 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 12:55:26.372 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.20.jar:5.3.20]
@@ -201,15 +201,15 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411783
-[ERROR] test  Time elapsed: 0.027 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411783
+[ERROR] test  Time elapsed: 0.028 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at io.basquiat.interfacebbuljit.InterfaceBbuljitApplication_main_370411783.test(InterfaceBbuljitApplication_main_370411783.java:44)
 
 [INFO] Running io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_InnerPrivateResource_init_4050950441
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_InnerPrivateResource_init_4050950441
 [INFO] Running io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_ApplicationContextHolder_init_11784235081
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_ApplicationContextHolder_init_11784235081
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_ApplicationContextHolder_init_11784235081
 [INFO] Running io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_ApplicationContextHolder_init_11784235080
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_ApplicationContextHolder_init_11784235080
 [INFO] Running io.basquiat.interfacebbuljit.noodle.provider.ApplicationContextProvider_InnerPrivateResource_init_4050950440
@@ -221,7 +221,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at io.basquiat.interfacebbuljit.noodle.code.AddOrNot_init_4220249755.test(AddOrNot_init_4220249755.java:47)
 
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_valueOf_425638127
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_valueOf_425638127
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_valueOf_425638127
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at io.basquiat.interfacebbuljit.noodle.code.NoodleType_valueOf_425638127.test(NoodleType_valueOf_425638127.java:49)
@@ -237,7 +237,7 @@ java.lang.IllegalArgumentException: No enum constant io.basquiat.interfacebbulji
 	at io.basquiat.interfacebbuljit.noodle.code.NoodleType_valueOf_425638121.test(NoodleType_valueOf_425638121.java:42)
 
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_getName_6986776825
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_getName_6986776825
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_getName_6986776825
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_init_4223712553
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_init_4223712553
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -249,7 +249,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_values_4494665910
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_values_4494665910
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_init_4223712559
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_init_4223712559
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_init_4223712559
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at io.basquiat.interfacebbuljit.noodle.code.NoodleType_init_4223712559.test(NoodleType_init_4223712559.java:51)
@@ -261,13 +261,13 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at io.basquiat.interfacebbuljit.noodle.code.AddOrNot_init_4220249752.test(AddOrNot_init_4220249752.java:42)
 
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.AddOrNot_valueOf_14194694041
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.AddOrNot_valueOf_14194694041
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in io.basquiat.interfacebbuljit.noodle.code.AddOrNot_valueOf_14194694041
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant io.basquiat.interfacebbuljit.noodle.code.AddOrNot.PAEBtnZtTD
 	at io.basquiat.interfacebbuljit.noodle.code.AddOrNot_valueOf_14194694041.test(AddOrNot_valueOf_14194694041.java:42)
 
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.AddOrNot_values_19114998073
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.code.AddOrNot_values_19114998073
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.code.AddOrNot_values_19114998073
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_getType_89270646510
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.code.NoodleType_getType_89270646510
 [INFO] Running io.basquiat.interfacebbuljit.noodle.code.NoodleType_getType_8927064654
@@ -315,7 +315,7 @@ java.lang.IllegalArgumentException: 'name' must not be null
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_init_17311560889
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_init_17311560889
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_equals_105890899216
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_equals_105890899216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_equals_105890899216
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_getNoodleName_18688067591
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_getNoodleName_18688067591
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.dto.NoodleDto_builder_104193083111
@@ -385,7 +385,7 @@ java.lang.IllegalArgumentException: 'name' must not be null
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_equals_49302232715
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_equals_49302232715
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getEgg_54986124510
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getEgg_54986124510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getEgg_54986124510
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getSpicySource_12531624055
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getSpicySource_12531624055
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_init_3790970789
@@ -409,11 +409,11 @@ java.lang.IllegalArgumentException: 'name' must not be null
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_equals_4930223276
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_equals_4930223276
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_hashCode_9417090027
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_hashCode_9417090027
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_hashCode_9417090027
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getGarlicFlake_176125621912
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getGarlicFlake_176125621912
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_toString_145246869217
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_toString_145246869217
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_toString_145246869217
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getPeanutButter_10883818134
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.domain.vo.Topping_getPeanutButter_10883818134
 [INFO] Running io.basquiat.interfacebbuljit.noodle.domain.ResponseResult_canEqual_11933865277
@@ -421,13 +421,13 @@ java.lang.IllegalArgumentException: 'name' must not be null
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.LamyeonService_cooking_1895158542
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.LamyeonService_cooking_1895158542
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.PastaService_init_15685860291
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.service.PastaService_init_15685860291
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.PastaService_init_15685860291
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.VietnamnoodleService_init_11001453711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.VietnamnoodleService_init_11001453711
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.NoodleService_init_1925805611
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.NoodleService_init_1925805611
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.PastaService_init_15685860293
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.service.PastaService_init_15685860293
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.PastaService_init_15685860293
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.PastaService_cooking_10672043142
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.PastaService_cooking_10672043142
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.NaengmyeonService_init_11402204331
@@ -449,7 +449,7 @@ java.lang.IllegalArgumentException: 'name' must not be null
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.NoodleService_init_1925805613
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.NoodleService_init_1925805613
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.VietnamnoodleService_cooking_16015270862
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.VietnamnoodleService_cooking_16015270862
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.basquiat.interfacebbuljit.noodle.service.VietnamnoodleService_cooking_16015270862
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.NaengmyeonService_init_11402204333
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.basquiat.interfacebbuljit.noodle.service.NaengmyeonService_init_11402204333
 [INFO] Running io.basquiat.interfacebbuljit.noodle.service.NaengmyeonService_cooking_16416021480
@@ -506,6 +506,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.729 s
-[INFO] Finished at: 2026-04-08T06:06:24Z
+[INFO] Total time:  6.788 s
+[INFO] Finished at: 2026-04-09T12:55:27Z
 [INFO] ------------------------------------------------------------------------

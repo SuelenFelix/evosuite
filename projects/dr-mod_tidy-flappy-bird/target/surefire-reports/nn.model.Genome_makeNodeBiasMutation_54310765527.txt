@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Genome_makeNodeBiasMutation_54310765527
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Genome_makeNodeBiasMutation_54310765527)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.makeNodeBiasMutation(Genome.java:77)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Genome_toggleConnectionMutation_6566820149
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Genome_toggleConnectionMutation_6566820149)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Genome_toggleConnectionMutation_6566820149)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: bound must be positive
 	at java.base/java.util.Random.nextInt(Random.java:388)
 	at nn.model.Genome.toggleConnectionMutation(Genome.java:93)

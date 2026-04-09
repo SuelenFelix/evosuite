@@ -2,7 +2,7 @@
 Test set: game.Bird_rotateImage_10198893478
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(game.Bird_rotateImage_10198893478)  Time elapsed: 0.004 sec  <<< ERROR!
+test(game.Bird_rotateImage_10198893478)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Width (1139078354) and height (-691164974) cannot be <= 0
 	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
 	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:333)

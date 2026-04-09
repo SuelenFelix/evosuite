@@ -2,7 +2,7 @@
 Test set: nn.neural.NodeProxier_convert_5291480416
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.neural.NodeProxier_convert_5291480416)  Time elapsed: 0.001 sec  <<< ERROR!
+test(nn.neural.NodeProxier_convert_5291480416)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.NodeProxier.convert(NodeProxier.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

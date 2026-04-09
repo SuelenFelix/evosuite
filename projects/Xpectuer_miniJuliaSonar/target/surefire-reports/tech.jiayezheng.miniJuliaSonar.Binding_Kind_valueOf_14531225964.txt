@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: tech.jiayezheng.miniJuliaSonar.Binding_Kind_valueOf_14531225964
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(tech.jiayezheng.miniJuliaSonar.Binding_Kind_valueOf_14531225964)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)

@@ -103,7 +103,7 @@ public class MyObjectForm {
     public void initForm() {
 <span class="fc" id="L104">        MyObject rootObject = buildRandomTree(MAX_LEVELS, CHANCE_OUT_OF_TEN_FOR_CHILDREN);</span>
 <span class="fc bfc" id="L105" title="All 2 branches covered.">        TreeNode rootNode = TreeUtils.buildTree(rootObject, MyObject::getChildren, parent -&gt; !parent.getChildren().isEmpty());</span>
-<span class="fc" id="L106">        table1.setRowHeight(24);</span>
+<span class="nc" id="L106">        table1.setRowHeight(24);</span>
 <span class="nc" id="L107">        treeTableModel = createTreeTableModel(rootNode);</span>
 <span class="nc" id="L108">        treeModel = createTreeModel(rootNode);</span>
 <span class="nc" id="L109">        addButtonActionListeners();</span>

@@ -129,7 +129,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running example.model.Book_BookBuilder_price_6203521595
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in example.model.Book_BookBuilder_price_6203521595
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in example.model.Book_BookBuilder_price_6203521595
 [INFO] Running example.model.Author_getBooks_25108325924
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_getBooks_25108325924
 [INFO] Running example.model.Author_init_150294856819
@@ -137,47 +137,47 @@
 [INFO] Running example.model.Book_getTitle_13693782584
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getTitle_13693782584
 [INFO] Running example.model.Author_toString_102888410213
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in example.model.Author_toString_102888410213
-[ERROR] test  Time elapsed: 0.084 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in example.model.Author_toString_102888410213
+[ERROR] test  Time elapsed: 0.007 s  <<< ERROR!
 java.lang.NullPointerException
 	at example.model.Author_toString_102888410213.test(Author_toString_102888410213.java:198)
 
 [INFO] Running example.model.Author_AuthorBuilder_init_1566076838
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_init_1566076838
 [INFO] Running example.model.Author_setBooks_170154639112
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_setBooks_170154639112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_setBooks_170154639112
 [INFO] Running example.model.Book_BookBuilder_description_4891091443
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_BookBuilder_description_4891091443
 [INFO] Running example.model.Book_BookBuilder_genre_1592877134
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Book_BookBuilder_genre_1592877134
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.model.Book_BookBuilder_genre_1592877134
 [INFO] Running example.model.Author_AuthorBuilder_books_27128753313
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in example.model.Author_AuthorBuilder_books_27128753313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_books_27128753313
 [INFO] Running example.model.Book_init_119344507321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_init_119344507321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Book_init_119344507321
 [INFO] Running example.model.Book_init_11934450732
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Book_init_11934450732
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in example.model.Book_init_11934450732
 [INFO] Running example.model.Author_AuthorBuilder_lastName_15610950693
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.model.Author_AuthorBuilder_lastName_15610950693
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_lastName_15610950693
 [INFO] Running example.model.Book_getDescription_10905904545
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getDescription_10905904545
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.model.Book_getDescription_10905904545
 [INFO] Running example.model.Book_setTitle_94570984210
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setTitle_94570984210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_setTitle_94570984210
 [INFO] Running example.model.Author_getLastName_13226792915
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Author_getLastName_13226792915
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_getLastName_13226792915
 [INFO] Running example.model.Book_BookBuilder_build_7375645757
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_BookBuilder_build_7375645757
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_build_7375645757
 [INFO] Running example.model.Author_equals_6943773731
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_equals_6943773731
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_equals_6943773731
 [INFO] Running example.model.Book_toString_88025981215
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_toString_88025981215
 [INFO] Running example.model.Author_getFirstName_3430585734
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_getFirstName_3430585734
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_getFirstName_3430585734
 [INFO] Running example.model.Book_setTitle_94570984229
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setTitle_94570984229
 [INFO] Running example.model.Book_canEqual_88334918217
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_canEqual_88334918217
 [INFO] Running example.model.Author_AuthorBuilder_firstName_14117314012
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_firstName_14117314012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_firstName_14117314012
 [INFO] Running example.model.Author_AuthorBuilder_email_185581408812
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_email_185581408812
 [INFO] Running example.model.Book_BookBuilder_toString_14456741948
@@ -191,9 +191,9 @@ java.lang.NullPointerException
 [INFO] Running example.model.Author_init_15029485682
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_init_15029485682
 [INFO] Running example.model.Book_hashCode_36950012218
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_hashCode_36950012218
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_hashCode_36950012218
 [INFO] Running example.model.Author_AuthorBuilder_firstName_141173140110
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_firstName_141173140110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_firstName_141173140110
 [INFO] Running example.model.Book_getPrice_73173792926
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getPrice_73173792926
 [INFO] Running example.model.Book_getAuthor_193351097427
@@ -201,11 +201,11 @@ java.lang.NullPointerException
 [INFO] Running example.model.Book_getPrice_7317379297
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getPrice_7317379297
 [INFO] Running example.model.Book_setDescription_119364127030
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_setDescription_119364127030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setDescription_119364127030
 [INFO] Running example.model.Book_setPrice_134214253113
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setPrice_134214253113
 [INFO] Running example.model.Author_toString_102888410230
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_toString_102888410230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_toString_102888410230
 [INFO] Running example.model.Book_builder_76231804019
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_builder_76231804019
 [INFO] Running example.model.Book_getGenre_169811398725
@@ -213,13 +213,13 @@ java.lang.NullPointerException
 [INFO] Running example.model.Author_AuthorBuilder_id_19420769081
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_id_19420769081
 [INFO] Running example.model.Book_builder_7623180400
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_builder_7623180400
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_builder_7623180400
 [INFO] Running example.model.Author_AuthorBuilder_toString_7020635347
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_toString_7020635347
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_toString_7020635347
 [INFO] Running example.model.Book_BookBuilder_init_19911300450
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_init_19911300450
 [INFO] Running example.model.Book_toString_88025981234
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_toString_88025981234
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_toString_88025981234
 [INFO] Running example.model.Book_setGenre_212178240331
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setGenre_212178240331
 [INFO] Running example.model.Author_setId_10229950288
@@ -241,11 +241,11 @@ java.lang.NullPointerException
 [INFO] Running example.model.Book_setPrice_134214253132
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setPrice_134214253132
 [INFO] Running example.model.Book_BookBuilder_id_208036196410
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in example.model.Book_BookBuilder_id_208036196410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_id_208036196410
 [INFO] Running example.model.Book_equals_7918655316
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_equals_7918655316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_equals_7918655316
 [INFO] Running example.model.Book_setGenre_212178240312
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_setGenre_212178240312
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setGenre_212178240312
 [INFO] Running example.model.Author_builder_109800218217
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_builder_109800218217
 [INFO] Running example.model.Book_BookBuilder_toString_144567419417
@@ -255,21 +255,21 @@ java.lang.NullPointerException
 [INFO] Running example.model.Book_getGenre_16981139876
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getGenre_16981139876
 [INFO] Running example.model.Book_BookBuilder_title_13867627642
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_title_13867627642
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Book_BookBuilder_title_13867627642
 [INFO] Running example.model.Author_setEmail_46631928428
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_setEmail_46631928428
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_setEmail_46631928428
 [INFO] Running example.model.Author_AuthorBuilder_id_19420769089
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_id_19420769089
 [INFO] Running example.model.Book_BookBuilder_id_20803619641
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_BookBuilder_id_20803619641
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_id_20803619641
 [INFO] Running example.model.Author_builder_10980021820
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_builder_10980021820
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_builder_10980021820
 [INFO] Running example.model.Book_setDescription_119364127011
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in example.model.Book_setDescription_119364127011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setDescription_119364127011
 [INFO] Running example.model.Author_setEmail_46631928411
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_setEmail_46631928411
 [INFO] Running example.model.Author_equals_6943773714
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_equals_6943773714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_equals_6943773714
 [INFO] Running example.model.Author_getBooks_2510832597
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_getBooks_2510832597
 [INFO] Running example.model.Book_getTitle_136937825823
@@ -285,31 +285,31 @@ java.lang.NullPointerException
 [INFO] Running example.model.Book_BookBuilder_description_48910914412
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_description_48910914412
 [INFO] Running example.model.Author_AuthorBuilder_build_66375065714
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_build_66375065714
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_build_66375065714
 [INFO] Running example.model.Author_hashCode_51812441216
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_hashCode_51812441216
 [INFO] Running example.model.Book_getId_44432898022
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Book_getId_44432898022
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getId_44432898022
 [INFO] Running example.model.Book_BookBuilder_author_78511250215
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_author_78511250215
 [INFO] Running example.model.Book_init_14257156631
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_init_14257156631
 [INFO] Running example.model.Book_BookBuilder_init_19911300459
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_BookBuilder_init_19911300459
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_init_19911300459
 [INFO] Running example.model.Author_canEqual_73472489215
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_canEqual_73472489215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_canEqual_73472489215
 [INFO] Running example.model.Author_getLastName_132267929122
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_getLastName_132267929122
 [INFO] Running example.model.Book_getId_4443289803
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getId_4443289803
 [INFO] Running example.model.Author_init_15743399531
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_init_15743399531
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_init_15743399531
 [INFO] Running example.model.Author_getId_5929532703
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_getId_5929532703
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_getId_5929532703
 [INFO] Running example.model.Book_BookBuilder_author_7851125026
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in example.model.Book_BookBuilder_author_7851125026
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_author_7851125026
 [INFO] Running example.model.Author_setLastName_138594556527
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in example.model.Author_setLastName_138594556527
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_setLastName_138594556527
 [INFO] Running example.model.Author_AuthorBuilder_build_6637506576
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_AuthorBuilder_build_6637506576
 [INFO] Running example.model.Author_AuthorBuilder_books_2712875335
@@ -317,7 +317,7 @@ java.lang.NullPointerException
 [INFO] Running example.model.Author_AuthorBuilder_init_1566076830
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_init_1566076830
 [INFO] Running example.model.Book_canEqual_88334918236
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_canEqual_88334918236
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_canEqual_88334918236
 [INFO] Running example.model.Author_init_157433995318
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_init_157433995318
 [INFO] Running example.model.Book_BookBuilder_price_62035215914
@@ -325,17 +325,17 @@ java.lang.NullPointerException
 [INFO] Running example.model.Book_getAuthor_19335109748
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getAuthor_19335109748
 [INFO] Running example.model.Author_getFirstName_34305857321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.model.Author_getFirstName_34305857321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_getFirstName_34305857321
 [INFO] Running example.model.Author_getEmail_88998770023
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_getEmail_88998770023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Author_getEmail_88998770023
 [INFO] Running example.model.Author_canEqual_73472489232
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_canEqual_73472489232
 [INFO] Running example.model.Book_setId_8743707389
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_setId_8743707389
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_setId_8743707389
 [INFO] Running example.model.Book_BookBuilder_title_138676276411
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_BookBuilder_title_138676276411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_BookBuilder_title_138676276411
 [INFO] Running example.model.Book_getDescription_109059045424
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.model.Book_getDescription_109059045424
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Book_getDescription_109059045424
 [INFO] Running example.model.Author_AuthorBuilder_lastName_156109506911
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_AuthorBuilder_lastName_156109506911
 [INFO] Running example.model.Author_setLastName_138594556510
@@ -345,15 +345,15 @@ java.lang.NullPointerException
 [INFO] Running example.model.Author_setFirstName_18030113326
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.model.Author_setFirstName_18030113326
 [INFO] Running example.controller.AuthorResource_init_4608467091
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.712 s - in example.controller.AuthorResource_init_4608467091
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 s - in example.controller.AuthorResource_init_4608467091
 [INFO] Running example.controller.BookResource_init_10467587950
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in example.controller.BookResource_init_10467587950
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.controller.BookResource_init_10467587950
 [INFO] Running example.controller.BookResource_init_10467587951
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.controller.BookResource_init_10467587951
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.controller.BookResource_init_10467587951
 [INFO] Running example.controller.AuthorResource_init_4608467090
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.controller.AuthorResource_init_4608467090
 [INFO] Running example.Application_main_3622051183
-06:40:11.916 [Time-limited test] ERROR o.s.boot.SpringApplication - Application run failed
+13:31:57.216 [Time-limited test] ERROR o.s.boot.SpringApplication - Application run failed
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
 	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
@@ -380,29 +380,29 @@ java.lang.IllegalArgumentException: Args must not be null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.584 s <<< FAILURE! - in example.Application_main_3622051183
-[ERROR] test  Time elapsed: 0.584 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.514 s <<< FAILURE! - in example.Application_main_3622051183
+[ERROR] test  Time elapsed: 0.514 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at example.Application_main_3622051183.test(Application_main_3622051183.java:44)
 
 [INFO] Running example.dto.BookDto_getId_103371283122
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.dto.BookDto_getId_103371283122
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in example.dto.BookDto_getId_103371283122
 [INFO] Running example.dto.AuthorDto_builder_17374096890
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_builder_17374096890
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.dto.AuthorDto_builder_17374096890
 [INFO] Running example.dto.AuthorDto_getLastName_9212485485
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_getLastName_9212485485
 [INFO] Running example.dto.BookDto_BookDtoBuilder_author_51441681915
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.dto.BookDto_BookDtoBuilder_author_51441681915
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_author_51441681915
 [INFO] Running example.dto.BookDto_BookDtoBuilder_price_10806079055
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_price_10806079055
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in example.dto.BookDto_BookDtoBuilder_price_10806079055
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_toString_8558096926
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_toString_8558096926
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in example.dto.AuthorDto_AuthorDtoBuilder_toString_8558096926
 [INFO] Running example.dto.BookDto_BookDtoBuilder_toString_148286652017
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in example.dto.BookDto_BookDtoBuilder_toString_148286652017
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_toString_148286652017
 [INFO] Running example.dto.AuthorDto_canEqual_113615563512
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_canEqual_113615563512
 [INFO] Running example.dto.BookDto_BookDtoBuilder_build_171788234216
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_build_171788234216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_BookDtoBuilder_build_171788234216
 [INFO] Running example.dto.BookDto_setPrice_13589928013
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setPrice_13589928013
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_init_14012655437
@@ -412,19 +412,19 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.AuthorDto_toString_62745335929
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_toString_62745335929
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_email_193940466411
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDto_AuthorDtoBuilder_email_193940466411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_email_193940466411
 [INFO] Running example.dto.AuthorDto_builder_173740968915
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.dto.AuthorDto_builder_173740968915
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDto_builder_173740968915
 [INFO] Running example.dto.AuthorDto_toString_62745335914
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in example.dto.AuthorDto_toString_62745335914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_toString_62745335914
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_id_14423283648
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_id_14423283648
 [INFO] Running example.dto.BookDto_BookDtoBuilder_genre_186024777713
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_genre_186024777713
 [INFO] Running example.dto.BookDto_getAuthor_191278486227
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_getAuthor_191278486227
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getAuthor_191278486227
 [INFO] Running example.dto.BookDto_BookDtoBuilder_id_37940190010
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_BookDtoBuilder_id_37940190010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in example.dto.BookDto_BookDtoBuilder_id_37940190010
 [INFO] Running example.dto.BookDto_equals_155722836415
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_equals_155722836415
 [INFO] Running example.dto.AuthorDto_setFirstName_22112961023
@@ -456,7 +456,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_init_5232614820
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_init_5232614820
 [INFO] Running example.dto.BookDto_getPrice_20851875567
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getPrice_20851875567
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.dto.BookDto_getPrice_20851875567
 [INFO] Running example.dto.BookDto_getPrice_208518755626
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getPrice_208518755626
 [INFO] Running example.dto.AuthorDto_getFirstName_5837217019
@@ -470,21 +470,21 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_setAuthor_28225491014
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setAuthor_28225491014
 [INFO] Running example.dto.AuthorDto_setLastName_17873763089
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDto_setLastName_17873763089
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_setLastName_17873763089
 [INFO] Running example.dto.AuthorDto_equals_33199300611
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_equals_33199300611
 [INFO] Running example.dto.AuthorDto_getEmail_129141844321
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_getEmail_129141844321
 [INFO] Running example.dto.BookDto_hashCode_110854168936
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_hashCode_110854168936
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_hashCode_110854168936
 [INFO] Running example.dto.AuthorDto_getEmail_12914184436
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_getEmail_12914184436
 [INFO] Running example.dto.AuthorDto_setEmail_86775002710
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_setEmail_86775002710
 [INFO] Running example.dto.BookDto_BookDtoBuilder_init_20283223719
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_init_20283223719
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_BookDtoBuilder_init_20283223719
 [INFO] Running example.dto.BookDto_getId_10337128313
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_getId_10337128313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getId_10337128313
 [INFO] Running example.dto.BookDto_getGenre_22007217625
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getGenre_22007217625
 [INFO] Running example.dto.BookDto_canEqual_193357630316
@@ -492,15 +492,15 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_setAuthor_28225491033
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setAuthor_28225491033
 [INFO] Running example.dto.BookDto_BookDtoBuilder_id_3794019001
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.dto.BookDto_BookDtoBuilder_id_3794019001
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_id_3794019001
 [INFO] Running example.dto.AuthorDto_setLastName_178737630824
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_setLastName_178737630824
 [INFO] Running example.dto.BookDto_toString_59778199937
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_toString_59778199937
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_lastName_106134652510
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDto_AuthorDtoBuilder_lastName_106134652510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_lastName_106134652510
 [INFO] Running example.dto.BookDto_builder_9480439670
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_builder_9480439670
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_builder_9480439670
 [INFO] Running example.dto.AuthorDto_init_20106689112
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_init_20106689112
 [INFO] Running example.dto.BookDto_BookDtoBuilder_description_121185092012
@@ -508,7 +508,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_toString_85580969213
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_toString_85580969213
 [INFO] Running example.dto.AuthorDto_setFirstName_2211296108
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDto_setFirstName_2211296108
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_setFirstName_2211296108
 [INFO] Running example.dto.AuthorDto_canEqual_113615563527
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_canEqual_113615563527
 [INFO] Running example.dto.BookDto_setDescription_162328421511
@@ -516,7 +516,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_getTitle_14475472274
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getTitle_14475472274
 [INFO] Running example.dto.BookDto_getTitle_144754722723
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getTitle_144754722723
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.dto.BookDto_getTitle_144754722723
 [INFO] Running example.dto.BookDto_getAuthor_19127848628
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_getAuthor_19127848628
 [INFO] Running example.dto.BookDto_BookDtoBuilder_toString_14828665208
@@ -528,9 +528,9 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_setPrice_13589928032
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setPrice_13589928032
 [INFO] Running example.dto.BookDto_setTitle_187121564329
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setTitle_187121564329
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_setTitle_187121564329
 [INFO] Running example.dto.BookDto_BookDtoBuilder_price_108060790514
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_price_108060790514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.dto.BookDto_BookDtoBuilder_price_108060790514
 [INFO] Running example.dto.AuthorDto_hashCode_11669366928
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_hashCode_11669366928
 [INFO] Running example.dto.BookDto_BookDtoBuilder_genre_18602477774
@@ -546,15 +546,15 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_setId_6036710739
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setId_6036710739
 [INFO] Running example.dto.AuthorDto_getFirstName_583721704
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_getFirstName_583721704
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.AuthorDto_getFirstName_583721704
 [INFO] Running example.dto.BookDto_init_12220496692
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_init_12220496692
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in example.dto.BookDto_init_12220496692
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_build_14741314565
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_build_14741314565
 [INFO] Running example.dto.BookDto_BookDtoBuilder_build_17178823427
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_BookDtoBuilder_build_17178823427
 [INFO] Running example.dto.BookDto_setId_60367107328
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_setId_60367107328
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_setId_60367107328
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_build_147413145612
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_build_147413145612
 [INFO] Running example.dto.BookDto_setDescription_162328421530
@@ -576,7 +576,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_BookDtoBuilder_description_12118509203
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_BookDtoBuilder_description_12118509203
 [INFO] Running example.dto.AuthorDto_AuthorDtoBuilder_lastName_10613465253
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_AuthorDtoBuilder_lastName_10613465253
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in example.dto.AuthorDto_AuthorDtoBuilder_lastName_10613465253
 [INFO] Running example.dto.AuthorDto_equals_33199300626
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.AuthorDto_equals_33199300626
 [INFO] Running example.dto.AuthorDto_getId_1915225273
@@ -584,11 +584,11 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.dto.BookDto_builder_94804396719
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_builder_94804396719
 [INFO] Running example.dto.BookDto_hashCode_110854168917
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.dto.BookDto_hashCode_110854168917
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.dto.BookDto_hashCode_110854168917
 [INFO] Running example.Application_init_7387681222
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.Application_init_7387681222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.Application_init_7387681222
 [INFO] Running example.exception.EntityNotFoundException_init_6736317023
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.exception.EntityNotFoundException_init_6736317023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.exception.EntityNotFoundException_init_6736317023
 [INFO] Running example.exception.DuplicatedEntityException_init_21301585192
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.exception.DuplicatedEntityException_init_21301585192
 [INFO] Running example.exception.DuplicatedEntityException_init_21301585190
@@ -604,19 +604,19 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running example.exception.EntityNotFoundException_init_5213785792
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.exception.EntityNotFoundException_init_5213785792
 [INFO] Running example.config.AppConfig_init_10965629660
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.config.AppConfig_init_10965629660
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.config.AppConfig_init_10965629660
 [INFO] Running example.config.AppConfig_init_10965629661
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.config.AppConfig_init_10965629661
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.config.AppConfig_init_10965629661
 [INFO] Running example.Application_init_7387681220
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in example.Application_init_7387681220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in example.Application_init_7387681220
 [INFO] Running example.service.BookService_list_15647741262
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in example.service.BookService_list_15647741262
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at example.service.BookService_list_15647741262.test(BookService_list_15647741262.java:40)
 
 [INFO] Running example.service.BookService_get_10286170611
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in example.service.BookService_get_10286170611
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in example.service.BookService_get_10286170611
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at example.service.BookService_get_10286170611.test(BookService_get_10286170611.java:45)
@@ -628,19 +628,19 @@ java.lang.NullPointerException
 	at example.service.AuthorService_create_18384856290.test(AuthorService_create_18384856290.java:50)
 
 [INFO] Running example.service.BookService_create_14316734070
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in example.service.BookService_create_14316734070
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in example.service.BookService_create_14316734070
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at example.service.BookService_create_14316734070.test(BookService_create_14316734070.java:79)
 
 [INFO] Running example.service.BookService_toDto_5879218833
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in example.service.BookService_toDto_5879218833
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in example.service.BookService_toDto_5879218833
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException
 	at example.service.BookService_toDto_5879218833.test(BookService_toDto_5879218833.java:124)
 
 [INFO] Running example.service.AuthorService_delete_10720854881
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in example.service.AuthorService_delete_10720854881
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in example.service.AuthorService_delete_10720854881
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at example.service.AuthorService_delete_10720854881.test(AuthorService_delete_10720854881.java:45)
@@ -655,37 +655,113 @@ java.lang.NullPointerException
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.5)
 
-06:40:12.990 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
-06:40:13.040 [Time-limited test] INFO  example.Application - Starting Application using Java 11.0.16 on 7fb926f5566e with PID 74 (started by root in /app)
-06:40:13.053 [Time-limited test] INFO  example.Application - No active profile set, falling back to 1 default profile: "default"
-06:40:13.966 [Time-limited test] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-06:40:14.022 [Time-limited test] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-06:40:15.074 [Time-limited test] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-06:40:15.084 [Time-limited test] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-06:40:15.085 [Time-limited test] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-06:40:15.085 [Time-limited test] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
-06:40:15.220 [Time-limited test] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-06:40:15.221 [Time-limited test] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2076 ms
-06:40:15.267 [Time-limited test] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-06:40:15.733 [Time-limited test] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-06:40:15.751 [Time-limited test] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-06:40:16.030 [Time-limited test] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-06:40:16.109 [Time-limited test] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
-06:40:16.299 [Time-limited test] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-06:40:16.477 [Time-limited test] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-06:40:18.458 [Time-limited test] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-06:40:18.477 [Time-limited test] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-06:40:21.497 [Time-limited test] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-06:40:21.531 [Time-limited test] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-06:40:21.548 [Time-limited test] INFO  example.Application - Started Application in 9.321 seconds (JVM running for 14.224)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.259 s - in example.Application_main_3622051181
-06:40:21.794 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-06:40:21.802 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-06:40:21.810 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:31:58.455 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+13:31:58.489 [Time-limited test] INFO  example.Application - Starting Application using Java 11.0.16 on 8a0f4c000611 with PID 77 (started by root in /app)
+13:31:58.492 [Time-limited test] INFO  example.Application - No active profile set, falling back to 1 default profile: "default"
+13:31:59.928 [Time-limited test] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:32:00.034 [Time-limited test] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+13:32:01.722 [Time-limited test] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:32:01.736 [Time-limited test] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:32:01.737 [Time-limited test] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:32:01.737 [Time-limited test] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+13:32:01.898 [Time-limited test] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:32:01.899 [Time-limited test] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3337 ms
+13:32:01.949 [Time-limited test] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:32:02.427 [Time-limited test] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:32:02.451 [Time-limited test] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+13:32:02.687 [Time-limited test] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:32:02.766 [Time-limited test] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+13:32:02.948 [Time-limited test] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:32:03.107 [Time-limited test] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:32:04.545 [Time-limited test] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:32:04.556 [Time-limited test] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.643 s <<< FAILURE! - in example.Application_main_3622051181
+[ERROR] test  Time elapsed: 9.643 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
+	at app//example.Application_main_3622051181.test(Application_main_3622051181.java:46)
+
+13:32:07.484 [Time-limited test] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception; nested exception is io.github.classgraph.ClassGraphException: Scan interrupted
+13:32:07.487 [Time-limited test] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:32:07.492 [Time-limited test] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:32:07.513 [Time-limited test] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:32:07.516 [Time-limited test] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:32:07.543 [Time-limited test] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:32:07.553 [Time-limited test] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception; nested exception is io.github.classgraph.ClassGraphException: Scan interrupted
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at example.Application.main(Application.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at example.ReflectionUtils.callMethod(ReflectionUtils.java:328)
+	at example.Application_main_3622051181.test(Application_main_3622051181.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerMapping]: Factory method 'resourceHandlerMapping' threw exception; nested exception is io.github.classgraph.ClassGraphException: Scan interrupted
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 38 common frames omitted
+Caused by: io.github.classgraph.ClassGraphException: Scan interrupted
+	at io.github.classgraph.ClassGraph.scan(ClassGraph.java:1604)
+	at io.github.classgraph.ClassGraph.scan(ClassGraph.java:1623)
+	at io.github.classgraph.ClassGraph.scan(ClassGraph.java:1636)
+	at org.webjars.WebJarAssetLocator.scanForWebJars(WebJarAssetLocator.java:183)
+	at org.webjars.WebJarAssetLocator.<init>(WebJarAssetLocator.java:205)
+	at org.webjars.WebJarAssetLocator.<init>(WebJarAssetLocator.java:189)
+	at org.springframework.web.servlet.resource.WebJarsResourceResolver.<init>(WebJarsResourceResolver.java:61)
+	at org.springframework.web.servlet.config.annotation.ResourceChainRegistration.getResourceResolvers(ResourceChainRegistration.java:114)
+	at org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration.getRequestHandler(ResourceHandlerRegistration.java:215)
+	at org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry.getRequestHandler(ResourceHandlerRegistry.java:178)
+	at org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry.getHandlerMapping(ResourceHandlerRegistry.java:168)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.resourceHandlerMapping(WebMvcConfigurationSupport.java:599)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 39 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:190)
+	at io.github.classgraph.ClassGraph.scan(ClassGraph.java:1584)
+	... 55 common frames omitted
 [INFO] 
 [INFO] Results:
 [INFO] 
 [ERROR] Errors: 
+[ERROR]   Application_main_3622051181.test:46 » TestTimedOut test timed out after 10 sec...
 [ERROR]   Application_main_3622051183.test:44 » IllegalArgument Args must not be null
 [ERROR]   Author_toString_102888410213.test:198 » NullPointer
 [ERROR]   AuthorService_create_18384856290.test:50 » NullPointer
@@ -695,7 +771,7 @@ java.lang.NullPointerException
 [ERROR]   BookService_list_15647741262.test:40 » NullPointer
 [ERROR]   BookService_toDto_5879218833.test:124 » NullPointer
 [INFO] 
-[ERROR] Tests run: 230, Failures: 0, Errors: 8, Skipped: 0
+[ERROR] Tests run: 230, Failures: 0, Errors: 9, Skipped: 0
 [INFO] 
 [ERROR] There are test failures.
 
@@ -708,6 +784,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  24.500 s
-[INFO] Finished at: 2026-04-08T06:40:22Z
+[INFO] Total time:  25.593 s
+[INFO] Finished at: 2026-04-09T13:32:08Z
 [INFO] ------------------------------------------------------------------------

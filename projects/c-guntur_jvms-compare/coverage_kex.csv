@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-c-guntur_jvms-compare,kex,1.03,success,maven_returncode=0; tests_selected=42
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+c-guntur_jvms-compare,kex,1.03,0.0,1876,1904,8737,8841,547,575,success,maven_returncode=0; tests_selected=42

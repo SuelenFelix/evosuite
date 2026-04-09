@@ -90,15 +90,15 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.piinalpin.queryrequest.controller.OperatingSystemController_init_19121686830
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in com.piinalpin.queryrequest.controller.OperatingSystemController_init_19121686830
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in com.piinalpin.queryrequest.controller.OperatingSystemController_init_19121686830
 [INFO] Running com.piinalpin.queryrequest.controller.OperatingSystemController_init_19121686831
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.controller.OperatingSystemController_init_19121686831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.controller.OperatingSystemController_init_19121686831
 [INFO] Running com.piinalpin.queryrequest.QueryrequestApplication_init_6610683392
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.QueryrequestApplication_init_6610683392
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.QueryrequestApplication_init_6610683392
 [INFO] Running com.piinalpin.queryrequest.QueryrequestApplication_init_6610683390
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.QueryrequestApplication_init_6610683390
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.QueryrequestApplication_init_6610683390
 [INFO] Running com.piinalpin.queryrequest.QueryrequestApplication_main_2845053353
-06:38:24.747 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+13:29:43.860 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
 	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
@@ -125,63 +125,63 @@ java.lang.IllegalArgumentException: Args must not be null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.515 s <<< FAILURE! - in com.piinalpin.queryrequest.QueryrequestApplication_main_2845053353
-[ERROR] test  Time elapsed: 0.513 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.965 s <<< FAILURE! - in com.piinalpin.queryrequest.QueryrequestApplication_main_2845053353
+[ERROR] test  Time elapsed: 0.964 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.piinalpin.queryrequest.QueryrequestApplication_main_2845053353.test(QueryrequestApplication_main_2845053353.java:44)
 
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_releaseDate_20678549395
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_releaseDate_20678549395
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getVersion_6759851133
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getVersion_6759851133
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getVersion_6759851133
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getId_134337350320
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getId_134337350320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getId_134337350320
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_init_18722655790
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_init_18722655790
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_init_18722655790
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setKernel_68369825610
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setKernel_68369825610
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_builder_12418862290
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_builder_12418862290
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_builder_12418862290
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_releaseDate_206785493914
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_releaseDate_206785493914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_releaseDate_206785493914
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_canEqual_1569534133
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_canEqual_1569534133
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_canEqual_1569534133
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setKernel_68369825629
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setKernel_68369825629
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setKernel_68369825629
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_build_385638816
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_build_385638816
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_build_385638816
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getKernel_11622155604
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getKernel_11622155604
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getKernel_11622155604
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getKernel_116221556023
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getKernel_116221556023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getKernel_116221556023
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_usages_14293993836
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_usages_14293993836
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_usages_14293993836
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_toString_132680972817
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_toString_132680972817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_toString_132680972817
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_109232493618
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_109232493618
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_109232493618
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_197020711036
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_197020711036
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_197020711036
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_usages_142939938315
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_usages_142939938315
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_equals_81985797032
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_equals_81985797032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_equals_81985797032
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_version_9482756603
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_version_9482756603
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_kernel_7729562494
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_kernel_7729562494
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_kernel_7729562494
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_canEqual_1569534114
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_canEqual_1569534114
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setVersion_148746613728
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setVersion_148746613728
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setVersion_148746613728
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_equals_81985797013
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_equals_81985797013
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getName_13839052222
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getName_13839052222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getName_13839052222
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setUsages_151865737612
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setUsages_151865737612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setUsages_151865737612
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setUsages_151865737631
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setUsages_151865737631
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setUsages_151865737631
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getUsages_3912738066
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getUsages_3912738066
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_version_94827566012
@@ -189,49 +189,49 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_toString_177930433535
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_toString_177930433535
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_builder_124188622919
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_builder_124188622919
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_builder_124188622919
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_init_18722655799
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_init_18722655799
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setVersion_14874661379
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setVersion_14874661379
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_toString_177930433516
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_toString_177930433516
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_toString_177930433516
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_id_167626453210
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_id_167626453210
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_id_167626453210
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setName_11911855068
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setName_11911855068
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setName_11911855068
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_kernel_77295624913
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_kernel_77295624913
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getReleaseDate_188475665624
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getReleaseDate_188475665624
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_hashCode_126854464534
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_hashCode_126854464534
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_hashCode_126854464534
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getName_138390522221
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getName_138390522221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getName_138390522221
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_197020711017
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_197020711017
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_name_59400520911
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_name_59400520911
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_109232493637
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_109232493637
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_init_109232493637
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setReleaseDate_149425916030
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setReleaseDate_149425916030
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setId_177341526126
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setId_177341526126
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setId_177341526126
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getVersion_67598511322
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getVersion_67598511322
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_hashCode_126854464515
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_hashCode_126854464515
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getReleaseDate_18847566565
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getReleaseDate_18847566565
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getReleaseDate_18847566565
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setReleaseDate_149425916011
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setReleaseDate_149425916011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setReleaseDate_149425916011
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_id_16762645321
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_id_16762645321
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getUsages_39127380625
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getUsages_39127380625
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_toString_13268097288
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_toString_13268097288
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_toString_13268097288
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_getId_13433735031
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_getId_13433735031
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_name_5940052092
@@ -239,85 +239,85 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setId_17734152617
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setId_17734152617
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_build_38563887
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_build_38563887
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_OperatingSystemBuilder_build_38563887
 [INFO] Running com.piinalpin.queryrequest.domain.dao.OperatingSystem_setName_119118550627
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.dao.OperatingSystem_setName_119118550627
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setFieldType_1432650628
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setFieldType_1432650628
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setFieldType_1432650628
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_setFilters_23964156820
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_setFilters_23964156820
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_setFilters_23964156820
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValue_22658472110
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValue_22658472110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValue_22658472110
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_init_13473521317
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_init_13473521317
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_init_13473521317
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_equals_428905639
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_equals_428905639
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_equals_428905639
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_getKey_123185013112
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_getKey_123185013112
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_getKey_123185013112
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValueTo_208996574011
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValueTo_208996574011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValueTo_208996574011
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_167784309018
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_167784309018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_167784309018
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_toString_100233692827
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_toString_100233692827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_toString_100233692827
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setFieldType_143265069
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setFieldType_143265069
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setFieldType_143265069
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_getFilters_171488347015
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_getFilters_171488347015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_getFilters_171488347015
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_fieldType_2537050803
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_fieldType_2537050803
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_fieldType_2537050803
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_equals_189406426913
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_equals_189406426913
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_2_init_2456805452
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_2_init_2456805452
-[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_2_init_2456805452
+[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_2_init_2456805452.test(FieldType_2_init_2456805452.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_4_init_2456804830
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_4_init_2456804830
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_4_init_2456804830
+[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_4_init_2456804830.test(FieldType_4_init_2456804830.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_7_parse_21268912781
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_7_parse_21268912781
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_toString_2499884769
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_toString_2499884769
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_toString_2499884769
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_2_parse_21268914331
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_2_parse_21268914331
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805760
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805760
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805760
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805760.test(FieldType_1_init_2456805760.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_toString_25203288
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_toString_25203288
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_toString_25203288
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValueTo_208996574030
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValueTo_208996574030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValueTo_208996574030
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getKey_111744734120
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getKey_111744734120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getKey_111744734120
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setOperator_187298390427
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setOperator_187298390427
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setOperator_187298390427
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_toString_80189628013
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_toString_80189628013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_toString_80189628013
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_key_9765107251
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_key_9765107251
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_equals_20084670595
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_equals_20084670595
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_init_2954673750
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_init_2954673750
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_init_2954673750
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_getPage_6013036823
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_getPage_6013036823
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_getPage_6013036823
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_build_82321518912
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_build_82321518912
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_filters_6822581101
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_filters_6822581101
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_toString_252032817
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_toString_252032817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_toString_252032817
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_canEqual_148233760817
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_canEqual_148233760817
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_canEqual_148233760817
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_7_init_2456803900
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_7_init_2456803900
 [ERROR] test  Time elapsed: 0.013 s  <<< ERROR!
@@ -325,25 +325,25 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_7_init_2456803900.test(FieldType_7_init_2456803900.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_builder_139457635019
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_builder_139457635019
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_builder_139457635019
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getOperator_167828071621
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getOperator_167828071621
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getOperator_167828071621
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValues_209773820331
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValues_209773820331
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValues_209773820331
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_page_135411813810
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_page_135411813810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_page_135411813810
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_getDirection_84719823213
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_getDirection_84719823213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_getDirection_84719823213
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setOperator_18729839048
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setOperator_18729839048
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setOperator_18729839048
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValue_29676030123
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValue_29676030123
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_setSize_176088285023
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_setSize_176088285023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_setSize_176088285023
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_hashCode_15597803847
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_hashCode_15597803847
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_valueTo_16220483265
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_valueTo_16220483265
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_valueTo_16220483265
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_init_13473521310
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_init_13473521310
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_6_init_2456804212
@@ -353,19 +353,19 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_6_init_2456804212.test(FieldType_6_init_2456804212.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_hashCode_49157723826
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_hashCode_49157723826
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_hashCode_49157723826
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_value_6247398094
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_value_6247398094
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_value_6247398094
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_canEqual_76127206625
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_canEqual_76127206625
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_canEqual_76127206625
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setKey_18041387717
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setKey_18041387717
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_size_126027648811
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_size_126027648811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_size_126027648811
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getFieldType_7430843143
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getFieldType_7430843143
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getFieldType_7430843143
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_init_5429355230
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_init_5429355230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_init_5429355230
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_fieldType_25370508012
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_fieldType_25370508012
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_key_1668704056
@@ -379,7 +379,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_builder_71800138811
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_builder_71800138811
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_equals_4289056324
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_equals_4289056324
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_equals_4289056324
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_valueOf_3821367961
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_valueOf_3821367961
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -387,13 +387,13 @@ java.lang.IllegalArgumentException: No enum constant com.piinalpin.queryrequest.
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_valueOf_3821367961.test(FieldType_valueOf_3821367961.java:42)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getOperator_16782807162
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getOperator_16782807162
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getOperator_16782807162
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_toString_100233692812
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_toString_100233692812
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_values_8741671992
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_values_8741671992
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_values_8741671992
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913713
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913713
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913713
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913713.test(FieldType_4_parse_21268913713.java:49)
@@ -409,9 +409,9 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_build_3880957717
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_build_3880957717
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_toString_8018962806
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_toString_8018962806
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_toString_8018962806
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805762
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805762
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805762
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_1_init_2456805762.test(FieldType_1_init_2456805762.java:47)
@@ -479,11 +479,11 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_4_init_2456804832.test(FieldType_4_init_2456804832.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_direction_13370952547
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_direction_13370952547
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_direction_13370952547
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_setSorts_5307001546
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_setSorts_5307001546
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_3_parse_21268914023
-06:38:25.425 [Time-limited test] INFO com.piinalpin.queryrequest.domain.common.query.FieldType - Failed parse field type DATE text
+13:29:45.101 [Time-limited test] INFO com.piinalpin.queryrequest.domain.common.query.FieldType - Failed parse field type DATE text
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_3_parse_21268914023
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValues_178078562125
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValues_178078562125
@@ -494,7 +494,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_builder_7180013880
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_builder_7180013880
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_build_8232151895
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_build_8232151895
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_build_8232151895
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValues_209773820312
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_setValues_209773820312
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_7_parse_21268912783
@@ -510,7 +510,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_hashCode_155978038418
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_hashCode_155978038418
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913711
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913711
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913711
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NumberFormatException: For input string: "RMFIsYGgne"
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_4_parse_21268913711.test(FieldType_4_parse_21268913711.java:49)
@@ -518,11 +518,11 @@ java.lang.NumberFormatException: For input string: "RMFIsYGgne"
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValueTo_174701336824
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValueTo_174701336824
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_toString_93461790416
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_toString_93461790416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_toString_93461790416
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_canEqual_76127206610
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_canEqual_76127206610
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_canEqual_76127206610
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_1_parse_21268914641
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_1_parse_21268914641
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_1_parse_21268914641
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_sorts_4609610649
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_sorts_4609610649
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_60109671529
@@ -530,7 +530,7 @@ java.lang.NumberFormatException: For input string: "RMFIsYGgne"
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_filters_6822581108
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_SearchRequestBuilder_filters_6822581108
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_operator_77602504611
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_operator_77602504611
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_operator_77602504611
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_equals_200846705916
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_equals_200846705916
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_values_8741671990
@@ -552,7 +552,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_6_init_2456804210.test(FieldType_6_init_2456804210.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_build_13870834438
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_build_13870834438
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_build_13870834438
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_5_init_2456804520
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_5_init_2456804520
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -570,23 +570,23 @@ java.lang.NumberFormatException: null
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_5_parse_21268913403.test(FieldType_5_parse_21268913403.java:49)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_values_206420834715
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_values_206420834715
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_values_206420834715
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_154779277913
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_154779277913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_154779277913
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_38916205336
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_38916205336
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_38916205336
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_toString_104902069419
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_toString_104902069419
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_toString_104902069419
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_getSorts_18116374921
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_getSorts_18116374921
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_getSorts_18116374921
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValueTo_17470133685
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValueTo_17470133685
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_getValueTo_17470133685
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_init_113079026610
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_init_113079026610
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_operator_7760250462
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_operator_7760250462
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_2_parse_21268914333
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_2_parse_21268914333
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_2_parse_21268914333
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_2_parse_21268914333.test(FieldType_2_parse_21268914333.java:49)
@@ -600,19 +600,19 @@ java.lang.NullPointerException
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_init_113079026621
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_init_113079026621
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_6_parse_21268913093
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_6_parse_21268913093
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_6_parse_21268913093
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NumberFormatException: null
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_6_parse_21268913093.test(FieldType_6_parse_21268913093.java:49)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_init_50356484320
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_init_50356484320
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_167784309037
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_167784309037
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_init_167784309037
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_build_38809577116
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_FilterRequestBuilder_build_38809577116
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_key_1668704051
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_key_1668704051
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_SortRequestBuilder_key_1668704051
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_getDirection_8471982322
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_getDirection_8471982322
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_valueOf_3821367963
@@ -626,7 +626,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_setPage_185472450022
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_setPage_185472450022
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_setKey_168973598114
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_setKey_168973598114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_setKey_168973598114
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_6_parse_21268913091
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_6_parse_21268913091
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -640,13 +640,13 @@ java.lang.NumberFormatException: For input string: "xxtlPwDYFs"
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_hashCode_144537759415
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_hashCode_144537759415
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_5_init_2456804522
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_5_init_2456804522
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.piinalpin.queryrequest.domain.common.query.FieldType_5_init_2456804522
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at com.piinalpin.queryrequest.domain.common.query.FieldType_5_init_2456804522.test(FieldType_5_init_2456804522.java:47)
 
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_154779277928
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_154779277928
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SearchRequest_init_154779277928
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_builder_13945763500
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_builder_13945763500
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SearchRequest_setSorts_53070015421
@@ -658,12 +658,12 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_getKey_12318501311
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_getKey_12318501311
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FieldType_3_parse_21268914021
-06:38:25.551 [Time-limited test] INFO com.piinalpin.queryrequest.domain.common.query.FieldType - Failed parse field type DATE Text 'MxlszYVzRf' could not be parsed at index 0
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_3_parse_21268914021
+13:29:45.308 [Time-limited test] INFO com.piinalpin.queryrequest.domain.common.query.FieldType - Failed parse field type DATE Text 'MxlszYVzRf' could not be parsed at index 0
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FieldType_3_parse_21268914021
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.SortRequest_toString_10490206948
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_toString_10490206948
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.SortRequest_toString_10490206948
 [INFO] Running com.piinalpin.queryrequest.domain.common.query.FilterRequest_hashCode_144537759434
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_hashCode_144537759434
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.piinalpin.queryrequest.domain.common.query.FilterRequest_hashCode_144537759434
 [INFO] Running com.piinalpin.queryrequest.QueryrequestApplication_main_2845053351
 
   .   ____          _            __ _ _
@@ -674,36 +674,79 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.5)
 
-2026-04-08 06:38:26.397  INFO 73 --- [me-limited test] c.p.q.QueryrequestApplication            : Starting QueryrequestApplication using Java 11.0.16 on e3f7b979f73b with PID 73 (started by root in /app)
-2026-04-08 06:38:26.401  INFO 73 --- [me-limited test] c.p.q.QueryrequestApplication            : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 06:38:27.607  INFO 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 06:38:27.670  INFO 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
-2026-04-08 06:38:28.400  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:38:28.419  INFO 73 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:38:28.419  INFO 73 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2026-04-08 06:38:28.561  INFO 73 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:38:28.562  INFO 73 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1981 ms
-2026-04-08 06:38:28.615  INFO 73 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 06:38:29.070  INFO 73 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 06:38:29.087  INFO 73 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
-2026-04-08 06:38:29.402  INFO 73 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 06:38:29.493  INFO 73 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
-2026-04-08 06:38:29.770  INFO 73 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 06:38:29.965  INFO 73 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-Hibernate: create table operating_system (id bigint generated by default as identity, kernel varchar(255) not null, name varchar(255) not null, release_date timestamp not null, usages integer not null, version varchar(255) not null, primary key (id))
-2026-04-08 06:38:30.766  INFO 73 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 06:38:30.774  INFO 73 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:38:31.100  WARN 73 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 06:38:31.566  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
-2026-04-08 06:38:31.576  INFO 73 --- [me-limited test] c.p.q.QueryrequestApplication            : Started QueryrequestApplication in 6.02 seconds (JVM running for 10.493)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.848 s - in com.piinalpin.queryrequest.QueryrequestApplication_main_2845053351
-2026-04-08 06:38:31.747  INFO 73 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:38:31.752  INFO 73 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 06:38:31.758  INFO 73 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 13:29:46.210  INFO 74 --- [me-limited test] c.p.q.QueryrequestApplication            : Starting QueryrequestApplication using Java 11.0.16 on 32000de3aa90 with PID 74 (started by root in /app)
+2026-04-09 13:29:46.212  INFO 74 --- [me-limited test] c.p.q.QueryrequestApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 13:29:48.845  INFO 74 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 13:29:48.923  INFO 74 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2026-04-09 13:29:50.195  INFO 74 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:29:50.216  INFO 74 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:29:50.217  INFO 74 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2026-04-09 13:29:50.900  INFO 74 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:29:50.900  INFO 74 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4493 ms
+2026-04-09 13:29:51.002  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 13:29:52.151  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 13:29:52.212  INFO 74 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-04-09 13:29:52.660  INFO 74 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 13:29:52.787  INFO 74 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2026-04-09 13:29:53.173  INFO 74 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 13:29:53.450  INFO 74 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.998 s <<< FAILURE! - in com.piinalpin.queryrequest.QueryrequestApplication_main_2845053351
+[ERROR] test  Time elapsed: 9.997 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
+	at app//com.piinalpin.queryrequest.QueryrequestApplication_main_2845053351.test(QueryrequestApplication_main_2845053351.java:50)
+
+2026-04-09 13:29:55.790  WARN 74 --- [me-limited test] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2026-04-09 13:29:55.791 ERROR 74 --- [me-limited test] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Interrupted during connection acquisition
+2026-04-09 13:29:55.804 ERROR 74 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+2026-04-09 13:29:55.805  WARN 74 --- [me-limited test] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+2026-04-09 13:29:55.805  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 13:29:55.810  WARN 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Interrupted during closing
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2109) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.awaitTermination(ThreadPoolExecutor.java:1454) ~[na:na]
+	at com.zaxxer.hikari.pool.HikariPool.shutdown(HikariPool.java:233) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:351) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:239) ~[spring-beans-5.3.17.jar:5.3.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.17.jar:5.3.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.17.jar:5.3.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) ~[spring-beans-5.3.17.jar:5.3.17]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.17.jar:5.3.17]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) ~[spring-beans-5.3.17.jar:5.3.17]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.17.jar:5.3.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596) ~[spring-context-5.3.17.jar:5.3.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.5.jar:2.6.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.5.jar:2.6.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.5.jar:2.6.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.5.jar:2.6.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.5.jar:2.6.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.5.jar:2.6.5]
+	at com.piinalpin.queryrequest.QueryrequestApplication.main(QueryrequestApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at com.piinalpin.queryrequest.ReflectionUtils.callMethod(ReflectionUtils.java:328) ~[test-classes/:na]
+	at com.piinalpin.queryrequest.QueryrequestApplication_main_2845053351.test(QueryrequestApplication_main_2845053351.java:50) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
 [INFO] 
 [INFO] Results:
 [INFO] 
 [ERROR] Errors: 
+[ERROR]   QueryrequestApplication_main_2845053351.test:50 » TestTimedOut test timed out ...
 [ERROR]   QueryrequestApplication_main_2845053353.test:44 » IllegalArgument Args must no...
 [ERROR]   FieldType_1_init_2456805760.test:47 » IllegalArgument Cannot reflectively crea...
 [ERROR]   FieldType_1_init_2456805762.test:47 » IllegalArgument Cannot reflectively crea...
@@ -729,7 +772,7 @@ Hibernate: create table operating_system (id bigint generated by default as iden
 [ERROR]   FieldType_valueOf_3821367961.test:42 » IllegalArgument No enum constant com.pi...
 [ERROR]   FieldType_valueOf_3821367963.test:42 » NullPointer Name is null
 [INFO] 
-[ERROR] Tests run: 226, Failures: 0, Errors: 24, Skipped: 0
+[ERROR] Tests run: 226, Failures: 0, Errors: 25, Skipped: 0
 [INFO] 
 [ERROR] There are test failures.
 
@@ -746,6 +789,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  20.817 s
-[INFO] Finished at: 2026-04-08T06:38:33Z
+[INFO] Total time:  25.511 s
+[INFO] Finished at: 2026-04-09T13:29:56Z
 [INFO] ------------------------------------------------------------------------

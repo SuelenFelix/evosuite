@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_init_20217291672
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_init_20217291672)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_init_20217291672)  Time elapsed: 0.004 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at net.byteseek.swing.treetable.ReflectionUtils.callConstructor(ReflectionUtils.java:321)

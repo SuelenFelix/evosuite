@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeUtils_getChildren_13809542219
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeUtils_getChildren_13809542219)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeUtils_getChildren_13809542219)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.swing.treetable.TreeUtils.forEachChild(TreeUtils.java:363)
 	at net.byteseek.swing.treetable.TreeUtils.getChildren(TreeUtils.java:406)

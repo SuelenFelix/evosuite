@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: game.GameNN_step_9785777448
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.GameNN_step_9785777448)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.GameNN_step_9785777448)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.GameNN.step(GameNN.java:94)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

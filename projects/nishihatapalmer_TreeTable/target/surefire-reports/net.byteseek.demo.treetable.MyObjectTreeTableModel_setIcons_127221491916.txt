@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.demo.treetable.MyObjectTreeTableModel_setIcons_127221491916
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
-test(net.byteseek.demo.treetable.MyObjectTreeTableModel_setIcons_127221491916)  Time elapsed: 0.007 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(net.byteseek.demo.treetable.MyObjectTreeTableModel_setIcons_127221491916)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NoClassDefFoundError: sun/awt/image/ImageWatched
 	at java.desktop/sun.awt.image.ToolkitImage.makeImageRep(ToolkitImage.java:295)
 	at java.desktop/sun.awt.image.ToolkitImage.getImageRep(ToolkitImage.java:304)

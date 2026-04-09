@@ -48,24 +48,24 @@ Audit done.
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540241
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540241
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540241
 [INFO] Running com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211411
 Matrix cannot be multiplicated due to their uncompatible orders
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211411
 [INFO] Running com.pd.algorithms.MatrixMultiplication2D_init_14674424780
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.MatrixMultiplication2D_init_14674424780
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.MatrixMultiplication2D_init_14674424780
 [INFO] Running com.pd.algorithms.Exponent_init_15272578484
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.Exponent_init_15272578484
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Exponent_init_15272578484
 [INFO] Running com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456712
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456712
 [INFO] Running com.pd.algorithms.Divisors_findDivisors_18002275141
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.559 s - in com.pd.algorithms.Divisors_findDivisors_18002275141
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.609 s - in com.pd.algorithms.Divisors_findDivisors_18002275141
 [INFO] Running com.pd.algorithms.MatrixMultiplication2D_showMat_4041992012
 941650513 444029505 -1034506028 -1263114719 
 -894662986 304775596 -1347665717 -1888585309 
 -663691365 339854490 -615654495 -1476117762 
--1801760683 1141317871 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in com.pd.algorithms.MatrixMultiplication2D_showMat_4041992012
-[ERROR] test  Time elapsed: 0.016 s  <<< ERROR!
+-1801760683 1141317871 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.pd.algorithms.MatrixMultiplication2D_showMat_4041992012
+[ERROR] test  Time elapsed: 0.011 s  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at com.pd.algorithms.MatrixMultiplication2D_showMat_4041992012.test(MatrixMultiplication2D_showMat_4041992012.java:119)
 
@@ -74,35 +74,35 @@ java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
 [INFO] Running com.pd.algorithms.Find2DMatrixSum_init_2275186180
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Find2DMatrixSum_init_2275186180
 [INFO] Running com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998525
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998525
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998525
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998525.test(Find2DMatrixSum_findLongSumOfMatrix_15331998525.java:43)
 
 [INFO] Running com.pd.algorithms.Find2DMatrixSum_init_2275186183
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Find2DMatrixSum_init_2275186183
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.Find2DMatrixSum_init_2275186183
 [INFO] Running com.pd.algorithms.FindPhrase_init_206500592
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.FindPhrase_init_206500592
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.FindPhrase_init_206500592
 [INFO] Running com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735833
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735833
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735833
 [INFO] Running com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428223
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428223
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428223
+[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428223.test(FindMaxSubArrayProduct_findMaxProduct_186428223.java:43)
 
 [INFO] Running com.pd.algorithms.CountSort_countSort_15880353251
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.233 s <<< FAILURE! - in com.pd.algorithms.CountSort_countSort_15880353251
-[ERROR] test  Time elapsed: 0.233 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.351 s <<< FAILURE! - in com.pd.algorithms.CountSort_countSort_15880353251
+[ERROR] test  Time elapsed: 0.351 s  <<< ERROR!
 java.lang.OutOfMemoryError: Java heap space
 	at com.pd.algorithms.CountSort_countSort_15880353251.test(CountSort_countSort_15880353251.java:58)
 
 [INFO] Running com.pd.algorithms.BinarySearch_init_8571170880
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.BinarySearch_init_8571170880
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.pd.algorithms.BinarySearch_init_8571170880
 [INFO] Running com.pd.algorithms.Exponent_pow_18071213347
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.Exponent_pow_18071213347
 [INFO] Running com.pd.algorithms.CheckPrime_checkPrime_8952781471
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.pd.algorithms.CheckPrime_checkPrime_8952781471
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.CheckPrime_checkPrime_8952781471
 [INFO] Running com.pd.algorithms.MaxSubArraySum_init_9753600050
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.MaxSubArraySum_init_9753600050
 [INFO] Running com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412111
@@ -110,9 +110,9 @@ java.lang.OutOfMemoryError: Java heap space
 [INFO] Running com.pd.algorithms.MaxSubArraySum_init_9753600052
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.MaxSubArraySum_init_9753600052
 [INFO] Running com.pd.algorithms.BinarySearch_search_8851646741
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.BinarySearch_search_8851646741
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.BinarySearch_search_8851646741
 [INFO] Running com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429983
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429983
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429983
 [INFO] Running com.pd.algorithms.SearchWordInMatrix_exist_17432196114
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.SearchWordInMatrix_exist_17432196114
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -120,9 +120,9 @@ java.lang.NullPointerException
 	at com.pd.algorithms.SearchWordInMatrix_exist_17432196114.test(SearchWordInMatrix_exist_17432196114.java:46)
 
 [INFO] Running com.pd.algorithms.CheckPrime_checkPrime_8952781473
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CheckPrime_checkPrime_8952781473
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.CheckPrime_checkPrime_8952781473
 [INFO] Running com.pd.algorithms.OccurrencesOfCharacters_init_14771693150
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.pd.algorithms.OccurrencesOfCharacters_init_14771693150
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.OccurrencesOfCharacters_init_14771693150
 [INFO] Running com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211414
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.pd.algorithms.MatrixMultiplication2D_matrixMult2D_11292211414
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -136,27 +136,27 @@ java.lang.NullPointerException
 	at com.pd.algorithms.CountDistinctElements_countDistinct_1804844103.test(CountDistinctElements_countDistinct_1804844103.java:43)
 
 [INFO] Running com.pd.algorithms.SearchWordInMatrix_exist_17432196111
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.SearchWordInMatrix_exist_17432196111
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.pd.algorithms.SearchWordInMatrix_exist_17432196111
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at com.pd.algorithms.SearchWordInMatrix_exist_17432196111.test(SearchWordInMatrix_exist_17432196111.java:67)
 
 [INFO] Running com.pd.algorithms.SievePrimesAlgorithm_start_9805760064
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.pd.algorithms.SievePrimesAlgorithm_start_9805760064
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.pd.algorithms.SievePrimesAlgorithm_start_9805760064
 [INFO] Running com.pd.algorithms.SievePrimesAlgorithm_start_9805760061
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.pd.algorithms.SievePrimesAlgorithm_start_9805760061
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.SievePrimesAlgorithm_start_9805760061
 [INFO] Running com.pd.algorithms.GetDivSquareSum_init_18096735202
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.GetDivSquareSum_init_18096735202
 [INFO] Running com.pd.algorithms.SearchWordInMatrix_dfs_4151582712
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.SearchWordInMatrix_dfs_4151582712
 [INFO] Running com.pd.algorithms.Exponent_pow_18071213343
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.998 s <<< FAILURE! - in com.pd.algorithms.Exponent_pow_18071213343
-[ERROR] test  Time elapsed: 9.998 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.996 s <<< FAILURE! - in com.pd.algorithms.Exponent_pow_18071213343
+[ERROR] test  Time elapsed: 9.982 s  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at app//com.pd.algorithms.Exponent_pow_18071213343.test(Exponent_pow_18071213343.java:51)
 
 [INFO] Running com.pd.algorithms.CheckPrime_init_4170567200
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.CheckPrime_init_4170567200
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.pd.algorithms.CheckPrime_init_4170567200
 [INFO] Running com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446032
 java.lang.ArrayIndexOutOfBoundsException: Index 158873461 out of bounds for length 1000001
 	at com.pd.algorithms.SievePrimesAlgorithm.isPrime(SievePrimesAlgorithm.java:30)
@@ -179,156 +179,156 @@ java.lang.ArrayIndexOutOfBoundsException: Index 158873461 out of bounds for leng
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446032
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446032
 [INFO] Running com.pd.algorithms.BinarySearch_search_8851646744
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.BinarySearch_search_8851646744
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.pd.algorithms.BinarySearch_search_8851646744
 [INFO] Running com.pd.algorithms.SievePrimesAlgorithm_init_593477223
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.SievePrimesAlgorithm_init_593477223
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.pd.algorithms.SievePrimesAlgorithm_init_593477223
 [INFO] Running com.pd.algorithms.BinarySearch_binarySearch_4262792675
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.BinarySearch_binarySearch_4262792675
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in com.pd.algorithms.BinarySearch_binarySearch_4262792675
+[ERROR] test  Time elapsed: 0.016 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.BinarySearch_binarySearch_4262792675.test(BinarySearch_binarySearch_4262792675.java:57)
 
 [INFO] Running com.pd.algorithms.TwoSum_init_12672952880
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.TwoSum_init_12672952880
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.pd.algorithms.TwoSum_init_12672952880
 [INFO] Running com.pd.algorithms.PerfectPowerAlgorithm_init_7224523000
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.PerfectPowerAlgorithm_init_7224523000
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.pd.algorithms.PerfectPowerAlgorithm_init_7224523000
 [INFO] Running com.pd.algorithms.Exponent_pow_18071531102
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.842 s - in com.pd.algorithms.Exponent_pow_18071531102
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.89 s - in com.pd.algorithms.Exponent_pow_18071531102
 [INFO] Running com.pd.algorithms.BinarySearch_init_8571170883
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.pd.algorithms.BinarySearch_init_8571170883
-[ERROR] test  Time elapsed: 0.003 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.pd.algorithms.BinarySearch_init_8571170883
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at com.pd.algorithms.BinarySearch_init_8571170883.test(BinarySearch_init_8571170883.java:42)
 Caused by: java.lang.NullPointerException
 	at com.pd.algorithms.BinarySearch_init_8571170883.test(BinarySearch_init_8571170883.java:42)
 
 [INFO] Running com.pd.algorithms.Exponent_pow_18071531106
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.Exponent_pow_18071531106
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Exponent_pow_18071531106
 [INFO] Running com.pd.algorithms.Exponent_modExp_17345852955
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.pd.algorithms.Exponent_modExp_17345852955
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.pd.algorithms.Exponent_modExp_17345852955
 [ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.ArithmeticException: / by zero
 	at com.pd.algorithms.Exponent_modExp_17345852955.test(Exponent_modExp_17345852955.java:55)
 
 [INFO] Running com.pd.algorithms.FindMaxSubArrayProduct_init_16466562220
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.pd.algorithms.FindMaxSubArrayProduct_init_16466562220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.FindMaxSubArrayProduct_init_16466562220
 [INFO] Running com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429981
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429981
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.PerfectPowerAlgorithm_isPerfectPower_9875429981
 [INFO] Running com.pd.algorithms.FindPhrase_timesFound_835432433
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in com.pd.algorithms.FindPhrase_timesFound_835432433
-[ERROR] test  Time elapsed: 0.02 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.FindPhrase_timesFound_835432433
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.FindPhrase_timesFound_835432433.test(FindPhrase_timesFound_835432433.java:46)
 
 [INFO] Running com.pd.algorithms.CountDistinctElements_countDistinct_1804844101
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CountDistinctElements_countDistinct_1804844101
 [INFO] Running com.pd.algorithms.SearchWordInMatrix_dfs_4151582715
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.pd.algorithms.SearchWordInMatrix_dfs_4151582715
-[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.pd.algorithms.SearchWordInMatrix_dfs_4151582715
+[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.SearchWordInMatrix_dfs_4151582715.test(SearchWordInMatrix_dfs_4151582715.java:59)
 
 [INFO] Running com.pd.algorithms.TwoSum_init_12672952882
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.TwoSum_init_12672952882
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.TwoSum_init_12672952882
 [INFO] Running com.pd.algorithms.MatrixMultiplication2D_init_14674424783
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.pd.algorithms.MatrixMultiplication2D_init_14674424783
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.MatrixMultiplication2D_init_14674424783
 [INFO] Running com.pd.algorithms.OccurrencesOfCharacters_init_14771693153
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.pd.algorithms.OccurrencesOfCharacters_init_14771693153
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.OccurrencesOfCharacters_init_14771693153
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at com.pd.algorithms.OccurrencesOfCharacters_init_14771693153.test(OccurrencesOfCharacters_init_14771693153.java:42)
 Caused by: java.lang.NullPointerException
 	at com.pd.algorithms.OccurrencesOfCharacters_init_14771693153.test(OccurrencesOfCharacters_init_14771693153.java:42)
 
 [INFO] Running com.pd.algorithms.FindPhrase_timesFound_835432431
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.FindPhrase_timesFound_835432431
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.FindPhrase_timesFound_835432431
 [INFO] Running com.pd.algorithms.Divisors_init_4694070222
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.Divisors_init_4694070222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.pd.algorithms.Divisors_init_4694070222
 [INFO] Running com.pd.algorithms.Divisors_init_4694070220
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.pd.algorithms.Divisors_init_4694070220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.Divisors_init_4694070220
 [INFO] Running com.pd.algorithms.SearchWordInMatrix_init_19377592173
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.SearchWordInMatrix_init_19377592173
 [INFO] Running com.pd.algorithms.CountSort_init_11882285860
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CountSort_init_11882285860
 [INFO] Running com.pd.algorithms.PerfectPowerAlgorithm_init_7224523002
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.PerfectPowerAlgorithm_init_7224523002
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.PerfectPowerAlgorithm_init_7224523002
 [INFO] Running com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540244
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540244
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540244
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.Find2DMatrixSum_findSumOfMatrix_18639540244.test(Find2DMatrixSum_findSumOfMatrix_18639540244.java:43)
 
 [INFO] Running com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428221
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.FindMaxSubArrayProduct_findMaxProduct_186428221
 [INFO] Running com.pd.algorithms.MatrixMultiplication2D_showMat_4041992015
 Matrix is Null
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.pd.algorithms.MatrixMultiplication2D_showMat_4041992015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.MatrixMultiplication2D_showMat_4041992015
 [INFO] Running com.pd.algorithms.SievePrimesAlgorithm_init_593477220
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.SievePrimesAlgorithm_init_593477220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.SievePrimesAlgorithm_init_593477220
 [INFO] Running com.pd.algorithms.CountSort_init_11882285862
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.pd.algorithms.CountSort_init_11882285862
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CountSort_init_11882285862
 [INFO] Running com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735831
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735831
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.GetDivSquareSum_sumDivSquare_19027735831
 [INFO] Running com.pd.algorithms.FindPhrase_init_206500590
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.FindPhrase_init_206500590
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.FindPhrase_init_206500590
 [INFO] Running com.pd.algorithms.MaxSubArraySum_getSum_18438980883
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in com.pd.algorithms.MaxSubArraySum_getSum_18438980883
-[ERROR] test  Time elapsed: 0.017 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.MaxSubArraySum_getSum_18438980883
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.MaxSubArraySum_getSum_18438980883.test(MaxSubArraySum_getSum_18438980883.java:43)
 
 [INFO] Running com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456715
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456715
-[ERROR] test  Time elapsed: 0.014 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456715
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456715.test(OccurrencesOfCharacters_findNumOccurencesOfAllCharacters_16897456715.java:44)
 
 [INFO] Running com.pd.algorithms.CountDistinctElements_init_10072082590
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.pd.algorithms.CountDistinctElements_init_10072082590
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CountDistinctElements_init_10072082590
 [INFO] Running com.pd.algorithms.FindMaxSubArrayProduct_init_16466562222
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.pd.algorithms.FindMaxSubArrayProduct_init_16466562222
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.FindMaxSubArrayProduct_init_16466562222
 [INFO] Running com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998522
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Find2DMatrixSum_findLongSumOfMatrix_15331998522
 [INFO] Running com.pd.algorithms.GetDivSquareSum_init_18096735200
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.pd.algorithms.GetDivSquareSum_init_18096735200
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.GetDivSquareSum_init_18096735200
 [INFO] Running com.pd.algorithms.SearchWordInMatrix_init_19377592170
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.pd.algorithms.SearchWordInMatrix_init_19377592170
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.SearchWordInMatrix_init_19377592170
 [INFO] Running com.pd.algorithms.Exponent_init_15272578480
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Exponent_init_15272578480
 [INFO] Running com.pd.algorithms.TwoSum_twoSum_13857754251
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.TwoSum_twoSum_13857754251
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.TwoSum_twoSum_13857754251
 [INFO] Running com.pd.algorithms.CountDistinctElements_init_10072082592
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CountDistinctElements_init_10072082592
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.pd.algorithms.CountDistinctElements_init_10072082592
 [INFO] Running com.pd.algorithms.Divisors_findDivisors_18002275143
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.Divisors_findDivisors_18002275143
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.Divisors_findDivisors_18002275143
 [INFO] Running com.pd.algorithms.CountSort_countSort_15880353253
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.pd.algorithms.CountSort_countSort_15880353253
-[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.CountSort_countSort_15880353253
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.CountSort_countSort_15880353253.test(CountSort_countSort_15880353253.java:49)
 
 [INFO] Running com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412114
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412114
-[ERROR] test  Time elapsed: 0.011 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412114
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412114.test(OccurrencesOfCharacters_findNumOccurencesOfCharacter_4709412114.java:49)
 
 [INFO] Running com.pd.algorithms.CheckPrime_init_4170567202
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.CheckPrime_init_4170567202
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.CheckPrime_init_4170567202
 [INFO] Running com.pd.algorithms.BinarySearch_binarySearch_4262792672
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.BinarySearch_binarySearch_4262792672
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.pd.algorithms.BinarySearch_binarySearch_4262792672
 [INFO] Running com.pd.algorithms.TwoSum_twoSum_13857754253
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.pd.algorithms.TwoSum_twoSum_13857754253
-[ERROR] test  Time elapsed: 0.007 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.pd.algorithms.TwoSum_twoSum_13857754253
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.pd.algorithms.TwoSum_twoSum_13857754253.test(TwoSum_twoSum_13857754253.java:49)
 
 [INFO] Running com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446035
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446035
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.pd.algorithms.SievePrimesAlgorithm_isPrime_184446035
 [INFO] Running com.pd.algorithms.Exponent_modExp_17345852951
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.pd.algorithms.Exponent_modExp_17345852951
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.pd.algorithms.Exponent_modExp_17345852951
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -372,6 +372,6 @@ Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstre
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  20.338 s
-[INFO] Finished at: 2026-04-08T06:38:56Z
+[INFO] Total time:  24.530 s
+[INFO] Finished at: 2026-04-09T13:30:24Z
 [INFO] ------------------------------------------------------------------------

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_valueOf_19623983001
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.258 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_valueOf_19623983001)  Time elapsed: 0.258 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableColumnSortStrategy_RemoveSortKeyAction_valueOf_19623983001)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant net.byteseek.swing.treetable.TreeTableColumnSortStrategy.RemoveSortKeyAction.RMFIsYGgne
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at net.byteseek.swing.treetable.TreeTableColumnSortStrategy$RemoveSortKeyAction.valueOf(TreeTableColumnSortStrategy.java:82)

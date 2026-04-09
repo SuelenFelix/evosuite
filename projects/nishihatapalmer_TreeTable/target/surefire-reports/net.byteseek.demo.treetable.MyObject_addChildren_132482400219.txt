@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.demo.treetable.MyObject_addChildren_132482400219
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.demo.treetable.MyObject_addChildren_132482400219)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+test(net.byteseek.demo.treetable.MyObject_addChildren_132482400219)  Time elapsed: 0.008 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.demo.treetable.MyObject.addChildren(MyObject.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

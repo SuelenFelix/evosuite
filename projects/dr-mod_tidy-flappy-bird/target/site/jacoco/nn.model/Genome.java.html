@@ -96,15 +96,15 @@ public class Genome implements Serializable {
 
     public Node makeNodeMutation() {
 <span class="fc" id="L98">        Connection oldConnection = connections.get(random.nextInt(connections.size()));</span>
-<span class="fc bfc" id="L99" title="All 2 branches covered.">        if (!oldConnection.isExpressed()) return null;</span>
-<span class="fc" id="L100">        oldConnection.setExpressed(false);</span>
+<span class="pc bpc" id="L99" title="1 of 2 branches missed.">        if (!oldConnection.isExpressed()) return null;</span>
+<span class="nc" id="L100">        oldConnection.setExpressed(false);</span>
 
 
-<span class="fc" id="L103">        Node newNode = new Node(Type.HIDDEN, nodeInnovator.nextInnovation(), 0);</span>
-<span class="fc" id="L104">        this.nodes.add(newNode);</span>
-<span class="fc" id="L105">        newConnection(oldConnection.getIn(), newNode, 1f);</span>
-<span class="fc" id="L106">        newConnection(newNode, oldConnection.getOut(), oldConnection.getWeight());</span>
-<span class="fc" id="L107">        return newNode;</span>
+<span class="nc" id="L103">        Node newNode = new Node(Type.HIDDEN, nodeInnovator.nextInnovation(), 0);</span>
+<span class="nc" id="L104">        this.nodes.add(newNode);</span>
+<span class="nc" id="L105">        newConnection(oldConnection.getIn(), newNode, 1f);</span>
+<span class="nc" id="L106">        newConnection(newNode, oldConnection.getOut(), oldConnection.getWeight());</span>
+<span class="nc" id="L107">        return newNode;</span>
     }
 
     @Override

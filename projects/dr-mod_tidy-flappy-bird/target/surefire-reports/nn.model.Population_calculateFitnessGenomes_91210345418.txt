@@ -2,7 +2,7 @@
 Test set: nn.model.Population_calculateFitnessGenomes_91210345418
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Population_calculateFitnessGenomes_91210345418)  Time elapsed: 0 sec  <<< ERROR!
+test(nn.model.Population_calculateFitnessGenomes_91210345418)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Population.calculateFitnessGenomes(Population.java:341)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

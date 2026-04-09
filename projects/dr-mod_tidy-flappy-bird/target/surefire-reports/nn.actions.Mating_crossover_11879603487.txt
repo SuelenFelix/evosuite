@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.actions.Mating_crossover_11879603487
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.actions.Mating_crossover_11879603487)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.actions.Mating_crossover_11879603487)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.Mating.crossover(Mating.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

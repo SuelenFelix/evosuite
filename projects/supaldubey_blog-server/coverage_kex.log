@@ -139,69 +139,69 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleId_10402308003
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleId_10402308003
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleId_10402308003
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_init_15717016340
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_init_15717016340
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_init_15717016340
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setStatus_214427511418
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setStatus_214427511418
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setStatus_214427511418
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setLastName_13885838848
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setLastName_13885838848
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setLastName_13885838848
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getId_79352011925
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getId_79352011925
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setFirstName_1776628146
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setFirstName_1776628146
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setFirstName_1776628146
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getEmail_8926260199
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getEmail_8926260199
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setPassword_90189866214
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setPassword_90189866214
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_toRole_199704212716
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_toRole_199704212716
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_toRole_199704212716
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleId_104023080013
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleId_104023080013
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleId_104023080013
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getStatus_44727663239
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getStatus_44727663239
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_from_24349805215
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_from_24349805215
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_from_24349805215
+[ERROR] test  Time elapsed: 0.005 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.resource.RoleCandidate_from_24349805215.test(RoleCandidate_from_24349805215.java:46)
 
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setId_12702176754
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setId_12702176754
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setId_12702176754
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_from_149391829924
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.PersonCandidate_from_149391829924
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.PersonCandidate_from_149391829924
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.resource.PersonCandidate_from_149391829924.test(PersonCandidate_from_149391829924.java:53)
 
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_test_159160969823
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.PersonCandidate_test_159160969823
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.PersonCandidate_test_159160969823
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.resource.PersonCandidate_test_159160969823.test(PersonCandidate_test_159160969823.java:51)
 
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleName_14038243079
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleName_14038243079
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleName_14038243079
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getRoles_149507014341
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getRoles_149507014341
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getRoles_149507014341
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setRoles_78840188142
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setRoles_78840188142
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setRoles_78840188142
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_toRole_19970421276
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_toRole_19970421276
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_toRole_19970421276
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonResource_init_1193875371
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonResource_init_1193875371
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleId_67600533014
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleId_67600533014
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleId_67600533014
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleName_18251813318
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleName_18251813318
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleName_18251813318
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_init_3869209911
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_3869209911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_3869209911
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setLastName_138858388430
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setLastName_138858388430
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setLastName_138858388430
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getFirstName_3404202545
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getFirstName_3404202545
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_init_1902116492
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_1902116492
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_1902116492
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at in.cubestack.apps.blog.core.resource.RoleCandidate_init_1902116492.test(RoleCandidate_init_1902116492.java:44)
@@ -209,29 +209,29 @@ Caused by: java.lang.NumberFormatException: For input string: "sjlJAEtRrb"
 	at in.cubestack.apps.blog.core.resource.RoleCandidate_init_1902116492.test(RoleCandidate_init_1902116492.java:44)
 
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_from_2434980525
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_from_2434980525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_from_2434980525
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setId_127021767526
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setId_127021767526
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleName_1825181338
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleName_1825181338
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_getRoleName_1825181338
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getStatus_44727663217
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getStatus_44727663217
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getStatus_44727663217
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleName_140382430719
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleName_140382430719
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_init_157170163422
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_init_157170163422
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_init_157170163422
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setPhone_151148926916
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setPhone_151148926916
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setPhone_151148926916
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_compareTo_206877365317
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_compareTo_206877365317
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_compareTo_206877365317
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.resource.RoleCandidate_compareTo_206877365317.test(RoleCandidate_compareTo_206877365317.java:46)
 
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getPassword_180672619435
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getPassword_180672619435
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getPassword_180672619435
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getPassword_180672619413
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getPassword_180672619413
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getPassword_180672619413
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonResource_init_1193875370
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonResource_init_1193875370
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_init_38692099111
@@ -239,11 +239,11 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setUsername_195710492912
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setUsername_195710492912
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setPassword_90189866236
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setPassword_90189866236
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setPassword_90189866236
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setUsername_195710492934
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setUsername_195710492934
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setUsername_195710492934
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_init_19021164912
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_19021164912
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_19021164912
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at in.cubestack.apps.blog.core.resource.RoleCandidate_init_19021164912.test(RoleCandidate_init_19021164912.java:44)
@@ -255,15 +255,15 @@ Caused by: java.lang.NumberFormatException: null
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_toString_102624578343
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_toString_102624578343
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleResource_init_20591638891
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleResource_init_20591638891
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleResource_init_20591638891
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setRoles_78840188120
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setRoles_78840188120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setRoles_78840188120
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getEmail_89262601931
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getEmail_89262601931
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getEmail_89262601931
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getRoles_149507014319
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getRoles_149507014319
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_toString_102624578321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_toString_102624578321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_toString_102624578321
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getFirstName_34042025427
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getFirstName_34042025427
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_init_2346678680
@@ -279,7 +279,7 @@ Caused by: java.lang.NumberFormatException: For input string: "PAEBtnZtTD"
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setPhone_151148926938
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setPhone_151148926938
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleResource_init_20591638890
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.RoleResource_init_20591638890
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.resource.RoleResource_init_20591638890
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_setEmail_46895760332
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_setEmail_46895760332
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_setRoleId_6760053304
@@ -295,7 +295,7 @@ Caused by: java.lang.NumberFormatException: For input string: "PAEBtnZtTD"
 [INFO] Running in.cubestack.apps.blog.core.resource.PersonCandidate_getUsername_75151992733
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.resource.PersonCandidate_getUsername_75151992733
 [INFO] Running in.cubestack.apps.blog.core.resource.RoleCandidate_init_23466786810
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_23466786810
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.resource.RoleCandidate_init_23466786810
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at in.cubestack.apps.blog.core.resource.RoleCandidate_init_23466786810.test(RoleCandidate_init_23466786810.java:42)
@@ -318,7 +318,7 @@ Caused by: java.lang.NumberFormatException: null
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setPersonRoles_86190056731
 [INFO] Running in.cubestack.apps.blog.core.domain.PostStatus_valueOf_7096322841
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PostStatus_valueOf_7096322841
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant in.cubestack.apps.blog.core.domain.PostStatus.PAEBtnZtTD
 	at in.cubestack.apps.blog.core.domain.PostStatus_valueOf_7096322841.test(PostStatus_valueOf_7096322841.java:42)
 
@@ -331,17 +331,17 @@ java.lang.NullPointerException: Name is null
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_init_5319830801
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_5319830801
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009324
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009324
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009324
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009324.test(PersonStatus_valueOf_6963009324.java:49)
 
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setStatus_185172420327
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setStatus_185172420327
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setStatus_185172420327
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setPhone_121893835854
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setPhone_121893835854
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_init_12037722474
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_12037722474
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_12037722474
 [INFO] Running in.cubestack.apps.blog.core.domain.Role_getRoleName_19419242446
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Role_getRoleName_19419242446
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getSalt_198754324260
@@ -351,7 +351,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setPhone_121893835822
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setPhone_121893835822
 [INFO] Running in.cubestack.apps.blog.core.domain.Role_init_19940739795
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Role_init_19940739795
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Role_init_19940739795
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getFirstName_6329711653
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getFirstName_6329711653
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_isPasswordValid_178272344350
@@ -359,15 +359,15 @@ java.lang.NullPointerException: Name is null
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_getRole_10067841703
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_getRole_10067841703
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606617
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606617
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getPassword_209927710557
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getPassword_209927710557
 [INFO] Running in.cubestack.apps.blog.core.domain.Role_init_21463271020
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Role_init_21463271020
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_activate_103422201610
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_activate_103422201610
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in in.cubestack.apps.blog.core.domain.Person_activate_103422201610
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_addRole_196040057514
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_addRole_196040057514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_addRole_196040057514
 [INFO] Running in.cubestack.apps.blog.core.domain.Role_setRoleName_3555818043
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Role_setRoleName_3555818043
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getUsername_104407083840
@@ -379,39 +379,39 @@ java.lang.NullPointerException: Name is null
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getStatus_15472572113
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getStatus_15472572113
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setStatus_185172420359
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setStatus_185172420359
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setStatus_185172420359
 [INFO] Running in.cubestack.apps.blog.core.domain.PostStatus_getDisplayName_21443095603
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PostStatus_getDisplayName_21443095603
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PostStatus_getDisplayName_21443095603
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getLastName_161259188336
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getLastName_161259188336
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getUsername_10440708388
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getUsername_10440708388
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getUsername_10440708388
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonStatus_values_2042705290
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonStatus_values_2042705290
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getCountryCode_203884309339
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getCountryCode_203884309339
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setSalt_43529436316
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_43529436316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_43529436316
 [INFO] Running in.cubestack.apps.blog.core.domain.PostStatus_init_17283456586
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PostStatus_init_17283456586
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PostStatus_init_17283456586
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at in.cubestack.apps.blog.core.domain.PostStatus_init_17283456586.test(PostStatus_init_17283456586.java:49)
 
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getPhone_16426067746
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getPhone_16426067746
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getPhone_16426067746
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_init_156721897233
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_init_156721897233
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_init_156721897233
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_getRole_10067841707
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_getRole_10067841707
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PersonRole_getRole_10067841707
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setSalt_43529436348
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_43529436348
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_43529436348
 [INFO] Running in.cubestack.apps.blog.core.domain.Role_init_21463271024
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Role_init_21463271024
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setFirstName_47021372519
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setFirstName_47021372519
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getRoles_127337836647
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.Person_getRoles_127337836647
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.Person_getRoles_127337836647
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.domain.Person_getRoles_127337836647.test(Person_getRoles_127337836647.java:56)
@@ -425,27 +425,27 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at in.cubestack.apps.blog.core.domain.PersonStatus_init_17278156625.test(PersonStatus_init_17278156625.java:47)
 
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setPassword_60934775126
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setPassword_60934775126
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setPassword_60934775126
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getCountryCode_20388430937
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getCountryCode_20388430937
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getStatus_15472572145
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getStatus_15472572145
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getStatus_15472572145
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setUsername_166455401856
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setUsername_166455401856
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setUsername_166455401856
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getProfileImage_199199658243
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getProfileImage_199199658243
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getLastName_16125918834
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getLastName_16125918834
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getPassword_209927710525
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getPassword_209927710525
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getPassword_209927710525
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_init_18642525450
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_init_18642525450
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_init_18642525450
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setEmail_17640669253
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setEmail_17640669253
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setEmail_17640669253
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setProfileImage_130862989012
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setProfileImage_130862989012
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setPersonRoles_86190056763
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setPersonRoles_86190056763
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setPersonRoles_86190056763
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009321
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009321
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -453,23 +453,23 @@ java.lang.IllegalArgumentException: No enum constant in.cubestack.apps.blog.core
 	at in.cubestack.apps.blog.core.domain.PersonStatus_valueOf_6963009321.test(PersonStatus_valueOf_6963009321.java:42)
 
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getEmail_60007510837
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getEmail_60007510837
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getEmail_60007510837
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setUsername_166455401824
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setUsername_166455401824
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setSalt_58754748661
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_58754748661
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_58754748661
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_init_5319830805
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_5319830805
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_5319830805
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setProfileImage_130862989044
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setProfileImage_130862989044
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setProfileImage_130862989044
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setSalt_58754748629
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_58754748629
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setSalt_58754748629
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setLastName_109603297320
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setLastName_109603297320
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_getPerson_6143072206
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_getPerson_6143072206
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PersonRole_getPerson_6143072206
 [INFO] Running in.cubestack.apps.blog.core.domain.PostStatus_values_12016626870
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PostStatus_values_12016626870
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PostStatus_values_12016626870
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonStatus_init_17278156622
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.PersonStatus_init_17278156622
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -483,27 +483,27 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getId_8828658622
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getId_8828658622
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_addRole_196040057546
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.Person_addRole_196040057546
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.Person_addRole_196040057546
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.domain.Person_addRole_196040057546.test(Person_addRole_196040057546.java:58)
 
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_activate_103422201642
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_activate_103422201642
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_activate_103422201642
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_deactivate_458687999
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_deactivate_458687999
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_deactivate_458687999
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_init_12037722470
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_12037722470
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PersonRole_init_12037722470
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setEmail_17640669221
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setEmail_17640669221
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getPhone_164260677438
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getPhone_164260677438
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getPhone_164260677438
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_init_186425254532
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_init_186425254532
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getRoles_127337836615
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getRoles_127337836615
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getFirstName_63297116535
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getFirstName_63297116535
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_getFirstName_63297116535
 [INFO] Running in.cubestack.apps.blog.core.domain.PostStatus_getDisplayName_21443095607
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PostStatus_getDisplayName_21443095607
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getId_88286586234
@@ -513,17 +513,17 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_getSalt_198754324228
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_getSalt_198754324228
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setLastName_109603297352
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setLastName_109603297352
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setLastName_109603297352
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setPassword_60934775158
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setPassword_60934775158
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setPassword_60934775158
 [INFO] Running in.cubestack.apps.blog.core.domain.Role_getRoleName_19419242442
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Role_getRoleName_19419242442
 [INFO] Running in.cubestack.apps.blog.core.domain.PersonRole_getPerson_6143072202
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.PersonRole_getPerson_6143072202
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.PersonRole_getPerson_6143072202
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setFirstName_47021372551
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setFirstName_47021372551
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606649
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606649
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606649
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.domain.Person_updatePassword_115072606649.test(Person_updatePassword_115072606649.java:58)
@@ -533,7 +533,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_deactivate_4586879941
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_deactivate_4586879941
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_setCountryCode_193579227723
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_setCountryCode_193579227723
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.domain.Person_setCountryCode_193579227723
 [INFO] Running in.cubestack.apps.blog.core.domain.Person_isPasswordValid_178272344318
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.domain.Person_isPasswordValid_178272344318
 [INFO] Running in.cubestack.apps.blog.core.domain.PostStatus_values_12016626874
@@ -557,10 +557,10 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.core.service.TokenAuthenticationService_init_13985146113
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_init_13985146113
 [INFO] Running in.cubestack.apps.blog.core.service.TokenAuthenticationService_fromToken_5605610372
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_fromToken_5605610372
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_fromToken_5605610372
 [INFO] Running in.cubestack.apps.blog.core.service.PersonService_createPerson_6221930344
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.PersonService_createPerson_6221930344
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.PersonService_createPerson_6221930344
+[ERROR] test  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.service.PersonService_createPerson_6221930344.test(PersonService_createPerson_6221930344.java:48)
 
@@ -579,23 +579,23 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.service.TokenAuthenticationService_generateToken_4000153084.test(TokenAuthenticationService_generateToken_4000153084.java:45)
 
 [INFO] Running in.cubestack.apps.blog.core.service.User_init_825455376
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.User_init_825455376
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_init_825455376
 [INFO] Running in.cubestack.apps.blog.core.service.User_getPersonId_5714142181
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getPersonId_5714142181
 [INFO] Running in.cubestack.apps.blog.core.service.TokenAuthenticationService_init_13985146110
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_init_13985146110
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_init_13985146110
 [INFO] Running in.cubestack.apps.blog.core.service.User_getPersonId_5714142187
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.User_getPersonId_5714142187
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getPersonId_5714142187
 [INFO] Running in.cubestack.apps.blog.core.service.User_getUserName_21047956632
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.User_getUserName_21047956632
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getUserName_21047956632
 [INFO] Running in.cubestack.apps.blog.core.service.User_implies_53634403411
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_implies_53634403411
 [INFO] Running in.cubestack.apps.blog.core.service.TokenAuthenticationService_generateToken_4000153081
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_generateToken_4000153081
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in in.cubestack.apps.blog.core.service.TokenAuthenticationService_generateToken_4000153081
 [INFO] Running in.cubestack.apps.blog.core.service.User_getName_16998208704
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.User_getName_16998208704
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getName_16998208704
 [INFO] Running in.cubestack.apps.blog.core.service.PersonService_findByUsername_1164371423
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.PersonService_findByUsername_1164371423
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.PersonService_findByUsername_1164371423
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.service.PersonService_findByUsername_1164371423.test(PersonService_findByUsername_1164371423.java:42)
@@ -613,7 +613,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.service.PersonService_save_12202010070.test(PersonService_save_12202010070.java:71)
 
 [INFO] Running in.cubestack.apps.blog.core.service.RoleService_update_21123096452
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.RoleService_update_21123096452
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.RoleService_update_21123096452
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.service.RoleService_update_21123096452.test(RoleService_update_21123096452.java:48)
@@ -621,7 +621,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.core.service.User_getUserName_21047956638
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getUserName_21047956638
 [INFO] Running in.cubestack.apps.blog.core.service.RoleService_delete_3688681493
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.RoleService_delete_3688681493
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.core.service.RoleService_delete_3688681493
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.core.service.RoleService_delete_3688681493.test(RoleService_delete_3688681493.java:45)
@@ -629,9 +629,9 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.core.service.User_implies_5363440345
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_implies_5363440345
 [INFO] Running in.cubestack.apps.blog.core.service.User_init_825455370
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.User_init_825455370
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_init_825455370
 [INFO] Running in.cubestack.apps.blog.core.service.User_getRoles_11287863733
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.core.service.User_getRoles_11287863733
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getRoles_11287863733
 [INFO] Running in.cubestack.apps.blog.core.service.User_getRoles_11287863739
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.core.service.User_getRoles_11287863739
 [INFO] Running in.cubestack.apps.blog.core.service.PersonService_findAll_20586812552
@@ -651,25 +651,25 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setSummary_20785413089
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setSummary_20785413089
 [INFO] Running in.cubestack.apps.blog.admin.resource.AdminResource_init_17204877891
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.AdminResource_init_17204877891
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.AdminResource_init_17204877891
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_init_12691240628
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_init_12691240628
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_init_12691240628
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setSlug_39257676327
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setSlug_39257676327
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setSlug_39257676327
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getPostType_68108211510
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getPostType_68108211510
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getPostType_68108211510
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setStatus_121115367880
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setStatus_121115367880
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setMetaTitle_16589273837
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setMetaTitle_16589273837
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getTags_109293212016
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getTags_109293212016
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getTags_109293212016
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getCategoryCandidates_62803408960
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getCategoryCandidates_62803408960
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_getTagName_17848334392
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_getTagName_17848334392
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getSlug_211245333167
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getSlug_211245333167
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getSlug_211245333167
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_addCategoryCandidate_75340996964
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.admin.resource.PostCandidate_addCategoryCandidate_75340996964
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -677,7 +677,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.admin.resource.PostCandidate_addCategoryCandidate_75340996964.test(PostCandidate_addCategoryCandidate_75340996964.java:62)
 
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_toNewTag_2451588405
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_toNewTag_2451588405
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_toNewTag_2451588405
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_isPublished_144473143540
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_isPublished_144473143540
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getTitle_111539774245
@@ -687,11 +687,11 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getId_6983094962
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getId_6983094962
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_init_143676436910
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_init_143676436910
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_init_143676436910
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setContent_15759207913
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setContent_15759207913
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setPostType_174127748552
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setPostType_174127748552
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setPostType_174127748552
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_init_112916324241
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_init_112916324241
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_setId_8983573845
@@ -711,13 +711,13 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_getFirstName_5392899582
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_getFirstName_5392899582
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setContent_15759207954
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setContent_15759207954
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setContent_15759207954
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlSummary_110936075135
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlSummary_110936075135
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlSummary_110936075135
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getPostStatus_55561396469
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getPostStatus_55561396469
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getUpdatedAt_17517974861
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getUpdatedAt_17517974861
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getUpdatedAt_17517974861
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_setTagName_97335241519
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_setTagName_97335241519
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setTags_35182193017
@@ -725,13 +725,13 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getStatus_24152423838
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getStatus_24152423838
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_from_103563986536
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_from_103563986536
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_from_103563986536
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_setTagId_5766040126
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_setTagId_5766040126
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_toNewTag_24515884015
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_toNewTag_24515884015
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_getLastName_4403307604
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_getLastName_4403307604
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_getLastName_4403307604
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_getId_133287211816
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_getId_133287211816
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_setSlug_184181001923
@@ -739,17 +739,17 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_isPublished_144473143581
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_isPublished_144473143581
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setSummary_207854130850
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setSummary_207854130850
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setSummary_207854130850
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getPerson_190201181937
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getPerson_190201181937
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_from_14171143316
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_from_14171143316
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_from_14171143316
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_setFirstName_7020473983
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_setFirstName_7020473983
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getUpdatedAt_17517974820
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getUpdatedAt_17517974820
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getMetaTitle_182168482347
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getMetaTitle_182168482347
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getMetaTitle_182168482347
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_init_167969617942
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_init_167969617942
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_init_12691240621
@@ -759,7 +759,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getCategories_197834371714
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getCategories_197834371714
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlContent_126465731672
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlContent_126465731672
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlContent_126465731672
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_getMetaTitle_4127019598
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_getMetaTitle_4127019598
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_toNewCategory_19976523603
@@ -789,15 +789,15 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_setLastName_20266732005
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_setLastName_20266732005
 [INFO] Running in.cubestack.apps.blog.admin.resource.AdminResource_Templates_init_19626485781
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.AdminResource_Templates_init_19626485781
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.AdminResource_Templates_init_19626485781
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setId_116222313044
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setId_116222313044
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_addCategoryCandidate_75340996923
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_addCategoryCandidate_75340996923
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setTitle_6917293265
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setTitle_6917293265
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setTitle_6917293265
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_setTagName_9733524159
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_setTagName_9733524159
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_setTagName_9733524159
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getTags_109293212057
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getTags_109293212057
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_from_146700880514
@@ -815,7 +815,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_setTagId_57660401216
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_setTagId_57660401216
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_setMetaTitle_57545939921
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_setMetaTitle_57545939921
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_setMetaTitle_57545939921
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setId_11622231303
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setId_11622231303
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_getId_13328721184
@@ -835,7 +835,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.admin.resource.TagCandidate_from_101233981114.test(TagCandidate_from_101233981114.java:47)
 
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getSummary_140494496449
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getSummary_140494496449
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getSummary_140494496449
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_getSlug_100400721717
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_getSlug_100400721717
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_init_22199420213
@@ -843,7 +843,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setTitle_69172932646
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setTitle_69172932646
 [INFO] Running in.cubestack.apps.blog.admin.resource.AdminResource_Templates_init_19626485780
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.AdminResource_Templates_init_19626485780
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.AdminResource_Templates_init_19626485780
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlContent_126465731631
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setHtmlContent_126465731631
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_init_14367643690
@@ -881,9 +881,9 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_setId_89835738417
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_setId_89835738417
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getCategories_197834371755
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getCategories_197834371755
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getCategories_197834371755
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_hasCategory_172669564165
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.admin.resource.PostCandidate_hasCategory_172669564165
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.admin.resource.PostCandidate_hasCategory_172669564165
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.admin.resource.PostCandidate_hasCategory_172669564165.test(PostCandidate_hasCategory_172669564165.java:62)
@@ -897,19 +897,19 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getContent_96907310312
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getContent_96907310312
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_getFirstName_5392899589
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_getFirstName_5392899589
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PersonCandidate_getFirstName_5392899589
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getTagCandidates_81219381759
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getTagCandidates_81219381759
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_toNewCategory_199765236015
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_toNewCategory_199765236015
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setUpdatedAt_33793718862
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setUpdatedAt_33793718862
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_setUpdatedAt_33793718862
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_getMetaTitle_41270195920
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_getMetaTitle_41270195920
 [INFO] Running in.cubestack.apps.blog.admin.resource.TagCandidate_getTagId_17779298341
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.TagCandidate_getTagId_17779298341
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getCategoryCandidates_62803408919
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getCategoryCandidates_62803408919
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getCategoryCandidates_62803408919
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_init_16796961791
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_init_16796961791
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_setPostStatus_200533509270
@@ -923,7 +923,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_hasCategory_172669564124
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_hasCategory_172669564124
 [INFO] Running in.cubestack.apps.blog.admin.resource.PostCandidate_getMetaTitle_18216848236
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getMetaTitle_18216848236
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.PostCandidate_getMetaTitle_18216848236
 [INFO] Running in.cubestack.apps.blog.admin.resource.CategoryCandidate_getTitle_9451827726
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.resource.CategoryCandidate_getTitle_9451827726
 [INFO] Running in.cubestack.apps.blog.admin.resource.PersonCandidate_init_6919914220
@@ -963,7 +963,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_20059333670
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_20059333670
 [INFO] Running in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_20059333672
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_20059333672
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_20059333672
 [INFO] Running in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_12902811473
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_12902811473
 [INFO] Running in.cubestack.apps.blog.admin.exception.RecordNotFoundException_init_12902811471
@@ -1001,13 +1001,13 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.event.domain.Event_setCounterType_4782767735
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.Event_setCounterType_4782767735
 [INFO] Running in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100845
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100845
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100845
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100845.test(EventType_valueOf_10169100845.java:49)
 
 [INFO] Running in.cubestack.apps.blog.event.domain.Event_getContentId_15483176779
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.Event_getContentId_15483176779
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.domain.Event_getContentId_15483176779
 [INFO] Running in.cubestack.apps.blog.event.domain.EventType_init_19540964586
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.event.domain.EventType_init_19540964586
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1019,7 +1019,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running in.cubestack.apps.blog.event.domain.Event_init_2442609211
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.Event_init_2442609211
 [INFO] Running in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100841
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100841
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100841
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant in.cubestack.apps.blog.event.domain.EventType.PAEBtnZtTD
 	at in.cubestack.apps.blog.event.domain.EventType_valueOf_10169100841.test(EventType_valueOf_10169100841.java:42)
@@ -1049,11 +1049,11 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at in.cubestack.apps.blog.event.domain.EventType_init_19540964582.test(EventType_init_19540964582.java:42)
 
 [INFO] Running in.cubestack.apps.blog.event.domain.EventType_values_5248796810
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.domain.EventType_values_5248796810
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.EventType_values_5248796810
 [INFO] Running in.cubestack.apps.blog.event.domain.Event_init_2442609218
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.Event_init_2442609218
 [INFO] Running in.cubestack.apps.blog.event.domain.Event_init_15754107097
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.Event_init_15754107097
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.domain.Event_init_15754107097
 [INFO] Running in.cubestack.apps.blog.event.domain.Event_setCounterType_47827677312
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.domain.Event_setCounterType_47827677312
 [INFO] Running in.cubestack.apps.blog.event.domain.EventType_of_17861785473
@@ -1071,7 +1071,7 @@ java.lang.IllegalArgumentException: Invalid counter type sjlJAEtRrb
 [INFO] Running in.cubestack.apps.blog.event.service.AnalyticsGeneratorService_ingestPostEvent_13420830903
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.AnalyticsGeneratorService_ingestPostEvent_13420830903
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidateTags_4693394058
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidateTags_4693394058
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidateTags_4693394058
 [INFO] Running in.cubestack.apps.blog.event.service.AnalyticsGeneratorService_ingestPostEvent_13420830907
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.AnalyticsGeneratorService_ingestPostEvent_13420830907
 [INFO] Running in.cubestack.apps.blog.event.service.AnalyticsGeneratorService_ingest_15590187561
@@ -1097,9 +1097,9 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePostTags_12682578695
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePostTags_12682578695
 [INFO] Running in.cubestack.apps.blog.event.service.EventProcessingService_init_254193181
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.service.EventProcessingService_init_254193181
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.EventProcessingService_init_254193181
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePosts_1252657777
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePosts_1252657777
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePosts_1252657777
 [INFO] Running in.cubestack.apps.blog.event.service.EventProcessingService_init_254193185
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.EventProcessingService_init_254193185
 [INFO] Running in.cubestack.apps.blog.event.service.CacheManagementService_manageCache_17991621093
@@ -1111,7 +1111,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_init_6242211730
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_init_6242211730
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePosts_1252657771
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePosts_1252657771
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePosts_1252657771
 [INFO] Running in.cubestack.apps.blog.event.service.EventService_trigger_5434637370
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.event.service.EventService_trigger_5434637370
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1125,7 +1125,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.event.service.AnalyticsGeneratorService_ingest_15590187565.test(AnalyticsGeneratorService_ingest_15590187565.java:45)
 
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePostTags_126825786911
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePostTags_126825786911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidatePostTags_126825786911
 [INFO] Running in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidateCategories_3941770409
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.event.service.CacheInvalidationService_invalidateCategories_3941770409
 [INFO] Running in.cubestack.apps.blog.event.service.EventProcessingService_init_7300512060
@@ -1211,7 +1211,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.util.Slugify_addReplacement_91677174611.test(Slugify_addReplacement_91677174611.java:51)
 
 [INFO] Running in.cubestack.apps.blog.util.Slugify_loadReplacements_10923530569
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.util.Slugify_loadReplacements_10923530569
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.util.Slugify_loadReplacements_10923530569
 [INFO] Running in.cubestack.apps.blog.util.Slugify_getCustomReplacements_129623320722
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.util.Slugify_getCustomReplacements_129623320722
 [INFO] Running in.cubestack.apps.blog.util.EncryptionHelper_getHash_2275865043
@@ -1229,7 +1229,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.util.Slugify_isValidReplacement_148864784328.test(Slugify_isValidReplacement_148864784328.java:48)
 
 [INFO] Running in.cubestack.apps.blog.util.Slugify_addReplacement_91677174627
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.util.Slugify_addReplacement_91677174627
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.util.Slugify_addReplacement_91677174627
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.util.Slugify_addReplacement_91677174627.test(Slugify_addReplacement_91677174627.java:48)
@@ -1307,7 +1307,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.util.Slugify_normalize_17546868430.test(Slugify_normalize_17546868430.java:48)
 
 [INFO] Running in.cubestack.apps.blog.util.EncryptionHelper_init_5302786530
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.util.EncryptionHelper_init_5302786530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.util.EncryptionHelper_init_5302786530
 [INFO] Running in.cubestack.apps.blog.util.Slugify_withUnderscoreSeparator_185268746219
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.util.Slugify_withUnderscoreSeparator_185268746219
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setHtmlContent_57382994254
@@ -1315,7 +1315,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_init_3768881061
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_init_3768881061
 [INFO] Running in.cubestack.apps.blog.post.domain.PostComment_getComment_17059951473
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.PostComment_getComment_17059951473
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostComment_getComment_17059951473
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_setSlug_44137946919
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Category_setSlug_44137946919
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_getContent_18030293358
@@ -1397,7 +1397,7 @@ java.lang.IllegalArgumentException: No enum constant in.cubestack.apps.blog.post
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getTitle_72308951635
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getTitle_72308951635
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setMetaTitle_79755265516
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_setMetaTitle_79755265516
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_setMetaTitle_79755265516
 [INFO] Running in.cubestack.apps.blog.post.domain.Tag_init_9394870750
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Tag_init_9394870750
 [INFO] Running in.cubestack.apps.blog.post.domain.Tag_getContent_170928220713
@@ -1405,7 +1405,7 @@ java.lang.IllegalArgumentException: No enum constant in.cubestack.apps.blog.post
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_hasTag_167468535126
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_hasTag_167468535126
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setContent_168089517918
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_setContent_168089517918
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_setContent_168089517918
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_setContent_99154831121
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Category_setContent_99154831121
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_publish_121351800033
@@ -1489,13 +1489,13 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getSlug_3440267077
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getSlug_3440267077
 [INFO] Running in.cubestack.apps.blog.post.domain.PostAnalytics_viewed_13615791334
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.PostAnalytics_viewed_13615791334
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostAnalytics_viewed_13615791334
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_getMetaTitle_9877285914
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Category_getMetaTitle_9877285914
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_init_19965584431
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Category_init_19965584431
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getPostType_115740514353
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getPostType_115740514353
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_getPostType_115740514353
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setPostStatus_67102670029
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_setPostStatus_67102670029
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setHtmlContent_57382994223
@@ -1503,7 +1503,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.PostTag_init_17833914812
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostTag_init_17833914812
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setSlug_206390327550
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_setSlug_206390327550
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_setSlug_206390327550
 [INFO] Running in.cubestack.apps.blog.post.domain.PostTag_init_7010825315
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostTag_init_7010825315
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_addComment_136905189714
@@ -1511,7 +1511,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_removeTag_124392078528
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_removeTag_124392078528
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_addPost_155233458023
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.post.domain.Category_addPost_155233458023
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.domain.Category_addPost_155233458023
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.domain.Category_addPost_155233458023.test(Category_addPost_155233458023.java:52)
@@ -1541,7 +1541,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getMetaTitle_6347952155
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getMetaTitle_6347952155
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getHtmlContent_67688075821
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_getHtmlContent_67688075821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getHtmlContent_67688075821
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getHtmlContent_67688075852
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getHtmlContent_67688075852
 [INFO] Running in.cubestack.apps.blog.post.domain.PostCategory_getCategory_136662737311
@@ -1569,7 +1569,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.PostTag_getPost_7801647033
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostTag_getPost_7801647033
 [INFO] Running in.cubestack.apps.blog.post.domain.PostCategory_init_16298548696
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostCategory_init_16298548696
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.PostCategory_init_16298548696
 [INFO] Running in.cubestack.apps.blog.post.domain.Tag_getTitle_18556068465
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Tag_getTitle_18556068465
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getSummary_10515350746
@@ -1587,7 +1587,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.PostAnalytics_getLikes_11473357115
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostAnalytics_getLikes_11473357115
 [INFO] Running in.cubestack.apps.blog.post.domain.Tag_getSlug_13722442277
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Tag_getSlug_13722442277
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Tag_getSlug_13722442277
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setContent_168089517949
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_setContent_168089517949
 [INFO] Running in.cubestack.apps.blog.post.domain.PostCategory_init_16377551117
@@ -1617,11 +1617,11 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.domain.Post_addTag_30164674043.test(Post_addTag_30164674043.java:61)
 
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_setSummary_24005405048
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_setSummary_24005405048
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_setSummary_24005405048
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_getSlug_12784970996
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Category_getSlug_12784970996
 [INFO] Running in.cubestack.apps.blog.post.domain.PostComment_getComment_17059951477
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostComment_getComment_17059951477
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.PostComment_getComment_17059951477
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getSummary_105153507437
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getSummary_105153507437
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_setContent_9915483119
@@ -1657,7 +1657,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.PostComment_getPost_18848688062
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.PostComment_getPost_18848688062
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_getPosts_52379511422
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.post.domain.Category_getPosts_52379511422
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.domain.Category_getPosts_52379511422
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.domain.Category_getPosts_52379511422.test(Category_getPosts_52379511422.java:50)
@@ -1681,7 +1681,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getSlug_34402670738
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getSlug_34402670738
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getCategories_75583155524
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Post_getCategories_75583155524
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.domain.Post_getCategories_75583155524
 [INFO] Running in.cubestack.apps.blog.post.domain.Category_setTitle_152568555815
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.domain.Category_setTitle_152568555815
 [INFO] Running in.cubestack.apps.blog.post.domain.Post_getAuthor_71019479634
@@ -1741,7 +1741,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getCategories_85328054847
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getCategories_85328054847
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_PostMeta_setName_16502021839
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_PostMeta_setName_16502021839
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.service.PostSummary_PostMeta_setName_16502021839
 [INFO] Running in.cubestack.apps.blog.post.service.PostService_updatePost_181486190816
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.service.PostService_updatePost_181486190816
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -1871,7 +1871,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.service.PostService_getPostSummaryByCategorySlug_57422850411.test(PostService_getPostSummaryByCategorySlug_57422850411.java:42)
 
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getCategories_85328054821
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getCategories_85328054821
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.service.PostSummary_getCategories_85328054821
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getFirstName_191061624631
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getFirstName_191061624631
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getLastName_9309955286
@@ -1899,7 +1899,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.service.PostService_findAllPublishedPostsByTags_12373175082.test(PostService_findAllPublishedPostsByTags_12373175082.java:45)
 
 [INFO] Running in.cubestack.apps.blog.post.service.PostService_update_10584054968
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.service.PostService_update_10584054968
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.post.service.PostService_update_10584054968
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.service.PostService_update_10584054968.test(PostService_update_10584054968.java:312)
@@ -1951,8 +1951,8 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getPublishedAt_84484969240
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getPublishedAt_84484969240
 [INFO] Running in.cubestack.apps.blog.post.service.PostService_toCandidates_5979842345
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.service.PostService_toCandidates_5979842345
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.post.service.PostService_toCandidates_5979842345
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.service.PostService_toCandidates_5979842345.test(PostService_toCandidates_5979842345.java:240)
 
@@ -2003,7 +2003,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.service.PostService_getSummary_13532545189.test(PostService_getSummary_13532545189.java:42)
 
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_PostMeta_setName_16502021833
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_PostMeta_setName_16502021833
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.service.PostSummary_PostMeta_setName_16502021833
 [INFO] Running in.cubestack.apps.blog.post.service.PostService_delete_109773854613
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.service.PostService_delete_109773854613
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -2013,7 +2013,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_setReadTime_137884720223
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_setReadTime_137884720223
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getUsername_14995165737
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getUsername_14995165737
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.service.PostSummary_getUsername_14995165737
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_findTime_16250744529
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_findTime_16250744529
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getViews_27308269242
@@ -2021,7 +2021,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_PostMeta_getName_696743858
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_PostMeta_getName_696743858
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getSlug_24657771437
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getSlug_24657771437
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.service.PostSummary_getSlug_24657771437
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_getLikes_55318002215
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.service.PostSummary_getLikes_55318002215
 [INFO] Running in.cubestack.apps.blog.post.service.PostSummary_setHtmlContent_67127893518
@@ -2067,7 +2067,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.post.web.CategoryResource_init_17413026010
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.web.CategoryResource_init_17413026010
 [INFO] Running in.cubestack.apps.blog.post.web.BlogContent_toString_13512539015
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.web.BlogContent_toString_13512539015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.web.BlogContent_toString_13512539015
 [INFO] Running in.cubestack.apps.blog.post.web.PostResource_delete_5767471824
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.post.web.PostResource_delete_5767471824
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -2141,7 +2141,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.post.web.PostResource_update_6160802323.test(PostResource_update_6160802323.java:315)
 
 [INFO] Running in.cubestack.apps.blog.post.web.BlogResource_init_8184041990
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.post.web.BlogResource_init_8184041990
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.post.web.BlogResource_init_8184041990
 [INFO] Running in.cubestack.apps.blog.base.quarkus.QuarkusStaticFileResponseHelper_init_3067108210
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.base.quarkus.QuarkusStaticFileResponseHelper_init_3067108210
 [INFO] Running in.cubestack.apps.blog.base.quarkus.QuarkusStaticFileResponseHelper_init_3067108211
@@ -2231,7 +2231,7 @@ java.lang.NullPointerException
 	at in.cubestack.apps.blog.base.domain.BaseModel_hashCode_203758221317.test(BaseModel_hashCode_203758221317.java:40)
 
 [INFO] Running in.cubestack.apps.blog.base.domain.BaseModel_setUpdatedAt_20595033873
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.base.domain.BaseModel_setUpdatedAt_20595033873
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.base.domain.BaseModel_setUpdatedAt_20595033873
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.base.domain.BaseModel_setUpdatedAt_20595033873.test(BaseModel_setUpdatedAt_20595033873.java:56)
@@ -2303,7 +2303,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.base.web.BlogResponse_getData_37377809212
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.base.web.BlogResponse_getData_37377809212
 [INFO] Running in.cubestack.apps.blog.base.web.Error_init_15071895043
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.base.web.Error_init_15071895043
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in in.cubestack.apps.blog.base.web.Error_init_15071895043
 [INFO] Running in.cubestack.apps.blog.base.web.Error_getMessage_5947805602
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.base.web.Error_getMessage_5947805602
 [INFO] Running in.cubestack.apps.blog.comment.domain.Comment_getTitle_5712731323
@@ -2379,7 +2379,7 @@ java.lang.NullPointerException
 [INFO] Running in.cubestack.apps.blog.comment.web.CommentResource_init_4971471410
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in in.cubestack.apps.blog.comment.web.CommentResource_init_4971471410
 [INFO] Running in.cubestack.apps.blog.comment.web.CommentResource_findAll_10931056073
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in in.cubestack.apps.blog.comment.web.CommentResource_findAll_10931056073
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in in.cubestack.apps.blog.comment.web.CommentResource_findAll_10931056073
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at in.cubestack.apps.blog.comment.web.CommentResource_findAll_10931056073.test(CommentResource_findAll_10931056073.java:43)
@@ -2576,6 +2576,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  21.942 s
-[INFO] Finished at: 2026-04-08T06:44:36Z
+[INFO] Total time:  23.702 s
+[INFO] Finished at: 2026-04-09T13:36:58Z
 [INFO] ------------------------------------------------------------------------

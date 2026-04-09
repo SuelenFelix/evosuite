@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.actions.Mating_crossover_11879603481
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.actions.Mating_crossover_11879603481)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(nn.actions.Mating_crossover_11879603481)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.IllegalStateException: Duplicate key 2009020256 (attempted merging values Connection{weight=0.71547955, expressed=false, innovation=2009020256} and Connection{weight=0.71547955, expressed=false, innovation=2009020256})
 	at java.base/java.util.stream.Collectors.duplicateKeyException(Collectors.java:133)
 	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180)

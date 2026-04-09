@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: game.Game_shouldMakeAnAction_16775071245
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(game.Game_shouldMakeAnAction_16775071245)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.Game_shouldMakeAnAction_16775071245)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.RuntimeException: number of inputs is wrong
 	at nn.neural.NeuralNetwork.calculate(NeuralNetwork.java:48)
 	at game.Game.shouldMakeAnAction(Game.java:85)

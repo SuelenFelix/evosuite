@@ -2,7 +2,7 @@
 Test set: net.byteseek.swing.treetable.TreeTableRowSorter_insertSortedRowsToIndices_125633339451
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableRowSorter_insertSortedRowsToIndices_125633339451)  Time elapsed: 0.001 sec  <<< ERROR!
+test(net.byteseek.swing.treetable.TreeTableRowSorter_insertSortedRowsToIndices_125633339451)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: arraycopy: destination index -961137605 out of bounds for int[1]
 	at java.base/java.lang.System.arraycopy(Native Method)
 	at net.byteseek.swing.treetable.TreeTableRowSorter.insertSortedRowsToIndices(TreeTableRowSorter.java:1002)

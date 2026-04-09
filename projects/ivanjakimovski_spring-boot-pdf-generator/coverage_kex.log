@@ -46,9 +46,9 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.example.pdfgenerator.PdfgeneratorApplication_init_7556279190
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.example.pdfgenerator.PdfgeneratorApplication_init_7556279190
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.example.pdfgenerator.PdfgeneratorApplication_init_7556279190
 [INFO] Running com.example.pdfgenerator.PdfgeneratorApplication_main_11321909233
-06:13:18.013 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+13:02:26.338 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
 	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
@@ -75,13 +75,13 @@ java.lang.IllegalArgumentException: Args must not be null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.276 s <<< FAILURE! - in com.example.pdfgenerator.PdfgeneratorApplication_main_11321909233
-[ERROR] test  Time elapsed: 0.276 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.263 s <<< FAILURE! - in com.example.pdfgenerator.PdfgeneratorApplication_main_11321909233
+[ERROR] test  Time elapsed: 0.263 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.example.pdfgenerator.PdfgeneratorApplication_main_11321909233.test(PdfgeneratorApplication_main_11321909233.java:44)
 
 [INFO] Running com.example.pdfgenerator.controller.PDFExportController_init_17913387220
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.pdfgenerator.controller.PDFExportController_init_17913387220
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.pdfgenerator.controller.PDFExportController_init_17913387220
 [INFO] Running com.example.pdfgenerator.controller.PDFExportController_init_17913387221
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.pdfgenerator.controller.PDFExportController_init_17913387221
 [INFO] Running com.example.pdfgenerator.PdfgeneratorApplication_init_7556279192
@@ -96,18 +96,18 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.4)
 
-2026-04-08 06:13:18.399  INFO 69 --- [me-limited test] c.e.p.PdfgeneratorApplication            : Starting PdfgeneratorApplication using Java 11.0.16 on 241b20c448d2 with PID 69 (started by root in /app)
-2026-04-08 06:13:18.400  INFO 69 --- [me-limited test] c.e.p.PdfgeneratorApplication            : No active profile set, falling back to default profiles: default
-2026-04-08 06:13:19.207  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:13:19.221  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:13:19.221  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
-2026-04-08 06:13:19.292  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:13:19.292  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 852 ms
-2026-04-08 06:13:19.452  INFO 69 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 06:13:19.613  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:13:19.623  INFO 69 --- [me-limited test] c.e.p.PdfgeneratorApplication            : Started PdfgeneratorApplication in 1.588 seconds (JVM running for 2.459)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.584 s - in com.example.pdfgenerator.PdfgeneratorApplication_main_11321909231
-2026-04-08 06:13:19.727  INFO 69 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 13:02:26.738  INFO 69 --- [me-limited test] c.e.p.PdfgeneratorApplication            : Starting PdfgeneratorApplication using Java 11.0.16 on fab81c15feb7 with PID 69 (started by root in /app)
+2026-04-09 13:02:26.739  INFO 69 --- [me-limited test] c.e.p.PdfgeneratorApplication            : No active profile set, falling back to default profiles: default
+2026-04-09 13:02:27.568  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 13:02:27.580  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:02:27.581  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2026-04-09 13:02:27.644  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:02:27.644  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 861 ms
+2026-04-09 13:02:27.799  INFO 69 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 13:02:27.953  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 13:02:27.961  INFO 69 --- [me-limited test] c.e.p.PdfgeneratorApplication            : Started PdfgeneratorApplication in 1.604 seconds (JVM running for 2.459)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.6 s - in com.example.pdfgenerator.PdfgeneratorApplication_main_11321909231
+2026-04-09 13:02:28.064  INFO 69 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -131,6 +131,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.795 s
-[INFO] Finished at: 2026-04-08T06:13:20Z
+[INFO] Total time:  4.790 s
+[INFO] Finished at: 2026-04-09T13:02:28Z
 [INFO] ------------------------------------------------------------------------

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeUtils_findLastConsecutiveIndex_14107179217
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeUtils_findLastConsecutiveIndex_14107179217)  Time elapsed: 0.044 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeUtils_findLastConsecutiveIndex_14107179217)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index -1599482697 out of bounds for length 9
 	at net.byteseek.swing.treetable.TreeUtils.findLastConsecutiveIndex(TreeUtils.java:553)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

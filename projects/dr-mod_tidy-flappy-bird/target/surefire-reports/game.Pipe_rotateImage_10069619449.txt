@@ -2,7 +2,7 @@
 Test set: game.Pipe_rotateImage_10069619449
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Pipe_rotateImage_10069619449)  Time elapsed: 0 sec  <<< ERROR!
+test(game.Pipe_rotateImage_10069619449)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Width (-1421649118) and height (-511248284) cannot be <= 0
 	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
 	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:333)

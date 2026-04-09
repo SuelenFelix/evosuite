@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nn.model.Genome_addConnection_200519805922
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_addConnection_200519805922)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Genome_addConnection_200519805922)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.addConnection(Genome.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

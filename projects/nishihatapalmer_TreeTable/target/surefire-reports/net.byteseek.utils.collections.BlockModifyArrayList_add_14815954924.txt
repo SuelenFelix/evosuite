@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.utils.collections.BlockModifyArrayList_add_14815954924
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(net.byteseek.utils.collections.BlockModifyArrayList_add_14815954924)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+test(net.byteseek.utils.collections.BlockModifyArrayList_add_14815954924)  Time elapsed: 0.008 sec  <<< ERROR!
 java.lang.NullPointerException
 	at net.byteseek.utils.collections.BlockModifyArrayList.checkResize(BlockModifyArrayList.java:325)
 	at net.byteseek.utils.collections.BlockModifyArrayList.add(BlockModifyArrayList.java:63)

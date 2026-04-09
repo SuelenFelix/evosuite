@@ -2,7 +2,7 @@
 Test set: game.Bird_show_17561746691
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Bird_show_17561746691)  Time elapsed: 0.001 sec  <<< ERROR!
+test(game.Bird_show_17561746691)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at game.Bird.show(Bird.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

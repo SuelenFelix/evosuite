@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.byteseek.swing.treetable.TreeTableHeaderRenderer_setBorder_9087887896
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
-test(net.byteseek.swing.treetable.TreeTableHeaderRenderer_setBorder_9087887896)  Time elapsed: 0.007 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(net.byteseek.swing.treetable.TreeTableHeaderRenderer_setBorder_9087887896)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.desktop/java.awt.Component.firePropertyChange(Component.java:8724)
 	at java.desktop/javax.swing.JComponent.setBorder(JComponent.java:1809)

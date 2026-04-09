@@ -75,7 +75,7 @@ WARNING: Illegal reflective access by presentation.ReflectionUtils (file:/app/ta
 WARNING: Please consider reporting this to the maintainers of presentation.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
 Running presentation.Display_keyTyped_14078200058
 javax.imageio.IIOException: Can't read input file!
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
@@ -96,16 +96,16 @@ javax.imageio.IIOException: Can't read input file!
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
 Running presentation.Display_mouseExited_11390249907
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running presentation.Display_keyReleased_149732349821
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running presentation.Display_mousePressed_144593373115
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running presentation.Display_actionPerformed_34665443113
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(presentation.Display_actionPerformed_34665443113)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+test(presentation.Display_actionPerformed_34665443113)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NullPointerException
 	at presentation.Display.actionPerformed(Display.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -186,8 +186,8 @@ java.lang.NullPointerException
 Running presentation.Display_mousePressed_14459337314
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running presentation.Display_paintComponent_16179613461
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(presentation.Display_paintComponent_16179613461)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(presentation.Display_paintComponent_16179613461)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.Game.show(Game.java:51)
 	at presentation.Display.paintComponent(Display.java:33)
@@ -266,8 +266,8 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running presentation.Display_mouseClicked_17937705303
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(presentation.Display_mouseClicked_17937705303)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(presentation.Display_mouseClicked_17937705303)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.desktop/javax.swing.RepaintManager.currentManager(RepaintManager.java:276)
 	at java.desktop/javax.swing.JComponent.repaint(JComponent.java:4835)
@@ -294,7 +294,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running presentation.Display_mouseClicked_179377053014
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(presentation.Display_mouseClicked_179377053014)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at presentation.Display.mouseClicked(Display.java:47)
@@ -319,9 +319,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running presentation.Display_mouseReleased_192406287816
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running presentation.Display_keyReleased_149732349810
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running presentation.Display_keyPressed_50084310120
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(presentation.Display_keyPressed_50084310120)  Time elapsed: 0.002 sec  <<< ERROR!
@@ -350,10 +350,10 @@ java.lang.NullPointerException
 Running presentation.Display_mouseReleased_19240628785
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running presentation.Display_mouseExited_113902499018
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running presentation.Window_init_8694508480
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
-test(presentation.Window_init_8694508480)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(presentation.Window_init_8694508480)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -386,7 +386,7 @@ No X11 DISPLAY variable was set, but this program performed an operation which r
 
 Running presentation.Window_init_8694508481
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(presentation.Window_init_8694508481)  Time elapsed: 0 sec  <<< ERROR!
+test(presentation.Window_init_8694508481)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -418,10 +418,10 @@ No X11 DISPLAY variable was set, but this program performed an operation which r
 	... 19 more
 
 Running presentation.Display_mouseEntered_139415617417
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running presentation.Display_keyPressed_5008431019
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(presentation.Display_keyPressed_5008431019)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(presentation.Display_keyPressed_5008431019)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.desktop/javax.swing.RepaintManager.currentManager(RepaintManager.java:276)
 	at java.desktop/javax.swing.JComponent.repaint(JComponent.java:4835)
@@ -502,17 +502,17 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running utils.Vector_magSq_8741147733
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_init_38994022827
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_add_10813654737
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_mult_33262740343
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_rotate_6900735042
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_dist_103430387310
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_add_5662243235
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_rotate_69007350429
@@ -520,11 +520,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_toString_132150625751
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
 Running utils.Vector_mag_81214395532
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_normalize_175029454046
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_setMag_212874709449
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_mult_168083582044
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(utils.Vector_mult_168083582044)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -553,19 +553,19 @@ java.lang.NullPointerException
 Running utils.Vector_div_82597512647
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_div_52223329121
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_dot_183334799612
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_copy_6473130123
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_limit_90649548818
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_dot_84717947940
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_normalize_73697262115
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_normalize_175029454019
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_get_20892025064
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_dist_31390454438
@@ -626,7 +626,7 @@ java.lang.NullPointerException
 
 Running utils.Vector_dot_111341088341
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(utils.Vector_dot_111341088341)  Time elapsed: 0 sec  <<< ERROR!
+test(utils.Vector_dot_111341088341)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at utils.Vector.dot(Vector.java:81)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -652,10 +652,10 @@ java.lang.NullPointerException
 Running utils.Vector_equals_36205989225
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_hashCode_81074656726
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_add_26684294436
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(utils.Vector_add_26684294436)  Time elapsed: 0 sec  <<< ERROR!
+test(utils.Vector_add_26684294436)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at utils.Vector.add(Vector.java:57)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -679,14 +679,14 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running utils.Vector_get_208920250631
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_limit_90649548845
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_fromAngle_681098101
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_div_52223329148
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(utils.Vector_div_52223329148)  Time elapsed: 0.001 sec  <<< ERROR!
+test(utils.Vector_div_52223329148)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at utils.Vector.div(Vector.java:121)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -710,22 +710,22 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running utils.Vector_copy_64731301230
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running utils.Vector_dot_84717947913
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running utils.Vector_mult_33262740316
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running utils.Vector_heading_112551024423
+Running utils.Vector_dot_84717947913
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running utils.Vector_mult_33262740316
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running utils.Vector_heading_112551024423
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_dot_111341088314
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_equals_36205989252
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_fromAngle_6810981028
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_add_108136547334
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(utils.Vector_add_108136547334)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(utils.Vector_add_108136547334)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at utils.Vector.add(Vector.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -753,14 +753,14 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_add_566224328
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_toString_132150625724
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_mult_168083582017
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_magSq_874114776
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_dist_103430387337
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(utils.Vector_dist_103430387337)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(utils.Vector_dist_103430387337)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at utils.Vector.dist(Vector.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -790,9 +790,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_setMag_212874709422
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running utils.Vector_add_2668429449
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running utils.Vector_normalize_73697262142
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.PipesController_getCurrentPipe_27181824913
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.BottomPanel_init_18234295134
@@ -882,7 +882,7 @@ Running game.Bird_action_210190737313
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Bird_show_17561746691
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Bird_show_17561746691)  Time elapsed: 0.001 sec  <<< ERROR!
+test(game.Bird_show_17561746691)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at game.Bird.show(Bird.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -933,7 +933,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.PipesController_checkCurrentPipe_4164191503
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Bird_getX_169870709316
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Game_init_12986231140
@@ -961,7 +961,7 @@ javax.imageio.IIOException: Can't read input file!
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running game.Game_step_133372843211
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(game.Game_step_133372843211)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -989,9 +989,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.Bird_getBirdWidth_10450908805
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Bird_getVelocity_2523144779
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running game.Game_loadGenome_7604315946
 java.io.FileNotFoundException: ZiaGIbnzTs (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
@@ -1021,7 +1021,7 @@ java.io.FileNotFoundException: ZiaGIbnzTs (No such file or directory)
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running game.Pipe_show_174324726612
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Pipe_show_174324726612)  Time elapsed: 0.001 sec  <<< ERROR!
+test(game.Pipe_show_174324726612)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.Pipe.show(Pipe.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1051,8 +1051,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Bird_getVelocity_25231447719
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Game_shouldMakeAnAction_167750712412
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Game_shouldMakeAnAction_167750712412)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(game.Game_shouldMakeAnAction_167750712412)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.Game.shouldMakeAnAction(Game.java:79)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1077,7 +1077,7 @@ java.lang.NullPointerException
 
 Running game.Bird_rotateImage_10198893478
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(game.Bird_rotateImage_10198893478)  Time elapsed: 0.004 sec  <<< ERROR!
+test(game.Bird_rotateImage_10198893478)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Width (1139078354) and height (-691164974) cannot be <= 0
 	at java.desktop/java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1016)
 	at java.desktop/java.awt.image.BufferedImage.<init>(BufferedImage.java:333)
@@ -1104,7 +1104,7 @@ java.lang.IllegalArgumentException: Width (1139078354) and height (-691164974) c
 
 Running game.Game_show_17518001663
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Game_show_17518001663)  Time elapsed: 0 sec  <<< ERROR!
+test(game.Game_show_17518001663)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.Game.show(Game.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1157,8 +1157,8 @@ java.lang.IllegalArgumentException: Width (-1421649118) and height (-511248284) 
 Running game.PipesController_repurposePipes_20101054314
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Game_step_13337284324
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Game_step_13337284324)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(game.Game_step_13337284324)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.RuntimeException: number of inputs is wrong
 	at nn.neural.NeuralNetwork.calculate(NeuralNetwork.java:48)
 	at game.Game.shouldMakeAnAction(Game.java:85)
@@ -1216,8 +1216,8 @@ Caused by: java.lang.NullPointerException
 Running game.CollisionDetector_init_5318498360
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.BottomPanel_show_13701909576
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.BottomPanel_show_13701909576)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.BottomPanel_show_13701909576)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.BottomPanel.show(BottomPanel.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1241,8 +1241,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.PipesController_repurposePipes_201010543111
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.PipesController_repurposePipes_201010543111)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.PipesController_repurposePipes_201010543111)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.PipesController.repurposePipes(PipesController.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1271,7 +1271,7 @@ Running game.Pipe_getWidth_194115376418
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.GameNN_saveFitness_186864273210
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
-test(game.GameNN_saveFitness_186864273210)  Time elapsed: 0.006 sec  <<< ERROR!
+test(game.GameNN_saveFitness_186864273210)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.GameNN.saveFitness(GameNN.java:165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1295,7 +1295,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.Bird_getY_16987061327
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Pipe_init_12900087100
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(game.Pipe_init_12900087100)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -1324,10 +1324,10 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running game.PipesController_step_11492475472
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Pipe_init_129000871010
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.Pipe_init_129000871010)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(game.Pipe_init_129000871010)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1381,8 +1381,8 @@ Caused by: javax.imageio.IIOException: Can't read input file!
 	... 19 more
 
 Running game.GameNN_init_101368306213
-javax.imageio.IIOException: Can't read input file!
 Generation: 1
+javax.imageio.IIOException: Can't read input file!
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
 	at game.Bird.<init>(Bird.java:29)
 	at game.GameNN.reCreateGame(GameNN.java:51)
@@ -1406,7 +1406,7 @@ Generation: 1
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
 Running game.BottomPanel_init_18234295130
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(game.BottomPanel_init_18234295130)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -1438,8 +1438,8 @@ Caused by: javax.imageio.IIOException: Can't read input file!
 Running game.BottomPanel_getLavaLevel_1853362717
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.GameNN_show_5605060106
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.GameNN_show_5605060106)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(game.GameNN_show_5605060106)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.GameNN.show(GameNN.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1469,7 +1469,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.CollisionDetector_init_5318498362
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.BottomPanel_getLavaLevel_1853362713
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.GameNN_reCreateGame_18417609972
 Generation: 1
 javax.imageio.IIOException: Can't read input file!
@@ -1495,26 +1495,26 @@ javax.imageio.IIOException: Can't read input file!
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running game.PipesController_getActiveCount_69858679812
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Bird_getX_16987070936
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Pipe_setyOpeningStart_17942395957
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.BottomPanel_step_17882626911
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Pipe_getyOpeningStart_8705786895
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Game_action_20975328702
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Pipe_setX_133860262414
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Pipe_getWidth_19411537648
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.PipesController_checkCurrentPipe_41641915010
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.PipesController_checkCurrentPipe_41641915010)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.PipesController_checkCurrentPipe_41641915010)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.PipesController.checkCurrentPipe(PipesController.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1725,7 +1725,7 @@ java.lang.NullPointerException
 
 Running game.PipesController_init_11862614110
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.PipesController_init_11862614110)  Time elapsed: 0.001 sec  <<< ERROR!
+test(game.PipesController_init_11862614110)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1831,10 +1831,10 @@ javax.imageio.IIOException: Can't read input file!
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running game.GameNN_shouldMakeAnAction_30515399612
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(game.GameNN_shouldMakeAnAction_30515399612)  Time elapsed: 0 sec  <<< ERROR!
+test(game.GameNN_shouldMakeAnAction_30515399612)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.GameNN.shouldMakeAnAction(GameNN.java:171)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1910,8 +1910,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.Pipe_rotateImage_100696194419
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.Pipe_rotateImage_100696194419)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.Pipe_rotateImage_100696194419)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.Pipe.rotateImage(Pipe.java:82)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1935,8 +1935,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.PipesController_step_11492475479
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.PipesController_step_11492475479)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.PipesController_step_11492475479)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.PipesController.step(PipesController.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1964,8 +1964,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Pipe_getyOpeningStart_87057868915
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.PipesController_show_7311758138
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(game.PipesController_show_7311758138)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(game.PipesController_show_7311758138)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at game.PipesController.show(PipesController.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1989,13 +1989,13 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running game.Bird_getBirdHeight_8622213454
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Pipe_setX_13386026244
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Pipe_step_132517553211
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Bird_getBirdWidth_104509088015
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running game.Game_reCreateGame_4705451798
 javax.imageio.IIOException: Can't read input file!
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
@@ -2024,7 +2024,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running game.Pipe_getX_168577969013
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running game.Pipe_getX_16857796903
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Type_init_20640191412
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Type_init_20640191412)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2047,11 +2047,11 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Genome_setRandom_9533540316
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_whittleDown_18080752786
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running nn.model.Connection_getOut_10357942992
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Species_assignBestGenome_185770285815
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Species_assignBestGenome_185770285815)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2104,7 +2104,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Genome_toggleConnectionMutation_65668201411
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_getBias_181063647225
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_killWorstPerformers_118213180712
@@ -2133,7 +2133,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Genome_setRandom_9533540334
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.ConnectionInnovator_init_14257412980
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_getType_16420505855
@@ -2141,12 +2141,12 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_getIn_10015872661
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.ConnectionInnovator_init_14257432201
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_getBias_181063647212
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Population_mutateGenome_19725261805
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(nn.model.Population_mutateGenome_19725261805)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+test(nn.model.Population_mutateGenome_19725261805)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1134)
 	at nn.model.Genome.newNodeMatching(Genome.java:160)
@@ -2204,7 +2204,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Population_evaluate_14639498081
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Population_evaluate_14639498081)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Illegal Capacity: -1560631747
 	at java.base/java.util.ArrayList.<init>(ArrayList.java:158)
@@ -2260,11 +2260,11 @@ Caused by: java.lang.IllegalArgumentException: Illegal Capacity: -1694747156
 Running nn.model.Node_init_2257284830
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_hashCode_58877657323
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_getBias_181063647214
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_init_124747745616
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Type_values_4114111050
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_calculateFitnessGenomes_91210345418
@@ -2322,10 +2322,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_getGenomes_116092556914
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_cloneNoConnections_12622738210
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.FitnessGenome_copy_200411432412
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.FitnessGenome_copy_200411432412)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.FitnessGenome_copy_200411432412)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.FitnessGenome.copy(FitnessGenome.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2376,8 +2376,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Type_valueOf_9034415081
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Type_valueOf_9034415081)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Type_valueOf_9034415081)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant nn.model.Type.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at nn.model.Type.valueOf(Type.java:3)
@@ -2402,7 +2402,7 @@ java.lang.IllegalArgumentException: No enum constant nn.model.Type.PAEBtnZtTD
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Connection_cloneNoNodes_9454778708
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_get_92282575711
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Specieses_get_92282575711)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2454,8 +2454,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Population_biasedRandomSpecies_171170145416
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Population_biasedRandomSpecies_171170145416)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Population_biasedRandomSpecies_171170145416)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Population.biasedRandomSpecies(Population.java:296)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2479,8 +2479,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Species_addGenome_195243248412
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Species_addGenome_195243248412)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Species_addGenome_195243248412)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Species.addGenome(Species.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2504,15 +2504,15 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Node_toSomeSgring_173069254411
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running nn.model.Specieses_add_6090285462
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_init_14680612928
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_makeConnectionWeightMutation_8756011726
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.NodeInnovator_init_17207941540
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_breakIntoSpecies_2013357619
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Population_breakIntoSpecies_2013357619)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -2541,10 +2541,10 @@ java.lang.NullPointerException
 Running nn.model.Genome_newConnection_11753414504
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_toString_109953626319
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running nn.model.Node_addConnection_32145967019
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Node_addConnection_32145967019)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Node_addConnection_32145967019)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Node.addConnection(Node.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2570,7 +2570,7 @@ java.lang.NullPointerException
 Running nn.model.FitnessGenome_getGenome_12004421262
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Species_getStaleness_11773499387
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_init_17401996327
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_addConnection_3214596702
@@ -2578,12 +2578,12 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_init_117160182820
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_toSomeSgring_173069254412
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running nn.model.Genome_newNodeMatching_179008643621
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running nn.model.Genome_newNodeMatching_179008643621
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_addConnection_32145967017
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Node_addConnection_32145967017)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Node_addConnection_32145967017)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Node.addConnection(Node.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2615,7 +2615,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_getConnections_5911918433
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_makeNodeBiasMutation_5431076559
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_setWeight_9722372484
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_addConnection_20051980593
@@ -2623,10 +2623,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Species_addGenome_19524324843
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_setRandom_9533540314
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_newConnection_19356271405
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Genome_newConnection_19356271405)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+test(nn.model.Genome_newConnection_19356271405)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.randomWeight(Genome.java:132)
 	at nn.model.Genome.newConnection(Genome.java:36)
@@ -2651,8 +2651,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Species_init_8306739611
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
-test(nn.model.Species_init_8306739611)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Species_init_8306739611)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -2678,12 +2678,12 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running nn.model.Node_isConnectedTo_529354433
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Connection_setExpressed_14710005296
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.FitnessGenome_compareTo_7266809098
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.FitnessGenome_compareTo_7266809098)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.FitnessGenome_compareTo_7266809098)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.FitnessGenome.compareTo(FitnessGenome.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2707,14 +2707,14 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Node_setBias_114929997614
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Type_values_4114111053
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.ConnectionInnovator_init_14257412982
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_newSpecies_170362395010
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Specieses_newSpecies_170362395010)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Specieses_newSpecies_170362395010)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Specieses.newSpecies(Specieses.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2742,8 +2742,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_makeNodeMutation_67847104310
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_get_9228257574
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Specieses_get_9228257574)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Specieses_get_9228257574)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.RuntimeException: genome doesn't belong to any species
 	at nn.model.Specieses.get(Specieses.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2858,8 +2858,8 @@ java.lang.NullPointerException
 Running nn.model.Species_getBestGenome_12553861634
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_toggleConnectionMutation_6566820149
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Genome_toggleConnectionMutation_6566820149)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Genome_toggleConnectionMutation_6566820149)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: bound must be positive
 	at java.base/java.util.Random.nextInt(Random.java:388)
 	at nn.model.Genome.toggleConnectionMutation(Genome.java:93)
@@ -2884,8 +2884,8 @@ java.lang.IllegalArgumentException: bound must be positive
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Population_biasedRandomGenome_171794233317
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Population_biasedRandomGenome_171794233317)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Population_biasedRandomGenome_171794233317)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Population.biasedRandomGenome(Population.java:324)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -2909,8 +2909,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Genome_makeConnectionMutation_14393542367
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Genome_makeConnectionMutation_14393542367)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Genome_makeConnectionMutation_14393542367)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Node.isConnectedTo(Node.java:34)
 	at nn.model.Genome.makeConnectionMutation(Genome.java:57)
@@ -2935,7 +2935,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Population_deleteStaleSpecieses_9134783953
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_hashCode_5887765738
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_randomBias_86543780336
@@ -3064,8 +3064,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Specieses_init_17401996320
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Innovator_nextInnovation_9207884740
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Innovator_nextInnovation_9207884740)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Innovator_nextInnovation_9207884740)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -3098,12 +3098,12 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_toString_109953626322
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_calculateFitnessGenomes_9121034548
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Specieses_newSpecies_17036239503
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_isConnectedTo_5293544320
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Node_isConnectedTo_5293544320)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Node_isConnectedTo_5293544320)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Node.isConnectedTo(Node.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3129,7 +3129,7 @@ java.lang.NullPointerException
 Running nn.model.Node_init_22572848317
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.FitnessGenome_toString_26133047013
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.FitnessGenome_getGenome_12004421269
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Species_assignBestGenome_18577028586
@@ -3139,7 +3139,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Species_init_6400915420
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_makeConnectionMutation_143935423625
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.model.Genome_makeConnectionMutation_143935423625)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.makeConnectionMutation(Genome.java:49)
@@ -3294,7 +3294,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_toString_45377302121
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.FitnessGenome_getFitness_9859114803
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Genome_addNodesAndConnections_196999070838
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(nn.model.Genome_addNodesAndConnections_196999070838)  Time elapsed: 0 sec  <<< ERROR!
@@ -3385,8 +3385,8 @@ java.lang.NullPointerException
 Running nn.model.FitnessGenome_toString_2613304706
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_copy_149369544417
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.model.Genome_copy_149369544417)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Genome_copy_149369544417)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1134)
 	at nn.model.Genome.newNodeMatching(Genome.java:160)
@@ -3444,12 +3444,12 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_toString_151169264411
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Species_calculateAverageSharedFitness_3106399158
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running nn.model.Genome_init_11716018280
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Genome_randomWeight_79288123835
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_randomWeight_79288123835)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Genome_randomWeight_79288123835)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.randomWeight(Genome.java:132)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3475,7 +3475,7 @@ java.lang.NullPointerException
 Running nn.model.Species_getGenomes_135358732414
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_setExpressed_147100052918
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Node_getType_164205058518
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_makeNodeMutation_67847104330
@@ -3578,8 +3578,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.FitnessGenome_init_21424561827
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Type_init_20640191415
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Type_init_20640191415)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Type_init_20640191415)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at nn.model.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -3600,7 +3600,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 
 Running nn.model.Genome_makeNodeBiasMutation_54310765527
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_makeNodeBiasMutation_54310765527)  Time elapsed: 0.001 sec  <<< ERROR!
+test(nn.model.Genome_makeNodeBiasMutation_54310765527)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.makeNodeBiasMutation(Genome.java:77)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3624,8 +3624,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Genome_addConnection_200519805922
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.model.Genome_addConnection_200519805922)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.model.Genome_addConnection_200519805922)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Genome.addConnection(Genome.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3649,7 +3649,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.model.Node_toSomeSgring_173069254425
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_equals_141321938610
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_equals_141321938622
@@ -3659,9 +3659,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_getInnovation_14314057857
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_addConnection_20051980592
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Specieses_whittleDown_180807527813
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(nn.model.Specieses_whittleDown_180807527813)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.model.Specieses.whittleDown(Specieses.java:40)
@@ -3690,8 +3690,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_toString_10995362635
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_biasedRandomSpecies_17117014546
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(nn.model.Population_biasedRandomSpecies_17117014546)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.model.Population_biasedRandomSpecies_17117014546)  Time elapsed: 0.001 sec  <<< ERROR!
 java.util.NoSuchElementException
 	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1513)
 	at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1534)
@@ -3721,7 +3721,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_randomWeight_79288123815
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Population_getGenomes_11609255694
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.FitnessGenome_setFitness_141449033611
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_toggleConnectionMutation_65668201429
@@ -3781,7 +3781,7 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
 Running nn.model.Connection_isExpressed_4726545435
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.ConnectionInnovator_init_14257432203
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Genome_randomWeight_79288123817
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_getWeight_186860013815
@@ -3791,19 +3791,19 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_enableConnectionMutation_57158436710
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_getNodes_54646481212
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Genome_newNodeMatching_179008643619
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Connection_init_6279346412
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.model.Node_getInnovation_131025222711
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.model.Connection_isExpressed_47265454317
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.Constants_init_14814167091
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NodeProxier_init_20767689635
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NeuralNetwork_init_8076677312
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(nn.neural.NeuralNetwork_init_8076677312)  Time elapsed: 0.002 sec  <<< ERROR!
@@ -3838,7 +3838,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_getType_56999391311
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NodeProxier_convert_5291480416
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.neural.NodeProxier_convert_5291480416)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.NodeProxier.convert(NodeProxier.java:15)
@@ -3871,12 +3871,12 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnConnection_getWeight_17219895045
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NodeProxier_convert2_18637925472
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.neural.AnnNode_getOutput_6834949376
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NeuralNetwork_calculate_21053833213
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.neural.NeuralNetwork_calculate_21053833213)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.neural.NeuralNetwork_calculate_21053833213)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.NeuralNetwork.calculate(NeuralNetwork.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -3935,8 +3935,8 @@ java.lang.NullPointerException
 Running nn.neural.AnnConnection_setOut_3569483514
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnType_valueOf_19754981804
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.neural.AnnType_valueOf_19754981804)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.neural.AnnType_valueOf_19754981804)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at nn.neural.AnnType.valueOf(AnnType.java:3)
@@ -3965,7 +3965,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_getId_97705063819
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_getId_97705063811
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.neural.AnnType_init_2201578725
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(nn.neural.AnnType_init_2201578725)  Time elapsed: 0 sec  <<< ERROR!
@@ -4002,7 +4002,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_setOutput_189982529514
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_calculateRecoursiveOutput_117161177119
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.neural.AnnNode_calculateRecoursiveOutput_117161177119)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.AnnNode.calculateRecoursiveOutput(AnnNode.java:62)
@@ -4029,7 +4029,7 @@ java.lang.NullPointerException
 Running nn.neural.AnnNode_getId_97705063818
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NeuralNetwork_init_8076677310
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(nn.neural.NeuralNetwork_init_8076677310)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -4061,8 +4061,8 @@ Caused by: java.lang.NullPointerException
 Running nn.neural.AnnNode_init_122052498616
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnType_valueOf_19754981801
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.neural.AnnType_valueOf_19754981801)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.neural.AnnType_valueOf_19754981801)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant nn.neural.AnnType.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at nn.neural.AnnType.valueOf(AnnType.java:3)
@@ -4114,8 +4114,8 @@ java.lang.NullPointerException
 Running nn.neural.AnnNode_getOutputs_120614080918
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnType_init_2201578722
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.neural.AnnType_init_2201578722)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.neural.AnnType_init_2201578722)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at nn.neural.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -4195,7 +4195,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnConnection_init_18225732567
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NodeProxier_convertType_18167157298
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.neural.NodeProxier_convertType_18167157298)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.neural.NodeProxier.convertType(NodeProxier.java:24)
@@ -4230,7 +4230,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_getId_97705063812
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_getOutputs_12061408098
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.AnnNode_getInputs_82359571817
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.neural.NodeProxier_convert2_18637925477
@@ -4293,8 +4293,8 @@ java.util.NoSuchElementException: No value present
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.Mating_addNodesAndConnections_722192358
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(nn.actions.Mating_addNodesAndConnections_722192358)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.Mating_addNodesAndConnections_722192358)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.Mating.addNodesAndConnections(Mating.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4318,8 +4318,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.Mating_crossover_11879603487
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.actions.Mating_crossover_11879603487)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.actions.Mating_crossover_11879603487)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.Mating.crossover(Mating.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4343,10 +4343,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.Mating_addNodesAndConnections_6399831374
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.GenomeDiff_getMaxInnovation_204318748717
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.actions.GenomeDiff_getMaxInnovation_204318748717)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(nn.actions.GenomeDiff_getMaxInnovation_204318748717)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.util.Collections.max(Collections.java:673)
 	at nn.actions.GenomeDiff.getMaxInnovation(GenomeDiff.java:109)
@@ -4371,10 +4371,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.ConnectionPair_getConnection1_17038813344
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.GenomeDiff_feta_15289480314
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.actions.GenomeDiff_feta_15289480314)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.GenomeDiff_feta_15289480314)  Time elapsed: 0.001 sec  <<< ERROR!
 java.util.NoSuchElementException: No value present
 	at java.base/java.util.OptionalDouble.getAsDouble(OptionalDouble.java:128)
 	at nn.actions.GenomeDiff.averageWeight(GenomeDiff.java:92)
@@ -4431,14 +4431,14 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.GenomeDiff_getDisjointGenes_36564913612
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.Mating_addNodesAndConnections_722192352
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.actions.ConnectionPair_getConnection2_17038822952
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.ConnectionPair_init_17622827960
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.GenomeDiff_feta_152894803113
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.actions.GenomeDiff_feta_152894803113)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.GenomeDiff_feta_152894803113)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.GenomeDiff.feta(GenomeDiff.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4520,8 +4520,8 @@ java.lang.NullPointerException
 Running nn.actions.Mating_init_8867956455
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.Mating_addNodesAndConnections_722192357
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.actions.Mating_addNodesAndConnections_722192357)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.Mating_addNodesAndConnections_722192357)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.Mating.addNodesAndConnections(Mating.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4545,8 +4545,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.Mating_crossover_11879603486
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.actions.Mating_crossover_11879603486)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.Mating_crossover_11879603486)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.Mating.crossover(Mating.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4570,8 +4570,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.GenomeDiff_averageWeight_186348404014
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.actions.GenomeDiff_averageWeight_186348404014)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.GenomeDiff_averageWeight_186348404014)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.GenomeDiff.averageWeight(GenomeDiff.java:85)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4650,9 +4650,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running nn.actions.ConnectionPair_getConnection2_17038822955
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.actions.Mating_newNodeMatching_2521235074
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(nn.actions.Mating_newNodeMatching_2521235074)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.Mating.newNodeMatching(Mating.java:82)
@@ -4679,8 +4679,8 @@ java.lang.NullPointerException
 Running nn.actions.GenomeDiff_getExcessGenes_112824232711
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.GenomeDiff_calculateMatching_167227610315
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(nn.actions.GenomeDiff_calculateMatching_167227610315)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(nn.actions.GenomeDiff_calculateMatching_167227610315)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nn.actions.GenomeDiff.calculateMatching(GenomeDiff.java:96)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4747,10 +4747,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.Mating_addNodesAndConnections_6399831375
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running nn.actions.GenomeDiff_calculateExcess_6519414777
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running nn.actions.Mating_crossover_11879603481
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(nn.actions.Mating_crossover_11879603481)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(nn.actions.Mating_crossover_11879603481)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.IllegalStateException: Duplicate key 2009020256 (attempted merging values Connection{weight=0.71547955, expressed=false, innovation=2009020256} and Connection{weight=0.71547955, expressed=false, innovation=2009020256})
 	at java.base/java.util.stream.Collectors.duplicateKeyException(Collectors.java:133)
 	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180)
@@ -4952,6 +4952,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.215 s
-[INFO] Finished at: 2026-04-08T06:07:58Z
+[INFO] Total time:  5.331 s
+[INFO] Finished at: 2026-04-09T12:57:03Z
 [INFO] ------------------------------------------------------------------------

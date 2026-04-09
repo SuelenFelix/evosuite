@@ -153,40 +153,40 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.4)
 
-2026-04-08 06:07:09.762  INFO 76 --- [me-limited test] codeit.gatcha.GatchaApplication          : Starting GatchaApplication using Java 11.0.16 on 09581b415c66 with PID 76 (started by root in /app)
-2026-04-08 06:07:09.764  INFO 76 --- [me-limited test] codeit.gatcha.GatchaApplication          : No active profile set, falling back to default profiles: default
-2026-04-08 06:07:10.871  INFO 76 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 06:07:10.945  INFO 76 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 7 JPA repository interfaces.
-2026-04-08 06:07:11.551  INFO 76 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 06:07:11.563  INFO 76 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:07:11.563  INFO 76 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
-2026-04-08 06:07:11.635  INFO 76 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:07:11.635  INFO 76 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1812 ms
-2026-04-08 06:07:11.858  INFO 76 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 06:07:12.169  INFO 76 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 06:07:12.272  INFO 76 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 06:07:12.369  INFO 76 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
-2026-04-08 06:07:12.492  INFO 76 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 06:07:12.635  INFO 76 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2026-04-08 06:07:13.436  INFO 76 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 06:07:13.444  INFO 76 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:07:13.892  WARN 76 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 06:07:14.241  INFO 76 --- [me-limited test] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2026-04-08 06:07:14.428  INFO 76 --- [me-limited test] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2026-04-08 06:07:14.525  INFO 76 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10f793b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@416acae, org.springframework.security.web.header.HeaderWriterFilter@772c1d8b, org.springframework.web.filter.CorsFilter@6e4818ef, org.springframework.security.web.authentication.logout.LogoutFilter@1af29a28, codeit.gatcha.api.security.controller.JwtRequestFilter@468ef24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d72d2cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a5d2a4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2244e85b, org.springframework.security.web.session.SessionManagementFilter@a06e05c, org.springframework.security.web.access.ExceptionTranslationFilter@4b215389, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2901d175]
-2026-04-08 06:07:14.582  INFO 76 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 06:07:14.743  INFO 76 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 06:07:14.744  INFO 76 --- [me-limited test] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2026-04-08 06:07:14.761  INFO 76 --- [me-limited test] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2026-04-08 06:07:14.781  INFO 76 --- [me-limited test] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2026-04-08 06:07:14.903  INFO 76 --- [me-limited test] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
-2026-04-08 06:07:14.904  INFO 76 --- [me-limited test] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
-2026-04-08 06:07:14.956  INFO 76 --- [me-limited test] codeit.gatcha.GatchaApplication          : Started GatchaApplication in 5.55 seconds (JVM running for 7.212)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.741 s - in codeit.gatcha.GatchaApplication_main_20591175851
+2026-04-09 12:56:12.938  INFO 75 --- [me-limited test] codeit.gatcha.GatchaApplication          : Starting GatchaApplication using Java 11.0.16 on 62f62bd71afe with PID 75 (started by root in /app)
+2026-04-09 12:56:12.940  INFO 75 --- [me-limited test] codeit.gatcha.GatchaApplication          : No active profile set, falling back to default profiles: default
+2026-04-09 12:56:14.078  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 12:56:14.177  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 7 JPA repository interfaces.
+2026-04-09 12:56:14.810  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 12:56:14.822  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 12:56:14.822  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2026-04-09 12:56:14.896  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 12:56:14.896  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1903 ms
+2026-04-09 12:56:15.102  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 12:56:15.343  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 12:56:15.430  INFO 75 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 12:56:15.491  INFO 75 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2026-04-09 12:56:15.610  INFO 75 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 12:56:15.772  INFO 75 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 12:56:16.608  INFO 75 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 12:56:16.616  INFO 75 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 12:56:17.076  WARN 75 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 12:56:17.416  INFO 75 --- [me-limited test] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-04-09 12:56:17.603  INFO 75 --- [me-limited test] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-04-09 12:56:17.697  INFO 75 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56ea5fb8, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ec2ed24, org.springframework.security.web.header.HeaderWriterFilter@3ec2d695, org.springframework.web.filter.CorsFilter@eaa884d, org.springframework.security.web.authentication.logout.LogoutFilter@5bfe3f6c, codeit.gatcha.api.security.controller.JwtRequestFilter@6fb48067, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ab8f4dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35684481, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24503e0c, org.springframework.security.web.session.SessionManagementFilter@7b5349ca, org.springframework.security.web.access.ExceptionTranslationFilter@7813fa0f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fdbbc22]
+2026-04-09 12:56:17.747  INFO 75 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 12:56:17.907  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 12:56:17.908  INFO 75 --- [me-limited test] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2026-04-09 12:56:17.925  INFO 75 --- [me-limited test] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2026-04-09 12:56:17.944  INFO 75 --- [me-limited test] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2026-04-09 12:56:18.072  INFO 75 --- [me-limited test] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2026-04-09 12:56:18.074  INFO 75 --- [me-limited test] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2026-04-09 12:56:18.129  INFO 75 --- [me-limited test] codeit.gatcha.GatchaApplication          : Started GatchaApplication in 5.565 seconds (JVM running for 7.273)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.776 s - in codeit.gatcha.GatchaApplication_main_20591175851
 [INFO] Running codeit.gatcha.GatchaApplication_init_18592867072
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.GatchaApplication_init_18592867072
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.GatchaApplication_init_18592867072
 [INFO] Running codeit.gatcha.GatchaApplication_main_20591175853
-2026-04-08 06:07:15.017 ERROR 76 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 12:56:18.186 ERROR 75 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.5.jar:5.3.5]
@@ -215,8 +215,8 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in codeit.gatcha.GatchaApplication_main_20591175853
-[ERROR] test  Time elapsed: 0.007 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in codeit.gatcha.GatchaApplication_main_20591175853
+[ERROR] test  Time elapsed: 0.009 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at codeit.gatcha.GatchaApplication_main_20591175853.test(GatchaApplication_main_20591175853.java:44)
 
@@ -227,7 +227,7 @@ java.lang.NullPointerException
 	at codeit.gatcha.common.user.service.UserSessionService_getCurrentLoggedInUser_3929771800.test(UserSessionService_getCurrentLoggedInUser_3929771800.java:40)
 
 [INFO] Running codeit.gatcha.api.response.APIResponse_getStatusCode_117184892410
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.response.APIResponse_getStatusCode_117184892410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.response.APIResponse_getStatusCode_117184892410
 [INFO] Running codeit.gatcha.api.response.APIResponse_getMessage_13236527074
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.response.APIResponse_getMessage_13236527074
 [INFO] Running codeit.gatcha.api.response.APIResponse_getBody_3068962102
@@ -237,9 +237,9 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.response.APIResponse_init_3834212898
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.response.APIResponse_init_3834212898
 [INFO] Running codeit.gatcha.api.response.APIResponse_getBody_3068962109
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.response.APIResponse_getBody_3068962109
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.response.APIResponse_getBody_3068962109
 [INFO] Running codeit.gatcha.api.response.ResponseFactory_init_5703573131
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.response.ResponseFactory_init_5703573131
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.response.ResponseFactory_init_5703573131
 [INFO] Running codeit.gatcha.api.response.APIResponse_getStatusCode_11718489243
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.response.APIResponse_getStatusCode_11718489243
 [INFO] Running codeit.gatcha.api.response.APIResponse_getMessage_132365270711
@@ -261,11 +261,11 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_init_14423304114
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_init_14423304114
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_init_14423304111
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_init_14423304111
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_init_14423304111
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_init_543457023
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_init_543457023
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getAnswer_521669521
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getAnswer_521669521
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getAnswer_521669521
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_getQuestionAnswers_13531782531
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_getQuestionAnswers_13531782531
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_init_12900772880
@@ -277,7 +277,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_init_543457027
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_init_543457027
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1709909102
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1709909102
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1709909102
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getAnswer_521669525
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getAnswer_521669525
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getQuestionId_14035924640
@@ -289,17 +289,17 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1709909105
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1709909105
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getQuestionId_14035924644
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getQuestionId_14035924644
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_getQuestionId_14035924644
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1011474300
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1011474300
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_init_1011474300
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_getQuestionBody_15051059922
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.NewQuestion_DTO_getQuestionBody_15051059922
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_getQuestionAnswers_13531782534
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_getQuestionAnswers_13531782534
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswers_DTO_getQuestionAnswers_13531782534
 [INFO] Running codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_init_2966886512
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.inputDTO.QuestionAnswer_DTO_init_2966886512
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_setQuestions_3212892479
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_setQuestions_3212892479
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_setQuestions_3212892479
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_init_38435439911
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_init_38435439911
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -341,7 +341,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_getBody_4794376580
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_getBody_4794376580
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_toString_18061488908
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_toString_18061488908
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_toString_18061488908
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_init_139660896313
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_init_139660896313
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_equals_150190935610
@@ -349,7 +349,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_canEqual_425398966
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_canEqual_425398966
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_init_13135604221
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_init_13135604221
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_init_13135604221
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_equals_8467025255
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_equals_8467025255
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_toString_54246299113
@@ -361,9 +361,9 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_equals_13934561172
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_equals_13934561172
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_init_26914548015
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_init_26914548015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_init_26914548015
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_toString_19420648145
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_toString_19420648145
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.AnswerDTO_toString_19420648145
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_init_29928606
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionsDTO_init_29928606
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_toString_180614889019
@@ -375,11 +375,11 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.User_QuestionsDTO_isPublished_18007048681
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.User_QuestionsDTO_isPublished_18007048681
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_getBody_102619125012
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_getBody_102619125012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_getBody_102619125012
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_getBody_10261912501
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_getBody_10261912501
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_init_64711745
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_init_64711745
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_init_64711745
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_init_64711745.test(User_QuestionDTO_init_64711745.java:44)
@@ -389,7 +389,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_setId_115952742615
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_setId_115952742615
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_setBody_154889947814
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_setBody_154889947814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.Admin_QuestionDTO_setBody_154889947814
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_init_12303945294
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_init_12303945294
 [INFO] Running codeit.gatcha.api.DTO.question.outputDTO.User_QuestionDTO_getBody_3132232246
@@ -473,7 +473,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_17209533481
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_17209533481
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_16670381605
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_16670381605
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_16670381605
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_16670381605.test(PublishedQuestionDTO_init_16670381605.java:42)
@@ -497,11 +497,11 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_11438207087
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_11438207087
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublicationLinkDTO_init_2457943545
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.Publication.PublicationLinkDTO_init_2457943545
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.Publication.PublicationLinkDTO_init_2457943545
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_getAnswer_7949651054
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_getAnswer_7949651054
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionsDTO_init_12163935011
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.Publication.PublishedQuestionsDTO_init_12163935011
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.DTO.Publication.PublishedQuestionsDTO_init_12163935011
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionsDTO_init_9442551610
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.DTO.Publication.PublishedQuestionsDTO_init_9442551610
 [INFO] Running codeit.gatcha.api.DTO.Publication.PublishedQuestionDTO_init_17209533486
@@ -567,7 +567,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.security.entity.RefreshToken_builder_12876579397
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.RefreshToken_builder_12876579397
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_getId_8104892181
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.security.entity.ConfirmationToken_getId_8104892181
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.ConfirmationToken_getId_8104892181
 [INFO] Running codeit.gatcha.api.security.entity.RefreshToken_RefreshTokenBuilder_userId_135701891510
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.RefreshToken_RefreshTokenBuilder_userId_135701891510
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_init_10156118314
@@ -579,7 +579,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_getCreatedDate_1975996313
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.ConfirmationToken_getCreatedDate_1975996313
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_hashCode_7495484625
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.security.entity.ConfirmationToken_hashCode_7495484625
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.ConfirmationToken_hashCode_7495484625
 [INFO] Running codeit.gatcha.api.security.entity.RefreshToken_RefreshTokenBuilder_creationDate_154954640311
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.RefreshToken_RefreshTokenBuilder_creationDate_154954640311
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_setConfirmationToken_214221831420
@@ -635,7 +635,7 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.security.entity.RefreshToken_getUserId_38465663910
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.RefreshToken_getUserId_38465663910
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_equals_5236415219
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.security.entity.ConfirmationToken_equals_5236415219
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.ConfirmationToken_equals_5236415219
 [INFO] Running codeit.gatcha.api.security.entity.ConfirmationToken_init_98126069513
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.entity.ConfirmationToken_init_98126069513
 [INFO] Running codeit.gatcha.api.security.entity.RefreshToken_getCreationDate_36259425911
@@ -709,9 +709,9 @@ Caused by: java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.security.dto.SignOutRequestDto_getRefreshToken_8719694932
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.dto.SignOutRequestDto_getRefreshToken_8719694932
 [INFO] Running codeit.gatcha.api.security.dto.SignOutRequestDto_getRefreshToken_8719694935
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.dto.SignOutRequestDto_getRefreshToken_8719694935
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.security.dto.SignOutRequestDto_getRefreshToken_8719694935
 [INFO] Running codeit.gatcha.api.security.dto.AuthenticationRequest_getPassword_3205446265
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.dto.AuthenticationRequest_getPassword_3205446265
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.security.dto.AuthenticationRequest_getPassword_3205446265
 [INFO] Running codeit.gatcha.api.security.dto.AuthenticationResponse_getRefreshToken_15334985396
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.dto.AuthenticationResponse_getRefreshToken_15334985396
 [INFO] Running codeit.gatcha.api.security.service.API_SignUpService_init_4532420050
@@ -723,7 +723,7 @@ java.lang.NullPointerException
 	at codeit.gatcha.api.security.service.RefreshTokenService_deleteByValue_19867818942.test(RefreshTokenService_deleteByValue_19867818942.java:42)
 
 [INFO] Running codeit.gatcha.api.security.service.RefreshTokenService_saveNewRefreshToken_15659470941
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in codeit.gatcha.api.security.service.RefreshTokenService_saveNewRefreshToken_15659470941
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in codeit.gatcha.api.security.service.RefreshTokenService_saveNewRefreshToken_15659470941
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at codeit.gatcha.api.security.service.RefreshTokenService_saveNewRefreshToken_15659470941.test(RefreshTokenService_saveNewRefreshToken_15659470941.java:67)
@@ -743,7 +743,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.api.security.service.API_SignUpService_init_4532420051
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.service.API_SignUpService_init_4532420051
 [INFO] Running codeit.gatcha.api.security.service.CustomUserDetails_CustomUserDetailsBuilder_init_13142265800
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.api.security.service.CustomUserDetails_CustomUserDetailsBuilder_init_13142265800
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.api.security.service.CustomUserDetails_CustomUserDetailsBuilder_init_13142265800
 [INFO] Running codeit.gatcha.api.security.service.ConfirmationTokenService_confirmationTokenDoesntExist_4770072950
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in codeit.gatcha.api.security.service.ConfirmationTokenService_confirmationTokenDoesntExist_4770072950
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -787,13 +787,13 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.user.entity.Authority_getRole_11195232228
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.Authority_getRole_11195232228
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_getEmail_180458032020
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_getEmail_180458032020
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.entity.GatchaUser_getEmail_180458032020
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_builder_21353245721
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_builder_21353245721
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.entity.GatchaUser_builder_21353245721
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_init_3545949550
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_init_3545949550
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_init_18154342793
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.entity.GatchaUser_init_18154342793
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_init_18154342793
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_toString_11804119647
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_toString_11804119647
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_setPassword_179530767726
@@ -827,7 +827,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.user.entity.Authority_init_66063744110
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.Authority_init_66063744110
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_setPassword_179530767712
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_setPassword_179530767712
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.entity.GatchaUser_setPassword_179530767712
 [INFO] Running codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_init_10838788956
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_init_10838788956
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_id_17725683021
@@ -863,7 +863,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_getPassword_20896523721
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_getPassword_20896523721
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_toString_118041196415
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_toString_118041196415
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_toString_118041196415
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_getPassword_2089652377
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_getPassword_2089652377
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_getId_19683080018
@@ -883,7 +883,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_build_115045049910
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_build_115045049910
 [INFO] Running codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_users_21389805519
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_users_21389805519
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.entity.Authority_AuthorityBuilder_users_21389805519
 [INFO] Running codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_init_6349561130
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.entity.GatchaUser_GatchaUserBuilder_init_6349561130
 [INFO] Running codeit.gatcha.domain.user.entity.Authority_init_18675037825
@@ -931,7 +931,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.user.DTO.SignUpDTO_SignUpDTOBuilder_email_20120012886
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.DTO.SignUpDTO_SignUpDTOBuilder_email_20120012886
 [INFO] Running codeit.gatcha.domain.user.DTO.SignUpDTO_init_1803387496
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.DTO.SignUpDTO_init_1803387496
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.user.DTO.SignUpDTO_init_1803387496
 [INFO] Running codeit.gatcha.domain.user.DTO.SignUpDTO_getEmail_10731682543
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.user.DTO.SignUpDTO_getEmail_10731682543
 [INFO] Running codeit.gatcha.domain.user.DTO.UserDTO_init_16321680240
@@ -1025,7 +1025,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.question.entity.Question_init_188231895113
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_init_188231895113
 [INFO] Running codeit.gatcha.domain.question.entity.Question_QuestionBuilder_toString_35952982511
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_QuestionBuilder_toString_35952982511
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.question.entity.Question_QuestionBuilder_toString_35952982511
 [INFO] Running codeit.gatcha.domain.question.entity.Question_QuestionBuilder_build_164548790810
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_QuestionBuilder_build_164548790810
 [INFO] Running codeit.gatcha.domain.question.entity.Question_getId_20530904283
@@ -1035,7 +1035,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.question.entity.Question_isValid_190754372520
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_isValid_190754372520
 [INFO] Running codeit.gatcha.domain.question.entity.Question_setValid_16495268658
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.question.entity.Question_setValid_16495268658
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_setValid_16495268658
 [INFO] Running codeit.gatcha.domain.question.entity.Question_getBody_96514764619
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_getBody_96514764619
 [INFO] Running codeit.gatcha.domain.question.entity.Question_QuestionBuilder_toString_3595298255
@@ -1077,7 +1077,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.question.entity.Question_builder_30554501317
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_builder_30554501317
 [INFO] Running codeit.gatcha.domain.question.entity.Question_init_17300658281
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_init_17300658281
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.question.entity.Question_init_17300658281
 [INFO] Running codeit.gatcha.domain.question.entity.Question_init_173006582816
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.question.entity.Question_init_173006582816
 [INFO] Running codeit.gatcha.domain.question.entity.Question_canEqual_10358350025
@@ -1221,7 +1221,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_body_1081741742
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_body_1081741742
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_getQuestion_5542592756
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.answer.entity.Answer_getQuestion_5542592756
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.answer.entity.Answer_getQuestion_5542592756
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_setQuestion_197781700722
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.answer.entity.Answer_setQuestion_197781700722
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_init_19572186792
@@ -1255,7 +1255,7 @@ java.lang.NullPointerException
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_build_180043361212
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_build_180043361212
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_user_16877978264
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_user_16877978264
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in codeit.gatcha.domain.answer.entity.Answer_AnswerBuilder_user_16877978264
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_builder_202789825313
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.domain.answer.entity.Answer_builder_202789825313
 [INFO] Running codeit.gatcha.domain.answer.entity.Answer_init_11182162912
@@ -1280,11 +1280,11 @@ java.lang.NullPointerException
 
 [INFO] Running codeit.gatcha.GatchaApplication_init_18592867070
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in codeit.gatcha.GatchaApplication_init_18592867070
-2026-04-08 06:07:15.812  INFO 76 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2026-04-08 06:07:15.818  INFO 76 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 06:07:15.818  INFO 76 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2026-04-08 06:07:15.830  INFO 76 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 06:07:15.832  INFO 76 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 12:56:18.966  INFO 75 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 12:56:18.972  INFO 75 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 12:56:18.973  INFO 75 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2026-04-09 12:56:18.985  INFO 75 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 12:56:18.987  INFO 75 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -1335,6 +1335,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  14.485 s
-[INFO] Finished at: 2026-04-08T06:07:16Z
+[INFO] Total time:  14.580 s
+[INFO] Finished at: 2026-04-09T12:56:19Z
 [INFO] ------------------------------------------------------------------------

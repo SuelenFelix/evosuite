@@ -42,7 +42,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427622
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
 
   .   ____          _            __ _ _
@@ -53,22 +53,22 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.4)
 
-2026-04-08 06:42:39.105  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Starting NewSpringAuthorizationServerApplication using Java 11.0.16 on 7df037b5bf4a with PID 69 (started by root in /app)
-2026-04-08 06:42:39.112  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 06:42:40.538  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
-2026-04-08 06:42:40.551  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 06:42:40.552  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2026-04-08 06:42:40.658  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 06:42:40.658  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1470 ms
-2026-04-08 06:42:41.769  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$731/0x000000084040e440@2a9af965
-2026-04-08 06:42:41.832  INFO 69 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2026-04-08 06:42:42.711  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
-2026-04-08 06:42:42.764  INFO 69 --- [me-limited test] .NewSpringAuthorizationServerApplication : Started NewSpringAuthorizationServerApplication in 4.269 seconds (JVM running for 5.5)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.585 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
+2026-04-09 13:34:41.255  INFO 73 --- [me-limited test] .NewSpringAuthorizationServerApplication : Starting NewSpringAuthorizationServerApplication using Java 11.0.16 on 2b90933bac30 with PID 73 (started by root in /app)
+2026-04-09 13:34:41.261  INFO 73 --- [me-limited test] .NewSpringAuthorizationServerApplication : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 13:34:42.679  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2026-04-09 13:34:42.691  INFO 73 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 13:34:42.692  INFO 73 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2026-04-09 13:34:42.801  INFO 73 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 13:34:42.802  INFO 73 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1446 ms
+2026-04-09 13:34:43.612  INFO 73 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.security.config.annotation.web.configurers.oauth2.server.authorization.OAuth2AuthorizationServerConfigurer$$Lambda$731/0x000000084040e440@10d09cf8
+2026-04-09 13:34:43.662  INFO 73 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2026-04-09 13:34:44.959  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2026-04-09 13:34:44.998  INFO 73 --- [me-limited test] .NewSpringAuthorizationServerApplication : Started NewSpringAuthorizationServerApplication in 4.525 seconds (JVM running for 7.147)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.004 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057661
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_init_13754427620
 [INFO] Running com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
-2026-04-08 06:42:42.933 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 13:34:45.067 ERROR 73 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.16.jar:5.3.16]
@@ -97,8 +97,8 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.153 s <<< FAILURE! - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
-[ERROR] test  Time elapsed: 0.15 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663
+[ERROR] test  Time elapsed: 0.049 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.appsdeveloperblog.photoapp.oauthserver.NewSpringAuthorizationServerApplication_main_17520057663.test(NewSpringAuthorizationServerApplication_main_17520057663.java:44)
 
@@ -125,6 +125,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.767 s
-[INFO] Finished at: 2026-04-08T06:42:43Z
+[INFO] Total time:  11.963 s
+[INFO] Finished at: 2026-04-09T13:34:46Z
 [INFO] ------------------------------------------------------------------------

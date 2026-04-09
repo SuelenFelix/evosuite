@@ -50,7 +50,7 @@ public class Genome implements Serializable {
 <span class="fc" id="L50">        Node node2 = this.nodes.get(random.nextInt(nodes.size()));</span>
 
         //We shouldn't connect same node types unless their type is HIDDEN
-<span class="pc bpc" id="L53" title="2 of 4 branches missed.">        if (node.getType() == node2.getType() &amp;&amp; node.getType() != Type.HIDDEN) return;</span>
+<span class="pc bpc" id="L53" title="1 of 4 branches missed.">        if (node.getType() == node2.getType() &amp;&amp; node.getType() != Type.HIDDEN) return;</span>
 //        if (node.getType() == node2.getType()) return;
 <span class="nc bnc" id="L55" title="All 2 branches missed.">        if (node.getInnovation() == node2.getInnovation()) return;</span>
         //We should connect only unconnected nodes
@@ -85,8 +85,8 @@ public class Genome implements Serializable {
 <span class="fc" id="L85">    }</span>
 
     public void enableConnectionMutation() {
-<span class="pc bpc" id="L88" title="1 of 2 branches missed.">        Optional&lt;Connection&gt; disabledConnection = connections.stream().filter(it -&gt; !it.isExpressed()).findFirst();</span>
-<span class="pc" id="L89">        disabledConnection.ifPresent(connection -&gt; connection.setExpressed(true));</span>
+<span class="fc bfc" id="L88" title="All 2 branches covered.">        Optional&lt;Connection&gt; disabledConnection = connections.stream().filter(it -&gt; !it.isExpressed()).findFirst();</span>
+<span class="fc" id="L89">        disabledConnection.ifPresent(connection -&gt; connection.setExpressed(true));</span>
 <span class="fc" id="L90">    }</span>
 
     public void toggleConnectionMutation() {
@@ -97,26 +97,26 @@ public class Genome implements Serializable {
     public Node makeNodeMutation() {
 <span class="fc" id="L98">        Connection oldConnection = connections.get(random.nextInt(connections.size()));</span>
 <span class="pc bpc" id="L99" title="1 of 2 branches missed.">        if (!oldConnection.isExpressed()) return null;</span>
-<span class="fc" id="L100">        oldConnection.setExpressed(false);</span>
+<span class="nc" id="L100">        oldConnection.setExpressed(false);</span>
 
 
-<span class="fc" id="L103">        Node newNode = new Node(Type.HIDDEN, nodeInnovator.nextInnovation(), 0);</span>
-<span class="fc" id="L104">        this.nodes.add(newNode);</span>
-<span class="fc" id="L105">        newConnection(oldConnection.getIn(), newNode, 1f);</span>
-<span class="fc" id="L106">        newConnection(newNode, oldConnection.getOut(), oldConnection.getWeight());</span>
-<span class="fc" id="L107">        return newNode;</span>
+<span class="nc" id="L103">        Node newNode = new Node(Type.HIDDEN, nodeInnovator.nextInnovation(), 0);</span>
+<span class="nc" id="L104">        this.nodes.add(newNode);</span>
+<span class="nc" id="L105">        newConnection(oldConnection.getIn(), newNode, 1f);</span>
+<span class="nc" id="L106">        newConnection(newNode, oldConnection.getOut(), oldConnection.getWeight());</span>
+<span class="nc" id="L107">        return newNode;</span>
     }
 
     @Override
     public String toString() {
-<span class="nc" id="L112">        return &quot;Genome{&quot; +</span>
+<span class="fc" id="L112">        return &quot;Genome{&quot; +</span>
                 &quot;nodes=&quot; + nodes +
                 &quot;, connections=&quot; + connections +
                 '}';
     }
 
     public List&lt;Node&gt; getNodes() {
-<span class="nc" id="L119">        return nodes;</span>
+<span class="fc" id="L119">        return nodes;</span>
     }
 
     public List&lt;Connection&gt; getConnections() {
@@ -124,8 +124,8 @@ public class Genome implements Serializable {
     }
 
     public void setRandom(Random random) {
-<span class="nc" id="L127">        this.random = random;</span>
-<span class="nc" id="L128">    }</span>
+<span class="fc" id="L127">        this.random = random;</span>
+<span class="fc" id="L128">    }</span>
 
     //TODO Find a better place for this
     public float randomWeight() {
@@ -134,7 +134,7 @@ public class Genome implements Serializable {
 
     //TODO Find a better place for this
     public float randomBias() {
-<span class="nc" id="L137">        return (random.nextFloat() * NODE_BIAS_RANGE) - (NODE_BIAS_RANGE / 2);</span>
+<span class="fc" id="L137">        return (random.nextFloat() * NODE_BIAS_RANGE) - (NODE_BIAS_RANGE / 2);</span>
     }
 
 

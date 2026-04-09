@@ -69,7 +69,7 @@ WARNING: Illegal reflective access by com.amazonaws.samples.stream.temperature.e
 WARNING: Please consider reporting this to the maintainers of com.amazonaws.samples.stream.temperature.event.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_init_7498174300
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_setId_189616372812
@@ -77,9 +77,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getStatus_81735006717
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_setCountryCode_14965884585
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_toString_25459614717
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_getBrand_34575607213
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_init_2908597040
@@ -87,21 +87,21 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_init_11543554831
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_init_13105095421
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.amazonaws.samples.stream.temperature.event.SensorInfo_getCountryCode_4654502526
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.samples.stream.temperature.event.SensorInfo_getCountryCode_4654502526
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setTimestamp_119253329020
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setStatus_10285637497
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_setBrand_7694244885
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_toString_2545961478
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setStatus_102856374918
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-Running com.amazonaws.samples.stream.temperature.event.SensorInfo_init_115435548310
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazonaws.samples.stream.temperature.event.SensorInfo_init_115435548310
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setSensorId_9188239214
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_getId_159579965611
@@ -115,13 +115,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_init_8738243900
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_getId_15957996562
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.amazonaws.samples.stream.temperature.event.Temperature_setTimestamp_11925332909
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.amazonaws.samples.stream.temperature.event.Temperature_setTimestamp_11925332909
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_setCountryCode_3623994367
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_toString_185596539310
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getTemperature_9635920304
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_init_14250487268
@@ -129,37 +129,37 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_getCountryCode_15996392744
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_init_14250487261
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setSensorId_918823923
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_setBrand_76942448814
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getTimestamp_13343260168
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_init_87382439011
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getSensorId_14944600482
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_getCountryCode_159963927411
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_getBrand_14799450942
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setTemperature_8642225845
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_setBrand_190361351010
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_toString_185596539321
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_init_131050954212
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getTimestamp_133432601619
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_toString_8795928756
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_init_2908597049
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getSensorId_149446004813
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_setBrand_19036135103
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_setTemperature_86422258416
@@ -167,23 +167,23 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_getBrand_14799450949
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_init_7498174307
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_setId_18961637283
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.SensorInfo_setCountryCode_36239943616
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.event.EnrichedTemperature_toString_87959287513
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.samples.stream.temperature.event.Temperature_getStatus_8173500676
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.ProcessTemperatureStream_init_21358650880
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.331 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.295 sec
 Running com.amazonaws.samples.stream.temperature.utils.ParameterToolUtils_init_14063659290
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running com.amazonaws.samples.stream.temperature.utils.ParameterToolUtils_init_14063659291
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.samples.stream.temperature.ProcessTemperatureStream_init_21358650881
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
 
@@ -200,6 +200,6 @@ Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.591 s
-[INFO] Finished at: 2026-04-08T00:59:47Z
+[INFO] Total time:  10.360 s
+[INFO] Finished at: 2026-04-09T14:56:44Z
 [INFO] ------------------------------------------------------------------------

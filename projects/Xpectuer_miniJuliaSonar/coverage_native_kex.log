@@ -71,14 +71,14 @@ WARNING: Illegal reflective access by tech.jiayezheng.miniJuliaSonar.ReflectionU
 WARNING: Please consider reporting this to the maintainers of tech.jiayezheng.miniJuliaSonar.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
 Running tech.jiayezheng.miniJuliaSonar.TypeStack_Pair_init_18835394011
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running tech.jiayezheng.miniJuliaSonar.Options_hasOption_12724456712
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running tech.jiayezheng.miniJuliaSonar.Outliner_Entry_getQname_10316281142
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
-test(tech.jiayezheng.miniJuliaSonar.Outliner_Entry_getQname_10316281142)  Time elapsed: 0.007 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+test(tech.jiayezheng.miniJuliaSonar.Outliner_Entry_getQname_10316281142)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -128,7 +128,7 @@ java.lang.NullPointerException
 Running tech.jiayezheng.miniJuliaSonar.Outliner_init_1923993654
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running tech.jiayezheng.miniJuliaSonar.__getSystemTempDir_6822580346
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
 Running tech.jiayezheng.miniJuliaSonar.Globals_Arch_valueOf_4117291484
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(tech.jiayezheng.miniJuliaSonar.Globals_Arch_valueOf_4117291484)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -174,10 +174,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running tech.jiayezheng.miniJuliaSonar.Builtins_newFunc_18546664019
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
 Running tech.jiayezheng.miniJuliaSonar.Outliner_Entry_getQname_103162811412
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(tech.jiayezheng.miniJuliaSonar.Outliner_Entry_getQname_103162811412)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(tech.jiayezheng.miniJuliaSonar.Outliner_Entry_getQname_103162811412)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -200,7 +200,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running tech.jiayezheng.miniJuliaSonar.Stats_print_7574888445
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running tech.jiayezheng.miniJuliaSonar.TestInference_init_209053877312
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
 test(tech.jiayezheng.miniJuliaSonar.TestInference_init_209053877312)  Time elapsed: 0.003 sec  <<< ERROR!
@@ -230,18 +230,18 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running tech.jiayezheng.miniJuliaSonar.AstCache_clearDiskCache_12560708772
-Apr 08, 2026 1:53:37 AM tech.jiayezheng.miniJuliaSonar.AstCache clearDiskCache
+Apr 09, 2026 3:40:39 PM tech.jiayezheng.miniJuliaSonar.AstCache clearDiskCache
 SEVERE: Failed to clear disk cache: java.lang.NullPointerException
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
 Running tech.jiayezheng.miniJuliaSonar.Binding_Kind_values_9610921930
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running tech.jiayezheng.miniJuliaSonar.Stats_init_19932749126
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running tech.jiayezheng.miniJuliaSonar.Binding_getURL_46832699011
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running tech.jiayezheng.miniJuliaSonar.__isReadableFile_49541327268
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(tech.jiayezheng.miniJuliaSonar.__isReadableFile_49541327268)  Time elapsed: 0.001 sec  <<< ERROR!
+test(tech.jiayezheng.miniJuliaSonar.__isReadableFile_49541327268)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at java.base/java.io.File.<init>(File.java:278)
 	at tech.jiayezheng.miniJuliaSonar.$.isReadableFile($.java:180)
@@ -266,9 +266,9 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running tech.jiayezheng.miniJuliaSonar.State_addSuper_207246009725
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running tech.jiayezheng.miniJuliaSonar.Binding_setQname_137069510517
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running tech.jiayezheng.miniJuliaSonar.__moduleName_109915086664
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(tech.jiayezheng.miniJuliaSonar.__moduleName_109915086664)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -320,10 +320,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running tech.jiayezheng.miniJuliaSonar.__escapeQname_203193847822
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running tech.jiayezheng.miniJuliaSonar.Binding_Kind_valueOf_14531225964
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(tech.jiayezheng.miniJuliaSonar.Binding_Kind_valueOf_14531225964)  Time elapsed: 0 sec  <<< ERROR!
+test(tech.jiayezheng.miniJuliaSonar.Binding_Kind_valueOf_14531225964)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
 	at tech.jiayezheng.miniJuliaSonar.Binding$Kind.valueOf(Binding.java:17)
@@ -425,8 +425,8 @@ Tests run: 25, Failures: 0, Errors: 11, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.611 s
-[INFO] Finished at: 2026-04-08T01:53:37Z
+[INFO] Total time:  4.757 s
+[INFO] Finished at: 2026-04-09T15:40:40Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project miniJuliaSonar: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test failed: The forked VM terminated without saying properly goodbye. VM crash or System.exit called ? -> [Help 1]
 [ERROR] 

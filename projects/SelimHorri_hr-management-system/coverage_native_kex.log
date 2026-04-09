@@ -13,7 +13,7 @@
 [INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ hr_management-system ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 4 resources
-[INFO] Copying 16 resources
+[INFO] Copying 17 resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ hr_management-system ---
 [INFO] Changes detected - recompiling the module!
@@ -74,47 +74,47 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.selimhorri.app.pack.controllers.HomeController_init_11622404231
-01:50:33.859 [Time-limited test] INFO com.selimhorri.app.pack.controllers.HomeController - ************ entering com.selimhorri.app.pack.controllers.HomeController ************
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 s - in com.selimhorri.app.pack.controllers.HomeController_init_11622404231
+15:38:16.812 [Time-limited test] INFO com.selimhorri.app.pack.controllers.HomeController - ************ entering com.selimhorri.app.pack.controllers.HomeController ************
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in com.selimhorri.app.pack.controllers.HomeController_init_11622404231
 [INFO] Running com.selimhorri.app.pack.controllers.DepartmentController_init_6097316731
-01:50:33.889 [Time-limited test] INFO com.selimhorri.app.pack.controllers.DepartmentController - ************ entering com.selimhorri.app.pack.controllers.DepartmentController ************
+15:38:16.822 [Time-limited test] INFO com.selimhorri.app.pack.controllers.DepartmentController - ************ entering com.selimhorri.app.pack.controllers.DepartmentController ************
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.DepartmentController_init_6097316731
 [INFO] Running com.selimhorri.app.pack.controllers.EmployeeController_init_2852115450
-01:50:33.895 [Time-limited test] INFO com.selimhorri.app.pack.controllers.EmployeeController - ************ entering com.selimhorri.app.pack.controllers.EmployeeController ************
+15:38:16.827 [Time-limited test] INFO com.selimhorri.app.pack.controllers.EmployeeController - ************ entering com.selimhorri.app.pack.controllers.EmployeeController ************
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.EmployeeController_init_2852115450
 [INFO] Running com.selimhorri.app.pack.controllers.HomeController_init_11622404230
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.selimhorri.app.pack.controllers.HomeController_init_11622404230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.HomeController_init_11622404230
 [INFO] Running com.selimhorri.app.pack.controllers.api.UserCredentialRESTController_init_3292782880
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.controllers.api.UserCredentialRESTController_init_3292782880
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.api.UserCredentialRESTController_init_3292782880
 [INFO] Running com.selimhorri.app.pack.controllers.api.UserCredentialRESTController_init_3292782881
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.api.UserCredentialRESTController_init_3292782881
 [INFO] Running com.selimhorri.app.pack.controllers.api.EmployeeRESTController_init_14990900001
-01:50:33.907 [Time-limited test] INFO com.selimhorri.app.pack.controllers.api.EmployeeRESTController - ************ entering com.selimhorri.app.pack.controllers.api.EmployeeRESTController ************
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.controllers.api.EmployeeRESTController_init_14990900001
+15:38:16.837 [Time-limited test] INFO com.selimhorri.app.pack.controllers.api.EmployeeRESTController - ************ entering com.selimhorri.app.pack.controllers.api.EmployeeRESTController ************
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.api.EmployeeRESTController_init_14990900001
 [INFO] Running com.selimhorri.app.pack.controllers.api.EmployeeRESTController_init_14990900000
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.api.EmployeeRESTController_init_14990900000
 [INFO] Running com.selimhorri.app.pack.controllers.api.DepartmentRESTController_init_19502243040
-01:50:33.918 [Time-limited test] INFO com.selimhorri.app.pack.controllers.api.DepartmentRESTController - ************ entering com.selimhorri.app.pack.controllers.api.DepartmentRESTController ************
+15:38:16.841 [Time-limited test] INFO com.selimhorri.app.pack.controllers.api.DepartmentRESTController - ************ entering com.selimhorri.app.pack.controllers.api.DepartmentRESTController ************
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.api.DepartmentRESTController_init_19502243040
 [INFO] Running com.selimhorri.app.pack.controllers.api.DepartmentRESTController_init_19502243041
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.api.DepartmentRESTController_init_19502243041
 [INFO] Running com.selimhorri.app.pack.controllers.DepartmentController_init_6097316730
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.controllers.DepartmentController_init_6097316730
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.DepartmentController_init_6097316730
 [INFO] Running com.selimhorri.app.pack.controllers.EmployeeController_init_2852115451
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.controllers.EmployeeController_init_2852115451
 [INFO] Running com.selimhorri.app.pack.configs.MapperConfig_init_20053608890
-01:50:33.933 [Time-limited test] INFO com.selimhorri.app.pack.configs.MapperConfig - ************ entering com.selimhorri.app.pack.configs.MapperConfig ************
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.configs.MapperConfig_init_20053608890
+15:38:16.845 [Time-limited test] INFO com.selimhorri.app.pack.configs.MapperConfig - ************ entering com.selimhorri.app.pack.configs.MapperConfig ************
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.configs.MapperConfig_init_20053608890
 [INFO] Running com.selimhorri.app.pack.configs.MapperConfig_init_20053608891
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.configs.MapperConfig_init_20053608891
 [INFO] Running com.selimhorri.app.pack.configs.swagger.SwaggerConfig_init_4813032710
-01:50:33.938 [Time-limited test] INFO com.selimhorri.app.pack.configs.swagger.SwaggerConfig - ************ entering com.selimhorri.app.pack.configs.swagger.SwaggerConfig ************
+15:38:16.851 [Time-limited test] INFO com.selimhorri.app.pack.configs.swagger.SwaggerConfig - ************ entering com.selimhorri.app.pack.configs.swagger.SwaggerConfig ************
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.configs.swagger.SwaggerConfig_init_4813032710
 [INFO] Running com.selimhorri.app.pack.configs.swagger.SwaggerConfig_init_4813032711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.configs.swagger.SwaggerConfig_init_4813032711
 [INFO] Running com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293443
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.21 s <<< FAILURE! - in com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293443
-[ERROR] test  Time elapsed: 0.21 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.159 s <<< FAILURE! - in com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293443
+[ERROR] test  Time elapsed: 0.159 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293443.test(HrManagementSystemApplication_main_16680293443.java:44)
 
@@ -128,25 +128,25 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.3.4.RELEASE)
 
-2026-04-08 01:50:34.883  INFO 72 --- [me-limited test] c.s.a.p.HrManagementSystemApplication    : Starting HrManagementSystemApplication on ba825d92db8a with PID 72 (started by root in /app)
-2026-04-08 01:50:34.887  INFO 72 --- [me-limited test] c.s.a.p.HrManagementSystemApplication    : No active profile set, falling back to default profiles: default
-2026-04-08 01:50:37.829  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2026-04-08 01:50:37.854 DEBUG 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
-2026-04-08 01:50:37.871 DEBUG 72 --- [me-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/DepartmentRepository.class]
-2026-04-08 01:50:37.873 DEBUG 72 --- [me-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/EmployeeRepository.class]
-2026-04-08 01:50:37.874 DEBUG 72 --- [me-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/UserCredentialRepository.class]
-2026-04-08 01:50:37.955 DEBUG 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
-2026-04-08 01:50:37.956  INFO 72 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 3 JPA repository interfaces.
-2026-04-08 01:50:38.258  INFO 72 --- [me-limited test] c.s.app.pack.configs.CorsConfig          : ************ entering com.selimhorri.app.pack.configs.CorsConfig ************
-2026-04-08 01:50:38.996  INFO 72 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:50:39.010  INFO 72 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:50:39.011  INFO 72 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2026-04-08 01:50:39.125  INFO 72 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:50:39.128  INFO 72 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4134 ms
-2026-04-08 01:50:39.215 DEBUG 72 --- [me-limited test] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
-2026-04-08 01:50:39.390  INFO 72 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:50:39.408  INFO 72 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:50:40.605 ERROR 72 --- [me-limited test] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2026-04-09 15:38:17.501  INFO 73 --- [me-limited test] c.s.a.p.HrManagementSystemApplication    : Starting HrManagementSystemApplication on 3d1ba17108e3 with PID 73 (started by root in /app)
+2026-04-09 15:38:17.502  INFO 73 --- [me-limited test] c.s.a.p.HrManagementSystemApplication    : No active profile set, falling back to default profiles: default
+2026-04-09 15:38:18.194  INFO 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2026-04-09 15:38:18.210 DEBUG 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
+2026-04-09 15:38:18.222 DEBUG 73 --- [me-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/DepartmentRepository.class]
+2026-04-09 15:38:18.223 DEBUG 73 --- [me-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/EmployeeRepository.class]
+2026-04-09 15:38:18.223 DEBUG 73 --- [me-limited test] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/UserCredentialRepository.class]
+2026-04-09 15:38:18.266 DEBUG 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
+2026-04-09 15:38:18.267  INFO 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 3 JPA repository interfaces.
+2026-04-09 15:38:18.436  INFO 73 --- [me-limited test] c.s.app.pack.configs.CorsConfig          : ************ entering com.selimhorri.app.pack.configs.CorsConfig ************
+2026-04-09 15:38:18.842  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:38:18.854  INFO 73 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:38:18.854  INFO 73 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2026-04-09 15:38:18.944  INFO 73 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:38:18.945  INFO 73 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1394 ms
+2026-04-09 15:38:19.006 DEBUG 73 --- [me-limited test] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2026-04-09 15:38:19.157  INFO 73 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:38:19.172  INFO 73 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:38:20.290 ERROR 73 --- [me-limited test] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -249,26 +249,26 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
 	... 71 common frames omitted
 
-2026-04-08 01:50:41.027 DEBUG 72 --- [me-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
-2026-04-08 01:50:41.045  INFO 72 --- [me-limited test] c.s.a.p.s.impls.DepartmentServiceImpl    : ************ entering com.selimhorri.app.pack.services.impls.DepartmentServiceImpl ************
-2026-04-08 01:50:41.052  INFO 72 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:50:41.124 DEBUG 72 --- [me-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
-2026-04-08 01:50:41.204  INFO 72 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
-2026-04-08 01:50:41.235  INFO 72 --- [me-limited test] c.s.a.p.s.impls.EmployeeServiceImpl      : ************ entering com.selimhorri.app.pack.services.impls.EmployeeServiceImpl ************
-2026-04-08 01:50:41.285 DEBUG 72 --- [me-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
-2026-04-08 01:50:41.323  INFO 72 --- [me-limited test] c.s.app.pack.exceptions.ApiHandler       : ************ entering com.selimhorri.app.pack.exceptions.ApiHandler ************
-2026-04-08 01:50:41.455  WARN 72 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:50:41.561  INFO 72 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2026-04-08 01:50:41.936  INFO 72 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:50:41.967  INFO 72 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@176eca70, org.springframework.security.web.context.SecurityContextPersistenceFilter@62cb6a57, org.springframework.security.web.header.HeaderWriterFilter@16ec5590, org.springframework.security.web.authentication.logout.LogoutFilter@289ae5c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f9364f4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@25a690d4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@23f10b58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a30c307, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c11eb4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78ee4480, org.springframework.security.web.session.SessionManagementFilter@539bc32f, org.springframework.security.web.access.ExceptionTranslationFilter@176d06d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@419d861b]
-2026-04-08 01:50:42.504 DEBUG 72 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-04-08 01:50:42.604 DEBUG 72 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
-2026-04-08 01:50:42.636 DEBUG 72 --- [me-limited test] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-04-08 01:50:42.656 DEBUG 72 --- [me-limited test] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-04-08 01:50:42.861  INFO 72 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:50:42.864  INFO 72 --- [me-limited test] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2026-04-08 01:50:42.911 DEBUG 72 --- [me-limited test] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
-2026-04-08 01:50:42.947 ERROR 72 --- [         task-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2026-04-09 15:38:20.344 DEBUG 73 --- [me-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2026-04-09 15:38:20.356  INFO 73 --- [me-limited test] c.s.a.p.s.impls.DepartmentServiceImpl    : ************ entering com.selimhorri.app.pack.services.impls.DepartmentServiceImpl ************
+2026-04-09 15:38:20.375  INFO 73 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:38:20.390 DEBUG 73 --- [me-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2026-04-09 15:38:20.421  INFO 73 --- [me-limited test] c.s.a.p.s.impls.EmployeeServiceImpl      : ************ entering com.selimhorri.app.pack.services.impls.EmployeeServiceImpl ************
+2026-04-09 15:38:20.437 DEBUG 73 --- [me-limited test] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2026-04-09 15:38:20.445  INFO 73 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2026-04-09 15:38:20.452  INFO 73 --- [me-limited test] c.s.app.pack.exceptions.ApiHandler       : ************ entering com.selimhorri.app.pack.exceptions.ApiHandler ************
+2026-04-09 15:38:20.497  WARN 73 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:38:20.599  INFO 73 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2026-04-09 15:38:20.664  INFO 73 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3853b8ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ebe8d5, org.springframework.security.web.header.HeaderWriterFilter@15d42c56, org.springframework.security.web.authentication.logout.LogoutFilter@457ddfa2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2236fd9e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7e36f806, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@765e9907, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@209b2611, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a753f32, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c196e14, org.springframework.security.web.session.SessionManagementFilter@356baf06, org.springframework.security.web.access.ExceptionTranslationFilter@12ea1acd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4274ea84]
+2026-04-09 15:38:20.703  INFO 73 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:38:20.796 DEBUG 73 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-09 15:38:20.865 DEBUG 73 --- [me-limited test] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2026-04-09 15:38:20.890 DEBUG 73 --- [me-limited test] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-09 15:38:20.903 DEBUG 73 --- [me-limited test] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-09 15:38:21.012  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:38:21.013  INFO 73 --- [me-limited test] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2026-04-09 15:38:21.047 DEBUG 73 --- [me-limited test] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+2026-04-09 15:38:21.706 ERROR 73 --- [         task-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -336,28 +336,28 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
 	... 36 common frames omitted
 
-2026-04-08 01:50:42.949  WARN 72 --- [         task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
+2026-04-09 15:38:21.707  WARN 73 --- [         task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2026-04-08 01:50:42.982  INFO 72 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2026-04-08 01:50:43.570  INFO 72 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:50:43.579  INFO 72 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:50:43.580  INFO 72 --- [         task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:50:43.589 DEBUG 72 --- [me-limited test] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
-2026-04-08 01:50:43.733 DEBUG 72 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
-2026-04-08 01:50:43.796 DEBUG 72 --- [me-limited test] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
-2026-04-08 01:50:43.815 DEBUG 72 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
-2026-04-08 01:50:43.825 DEBUG 72 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
-2026-04-08 01:50:43.841 DEBUG 72 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
-2026-04-08 01:50:43.847 DEBUG 72 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
-2026-04-08 01:50:43.858 DEBUG 72 --- [me-limited test] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
-2026-04-08 01:50:43.862 DEBUG 72 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
-2026-04-08 01:50:43.863  INFO 72 --- [me-limited test] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2026-04-08 01:50:43.870  INFO 72 --- [me-limited test] c.s.a.p.HrManagementSystemApplication    : Started HrManagementSystemApplication in 9.669 seconds (JVM running for 11.673)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.671 s - in com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293441
+2026-04-09 15:38:21.723  INFO 73 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2026-04-09 15:38:22.115  INFO 73 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:38:22.122  INFO 73 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:38:22.122  INFO 73 --- [         task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:38:22.132 DEBUG 73 --- [me-limited test] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
+2026-04-09 15:38:22.237 DEBUG 73 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2026-04-09 15:38:22.277 DEBUG 73 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
+2026-04-09 15:38:22.283 DEBUG 73 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2026-04-09 15:38:22.303 DEBUG 73 --- [me-limited test] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
+2026-04-09 15:38:22.318 DEBUG 73 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
+2026-04-09 15:38:22.323 DEBUG 73 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2026-04-09 15:38:22.330 DEBUG 73 --- [me-limited test] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
+2026-04-09 15:38:22.334 DEBUG 73 --- [me-limited test] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
+2026-04-09 15:38:22.335  INFO 73 --- [me-limited test] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2026-04-09 15:38:22.343  INFO 73 --- [me-limited test] c.s.a.p.HrManagementSystemApplication    : Started HrManagementSystemApplication in 5.302 seconds (JVM running for 6.552)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.305 s - in com.selimhorri.app.pack.HrManagementSystemApplication_main_16680293441
 [INFO] Running com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_getBoss_20340263595
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_getBoss_20340263595
-[ERROR] test  Time elapsed: 0.004 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_getBoss_20340263595
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_getBoss_20340263595.test(EmployeeServiceImpl_getBoss_20340263595.java:40)
 
@@ -368,7 +368,7 @@ java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findAll_1376716160.test(EmployeeServiceImpl_findAll_1376716160.java:40)
 
 [INFO] Running com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findById_12279718791
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findById_12279718791
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findById_12279718791
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_findById_12279718791.test(DepartmentServiceImpl_findById_12279718791.java:45)
@@ -386,7 +386,7 @@ java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_delete_12365591834.test(EmployeeServiceImpl_delete_12365591834.java:45)
 
 [INFO] Running com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_delete_17914816434
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_delete_17914816434
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_delete_17914816434
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_delete_17914816434.test(DepartmentServiceImpl_delete_17914816434.java:45)
@@ -398,7 +398,7 @@ java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_update_13298945333.test(EmployeeServiceImpl_update_13298945333.java:156)
 
 [INFO] Running com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findById_14669679031
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findById_14669679031
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findById_14669679031
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.EmployeeServiceImpl_findById_14669679031.test(EmployeeServiceImpl_findById_14669679031.java:45)
@@ -410,7 +410,7 @@ java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_save_626695332.test(DepartmentServiceImpl_save_626695332.java:59)
 
 [INFO] Running com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_update_20002838633
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_update_20002838633
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_update_20002838633
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.selimhorri.app.pack.services.impls.DepartmentServiceImpl_update_20002838633.test(DepartmentServiceImpl_update_20002838633.java:59)
@@ -426,19 +426,19 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getSal_109463822616
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getSal_109463822616
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setJob_14008798236
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setJob_14008798236
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setJob_14008798236
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_79306871510
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_79306871510
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_setEmpno_9127688224
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEmpno_9127688224
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEmpno_9127688224
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_setMgr_9616713018
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setMgr_9616713018
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setMgr_9616713018
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_setMgr_96167130117
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setMgr_96167130117
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setMgr_96167130117
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_setEname_186987558215
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEname_186987558215
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEname_186987558215
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_6386661042
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_6386661042
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_6386661042
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_init_192351593211
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_init_192351593211
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_getEname_14462071665
@@ -448,33 +448,33 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getJob_15207062895
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getJob_15207062895
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setJob_140087982315
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setJob_140087982315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setJob_140087982315
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_toString_13385245669
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_toString_13385245669
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_init_3556908891
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_init_3556908891
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_init_3556908891
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_init_35569088910
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_init_35569088910
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getEname_10088293403
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getEname_10088293403
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getEname_10088293403
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_toString_9011467409
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_toString_9011467409
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_63866610411
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_63866610411
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_63866610411
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setSal_19612146388
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setSal_19612146388
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_getEname_144620716614
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_getEname_144620716614
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_getEname_144620716614
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_toString_9011467400
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_toString_9011467400
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_7930687151
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_7930687151
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_init_7930687151
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_setEmpno_91276882213
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEmpno_91276882213
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setEname_14324977564
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setEname_14324977564
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_setEname_18698755826
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEname_18698755826
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_setEname_18698755826
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setEname_143249775613
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setEname_143249775613
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_getEmpno_1476732812
@@ -482,21 +482,21 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_getEmpno_147673283
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_getEmpno_147673283
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getJob_152070628914
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getJob_152070628914
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getJob_152070628914
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_init_19235159322
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_init_19235159322
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getEname_100882934012
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getEname_100882934012
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_getEname_100882934012
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_getMgr_173337979316
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_getMgr_173337979316
 [INFO] Running com.selimhorri.app.pack.models.dto.ManagerDTO_getMgr_17333797937
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_getMgr_17333797937
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.ManagerDTO_getMgr_17333797937
 [INFO] Running com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setSal_196121463817
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.dto.BossEmployeeDTO_setSal_196121463817
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getEmployee_54950020731
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_getEmployee_54950020731
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_setEmployees_38691390410
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_setEmployees_38691390410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Department_setEmployees_38691390410
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setMgr_55930780729
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setMgr_55930780729
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getEmail_161545044425
@@ -512,7 +512,7 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_setEmployees_38691390421
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_setEmployees_38691390421
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_init_156600963912
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Department_init_156600963912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_init_156600963912
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_init_2151891990
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_init_2151891990
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_init_4667260519
@@ -520,9 +520,9 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setEname_202272822025
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setEname_202272822025
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getMgr_21357432879
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getMgr_21357432879
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_getMgr_21357432879
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getSal_25489690632
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getSal_25489690632
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_getSal_25489690632
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setHireDate_127111017031
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setHireDate_127111017031
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getDepartment_142097031517
@@ -542,9 +542,9 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_init_14211755021
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_init_14211755021
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getDepartment_142097031536
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_getDepartment_142097031536
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getDepartment_142097031536
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setMgr_55930780710
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setMgr_55930780710
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_setMgr_55930780710
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setHireDate_127111017012
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setHireDate_127111017012
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setSal_149401133833
@@ -554,7 +554,7 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_setEnabled_17663385707
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_setEnabled_17663385707
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getHireDate_80878058211
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_getHireDate_80878058211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getHireDate_80878058211
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getJob_68096496926
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getJob_68096496926
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getJob_6809649697
@@ -562,15 +562,15 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_setRole_147617998630
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_setRole_147617998630
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getHireDate_80878058230
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getHireDate_80878058230
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_getHireDate_80878058230
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getComm_136893046034
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getComm_136893046034
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getRole_24369658212
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.UserCredential_getRole_24369658212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_getRole_24369658212
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_setLoc_10349882168
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Department_setLoc_10349882168
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_setLoc_10349882168
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setComm_21667935635
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Employee_setComm_21667935635
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setComm_21667935635
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_toString_4987832462
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_toString_4987832462
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_toString_49878324621
@@ -606,7 +606,7 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getPassword_198353614
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_getPassword_198353614
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getEnabled_207317932023
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.UserCredential_getEnabled_207317932023
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_getEnabled_207317932023
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getEmail_16154504448
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_getEmail_16154504448
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_getDname_153228941716
@@ -632,7 +632,7 @@ java.lang.NullPointerException
 	at com.selimhorri.app.pack.models.entities.Department_getEmployees_90618021420.test(Department_getEmployees_90618021420.java:46)
 
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_init_11571123190
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Department_init_11571123190
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_init_11571123190
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getId_38596067633
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.UserCredential_getId_38596067633
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getPhone_57291877810
@@ -658,7 +658,7 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_init_15660096391
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_init_15660096391
 [INFO] Running com.selimhorri.app.pack.models.entities.Department_setDeptno_9931991234
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.Department_setDeptno_9931991234
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Department_setDeptno_9931991234
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getEmpno_38759616622
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_getEmpno_38759616622
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_getSal_25489690613
@@ -672,7 +672,7 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setComm_21667935616
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setComm_21667935616
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_setUsername_5509715343
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.selimhorri.app.pack.models.entities.UserCredential_setUsername_5509715343
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.selimhorri.app.pack.models.entities.UserCredential_setUsername_5509715343
 [INFO] Running com.selimhorri.app.pack.models.entities.Employee_setEname_20227282206
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.models.entities.Employee_setEname_20227282206
 [INFO] Running com.selimhorri.app.pack.models.entities.UserCredential_getRole_24369658229
@@ -698,12 +698,12 @@ java.lang.NullPointerException
 [INFO] Running com.selimhorri.app.pack.HrManagementSystemApplication_init_12914663400
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.selimhorri.app.pack.HrManagementSystemApplication_init_12914663400
 [INFO] Running com.selimhorri.app.pack.HrManagementSystemApplicationTests
-2026-04-08 01:50:44.337  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selimhorri.app.pack.HrManagementSystemApplicationTests], using SpringBootContextLoader
-2026-04-08 01:50:44.338  INFO 72 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selimhorri.app.pack.HrManagementSystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:50:44.339  INFO 72 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.selimhorri.app.pack.HrManagementSystemApplicationTests]: HrManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:50:44.362  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.selimhorri.app.pack.HrManagementSystemApplication for test class com.selimhorri.app.pack.HrManagementSystemApplicationTests
-2026-04-08 01:50:44.367  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:50:44.379  INFO 72 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@357c9bd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7aea704c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6d0290d8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32507479, org.springframework.test.context.support.DirtiesContextTestExecutionListener@632383b9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ae2e781, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@339f3a55, org.springframework.test.context.event.EventPublishingTestExecutionListener@2dd63e3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d1c164a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@209f3887, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a98f353, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3b35798, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e00bfe2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4702e7a5]
+2026-04-09 15:38:22.578  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selimhorri.app.pack.HrManagementSystemApplicationTests], using SpringBootContextLoader
+2026-04-09 15:38:22.579  INFO 73 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selimhorri.app.pack.HrManagementSystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:38:22.580  INFO 73 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.selimhorri.app.pack.HrManagementSystemApplicationTests]: HrManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:38:22.606  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.selimhorri.app.pack.HrManagementSystemApplication for test class com.selimhorri.app.pack.HrManagementSystemApplicationTests
+2026-04-09 15:38:22.611  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:38:22.622  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5db948c9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@296edc75, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@357c9bd9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7aea704c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d0290d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32507479, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@632383b9, org.springframework.test.context.event.EventPublishingTestExecutionListener@4ae2e781, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@339f3a55, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2dd63e3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d1c164a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@209f3887, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6a98f353, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3b35798]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -713,10 +713,19 @@ java.lang.NullPointerException
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.3.4.RELEASE)
 
-2026-04-08 01:50:44.418  INFO 72 --- [           main] s.a.p.HrManagementSystemApplicationTests : Starting HrManagementSystemApplicationTests on ba825d92db8a with PID 72 (started by root in /app)
-2026-04-08 01:50:44.419  INFO 72 --- [           main] s.a.p.HrManagementSystemApplicationTests : No active profile set, falling back to default profiles: default
-2026-04-08 01:50:44.427 DEBUG 72 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1eca3ea7
-2026-04-08 01:50:44.582 ERROR 72 --- [         task-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2026-04-09 15:38:22.662  INFO 73 --- [           main] s.a.p.HrManagementSystemApplicationTests : Starting HrManagementSystemApplicationTests on 3d1ba17108e3 with PID 73 (started by root in /app)
+2026-04-09 15:38:22.662  INFO 73 --- [           main] s.a.p.HrManagementSystemApplicationTests : No active profile set, falling back to default profiles: default
+2026-04-09 15:38:22.664 DEBUG 73 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2bab618
+2026-04-09 15:38:22.772  INFO 73 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2026-04-09 15:38:22.773 DEBUG 73 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
+2026-04-09 15:38:22.779 DEBUG 73 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/DepartmentRepository.class]
+2026-04-09 15:38:22.779 DEBUG 73 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/EmployeeRepository.class]
+2026-04-09 15:38:22.779 DEBUG 73 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/UserCredentialRepository.class]
+2026-04-09 15:38:22.787 DEBUG 73 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
+2026-04-09 15:38:22.787  INFO 73 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 3 JPA repository interfaces.
+2026-04-09 15:38:22.903  INFO 73 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:38:22.905  INFO 73 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:38:23.125 ERROR 73 --- [         task-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -778,16 +787,7 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
 	... 30 common frames omitted
 
-2026-04-08 01:50:44.605  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2026-04-08 01:50:44.606 DEBUG 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
-2026-04-08 01:50:44.615 DEBUG 72 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/DepartmentRepository.class]
-2026-04-08 01:50:44.615 DEBUG 72 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/EmployeeRepository.class]
-2026-04-08 01:50:44.615 DEBUG 72 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [/app/target/classes/com/selimhorri/app/pack/repositories/UserCredentialRepository.class]
-2026-04-08 01:50:44.624 DEBUG 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
-2026-04-08 01:50:44.624  INFO 72 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 3 JPA repository interfaces.
-2026-04-08 01:50:44.812  INFO 72 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:50:44.815  INFO 72 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:50:45.818 ERROR 72 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
+2026-04-09 15:38:23.908 ERROR 73 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -935,20 +935,20 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
 	... 116 common frames omitted
 
-2026-04-08 01:50:45.846  INFO 72 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:50:45.851  INFO 72 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:50:45.854 DEBUG 72 --- [           main] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
-2026-04-08 01:50:45.858 DEBUG 72 --- [           main] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
-2026-04-08 01:50:45.866 DEBUG 72 --- [           main] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
-2026-04-08 01:50:45.908  WARN 72 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:50:46.016  INFO 72 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@748904e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@638afcaa, org.springframework.security.web.header.HeaderWriterFilter@394a6d2b, org.springframework.security.web.authentication.logout.LogoutFilter@f03ee8f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12cd129c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@43e8f1c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4fbaa7f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62735b13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7aae1170, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b3056a6, org.springframework.security.web.session.SessionManagementFilter@55adcf9e, org.springframework.security.web.access.ExceptionTranslationFilter@77663cd7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@474e34e4]
-2026-04-08 01:50:46.155 DEBUG 72 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-04-08 01:50:46.222 DEBUG 72 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
-2026-04-08 01:50:46.248 DEBUG 72 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-04-08 01:50:46.255 DEBUG 72 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-04-08 01:50:46.343  INFO 72 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2026-04-08 01:50:46.367 DEBUG 72 --- [           main] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
-2026-04-08 01:50:46.853 ERROR 72 --- [         task-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
+2026-04-09 15:38:23.924  INFO 73 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:38:23.928  INFO 73 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:38:23.931 DEBUG 73 --- [           main] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2026-04-09 15:38:23.934 DEBUG 73 --- [           main] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2026-04-09 15:38:23.941 DEBUG 73 --- [           main] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2026-04-09 15:38:23.968  WARN 73 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:38:24.037  INFO 73 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@748904e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@638afcaa, org.springframework.security.web.header.HeaderWriterFilter@394a6d2b, org.springframework.security.web.authentication.logout.LogoutFilter@f03ee8f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12cd129c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@43e8f1c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4fbaa7f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62735b13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7aae1170, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b3056a6, org.springframework.security.web.session.SessionManagementFilter@55adcf9e, org.springframework.security.web.access.ExceptionTranslationFilter@77663cd7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@474e34e4]
+2026-04-09 15:38:24.162 DEBUG 73 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-09 15:38:24.176 DEBUG 73 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2026-04-09 15:38:24.198 DEBUG 73 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-09 15:38:24.204 DEBUG 73 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-09 15:38:24.280  INFO 73 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2026-04-09 15:38:24.297 DEBUG 73 --- [           main] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+2026-04-09 15:38:24.930 ERROR 73 --- [         task-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -1016,29 +1016,29 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
 	... 36 common frames omitted
 
-2026-04-08 01:50:46.854  WARN 72 --- [         task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
+2026-04-09 15:38:24.931  WARN 73 --- [         task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2026-04-08 01:50:46.855  INFO 72 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2026-04-08 01:50:46.882  INFO 72 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:50:46.883  INFO 72 --- [         task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:50:46.883  INFO 72 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:50:46.883 DEBUG 72 --- [           main] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
-2026-04-08 01:50:46.902 DEBUG 72 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
-2026-04-08 01:50:46.911 DEBUG 72 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
-2026-04-08 01:50:46.920 DEBUG 72 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
-2026-04-08 01:50:46.928 DEBUG 72 --- [           main] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
-2026-04-08 01:50:46.931 DEBUG 72 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
-2026-04-08 01:50:46.936 DEBUG 72 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
-2026-04-08 01:50:46.945 DEBUG 72 --- [           main] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
-2026-04-08 01:50:46.947 DEBUG 72 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
-2026-04-08 01:50:46.948  INFO 72 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2026-04-08 01:50:46.950  INFO 72 --- [           main] s.a.p.HrManagementSystemApplicationTests : Started HrManagementSystemApplicationTests in 2.559 seconds (JVM running for 14.753)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.345 s - in com.selimhorri.app.pack.HrManagementSystemApplicationTests
-2026-04-08 01:50:47.667 DEBUG 72 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1eca3ea7, started on Wed Apr 08 01:50:44 UTC 2026
-2026-04-08 01:50:47.676  INFO 72 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:50:47.680  INFO 72 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:50:47.682 ERROR 72 --- [         task-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
+2026-04-09 15:38:24.931  INFO 73 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2026-04-09 15:38:24.949  INFO 73 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:38:24.949  INFO 73 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:38:24.950  INFO 73 --- [         task-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:38:24.950 DEBUG 73 --- [           main] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
+2026-04-09 15:38:24.962 DEBUG 73 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2026-04-09 15:38:24.966 DEBUG 73 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
+2026-04-09 15:38:24.970 DEBUG 73 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2026-04-09 15:38:24.974 DEBUG 73 --- [           main] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
+2026-04-09 15:38:24.975 DEBUG 73 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
+2026-04-09 15:38:24.979 DEBUG 73 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2026-04-09 15:38:24.984 DEBUG 73 --- [           main] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
+2026-04-09 15:38:24.985 DEBUG 73 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
+2026-04-09 15:38:24.985  INFO 73 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2026-04-09 15:38:24.987  INFO 73 --- [           main] s.a.p.HrManagementSystemApplicationTests : Started HrManagementSystemApplicationTests in 2.347 seconds (JVM running for 9.196)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.565 s - in com.selimhorri.app.pack.HrManagementSystemApplicationTests
+2026-04-09 15:38:25.144 DEBUG 73 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2bab618, started on Thu Apr 09 15:38:22 UTC 2026
+2026-04-09 15:38:25.148  INFO 73 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:38:25.149  INFO 73 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:38:25.150 ERROR 73 --- [         task-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -1100,8 +1100,8 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.21.jar:8.0.21]
 	... 30 common frames omitted
 
-2026-04-08 01:50:47.882  INFO 72 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:50:47.888  INFO 72 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:38:25.296  INFO 73 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:38:25.297  INFO 73 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -1139,6 +1139,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  24.407 s
-[INFO] Finished at: 2026-04-08T01:50:49Z
+[INFO] Total time:  13.033 s
+[INFO] Finished at: 2026-04-09T15:38:25Z
 [INFO] ------------------------------------------------------------------------

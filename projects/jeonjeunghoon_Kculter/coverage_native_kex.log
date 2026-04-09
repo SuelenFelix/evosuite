@@ -176,7 +176,7 @@
  T E S T S
 -------------------------------------------------------
 Running com.prac.ReactApplication_main_3345230673
-01:14:39.189 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+15:15:09.041 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
 	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
@@ -203,8 +203,8 @@ java.lang.IllegalArgumentException: Args must not be null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.361 sec <<< FAILURE! - in com.prac.ReactApplication_main_3345230673
-test(com.prac.ReactApplication_main_3345230673)  Time elapsed: 0.321 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.347 sec <<< FAILURE! - in com.prac.ReactApplication_main_3345230673
+test(com.prac.ReactApplication_main_3345230673)  Time elapsed: 0.31 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.prac.ReactApplication_main_3345230673.test(ReactApplication_main_3345230673.java:44)
 
@@ -218,8 +218,8 @@ Running com.prac.ReactApplication_main_3345230671
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.0)
 
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.99 sec <<< FAILURE! - in com.prac.ReactApplication_main_3345230671
-test(com.prac.ReactApplication_main_3345230671)  Time elapsed: 9.99 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.992 sec <<< FAILURE! - in com.prac.ReactApplication_main_3345230671
+test(com.prac.ReactApplication_main_3345230671)  Time elapsed: 9.992 sec  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 10 seconds
 	at app//com.prac.ReactApplication_main_3345230671.test(ReactApplication_main_3345230671.java:50)
 
@@ -233,7 +233,7 @@ WARNING: Use --illegal-access=warn to enable warnings of further illegal reflect
 WARNING: All illegal access operations will be denied in a future release
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.FrontMember_setPfUrl_6805262657
 Running com.prac.react.model.dto.Pin_getPinType_6206944621
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.Pin_getPinType_6206944621
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_getPinType_6206944621
 Running com.prac.react.model.dto.Stay_getSigunguCode_113515967131
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getSigunguCode_113515967131
 Running com.prac.react.model.dto.Place_setKeyHash_3481174815
@@ -245,11 +245,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Celebrity_getKeyNum_207166831621
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getKeyNum_207166831621
 Running com.prac.react.model.dto.FrontMember_setMemberName_98827053716
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_setMemberName_98827053716
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_setMemberName_98827053716
 Running com.prac.react.model.dto.Place_getName_85810623945
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getName_85810623945
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getName_85810623945
 Running com.prac.react.model.dto.Culture_getSpot_14496148435
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_getSpot_14496148435
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getSpot_14496148435
 Running com.prac.react.model.dto.Celebrity_setLikeCount_42779880526
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setLikeCount_42779880526
 Running com.prac.react.model.dto.Place_getAddress_63635046649
@@ -257,15 +257,15 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Concert_toString_195244731565
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.prac.react.model.dto.Concert_toString_195244731565
 Running com.prac.react.model.dto.Pin_toString_66225078214
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.prac.react.model.dto.Pin_toString_66225078214
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.prac.react.model.dto.Pin_toString_66225078214
 Running com.prac.react.model.dto.Member_setMg_644503646
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setMg_644503646
 Running com.prac.react.model.dto.Member_setEmail_80782616332
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setEmail_80782616332
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setEmail_80782616332
 Running com.prac.react.model.dto.Pin_getPinKeyNum_10745992198
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getPinKeyNum_10745992198
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_getPinKeyNum_10745992198
 Running com.prac.react.model.dto.Member_setStatus_131679114823
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setStatus_131679114823
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setStatus_131679114823
 Running com.prac.react.model.dto.Stay_setTitle_153956458621
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setTitle_153956458621
 Running com.prac.react.model.dto.Pin_setPinType_161468932822
@@ -275,11 +275,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Culture_setKeyHash_158524376024
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_setKeyHash_158524376024
 Running com.prac.react.model.dto.Concert_setPlaceName_6894208362
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setPlaceName_6894208362
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setPlaceName_6894208362
 Running com.prac.react.model.dto.Stay_init_83186091923
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_init_83186091923
 Running com.prac.react.model.dto.Place_init_89309798128
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_init_89309798128
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_init_89309798128
 Running com.prac.react.model.dto.LocationBase_setAddr1_20815797713
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.LocationBase_setAddr1_20815797713
 Running com.prac.react.model.dto.Celebrity_init_13453267470
@@ -289,57 +289,57 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Place_setPlaceNum_78021352230
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setPlaceNum_78021352230
 Running com.prac.react.model.dto.Pin_getPinKeyHash_192646012810
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getPinKeyHash_192646012810
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_getPinKeyHash_192646012810
 Running com.prac.react.model.dto.Concert_setStartDate_180624983811
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStartDate_180624983811
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setStartDate_180624983811
 Running com.prac.react.model.dto.FrontMember_getMemberName_4614505914
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_getMemberName_4614505914
 Running com.prac.react.model.dto.Pin_toString_66225078229
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_toString_66225078229
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_toString_66225078229
 Running com.prac.react.model.dto.Place_getCulture_181120122435
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getCulture_181120122435
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getCulture_181120122435
 Running com.prac.react.model.dto.LocationBase_getTel_41904057616
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getTel_41904057616
 Running com.prac.react.model.dto.Concert_getLng_101128032416
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.Concert_getLng_101128032416
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getLng_101128032416
 Running com.prac.react.model.dto.Culture_setName_37535595026
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setName_37535595026
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_setName_37535595026
 Running com.prac.react.model.dto.Stay_getRepresentImg_124813836110
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getRepresentImg_124813836110
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getRepresentImg_124813836110
 Running com.prac.react.model.dto.FrontMember_init_5384244111
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_init_5384244111
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_init_5384244111
 Running com.prac.react.model.dto.Culture_setExplain_105596517813
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setExplain_105596517813
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.prac.react.model.dto.Culture_setExplain_105596517813
 Running com.prac.react.model.dto.Stay_getLat_65438713316
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getLat_65438713316
 Running com.prac.react.model.dto.LocationBase_init_213457941722
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_init_213457941722
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_init_213457941722
 Running com.prac.react.model.dto.Celebrity_setKeyNum_198671574222
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_setKeyNum_198671574222
 Running com.prac.react.model.dto.CourseWrapper_setMemberHash_9767234519
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_setMemberHash_9767234519
 Running com.prac.react.model.dto.Member_setMg_644503621
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.prac.react.model.dto.Member_setMg_644503621
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setMg_644503621
 Running com.prac.react.model.dto.LatLng_setLng_2553757745
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LatLng_setLng_2553757745
 Running com.prac.react.model.dto.Mysql_setUsername_11112968552
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Mysql_setUsername_11112968552
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.Mysql_setUsername_11112968552
 Running com.prac.react.model.dto.Culture_getStatus_155366880429
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_getStatus_155366880429
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getStatus_155366880429
 Running com.prac.react.model.dto.LatLng_init_4502791647
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_init_4502791647
 Running com.prac.react.model.dto.Member_getPfUrl_57722996243
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getPfUrl_57722996243
 Running com.prac.react.model.dto.Concert_setConcertNum_16297891403
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setConcertNum_16297891403
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setConcertNum_16297891403
 Running com.prac.react.model.dto.Pin_setImageUrl_15388042828
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_setImageUrl_15388042828
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setImageUrl_15388042828
 Running com.prac.react.model.dto.Celebrity_setSpot_9757554517
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_setSpot_9757554517
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setSpot_9757554517
 Running com.prac.react.model.dto.Culture_init_15089306300
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_init_15089306300
 Running com.prac.react.model.dto.Member_getMg_207018187045
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getMg_207018187045
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getMg_207018187045
 Running com.prac.react.model.dto.Celebrity_getExplain_203105008529
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getExplain_203105008529
 Running com.prac.react.model.dto.Concert_init_179706413033
@@ -353,45 +353,45 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Celebrity_init_134532674719
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_init_134532674719
 Running com.prac.react.model.dto.Mysql_toString_2003197295
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.prac.react.model.dto.Mysql_toString_2003197295
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.prac.react.model.dto.Mysql_toString_2003197295
 Running com.prac.react.model.dto.Stay_setTitle_153956458645
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setTitle_153956458645
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setTitle_153956458645
 Running com.prac.react.model.dto.Pin_init_237067341
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_init_237067341
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_init_237067341
 Running com.prac.react.model.dto.Celebrity_setKeyHash_142163987734
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setKeyHash_142163987734
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_setKeyHash_142163987734
 Running com.prac.react.model.dto.Course_getCourseNum_157021711017
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getCourseNum_157021711017
 Running com.prac.react.model.dto.Concert_setConcertName_78768482840
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setConcertName_78768482840
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setConcertName_78768482840
 Running com.prac.react.model.dto.FrontMember_getPfUrl_2568578496
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_getPfUrl_2568578496
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_getPfUrl_2568578496
 Running com.prac.react.model.dto.Stay_getAreaCode_19899749526
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAreaCode_19899749526
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getAreaCode_19899749526
 Running com.prac.react.model.dto.Concert_getStarName_190537880459
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getStarName_190537880459
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getStarName_190537880459
 Running com.prac.react.model.dto.Stay_init_8318609190
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_init_8318609190
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_init_8318609190
 Running com.prac.react.model.dto.Stay_toString_28640506822
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.prac.react.model.dto.Stay_toString_28640506822
 Running com.prac.react.model.dto.Culture_getFileUrl_22137295014
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getFileUrl_22137295014
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_getFileUrl_22137295014
 Running com.prac.react.model.dto.Course_init_80156663116
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_init_80156663116
 Running com.prac.react.model.dto.Culture_setKeyHash_15852437605
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_setKeyHash_15852437605
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setKeyHash_15852437605
 Running com.prac.react.model.dto.Mysql_setPwd_176166401210
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_setPwd_176166401210
 Running com.prac.react.model.dto.Celebrity_getSpot_30856536716
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getSpot_30856536716
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getSpot_30856536716
 Running com.prac.react.model.dto.FrontMember_init_6123940850
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_init_6123940850
 Running com.prac.react.model.dto.Course_getMemberNum_125765799325
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getMemberNum_125765799325
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_getMemberNum_125765799325
 Running com.prac.react.model.dto.Stay_setTitle_153956458644
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setTitle_153956458644
 Running com.prac.react.model.dto.Course_setMemberHash_31670883628
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setMemberHash_31670883628
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_setMemberHash_31670883628
 Running com.prac.react.model.dto.Pin_getPinHash_190829324719
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getPinHash_190829324719
 Running com.prac.react.model.dto.Stay_setSumnail_134024218937
@@ -401,37 +401,37 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.CourseWrapper_setCourseHash_78805882213
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourseHash_78805882213
 Running com.prac.react.model.dto.Mysql_getPwd_3882828289
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_getPwd_3882828289
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Mysql_getPwd_3882828289
 Running com.prac.react.model.dto.SecretKey_toString_5849288043
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.prac.react.model.dto.SecretKey_toString_5849288043
 Running com.prac.react.model.dto.Course_setPlaces_17138681929
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_setPlaces_17138681929
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setPlaces_17138681929
 Running com.prac.react.model.dto.Pin_init_1167949310
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_init_1167949310
 Running com.prac.react.model.dto.Celebrity_init_13051969921
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_init_13051969921
 Running com.prac.react.model.dto.LocationBase_setAddr2_208157881026
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setAddr2_208157881026
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_setAddr2_208157881026
 Running com.prac.react.model.dto.Stay_getAddr2_212273989127
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAddr2_212273989127
 Running com.prac.react.model.dto.Course_setPlaces_171386819224
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.Course_setPlaces_171386819224
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setPlaces_171386819224
 Running com.prac.react.model.dto.Culture_setSpot_6602833817
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setSpot_6602833817
 Running com.prac.react.model.dto.Course_getCourseName_122557945421
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getCourseName_122557945421
 Running com.prac.react.model.dto.CourseWrapper_getCourseName_18855940694
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getCourseName_18855940694
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_getCourseName_18855940694
 Running com.prac.react.model.dto.Concert_getLat_101165511414
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getLat_101165511414
 Running com.prac.react.model.dto.CourseWrapper_setCourseHash_78805882228
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_setCourseHash_78805882228
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourseHash_78805882228
 Running com.prac.react.model.dto.LocationBase_setTel_179242176038
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setTel_179242176038
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_setTel_179242176038
 Running com.prac.react.model.dto.Member_getGender_19099357041
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getGender_19099357041
 Running com.prac.react.model.dto.Stay_setAreaCode_71864990431
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setAreaCode_71864990431
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAreaCode_71864990431
 Running com.prac.react.model.dto.Place_setFileUrl_64701820552
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setFileUrl_64701820552
 Running com.prac.react.model.dto.Course_init_145554906315
@@ -439,27 +439,27 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Place_setCulture_167228504836
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setCulture_167228504836
 Running com.prac.react.model.dto.Concert_getBuySite_23801696863
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getBuySite_23801696863
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getBuySite_23801696863
 Running com.prac.react.model.dto.FrontMember_setMgHash_92247091820
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_setMgHash_92247091820
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_setMgHash_92247091820
 Running com.prac.react.model.dto.Concert_setBuySite_104949799231
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setBuySite_104949799231
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setBuySite_104949799231
 Running com.prac.react.model.dto.Place_init_8930979811
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_init_8930979811
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_init_8930979811
 Running com.prac.react.model.dto.Member_setGender_165492024642
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setGender_165492024642
 Running com.prac.react.model.dto.Celebrity_setStatus_14750174959
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_setStatus_14750174959
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setStatus_14750174959
 Running com.prac.react.model.dto.Concert_setEndDate_132553466713
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setEndDate_132553466713
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setEndDate_132553466713
 Running com.prac.react.model.dto.Member_setMemberNumHash_13704525655
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setMemberNumHash_13704525655
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setMemberNumHash_13704525655
 Running com.prac.react.model.dto.Course_init_8015666311
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_init_8015666311
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_init_8015666311
 Running com.prac.react.model.dto.LocationBase_setContenttypeid_176750881328
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setContenttypeid_176750881328
 Running com.prac.react.model.dto.LocationBase_getFirstimage_24761804429
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getFirstimage_24761804429
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getFirstimage_24761804429
 Running com.prac.react.model.dto.Place_getExplain_119039481547
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getExplain_119039481547
 Running com.prac.react.model.dto.CourseWrapper_init_111573509516
@@ -467,19 +467,19 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.CourseWrapper_getCourse_10660222152
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_getCourse_10660222152
 Running com.prac.react.model.dto.Mysql_setUsername_11112968558
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Mysql_setUsername_11112968558
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_setUsername_11112968558
 Running com.prac.react.model.dto.Course_setCourseNum_1978918403
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setCourseNum_1978918403
 Running com.prac.react.model.dto.LocationBase_getTitle_181741728339
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getTitle_181741728339
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getTitle_181741728339
 Running com.prac.react.model.dto.Culture_getName_209523251825
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getName_209523251825
 Running com.prac.react.model.dto.Place_getCulture_18112012248
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getCulture_18112012248
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getCulture_18112012248
 Running com.prac.react.model.dto.Stay_setTel_127810474943
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setTel_127810474943
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setTel_127810474943
 Running com.prac.react.model.dto.Course_getMemberNum_125765799310
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getMemberNum_125765799310
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_getMemberNum_125765799310
 Running com.prac.react.model.dto.LocationBase_setMapx_78750925334
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setMapx_78750925334
 Running com.prac.react.model.dto.Pin_setImageUrl_15388042813
@@ -489,17 +489,17 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Celebrity_setSpot_9757554536
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setSpot_9757554536
 Running com.prac.react.model.dto.CourseWrapper_setCourse_7490696333
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourse_7490696333
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_setCourse_7490696333
 Running com.prac.react.model.dto.LocationBase_getMapy_93236635435
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getMapy_93236635435
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getMapy_93236635435
 Running com.prac.react.model.dto.LocationBase_getMapx_93236731533
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getMapx_93236731533
 Running com.prac.react.model.dto.Course_getCourseHash_139717273119
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_getCourseHash_139717273119
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getCourseHash_139717273119
 Running com.prac.react.model.dto.Celebrity_setLikeCount_4277988057
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setLikeCount_4277988057
 Running com.prac.react.model.dto.Member_getNickName_178237838935
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getNickName_178237838935
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getNickName_178237838935
 Running com.prac.react.model.dto.Place_setPlaceNum_7802135223
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setPlaceNum_7802135223
 Running com.prac.react.model.dto.Concert_setConcertNum_162978914036
@@ -517,31 +517,31 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Concert_getImageUrl_118223608555
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getImageUrl_118223608555
 Running com.prac.react.model.dto.Concert_setStarKey_202707775752
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setStarKey_202707775752
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStarKey_202707775752
 Running com.prac.react.model.dto.CourseWrapper_setCourseName_9596520995
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourseName_9596520995
 Running com.prac.react.model.dto.Member_getMemberNumHash_6998743529
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getMemberNumHash_6998743529
 Running com.prac.react.model.dto.Culture_init_150893063019
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_init_150893063019
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_init_150893063019
 Running com.prac.react.model.dto.Concert_getLat_101165511447
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getLat_101165511447
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getLat_101165511447
 Running com.prac.react.model.dto.Concert_setStarKey_202707775719
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStarKey_202707775719
 Running com.prac.react.model.dto.CourseWrapper_getMemberHash_4729976778
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getMemberHash_4729976778
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_getMemberHash_4729976778
 Running com.prac.react.model.dto.FrontMember_toString_115784993610
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.prac.react.model.dto.FrontMember_toString_115784993610
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.prac.react.model.dto.FrontMember_toString_115784993610
 Running com.prac.react.model.dto.Stay_getSumnail_52876116512
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getSumnail_52876116512
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getSumnail_52876116512
 Running com.prac.react.model.dto.CourseWrapper_getMemberNum_19176726086
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getMemberNum_19176726086
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_getMemberNum_19176726086
 Running com.prac.react.model.dto.Mysql_init_3451361220
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_init_3451361220
 Running com.prac.react.model.dto.Member_getMemberNumHash_699874354
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getMemberNumHash_699874354
 Running com.prac.react.model.dto.Member_getNickName_178237838910
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getNickName_178237838910
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getNickName_178237838910
 Running com.prac.react.model.dto.Celebrity_getFileUrl_38497683331
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getFileUrl_38497683331
 Running com.prac.react.model.dto.Course_setCourseHash_144807343720
@@ -557,47 +557,47 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Place_setAddress_144783149023
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setAddress_144783149023
 Running com.prac.react.model.dto.Stay_init_170550991124
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_init_170550991124
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_init_170550991124
 Running com.prac.react.model.dto.Place_setStatus_40149509917
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setStatus_40149509917
 Running com.prac.react.model.dto.Member_getMg_207018187020
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getMg_207018187020
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getMg_207018187020
 Running com.prac.react.model.dto.Culture_getKeyNum_190806443321
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getKeyNum_190806443321
 Running com.prac.react.model.dto.LocationBase_getAddr1_165791135523
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getAddr1_165791135523
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getAddr1_165791135523
 Running com.prac.react.model.dto.Stay_setLng_102676430939
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setLng_102676430939
 Running com.prac.react.model.dto.Stay_getAddr1_21227389302
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getAddr1_21227389302
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAddr1_21227389302
 Running com.prac.react.model.dto.Member_getStatus_140174372247
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getStatus_140174372247
 Running com.prac.react.model.dto.Mysql_getPwd_3882828283
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Mysql_getPwd_3882828283
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_getPwd_3882828283
 Running com.prac.react.model.dto.LocationBase_setContenttypeid_17675088137
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setContenttypeid_17675088137
 Running com.prac.react.model.dto.LatLng_setLat_2550009843
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_setLat_2550009843
 Running com.prac.react.model.dto.Concert_setImageUrl_152638877156
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setImageUrl_152638877156
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setImageUrl_152638877156
 Running com.prac.react.model.dto.LatLng_getLng_19369020064
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_getLng_19369020064
 Running com.prac.react.model.dto.Stay_setAreaCode_7186499047
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAreaCode_7186499047
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setAreaCode_7186499047
 Running com.prac.react.model.dto.LatLng_getLat_19365272169
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_getLat_19365272169
 Running com.prac.react.model.dto.CourseWrapper_setCourse_74906963318
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourse_74906963318
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_setCourse_74906963318
 Running com.prac.react.model.dto.Stay_getLng_65476192314
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getLng_65476192314
 Running com.prac.react.model.dto.Place_getKeyHash_4633635434
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getKeyHash_4633635434
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getKeyHash_4633635434
 Running com.prac.react.model.dto.Concert_setLng_160216074050
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setLng_160216074050
 Running com.prac.react.model.dto.Stay_setAddr2_169907147529
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAddr2_169907147529
 Running com.prac.react.model.dto.Place_toString_27365150026
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.prac.react.model.dto.Place_toString_27365150026
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.prac.react.model.dto.Place_toString_27365150026
 Running com.prac.react.model.dto.Stay_toString_28640506823
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_toString_28640506823
 Running com.prac.react.model.dto.Concert_setEndDate_132553466746
@@ -605,29 +605,29 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.LocationBase_setFirstimage_12021030849
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setFirstimage_12021030849
 Running com.prac.react.model.dto.Concert_init_17970641300
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_init_17970641300
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_init_17970641300
 Running com.prac.react.model.dto.Member_getEmail_38415774731
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getEmail_38415774731
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getEmail_38415774731
 Running com.prac.react.model.dto.Concert_getConcertName_6846340126
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getConcertName_6846340126
 Running com.prac.react.model.dto.Concert_getStatus_175232595657
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getStatus_175232595657
 Running com.prac.react.model.dto.Member_toString_199193774749
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.prac.react.model.dto.Member_toString_199193774749
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.prac.react.model.dto.Member_toString_199193774749
 Running com.prac.react.model.dto.Celebrity_toString_79987089637
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.prac.react.model.dto.Celebrity_toString_79987089637
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.prac.react.model.dto.Celebrity_toString_79987089637
 Running com.prac.react.model.dto.Stay_setLng_102676430938
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setLng_102676430938
 Running com.prac.react.model.dto.Mysql_setPwd_17616640124
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_setPwd_17616640124
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Mysql_setPwd_17616640124
 Running com.prac.react.model.dto.Place_setCulture_16722850489
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setCulture_16722850489
 Running com.prac.react.model.dto.Member_getPwd_211506645033
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getPwd_211506645033
 Running com.prac.react.model.dto.LocationBase_setMapy_78751021415
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setMapy_78751021415
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_setMapy_78751021415
 Running com.prac.react.model.dto.Concert_setStarName_31903636460
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStarName_31903636460
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setStarName_31903636460
 Running com.prac.react.model.dto.Place_setExplain_200187583948
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setExplain_200187583948
 Running com.prac.react.model.dto.Place_setPlaceType_179152673634
@@ -635,7 +635,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Celebrity_setFileUrl_42650419132
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setFileUrl_42650419132
 Running com.prac.react.model.dto.Concert_init_3905924841
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_init_3905924841
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_init_3905924841
 Running com.prac.react.model.dto.Member_setPwd_7416852669
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setPwd_7416852669
 Running com.prac.react.model.dto.CourseWrapper_setMemberHash_97672345124
@@ -657,39 +657,39 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Member_setEmail_8078261637
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setEmail_8078261637
 Running com.prac.react.model.dto.Member_setPfUrl_15356154644
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setPfUrl_15356154644
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setPfUrl_15356154644
 Running com.prac.react.model.dto.FrontMember_getMemberHash_28985731413
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_getMemberHash_28985731413
 Running com.prac.react.model.dto.Concert_setImageUrl_152638877123
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setImageUrl_152638877123
 Running com.prac.react.model.dto.Pin_getImageUrl_143246201227
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_getImageUrl_143246201227
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getImageUrl_143246201227
 Running com.prac.react.model.dto.LocationBase_getFirstimage2_174758680431
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getFirstimage2_174758680431
 Running com.prac.react.model.dto.Culture_getKeyHash_7737627364
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_getKeyHash_7737627364
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getKeyHash_7737627364
 Running com.prac.react.model.dto.Member_setCountryCode_137494216438
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setCountryCode_137494216438
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setCountryCode_137494216438
 Running com.prac.react.model.dto.Pin_setPinKeyHash_47673900011
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setPinKeyHash_47673900011
 Running com.prac.react.model.dto.Place_setAddress_144783149050
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setAddress_144783149050
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setAddress_144783149050
 Running com.prac.react.model.dto.Celebrity_setExplain_121956906111
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setExplain_121956906111
 Running com.prac.react.model.dto.Place_setPlaceType_17915267367
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setPlaceType_17915267367
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setPlaceType_17915267367
 Running com.prac.react.model.dto.CourseWrapper_getCourseNum_91020249525
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getCourseNum_91020249525
 Running com.prac.react.model.dto.Stay_getSigunguCode_113515967132
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getSigunguCode_113515967132
 Running com.prac.react.model.dto.LocationBase_toString_22791194341
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.prac.react.model.dto.LocationBase_toString_22791194341
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.prac.react.model.dto.LocationBase_toString_22791194341
 Running com.prac.react.model.dto.Place_getName_85810623918
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getName_85810623918
 Running com.prac.react.model.dto.Course_getMemberHash_113301229212
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getMemberHash_113301229212
 Running com.prac.react.model.dto.FrontMember_getMgHash_152658256219
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_getMgHash_152658256219
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_getMgHash_152658256219
 Running com.prac.react.model.dto.Place_setExplain_200187583921
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setExplain_200187583921
 Running com.prac.react.model.dto.LocationBase_getMapx_93236731512
@@ -697,31 +697,31 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Celebrity_init_130519699220
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_init_130519699220
 Running com.prac.react.model.dto.Concert_setConcertName_7876848287
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setConcertName_7876848287
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setConcertName_7876848287
 Running com.prac.react.model.dto.Stay_getTel_9527643541
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getTel_9527643541
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getTel_9527643541
 Running com.prac.react.model.dto.SecretKey_setSecretKey_5729552816
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.SecretKey_setSecretKey_5729552816
 Running com.prac.react.model.dto.Stay_getSumnail_52876116535
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getSumnail_52876116535
 Running com.prac.react.model.dto.Stay_init_170550991125
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_init_170550991125
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_init_170550991125
 Running com.prac.react.model.dto.Celebrity_getName_19316286354
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getName_19316286354
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getName_19316286354
 Running com.prac.react.model.dto.Member_getAge_4627352539
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getAge_4627352539
 Running com.prac.react.model.dto.Concert_setConcertHash_61609155138
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setConcertHash_61609155138
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setConcertHash_61609155138
 Running com.prac.react.model.dto.Concert_setExplain_6699264242
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setExplain_6699264242
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setExplain_6699264242
 Running com.prac.react.model.dto.Member_init_144648189625
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_init_144648189625
 Running com.prac.react.model.dto.LocationBase_init_3175439080
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_init_3175439080
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_init_3175439080
 Running com.prac.react.model.dto.Stay_setTel_127810474942
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setTel_127810474942
 Running com.prac.react.model.dto.Celebrity_getLikeCount_134031014525
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getLikeCount_134031014525
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getLikeCount_134031014525
 Running com.prac.react.model.dto.Pin_init_11679493115
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_init_11679493115
 Running com.prac.react.model.dto.Celebrity_getFileUrl_38497683312
@@ -735,9 +735,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Course_setMemberNum_126920035326
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_setMemberNum_126920035326
 Running com.prac.react.model.dto.Stay_setRepresentImg_205248811111
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setRepresentImg_205248811111
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setRepresentImg_205248811111
 Running com.prac.react.model.dto.LatLng_setLat_25500098410
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LatLng_setLat_25500098410
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_setLat_25500098410
 Running com.prac.react.model.dto.Culture_setExplain_105596517832
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setExplain_105596517832
 Running com.prac.react.model.dto.Concert_getConcertHash_51304073537
@@ -745,21 +745,21 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Pin_setPinKeyHash_47673900026
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setPinKeyHash_47673900026
 Running com.prac.react.model.dto.FrontMember_setPfUrl_68052626518
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_setPfUrl_68052626518
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_setPfUrl_68052626518
 Running com.prac.react.model.dto.Culture_setFileUrl_59010807434
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_setFileUrl_59010807434
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setFileUrl_59010807434
 Running com.prac.react.model.dto.Stay_getLat_65438713340
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getLat_65438713340
 Running com.prac.react.model.dto.CourseWrapper_toString_134099029914
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.prac.react.model.dto.CourseWrapper_toString_134099029914
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.prac.react.model.dto.CourseWrapper_toString_134099029914
 Running com.prac.react.model.dto.Stay_setRepresentImg_205248811134
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setRepresentImg_205248811134
 Running com.prac.react.model.dto.Culture_toString_96347477937
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.prac.react.model.dto.Culture_toString_96347477937
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.prac.react.model.dto.Culture_toString_96347477937
 Running com.prac.react.model.dto.Place_getFileUrl_145849922924
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getFileUrl_145849922924
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getFileUrl_145849922924
 Running com.prac.react.model.dto.CourseWrapper_init_11157350951
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_init_11157350951
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_init_11157350951
 Running com.prac.react.model.dto.Stay_setAddr1_169907051427
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAddr1_169907051427
 Running com.prac.react.model.dto.SecretKey_setSecretKey_5729552812
@@ -769,35 +769,35 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Concert_setPlaceName_6894208329
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setPlaceName_6894208329
 Running com.prac.react.model.dto.FrontMember_setMemberHash_11598638143
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_setMemberHash_11598638143
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_setMemberHash_11598638143
 Running com.prac.react.model.dto.Place_getPlaceType_2341778633
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getPlaceType_2341778633
 Running com.prac.react.model.dto.Place_setKeyHash_34811748132
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setKeyHash_34811748132
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setKeyHash_34811748132
 Running com.prac.react.model.dto.LocationBase_setAddr2_20815788105
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setAddr2_20815788105
 Running com.prac.react.model.dto.Pin_getPinNum_169693345217
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getPinNum_169693345217
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_getPinNum_169693345217
 Running com.prac.react.model.dto.CourseWrapper_getCourseHash_205718734627
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getCourseHash_205718734627
 Running com.prac.react.model.dto.LatLng_toString_99573501513
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.model.dto.LatLng_toString_99573501513
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LatLng_toString_99573501513
 Running com.prac.react.model.dto.Member_setAge_60375873140
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setAge_60375873140
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setAge_60375873140
 Running com.prac.react.model.dto.FrontMember_init_53842441112
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_init_53842441112
 Running com.prac.react.model.dto.Pin_init_2370673416
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_init_2370673416
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_init_2370673416
 Running com.prac.react.model.dto.Place_init_2718043510
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_init_2718043510
 Running com.prac.react.model.dto.Member_init_112668837626
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_init_112668837626
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_init_112668837626
 Running com.prac.react.model.dto.Concert_getConcertHash_5130407354
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getConcertHash_5130407354
 Running com.prac.react.model.dto.Member_setGender_165492024617
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setGender_165492024617
 Running com.prac.react.model.dto.Course_toString_200100491414
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.prac.react.model.dto.Course_toString_200100491414
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.prac.react.model.dto.Course_toString_200100491414
 Running com.prac.react.model.dto.Member_setPwd_74168526634
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_setPwd_74168526634
 Running com.prac.react.model.dto.LocationBase_getMapy_93236635414
@@ -809,15 +809,15 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Culture_getName_20952325186
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getName_20952325186
 Running com.prac.react.model.dto.Concert_setStatus_166737338225
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setStatus_166737338225
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStatus_166737338225
 Running com.prac.react.model.dto.Course_setMemberHash_31670883613
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setMemberHash_31670883613
 Running com.prac.react.model.dto.LatLng_init_6402239728
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LatLng_init_6402239728
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_init_6402239728
 Running com.prac.react.model.dto.CourseWrapper_setMemberNum_60918573822
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setMemberNum_60918573822
 Running com.prac.react.model.dto.Stay_setLng_102676430915
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setLng_102676430915
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setLng_102676430915
 Running com.prac.react.model.dto.Culture_getSpot_14496148416
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getSpot_14496148416
 Running com.prac.react.model.dto.Place_getLat_121444370139
@@ -825,11 +825,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Culture_getStatus_155366880410
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getStatus_155366880410
 Running com.prac.react.model.dto.LocationBase_setTitle_205388159740
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_setTitle_205388159740
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setTitle_205388159740
 Running com.prac.react.model.dto.Place_getExplain_119039481520
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getExplain_119039481520
 Running com.prac.react.model.dto.Celebrity_getStatus_139006492127
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getStatus_139006492127
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getStatus_139006492127
 Running com.prac.react.model.dto.Celebrity_getLikeCount_13403101456
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getLikeCount_13403101456
 Running com.prac.react.model.dto.Place_setKpop_78980584438
@@ -845,11 +845,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Culture_getKeyNum_19080644332
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getKeyNum_19080644332
 Running com.prac.react.model.dto.Culture_toString_96347477918
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_toString_96347477918
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_toString_96347477918
 Running com.prac.react.model.dto.Pin_getPinKeyHash_192646012825
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getPinKeyHash_192646012825
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Pin_getPinKeyHash_192646012825
 Running com.prac.react.model.dto.LocationBase_getContenttypeid_3270688136
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getContenttypeid_3270688136
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getContenttypeid_3270688136
 Running com.prac.react.model.dto.SecretKey_getSecretKey_4101978411
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.SecretKey_getSecretKey_4101978411
 Running com.prac.react.model.dto.Culture_setStatus_163862137830
@@ -859,19 +859,19 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Stay_setSumnail_134024218936
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setSumnail_134024218936
 Running com.prac.react.model.dto.FrontMember_getPfUrl_25685784917
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_getPfUrl_25685784917
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_getPfUrl_25685784917
 Running com.prac.react.model.dto.Concert_getConcertName_68463401239
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getConcertName_68463401239
 Running com.prac.react.model.dto.Concert_setStarName_31903636427
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStarName_31903636427
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setStarName_31903636427
 Running com.prac.react.model.dto.CourseWrapper_getCourseNum_91020249510
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_getCourseNum_91020249510
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getCourseNum_91020249510
 Running com.prac.react.model.dto.Pin_setPinType_16146893287
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setPinType_16146893287
 Running com.prac.react.model.dto.Concert_setConcertHash_6160915515
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setConcertHash_6160915515
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setConcertHash_6160915515
 Running com.prac.react.model.dto.Place_getKpop_93007072410
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getKpop_93007072410
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getKpop_93007072410
 Running com.prac.react.model.dto.CourseWrapper_getCourse_106602221517
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getCourse_106602221517
 Running com.prac.react.model.dto.Pin_getPinKeyNum_107459921923
@@ -879,11 +879,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Course_init_14555490630
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_init_14555490630
 Running com.prac.react.model.dto.Celebrity_getKeyHash_61015885333
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getKeyHash_61015885333
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getKeyHash_61015885333
 Running com.prac.react.model.dto.Concert_getExplain_8784736668
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getExplain_8784736668
 Running com.prac.react.model.dto.Place_getPlaceType_234177866
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getPlaceType_234177866
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getPlaceType_234177866
 Running com.prac.react.model.dto.Stay_getTel_9527643518
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getTel_9527643518
 Running com.prac.react.model.dto.LocationBase_init_21345794171
@@ -895,9 +895,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Pin_setPinNum_178188602618
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setPinNum_178188602618
 Running com.prac.react.model.dto.Concert_toString_195244731532
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_toString_195244731532
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_toString_195244731532
 Running com.prac.react.model.dto.Stay_setRepresentImg_205248811135
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setRepresentImg_205248811135
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setRepresentImg_205248811135
 Running com.prac.react.model.dto.Concert_getStarKey_47445787551
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getStarKey_47445787551
 Running com.prac.react.model.dto.Stay_getAddr1_212273893026
@@ -917,11 +917,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Place_setName_86177032919
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setName_86177032919
 Running com.prac.react.model.dto.Mysql_getUsername_4750455857
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_getUsername_4750455857
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Mysql_getUsername_4750455857
 Running com.prac.react.model.dto.Member_getCountryCode_127189134812
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getCountryCode_127189134812
 Running com.prac.react.model.dto.Course_toString_200100491429
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_toString_200100491429
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_toString_200100491429
 Running com.prac.react.model.dto.Concert_setLat_160178595015
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setLat_160178595015
 Running com.prac.react.model.dto.Pin_getImageUrl_143246201212
@@ -929,11 +929,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Celebrity_toString_79987089618
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_toString_79987089618
 Running com.prac.react.model.dto.Stay_setLat_102713909941
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setLat_102713909941
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setLat_102713909941
 Running com.prac.react.model.dto.Culture_getLikeCount_117670626227
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getLikeCount_117670626227
 Running com.prac.react.model.dto.LocationBase_setFirstimage_120210308430
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setFirstimage_120210308430
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_setFirstimage_120210308430
 Running com.prac.react.model.dto.Concert_getStarHash_173378552753
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getStarHash_173378552753
 Running com.prac.react.model.dto.Member_setPfUrl_15356154619
@@ -941,7 +941,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Stay_getSigunguCode_11351596718
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getSigunguCode_11351596718
 Running com.prac.react.model.dto.Course_getPlaces_13204562423
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_getPlaces_13204562423
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_getPlaces_13204562423
 Running com.prac.react.model.dto.Place_setKpop_78980584411
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setKpop_78980584411
 Running com.prac.react.model.dto.Concert_getPlaceName_23169952328
@@ -951,29 +951,29 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Member_toString_199193774724
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_toString_199193774724
 Running com.prac.react.model.dto.Stay_getSumnail_52876116536
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getSumnail_52876116536
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getSumnail_52876116536
 Running com.prac.react.model.dto.Stay_getTitle_196323300243
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getTitle_196323300243
 Running com.prac.react.model.dto.Stay_getLng_65476192337
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getLng_65476192337
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getLng_65476192337
 Running com.prac.react.model.dto.Pin_setPinHash_109681222320
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setPinHash_109681222320
 Running com.prac.react.model.dto.LocationBase_setMapy_78751021436
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setMapy_78751021436
 Running com.prac.react.model.dto.Concert_getStatus_175232595624
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getStatus_175232595624
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getStatus_175232595624
 Running com.prac.react.model.dto.CourseWrapper_getCourseHash_205718734612
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getCourseHash_205718734612
 Running com.prac.react.model.dto.CourseWrapper_setCourseName_95965209920
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourseName_95965209920
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.CourseWrapper_setCourseName_95965209920
 Running com.prac.react.model.dto.Culture_init_11415931091
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_init_11415931091
 Running com.prac.react.model.dto.CourseWrapper_getMemberHash_47299767723
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_getMemberHash_47299767723
 Running com.prac.react.model.dto.Place_getAddress_63635046622
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getAddress_63635046622
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getAddress_63635046622
 Running com.prac.react.model.dto.Stay_getTitle_196323300244
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getTitle_196323300244
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getTitle_196323300244
 Running com.prac.react.model.dto.Culture_getLikeCount_11767062628
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getLikeCount_11767062628
 Running com.prac.react.model.dto.Member_getGender_19099357016
@@ -997,17 +997,17 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Culture_getExplain_186744620212
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getExplain_186744620212
 Running com.prac.react.model.dto.Culture_getKeyHash_77376273623
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getKeyHash_77376273623
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_getKeyHash_77376273623
 Running com.prac.react.model.dto.Stay_setAddr1_16990705143
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAddr1_16990705143
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setAddr1_16990705143
 Running com.prac.react.model.dto.LatLng_getLng_193690200611
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_getLng_193690200611
 Running com.prac.react.model.dto.Stay_getAddr2_21227398914
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAddr2_21227398914
 Running com.prac.react.model.dto.Concert_getStarHash_173378552720
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getStarHash_173378552720
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getStarHash_173378552720
 Running com.prac.react.model.dto.FrontMember_setMemberHash_115986381414
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_setMemberHash_115986381414
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.FrontMember_setMemberHash_115986381414
 Running com.prac.react.model.dto.Concert_setStartDate_180624983844
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStartDate_180624983844
 Running com.prac.react.model.dto.Place_getPlaceNum_245505629
@@ -1021,15 +1021,15 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Member_init_11266883761
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_init_11266883761
 Running com.prac.react.model.dto.Sigungu_init_15963194720
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Sigungu_init_15963194720
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Sigungu_init_15963194720
 Running com.prac.react.model.dto.LatLng_setLng_25537577412
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_setLng_25537577412
 Running com.prac.react.model.dto.Member_getEmail_3841577476
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getEmail_3841577476
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getEmail_3841577476
 Running com.prac.react.model.dto.Celebrity_getStatus_13900649218
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getStatus_13900649218
 Running com.prac.react.model.dto.Member_getPwd_21150664508
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getPwd_21150664508
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getPwd_21150664508
 Running com.prac.react.model.dto.LatLng_toString_9957350156
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_toString_9957350156
 Running com.prac.react.model.dto.Celebrity_getKeyHash_61015885314
@@ -1037,7 +1037,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Mysql_getUsername_4750455851
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_getUsername_4750455851
 Running com.prac.react.model.dto.Concert_getConcertNum_71540936235
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_getConcertNum_71540936235
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getConcertNum_71540936235
 Running com.prac.react.model.dto.Celebrity_setExplain_121956906130
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setExplain_121956906130
 Running com.prac.react.model.dto.Member_setAge_60375873115
@@ -1049,7 +1049,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.LocationBase_getAddr2_165791039425
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getAddr2_165791039425
 Running com.prac.react.model.dto.Concert_setStatus_166737338258
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStatus_166737338258
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setStatus_166737338258
 Running com.prac.react.model.dto.Stay_getTel_9527643542
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getTel_9527643542
 Running com.prac.react.model.dto.LocationBase_setTel_179242176017
@@ -1063,13 +1063,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Concert_getLng_101128032449
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_getLng_101128032449
 Running com.prac.react.model.dto.Member_getAge_4627352514
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getAge_4627352514
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getAge_4627352514
 Running com.prac.react.model.dto.Culture_getExplain_186744620231
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_getExplain_186744620231
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getExplain_186744620231
 Running com.prac.react.model.dto.Member_getMemberNum_12667251602
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getMemberNum_12667251602
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getMemberNum_12667251602
 Running com.prac.react.model.dto.Culture_setKeyNum_18231118593
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.prac.react.model.dto.Culture_setKeyNum_18231118593
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setKeyNum_18231118593
 Running com.prac.react.model.dto.Member_setMemberNum_126013318628
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setMemberNum_126013318628
 Running com.prac.react.model.dto.FrontMember_getMemberName_46145059115
@@ -1099,7 +1099,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Place_getLng_121481849141
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getLng_121481849141
 Running com.prac.react.model.dto.LocationBase_getAddr2_16579103944
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getAddr2_16579103944
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getAddr2_16579103944
 Running com.prac.react.model.dto.Member_setMemberNum_12601331863
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setMemberNum_12601331863
 Running com.prac.react.model.dto.Stay_init_17055099111
@@ -1109,39 +1109,39 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Stay_setSigunguCode_12382104879
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setSigunguCode_12382104879
 Running com.prac.react.model.dto.Member_getStatus_140174372222
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getStatus_140174372222
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getStatus_140174372222
 Running com.prac.react.model.dto.LatLng_getLat_19365272162
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_getLat_19365272162
 Running com.prac.react.model.dto.Member_setCountryCode_137494216413
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setCountryCode_137494216413
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.prac.react.model.dto.Member_setCountryCode_137494216413
 Running com.prac.react.model.dto.Stay_setSigunguCode_123821048733
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setSigunguCode_123821048733
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_setSigunguCode_123821048733
 Running com.prac.react.model.dto.Stay_getTitle_196323300220
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getTitle_196323300220
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getTitle_196323300220
 Running com.prac.react.model.dto.Mysql_init_3451361226
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_init_3451361226
 Running com.prac.react.model.dto.Culture_getFileUrl_22137295033
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_getFileUrl_22137295033
 Running com.prac.react.model.dto.Celebrity_getKeyNum_20716683162
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getKeyNum_20716683162
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_getKeyNum_20716683162
 Running com.prac.react.model.dto.Culture_setSpot_6602833836
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_setSpot_6602833836
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setSpot_6602833836
 Running com.prac.react.model.dto.Culture_setLikeCount_59140268828
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setLikeCount_59140268828
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Culture_setLikeCount_59140268828
 Running com.prac.react.model.dto.Stay_init_83186091924
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_init_83186091924
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_init_83186091924
 Running com.prac.react.model.dto.FrontMember_setMgHash_9224709189
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.FrontMember_setMgHash_9224709189
 Running com.prac.react.model.dto.Place_setFileUrl_64701820525
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setFileUrl_64701820525
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setFileUrl_64701820525
 Running com.prac.react.model.dto.Concert_setStarHash_14744308721
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setStarHash_14744308721
 Running com.prac.react.model.dto.Stay_getAreaCode_198997495229
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Stay_getAreaCode_198997495229
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAreaCode_198997495229
 Running com.prac.react.model.dto.Stay_getLat_65438713339
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getLat_65438713339
 Running com.prac.react.model.dto.Course_setCourseName_16196667147
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_setCourseName_16196667147
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setCourseName_16196667147
 Running com.prac.react.model.dto.Culture_setStatus_163862137811
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setStatus_163862137811
 Running com.prac.react.model.dto.Course_setMemberNum_126920035311
@@ -1151,9 +1151,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Pin_getPinType_620694466
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_getPinType_620694466
 Running com.prac.react.model.dto.Place_getKpop_93007072437
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_getKpop_93007072437
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getKpop_93007072437
 Running com.prac.react.model.dto.Celebrity_setStatus_147501749528
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setStatus_147501749528
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_setStatus_147501749528
 Running com.prac.react.model.dto.Stay_getAddr1_212273893025
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAddr1_212273893025
 Running com.prac.react.model.dto.Pin_getPinHash_19082932474
@@ -1169,11 +1169,11 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Pin_setPinKeyNum_69350973124
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Pin_setPinKeyNum_69350973124
 Running com.prac.react.model.dto.Member_getMemberNum_126672516027
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_getMemberNum_126672516027
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Member_getMemberNum_126672516027
 Running com.prac.react.model.dto.Stay_setSigunguCode_123821048732
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setSigunguCode_123821048732
 Running com.prac.react.model.dto.SecretKey_getSecretKey_4101978415
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.SecretKey_getSecretKey_4101978415
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.SecretKey_getSecretKey_4101978415
 Running com.prac.react.model.dto.Stay_setAddr2_16990714755
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAddr2_16990714755
 Running com.prac.react.model.dto.LocationBase_setFirstimage2_164453598811
@@ -1181,7 +1181,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Member_setStatus_131679114848
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setStatus_131679114848
 Running com.prac.react.model.dto.Celebrity_setKeyHash_142163987715
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Celebrity_setKeyHash_142163987715
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_setKeyHash_142163987715
 Running com.prac.react.model.dto.SecretKey_toString_5849288047
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.SecretKey_toString_5849288047
 Running com.prac.react.model.dto.LocationBase_setTitle_205388159719
@@ -1191,7 +1191,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Place_getStatus_31654252516
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getStatus_31654252516
 Running com.prac.react.model.dto.LocationBase_getTitle_181741728318
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getTitle_181741728318
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getTitle_181741728318
 Running com.prac.react.model.dto.Place_getLat_121444370112
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_getLat_121444370112
 Running com.prac.react.model.dto.Member_getPfUrl_57722996218
@@ -1201,7 +1201,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.LatLng_init_4502791640
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LatLng_init_4502791640
 Running com.prac.react.model.dto.LocationBase_setAddr1_208157977124
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_setAddr1_208157977124
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_setAddr1_208157977124
 Running com.prac.react.model.dto.Stay_setAreaCode_71864990430
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAreaCode_71864990430
 Running com.prac.react.model.dto.Pin_setPinHash_10968122235
@@ -1209,7 +1209,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.model.dto.Place_setLat_46708253113
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setLat_46708253113
 Running com.prac.react.model.dto.LocationBase_getContenttypeid_32706881327
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.LocationBase_getContenttypeid_32706881327
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.LocationBase_getContenttypeid_32706881327
 Running com.prac.react.model.dto.Culture_setLikeCount_5914026889
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Culture_setLikeCount_5914026889
 Running com.prac.react.model.dto.Place_setLng_46670774142
@@ -1223,29 +1223,29 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in c
 Running com.prac.react.model.dto.Celebrity_getSpot_30856536735
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Celebrity_getSpot_30856536735
 Running com.prac.react.model.dto.Course_setCourseNum_19789184018
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Course_setCourseNum_19789184018
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Course_setCourseNum_19789184018
 Running com.prac.react.model.dto.Member_setNickName_92624646711
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Member_setNickName_92624646711
 Running com.prac.react.model.dto.Place_setLat_46708253140
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_setLat_46708253140
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_setLat_46708253140
 Running com.prac.react.model.dto.Mysql_toString_20031972911
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Mysql_toString_20031972911
 Running com.prac.react.model.dto.Stay_setAddr2_169907147528
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_setAddr2_169907147528
 Running com.prac.react.model.dto.Place_toString_27365150053
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Place_toString_27365150053
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Place_toString_27365150053
 Running com.prac.react.model.dto.CourseWrapper_setCourseNum_85790645526
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.CourseWrapper_setCourseNum_85790645526
 Running com.prac.react.model.dto.Concert_setBuySite_104949799264
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Concert_setBuySite_104949799264
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.model.dto.Concert_setBuySite_104949799264
 Running com.prac.react.model.dto.Stay_getAreaCode_198997495230
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.model.dto.Stay_getAreaCode_198997495230
 Running com.prac.react.controller.ManagerController_init_20235181461
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.controller.ManagerController_init_20235181461
 Running com.prac.react.controller.ManagerController_init_20235181460
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.ManagerController_init_20235181460
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.controller.ManagerController_init_20235181460
 Running com.prac.react.controller.TestController_init_6152454572
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.TestController_init_6152454572
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.TestController_init_6152454572
 Running com.prac.react.controller.CourseController_init_2271675944
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.CourseController_init_2271675944
 Running com.prac.react.controller.CourseController_deleteCourse_2988909813
@@ -1255,7 +1255,7 @@ java.lang.NullPointerException
 	at com.prac.react.controller.CourseController_deleteCourse_2988909813.test(CourseController_deleteCourse_2988909813.java:109)
 
 Running com.prac.react.controller.CultureController_init_6754744742
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.CultureController_init_6754744742
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.CultureController_init_6754744742
 Running com.prac.react.controller.PinController_init_15237160040
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.PinController_init_15237160040
 Running com.prac.react.controller.CourseController_init_2271675940
@@ -1283,14 +1283,14 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.controller.MemberController_init_12412774611
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.MemberController_init_12412774611
 Running com.prac.react.controller.CelebController_init_13059593040
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.CelebController_init_13059593040
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.CelebController_init_13059593040
 Running com.prac.react.controller.ConcertController_init_2094812742
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.ConcertController_init_2094812742
 Running com.prac.react.controller.CelebController_init_13059593042
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.CelebController_init_13059593042
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.CelebController_init_13059593042
 Running com.prac.react.controller.PracController_getMemberCount_11458732883
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.PracController_getMemberCount_11458732883
-test(com.prac.react.controller.PracController_getMemberCount_11458732883)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.PracController_getMemberCount_11458732883
+test(com.prac.react.controller.PracController_getMemberCount_11458732883)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.PracController_getMemberCount_11458732883.test(PracController_getMemberCount_11458732883.java:43)
 
@@ -1317,14 +1317,14 @@ java.lang.NullPointerException
 	at com.prac.react.controller.CourseController_getCourses_2482635212.test(CourseController_getCourses_2482635212.java:109)
 
 Running com.prac.react.controller.CourseController_getCourses_2482635216
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.CourseController_getCourses_2482635216
-test(com.prac.react.controller.CourseController_getCourses_2482635216)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.CourseController_getCourses_2482635216
+test(com.prac.react.controller.CourseController_getCourses_2482635216)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.CourseController_getCourses_2482635216.test(CourseController_getCourses_2482635216.java:47)
 
 Running com.prac.react.controller.PinController_getKpopPin_4479403244
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.PinController_getKpopPin_4479403244
-test(com.prac.react.controller.PinController_getKpopPin_4479403244)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.PinController_getKpopPin_4479403244
+test(com.prac.react.controller.PinController_getKpopPin_4479403244)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.PinController_getKpopPin_4479403244.test(PinController_getKpopPin_4479403244.java:47)
 
@@ -1333,13 +1333,13 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.controller.NearController_init_3578033713
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.NearController_init_3578033713
 Running com.prac.react.controller.PinController_getKpopPin_4479403241
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.PinController_getKpopPin_4479403241
-test(com.prac.react.controller.PinController_getKpopPin_4479403241)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.PinController_getKpopPin_4479403241
+test(com.prac.react.controller.PinController_getKpopPin_4479403241)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.PinController_getKpopPin_4479403241.test(PinController_getKpopPin_4479403241.java:109)
 
 Running com.prac.react.controller.MemberController_init_12412774610
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.MemberController_init_12412774610
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.MemberController_init_12412774610
 Running com.prac.react.controller.CourseController_insertCourse_11814587235
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.CourseController_insertCourse_11814587235
 test(com.prac.react.controller.CourseController_insertCourse_11814587235)  Time elapsed: 0 sec  <<< ERROR!
@@ -1367,8 +1367,8 @@ java.lang.NumberFormatException: For input string: "MLqYREekMl"
 	at com.prac.react.controller.NearController_getNearTourInfo_20059931612.test(NearController_getNearTourInfo_20059931612.java:48)
 
 Running com.prac.react.controller.ConcertController_getConcertList_6117501613
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.ConcertController_getConcertList_6117501613
-test(com.prac.react.controller.ConcertController_getConcertList_6117501613)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.ConcertController_getConcertList_6117501613
+test(com.prac.react.controller.ConcertController_getConcertList_6117501613)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.ConcertController_getConcertList_6117501613.test(ConcertController_getConcertList_6117501613.java:45)
 
@@ -1385,13 +1385,13 @@ java.lang.NullPointerException
 	at com.prac.react.controller.CultureController_getCultures_15728543881.test(CultureController_getCultures_15728543881.java:106)
 
 Running com.prac.react.controller.PlaceController_getPlaceList_2219828331
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.PlaceController_getPlaceList_2219828331
-test(com.prac.react.controller.PlaceController_getPlaceList_2219828331)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.PlaceController_getPlaceList_2219828331
+test(com.prac.react.controller.PlaceController_getPlaceList_2219828331)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.PlaceController_getPlaceList_2219828331.test(PlaceController_getPlaceList_2219828331.java:107)
 
 Running com.prac.react.controller.PlaceController_init_21035272240
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.controller.PlaceController_init_21035272240
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.PlaceController_init_21035272240
 Running com.prac.react.controller.NearController_init_3578033710
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.NearController_init_3578033710
 Running com.prac.react.controller.PlaceController_getKpopPlaces_727553842
@@ -1403,14 +1403,14 @@ java.lang.NullPointerException
 Running com.prac.react.controller.PinController_init_15237160043
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.PinController_init_15237160043
 Running com.prac.react.controller.NearController_getNearTourInfo_20059931615
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.NearController_getNearTourInfo_20059931615
-test(com.prac.react.controller.NearController_getNearTourInfo_20059931615)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.NearController_getNearTourInfo_20059931615
+test(com.prac.react.controller.NearController_getNearTourInfo_20059931615)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.NearController_getNearTourInfo_20059931615.test(NearController_getNearTourInfo_20059931615.java:48)
 
 Running com.prac.react.controller.PinController_getCulturePin_6334473282
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.PinController_getCulturePin_6334473282
-test(com.prac.react.controller.PinController_getCulturePin_6334473282)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.PinController_getCulturePin_6334473282
+test(com.prac.react.controller.PinController_getCulturePin_6334473282)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.PinController_getCulturePin_6334473282.test(PinController_getCulturePin_6334473282.java:109)
 
@@ -1425,8 +1425,8 @@ java.lang.NullPointerException
 Running com.prac.react.controller.PlaceController_init_21035272243
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.controller.PlaceController_init_21035272243
 Running com.prac.react.controller.NearController_getNearStayInfo_8357272404
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.NearController_getNearStayInfo_8357272404
-test(com.prac.react.controller.NearController_getNearStayInfo_8357272404)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.NearController_getNearStayInfo_8357272404
+test(com.prac.react.controller.NearController_getNearStayInfo_8357272404)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.NearController_getNearStayInfo_8357272404.test(NearController_getNearStayInfo_8357272404.java:48)
 
@@ -1439,70 +1439,70 @@ java.lang.NullPointerException
 	at com.prac.react.controller.PracController_getMemberCount_11458732881.test(PracController_getMemberCount_11458732881.java:46)
 
 Running com.prac.react.controller.PinController_getCulturePin_6334473285
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.controller.PinController_getCulturePin_6334473285
-test(com.prac.react.controller.PinController_getCulturePin_6334473285)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.controller.PinController_getCulturePin_6334473285
+test(com.prac.react.controller.PinController_getCulturePin_6334473285)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.controller.PinController_getCulturePin_6334473285.test(PinController_getCulturePin_6334473285.java:47)
 
 Running com.prac.react.algorithm.QuikSort_swap_6417518159
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_swap_6417518159
-test(com.prac.react.algorithm.QuikSort_swap_6417518159)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_swap_6417518159
+test(com.prac.react.algorithm.QuikSort_swap_6417518159)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.algorithm.QuikSort_swap_6417518159.test(QuikSort_swap_6417518159.java:54)
 
 Running com.prac.react.algorithm.QuikSort_partition_14984384283
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_partition_14984384283
-test(com.prac.react.algorithm.QuikSort_partition_14984384283)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_partition_14984384283
+test(com.prac.react.algorithm.QuikSort_partition_14984384283)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index: 379564780, Size: 5
 	at com.prac.react.algorithm.QuikSort_partition_14984384283.test(QuikSort_partition_14984384283.java:163)
 
 Running com.prac.react.algorithm.QuikSort_swap_6417518154
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_swap_6417518154
-test(com.prac.react.algorithm.QuikSort_swap_6417518154)  Time elapsed: 0 sec  <<< ERROR!
+test(com.prac.react.algorithm.QuikSort_swap_6417518154)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index: 1398204340, Size: 0
 	at com.prac.react.algorithm.QuikSort_swap_6417518154.test(QuikSort_swap_6417518154.java:125)
 
 Running com.prac.react.algorithm.QuikSort_quikSort_2346546787
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_2346546787
-test(com.prac.react.algorithm.QuikSort_quikSort_2346546787)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_2346546787
+test(com.prac.react.algorithm.QuikSort_quikSort_2346546787)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.algorithm.QuikSort_quikSort_2346546787.test(QuikSort_quikSort_2346546787.java:54)
 
 Running com.prac.react.algorithm.QuikSort_partition_14984384288
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_partition_14984384288
-test(com.prac.react.algorithm.QuikSort_partition_14984384288)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_partition_14984384288
+test(com.prac.react.algorithm.QuikSort_partition_14984384288)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.algorithm.QuikSort_partition_14984384288.test(QuikSort_partition_14984384288.java:54)
 
 Running com.prac.react.algorithm.QuikSort_init_1412990840
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.algorithm.QuikSort_init_1412990840
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.algorithm.QuikSort_init_1412990840
 Running com.prac.react.algorithm.QuikSortTest
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.algorithm.QuikSortTest
 Running com.prac.react.algorithm.QuikSort_quikSort_5054824746
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_5054824746
-test(com.prac.react.algorithm.QuikSort_quikSort_5054824746)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_5054824746
+test(com.prac.react.algorithm.QuikSort_quikSort_5054824746)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.algorithm.QuikSort_quikSort_5054824746.test(QuikSort_quikSort_5054824746.java:45)
 
 Running com.prac.react.algorithm.QuikSort_quikSort_2346546782
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_2346546782
-test(com.prac.react.algorithm.QuikSort_quikSort_2346546782)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_2346546782
+test(com.prac.react.algorithm.QuikSort_quikSort_2346546782)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index: -872826988, Size: 0
 	at com.prac.react.algorithm.QuikSort_quikSort_2346546782.test(QuikSort_quikSort_2346546782.java:125)
 
 Running com.prac.react.algorithm.QuikSort_init_1412990845
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.algorithm.QuikSort_init_1412990845
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.algorithm.QuikSort_init_1412990845
 Running com.prac.react.algorithm.QuikSort_quikSort_5054824741
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_5054824741
-test(com.prac.react.algorithm.QuikSort_quikSort_5054824741)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.algorithm.QuikSort_quikSort_5054824741
+test(com.prac.react.algorithm.QuikSort_quikSort_5054824741)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.algorithm.QuikSort_quikSort_5054824741.test(QuikSort_quikSort_5054824741.java:154)
 
 Running com.prac.react.thread.CourseThread_init_11365042272
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.thread.CourseThread_init_11365042272
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.prac.react.thread.CourseThread_init_11365042272
 Running com.prac.react.thread.CourseThread_run_9705610251
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.thread.CourseThread_run_9705610251
-test(com.prac.react.thread.CourseThread_run_9705610251)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.thread.CourseThread_run_9705610251
+test(com.prac.react.thread.CourseThread_run_9705610251)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.thread.CourseThread_run_9705610251.test(CourseThread_run_9705610251.java:114)
 
@@ -1515,14 +1515,14 @@ java.lang.NullPointerException
 	at com.prac.react.thread.CourseThread_run_9705610253.test(CourseThread_run_9705610253.java:48)
 
 Running com.prac.react.security.Encryption_aesEncrypt_4305467388
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE! - in com.prac.react.security.Encryption_aesEncrypt_4305467388
-test(com.prac.react.security.Encryption_aesEncrypt_4305467388)  Time elapsed: 0.023 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE! - in com.prac.react.security.Encryption_aesEncrypt_4305467388
+test(com.prac.react.security.Encryption_aesEncrypt_4305467388)  Time elapsed: 0.026 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.security.Encryption_aesEncrypt_4305467388.test(Encryption_aesEncrypt_4305467388.java:47)
 
 Running com.prac.react.security.Encryption_aesEncrypt_4305467383
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE! - in com.prac.react.security.Encryption_aesEncrypt_4305467383
-test(com.prac.react.security.Encryption_aesEncrypt_4305467383)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in com.prac.react.security.Encryption_aesEncrypt_4305467383
+test(com.prac.react.security.Encryption_aesEncrypt_4305467383)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.security.Encryption_aesEncrypt_4305467383.test(Encryption_aesEncrypt_4305467383.java:117)
 
@@ -1535,9 +1535,9 @@ java.lang.NullPointerException
 	at com.prac.react.security.Encryption_aesDecrypt_5623899264.test(Encryption_aesDecrypt_5623899264.java:117)
 
 Running com.prac.react.security.Encryption_init_16792126941
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.security.Encryption_init_16792126941
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.security.Encryption_init_16792126941
 Running com.prac.react.security.Encryption_shaEncryption_2361928537
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.security.Encryption_shaEncryption_2361928537
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.security.Encryption_shaEncryption_2361928537
 test(com.prac.react.security.Encryption_shaEncryption_2361928537)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.security.Encryption_shaEncryption_2361928537.test(Encryption_shaEncryption_2361928537.java:47)
@@ -1549,7 +1549,7 @@ java.lang.NullPointerException
 	at com.prac.react.security.Encryption_aesDecrypt_5623899269.test(Encryption_aesDecrypt_5623899269.java:47)
 
 Running com.prac.react.security.Encryption_shaEncryption_2361928532
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.prac.react.security.Encryption_shaEncryption_2361928532
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.prac.react.security.Encryption_shaEncryption_2361928532
 Running com.prac.react.security.Encryption_init_7860995520
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.security.Encryption_init_7860995520
 Running com.prac.react.security.Encryption_init_16792126946
@@ -1561,26 +1561,26 @@ java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_updatePlace_6299603084.test(ManagerService_updatePlace_6299603084.java:60)
 
 Running com.prac.react.service.MemberService_getMemberInfo_6689568816
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_getMemberInfo_6689568816
-test(com.prac.react.service.MemberService_getMemberInfo_6689568816)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_getMemberInfo_6689568816
+test(com.prac.react.service.MemberService_getMemberInfo_6689568816)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_getMemberInfo_6689568816.test(MemberService_getMemberInfo_6689568816.java:49)
 
 Running com.prac.react.service.ManagerService_insertCulture_21098521001
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertCulture_21098521001
-test(com.prac.react.service.ManagerService_insertCulture_21098521001)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertCulture_21098521001
+test(com.prac.react.service.ManagerService_insertCulture_21098521001)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_insertCulture_21098521001.test(ManagerService_insertCulture_21098521001.java:56)
 
 Running com.prac.react.service.PlaceService_getPlaceByType_1089519465
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PlaceService_getPlaceByType_1089519465
-test(com.prac.react.service.PlaceService_getPlaceByType_1089519465)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PlaceService_getPlaceByType_1089519465
+test(com.prac.react.service.PlaceService_getPlaceByType_1089519465)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PlaceService_getPlaceByType_1089519465.test(PlaceService_getPlaceByType_1089519465.java:48)
 
 Running com.prac.react.service.CourseService_checkPlaceDb_16796225451
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CourseService_checkPlaceDb_16796225451
-test(com.prac.react.service.CourseService_checkPlaceDb_16796225451)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CourseService_checkPlaceDb_16796225451
+test(com.prac.react.service.CourseService_checkPlaceDb_16796225451)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_checkPlaceDb_16796225451.test(CourseService_checkPlaceDb_16796225451.java:60)
 
@@ -1592,7 +1592,7 @@ java.lang.NullPointerException
 
 Running com.prac.react.service.MemberService_checkPwd_2095262577
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_checkPwd_2095262577
-test(com.prac.react.service.MemberService_checkPwd_2095262577)  Time elapsed: 0 sec  <<< ERROR!
+test(com.prac.react.service.MemberService_checkPwd_2095262577)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_checkPwd_2095262577.test(MemberService_checkPwd_2095262577.java:59)
 
@@ -1603,7 +1603,7 @@ java.lang.NullPointerException
 	at com.prac.react.service.CelebService_getCelebrities_1443867391.test(CelebService_getCelebrities_1443867391.java:43)
 
 Running com.prac.react.service.MemberService_init_5911674711
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.MemberService_init_5911674711
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.MemberService_init_5911674711
 Running com.prac.react.service.MemberService_checkPwd_20952625718
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_checkPwd_20952625718
 test(com.prac.react.service.MemberService_checkPwd_20952625718)  Time elapsed: 0 sec  <<< ERROR!
@@ -1611,14 +1611,14 @@ java.lang.NullPointerException
 	at com.prac.react.service.MemberService_checkPwd_20952625718.test(MemberService_checkPwd_20952625718.java:46)
 
 Running com.prac.react.service.MemberService_memberSecession_86554594520
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_memberSecession_86554594520
-test(com.prac.react.service.MemberService_memberSecession_86554594520)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_memberSecession_86554594520
+test(com.prac.react.service.MemberService_memberSecession_86554594520)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_memberSecession_86554594520.test(MemberService_memberSecession_86554594520.java:49)
 
 Running com.prac.react.service.SearchStayService_getAllStay_5941078921
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.397 sec <<< FAILURE! - in com.prac.react.service.SearchStayService_getAllStay_5941078921
-test(com.prac.react.service.SearchStayService_getAllStay_5941078921)  Time elapsed: 3.397 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.555 sec <<< FAILURE! - in com.prac.react.service.SearchStayService_getAllStay_5941078921
+test(com.prac.react.service.SearchStayService_getAllStay_5941078921)  Time elapsed: 1.555 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.SearchStayService_getAllStay_5941078921.test(SearchStayService_getAllStay_5941078921.java:112)
 
@@ -1637,7 +1637,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.service.CultureService_init_8089244433
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.CultureService_init_8089244433
 Running com.prac.react.service.CourseService_1_init_6320760650
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.CourseService_1_init_6320760650
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.CourseService_1_init_6320760650
 Running com.prac.react.service.PracService_init_5382098662
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.PracService_init_5382098662
 Running com.prac.react.service.CelebService_init_10782057190
@@ -1653,8 +1653,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.p
 Running com.prac.react.service.CultureService_init_8089244430
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.CultureService_init_8089244430
 Running com.prac.react.service.SearchStayService_getAllStay_5941078923
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.188 sec <<< FAILURE! - in com.prac.react.service.SearchStayService_getAllStay_5941078923
-test(com.prac.react.service.SearchStayService_getAllStay_5941078923)  Time elapsed: 1.188 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.383 sec <<< FAILURE! - in com.prac.react.service.SearchStayService_getAllStay_5941078923
+test(com.prac.react.service.SearchStayService_getAllStay_5941078923)  Time elapsed: 1.383 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.SearchStayService_getAllStay_5941078923.test(SearchStayService_getAllStay_5941078923.java:44)
 
@@ -1665,8 +1665,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.ConcertService_getConcertList_20149359577.test(ConcertService_getConcertList_20149359577.java:44)
 
 Running com.prac.react.service.ManagerService_insertConcert_60276511614
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertConcert_60276511614
-test(com.prac.react.service.ManagerService_insertConcert_60276511614)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertConcert_60276511614
+test(com.prac.react.service.ManagerService_insertConcert_60276511614)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_insertConcert_60276511614.test(ManagerService_insertConcert_60276511614.java:46)
 
@@ -1683,8 +1683,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.CourseService_1_failed_12304023165.test(CourseService_1_failed_12304023165.java:49)
 
 Running com.prac.react.service.MemberService_checkNickName_166736583213
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_checkNickName_166736583213
-test(com.prac.react.service.MemberService_checkNickName_166736583213)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_checkNickName_166736583213
+test(com.prac.react.service.MemberService_checkNickName_166736583213)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_checkNickName_166736583213.test(MemberService_checkNickName_166736583213.java:46)
 
@@ -1695,8 +1695,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.MemberService_insertMember_160366477114.test(MemberService_insertMember_160366477114.java:46)
 
 Running com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635311
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635311
-test(com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635311)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635311
+test(com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635311)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635311.test(ConcertService_getConcertNumbyCelebName_2723635311.java:46)
 
@@ -1707,14 +1707,14 @@ java.lang.NullPointerException
 	at com.prac.react.service.MemberService_checkMember_3645929401.test(MemberService_checkMember_3645929401.java:46)
 
 Running com.prac.react.service.PinService_getKpopPin_4367125074
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PinService_getKpopPin_4367125074
-test(com.prac.react.service.PinService_getKpopPin_4367125074)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PinService_getKpopPin_4367125074
+test(com.prac.react.service.PinService_getKpopPin_4367125074)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PinService_getKpopPin_4367125074.test(PinService_getKpopPin_4367125074.java:49)
 
 Running com.prac.react.service.ManagerService_insertCulture_21098521009
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertCulture_21098521009
-test(com.prac.react.service.ManagerService_insertCulture_21098521009)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertCulture_21098521009
+test(com.prac.react.service.ManagerService_insertCulture_21098521009)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_insertCulture_21098521009.test(ManagerService_insertCulture_21098521009.java:46)
 
@@ -1731,8 +1731,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.CourseService_getMemberCourseWrapper_35578686812.test(CourseService_getMemberCourseWrapper_35578686812.java:51)
 
 Running com.prac.react.service.PinService_getCulturePin_6446751455
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PinService_getCulturePin_6446751455
-test(com.prac.react.service.PinService_getCulturePin_6446751455)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PinService_getCulturePin_6446751455
+test(com.prac.react.service.PinService_getCulturePin_6446751455)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PinService_getCulturePin_6446751455.test(PinService_getCulturePin_6446751455.java:49)
 
@@ -1783,8 +1783,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.CourseService_getCourses_59998526611.test(CourseService_getCourses_59998526611.java:49)
 
 Running com.prac.react.service.PlaceService_getPlaceList_5449995934
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PlaceService_getPlaceList_5449995934
-test(com.prac.react.service.PlaceService_getPlaceList_5449995934)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PlaceService_getPlaceList_5449995934
+test(com.prac.react.service.PlaceService_getPlaceList_5449995934)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PlaceService_getPlaceList_5449995934.test(PlaceService_getPlaceList_5449995934.java:44)
 
@@ -1795,7 +1795,7 @@ java.lang.NullPointerException
 	at com.prac.react.service.CelebService_getCelebKeyNumByName_19589460156.test(CelebService_getCelebKeyNumByName_19589460156.java:45)
 
 Running com.prac.react.service.PinService_init_13040344830
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.PinService_init_13040344830
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.PinService_init_13040344830
 Running com.prac.react.service.MemberService_memberSecession_8655459459
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_memberSecession_8655459459
 test(com.prac.react.service.MemberService_memberSecession_8655459459)  Time elapsed: 0 sec  <<< ERROR!
@@ -1803,26 +1803,26 @@ java.lang.NullPointerException
 	at com.prac.react.service.MemberService_memberSecession_8655459459.test(MemberService_memberSecession_8655459459.java:49)
 
 Running com.prac.react.service.CelebService_getCelebrities_1443867395
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CelebService_getCelebrities_1443867395
-test(com.prac.react.service.CelebService_getCelebrities_1443867395)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CelebService_getCelebrities_1443867395
+test(com.prac.react.service.CelebService_getCelebrities_1443867395)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CelebService_getCelebrities_1443867395.test(CelebService_getCelebrities_1443867395.java:43)
 
 Running com.prac.react.service.SigunguService_init_2430562872
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.SigunguService_init_2430562872
 Running com.prac.react.service.MemberService_login_176215807015
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_login_176215807015
-test(com.prac.react.service.MemberService_login_176215807015)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_login_176215807015
+test(com.prac.react.service.MemberService_login_176215807015)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_login_176215807015.test(MemberService_login_176215807015.java:46)
 
 Running com.prac.react.service.ManagerService_init_6554072030
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.ManagerService_init_6554072030
 Running com.prac.react.service.SigunguService_init_2430562870
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.SigunguService_init_2430562870
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.SigunguService_init_2430562870
 Running com.prac.react.service.PinService_getKpopPin_4367125071
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PinService_getKpopPin_4367125071
-test(com.prac.react.service.PinService_getKpopPin_4367125071)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PinService_getKpopPin_4367125071
+test(com.prac.react.service.PinService_getKpopPin_4367125071)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PinService_getKpopPin_4367125071.test(PinService_getKpopPin_4367125071.java:49)
 
@@ -1833,30 +1833,30 @@ java.lang.NullPointerException
 	at com.prac.react.service.SigunguService_getSigungu_3487930891.test(SigunguService_getSigungu_3487930891.java:114)
 
 Running com.prac.react.service.CourseService_1_completed_18044880115
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_completed_18044880115
-test(com.prac.react.service.CourseService_1_completed_18044880115)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_completed_18044880115
+test(com.prac.react.service.CourseService_1_completed_18044880115)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_1_completed_18044880115.test(CourseService_1_completed_18044880115.java:49)
 
 Running com.prac.react.service.PlaceService_init_3803449190
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.PlaceService_init_3803449190
 Running com.prac.react.service.ConcertService_init_20774504530
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.ConcertService_init_20774504530
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.ConcertService_init_20774504530
 Running com.prac.react.service.CourseService_saveNewPlace_12927511829
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CourseService_saveNewPlace_12927511829
-test(com.prac.react.service.CourseService_saveNewPlace_12927511829)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CourseService_saveNewPlace_12927511829
+test(com.prac.react.service.CourseService_saveNewPlace_12927511829)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_saveNewPlace_12927511829.test(CourseService_saveNewPlace_12927511829.java:46)
 
 Running com.prac.react.service.CultureService_getSpot_2263750245
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CultureService_getSpot_2263750245
-test(com.prac.react.service.CultureService_getSpot_2263750245)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CultureService_getSpot_2263750245
+test(com.prac.react.service.CultureService_getSpot_2263750245)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CultureService_getSpot_2263750245.test(CultureService_getSpot_2263750245.java:45)
 
 Running com.prac.react.service.ConcertService_updateCelebNum_16118106832
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ConcertService_updateCelebNum_16118106832
-test(com.prac.react.service.ConcertService_updateCelebNum_16118106832)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ConcertService_updateCelebNum_16118106832
+test(com.prac.react.service.ConcertService_updateCelebNum_16118106832)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ConcertService_updateCelebNum_16118106832.test(ConcertService_updateCelebNum_16118106832.java:53)
 
@@ -1867,8 +1867,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.CourseService_deleteCourse_5283076413.test(CourseService_deleteCourse_5283076413.java:49)
 
 Running com.prac.react.service.CourseService_1_completed_18044880114
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_completed_18044880114
-test(com.prac.react.service.CourseService_1_completed_18044880114)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_completed_18044880114
+test(com.prac.react.service.CourseService_1_completed_18044880114)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_1_completed_18044880114.test(CourseService_1_completed_18044880114.java:49)
 
@@ -1876,7 +1876,7 @@ Running com.prac.react.service.CourseService_1_init_6320760654
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.CourseService_1_init_6320760654
 Running com.prac.react.service.CourseService_insertCourse_133749654810
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CourseService_insertCourse_133749654810
-test(com.prac.react.service.CourseService_insertCourse_133749654810)  Time elapsed: 0.001 sec  <<< ERROR!
+test(com.prac.react.service.CourseService_insertCourse_133749654810)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_insertCourse_133749654810.test(CourseService_insertCourse_133749654810.java:46)
 
@@ -1907,8 +1907,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.MemberService_getMemberInfo_668956885.test(MemberService_getMemberInfo_668956885.java:49)
 
 Running com.prac.react.service.ManagerService_insertConcert_6027651166
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertConcert_6027651166
-test(com.prac.react.service.ManagerService_insertConcert_6027651166)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertConcert_6027651166
+test(com.prac.react.service.ManagerService_insertConcert_6027651166)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_insertConcert_6027651166.test(ManagerService_insertConcert_6027651166.java:70)
 
@@ -1925,28 +1925,28 @@ java.lang.NullPointerException
 	at com.prac.react.service.CultureService_getCultureList_18689074291.test(CultureService_getCultureList_18689074291.java:43)
 
 Running com.prac.react.service.CourseService_1_failed_12304023162
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_failed_12304023162
-test(com.prac.react.service.CourseService_1_failed_12304023162)  Time elapsed: 0.008 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_failed_12304023162
+test(com.prac.react.service.CourseService_1_failed_12304023162)  Time elapsed: 0.006 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_1_failed_12304023162.test(CourseService_1_failed_12304023162.java:255)
 
 Running com.prac.react.service.PracService_getMemberCount_14299294523
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PracService_getMemberCount_14299294523
-test(com.prac.react.service.PracService_getMemberCount_14299294523)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PracService_getMemberCount_14299294523
+test(com.prac.react.service.PracService_getMemberCount_14299294523)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PracService_getMemberCount_14299294523.test(PracService_getMemberCount_14299294523.java:43)
 
 Running com.prac.react.service.ManagerService_insertPlace_3544825883
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertPlace_3544825883
-test(com.prac.react.service.ManagerService_insertPlace_3544825883)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_insertPlace_3544825883
+test(com.prac.react.service.ManagerService_insertPlace_3544825883)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_insertPlace_3544825883.test(ManagerService_insertPlace_3544825883.java:60)
 
 Running com.prac.react.service.SearchStayService_init_3118070000
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.SearchStayService_init_3118070000
 Running com.prac.react.service.CourseService_1_failed_12304023163
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_failed_12304023163
-test(com.prac.react.service.CourseService_1_failed_12304023163)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CourseService_1_failed_12304023163
+test(com.prac.react.service.CourseService_1_failed_12304023163)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_1_failed_12304023163.test(CourseService_1_failed_12304023163.java:49)
 
@@ -1957,14 +1957,14 @@ java.lang.NullPointerException
 	at com.prac.react.service.CourseService_getCourses_5999852664.test(CourseService_getCourses_5999852664.java:49)
 
 Running com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635315
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635315
-test(com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635315)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635315
+test(com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635315)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ConcertService_getConcertNumbyCelebName_2723635315.test(ConcertService_getConcertNumbyCelebName_2723635315.java:46)
 
 Running com.prac.react.service.MemberService_login_17621580704
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_login_17621580704
-test(com.prac.react.service.MemberService_login_17621580704)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_login_17621580704
+test(com.prac.react.service.MemberService_login_17621580704)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_login_17621580704.test(MemberService_login_17621580704.java:59)
 
@@ -1995,30 +1995,30 @@ java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_insertPlace_35448258811.test(ManagerService_insertPlace_35448258811.java:46)
 
 Running com.prac.react.service.CourseService_init_9601683717
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.CourseService_init_9601683717
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.CourseService_init_9601683717
 Running com.prac.react.service.PlaceService_getPlaceByType_1089519462
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.PlaceService_getPlaceByType_1089519462
 Running com.prac.react.service.PracService_getMemberCount_14299294521
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.PracService_getMemberCount_14299294521
-test(com.prac.react.service.PracService_getMemberCount_14299294521)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.PracService_getMemberCount_14299294521
+test(com.prac.react.service.PracService_getMemberCount_14299294521)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.PracService_getMemberCount_14299294521.test(PracService_getMemberCount_14299294521.java:43)
 
 Running com.prac.react.service.ManagerService_checkDuplicate_4997592475
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_checkDuplicate_4997592475
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_checkDuplicate_4997592475
 test(com.prac.react.service.ManagerService_checkDuplicate_4997592475)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_checkDuplicate_4997592475.test(ManagerService_checkDuplicate_4997592475.java:60)
 
 Running com.prac.react.service.MemberService_checkNickName_16673658322
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_checkNickName_16673658322
-test(com.prac.react.service.MemberService_checkNickName_16673658322)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_checkNickName_16673658322
+test(com.prac.react.service.MemberService_checkNickName_16673658322)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_checkNickName_16673658322.test(MemberService_checkNickName_16673658322.java:46)
 
 Running com.prac.react.service.CelebService_getCelebKeyNumByName_19589460152
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CelebService_getCelebKeyNumByName_19589460152
-test(com.prac.react.service.CelebService_getCelebKeyNumByName_19589460152)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CelebService_getCelebKeyNumByName_19589460152
+test(com.prac.react.service.CelebService_getCelebKeyNumByName_19589460152)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CelebService_getCelebKeyNumByName_19589460152.test(CelebService_getCelebKeyNumByName_19589460152.java:45)
 
@@ -2029,8 +2029,8 @@ java.lang.NullPointerException
 	at com.prac.react.service.PlaceService_getPlaceList_5449995931.test(PlaceService_getPlaceList_5449995931.java:44)
 
 Running com.prac.react.service.CultureService_getCultureList_18689074294
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CultureService_getCultureList_18689074294
-test(com.prac.react.service.CultureService_getCultureList_18689074294)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CultureService_getCultureList_18689074294
+test(com.prac.react.service.CultureService_getCultureList_18689074294)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CultureService_getCultureList_18689074294.test(CultureService_getCultureList_18689074294.java:43)
 
@@ -2041,43 +2041,43 @@ java.lang.NullPointerException
 	at com.prac.react.service.MemberService_checkManager_389902221.test(MemberService_checkManager_389902221.java:49)
 
 Running com.prac.react.service.MemberService_insertMember_16036647713
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_insertMember_16036647713
-test(com.prac.react.service.MemberService_insertMember_16036647713)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_insertMember_16036647713
+test(com.prac.react.service.MemberService_insertMember_16036647713)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_insertMember_16036647713.test(MemberService_insertMember_16036647713.java:59)
 
 Running com.prac.react.service.CultureService_getSpot_2263750242
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CultureService_getSpot_2263750242
-test(com.prac.react.service.CultureService_getSpot_2263750242)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CultureService_getSpot_2263750242
+test(com.prac.react.service.CultureService_getSpot_2263750242)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CultureService_getSpot_2263750242.test(CultureService_getSpot_2263750242.java:45)
 
 Running com.prac.react.service.CelebService_getSpot_15327506977
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.CelebService_getSpot_15327506977
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.CelebService_getSpot_15327506977
 test(com.prac.react.service.CelebService_getSpot_15327506977)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CelebService_getSpot_15327506977.test(CelebService_getSpot_15327506977.java:45)
 
 Running com.prac.react.service.ManagerService_checkDuplicate_49975924713
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.ManagerService_checkDuplicate_49975924713
-test(com.prac.react.service.ManagerService_checkDuplicate_49975924713)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.ManagerService_checkDuplicate_49975924713
+test(com.prac.react.service.ManagerService_checkDuplicate_49975924713)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.ManagerService_checkDuplicate_49975924713.test(ManagerService_checkDuplicate_49975924713.java:46)
 
 Running com.prac.react.service.MemberService_updatePwd_3427589808
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.prac.react.service.MemberService_updatePwd_3427589808
-test(com.prac.react.service.MemberService_updatePwd_3427589808)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.prac.react.service.MemberService_updatePwd_3427589808
+test(com.prac.react.service.MemberService_updatePwd_3427589808)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.MemberService_updatePwd_3427589808.test(MemberService_updatePwd_3427589808.java:59)
 
 Running com.prac.react.service.CourseService_getMemberCourseWrapper_3557868685
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in com.prac.react.service.CourseService_getMemberCourseWrapper_3557868685
-test(com.prac.react.service.CourseService_getMemberCourseWrapper_3557868685)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in com.prac.react.service.CourseService_getMemberCourseWrapper_3557868685
+test(com.prac.react.service.CourseService_getMemberCourseWrapper_3557868685)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.prac.react.service.CourseService_getMemberCourseWrapper_3557868685.test(CourseService_getMemberCourseWrapper_3557868685.java:81)
 
 Running com.prac.react.service.PinService_init_13040344833
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.PinService_init_13040344833
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.prac.react.service.PinService_init_13040344833
 Running com.prac.react.service.SearchStayService_init_3118070002
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.prac.react.service.SearchStayService_init_3118070002
 Running com.prac.react.service.ManagerService_insertPin_163148860415
@@ -2234,6 +2234,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  20.935 s
-[INFO] Finished at: 2026-04-08T01:14:55Z
+[INFO] Total time:  19.388 s
+[INFO] Finished at: 2026-04-09T15:15:23Z
 [INFO] ------------------------------------------------------------------------

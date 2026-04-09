@@ -302,7 +302,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Direct self-refer
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Tests run: 436, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.904 sec
+Tests run: 436, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.96 sec
 
 Results :
 
@@ -319,6 +319,6 @@ Tests run: 436, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  01:49 min
-[INFO] Finished at: 2026-04-08T01:42:38Z
+[INFO] Total time:  01:04 min
+[INFO] Finished at: 2026-04-09T15:32:39Z
 [INFO] ------------------------------------------------------------------------

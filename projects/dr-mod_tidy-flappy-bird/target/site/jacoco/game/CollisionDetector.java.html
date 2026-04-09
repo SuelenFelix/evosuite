@@ -10,17 +10,17 @@ public class CollisionDetector {
 
     public boolean collision(Bird bird, Pipe pipe) {
 
-<span class="nc" id="L13">        int birdBottom = bird.getY() + bird.getBirdHeight();</span>
-<span class="nc bnc" id="L14" title="All 2 branches missed.">        if (screenBottom &lt; birdBottom) return true;</span>
+<span class="fc" id="L13">        int birdBottom = bird.getY() + bird.getBirdHeight();</span>
+<span class="pc bpc" id="L14" title="1 of 2 branches missed.">        if (screenBottom &lt; birdBottom) return true;</span>
 
 
-<span class="nc" id="L17">        int birdsFurthestPoint = bird.getX() + bird.getBirdWidth();</span>
-<span class="nc bnc" id="L18" title="All 4 branches missed.">        if (pipe.getX() &lt; birdsFurthestPoint  &amp;&amp; pipe.getX() + pipe.getWidth() &gt; bird.getX()) {</span>
+<span class="fc" id="L17">        int birdsFurthestPoint = bird.getX() + bird.getBirdWidth();</span>
+<span class="pc bpc" id="L18" title="2 of 4 branches missed.">        if (pipe.getX() &lt; birdsFurthestPoint  &amp;&amp; pipe.getX() + pipe.getWidth() &gt; bird.getX()) {</span>
 <span class="nc bnc" id="L19" title="All 4 branches missed.">            if (bird.getY() &lt; pipe.getyOpeningStart() || birdBottom &gt; pipe.getyOpeningEnd()) {</span>
 <span class="nc" id="L20">                return true;</span>
             }
         }
-<span class="nc" id="L23">        return false;</span>
+<span class="fc" id="L23">        return false;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

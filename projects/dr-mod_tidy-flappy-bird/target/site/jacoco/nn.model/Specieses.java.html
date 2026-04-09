@@ -23,12 +23,12 @@ public class Specieses {
 <span class="fc" id="L23">    }</span>
 
     public Species get(Genome genome) {
-<span class="nc bnc" id="L26" title="All 2 branches missed.">        for (Species speciese : specieses) {</span>
+<span class="pc bpc" id="L26" title="1 of 2 branches missed.">        for (Species speciese : specieses) {</span>
 <span class="nc bnc" id="L27" title="All 2 branches missed.">            for (FitnessGenome specieseGenome : speciese.getGenomes()) {</span>
 <span class="nc bnc" id="L28" title="All 2 branches missed.">                if (specieseGenome.getGenome().equals(genome)) return speciese;</span>
 <span class="nc" id="L29">            }</span>
 <span class="nc" id="L30">        }</span>
-<span class="nc" id="L31">        throw new RuntimeException(&quot;genome doesn't belong to any species&quot;);</span>
+<span class="fc" id="L31">        throw new RuntimeException(&quot;genome doesn't belong to any species&quot;);</span>
     }
 
     public List&lt;Species&gt; getSpecieces() {
@@ -36,11 +36,11 @@ public class Specieses {
     }
 
     public Specieses whittleDown() {
-<span class="nc" id="L39">        List&lt;Species&gt; speciesSet = new ArrayList&lt;&gt;();</span>
-<span class="nc bnc" id="L40" title="All 2 branches missed.">        for (Species oneSpecies : specieses) {</span>
+<span class="fc" id="L39">        List&lt;Species&gt; speciesSet = new ArrayList&lt;&gt;();</span>
+<span class="pc bpc" id="L40" title="1 of 2 branches missed.">        for (Species oneSpecies : specieses) {</span>
 <span class="nc" id="L41">            speciesSet.add(new Species(oneSpecies.getBestGenome(), oneSpecies.getStaleness()));</span>
 <span class="nc" id="L42">        }</span>
-<span class="nc" id="L43">        return new Specieses(speciesSet);</span>
+<span class="fc" id="L43">        return new Specieses(speciesSet);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

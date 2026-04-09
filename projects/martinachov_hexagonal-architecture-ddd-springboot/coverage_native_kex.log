@@ -140,7 +140,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.martinachov.hexagonal.HexagonalArchitectureApplication_init_19795041320
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.martinachov.hexagonal.HexagonalArchitectureApplication_init_19795041320
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.martinachov.hexagonal.HexagonalArchitectureApplication_init_19795041320
 [INFO] Running com.martinachov.hexagonal.HexagonalArchitectureApplication_init_19795041322
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.HexagonalArchitectureApplication_init_19795041322
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_21208196087
@@ -150,7 +150,7 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setId_11702569954
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setId_11702569954
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_6189120708
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_6189120708
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_6189120708
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_toString_20143015045
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_toString_20143015045
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_build_176964402810
@@ -158,15 +158,15 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setName_175248675014
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setName_175248675014
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_description_16197436569
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_description_16197436569
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_description_16197436569
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setId_117025699513
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setId_117025699513
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_id_284908367
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_id_284908367
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_id_284908367
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getName_3261018211
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getName_3261018211
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getDescription_115974910912
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getDescription_115974910912
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getDescription_115974910912
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getId_16002987531
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_getId_16002987531
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_212081960816
@@ -174,11 +174,11 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_builder_84484910
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_builder_84484910
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setDescription_105669829315
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setDescription_105669829315
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_setDescription_105669829315
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_name_10537684872
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_name_10537684872
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_build_17696440284
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_build_17696440284
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_build_17696440284
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_61891207017
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_init_61891207017
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse_ProductResponseBuilder_toString_201430150411
@@ -212,31 +212,31 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getDescription_7791617732
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getDescription_7791617732
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_builder_3940054890
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_builder_3940054890
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_builder_3940054890
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_init_19806903125
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_init_19806903125
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setName_60356966410
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setName_60356966410
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setName_60356966410
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setName_6035696643
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setName_6035696643
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_toString_11049713569
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_toString_11049713569
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_toString_11049713569
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_init_5595155055
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_init_5595155055
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setDescription_8822125894
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setDescription_8822125894
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_setDescription_8822125894
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_toString_11049713564
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_toString_11049713564
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_toString_11049713564
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_build_15709925863
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_build_15709925863
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_build_15709925863
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_init_198069031212
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_init_198069031212
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_init_198069031212
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getName_19715210648
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getName_19715210648
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_description_2125396087
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_description_2125396087
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_description_2125396087
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getName_19715210641
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getName_19715210641
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_getName_19715210641
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_init_5595155050
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_init_5595155050
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest_ProductRequestBuilder_name_14089155456
@@ -254,9 +254,9 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.config.BeanConfiguration_init_3764184661
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.config.BeanConfiguration_init_3764184661
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.config.BeanConfiguration_init_3764184660
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.config.BeanConfiguration_init_3764184660
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.config.BeanConfiguration_init_3764184660
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setId_60127073213
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setId_60127073213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setId_60127073213
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_init_155183334516
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_init_155183334516
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setName_118350048714
@@ -264,7 +264,7 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_ProductEntityBuilder_init_1767456460
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_ProductEntityBuilder_init_1767456460
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_ProductEntityBuilder_description_17570849843
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_ProductEntityBuilder_description_17570849843
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_ProductEntityBuilder_description_17570849843
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_getDescription_17287353723
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_getDescription_17287353723
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setId_6012707324
@@ -282,7 +282,7 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_getDescription_172873537212
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_getDescription_172873537212
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_init_499258078
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_init_499258078
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_init_499258078
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_builder_1865764210
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_builder_1865764210
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_ProductEntityBuilder_name_1356298318
@@ -316,10 +316,10 @@
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setName_11835004875
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.entity.ProductEntity_setName_11835004875
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_init_20422077313
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_init_20422077313
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_init_20422077313
 [INFO] Running com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_toProduct_18163837061
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_toProduct_18163837061
-[ERROR] test  Time elapsed: 0.008 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_toProduct_18163837061
+[ERROR] test  Time elapsed: 0.01 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper_toProduct_18163837061.test(ProductMapper_toProduct_18163837061.java:49)
 
@@ -353,35 +353,35 @@ java.lang.NullPointerException
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.5)
 
-2026-04-08 01:23:12.545  INFO 69 --- [me-limited test] c.m.h.HexagonalArchitectureApplication   : Starting HexagonalArchitectureApplication using Java 11.0.16 on fe7eb739a7df with PID 69 (started by root in /app)
-2026-04-08 01:23:12.547  INFO 69 --- [me-limited test] c.m.h.HexagonalArchitectureApplication   : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:23:13.197  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:23:13.254  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
-2026-04-08 01:23:13.853  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:23:13.867  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:23:13.867  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2026-04-08 01:23:13.953  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:23:13.954  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1362 ms
-2026-04-08 01:23:13.985  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:23:14.266  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 01:23:14.281  INFO 69 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2026-04-08 01:23:14.449  INFO 69 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:23:14.513  INFO 69 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2026-04-08 01:23:14.669  INFO 69 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 01:23:14.803  INFO 69 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:24:07.021  INFO 73 --- [me-limited test] c.m.h.HexagonalArchitectureApplication   : Starting HexagonalArchitectureApplication using Java 11.0.16 on 65b624c94d3d with PID 73 (started by root in /app)
+2026-04-09 15:24:07.025  INFO 73 --- [me-limited test] c.m.h.HexagonalArchitectureApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:24:07.704  INFO 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:24:07.765  INFO 73 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2026-04-09 15:24:08.357  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:24:08.369  INFO 73 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:24:08.369  INFO 73 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2026-04-09 15:24:08.457  INFO 73 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:24:08.457  INFO 73 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1381 ms
+2026-04-09 15:24:08.487  INFO 73 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:24:08.771  INFO 73 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 15:24:08.784  INFO 73 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-09 15:24:08.933  INFO 73 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:24:08.990  INFO 73 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2026-04-09 15:24:09.121  INFO 73 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 15:24:09.251  INFO 73 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 Hibernate: create table product_entity (id bigint generated by default as identity, description varchar(255), name varchar(255), primary key (id))
-2026-04-08 01:23:15.372  INFO 69 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:23:15.380  INFO 69 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:23:15.665  WARN 69 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:23:15.984  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:23:15.991  INFO 69 --- [me-limited test] c.m.h.HexagonalArchitectureApplication   : Started HexagonalArchitectureApplication in 3.947 seconds (JVM running for 5.158)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.129 s - in com.martinachov.hexagonal.HexagonalArchitectureApplication_main_16029411281
+2026-04-09 15:24:09.803  INFO 73 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:24:09.810  INFO 73 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:24:10.106  WARN 73 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:24:10.443  INFO 73 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:24:10.451  INFO 73 --- [me-limited test] c.m.h.HexagonalArchitectureApplication   : Started HexagonalArchitectureApplication in 3.935 seconds (JVM running for 5.189)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.131 s - in com.martinachov.hexagonal.HexagonalArchitectureApplication_main_16029411281
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_setId_12936607794
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_setId_12936607794
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.martinachov.hexagonal.domain.model.Product_setId_12936607794
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_id_9965511801
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_id_9965511801
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_id_9965511801
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_setId_129366077913
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_setId_129366077913
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.domain.model.Product_setId_129366077913
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_toString_11534386115
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_toString_11534386115
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_init_18450057048
@@ -405,13 +405,13 @@ Hibernate: create table product_entity (id bigint generated by default as identi
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_init_34309816616
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_init_34309816616
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_init_3430981667
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_init_3430981667
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.domain.model.Product_init_3430981667
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_build_9233879774
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_build_9233879774
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_init_16988944620
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_init_16988944620
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_init_184500570417
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.domain.model.Product_init_184500570417
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_init_184500570417
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_getName_186365970411
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_getName_186365970411
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_builder_17373128480
@@ -419,7 +419,7 @@ Hibernate: create table product_entity (id bigint generated by default as identi
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_name_20788105032
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_name_20788105032
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_id_9965511807
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_id_9965511807
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_id_9965511807
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_toString_115343861111
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.model.Product_ProductBuilder_toString_115343861111
 [INFO] Running com.martinachov.hexagonal.domain.model.Product_ProductBuilder_description_5947016409
@@ -442,8 +442,8 @@ Hibernate: create table product_entity (id bigint generated by default as identi
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.martinachov.hexagonal.domain.exception.ProductNotFoundException_init_1012148271
 [INFO] Running com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225410
 Retornando Producto por ID
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225410
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225410
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225410.test(ProductService_getProductById_18179225410.java:48)
 
@@ -456,8 +456,8 @@ java.lang.NullPointerException
 
 [INFO] Running com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225413
 Retornando Producto por ID
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225413
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225413
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.martinachov.hexagonal.domain.service.ProductService_getProductById_18179225413.test(ProductService_getProductById_18179225413.java:45)
 
@@ -473,7 +473,7 @@ java.lang.NullPointerException
 	at com.martinachov.hexagonal.domain.service.ProductService_createProduct_11579098481.test(ProductService_createProduct_11579098481.java:52)
 
 [INFO] Running com.martinachov.hexagonal.HexagonalArchitectureApplication_main_16029411283
-2026-04-08 01:23:16.051 ERROR 69 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:24:10.507 ERROR 73 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.23.jar:5.3.23]
@@ -502,18 +502,18 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in com.martinachov.hexagonal.HexagonalArchitectureApplication_main_16029411283
-[ERROR] test  Time elapsed: 0.007 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in com.martinachov.hexagonal.HexagonalArchitectureApplication_main_16029411283
+[ERROR] test  Time elapsed: 0.014 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.martinachov.hexagonal.HexagonalArchitectureApplication_main_16029411283.test(HexagonalArchitectureApplication_main_16029411283.java:44)
 
 [INFO] Running com.martinachov.hexagonal.HexagonalArchitectureApplicationTests
-2026-04-08 01:23:16.097  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.martinachov.hexagonal.HexagonalArchitectureApplicationTests], using SpringBootContextLoader
-2026-04-08 01:23:16.098  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.martinachov.hexagonal.HexagonalArchitectureApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:23:16.098  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.martinachov.hexagonal.HexagonalArchitectureApplicationTests]: HexagonalArchitectureApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:23:16.119  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.martinachov.hexagonal.HexagonalArchitectureApplication for test class com.martinachov.hexagonal.HexagonalArchitectureApplicationTests
-2026-04-08 01:23:16.123  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:23:16.131  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1943c1f2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d70f722, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1e1eeedd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@798256c5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ec95456, org.springframework.test.context.support.DirtiesContextTestExecutionListener@748a654a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d8b0500, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@76544c0a, org.springframework.test.context.event.EventPublishingTestExecutionListener@428bdd72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@650c405c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20eaeaf8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@748ac6f3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68f6e55d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6fff46bf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1835dc92]
+2026-04-09 15:24:10.554  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.martinachov.hexagonal.HexagonalArchitectureApplicationTests], using SpringBootContextLoader
+2026-04-09 15:24:10.555  INFO 73 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.martinachov.hexagonal.HexagonalArchitectureApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:24:10.555  INFO 73 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.martinachov.hexagonal.HexagonalArchitectureApplicationTests]: HexagonalArchitectureApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:24:10.594  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.martinachov.hexagonal.HexagonalArchitectureApplication for test class com.martinachov.hexagonal.HexagonalArchitectureApplicationTests
+2026-04-09 15:24:10.599  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:24:10.609  INFO 73 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1943c1f2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d70f722, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1e1eeedd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@798256c5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ec95456, org.springframework.test.context.support.DirtiesContextTestExecutionListener@748a654a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d8b0500, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@76544c0a, org.springframework.test.context.event.EventPublishingTestExecutionListener@428bdd72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@650c405c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20eaeaf8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@748ac6f3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68f6e55d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6fff46bf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1835dc92]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -523,26 +523,26 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.5)
 
-2026-04-08 01:23:16.185  INFO 69 --- [           main] .h.HexagonalArchitectureApplicationTests : Starting HexagonalArchitectureApplicationTests using Java 11.0.16 on fe7eb739a7df with PID 69 (started by root in /app)
-2026-04-08 01:23:16.185  INFO 69 --- [           main] .h.HexagonalArchitectureApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:23:16.292  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:23:16.301  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-2026-04-08 01:23:16.423  INFO 69 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:23:16.426  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:23:16.427  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2026-04-08 01:23:16.428  INFO 69 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2026-04-08 01:23:16.454  INFO 69 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:23:16.454  INFO 69 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:23:16.581  WARN 69 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:23:16.684  INFO 69 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2026-04-08 01:23:16.791  INFO 69 --- [           main] .h.HexagonalArchitectureApplicationTests : Started HexagonalArchitectureApplicationTests in 0.634 seconds (JVM running for 5.958)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.81 s - in com.martinachov.hexagonal.HexagonalArchitectureApplicationTests
-2026-04-08 01:23:17.012  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:23:17.014  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 01:23:17.016  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-04-08 01:23:17.018  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:23:17.018  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2026-04-08 01:23:17.020  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-09 15:24:10.655  INFO 73 --- [           main] .h.HexagonalArchitectureApplicationTests : Starting HexagonalArchitectureApplicationTests using Java 11.0.16 on 65b624c94d3d with PID 73 (started by root in /app)
+2026-04-09 15:24:10.656  INFO 73 --- [           main] .h.HexagonalArchitectureApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:24:10.784  INFO 73 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:24:10.796  INFO 73 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2026-04-09 15:24:10.931  INFO 73 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:24:10.935  INFO 73 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:24:10.936  INFO 73 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-09 15:24:10.937  INFO 73 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:24:10.965  INFO 73 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:24:10.965  INFO 73 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:24:11.105  WARN 73 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:24:11.196  INFO 73 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-09 15:24:11.302  INFO 73 --- [           main] .h.HexagonalArchitectureApplicationTests : Started HexagonalArchitectureApplicationTests in 0.68 seconds (JVM running for 6.04)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.864 s - in com.martinachov.hexagonal.HexagonalArchitectureApplicationTests
+2026-04-09 15:24:11.517  INFO 73 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:24:11.519  INFO 73 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 15:24:11.521  INFO 73 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 15:24:11.523  INFO 73 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:24:11.524  INFO 73 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-09 15:24:11.526  INFO 73 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -574,6 +574,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.310 s
-[INFO] Finished at: 2026-04-08T01:23:17Z
+[INFO] Total time:  10.464 s
+[INFO] Finished at: 2026-04-09T15:24:12Z
 [INFO] ------------------------------------------------------------------------

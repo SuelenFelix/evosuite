@@ -64,12 +64,12 @@
  T E S T S
 -------------------------------------------------------
 Running jvmscompare.IntListTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.173 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.124 sec
 Running jvmscompare.JavaInformation_main_5396869071
 ##### Heap utilization statistics [MB] #####
-Used Memory:258
-Free Memory:442
-Total Memory:702
+Used Memory:273
+Free Memory:429
+Total Memory:704
 Max Memory:7848
 Java Runtime Environment version: 11.0.16
 Java Runtime Environment vendor: Oracle Corporation
@@ -88,12 +88,12 @@ Benchmark forks: 2
 Benchmark warmups: 20
 Benchmark measurements: 10
 
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
 Running jvmscompare.JavaInformation_printJavaInformation_9773580142
 ##### Heap utilization statistics [MB] #####
-Used Memory:261
-Free Memory:440
-Total Memory:702
+Used Memory:276
+Free Memory:427
+Total Memory:704
 Max Memory:7848
 Java Runtime Environment version: 11.0.16
 Java Runtime Environment vendor: Oracle Corporation
@@ -118,51 +118,51 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_init_2632512681
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_init_19320543020
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_init_19320543021
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_init_15579160400
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_init_1688338221
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_init_15579161020
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B1_init_15579161021
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B3_init_15579160401
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_init_5690769201
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B3_init_2632512680
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_init_5690769821
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769511
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769511
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B3_init_5690769820
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B2_init_15579160710
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B2_init_5690769510
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_init_2632513301
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running jvmscompare.benchmark.generated.PersonFilterAndGroup_jmhType_B2_init_15579160711
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_init_16209416041
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_init_1688338220
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_B1_init_5690769200
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B2_init_2632512990
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running jvmscompare.benchmark.generated.PersonFilterOnly_jmhType_B1_init_2632513300
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.benchmark.generated.PersonCombinedSummaryStats_jmhType_init_16209416040
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122921
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122921
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running jvmscompare.benchmark.PersonFilterOnly_init_19320396180
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.PersonCombinedSummaryStats_init_9594122920
@@ -170,24 +170,24 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.PersonFilterOnly_init_19320396181
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418220
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418221
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running jvmscompare.benchmark.PersonFilterAndGroup_init_9233418221
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.Environment_init_7588249781
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.PersonTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.453 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.465 sec
 Running jvmscompare.JavaInformation_init_9162499113
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.Person_init_6749180280
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.JavaInformation_init_9162499110
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.JavaInformation_main_5396869074
 ##### Heap utilization statistics [MB] #####
-Used Memory:344
-Free Memory:967
-Total Memory:1312
+Used Memory:346
+Free Memory:357
+Total Memory:704
 Max Memory:7848
 Java Runtime Environment version: 11.0.16
 Java Runtime Environment vendor: Oracle Corporation
@@ -209,9 +209,9 @@ Benchmark measurements: 10
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.JavaInformation_printJavaInformation_9773580145
 ##### Heap utilization statistics [MB] #####
-Used Memory:344
-Free Memory:967
-Total Memory:1312
+Used Memory:346
+Free Memory:357
+Total Memory:704
 Max Memory:7848
 Java Runtime Environment version: 11.0.16
 Java Runtime Environment vendor: Oracle Corporation
@@ -230,11 +230,11 @@ Benchmark forks: 2
 Benchmark warmups: 20
 Benchmark measurements: 10
 
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running jvmscompare.Environment_init_7588249780
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running jvmscompare.Person_init_6749180281
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
 
@@ -251,6 +251,6 @@ Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.543 s
-[INFO] Finished at: 2026-04-08T01:00:28Z
+[INFO] Total time:  5.507 s
+[INFO] Finished at: 2026-04-09T14:57:25Z
 [INFO] ------------------------------------------------------------------------

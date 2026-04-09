@@ -312,8 +312,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
 <span class="fc" id="L312">        this.rootNode = rootNode;</span>
 <span class="fc" id="L313">        this.showRoot = showRoot;</span>
         // If we aren't showing the root, expand it so it's children will be visible as top level nodes.
-<span class="fc bfc" id="L315" title="All 2 branches covered.">        if (!showRoot) {</span>
-<span class="fc" id="L316">            expandNode(rootNode);</span>
+<span class="pc bpc" id="L315" title="1 of 2 branches missed.">        if (!showRoot) {</span>
+<span class="nc" id="L316">            expandNode(rootNode);</span>
         }
 <span class="fc" id="L318">        refreshTree();</span>
 <span class="fc" id="L319">    }</span>
@@ -533,7 +533,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return true if a grouping comparator is set on the model.
      */
     public boolean isGrouping() {
-<span class="pc bpc" id="L536" title="1 of 2 branches missed.">        return groupingComparator != null;</span>
+<span class="nc bnc" id="L536" title="All 2 branches missed.">        return groupingComparator != null;</span>
     }
 
     /**
@@ -598,8 +598,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return true if any sorting is being performed by a bound JTable.
      */
     public boolean isSorting() {
-<span class="pc bpc" id="L601" title="3 of 4 branches missed.">        return  table != null &amp;&amp; table.getRowSorter() != null &amp;&amp;</span>
-<span class="pc bnc" id="L602" title="All 4 branches missed.">                (!getSortKeys().isEmpty() || groupingComparator != null);</span>
+<span class="nc bnc" id="L601" title="All 4 branches missed.">        return  table != null &amp;&amp; table.getRowSorter() != null &amp;&amp;</span>
+<span class="nc bnc" id="L602" title="All 4 branches missed.">                (!getSortKeys().isEmpty() || groupingComparator != null);</span>
     }
 
     /**
@@ -626,8 +626,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return an unmodifiable list of sort keys currently set, or an empty list of no keys are set.
      */
     public List&lt;? extends RowSorter.SortKey&gt; getSortKeys() {
-<span class="pc bpc" id="L629" title="1 of 2 branches missed.">        if (table == null) {</span>
-<span class="fc" id="L630">            return sortKeys;</span>
+<span class="nc bnc" id="L629" title="All 2 branches missed.">        if (table == null) {</span>
+<span class="nc" id="L630">            return sortKeys;</span>
         }
 <span class="nc" id="L632">        final RowSorter&lt;? extends TableModel&gt; rowSorter = table.getRowSorter();</span>
 <span class="nc bnc" id="L633" title="All 2 branches missed.">        return rowSorter == null ? sortKeys : rowSorter.getSortKeys();</span>
@@ -642,16 +642,16 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      */
     public void setSortKeys(final List&lt;? extends RowSorter.SortKey&gt; keys) {
         // Cache the keys set as an unmodifiable list of keys.
-<span class="pc bpc" id="L645" title="2 of 4 branches missed.">        sortKeys = keys == null || keys.isEmpty()? Collections.emptyList() : new ArrayList&lt;&gt;(keys);</span>
+<span class="nc bnc" id="L645" title="All 4 branches missed.">        sortKeys = keys == null || keys.isEmpty()? Collections.emptyList() : new ArrayList&lt;&gt;(keys);</span>
 
         // If we're bound to a table and have a row sorter, set those sort keys on it.
-<span class="pc bpc" id="L648" title="1 of 2 branches missed.">        if (table != null) {</span>
+<span class="nc bnc" id="L648" title="All 2 branches missed.">        if (table != null) {</span>
 <span class="nc" id="L649">            var rowSorter = table.getRowSorter();</span>
 <span class="nc bnc" id="L650" title="All 2 branches missed.">            if (rowSorter != null) {</span>
 <span class="nc" id="L651">                rowSorter.setSortKeys(sortKeys);</span>
             }
         }
-<span class="fc" id="L654">    }</span>
+<span class="nc" id="L654">    }</span>
 
     /**
      * Sets a single sort key given the column and the sort order.
@@ -659,8 +659,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @param sortOrder The sort order of the column.
      */
     public void setSortKey(final int column, final SortOrder sortOrder) {
-<span class="fc" id="L662">        setSortKeys(new RowSorter.SortKey(column, sortOrder));</span>
-<span class="fc" id="L663">    }</span>
+<span class="nc" id="L662">        setSortKeys(new RowSorter.SortKey(column, sortOrder));</span>
+<span class="nc" id="L663">    }</span>
 
     /**
      * Sets the default sort keys to use if no other columns were selected for sort.
@@ -704,12 +704,12 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @param keys The list of sort keys to sort with.
      */
     public void setSortKeys(final RowSorter.SortKey... keys) {
-<span class="pc bpc" id="L707" title="3 of 6 branches missed.">        if (keys == null || keys.length == 0 || keys[0] == null) {</span>
+<span class="nc bnc" id="L707" title="All 6 branches missed.">        if (keys == null || keys.length == 0 || keys[0] == null) {</span>
 <span class="nc" id="L708">            setSortKeys((List&lt;RowSorter.SortKey&gt;) null);</span>
         } else {
-<span class="fc" id="L710">            setSortKeys(Arrays.asList(keys));</span>
+<span class="nc" id="L710">            setSortKeys(Arrays.asList(keys));</span>
         }
-<span class="fc" id="L712">    }</span>
+<span class="nc" id="L712">    }</span>
 
     /**
      * Clears sort keys to an empty list.
@@ -768,7 +768,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return true if a filter is set.
      */
     public boolean isFiltering() {
-<span class="pc bpc" id="L771" title="1 of 2 branches missed.">        return filterPredicate != null;</span>
+<span class="nc bnc" id="L771" title="All 2 branches missed.">        return filterPredicate != null;</span>
     }
 
     /**
@@ -822,12 +822,12 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
 
     @Override
     public int getRowCount() {
-<span class="fc" id="L825">        return displayedNodes.size();</span>
+<span class="nc" id="L825">        return displayedNodes.size();</span>
     }
 
     @Override
     public int getColumnCount() {
-<span class="fc" id="L830">        return getTableColumnModel().getColumnCount();</span>
+<span class="nc" id="L830">        return getTableColumnModel().getColumnCount();</span>
     }
 
     /*
@@ -1191,13 +1191,13 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
         //NOTE: node parent is already null and unlinked from tree when TreeModel.removeNodeFromParent is called,
         // which fires the event which results in trying to remove the visible node here.  Therefore, we cannot use tree
         // walking to determine the visible model index, and have to rely on a linear scan of the visible node list.
-<span class="fc" id="L1194">        final int modelIndex = getModelIndexLinearScan(removedNode);</span>
-<span class="pc bpc" id="L1195" title="1 of 2 branches missed.">        if (modelIndex &gt;= 0) {</span>
-<span class="fc" id="L1196">            final int numChildren = getLastKnownSubTreeCount(removedNode);</span>
-<span class="fc" id="L1197">            final int lastIndex = modelIndex + numChildren;</span>
-<span class="fc" id="L1198">            displayedNodes.remove(modelIndex, lastIndex);</span>
-<span class="fc" id="L1199">            fireTableRowsDeleted(modelIndex, lastIndex);</span>
-<span class="fc" id="L1200">            return 1 + numChildren;</span>
+<span class="nc" id="L1194">        final int modelIndex = getModelIndexLinearScan(removedNode);</span>
+<span class="nc bnc" id="L1195" title="All 2 branches missed.">        if (modelIndex &gt;= 0) {</span>
+<span class="nc" id="L1196">            final int numChildren = getLastKnownSubTreeCount(removedNode);</span>
+<span class="nc" id="L1197">            final int lastIndex = modelIndex + numChildren;</span>
+<span class="nc" id="L1198">            displayedNodes.remove(modelIndex, lastIndex);</span>
+<span class="nc" id="L1199">            fireTableRowsDeleted(modelIndex, lastIndex);</span>
+<span class="nc" id="L1200">            return 1 + numChildren;</span>
         }
 <span class="nc" id="L1202">        return 0; // wasn't visible after all - so nothing removed.</span>
     }
@@ -1284,7 +1284,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return The node for the row in the (unsorted) model index, or null if out of bounds.
      */
     public TreeNode getNodeAtModelIndex(final int modelIndex) {
-<span class="fc bfc" id="L1287" title="All 2 branches covered.">        return validRow(modelIndex) ? displayedNodes.get(modelIndex) : null;</span>
+<span class="nc bnc" id="L1287" title="All 2 branches missed.">        return validRow(modelIndex) ? displayedNodes.get(modelIndex) : null;</span>
     }
 
     /**
@@ -1299,7 +1299,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     }
 
     protected boolean validRow(final int tableRow) {
-<span class="fc bfc" id="L1302" title="All 4 branches covered.">        return tableRow &gt;= 0 &amp;&amp; tableRow &lt; getRowCount();</span>
+<span class="nc bnc" id="L1302" title="All 4 branches missed.">        return tableRow &gt;= 0 &amp;&amp; tableRow &lt; getRowCount();</span>
     }
 
     /**
@@ -1330,7 +1330,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return The ListSelectionModel of the bound table, or null if a table is not bound.
      */
     public ListSelectionModel getSelectionModel() {
-<span class="pc bpc" id="L1333" title="1 of 2 branches missed.">        return table == null? null : table.getSelectionModel();</span>
+<span class="nc bnc" id="L1333" title="All 2 branches missed.">        return table == null? null : table.getSelectionModel();</span>
     }
 
     //TODO: more extensive test of this would be good.
@@ -1522,7 +1522,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      **/
     protected void addMouseListener() {
 <span class="nc bnc" id="L1524" title="All 2 branches missed.">        if (table != null) {</span>
-<span class="nc" id="L1525">            tableMouseListener = new MouseAdapter() {</span>
+<span class="pc" id="L1525">            tableMouseListener = new MouseAdapter() {</span>
                 @Override
                 public void mouseClicked(MouseEvent e) {
 <span class="nc" id="L1528">                    toggleExpansion(e); //TODO: restrict to just left mouse button?</span>
@@ -1630,11 +1630,11 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return The TableColumnModel telling JTable what columns to display and their order.
      */
     public TableColumnModel getTableColumnModel() {
-<span class="pc bpc" id="L1633" title="1 of 2 branches missed.">        if (columnModel == null) {</span>
-<span class="fc" id="L1634">            columnModel = createTableColumnModel();</span>
-<span class="fc" id="L1635">            setTreeCellRendererOnFirstColumnIfNotSet(columnModel);</span>
+<span class="nc bnc" id="L1633" title="All 2 branches missed.">        if (columnModel == null) {</span>
+<span class="nc" id="L1634">            columnModel = createTableColumnModel();</span>
+<span class="nc" id="L1635">            setTreeCellRendererOnFirstColumnIfNotSet(columnModel);</span>
         }
-<span class="fc" id="L1637">        return columnModel;</span>
+<span class="nc" id="L1637">        return columnModel;</span>
     }
 
     /**
@@ -1646,13 +1646,13 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @param columnModel The TableColumnModel to scan.
      */
     protected void setTreeCellRendererOnFirstColumnIfNotSet(final TableColumnModel columnModel) {
-<span class="pc bpc" id="L1649" title="1 of 2 branches missed.">        for (int columnIndex = 0; columnIndex &lt; columnModel.getColumnCount(); columnIndex++) {</span>
+<span class="nc bnc" id="L1649" title="All 2 branches missed.">        for (int columnIndex = 0; columnIndex &lt; columnModel.getColumnCount(); columnIndex++) {</span>
 <span class="nc" id="L1650">            TableColumn column = columnModel.getColumn(columnIndex);</span>
 <span class="nc bnc" id="L1651" title="All 4 branches missed.">            if (column.getModelIndex() == TREE_COLUMN_INDEX &amp;&amp; column.getCellRenderer() == null) {</span>
 <span class="nc" id="L1652">                column.setCellRenderer(new TreeCellRenderer(this));</span>
             }
         }
-<span class="fc" id="L1655">    }</span>
+<span class="nc" id="L1655">    }</span>
 
     /* *****************************************************************************************************************
      *                                Node expansion and collapse and tree change.
@@ -1723,8 +1723,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @return The number of visible children under this node (including any other expanded nodes underneath).
      */
     protected int getLastKnownSubTreeCount(final TreeNode parentNode) {
-<span class="fc" id="L1726">        final Integer childCount = expandedNodeCounts.get(parentNode);</span>
-<span class="fc bfc" id="L1727" title="All 2 branches covered.">        return childCount == null ? 0 : childCount;</span>
+<span class="nc" id="L1726">        final Integer childCount = expandedNodeCounts.get(parentNode);</span>
+<span class="nc bnc" id="L1727" title="All 2 branches missed.">        return childCount == null ? 0 : childCount;</span>
     }
 
     /**
@@ -1993,8 +1993,8 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
 
         // If we haven't removed or added any children, notify the table this one node may have changed.
         // This forces a visual refresh which may alter the rendering of expand or collapse handles.
-<span class="fc bfc" id="L1996" title="All 2 branches covered.">        if (childrenChanged == 0) { //TODO: good to test this path?</span>
-<span class="fc" id="L1997">            fireTableRowsUpdated(parentModelIndex, parentModelIndex);</span>
+<span class="pc bpc" id="L1996" title="1 of 2 branches missed.">        if (childrenChanged == 0) { //TODO: good to test this path?</span>
+<span class="nc" id="L1997">            fireTableRowsUpdated(parentModelIndex, parentModelIndex);</span>
         }
 <span class="fc" id="L1999">    }</span>
 
@@ -2022,13 +2022,13 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @param delta The change in the child count for the node.
      */
     protected void updateVisibleChildCounts(final TreeNode node, final int delta) {
-<span class="pc bpc" id="L2025" title="1 of 2 branches missed.">        if (delta != 0) {</span>
-<span class="fc" id="L2026">            final int existingChildren = getLastKnownSubTreeCount(node);</span>
-<span class="fc" id="L2027">            final int newVisibleChildren = existingChildren + delta;</span>
-<span class="fc" id="L2028">            expandedNodeCounts.put(node, newVisibleChildren);</span>
-<span class="fc" id="L2029">            updateTreeChildCounts(node.getParent(), newVisibleChildren);</span>
+<span class="nc bnc" id="L2025" title="All 2 branches missed.">        if (delta != 0) {</span>
+<span class="nc" id="L2026">            final int existingChildren = getLastKnownSubTreeCount(node);</span>
+<span class="nc" id="L2027">            final int newVisibleChildren = existingChildren + delta;</span>
+<span class="nc" id="L2028">            expandedNodeCounts.put(node, newVisibleChildren);</span>
+<span class="nc" id="L2029">            updateTreeChildCounts(node.getParent(), newVisibleChildren);</span>
         }
-<span class="fc" id="L2031">    }</span>
+<span class="nc" id="L2031">    }</span>
 
     /**
      * Updates all child counts down the tree to root given a starting node and the change in child counts,
@@ -2038,7 +2038,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      * @param delta The amount to adjust the child counts, negative or positive.
      */
     protected void updateTreeChildCounts(final TreeNode startNode, final int delta) {
-<span class="fc bfc" id="L2041" title="All 2 branches covered.">        if (delta != 0) {</span>
+<span class="pc bpc" id="L2041" title="1 of 2 branches missed.">        if (delta != 0) {</span>
 <span class="fc" id="L2042">            final Map&lt;TreeNode, Integer&gt; nodeCounts = expandedNodeCounts;</span>
 <span class="fc" id="L2043">            TreeNode currentNode = startNode;</span>
             // Propagate child counts down the tree, as long as the parents themselves are expanded.
@@ -2133,12 +2133,12 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      */
     public boolean isVisible(final TreeNode node) {
         // Root node has the show/hide status, deal with that as a special case:
-<span class="fc bfc" id="L2136" title="All 2 branches covered.">        if (node == rootNode) {</span>
-<span class="pc bpc" id="L2137" title="2 of 4 branches missed.">            return showRoot &amp;&amp; !isFiltered(node);</span>
+<span class="nc bnc" id="L2136" title="All 2 branches missed.">        if (node == rootNode) {</span>
+<span class="nc bnc" id="L2137" title="All 4 branches missed.">            return showRoot &amp;&amp; !isFiltered(node);</span>
         }
         // We're visible if we're not null or filtered, and if all our parents are expanded and not filtered up to the root.
-<span class="pc bpc" id="L2140" title="3 of 4 branches missed.">        return node != null &amp;&amp; !isFiltered(node) &amp;&amp;</span>
-<span class="pc bnc" id="L2141" title="All 6 branches missed.">               TreeUtils.getFurthestAncestor(node, parent -&gt; isExpanded(parent) &amp;&amp; !isFiltered(parent)) == rootNode;</span>
+<span class="nc bnc" id="L2140" title="All 4 branches missed.">        return node != null &amp;&amp; !isFiltered(node) &amp;&amp;</span>
+<span class="nc bnc" id="L2141" title="All 6 branches missed.">               TreeUtils.getFurthestAncestor(node, parent -&gt; isExpanded(parent) &amp;&amp; !isFiltered(parent)) == rootNode;</span>
     }
 
     /**
@@ -2162,13 +2162,13 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      */
     protected void buildVisibleNodes() {
 <span class="fc" id="L2164">        displayedNodes.clear();</span>
-<span class="fc bfc" id="L2165" title="All 2 branches covered.">        if (showRoot) {</span>
+<span class="pc bpc" id="L2165" title="1 of 2 branches missed.">        if (showRoot) {</span>
 <span class="pc bpc" id="L2166" title="1 of 2 branches missed.">            if (!isFiltered(rootNode)) {</span>
 <span class="fc" id="L2167">                displayedNodes.add(rootNode);</span>
 <span class="fc" id="L2168">                buildVisibleChildren(rootNode, displayedNodes);</span>
             }
         } else {
-<span class="fc" id="L2171">            buildVisibleChildren(rootNode, displayedNodes);</span>
+<span class="nc" id="L2171">            buildVisibleChildren(rootNode, displayedNodes);</span>
         }
 <span class="fc" id="L2173">    }</span>
 
@@ -2198,13 +2198,13 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      */
     protected int addVisibleChildren(final int parentModelRow, final TreeNode parentNode) {
 <span class="fc" id="L2200">        final int childCount = parentNode.getChildCount();</span>
-<span class="fc bfc" id="L2201" title="All 2 branches covered.">        if (childCount &gt; 0) {</span>
+<span class="pc bpc" id="L2201" title="1 of 2 branches missed.">        if (childCount &gt; 0) {</span>
 <span class="fc" id="L2202">            final int firstChildRow = parentModelRow + 1;</span>
 <span class="fc" id="L2203">            final List&lt;TreeNode&gt; newVisibleNodes = buildVisibleChildren(parentNode);</span>
 <span class="fc" id="L2204">            final int newChildren = newVisibleNodes.size();</span>
 <span class="pc bpc" id="L2205" title="1 of 2 branches missed.">            if (newChildren &gt; 0) {</span>
-<span class="fc bfc" id="L2206" title="All 2 branches covered.">                if (newChildren == 1) {</span>
-<span class="fc" id="L2207">                    displayedNodes.add(firstChildRow, newVisibleNodes.get(0));</span>
+<span class="pc bpc" id="L2206" title="1 of 2 branches missed.">                if (newChildren == 1) {</span>
+<span class="nc" id="L2207">                    displayedNodes.add(firstChildRow, newVisibleNodes.get(0));</span>
                 } else {
 <span class="fc" id="L2209">                    displayedNodes.addAll(firstChildRow, newVisibleNodes);</span>
                 }
@@ -2212,7 +2212,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
             }
 <span class="fc" id="L2213">            return newChildren;</span>
         }
-<span class="fc" id="L2215">        return 0;</span>
+<span class="nc" id="L2215">        return 0;</span>
     }
 
     /**
@@ -2245,19 +2245,19 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
      */
     protected int buildVisibleChildren(final TreeNode parentNode, final List&lt;TreeNode&gt; visibleNodes) {
         // if expanded, then add in the visible children.
-<span class="fc bfc" id="L2248" title="All 2 branches covered.">        if (isExpanded(parentNode)) {</span>
-<span class="fc" id="L2249">            int totalVisibleChildren = 0;</span>
-<span class="fc bfc" id="L2250" title="All 2 branches covered.">            for (int childIndex = 0; childIndex &lt; parentNode.getChildCount(); childIndex++) {</span>
-<span class="fc" id="L2251">                final TreeNode child = parentNode.getChildAt(childIndex);</span>
-<span class="pc bpc" id="L2252" title="1 of 2 branches missed.">                if (!isFiltered(child)) {</span>
-<span class="fc" id="L2253">                    visibleNodes.add(child);</span>
-<span class="fc" id="L2254">                    totalVisibleChildren += (1 + buildVisibleChildren(child, visibleNodes)); // And this child and the children of the child if they're visible...</span>
+<span class="pc bpc" id="L2248" title="1 of 2 branches missed.">        if (isExpanded(parentNode)) {</span>
+<span class="nc" id="L2249">            int totalVisibleChildren = 0;</span>
+<span class="nc bnc" id="L2250" title="All 2 branches missed.">            for (int childIndex = 0; childIndex &lt; parentNode.getChildCount(); childIndex++) {</span>
+<span class="nc" id="L2251">                final TreeNode child = parentNode.getChildAt(childIndex);</span>
+<span class="nc bnc" id="L2252" title="All 2 branches missed.">                if (!isFiltered(child)) {</span>
+<span class="nc" id="L2253">                    visibleNodes.add(child);</span>
+<span class="nc" id="L2254">                    totalVisibleChildren += (1 + buildVisibleChildren(child, visibleNodes)); // And this child and the children of the child if they're visible...</span>
                 }
             }
 
             // Reset the child count for each expanded node as it is built (some nodes may be filtered, or it may have changed entirely since last rebuild).
-<span class="fc" id="L2259">            expandedNodeCounts.put(parentNode, totalVisibleChildren); // ensure child counts for any expanded nodes are updated when the tree is rebuilt.</span>
-<span class="fc" id="L2260">            return totalVisibleChildren;</span>
+<span class="nc" id="L2259">            expandedNodeCounts.put(parentNode, totalVisibleChildren); // ensure child counts for any expanded nodes are updated when the tree is rebuilt.</span>
+<span class="nc" id="L2260">            return totalVisibleChildren;</span>
         }
 <span class="fc" id="L2262">        return 0;</span>
     }
@@ -2459,15 +2459,15 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
 
     @Override
     public String toString() {
-<span class="fc" id="L2462">        return getClass().getSimpleName() +</span>
+<span class="nc" id="L2462">        return getClass().getSimpleName() +</span>
                 &quot;(root node = &quot;  + rootNode + &quot;, show root = &quot; + showRoot +
-<span class="fc" id="L2464">                &quot;, size = &quot;      + displayedNodes.size() + &quot;, table = &quot; + table +</span>
-<span class="fc" id="L2465">                &quot;, filtering = &quot; + isFiltering() + &quot;, sorting = &quot; + isSorting() + &quot;, grouping = &quot; + isGrouping() + ')';</span>
+<span class="nc" id="L2464">                &quot;, size = &quot;      + displayedNodes.size() + &quot;, table = &quot; + table +</span>
+<span class="nc" id="L2465">                &quot;, filtering = &quot; + isFiltering() + &quot;, sorting = &quot; + isSorting() + &quot;, grouping = &quot; + isGrouping() + ')';</span>
     }
 
     protected void checkNull(final Object object, final String message) {
-<span class="pc bpc" id="L2469" title="1 of 2 branches missed.">        if (object == null) {</span>
-<span class="nc" id="L2470">            throw new IllegalArgumentException(&quot;Object cannot be null: &quot; + message);</span>
+<span class="fc bfc" id="L2469" title="All 2 branches covered.">        if (object == null) {</span>
+<span class="fc" id="L2470">            throw new IllegalArgumentException(&quot;Object cannot be null: &quot; + message);</span>
         }
 <span class="fc" id="L2472">    }</span>
 
@@ -2478,7 +2478,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that toggles a tree node expanded or collapsed.
      */
-<span class="nc" id="L2481">    protected abstract class TreeTableAbstractAction extends AbstractAction {</span>
+<span class="fc" id="L2481">    protected abstract class TreeTableAbstractAction extends AbstractAction {</span>
         @Override
         public void actionPerformed(ActionEvent e) {
 <span class="nc" id="L2484">            Object source = e.getSource();</span>
@@ -2497,7 +2497,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that expands a node if it is not already expanded.
      */
-<span class="nc" id="L2500">    protected class TreeTableExpandAction extends TreeTableAbstractAction {</span>
+<span class="fc" id="L2500">    protected class TreeTableExpandAction extends TreeTableAbstractAction {</span>
         protected boolean shouldToggle(final TreeNode node) {
 <span class="nc bnc" id="L2502" title="All 2 branches missed.">            return !isExpanded(node);</span>
         }
@@ -2506,7 +2506,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that collapses a node if it is currently expanded.
      */
-<span class="nc" id="L2509">    protected class TreeTableCollapseAction  extends TreeTableAbstractAction {</span>
+<span class="fc" id="L2509">    protected class TreeTableCollapseAction  extends TreeTableAbstractAction {</span>
         protected boolean shouldToggle(final TreeNode node) {
 <span class="nc" id="L2511">            return isExpanded(node);</span>
         }
@@ -2515,17 +2515,17 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
     /**
      * An action that toggles expansion or collapse of a node.
      */
-<span class="nc" id="L2518">    protected class TreeTableToggleExpandAction extends TreeTableAbstractAction {</span>
+<span class="fc" id="L2518">    protected class TreeTableToggleExpandAction extends TreeTableAbstractAction {</span>
         protected boolean shouldToggle(final TreeNode node) {
-<span class="nc" id="L2520">            return true;</span>
+<span class="fc" id="L2520">            return true;</span>
         }
     }
 
-<span class="nc" id="L2524">    protected class TreeTableNavigateParentAction extends AbstractAction {</span>
+<span class="fc" id="L2524">    protected class TreeTableNavigateParentAction extends AbstractAction {</span>
         @Override
         public void actionPerformed(ActionEvent e) {
-<span class="nc" id="L2527">            Object source = e.getSource();</span>
-<span class="nc bnc" id="L2528" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="fc" id="L2527">            Object source = e.getSource();</span>
+<span class="pc bpc" id="L2528" title="1 of 2 branches missed.">            if (source instanceof JTable) {</span>
 <span class="nc" id="L2529">                final JTable table = (JTable) source;</span>
 <span class="nc" id="L2530">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
 <span class="nc" id="L2531">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
@@ -2541,14 +2541,14 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
                     }
                 }
             }
-<span class="nc" id="L2544">        }</span>
+<span class="fc" id="L2544">        }</span>
     }
 
-<span class="nc" id="L2547">    protected class TreeTableNavigateChildrenAction extends AbstractAction {</span>
+<span class="fc" id="L2547">    protected class TreeTableNavigateChildrenAction extends AbstractAction {</span>
         @Override
         public void actionPerformed(ActionEvent e) {
-<span class="nc" id="L2550">            Object source = e.getSource();</span>
-<span class="nc bnc" id="L2551" title="All 2 branches missed.">            if (source instanceof JTable) {</span>
+<span class="fc" id="L2550">            Object source = e.getSource();</span>
+<span class="pc bpc" id="L2551" title="1 of 2 branches missed.">            if (source instanceof JTable) {</span>
 <span class="nc" id="L2552">                final JTable table = (JTable) source;</span>
 <span class="nc" id="L2553">                final int modelIndexRow = getModelIndexForTableRow(table.getSelectedRow());</span>
 <span class="nc" id="L2554">                final TreeNode node = getNodeAtModelIndex(modelIndexRow);</span>
@@ -2564,7 +2564,7 @@ public abstract class TreeTableModel extends AbstractTableModel implements TreeM
                     }
                 }
             }
-<span class="nc" id="L2567">        }</span>
+<span class="fc" id="L2567">        }</span>
     }
 
     /**

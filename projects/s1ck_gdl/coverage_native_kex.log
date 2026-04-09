@@ -84,28 +84,28 @@ WARNING: Illegal reflective access by org.s1ck.gdl.model.ReflectionUtils (file:/
 WARNING: Please consider reporting this to the maintainers of org.s1ck.gdl.model.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
 Running org.s1ck.gdl.model.Vertex_referenceString_17878970642
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Graph_init_4762428750
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-Running org.s1ck.gdl.model.Edge_init_168085334812
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Edge_init_168085334812
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.GraphElement_init_18721411713
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_getLabel_11930357863
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_referenceString_212833010412
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_setTargetVertexId_6438547744
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running org.s1ck.gdl.model.Element_setProperties_46009268225
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_getLowerBound_20962284016
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_toString_206865809722
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
-test(org.s1ck.gdl.model.Edge_toString_206865809722)  Time elapsed: 0.013 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Edge_toString_206865809722)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.Element.getId(Element.java:39)
 	at org.s1ck.gdl.model.Edge.toString(Edge.java:75)
@@ -130,48 +130,48 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.Element_hashCode_178988934229
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_getProperties_14053141224
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Edge_setLowerBound_12843591177
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_equals_134120266713
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Vertex_init_17892954533
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.GraphElement_init_18721411710
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
-Running org.s1ck.gdl.model.Element_hashCode_178988934214
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
-Running org.s1ck.gdl.model.Edge_getSourceVertexId_100134921413
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.s1ck.gdl.model.Edge_init_16808533480
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_hashCode_178988934214
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getSourceVertexId_100134921413
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_init_16808533480
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Edge_toString_206865809710
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
 Running org.s1ck.gdl.model.Element_setLabel_76936737019
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_setLabel_7693673704
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
-Running org.s1ck.gdl.model.Element_equals_134120266728
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.s1ck.gdl.model.Edge_getUpperBound_145835124820
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.s1ck.gdl.model.comparables.ElementSelector_toString_11170508957
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
-Running org.s1ck.gdl.model.comparables.ElementSelector_hashCode_16278105859
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_equals_134120266728
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Edge_getUpperBound_145835124820
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_toString_11170508957
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.s1ck.gdl.model.comparables.ElementSelector_hashCode_16278105859
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_getValue_15197174807
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running org.s1ck.gdl.model.comparables.Literal_getVariable_12163914552
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_init_4193419210
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_getVariable_16351614968
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running org.s1ck.gdl.model.comparables.Literal_toString_8818598779
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
-test(org.s1ck.gdl.model.comparables.Literal_toString_8818598779)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.model.comparables.Literal_toString_8818598779)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.comparables.Literal.toString(Literal.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -195,84 +195,84 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.comparables.PropertySelector_getVariable_16351614962
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_toString_13006299183
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_toString_13006299189
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_equals_20764972603
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_toString_8818598773
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_hashCode_7898702285
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.Literal_init_13574584970
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_equals_20764972608
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_getPropertyName_11126891727
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_init_18717488876
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_hashCode_3711001875
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_init_13574584976
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_hashCode_78987022811
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_getPropertyName_11126891721
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_getValue_15197174801
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_equals_3411835534
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
-Running org.s1ck.gdl.model.comparables.Literal_hashCode_37110018711
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.comparables.Literal_hashCode_37110018711
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_equals_7758648810
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_getVariable_7825193171
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_getVariable_7825193176
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.Literal_getVariable_12163914558
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_init_4193419215
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.Literal_equals_775864884
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_hashCode_16278105854
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_init_18717488870
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.PropertySelector_equals_34118355310
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.comparables.ElementSelector_toString_11170508952
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_setProperties_46009268210
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_init_14488624130
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running org.s1ck.gdl.model.Graph_init_4762428752
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
-Running org.s1ck.gdl.model.Element_setLabels_168662220821
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.model.Graph_init_4762428752
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.model.Element_setLabels_168662220821
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_getTargetVertexId_3827666763
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_setVariable_734442468
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_getVariable_165978668622
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.GraphElement_getGraphs_17136258665
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_setLabels_16866222086
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Vertex_init_17892954530
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_getTargetVertexId_38276667615
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Vertex_toString_19602159924
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
-test(org.s1ck.gdl.model.Vertex_toString_19602159924)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Vertex_toString_19602159924)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.Element.getId(Element.java:39)
 	at org.s1ck.gdl.model.Vertex.toString(Vertex.java:24)
@@ -297,34 +297,34 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.Graph_toString_10216987261
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
 Running org.s1ck.gdl.model.Element_setVariable_7344424623
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Edge_getUpperBound_14583512488
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_getLabels_200357479020
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_setTargetVertexId_64385477416
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_getSourceVertexId_10013492141
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_hasVariableLength_1111983625
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_getLabels_20035747905
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_getVariable_16597866867
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_getProperties_1405314129
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_getId_20679233681
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Edge_referenceString_189633916911
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830020
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.Predicate_fromGraphElement_7419830021)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.Predicate.fromGraphElement(Predicate.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -348,20 +348,20 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.Not_getArguments_11374339611
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running org.s1ck.gdl.model.predicates.booleans.And_toString_20471667983
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Xor_getArguments_11377318095
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.s1ck.gdl.model.predicates.booleans.And_init_12082089890
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.s1ck.gdl.model.predicates.booleans.And_init_12082089890
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Xor_getArguments_11377318091
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_getArguments_21121437931
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726)  Time elapsed: 0 sec  <<< ERROR!
+test(org.s1ck.gdl.model.predicates.booleans.Not_getVariables_8680063726)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.booleans.Not.getVariables(Not.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -385,7 +385,7 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.Or_init_1624307070
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959142
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959142)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -414,8 +414,8 @@ java.lang.NullPointerException
 Running org.s1ck.gdl.model.predicates.booleans.Not_init_2094551370
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202)  Time elapsed: 0.007 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042202)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.booleans.Xor.getVariables(Xor.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -439,8 +439,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176326)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.booleans.And.getVariables(And.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -464,10 +464,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.Xor_toString_20478533863
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Xor_getVariables_8683042206)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.booleans.Xor.getVariables(Xor.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -491,12 +491,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.Not_getArguments_11374339615
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Not_init_2094551374
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.And_getVariables_8676176322)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.booleans.And.getVariables(And.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -520,10 +520,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.Xor_init_12075224014
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.booleans.Or_getVariables_19133959146)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.booleans.Or.getVariables(Or.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -572,42 +572,42 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.booleans.Xor_init_12075224010
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.And_toString_20471667987
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Not_toString_20475555383
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_getArguments_21121437935
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_init_1624307074
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_toString_12020222167
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.And_init_12082089894
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Xor_toString_20478533867
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.booleans.Or_toString_12020222163
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.And_getArguments_11370452215
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.And_getArguments_11370452211
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.booleans.Not_toString_20475555387
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_hashCode_54060200215
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_toString_105136169213
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparator_514779372
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparableExpressions_11716849383
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getArguments_19614832691
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
-test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_206405643812)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.predicates.expressions.Comparison.getVariables(Comparison.java:85)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -631,21 +631,21 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparableExpressions_117168493811
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_toString_10513616925
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getArguments_19614832699
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_init_4455029650
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_equals_919153276
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getComparator_5147793710
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_init_4455029658
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_equals_9191532714
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_20640564384
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
 test(org.s1ck.gdl.model.predicates.expressions.Comparison_getVariables_20640564384)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -672,12 +672,12 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.predicates.expressions.Comparison_hashCode_5406020027
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Vertex_toString_19602159921
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
 Running org.s1ck.gdl.model.Element_getLabel_119303578618
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
-test(org.s1ck.gdl.model.Element_getLabel_119303578618)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Element_getLabel_119303578618)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.Element.getLabel(Element.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -701,18 +701,18 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.Edge_getLowerBound_209622840118
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_addProperty_104510134711
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_setUpperBound_5439714709
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_setId_41855742
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Edge_setUpperBound_54397147021
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Element_getId_206792336816
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
-test(org.s1ck.gdl.model.Element_getId_206792336816)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Element_getId_206792336816)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.Element.getId(Element.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -736,8 +736,8 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.Element_addProperty_104510134726
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(org.s1ck.gdl.model.Element_addProperty_104510134726)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Element_addProperty_104510134726)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.Element.addProperty(Element.java:79)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -761,19 +761,19 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.Edge_hasVariableLength_11119836217
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Edge_setSourceVertexId_12624373122
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.GraphElement_addToGraph_10819420431
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_referenceString_212833010427
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_setSourceVertexId_126243731214
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.model.Edge_setLowerBound_128435911719
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.GraphElement_addToGraph_10819420434
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(org.s1ck.gdl.model.GraphElement_addToGraph_10819420434)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.GraphElement.addToGraph(GraphElement.java:31)
@@ -798,16 +798,16 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.model.Edge_referenceString_189633916923
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_init_144886241315
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Element_setId_418557417
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.GraphElement_getGraphs_17136258662
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.model.Graph_toString_10216987263
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(org.s1ck.gdl.model.Graph_toString_10216987263)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.model.Graph_toString_10216987263)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.model.Element.getId(Element.java:39)
 	at org.s1ck.gdl.model.Graph.toString(Graph.java:24)
@@ -834,14 +834,14 @@ java.lang.NullPointerException
 Running org.s1ck.gdl.GDLLoaderTest
 line 1:35 extraneous input '{' expecting Identifier
 line 1:48 mismatched input '23' expecting Identifier
-Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.347 sec
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 sec
 Running org.s1ck.gdl.GDLHandlerTest
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
 Running org.s1ck.gdl.exceptions.InvalidReferenceException_init_7914443721
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787561)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -867,11 +867,11 @@ Caused by: java.lang.NullPointerException
 	... 19 more
 
 Running org.s1ck.gdl.exceptions.DuplicateDeclarationException_init_6485787560
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.exceptions.InvalidReferenceException_init_7914443720
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.Comparator_valueOf_19748712367
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
 test(org.s1ck.gdl.utils.Comparator_valueOf_19748712367)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Enum.valueOf(Enum.java:238)
@@ -897,10 +897,10 @@ java.lang.NullPointerException: Name is null
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.utils.ContinuousId_apply_20475987133
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.s1ck.gdl.utils.Comparator_valueOf_19748712361
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-test(org.s1ck.gdl.utils.Comparator_valueOf_19748712361)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_valueOf_19748712361)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant org.s1ck.gdl.utils.Comparator.PAEBtnZtTD
 	at java.base/java.lang.Enum.valueOf(Enum.java:240)
 	at org.s1ck.gdl.utils.Comparator.valueOf(Comparator.java:22)
@@ -925,7 +925,7 @@ java.lang.IllegalArgumentException: No enum constant org.s1ck.gdl.utils.Comparat
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.utils.Comparator_init_18313779602
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
 test(org.s1ck.gdl.utils.Comparator_init_18313779602)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -946,12 +946,12 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.utils.ContinuousId_init_16835605130
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.Comparator_values_14828408330
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.Comparator_fromString_21107254319
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-test(org.s1ck.gdl.utils.Comparator_fromString_21107254319)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_fromString_21107254319)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
 	at org.s1ck.gdl.utils.Comparator.fromString(Comparator.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -979,8 +979,8 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.ContinuousId_init_16835605132
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.Comparator_init_18313779608
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
-test(org.s1ck.gdl.utils.Comparator_init_18313779608)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+test(org.s1ck.gdl.utils.Comparator_init_18313779608)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at org.s1ck.gdl.utils.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -1000,27 +1000,27 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running org.s1ck.gdl.utils.Comparator_toString_8610445145
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.Comparator_getInverse_86643477710
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.Comparator_values_14828408336
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.utils.ContinuousId_apply_20475987131
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
-Running org.s1ck.gdl.utils.Comparator_getInverse_8664347774
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
-Running org.s1ck.gdl.utils.Comparator_toString_86104451411
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
-Running org.s1ck.gdl.predicates.booleans.OrTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
-Running org.s1ck.gdl.predicates.booleans.NotTest
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.Comparator_getInverse_8664347774
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.utils.Comparator_toString_86104451411
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.s1ck.gdl.predicates.booleans.OrTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.s1ck.gdl.predicates.booleans.NotTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.predicates.booleans.AndTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.predicates.booleans.XorTest
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.s1ck.gdl.test.ComparatorTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
 
@@ -1067,6 +1067,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  9.636 s
-[INFO] Finished at: 2026-04-08T01:48:54Z
+[INFO] Total time:  4.369 s
+[INFO] Finished at: 2026-04-09T15:37:23Z
 [INFO] ------------------------------------------------------------------------

@@ -53,48 +53,48 @@ public class Population {
 
     public void evaluate(Map&lt;Genome, Double&gt; genomeFitnessMap) {
 <span class="fc" id="L55">        this.evaluator = genomeFitnessMap::get;</span>
-<span class="fc" id="L56">        List&lt;Genome&gt; newGeneration = new ArrayList&lt;&gt;(populationSize);</span>
+<span class="nc" id="L56">        List&lt;Genome&gt; newGeneration = new ArrayList&lt;&gt;(populationSize);</span>
 
 
-<span class="fc" id="L59">        List&lt;FitnessGenome&gt; evaluatedGenomes = this.genomes.stream()</span>
-<span class="fc" id="L60">                .map(genome -&gt; new FitnessGenome(genome, evaluator.evaluate(genome)))</span>
-<span class="fc" id="L61">                .sorted((o1, o2) -&gt; o1.compareTo(o2) * -1)</span>
-<span class="fc" id="L62">                .collect(Collectors.toList());</span>
+<span class="nc" id="L59">        List&lt;FitnessGenome&gt; evaluatedGenomes = this.genomes.stream()</span>
+<span class="nc" id="L60">                .map(genome -&gt; new FitnessGenome(genome, evaluator.evaluate(genome)))</span>
+<span class="nc" id="L61">                .sorted((o1, o2) -&gt; o1.compareTo(o2) * -1)</span>
+<span class="nc" id="L62">                .collect(Collectors.toList());</span>
 //        for (FitnessGenome genome : evaluatedGenomes) {
 //            System.out.print(genome.getFitness() + &quot; &quot;);
 //            System.out.print(genome.getGenome().getNodes() + &quot; &quot;);
 //            System.out.println(genome.getGenome().getConnections());
 //        }
-<span class="fc" id="L68">        best = new FitnessGenome(evaluatedGenomes.get(0).getGenome().copy(), evaluatedGenomes.get(0).getFitness());</span>
-<span class="fc" id="L69">        System.out.println(&quot;Best fitness: &quot; + best.getFitness());</span>
+<span class="nc" id="L68">        best = new FitnessGenome(evaluatedGenomes.get(0).getGenome().copy(), evaluatedGenomes.get(0).getFitness());</span>
+<span class="nc" id="L69">        System.out.println(&quot;Best fitness: &quot; + best.getFitness());</span>
 
 
-<span class="fc" id="L72">        newGeneration.add(best.getGenome().copy());</span>
-<span class="fc" id="L73">        newGeneration.add(mutateGenome(best.getGenome().copy()));</span>
+<span class="nc" id="L72">        newGeneration.add(best.getGenome().copy());</span>
+<span class="nc" id="L73">        newGeneration.add(mutateGenome(best.getGenome().copy()));</span>
 
-<span class="fc" id="L75">        Specieses breakedIntoSPecies = breakIntoSpecies(evaluatedGenomes, this.specieses);</span>
-<span class="fc" id="L76">        Specieses noWeakInSpecies = killWorstPerformers(deleteStaleSpecieses(breakedIntoSPecies));</span>
+<span class="nc" id="L75">        Specieses breakedIntoSPecies = breakIntoSpecies(evaluatedGenomes, this.specieses);</span>
+<span class="nc" id="L76">        Specieses noWeakInSpecies = killWorstPerformers(deleteStaleSpecieses(breakedIntoSPecies));</span>
 
-<span class="fc" id="L78">        System.out.println(&quot;Species: &quot; + noWeakInSpecies.getSpecieces().size());</span>
+<span class="nc" id="L78">        System.out.println(&quot;Species: &quot; + noWeakInSpecies.getSpecieces().size());</span>
 
-<span class="fc" id="L80">        double sum = noWeakInSpecies.getSpecieces().stream()</span>
-<span class="fc" id="L81">                .mapToDouble(Species::calculateAverageSharedFitness)</span>
-<span class="fc" id="L82">                .sum();</span>
+<span class="nc" id="L80">        double sum = noWeakInSpecies.getSpecieces().stream()</span>
+<span class="nc" id="L81">                .mapToDouble(Species::calculateAverageSharedFitness)</span>
+<span class="nc" id="L82">                .sum();</span>
 
-<span class="pc bpc" id="L84" title="1 of 2 branches missed.">        for (Species speciece : noWeakInSpecies.getSpecieces()) {</span>
-<span class="fc" id="L85">            int offspringNumber = (int) (speciece.calculateAverageSharedFitness() / sum * populationSize - 5);</span>
-<span class="pc bpc" id="L86" title="1 of 2 branches missed.">            for (int i = 0; i &lt;= offspringNumber; i++) {</span>
-<span class="fc" id="L87">                FitnessGenome firstSelectedGenome = biasedRandomGenome(speciece.getGenomes());</span>
-<span class="fc bfc" id="L88" title="All 2 branches covered.">                if (random.nextFloat() &lt; ABSTINENCE_PROBABILITY) {</span>
-<span class="fc" id="L89">                    newGeneration.add(mutateGenome(firstSelectedGenome.getGenome().copy()));</span>
+<span class="nc bnc" id="L84" title="All 2 branches missed.">        for (Species speciece : noWeakInSpecies.getSpecieces()) {</span>
+<span class="nc" id="L85">            int offspringNumber = (int) (speciece.calculateAverageSharedFitness() / sum * populationSize - 5);</span>
+<span class="nc bnc" id="L86" title="All 2 branches missed.">            for (int i = 0; i &lt;= offspringNumber; i++) {</span>
+<span class="nc" id="L87">                FitnessGenome firstSelectedGenome = biasedRandomGenome(speciece.getGenomes());</span>
+<span class="nc bnc" id="L88" title="All 2 branches missed.">                if (random.nextFloat() &lt; ABSTINENCE_PROBABILITY) {</span>
+<span class="nc" id="L89">                    newGeneration.add(mutateGenome(firstSelectedGenome.getGenome().copy()));</span>
                 } else {
-<span class="fc" id="L91">                    FitnessGenome secondSelectedGenome = biasedRandomGenome(speciece.getGenomes());</span>
-<span class="fc" id="L92">                    Mating mating = new Mating(random, nodeInnovator, connectionInnovator);</span>
-<span class="fc" id="L93">                    Genome child = mating.crossover(firstSelectedGenome, secondSelectedGenome);</span>
-<span class="pc bpc" id="L94" title="1 of 4 branches missed.">                    if (firstSelectedGenome.equals(secondSelectedGenome) || (random.nextFloat() &lt; ABSTINENCE_PROBABILITY)) {</span>
-<span class="fc" id="L95">                        child = mutateGenome(child);</span>
+<span class="nc" id="L91">                    FitnessGenome secondSelectedGenome = biasedRandomGenome(speciece.getGenomes());</span>
+<span class="nc" id="L92">                    Mating mating = new Mating(random, nodeInnovator, connectionInnovator);</span>
+<span class="nc" id="L93">                    Genome child = mating.crossover(firstSelectedGenome, secondSelectedGenome);</span>
+<span class="nc bnc" id="L94" title="All 4 branches missed.">                    if (firstSelectedGenome.equals(secondSelectedGenome) || (random.nextFloat() &lt; ABSTINENCE_PROBABILITY)) {</span>
+<span class="nc" id="L95">                        child = mutateGenome(child);</span>
                     }
-<span class="fc" id="L97">                    newGeneration.add(child);</span>
+<span class="nc" id="L97">                    newGeneration.add(child);</span>
                 }
             }
 <span class="nc" id="L100">        }</span>
@@ -123,16 +123,16 @@ public class Population {
 
     private Specieses killWorstPerformers(Specieses breakedIntoSPecies) {
 <span class="fc" id="L125">        List&lt;Species&gt; newList = new ArrayList&lt;&gt;();</span>
-<span class="fc bfc" id="L126" title="All 2 branches covered.">        for (Species speciece : breakedIntoSPecies.getSpecieces()) {</span>
+<span class="pc bpc" id="L126" title="1 of 2 branches missed.">        for (Species speciece : breakedIntoSPecies.getSpecieces()) {</span>
 
-<span class="fc" id="L128">            List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;(speciece.getGenomes());</span>
-<span class="fc" id="L129">            fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
-<span class="pc bpc" id="L130" title="1 of 2 branches missed.">            if (fitnessGenomes.size() &lt; 5) continue;</span>
-<span class="fc" id="L131">            int toCutOff = (int) (fitnessGenomes.size() * nn.Constants.COEFFICIENT_OF_BAD_PERFORMERS_TO_REMOVE);</span>
-<span class="fc" id="L132">            List&lt;FitnessGenome&gt; noWeak = fitnessGenomes.subList(0, fitnessGenomes.size() - toCutOff);</span>
+<span class="nc" id="L128">            List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;(speciece.getGenomes());</span>
+<span class="nc" id="L129">            fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
+<span class="nc bnc" id="L130" title="All 2 branches missed.">            if (fitnessGenomes.size() &lt; 5) continue;</span>
+<span class="nc" id="L131">            int toCutOff = (int) (fitnessGenomes.size() * nn.Constants.COEFFICIENT_OF_BAD_PERFORMERS_TO_REMOVE);</span>
+<span class="nc" id="L132">            List&lt;FitnessGenome&gt; noWeak = fitnessGenomes.subList(0, fitnessGenomes.size() - toCutOff);</span>
 
-<span class="fc" id="L134">            newList.add(new Species(noWeak, speciece.getStaleness()));</span>
-<span class="fc" id="L135">        }</span>
+<span class="nc" id="L134">            newList.add(new Species(noWeak, speciece.getStaleness()));</span>
+<span class="nc" id="L135">        }</span>
 <span class="fc" id="L136">        return new Specieses(newList);</span>
     }
 
@@ -201,14 +201,14 @@ public class Population {
 <span class="fc" id="L201">        List&lt;Species&gt; speciesSet = new ArrayList&lt;&gt;(specieses.getSpecieces());</span>
 
 <span class="fc" id="L203">        Iterator&lt;Species&gt; iterator = speciesSet.iterator();</span>
-<span class="fc bfc" id="L204" title="All 2 branches covered.">        while (iterator.hasNext()) {</span>
-<span class="fc" id="L205">            Species next = iterator.next();</span>
-<span class="fc" id="L206">            next.assignBestGenome();</span>
-<span class="pc bpc" id="L207" title="1 of 2 branches missed.">            if (next.getStaleness() &gt;= STALENESS ) {</span>
+<span class="pc bpc" id="L204" title="1 of 2 branches missed.">        while (iterator.hasNext()) {</span>
+<span class="nc" id="L205">            Species next = iterator.next();</span>
+<span class="nc" id="L206">            next.assignBestGenome();</span>
+<span class="nc bnc" id="L207" title="All 2 branches missed.">            if (next.getStaleness() &gt;= STALENESS ) {</span>
 <span class="nc" id="L208">                iterator.remove();</span>
 <span class="nc" id="L209">                System.out.println(&quot;Species removed&quot;);</span>
             }
-<span class="fc" id="L211">        }</span>
+<span class="nc" id="L211">        }</span>
 <span class="fc" id="L212">        return new Specieses(speciesSet);</span>
     }
 
@@ -269,31 +269,31 @@ public class Population {
 //    }
 
     private Genome mutateGenome(Genome selectedGenome) {
-<span class="fc" id="L272">        Genome genome = selectedGenome.copy();</span>
-<span class="fc bfc" id="L273" title="All 2 branches covered.">        if (random.nextFloat() &lt; MUTATION_ADD_CONNECTION) {</span>
-<span class="fc" id="L274">            genome.makeConnectionMutation();</span>
-<span class="pc bpc" id="L275" title="1 of 2 branches missed.">        } else if (random.nextFloat() &lt; MUTATION_ADD_NODE) {</span>
+<span class="nc" id="L272">        Genome genome = selectedGenome.copy();</span>
+<span class="nc bnc" id="L273" title="All 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_ADD_CONNECTION) {</span>
+<span class="nc" id="L274">            genome.makeConnectionMutation();</span>
+<span class="nc bnc" id="L275" title="All 2 branches missed.">        } else if (random.nextFloat() &lt; MUTATION_ADD_NODE) {</span>
 <span class="nc" id="L276">            genome.makeNodeMutation();</span>
         }
 
-<span class="pc bpc" id="L279" title="1 of 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_CONNECTION_WEIGHTS) {</span>
-<span class="fc" id="L280">            genome.makeConnectionWeightMutation();</span>
+<span class="nc bnc" id="L279" title="All 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_CONNECTION_WEIGHTS) {</span>
+<span class="nc" id="L280">            genome.makeConnectionWeightMutation();</span>
         }
-<span class="fc bfc" id="L282" title="All 2 branches covered.">        if (random.nextFloat() &lt; MUTATION_CONNECTION_ENABLE) {</span>
-<span class="fc" id="L283">            genome.enableConnectionMutation();</span>
+<span class="nc bnc" id="L282" title="All 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_CONNECTION_ENABLE) {</span>
+<span class="nc" id="L283">            genome.enableConnectionMutation();</span>
         }
-<span class="pc bpc" id="L285" title="1 of 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_CONNECTION_TOGGLE) {</span>
+<span class="nc bnc" id="L285" title="All 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_CONNECTION_TOGGLE) {</span>
 <span class="nc" id="L286">            genome.toggleConnectionMutation();</span>
         }
-<span class="pc bpc" id="L288" title="1 of 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_NODE_BIAS_PROBABILITY) {</span>
-<span class="fc" id="L289">            genome.makeNodeBiasMutation();</span>
+<span class="nc bnc" id="L288" title="All 2 branches missed.">        if (random.nextFloat() &lt; MUTATION_NODE_BIAS_PROBABILITY) {</span>
+<span class="nc" id="L289">            genome.makeNodeBiasMutation();</span>
         }
-<span class="fc" id="L291">        return genome;</span>
+<span class="nc" id="L291">        return genome;</span>
     }
 
     private Species biasedRandomSpecies(List&lt;FitnessGenome&gt; fitnessGenomes, Specieses specieses) {
-<span class="nc" id="L295">        HashMap&lt;Species, Double&gt; speciesDouble = new HashMap&lt;&gt;();</span>
-<span class="nc bnc" id="L296" title="All 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
+<span class="fc" id="L295">        HashMap&lt;Species, Double&gt; speciesDouble = new HashMap&lt;&gt;();</span>
+<span class="pc bpc" id="L296" title="1 of 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
 <span class="nc" id="L297">            double averageFitness = species.getGenomes().stream()</span>
 <span class="nc" id="L298">                    .map(map -&gt; fitnessGenomes.stream()</span>
 <span class="nc" id="L299">                            .filter(it -&gt; it.getGenome().equals(map))</span>
@@ -306,9 +306,9 @@ public class Population {
 <span class="nc" id="L306">            speciesDouble.put(species, averageFitness);</span>
 <span class="nc" id="L307">        }</span>
 
-<span class="nc" id="L309">        double maxRandom = speciesDouble.values().stream().mapToDouble(x -&gt; x).sum();</span>
-<span class="nc" id="L310">        double randomSegment = random.nextFloat() * maxRandom;</span>
-<span class="nc" id="L311">        double accumulator = 0;</span>
+<span class="pc" id="L309">        double maxRandom = speciesDouble.values().stream().mapToDouble(x -&gt; x).sum();</span>
+<span class="fc" id="L310">        double randomSegment = random.nextFloat() * maxRandom;</span>
+<span class="fc" id="L311">        double accumulator = 0;</span>
 <span class="nc" id="L312">        Species selectedSpecies = speciesDouble.keySet().iterator().next();</span>
 <span class="nc bnc" id="L313" title="All 2 branches missed.">        for (Map.Entry&lt;Species, Double&gt; entry : speciesDouble.entrySet()) {</span>
 <span class="nc" id="L314">            accumulator += entry.getValue();</span>
@@ -322,53 +322,53 @@ public class Population {
 
     private FitnessGenome biasedRandomGenome(List&lt;FitnessGenome&gt; fitnessGenomes) {
 <span class="fc" id="L324">        double sum = fitnessGenomes.stream()</span>
-<span class="fc" id="L325">                .mapToDouble(FitnessGenome::getFitness).sum();</span>
-<span class="fc" id="L326">        double randomSegment = random.nextFloat() * sum;</span>
-<span class="fc" id="L327">        double accumulator = 0;</span>
-<span class="fc" id="L328">        FitnessGenome selectedGenome = fitnessGenomes.get(0);</span>
-<span class="pc bpc" id="L329" title="1 of 2 branches missed.">        for (FitnessGenome fitnessGenome : fitnessGenomes) {</span>
-<span class="fc" id="L330">            accumulator += fitnessGenome.getFitness();</span>
-<span class="fc bfc" id="L331" title="All 2 branches covered.">            if (accumulator &gt;= randomSegment) {</span>
-<span class="fc" id="L332">                selectedGenome = fitnessGenome;</span>
-<span class="fc" id="L333">                break;</span>
+<span class="nc" id="L325">                .mapToDouble(FitnessGenome::getFitness).sum();</span>
+<span class="nc" id="L326">        double randomSegment = random.nextFloat() * sum;</span>
+<span class="nc" id="L327">        double accumulator = 0;</span>
+<span class="nc" id="L328">        FitnessGenome selectedGenome = fitnessGenomes.get(0);</span>
+<span class="nc bnc" id="L329" title="All 2 branches missed.">        for (FitnessGenome fitnessGenome : fitnessGenomes) {</span>
+<span class="nc" id="L330">            accumulator += fitnessGenome.getFitness();</span>
+<span class="nc bnc" id="L331" title="All 2 branches missed.">            if (accumulator &gt;= randomSegment) {</span>
+<span class="nc" id="L332">                selectedGenome = fitnessGenome;</span>
+<span class="nc" id="L333">                break;</span>
             }
-<span class="fc" id="L335">        }</span>
-<span class="fc" id="L336">        return selectedGenome;</span>
+<span class="nc" id="L335">        }</span>
+<span class="nc" id="L336">        return selectedGenome;</span>
     }
 
     private List&lt;FitnessGenome&gt; calculateFitnessGenomes(Specieses specieses) {
-<span class="nc" id="L340">        List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;();</span>
-<span class="nc bnc" id="L341" title="All 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
+<span class="fc" id="L340">        List&lt;FitnessGenome&gt; fitnessGenomes = new ArrayList&lt;&gt;();</span>
+<span class="pc bpc" id="L341" title="1 of 2 branches missed.">        for (Species species : specieses.getSpecieces()) {</span>
 <span class="nc bnc" id="L342" title="All 2 branches missed.">            for (FitnessGenome genome : species.getGenomes()) {</span>
 <span class="nc" id="L343">                double adjustedFitness = genome.getFitness() / species.getGenomes().size();</span>
 <span class="nc" id="L344">                fitnessGenomes.add(new FitnessGenome(genome.getGenome(), adjustedFitness));</span>
 <span class="nc" id="L345">            }</span>
 <span class="nc" id="L346">        }</span>
-<span class="nc" id="L347">        fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
-<span class="nc" id="L348">        return fitnessGenomes;</span>
+<span class="pc" id="L347">        fitnessGenomes.sort((o1, o2) -&gt; o1.compareTo(o2) * -1);</span>
+<span class="fc" id="L348">        return fitnessGenomes;</span>
     }
 
     private Specieses breakIntoSpecies(List&lt;FitnessGenome&gt; genomes, Specieses specieses) {
-<span class="fc bfc" id="L352" title="All 2 branches covered.">        for (FitnessGenome genome : genomes) {</span>
+<span class="pc bpc" id="L352" title="1 of 2 branches missed.">        for (FitnessGenome genome : genomes) {</span>
 <span class="fc" id="L353">            Species suitableSpecies = null;</span>
 <span class="fc" id="L354">            double bestPheta = Float.MAX_VALUE;</span>
 <span class="fc bfc" id="L355" title="All 2 branches covered.">            for (Species oneSpecies : specieses.getSpecieces()) {</span>
 <span class="fc" id="L356">                FitnessGenome representative = oneSpecies.getBestGenome();</span>
-<span class="fc" id="L357">                GenomeDiff genomeDiff = new GenomeDiff(genome.getGenome().getConnections(), representative.getGenome().getConnections());</span>
-<span class="fc" id="L358">                double feta = genomeDiff.feta();</span>
-<span class="pc bpc" id="L359" title="2 of 4 branches missed.">                if (PHETA_THRESHOLD &gt; feta &amp;&amp; feta &lt; bestPheta) {</span>
-<span class="fc" id="L360">                    suitableSpecies = oneSpecies;</span>
-<span class="fc" id="L361">                    bestPheta = feta;</span>
+<span class="nc" id="L357">                GenomeDiff genomeDiff = new GenomeDiff(genome.getGenome().getConnections(), representative.getGenome().getConnections());</span>
+<span class="nc" id="L358">                double feta = genomeDiff.feta();</span>
+<span class="nc bnc" id="L359" title="All 4 branches missed.">                if (PHETA_THRESHOLD &gt; feta &amp;&amp; feta &lt; bestPheta) {</span>
+<span class="nc" id="L360">                    suitableSpecies = oneSpecies;</span>
+<span class="nc" id="L361">                    bestPheta = feta;</span>
                 }
-<span class="fc" id="L363">            }</span>
+<span class="nc" id="L363">            }</span>
 
-<span class="fc bfc" id="L365" title="All 2 branches covered.">            if (Objects.nonNull(suitableSpecies)) {</span>
-<span class="fc" id="L366">                specieses.add(genome, suitableSpecies);</span>
+<span class="pc bpc" id="L365" title="1 of 2 branches missed.">            if (Objects.nonNull(suitableSpecies)) {</span>
+<span class="nc" id="L366">                specieses.add(genome, suitableSpecies);</span>
             } else {
 <span class="fc" id="L368">                specieses.newSpecies(genome);</span>
             }
 <span class="fc" id="L370">        }</span>
-<span class="fc" id="L371">        return specieses;</span>
+<span class="nc" id="L371">        return specieses;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

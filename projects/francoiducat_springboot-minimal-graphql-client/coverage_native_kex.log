@@ -86,7 +86,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213282
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213282
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213282
 [INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583241
 
   .   ____          _            __ _ _
@@ -97,22 +97,22 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.5)
 
-2026-04-08 01:10:27.460  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : Starting GraphqlClientApplication using Java 11.0.16 on 095e67aef0e5 with PID 70 (started by root in /app)
-2026-04-08 01:10:27.463  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : No active profile set, falling back to default profiles: default
-2026-04-08 01:10:28.292  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:10:28.303  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:10:28.303  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
-2026-04-08 01:10:28.379  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:10:28.380  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 869 ms
-2026-04-08 01:10:28.663  INFO 70 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:10:28.866  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:10:28.876  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : Started GraphqlClientApplication in 1.915 seconds (JVM running for 2.955)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.817 s <<< FAILURE! - in com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583241
-[ERROR] test  Time elapsed: 3.817 s  <<< ERROR!
+2026-04-09 15:09:12.116  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : Starting GraphqlClientApplication using Java 11.0.16 on fce24a328837 with PID 70 (started by root in /app)
+2026-04-09 15:09:12.119  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : No active profile set, falling back to default profiles: default
+2026-04-09 15:09:12.950  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:09:12.974  INFO 70 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:09:12.974  INFO 70 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2026-04-09 15:09:13.040  INFO 70 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:09:13.040  INFO 70 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2026-04-09 15:09:13.311  INFO 70 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:09:13.542  INFO 70 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:09:13.550  INFO 70 --- [me-limited test] c.d.g.GraphqlClientApplication           : Started GraphqlClientApplication in 1.932 seconds (JVM running for 2.867)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.544 s <<< FAILURE! - in com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583241
+[ERROR] test  Time elapsed: 3.544 s  <<< ERROR!
 org.springframework.web.reactive.function.client.WebClientResponseException$BadRequest: 400 Bad Request from POST https://countries.trevorblades.com/
 
 [INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341.test(GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204341.java:42)
@@ -120,7 +120,7 @@ java.lang.NullPointerException
 [INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307622
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307622
 [INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307620
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307620
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_init_17837307620
 [INFO] Running com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.ducatillon.graphqlclient.util.GraphqlSchemaReaderUtil_getSchemaFromFileName_13608204343
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -136,8 +136,8 @@ java.lang.NullPointerException
 [INFO] Running com.ducatillon.graphqlclient.client.CountryClient_init_14161502842
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.client.CountryClient_init_14161502842
 [INFO] Running com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281311
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.228 s <<< FAILURE! - in com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281311
-[ERROR] test  Time elapsed: 0.228 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.176 s <<< FAILURE! - in com.ducatillon.graphqlclient.client.CountryClient_getCountryDetails_10747281311
+[ERROR] test  Time elapsed: 0.176 s  <<< ERROR!
 org.springframework.web.reactive.function.client.WebClientRequestException: failed to resolve 'sjlJAEtRrb' after 2 queries ; nested exception is java.net.UnknownHostException: failed to resolve 'sjlJAEtRrb' after 2 queries 
 Caused by: java.net.UnknownHostException: failed to resolve 'sjlJAEtRrb' after 2 queries 
 
@@ -146,7 +146,7 @@ Caused by: java.net.UnknownHostException: failed to resolve 'sjlJAEtRrb' after 2
 [INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213280
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.GraphqlClientApplication_init_7214213280
 [INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplication_main_3448583243
-2026-04-08 01:10:30.902 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:09:15.234 ERROR 70 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.6.jar:5.3.6]
@@ -211,7 +211,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_69427505711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_69427505711
 [INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973043
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973043
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCurrency_1760973043
 [INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_6942750575
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_6942750575
 [INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_33925277110
@@ -219,13 +219,13 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_getCountry_8587866731
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_getCountry_8587866731
 [INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701576
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701576
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701576
 [INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_init_21280427530
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_init_21280427530
 [INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459831
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459831
 [INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896341
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896341
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getName_18542896341
 [INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_3392527714
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.GraphqlRequestBody_init_3392527714
 [INFO] Running com.ducatillon.graphqlclient.data.GraphqlRequestBody_getVariables_10364459837
@@ -237,12 +237,12 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701572
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ducatillon.graphqlclient.data.CountryDto_CountryData_Country_getCapital_6565701572
 [INFO] Running com.ducatillon.graphqlclient.GraphqlClientApplicationTests
-2026-04-08 01:10:30.971  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ducatillon.graphqlclient.GraphqlClientApplicationTests], using SpringBootContextLoader
-2026-04-08 01:10:30.972  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.ducatillon.graphqlclient.GraphqlClientApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:10:30.973  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ducatillon.graphqlclient.GraphqlClientApplicationTests]: GraphqlClientApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:10:30.993  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.ducatillon.graphqlclient.GraphqlClientApplication for test class com.ducatillon.graphqlclient.GraphqlClientApplicationTests
-2026-04-08 01:10:30.997  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:10:31.004  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@44b21f9f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ee8130e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6296474f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4288d98e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@169268a7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@285c6918, org.springframework.test.context.event.EventPublishingTestExecutionListener@78a0ff63, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c601d50, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@79b2852b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@326d27ac, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d499d65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@313f8301, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5cc9d3d0]
+2026-04-09 15:09:15.308  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ducatillon.graphqlclient.GraphqlClientApplicationTests], using SpringBootContextLoader
+2026-04-09 15:09:15.309  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.ducatillon.graphqlclient.GraphqlClientApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:09:15.309  INFO 70 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ducatillon.graphqlclient.GraphqlClientApplicationTests]: GraphqlClientApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:09:15.328  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.ducatillon.graphqlclient.GraphqlClientApplication for test class com.ducatillon.graphqlclient.GraphqlClientApplicationTests
+2026-04-09 15:09:15.332  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:09:15.340  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@44b21f9f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ee8130e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6296474f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4288d98e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@169268a7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@285c6918, org.springframework.test.context.event.EventPublishingTestExecutionListener@78a0ff63, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c601d50, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@79b2852b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@326d27ac, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d499d65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@313f8301, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5cc9d3d0]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -252,13 +252,13 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.5)
 
-2026-04-08 01:10:31.044  INFO 70 --- [           main] c.d.g.GraphqlClientApplicationTests      : Starting GraphqlClientApplicationTests using Java 11.0.16 on 095e67aef0e5 with PID 70 (started by root in /app)
-2026-04-08 01:10:31.045  INFO 70 --- [           main] c.d.g.GraphqlClientApplicationTests      : No active profile set, falling back to default profiles: default
-2026-04-08 01:10:31.338  INFO 70 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:10:31.452  INFO 70 --- [           main] c.d.g.GraphqlClientApplicationTests      : Started GraphqlClientApplicationTests in 0.436 seconds (JVM running for 5.531)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.774 s - in com.ducatillon.graphqlclient.GraphqlClientApplicationTests
-2026-04-08 01:10:31.829  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:10:33.828  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:09:15.375  INFO 70 --- [           main] c.d.g.GraphqlClientApplicationTests      : Starting GraphqlClientApplicationTests using Java 11.0.16 on fce24a328837 with PID 70 (started by root in /app)
+2026-04-09 15:09:15.376  INFO 70 --- [           main] c.d.g.GraphqlClientApplicationTests      : No active profile set, falling back to default profiles: default
+2026-04-09 15:09:15.622  INFO 70 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:09:15.712  INFO 70 --- [           main] c.d.g.GraphqlClientApplicationTests      : Started GraphqlClientApplicationTests in 0.362 seconds (JVM running for 5.029)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.689 s - in com.ducatillon.graphqlclient.GraphqlClientApplicationTests
+2026-04-09 15:09:16.081  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:09:18.082  INFO 70 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -287,6 +287,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  11.105 s
-[INFO] Finished at: 2026-04-08T01:10:34Z
+[INFO] Total time:  10.462 s
+[INFO] Finished at: 2026-04-09T15:09:18Z
 [INFO] ------------------------------------------------------------------------

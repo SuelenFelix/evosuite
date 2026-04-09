@@ -50,8 +50,8 @@
  T E S T S
 -------------------------------------------------------
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.901 sec <<< FAILURE!
-test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656)  Time elapsed: 0.862 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.894 sec <<< FAILURE!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582656)  Time elapsed: 0.854 sec  <<< ERROR!
 com.amazonaws.SdkClientException: Could not find region information for 'null' in SDK metadata.
 	at com.amazonaws.client.builder.AwsClientBuilder.getRegionObject(AwsClientBuilder.java:258)
 	at com.amazonaws.client.builder.AwsClientBuilder.withRegion(AwsClientBuilder.java:245)
@@ -84,10 +84,10 @@ WARNING: Illegal reflective access by com.amazonaws.kda.flink.starterkit.Reflect
 WARNING: Please consider reporting this to the maintainers of com.amazonaws.kda.flink.starterkit.ReflectionUtils
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488)  Time elapsed: 0.001 sec  <<< ERROR!
+test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768488)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.amazonaws.kda.flink.starterkit.SessionUtil.checkIfRegionExist(SessionUtil.java:93)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -113,26 +113,26 @@ java.lang.NullPointerException
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866039
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfRegionExist_7949768483
-00:59:33.328 [Time-limited test] ERROR com.amazonaws.kda.flink.starterkit.SessionUtil - The provided region is not valid: vwbEQQNQrx
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+14:56:30.713 [Time-limited test] ERROR com.amazonaws.kda.flink.starterkit.SessionUtil - The provided region is not valid: vwbEQQNQrx
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586235
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running com.amazonaws.kda.flink.starterkit.Event_setAttr1_2842868572
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.amazonaws.kda.flink.starterkit.Event_getAttr3_156162503728
+Running com.amazonaws.kda.flink.starterkit.Event_setAttr1_2842868572
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazonaws.kda.flink.starterkit.Event_getAttr3_156162503728
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526613
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr3_15616250377
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_init_12551553970
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr1_28428685723
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414090
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr7_52150027438
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311511
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr4_156162407630
@@ -140,9 +140,9 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023240
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setSessionid_40861586214
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfStreamExist_19958582651
-com.amazonaws.SdkClientException: Unable to load AWS credentials from any provider in the chain: [EnvironmentVariableCredentialsProvider: Unable to load AWS credentials from environment variables (AWS_ACCESS_KEY_ID (or AWS_ACCESS_KEY) and AWS_SECRET_KEY (or AWS_SECRET_ACCESS_KEY)), SystemPropertiesCredentialsProvider: Unable to load AWS credentials from Java system properties (aws.accessKeyId and aws.secretKey), WebIdentityTokenCredentialsProvider: You must specify a value for roleArn and roleSessionName, com.amazonaws.auth.profile.ProfileCredentialsProvider@73844af8: profile file cannot be null, com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper@5acee60c: Failed to connect to service endpoint: ]
+com.amazonaws.SdkClientException: Unable to load AWS credentials from any provider in the chain: [EnvironmentVariableCredentialsProvider: Unable to load AWS credentials from environment variables (AWS_ACCESS_KEY_ID (or AWS_ACCESS_KEY) and AWS_SECRET_KEY (or AWS_SECRET_ACCESS_KEY)), SystemPropertiesCredentialsProvider: Unable to load AWS credentials from Java system properties (aws.accessKeyId and aws.secretKey), WebIdentityTokenCredentialsProvider: You must specify a value for roleArn and roleSessionName, com.amazonaws.auth.profile.ProfileCredentialsProvider@4bab2954: profile file cannot be null, com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper@7732f70e: Failed to connect to service endpoint: ]
 	at com.amazonaws.auth.AWSCredentialsProviderChain.getCredentials(AWSCredentialsProviderChain.java:136)
 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.getCredentialsFromContext(AmazonHttpClient.java:1257)
 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.runBeforeRequestHandlers(AmazonHttpClient.java:833)
@@ -178,16 +178,16 @@ com.amazonaws.SdkClientException: Unable to load AWS credentials from any provid
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-00:59:35.799 [Time-limited test] ERROR com.amazonaws.kda.flink.starterkit.SessionUtil - Exception recieved while listing shards for stream: sQvGcVjdEx
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.447 sec
+14:56:33.169 [Time-limited test] ERROR com.amazonaws.kda.flink.starterkit.SessionUtil - Exception recieved while listing shards for stream: sQvGcVjdEx
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.432 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getSessionid_104110526634
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setTimestamp_121268335727
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr4_28428974010
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr8_156162023219
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266029)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -216,10 +216,10 @@ java.lang.NullPointerException
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166216
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-test(com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852)  Time elapsed: 0.001 sec  <<< ERROR!
+test(com.amazonaws.kda.flink.starterkit.StreamPosition_init_1097510852)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 	at com.amazonaws.kda.flink.starterkit.ReflectionUtils.callConstructor(ReflectionUtils.java:321)
@@ -241,11 +241,11 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr1_15616269591
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getTimestamp_13141759495
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr2_28428781825
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070112
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(com.amazonaws.kda.flink.starterkit.SessionUtil_checkIfBucketExist_4936189477)  Time elapsed: 0.001 sec  <<< ERROR!
@@ -302,17 +302,17 @@ java.lang.IllegalArgumentException: No enum constant com.amazonaws.kda.flink.sta
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358420
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr4_15616240769
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr8_28429358441
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr7_43654866018
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_init_13306596090
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr1_156162695922
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.SessionUtil_validateDate_13306266024
 java.text.ParseException: Unparseable date: "xtftXXMbem"
 	at java.base/java.text.DateFormat.parse(DateFormat.java:395)
@@ -448,21 +448,21 @@ java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 4
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215436
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr2_156162599824
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.StreamPosition_values_13203414093
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr6_156162215415
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr6_28429166237
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr2_2842878184
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr5_28429070133
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_init_133065960921
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running com.amazonaws.kda.flink.starterkit.Event_getAttr5_156162311532
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running com.amazonaws.kda.flink.starterkit.Event_setAttr3_28428877929
@@ -498,6 +498,6 @@ Please refer to /app/target/surefire-reports for the individual test results.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.195 s
-[INFO] Finished at: 2026-04-08T00:59:36Z
+[INFO] Total time:  6.081 s
+[INFO] Finished at: 2026-04-09T14:56:33Z
 [INFO] ------------------------------------------------------------------------

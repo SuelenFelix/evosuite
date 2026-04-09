@@ -3,10 +3,6 @@
 [INFO] ----------------------< online.devupgrade:sezon2 >----------------------
 [INFO] Building sezon2 0.0.1-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
-Progress (1): 3.2 kB
-                    
-Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml (3.2 kB at 3.7 kB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ sezon2 ---
 [INFO] Deleting /app/target
@@ -76,13 +72,13 @@ Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messag
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137933
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137933
-[ERROR] test  Time elapsed: 0.026 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137933
+[ERROR] test  Time elapsed: 0.021 s  <<< ERROR!
 java.lang.NullPointerException
 	at online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137933.test(DiscountedPriceSumCalculator_visit_15668137933.java:47)
 
 [INFO] Running online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413022
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413022
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_init_5964413022
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383403
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383403
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_get_1509806964
@@ -96,7 +92,7 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_values_15857528010
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_values_15857528010
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: No enum constant online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper.TransactionIsolationLevel.MuLcgQHgqz
 	at online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041.test(DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832041.java:42)
@@ -108,7 +104,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 	at online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_init_2815839292.test(DatabaseUtilsHelper_TransactionIsolationLevel_init_2815839292.java:42)
 
 [INFO] Running online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961160
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961160
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.utilshelpers.SumProvider_init_18628961160
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832044
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_TransactionIsolationLevel_valueOf_20777832044
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -120,7 +116,7 @@ java.lang.NullPointerException: Name is null
 [INFO] Running online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702151
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702151
 [INFO] Running online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702153
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702153
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702153
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at online.devupgrade.sezon2.utilshelpers.OrderPriceSumCalculator_visit_21389702153.test(OrderPriceSumCalculator_visit_21389702153.java:47)
@@ -138,7 +134,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_save_18605003192
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_save_18605003192
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383400
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383400
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.utilshelpers.DatabaseUtilsHelper_init_16535383400
 [INFO] Running online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137931
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.utilshelpers.DiscountedPriceSumCalculator_visit_15668137931
 [INFO] Running online.devupgrade.sezon2.utilshelpers.SumProvider_reset_914426015
@@ -160,13 +156,13 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.configs.XmlConfiguration_init_16871969760
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.configs.XmlConfiguration_init_16871969760
 [INFO] Running online.devupgrade.sezon2.KROPKA_init_6125068331
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.KROPKA_init_6125068331
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.KROPKA_init_6125068331
 [INFO] Running online.devupgrade.sezon2.RestOrderController_init_4520479290
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.RestOrderController_init_4520479290
 [INFO] Running online.devupgrade.sezon2.RestOrderController_init_4520479293
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.RestOrderController_init_4520479293
 [INFO] Running online.devupgrade.sezon2.RestOrderController_orders_15061434601
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.RestOrderController_orders_15061434601
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.RestOrderController_orders_15061434601
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_setRoles_14597127315
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_setRoles_14597127315
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_setId_7328349274
@@ -178,7 +174,7 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_getPassword_15659970944
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_getPassword_15659970944
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_getEmpty_12056281827
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.dto.OrderDTO_getEmpty_12056281827
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.OrderDTO_getEmpty_12056281827
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_getPassword_156599709412
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_getPassword_156599709412
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_init_2158769020
@@ -200,9 +196,9 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_getEmpty_12056281821
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.OrderDTO_getEmpty_12056281821
 [INFO] Running online.devupgrade.sezon2.dto.ResultTransporterException_init_470355300
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.dto.ResultTransporterException_init_470355300
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.ResultTransporterException_init_470355300
 [INFO] Running online.devupgrade.sezon2.dto.CreateEmptyOrderCommand_init_20099779531
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.dto.CreateEmptyOrderCommand_init_20099779531
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.CreateEmptyOrderCommand_init_20099779531
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_init_13309725340
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_init_13309725340
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_setLogin_16049207723
@@ -210,13 +206,13 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_setPassword_114262776213
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_setPassword_114262776213
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_getId_2884709113
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.OrderDTO_getId_2884709113
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.dto.OrderDTO_getId_2884709113
 [INFO] Running online.devupgrade.sezon2.dto.ResultTransporterException_getData_11206639482
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.ResultTransporterException_getData_11206639482
 [INFO] Running online.devupgrade.sezon2.dto.ProductCommand_init_13020118710
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.ProductCommand_init_13020118710
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_init_21090814685
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.dto.OrderDTO_init_21090814685
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.OrderDTO_init_21090814685
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_getLogin_118125235610
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_getLogin_118125235610
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_setPassword_11426277625
@@ -230,7 +226,7 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.dto.OrderDTO_getId_2884709119
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.OrderDTO_getId_2884709119
 [INFO] Running online.devupgrade.sezon2.dto.CreateEmptyOrderCommand_init_20099779530
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.dto.CreateEmptyOrderCommand_init_20099779530
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.CreateEmptyOrderCommand_init_20099779530
 [INFO] Running online.devupgrade.sezon2.dto.ProductCommand_init_13020118711
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.ProductCommand_init_13020118711
 [INFO] Running online.devupgrade.sezon2.dto.FindOrdersCommand_init_13056334081
@@ -242,8 +238,8 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.dto.LoginCredentials_getRoles_18066583776
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.dto.LoginCredentials_getRoles_18066583776
 [INFO] Running online.devupgrade.sezon2.RestOrderController_create_6747656742
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in online.devupgrade.sezon2.RestOrderController_create_6747656742
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.RestOrderController_create_6747656742
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at online.devupgrade.sezon2.RestOrderController_create_6747656742.test(RestOrderController_create_6747656742.java:45)
 
@@ -264,7 +260,7 @@ java.util.IllegalFormatConversionException: d != java.lang.Float
 [INFO] Running online.devupgrade.sezon2.entities.Product_getPrice_892042576
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Product_getPrice_892042576
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_setIncluded_8414526135
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_setIncluded_8414526135
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.DiscountEntity_setIncluded_8414526135
 [INFO] Running online.devupgrade.sezon2.entities.DefaultStatus_getStatusSerializableValue_2763638503
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DefaultStatus_getStatusSerializableValue_2763638503
 [INFO] Running online.devupgrade.sezon2.entities.Order_init_2864514755
@@ -276,7 +272,7 @@ java.util.NoSuchElementException: No value present
 	at online.devupgrade.sezon2.entities.XXxxxUtils_convert_18605093713.test(XXxxxUtils_convert_18605093713.java:47)
 
 [INFO] Running online.devupgrade.sezon2.entities.Order_1_call_3193347951
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Order_1_call_3193347951
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.Order_1_call_3193347951
 [INFO] Running online.devupgrade.sezon2.entities.StringBasedOrderStatus_codePoints_41492844312
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.StringBasedOrderStatus_codePoints_41492844312
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_setRoles_210240903214
@@ -294,7 +290,7 @@ java.util.NoSuchElementException: No value present
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_setIncluded_84145261316
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_setIncluded_84145261316
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_init_10075570030
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_init_10075570030
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.DiscountEntity_init_10075570030
 [INFO] Running online.devupgrade.sezon2.entities.Product_getPrice_892042571
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Product_getPrice_892042571
 [INFO] Running online.devupgrade.sezon2.entities.Order_setDiscountEntities_15405021617
@@ -312,7 +308,7 @@ java.util.IllegalFormatConversionException: d != java.lang.Float
 	at online.devupgrade.sezon2.entities.Product_toString_13554260079.test(Product_toString_13554260079.java:46)
 
 [INFO] Running online.devupgrade.sezon2.entities.Order_1_init_16714377680
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.Order_1_init_16714377680
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Order_1_init_16714377680
 [INFO] Running online.devupgrade.sezon2.entities.Order_Visit_16453136334
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.entities.Order_Visit_16453136334
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -326,19 +322,19 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_getId_117832848018
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_getId_117832848018
 [INFO] Running online.devupgrade.sezon2.entities.Order_getProducts_18926952311
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.Order_getProducts_18926952311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Order_getProducts_18926952311
 [INFO] Running online.devupgrade.sezon2.entities.NotReallyOrderOrder_init_3608261190
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.NotReallyOrderOrder_init_3608261190
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_getIncluded_202111623520
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_getIncluded_202111623520
 [INFO] Running online.devupgrade.sezon2.entities.Order_setDiscountEntities_15405021612
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Order_setDiscountEntities_15405021612
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.Order_setDiscountEntities_15405021612
 [INFO] Running online.devupgrade.sezon2.entities.StringBasedOrderStatus_init_14439019370
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.StringBasedOrderStatus_init_14439019370
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_init_100755700311
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_init_100755700311
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_setId_209533297812
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.DiscountEntity_setId_209533297812
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_setId_209533297812
 [INFO] Running online.devupgrade.sezon2.entities.Product_setPrice_4367750893
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Product_setPrice_4367750893
 [INFO] Running online.devupgrade.sezon2.entities.XXxxxUtils_convert_18605093711
@@ -366,7 +362,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_getValue_9621029288
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_getValue_9621029288
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_setValue_151544903015
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_setValue_151544903015
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.DiscountEntity_setValue_151544903015
 [INFO] Running online.devupgrade.sezon2.entities.DefaultStatus_values_20001514550
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DefaultStatus_values_20001514550
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_setExcluded_9500740396
@@ -386,7 +382,7 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_getId_11783284807
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_getId_11783284807
 [INFO] Running online.devupgrade.sezon2.entities.XXxxxUtils_init_11902922980
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.XXxxxUtils_init_11902922980
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.XXxxxUtils_init_11902922980
 [INFO] Running online.devupgrade.sezon2.entities.NotAProductProductWithCurrency_getPrice_17382369613
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.NotAProductProductWithCurrency_getPrice_17382369613
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_getValue_96210292819
@@ -414,7 +410,7 @@ java.lang.NullPointerException
 	at online.devupgrade.sezon2.entities.Order_Visit_16453136339.test(Order_Visit_16453136339.java:51)
 
 [INFO] Running online.devupgrade.sezon2.entities.Order_setProducts_16952687393
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.Order_setProducts_16952687393
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.Order_setProducts_16952687393
 [INFO] Running online.devupgrade.sezon2.entities.StringBasedOrderStatus_codePoints_4149284436
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.StringBasedOrderStatus_codePoints_4149284436
 [INFO] Running online.devupgrade.sezon2.entities.Product_getPrice_19214158017
@@ -426,7 +422,7 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.entities.DefaultStatus_values_20001514554
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DefaultStatus_values_20001514554
 [INFO] Running online.devupgrade.sezon2.entities.DiscountEntity_getRoles_14977938213
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.DiscountEntity_getRoles_14977938213
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.DiscountEntity_getRoles_14977938213
 [INFO] Running online.devupgrade.sezon2.entities.DefaultStatus_valueOf_15081210525
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.entities.DefaultStatus_valueOf_15081210525
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -456,7 +452,7 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.entities.ProductWithCurrency_init_17352722450
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.ProductWithCurrency_init_17352722450
 [INFO] Running online.devupgrade.sezon2.entities.ProductWithCurrency_getCurrency_8814165811
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.entities.ProductWithCurrency_getCurrency_8814165811
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in online.devupgrade.sezon2.entities.ProductWithCurrency_getCurrency_8814165811
 [INFO] Running online.devupgrade.sezon2.entities.DefaultStatus_valueOf_15081210521
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.entities.DefaultStatus_valueOf_15081210521
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
@@ -519,33 +515,33 @@ java.lang.IllegalArgumentException: Cannot reflectively create enum objects
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.3)
 
-2026-04-08 01:05:43.898  INFO 75 --- [me-limited test] o.d.sezon2.EcommerceApplication          : Starting EcommerceApplication using Java 11.0.16 on f8f3f7cdf9cb with PID 75 (started by root in /app)
-2026-04-08 01:05:43.900  INFO 75 --- [me-limited test] o.d.sezon2.EcommerceApplication          : No active profile set, falling back to default profiles: default
-2026-04-08 01:05:44.481  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:05:44.556  INFO 75 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
-2026-04-08 01:05:45.293  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:05:45.305  INFO 75 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:05:45.306  INFO 75 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
-2026-04-08 01:05:45.391  INFO 75 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:05:45.391  INFO 75 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1440 ms
-2026-04-08 01:05:45.463  WARN 75 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:05:45.571  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:05:45.806  INFO 75 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 01:05:45.879  INFO 75 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:05:45.940  INFO 75 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
-2026-04-08 01:05:46.090  INFO 75 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 01:05:46.204  INFO 75 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2026-04-08 01:05:46.890  INFO 75 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:05:46.897  INFO 75 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:05:47.435  INFO 75 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d8aa6d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@505f93c9, org.springframework.security.web.header.HeaderWriterFilter@3e354b4f, org.springframework.security.web.authentication.logout.LogoutFilter@e61bbcb, online.devupgrade.sezon2.filters.JwtAuth@748d2798, online.devupgrade.sezon2.filters.JwtFilter@3b07b1b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@636efb8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5530efb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@416f4476, org.springframework.security.web.session.SessionManagementFilter@2eae58cb, org.springframework.security.web.access.ExceptionTranslationFilter@38a64d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cd83545]
-2026-04-08 01:05:47.560  INFO 75 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:05:47.749  INFO 75 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:05:47.755  INFO 75 --- [me-limited test] o.d.sezon2.EcommerceApplication          : Started EcommerceApplication in 4.286 seconds (JVM running for 5.691)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.473 s - in online.devupgrade.sezon2.EcommerceApplication_main_8732569611
+2026-04-09 15:04:26.853  INFO 74 --- [me-limited test] o.d.sezon2.EcommerceApplication          : Starting EcommerceApplication using Java 11.0.16 on 5251dd862836 with PID 74 (started by root in /app)
+2026-04-09 15:04:26.856  INFO 74 --- [me-limited test] o.d.sezon2.EcommerceApplication          : No active profile set, falling back to default profiles: default
+2026-04-09 15:04:27.377  INFO 74 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:04:27.442  INFO 74 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2026-04-09 15:04:28.203  INFO 74 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:04:28.216  INFO 74 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:04:28.216  INFO 74 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2026-04-09 15:04:28.302  INFO 74 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:04:28.302  INFO 74 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1398 ms
+2026-04-09 15:04:28.386  WARN 74 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:04:28.516  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:04:28.777  INFO 74 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 15:04:28.844  INFO 74 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:04:28.910  INFO 74 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2026-04-09 15:04:29.069  INFO 74 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 15:04:29.194  INFO 74 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:04:29.919  INFO 74 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:04:29.929  INFO 74 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:04:30.475  INFO 74 --- [me-limited test] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d159b28, org.springframework.security.web.context.SecurityContextPersistenceFilter@6654a029, org.springframework.security.web.header.HeaderWriterFilter@760e1631, org.springframework.security.web.authentication.logout.LogoutFilter@70d1ab3b, online.devupgrade.sezon2.filters.JwtAuth@68d0c704, online.devupgrade.sezon2.filters.JwtFilter@1e56b5ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ed81874, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ec60072, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79470882, org.springframework.security.web.session.SessionManagementFilter@3d95d4e5, org.springframework.security.web.access.ExceptionTranslationFilter@1ee55d5b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67c06394]
+2026-04-09 15:04:30.602  INFO 74 --- [me-limited test] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:04:30.787  INFO 74 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:04:30.794  INFO 74 --- [me-limited test] o.d.sezon2.EcommerceApplication          : Started EcommerceApplication in 4.35 seconds (JVM running for 5.68)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.435 s - in online.devupgrade.sezon2.EcommerceApplication_main_8732569611
 [INFO] Running online.devupgrade.sezon2.EcommerceApplication_init_12498199650
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.EcommerceApplication_init_12498199650
 [INFO] Running online.devupgrade.sezon2.EcommerceApplication_main_8732569613
-2026-04-08 01:05:47.776 ERROR 75 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:04:30.817 ERROR 74 --- [me-limited test] o.s.boot.SpringApplication               : Application run failed
 
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.4.jar:5.3.4]
@@ -574,8 +570,8 @@ java.lang.IllegalArgumentException: Args must not be null
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in online.devupgrade.sezon2.EcommerceApplication_main_8732569613
-[ERROR] test  Time elapsed: 0.017 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in online.devupgrade.sezon2.EcommerceApplication_main_8732569613
+[ERROR] test  Time elapsed: 0.019 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at online.devupgrade.sezon2.EcommerceApplication_main_8732569613.test(EcommerceApplication_main_8732569613.java:44)
 
@@ -590,7 +586,7 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.services.ProductManagerLogicService_init_16963379110
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.services.ProductManagerLogicService_init_16963379110
 [INFO] Running online.devupgrade.sezon2.services.ProductManagerLogicService_setOrderRepo_15710258445
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.services.ProductManagerLogicService_setOrderRepo_15710258445
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in online.devupgrade.sezon2.services.ProductManagerLogicService_setOrderRepo_15710258445
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at online.devupgrade.sezon2.services.ProductManagerLogicService_setOrderRepo_15710258445.test(ProductManagerLogicService_setOrderRepo_15710258445.java:42)
@@ -676,17 +672,17 @@ java.lang.NullPointerException
 [INFO] Running online.devupgrade.sezon2.repositories.ProductRepo_init_3581324351
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in online.devupgrade.sezon2.repositories.ProductRepo_init_3581324351
 [INFO] Running online.devupgrade.sezon2.repositories.OrderRepo_save_6210936513
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in online.devupgrade.sezon2.repositories.OrderRepo_save_6210936513
-[ERROR] test  Time elapsed: 0 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in online.devupgrade.sezon2.repositories.OrderRepo_save_6210936513
+[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException
 	at online.devupgrade.sezon2.repositories.OrderRepo_save_6210936513.test(OrderRepo_save_6210936513.java:189)
 
 [INFO] Running online.devupgrade.sezon2.EnterpriseOrderConstructorTests
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in online.devupgrade.sezon2.EnterpriseOrderConstructorTests
-2026-04-08 01:05:47.966  INFO 75 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2026-04-08 01:05:47.968  INFO 75 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:05:47.969  INFO 75 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 01:05:47.972  INFO 75 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in online.devupgrade.sezon2.EnterpriseOrderConstructorTests
+2026-04-09 15:04:31.017  INFO 74 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2026-04-09 15:04:31.019  INFO 74 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:04:31.021  INFO 74 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 15:04:31.023  INFO 74 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -751,6 +747,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.353 s
-[INFO] Finished at: 2026-04-08T01:05:48Z
+[INFO] Total time:  9.362 s
+[INFO] Finished at: 2026-04-09T15:04:31Z
 [INFO] ------------------------------------------------------------------------

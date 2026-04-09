@@ -48,7 +48,7 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043
-01:23:01.236 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
+15:23:55.553 [Time-limited test] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.IllegalArgumentException: Args must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:201)
 	at org.springframework.boot.DefaultApplicationArguments.<init>(DefaultApplicationArguments.java:41)
@@ -75,8 +75,8 @@ java.lang.IllegalArgumentException: Args must not be null
 	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.317 s <<< FAILURE! - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043
-[ERROR] test  Time elapsed: 0.314 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.311 s <<< FAILURE! - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043
+[ERROR] test  Time elapsed: 0.308 s  <<< ERROR!
 java.lang.IllegalArgumentException: Args must not be null
 	at com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503043.test(HateoasPaginationApplication_main_13086503043.java:44)
 
@@ -92,44 +92,44 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.6)
 
-2026-04-08 01:23:01.663  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : Starting HateoasPaginationApplication using Java 11.0.16 on eefb81baf805 with PID 69 (started by root in /app)
-2026-04-08 01:23:01.664  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:23:02.276  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:23:02.322  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
-2026-04-08 01:23:02.912  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-04-08 01:23:02.925  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:23:02.926  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2026-04-08 01:23:03.035  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:23:03.035  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1330 ms
-2026-04-08 01:23:03.083  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:23:03.334  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 01:23:03.347  INFO 69 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2026-04-08 01:23:03.703  INFO 69 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:23:03.756  INFO 69 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
-2026-04-08 01:23:03.897  INFO 69 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 01:23:04.003  INFO 69 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2026-04-08 01:23:04.542  INFO 69 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:23:04.550  INFO 69 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:23:04.967  WARN 69 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:23:05.325  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-04-08 01:23:05.332  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : Started HateoasPaginationApplication in 4.078 seconds (JVM running for 5.059)
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.064 s - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503041
+2026-04-09 15:23:55.979  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : Starting HateoasPaginationApplication using Java 11.0.16 on bf05e441f681 with PID 69 (started by root in /app)
+2026-04-09 15:23:55.980  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:23:56.578  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:23:56.622  INFO 69 --- [me-limited test] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2026-04-09 15:23:57.207  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-04-09 15:23:57.219  INFO 69 --- [me-limited test] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:23:57.219  INFO 69 --- [me-limited test] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2026-04-09 15:23:57.324  INFO 69 --- [me-limited test] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:23:57.325  INFO 69 --- [me-limited test] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2026-04-09 15:23:57.371  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:23:57.626  INFO 69 --- [me-limited test] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 15:23:57.638  INFO 69 --- [me-limited test] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-09 15:23:57.987  INFO 69 --- [me-limited test] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:23:58.039  INFO 69 --- [me-limited test] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2026-04-09 15:23:58.177  INFO 69 --- [me-limited test] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 15:23:58.296  INFO 69 --- [me-limited test] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:23:58.855  INFO 69 --- [me-limited test] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:23:58.863  INFO 69 --- [me-limited test] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:23:59.285  WARN 69 --- [me-limited test] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:23:59.678  INFO 69 --- [me-limited test] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-09 15:23:59.686  INFO 69 --- [me-limited test] c.m.h.HateoasPaginationApplication       : Started HateoasPaginationApplication in 4.114 seconds (JVM running for 5.086)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.102 s - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_main_13086503041
 [INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplication_init_16852133082
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.HateoasPaginationApplication_init_16852133082
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_init_10147069440
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setId_46336201911
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_setId_46336201911
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_116739247413
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_116739247413
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_setLastName_19455785748
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_21657443614
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_21657443614
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_28232865412
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_28232865412
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getCustomerId_2823286543
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getLastName_7630462827
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getLastName_7630462827
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getId_3332026110
@@ -141,7 +141,7 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setLastName_194557857417
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setLastName_194557857417
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_setFirstName_37933187615
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_2165744365
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getFirstName_2165744365
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_init_10147069449
@@ -149,16 +149,16 @@ java.lang.IllegalArgumentException: Args must not be null
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getId_333202611
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getId_333202611
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.markbdsouza.hateoaspagination.customer.Customer_getLastName_76304628216
 [INFO] Running com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_11673924744
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.markbdsouza.hateoaspagination.customer.Customer_setCustomerId_11673924744
 [INFO] Running com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests
-2026-04-08 01:23:05.405  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests], using SpringBootContextLoader
-2026-04-08 01:23:05.407  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:23:05.408  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests]: HateoasPaginationApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-04-08 01:23:05.430  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.markbdsouza.hateoaspagination.HateoasPaginationApplication for test class com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests
-2026-04-08 01:23:05.434  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:23:05.443  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2cde651b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@534e58b6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3bb87d36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b495d4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e1dde44, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f37b6d9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@71e35c4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@22a10ac6, org.springframework.test.context.event.EventPublishingTestExecutionListener@12fe1f28, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@503df2d0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@26fb4d06, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c269425, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e43ddd6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51d719bc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2d38edfd]
+2026-04-09 15:23:59.757  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests], using SpringBootContextLoader
+2026-04-09 15:23:59.759  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:23:59.759  INFO 69 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests]: HateoasPaginationApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-09 15:23:59.781  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.markbdsouza.hateoaspagination.HateoasPaginationApplication for test class com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests
+2026-04-09 15:23:59.785  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:23:59.795  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2cde651b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@534e58b6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3bb87d36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b495d4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e1dde44, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f37b6d9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@71e35c4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@22a10ac6, org.springframework.test.context.event.EventPublishingTestExecutionListener@12fe1f28, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@503df2d0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@26fb4d06, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c269425, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e43ddd6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51d719bc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2d38edfd]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -168,20 +168,20 @@ java.lang.IllegalArgumentException: Args must not be null
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.6)
 
-2026-04-08 01:23:05.474  INFO 69 --- [           main] c.m.h.HateoasPaginationApplicationTests  : Starting HateoasPaginationApplicationTests using Java 11.0.16 on eefb81baf805 with PID 69 (started by root in /app)
-2026-04-08 01:23:05.475  INFO 69 --- [           main] c.m.h.HateoasPaginationApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2026-04-08 01:23:05.572  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:23:05.580  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
-2026-04-08 01:23:05.677  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:23:05.678  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2026-04-08 01:23:05.680  WARN 69 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scriptDataSourceInitializer' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceInitializationConfiguration$SharedCredentialsDataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/app/target/classes/schema.sql]: CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL, customer_id VARCHAR(100) NOT NULL ); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
+2026-04-09 15:23:59.828  INFO 69 --- [           main] c.m.h.HateoasPaginationApplicationTests  : Starting HateoasPaginationApplicationTests using Java 11.0.16 on bf05e441f681 with PID 69 (started by root in /app)
+2026-04-09 15:23:59.828  INFO 69 --- [           main] c.m.h.HateoasPaginationApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-04-09 15:23:59.947  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:23:59.952  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2026-04-09 15:24:00.041  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:24:00.042  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-09 15:24:00.044  WARN 69 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scriptDataSourceInitializer' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceInitializationConfiguration$SharedCredentialsDataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/app/target/classes/schema.sql]: CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL, customer_id VARCHAR(100) NOT NULL ); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
 CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL, customer_id VARCHAR(100) NOT NULL ) [42101-200]
-2026-04-08 01:23:05.680  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2026-04-08 01:23:05.682  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2026-04-08 01:23:05.684  INFO 69 --- [           main] ConditionEvaluationReportLoggingListener : 
+2026-04-09 15:24:00.044  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-09 15:24:00.046  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-09 15:24:00.048  INFO 69 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2026-04-08 01:23:05.689 ERROR 69 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2026-04-09 15:24:00.053 ERROR 69 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scriptDataSourceInitializer' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceInitializationConfiguration$SharedCredentialsDataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/app/target/classes/schema.sql]: CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL, customer_id VARCHAR(100) NOT NULL ); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" already exists; SQL statement:
 CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL, customer_id VARCHAR(100) NOT NULL ) [42101-200]
@@ -300,7 +300,7 @@ CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_
 	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261) ~[spring-jdbc-5.3.18.jar:5.3.18]
 	... 94 common frames omitted
 
-2026-04-08 01:23:05.692 ERROR 69 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2cde651b] to prepare test instance [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests@5a917723]
+2026-04-09 15:24:00.056 ERROR 69 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2cde651b] to prepare test instance [com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests@7e4579c7]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.18.jar:5.3.18]
@@ -422,7 +422,7 @@ CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_
 	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261) ~[spring-jdbc-5.3.18.jar:5.3.18]
 	... 94 common frames omitted
 
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.315 s <<< FAILURE! - in com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.325 s <<< FAILURE! - in com.markbdsouza.hateoaspagination.HateoasPaginationApplicationTests
 [ERROR] contextLoads  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.BeanCreationException: 
@@ -435,9 +435,9 @@ Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException:
 Table "CUSTOMER" already exists; SQL statement:
 CREATE TABLE customer ( id INT NOT NULL, first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL, customer_id VARCHAR(100) NOT NULL ) [42101-200]
 
-2026-04-08 01:23:05.817  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:23:05.819  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 01:23:05.820  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 15:24:00.186  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:24:00.188  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 15:24:00.189  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -462,6 +462,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.096 s
-[INFO] Finished at: 2026-04-08T01:23:06Z
+[INFO] Total time:  8.283 s
+[INFO] Finished at: 2026-04-09T15:24:00Z
 [INFO] ------------------------------------------------------------------------

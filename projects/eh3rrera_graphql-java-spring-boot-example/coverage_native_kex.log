@@ -66,13 +66,13 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.example.DemoGraphQL.MyProperties_getH2_11632191114
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.example.DemoGraphQL.MyProperties_getH2_11632191114
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.example.DemoGraphQL.MyProperties_getH2_11632191114
 [INFO] Running com.example.DemoGraphQL.model.Author_getLastName_88103000219
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getLastName_88103000219
 [INFO] Running com.example.DemoGraphQL.model.Author_init_113269066412
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_113269066412
 [INFO] Running com.example.DemoGraphQL.model.Book_setAuthor_34965284211
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setAuthor_34965284211
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setAuthor_34965284211
 [INFO] Running com.example.DemoGraphQL.model.Book_getId_16254020372
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getId_16254020372
 [INFO] Running com.example.DemoGraphQL.model.Author_equals_3722115529
@@ -94,17 +94,17 @@
 [INFO] Running com.example.DemoGraphQL.model.Author_getFirstName_985907165
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getFirstName_985907165
 [INFO] Running com.example.DemoGraphQL.model.Book_getIsbn_6912796321
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getIsbn_6912796321
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_getIsbn_6912796321
 [INFO] Running com.example.DemoGraphQL.model.Book_hashCode_170023089528
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.DemoGraphQL.model.Book_hashCode_170023089528
-[ERROR] test  Time elapsed: 0.001 s  <<< ERROR!
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.example.DemoGraphQL.model.Book_hashCode_170023089528
+[ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.example.DemoGraphQL.model.Book_hashCode_170023089528.test(Book_hashCode_170023089528.java:47)
 
 [INFO] Running com.example.DemoGraphQL.model.Book_init_20866139516
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_20866139516
 [INFO] Running com.example.DemoGraphQL.model.Author_getLastName_8810300027
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_getLastName_8810300027
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getLastName_8810300027
 [INFO] Running com.example.DemoGraphQL.model.Author_getId_15130398115
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getId_15130398115
 [INFO] Running com.example.DemoGraphQL.model.Author_init_11326906640
@@ -118,9 +118,9 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Author_setLastName_182759485420
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setLastName_182759485420
 [INFO] Running com.example.DemoGraphQL.model.Author_hashCode_7647512310
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_hashCode_7647512310
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_hashCode_7647512310
 [INFO] Running com.example.DemoGraphQL.model.Book_setTitle_12795264375
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setTitle_12795264375
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setTitle_12795264375
 [INFO] Running com.example.DemoGraphQL.model.Book_setId_119536027918
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setId_119536027918
 [INFO] Running com.example.DemoGraphQL.model.Author_setFirstName_26134815618
@@ -128,7 +128,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Book_getTitle_8558580214
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getTitle_8558580214
 [INFO] Running com.example.DemoGraphQL.model.Author_toString_58723481311
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_toString_58723481311
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_toString_58723481311
 [INFO] Running com.example.DemoGraphQL.model.Book_getId_162540203717
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getId_162540203717
 [INFO] Running com.example.DemoGraphQL.model.Book_getPageCount_64880540623
@@ -136,13 +136,13 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Author_setLastName_18275948548
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setLastName_18275948548
 [INFO] Running com.example.DemoGraphQL.model.Author_hashCode_7647512322
-[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.DemoGraphQL.model.Author_hashCode_7647512322
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.example.DemoGraphQL.model.Author_hashCode_7647512322
 [ERROR] test  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.example.DemoGraphQL.model.Author_hashCode_7647512322.test(Author_hashCode_7647512322.java:45)
 
 [INFO] Running com.example.DemoGraphQL.model.Book_setIsbn_165074860522
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setIsbn_165074860522
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_setIsbn_165074860522
 [INFO] Running com.example.DemoGraphQL.model.Author_init_17098233042
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_17098233042
 [INFO] Running com.example.DemoGraphQL.model.Author_toString_58723481323
@@ -156,7 +156,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Book_setPageCount_111930354424
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_setPageCount_111930354424
 [INFO] Running com.example.DemoGraphQL.model.Author_getFirstName_9859071617
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Author_getFirstName_9859071617
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_getFirstName_9859071617
 [INFO] Running com.example.DemoGraphQL.model.Book_equals_214604972627
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_equals_214604972627
 [INFO] Running com.example.DemoGraphQL.model.Author_getId_1513039813
@@ -164,13 +164,13 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Book_getAuthor_12662787010
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getAuthor_12662787010
 [INFO] Running com.example.DemoGraphQL.model.Book_getAuthor_12662787025
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getAuthor_12662787025
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_getAuthor_12662787025
 [INFO] Running com.example.DemoGraphQL.model.Author_setId_5813457394
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_setId_5813457394
 [INFO] Running com.example.DemoGraphQL.model.Author_init_170982330414
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Author_init_170982330414
 [INFO] Running com.example.DemoGraphQL.model.Book_toString_118947120529
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.example.DemoGraphQL.model.Book_toString_118947120529
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_toString_118947120529
 [INFO] Running com.example.DemoGraphQL.model.Book_getPageCount_6488054068
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_getPageCount_6488054068
 [INFO] Running com.example.DemoGraphQL.model.Book_setPageCount_11193035449
@@ -182,13 +182,13 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.model.Book_init_2086613951
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_init_2086613951
 [INFO] Running com.example.DemoGraphQL.model.Book_toString_118947120514
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.model.Book_toString_118947120514
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.model.Book_toString_118947120514
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_equals_4306409010
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_equals_4306409010
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_H2_equals_4306409010
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440772
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_setVersion_6245440772
 [INFO] Running com.example.DemoGraphQL.MyProperties_setArtifactId_5420718445
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_5420718445
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_5420718445
 [INFO] Running com.example.DemoGraphQL.MyProperties_init_20276357020
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_init_20276357020
 [INFO] Running com.example.DemoGraphQL.MyProperties_setVersion_119034165315
@@ -202,7 +202,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_toString_148217985121
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_toString_148217985121
 [INFO] Running com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_setArtifactId_54207184416
 [INFO] Running com.example.DemoGraphQL.MyProperties_canEqual_28142914319
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_canEqual_28142914319
 [INFO] Running com.example.DemoGraphQL.MyProperties_getH2_1163219113
@@ -212,7 +212,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_getArtifactId_19917929722
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getArtifactId_19917929722
 [INFO] Running com.example.DemoGraphQL.MyProperties_getVersion_3788606291
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_getVersion_3788606291
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_getVersion_3788606291
 [INFO] Running com.example.DemoGraphQL.MyProperties_setVersion_11903416534
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_setVersion_11903416534
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_hashCode_40562258512
@@ -224,7 +224,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_init_14618381260
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_init_14618381260
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_hashCode_4056225855
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_H2_hashCode_4056225855
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_hashCode_4056225855
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_getVersion_1869369478
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_getVersion_1869369478
 [INFO] Running com.example.DemoGraphQL.MyProperties_getArtifactId_199179297213
@@ -236,7 +236,7 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_canEqual_2814291438
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_canEqual_2814291438
 [INFO] Running com.example.DemoGraphQL.MyProperties_hashCode_97142016120
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_hashCode_97142016120
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.DemoGraphQL.MyProperties_hashCode_97142016120
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_toString_9163822756
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_toString_9163822756
 [INFO] Running com.example.DemoGraphQL.MyProperties_setH2_20600491517
@@ -254,22 +254,22 @@ java.lang.NullPointerException
 [INFO] Running com.example.DemoGraphQL.MyProperties_H2_init_14618381267
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.DemoGraphQL.MyProperties_H2_init_14618381267
 [INFO] Running com.example.DemoGraphQL.resolver.QueryTest
-01:06:10.599 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-01:06:10.618 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-01:06:10.681 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.DemoGraphQL.resolver.QueryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-01:06:10.697 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.DemoGraphQL.resolver.QueryTest], using SpringBootContextLoader
-01:06:10.703 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoGraphQL.resolver.QueryTest]: class path resource [com/example/DemoGraphQL/resolver/QueryTest-context.xml] does not exist
-01:06:10.703 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoGraphQL.resolver.QueryTest]: class path resource [com/example/DemoGraphQL/resolver/QueryTestContext.groovy] does not exist
-01:06:10.704 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoGraphQL.resolver.QueryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-01:06:10.705 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.DemoGraphQL.resolver.QueryTest]: QueryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-01:06:10.765 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.DemoGraphQL.resolver.QueryTest]
-01:06:10.849 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/app/target/classes/com/example/DemoGraphQL/DemoGraphQlApplication.class]
-01:06:10.852 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.DemoGraphQL.DemoGraphQlApplication for test class com.example.DemoGraphQL.resolver.QueryTest
-01:06:10.969 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.DemoGraphQL.resolver.QueryTest]: using defaults.
-01:06:10.970 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-01:06:10.993 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35cf91df, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55a66bbf, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7f02b2d4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@780dbed7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@31859960, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5718e77c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d667b59, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@28888124, org.springframework.test.context.event.EventPublishingTestExecutionListener@355b53cc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2568611c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2bda7a5b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47374fa5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@289da1bc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e1b5532, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@366bf608]
-01:06:10.997 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@126d0868 testClass = QueryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@753e4eb5 testClass = QueryTest, locations = '{}', classes = '{class com.example.DemoGraphQL.DemoGraphQlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[[ImportsContextCustomizer@713497cd key = [@org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.class}), @org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar.class}), @org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.context.SpringBootTestContextBootstrapper.class), @org.springframework.boot.autoconfigure.EnableAutoConfiguration(excludeName={}, exclude={}), @org.springframework.boot.test.context.SpringBootTest(args={}, webEnvironment=RANDOM_PORT, value={}, properties={}, classes={}), @org.springframework.boot.autoconfigure.AutoConfigurationPackage(basePackages={}, basePackageClasses={})]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3855d9b2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@733534f9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@288728e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3d40498a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42730828, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1869f114], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
-01:06:11.012 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@126d0868 testClass = QueryTest, testInstance = com.example.DemoGraphQL.resolver.QueryTest@5a4e492c, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@753e4eb5 testClass = QueryTest, locations = '{}', classes = '{class com.example.DemoGraphQL.DemoGraphQlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[[ImportsContextCustomizer@713497cd key = [@org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.class}), @org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar.class}), @org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.context.SpringBootTestContextBootstrapper.class), @org.springframework.boot.autoconfigure.EnableAutoConfiguration(excludeName={}, exclude={}), @org.springframework.boot.test.context.SpringBootTest(args={}, webEnvironment=RANDOM_PORT, value={}, properties={}, classes={}), @org.springframework.boot.autoconfigure.AutoConfigurationPackage(basePackages={}, basePackageClasses={})]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3855d9b2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@733534f9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@288728e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3d40498a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42730828, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1869f114], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+15:04:53.961 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:04:53.983 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:04:54.051 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.DemoGraphQL.resolver.QueryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:04:54.067 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.DemoGraphQL.resolver.QueryTest], using SpringBootContextLoader
+15:04:54.073 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoGraphQL.resolver.QueryTest]: class path resource [com/example/DemoGraphQL/resolver/QueryTest-context.xml] does not exist
+15:04:54.073 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoGraphQL.resolver.QueryTest]: class path resource [com/example/DemoGraphQL/resolver/QueryTestContext.groovy] does not exist
+15:04:54.073 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoGraphQL.resolver.QueryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:04:54.074 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.DemoGraphQL.resolver.QueryTest]: QueryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:04:54.136 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.DemoGraphQL.resolver.QueryTest]
+15:04:54.222 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/app/target/classes/com/example/DemoGraphQL/DemoGraphQlApplication.class]
+15:04:54.226 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.DemoGraphQL.DemoGraphQlApplication for test class com.example.DemoGraphQL.resolver.QueryTest
+15:04:54.345 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.DemoGraphQL.resolver.QueryTest]: using defaults.
+15:04:54.346 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:04:54.370 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35cf91df, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55a66bbf, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7f02b2d4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@780dbed7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@31859960, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5718e77c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d667b59, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@28888124, org.springframework.test.context.event.EventPublishingTestExecutionListener@355b53cc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2568611c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2bda7a5b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47374fa5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@289da1bc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e1b5532, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@366bf608]
+15:04:54.375 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@126d0868 testClass = QueryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@753e4eb5 testClass = QueryTest, locations = '{}', classes = '{class com.example.DemoGraphQL.DemoGraphQlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[[ImportsContextCustomizer@713497cd key = [@org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.class}), @org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar.class}), @org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.context.SpringBootTestContextBootstrapper.class), @org.springframework.boot.autoconfigure.EnableAutoConfiguration(excludeName={}, exclude={}), @org.springframework.boot.test.context.SpringBootTest(args={}, webEnvironment=RANDOM_PORT, value={}, properties={}, classes={}), @org.springframework.boot.autoconfigure.AutoConfigurationPackage(basePackages={}, basePackageClasses={})]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3855d9b2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@733534f9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@288728e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3d40498a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42730828, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1869f114], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+15:04:54.388 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@126d0868 testClass = QueryTest, testInstance = com.example.DemoGraphQL.resolver.QueryTest@5a4e492c, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@753e4eb5 testClass = QueryTest, locations = '{}', classes = '{class com.example.DemoGraphQL.DemoGraphQlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[[ImportsContextCustomizer@713497cd key = [@org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.class}), @org.springframework.context.annotation.Import(value={org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar.class}), @org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.context.SpringBootTestContextBootstrapper.class), @org.springframework.boot.autoconfigure.EnableAutoConfiguration(excludeName={}, exclude={}), @org.springframework.boot.test.context.SpringBootTest(args={}, webEnvironment=RANDOM_PORT, value={}, properties={}, classes={}), @org.springframework.boot.autoconfigure.AutoConfigurationPackage(basePackages={}, basePackageClasses={})]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3855d9b2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@733534f9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@288728e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3d40498a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42730828, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1869f114], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -279,45 +279,45 @@ java.lang.NullPointerException
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-2026-04-08 01:06:11.495  INFO 69 --- [           main] c.e.DemoGraphQL.resolver.QueryTest       : Starting QueryTest using Java 11.0.16 on cca5be27dff1 with PID 69 (started by root in /app)
-2026-04-08 01:06:11.496  INFO 69 --- [           main] c.e.DemoGraphQL.resolver.QueryTest       : No active profile set, falling back to default profiles: default
-2026-04-08 01:06:12.517  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:06:12.578  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
-2026-04-08 01:06:13.309  INFO 69 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2026-04-08 01:06:13.321  INFO 69 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:06:13.321  INFO 69 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2026-04-08 01:06:13.398  INFO 69 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:06:13.398  INFO 69 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1880 ms
-2026-04-08 01:06:13.726  INFO 69 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:06:13.782  INFO 69 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
-2026-04-08 01:06:13.935  INFO 69 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-04-08 01:06:14.036  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-04-08 01:06:14.268  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-04-08 01:06:14.291  INFO 69 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:04:54.861  INFO 70 --- [           main] c.e.DemoGraphQL.resolver.QueryTest       : Starting QueryTest using Java 11.0.16 on fec408d229bf with PID 70 (started by root in /app)
+2026-04-09 15:04:54.862  INFO 70 --- [           main] c.e.DemoGraphQL.resolver.QueryTest       : No active profile set, falling back to default profiles: default
+2026-04-09 15:04:55.982  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:04:56.048  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2026-04-09 15:04:56.833  INFO 70 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2026-04-09 15:04:56.844  INFO 70 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:04:56.844  INFO 70 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-04-09 15:04:56.924  INFO 70 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:04:56.925  INFO 70 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2042 ms
+2026-04-09 15:04:57.286  INFO 70 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:04:57.339  INFO 70 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2026-04-09 15:04:57.487  INFO 70 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-09 15:04:57.589  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-09 15:04:57.821  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-09 15:04:57.845  INFO 70 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 select * from INFORMATION_SCHEMA.SEQUENCES
 create table author (author_id bigint not null, author_first_name varchar(255) not null, author_last_name varchar(255) not null, primary key (author_id))
 create table book (book_id bigint not null, book_isbn varchar(255) not null, book_page_count integer not null, book_title varchar(255) not null, author_id bigint not null, primary key (book_id))
 create sequence hibernate_sequence start with 1 increment by 1
 alter table book add constraint FKklnrv3weler2ftkweewlky958 foreign key (author_id) references author
-2026-04-08 01:06:15.008  INFO 69 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:06:15.016  INFO 69 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:06:16.195  INFO 69 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2026-04-08 01:06:16.371  WARN 69 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:06:17.097  INFO 69 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2026-04-08 01:06:17.162  INFO 69 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 41303 (http) with context path ''
-2026-04-08 01:06:17.176  INFO 69 --- [           main] c.e.DemoGraphQL.resolver.QueryTest       : Started QueryTest in 6.128 seconds (JVM running for 7.751)
+2026-04-09 15:04:58.561  INFO 70 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:04:58.569  INFO 70 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:04:59.781  INFO 70 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-09 15:04:59.957  WARN 70 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:05:00.721  INFO 70 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-09 15:05:00.782  INFO 70 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 38483 (http) with context path ''
+2026-04-09 15:05:00.795  INFO 70 --- [           main] c.e.DemoGraphQL.resolver.QueryTest       : Started QueryTest in 6.367 seconds (JVM running for 7.966)
 call next value for hibernate_sequence
 insert into author (author_first_name, author_last_name, author_id) values ('Herbert', 'Schildt', 1)
 
 call next value for hibernate_sequence
 insert into book (author_id, book_isbn, book_page_count, book_title, book_id) values (1, '0071809252', 728, 'Java: A Beginner''s Guide, Sixth Edition', 2)
 
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.883 s - in com.example.DemoGraphQL.resolver.QueryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.096 s - in com.example.DemoGraphQL.resolver.QueryTest
 [INFO] Running com.example.DemoGraphQL.DemoGraphQlApplicationTests
-2026-04-08 01:06:17.386  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.DemoGraphQL.DemoGraphQlApplicationTests], using SpringBootContextLoader
-2026-04-08 01:06:17.387  INFO 69 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.DemoGraphQL.DemoGraphQlApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2026-04-08 01:06:17.389  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2026-04-08 01:06:17.390  INFO 69 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19492f9c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@150fee21, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7c3c8579, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@d54ec52, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d3107ab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@372584ca, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2faac81a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b687c1, org.springframework.test.context.event.EventPublishingTestExecutionListener@50efd483, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b770980, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32e4e2ec, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ddf3fe, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2db874ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ef043f4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4b963944]
+2026-04-09 15:05:00.973  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.DemoGraphQL.DemoGraphQlApplicationTests], using SpringBootContextLoader
+2026-04-09 15:05:00.974  INFO 70 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.DemoGraphQL.DemoGraphQlApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-04-09 15:05:00.977  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-04-09 15:05:00.977  INFO 70 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@69768d56, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15bdafc3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d0a9ba, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71da3c3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5adc824b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22e7ed64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@227a0dfb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4893b1cc, org.springframework.test.context.event.EventPublishingTestExecutionListener@7663bc4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6bf2e32a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@19153e7a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c5df145, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2737bd45, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ba0f13a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6bf6e2da]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -327,38 +327,38 @@ insert into book (author_id, book_isbn, book_page_count, book_title, book_id) va
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.6.3)
 
-2026-04-08 01:06:17.419  INFO 69 --- [           main] c.e.D.DemoGraphQlApplicationTests        : Starting DemoGraphQlApplicationTests using Java 11.0.16 on cca5be27dff1 with PID 69 (started by root in /app)
-2026-04-08 01:06:17.419  INFO 69 --- [           main] c.e.D.DemoGraphQlApplicationTests        : No active profile set, falling back to default profiles: default
-2026-04-08 01:06:17.589  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-04-08 01:06:17.604  INFO 69 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
-2026-04-08 01:06:17.706  INFO 69 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2026-04-08 01:06:17.708  INFO 69 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-04-08 01:06:17.708  INFO 69 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2026-04-08 01:06:17.718  INFO 69 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2026-04-08 01:06:17.718  INFO 69 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 298 ms
-2026-04-08 01:06:17.775  INFO 69 --- [           main] c.g.g.b.j.d.p6spy.P6SpyConfiguration     : P6Spy modulelist is overridden, some p6spy configuration features will not be applied
-2026-04-08 01:06:17.781  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-04-08 01:06:17.782  INFO 69 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2026-04-08 01:06:17.782  INFO 69 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2026-04-08 01:06:17.854  INFO 69 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-04-08 01:06:17.857  INFO 69 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-09 15:05:01.007  INFO 70 --- [           main] c.e.D.DemoGraphQlApplicationTests        : Starting DemoGraphQlApplicationTests using Java 11.0.16 on fec408d229bf with PID 70 (started by root in /app)
+2026-04-09 15:05:01.007  INFO 70 --- [           main] c.e.D.DemoGraphQlApplicationTests        : No active profile set, falling back to default profiles: default
+2026-04-09 15:05:01.196  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-09 15:05:01.211  INFO 70 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2026-04-09 15:05:01.324  INFO 70 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2026-04-09 15:05:01.325  INFO 70 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-09 15:05:01.325  INFO 70 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-04-09 15:05:01.336  INFO 70 --- [           main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-04-09 15:05:01.337  INFO 70 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2026-04-09 15:05:01.400  INFO 70 --- [           main] c.g.g.b.j.d.p6spy.P6SpyConfiguration     : P6Spy modulelist is overridden, some p6spy configuration features will not be applied
+2026-04-09 15:05:01.405  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-09 15:05:01.406  INFO 70 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-09 15:05:01.406  INFO 70 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-04-09 15:05:01.479  INFO 70 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-09 15:05:01.482  INFO 70 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 select * from INFORMATION_SCHEMA.SEQUENCES
 select * from "TESTDB"."PUBLIC"."AUTHOR" where 1=0
-2026-04-08 01:06:17.930  INFO 69 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-04-08 01:06:17.931  INFO 69 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:06:17.960  WARN 69 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-04-08 01:06:18.281  INFO 69 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2026-04-08 01:06:18.302  INFO 69 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 32901 (http) with context path ''
-2026-04-08 01:06:18.308  INFO 69 --- [           main] c.e.D.DemoGraphQlApplicationTests        : Started DemoGraphQlApplicationTests in 0.915 seconds (JVM running for 8.883)
+2026-04-09 15:05:01.557  INFO 70 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-09 15:05:01.558  INFO 70 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:05:01.587  WARN 70 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-09 15:05:01.927  INFO 70 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-09 15:05:01.948  INFO 70 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 33383 (http) with context path ''
+2026-04-09 15:05:01.954  INFO 70 --- [           main] c.e.D.DemoGraphQlApplicationTests        : Started DemoGraphQlApplicationTests in 0.973 seconds (JVM running for 9.125)
 SELECT `VALUE` FROM INFORMATION_SCHEMA.SETTINGS WHERE NAME = 'CREATE_BUILD'
 SELECT 1
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.026 s - in com.example.DemoGraphQL.DemoGraphQlApplicationTests
-2026-04-08 01:06:18.574  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:06:18.576  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-04-08 01:06:18.578  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-04-08 01:06:18.586  INFO 69 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-04-08 01:06:18.587  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2026-04-08 01:06:18.588  INFO 69 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.083 s - in com.example.DemoGraphQL.DemoGraphQlApplicationTests
+2026-04-09 15:05:02.236  INFO 70 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:05:02.238  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-09 15:05:02.240  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-09 15:05:02.248  INFO 70 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-09 15:05:02.249  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-09 15:05:02.251  INFO 70 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -383,6 +383,6 @@ Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  13.068 s
-[INFO] Finished at: 2026-04-08T01:06:19Z
+[INFO] Total time:  13.317 s
+[INFO] Finished at: 2026-04-09T15:05:02Z
 [INFO] ------------------------------------------------------------------------

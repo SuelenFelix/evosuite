@@ -214,28 +214,95 @@ def parse_jacoco(csv_path):
     if not os.path.exists(csv_path):
         return None
 
-    totals = {"missed": 0, "covered": 0}
-    with open(csv_path, encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            totals["missed"] += int(row["INSTRUCTION_MISSED"])
-            totals["covered"] += int(row["INSTRUCTION_COVERED"])
-
-    total = totals["missed"] + totals["covered"]
-    return {
-        "instruction_coverage": round((totals["covered"] / total * 100), 2) if total else 0
+    totals = {
+        "instruction_missed": 0,
+        "instruction_covered": 0,
+        "branch_missed": 0,
+        "branch_covered": 0,
+        "line_missed": 0,
+        "line_covered": 0,
+        "method_missed": 0,
+        "method_covered": 0,
+        "complexity_missed": 0,
+        "complexity_covered": 0,
     }
 
-def save_result(csv_file, project_name, coverage, mode, status, details=""):
-    file_exists = os.path.exists(csv_file)
+    with open(csv_path, encoding="utf-8") as f:
+        reader = csv.DictReader(f)
 
-    with open(csv_file, "a", newline="", encoding="utf-8") as f:
+        for row in reader:
+            totals["instruction_missed"] += int(row["INSTRUCTION_MISSED"])
+            totals["instruction_covered"] += int(row["INSTRUCTION_COVERED"])
+
+            totals["branch_missed"] += int(row["BRANCH_MISSED"])
+            totals["branch_covered"] += int(row["BRANCH_COVERED"])
+
+            totals["line_missed"] += int(row["LINE_MISSED"])
+            totals["line_covered"] += int(row["LINE_COVERED"])
+
+            totals["method_missed"] += int(row["METHOD_MISSED"])
+            totals["method_covered"] += int(row["METHOD_COVERED"])
+
+            totals["complexity_missed"] += int(row["COMPLEXITY_MISSED"])
+            totals["complexity_covered"] += int(row["COMPLEXITY_COVERED"])
+
+    # Totais
+    instruction_total = totals["instruction_missed"] + totals["instruction_covered"]
+    branch_total = totals["branch_missed"] + totals["branch_covered"]
+
+    # Coberturas
+    instruction_cov = (totals["instruction_covered"] / instruction_total * 100) if instruction_total else 0
+    branch_cov = (totals["branch_covered"] / branch_total * 100) if branch_total else 0
+
+    return {
+        "instruction_coverage": round(instruction_cov, 2),
+        "branch_coverage": round(branch_cov, 2),
+
+        "complexity_missed": totals["complexity_missed"],
+        "complexity_total": totals["complexity_missed"] + totals["complexity_covered"],
+
+        "lines_missed": totals["line_missed"],
+        "lines_total": totals["line_missed"] + totals["line_covered"],
+
+        "methods_missed": totals["method_missed"],
+        "methods_total": totals["method_missed"] + totals["method_covered"],
+    }
+
+def save_result(csv_file, project_name, metrics=None, mode="", status="", details=""):
+    metrics = metrics or {}
+
+    with open(csv_file, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
 
-        if not file_exists:
-            writer.writerow(["project", "mode", "coverage", "status", "details"])
+        writer.writerow([
+            "project",
+            "mode",
+            "instruction_coverage",
+            "branch_coverage",
+            "complexity_missed",
+            "complexity_total",
+            "lines_missed",
+            "lines_total",
+            "methods_missed",
+            "methods_total",
+            "status",
+            "details"
+        ])
 
-        writer.writerow([project_name, mode, coverage, status, details])
+        writer.writerow([
+            project_name,
+            mode,
+            metrics.get("instruction_coverage", ""),
+            metrics.get("branch_coverage", ""),
+            metrics.get("complexity_missed", ""),
+            metrics.get("complexity_total", ""),
+            metrics.get("lines_missed", ""),
+            metrics.get("lines_total", ""),
+            metrics.get("methods_missed", ""),
+            metrics.get("methods_total", ""),
+            status,
+            details
+        ])
 
 def list_projects(projects_dir):
     base = Path(projects_dir)
@@ -293,7 +360,7 @@ def process_project(project_path):
             save_result(
                 project_csv,
                 project_name,
-                coverage,
+                metrics,
                 mode="kex+evosuite",
                 status=status,
                 details=details
@@ -306,7 +373,7 @@ def process_project(project_path):
             save_result(
                 project_csv,
                 project_name,
-                "",
+                None,
                 mode="kex+evosuite",
                 status="no_jacoco_csv",
                 details=details
@@ -337,7 +404,7 @@ def process_project(project_path):
             save_result(
                 project_csv,
                 project_name,
-                coverage,
+                metrics,
                 mode="kex+evosuite",
                 status="timeout_with_partial_coverage",
                 details="maven_timeout"
@@ -346,7 +413,7 @@ def process_project(project_path):
             save_result(
                 project_csv,
                 project_name,
-                "",
+                None,
                 mode="kex+evosuite",
                 status="timeout",
                 details="maven_timeout"
@@ -357,7 +424,7 @@ def process_project(project_path):
         save_result(
             project_csv,
             project_name,
-            "",
+            None,
             mode="kex+evosuite",
             status="exception",
             details=str(e)

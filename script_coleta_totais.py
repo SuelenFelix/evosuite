@@ -5,7 +5,7 @@ BASE_PATH = Path(__file__).resolve().parent
 PROJECTS_DIR = BASE_PATH / "projects"
 
 CSV_NAMES = [
-    "coverage_general.csv",
+    "coverage_native_evosuite_kex.csv",
     "coverage_native.csv",
     "coverage_native_kex.csv",
     "coverage_kex.csv",

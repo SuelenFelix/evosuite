@@ -35,7 +35,7 @@ def clean_row(row: dict, project_name: str) -> dict:
 
 def aggregate_csv(csv_name: str, projects: list[Path], output_dir: Path) -> None:
     aggregated_rows = []
-    all_fields = set()
+    header = None
 
     for project_path in projects:
         project_csv = project_path / csv_name
@@ -48,28 +48,36 @@ def aggregate_csv(csv_name: str, projects: list[Path], output_dir: Path) -> None
             if reader.fieldnames is None:
                 continue
 
+            current_header = list(reader.fieldnames)
+
+            if "project" not in current_header:
+                current_header = ["project"] + current_header
+
+            if header is None:
+                header = current_header
+            else:
+                for field in current_header:
+                    if field not in header:
+                        header.append(field)
+
             for row in reader:
                 cleaned = clean_row(row, project_path.name)
                 aggregated_rows.append(cleaned)
-                all_fields.update(cleaned.keys())
 
     output_name = csv_name.replace(".csv", "_total.csv")
     output_path = output_dir / output_name
 
-    if not aggregated_rows:
+    if not aggregated_rows or header is None:
         print(f"ℹ️ Nenhum arquivo encontrado para consolidar: {csv_name}")
         return
 
-    # Coloca project primeiro, depois os demais em ordem alfabética
-    fieldnames = ["project"] + sorted(f for f in all_fields if f != "project")
-
     with open(output_path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=header, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(aggregated_rows)
 
     print(f"✅ Consolidado gerado: {output_path} ({len(aggregated_rows)} linha(s))")
-
+    
 def main():
     if not PROJECTS_DIR.exists():
         print(f"❌ Diretório não encontrado: {PROJECTS_DIR}")

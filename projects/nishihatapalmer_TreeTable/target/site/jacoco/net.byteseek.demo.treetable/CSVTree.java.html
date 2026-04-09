@@ -35,20 +35,20 @@ import java.util.Arrays;
     public static void readAndDisplayTree(BufferedReader reader, String idColumnName, String parentIdColumnName, char separatorChar) throws IOException{
         // Get the CSV headers and the indexes of the id and parent id columns:
 <span class="fc" id="L37">        TreeUtils.CSVTableHeaderInfo headerInfo =</span>
-<span class="nc" id="L38">                TreeUtils.processCSVHeaders(reader, idColumnName, parentIdColumnName, separatorChar);</span>
+<span class="fc" id="L38">                TreeUtils.processCSVHeaders(reader, idColumnName, parentIdColumnName, separatorChar);</span>
 
         // Create an iterator for the table tree data:
-<span class="nc" id="L41">        TreeUtils.CSVTreeTableRowIterator rowIterator =</span>
+<span class="fc" id="L41">        TreeUtils.CSVTreeTableRowIterator rowIterator =</span>
                 new TreeUtils.CSVTreeTableRowIterator(reader,
-<span class="nc" id="L43">                        headerInfo.getIdColumnIndex(),</span>
-<span class="nc" id="L44">                        headerInfo.getParentIdColumnIndex(), separatorChar);</span>
+<span class="fc" id="L43">                        headerInfo.getIdColumnIndex(),</span>
+<span class="fc" id="L44">                        headerInfo.getParentIdColumnIndex(), separatorChar);</span>
 
         // Build the tree from the rows:
-<span class="nc" id="L47">        DefaultMutableTreeNode rootNode = TreeUtils.buildTree(rowIterator);</span>
+<span class="fc" id="L47">        DefaultMutableTreeNode rootNode = TreeUtils.buildTree(rowIterator);</span>
 
         // Display the tree
-<span class="nc" id="L50">        displayTree(rootNode, headerInfo.getHeaders());</span>
-<span class="nc" id="L51">    }</span>
+<span class="fc" id="L50">        displayTree(rootNode, headerInfo.getHeaders());</span>
+<span class="fc" id="L51">    }</span>
 
     /**
      * Displays a Swing form containing a JTable bound to a TreeTableModelObjectArray.
@@ -101,15 +101,15 @@ import java.util.Arrays;
      *                       If nothing is provided, it will default to a comma.
      */
     public static void main(String[] args) {
-<span class="pc bpc" id="L104" title="3 of 4 branches missed.">        if (args.length &lt; 3 || args.length &gt; 4) {</span>
+<span class="fc bfc" id="L104" title="All 4 branches covered.">        if (args.length &lt; 3 || args.length &gt; 4) {</span>
 <span class="fc" id="L105">            System.err.println(&quot;Usage: java CSVTree &lt;fileName&gt; &lt;idColumnName&gt; &lt;parentIdColumnName&gt; [&lt;separatorChar&gt;]&quot;);</span>
 <span class="fc" id="L106">            return;</span>
         }
-<span class="nc bnc" id="L108" title="All 4 branches missed.">        char separatorChar = args.length == 3 ? ',' : args[3].length() == 1 ? args[3].charAt(0) : (char) Integer.parseInt(args[3], 16);</span>
+<span class="pc bpc" id="L108" title="1 of 4 branches missed.">        char separatorChar = args.length == 3 ? ',' : args[3].length() == 1 ? args[3].charAt(0) : (char) Integer.parseInt(args[3], 16);</span>
 <span class="nc" id="L109">        try (BufferedReader reader = new BufferedReader(new FileReader(args[0]))) {</span>
 <span class="nc" id="L110">            readAndDisplayTree(reader, args[1], args[2], separatorChar);</span>
-<span class="nc" id="L111">        } catch (IOException e) {</span>
-<span class="nc" id="L112">            throw new RuntimeException(e);</span>
+<span class="fc" id="L111">        } catch (IOException e) {</span>
+<span class="fc" id="L112">            throw new RuntimeException(e);</span>
 <span class="nc" id="L113">        }</span>
 <span class="nc" id="L114">    }</span>
 }

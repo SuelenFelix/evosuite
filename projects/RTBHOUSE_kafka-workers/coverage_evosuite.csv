@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-RTBHOUSE_kafka-workers,evosuite,4.75,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+RTBHOUSE_kafka-workers,evosuite,4.75,6.16,797,858,1894,2008,467,509,success,maven_returncode=0

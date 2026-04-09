@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TestInference.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar</a> &gt; <span class="el_source">TestInference.java</span></div><h1>TestInference.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar;
+
+
+import com.alibaba.fastjson.JSON;
+import org.jetbrains.annotations.Nullable;
+
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+
+import tech.jiayezheng.miniJuliaSonar.ast.Dummy;
+import tech.jiayezheng.miniJuliaSonar.ast.Node;
+
+public class TestInference {
+
+    private String testFile;
+    private String expecteRefsFile;
+    private String missingRefsFile;
+    private String wrongTypeFile;
+
+<span class="fc" id="L27">    public TestInference(String testFile) {</span>
+<span class="fc" id="L28">        this.testFile = testFile;</span>
+<span class="fc bfc" id="L29" title="All 2 branches covered.">        if (new File(testFile).isDirectory()) {</span>
+<span class="fc" id="L30">            expecteRefsFile = $.makePathString(testFile, &quot;refs.json&quot;);</span>
+<span class="fc" id="L31">            missingRefsFile = $.makePathString(testFile, &quot;missing_refs&quot;);</span>
+<span class="fc" id="L32">            wrongTypeFile = $.makePathString(testFile, &quot;wrong_types&quot;);</span>
+        } else {
+<span class="fc" id="L34">            expecteRefsFile = $.makePathString(testFile + &quot;.refs.json&quot;);</span>
+<span class="fc" id="L35">            missingRefsFile = $.makePathString(testFile + &quot;.missing_refs&quot;);</span>
+<span class="fc" id="L36">            wrongTypeFile = $.makePathString(testFile + &quot;.wrong_types&quot;);</span>
+        }
+<span class="fc" id="L38">    }</span>
+
+    public Analyzer runAnalysis(String dir) {
+<span class="fc" id="L41">        Map&lt;String, Object&gt; options = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L42">        options.put(&quot;quiet&quot;, true);</span>
+<span class="nc" id="L43">        Analyzer analyzer = new Analyzer(options);</span>
+<span class="nc" id="L44">        analyzer.analyze(dir);</span>
+
+<span class="nc" id="L46">        analyzer.finish();</span>
+<span class="nc" id="L47">        return analyzer;</span>
+    }
+
+    public void generateRefs(Analyzer analyzer) {
+<span class="fc" id="L51">        List&lt;Map&lt;String, Object&gt;&gt; refs = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L52" title="All 2 branches missed.">        for (Node node : analyzer.references.keys()) {</span>
+<span class="nc" id="L53">            String filename = node.file;</span>
+<span class="nc" id="L54">            List&lt;Binding&gt; bindings = analyzer.references.get(node);</span>
+
+            // only record those in the testFile
+<span class="nc bnc" id="L57" title="All 4 branches missed.">            if (filename != null &amp;&amp; filename.startsWith(Analyzer.self.projectDir)) {</span>
+<span class="nc" id="L58">                filename = $.projRelPath(filename).replaceAll(&quot;\\\\&quot;, &quot;/&quot;);</span>
+<span class="nc" id="L59">                Map&lt;String, Object&gt; writeout = new LinkedHashMap&lt;&gt;();</span>
+
+<span class="nc" id="L61">                Map&lt;String, Object&gt; ref = new LinkedHashMap&lt;&gt;();</span>
+<span class="nc" id="L62">                ref.put(&quot;name&quot;, node.name);</span>
+<span class="nc" id="L63">                ref.put(&quot;file&quot;, filename);</span>
+<span class="nc" id="L64">                ref.put(&quot;start&quot;, node.start);</span>
+<span class="nc" id="L65">                ref.put(&quot;end&quot;, node.end);</span>
+                //ref.put(&quot;line&quot;, node.line);
+                //ref.put(&quot;col&quot;, node.col);
+
+<span class="nc" id="L69">                List&lt;Map&lt;String, Object&gt;&gt; dests = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L70" title="All 2 branches missed.">                Collections.sort(bindings, (a, b) -&gt; a.start == b.start ? a.end - b.end : a.start - b.start);</span>
+<span class="nc bnc" id="L71" title="All 2 branches missed.">                for (Binding b : bindings) {</span>
+<span class="nc" id="L72">                    String destFile = b.getFile();</span>
+<span class="nc bnc" id="L73" title="All 4 branches missed.">                    if (destFile != null &amp;&amp; destFile.startsWith(Analyzer.self.projectDir)) {</span>
+<span class="nc" id="L74">                        destFile = $.projRelPath(destFile).replaceAll(&quot;\\\\&quot;, &quot;/&quot;);</span>
+<span class="nc" id="L75">                        Map&lt;String, Object&gt; dest = new LinkedHashMap&lt;&gt;();</span>
+<span class="nc" id="L76">                        dest.put(&quot;name&quot;, b.name);</span>
+<span class="nc" id="L77">                        dest.put(&quot;file&quot;, destFile);</span>
+<span class="nc" id="L78">                        dest.put(&quot;start&quot;, b.start);</span>
+<span class="nc" id="L79">                        dest.put(&quot;end&quot;, b.end);</span>
+                        // dest.put(&quot;line&quot;, b.line);
+                        // dest.put(&quot;col&quot;, b.col);
+<span class="nc" id="L82">                        dest.put(&quot;type&quot;, b.type.toString());</span>
+<span class="nc" id="L83">                        dests.add(dest);</span>
+                    }
+<span class="nc" id="L85">                }</span>
+<span class="nc bnc" id="L86" title="All 2 branches missed.">                if (!dests.isEmpty()) {</span>
+<span class="nc" id="L87">                    writeout.put(&quot;ref&quot;, ref);</span>
+<span class="nc" id="L88">                    writeout.put(&quot;dests&quot;, dests);</span>
+<span class="nc" id="L89">                    refs.add(writeout);</span>
+                }
+            }
+<span class="nc" id="L92">        }</span>
+
+        //String json = gson.toJson(refs);
+<span class="nc" id="L95">        String json = JSON.toJSONString(refs, true);</span>
+<span class="nc" id="L96">        $.writeFile(expecteRefsFile, json);</span>
+<span class="nc" id="L97">    }</span>
+
+    public boolean checkRefs(Analyzer analyzer) {
+<span class="fc" id="L100">        List&lt;String&gt; missing = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L101">        List&lt;String&gt; wrongType = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L102">        String json = $.readFile(expecteRefsFile);</span>
+<span class="fc bfc" id="L103" title="All 2 branches covered.">        if (json == null) {</span>
+<span class="fc" id="L104">            $.msg(&quot;Expected refs not found in: &quot; + expecteRefsFile +</span>
+                    &quot;Please run Test with -generate to generate&quot;);
+<span class="fc" id="L106">            return false;</span>
+        }
+        // List&lt;Map&lt;String, Object&gt;&gt; expectedRefs = gson.fromJson(json, List.class);
+<span class="fc" id="L109">        List&lt;Map&lt;String, Object&gt;&gt; expectedRefs = JSON.parseObject(json, List.class);</span>
+<span class="nc bnc" id="L110" title="All 2 branches missed.">        for (Map&lt;String, Object&gt; r : expectedRefs) {</span>
+<span class="nc" id="L111">            Map&lt;String, Object&gt; refMap = (Map) r.get(&quot;ref&quot;);</span>
+<span class="nc" id="L112">            Dummy dummy = makeDummy(refMap);</span>
+
+<span class="nc" id="L114">            List&lt;Map&lt;String, Object&gt;&gt; dests = (List) r.get(&quot;dests&quot;);</span>
+<span class="nc" id="L115">            List&lt;Binding&gt; actual = analyzer.references.get(dummy);</span>
+
+<span class="nc bnc" id="L117" title="All 2 branches missed.">            for (Map&lt;String, Object&gt; d : dests) {</span>
+<span class="nc" id="L118">                String name1 = (String) refMap.get(&quot;name&quot;);</span>
+<span class="nc" id="L119">                String file1 = (String) refMap.get(&quot;file&quot;);</span>
+<span class="nc" id="L120">                int line1 = (int) Math.floor((double) refMap.get(&quot;line&quot;));</span>
+<span class="nc" id="L121">                int col1 = (int) Math.floor((double) refMap.get(&quot;col&quot;));</span>
+<span class="nc" id="L122">                String[] type1 = new String[1];</span>
+
+<span class="nc" id="L124">                String fileShort2 = (String) d.get(&quot;file&quot;);</span>
+<span class="nc" id="L125">                String file2 = $.projAbsPath(fileShort2);</span>
+<span class="nc" id="L126">                int start2 = (int) Math.floor((double) d.get(&quot;start&quot;));</span>
+<span class="nc" id="L127">                int end2 = (int) Math.floor((double) d.get(&quot;end&quot;));</span>
+<span class="nc" id="L128">                int line2 = (int) Math.floor((double) d.get(&quot;line&quot;));</span>
+<span class="nc" id="L129">                int col2 = (int) Math.floor((double) d.get(&quot;col&quot;));</span>
+<span class="nc" id="L130">                String type2 = (String) d.get(&quot;type&quot;);</span>
+
+<span class="nc bnc" id="L132" title="All 2 branches missed.">                if (!checkExist(actual, file2, start2, end2)) {</span>
+<span class="nc" id="L133">                    String variable = name1 + &quot;:&quot; + line1 + &quot;:&quot; + col1;</span>
+<span class="nc" id="L134">                    String loc = name1 + &quot;:&quot; + line2 + &quot;:&quot; + col2;</span>
+<span class="nc bnc" id="L135" title="All 2 branches missed.">                    if (!file1.equals(fileShort2)) {</span>
+<span class="nc" id="L136">                        loc = fileShort2 + &quot;:&quot; + loc;</span>
+                    }
+<span class="nc" id="L138">                    String msg = &quot;Missing reference from &quot; + variable + &quot; to &quot; + loc;</span>
+<span class="nc" id="L139">                    missing.add(msg);</span>
+<span class="nc bnc" id="L140" title="All 2 branches missed.">                } else if (!checkType(actual, file2, start2, end2, type2, type1)) {</span>
+<span class="nc" id="L141">                    String variable = name1 + &quot;:&quot; + line1 + &quot;:&quot; + col1;</span>
+<span class="nc" id="L142">                    String loc = name1 + &quot;:&quot; + line2 + &quot;:&quot; + col2;</span>
+<span class="nc bnc" id="L143" title="All 2 branches missed.">                    if (!file1.equals(fileShort2)) {</span>
+<span class="nc" id="L144">                        loc = fileShort2 + &quot;:&quot; + loc;</span>
+                    }
+<span class="nc" id="L146">                    String msg = &quot;Inferred wrong type for &quot; + variable + &quot;. &quot;;</span>
+<span class="nc" id="L147">                    msg += &quot;Localtion: &quot; + loc + &quot;, &quot;;</span>
+<span class="nc" id="L148">                    msg += &quot;Expected: &quot; + type1[0] + &quot;, &quot;;</span>
+<span class="nc" id="L149">                    msg += &quot;Actual: &quot; + type2 + &quot;.&quot;;</span>
+<span class="nc" id="L150">                    wrongType.add(msg);</span>
+                }
+<span class="nc" id="L152">            }</span>
+<span class="nc" id="L153">        }</span>
+
+<span class="nc" id="L155">        boolean success = true;</span>
+
+        // record the ref &amp; failed dests if any
+<span class="nc bnc" id="L158" title="All 4 branches missed.">        if (missing.isEmpty() &amp;&amp; wrongType.isEmpty()) {</span>
+<span class="nc" id="L159">            $.testmsg(&quot;   &quot; + testFile);</span>
+        } else {
+<span class="nc" id="L161">            $.testmsg(&quot; - &quot; + testFile);</span>
+        }
+
+<span class="nc bnc" id="L164" title="All 2 branches missed.">        if (!missing.isEmpty()) {</span>
+<span class="nc" id="L165">            String report = String.join(&quot;\n     * &quot;, missing);</span>
+<span class="nc" id="L166">            report = &quot;     * &quot; + report;</span>
+<span class="nc" id="L167">            $.testmsg(report);</span>
+<span class="nc" id="L168">            $.writeFile(missingRefsFile, report);</span>
+<span class="nc" id="L169">            success = false;</span>
+<span class="nc" id="L170">        } else {</span>
+<span class="nc" id="L171">            $.deleteFile(missingRefsFile);</span>
+        }
+
+<span class="nc bnc" id="L174" title="All 2 branches missed.">        if (!wrongType.isEmpty()) {</span>
+<span class="nc" id="L175">            String report = String.join(&quot;\n     * &quot;, wrongType);</span>
+<span class="nc" id="L176">            report = &quot;     * &quot; + report;</span>
+<span class="nc" id="L177">            $.testmsg(report);</span>
+<span class="nc" id="L178">            $.writeFile(wrongTypeFile, report);</span>
+<span class="nc" id="L179">            success = false;</span>
+<span class="nc" id="L180">        } else {</span>
+<span class="nc" id="L181">            $.deleteFile(wrongTypeFile);</span>
+        }
+
+<span class="nc" id="L184">        return success;</span>
+    }
+
+    private boolean checkExist(List&lt;Binding&gt; bindings, String file, int start, int end) {
+<span class="nc bnc" id="L188" title="All 2 branches missed.">        if (bindings == null) {</span>
+<span class="nc" id="L189">            return false;</span>
+        }
+
+<span class="nc bnc" id="L192" title="All 2 branches missed.">        for (Binding b : bindings) {</span>
+<span class="nc bnc" id="L193" title="All 4 branches missed.">            if (((b.getFile() == null &amp;&amp; file == null) ||</span>
+<span class="nc bnc" id="L194" title="All 10 branches missed.">                    (b.getFile() != null &amp;&amp; file != null &amp;&amp; b.getFile().equals(file))) &amp;&amp;</span>
+                    b.start == start &amp;&amp; b.end == end) {
+<span class="nc" id="L196">                return true;</span>
+            }
+<span class="nc" id="L198">        }</span>
+
+<span class="nc" id="L200">        return false;</span>
+    }
+
+    private boolean checkType(List&lt;Binding&gt; bindings, String file, int start, int end, String type, String[] actualType) {
+<span class="nc bnc" id="L204" title="All 2 branches missed.">        if (bindings == null) {</span>
+<span class="nc" id="L205">            return false;</span>
+        }
+
+<span class="nc bnc" id="L208" title="All 2 branches missed.">        for (Binding b : bindings) {</span>
+<span class="nc bnc" id="L209" title="All 4 branches missed.">            if (((b.getFile() == null &amp;&amp; file == null) ||</span>
+<span class="nc bnc" id="L210" title="All 10 branches missed.">                    (b.getFile() != null &amp;&amp; file != null &amp;&amp; b.getFile().equals(file))) &amp;&amp;</span>
+<span class="nc bnc" id="L211" title="All 2 branches missed.">                    b.start == start &amp;&amp; b.end == end &amp;&amp; b.type.toString().equals(type)) {</span>
+<span class="nc" id="L212">                return true;</span>
+            } else {
+<span class="nc" id="L214">                actualType[0] = b.type.toString();</span>
+            }
+<span class="nc" id="L216">        }</span>
+
+<span class="nc" id="L218">        return false;</span>
+    }
+
+    public static Dummy makeDummy(Map&lt;String, Object&gt; m) {
+<span class="fc" id="L222">        String file = $.projAbsPath((String) m.get(&quot;file&quot;));</span>
+<span class="nc" id="L223">        int start = (int) Math.floor((double) m.get(&quot;start&quot;));</span>
+<span class="nc" id="L224">        int end = (int) Math.floor((double) m.get(&quot;end&quot;));</span>
+<span class="nc" id="L225">        return new Dummy(start, end, file);</span>
+    }
+
+    public void generateTest() {
+<span class="nc" id="L229">        Analyzer analyzer = runAnalysis(testFile);</span>
+<span class="nc" id="L230">        generateRefs(analyzer);</span>
+<span class="nc" id="L231">        $.testmsg(&quot;  * &quot; + testFile);</span>
+<span class="nc" id="L232">    }</span>
+
+    public boolean runTest() {
+<span class="nc" id="L235">        Analyzer analyzer = runAnalysis(testFile);</span>
+<span class="nc" id="L236">        boolean result = checkRefs(analyzer);</span>
+<span class="nc" id="L237">        return result;</span>
+    }
+
+    // ------------------------- static part -----------------------
+
+    @Nullable
+    public static List&lt;String&gt; testAll(String path, boolean generate) {
+<span class="fc" id="L244">        List&lt;String&gt; failed = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L245" title="All 2 branches covered.">        if (generate) {</span>
+<span class="fc" id="L246">            $.testmsg(&quot;Generating tests:&quot;);</span>
+        } else {
+<span class="fc" id="L248">            $.testmsg(&quot;Verifying tests:&quot;);</span>
+        }
+
+<span class="fc" id="L251">        testRecursive(path, generate, failed);</span>
+
+<span class="fc bfc" id="L253" title="All 2 branches covered.">        if (generate) {</span>
+<span class="fc" id="L254">            $.testmsg(&quot;All tests generated.&quot;);</span>
+<span class="fc" id="L255">            return null;</span>
+<span class="pc bpc" id="L256" title="1 of 2 branches missed.">        } else if (failed.isEmpty()) {</span>
+<span class="fc" id="L257">            $.testmsg(&quot;All tests passed.&quot;);</span>
+<span class="fc" id="L258">            return null;</span>
+        } else {
+<span class="nc" id="L260">            return failed;</span>
+        }
+    }
+
+    public static void testRecursive(String path, boolean generate, List&lt;String&gt; failed) {
+<span class="fc" id="L265">        File file_or_dir = new File(path);</span>
+
+<span class="fc bfc" id="L267" title="All 2 branches covered.">        if (file_or_dir.isDirectory()) {</span>
+<span class="pc bpc" id="L268" title="1 of 2 branches missed.">            if (path.endsWith(&quot;.test&quot;)) {</span>
+<span class="nc" id="L269">                TestInference test = new TestInference(path);</span>
+<span class="nc bnc" id="L270" title="All 2 branches missed.">                if (generate) {</span>
+<span class="nc" id="L271">                    test.generateTest();</span>
+<span class="nc bnc" id="L272" title="All 2 branches missed.">                } else if (!test.runTest()) {</span>
+<span class="nc" id="L273">                    failed.add(path);</span>
+                }
+<span class="nc" id="L275">            } else {</span>
+<span class="fc bfc" id="L276" title="All 2 branches covered.">                for (File file : file_or_dir.listFiles()) {</span>
+<span class="fc" id="L277">                    testRecursive(file.getPath(), generate, failed);</span>
+                }
+            }
+        }
+<span class="fc" id="L281">    }</span>
+
+    //
+    public static void main(String[] args) throws Exception {
+<span class="fc" id="L285">        Options options = new Options(args);</span>
+<span class="fc" id="L286">        List&lt;String&gt; argsList = options.getArgs();</span>
+<span class="fc" id="L287">        String inputDir = $.unifyPath(argsList.get(0));</span>
+
+        // generate expected file?
+<span class="fc" id="L290">        boolean generate = options.hasOption(&quot;generate&quot;);</span>
+<span class="fc" id="L291">        testAll(inputDir, generate);</span>
+<span class="fc" id="L292">    }</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

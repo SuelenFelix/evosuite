@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TypeStack.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar</a> &gt; <span class="el_source">TypeStack.java</span></div><h1>TypeStack.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar;
+
+import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
+
+<span class="fc" id="L8">public class TypeStack {</span>
+
+    class Pair {
+        public Object first;
+        public Object second;
+
+
+<span class="fc" id="L15">        public Pair(Object first, Object second) {</span>
+<span class="fc" id="L16">            this.first = first;</span>
+<span class="fc" id="L17">            this.second = second;</span>
+<span class="fc" id="L18">        }</span>
+    }
+
+
+<span class="fc" id="L22">    @NotNull</span>
+    private List&lt;Pair&gt; stack = new ArrayList&lt;&gt;();
+
+
+    public void push(Object first, Object second) {
+<span class="fc" id="L27">        stack.add(new Pair(first, second));</span>
+<span class="fc" id="L28">    }</span>
+
+
+    public void pop(Object first, Object second) {
+<span class="fc" id="L32">        stack.remove(stack.size() - 1);</span>
+<span class="fc" id="L33">    }</span>
+
+
+    public boolean contains(Object first, Object second) {
+<span class="fc bfc" id="L37" title="All 2 branches covered.">        for (Pair p : stack) {</span>
+<span class="pc bpc" id="L38" title="1 of 8 branches missed.">            if (p.first == first &amp;&amp; p.second == second ||</span>
+                    p.first == second &amp;&amp; p.second == first)
+            {
+<span class="fc" id="L41">                return true;</span>
+            }
+<span class="fc" id="L43">        }</span>
+<span class="fc" id="L44">        return false;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

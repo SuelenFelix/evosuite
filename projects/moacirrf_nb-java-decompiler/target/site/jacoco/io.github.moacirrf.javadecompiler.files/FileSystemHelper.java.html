@@ -50,11 +50,11 @@ public final class FileSystemHelper {
      */
     public static String extractName(FileObject file) {
         //When .class is opened on editor of netbeans.
-<span class="nc" id="L53">        Object fileName = file.getAttribute(CLASSFILE_BINARY_NAME);</span>
-<span class="nc bnc" id="L54" title="All 2 branches missed.">        if (nonNull(fileName)) {</span>
-<span class="nc" id="L55">            return String.valueOf(fileName);</span>
+<span class="fc" id="L53">        Object fileName = file.getAttribute(CLASSFILE_BINARY_NAME);</span>
+<span class="fc bfc" id="L54" title="All 2 branches covered.">        if (nonNull(fileName)) {</span>
+<span class="fc" id="L55">            return String.valueOf(fileName);</span>
         }
-<span class="nc" id="L57">        return file.getPath();</span>
+<span class="fc" id="L57">        return file.getPath();</span>
     }
 
     private FileObject file;
@@ -62,46 +62,46 @@ public final class FileSystemHelper {
     private ClassPath classpath;
 
     public static FileSystemHelper of(FileObject fileObject) {
-<span class="nc" id="L65">        FileSystemHelper input = new FileSystemHelper();</span>
-<span class="nc" id="L66">        input.file = fileObject;</span>
-<span class="nc" id="L67">        input.classpath = ClassPath.getClassPath(fileObject, ClassPath.EXECUTE);</span>
-<span class="nc" id="L68">        return input;</span>
+<span class="fc" id="L65">        FileSystemHelper input = new FileSystemHelper();</span>
+<span class="fc" id="L66">        input.file = fileObject;</span>
+<span class="fc" id="L67">        input.classpath = ClassPath.getClassPath(fileObject, ClassPath.EXECUTE);</span>
+<span class="fc" id="L68">        return input;</span>
     }
 
     private FileSystemHelper() {
     }
 
     public FileObject findResource(String internalName) {
-<span class="nc" id="L75">        return Exceptions.wrap(ExceptionHandler::handleException).get(() -&gt; {</span>
-<span class="nc bnc" id="L76" title="All 2 branches missed.">            String ext = internalName.endsWith(&quot;.class&quot;) ? &quot;&quot; : &quot;.class&quot;;</span>
-<span class="nc" id="L77">            FileObject fileObject = getClassFromJar(internalName + ext);</span>
-<span class="nc bnc" id="L78" title="All 2 branches missed.">            if (isNull(fileObject)) {</span>
-<span class="nc" id="L79">                fileObject = getClassIfOpenEditor(internalName + ext);</span>
+<span class="fc" id="L75">        return Exceptions.wrap(ExceptionHandler::handleException).get(() -&gt; {</span>
+<span class="pc bpc" id="L76" title="1 of 2 branches missed.">            String ext = internalName.endsWith(&quot;.class&quot;) ? &quot;&quot; : &quot;.class&quot;;</span>
+<span class="fc" id="L77">            FileObject fileObject = getClassFromJar(internalName + ext);</span>
+<span class="pc bpc" id="L78" title="1 of 2 branches missed.">            if (isNull(fileObject)) {</span>
+<span class="fc" id="L79">                fileObject = getClassIfOpenEditor(internalName + ext);</span>
             }
 
-<span class="nc bnc" id="L82" title="All 4 branches missed.">            if (isNull(fileObject) &amp;&amp; nonNull(classpath)) {</span>
+<span class="pc bpc" id="L82" title="2 of 4 branches missed.">            if (isNull(fileObject) &amp;&amp; nonNull(classpath)) {</span>
 <span class="nc" id="L83">                fileObject = classpath.findResource(internalName+ext);</span>
             }
 
-<span class="nc" id="L86">            return fileObject;</span>
+<span class="fc" id="L86">            return fileObject;</span>
         });
 
     }
 
     private FileObject getClassIfOpenEditor(String internalName) throws FileStateInvalidException {
         // find jar path from attribute
-<span class="nc" id="L93">        URL url = (URL) file.getAttribute(CLASSFILE_ROOT);</span>
-<span class="nc bnc" id="L94" title="All 2 branches missed.">        if (nonNull(url)) {</span>
+<span class="fc" id="L93">        URL url = (URL) file.getAttribute(CLASSFILE_ROOT);</span>
+<span class="pc bpc" id="L94" title="1 of 2 branches missed.">        if (nonNull(url)) {</span>
 <span class="nc" id="L95">            FileObject jarFile = FileUtil.toFileObject(FileUtil.archiveOrDirForURL(url));</span>
 <span class="nc" id="L96">            return FileUtil</span>
 <span class="nc" id="L97">                    .getArchiveRoot(jarFile)</span>
 <span class="nc" id="L98">                    .getFileSystem().findResource(internalName);</span>
         }
-<span class="nc" id="L100">        return null;</span>
+<span class="fc" id="L100">        return null;</span>
     }
 
     private FileObject getClassFromJar(String internalName) throws FileStateInvalidException {
-<span class="nc" id="L104">        return file.getFileSystem().findResource(internalName);</span>
+<span class="fc" id="L104">        return file.getFileSystem().findResource(internalName);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

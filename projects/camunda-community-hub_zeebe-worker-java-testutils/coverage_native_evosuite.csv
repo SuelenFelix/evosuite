@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-camunda-community-hub_zeebe-worker-java-testutils,nativo+evosuite,92.16,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+camunda-community-hub_zeebe-worker-java-testutils,native+evosuite,92.16,87.5,7,137,22,276,3,115,success,maven_returncode=0

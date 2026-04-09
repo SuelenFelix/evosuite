@@ -54,8 +54,8 @@ import java.util.*;
 
     @Override
     public E get(final int index) {
-<span class="nc" id="L57">        checkIndex(index);</span>
-<span class="nc" id="L58">        return elements[index];</span>
+<span class="fc" id="L57">        checkIndex(index);</span>
+<span class="fc" id="L58">        return elements[index];</span>
     }
 
     @Override
@@ -67,20 +67,20 @@ import java.util.*;
 
     @Override
     public void add(final int index, final E element) {
-<span class="pc bpc" id="L70" title="1 of 2 branches missed.">        if (index == size) {</span>
-<span class="nc" id="L71">            add(element);</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">        if (index == size) {</span>
+<span class="fc" id="L71">            add(element);</span>
         } else {
-<span class="nc" id="L73">            checkIndex(index);</span>
-<span class="nc" id="L74">            checkResize(1);</span>
+<span class="fc" id="L73">            checkIndex(index);</span>
+<span class="fc" id="L74">            checkResize(1);</span>
             // Shift the others along one:
-<span class="nc bnc" id="L76" title="All 2 branches missed.">            if (size - index &gt;= 0) {</span>
-<span class="nc" id="L77">                System.arraycopy(elements, index, elements, index + 1, size - index);</span>
+<span class="pc bpc" id="L76" title="1 of 2 branches missed.">            if (size - index &gt;= 0) {</span>
+<span class="fc" id="L77">                System.arraycopy(elements, index, elements, index + 1, size - index);</span>
             }
             // insert the new element:
-<span class="nc" id="L80">            elements[index] = element;</span>
-<span class="nc" id="L81">            size++;</span>
+<span class="fc" id="L80">            elements[index] = element;</span>
+<span class="fc" id="L81">            size++;</span>
         }
-<span class="nc" id="L83">    }</span>
+<span class="fc" id="L83">    }</span>
 
     /**
      * Adds a list of objects to the list.
@@ -103,55 +103,55 @@ import java.util.*;
      * @param index the index to insert them at.
      */
     public void addAll(final int index, final List&lt;? extends E&gt; elements) {
-<span class="pc bpc" id="L106" title="1 of 2 branches missed.">        if (index == size) {</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">        if (index == size) {</span>
 <span class="fc" id="L107">            addAll(elements);</span>
         } else {
-<span class="nc" id="L109">            checkIndex(index);</span>
-<span class="nc" id="L110">            final int numToAdd = elements.size();</span>
-<span class="nc" id="L111">            checkResize(numToAdd);</span>
-<span class="nc" id="L112">            final int numToShift = size - index;</span>
-<span class="nc" id="L113">            final int newPosition = index + numToAdd;</span>
-<span class="nc" id="L114">            final E[] localElements = this.elements;</span>
+<span class="fc" id="L109">            checkIndex(index);</span>
+<span class="fc" id="L110">            final int numToAdd = elements.size();</span>
+<span class="fc" id="L111">            checkResize(numToAdd);</span>
+<span class="fc" id="L112">            final int numToShift = size - index;</span>
+<span class="fc" id="L113">            final int newPosition = index + numToAdd;</span>
+<span class="fc" id="L114">            final E[] localElements = this.elements;</span>
 
             // move the existing elements up to create a gap
-<span class="nc bnc" id="L117" title="All 2 branches missed.">            if (numToShift &gt;= 0) {</span>
-<span class="nc" id="L118">                System.arraycopy(localElements, index, localElements, newPosition, numToShift);</span>
+<span class="pc bpc" id="L117" title="1 of 2 branches missed.">            if (numToShift &gt;= 0) {</span>
+<span class="fc" id="L118">                System.arraycopy(localElements, index, localElements, newPosition, numToShift);</span>
             }
             // insert the new elements in the gap.
-<span class="nc bnc" id="L121" title="All 2 branches missed.">            for (int elementIndex = 0; elementIndex &lt; numToAdd; elementIndex++) {</span>
-<span class="nc" id="L122">                localElements[index + elementIndex] = elements.get(elementIndex);</span>
+<span class="fc bfc" id="L121" title="All 2 branches covered.">            for (int elementIndex = 0; elementIndex &lt; numToAdd; elementIndex++) {</span>
+<span class="fc" id="L122">                localElements[index + elementIndex] = elements.get(elementIndex);</span>
             }
-<span class="nc" id="L124">            size += numToAdd;</span>
+<span class="fc" id="L124">            size += numToAdd;</span>
         }
 <span class="fc" id="L126">    }</span>
 
     @Override
     public boolean addAll(final int index, final Collection&lt;? extends E&gt; c) {
-<span class="nc" id="L130">        final int numToAdd = c.size();</span>
-<span class="nc" id="L131">        checkResize(numToAdd);</span>
-<span class="nc" id="L132">        final int numToShift = size - index;</span>
-<span class="nc" id="L133">        final int newPosition = index + numToAdd;</span>
-<span class="nc" id="L134">        final E[] localElements = elements;</span>
+<span class="fc" id="L130">        final int numToAdd = c.size();</span>
+<span class="fc" id="L131">        checkResize(numToAdd);</span>
+<span class="fc" id="L132">        final int numToShift = size - index;</span>
+<span class="fc" id="L133">        final int newPosition = index + numToAdd;</span>
+<span class="fc" id="L134">        final E[] localElements = elements;</span>
 
         // move the existing elements up to create a gap
-<span class="nc bnc" id="L137" title="All 2 branches missed.">        if (numToShift - 1 + 1 &gt;= 0) { //TODO: this calculation is clearly not optimised!   Looks like arrived at by trial and error.  Fix.</span>
-<span class="nc" id="L138">            System.arraycopy(localElements, index, localElements, newPosition, numToShift - 1 + 1);</span>
+<span class="fc bfc" id="L137" title="All 2 branches covered.">        if (numToShift - 1 + 1 &gt;= 0) { //TODO: this calculation is clearly not optimised!   Looks like arrived at by trial and error.  Fix.</span>
+<span class="fc" id="L138">            System.arraycopy(localElements, index, localElements, newPosition, numToShift - 1 + 1);</span>
         }
         // Insert the new elements
-<span class="nc" id="L141">        int insertPos = index;</span>
-<span class="nc bnc" id="L142" title="All 2 branches missed.">        for (E element : c) {</span>
-<span class="nc" id="L143">            localElements[insertPos++] = element;</span>
-<span class="nc" id="L144">        }</span>
-<span class="nc" id="L145">        size += numToAdd;</span>
-<span class="nc" id="L146">        return true;</span>
+<span class="fc" id="L141">        int insertPos = index;</span>
+<span class="fc bfc" id="L142" title="All 2 branches covered.">        for (E element : c) {</span>
+<span class="fc" id="L143">            localElements[insertPos++] = element;</span>
+<span class="fc" id="L144">        }</span>
+<span class="fc" id="L145">        size += numToAdd;</span>
+<span class="fc" id="L146">        return true;</span>
     }
 
     @Override
     public E set(final int index, final E element) {
-<span class="nc" id="L151">        checkIndex(index);</span>
-<span class="nc" id="L152">        final E previousValue = elements[index];</span>
-<span class="nc" id="L153">        elements[index] = element;</span>
-<span class="nc" id="L154">        return previousValue;</span>
+<span class="fc" id="L151">        checkIndex(index);</span>
+<span class="fc" id="L152">        final E previousValue = elements[index];</span>
+<span class="fc" id="L153">        elements[index] = element;</span>
+<span class="fc" id="L154">        return previousValue;</span>
     }
 
     @Override
@@ -174,22 +174,22 @@ import java.util.*;
      * @param to the last index of the block to remove (inclusive).
      */
     public void remove(final int from, final int to) {
-<span class="nc" id="L177">        checkIndex(from);</span>
-<span class="nc" id="L178">        checkToNotSmallerThanFrom(from, to);</span>
-<span class="nc bnc" id="L179" title="All 2 branches missed.">        if (to &gt;= size -1) { // If we're removing everything up to or past the end, just set the size down.</span>
-<span class="nc" id="L180">            Arrays.fill(elements, from, size, null);</span>
-<span class="nc" id="L181">            size = from;</span>
+<span class="fc" id="L177">        checkIndex(from);</span>
+<span class="fc" id="L178">        checkToNotSmallerThanFrom(from, to);</span>
+<span class="fc bfc" id="L179" title="All 2 branches covered.">        if (to &gt;= size -1) { // If we're removing everything up to or past the end, just set the size down.</span>
+<span class="fc" id="L180">            Arrays.fill(elements, from, size, null);</span>
+<span class="fc" id="L181">            size = from;</span>
         } else { // got some stuff at the end we have to move over to cover the gap:
-<span class="nc" id="L183">            final int rowAfterRemoved = to + 1;</span>
-<span class="nc" id="L184">            final int numToRemove = rowAfterRemoved - from;</span>
-<span class="nc" id="L185">            final int numToMove = size - rowAfterRemoved;</span>
-<span class="nc bnc" id="L186" title="All 2 branches missed.">            if (numToMove &gt;= 0) {</span>
-<span class="nc" id="L187">                System.arraycopy(elements, rowAfterRemoved, elements, from, numToMove);</span>
+<span class="fc" id="L183">            final int rowAfterRemoved = to + 1;</span>
+<span class="fc" id="L184">            final int numToRemove = rowAfterRemoved - from;</span>
+<span class="fc" id="L185">            final int numToMove = size - rowAfterRemoved;</span>
+<span class="pc bpc" id="L186" title="1 of 2 branches missed.">            if (numToMove &gt;= 0) {</span>
+<span class="fc" id="L187">                System.arraycopy(elements, rowAfterRemoved, elements, from, numToMove);</span>
             }
-<span class="nc" id="L189">            Arrays.fill(elements, from + numToMove, size, null); // null out dangling objects.</span>
-<span class="nc" id="L190">            size -= numToRemove;</span>
+<span class="fc" id="L189">            Arrays.fill(elements, from + numToMove, size, null); // null out dangling objects.</span>
+<span class="fc" id="L190">            size -= numToRemove;</span>
         }
-<span class="nc" id="L192">    }</span>
+<span class="fc" id="L192">    }</span>
 
     /**
      * Replaces a range of elements with a different list of values.
@@ -202,16 +202,16 @@ import java.util.*;
      * @param newValues A list of new values to overwrite the range with.
      */
     public void replace(final int from, final int to, final List&lt;? extends E&gt; newValues) {
-<span class="nc" id="L205">        checkIndex(from);</span>
-<span class="nc" id="L206">        checkToNotSmallerThanFrom(from, to);</span>
-<span class="nc" id="L207">        final int numNewValues = newValues.size();</span>
-<span class="nc" id="L208">        moveElementsForReplace(from, to, numNewValues);</span>
-<span class="nc" id="L209">        int listIndex = 0;</span>
-<span class="nc" id="L210">        final E[] localElements = elements;</span>
-<span class="nc bnc" id="L211" title="All 2 branches missed.">        for (int position = from; position &lt; from + numNewValues; position++) {</span>
-<span class="nc" id="L212">            localElements[position] = newValues.get(listIndex++);</span>
+<span class="fc" id="L205">        checkIndex(from);</span>
+<span class="fc" id="L206">        checkToNotSmallerThanFrom(from, to);</span>
+<span class="fc" id="L207">        final int numNewValues = newValues.size();</span>
+<span class="fc" id="L208">        moveElementsForReplace(from, to, numNewValues);</span>
+<span class="fc" id="L209">        int listIndex = 0;</span>
+<span class="fc" id="L210">        final E[] localElements = elements;</span>
+<span class="fc bfc" id="L211" title="All 2 branches covered.">        for (int position = from; position &lt; from + numNewValues; position++) {</span>
+<span class="fc" id="L212">            localElements[position] = newValues.get(listIndex++);</span>
         }
-<span class="nc" id="L214">    }</span>
+<span class="fc" id="L214">    }</span>
 
     /**
      * Replaces a range of elements in the list with values from an Enumeration.
@@ -226,31 +226,31 @@ import java.util.*;
      *                     The Enumeration must have at least this number of elements.
      */
     public void replace(final int from, final int to, final Enumeration&lt;? extends E&gt; newValues, final int numNewValues) {
-<span class="nc" id="L229">        checkIndex(from);</span>
-<span class="nc" id="L230">        checkToNotSmallerThanFrom(from, to);</span>
-<span class="nc" id="L231">        moveElementsForReplace(from, to, numNewValues);</span>
-<span class="nc" id="L232">        final E[] localElements = elements;</span>
-<span class="nc bnc" id="L233" title="All 2 branches missed.">        for (int position = from; position &lt; from + numNewValues; position++) {</span>
-<span class="nc" id="L234">            localElements[position] = newValues.nextElement();</span>
+<span class="fc" id="L229">        checkIndex(from);</span>
+<span class="fc" id="L230">        checkToNotSmallerThanFrom(from, to);</span>
+<span class="fc" id="L231">        moveElementsForReplace(from, to, numNewValues);</span>
+<span class="fc" id="L232">        final E[] localElements = elements;</span>
+<span class="fc bfc" id="L233" title="All 2 branches covered.">        for (int position = from; position &lt; from + numNewValues; position++) {</span>
+<span class="fc" id="L234">            localElements[position] = newValues.nextElement();</span>
         }
-<span class="nc" id="L236">    }</span>
+<span class="fc" id="L236">    }</span>
 
     private void moveElementsForReplace(final int from, final int to, final int numNewValues) {
 <span class="fc" id="L239">        final E[] localElements = elements;</span>
-<span class="pc bpc" id="L240" title="1 of 2 branches missed.">        final int safeTo = to &lt; size ? to : size - 1;</span>
+<span class="fc bfc" id="L240" title="All 2 branches covered.">        final int safeTo = to &lt; size ? to : size - 1;</span>
 <span class="fc" id="L241">        final int numExistingValues = safeTo - from + 1;</span>
 <span class="fc" id="L242">        final int delta = numNewValues - numExistingValues;</span>
-<span class="pc bpc" id="L243" title="1 of 2 branches missed.">        if (delta &gt; 0) { // more new values than already exist - ensure we have space to add them and move elements over if needed.</span>
-<span class="nc" id="L244">            checkResize(delta);</span>
-<span class="nc bnc" id="L245" title="All 2 branches missed.">            if (safeTo &lt; size - 1) { // If there are any elements after the range which are not being replaced, move them over.</span>
-<span class="nc" id="L246">                System.arraycopy(localElements, safeTo + 1, localElements, safeTo + delta + 1, size - safeTo - 1);</span>
+<span class="fc bfc" id="L243" title="All 2 branches covered.">        if (delta &gt; 0) { // more new values than already exist - ensure we have space to add them and move elements over if needed.</span>
+<span class="fc" id="L244">            checkResize(delta);</span>
+<span class="fc bfc" id="L245" title="All 2 branches covered.">            if (safeTo &lt; size - 1) { // If there are any elements after the range which are not being replaced, move them over.</span>
+<span class="fc" id="L246">                System.arraycopy(localElements, safeTo + 1, localElements, safeTo + delta + 1, size - safeTo - 1);</span>
             }
-<span class="pc bpc" id="L248" title="1 of 2 branches missed.">        } else if (delta &lt; 0) { // fewer new values than existing values - shift the elements after to over to fill the gap and null dangling ones.</span>
+<span class="fc bfc" id="L248" title="All 2 branches covered.">        } else if (delta &lt; 0) { // fewer new values than existing values - shift the elements after to over to fill the gap and null dangling ones.</span>
             // Note: delta is negative here, so we add it in order to perform subtraction.
-<span class="nc bnc" id="L250" title="All 2 branches missed.">            if (safeTo &lt; size - 1) { // If there are any elements after the range which are not being replaced, move them over.</span>
-<span class="nc" id="L251">                System.arraycopy(localElements, safeTo + 1 + delta, localElements, safeTo + 1, size - safeTo - 1);</span>
+<span class="fc bfc" id="L250" title="All 2 branches covered.">            if (safeTo &lt; size - 1) { // If there are any elements after the range which are not being replaced, move them over.</span>
+<span class="fc" id="L251">                System.arraycopy(localElements, safeTo + 1 + delta, localElements, safeTo + 1, size - safeTo - 1);</span>
             }
-<span class="nc" id="L253">            Arrays.fill(localElements, size + delta, size, null); // null old dangling objects on end</span>
+<span class="fc" id="L253">            Arrays.fill(localElements, size + delta, size, null); // null old dangling objects on end</span>
         }
 <span class="fc" id="L255">        size += delta;</span>
 <span class="fc" id="L256">    }</span>
@@ -260,15 +260,15 @@ import java.util.*;
 <span class="fc" id="L260">        final E[] localElements = elements;</span>
 <span class="fc" id="L261">        final int localSize = size;</span>
 <span class="fc bfc" id="L262" title="All 2 branches covered.">        if (o == null) {</span>
-<span class="pc bpc" id="L263" title="1 of 2 branches missed.">            for (int i = 0; i &lt; localSize; i++) {</span>
-<span class="nc bnc" id="L264" title="All 2 branches missed.">                if (localElements[i] == null) {</span>
-<span class="nc" id="L265">                    return i;</span>
+<span class="fc bfc" id="L263" title="All 2 branches covered.">            for (int i = 0; i &lt; localSize; i++) {</span>
+<span class="fc bfc" id="L264" title="All 2 branches covered.">                if (localElements[i] == null) {</span>
+<span class="fc" id="L265">                    return i;</span>
                 }
             }
         } else {
-<span class="pc bpc" id="L269" title="1 of 2 branches missed.">            for (int i = 0; i &lt; localSize; i++) {</span>
-<span class="nc bnc" id="L270" title="All 2 branches missed.">                if (localElements[i].equals(o)) {</span>
-<span class="nc" id="L271">                    return i;</span>
+<span class="fc bfc" id="L269" title="All 2 branches covered.">            for (int i = 0; i &lt; localSize; i++) {</span>
+<span class="fc bfc" id="L270" title="All 2 branches covered.">                if (localElements[i].equals(o)) {</span>
+<span class="fc" id="L271">                    return i;</span>
                 }
             }
         }
@@ -279,16 +279,16 @@ import java.util.*;
     public int lastIndexOf(Object o) {
 <span class="fc" id="L280">        final E[] localElements = elements;</span>
 <span class="fc" id="L281">        final int localSize = size;</span>
-<span class="pc bpc" id="L282" title="1 of 2 branches missed.">        if (o == null) {</span>
-<span class="pc bpc" id="L283" title="1 of 2 branches missed.">            for (int i = localSize - 1; i &gt;=0; i--) {</span>
-<span class="nc bnc" id="L284" title="All 2 branches missed.">                if (localElements[i] == null) {</span>
-<span class="nc" id="L285">                    return i;</span>
+<span class="fc bfc" id="L282" title="All 2 branches covered.">        if (o == null) {</span>
+<span class="fc bfc" id="L283" title="All 2 branches covered.">            for (int i = localSize - 1; i &gt;=0; i--) {</span>
+<span class="fc bfc" id="L284" title="All 2 branches covered.">                if (localElements[i] == null) {</span>
+<span class="fc" id="L285">                    return i;</span>
                 }
             }
         } else {
-<span class="nc bnc" id="L289" title="All 2 branches missed.">            for (int i = localSize - 1; i &gt;=0; i--) {</span>
-<span class="nc bnc" id="L290" title="All 2 branches missed.">                if (localElements[i].equals(o)) {</span>
-<span class="nc" id="L291">                    return i;</span>
+<span class="fc bfc" id="L289" title="All 2 branches covered.">            for (int i = localSize - 1; i &gt;=0; i--) {</span>
+<span class="fc bfc" id="L290" title="All 2 branches covered.">                if (localElements[i].equals(o)) {</span>
+<span class="fc" id="L291">                    return i;</span>
                 }
             }
         }
@@ -302,8 +302,8 @@ import java.util.*;
 <span class="fc" id="L302">    }</span>
 
     private void checkToNotSmallerThanFrom(int from, int to) {
-<span class="pc bpc" id="L305" title="1 of 2 branches missed.">        if (to &lt; from) {</span>
-<span class="nc" id="L306">            throw new IllegalArgumentException(&quot;to:&quot; + to + &quot; cannot be less than from:&quot; + from);</span>
+<span class="fc bfc" id="L305" title="All 2 branches covered.">        if (to &lt; from) {</span>
+<span class="fc" id="L306">            throw new IllegalArgumentException(&quot;to:&quot; + to + &quot; cannot be less than from:&quot; + from);</span>
         }
 <span class="fc" id="L308">    }</span>
 
@@ -312,7 +312,7 @@ import java.util.*;
      * @param index the index to check.
      */
     private void checkIndex(final int index) {
-<span class="pc bpc" id="L315" title="1 of 4 branches missed.">        if (index &gt;= size || index &lt; 0) {</span>
+<span class="fc bfc" id="L315" title="All 4 branches covered.">        if (index &gt;= size || index &lt; 0) {</span>
 <span class="fc" id="L316">            throw new IndexOutOfBoundsException(&quot;Index = &quot; + index + &quot; size = &quot; + size);</span>
         }
 <span class="fc" id="L318">    }</span>
@@ -322,8 +322,8 @@ import java.util.*;
      * @param numToAdd then number of elements to add.
      */
     private void checkResize(final int numToAdd) {
-<span class="pc bpc" id="L325" title="1 of 2 branches missed.">        if (size &gt;= elements.length - numToAdd) {  // calculate subtracting from elements.length to avoid any integer overflow when size is large.</span>
-<span class="nc" id="L326">            growArray(numToAdd);</span>
+<span class="fc bfc" id="L325" title="All 2 branches covered.">        if (size &gt;= elements.length - numToAdd) {  // calculate subtracting from elements.length to avoid any integer overflow when size is large.</span>
+<span class="fc" id="L326">            growArray(numToAdd);</span>
         }
 <span class="fc" id="L328">    }</span>
 
@@ -331,13 +331,13 @@ import java.util.*;
      * Grows the array up to the maximum array size.
      */
     private void growArray(final int numToAdd) {
-<span class="nc bnc" id="L334" title="All 2 branches missed.">        if (elements.length == Integer.MAX_VALUE - 1) {</span>
+<span class="pc bpc" id="L334" title="1 of 2 branches missed.">        if (elements.length == Integer.MAX_VALUE - 1) {</span>
 <span class="nc" id="L335">            throw new IllegalArgumentException(&quot;Cannot increase the list size beyond Integer.MAX_VALUE: &quot; + this);</span>
         }
-<span class="nc" id="L337">        final E[] newArray = (E[]) new Object[getGrowSize(numToAdd)];</span>
-<span class="nc" id="L338">        System.arraycopy(elements, 0, newArray, 0, elements.length);</span>
-<span class="nc" id="L339">        elements = newArray;</span>
-<span class="nc" id="L340">    }</span>
+<span class="fc" id="L337">        final E[] newArray = (E[]) new Object[getGrowSize(numToAdd)];</span>
+<span class="fc" id="L338">        System.arraycopy(elements, 0, newArray, 0, elements.length);</span>
+<span class="fc" id="L339">        elements = newArray;</span>
+<span class="fc" id="L340">    }</span>
 
     /**
      * Returns the amount to grow to.  Grows faster initially, then slows down growth as we get a lot larger.
@@ -348,11 +348,11 @@ import java.util.*;
         // This is because we want to grow faster when we're smaller (to avoid frequent re-sizes if large
         // numbers of elements are being added), but to grow proportionally a bit slower once we're getting quite big
         // (or we will waste a lot of space on average).
-<span class="nc" id="L351">        long newSize = (long) ((elements.length + numToAdd) * growMultiplier);</span>
-<span class="nc bnc" id="L352" title="All 2 branches missed.">        if (growMultiplier &gt; 1.05f) {</span>
-<span class="nc" id="L353">            growMultiplier -= 0.02f;</span>
+<span class="fc" id="L351">        long newSize = (long) ((elements.length + numToAdd) * growMultiplier);</span>
+<span class="fc bfc" id="L352" title="All 2 branches covered.">        if (growMultiplier &gt; 1.05f) {</span>
+<span class="fc" id="L353">            growMultiplier -= 0.02f;</span>
         }
-<span class="nc" id="L355">        return (int) Math.min(newSize, Integer.MAX_VALUE - 1);</span>
+<span class="fc" id="L355">        return (int) Math.min(newSize, Integer.MAX_VALUE - 1);</span>
     }
 
 }

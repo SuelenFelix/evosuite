@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-lyubenblagoev_postfix-rest-server,nativo+evosuite,13.26,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+lyubenblagoev_postfix-rest-server,native+evosuite,13.26,7.06,466,531,938,1106,385,446,success,maven_returncode=0

@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-aws-samples_apache-flink-near-online-data-enrichment-patterns,nativo+evosuite,50.84,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+aws-samples_apache-flink-near-online-data-enrichment-patterns,native+evosuite,50.84,33.33,30,81,156,324,24,74,success,maven_returncode=0

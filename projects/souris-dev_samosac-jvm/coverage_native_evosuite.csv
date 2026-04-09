@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-souris-dev_samosac-jvm,nativo+evosuite,29.69,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+souris-dev_samosac-jvm,native+evosuite,29.69,16.01,1436,2266,3585,5055,602,1330,success,maven_returncode=0

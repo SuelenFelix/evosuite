@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-sashinpivotal_spring-boot-tdd,nativo+evosuite,93.98,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+sashinpivotal_spring-boot-tdd,native+evosuite,93.98,96.88,3,37,4,61,2,21,success,maven_returncode=0

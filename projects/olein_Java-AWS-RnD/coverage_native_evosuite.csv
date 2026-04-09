@@ -1,2 +1,2 @@
-project,mode,coverage,status,details
-olein_Java-AWS-RnD,nativo+evosuite,55.23,success,maven_returncode=0
+project,mode,instruction_coverage,branch_coverage,complexity_missed,complexity_total,lines_missed,lines_total,methods_missed,methods_total,status,details
+olein_Java-AWS-RnD,native+evosuite,55.23,0.0,21,47,63,125,19,45,success,maven_returncode=0

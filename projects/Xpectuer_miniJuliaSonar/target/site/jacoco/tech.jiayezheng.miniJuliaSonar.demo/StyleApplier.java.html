@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StyleApplier.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">miniJuliaSonar</a> &gt; <a href="index.source.html" class="el_package">tech.jiayezheng.miniJuliaSonar.demo</a> &gt; <span class="el_source">StyleApplier.java</span></div><h1>StyleApplier.java</h1><pre class="source lang-java linenums">package tech.jiayezheng.miniJuliaSonar.demo;
+
+import org.jetbrains.annotations.NotNull;
+import tech.jiayezheng.miniJuliaSonar.$;
+import tech.jiayezheng.miniJuliaSonar.Analyzer;
+
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+
+/**
+ * Turns a list of {@link Style}s into HTML spans.
+ */
+class StyleApplier {
+
+<span class="fc" id="L17">    @NotNull</span>
+    private SortedSet&lt;Tag&gt; tags = new TreeSet&lt;Tag&gt;();
+
+    private StringBuilder buffer;  // html output buffer
+
+    private String source;  // input source code
+
+    // Current offset into the source being copied into the html buffer.
+<span class="fc" id="L25">    private int sourceOffset = 0;</span>
+
+
+<span class="fc" id="L28">    abstract class Tag implements Comparable&lt;Tag&gt; {</span>
+        int offset;
+        Style style;
+
+
+        @Override
+        public int compareTo(@NotNull Tag other) {
+<span class="fc bfc" id="L35" title="All 2 branches covered.">            if (this == other) {</span>
+<span class="fc" id="L36">                return 0;</span>
+            }
+<span class="fc bfc" id="L38" title="All 2 branches covered.">            if (this.offset &lt; other.offset) {</span>
+<span class="fc" id="L39">                return -1;</span>
+            }
+<span class="fc bfc" id="L41" title="All 2 branches covered.">            if (other.offset &lt; this.offset) {</span>
+<span class="fc" id="L42">                return 1;</span>
+            }
+<span class="fc" id="L44">            return this.hashCode() - other.hashCode();</span>
+        }
+
+
+        void insert() {
+            // Copy source code up through this tag.
+<span class="fc bfc" id="L50" title="All 2 branches covered.">            if (offset &gt; sourceOffset) {</span>
+<span class="fc" id="L51">                copySource(sourceOffset, offset);</span>
+            }
+<span class="fc" id="L53">        }</span>
+    }
+
+
+    class StartTag extends Tag {
+<span class="fc" id="L58">        public StartTag(@NotNull Style style) {</span>
+<span class="fc" id="L59">            offset = style.start;</span>
+<span class="fc" id="L60">            this.style = style;</span>
+<span class="fc" id="L61">        }</span>
+
+
+        @Override
+        void insert() {
+<span class="fc" id="L66">            super.insert();</span>
+<span class="nc bnc" id="L67" title="All 2 branches missed.">            if (Analyzer.self.hasOption(&quot;debug&quot;)) {</span>
+<span class="nc bnc" id="L68" title="All 3 branches missed.">                switch (style.type) {</span>
+                    case ANCHOR:
+<span class="nc" id="L70">                        buffer.append(&quot;&lt;a name='&quot; + style.url + &quot;'&quot;);</span>
+<span class="nc" id="L71">                        buffer.append(&quot;, id ='&quot; + style.id + &quot;'&quot;);</span>
+<span class="nc bnc" id="L72" title="All 4 branches missed.">                        if (style.highlight != null &amp;&amp; !style.highlight.isEmpty()) {</span>
+<span class="nc" id="L73">                            String ids = $.joinWithSep(style.highlight, &quot;\&quot;,\&quot;&quot;, &quot;\&quot;&quot;, &quot;\&quot;&quot;);</span>
+<span class="nc" id="L74">                            buffer.append(&quot;, onmouseover='highlight(&quot;).append(ids).append(&quot;)'&quot;);</span>
+<span class="nc" id="L75">                        }</span>
+                        break;
+                    case LINK:
+<span class="nc" id="L78">                        buffer.append(&quot;&lt;a href='&quot; + style.url + &quot;'&quot;);</span>
+<span class="nc" id="L79">                        buffer.append(&quot;, id ='&quot; + style.id + &quot;'&quot;);</span>
+<span class="nc bnc" id="L80" title="All 4 branches missed.">                        if (style.highlight != null &amp;&amp; !style.highlight.isEmpty()) {</span>
+<span class="nc" id="L81">                            String ids = $.joinWithSep(style.highlight, &quot;\&quot;,\&quot;&quot;, &quot;\&quot;&quot;, &quot;\&quot;&quot;);</span>
+<span class="nc" id="L82">                            buffer.append(&quot;, onmouseover='highlight(&quot;).append(ids).append(&quot;)'&quot;);</span>
+<span class="nc" id="L83">                        }</span>
+                        break;
+                    default:
+<span class="nc" id="L86">                        buffer.append(&quot;&lt;span class='&quot;);</span>
+<span class="nc" id="L87">                        buffer.append(toCSS(style)).append(&quot;'&quot;);</span>
+<span class="nc" id="L88">                        break;</span>
+                }
+            } else {
+<span class="nc bnc" id="L91" title="All 3 branches missed.">                switch (style.type) {</span>
+                    case ANCHOR:
+<span class="nc" id="L93">                        buffer.append(&quot;&lt;a name='&quot; + style.url + &quot;'&quot;);</span>
+<span class="nc" id="L94">                        buffer.append(&quot;, xid ='&quot; + style.id + &quot;'&quot;);</span>
+<span class="nc" id="L95">                        break;</span>
+                    case LINK:
+<span class="nc" id="L97">                        buffer.append(&quot;&lt;a href='&quot; + style.url + &quot;'&quot;);</span>
+<span class="nc" id="L98">                        buffer.append(&quot;, xid ='&quot; + style.id + &quot;'&quot;);</span>
+<span class="nc" id="L99">                        break;</span>
+                    default:
+<span class="nc" id="L101">                        buffer.append(&quot;&lt;span class='&quot;);</span>
+<span class="nc" id="L102">                        buffer.append(toCSS(style)).append(&quot;'&quot;);</span>
+                        break;
+                }
+            }
+<span class="nc bnc" id="L106" title="All 2 branches missed.">            if (style.message != null) {</span>
+<span class="nc" id="L107">                buffer.append(&quot;, title='&quot;);</span>
+<span class="nc" id="L108">                buffer.append(style.message);</span>
+<span class="nc" id="L109">                buffer.append(&quot;'&quot;);</span>
+            }
+<span class="nc" id="L111">            buffer.append(&quot;&gt;&quot;);</span>
+<span class="nc" id="L112">        }</span>
+    }
+
+
+    class EndTag extends Tag {
+<span class="fc" id="L117">        public EndTag(@NotNull Style style) {</span>
+<span class="fc" id="L118">            offset = style.end;</span>
+<span class="fc" id="L119">            this.style = style;</span>
+<span class="fc" id="L120">        }</span>
+
+
+        @Override
+        void insert() {
+<span class="fc" id="L125">            super.insert();</span>
+<span class="fc bfc" id="L126" title="All 2 branches covered.">            switch (style.type) {</span>
+                case ANCHOR:
+                case LINK:
+<span class="fc" id="L129">                    buffer.append(&quot;&lt;/a&gt;&quot;);</span>
+<span class="fc" id="L130">                    break;</span>
+                default:
+<span class="fc" id="L132">                    buffer.append(&quot;&lt;/span&gt;&quot;);</span>
+                    break;
+            }
+<span class="fc" id="L135">        }</span>
+    }
+
+
+<span class="fc" id="L139">    public StyleApplier(String path, String src, @NotNull List&lt;Style&gt; runs) {</span>
+<span class="fc" id="L140">        source = src;</span>
+<span class="fc bfc" id="L141" title="All 2 branches covered.">        for (Style run : runs) {</span>
+<span class="fc" id="L142">            tags.add(new StartTag(run));</span>
+<span class="fc" id="L143">            tags.add(new EndTag(run));</span>
+<span class="fc" id="L144">        }</span>
+<span class="fc" id="L145">    }</span>
+
+
+    /**
+     * @return the html
+     */
+    @NotNull
+    public String apply() {
+<span class="fc" id="L153">        buffer = new StringBuilder();</span>
+
+<span class="fc bfc" id="L155" title="All 2 branches covered.">        for (Tag tag : tags) {</span>
+<span class="fc" id="L156">            tag.insert();</span>
+<span class="fc" id="L157">        }</span>
+        // Copy in remaining source beyond last tag.
+<span class="fc bfc" id="L159" title="All 2 branches covered.">        if (sourceOffset &lt; source.length()) {</span>
+<span class="fc" id="L160">            copySource(sourceOffset, source.length());</span>
+        }
+<span class="fc" id="L162">        return buffer.toString();</span>
+    }
+
+
+    /**
+     * Copies code from the input source to the output html.
+     *
+     * @param begin the starting source offset
+     * @param end   the end offset, or -1 to go to end of file
+     */
+    private void copySource(int begin, int end) {
+        // Be robust if the analyzer gives us bad offsets.
+        try {
+<span class="pc bpc" id="L175" title="1 of 2 branches missed.">            String src = escape((end == -1)</span>
+<span class="nc" id="L176">                    ? source.substring(begin)</span>
+<span class="fc" id="L177">                    : source.substring(begin, end));</span>
+<span class="fc" id="L178">            buffer.append(src);</span>
+<span class="fc" id="L179">        } catch (RuntimeException x) {</span>
+            // This can happen with files with weird encodings
+            // Igore them because of the rareness
+<span class="fc" id="L182">        }</span>
+<span class="fc" id="L183">        sourceOffset = end;</span>
+<span class="fc" id="L184">    }</span>
+
+
+    private String escape(@NotNull String s) {
+<span class="fc" id="L188">        return s.replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)</span>
+<span class="fc" id="L189">                .replace(&quot;'&quot;, &quot;&amp;#39;&quot;)</span>
+<span class="fc" id="L190">                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)</span>
+<span class="fc" id="L191">                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)</span>
+<span class="fc" id="L192">                .replace(&quot;&gt;&quot;, &quot;&amp;gt;&quot;);</span>
+    }
+
+
+    private String toCSS(@NotNull Style style) {
+<span class="nc" id="L197">        return style.type.toString().toLowerCase().replace(&quot;_&quot;, &quot;-&quot;);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

@@ -1,5 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+		xmlns="http://maven.apache.org/POM/4.0.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.commoncrawl</groupId>
@@ -20,34 +23,13 @@
 		<fastutil.version>8.5.18</fastutil.version>
 		<crawler.commons.version>1.6</crawler.commons.version>
 
-		<slf4j-api.version>2.0.17</slf4j-api.version>
+		<slf4j-api.version>2.0.18</slf4j-api.version>
 
 		<junit.version>5.14.3</junit.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
-
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.junit.vintage</groupId>
-    <artifactId>junit-vintage-engine</artifactId>
-    <version>5.10.0</version>
-    <scope>test</scope>
-</dependency>
-
-<dependency>
-    <groupId>org.evosuite</groupId>
-    <artifactId>evosuite-standalone-runtime</artifactId>
-    <version>1.1.0</version>
-    <scope>test</scope>
-</dependency>
-
 			<dependency>
 				<groupId>org.junit</groupId>
 				<artifactId>junit-bom</artifactId>
@@ -59,27 +41,6 @@
 	</dependencyManagement>
 
 	<dependencies>
-
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.junit.vintage</groupId>
-    <artifactId>junit-vintage-engine</artifactId>
-    <version>5.10.0</version>
-    <scope>test</scope>
-</dependency>
-
-<dependency>
-    <groupId>org.evosuite</groupId>
-    <artifactId>evosuite-standalone-runtime</artifactId>
-    <version>1.1.0</version>
-    <scope>test</scope>
-</dependency>
-
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -99,13 +60,9 @@
 			<version>${fastutil.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>commons-cli</groupId>
-			<artifactId>commons-cli</artifactId>
-			<version>1.5.0</version>
-		</dependency>
-
-		
+		<!-- WebGraph framework (https://webgraph.di.unimi.it/)
+		     and libraries from the Laboratory for Web Algorithmics
+		     (LAW - https://law.di.unimi.it/) -->
 		<dependency>
 			<groupId>it.unimi.dsi</groupId>
 			<artifactId>webgraph</artifactId>
@@ -205,11 +162,26 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+		<!-- it.unimi.dsi.law.rank.PageRankParallelGaussSeidel requires commons-configuration2 -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-configuration2</artifactId>
-			<version>2.10.1</version>
+			<version>2.15.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- commons-configuration2 requires a newer version of
+				 commons-lang3 than required by it.unimi.dsi:law -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.20.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- commons-configuration2 also requires commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.22.0</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -218,7 +190,7 @@
 			<version>${slf4j-api.version}</version>
 		</dependency>
 
-		
+		<!-- Test dependencies -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
@@ -234,48 +206,6 @@
 			</resource>
 		</resources>
 		<plugins>
-
-<plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>build-helper-maven-plugin</artifactId>
-    <version>3.3.0</version>
-    <executions>
-        <execution>
-            <id>add-kex-test-source</id>
-            <phase>generate-test-sources</phase>
-            <goals>
-                <goal>add-test-source</goal>
-            </goals>
-            <configuration>
-                <sources>
-                    <source>src/test/java/kex-tests</source>
-                </sources>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
-
-
-<plugin>
-    <groupId>org.jacoco</groupId>
-    <artifactId>jacoco-maven-plugin</artifactId>
-    <version>0.8.11</version>
-    <executions>
-        <execution>
-            <goals>
-                <goal>prepare-agent</goal>
-            </goals>
-        </execution>
-        <execution>
-            <id>report</id>
-            <phase>test</phase>
-            <goals>
-                <goal>report</goal>
-            </goals>
-        </execution>
-    </executions>
-</plugin>
-
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.14.0</version>
@@ -332,7 +262,7 @@
 				<version>2.46.1</version>
 				<configuration>
 					<pom>
-						
+						<!-- These are the defaults, you can override if you want -->
 						<includes>
 							<include>pom.xml</include>
 						</includes>
@@ -351,6 +281,6 @@
 					</java>
 				</configuration>
 			</plugin>
-		<plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
+		</plugins>
 	</build>
 </project>

@@ -1,2 +1,0 @@
-testCase,httpStatusCode{{#each operations}}{{#each .}}{{#if parameters}},{{/if}}{{#each parameters.allParameters}}{{paramName}}{{#unless @last}},{{/unless}}{{/each}}{{/each}}{{/each}}
-Success,200{{#each operations}}{{#each .}}{{#if parameters}},{{/if}}{{#each parameters.allParameters}}0{{#unless @last}},{{/unless}}{{/each}}{{/each}}{{/each}}

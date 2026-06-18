@@ -1,0 +1,14 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 0
+  adminConnectors:
+    - type: http
+      port: 0
+
+pac4j:
+  configFactory: org.pac4j.dropwizard.factory.DirectClientsConfigFactory
+  servlet:
+    security:
+      - clients: ""
+        authorizers: "none"

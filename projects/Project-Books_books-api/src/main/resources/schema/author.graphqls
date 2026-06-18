@@ -1,0 +1,7 @@
+type Author {
+    id: ID!
+    fullName: String!
+    about: String
+    books: [Book!]!
+}
+

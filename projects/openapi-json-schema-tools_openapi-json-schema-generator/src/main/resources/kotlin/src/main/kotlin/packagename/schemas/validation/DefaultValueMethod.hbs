@@ -1,8 +1,0 @@
-package {{{packageName}}}.schemas.validation
-
-import {{{packageName}}}.exceptions.ValidationException
-
-interface DefaultValueMethod<T> {
-    @Throws(ValidationException::class)
-    fun defaultValue(): T
-}

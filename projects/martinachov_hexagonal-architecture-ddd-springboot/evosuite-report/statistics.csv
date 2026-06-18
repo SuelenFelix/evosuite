@@ -1,7 +1,7 @@
 TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
 com.martinachov.hexagonal.HexagonalArchitectureApplication,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.8333333333333333,11,9
-com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.8895833333333334,89,88
-com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.8802083333333334,70,69
 com.martinachov.hexagonal.infrastructure.adapters.output.persistence.ProductPersistenceAdapter,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.6840277777777778,28,19
 com.martinachov.hexagonal.infrastructure.adapters.output.persistence.mapper.ProductMapper,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.7291666666666666,19,15
+com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.request.ProductRequest,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.8802083333333334,70,69
+com.martinachov.hexagonal.infrastructure.adapters.input.rest.data.response.ProductResponse,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.8895833333333334,89,88
 com.martinachov.hexagonal.domain.service.ProductService,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.7291666666666666,24,21

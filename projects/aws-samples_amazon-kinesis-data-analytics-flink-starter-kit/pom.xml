@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<name>Amazon Kinesis Data Analytics Flink - Starter Kit</name>
 	<groupId>com.amazonaws.kda.samples</groupId>
@@ -15,35 +16,14 @@
 	</properties>
 
 	<dependencies>
-
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.junit.vintage</groupId>
-    <artifactId>junit-vintage-engine</artifactId>
-    <version>5.10.0</version>
-    <scope>test</scope>
-</dependency>
-
-<dependency>
-    <groupId>org.evosuite</groupId>
-    <artifactId>evosuite-standalone-runtime</artifactId>
-    <version>1.1.0</version>
-    <scope>test</scope>
-</dependency>
-
-		
+		<!-- JUnit dependency -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>5.6.2</version>
 			<scope>test</scope>
 		</dependency>
-		
+		<!-- Log4j dependencies -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
@@ -54,32 +34,32 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.17.1</version>
 		</dependency>
-		
+		<!-- Amazon Kinesis Analytics runtime dependency -->
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-kinesisanalytics-runtime</artifactId>
 			<version>${kinesis.analytics.runtime.version}</version>
 		</dependency>
-		
+		<!-- Amazon Kinesis Analytics Flink dependency -->
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-kinesisanalytics-flink</artifactId>
 			<version>${kinesis.analytics.flink.version}</version>
 		</dependency>
-		
+		<!-- Apache Flink connector for Amazon Kinesis dependency -->
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-connector-kinesis_${scala.binary.version}</artifactId>
 			<version>${flink.version}</version>
 		</dependency>
-		
+		<!-- Flink streaming Java dependency -->
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
 			<version>${flink.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+		<!-- Amazon CloudWatch Logs dependency -->
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-logs</artifactId>
@@ -88,49 +68,7 @@
 
 	<build>
 		<plugins>
-
-<plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>build-helper-maven-plugin</artifactId>
-    <version>3.3.0</version>
-    <executions>
-        <execution>
-            <id>add-kex-test-source</id>
-            <phase>generate-test-sources</phase>
-            <goals>
-                <goal>add-test-source</goal>
-            </goals>
-            <configuration>
-                <sources>
-                    <source>src/test/java/kex-tests</source>
-                </sources>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
-
-
-<plugin>
-    <groupId>org.jacoco</groupId>
-    <artifactId>jacoco-maven-plugin</artifactId>
-    <version>0.8.11</version>
-    <executions>
-        <execution>
-            <goals>
-                <goal>prepare-agent</goal>
-            </goals>
-        </execution>
-        <execution>
-            <id>report</id>
-            <phase>test</phase>
-            <goals>
-                <goal>report</goal>
-            </goals>
-        </execution>
-    </executions>
-</plugin>
-
-			
+			<!-- Java Compiler -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -140,14 +78,16 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			
-			
+			<!-- We use the maven-shade plugin to create a fat jar that contains all 
+				necessary dependencies. -->
+			<!-- Change the value of <mainClass>...</mainClass> if your program entry 
+				point changes. -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
 				<version>3.0.0</version>
 				<executions>
-					
+					<!-- Run shade goal on package phase -->
 					<execution>
 						<phase>package</phase>
 						<goals>
@@ -164,7 +104,8 @@
 							</artifactSet>
 							<filters>
 								<filter>
-									
+									<!-- Do not copy the signatures in the META-INF folder. Otherwise, 
+										this might cause SecurityExceptions when using the JAR. -->
 									<artifact>*:*</artifact>
 									<excludes>
 										<exclude>META-INF/*.SF</exclude>
@@ -174,7 +115,8 @@
 								</filter>
 							</filters>
 							<transformers>
-								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<mainClass>com.amazonaws.kda.flink.starterkit.SessionProcessor</mainClass>
 								</transformer>
 							</transformers>
@@ -186,31 +128,10 @@
 	</build>
 	<dependencyManagement>
 		<dependencies>
-
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.junit.vintage</groupId>
-    <artifactId>junit-vintage-engine</artifactId>
-    <version>5.10.0</version>
-    <scope>test</scope>
-</dependency>
-
-<dependency>
-    <groupId>org.evosuite</groupId>
-    <artifactId>evosuite-standalone-runtime</artifactId>
-    <version>1.1.0</version>
-    <scope>test</scope>
-</dependency>
-
 			<dependency>
 				<groupId>com.amazonaws</groupId>
 				<artifactId>aws-java-sdk-bom</artifactId>
-				
+				<!-- Get the latest SDK version from https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bom -->
 				<version>1.11.892</version>
 				<type>pom</type>
 				<scope>import</scope>

@@ -1,0 +1,73 @@
+[
+  {
+    "ID": "LEAKING_PROD",
+    "Type": "doomed",
+    "Name": "Doomed planet, high production and credits, but production is very expensive. No ships.",
+    "NumberOfScouts": 0,
+    "NumberOfColonyShips": 0,
+    "WaterLevel": "humid",
+    "Temperature": "temperate",
+    "PlanetSize": 12,
+    "Population": 3,
+    "ColonyPop": 0,
+    "Tech":[
+      "randomCombat",
+      "randomElectronics",
+      "randomPropulsion"
+    ],
+    "Buildings": [
+      "Space port",
+      "Leaking factory",
+      "Leaking factory",
+      "Leaking factory",
+      "Leaking mine",
+      "Leaking mine",
+      "Leaking mine"
+    ],
+    "StartingCredit": 50,
+    "Description": "Prebuilt factories and mines are leaking energy which costs credits. There are no space ships at start."
+  },
+  {
+    "ID": "VOLCANIC_DISASTER",
+    "Type": "doomed",
+    "Name": "Doomed planet, planet is going to turn volcanic world eventually.",
+    "NumberOfScouts": 3,
+    "NumberOfColonyShips": 1,
+    "WaterLevel": "humid",
+    "Temperature": "temperate",
+    "PlanetSize": 12,
+    "Population": 4,
+    "ColonyPop": 0,
+    "Tech":[
+      "randomElectronics",
+      "randomPropulsion"
+    ],
+    "Buildings": [
+      "Space port"
+    ],
+    "StartingCredit": 0,
+    "Description": "Planet is going to turn volcanic world in 80-120 star years."
+  },
+  {
+    "ID": "FREEZING_PLANET",
+    "Type": "doomed",
+    "Name": "Doomed planet, planet is going to eventually freeze.",
+    "NumberOfScouts": 3,
+    "NumberOfColonyShips": 1,
+    "WaterLevel": "humid",
+    "Temperature": "tropical",
+    "PlanetSize": 12,
+    "Population": 4,
+    "ColonyPop": 0,
+    "Tech":[
+      "randomElectronics",
+      "randomPropulsion"
+    ],
+    "Buildings": [
+      "Space port"
+    ],
+    "StartingCredit": 0,
+    "Description": "Planet is going to freezing ice world in 80-120 star years."
+  }
+  
+]

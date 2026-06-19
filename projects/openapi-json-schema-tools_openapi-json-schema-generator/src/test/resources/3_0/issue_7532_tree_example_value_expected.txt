@@ -1,0 +1,15 @@
+{
+        "trees": tree.Tree.validate({
+            "id": 1,
+            "name": "name_example",
+            "description": "description_example",
+            "children": [
+                tree.Tree.validate({})
+            ],
+            "parent": tree.Tree.validate({}),
+            "forest": forest.Forest.validate({}),
+            "additional": {
+                "key": tree.Tree.validate({}),
+            },
+        }),
+    }

@@ -1,0 +1,4 @@
+{{#each nonErrorResponses}}
+{{jsonPathPiece.snakeCase}}.ApiResponse{{#if multiple}},
+{{/if}}
+{{/each}}

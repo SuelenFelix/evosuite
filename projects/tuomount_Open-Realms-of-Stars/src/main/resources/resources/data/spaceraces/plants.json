@@ -1,0 +1,63 @@
+[
+  {
+    "ID": "FERNIDS",
+    "Name": "Fernids",
+    "NameSingle": "Fernid",
+    "BridgeId": "Fernid",
+    "SpaceShipId": "Fernid",
+    "Traits": [
+                "PHOTOSYNTHESIS",
+                "IMPRACTICAL",
+                "STRONG",
+                "VERY_LONG_LIFE_SPAN",
+                "REPULSIVE",
+                "SLOW_LEARNERS",
+                "GOOD_WAR_RESILIENCE",
+                "TOLERATE_HOT",
+                "HIGH_GRAVITY_BEING"
+              ],
+    "Attitude": "EXPANSIONIST",
+    "Image": "resources/images/fernid_race.png",
+    "SocialSystem": "MATRIARCHY",
+    "Genders": [
+                 "MALE",
+                 "FEMALE"
+               ],
+    "SpeechSetId": "FERNIDS",
+    "BridgeEffect": "JUNGLE",
+    "DiplomacyMusic": "Sylvan Waltz",
+    "NameGenerator": "BIG_PLANT",
+    "Description": "Fernids are tree like creatures. They have two branch functioning as hands and roots working as legs."
+  },
+  {
+    "ID": "MYCOLIANS",
+    "Name": "Mycolians",
+    "NameSingle": "Mycolian",
+    "BridgeId": "Mycolian",
+    "SpaceShipId": "Mycolian",
+    "Traits": [
+               "SLOW_LEARNERS",
+               "LONG_LIFE_SPAN",
+               "PHOTOSYNTHESIS",
+               "REPULSIVE",
+               "TOLERATE_HIGH_RADIATION",
+               "INTOLERATE_COLD",
+               "SLOW_CULTURE",
+               "COMMUNAL",
+               "NO_HEIRS",
+               "SPORE_COLONIZATION",
+               "EXCELLENT_WAR_RESILIENCE"
+              ],
+    "Attitude": "EXPANSIONIST",
+    "Image": "resources/images/mushroom.png",
+    "SocialSystem": "EQUAL",
+    "Genders": [
+                "NONE"
+               ],
+    "SpeechSetId": "MYCOLIANS",
+    "BridgeEffect": "FUNGUS",
+    "DiplomacyMusic": "Dark Ambience Loop",
+    "NameGenerator": "MUSHROOM",
+    "Description": "Mycolians are mushroom like creatures which have snail like eyes and two tenctacles. They have tall body with sliding capability on they lower part. On top of their body they have a cap like feature.",
+  }
+]

@@ -1,0 +1,184 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.automation</groupId>
+    <artifactId>xml-doclet</artifactId>
+    <version>2.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>XML Doclet</name>
+    <description>Javadoc to XML</description>
+    <url>https://github.com/cloudblue/xml-doclet</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>11</java.version>
+        <jaxb.version>2.3.6</jaxb.version>
+        <activation.version>1.2.2</activation.version>
+        <junit.jupiter.version>5.9.0</junit.jupiter.version>
+	    <junit.platform.version>1.9.0</junit.platform.version>
+    </properties>
+
+    <organization>
+        <url>https://www.cloudblue.com</url>
+        <name>CloudBlue</name>
+    </organization>
+
+    <scm>
+        <url>https://github.com/cloudblue/xml-doclet</url>
+        <connection>scm:git://github.com/cloudblue/xml-doclet.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/cloudblue/xml-doclet.git</developerConnection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+        <!-- JAXB needs javax.activation module (jdk9) -->
+        <dependency>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
+            <version>${activation.version}</version>
+        </dependency>
+        <!-- Test dependencies -->
+	    <dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter</artifactId>
+		    <version>${junit.jupiter.version}</version>
+		    <scope>test</scope>
+	    </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+	        <plugin>
+		        <!-- Set java version target, use project source encoding -->
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-compiler-plugin</artifactId>
+		        <version>3.10.1</version>
+		        <configuration>
+			        <source>${java.version}</source>
+			        <target>${java.version}</target>
+			        <release>${java.version}</release>
+			        <encoding>${project.build.sourceEncoding}</encoding>
+			        <optimize>true</optimize>
+			        <debug>true</debug>
+			        <compilerId>javac</compilerId>
+		        </configuration>
+	        </plugin>
+	        <plugin>
+		        <artifactId>maven-surefire-plugin</artifactId>
+		        <version>2.22.2</version>
+	        </plugin>
+	        <plugin>
+		        <groupId>org.jacoco</groupId>
+		        <artifactId>jacoco-maven-plugin</artifactId>
+		        <version>0.8.8</version>
+		        <executions>
+			        <execution>
+				        <goals>
+					        <goal>prepare-agent</goal>
+				        </goals>
+			        </execution>
+			        <execution>
+				        <id>report</id>
+				        <phase>test</phase>
+				        <goals>
+					        <goal>report</goal>
+				        </goals>
+			        </execution>
+		        </executions>
+	        </plugin>
+	        <plugin>
+                <!-- Generate the XML binding classes from schema -->
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb23-plugin</artifactId>
+                <version>0.14.0</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <cleanPackageDirectories>true</cleanPackageDirectories>
+                    <extension>true</extension>
+                    <generatePackage>com.automation.xmldoclet.xjc</generatePackage>
+                    <schemaDirectory>src/main/xjc</schemaDirectory>
+                    <strict>false</strict>
+                </configuration>
+            </plugin>
+            <plugin>
+                <!-- Set java version target, use project source encoding -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <release>${java.version}</release>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <optimize>true</optimize>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <!-- Copies test-jdk17 files over to test and run with jdk17 compiler -->
+            <id>java17</id>
+            <activation>
+                <jdk>17</jdk>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>build-helper-maven-plugin</artifactId>
+                        <version>3.2.0</version>
+                        <executions>
+                            <execution>
+                                <id>add-test-source</id>
+                                <phase>generate-test-sources</phase>
+                                <goals>
+                                    <goal>add-test-source</goal>
+                                </goals>
+                                <configuration>
+                                    <sources>
+                                        <source>src/test-jdk17/java</source>
+                                    </sources>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.10.1</version>
+                        <configuration>
+                            <encoding>${project.build.sourceEncoding}</encoding>
+                            <optimize>true</optimize>
+                            <source>17</source>
+                            <target>17</target>
+                            <release>17</release>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

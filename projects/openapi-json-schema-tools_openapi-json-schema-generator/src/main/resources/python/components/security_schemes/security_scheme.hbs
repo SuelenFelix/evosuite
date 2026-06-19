@@ -1,0 +1,140 @@
+# coding: utf-8
+
+{{> _helper_header }}
+
+{{#with securityScheme}}
+    {{#if refInfo}}
+        {{#if imports}}
+
+        {{/if}}
+{{> _helper_imports }}
+{{jsonPathPiece.pascalCase}} = {{refInfo.refModule}}.{{refInfo.refClass}}
+    {{else}}
+from {{packageName}}.shared_imports.security_scheme_imports import *  # pyright: ignore [reportWildcardImportFromLibrary]
+
+        {{#eq type "apiKey"}}
+@dataclasses.dataclass
+class {{jsonPathPiece.pascalCase}}(security_schemes.ApiKeySecurityScheme):
+            {{#if description}}
+    '''
+    {{description.original}}
+    '''
+            {{/if}}
+    name: str = "{{name}}"
+            {{#eq in "query"}}
+    in_location: security_schemes.ApiKeyInLocation = security_schemes.ApiKeyInLocation.QUERY
+            {{else}}
+                {{#eq in "header"}}
+    in_location: security_schemes.ApiKeyInLocation = security_schemes.ApiKeyInLocation.HEADER
+                {{else}}
+                    {{#eq in "cookie"}}
+    in_location: security_schemes.ApiKeyInLocation = security_schemes.ApiKeyInLocation.COOKIE
+                    {{/eq}}
+                {{/eq}}
+            {{/eq}}
+        {{else}}
+            {{#eq type "http"}}
+@dataclasses.dataclass
+class {{jsonPathPiece.pascalCase}}(security_schemes.HTTP{{#eq scheme "basic"}}Basic{{/eq}}{{#eq scheme "bearer"}}Bearer{{/eq}}{{#eq scheme "signature"}}Signature{{/eq}}{{#eq scheme "digest"}}Digest{{/eq}}SecurityScheme):
+                {{#if description}}
+    '''
+    {{description.original}}
+    '''
+                {{/if}}
+                {{#eq scheme "bearer"}}
+    bearer_format = "{{bearerFormat}}"
+                {{/eq}}
+            {{else}}
+                {{#eq type "mutualTLS"}}
+@dataclasses.dataclass
+class {{jsonPathPiece.pascalCase}}(security_schemes.MutualTLSSecurityScheme):
+                    {{#if description}}
+    '''
+    {{description.original}}
+    '''
+                    {{else}}
+    pass
+                    {{/if}}
+                {{else}}
+                    {{#eq type "oauth2"}}
+@dataclasses.dataclass
+class {{jsonPathPiece.pascalCase}}(security_schemes.OAuth2SecurityScheme):
+                        {{#if description}}
+    '''
+    {{description.original}}
+    '''
+                        {{/if}}
+    flows = security_schemes.OAuthFlows(
+                        {{#with flows}}
+                            {{#with implicit}}
+        implicit=security_schemes.ImplicitOAuthFlow(
+            authorization_url="{{authorizationUrl}}",
+            scopes={
+                                {{#each scopes}}
+                "{{@key}}": "{{this}}",
+                                {{/each}}
+            },
+                                {{#if refreshUrl}}
+            refresh_url="{{refreshUrl}}"
+                                {{/if}}
+        )
+                            {{/with}}
+                            {{#with password}}
+        password=security_schemes.TokenUrlOauthFlow(
+            token_url="{{tokenUrl}}",
+            scopes={
+                                {{#each scopes}}
+                "{{@key}}": "{{this}}",
+                                {{/each}}
+            },
+                                {{#if refreshUrl}}
+            refresh_url="{{refreshUrl}}"
+                                {{/if}}
+        )
+                            {{/with}}
+                            {{#with clientCredentials}}
+        client_credentials=security_schemes.TokenUrlOauthFlow(
+            token_url="{{tokenUrl}}",
+            scopes={
+                                {{#each scopes}}
+                "{{@key}}": "{{this}}",
+                                {{/each}}
+            },
+                                {{#if refreshUrl}}
+            refresh_url="{{refreshUrl}}",
+                                {{/if}}
+        )
+                            {{/with}}
+                            {{#with authorizationCode}}
+        authorization_code=security_schemes.AuthorizationCodeOauthFlow(
+            authorization_url="{{authorizationUrl}}",
+            token_url="{{tokenUrl}}",
+            scopes={
+                                {{#each scopes}}
+                "{{@key}}": "{{this}}",
+                                {{/each}}
+            },
+                                {{#if refreshUrl}}
+            refresh_url="{{refreshUrl}}"
+                                {{/if}}
+        )
+                            {{/with}}
+                        {{/with}}
+    )
+                    {{else}}
+                        {{#eq type "openIdConnect"}}
+@dataclasses.dataclass
+class {{jsonPathPiece.pascalCase}}(security_schemes.OpenIdConnectSecurityScheme):
+                            {{#if description}}
+    '''
+    {{description.original}}
+    '''
+                            {{/if}}
+    openid_connect_url = "{{openIdConnectUrl}}"
+                        {{/eq}}
+                    {{/eq}}
+                {{/eq}}
+            {{/eq}}
+        {{/eq}}
+    {{/if}}
+{{/with}}

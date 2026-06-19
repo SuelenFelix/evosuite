@@ -10,7 +10,7 @@ MAX_WORKERS = 2
 JAVA_MAX_MEM = "-Xmx1G" 
 SEARCH_BUDGET = 60
 TIMEOUT_CMD = 600
-MAX_CLASSES_PER_PROJECT = 50 
+MAX_CLASSES_PER_PROJECT = 100 
 
 CSV_PATH = "projetos_final.csv"
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -24,6 +24,18 @@ print(EVOSUITE_JAR)
 print(os.path.exists(EVOSUITE_JAR))
 
 os.makedirs(BASE_DIR, exist_ok=True)
+
+def has_evosuite_tests(project_path):
+    test_dir = os.path.join(project_path, "evosuite-tests")
+
+    if not os.path.isdir(test_dir):
+        return False
+
+    for _, _, files in os.walk(test_dir):
+        if any(f.endswith(".java") for f in files):
+            return True
+
+    return False
 
 def run(cmd, cwd=None, timeout=TIMEOUT_CMD):
     env = os.environ.copy()
@@ -53,6 +65,9 @@ def process_project(row):
     nome = row["Project Name"]
     commit = row["Artifacts"]
     path = os.path.abspath(os.path.join(BASE_DIR, nome))
+    
+    # if os.path.exists(path) and has_evosuite_tests(path):
+    #     return f"{nome}: ⏭️ Já possui evosuite-tests"
 
     print(f"\n>>> [PROJETO] {nome} - Iniciando...")
 
@@ -141,46 +156,47 @@ def process_project(row):
 
 # --- MAIN ---
 if __name__ == "__main__":
-    df = pd.read_csv(CSV_PATH)
-    df_shuffled = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
-    print(f"Executando com {MAX_WORKERS} workers. Pressione Ctrl+C para parar.")
+    projetos_pendentes = {
+        "qoomon_maven-git-versioning-extension",
+        "strimzi_kafka-env-var-config-provider",
+        "TechPrimers_ratelimiter-example",
+        "shabbirdwd53_springboot-mongodb",
+        "Floppir_auth",
+        "rayokota_kafka-connect-jsonata",
+        "dmatik_oref-alerts-proxy-ms",
+        "gnu-gnu_spring-kafka-example",
+        "Mozenn_spring-boot-keycloak",
+        "ngageoint_simple-features-geojson-java",
+        "Jivkomg_dto-validation-demo",
+        "SnkSynthesis_voxel-game",
+        "sethm_symon",
+        "HackyleShawe_RemoteLogViewer",
+        "devslm_proguard-spring-boot-example",
+        "moacirrf_nb-java-decompiler",
+        "ofpay_logback-mdc-ttl",
+        "pac4j_dropwizard-pac4j",
+        "sttp-book_code-examples",
+        "ZenWave360_json-schema-ref-parser-jvm",
+        "Project-Books_books-api",
+    }
+
+    df = pd.read_csv(CSV_PATH)
+    df = df[df["Project Name"].isin(projetos_pendentes)].reset_index(drop=True)
+
+    print(f"Executando novamente {len(df)} projetos...")
 
     resultados = []
-    sucessos = 0
-    meta = 120
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {}
-        i = 0
-
-        # continua submetendo enquanto não atingiu 100 sucessos
-        while sucessos < meta and i < len(df_shuffled):
-            row = df_shuffled.iloc[i]
-            futures[executor.submit(process_project, row)] = row["Project Name"]
-            i += 1
-
-            if len(futures) >= MAX_WORKERS:
-                for future in as_completed(list(futures.keys())):
-                    res = future.result()
-                    print(f"RESULTADO FINAL PROJETO: {res}")
-                    resultados.append(res)
-
-                    if "Finalizado" in res:
-                        sucessos += 1
-
-                    futures.pop(future)
-                    break
+        futures = [executor.submit(process_project, row) for _, row in df.iterrows()]
 
         for future in as_completed(futures):
             res = future.result()
-            print(f"RESULTADO FINAL PROJETO: {res}")
+            print(res)
             resultados.append(res)
-            if "Finalizado" in res:
-                sucessos += 1
 
-    with open("resultado_geral.txt", "w") as f:
-        for r in resultados:
-            f.write(r + "\n")
+    with open("resultado_geral_retry.txt", "w") as f:
+        f.write("\n".join(resultados))
 
-    print(f"\nTotal de projetos com sucesso: {sucessos}")
+    print("\nReexecução concluída.")

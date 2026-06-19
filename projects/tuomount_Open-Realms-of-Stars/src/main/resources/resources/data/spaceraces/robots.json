@@ -1,0 +1,124 @@
+[
+  {
+    "ID": "MECHIONS",
+    "Name": "Mechions",
+    "NameSingle": "Mechion",
+    "BridgeId": "Mechion",
+    "SpaceShipId": "Mechion",
+    "Traits": [
+                "ROBOTIC",
+                "ENERGY_POWERED",
+                "NO_HEIRS",
+                "CONSTRUCTED_POP",
+                "SLOW_CULTURE",
+                "REPULSIVE",
+                "STRONG",
+                "TOLERATE_HIGH_RADIATION",
+                "TOLERATE_HOT"
+              ],
+    "Attitude": "LOGICAL",
+    "Image": "resources/images/mechion_race.png",
+    "SocialSystem": "EQUAL",
+    "Genders": [
+                 "NONE"
+               ],
+    "SpeechSetId": "MECHIONS",
+    "BridgeEffect": "WARM_WHITE",
+    "DiplomacyMusic": "Abandoned Steel Mill",
+    "NameGenerator": "ROBOT",
+    "Description": "Mechions are a race of humanoid robot that resemble industrial machines. Heavy and sturdy looking mechanical creatures. "
+  },
+  {
+    "ID": "REBORGIANS",
+    "Name": "Reborgians",
+    "NameSingle": "Reborgian",
+    "BridgeId": "Reborgian",
+    "SpaceShipId": "Reborgian",
+    "Traits": [
+                "NO_HEIRS",
+                "EAT_LESS",
+                "SLOW_GROWTH",
+                "FIXED_GROWTH",
+                "SLOW_CULTURE",
+                "CYBORG_LIFE_SPAN",
+                "ASSIMILATION",
+                "GOOD_WAR_RESILIENCE",
+                "DISGUSTING",
+                "STRONG",
+                "TOLERATE_HIGH_RADIATION",
+                "TOLERATE_HOT"
+              ],
+    "Attitude": "AGGRESSIVE",
+    "Image": "resources/images/reborgian_race.png",
+    "SocialSystem": "EQUAL",
+    "Genders": [
+                 "NONE"
+               ],
+    "SpeechSetId": "REBORGIANS",
+    "BridgeEffect": "DARKEST",
+    "DiplomacyMusic": "Braindead",
+    "NameGenerator": "CYBORG",
+    "Description": "Reborgians are a race of cyborgs that are created by combining organic organisms with bionic and robotic parts. This gives them enhanced physical abilities and allows them to operate in a wide variety of environments. "
+  },
+  {
+    "ID": "SYNTHDROIDS",
+    "Name": "Synthdroids",
+    "NameSingle": "Synthdroid",
+    "BridgeId": "Synthdroid",
+    "SpaceShipId": "Synthdroid",
+    "Traits": [
+                "ROBOTIC",
+                "NO_HEIRS",
+                "CONSTRUCTED_POP",
+                "MERCANTILE",
+                "EAT_LESS",
+                "SLOW_CULTURE",
+                "GOOD_WAR_RESILIENCE"
+              ],
+    "Attitude": "LOGICAL",
+    "Image": "resources/images/synthdroid_race.png",
+    "SocialSystem": "MATRIARCHY",
+    "Genders": [
+                 "FEMALE"
+               ],
+    "SpeechSetId": "SYNTHDROIDS",
+    "BridgeEffect": "WARM_WHITE",
+    "DiplomacyMusic": "Cyborg",
+    "NameGenerator": "FEMALE_ROBOT",
+    "Description": "Synthdroids are a race of artificial beings that are designed to resemble human females. They are often portrayed as being sleek and elegant, with graceful movements and a polished appearance. "
+  },
+   {
+    "ID": "PARLAMEKS",
+    "Name": "Parlameks",
+    "NameSingle": "Parlamek",
+    "BridgeId": "Parlamek",
+    "SpaceShipId": "Parlamek",
+    "Traits": [
+      "SLOW_LEARNERS",
+      "NATURAL_LEADERS",
+      "TOLERATE_COLD",
+      "MERCANTILE",
+      "WEAK_WAR_RESILIENCE",
+      "ROBOTIC",
+      "ENERGY_POWERED",
+      "TOLERATE_HIGH_RADIATION",
+      "CONSTRUCTED_POP",
+      "WEAK",
+      "NATURAL_CHARM",
+      "COMMUNAL",
+      "HANDY",
+      "NO_HEIRS"
+     ],
+    "Attitude": "MERCHANTICAL",
+    "Image": "resources/images/parlamek_race.png",
+    "SocialSystem": "EQUAL",
+    "Genders": [
+                 "MALE"
+                 ],
+    "SpeechSetId": "PARLAMEK",
+    "BridgeEffect": "DARK_ORANGE",
+    "DiplomacyMusic": "Dino",
+    "NameGenerator": "ROBOT",
+    "Description": "   Parlameks are a race of small humanoids with a great merchantical tendency. Small and fragile, but pragmatic and diplomatic mechanical beings.",
+  }
+]

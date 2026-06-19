@@ -1,0 +1,31 @@
+*.class
+dependency-reduced-pom.xml
+/target
+
+# vim
+*.swp
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.attach_pid*
+
+# maven-release-plugin
+release.properties
+*.releaseBackup
+
+.ipynb_checkpoints/
+*.txt
+*.pkl

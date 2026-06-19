@@ -1,0 +1,77 @@
+[
+  {
+    "id": "METAL_RICH_SURFACE",
+    "name": "Metal rich surface",
+    "description": "Planet's surface is covered with easy access metal. This will grant one extra metal per star year.",
+    "conflictsWith": [
+      "FERTILE_SOIL",
+      "MOLTEN_LAVA"
+    ],
+    "mineBonus": 1,
+    "hidden": false
+  },
+  {
+    "id": "FERTILE_SOIL",
+    "name": "Fertile soil",
+    "description": "Planet's surface has fertile soil where plants grow faster. This will grant one extra food per star year.",
+    "discoveryText": "<PLANETNAME> soil is full of minerals and has good growing biome for plants. This will grant one extra food per star year.",
+    "conflictsWith": [
+      "METAL_RICH_SURFACE",
+      "MOLTEN_LAVA"
+    ],
+    "foodBonus": 1,
+    "hidden": false
+  },
+  {
+    "id": "MOLTEN_LAVA",
+    "name": "Molten lava",
+    "description": "Planet surface has big lava pool or river. This can be used to easy access metal and temperature can be used to increase productivity, downside is this cause unhappiness to population.",
+    "discoveryText": "<PLANETNAME> has massive lava flow. This hot magma can be used to access metal and heat can be used as energy source. Problem is that people near there lava are affraid.",
+    "conflictsWith": [
+      "FERTILE_SOIL",
+      "METAL_RICH_SURFACE"
+    ],
+    "mineBonus": 1,
+    "prodBonus": 1,
+    "happinessBonus": -1,
+    "hidden": false
+  },
+  {
+    "id": "TECTONIC_QUAKE",
+    "name": "Tectonic quake",
+    "description": "Tectonic plates move over the crust and cause quakes.",
+    "discoveryText": "<PLANETNAME> has tectonic quakes, this will cause damage to buildings and population.",
+    "hidden": true
+  },
+  {
+    "id": "PRECIOUS_GEMS",
+    "name": "Precious gems",
+    "description": "Planet has precious gems on surface. These will grant extra credit per star year.",
+    "discoveryText": "<PLANETNAME> has surface full of precious gems. This can produce extra credit.",
+    "credBonus": 1,
+    "hidden": false
+  },
+  {
+    "id": "NANITE_SAND",
+    "name": "Nanite sand",
+    "description": "Planet has nanite sand which is active. These will grant extra two research per star year.",
+    "discoveryText": "<PLANETNAME> has active nanites as a sand. This can produce extra two research.",
+    "reseBonus": 2,
+    "conflictsWith": [
+      "SPACE_TIME_WARP"
+    ],
+    "hidden": true
+  },
+  {
+    "id": "SPACE_TIME_WARP",
+    "name": "Space time warp",
+    "description": "Planet has small area where space time acts strangly. These will grant extra research per star year.",
+    "discoveryText": "<PLANETNAME> has small area where space time acts strangle. This can produce extra research.",
+    "reseBonus": 1,
+    "conflictsWith": [
+      "NANITE_SAND"
+    ],
+    "hidden": true
+  }
+  
+]

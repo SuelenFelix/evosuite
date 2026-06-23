@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Scale Java - Java, Spring & More</title>
+    {#include head}
+    {/include}
+</head>
+<body>
+    {#include header}
+    {/include}
+    <main class="sj-content">
+        {#include errors}
+        {/include}
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9">
+                    {#for post in posts}
+                    <a class="sj-post-blc-0-a" href="/{post.slug}">
+                        <section class="sj-post-blc-0" title="{post.title}">
+                            <h1>{post.title}</h1>
+                            <p>{post.metaTitle}</p>
+                            <div class="clearfix">
+                                <span class="sj-meta-time">{post.publishedAt} . {post.readTime}</span>
+                                <a href="/{post.slug}" class="sj-btn sj-btn--primary float-right">Read more &rarr;</a>
+                            </div>
+                        </section>
+                    </a>
+                    {/for}
+                </div>
+                <div class="col-sm-3">
+                    <div class="sj-panel-0">
+                        <h1>Categories &rarr;</h1>
+                        {#for category in categories}
+                        <a class="sj-tag-0" href="/category/{category.slug}">{category.title}</a>
+                        {/for}
+                    </div>
+                    <br/>
+                    <div class="sj-panel-0">
+                        <h1>Tags &rarr;</h1>
+                        {#for tag in tags}
+                        <a class="sj-tag-1" href="/tag/{tag.slug}">{tag.tagName}</a>
+                        {/for}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    {#include footer}
+    {/include}
+</body>
+</html>

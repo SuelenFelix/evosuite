@@ -1,0 +1,32 @@
+>> The directory tree of the serializable files. [In conformity with serialInfo.txt]
+    May be valid for the current version only.
+
+
+configs.ser - contains the configuration info
+    of the last Dashboard instance at time of "collapse".
+settings.ser -
+portal.ser -
+alerts.ser -
+user/
+    core.ser -
+    dials.ser -
+    about.ser -
+    extra.keys.ser -
+    extra.values.ser -
+modules/
+    doing.ser -
+    done.ser -
+tasks/
+    todos.ser -
+    projects.ser -
+    assignments/
+        assignments.ser -
+        questions.ser -
+        groups.members.ser -
+    events.ser -
+news/
+    heads.ser -
+    bodies.ser -
+    links.ser -
+    contents.ser -
+    accessTime.ser -

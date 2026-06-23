@@ -1,1 +1,0 @@
-{{#and ../enumInfo ../enumInfo.typeToValues.integer}}typing.Literal[{{#each ../enumInfo.typeToValues.integer}}{{{@key.value}}}{{#unless @last}}, {{/unless}}{{/each}}]{{else}}int{{/and}}

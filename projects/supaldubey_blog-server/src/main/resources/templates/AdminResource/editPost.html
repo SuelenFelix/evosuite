@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Scale Java - Admin</title>
+    {#include adminHead}
+    {/include}
+    <style type="text/css">
+        #summary-editor, #content-editor {
+            width: 100%;
+            min-height: 300px;
+            border: 1px solid #c0c0c0;
+        }
+
+        #summary-editor {
+            min-height: 170px;
+        }
+    </style>
+</head>
+<body>
+{#include adminHeader}
+{/include}
+<main class="sj-content">
+    <form action="/admin/posts" method="post"
+          enctype="application/x-www-form-urlencoded">
+        <input type="hidden" name="id" value="{post.id}">
+        <div class="card sj-card">
+            <div class="card-header sj-card-header">
+                <span class="sj-card-title">Edit Post</span>
+            </div>
+            <div class="card-body sj-card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <input type="text" class="form-control sj-form-post-title" name="title" id="title"
+                                   placeholder="Title" value="{post.title}">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <textarea rows="4" type="text" class="form-control" name="metaTitle" id="metaTitle"
+                                      placeholder="Meta title">{post.metaTitle}</textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 form-group">
+                            <select name="categories" id="categories" multiple="multiple">
+                                {#for category in categories}
+                                {#if post.categories.contains(category.id) }
+                                <option selected value="{category.id}">{category.title}</option>
+                                {#else}
+                                <option  value="{category.id}">{category.title}</option>
+                                {/if}
+                                {/for}
+                            </select>
+                        </div>
+                        <div class="col-sm-4 form-group">
+                            <select name="tags" id="tags" multiple="multiple">
+                                {#for tag in tags}
+                                {#if post.tags.contains(tag.tagId) }
+                                <option selected value="{tag.tagId}">{tag.tagName}</option>
+                                {#else}
+                                <option value="{tag.tagId}">{tag.tagName}</option>
+                                {/if}
+                                {/for}
+                            </select>
+                        </div>
+                        <div class="col-sm-4 form-group">
+                            <select name="postType" id="postType" >
+                                {#for type in postTypes}
+                                {#if post.postType == type }
+                                <option selected value="{type.name()}">{type.getDisplayName()}</option>
+                                {#else}
+                                <option value="{type.name()}">{type.getDisplayName()}</option>
+                                {/if}
+                                {/for}
+                            </select>
+                        </div>
+                        <div class="col-sm-4 form-group">
+
+                            <select name="status" id="postStatus" >
+                                {#for status in postStatues}
+                                {#if status eq post.status }
+                                <option selected="selected" value="{status.name()}">{status.getDisplayName()}</option>
+                                {#else}
+                                <option value="{status.name()}">{status.getDisplayName()}</option>
+                                {/if}
+                                {/for}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <h6 class="sj-form-label">Quick summary:</h6>
+                            <div id="summary-editor">{post.summary}</div>
+                            <input name="summary" id="summary" type="hidden" value="{post.summary}">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <h6 class="sj-form-label">Post contents:</h6>
+                            <div id="content-editor">{post.content}</div>
+                            <input name="content" id="content" type="hidden" value="{post.content}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sj-card-footer">
+                <button type="submit" class="sj-tag-2">Save</button>
+                &nbsp;
+                <button type="reset" class="sj-tag-2">Clear</button>
+            </div>
+        </div>
+        <br/>
+        <div id="errorContainer"></div>
+    </form>
+</main>
+{#include adminFooter}
+{/include}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', (event) => {
+        $('#categories').multiselect({
+            nonSelectedText: 'Select categories'
+        });
+
+        $('#postType').multiselect({
+            nonSelectedText: 'Select post'
+        });
+
+        $('#tags').multiselect({
+            nonSelectedText: 'Select tags'
+        });
+
+        $('#postStatus').multiselect({
+            nonSelectedText: 'Select Status'
+        });
+
+        var contentEditor = ace.edit("content-editor");
+        contentEditor.setTheme("ace/theme/chrome");
+        contentEditor.session.setMode("ace/mode/markdown");
+
+        contentEditor.getSession().on("change", function () {
+            $("#content").val(contentEditor.getSession().getValue());
+        });
+
+        var summaryEditor = ace.edit("summary-editor");
+        summaryEditor.setTheme("ace/theme/chrome");
+        summaryEditor.session.setMode("ace/mode/markdown");
+
+        summaryEditor.getSession().on("change", function () {
+            $("#summary").val(summaryEditor.getSession().getValue());
+        });
+
+        {#if post.status}
+        $('#postStatus').val("{post.status.name()}");
+        {/if}
+    });
+
+</script>
+</body>
+</html>

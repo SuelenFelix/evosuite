@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.prac.react.model.dao.MemberDao">
+	<!--checking email duplicate -->
+	<select id="checkMember" resultType="integer" parameterType='String'>
+		select count(*) from member where email=#{email} and `status` = 1
+	</select>
+	<!--checking nickname duplicate-->
+	<select id="checkNickName" resultType="integer" parameterType='String'>
+		select count(*) from member where nickName=#{nickName}
+	</select>
+	<!--inserting member info-->
+	<insert id="insertMember" parameterType="Member">
+		insert into member(memberNum,email,pwd,nickName,countryCode,age,gender,pfUrl) 
+		values(null,#{email},#{pwd},#{nickName},#{countryCode},#{age},#{gender},#{pfUrl})
+	</insert>
+	<!--login with email and pwd-->
+	<select id="login" parameterType="Member" resultType="Member">
+		select memberNum, email, nickName, pfUrl, mg from member where email=#{email} and pwd=#{pwd} and `status` = true
+	</select>
+	<!--getting member info by keyNum-->
+	<select id="getMemberInfo" parameterType="int" resultType="Member">
+		select nickName, countryCode,gender,pfUrl from member where memberNum=#{memberKeyNum}
+	</select>
+	<!--updating member info by keyNum-->
+	<update id="updateMember" parameterType="Member">
+		update member set nickName=#{nickName}, countryCode=#{countryCode}, gender=#{gender},pfUrl=#{pfUrl} where memberNum=#{memberNum}
+	</update>
+	<!--checking member pwd-->
+	<select id="checkPwd" parameterType="Member" resultType="integer">
+		select count(*) from member where memberNum=#{memberNum} and pwd=#{pwd}
+	</select>
+	<!--updating pwd-->
+	<update id="updatePwd" parameterType="Member">
+		update member set pwd = #{pwd} where memberNum = #{memberNum}
+	</update>
+	<!--secession member-->
+	<update id="memberSecession" parameterType="int">
+		update member set `status` = false where memberNum=#{memberNum}
+	</update>
+	<!--checking manager-->
+	<select id="checkManager" parameterType="int" resultType="int">
+		select mg from member where memberNum=#{memberNum}
+	</select>
+</mapper>

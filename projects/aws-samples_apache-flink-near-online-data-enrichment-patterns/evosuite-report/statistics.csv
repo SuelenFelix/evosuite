@@ -1,8 +1,0 @@
-TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
-com.amazonaws.samples.stream.temperature.event.Temperature,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.9833333333333334,92,90
-com.amazonaws.samples.stream.temperature.event.SensorInfo,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.9791666666666667,71,69
-com.amazonaws.samples.stream.temperature.event.EnrichedTemperature,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.9722222222222222,60,58
-com.amazonaws.samples.stream.temperature.serialize.TemperatureSerializationSchema,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.875,21,16
-com.amazonaws.samples.stream.temperature.serialize.TemperatureDeserializationSchema,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.8039772727272727,32,27
-com.amazonaws.samples.stream.temperature.enrichment.cached.CachedEnrichmentFunction,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.27222222222222225,87,8
-com.amazonaws.samples.stream.temperature.enrichment.async.AsyncEnrichmentFunction,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,0.5050403225806451,67,19

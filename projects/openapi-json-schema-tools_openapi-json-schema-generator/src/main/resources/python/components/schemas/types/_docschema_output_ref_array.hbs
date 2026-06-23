@@ -1,1 +1,0 @@
-{{#if arrayOutputJsonPathPiece}}[{{#unless selfRef}}{{#if refModuleAlias}}{{refModuleAlias}}{{else}}{{jsonPathPiece.snakeCase}}{{/if}}.{{/unless}}{{arrayOutputJsonPathPiece.pascalCase}}]({{#unless selfRef}}{{docRoot}}{{pathFromDocRoot}}.md{{/unless}}#{{arrayOutputJsonPathPiece.kebabCase}}){{else}}tuple{{/if}}

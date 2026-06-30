@@ -1,0 +1,58 @@
+package icu.samnyan.aqua.sega.diva.model.common;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.diva.model.common.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Integer;
+
+public class ContestProgress_setHardness_211917326720 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term3196;
+     Object term3203;
+
+    public ContestProgress_setHardness_211917326720() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term3196 = newInstance(Class.forName("icu.samnyan.aqua.sega.diva.model.common.ContestProgress"));
+        setIntField(term3196, term3196.getClass(), "pvId", 0);
+        setIntField(term3196, term3196.getClass(), "hardness", 0);
+        setIntField(term3196, term3196.getClass(), "edition", 0);
+        setIntField(term3196, term3196.getClass(), "stars", 0);
+        setIntField(term3196, term3196.getClass(), "scores", 0);
+        setIntField(term3196, term3196.getClass(), "version", 0);
+        term3203 = new Integer(0);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.diva.model.common.ContestProgress");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = int.class;
+        Object[] args = new Object[1];
+        args[0] = term3203;
+        callMethod(klass, "setHardness", argTypes, term3196, args);
+    }
+
+};
+
+

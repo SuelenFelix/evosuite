@@ -1,0 +1,218 @@
+package icu.samnyan.aqua.sega.diva.model.request.ingame;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.diva.model.request.ingame.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class ShopExitRequest_getCitmeqpcmnary_14113448746 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term261993;
+
+    public ShopExitRequest_getCitmeqpcmnary_14113448746() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term261993 = newInstance(Class.forName("icu.samnyan.aqua.sega.diva.model.request.ingame.ShopExitRequest"));
+        int[] term261999 = (int[]) newIntArray(8);
+        int[] term262008 = (int[]) newIntArray(0);
+        int[] term262009 = (int[]) newIntArray(9);
+        int[] term262019 = (int[]) newIntArray(5);
+        int[] term262025 = (int[]) newIntArray(5);
+        int[] term262031 = (int[]) newIntArray(2);
+        Object term262118 = newInstance(Class.forName("java.time.ZonedDateTime"));
+        Object term262119 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term262120 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term262124 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term262129 = newInstance(Class.forName("java.time.ZoneOffset"));
+        Object term262139 = newInstance(Class.forName("java.time.ZoneRegion"));
+        Object term262156 = newInstance(Class.forName("java.time.zone.ZoneRules"));
+        long[] term262157 = (long[]) newLongArray(1);
+        Object[] term262159 = (Object[]) newArray("java.time.ZoneOffset", 2);
+        long[] term262160 = (long[]) newLongArray(39);
+        Object[] term262200 = (Object[]) newArray("java.time.LocalDateTime", 78);
+        Object[] term262201 = (Object[]) newArray("java.time.ZoneOffset", 40);
+        Object[] term262202 = (Object[]) newArray("java.time.zone.ZoneOffsetTransitionRule", 0);
+        Object term262203 = newInstance(Class.forName("java.util.concurrent.ConcurrentHashMap"));
+        setIntField(term261993, term261993.getClass(), "pd_id", -1940371896);
+        setIntField(term261993, term261993.getClass(), "accept_idx", 31886102);
+        setIntField(term261993, term261993.getClass(), "start_idx", 1419631103);
+        setIntField(term261993, term261993.getClass(), "use_pv_mdl_eqp", -1313697776);
+        setIntField(term261993, term261993.getClass(), "ply_pv_id", -1463870218);
+        setIntElement(term261999, 0, 754533571);
+        setIntElement(term261999, 1, -1118496600);
+        setIntElement(term261999, 2, 522956305);
+        setIntElement(term261999, 3, 1376848334);
+        setIntElement(term261999, 4, 481189926);
+        setIntElement(term261999, 5, 895937936);
+        setIntElement(term261999, 6, 1481375570);
+        setIntElement(term261999, 7, -1262377981);
+        setField(term261993, term261993.getClass(), "mdl_eqp_cmn_ary", term261999);
+        setField(term261993, term261993.getClass(), "c_itm_eqp_cmn_ary", term262008);
+        setIntElement(term262009, 0, -1589595250);
+        setIntElement(term262009, 1, 492426314);
+        setIntElement(term262009, 2, -967055614);
+        setIntElement(term262009, 3, -557917943);
+        setIntElement(term262009, 4, -1374399237);
+        setIntElement(term262009, 5, 102252565);
+        setIntElement(term262009, 6, 805568043);
+        setIntElement(term262009, 7, -1673795972);
+        setIntElement(term262009, 8, -824846279);
+        setField(term261993, term261993.getClass(), "ms_itm_flg_cmn_ary", term262009);
+        setIntElement(term262019, 0, 863240800);
+        setIntElement(term262019, 1, 1393185247);
+        setIntElement(term262019, 2, 1662488128);
+        setIntElement(term262019, 3, 2114378287);
+        setIntElement(term262019, 4, 77272465);
+        setField(term261993, term261993.getClass(), "mdl_eqp_pv_ary", term262019);
+        setIntElement(term262025, 0, 820564145);
+        setIntElement(term262025, 1, -1808865048);
+        setIntElement(term262025, 2, 175598968);
+        setIntElement(term262025, 3, 818401281);
+        setIntElement(term262025, 4, -1286038681);
+        setField(term261993, term261993.getClass(), "c_itm_eqp_pv_ary", term262025);
+        setIntElement(term262031, 0, 857766491);
+        setIntElement(term262031, 1, 1494301746);
+        setField(term261993, term261993.getClass(), "ms_itm_flg_pv_ary", term262031);
+        setField(term261993, term261993.getClass(), "cmd", "BeULrSYHKm");
+        setField(term261993, term261993.getClass(), "req_id", "nseWRZaaYe");
+        setField(term261993, term261993.getClass(), "game_id", "mCxcdmaOlh");
+        setField(term261993, term261993.getClass(), "r_ver", "LjgkHxxdOu");
+        setField(term261993, term261993.getClass(), "kc_serial", "AHOCvVqPAa");
+        setField(term261993, term261993.getClass(), "b_serial", "PEALeSdAvS");
+        setField(term261993, term261993.getClass(), "place_id", "oryVZfLyAF");
+        setIntField(term262120, term262120.getClass(), "year", 2013);
+        setShortField(term262120, term262120.getClass(), "month", (short) 9);
+        setShortField(term262120, term262120.getClass(), "day", (short) 27);
+        setField(term262119, term262119.getClass(), "date", term262120);
+        setByteField(term262124, term262124.getClass(), "hour", (byte) 9);
+        setByteField(term262124, term262124.getClass(), "minute", (byte) 30);
+        setByteField(term262124, term262124.getClass(), "second", (byte) 6);
+        setIntField(term262124, term262124.getClass(), "nano", 647438502);
+        setField(term262119, term262119.getClass(), "time", term262124);
+        setField(term262118, term262118.getClass(), "dateTime", term262119);
+        setIntField(term262129, term262129.getClass(), "totalSeconds", -10800);
+        setField(term262129, term262129.getClass(), "id", "-03:00");
+        setField(term262118, term262118.getClass(), "offset", term262129);
+        setField(term262139, term262139.getClass(), "id", "America/Recife");
+        setLongElement(term262157, 0, -1767217224L);
+        setField(term262156, term262156.getClass(), "standardTransitions", term262157);
+        setElement(term262159, 1, term262129);
+        setField(term262156, term262156.getClass(), "standardOffsets", term262159);
+        setLongElement(term262160, 0, -1767217224L);
+        setLongElement(term262160, 1, -1206957600L);
+        setLongElement(term262160, 2, -1191362400L);
+        setLongElement(term262160, 3, -1175374800L);
+        setLongElement(term262160, 4, -1159826400L);
+        setLongElement(term262160, 5, -633819600L);
+        setLongElement(term262160, 6, -622069200L);
+        setLongElement(term262160, 7, -602283600L);
+        setLongElement(term262160, 8, -591832800L);
+        setLongElement(term262160, 9, -570747600L);
+        setLongElement(term262160, 10, -560210400L);
+        setLongElement(term262160, 11, -539125200L);
+        setLongElement(term262160, 12, -531352800L);
+        setLongElement(term262160, 13, -191365200L);
+        setLongElement(term262160, 14, -184197600L);
+        setLongElement(term262160, 15, -155163600L);
+        setLongElement(term262160, 16, -150069600L);
+        setLongElement(term262160, 17, -128898000L);
+        setLongElement(term262160, 18, -121125600L);
+        setLongElement(term262160, 19, -99954000L);
+        setLongElement(term262160, 20, -89589600L);
+        setLongElement(term262160, 21, -68418000L);
+        setLongElement(term262160, 22, -57967200L);
+        setLongElement(term262160, 23, 499748400L);
+        setLongElement(term262160, 24, 511236000L);
+        setLongElement(term262160, 25, 530593200L);
+        setLongElement(term262160, 26, 540266400L);
+        setLongElement(term262160, 27, 562129200L);
+        setLongElement(term262160, 28, 571197600L);
+        setLongElement(term262160, 29, 592974000L);
+        setLongElement(term262160, 30, 602042400L);
+        setLongElement(term262160, 31, 624423600L);
+        setLongElement(term262160, 32, 634701600L);
+        setLongElement(term262160, 33, 938919600L);
+        setLongElement(term262160, 34, 951616800L);
+        setLongElement(term262160, 35, 970974000L);
+        setLongElement(term262160, 36, 971575200L);
+        setLongElement(term262160, 37, 1003028400L);
+        setLongElement(term262160, 38, 1013911200L);
+        setField(term262156, term262156.getClass(), "savingsInstantTransitions", term262160);
+        setField(term262156, term262156.getClass(), "savingsLocalTransitions", term262200);
+        setElement(term262201, 1, term262129);
+        setElement(term262201, 3, term262129);
+        setElement(term262201, 5, term262129);
+        setElement(term262201, 7, term262129);
+        setElement(term262201, 9, term262129);
+        setElement(term262201, 11, term262129);
+        setElement(term262201, 13, term262129);
+        setElement(term262201, 15, term262129);
+        setElement(term262201, 17, term262129);
+        setElement(term262201, 19, term262129);
+        setElement(term262201, 21, term262129);
+        setElement(term262201, 23, term262129);
+        setElement(term262201, 25, term262129);
+        setElement(term262201, 27, term262129);
+        setElement(term262201, 29, term262129);
+        setElement(term262201, 31, term262129);
+        setElement(term262201, 33, term262129);
+        setElement(term262201, 35, term262129);
+        setElement(term262201, 37, term262129);
+        setElement(term262201, 39, term262129);
+        setField(term262156, term262156.getClass(), "wallOffsets", term262201);
+        setField(term262156, term262156.getClass(), "lastRules", term262202);
+        setField(term262203, term262203.getClass(), "table", null);
+        setField(term262203, term262203.getClass(), "nextTable", null);
+        setLongField(term262203, term262203.getClass(), "baseCount", 0L);
+        setIntField(term262203, term262203.getClass(), "sizeCtl", 0);
+        setIntField(term262203, term262203.getClass(), "transferIndex", 0);
+        setIntField(term262203, term262203.getClass(), "cellsBusy", 0);
+        setField(term262203, term262203.getClass(), "counterCells", null);
+        setField(term262203, term262203.getClass(), "keySet", null);
+        setField(term262203, term262203.getClass(), "values", null);
+        setField(term262203, term262203.getClass(), "entrySet", null);
+        setField(term262203, term262203.getClass(), "keySet", null);
+        setField(term262203, term262203.getClass(), "values", null);
+        setField(term262156, term262156.getClass(), "lastRulesCache", term262203);
+        setField(term262139, term262139.getClass(), "rules", term262156);
+        setField(term262118, term262118.getClass(), "zone", term262139);
+        setField(term261993, term261993.getClass(), "time_stamp", term262118);
+        setField(term261993, term261993.getClass(), "start_up_mode", "comITQlWZO");
+        setField(term261993, term261993.getClass(), "cmm_dly_mod", "NsaFgLGmdm");
+        setField(term261993, term261993.getClass(), "cmm_dly_sec", "NpeQNuPyKD");
+        setField(term261993, term261993.getClass(), "cmm_err_mod", "PWrDivLkwt");
+        setField(term261993, term261993.getClass(), "country_code", "oyymZILKkI");
+        setField(term261993, term261993.getClass(), "region_code", "yIAqrFHbcK");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.diva.model.request.ingame.ShopExitRequest");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getC_itm_eqp_cmn_ary", argTypes, term261993, args);
+    }
+
+};
+
+

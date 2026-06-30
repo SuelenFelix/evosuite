@@ -1,0 +1,60 @@
+package com.cg.freelanceapp.dto;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.cg.freelanceapp.dto.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Integer;
+
+public class SkillExperienceListDTO_getId_4700475741 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term8751;
+
+    public SkillExperienceListDTO_getId_4700475741() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term8752 = new Long(4795660804170399986L);
+        Long term8754 = new Long(-4030863184426321096L);
+        Integer term8768 = new Integer(1134449235);
+        Long term8770 = new Long(-8010214112439224349L);
+        term8751 = newInstance(Class.forName("com.cg.freelanceapp.dto.SkillExperienceListDTO"));
+        setField(term8751, term8751.getClass(), "id", term8752);
+        setField(term8751, term8751.getClass(), "skillId", term8754);
+        setField(term8751, term8751.getClass(), "skillName", "JOqQxuzRuZ");
+        setField(term8751, term8751.getClass(), "experience", term8768);
+        setField(term8751, term8751.getClass(), "freelancerId", term8770);
+        setField(term8751, term8751.getClass(), "freelancerName", "RSaoipUlsg");
+        setField(term8751, term8751.getClass(), "freelancerUName", "cSHGbqKqlN");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.cg.freelanceapp.dto.SkillExperienceListDTO");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getId", argTypes, term8751, args);
+    }
+
+};
+
+

@@ -1,0 +1,213 @@
+package com.API.OnDriver.CustomerSubsystem;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.API.OnDriver.CustomerSubsystem.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Boolean;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.util.HashMap;
+import java.lang.String;
+
+public class Driver_getNationalID_4758315886 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term40096;
+
+    public Driver_getNationalID_4758315886() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Boolean term40121 = new Boolean(true);
+        ArrayList term40128 = new ArrayList();
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        ((ArrayList) term40128).add((Object)null);
+        Object term40125 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        setField(term40125, term40125.getClass(), "location", "");
+        setBooleanField(term40125, term40125.getClass(), "isDiscounted", true);
+        setField(term40125, term40125.getClass(), "drivers", term40128);
+        ArrayList term40134 = new ArrayList();
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        ((ArrayList) term40134).add((Object)null);
+        Object term40131 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        setField(term40131, term40131.getClass(), "location", "");
+        setBooleanField(term40131, term40131.getClass(), "isDiscounted", true);
+        setField(term40131, term40131.getClass(), "drivers", term40134);
+        ArrayList term40140 = new ArrayList();
+        ((ArrayList) term40140).add((Object)null);
+        Object term40137 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        setField(term40137, term40137.getClass(), "location", "");
+        setBooleanField(term40137, term40137.getClass(), "isDiscounted", false);
+        setField(term40137, term40137.getClass(), "drivers", term40140);
+        ArrayList term40146 = new ArrayList();
+        Object term40143 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        setField(term40143, term40143.getClass(), "location", "");
+        setBooleanField(term40143, term40143.getClass(), "isDiscounted", false);
+        setField(term40143, term40143.getClass(), "drivers", term40146);
+        ArrayList term40152 = new ArrayList();
+        ((ArrayList) term40152).add((Object)null);
+        ((ArrayList) term40152).add((Object)null);
+        ((ArrayList) term40152).add((Object)null);
+        Object term40149 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        setField(term40149, term40149.getClass(), "location", "");
+        setBooleanField(term40149, term40149.getClass(), "isDiscounted", false);
+        setField(term40149, term40149.getClass(), "drivers", term40152);
+        ArrayList term40158 = new ArrayList();
+        Object term40155 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        setField(term40155, term40155.getClass(), "location", "");
+        setBooleanField(term40155, term40155.getClass(), "isDiscounted", false);
+        setField(term40155, term40155.getClass(), "drivers", term40158);
+        ArrayList term40123 = new ArrayList();
+        ((ArrayList) term40123).add(term40125);
+        ((ArrayList) term40123).add(term40131);
+        ((ArrayList) term40123).add(term40131);
+        ((ArrayList) term40123).add(term40137);
+        ((ArrayList) term40123).add(term40143);
+        ((ArrayList) term40123).add(term40131);
+        ((ArrayList) term40123).add(term40131);
+        ((ArrayList) term40123).add(term40149);
+        ((ArrayList) term40123).add(term40155);
+        ArrayList term40163 = new ArrayList();
+        HashMap term40168 = new HashMap();
+        ArrayList term40190 = new ArrayList();
+        ((ArrayList) term40190).add((Object)null);
+        ((ArrayList) term40190).add((Object)null);
+        ((ArrayList) term40190).add((Object)null);
+        ((ArrayList) term40190).add((Object)null);
+        ((ArrayList) term40190).add((Object)null);
+        ((ArrayList) term40190).add((Object)null);
+        ((ArrayList) term40190).add((Object)null);
+        Object term40200 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Offer"));
+        setDoubleField(term40200, term40200.getClass(), "price", 0.0);
+        setDoubleField(term40200, term40200.getClass(), "discountedPrice", 0.0);
+        setField(term40200, term40200.getClass(), "driver", null);
+        Object term40203 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Offer"));
+        setDoubleField(term40203, term40203.getClass(), "price", 0.0);
+        setDoubleField(term40203, term40203.getClass(), "discountedPrice", 0.0);
+        setField(term40203, term40203.getClass(), "driver", null);
+        Object term40206 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Offer"));
+        setDoubleField(term40206, term40206.getClass(), "price", 0.0);
+        setDoubleField(term40206, term40206.getClass(), "discountedPrice", 0.0);
+        setField(term40206, term40206.getClass(), "driver", null);
+        Object term40209 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Offer"));
+        setDoubleField(term40209, term40209.getClass(), "price", 0.0);
+        setDoubleField(term40209, term40209.getClass(), "discountedPrice", 0.0);
+        setField(term40209, term40209.getClass(), "driver", null);
+        ArrayList term40198 = new ArrayList();
+        ((ArrayList) term40198).add(term40200);
+        ((ArrayList) term40198).add(term40203);
+        ((ArrayList) term40198).add(term40206);
+        ((ArrayList) term40198).add(term40209);
+        ((ArrayList) term40198).add(term40206);
+        Boolean term40214 = new Boolean(true);
+        Object term40218 = newInstance(Class.forName("com.API.OnDriver.EventSubsystem.Event"));
+        setField(term40218, term40218.getClass(), "name", null);
+        setField(term40218, term40218.getClass(), "attributes", null);
+        Object term40219 = newInstance(Class.forName("com.API.OnDriver.EventSubsystem.Event"));
+        setField(term40219, term40219.getClass(), "name", null);
+        setField(term40219, term40219.getClass(), "attributes", null);
+        Object term40220 = newInstance(Class.forName("com.API.OnDriver.EventSubsystem.Event"));
+        setField(term40220, term40220.getClass(), "name", null);
+        setField(term40220, term40220.getClass(), "attributes", null);
+        Object term40221 = newInstance(Class.forName("com.API.OnDriver.EventSubsystem.Event"));
+        setField(term40221, term40221.getClass(), "name", null);
+        setField(term40221, term40221.getClass(), "attributes", null);
+        ArrayList term40216 = new ArrayList();
+        ((ArrayList) term40216).add(term40218);
+        ((ArrayList) term40216).add(term40219);
+        ((ArrayList) term40216).add(term40220);
+        ((ArrayList) term40216).add(term40219);
+        ((ArrayList) term40216).add(term40221);
+        Class<? extends Object> term40358 = Class.forName((String) "com.API.OnDriver.CustomerSubsystem.UserStatus");
+        Field term40357 = ((Class) term40358).getDeclaredField((String) "suspended");
+        ((Field) term40357).setAccessible(true);
+        Object enum94 = ((Field) term40357).get((Object) null);
+        term40096 = newInstance(Class.forName("com.API.OnDriver.CustomerSubsystem.Driver"));
+        Object term40167 = newInstance(Class.forName("com.API.OnDriver.CustomerSubsystem.Rating"));
+        Object term40175 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Ride"));
+        Object term40176 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Area"));
+        Object term40194 = newInstance(Class.forName("com.API.OnDriver.CustomerSubsystem.Passenger"));
+        Object term40195 = newInstance(Class.forName("com.API.OnDriver.RideSubsystem.Offer"));
+        setField(term40096, term40096.getClass(), "driverLicense", "MeFZCtLbdV");
+        setField(term40096, term40096.getClass(), "nationalID", "oNgxBniAuz");
+        setField(term40096, term40096.getClass(), "isVerified", term40121);
+        setField(term40096, term40096.getClass(), "favouriteAreas", term40123);
+        setField(term40096, term40096.getClass(), "rides", term40163);
+        setField(term40167, term40167.getClass(), "driverRatings", term40168);
+        setIntField(term40167, term40167.getClass(), "ratingSum", -1855819749);
+        setIntField(term40167, term40167.getClass(), "numberOfRatings", 1059048043);
+        setField(term40096, term40096.getClass(), "rating", term40167);
+        setField(term40176, term40176.getClass(), "location", "VWFNUuzpse");
+        setBooleanField(term40176, term40176.getClass(), "isDiscounted", false);
+        setField(term40176, term40176.getClass(), "drivers", term40190);
+        setField(term40175, term40175.getClass(), "source", term40176);
+        setField(term40175, term40175.getClass(), "destination", term40143);
+        setField(term40194, term40194.getClass(), "pastRides", null);
+        setField(term40194, term40194.getClass(), "currentRide", null);
+        setField(term40194, term40194.getClass(), "dateOfBirth", null);
+        setField(term40194, term40194.getClass(), "username", null);
+        setField(term40194, term40194.getClass(), "mobileNumber", null);
+        setField(term40194, term40194.getClass(), "email", null);
+        setField(term40194, term40194.getClass(), "password", null);
+        setField(term40194, term40194.getClass(), "userStatus", null);
+        setField(term40175, term40175.getClass(), "passenger", term40194);
+        setDoubleField(term40195, term40195.getClass(), "price", 0.0);
+        setDoubleField(term40195, term40195.getClass(), "discountedPrice", 0.0);
+        setField(term40195, term40195.getClass(), "driver", null);
+        setField(term40175, term40175.getClass(), "acceptedOffer", term40195);
+        setField(term40175, term40175.getClass(), "offers", term40198);
+        setField(term40175, term40175.getClass(), "isAccepted", term40214);
+        setField(term40175, term40175.getClass(), "events", term40216);
+        setIntField(term40175, term40175.getClass(), "numberOfPassengers", -1341357647);
+        setField(term40096, term40096.getClass(), "currentRide", term40175);
+        setIntField(term40096, term40096.getClass(), "numberOfPassengers", 537273345);
+        setField(term40096, term40096.getClass(), "username", "GkTxuqMoMw");
+        setField(term40096, term40096.getClass(), "mobileNumber", "MdlLUfrIYx");
+        setField(term40096, term40096.getClass(), "email", "trNmqmTVhn");
+        setField(term40096, term40096.getClass(), "password", "oRcEdheGqg");
+        setField(term40096, term40096.getClass(), "userStatus", enum94);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.API.OnDriver.CustomerSubsystem.Driver");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getNationalID", argTypes, term40096, args);
+    }
+
+};
+
+

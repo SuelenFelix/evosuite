@@ -1,0 +1,57 @@
+package icu.samnyan.aqua.sega.ongeki.model.response.data;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.ongeki.model.response.data.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Integer;
+
+public class UserTechEventRankingItem_setEventId_7102340455 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term3531;
+     Object term3548;
+
+    public UserTechEventRankingItem_setEventId_7102340455() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term3531 = newInstance(Class.forName("icu.samnyan.aqua.sega.ongeki.model.response.data.UserTechEventRankingItem"));
+        setIntField(term3531, term3531.getClass(), "eventId", 1469939797);
+        setField(term3531, term3531.getClass(), "date", "lnvLKbtveE");
+        setIntField(term3531, term3531.getClass(), "rank", 252799294);
+        setIntField(term3531, term3531.getClass(), "totalTechScore", -2072618022);
+        setIntField(term3531, term3531.getClass(), "totalPlatinumScore", -269909549);
+        term3548 = new Integer(686286032);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.ongeki.model.response.data.UserTechEventRankingItem");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = int.class;
+        Object[] args = new Object[1];
+        args[0] = term3548;
+        callMethod(klass, "setEventId", argTypes, term3531, args);
+    }
+
+};
+
+

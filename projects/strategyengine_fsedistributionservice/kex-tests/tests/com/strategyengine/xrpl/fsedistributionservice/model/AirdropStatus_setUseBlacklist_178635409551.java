@@ -1,0 +1,218 @@
+package com.strategyengine.xrpl.fsedistributionservice.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.strategyengine.xrpl.fsedistributionservice.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.lang.Long;
+import java.lang.String;
+import java.lang.Integer;
+import java.lang.Boolean;
+
+public class AirdropStatus_setUseBlacklist_178635409551 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term255354;
+     Object term255671;
+
+    public AirdropStatus_setUseBlacklist_178635409551() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term255358 = new Long(4006388896509492239L);
+        Class<? extends Object> term255674 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropRecipientStatus");
+        Field term255673 = ((Class) term255674).getDeclaredField((String) "VERIFIED");
+        ((Field) term255673).setAccessible(true);
+        Object enum510 = ((Field) term255673).get((Object) null);
+        Object term255357 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255357, term255357.getClass(), "id", term255358);
+        setField(term255357, term255357.getClass(), "responseCode", "");
+        setField(term255357, term255357.getClass(), "reason", "");
+        setField(term255357, term255357.getClass(), "classicAddress", "");
+        setField(term255357, term255357.getClass(), "status", enum510);
+        setField(term255357, term255357.getClass(), "paymentAmount", "");
+        setField(term255357, term255357.getClass(), "snapshotBalance", "");
+        setField(term255357, term255357.getClass(), "nftOwned", "");
+        Long term255369 = new Long(-6314099457945626605L);
+        Class<? extends Object> term256100 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropRecipientStatus");
+        Field term256099 = ((Class) term256100).getDeclaredField((String) "VERIFIED");
+        ((Field) term256099).setAccessible(true);
+        Object enum511 = ((Field) term256099).get((Object) null);
+        Object term255368 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255368, term255368.getClass(), "id", term255369);
+        setField(term255368, term255368.getClass(), "responseCode", "");
+        setField(term255368, term255368.getClass(), "reason", "");
+        setField(term255368, term255368.getClass(), "classicAddress", "");
+        setField(term255368, term255368.getClass(), "status", enum511);
+        setField(term255368, term255368.getClass(), "paymentAmount", "");
+        setField(term255368, term255368.getClass(), "snapshotBalance", "");
+        setField(term255368, term255368.getClass(), "nftOwned", "");
+        Long term255380 = new Long(-8697239524885136781L);
+        Class<? extends Object> term256526 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropRecipientStatus");
+        Field term256525 = ((Class) term256526).getDeclaredField((String) "VERIFIED");
+        ((Field) term256525).setAccessible(true);
+        Object enum512 = ((Field) term256525).get((Object) null);
+        Object term255379 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255379, term255379.getClass(), "id", term255380);
+        setField(term255379, term255379.getClass(), "responseCode", "");
+        setField(term255379, term255379.getClass(), "reason", "");
+        setField(term255379, term255379.getClass(), "classicAddress", "");
+        setField(term255379, term255379.getClass(), "status", enum512);
+        setField(term255379, term255379.getClass(), "paymentAmount", "");
+        setField(term255379, term255379.getClass(), "snapshotBalance", "");
+        setField(term255379, term255379.getClass(), "nftOwned", "");
+        Long term255391 = new Long(6465539339431559532L);
+        Object term255390 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255390, term255390.getClass(), "id", term255391);
+        setField(term255390, term255390.getClass(), "responseCode", "");
+        setField(term255390, term255390.getClass(), "reason", "");
+        setField(term255390, term255390.getClass(), "classicAddress", "");
+        setField(term255390, term255390.getClass(), "status", enum511);
+        setField(term255390, term255390.getClass(), "paymentAmount", "");
+        setField(term255390, term255390.getClass(), "snapshotBalance", "");
+        setField(term255390, term255390.getClass(), "nftOwned", "");
+        Long term255400 = new Long(-5304831679802174866L);
+        Object term255399 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255399, term255399.getClass(), "id", term255400);
+        setField(term255399, term255399.getClass(), "responseCode", "");
+        setField(term255399, term255399.getClass(), "reason", "");
+        setField(term255399, term255399.getClass(), "classicAddress", "");
+        setField(term255399, term255399.getClass(), "status", enum512);
+        setField(term255399, term255399.getClass(), "paymentAmount", "");
+        setField(term255399, term255399.getClass(), "snapshotBalance", "");
+        setField(term255399, term255399.getClass(), "nftOwned", "");
+        Long term255409 = new Long(1909175111101717943L);
+        Class<? extends Object> term256952 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropRecipientStatus");
+        Field term256951 = ((Class) term256952).getDeclaredField((String) "QUEUED");
+        ((Field) term256951).setAccessible(true);
+        Object enum513 = ((Field) term256951).get((Object) null);
+        Object term255408 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255408, term255408.getClass(), "id", term255409);
+        setField(term255408, term255408.getClass(), "responseCode", "");
+        setField(term255408, term255408.getClass(), "reason", "");
+        setField(term255408, term255408.getClass(), "classicAddress", "");
+        setField(term255408, term255408.getClass(), "status", enum513);
+        setField(term255408, term255408.getClass(), "paymentAmount", "");
+        setField(term255408, term255408.getClass(), "snapshotBalance", "");
+        setField(term255408, term255408.getClass(), "nftOwned", "");
+        Long term255420 = new Long(8499930868919012909L);
+        Object term255419 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.FsePaymentResult"));
+        setField(term255419, term255419.getClass(), "id", term255420);
+        setField(term255419, term255419.getClass(), "responseCode", "");
+        setField(term255419, term255419.getClass(), "reason", "");
+        setField(term255419, term255419.getClass(), "classicAddress", "");
+        setField(term255419, term255419.getClass(), "status", enum513);
+        setField(term255419, term255419.getClass(), "paymentAmount", "");
+        setField(term255419, term255419.getClass(), "snapshotBalance", "");
+        setField(term255419, term255419.getClass(), "nftOwned", "");
+        ArrayList term255355 = new ArrayList();
+        ((ArrayList) term255355).add(term255357);
+        ((ArrayList) term255355).add(term255368);
+        ((ArrayList) term255355).add(term255379);
+        ((ArrayList) term255355).add(term255390);
+        ((ArrayList) term255355).add(term255399);
+        ((ArrayList) term255355).add(term255408);
+        ((ArrayList) term255355).add(term255419);
+        Long term255430 = new Long(6252795312796363233L);
+        Class<? extends Object> term257372 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropFrequency");
+        Field term257371 = ((Class) term257372).getDeclaredField((String) "DAILY");
+        ((Field) term257371).setAccessible(true);
+        Object enum514 = ((Field) term257371).get((Object) null);
+        Class<? extends Object> term257759 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropRequestStatus");
+        Field term257758 = ((Class) term257759).getDeclaredField((String) "IN_PROGRESS");
+        ((Field) term257758).setAccessible(true);
+        Object enum515 = ((Field) term257758).get((Object) null);
+        Integer term255526 = new Integer(-2063457669);
+        Class<? extends Object> term258234 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropType");
+        Field term258233 = ((Class) term258234).getDeclaredField((String) "SPECIFICADDRESSES");
+        ((Field) term258233).setAccessible(true);
+        Object enum516 = ((Field) term258233).get((Object) null);
+        Long term255585 = new Long(3968143267572761057L);
+        Long term255599 = new Long(2712394591642260550L);
+        Class<? extends Object> term258672 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.PaymentType");
+        Field term258671 = ((Class) term258672).getDeclaredField((String) "FLAT");
+        ((Field) term258671).setAccessible(true);
+        Object enum517 = ((Field) term258671).get((Object) null);
+        Class<? extends Object> term259086 = Class.forName((String) "com.strategyengine.xrpl.fsedistributionservice.entity.types.DropScheduleStatus");
+        Field term259085 = ((Class) term259086).getDeclaredField((String) "REJECTED");
+        ((Field) term259085).setAccessible(true);
+        Object enum518 = ((Field) term259085).get((Object) null);
+        Long term255669 = new Long(-1211273460223868511L);
+        term255354 = newInstance(Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.AirdropStatus"));
+        Object term255432 = newInstance(Class.forName("java.util.Date"));
+        Object term255434 = newInstance(Class.forName("java.util.Date"));
+        Object term255436 = newInstance(Class.forName("java.util.Date"));
+        Object term255438 = newInstance(Class.forName("java.util.Date"));
+        setField(term255354, term255354.getClass(), "results", term255355);
+        setField(term255354, term255354.getClass(), "id", term255430);
+        setLongField(term255432, term255432.getClass(), "fastTime", 1541908359382L);
+        setField(term255432, term255432.getClass(), "cdate", null);
+        setField(term255354, term255354.getClass(), "createDate", term255432);
+        setLongField(term255434, term255434.getClass(), "fastTime", 1326226162791L);
+        setField(term255434, term255434.getClass(), "cdate", null);
+        setField(term255354, term255354.getClass(), "updateDate", term255434);
+        setLongField(term255436, term255436.getClass(), "fastTime", 1579767637789L);
+        setField(term255436, term255436.getClass(), "cdate", null);
+        setField(term255354, term255354.getClass(), "startTime", term255436);
+        setLongField(term255438, term255438.getClass(), "fastTime", 1427529790204L);
+        setField(term255438, term255438.getClass(), "cdate", null);
+        setField(term255354, term255354.getClass(), "repeatUntilDate", term255438);
+        setField(term255354, term255354.getClass(), "frequency", enum514);
+        setField(term255354, term255354.getClass(), "status", enum515);
+        setField(term255354, term255354.getClass(), "fromClassicAddress", "CgnkREXVNP");
+        setField(term255354, term255354.getClass(), "trustlineIssuerClassicAddress", "mBAKehIGeW");
+        setField(term255354, term255354.getClass(), "currencyName", "tmiPUgRXrn");
+        setField(term255354, term255354.getClass(), "currencyNameForProcess", "VuZmwqnade");
+        setField(term255354, term255354.getClass(), "amount", "ohZrjboUnX");
+        setBooleanField(term255354, term255354.getClass(), "newTrustlinesOnly", true);
+        setBooleanField(term255354, term255354.getClass(), "useBlacklist", true);
+        setField(term255354, term255354.getClass(), "maximumTrustlines", term255526);
+        setField(term255354, term255354.getClass(), "dropType", enum516);
+        setField(term255354, term255354.getClass(), "failReason", "rwlrpQuNrG");
+        setField(term255354, term255354.getClass(), "minBalance", "fctYGLXetS");
+        setField(term255354, term255354.getClass(), "maxBalance", "UPbgrEUWQD");
+        setField(term255354, term255354.getClass(), "totalBlacklisted", term255585);
+        setField(term255354, term255354.getClass(), "maxXrpFeePerTransaction", "HABnTZidNp");
+        setField(term255354, term255354.getClass(), "totalRecipients", term255599);
+        setField(term255354, term255354.getClass(), "paymentType", enum517);
+        setField(term255354, term255354.getClass(), "snapshotTrustlineIssuerClassicAddress", "qXysRdBrsg");
+        setField(term255354, term255354.getClass(), "snapshotCurrencyName", "hbtKoWkZLU");
+        setField(term255354, term255354.getClass(), "nftIssuingAddress", "VCWjXeMQGX");
+        setField(term255354, term255354.getClass(), "nftTaxon", "KzrkBfSzqK");
+        setField(term255354, term255354.getClass(), "scheduleStatus", enum518);
+        setField(term255354, term255354.getClass(), "fromScheduleId", term255669);
+        term255671 = new Boolean(true);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.strategyengine.xrpl.fsedistributionservice.model.AirdropStatus");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = boolean.class;
+        Object[] args = new Object[1];
+        args[0] = term255671;
+        callMethod(klass, "setUseBlacklist", argTypes, term255354, args);
+    }
+
+};
+
+

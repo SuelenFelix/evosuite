@@ -1,0 +1,580 @@
+2026-06-29 06:10:34.231 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/kanajin_Aqua-docker/target/classes
+2026-06-29 06:10:34.745 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 06:10:34.785 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-29 06:10:35.731 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-29 06:10:36.490 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package icu/samnyan/aqua/spring/util/*
+2026-06-29 06:10:36.492 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-29 06:10:36.501 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/kanajin_Aqua-docker/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 06:10:36.532 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/kanajin_Aqua-docker/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33423 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/kanajin_Aqua-docker/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-29 06:10:36.544 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-29 06:12:16.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method icu/samnyan/aqua/spring/util/AutoChecker::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int, bool, int, bool): void
+2026-06-29 06:12:16.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - icu/samnyan/aqua/spring/util/AutoChecker::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int, bool, int, bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = static System.getProperty("line.separator")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.LINEBREAK = %1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.SERVER_PORT = arg$0
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.ALLNET_HOST_OVERRIDE = arg$1
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.ALLNET_PORT_OVERRIDE = arg$2
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	this.AIMEDB_BIND = arg$3
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	this.AIMEDB_PORT = arg$4
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.AIMEDB_ENABLED = arg$5
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	this.BILLING_PORT = arg$6
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	this.BILLING_ENABLED = arg$7
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return
+2026-06-29 06:12:17.433 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test icu.samnyan.aqua.spring.util.AutoChecker_init_1696097130
+2026-06-29 06:12:17.438 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method icu/samnyan/aqua/spring/util/AutoChecker::check(): void
+2026-06-29 06:12:17.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - icu/samnyan/aqua/spring/util/AutoChecker::check(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = System.out
+	virtual %1.println(" █████╗  ██████╗ ██╗   ██╗ █████╗ 
+██╔══██╗██╔═══██╗██║   ██║██╔══██╗
+███████║██║   ██║██║   ██║███████║
+██╔══██║██║▄▄ ██║██║   ██║██╔══██║
+██║  ██║╚██████╔╝╚██████╔╝██║  ██║
+╚═╝  ╚═╝ ╚══▀▀═╝  ╚═════╝ ╚═╝  ╚═╝
+                                  ")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = System.out
+	virtual %3.println("Aqua viewer at http://localhost/web/
+")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = System.out
+	virtual %5.println("======= Self test running =======")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = System.out
+	virtual %7.print("        AimeDB    :  ")
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = this.AIMEDB_ENABLED
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = (%9 != false)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	%13 = System.out
+	virtual %13.println("DISABLED, SKIP")
+	goto %bb6
+
+%bb6: 	//predecessors %if.else0
+	goto %goto2
+
+%if.then0: 	//predecessors %bb5
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%15 = this.AIMEDB_BIND
+	goto %bb7
+
+%bb7: 	//predecessors %label0
+	%17 = virtual %15.equals("0.0.0.0")
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%19 = (%17 != false)
+	if (%19) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb8
+	%21 = this.AIMEDB_BIND
+	goto %bb9
+
+%bb9: 	//predecessors %if.else1
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb8, %bb9
+	%26 = phi {%bb8 -> "127.0.0.1"; %bb9 -> %21}
+	%32 = new java/net/Socket
+	%27 = this.AIMEDB_PORT
+	goto %bb10
+
+%bb10: 	//predecessors %if.then1
+	special %32.<init>(%26, %27)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %label1
+
+%label1: 	//predecessors %bb11
+	%29 = System.out
+	virtual %29.println("OK")
+	goto %bb12
+
+%bb12: 	//predecessors %label1
+	virtual %32.close()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %goto1
+
+%catch0: 	//catches from %label1
+	%36 = catch java/lang/Throwable
+goto %label2
+
+%label2: 	//predecessors %catch0
+	virtual %32.close()
+	goto %bb14
+
+%bb14: 	//predecessors %label2
+	goto %goto0
+
+%catch1: 	//catches from %label2
+	%35 = catch java/lang/Throwable
+virtual %36.addSuppressed(%35)
+goto %goto0
+
+%goto0: 	//predecessors %bb14, %catch1
+	throw %36
+
+%goto1: 	//predecessors %bb13
+	goto %goto2
+
+%catch2: 	//catches from %bb10, %bb13, %goto0, %label1, %bb14, %label2, %catch1, %if.then1, %catch0, %bb11, %bb12
+	%41 = catch java/lang/Exception
+goto %label3
+
+%label3: 	//predecessors %catch2
+	%39 = System.out
+	virtual %39.println("ERROR!!")
+	goto %bb15
+
+%bb15: 	//predecessors %label3
+	%43 = System.out
+	%44 = virtual %41.getMessage()
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	virtual %43.println(%44)
+	goto %goto2
+
+%goto2: 	//predecessors %bb6, %goto1, %bb16
+	%46 = System.out
+	virtual %46.print("        Billing   :  ")
+	goto %bb17
+
+%bb17: 	//predecessors %goto2
+	%48 = this.BILLING_ENABLED
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%50 = (%48 != false)
+	if (%50) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb18
+	%52 = System.out
+	virtual %52.println("DISABLED, SKIP")
+	goto %bb19
+
+%bb19: 	//predecessors %if.else2
+	goto %goto6
+
+%if.then2: 	//predecessors %bb18
+	%54 = this.ALLNET_HOST_OVERRIDE
+	goto %bb20
+
+%bb20: 	//predecessors %if.then2
+	%56 = virtual %54.equals("")
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%58 = (%56 == false)
+	if (%58) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb21
+	goto %goto3
+
+%if.then3: 	//predecessors %bb21
+	%60 = this.ALLNET_HOST_OVERRIDE
+	goto %goto3
+
+%goto3: 	//predecessors %if.else3, %if.then3
+	%65 = phi {%if.else3 -> "127.0.0.1"; %if.then3 -> %60}
+	goto %label4
+
+%label4: 	//predecessors %goto3
+	%71 = new java/net/Socket
+	%66 = this.BILLING_PORT
+	goto %bb22
+
+%bb22: 	//predecessors %label4
+	special %71.<init>(%65, %66)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	goto %label5
+
+%label5: 	//predecessors %bb23
+	%68 = System.out
+	virtual %68.println("OK")
+	goto %bb24
+
+%bb24: 	//predecessors %label5
+	virtual %71.close()
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	goto %goto5
+
+%catch3: 	//catches from %label5
+	%75 = catch java/lang/Throwable
+goto %label6
+
+%label6: 	//predecessors %catch3
+	virtual %71.close()
+	goto %bb26
+
+%bb26: 	//predecessors %label6
+	goto %goto4
+
+%catch4: 	//catches from %label6
+	%74 = catch java/lang/Throwable
+virtual %75.addSuppressed(%74)
+goto %goto4
+
+%goto4: 	//predecessors %bb26, %catch4
+	throw %75
+
+%goto5: 	//predecessors %bb25
+	goto %goto6
+
+%catch5: 	//catches from %label6, %bb22, %goto4, %bb26, %catch4, %label4, %bb23, %catch3, %bb24, %label5, %bb25
+	%80 = catch java/lang/Exception
+goto %label7
+
+%label7: 	//predecessors %catch5
+	%78 = System.out
+	virtual %78.println("ERROR!!")
+	goto %bb27
+
+%bb27: 	//predecessors %label7
+	%82 = System.out
+	%83 = virtual %80.getMessage()
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	virtual %82.println(%83)
+	goto %goto6
+
+%goto6: 	//predecessors %bb19, %goto5, %bb28
+	%85 = System.out
+	virtual %85.print("        AllNet    :  ")
+	goto %bb29
+
+%bb29: 	//predecessors %goto6
+	%201 = new java/lang/StringBuilder
+	special %201.<init>()
+	goto %label8
+
+%label8: 	//predecessors %bb29
+	%89 = this.ALLNET_HOST_OVERRIDE
+	goto %bb30
+
+%bb30: 	//predecessors %label8
+	%91 = virtual %89.equals("localhost")
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%93 = (%91 != false)
+	if (%93) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb31
+	%95 = this.ALLNET_HOST_OVERRIDE
+	goto %bb32
+
+%bb32: 	//predecessors %if.else4
+	%97 = virtual %95.startsWith("127.0.0.")
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	%99 = (%97 == false)
+	if (%99) goto %if.then5 else %if.then4
+
+%if.then4: 	//predecessors %bb31, %bb33
+	%101 = System.out
+	virtual %101.print("WARNING!!   ")
+	goto %bb34
+
+%bb34: 	//predecessors %if.then4
+	%105 = virtual %201.append("You are using loopback address.")
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	%106 = this.LINEBREAK
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%107 = virtual %105.append(%106)
+	goto %label9
+
+%label9: 	//predecessors %bb36
+	%111 = virtual %201.append("Some game won't connect with loopback address,")
+	goto %bb37
+
+%bb37: 	//predecessors %label9
+	%112 = this.LINEBREAK
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	%113 = virtual %111.append(%112)
+	goto %label10
+
+%label10: 	//predecessors %bb38
+	%117 = virtual %201.append("please change setting in `application.properties`.")
+	goto %bb39
+
+%bb39: 	//predecessors %label10
+	%118 = this.LINEBREAK
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	%119 = virtual %117.append(%118)
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	goto %if.then5
+
+%if.then5: 	//predecessors %bb33, %bb41
+	%146 = new org/springframework/web/client/RestTemplate
+	special %146.<init>()
+	goto %label11
+
+%label11: 	//predecessors %if.then5
+	%123 = this.ALLNET_HOST_OVERRIDE
+	goto %bb42
+
+%bb42: 	//predecessors %label11
+	%125 = virtual %123.equals("")
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	%127 = (%125 == false)
+	if (%127) goto %if.then6 else %if.else5
+
+%if.else5: 	//predecessors %bb43
+	goto %goto7
+
+%if.then6: 	//predecessors %bb43
+	%129 = this.ALLNET_HOST_OVERRIDE
+	goto %goto7
+
+%goto7: 	//predecessors %if.else5, %if.then6
+	%142 = phi {%if.else5 -> "127.0.0.1"; %if.then6 -> %129}
+	goto %label12
+
+%label12: 	//predecessors %goto7
+	%132 = this.ALLNET_PORT_OVERRIDE
+	goto %bb44
+
+%bb44: 	//predecessors %label12
+	%134 = virtual %132.equals("")
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%136 = (%134 == false)
+	if (%136) goto %if.then7 else %if.else6
+
+%if.else6: 	//predecessors %bb45
+	%139 = this.SERVER_PORT
+	goto %bb46
+
+%bb46: 	//predecessors %if.else6
+	goto %goto8
+
+%if.then7: 	//predecessors %bb45
+	%140 = this.ALLNET_PORT_OVERRIDE
+	goto %goto8
+
+%goto8: 	//predecessors %bb46, %if.then7
+	%143 = phi {%bb46 -> %139; %if.then7 -> %140}
+	goto %label13
+
+%label13: 	//predecessors %goto8
+	%171 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="http://:/sys/test"))
+	goto %bb47
+
+%bb47: 	//predecessors %label13
+	goto %label14
+
+%label14: 	//predecessors %bb47
+	%148 = new java/lang/Object[0]
+	goto %bb48
+
+%bb48: 	//predecessors %label14
+	%179 = virtual %146.getForEntity(%171, java/lang/String.class, %148)
+	goto %label15
+
+%label15: 	//predecessors %bb48
+	%152 = virtual %179.getStatusCode()
+	goto %bb49
+
+%bb49: 	//predecessors %label15
+	%154 = virtual %152.is2xxSuccessful()
+	goto %bb50
+
+%bb50: 	//predecessors %bb49
+	%156 = (%154 == false)
+	if (%156) goto %if.then8 else %if.else7
+
+%if.else7: 	//predecessors %bb50
+	%159 = virtual %179.getBody()
+	goto %bb51
+
+%bb51: 	//predecessors %if.else7
+	%161 = static Objects.equals(%159, "Server running")
+	goto %bb52
+
+%bb52: 	//predecessors %bb51
+	%163 = (%161 == false)
+	if (%163) goto %if.then8 else %if.else8
+
+%if.else8: 	//predecessors %bb52
+	%165 = System.out
+	virtual %165.println("OK")
+	goto %bb53
+
+%bb53: 	//predecessors %if.else8
+	goto %goto9
+
+%if.then8: 	//predecessors %bb50, %bb52
+	%167 = System.out
+	virtual %167.println("FAIL!")
+	goto %bb54
+
+%bb54: 	//predecessors %if.then8
+	%170 = virtual %201.append("Could not connect to ")
+	goto %bb55
+
+%bb55: 	//predecessors %bb54
+	%174 = virtual %170.append(%171)
+	goto %bb56
+
+%bb56: 	//predecessors %bb55
+	%175 = this.LINEBREAK
+	goto %bb57
+
+%bb57: 	//predecessors %bb56
+	%176 = virtual %174.append(%175)
+	goto %label16
+
+%label16: 	//predecessors %bb57
+	%181 = virtual %201.append("Status code: ")
+	goto %bb58
+
+%bb58: 	//predecessors %label16
+	%182 = virtual %179.getStatusCodeValue()
+	goto %bb59
+
+%bb59: 	//predecessors %bb58
+	%185 = virtual %181.append(%182)
+	goto %bb60
+
+%bb60: 	//predecessors %bb59
+	%186 = this.LINEBREAK
+	goto %bb61
+
+%bb61: 	//predecessors %bb60
+	%187 = virtual %185.append(%186)
+	goto %bb62
+
+%bb62: 	//predecessors %bb61
+	goto %goto9
+
+%goto9: 	//predecessors %bb53, %bb62
+	goto %goto10
+
+%catch6: 	//catches from %bb55, %bb58, %label15, %bb50, %bb54, %bb57, %if.else8, %bb62, %if.else7, %bb56, %label16, %bb60, %bb49, %bb52, %bb61, %bb51, %bb48, %bb59, %bb53, %label14, %if.then8
+	%192 = catch java/lang/Exception
+goto %label17
+
+%label17: 	//predecessors %catch6
+	%190 = System.out
+	virtual %190.println("ERROR!")
+	goto %bb63
+
+%bb63: 	//predecessors %label17
+	%196 = System.out
+	%194 = virtual %192.getCause()
+	goto %bb64
+
+%bb64: 	//predecessors %bb63
+	%197 = virtual %194.getMessage()
+	goto %bb65
+
+%bb65: 	//predecessors %bb64
+	virtual %196.println(%197)
+	goto %goto10
+
+%goto10: 	//predecessors %goto9, %bb65
+	%199 = System.out
+	virtual %199.println()
+	goto %bb66
+
+%bb66: 	//predecessors %goto10
+	%203 = System.out
+	%204 = virtual %201.toString()
+	goto %bb67
+
+%bb67: 	//predecessors %bb66
+	virtual %203.println(%204)
+	goto %bb68
+
+%bb68: 	//predecessors %bb67
+	return
+2026-06-29 06:12:17.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test icu.samnyan.aqua.spring.util.AutoChecker_check_780474811
+2026-06-29 06:12:18.111 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test icu.samnyan.aqua.spring.util.AutoChecker_init_1696097132
+2026-06-29 06:12:18.454 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test icu.samnyan.aqua.spring.util.AutoChecker_check_780474813
+2026-06-29 06:12:18.455 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method icu/samnyan/aqua/spring/util/AutoChecker::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int, bool, int, bool): void: null
+2026-06-29 06:12:18.455 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method icu/samnyan/aqua/spring/util/AutoChecker::check(): void: null
+2026-06-29 06:12:18.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method icu/samnyan/aqua/spring/util/AutoChecker::<init>(java/lang/String, java/lang/String, java/lang/String, java/lang/String, int, bool, int, bool): void processing is finished normally
+2026-06-29 06:12:18.456 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method icu/samnyan/aqua/spring/util/AutoChecker::check(): void processing is finished normally
+2026-06-29 06:12:18.456 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-29 06:12:18.456 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -1,0 +1,55 @@
+package refactoring.app.chapter07.extractClass;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static refactoring.app.chapter07.extractClass.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class Person_setOfficeAreaCode_16582907714 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term95;
+
+    public Person_setOfficeAreaCode_16582907714() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term95 = newInstance(Class.forName("refactoring.app.chapter07.extractClass.Person"));
+        Object term108 = newInstance(Class.forName("refactoring.app.chapter07.extractClass.TelephoneNumber"));
+        setField(term95, term95.getClass(), "name", "jJCZpVmanW");
+        setField(term108, term108.getClass(), "areaCode", null);
+        setField(term108, term108.getClass(), "number", null);
+        setField(term95, term95.getClass(), "telephoneNumber", term108);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("refactoring.app.chapter07.extractClass.Person");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = "EGtDIRbSSb";
+        callMethod(klass, "setOfficeAreaCode", argTypes, term95, args);
+    }
+
+};
+
+

@@ -1,0 +1,213 @@
+package icu.samnyan.aqua.sega.chunithm.model.userdata;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.chunithm.model.userdata.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Long;
+import java.lang.Boolean;
+
+public class UserCourse_setClear_122839761136 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1930284;
+     Object term1930586;
+
+    public UserCourse_setClear_122839761136() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term1930290 = new Long(2060510242405205727L);
+        term1930284 = newInstance(Class.forName("icu.samnyan.aqua.sega.chunithm.model.userdata.UserCourse"));
+        Object term1930286 = newInstance(Class.forName("icu.samnyan.aqua.sega.chunithm.model.userdata.UserData"));
+        Object term1930288 = newInstance(Class.forName("icu.samnyan.aqua.sega.general.model.Card"));
+        Object term1930304 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930305 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930309 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term1930314 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930315 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930319 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term1930336 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930337 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930341 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term1930397 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930398 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930402 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term1930445 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930446 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930450 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term1930491 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930492 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930496 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term1930571 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term1930572 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term1930576 = newInstance(Class.forName("java.time.LocalTime"));
+        setLongField(term1930284, term1930284.getClass(), "id", -9196845514664843732L);
+        setLongField(term1930286, term1930286.getClass(), "id", 1776561038489519454L);
+        setLongField(term1930288, term1930288.getClass(), "id", -5768881428909540180L);
+        setField(term1930288, term1930288.getClass(), "extId", term1930290);
+        setField(term1930288, term1930288.getClass(), "luid", "RLPxCOROav");
+        setIntField(term1930305, term1930305.getClass(), "year", 2013);
+        setShortField(term1930305, term1930305.getClass(), "month", (short) 10);
+        setShortField(term1930305, term1930305.getClass(), "day", (short) 13);
+        setField(term1930304, term1930304.getClass(), "date", term1930305);
+        setByteField(term1930309, term1930309.getClass(), "hour", (byte) 11);
+        setByteField(term1930309, term1930309.getClass(), "minute", (byte) 15);
+        setByteField(term1930309, term1930309.getClass(), "second", (byte) 38);
+        setIntField(term1930309, term1930309.getClass(), "nano", 603162382);
+        setField(term1930304, term1930304.getClass(), "time", term1930309);
+        setField(term1930288, term1930288.getClass(), "registerTime", term1930304);
+        setIntField(term1930315, term1930315.getClass(), "year", 2024);
+        setShortField(term1930315, term1930315.getClass(), "month", (short) 4);
+        setShortField(term1930315, term1930315.getClass(), "day", (short) 11);
+        setField(term1930314, term1930314.getClass(), "date", term1930315);
+        setByteField(term1930319, term1930319.getClass(), "hour", (byte) 8);
+        setByteField(term1930319, term1930319.getClass(), "minute", (byte) 40);
+        setByteField(term1930319, term1930319.getClass(), "second", (byte) 3);
+        setIntField(term1930319, term1930319.getClass(), "nano", 241725381);
+        setField(term1930314, term1930314.getClass(), "time", term1930319);
+        setField(term1930288, term1930288.getClass(), "accessTime", term1930314);
+        setField(term1930286, term1930286.getClass(), "card", term1930288);
+        setField(term1930286, term1930286.getClass(), "userName", "TYbXBaAMSb");
+        setIntField(term1930337, term1930337.getClass(), "year", 2011);
+        setShortField(term1930337, term1930337.getClass(), "month", (short) 1);
+        setShortField(term1930337, term1930337.getClass(), "day", (short) 24);
+        setField(term1930336, term1930336.getClass(), "date", term1930337);
+        setByteField(term1930341, term1930341.getClass(), "hour", (byte) 8);
+        setByteField(term1930341, term1930341.getClass(), "minute", (byte) 40);
+        setByteField(term1930341, term1930341.getClass(), "second", (byte) 48);
+        setIntField(term1930341, term1930341.getClass(), "nano", 743572445);
+        setField(term1930336, term1930336.getClass(), "time", term1930341);
+        setField(term1930286, term1930286.getClass(), "lastLoginDate", term1930336);
+        setBooleanField(term1930286, term1930286.getClass(), "isWebJoin", false);
+        setField(term1930286, term1930286.getClass(), "webLimitDate", "cGBpfsNETu");
+        setIntField(term1930286, term1930286.getClass(), "level", -1221465145);
+        setIntField(term1930286, term1930286.getClass(), "reincarnationNum", -1335103177);
+        setField(term1930286, term1930286.getClass(), "exp", "RkpjcnCmpN");
+        setLongField(term1930286, term1930286.getClass(), "point", -7927261358828841307L);
+        setLongField(term1930286, term1930286.getClass(), "totalPoint", -8542871718574856188L);
+        setIntField(term1930286, term1930286.getClass(), "playCount", 855409775);
+        setIntField(term1930286, term1930286.getClass(), "multiPlayCount", -1857252679);
+        setIntField(term1930286, term1930286.getClass(), "multiWinCount", 692186608);
+        setIntField(term1930286, term1930286.getClass(), "requestResCount", 334112438);
+        setIntField(term1930286, term1930286.getClass(), "acceptResCount", -1270638960);
+        setIntField(term1930286, term1930286.getClass(), "successResCount", -489152492);
+        setIntField(term1930286, term1930286.getClass(), "playerRating", 1708259619);
+        setIntField(term1930286, term1930286.getClass(), "highestRating", -1397990583);
+        setIntField(term1930286, term1930286.getClass(), "nameplateId", -1746102289);
+        setIntField(term1930286, term1930286.getClass(), "frameId", -663679783);
+        setIntField(term1930286, term1930286.getClass(), "characterId", 929637890);
+        setIntField(term1930286, term1930286.getClass(), "trophyId", -2109958877);
+        setIntField(term1930286, term1930286.getClass(), "playedTutorialBit", 2075951171);
+        setIntField(term1930286, term1930286.getClass(), "firstTutorialCancelNum", -1423351101);
+        setIntField(term1930286, term1930286.getClass(), "masterTutorialCancelNum", 1931459067);
+        setIntField(term1930286, term1930286.getClass(), "totalRepertoireCount", 2015732244);
+        setIntField(term1930286, term1930286.getClass(), "totalMapNum", -6583112);
+        setLongField(term1930286, term1930286.getClass(), "totalHiScore", -5395908140973015742L);
+        setLongField(term1930286, term1930286.getClass(), "totalBasicHighScore", -2084235115991185540L);
+        setLongField(term1930286, term1930286.getClass(), "totalAdvancedHighScore", 6077488834081772080L);
+        setLongField(term1930286, term1930286.getClass(), "totalExpertHighScore", 3989182003095678307L);
+        setLongField(term1930286, term1930286.getClass(), "totalMasterHighScore", 329165157667062816L);
+        setIntField(term1930398, term1930398.getClass(), "year", 2011);
+        setShortField(term1930398, term1930398.getClass(), "month", (short) 8);
+        setShortField(term1930398, term1930398.getClass(), "day", (short) 3);
+        setField(term1930397, term1930397.getClass(), "date", term1930398);
+        setByteField(term1930402, term1930402.getClass(), "hour", (byte) 1);
+        setByteField(term1930402, term1930402.getClass(), "minute", (byte) 54);
+        setByteField(term1930402, term1930402.getClass(), "second", (byte) 8);
+        setIntField(term1930402, term1930402.getClass(), "nano", 341756276);
+        setField(term1930397, term1930397.getClass(), "time", term1930402);
+        setField(term1930286, term1930286.getClass(), "eventWatchedDate", term1930397);
+        setIntField(term1930286, term1930286.getClass(), "friendCount", 1143549839);
+        setBooleanField(term1930286, term1930286.getClass(), "isMaimai", false);
+        setField(term1930286, term1930286.getClass(), "firstGameId", "GuQLAqWznI");
+        setField(term1930286, term1930286.getClass(), "firstRomVersion", "KiYCwTYnfw");
+        setField(term1930286, term1930286.getClass(), "firstDataVersion", "rkjAZfxAsa");
+        setIntField(term1930446, term1930446.getClass(), "year", 2010);
+        setShortField(term1930446, term1930446.getClass(), "month", (short) 9);
+        setShortField(term1930446, term1930446.getClass(), "day", (short) 15);
+        setField(term1930445, term1930445.getClass(), "date", term1930446);
+        setByteField(term1930450, term1930450.getClass(), "hour", (byte) 12);
+        setByteField(term1930450, term1930450.getClass(), "minute", (byte) 40);
+        setByteField(term1930450, term1930450.getClass(), "second", (byte) 55);
+        setIntField(term1930450, term1930450.getClass(), "nano", 13247628);
+        setField(term1930445, term1930445.getClass(), "time", term1930450);
+        setField(term1930286, term1930286.getClass(), "firstPlayDate", term1930445);
+        setField(term1930286, term1930286.getClass(), "lastGameId", "QQGtsZHdOw");
+        setField(term1930286, term1930286.getClass(), "lastRomVersion", "MBsaAjncUV");
+        setField(term1930286, term1930286.getClass(), "lastDataVersion", "naTmOPzbNM");
+        setIntField(term1930492, term1930492.getClass(), "year", 2012);
+        setShortField(term1930492, term1930492.getClass(), "month", (short) 7);
+        setShortField(term1930492, term1930492.getClass(), "day", (short) 2);
+        setField(term1930491, term1930491.getClass(), "date", term1930492);
+        setByteField(term1930496, term1930496.getClass(), "hour", (byte) 9);
+        setByteField(term1930496, term1930496.getClass(), "minute", (byte) 26);
+        setByteField(term1930496, term1930496.getClass(), "second", (byte) 20);
+        setIntField(term1930496, term1930496.getClass(), "nano", 89723013);
+        setField(term1930491, term1930491.getClass(), "time", term1930496);
+        setField(term1930286, term1930286.getClass(), "lastPlayDate", term1930491);
+        setIntField(term1930286, term1930286.getClass(), "lastPlaceId", -137100886);
+        setField(term1930286, term1930286.getClass(), "lastPlaceName", "PCYmyadQpT");
+        setField(term1930286, term1930286.getClass(), "lastRegionId", "tStlvXoUel");
+        setField(term1930286, term1930286.getClass(), "lastRegionName", "mFaifQaBkb");
+        setField(term1930286, term1930286.getClass(), "lastAllNetId", "xIUfaZaTTv");
+        setField(term1930286, term1930286.getClass(), "lastClientId", "dyPtPywWHO");
+        setField(term1930284, term1930284.getClass(), "user", term1930286);
+        setIntField(term1930284, term1930284.getClass(), "courseId", 2144988190);
+        setIntField(term1930284, term1930284.getClass(), "classId", -1203062030);
+        setIntField(term1930284, term1930284.getClass(), "playCount", -2144764504);
+        setIntField(term1930284, term1930284.getClass(), "scoreMax", 1122495868);
+        setBooleanField(term1930284, term1930284.getClass(), "isFullCombo", false);
+        setBooleanField(term1930284, term1930284.getClass(), "isAllJustice", false);
+        setBooleanField(term1930284, term1930284.getClass(), "isSuccess", true);
+        setIntField(term1930284, term1930284.getClass(), "scoreRank", -413498551);
+        setIntField(term1930284, term1930284.getClass(), "eventId", -1496879023);
+        setIntField(term1930572, term1930572.getClass(), "year", 2024);
+        setShortField(term1930572, term1930572.getClass(), "month", (short) 11);
+        setShortField(term1930572, term1930572.getClass(), "day", (short) 21);
+        setField(term1930571, term1930571.getClass(), "date", term1930572);
+        setByteField(term1930576, term1930576.getClass(), "hour", (byte) 5);
+        setByteField(term1930576, term1930576.getClass(), "minute", (byte) 59);
+        setByteField(term1930576, term1930576.getClass(), "second", (byte) 18);
+        setIntField(term1930576, term1930576.getClass(), "nano", 87379832);
+        setField(term1930571, term1930571.getClass(), "time", term1930576);
+        setField(term1930284, term1930284.getClass(), "lastPlayDate", term1930571);
+        setIntField(term1930284, term1930284.getClass(), "param1", -1210473436);
+        setIntField(term1930284, term1930284.getClass(), "param2", -701934444);
+        setIntField(term1930284, term1930284.getClass(), "param3", -882609997);
+        setIntField(term1930284, term1930284.getClass(), "param4", 2091635063);
+        setBooleanField(term1930284, term1930284.getClass(), "isClear", false);
+        term1930586 = new Boolean(false);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.chunithm.model.userdata.UserCourse");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = boolean.class;
+        Object[] args = new Object[1];
+        args[0] = term1930586;
+        callMethod(klass, "setClear", argTypes, term1930284, args);
+    }
+
+};
+
+

@@ -1,0 +1,62 @@
+package com.alkemy.ong.infrastructure.rest.request.organization;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.alkemy.ong.infrastructure.rest.request.organization.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class UpdateOrganizationRequest_setAboutUsText_48450752915 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term3286;
+
+    public UpdateOrganizationRequest_setAboutUsText_48450752915() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term3286 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.request.organization.UpdateOrganizationRequest"));
+        Object term3347 = newInstance(Class.forName("com.alkemy.ong.infrastructure.rest.request.common.SocialMediaRequest"));
+        setField(term3286, term3286.getClass(), "name", "WHcwFgsGFC");
+        setField(term3286, term3286.getClass(), "imageUrl", "HzqpegHiRq");
+        setField(term3286, term3286.getClass(), "address", "jwsfVjMoJT");
+        setField(term3286, term3286.getClass(), "phone", "ZfdXfCCFDf");
+        setField(term3286, term3286.getClass(), "email", "MwwjNtdOFT");
+        setField(term3347, term3347.getClass(), "facebookUrl", "VYkqXKVlAJ");
+        setField(term3347, term3347.getClass(), "linkedInUrl", "XkIoWJRNwN");
+        setField(term3347, term3347.getClass(), "instagramUrl", "aNWLJdrZMq");
+        setField(term3286, term3286.getClass(), "socialMedia", term3347);
+        setField(term3286, term3286.getClass(), "aboutUsText", "HHmNoYxIGj");
+        setField(term3286, term3286.getClass(), "welcomeText", "PtirvZmsGt");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.alkemy.ong.infrastructure.rest.request.organization.UpdateOrganizationRequest");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = "HWkpTmtlrc";
+        callMethod(klass, "setAboutUsText", argTypes, term3286, args);
+    }
+
+};
+
+

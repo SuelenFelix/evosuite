@@ -1,0 +1,50 @@
+package com.selimhorri.app.pack.models.dto;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.selimhorri.app.pack.models.dto.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class ManagerDTO_getEname_144620716614 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term673;
+
+    public ManagerDTO_getEname_144620716614() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term673 = newInstance(Class.forName("com.selimhorri.app.pack.models.dto.ManagerDTO"));
+        setField(term673, term673.getClass(), "empno", null);
+        setField(term673, term673.getClass(), "ename", null);
+        setField(term673, term673.getClass(), "mgr", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.selimhorri.app.pack.models.dto.ManagerDTO");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getEname", argTypes, term673, args);
+    }
+
+};
+
+

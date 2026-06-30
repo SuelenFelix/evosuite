@@ -1,0 +1,106 @@
+package icu.samnyan.aqua.sega.ongeki.model.request;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.ongeki.model.request.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class UpsertUserAll_setUserRecentRatingList_386632847183 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term289738;
+
+    public UpsertUserAll_setUserRecentRatingList_386632847183() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term289738 = newInstance(Class.forName("icu.samnyan.aqua.sega.ongeki.model.request.UpsertUserAll"));
+        setField(term289738, term289738.getClass(), "userData", null);
+        setField(term289738, term289738.getClass(), "userOption", null);
+        setField(term289738, term289738.getClass(), "userPlaylogList", null);
+        setField(term289738, term289738.getClass(), "userJewelboostlogList", null);
+        setField(term289738, term289738.getClass(), "userSessionlogList", null);
+        setField(term289738, term289738.getClass(), "userActivityList", null);
+        setField(term289738, term289738.getClass(), "userRecentRatingList", null);
+        setField(term289738, term289738.getClass(), "userBpBaseList", null);
+        setField(term289738, term289738.getClass(), "userRatingBaseBestNewList", null);
+        setField(term289738, term289738.getClass(), "userRatingBaseBestList", null);
+        setField(term289738, term289738.getClass(), "userRatingBaseHotList", null);
+        setField(term289738, term289738.getClass(), "userRatingBaseNextNewList", null);
+        setField(term289738, term289738.getClass(), "userRatingBaseNextList", null);
+        setField(term289738, term289738.getClass(), "userRatingBaseHotNextList", null);
+        setField(term289738, term289738.getClass(), "userMusicDetailList", null);
+        setField(term289738, term289738.getClass(), "userCharacterList", null);
+        setField(term289738, term289738.getClass(), "userCardList", null);
+        setField(term289738, term289738.getClass(), "userDeckList", null);
+        setField(term289738, term289738.getClass(), "userTrainingRoomList", null);
+        setField(term289738, term289738.getClass(), "userStoryList", null);
+        setField(term289738, term289738.getClass(), "userChapterList", null);
+        setField(term289738, term289738.getClass(), "userMemoryChapterList", null);
+        setField(term289738, term289738.getClass(), "userItemList", null);
+        setField(term289738, term289738.getClass(), "userMusicItemList", null);
+        setField(term289738, term289738.getClass(), "userLoginBonusList", null);
+        setField(term289738, term289738.getClass(), "userEventPointList", null);
+        setField(term289738, term289738.getClass(), "userMissionPointList", null);
+        setField(term289738, term289738.getClass(), "userRatinglogList", null);
+        setField(term289738, term289738.getClass(), "userBossList", null);
+        setField(term289738, term289738.getClass(), "userTechCountList", null);
+        setField(term289738, term289738.getClass(), "userScenarioList", null);
+        setField(term289738, term289738.getClass(), "userTradeItemList", null);
+        setField(term289738, term289738.getClass(), "userEventMusicList", null);
+        setField(term289738, term289738.getClass(), "userTechEventList", null);
+        setField(term289738, term289738.getClass(), "userKopList", null);
+        setField(term289738, term289738.getClass(), "clientSystemInfo", null);
+        setField(term289738, term289738.getClass(), "isNewMusicDetailList", null);
+        setField(term289738, term289738.getClass(), "isNewCharacterList", null);
+        setField(term289738, term289738.getClass(), "isNewCardList", null);
+        setField(term289738, term289738.getClass(), "isNewDeckList", null);
+        setField(term289738, term289738.getClass(), "isNewTrainingRoomList", null);
+        setField(term289738, term289738.getClass(), "isNewStoryList", null);
+        setField(term289738, term289738.getClass(), "isNewChapterList", null);
+        setField(term289738, term289738.getClass(), "isNewMemoryChapterList", null);
+        setField(term289738, term289738.getClass(), "isNewItemList", null);
+        setField(term289738, term289738.getClass(), "isNewMusicItemList", null);
+        setField(term289738, term289738.getClass(), "isNewLoginBonusList", null);
+        setField(term289738, term289738.getClass(), "isNewEventPointList", null);
+        setField(term289738, term289738.getClass(), "isNewMissionPointList", null);
+        setField(term289738, term289738.getClass(), "isNewRatinglogList", null);
+        setField(term289738, term289738.getClass(), "isNewBossList", null);
+        setField(term289738, term289738.getClass(), "isNewTechCountList", null);
+        setField(term289738, term289738.getClass(), "isNewScenarioList", null);
+        setField(term289738, term289738.getClass(), "isNewTradeItemList", null);
+        setField(term289738, term289738.getClass(), "isNewEventMusicList", null);
+        setField(term289738, term289738.getClass(), "isNewTechEventList", null);
+        setField(term289738, term289738.getClass(), "isNewKopList", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.ongeki.model.request.UpsertUserAll");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.util.List");
+        Object[] args = new Object[1];
+        args[0] = null;
+        callMethod(klass, "setUserRecentRatingList", argTypes, term289738, args);
+    }
+
+};
+
+

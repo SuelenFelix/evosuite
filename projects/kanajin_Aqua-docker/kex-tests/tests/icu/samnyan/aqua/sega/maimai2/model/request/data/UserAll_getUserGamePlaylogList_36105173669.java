@@ -1,0 +1,71 @@
+package icu.samnyan.aqua.sega.maimai2.model.request.data;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.maimai2.model.request.data.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class UserAll_getUserGamePlaylogList_36105173669 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term98963;
+
+    public UserAll_getUserGamePlaylogList_36105173669() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term98963 = newInstance(Class.forName("icu.samnyan.aqua.sega.maimai2.model.request.data.UserAll"));
+        setField(term98963, term98963.getClass(), "userData", null);
+        setField(term98963, term98963.getClass(), "userExtend", null);
+        setField(term98963, term98963.getClass(), "userOption", null);
+        setField(term98963, term98963.getClass(), "userCharacterList", null);
+        setField(term98963, term98963.getClass(), "userGhost", null);
+        setField(term98963, term98963.getClass(), "userMapList", null);
+        setField(term98963, term98963.getClass(), "userLoginBonusList", null);
+        setField(term98963, term98963.getClass(), "userRatingList", null);
+        setField(term98963, term98963.getClass(), "userItemList", null);
+        setField(term98963, term98963.getClass(), "userMusicDetailList", null);
+        setField(term98963, term98963.getClass(), "userCourseList", null);
+        setField(term98963, term98963.getClass(), "userFriendSeasonRankingList", null);
+        setField(term98963, term98963.getClass(), "userChargeList", null);
+        setField(term98963, term98963.getClass(), "userFavoriteList", null);
+        setField(term98963, term98963.getClass(), "userActivityList", null);
+        setField(term98963, term98963.getClass(), "userGamePlaylogList", null);
+        setField(term98963, term98963.getClass(), "isNewCharacterList", null);
+        setField(term98963, term98963.getClass(), "isNewMapList", null);
+        setField(term98963, term98963.getClass(), "isNewLoginBonusList", null);
+        setField(term98963, term98963.getClass(), "isNewItemList", null);
+        setField(term98963, term98963.getClass(), "isNewMusicDetailList", null);
+        setField(term98963, term98963.getClass(), "isNewCourseList", null);
+        setField(term98963, term98963.getClass(), "isNewFavoriteList", null);
+        setField(term98963, term98963.getClass(), "isNewFriendSeasonRankingList", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.maimai2.model.request.data.UserAll");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getUserGamePlaylogList", argTypes, term98963, args);
+    }
+
+};
+
+

@@ -1,0 +1,308 @@
+2026-06-29 06:24:32.075 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/xxuzhengg_eastmoney/target/classes
+2026-06-29 06:24:32.164 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 06:24:32.235 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-29 06:24:33.098 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-29 06:24:33.730 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/stock/spider/utils/*
+2026-06-29 06:24:33.731 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-29 06:24:33.751 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/xxuzhengg_eastmoney/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 06:24:33.782 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/xxuzhengg_eastmoney/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 45881 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/xxuzhengg_eastmoney/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-29 06:24:33.795 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-29 06:26:13.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/stock/spider/utils/RedisUtil::<init>(): void
+2026-06-29 06:26:13.829 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/stock/spider/utils/RedisUtil::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 06:26:14.313 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.RedisUtil_init_12555267290
+2026-06-29 06:26:14.318 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/stock/spider/utils/RedisUtil::getKeysByString(java/lang/String): java/util/Set
+2026-06-29 06:26:14.318 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/stock/spider/utils/RedisUtil::getKeysByString(java/lang/String): java/util/Set
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.redisTemplate
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.keys(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	return %3
+2026-06-29 06:26:14.429 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.RedisUtil_getKeysByString_7091395401
+2026-06-29 06:26:14.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/stock/spider/utils/RedisUtil::getValueByString(java/lang/String): java/lang/String
+2026-06-29 06:26:14.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/stock/spider/utils/RedisUtil::getValueByString(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.redisTemplate
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.opsForValue()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = interface %3.get(arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = virtual %5.toString()
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	return %7
+2026-06-29 06:26:14.511 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.RedisUtil_getValueByString_10209130002
+2026-06-29 06:26:14.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/stock/spider/utils/RedisUtil::setByString(java/lang/String, java/lang/String): void
+2026-06-29 06:26:14.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/stock/spider/utils/RedisUtil::setByString(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.redisTemplate
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.opsForValue()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	interface %3.set(arg$0, arg$1)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-06-29 06:26:14.587 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.RedisUtil_setByString_21345797773
+2026-06-29 06:26:14.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.RedisUtil_init_12555267294
+2026-06-29 06:26:14.659 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lorg/springframework/data/redis/core/RedisTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core.RedisTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-06-29 06:26:14.659 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/stock/spider/utils/RedisUtil::getKeysByString(java/lang/String): java/util/Set: null
+2026-06-29 06:26:14.660 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lorg/springframework/data/redis/core/RedisTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core.RedisTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-06-29 06:26:14.660 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/stock/spider/utils/RedisUtil::getValueByString(java/lang/String): java/lang/String: null
+2026-06-29 06:26:14.660 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lorg/springframework/data/redis/core/RedisTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core.RedisTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-06-29 06:26:14.660 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/stock/spider/utils/RedisUtil::setByString(java/lang/String, java/lang/String): void: null
+2026-06-29 06:26:14.661 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/stock/spider/utils/RedisUtil::<init>(): void: null
+2026-06-29 06:26:14.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/stock/spider/utils/RedisUtil::getKeysByString(java/lang/String): java/util/Set processing is finished normally
+2026-06-29 06:26:14.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/stock/spider/utils/RedisUtil::getValueByString(java/lang/String): java/lang/String processing is finished normally
+2026-06-29 06:26:14.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/stock/spider/utils/RedisUtil::setByString(java/lang/String, java/lang/String): void processing is finished normally
+2026-06-29 06:26:14.661 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/stock/spider/utils/RedisUtil::<init>(): void processing is finished normally
+2026-06-29 06:26:14.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/stock/spider/utils/WebUtil::<init>(): void
+2026-06-29 06:26:14.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/stock/spider/utils/WebUtil::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 06:26:14.750 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.WebUtil_init_1489467680
+2026-06-29 06:26:14.751 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/stock/spider/utils/WebUtil::getWeb(java/lang/String): java/lang/String
+2026-06-29 06:26:14.753 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/stock/spider/utils/WebUtil::getWeb(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = static HttpClient.newBuilder()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = HttpClient$Version.HTTP_2
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%6 = interface %2.version(%3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%7 = static Duration.ofSeconds(3)
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%9 = interface %6.connectTimeout(%7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%21 = interface %9.build()
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%12 = static HttpRequest.newBuilder()
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%15 = interface %12.GET()
+	goto %label3
+
+%label3: 	//predecessors %bb4
+	%16 = static URI.create(arg$0)
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%18 = interface %15.uri(%16)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%22 = interface %18.build()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %label4
+
+%label4: 	//predecessors %bb7
+	%23 = static HttpResponse$BodyHandlers.ofString()
+	goto %bb8
+
+%bb8: 	//predecessors %label4
+	%30 = virtual %21.send(%22, %23)
+	goto %label5
+
+%label5: 	//predecessors %bb8
+	%27 = interface %30.statusCode()
+	goto %label6
+
+%label6: 	//predecessors %label5
+	%29 = (%27 != 200)
+	if (%29) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label6
+	%32 = interface %30.body()
+	goto %bb9
+
+%bb9: 	//predecessors %if.else0
+	%36 = (java/lang/String) %32
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %bb.return0
+
+%if.then0: 	//predecessors %label6
+	goto %goto0
+
+%catch0: 	//catches from %label5, %label6, %bb8, %if.else0, %label4, %bb9
+	%35 = catch java/lang/Exception
+goto %label7
+
+%label7: 	//predecessors %catch0
+	virtual %35.printStackTrace()
+	goto %goto0
+
+%goto0: 	//predecessors %if.then0, %label7
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb10, %goto0
+	%retval1 = phi {%bb10 -> %36; %goto0 -> null}
+	return %retval1
+2026-06-29 06:26:14.816 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.WebUtil_getWeb_7360390821
+2026-06-29 06:26:14.878 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.WebUtil_init_1489467682
+2026-06-29 06:26:14.956 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.stock.spider.utils.WebUtil_getWeb_7360390823
+2026-06-29 06:26:14.957 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/stock/spider/utils/WebUtil::<init>(): void: null
+2026-06-29 06:26:14.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/stock/spider/utils/WebUtil::<init>(): void processing is finished normally
+2026-06-29 06:26:14.957 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/stock/spider/utils/WebUtil::getWeb(java/lang/String): java/lang/String: null
+2026-06-29 06:26:14.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/stock/spider/utils/WebUtil::getWeb(java/lang/String): java/lang/String processing is finished normally
+2026-06-29 06:26:14.958 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-29 06:26:14.958 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

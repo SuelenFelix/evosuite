@@ -1,0 +1,697 @@
+2026-06-28 21:50:18.009 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/ashrawan_apache-poi-chart-sample/target/classes
+2026-06-28 21:50:18.131 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-28 21:50:18.189 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-28 21:50:19.144 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-28 21:50:19.695 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/projectsample/libapachepoi/runner/*
+2026-06-28 21:50:19.696 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-28 21:50:19.715 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/ashrawan_apache-poi-chart-sample/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-28 21:50:19.745 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/ashrawan_apache-poi-chart-sample/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 37311 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/ashrawan_apache-poi-chart-sample/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-28 21:50:19.757 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-28 21:51:59.805 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::<init>(): void
+2026-06-28 21:51:59.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/projectsample/libapachepoi/runner/ExcelMainLibRunner::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-28 21:51:59.810 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/projectsample/libapachepoi/runner/ExcelMainLibRunner::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Row
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Row
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-06-28 21:51:59.810 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/projectsample/libapachepoi/runner/ExcelMainLibRunner::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Row
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Row
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-06-28 21:51:59.810 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::<init>(): void: null
+2026-06-28 21:51:59.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::exportAsExcel(java/util/List, java/util/List, com/projectsample/libapachepoi/chart/generators/ExcelChartProperties, java/lang/String): void
+2026-06-28 21:51:59.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/projectsample/libapachepoi/runner/ExcelMainLibRunner::exportAsExcel(java/util/List, java/util/List, com/projectsample/libapachepoi/chart/generators/ExcelChartProperties, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%25 = new org/apache/poi/xssf/streaming/SXSSFWorkbook
+	special %25.<init>(null, 100, 1)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	static ChartUtils.setThemeFromTemplateFile(%25)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%18 = virtual %25.createSheet(arg$3)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	virtual this.generateExcelTableData(%18, arg$1)
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%24 = new com/projectsample/libapachepoi/chart/ExcelChartGenerator
+	special %24.<init>(%18)
+	goto %label2
+
+%label2: 	//predecessors %bb2
+	virtual %24.setColumns(arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%14 = virtual %24.getChartIndexDTO()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%15 = virtual %18.getLastRowNum()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	virtual %14.setChartRowStartIndex(%15)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%22 = virtual %24.getChartIndexDTO()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%20 = virtual %18.getLastRowNum()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%23 = %20 + 1
+	virtual %22.setChartRowEndIndex(%23)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	virtual %24.drawChart(arg$2)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual this.writeExcelFile(%25, null)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return
+2026-06-28 21:51:59.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::exportAsExcel(java/util/List, java/util/List, com/projectsample/libapachepoi/chart/generators/ExcelChartProperties, java/lang/String): void
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Row
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Row
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-28 21:51:59.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::exportAsExcel(java/util/List, java/util/List, com/projectsample/libapachepoi/chart/generators/ExcelChartProperties, java/lang/String): void
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Row
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Row
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-28 21:51:59.812 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::exportAsExcel(java/util/List, java/util/List, com/projectsample/libapachepoi/chart/generators/ExcelChartProperties, java/lang/String): void: null
+2026-06-28 21:51:59.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::writeExcelFile(org/apache/poi/xssf/streaming/SXSSFWorkbook, java/lang/String): void
+2026-06-28 21:51:59.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/projectsample/libapachepoi/runner/ExcelMainLibRunner::writeExcelFile(org/apache/poi/xssf/streaming/SXSSFWorkbook, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static StringUtils.hasText(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = static UUID.randomUUID()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = virtual %5.toString()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=".xlsx"))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb4
+	%13 = phi {%bb1 -> arg$1; %bb4 -> %9}
+	%28 = new java/io/File
+	special %28.<init>(%13)
+	goto %bb5
+
+%bb5: 	//predecessors %if.then0
+	goto %label0
+
+%label0: 	//predecessors %bb5
+	%34 = new java/io/BufferedOutputStream
+	%19 = new java/io/FileOutputStream
+	special %19.<init>(%28)
+	goto %bb6
+
+%bb6: 	//predecessors %label0
+	special %34.<init>(%19)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %label1
+
+%label1: 	//predecessors %bb7
+	%23 = ExcelMainLibRunner.log
+	%24 = virtual %28.getAbsolutePath()
+	goto %bb8
+
+%bb8: 	//predecessors %label1
+	interface %23.debug("Started writing data to excel file {}", %24)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	virtual arg$0.write(%34)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%26 = virtual arg$0.dispose()
+	goto %label2
+
+%label2: 	//predecessors %bb10
+	%30 = ExcelMainLibRunner.log
+	%31 = virtual %28.getAbsolutePath()
+	goto %bb11
+
+%bb11: 	//predecessors %label2
+	interface %30.debug("Completed writing to excel file {} ", %31)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	virtual %34.close()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %goto1
+
+%catch0: 	//catches from %label2, %bb8, %bb9, %bb10, %label1, %bb11
+	%38 = catch java/lang/Throwable
+goto %label3
+
+%label3: 	//predecessors %catch0
+	virtual %34.close()
+	goto %bb14
+
+%bb14: 	//predecessors %label3
+	goto %goto0
+
+%catch1: 	//catches from %label3
+	%37 = catch java/lang/Throwable
+virtual %38.addSuppressed(%37)
+goto %goto0
+
+%goto0: 	//predecessors %bb14, %catch1
+	throw %38
+
+%catch2: 	//catches from %label2, %bb8, %bb6, %label3, %bb13, %catch1, %bb12, %bb7, %bb9, %label0, %bb14, %bb10, %label1, %catch0, %bb11, %goto0
+	%42 = catch java/io/IOException
+goto %label4
+
+%label4: 	//predecessors %catch2
+	%43 = new java/lang/RuntimeException
+	special %43.<init>(%42)
+	goto %bb15
+
+%bb15: 	//predecessors %label4
+	throw %43
+
+%goto1: 	//predecessors %bb13
+	return
+2026-06-28 21:51:59.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.apache.poi.xssf.streaming.SXSSFWorkbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-28 21:51:59.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.apache.poi.xssf.streaming.SXSSFWorkbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-28 21:51:59.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::writeExcelFile(org/apache/poi/xssf/streaming/SXSSFWorkbook, java/lang/String): void: null
+2026-06-28 21:51:59.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::generateExcelTableData(org/apache/poi/xssf/streaming/SXSSFSheet, java/util/List): void
+2026-06-28 21:51:59.815 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/projectsample/libapachepoi/runner/ExcelMainLibRunner::generateExcelTableData(org/apache/poi/xssf/streaming/SXSSFSheet, java/util/List): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$1.size()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	goto %label1
+
+%label1: 	//predecessors %label0, %goto2
+	%123 = phi {%label0 -> %1; %goto2 -> %124}
+	%125 = phi {%label0 -> 0; %goto2 -> %126}
+	%8 = interface arg$1.size()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%10 = (%125 > %8)
+	if (%10) goto %if.then4 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%13 = (short) %125
+	%100 = virtual arg$0.createRow(%13)
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%17 = (%125 != 0)
+	if (%17) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	%20 = interface arg$1.get(%125)
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	%22 = (com/projectsample/libapachepoi/playground/additional/SampleDataDTO) %20
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%35 = virtual %22.getValuesMap()
+	goto %label3
+
+%label3: 	//predecessors %bb3
+	%27 = interface %35.size()
+	goto %bb4
+
+%bb4: 	//predecessors %label3
+	%29 = (%123 <= %27)
+	if (%29) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	goto %goto0
+
+%if.then0: 	//predecessors %bb4
+	%33 = interface %35.size()
+	goto %goto0
+
+%goto0: 	//predecessors %if.else2, %if.then0
+	%122 = phi {%if.else2 -> %123; %if.then0 -> %33}
+	goto %label4
+
+%label4: 	//predecessors %goto0
+	%37 = interface %35.entrySet()
+	goto %bb5
+
+%bb5: 	//predecessors %label4
+	%46 = interface %37.iterator()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %label5
+
+%label5: 	//predecessors %bb6, %label8
+	%61 = phi {%bb6 -> 1; %label8 -> %62}
+	%43 = interface %46.hasNext()
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%45 = (%43 == false)
+	if (%45) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb7
+	%48 = interface %46.next()
+	goto %bb8
+
+%bb8: 	//predecessors %if.else3
+	%55 = (java/util/Map$Entry) %48
+	goto %label6
+
+%label6: 	//predecessors %bb8
+	%53 = (short) %61
+	%59 = interface %100.createCell(%53)
+	goto %label7
+
+%label7: 	//predecessors %label6
+	%57 = interface %55.getKey()
+	goto %bb9
+
+%bb9: 	//predecessors %label7
+	%60 = (java/lang/String) %57
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	interface %59.setCellValue(%60)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%62 = %61 + 1
+	goto %label8
+
+%label8: 	//predecessors %bb11
+	goto %label5
+
+%if.then1: 	//predecessors %bb7
+	goto %goto2
+
+%if.then2: 	//predecessors %label2
+	%73 = interface %100.createCell(0)
+	goto %label9
+
+%label9: 	//predecessors %if.then2
+	%67 = %125 - 1
+	%69 = interface arg$1.get(%67)
+	goto %bb12
+
+%bb12: 	//predecessors %label9
+	%71 = (com/projectsample/libapachepoi/playground/additional/SampleDataDTO) %69
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%74 = virtual %71.getLabel()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	interface %73.setCellValue(%74)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%77 = %125 - 1
+	%79 = interface arg$1.get(%77)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%81 = (com/projectsample/libapachepoi/playground/additional/SampleDataDTO) %79
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%83 = virtual %81.getValuesMap()
+	goto %label10
+
+%label10: 	//predecessors %bb17
+	%85 = interface %83.entrySet()
+	goto %bb18
+
+%bb18: 	//predecessors %label10
+	%94 = interface %85.iterator()
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	goto %label11
+
+%label11: 	//predecessors %bb19, %label14
+	%120 = phi {%bb19 -> 1; %label14 -> %121}
+	%91 = interface %94.hasNext()
+	goto %bb20
+
+%bb20: 	//predecessors %label11
+	%93 = (%91 == false)
+	if (%93) goto %goto2 else %if.else4
+
+%if.else4: 	//predecessors %bb20
+	%96 = interface %94.next()
+	goto %bb21
+
+%bb21: 	//predecessors %if.else4
+	%112 = (java/util/Map$Entry) %96
+	goto %label12
+
+%label12: 	//predecessors %bb21
+	%101 = (short) %120
+	%118 = interface %100.createCell(%101)
+	goto %label13
+
+%label13: 	//predecessors %label12
+	%105 = (%125 != 0)
+	if (%105) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %label13
+	%108 = interface %112.getKey()
+	goto %bb22
+
+%bb22: 	//predecessors %if.else5
+	%111 = (java/lang/String) %108
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	interface %118.setCellValue(%111)
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	goto %goto1
+
+%if.then3: 	//predecessors %label13
+	%114 = interface %112.getValue()
+	goto %bb25
+
+%bb25: 	//predecessors %if.then3
+	%116 = (java/lang/Double) %114
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%119 = virtual %116.doubleValue()
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	interface %118.setCellValue(%119)
+	goto %goto1
+
+%goto1: 	//predecessors %bb24, %bb27
+	%121 = %120 + 1
+	goto %label14
+
+%label14: 	//predecessors %goto1
+	goto %label11
+
+%goto2: 	//predecessors %if.then1, %bb20
+	%124 = phi {%if.then1 -> %122; %bb20 -> %123}
+	%126 = %125 + 1
+	goto %label1
+
+%if.then4: 	//predecessors %bb1
+	return
+2026-06-28 21:51:59.815 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.apache.poi.xssf.streaming.SXSSFSheet
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-28 21:51:59.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.apache.poi.xssf.streaming.SXSSFSheet
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-28 21:51:59.816 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::generateExcelTableData(org/apache/poi/xssf/streaming/SXSSFSheet, java/util/List): void: null
+2026-06-28 21:51:59.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::<init>(): void processing is finished normally
+2026-06-28 21:51:59.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::exportAsExcel(java/util/List, java/util/List, com/projectsample/libapachepoi/chart/generators/ExcelChartProperties, java/lang/String): void processing is finished normally
+2026-06-28 21:51:59.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::writeExcelFile(org/apache/poi/xssf/streaming/SXSSFWorkbook, java/lang/String): void processing is finished normally
+2026-06-28 21:51:59.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/projectsample/libapachepoi/runner/ExcelMainLibRunner::generateExcelTableData(org/apache/poi/xssf/streaming/SXSSFSheet, java/util/List): void processing is finished normally
+2026-06-28 21:51:59.817 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-28 21:51:59.817 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

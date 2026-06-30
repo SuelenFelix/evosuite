@@ -1,0 +1,55 @@
+package de.schauderhaft.beyond.conversion;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static de.schauderhaft.beyond.conversion.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+
+public class ConversionApplication_main_3730475171 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term23;
+
+    public ConversionApplication_main_3730475171() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term23 = (Object[]) newArray("java.lang.String", 5);
+        setElement(term23, 0, "sjlJAEtRrb");
+        setElement(term23, 1, "MuLcgQHgqz");
+        setElement(term23, 2, "xxtlPwDYFs");
+        setElement(term23, 3, "jJCZpVmanW");
+        setElement(term23, 4, "EGtDIRbSSb");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("de.schauderhaft.beyond.conversion.ConversionApplication");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Array.newInstance(Class.forName("java.lang.String"), 0).getClass();
+        Object[] args = new Object[1];
+        args[0] = term23;
+        callMethod(klass, "main", argTypes, null, args);
+    }
+
+};
+
+

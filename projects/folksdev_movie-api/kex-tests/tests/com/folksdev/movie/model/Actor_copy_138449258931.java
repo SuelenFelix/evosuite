@@ -1,0 +1,62 @@
+package com.folksdev.movie.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.folksdev.movie.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class Actor_copy_138449258931 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term34375;
+
+    public Actor_copy_138449258931() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term34375 = newInstance(Class.forName("com.folksdev.movie.model.Actor"));
+        setField(term34375, term34375.getClass(), "id", null);
+        setField(term34375, term34375.getClass(), "name", null);
+        setField(term34375, term34375.getClass(), "dateOfBirth", null);
+        setField(term34375, term34375.getClass(), "gender", null);
+        setField(term34375, term34375.getClass(), "movies", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.folksdev.movie.model.Actor");
+        Class<?>[] argTypes = new Class<?>[5];
+        argTypes[0] = Class.forName("java.lang.String");
+        argTypes[1] = Class.forName("java.lang.String");
+        argTypes[2] = Class.forName("java.time.LocalDate");
+        argTypes[3] = Class.forName("com.folksdev.movie.model.Gender");
+        argTypes[4] = Class.forName("java.util.Set");
+        Object[] args = new Object[5];
+        args[0] = null;
+        args[1] = null;
+        args[2] = null;
+        args[3] = null;
+        args[4] = null;
+        callMethod(klass, "copy", argTypes, term34375, args);
+    }
+
+};
+
+

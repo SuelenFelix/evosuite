@@ -1,0 +1,63 @@
+package com.lyubenblagoev.postfixrest.service.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.lyubenblagoev.postfixrest.service.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Object;
+import java.lang.Boolean;
+
+public class DomainResource_getEnabled_75833991411 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term5834;
+
+    public DomainResource_getEnabled_75833991411() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term5835 = new Long(3452833434644634217L);
+        Boolean term5841 = new Boolean(true);
+        term5834 = newInstance(Class.forName("com.lyubenblagoev.postfixrest.service.model.DomainResource"));
+        Object term5837 = newInstance(Class.forName("java.util.Date"));
+        Object term5839 = newInstance(Class.forName("java.util.Date"));
+        setField(term5834, term5834.getClass(), "id", term5835);
+        setLongField(term5837, term5837.getClass(), "fastTime", 1831742729790L);
+        setField(term5837, term5837.getClass(), "cdate", null);
+        setField(term5834, term5834.getClass(), "created", term5837);
+        setLongField(term5839, term5839.getClass(), "fastTime", 1673375951909L);
+        setField(term5839, term5839.getClass(), "cdate", null);
+        setField(term5834, term5834.getClass(), "updated", term5839);
+        setField(term5834, term5834.getClass(), "enabled", term5841);
+        setField(term5834, term5834.getClass(), "name", "wKWbJssZuG");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.lyubenblagoev.postfixrest.service.model.DomainResource");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getEnabled", argTypes, term5834, args);
+    }
+
+};
+
+

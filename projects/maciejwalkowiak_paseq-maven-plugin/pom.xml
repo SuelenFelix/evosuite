@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.maciejwalkowiak.paseq</groupId>
@@ -176,9 +175,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-failsafe-plugin</artifactId>
         <configuration>
-          <!--
-		   ! currently needed to run integration tests.
-		  -->
+          
           <systemProperties>
             <maven.version>${maven.version}</maven.version>
             <maven.home>${maven.home}</maven.home>
@@ -218,7 +215,7 @@
           </execution>
         </executions>
       </plugin>
-    </plugins>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
   </build>
 
   <licenses>
@@ -257,7 +254,7 @@
                       <maven-central>
                         <active>ALWAYS</active>
                         <url>https://s01.oss.sonatype.org/service/local</url>;
-                        <!-- for now close and release manually -->
+                        
                         <closeRepository>false</closeRepository>
                         <releaseRepository>false</releaseRepository>
                         <stagingRepositories>target/staging-deploy</stagingRepositories>

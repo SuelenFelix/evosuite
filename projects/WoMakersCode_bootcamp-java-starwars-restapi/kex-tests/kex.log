@@ -1,0 +1,150 @@
+2026-06-28 22:40:09.460 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/WoMakersCode_bootcamp-java-starwars-restapi/target/classes
+2026-06-28 22:40:09.545 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-28 22:40:09.618 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-28 22:40:10.700 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-28 22:40:11.228 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/bootcampjava/startwars/service/*
+2026-06-28 22:40:11.229 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-28 22:40:11.251 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/WoMakersCode_bootcamp-java-starwars-restapi/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-28 22:40:11.283 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/WoMakersCode_bootcamp-java-starwars-restapi/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 38511 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/WoMakersCode_bootcamp-java-starwars-restapi/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-28 22:40:11.298 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-28 22:41:51.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/bootcampjava/startwars/service/JediService::<init>(com/bootcampjava/startwars/repository/JediRepositoryImpl): void
+2026-06-28 22:41:51.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/bootcampjava/startwars/service/JediService::<init>(com/bootcampjava/startwars/repository/JediRepositoryImpl): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.jediRepositoryImpl = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-06-28 22:41:51.800 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_init_15650499450
+2026-06-28 22:41:51.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/bootcampjava/startwars/service/JediService::findById(int): java/util/Optional
+2026-06-28 22:41:51.806 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/bootcampjava/startwars/service/JediService::findById(int): java/util/Optional
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = JediService.logger
+	%3 = static Integer.valueOf(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	interface %2.info("Find Jedi with id: {}", %3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = this.jediRepositoryImpl
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = static Integer.valueOf(arg$0)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = virtual %6.findById(%7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %9
+2026-06-28 22:41:51.915 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_findById_3477615671
+2026-06-28 22:41:51.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/bootcampjava/startwars/service/JediService::findAll(): java/util/List
+2026-06-28 22:41:51.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/bootcampjava/startwars/service/JediService::findAll(): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = JediService.logger
+	interface %1.info("Bring all the Jedis from the Galaxy")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.jediRepositoryImpl
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual %3.findAll()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-06-28 22:41:51.999 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_findAll_2215971602
+2026-06-28 22:41:52.000 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/bootcampjava/startwars/service/JediService::save(com/bootcampjava/startwars/model/Jedi): com/bootcampjava/startwars/model/Jedi
+2026-06-28 22:41:52.000 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/bootcampjava/startwars/service/JediService::save(com/bootcampjava/startwars/model/Jedi): com/bootcampjava/startwars/model/Jedi
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	virtual arg$0.setVersion(1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = JediService.logger
+	interface %1.info("Update Jedi from system")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = this.jediRepositoryImpl
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = virtual %3.save(arg$0)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %5
+2026-06-28 22:41:52.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_save_1291531053
+2026-06-28 22:41:52.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/bootcampjava/startwars/service/JediService::update(com/bootcampjava/startwars/model/Jedi): bool
+2026-06-28 22:41:52.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/bootcampjava/startwars/service/JediService::update(com/bootcampjava/startwars/model/Jedi): bool
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%1 = virtual this.save(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	goto %if.then0
+
+%if.then0: 	//predecessors %label1, %if.else0
+	%5 = phi {%label1 -> 0; %if.else0 -> 1}
+	return %5
+2026-06-28 22:41:52.150 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_update_4342265054
+2026-06-28 22:41:52.151 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/bootcampjava/startwars/service/JediService::delete(int): bool
+2026-06-28 22:41:52.151 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/bootcampjava/startwars/service/JediService::delete(int): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return 1
+2026-06-28 22:41:52.214 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_delete_3257309115
+2026-06-28 22:41:52.271 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_init_15650499456
+2026-06-28 22:41:52.336 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_findById_3477615677
+2026-06-28 22:41:52.413 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_findAll_2215971608
+2026-06-28 22:41:52.460 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_save_1291531059
+2026-06-28 22:41:52.514 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_update_43422650510
+2026-06-28 22:41:52.564 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.bootcampjava.startwars.service.JediService_delete_32573091111
+2026-06-28 22:41:52.564 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/bootcampjava/startwars/service/JediService::<init>(com/bootcampjava/startwars/repository/JediRepositoryImpl): void: null
+2026-06-28 22:41:52.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/bootcampjava/startwars/service/JediService::findById(int): java/util/Optional: null
+2026-06-28 22:41:52.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/bootcampjava/startwars/service/JediService::findAll(): java/util/List: null
+2026-06-28 22:41:52.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/bootcampjava/startwars/service/JediService::save(com/bootcampjava/startwars/model/Jedi): com/bootcampjava/startwars/model/Jedi: null
+2026-06-28 22:41:52.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/bootcampjava/startwars/service/JediService::update(com/bootcampjava/startwars/model/Jedi): bool: null
+2026-06-28 22:41:52.565 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/bootcampjava/startwars/service/JediService::delete(int): bool: null
+2026-06-28 22:41:52.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/bootcampjava/startwars/service/JediService::<init>(com/bootcampjava/startwars/repository/JediRepositoryImpl): void processing is finished normally
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/bootcampjava/startwars/service/JediService::findById(int): java/util/Optional processing is finished normally
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/bootcampjava/startwars/service/JediService::findAll(): java/util/List processing is finished normally
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/bootcampjava/startwars/service/JediService::save(com/bootcampjava/startwars/model/Jedi): com/bootcampjava/startwars/model/Jedi processing is finished normally
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/bootcampjava/startwars/service/JediService::update(com/bootcampjava/startwars/model/Jedi): bool processing is finished normally
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/bootcampjava/startwars/service/JediService::delete(int): bool processing is finished normally
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-28 22:41:52.566 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

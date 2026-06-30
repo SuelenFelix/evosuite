@@ -1,0 +1,57 @@
+package com.salomondev.interceptor.interceptor.dto;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.salomondev.interceptor.interceptor.dto.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class LoggerDto_setTimeResponseService_112605761537 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1999;
+
+    public LoggerDto_setTimeResponseService_112605761537() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term1999 = newInstance(Class.forName("com.salomondev.interceptor.interceptor.dto.LoggerDto"));
+        setField(term1999, term1999.getClass(), "method", null);
+        setField(term1999, term1999.getClass(), "ip", null);
+        setField(term1999, term1999.getClass(), "path", null);
+        setField(term1999, term1999.getClass(), "parametersIn", null);
+        setField(term1999, term1999.getClass(), "parametersOut", null);
+        setField(term1999, term1999.getClass(), "codeResponse", null);
+        setField(term1999, term1999.getClass(), "timeConsumeService", null);
+        setField(term1999, term1999.getClass(), "timeResponseService", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.salomondev.interceptor.interceptor.dto.LoggerDto");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = null;
+        callMethod(klass, "setTimeResponseService", argTypes, term1999, args);
+    }
+
+};
+
+

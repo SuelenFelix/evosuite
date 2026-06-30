@@ -1,0 +1,1380 @@
+2026-06-28 19:10:55.097 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes
+2026-06-28 19:10:55.304 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-28 19:10:55.349 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-28 19:10:56.167 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-28 19:10:56.696 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package utg/*
+2026-06-28 19:10:56.697 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-28 19:10:56.714 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-28 19:10:56.777 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33453 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/wdrammeh_utg-student-dashboard/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-28 19:10:56.791 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-28 19:12:36.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::<init>(): void
+2026-06-28 19:12:36.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-28 19:12:37.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_init_19992220390
+2026-06-28 19:12:37.363 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::transit(utg/Version, utg/Version): void
+2026-06-28 19:12:37.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::transit(utg/Version, utg/Version): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Version.parse("v1.1.5")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual arg$0.compare(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (%3 != -1)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%11 = new java/lang/String[2]
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%9 = static System.getProperty("user.home")
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%11[0] = %9
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11[1] = ".dashboard"
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%20 = static Globals.joinPaths(%11)
+	goto %label0
+
+%label0: 	//predecessors %bb6
+	%18 = new java/lang/String[2]
+	goto %bb7
+
+%bb7: 	//predecessors %label0
+	%16 = static System.getProperty("user.home")
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%18[0] = %16
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%18[1] = ".utgsd"
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%21 = static Globals.joinPaths(%18)
+	goto %label1
+
+%label1: 	//predecessors %bb10
+	static Transition.copyDirectory(%20, %21)
+	goto %bb11
+
+%bb11: 	//predecessors %label1
+	goto %if.then0
+
+%catch0: 	//catches from %bb5, %bb6, %bb8, %label1, %label0, %bb9, %if.else0, %bb3, %bb7, %bb4, %bb10
+	%23 = catch java/io/IOException
+goto %label2
+
+%label2: 	//predecessors %catch0
+	static App.silenceException(%23)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb11, %label2
+	return
+2026-06-28 19:12:37.537 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_transit_17717473701
+2026-06-28 19:12:37.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void
+2026-06-28 19:12:37.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Transition::copyDirectory(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = new java/lang/String[0]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = static Paths.get(arg$0, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = new java/nio/file/FileVisitOption[0]
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = static Files.walk(%4, %5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = invokeDynamic (java/lang/String, java/lang/String): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/nio/file/Path): void)), HandleBsmArgument(handle=@utg/Transition::lambda$copyDirectory$0(java/lang/String, java/lang/String, java/nio/file/Path): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	interface %8.forEach(%9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return
+2026-06-28 19:12:37.659 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_copyDirectory_11966323352
+2026-06-28 19:12:37.765 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_init_19992220393
+2026-06-28 19:12:37.860 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_transit_17717473704
+2026-06-28 19:12:37.957 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Transition_copyDirectory_11966323355
+2026-06-28 19:12:37.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::<init>(): void: null
+2026-06-28 19:12:37.960 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::transit(utg/Version, utg/Version): void: null
+2026-06-28 19:12:37.961 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void: null
+2026-06-28 19:12:37.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::<init>(): void processing is finished normally
+2026-06-28 19:12:37.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::transit(utg/Version, utg/Version): void processing is finished normally
+2026-06-28 19:12:37.962 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Transition::copyDirectory(java/lang/String, java/lang/String): void processing is finished normally
+2026-06-28 19:12:37.973 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::<init>(int, int, int): void
+2026-06-28 19:12:37.974 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::<init>(int, int, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.major = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.minor = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.patch = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-06-28 19:12:38.054 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_init_6593593060
+2026-06-28 19:12:38.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::parse(java/lang/String): utg/Version
+2026-06-28 19:12:38.055 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::parse(java/lang/String): utg/Version
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.strip()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.replace("v", "")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%14 = virtual %3.split("[.]")
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%28 = new utg/Version
+	%8 = %14[0]
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%19 = static Integer.parseInt(%8)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%12 = %14[1]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%20 = static Integer.parseInt(%12)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%16 = %14[2]
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%21 = static Integer.parseInt(%16)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	special %28.<init>(%19, %20, %21)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %bb.return0
+
+%catch0: 	//catches from %bb3, %label0, %bb4, %bb1, %bb5, %bb2, %bb7, %bb0, %bb8, %bb6
+	%22 = catch java/lang/Exception
+goto %label1
+
+%label1: 	//predecessors %catch0
+	%25 = new java/lang/Object[1]
+	goto %bb10
+
+%bb10: 	//predecessors %label1
+	%25[0] = arg$0
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%27 = static String.format("Parse failed. Invalid version literal '%s'", %25)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	static App.silenceInfo(%27)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb9, %bb13
+	%retval1 = phi {%bb9 -> %28; %bb13 -> null}
+	return %retval1
+2026-06-28 19:12:38.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_parse_10237415851
+2026-06-28 19:12:38.128 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::getDeprecateTime(): java/util/Date
+2026-06-28 19:12:38.128 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::getDeprecateTime(): java/util/Date
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.deprecateTime
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-28 19:12:38.194 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_getDeprecateTime_8139155162
+2026-06-28 19:12:38.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::setDeprecateTime(java/util/Date): void
+2026-06-28 19:12:38.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::setDeprecateTime(java/util/Date): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.deprecateTime = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-28 19:12:38.271 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_setDeprecateTime_5042705463
+2026-06-28 19:12:38.271 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::toLiteral(): java/lang/String
+2026-06-28 19:12:38.272 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::toLiteral(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%16 = new java/lang/Object[3]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.major
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = static Integer.valueOf(%2)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%16[0] = %5
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7 = this.minor
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%10 = static Integer.valueOf(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%16[1] = %10
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%12 = this.patch
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%15 = static Integer.valueOf(%12)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%16[2] = %15
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%18 = static Globals.join(".", %16)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%20 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="v"))
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	return %20
+2026-06-28 19:12:38.335 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toLiteral_10330641034
+2026-06-28 19:12:38.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::toString(): java/lang/String
+2026-06-28 19:12:38.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.toLiteral()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-28 19:12:38.405 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toString_1158120015
+2026-06-28 19:12:38.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::equals(java/lang/String): bool
+2026-06-28 19:12:38.406 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::equals(java/lang/String): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Version.parse(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual this.compare(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (%3 != 0)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	goto %goto0
+
+%if.then0: 	//predecessors %bb2
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%7 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %7
+2026-06-28 19:12:38.467 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_equals_6215240106
+2026-06-28 19:12:38.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Version::compare(utg/Version): int
+2026-06-28 19:12:38.468 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Version::compare(utg/Version): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%4 = virtual this.toString()
+	goto %bb1
+
+%bb1: 	//predecessors %if.then0
+	%5 = virtual arg$0.toString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = virtual %4.equals(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = (%7 == false)
+	if (%9) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb3
+	%12 = this.major
+	goto %bb4
+
+%bb4: 	//predecessors %if.then1
+	%13 = arg$0.major
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%15 = (%12 <= %13)
+	if (%15) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb5
+	%18 = this.major
+	goto %bb6
+
+%bb6: 	//predecessors %if.then2
+	%19 = arg$0.major
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%21 = (%18 >= %19)
+	if (%21) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb7
+	goto %bb.return0
+
+%if.then3: 	//predecessors %bb7
+	%24 = this.minor
+	goto %bb8
+
+%bb8: 	//predecessors %if.then3
+	%25 = arg$0.minor
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%27 = (%24 <= %25)
+	if (%27) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb9
+	goto %bb.return0
+
+%if.then4: 	//predecessors %bb9
+	%30 = this.minor
+	goto %bb10
+
+%bb10: 	//predecessors %if.then4
+	%31 = arg$0.minor
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%33 = (%30 >= %31)
+	if (%33) goto %if.then5 else %if.else5
+
+%if.else5: 	//predecessors %bb11
+	goto %bb.return0
+
+%if.then5: 	//predecessors %bb11
+	%36 = this.patch
+	goto %bb12
+
+%bb12: 	//predecessors %if.then5
+	%37 = arg$0.patch
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%39 = (%36 <= %37)
+	if (%39) goto %if.then6 else %if.else6
+
+%if.else6: 	//predecessors %bb13
+	goto %goto0
+
+%if.then6: 	//predecessors %bb13
+	goto %goto0
+
+%goto0: 	//predecessors %if.else6, %if.then6
+	%41 = phi {%if.else6 -> 1; %if.then6 -> -1}
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %if.else3, %if.else4, %if.else5, %goto0
+	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 1; %if.else3 -> -1; %if.else4 -> 1; %if.else5 -> -1; %goto0 -> %41}
+	return %retval1
+2026-06-28 19:12:38.533 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_compare_10279769247
+2026-06-28 19:12:38.591 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_init_6593593068
+2026-06-28 19:12:38.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_parse_10237415859
+2026-06-28 19:12:38.725 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_getDeprecateTime_81391551610
+2026-06-28 19:12:38.795 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_setDeprecateTime_50427054611
+2026-06-28 19:12:38.865 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toLiteral_103306410312
+2026-06-28 19:12:38.941 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_toString_11581200113
+2026-06-28 19:12:39.008 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_equals_62152401014
+2026-06-28 19:12:39.085 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Version_compare_102797692415
+2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::<init>(int, int, int): void: null
+2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::parse(java/lang/String): utg/Version: null
+2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::getDeprecateTime(): java/util/Date: null
+2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::setDeprecateTime(java/util/Date): void: null
+2026-06-28 19:12:39.086 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::toLiteral(): java/lang/String: null
+2026-06-28 19:12:39.087 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::toString(): java/lang/String: null
+2026-06-28 19:12:39.087 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::equals(java/lang/String): bool: null
+2026-06-28 19:12:39.087 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Version::compare(utg/Version): int: null
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::<init>(int, int, int): void processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::parse(java/lang/String): utg/Version processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::getDeprecateTime(): java/util/Date processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::setDeprecateTime(java/util/Date): void processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::toLiteral(): java/lang/String processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::toString(): java/lang/String processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::equals(java/lang/String): bool processing is finished normally
+2026-06-28 19:12:39.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Version::compare(utg/Version): int processing is finished normally
+2026-06-28 19:12:39.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::<init>(): void
+2026-06-28 19:12:39.109 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-28 19:12:39.175 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_init_18783412400
+2026-06-28 19:12:39.176 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::main(java/lang/String[]): void
+2026-06-28 19:12:39.176 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = Dashboard.PREVIEW
+	virtual %1.setVisible(1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = arg$0.length
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = (%5 < 1)
+	if (%7) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%9 = arg$0[0]
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	Dashboard.path = %9
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1, %bb2
+	%11 = static Dashboard.getDefaultPath()
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	Dashboard.path = %11
+	goto %goto0
+
+%goto0: 	//predecessors %bb3, %bb4
+	%16 = new java/io/File
+	%15 = Dashboard.path
+	special %16.<init>(%15)
+	goto %label0
+
+%label0: 	//predecessors %goto0
+	%18 = virtual %16.exists()
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	%20 = (%18 == false)
+	if (%20) goto %if.then9 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%28 = new java/io/File
+	%24 = new java/lang/String[1]
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	%24[0] = "configs.ser"
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%27 = static Serializer.inPath(%24)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	special %28.<init>(%27)
+	goto %label1
+
+%label1: 	//predecessors %bb8
+	%30 = virtual %28.exists()
+	goto %bb9
+
+%bb9: 	//predecessors %label1
+	%32 = (%30 == false)
+	if (%32) goto %if.then8 else %if.else3
+
+%if.else3: 	//predecessors %bb9
+	%130 = static Dashboard.getLastConfigs()
+	goto %label2
+
+%label2: 	//predecessors %if.else3
+	%36 = virtual %130.isEmpty()
+	goto %bb10
+
+%bb10: 	//predecessors %label2
+	%38 = (%36 == false)
+	if (%38) goto %if.then1 else %if.else4
+
+%if.else4: 	//predecessors %bb10
+	static App.silenceException("Bad configuration files. Launching a new instance...")
+	goto %bb11
+
+%bb11: 	//predecessors %if.else4
+	static Dashboard.freshStart()
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	goto %goto2
+
+%if.then1: 	//predecessors %bb10
+	%41 = virtual %130.get("isAuthentic")
+	goto %bb13
+
+%bb13: 	//predecessors %if.then1
+	%43 = (java/lang/String) %41
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%45 = static Boolean.parseBoolean(%43)
+	goto %label3
+
+%label3: 	//predecessors %bb14
+	%47 = (%45 != false)
+	if (%47) goto %if.then2 else %if.else5
+
+%if.else5: 	//predecessors %label3
+	%49 = Dashboard.PREVIEW
+	virtual %49.dispose()
+	goto %bb15
+
+%bb15: 	//predecessors %if.else5
+	static Dashboard.reportAuthenticationError()
+	goto %if.then2
+
+%if.then2: 	//predecessors %label3, %bb15
+	%52 = virtual %130.get("version")
+	goto %bb16
+
+%bb16: 	//predecessors %if.then2
+	%54 = (java/lang/String) %52
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%123 = static Version.parse(%54)
+	goto %label4
+
+%label4: 	//predecessors %bb17
+	%57 = Dashboard.VERSION
+	%102 = virtual %57.compare(%123)
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%62 = (%102 != -1)
+	if (%62) goto %if.then3 else %if.else6
+
+%if.else6: 	//predecessors %label5
+	%64 = Dashboard.PREVIEW
+	virtual %64.dispose()
+	goto %bb18
+
+%bb18: 	//predecessors %if.else6
+	%67 = static String.valueOf(%123)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%69 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="You're trying to launch Dashboard from an unsupported configuration.
+Please use Dashboard version '', or later."))
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	static App.reportError(null, "Version Error | Downgrade Detected", %69)
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	static System.exit(0)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	goto %goto1
+
+%if.then3: 	//predecessors %label5
+	%72 = (%102 != 0)
+	if (%72) goto %if.then6 else %if.else7
+
+%if.else7: 	//predecessors %if.then3
+	%75 = virtual %130.get("deprecateTime")
+	goto %bb23
+
+%bb23: 	//predecessors %if.else7
+	%97 = (java/lang/String) %75
+	goto %label6
+
+%label6: 	//predecessors %bb23
+	%79 = static Globals.hasText(%97)
+	goto %bb24
+
+%bb24: 	//predecessors %label6
+	%81 = (%79 == false)
+	if (%81) goto %if.then5 else %if.else8
+
+%if.else8: 	//predecessors %bb24
+	%90 = static MDate.parseDayTime(%97)
+	goto %label7
+
+%label7: 	//predecessors %if.else8
+	%85 = Dashboard.VERSION
+	virtual %85.setDeprecateTime(%90)
+	goto %bb25
+
+%bb25: 	//predecessors %label7
+	%89 = new java/util/Date
+	special %89.<init>()
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%92 = virtual %89.after(%90)
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%94 = (%92 == false)
+	if (%94) goto %if.then4 else %if.else9
+
+%if.else9: 	//predecessors %bb27
+	static App.reportError(null, "Dashboard Outdated", "This version of Dashboard is outdated. You must update...
+https://github.com/wdrammeh/utg-student-dashboard#install")
+	goto %bb28
+
+%bb28: 	//predecessors %if.else9
+	static System.exit(0)
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	goto %if.then5
+
+%if.then4: 	//predecessors %bb27
+	%99 = new java/lang/Object[2]
+	goto %bb30
+
+%bb30: 	//predecessors %if.then4
+	%99[0] = %97
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%99[1] = "https://github.com/wdrammeh/utg-student-dashboard#install"
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%101 = static String.format("This version will be outdated by '%s'. Kindly download the latest version: %s", %99)
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	static App.silenceWarning(%101)
+	goto %if.then5
+
+%if.then5: 	//predecessors %bb24, %bb29, %bb33
+	goto %goto1
+
+%if.then6: 	//predecessors %if.then3
+	%104 = (%102 != 1)
+	if (%104) goto %goto1 else %if.else10
+
+%if.else10: 	//predecessors %if.then6
+	static App.silenceInfo("A version upgrade detected.")
+	goto %bb34
+
+%bb34: 	//predecessors %if.else10
+	%107 = Dashboard.VERSION
+	static Transition.transit(%123, %107)
+	goto %bb35
+
+%bb35: 	//predecessors %bb34
+	%113 = new java/lang/CharSequence[4]
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%113[0] = "https://github.com/wdrammeh/utg-student-dashboard"
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	%113[1] = "blob"
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	%113[2] = "master"
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	%113[3] = "ChangeLog.md"
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	%124 = static String.join("/", %113)
+	goto %label8
+
+%label8: 	//predecessors %bb40
+	%119 = Board.POST_PROCESSES
+	%120 = invokeDynamic (utg/Version, java/lang/String): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@utg/Dashboard::lambda$main$0(utg/Version, java/lang/String): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb41
+
+%bb41: 	//predecessors %label8
+	%121 = virtual %119.add(%120)
+	goto %label9
+
+%label9: 	//predecessors %bb41
+	%126 = Board.POST_PROCESSES
+	%127 = invokeDynamic (utg/Version, java/lang/String): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@utg/Dashboard::lambda$main$1(utg/Version, java/lang/String): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb42
+
+%bb42: 	//predecessors %label9
+	%128 = virtual %126.add(%127)
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	goto %goto1
+
+%goto1: 	//predecessors %bb22, %if.then5, %if.then6, %bb43
+	%132 = static Globals.userName()
+	goto %bb44
+
+%bb44: 	//predecessors %goto1
+	%133 = virtual %130.get("userName")
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%135 = virtual %132.equals(%133)
+	goto %bb46
+
+%bb46: 	//predecessors %bb45
+	%137 = (%135 == false)
+	if (%137) goto %if.then7 else %if.else11
+
+%if.else11: 	//predecessors %bb46
+	static Dashboard.rebuildNow(1)
+	goto %bb47
+
+%bb47: 	//predecessors %if.else11
+	goto %goto2
+
+%if.then7: 	//predecessors %bb46
+	static Dashboard.verifyUser(1)
+	goto %goto2
+
+%goto2: 	//predecessors %bb12, %bb47, %if.then7
+	goto %goto3
+
+%if.then8: 	//predecessors %bb9
+	static App.silenceException("Missing configuration files. Launching a new instance...")
+	goto %bb48
+
+%bb48: 	//predecessors %if.then8
+	static Dashboard.freshStart()
+	goto %goto3
+
+%goto3: 	//predecessors %goto2, %bb48
+	goto %goto4
+
+%if.then9: 	//predecessors %bb5
+	static Dashboard.freshStart()
+	goto %goto4
+
+%goto4: 	//predecessors %goto3, %if.then9
+	return
+2026-06-28 19:12:39.232 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_main_15017782361
+2026-06-28 19:12:39.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::storeConfigs(): void
+2026-06-28 19:12:39.233 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::storeConfigs(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%21 = new java/lang/Object[4]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = Dashboard.isAuthentic
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = static Boolean.valueOf(%2)
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%21[0] = %5
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = static Globals.userName()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%21[1] = %8
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = Dashboard.VERSION
+	%21[2] = %11
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%13 = Dashboard.VERSION
+	%15 = virtual %13.getDeprecateTime()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%17 = static MDate.toSerial(%15)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%20 = static Long.valueOf(%17)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%21[3] = %20
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%27 = static Globals.joinLines(%21)
+	goto %label1
+
+%label1: 	//predecessors %bb10
+	%25 = new java/lang/String[1]
+	goto %bb11
+
+%bb11: 	//predecessors %label1
+	%25[0] = "configs.ser"
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%28 = static Serializer.inPath(%25)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	static Serializer.toDisk(%27, %28)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	return
+2026-06-28 19:12:39.282 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_storeConfigs_20367221342
+2026-06-28 19:12:39.283 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getLastConfigs(): java/util/HashMap
+2026-06-28 19:12:39.283 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getLastConfigs(): java/util/HashMap
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%39 = new java/util/HashMap
+	special %39.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = new java/lang/String[1]
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%4[0] = "configs.ser"
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = static Serializer.inPath(%4)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%11 = static Serializer.fromDisk(%6)
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%10 = (%11 == null)
+	if (%10) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%13 = (java/lang/String) %11
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%30 = static Globals.splitLines(%13)
+	goto %label2
+
+%label2: 	//predecessors %bb4
+	%18 = %30[0]
+	goto %bb5
+
+%bb5: 	//predecessors %label2
+	%19 = virtual %39.put("isAuthentic", %18)
+	goto %label3
+
+%label3: 	//predecessors %bb5
+	%23 = %30[1]
+	goto %bb6
+
+%bb6: 	//predecessors %label3
+	%24 = virtual %39.put("userName", %23)
+	goto %label4
+
+%label4: 	//predecessors %bb6
+	%28 = %30[2]
+	goto %bb7
+
+%bb7: 	//predecessors %label4
+	%29 = virtual %39.put("version", %28)
+	goto %label5
+
+%label5: 	//predecessors %bb7
+	%32 = %30[3]
+	goto %bb8
+
+%bb8: 	//predecessors %label5
+	%34 = static MDate.fromSerial(%32)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%37 = static MDate.formatDayTime(%34)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%38 = virtual %39.put("deprecateTime", %37)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %if.then0
+
+%if.then0: 	//predecessors %label1, %bb11
+	return %39
+2026-06-28 19:12:39.335 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getLastConfigs_9379385553
+2026-06-28 19:12:39.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::freshStart(): void
+2026-06-28 19:12:39.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::freshStart(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	Dashboard.isFirst = 1
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%5 = new core/first/Welcome
+	special %5.<init>()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%3 = Dashboard.PREVIEW
+	virtual %3.dispose()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	virtual %5.setVisible(1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = invokeDynamic (core/first/Welcome): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@utg/Dashboard::lambda$freshStart$2(core/first/Welcome): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	static SwingUtilities.invokeLater(%7)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-06-28 19:12:39.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_freshStart_5874020744
+2026-06-28 19:12:39.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::verifyUser(bool): void
+2026-06-28 19:12:39.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::verifyUser(bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == false)
+	if (%1) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	static Student.initialize()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%3 = static Student.isGuest()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (%3 == false)
+	if (%5) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	static Dashboard.rebuildNow(0)
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	goto %if.then1
+
+%catch0: 	//catches from %bb2, %bb1, %if.else0, %if.else1
+	%6 = catch java/lang/Exception
+goto %label0
+
+%label0: 	//predecessors %catch0
+	static App.silenceException("Failed to read user data. Launching a new instance...")
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	static Dashboard.freshStart()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb0, %if.then0
+	%8 = Dashboard.PREVIEW
+	virtual %8.setVisible(0)
+	goto %bb6
+
+%bb6: 	//predecessors %if.then1
+	%11 = static Dashboard.requestPassword()
+	goto %label1
+
+%label1: 	//predecessors %bb6
+	%12 = static Student.getMatNumber()
+	goto %bb7
+
+%bb7: 	//predecessors %label1
+	%14 = virtual %11.equals(%12)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%16 = (%14 == false)
+	if (%16) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb8
+	%18 = Dashboard.PREVIEW
+	virtual %18.setVisible(1)
+	goto %bb9
+
+%bb9: 	//predecessors %if.else2
+	static Dashboard.rebuildNow(0)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto0
+
+%if.then2: 	//predecessors %bb8
+	%21 = static Student.getFullNamePostOrder()
+	goto %label2
+
+%label2: 	//predecessors %if.then2
+	%23 = Dashboard.PREVIEW
+	%24 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Incorrect Matriculation Number for ''. Try again."))
+	goto %bb11
+
+%bb11: 	//predecessors %label2
+	static App.reportError(%23, "Error", %24)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	static Dashboard.verifyUser(0)
+	goto %goto0
+
+%goto0: 	//predecessors %bb10, %bb12
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb3, %bb5, %goto0
+	return
+2026-06-28 19:12:39.444 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_verifyUser_21132310925
+2026-06-28 19:12:39.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::requestPassword(): java/lang/String
+2026-06-28 19:12:39.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::requestPassword(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Student.getFullNamePostOrder()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="This Dashboard belongs to ''.
+Please enter your Matriculation Number to confirm:"))
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%14 = static App.requestInput(null, "Dashboard", %3)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%7 = (%14 != null)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	static System.exit(0)
+	goto %if.then0
+
+%if.then0: 	//predecessors %label1, %if.else0
+	%10 = static Globals.hasText(%14)
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%12 = (%10 == false)
+	if (%12) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	goto %goto0
+
+%if.then1: 	//predecessors %bb2
+	%15 = static Dashboard.requestPassword()
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then1
+	%17 = phi {%if.else1 -> %14; %if.then1 -> %15}
+	return %17
+2026-06-28 19:12:39.495 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_requestPassword_10897024636
+2026-06-28 19:12:39.496 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::rebuildNow(bool): void
+2026-06-28 19:12:39.496 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::rebuildNow(bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == false)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	static Student.initialize()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	goto %if.then0
+
+%catch0: 	//catches from %if.else0
+	%2 = catch java/lang/Exception
+goto %label0
+
+%label0: 	//predecessors %catch0
+	static App.silenceException("Failed to read user data. Launching a new instance...")
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	static Dashboard.freshStart()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0, %bb1
+	%4 = invokeDynamic (): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@utg/Dashboard::lambda$rebuildNow$3(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	static SwingUtilities.invokeLater(%4)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb3, %bb5
+	return
+2026-06-28 19:12:39.549 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_rebuildNow_13185428137
+2026-06-28 19:12:39.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::setFirst(bool): void
+2026-06-28 19:12:39.549 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::setFirst(bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	Dashboard.isFirst = arg$0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	return
+2026-06-28 19:12:39.604 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setFirst_5652797668
+2026-06-28 19:12:39.604 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::isFirst(): bool
+2026-06-28 19:12:39.605 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::isFirst(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = Dashboard.isFirst
+	return %1
+2026-06-28 19:12:39.655 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_isFirst_13031764729
+2026-06-28 19:12:39.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::setAuthentic(bool): void
+2026-06-28 19:12:39.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::setAuthentic(bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	Dashboard.isAuthentic = arg$0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	return
+2026-06-28 19:12:39.706 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setAuthentic_65621344310
+2026-06-28 19:12:39.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getPath(): java/lang/String
+2026-06-28 19:12:39.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getPath(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = Dashboard.path
+	return %1
+2026-06-28 19:12:39.760 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getPath_134950907411
+2026-06-28 19:12:39.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::getDefaultPath(): java/lang/String
+2026-06-28 19:12:39.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::getDefaultPath(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%5 = new java/lang/String[2]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static System.getProperty("user.home")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5[1] = ".utgsd"
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7 = static Globals.joinPaths(%5)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %7
+2026-06-28 19:12:39.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getDefaultPath_40145888712
+2026-06-28 19:12:39.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method utg/Dashboard::reportAuthenticationError(): void
+2026-06-28 19:12:39.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - utg/Dashboard::reportAuthenticationError(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	static App.reportWarning(null, "Authentication Error", "This program is either not verified, or no longer supported.
+Contact the developers: 'utgdashboard@gmail.com'.")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	static System.exit(0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-06-28 19:12:39.883 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_reportAuthenticationError_6763465413
+2026-06-28 19:12:39.949 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_init_187834124014
+2026-06-28 19:12:40.125 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_main_150177823615
+2026-06-28 19:12:40.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_storeConfigs_203672213416
+2026-06-28 19:12:40.256 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getLastConfigs_93793855517
+2026-06-28 19:12:40.318 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_freshStart_58740207418
+2026-06-28 19:12:40.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_verifyUser_211323109219
+2026-06-28 19:12:40.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_requestPassword_108970246320
+2026-06-28 19:12:40.512 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_rebuildNow_131854281321
+2026-06-28 19:12:40.575 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setFirst_56527976622
+2026-06-28 19:12:40.636 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_isFirst_130317647223
+2026-06-28 19:12:40.699 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_setAuthentic_65621344324
+2026-06-28 19:12:40.759 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getPath_134950907425
+2026-06-28 19:12:40.821 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_getDefaultPath_40145888726
+2026-06-28 19:12:40.884 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test utg.Dashboard_reportAuthenticationError_6763465427
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::<init>(): void: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::main(java/lang/String[]): void: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::storeConfigs(): void: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getLastConfigs(): java/util/HashMap: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::freshStart(): void: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::verifyUser(bool): void: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::requestPassword(): java/lang/String: null
+2026-06-28 19:12:40.885 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::rebuildNow(bool): void: null
+2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::setFirst(bool): void: null
+2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::isFirst(): bool: null
+2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::setAuthentic(bool): void: null
+2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getPath(): java/lang/String: null
+2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::getDefaultPath(): java/lang/String: null
+2026-06-28 19:12:40.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method utg/Dashboard::reportAuthenticationError(): void: null
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::<init>(): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::main(java/lang/String[]): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::storeConfigs(): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getLastConfigs(): java/util/HashMap processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::freshStart(): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::verifyUser(bool): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::requestPassword(): java/lang/String processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::rebuildNow(bool): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::setFirst(bool): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::isFirst(): bool processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::setAuthentic(bool): void processing is finished normally
+2026-06-28 19:12:40.886 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getPath(): java/lang/String processing is finished normally
+2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::getDefaultPath(): java/lang/String processing is finished normally
+2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method utg/Dashboard::reportAuthenticationError(): void processing is finished normally
+2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-28 19:12:40.887 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

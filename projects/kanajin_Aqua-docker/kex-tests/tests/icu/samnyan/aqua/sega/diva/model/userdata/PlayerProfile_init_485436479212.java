@@ -1,0 +1,216 @@
+package icu.samnyan.aqua.sega.diva.model.userdata;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.diva.model.userdata.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Integer;
+import java.lang.Boolean;
+
+public class PlayerProfile_init_485436479212 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term945276;
+     Object term945278;
+     Object term945280;
+     Object term945282;
+     Object term945284;
+     Object term945286;
+     Object term945288;
+     Object term945290;
+     Object term945292;
+     Object term945294;
+     Object term945296;
+     Object term945298;
+     Object term945300;
+     Object term945302;
+     Object term945304;
+     Object term945306;
+     Object term945308;
+     Object term945310;
+     Object term945312;
+     Object term945314;
+     Object term945316;
+     Object term945318;
+     Object term945320;
+     Object term945322;
+     Object term945324;
+     Object term945326;
+     Object term945328;
+     Object term945330;
+     Object term945332;
+     Object term945334;
+     Object term945336;
+     Object term945338;
+     Object term945340;
+     Object term945342;
+
+    public PlayerProfile_init_485436479212() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term945276 = new Long(0L);
+        term945278 = new Integer(0);
+        term945280 = new Integer(0);
+        term945282 = new Integer(0);
+        term945284 = new Integer(0);
+        term945286 = new Integer(0);
+        term945288 = new Integer(0);
+        term945290 = new Boolean(false);
+        term945292 = new Boolean(false);
+        term945294 = new Boolean(false);
+        term945296 = new Boolean(false);
+        term945298 = new Boolean(false);
+        term945300 = new Boolean(false);
+        term945302 = new Boolean(false);
+        term945304 = new Integer(0);
+        term945306 = new Integer(0);
+        term945308 = new Boolean(false);
+        term945310 = new Integer(0);
+        term945312 = new Integer(0);
+        term945314 = new Integer(0);
+        term945316 = new Integer(0);
+        term945318 = new Integer(0);
+        term945320 = new Integer(0);
+        term945322 = new Integer(0);
+        term945324 = new Boolean(false);
+        term945326 = new Boolean(false);
+        term945328 = new Boolean(false);
+        term945330 = new Boolean(false);
+        term945332 = new Boolean(false);
+        term945334 = new Boolean(false);
+        term945336 = new Boolean(false);
+        term945338 = new Integer(0);
+        term945340 = new Integer(0);
+        term945342 = new Integer(0);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.diva.model.userdata.PlayerProfile");
+        Class<?>[] argTypes = new Class<?>[50];
+        argTypes[0] = long.class;
+        argTypes[1] = int.class;
+        argTypes[2] = Class.forName("java.lang.String");
+        argTypes[3] = int.class;
+        argTypes[4] = int.class;
+        argTypes[5] = int.class;
+        argTypes[6] = Class.forName("java.lang.String");
+        argTypes[7] = int.class;
+        argTypes[8] = int.class;
+        argTypes[9] = Class.forName("icu.samnyan.aqua.sega.diva.model.common.PassStat");
+        argTypes[10] = Class.forName("java.lang.String");
+        argTypes[11] = boolean.class;
+        argTypes[12] = boolean.class;
+        argTypes[13] = boolean.class;
+        argTypes[14] = boolean.class;
+        argTypes[15] = boolean.class;
+        argTypes[16] = boolean.class;
+        argTypes[17] = boolean.class;
+        argTypes[18] = Class.forName("java.lang.String");
+        argTypes[19] = Class.forName("java.lang.String");
+        argTypes[20] = Class.forName("java.time.LocalDateTime");
+        argTypes[21] = Class.forName("java.lang.String");
+        argTypes[22] = int.class;
+        argTypes[23] = int.class;
+        argTypes[24] = boolean.class;
+        argTypes[25] = int.class;
+        argTypes[26] = int.class;
+        argTypes[27] = int.class;
+        argTypes[28] = int.class;
+        argTypes[29] = int.class;
+        argTypes[30] = int.class;
+        argTypes[31] = Class.forName("icu.samnyan.aqua.sega.diva.model.common.SortMode");
+        argTypes[32] = int.class;
+        argTypes[33] = Class.forName("icu.samnyan.aqua.sega.diva.model.common.Difficulty");
+        argTypes[34] = Class.forName("icu.samnyan.aqua.sega.diva.model.common.Edition");
+        argTypes[35] = boolean.class;
+        argTypes[36] = boolean.class;
+        argTypes[37] = boolean.class;
+        argTypes[38] = boolean.class;
+        argTypes[39] = boolean.class;
+        argTypes[40] = boolean.class;
+        argTypes[41] = boolean.class;
+        argTypes[42] = int.class;
+        argTypes[43] = int.class;
+        argTypes[44] = Class.forName("icu.samnyan.aqua.sega.diva.model.common.ContestBorder");
+        argTypes[45] = Class.forName("java.lang.String");
+        argTypes[46] = Class.forName("java.lang.String");
+        argTypes[47] = Class.forName("java.lang.String");
+        argTypes[48] = Class.forName("java.lang.String");
+        argTypes[49] = int.class;
+        Object[] args = new Object[50];
+        args[0] = term945276;
+        args[1] = term945278;
+        args[2] = null;
+        args[3] = term945280;
+        args[4] = term945282;
+        args[5] = term945284;
+        args[6] = null;
+        args[7] = term945286;
+        args[8] = term945288;
+        args[9] = null;
+        args[10] = null;
+        args[11] = term945290;
+        args[12] = term945292;
+        args[13] = term945294;
+        args[14] = term945296;
+        args[15] = term945298;
+        args[16] = term945300;
+        args[17] = term945302;
+        args[18] = null;
+        args[19] = null;
+        args[20] = null;
+        args[21] = null;
+        args[22] = term945304;
+        args[23] = term945306;
+        args[24] = term945308;
+        args[25] = term945310;
+        args[26] = term945312;
+        args[27] = term945314;
+        args[28] = term945316;
+        args[29] = term945318;
+        args[30] = term945320;
+        args[31] = null;
+        args[32] = term945322;
+        args[33] = null;
+        args[34] = null;
+        args[35] = term945324;
+        args[36] = term945326;
+        args[37] = term945328;
+        args[38] = term945330;
+        args[39] = term945332;
+        args[40] = term945334;
+        args[41] = term945336;
+        args[42] = term945338;
+        args[43] = term945340;
+        args[44] = null;
+        args[45] = null;
+        args[46] = null;
+        args[47] = null;
+        args[48] = null;
+        args[49] = term945342;
+        Object instance = callConstructor(klass, argTypes, args);
+    }
+
+};
+
+

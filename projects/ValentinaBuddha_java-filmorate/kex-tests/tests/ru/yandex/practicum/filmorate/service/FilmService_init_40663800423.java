@@ -1,0 +1,55 @@
+package ru.yandex.practicum.filmorate.service;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static ru.yandex.practicum.filmorate.service.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class FilmService_init_40663800423 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+
+    public FilmService_init_40663800423() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("ru.yandex.practicum.filmorate.service.FilmService");
+        Class<?>[] argTypes = new Class<?>[5];
+        argTypes[0] = Class.forName("ru.yandex.practicum.filmorate.storage.FilmStorage");
+        argTypes[1] = Class.forName("ru.yandex.practicum.filmorate.storage.MpaStorage");
+        argTypes[2] = Class.forName("ru.yandex.practicum.filmorate.storage.GenreStorage");
+        argTypes[3] = Class.forName("ru.yandex.practicum.filmorate.storage.LikeStorage");
+        argTypes[4] = Class.forName("ru.yandex.practicum.filmorate.storage.UserStorage");
+        Object[] args = new Object[5];
+        args[0] = null;
+        args[1] = null;
+        args[2] = null;
+        args[3] = null;
+        args[4] = null;
+        Object instance = callConstructor(klass, argTypes, args);
+    }
+
+};
+
+

@@ -1,0 +1,861 @@
+2026-06-29 06:35:06.289 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/target/classes
+2026-06-29 06:35:06.381 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 06:35:06.445 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-29 06:35:07.402 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-29 06:35:07.932 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/maxjang/chart/vibe/*
+2026-06-29 06:35:07.933 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-29 06:35:07.961 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 06:35:07.994 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33763 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/max-jang_korea-music-chart-api/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-29 06:35:08.007 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-29 06:36:48.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::<init>(): void
+2026-06-29 06:36:48.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 06:36:48.504 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartService_init_16296980550
+2026-06-29 06:36:48.511 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
+2026-06-29 06:36:48.512 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%1 = static Jsoup.connect("https://apis.naver.com/vibeWeb/musicapiweb/vibe/v1/chart/track/total")
+	goto %bb0
+
+%bb0: 	//predecessors %label0
+	%3 = interface %1.userAgent("Chrome")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%7 = interface %3.get()
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%101 = new java/util/ArrayList
+	special %101.<init>()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%9 = virtual %7.select("response > result > chart > items > tracks > track")
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	%16 = virtual %9.iterator()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %label3
+
+%label3: 	//predecessors %bb3, %if.then1
+	%13 = interface %16.hasNext()
+	goto %bb4
+
+%bb4: 	//predecessors %label3
+	%15 = (%13 == false)
+	if (%15) goto %if.then2 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	%18 = interface %16.next()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else0
+	%75 = (org/jsoup/nodes/Element) %18
+	goto %label4
+
+%label4: 	//predecessors %bb5
+	%22 = virtual this.getRankStatus(%75)
+	goto %bb6
+
+%bb6: 	//predecessors %label4
+	%87 = virtual %22.split(",")
+	goto %label5
+
+%label5: 	//predecessors %bb6
+	%26 = virtual %75.select("album > artists > artist > artistName")
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%30 = virtual %26.text()
+	goto %label6
+
+%label6: 	//predecessors %bb7
+	%29 = (arg$0 == null)
+	if (%29) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %label6
+	%32 = virtual %30.contains(arg$0)
+	goto %bb8
+
+%bb8: 	//predecessors %if.else1
+	%34 = (%32 == false)
+	if (%34) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %label6, %bb8
+	%44 = static ChartVO.builder()
+	goto %label7
+
+%label7: 	//predecessors %if.then0
+	%38 = virtual %75.select("rank > currentRank")
+	goto %bb9
+
+%bb9: 	//predecessors %label7
+	%40 = virtual %38.text()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%42 = static Integer.parseInt(%40)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%45 = static Integer.valueOf(%42)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%51 = virtual %44.rank(%45)
+	goto %label8
+
+%label8: 	//predecessors %bb12
+	%49 = virtual %75.select("album > artists > artist > artistName")
+	goto %bb13
+
+%bb13: 	//predecessors %label8
+	%52 = virtual %49.text()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%58 = virtual %51.artistName(%52)
+	goto %label9
+
+%label9: 	//predecessors %bb14
+	%56 = virtual %75.select("trackTitle")
+	goto %bb15
+
+%bb15: 	//predecessors %label9
+	%59 = virtual %56.text()
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%65 = virtual %58.title(%59)
+	goto %label10
+
+%label10: 	//predecessors %bb16
+	%63 = virtual %75.select("album > albumTitle")
+	goto %bb17
+
+%bb17: 	//predecessors %label10
+	%66 = virtual %63.text()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%72 = virtual %65.albumName(%66)
+	goto %label11
+
+%label11: 	//predecessors %bb18
+	%70 = virtual %75.select("album > imageUrl")
+	goto %bb19
+
+%bb19: 	//predecessors %label11
+	%73 = virtual %70.text()
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%79 = virtual %72.albumArt(%73)
+	goto %label12
+
+%label12: 	//predecessors %bb20
+	%77 = virtual %75.select("trackId")
+	goto %bb21
+
+%bb21: 	//predecessors %label12
+	%80 = virtual %77.text()
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%84 = virtual %79.songNumber(%80)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%85 = %87[0]
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%93 = virtual %84.rankStatus(%85)
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%89 = %87[1]
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%91 = static Integer.parseInt(%89)
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%94 = static Integer.valueOf(%91)
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%96 = virtual %93.changedRank(%94)
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%99 = virtual %96.build()
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%100 = interface %101.add(%99)
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb8, %bb31
+	goto %label3
+
+%if.then2: 	//predecessors %bb4
+	return %101
+2026-06-29 06:36:48.514 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/jsoup/nodes/Element
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-29 06:36:48.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/jsoup/nodes/Element
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-29 06:36:48.515 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List: null
+2026-06-29 06:36:48.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String
+2026-06-29 06:36:48.515 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.select("rank > rankVariation")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%19 = virtual %1.text()
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = virtual %19.equals("0")
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%7 = (%5 == false)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	%10 = virtual %19.contains("-")
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%12 = (%10 == false)
+	if (%12) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%15 = static Integer.parseInt(%19)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%17 = static Math.abs(%15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%21 = invokeDynamic (int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="down,"))
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb3
+	%22 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="up,"))
+	goto %bb7
+
+%bb7: 	//predecessors %if.then1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb6, %bb7
+	%retval1 = phi {%if.else0 -> "static,0"; %bb6 -> %21; %bb7 -> %22}
+	return %retval1
+2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String: null
+2026-06-29 06:36:48.516 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
+2026-06-29 06:36:48.516 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="https://apis.naver.com/vibeWeb/musicapiweb/v3/search/album?query=&start=1&display=100&sort=RELEVANCE"))
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = static Jsoup.connect(%1)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = interface %3.userAgent("Chrome")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = interface %5.get()
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%42 = new java/util/ArrayList
+	special %42.<init>()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%11 = virtual %9.select("response > result > albums > album")
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%18 = virtual %11.iterator()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %label3
+
+%label3: 	//predecessors %bb4, %label7
+	%15 = interface %18.hasNext()
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%17 = (%15 == false)
+	if (%17) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	%20 = interface %18.next()
+	goto %bb6
+
+%bb6: 	//predecessors %if.else0
+	%30 = (org/jsoup/nodes/Element) %20
+	goto %label4
+
+%label4: 	//predecessors %bb6
+	%27 = static DetailVO.builder()
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%25 = virtual %30.select("albumTitle")
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%28 = virtual %25.text()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%34 = virtual %27.title(%28)
+	goto %label6
+
+%label6: 	//predecessors %bb8
+	%32 = virtual %30.select("albumId")
+	goto %bb9
+
+%bb9: 	//predecessors %label6
+	%35 = virtual %32.text()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%37 = virtual %34.number(%35)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%40 = virtual %37.build()
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%41 = interface %42.add(%40)
+	goto %label7
+
+%label7: 	//predecessors %bb12
+	goto %label3
+
+%if.then0: 	//predecessors %bb5
+	return %42
+2026-06-29 06:36:48.516 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/jsoup/nodes/Element
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-29 06:36:48.517 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/jsoup/nodes/Element
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-29 06:36:48.517 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List: null
+2026-06-29 06:36:48.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
+2026-06-29 06:36:48.517 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="https://apis.naver.com/vibeWeb/musicapiweb/album//tracks"))
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = static Jsoup.connect(%1)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = interface %3.userAgent("Chrome")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = interface %5.get()
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%42 = new java/util/ArrayList
+	special %42.<init>()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%11 = virtual %9.select("response > result > tracks > track")
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%18 = virtual %11.iterator()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %label3
+
+%label3: 	//predecessors %bb4, %label7
+	%15 = interface %18.hasNext()
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%17 = (%15 == false)
+	if (%17) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	%20 = interface %18.next()
+	goto %bb6
+
+%bb6: 	//predecessors %if.else0
+	%30 = (org/jsoup/nodes/Element) %20
+	goto %label4
+
+%label4: 	//predecessors %bb6
+	%27 = static DetailVO.builder()
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%25 = virtual %30.select("trackTitle")
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%28 = virtual %25.text()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%34 = virtual %27.title(%28)
+	goto %label6
+
+%label6: 	//predecessors %bb8
+	%32 = virtual %30.select("trackId")
+	goto %bb9
+
+%bb9: 	//predecessors %label6
+	%35 = virtual %32.text()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%37 = virtual %34.number(%35)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%40 = virtual %37.build()
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%41 = interface %42.add(%40)
+	goto %label7
+
+%label7: 	//predecessors %bb12
+	goto %label3
+
+%if.then0: 	//predecessors %bb5
+	return %42
+2026-06-29 06:36:48.518 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/jsoup/nodes/Element
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-29 06:36:48.518 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/jsoup/nodes/Element
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.jsoup.nodes.Element
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-06-29 06:36:48.518 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List: null
+2026-06-29 06:36:48.624 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartService_init_16296980551
+2026-06-29 06:36:48.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getVibeChartTop100(java/lang/String): java/util/List processing is finished normally
+2026-06-29 06:36:48.625 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getRankStatus(org/jsoup/nodes/Element): java/lang/String processing is finished normally
+2026-06-29 06:36:48.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getAlbums(java/lang/String): java/util/List processing is finished normally
+2026-06-29 06:36:48.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::getSongLists(java/lang/String): java/util/List processing is finished normally
+2026-06-29 06:36:48.626 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartService::<init>(): void: null
+2026-06-29 06:36:48.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartService::<init>(): void processing is finished normally
+2026-06-29 06:36:48.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void
+2026-06-29 06:36:48.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.vibeChartService = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-06-29 06:36:48.723 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_init_11718905700
+2026-06-29 06:36:48.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat
+2026-06-29 06:36:48.724 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new com/maxjang/chart/common/ResponseFormat
+	%2 = this.vibeChartService
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = virtual %2.getVibeChartTop100(null)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special %6.<init>(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %6
+2026-06-29 06:36:48.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100_17948355741
+2026-06-29 06:36:48.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-06-29 06:36:48.808 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new com/maxjang/chart/common/ResponseFormat
+	%2 = this.vibeChartService
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = virtual %2.getVibeChartTop100(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special %6.<init>(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %6
+2026-06-29 06:36:48.874 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100ByArtistName_14389298722
+2026-06-29 06:36:48.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-06-29 06:36:48.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new com/maxjang/chart/common/ResponseFormat
+	%2 = this.vibeChartService
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = virtual %2.getAlbums(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special %6.<init>(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %6
+2026-06-29 06:36:48.939 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getAlbums_6013155713
+2026-06-29 06:36:48.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat
+2026-06-29 06:36:48.940 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new com/maxjang/chart/common/ResponseFormat
+	%2 = this.vibeChartService
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = virtual %2.getSongLists(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special %6.<init>(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %6
+2026-06-29 06:36:49.001 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getSongs_2944918734
+2026-06-29 06:36:49.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_init_11718905705
+2026-06-29 06:36:49.121 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100_17948355746
+2026-06-29 06:36:49.196 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getVibeChartTop100ByArtistName_14389298727
+2026-06-29 06:36:49.243 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getAlbums_6013155718
+2026-06-29 06:36:49.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maxjang.chart.vibe.VibeChartController_getSongs_2944918739
+2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void: null
+2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat: null
+2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
+2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
+2026-06-29 06:36:49.296 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat: null
+2026-06-29 06:36:49.296 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::<init>(com/maxjang/chart/vibe/VibeChartService): void processing is finished normally
+2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100(): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getVibeChartTop100ByArtistName(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getAlbums(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maxjang/chart/vibe/VibeChartController::getSongs(java/lang/String): com/maxjang/chart/common/ResponseFormat processing is finished normally
+2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-29 06:36:49.297 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

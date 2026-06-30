@@ -1,0 +1,63 @@
+package com.sunrise.javbusbot.spider;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.sunrise.javbusbot.spider.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class JavbusStarInfoItem_setBirthPlace_126959403523 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term17617;
+
+    public JavbusStarInfoItem_setBirthPlace_126959403523() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term17617 = newInstance(Class.forName("com.sunrise.javbusbot.spider.JavbusStarInfoItem"));
+        setField(term17617, term17617.getClass(), "messageChatId", "nNjXJbBqnD");
+        setField(term17617, term17617.getClass(), "allFilmNum", "IPIWZFytSS");
+        setField(term17617, term17617.getClass(), "hasMagNum", "BOKRfsJbBj");
+        setField(term17617, term17617.getClass(), "headPhoto", "");
+        setField(term17617, term17617.getClass(), "starName", "");
+        setField(term17617, term17617.getClass(), "birthday", "");
+        setField(term17617, term17617.getClass(), "age", "");
+        setField(term17617, term17617.getClass(), "height", "");
+        setField(term17617, term17617.getClass(), "cup", "");
+        setField(term17617, term17617.getClass(), "chestCircumference", "");
+        setField(term17617, term17617.getClass(), "waistline", "");
+        setField(term17617, term17617.getClass(), "hips", "");
+        setField(term17617, term17617.getClass(), "birthPlace", "");
+        setField(term17617, term17617.getClass(), "hobby", "");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.sunrise.javbusbot.spider.JavbusStarInfoItem");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = "AbIDnsFOzO";
+        callMethod(klass, "setBirthPlace", argTypes, term17617, args);
+    }
+
+};
+
+

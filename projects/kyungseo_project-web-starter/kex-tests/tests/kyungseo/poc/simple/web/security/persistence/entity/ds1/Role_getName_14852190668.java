@@ -1,0 +1,212 @@
+package kyungseo.poc.simple.web.security.persistence.entity.ds1;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static kyungseo.poc.simple.web.security.persistence.entity.ds1.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.lang.Boolean;
+import java.lang.Integer;
+
+public class Role_getName_14852190668 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term32899;
+
+    public Role_getName_14852190668() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term32900 = new Long(-2571747498538728579L);
+        Long term32905 = new Long(1167523958905554808L);
+        Boolean term32910 = new Boolean(true);
+        Integer term32912 = new Integer(710986341);
+        ArrayList term32917 = new ArrayList();
+        ((ArrayList) term32917).add((Object)null);
+        ((ArrayList) term32917).add((Object)null);
+        ((ArrayList) term32917).add((Object)null);
+        Object term32904 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term32922 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term32923 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term32904, term32904.getClass(), "id", term32905);
+        setField(term32904, term32904.getClass(), "membername", "");
+        setField(term32904, term32904.getClass(), "email", "");
+        setField(term32904, term32904.getClass(), "password", "");
+        setField(term32904, term32904.getClass(), "enabled", term32910);
+        setField(term32904, term32904.getClass(), "age", term32912);
+        setField(term32904, term32904.getClass(), "phoneNumber", "");
+        setField(term32904, term32904.getClass(), "country", "");
+        setField(term32904, term32904.getClass(), "birthdate", "");
+        setField(term32904, term32904.getClass(), "roles", term32917);
+        setBooleanField(term32904, term32904.getClass(), "isUsing2FA", false);
+        setField(term32904, term32904.getClass(), "secret", "");
+        setField(term32922, term32922.getClass(), "date", null);
+        setField(term32922, term32922.getClass(), "time", null);
+        setField(term32904, term32904.getClass(), "regDate", term32922);
+        setField(term32923, term32923.getClass(), "date", null);
+        setField(term32923, term32923.getClass(), "time", null);
+        setField(term32904, term32904.getClass(), "modDate", term32923);
+        Long term32925 = new Long(703452043908964869L);
+        Boolean term32930 = new Boolean(false);
+        Integer term32932 = new Integer(-873958002);
+        ArrayList term32937 = new ArrayList();
+        ((ArrayList) term32937).add((Object)null);
+        ((ArrayList) term32937).add((Object)null);
+        Object term32924 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term32942 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term32943 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term32924, term32924.getClass(), "id", term32925);
+        setField(term32924, term32924.getClass(), "membername", "");
+        setField(term32924, term32924.getClass(), "email", "");
+        setField(term32924, term32924.getClass(), "password", "");
+        setField(term32924, term32924.getClass(), "enabled", term32930);
+        setField(term32924, term32924.getClass(), "age", term32932);
+        setField(term32924, term32924.getClass(), "phoneNumber", "");
+        setField(term32924, term32924.getClass(), "country", "");
+        setField(term32924, term32924.getClass(), "birthdate", "");
+        setField(term32924, term32924.getClass(), "roles", term32937);
+        setBooleanField(term32924, term32924.getClass(), "isUsing2FA", false);
+        setField(term32924, term32924.getClass(), "secret", "");
+        setField(term32942, term32942.getClass(), "date", null);
+        setField(term32942, term32942.getClass(), "time", null);
+        setField(term32924, term32924.getClass(), "regDate", term32942);
+        setField(term32943, term32943.getClass(), "date", null);
+        setField(term32943, term32943.getClass(), "time", null);
+        setField(term32924, term32924.getClass(), "modDate", term32943);
+        Long term32945 = new Long(-1732771393859471811L);
+        Boolean term32950 = new Boolean(true);
+        Integer term32952 = new Integer(1795369860);
+        ArrayList term32957 = new ArrayList();
+        Object term32944 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term32962 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term32963 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term32944, term32944.getClass(), "id", term32945);
+        setField(term32944, term32944.getClass(), "membername", "");
+        setField(term32944, term32944.getClass(), "email", "");
+        setField(term32944, term32944.getClass(), "password", "");
+        setField(term32944, term32944.getClass(), "enabled", term32950);
+        setField(term32944, term32944.getClass(), "age", term32952);
+        setField(term32944, term32944.getClass(), "phoneNumber", "");
+        setField(term32944, term32944.getClass(), "country", "");
+        setField(term32944, term32944.getClass(), "birthdate", "");
+        setField(term32944, term32944.getClass(), "roles", term32957);
+        setBooleanField(term32944, term32944.getClass(), "isUsing2FA", true);
+        setField(term32944, term32944.getClass(), "secret", "");
+        setField(term32962, term32962.getClass(), "date", null);
+        setField(term32962, term32962.getClass(), "time", null);
+        setField(term32944, term32944.getClass(), "regDate", term32962);
+        setField(term32963, term32963.getClass(), "date", null);
+        setField(term32963, term32963.getClass(), "time", null);
+        setField(term32944, term32944.getClass(), "modDate", term32963);
+        Long term32965 = new Long(-7785852591389112331L);
+        Boolean term32970 = new Boolean(false);
+        Integer term32972 = new Integer(1235045850);
+        ArrayList term32977 = new ArrayList();
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        ((ArrayList) term32977).add((Object)null);
+        Object term32964 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term32982 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term32983 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term32964, term32964.getClass(), "id", term32965);
+        setField(term32964, term32964.getClass(), "membername", "");
+        setField(term32964, term32964.getClass(), "email", "");
+        setField(term32964, term32964.getClass(), "password", "");
+        setField(term32964, term32964.getClass(), "enabled", term32970);
+        setField(term32964, term32964.getClass(), "age", term32972);
+        setField(term32964, term32964.getClass(), "phoneNumber", "");
+        setField(term32964, term32964.getClass(), "country", "");
+        setField(term32964, term32964.getClass(), "birthdate", "");
+        setField(term32964, term32964.getClass(), "roles", term32977);
+        setBooleanField(term32964, term32964.getClass(), "isUsing2FA", true);
+        setField(term32964, term32964.getClass(), "secret", "");
+        setField(term32982, term32982.getClass(), "date", null);
+        setField(term32982, term32982.getClass(), "time", null);
+        setField(term32964, term32964.getClass(), "regDate", term32982);
+        setField(term32983, term32983.getClass(), "date", null);
+        setField(term32983, term32983.getClass(), "time", null);
+        setField(term32964, term32964.getClass(), "modDate", term32983);
+        Long term32985 = new Long(8860147662823251488L);
+        Boolean term32990 = new Boolean(true);
+        Integer term32992 = new Integer(797015478);
+        ArrayList term32997 = new ArrayList();
+        ((ArrayList) term32997).add((Object)null);
+        ((ArrayList) term32997).add((Object)null);
+        ((ArrayList) term32997).add((Object)null);
+        ((ArrayList) term32997).add((Object)null);
+        ((ArrayList) term32997).add((Object)null);
+        ((ArrayList) term32997).add((Object)null);
+        ((ArrayList) term32997).add((Object)null);
+        Object term32984 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.User"));
+        Object term33002 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term33003 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term32984, term32984.getClass(), "id", term32985);
+        setField(term32984, term32984.getClass(), "membername", "");
+        setField(term32984, term32984.getClass(), "email", "");
+        setField(term32984, term32984.getClass(), "password", "");
+        setField(term32984, term32984.getClass(), "enabled", term32990);
+        setField(term32984, term32984.getClass(), "age", term32992);
+        setField(term32984, term32984.getClass(), "phoneNumber", "");
+        setField(term32984, term32984.getClass(), "country", "");
+        setField(term32984, term32984.getClass(), "birthdate", "");
+        setField(term32984, term32984.getClass(), "roles", term32997);
+        setBooleanField(term32984, term32984.getClass(), "isUsing2FA", true);
+        setField(term32984, term32984.getClass(), "secret", "");
+        setField(term33002, term33002.getClass(), "date", null);
+        setField(term33002, term33002.getClass(), "time", null);
+        setField(term32984, term32984.getClass(), "regDate", term33002);
+        setField(term33003, term33003.getClass(), "date", null);
+        setField(term33003, term33003.getClass(), "time", null);
+        setField(term32984, term32984.getClass(), "modDate", term33003);
+        ArrayList term32902 = new ArrayList();
+        ((ArrayList) term32902).add(term32904);
+        ((ArrayList) term32902).add(term32924);
+        ((ArrayList) term32902).add(term32944);
+        ((ArrayList) term32902).add(term32904);
+        ((ArrayList) term32902).add(term32964);
+        ((ArrayList) term32902).add(term32984);
+        ((ArrayList) term32902).add(term32984);
+        ((ArrayList) term32902).add(term32904);
+        ArrayList term33006 = new ArrayList();
+        term32899 = newInstance(Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role"));
+        setField(term32899, term32899.getClass(), "id", term32900);
+        setField(term32899, term32899.getClass(), "users", term32902);
+        setField(term32899, term32899.getClass(), "privileges", term33006);
+        setField(term32899, term32899.getClass(), "name", "EZOoIMIpbM");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("kyungseo.poc.simple.web.security.persistence.entity.ds1.Role");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getName", argTypes, term32899, args);
+    }
+
+};
+
+

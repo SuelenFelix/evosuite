@@ -1,0 +1,217 @@
+package icu.samnyan.aqua.sega.diva.model.userdata;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.diva.model.userdata.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.String;
+
+public class PlayerPvRecord_setPdId_25467530214 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term604516;
+     Object term605167;
+
+    public PlayerPvRecord_setPdId_25467530214() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term605720 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.PassStat");
+        Field term605719 = ((Class) term605720).getDeclaredField((String) "MISS");
+        ((Field) term605719).setAccessible(true);
+        Object enum1324 = ((Field) term605719).get((Object) null);
+        Class<? extends Object> term606097 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.SortMode");
+        Field term606096 = ((Class) term606097).getDeclaredField((String) "RELEASE_DATE");
+        ((Field) term606096).setAccessible(true);
+        Object enum1325 = ((Field) term606096).get((Object) null);
+        Class<? extends Object> term606380 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.Difficulty");
+        Field term606379 = ((Class) term606380).getDeclaredField((String) "NORMAL");
+        ((Field) term606379).setAccessible(true);
+        Object enum1326 = ((Field) term606379).get((Object) null);
+        Class<? extends Object> term606655 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.Edition");
+        Field term606654 = ((Class) term606655).getDeclaredField((String) "ORIGINAL");
+        ((Field) term606654).setAccessible(true);
+        Object enum1327 = ((Field) term606654).get((Object) null);
+        Class<? extends Object> term606921 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.ContestBorder");
+        Field term606920 = ((Class) term606921).getDeclaredField((String) "NONE");
+        ((Field) term606920).setAccessible(true);
+        Object enum1328 = ((Field) term606920).get((Object) null);
+        Class<? extends Object> term607562 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.ClearResult");
+        Field term607561 = ((Class) term607562).getDeclaredField((String) "NO_CLEAR");
+        ((Field) term607561).setAccessible(true);
+        Object enum1329 = ((Field) term607561).get((Object) null);
+        Class<? extends Object> term607848 = Class.forName((String) "icu.samnyan.aqua.sega.diva.model.common.ChallengeKind");
+        Field term607847 = ((Class) term607848).getDeclaredField((String) "UNDEFINED");
+        ((Field) term607847).setAccessible(true);
+        Object enum1330 = ((Field) term607847).get((Object) null);
+        term604516 = newInstance(Class.forName("icu.samnyan.aqua.sega.diva.model.userdata.PlayerPvRecord"));
+        Object term604518 = newInstance(Class.forName("icu.samnyan.aqua.sega.diva.model.userdata.PlayerProfile"));
+        Object term604641 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term604642 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term604646 = newInstance(Class.forName("java.time.LocalTime"));
+        setLongField(term604516, term604516.getClass(), "id", 1442167273909860961L);
+        setLongField(term604518, term604518.getClass(), "id", 6895382576300001141L);
+        setIntField(term604518, term604518.getClass(), "pdId", -1881843694);
+        setField(term604518, term604518.getClass(), "playerName", "xxx");
+        setIntField(term604518, term604518.getClass(), "vocaloidPoints", 300);
+        setIntField(term604518, term604518.getClass(), "level", 1);
+        setIntField(term604518, term604518.getClass(), "levelExp", -1134250665);
+        setField(term604518, term604518.getClass(), "levelTitle", "xxx");
+        setIntField(term604518, term604518.getClass(), "plateId", -1);
+        setIntField(term604518, term604518.getClass(), "plateEffectId", -1);
+        setField(term604518, term604518.getClass(), "passwordStatus", enum1324);
+        setField(term604518, term604518.getClass(), "password", "**********");
+        setBooleanField(term604518, term604518.getClass(), "preferPerPvModule", true);
+        setBooleanField(term604518, term604518.getClass(), "preferCommonModule", false);
+        setBooleanField(term604518, term604518.getClass(), "usePerPvSkin", false);
+        setBooleanField(term604518, term604518.getClass(), "usePerPvButtonSe", false);
+        setBooleanField(term604518, term604518.getClass(), "usePerPvSliderSe", false);
+        setBooleanField(term604518, term604518.getClass(), "usePerPvChainSliderSe", true);
+        setBooleanField(term604518, term604518.getClass(), "usePerPvTouchSliderSe", false);
+        setField(term604518, term604518.getClass(), "commonModule", "-999,-999,-999");
+        setField(term604518, term604518.getClass(), "commonCustomizeItems", "-999,-999,-999,-999,-999,-999,-999,-999,-999,-999,-999,-999");
+        setIntField(term604642, term604642.getClass(), "year", 2026);
+        setShortField(term604642, term604642.getClass(), "month", (short) 6);
+        setShortField(term604642, term604642.getClass(), "day", (short) 29);
+        setField(term604641, term604641.getClass(), "date", term604642);
+        setByteField(term604646, term604646.getClass(), "hour", (byte) 4);
+        setByteField(term604646, term604646.getClass(), "minute", (byte) 28);
+        setByteField(term604646, term604646.getClass(), "second", (byte) 51);
+        setIntField(term604646, term604646.getClass(), "nano", 43663000);
+        setField(term604641, term604641.getClass(), "time", term604646);
+        setField(term604518, term604518.getClass(), "commonModuleSetTime", term604641);
+        setField(term604518, term604518.getClass(), "moduleSelectItemFlag", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setIntField(term604518, term604518.getClass(), "commonSkin", -1);
+        setIntField(term604518, term604518.getClass(), "headphoneVolume", 100);
+        setBooleanField(term604518, term604518.getClass(), "buttonSeOn", true);
+        setIntField(term604518, term604518.getClass(), "buttonSeVolume", 100);
+        setIntField(term604518, term604518.getClass(), "sliderSeVolume", 100);
+        setIntField(term604518, term604518.getClass(), "buttonSe", -1);
+        setIntField(term604518, term604518.getClass(), "chainSlideSe", -1);
+        setIntField(term604518, term604518.getClass(), "slideSe", -1);
+        setIntField(term604518, term604518.getClass(), "sliderTouchSe", -1);
+        setField(term604518, term604518.getClass(), "sortMode", enum1325);
+        setIntField(term604518, term604518.getClass(), "nextPvId", -1);
+        setField(term604518, term604518.getClass(), "nextDifficulty", enum1326);
+        setField(term604518, term604518.getClass(), "nextEdition", enum1327);
+        setBooleanField(term604518, term604518.getClass(), "showInterimRanking", true);
+        setBooleanField(term604518, term604518.getClass(), "showClearStatus", true);
+        setBooleanField(term604518, term604518.getClass(), "showGreatBorder", true);
+        setBooleanField(term604518, term604518.getClass(), "showExcellentBorder", true);
+        setBooleanField(term604518, term604518.getClass(), "showRivalBorder", true);
+        setBooleanField(term604518, term604518.getClass(), "showRgoSetting", true);
+        setBooleanField(term604518, term604518.getClass(), "contestNowPlayingEnable", false);
+        setIntField(term604518, term604518.getClass(), "contestNowPlayingId", -1);
+        setIntField(term604518, term604518.getClass(), "contestNowPlayingValue", -1);
+        setField(term604518, term604518.getClass(), "contestNowPlayingResultRank", enum1328);
+        setField(term604518, term604518.getClass(), "contestNowPlayingSpecifier", "");
+        setField(term604518, term604518.getClass(), "myList0", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setField(term604518, term604518.getClass(), "myList1", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setField(term604518, term604518.getClass(), "myList2", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setIntField(term604518, term604518.getClass(), "rivalPdId", -1);
+        setField(term604516, term604516.getClass(), "pdId", term604518);
+        setIntField(term604516, term604516.getClass(), "pvId", -1);
+        setField(term604516, term604516.getClass(), "edition", enum1327);
+        setField(term604516, term604516.getClass(), "difficulty", enum1326);
+        setField(term604516, term604516.getClass(), "result", enum1329);
+        setIntField(term604516, term604516.getClass(), "maxScore", -1);
+        setIntField(term604516, term604516.getClass(), "maxAttain", -1);
+        setField(term604516, term604516.getClass(), "challengeKind", enum1330);
+        setField(term604516, term604516.getClass(), "rgoPurchased", "0,0,0");
+        setField(term604516, term604516.getClass(), "rgoPlayed", "0,0,0");
+        term605167 = newInstance(Class.forName("icu.samnyan.aqua.sega.diva.model.userdata.PlayerProfile"));
+        Object term605281 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term605282 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term605286 = newInstance(Class.forName("java.time.LocalTime"));
+        setLongField(term605167, term605167.getClass(), "id", 9062006526792682783L);
+        setIntField(term605167, term605167.getClass(), "pdId", -1607263638);
+        setField(term605167, term605167.getClass(), "playerName", "xxx");
+        setIntField(term605167, term605167.getClass(), "vocaloidPoints", 300);
+        setIntField(term605167, term605167.getClass(), "level", 1);
+        setIntField(term605167, term605167.getClass(), "levelExp", 691469974);
+        setField(term605167, term605167.getClass(), "levelTitle", "xxx");
+        setIntField(term605167, term605167.getClass(), "plateId", -1);
+        setIntField(term605167, term605167.getClass(), "plateEffectId", -1);
+        setField(term605167, term605167.getClass(), "passwordStatus", enum1324);
+        setField(term605167, term605167.getClass(), "password", "**********");
+        setBooleanField(term605167, term605167.getClass(), "preferPerPvModule", true);
+        setBooleanField(term605167, term605167.getClass(), "preferCommonModule", false);
+        setBooleanField(term605167, term605167.getClass(), "usePerPvSkin", false);
+        setBooleanField(term605167, term605167.getClass(), "usePerPvButtonSe", true);
+        setBooleanField(term605167, term605167.getClass(), "usePerPvSliderSe", false);
+        setBooleanField(term605167, term605167.getClass(), "usePerPvChainSliderSe", false);
+        setBooleanField(term605167, term605167.getClass(), "usePerPvTouchSliderSe", true);
+        setField(term605167, term605167.getClass(), "commonModule", "-999,-999,-999");
+        setField(term605167, term605167.getClass(), "commonCustomizeItems", "-999,-999,-999,-999,-999,-999,-999,-999,-999,-999,-999,-999");
+        setIntField(term605282, term605282.getClass(), "year", 2026);
+        setShortField(term605282, term605282.getClass(), "month", (short) 6);
+        setShortField(term605282, term605282.getClass(), "day", (short) 29);
+        setField(term605281, term605281.getClass(), "date", term605282);
+        setByteField(term605286, term605286.getClass(), "hour", (byte) 4);
+        setByteField(term605286, term605286.getClass(), "minute", (byte) 28);
+        setByteField(term605286, term605286.getClass(), "second", (byte) 51);
+        setIntField(term605286, term605286.getClass(), "nano", 44110000);
+        setField(term605281, term605281.getClass(), "time", term605286);
+        setField(term605167, term605167.getClass(), "commonModuleSetTime", term605281);
+        setField(term605167, term605167.getClass(), "moduleSelectItemFlag", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setIntField(term605167, term605167.getClass(), "commonSkin", -1);
+        setIntField(term605167, term605167.getClass(), "headphoneVolume", 100);
+        setBooleanField(term605167, term605167.getClass(), "buttonSeOn", true);
+        setIntField(term605167, term605167.getClass(), "buttonSeVolume", 100);
+        setIntField(term605167, term605167.getClass(), "sliderSeVolume", 100);
+        setIntField(term605167, term605167.getClass(), "buttonSe", -1);
+        setIntField(term605167, term605167.getClass(), "chainSlideSe", -1);
+        setIntField(term605167, term605167.getClass(), "slideSe", -1);
+        setIntField(term605167, term605167.getClass(), "sliderTouchSe", -1);
+        setField(term605167, term605167.getClass(), "sortMode", enum1325);
+        setIntField(term605167, term605167.getClass(), "nextPvId", -1);
+        setField(term605167, term605167.getClass(), "nextDifficulty", enum1326);
+        setField(term605167, term605167.getClass(), "nextEdition", enum1327);
+        setBooleanField(term605167, term605167.getClass(), "showInterimRanking", true);
+        setBooleanField(term605167, term605167.getClass(), "showClearStatus", true);
+        setBooleanField(term605167, term605167.getClass(), "showGreatBorder", true);
+        setBooleanField(term605167, term605167.getClass(), "showExcellentBorder", true);
+        setBooleanField(term605167, term605167.getClass(), "showRivalBorder", true);
+        setBooleanField(term605167, term605167.getClass(), "showRgoSetting", true);
+        setBooleanField(term605167, term605167.getClass(), "contestNowPlayingEnable", true);
+        setIntField(term605167, term605167.getClass(), "contestNowPlayingId", -1);
+        setIntField(term605167, term605167.getClass(), "contestNowPlayingValue", -1);
+        setField(term605167, term605167.getClass(), "contestNowPlayingResultRank", enum1328);
+        setField(term605167, term605167.getClass(), "contestNowPlayingSpecifier", "");
+        setField(term605167, term605167.getClass(), "myList0", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setField(term605167, term605167.getClass(), "myList1", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setField(term605167, term605167.getClass(), "myList2", "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1");
+        setIntField(term605167, term605167.getClass(), "rivalPdId", -1);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.diva.model.userdata.PlayerPvRecord");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("icu.samnyan.aqua.sega.diva.model.userdata.PlayerProfile");
+        Object[] args = new Object[1];
+        args[0] = term605167;
+        callMethod(klass, "setPdId", argTypes, term604516, args);
+    }
+
+};
+
+

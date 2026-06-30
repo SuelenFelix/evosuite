@@ -1,0 +1,217 @@
+package com.folksdev.movie.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.folksdev.movie.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.Object;
+import java.util.LinkedList;
+
+public class User_copy_21410652087 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term28387;
+     Object term28460;
+
+    public User_copy_21410652087() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Object term28414 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term28415 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term28416 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term28417 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term28418 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term28415, term28415.getClass(), "userId", null);
+        setField(term28415, term28415.getClass(), "reviewId", null);
+        setField(term28414, term28414.getClass(), "userReviewId", term28415);
+        setField(term28416, term28416.getClass(), "id", null);
+        setField(term28416, term28416.getClass(), "name", null);
+        setField(term28416, term28416.getClass(), "userReviews", null);
+        setField(term28414, term28414.getClass(), "user", term28416);
+        setField(term28417, term28417.getClass(), "id", null);
+        setField(term28417, term28417.getClass(), "review", null);
+        setField(term28417, term28417.getClass(), "userReviews", null);
+        setField(term28414, term28414.getClass(), "review", term28417);
+        setField(term28418, term28418.getClass(), "date", null);
+        setField(term28418, term28418.getClass(), "time", null);
+        setField(term28414, term28414.getClass(), "date", term28418);
+        Object term28419 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term28420 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term28421 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term28422 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term28423 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term28420, term28420.getClass(), "userId", null);
+        setField(term28420, term28420.getClass(), "reviewId", null);
+        setField(term28419, term28419.getClass(), "userReviewId", term28420);
+        setField(term28421, term28421.getClass(), "id", null);
+        setField(term28421, term28421.getClass(), "name", null);
+        setField(term28421, term28421.getClass(), "userReviews", null);
+        setField(term28419, term28419.getClass(), "user", term28421);
+        setField(term28422, term28422.getClass(), "id", null);
+        setField(term28422, term28422.getClass(), "review", null);
+        setField(term28422, term28422.getClass(), "userReviews", null);
+        setField(term28419, term28419.getClass(), "review", term28422);
+        setField(term28423, term28423.getClass(), "date", null);
+        setField(term28423, term28423.getClass(), "time", null);
+        setField(term28419, term28419.getClass(), "date", term28423);
+        Object term28424 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term28425 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term28426 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term28427 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term28428 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term28425, term28425.getClass(), "userId", null);
+        setField(term28425, term28425.getClass(), "reviewId", null);
+        setField(term28424, term28424.getClass(), "userReviewId", term28425);
+        setField(term28426, term28426.getClass(), "id", null);
+        setField(term28426, term28426.getClass(), "name", null);
+        setField(term28426, term28426.getClass(), "userReviews", null);
+        setField(term28424, term28424.getClass(), "user", term28426);
+        setField(term28427, term28427.getClass(), "id", null);
+        setField(term28427, term28427.getClass(), "review", null);
+        setField(term28427, term28427.getClass(), "userReviews", null);
+        setField(term28424, term28424.getClass(), "review", term28427);
+        setField(term28428, term28428.getClass(), "date", null);
+        setField(term28428, term28428.getClass(), "time", null);
+        setField(term28424, term28424.getClass(), "date", term28428);
+        Object term28429 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term28430 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term28431 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term28432 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term28433 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term28430, term28430.getClass(), "userId", null);
+        setField(term28430, term28430.getClass(), "reviewId", null);
+        setField(term28429, term28429.getClass(), "userReviewId", term28430);
+        setField(term28431, term28431.getClass(), "id", null);
+        setField(term28431, term28431.getClass(), "name", null);
+        setField(term28431, term28431.getClass(), "userReviews", null);
+        setField(term28429, term28429.getClass(), "user", term28431);
+        setField(term28432, term28432.getClass(), "id", null);
+        setField(term28432, term28432.getClass(), "review", null);
+        setField(term28432, term28432.getClass(), "userReviews", null);
+        setField(term28429, term28429.getClass(), "review", term28432);
+        setField(term28433, term28433.getClass(), "date", null);
+        setField(term28433, term28433.getClass(), "time", null);
+        setField(term28429, term28429.getClass(), "date", term28433);
+        ArrayList term28412 = new ArrayList();
+        ((ArrayList) term28412).add(term28414);
+        ((ArrayList) term28412).add(term28419);
+        ((ArrayList) term28412).add(term28424);
+        ((ArrayList) term28412).add(term28429);
+        term28387 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        setField(term28387, term28387.getClass(), "id", "AlAUNSOTmH");
+        setField(term28387, term28387.getClass(), "name", "IeuSZGvhvH");
+        setField(term28387, term28387.getClass(), "userReviews", term28412);
+        ArrayList term28470 = new ArrayList();
+        ((ArrayList) term28470).add((Object)null);
+        ((ArrayList) term28470).add((Object)null);
+        ((ArrayList) term28470).add((Object)null);
+        ArrayList term28476 = new ArrayList();
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        ((ArrayList) term28476).add((Object)null);
+        Object term28463 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term28464 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term28467 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term28473 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term28479 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term28480 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term28484 = newInstance(Class.forName("java.time.LocalTime"));
+        setField(term28464, term28464.getClass(), "userId", "");
+        setField(term28464, term28464.getClass(), "reviewId", "");
+        setField(term28463, term28463.getClass(), "userReviewId", term28464);
+        setField(term28467, term28467.getClass(), "id", "");
+        setField(term28467, term28467.getClass(), "name", "");
+        setField(term28467, term28467.getClass(), "userReviews", term28470);
+        setField(term28463, term28463.getClass(), "user", term28467);
+        setField(term28473, term28473.getClass(), "id", "");
+        setField(term28473, term28473.getClass(), "review", "");
+        setField(term28473, term28473.getClass(), "userReviews", term28476);
+        setField(term28463, term28463.getClass(), "review", term28473);
+        setIntField(term28480, term28480.getClass(), "year", 2020);
+        setShortField(term28480, term28480.getClass(), "month", (short) 12);
+        setShortField(term28480, term28480.getClass(), "day", (short) 30);
+        setField(term28479, term28479.getClass(), "date", term28480);
+        setByteField(term28484, term28484.getClass(), "hour", (byte) 2);
+        setByteField(term28484, term28484.getClass(), "minute", (byte) 11);
+        setByteField(term28484, term28484.getClass(), "second", (byte) 8);
+        setIntField(term28484, term28484.getClass(), "nano", 528799251);
+        setField(term28479, term28479.getClass(), "time", term28484);
+        setField(term28463, term28463.getClass(), "date", term28479);
+        Object term28490 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        Object term28491 = newInstance(Class.forName("com.folksdev.movie.model.UserReviewId"));
+        Object term28492 = newInstance(Class.forName("com.folksdev.movie.model.User"));
+        Object term28493 = newInstance(Class.forName("com.folksdev.movie.model.Review"));
+        Object term28494 = newInstance(Class.forName("java.time.LocalDateTime"));
+        setField(term28491, term28491.getClass(), "userId", null);
+        setField(term28491, term28491.getClass(), "reviewId", null);
+        setField(term28490, term28490.getClass(), "userReviewId", term28491);
+        setField(term28492, term28492.getClass(), "id", null);
+        setField(term28492, term28492.getClass(), "name", null);
+        setField(term28492, term28492.getClass(), "userReviews", null);
+        setField(term28490, term28490.getClass(), "user", term28492);
+        setField(term28493, term28493.getClass(), "id", null);
+        setField(term28493, term28493.getClass(), "review", null);
+        setField(term28493, term28493.getClass(), "userReviews", null);
+        setField(term28490, term28490.getClass(), "review", term28493);
+        setField(term28494, term28494.getClass(), "date", null);
+        setField(term28494, term28494.getClass(), "time", null);
+        setField(term28490, term28490.getClass(), "date", term28494);
+        Object term28496 = newInstance(Class.forName("com.folksdev.movie.model.UserReview"));
+        setField(term28496, term28496.getClass(), "userReviewId", null);
+        setField(term28496, term28496.getClass(), "user", null);
+        setField(term28496, term28496.getClass(), "review", null);
+        setField(term28496, term28496.getClass(), "date", null);
+        term28460 = new LinkedList();
+        ((LinkedList) term28460).add(term28463);
+        ((LinkedList) term28460).add(term28490);
+        ((LinkedList) term28460).add(term28496);
+        ((LinkedList) term28460).add((Object)null);
+        ((LinkedList) term28460).add((Object)null);
+        ((LinkedList) term28460).add((Object)null);
+        ((LinkedList) term28460).add((Object)null);
+        ((LinkedList) term28460).add((Object)null);
+        ((LinkedList) term28460).add((Object)null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.folksdev.movie.model.User");
+        Class<?>[] argTypes = new Class<?>[3];
+        argTypes[0] = Class.forName("java.lang.String");
+        argTypes[1] = Class.forName("java.lang.String");
+        argTypes[2] = Class.forName("java.util.List");
+        Object[] args = new Object[3];
+        args[0] = "QavvcNVesW";
+        args[1] = "JmFxhkDeIA";
+        args[2] = term28460;
+        callMethod(klass, "copy", argTypes, term28387, args);
+    }
+
+};
+
+

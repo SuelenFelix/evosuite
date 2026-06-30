@@ -1,0 +1,53 @@
+package com.zxl.dailypractice.structure;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.zxl.dailypractice.structure.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class Student_getGender_161891069420 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term2509;
+
+    public Student_getGender_161891069420() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term2509 = newInstance(Class.forName("com.zxl.dailypractice.structure.Student"));
+        setField(term2509, term2509.getClass(), "id", null);
+        setField(term2509, term2509.getClass(), "name", null);
+        setField(term2509, term2509.getClass(), "gender", null);
+        setField(term2509, term2509.getClass(), "age", null);
+        setField(term2509, term2509.getClass(), "zy", null);
+        setField(term2509, term2509.getClass(), "score", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.zxl.dailypractice.structure.Student");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getGender", argTypes, term2509, args);
+    }
+
+};
+
+

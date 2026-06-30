@@ -1,0 +1,57 @@
+package icu.samnyan.aqua.sega.ongeki.model.userdata;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static icu.samnyan.aqua.sega.ongeki.model.userdata.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Boolean;
+
+public class UserEventPoint_setRankingRewarded_157522812227 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term388876;
+     Object term388881;
+
+    public UserEventPoint_setRankingRewarded_157522812227() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term388876 = newInstance(Class.forName("icu.samnyan.aqua.sega.ongeki.model.userdata.UserEventPoint"));
+        setLongField(term388876, term388876.getClass(), "id", 0L);
+        setField(term388876, term388876.getClass(), "user", null);
+        setIntField(term388876, term388876.getClass(), "eventId", 0);
+        setLongField(term388876, term388876.getClass(), "point", 0L);
+        setBooleanField(term388876, term388876.getClass(), "isRankingRewarded", false);
+        term388881 = new Boolean(false);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("icu.samnyan.aqua.sega.ongeki.model.userdata.UserEventPoint");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = boolean.class;
+        Object[] args = new Object[1];
+        args[0] = term388881;
+        callMethod(klass, "setRankingRewarded", argTypes, term388876, args);
+    }
+
+};
+
+

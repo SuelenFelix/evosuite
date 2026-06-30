@@ -1,0 +1,57 @@
+package com.prac.react.model.dto;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.prac.react.model.dto.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class Stay_getTitle_196323300220 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term3561;
+
+    public Stay_getTitle_196323300220() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term3561 = newInstance(Class.forName("com.prac.react.model.dto.Stay"));
+        setField(term3561, term3561.getClass(), "addr1", "hMmaoREuCK");
+        setField(term3561, term3561.getClass(), "addr2", "VeDtgDzGAN");
+        setField(term3561, term3561.getClass(), "areaCode", "aWYOWZFyaX");
+        setField(term3561, term3561.getClass(), "sigunguCode", "BRIVNtfUWU");
+        setField(term3561, term3561.getClass(), "representImg", "DbiCVtPPCT");
+        setField(term3561, term3561.getClass(), "sumnail", "WzFopsaDuG");
+        setDoubleField(term3561, term3561.getClass(), "lng", 0.22651340641904605);
+        setDoubleField(term3561, term3561.getClass(), "lat", 0.8878841294187743);
+        setField(term3561, term3561.getClass(), "tel", "PapWxkhEWe");
+        setField(term3561, term3561.getClass(), "title", "smnHEqRFRx");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.prac.react.model.dto.Stay");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getTitle", argTypes, term3561, args);
+    }
+
+};
+
+

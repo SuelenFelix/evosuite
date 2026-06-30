@@ -1,0 +1,1618 @@
+2026-06-29 07:45:46.961 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/maciejwalkowiak_paseq-maven-plugin/target/classes
+2026-06-29 07:45:47.046 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 07:45:47.118 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-29 07:45:47.932 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-29 07:45:48.534 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/maciejwalkowiak/paseq/*
+2026-06-29 07:45:48.535 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-29 07:45:48.546 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/maciejwalkowiak_paseq-maven-plugin/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 07:45:48.580 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/maciejwalkowiak_paseq-maven-plugin/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 36423 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/maciejwalkowiak_paseq-maven-plugin/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-29 07:45:48.594 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-29 07:47:28.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/TaskBuilder::<init>(): void
+2026-06-29 07:47:28.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/TaskBuilder::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 07:47:29.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_init_8770258780
+2026-06-29 07:47:29.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/TaskBuilder::setGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:29.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/TaskBuilder::setGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.goals = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return this
+2026-06-29 07:47:29.236 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_setGoals_9134053701
+2026-06-29 07:47:29.237 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/TaskBuilder::setExec(com/maciejwalkowiak/paseq/Exec): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:29.237 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/TaskBuilder::setExec(com/maciejwalkowiak/paseq/Exec): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.exec = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return this
+2026-06-29 07:47:29.322 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_setExec_7883086802
+2026-06-29 07:47:29.323 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/TaskBuilder::async(): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:29.323 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/TaskBuilder::async(): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.async = 1
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return this
+2026-06-29 07:47:29.397 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_async_14936307153
+2026-06-29 07:47:29.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/TaskBuilder::waits(): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:29.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/TaskBuilder::waits(): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.wait = 1
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return this
+2026-06-29 07:47:29.463 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_waits_9860317154
+2026-06-29 07:47:29.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/TaskBuilder::build(): com/maciejwalkowiak/paseq/Task
+2026-06-29 07:47:29.464 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/TaskBuilder::build(): com/maciejwalkowiak/paseq/Task
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%10 = new com/maciejwalkowiak/paseq/Task
+	%6 = this.async
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%7 = this.wait
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%8 = this.goals
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = this.exec
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %10.<init>(%6, %7, %8, %9)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %10
+2026-06-29 07:47:29.527 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_build_2950367225
+2026-06-29 07:47:29.585 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_init_8770258786
+2026-06-29 07:47:29.648 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_setGoals_9134053707
+2026-06-29 07:47:29.724 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_setExec_7883086808
+2026-06-29 07:47:29.772 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_async_14936307159
+2026-06-29 07:47:29.819 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_waits_98603171510
+2026-06-29 07:47:29.873 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.TaskBuilder_build_29503672211
+2026-06-29 07:47:29.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/TaskBuilder::<init>(): void: null
+2026-06-29 07:47:29.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/TaskBuilder::setGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:29.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/TaskBuilder::setExec(com/maciejwalkowiak/paseq/Exec): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:29.874 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/TaskBuilder::async(): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:29.875 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/TaskBuilder::waits(): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:29.875 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/TaskBuilder::build(): com/maciejwalkowiak/paseq/Task: null
+2026-06-29 07:47:29.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/TaskBuilder::<init>(): void processing is finished normally
+2026-06-29 07:47:29.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/TaskBuilder::setGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:29.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/TaskBuilder::setExec(com/maciejwalkowiak/paseq/Exec): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:29.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/TaskBuilder::async(): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:29.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/TaskBuilder::waits(): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:29.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/TaskBuilder::build(): com/maciejwalkowiak/paseq/Task processing is finished normally
+2026-06-29 07:47:29.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::<init>(): void
+2026-06-29 07:47:29.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 07:47:29.927 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_init_18451179450
+2026-06-29 07:47:29.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String): void
+2026-06-29 07:47:29.927 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, null)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 07:47:29.971 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_init_16928648221
+2026-06-29 07:47:29.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String, java/lang/String): void
+2026-06-29 07:47:29.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.command = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.directory = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-06-29 07:47:30.025 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_init_12679853052
+2026-06-29 07:47:30.025 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::getCommand(): java/lang/String
+2026-06-29 07:47:30.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::getCommand(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.command
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:30.066 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_getCommand_8926972673
+2026-06-29 07:47:30.067 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::getDirectory(): java/lang/String
+2026-06-29 07:47:30.067 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::getDirectory(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.directory
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:30.107 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_getDirectory_16508289454
+2026-06-29 07:47:30.108 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::toString(): java/lang/String
+2026-06-29 07:47:30.108 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.command
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.directory
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Exec{command='', directory=''}"))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-06-29 07:47:30.145 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_toString_19043935005
+2026-06-29 07:47:30.146 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Exec::toLoggableString(): java/lang/String
+2026-06-29 07:47:30.147 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Exec::toLoggableString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%10 = this.command
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.directory
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4 = (%2 == null)
+	if (%4) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%6 = this.directory
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%8 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" in directory: "))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %goto0
+
+%if.then0: 	//predecessors %bb2
+	goto %goto0
+
+%goto0: 	//predecessors %bb4, %if.then0
+	%11 = phi {%bb4 -> %8; %if.then0 -> ""}
+	%13 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %bb5
+
+%bb5: 	//predecessors %goto0
+	return %13
+2026-06-29 07:47:30.182 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_toLoggableString_6118521596
+2026-06-29 07:47:30.220 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_init_18451179457
+2026-06-29 07:47:30.258 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_init_16928648228
+2026-06-29 07:47:30.296 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_init_12679853059
+2026-06-29 07:47:30.348 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_getCommand_89269726710
+2026-06-29 07:47:30.389 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_getDirectory_165082894511
+2026-06-29 07:47:30.425 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_toString_190439350012
+2026-06-29 07:47:30.464 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Exec_toLoggableString_61185215913
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::<init>(): void: null
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String): void: null
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String, java/lang/String): void: null
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::getCommand(): java/lang/String: null
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::getDirectory(): java/lang/String: null
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::toString(): java/lang/String: null
+2026-06-29 07:47:30.465 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Exec::toLoggableString(): java/lang/String: null
+2026-06-29 07:47:30.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::<init>(): void processing is finished normally
+2026-06-29 07:47:30.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String): void processing is finished normally
+2026-06-29 07:47:30.465 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::<init>(java/lang/String, java/lang/String): void processing is finished normally
+2026-06-29 07:47:30.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::getCommand(): java/lang/String processing is finished normally
+2026-06-29 07:47:30.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::getDirectory(): java/lang/String processing is finished normally
+2026-06-29 07:47:30.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::toString(): java/lang/String processing is finished normally
+2026-06-29 07:47:30.466 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Exec::toLoggableString(): java/lang/String processing is finished normally
+2026-06-29 07:47:30.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/InvalidTaskDefinitionException::<init>(java/lang/String): void
+2026-06-29 07:47:30.467 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/InvalidTaskDefinitionException::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 07:47:30.513 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.InvalidTaskDefinitionException_init_14151805190
+2026-06-29 07:47:30.554 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.InvalidTaskDefinitionException_init_14151805191
+2026-06-29 07:47:30.555 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/InvalidTaskDefinitionException::<init>(java/lang/String): void: null
+2026-06-29 07:47:30.555 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/InvalidTaskDefinitionException::<init>(java/lang/String): void processing is finished normally
+2026-06-29 07:47:30.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::<init>(): void
+2026-06-29 07:47:30.565 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 07:47:30.610 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_init_18582992690
+2026-06-29 07:47:30.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::withGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:30.610 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::withGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new com/maciejwalkowiak/paseq/TaskBuilder
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = virtual %2.setGoals(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %4
+2026-06-29 07:47:30.655 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_withGoals_14491506411
+2026-06-29 07:47:30.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:30.656 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Task.withCommand(arg$0, null)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:30.704 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_withCommand_1509706282
+2026-06-29 07:47:30.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String, java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder
+2026-06-29 07:47:30.704 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String, java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new com/maciejwalkowiak/paseq/TaskBuilder
+	special %4.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = new com/maciejwalkowiak/paseq/Exec
+	special %5.<init>(arg$0, arg$1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = virtual %4.setExec(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %7
+2026-06-29 07:47:30.748 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_withCommand_5758501453
+2026-06-29 07:47:30.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::<init>(bool, bool, java/lang/String[], com/maciejwalkowiak/paseq/Exec): void
+2026-06-29 07:47:30.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::<init>(bool, bool, java/lang/String[], com/maciejwalkowiak/paseq/Exec): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.async = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.wait = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.goals = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.exec = arg$3
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-06-29 07:47:30.800 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_init_1341900504
+2026-06-29 07:47:30.801 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::validate(): void
+2026-06-29 07:47:30.801 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::validate(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.hasGoals()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = virtual this.hasCommand()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = (%5 != false)
+	if (%7) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%10 = new com/maciejwalkowiak/paseq/InvalidTaskDefinitionException
+	special %10.<init>("Either `goals` or `command` must be set on a task")
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	throw %10
+
+%if.then0: 	//predecessors %bb1, %bb2
+	%12 = virtual this.hasGoals()
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%14 = (%12 == false)
+	if (%14) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%16 = virtual this.hasCommand()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	%18 = (%16 == false)
+	if (%18) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb5
+	%21 = new com/maciejwalkowiak/paseq/InvalidTaskDefinitionException
+	special %21.<init>("Task cannot have both `goals` or `command` set")
+	goto %bb6
+
+%bb6: 	//predecessors %if.else3
+	throw %21
+
+%if.then1: 	//predecessors %bb4, %bb5
+	return
+2026-06-29 07:47:30.866 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_validate_16229736555
+2026-06-29 07:47:30.866 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::hasGoals(): bool
+2026-06-29 07:47:30.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::hasGoals(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.goals
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = this.goals
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = %5.length
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = (%7 <= 0)
+	if (%9) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1, %bb3
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then0
+	%11 = phi {%if.else1 -> 1; %if.then0 -> 0}
+	return %11
+2026-06-29 07:47:30.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_hasGoals_6437022136
+2026-06-29 07:47:30.909 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::hasCommand(): bool
+2026-06-29 07:47:30.909 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::hasCommand(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.exec
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = this.exec
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = virtual %5.getCommand()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = (%7 == null)
+	if (%9) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1, %bb3
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then0
+	%11 = phi {%if.else1 -> 1; %if.then0 -> 0}
+	return %11
+2026-06-29 07:47:30.943 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_hasCommand_1270725287
+2026-06-29 07:47:30.943 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::isWait(): bool
+2026-06-29 07:47:30.943 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::isWait(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.wait
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:30.977 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_isWait_17042718748
+2026-06-29 07:47:30.978 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::getExec(): com/maciejwalkowiak/paseq/Exec
+2026-06-29 07:47:30.978 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::getExec(): com/maciejwalkowiak/paseq/Exec
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.exec
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:31.011 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_getExec_10894534549
+2026-06-29 07:47:31.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::getGoals(): java/lang/String[]
+2026-06-29 07:47:31.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::getGoals(): java/lang/String[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.goals
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:31.044 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_getGoals_186002139010
+2026-06-29 07:47:31.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::isAsync(): bool
+2026-06-29 07:47:31.045 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::isAsync(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.async
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 07:47:31.078 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_isAsync_143317425711
+2026-06-29 07:47:31.078 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::toLoggableString(): java/lang/String
+2026-06-29 07:47:31.079 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::toLoggableString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.hasGoals()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = this.goals
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%17 = static Arrays.toString(%5)
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	%8 = virtual this.hasCommand()
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = (%8 == false)
+	if (%10) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%12 = this.exec
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%18 = virtual %12.toLoggableString()
+	goto %label1
+
+%label1: 	//predecessors %bb4
+	goto %goto0
+
+%if.then1: 	//predecessors %bb3
+	%16 = new java/lang/RuntimeException
+	special %16.<init>("Task is invalid state. Looks like a bug in task validation. You must set either task goals or the command")
+	goto %bb5
+
+%bb5: 	//predecessors %if.then1
+	throw %16
+
+%goto0: 	//predecessors %label0, %label1
+	%25 = phi {%label0 -> %17; %label1 -> %18}
+	%21 = this.async
+	goto %bb6
+
+%bb6: 	//predecessors %goto0
+	%23 = (%21 == false)
+	if (%23) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb6
+	goto %goto1
+
+%if.then2: 	//predecessors %bb6
+	goto %goto1
+
+%goto1: 	//predecessors %if.else2, %if.then2
+	%26 = phi {%if.else2 -> "async"; %if.then2 -> "sync"}
+	%28 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" ()"))
+	goto %bb7
+
+%bb7: 	//predecessors %goto1
+	return %28
+2026-06-29 07:47:31.112 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_toLoggableString_59867083512
+2026-06-29 07:47:31.112 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/Task::toString(): java/lang/String
+2026-06-29 07:47:31.112 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/Task::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%8 = this.async
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%9 = this.wait
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = this.goals
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%10 = static Arrays.toString(%3)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%6 = this.exec
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = static String.valueOf(%6)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%13 = invokeDynamic (bool, bool, java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Task{async=, wait=, goals=, exec=}"))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return %13
+2026-06-29 07:47:31.145 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_toString_189121217613
+2026-06-29 07:47:31.176 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_init_185829926914
+2026-06-29 07:47:31.209 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_withGoals_144915064115
+2026-06-29 07:47:31.241 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_withCommand_15097062816
+2026-06-29 07:47:31.273 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_withCommand_57585014517
+2026-06-29 07:47:31.306 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_init_13419005018
+2026-06-29 07:47:31.339 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_validate_162297365519
+2026-06-29 07:47:31.369 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_hasGoals_64370221320
+2026-06-29 07:47:31.400 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_hasCommand_12707252821
+2026-06-29 07:47:31.433 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_isWait_170427187422
+2026-06-29 07:47:31.465 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_getExec_108945345423
+2026-06-29 07:47:31.506 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_getGoals_186002139024
+2026-06-29 07:47:31.545 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_isAsync_143317425725
+2026-06-29 07:47:31.583 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_toLoggableString_59867083526
+2026-06-29 07:47:31.622 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.maciejwalkowiak.paseq.Task_toString_189121217627
+2026-06-29 07:47:31.622 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::<init>(): void: null
+2026-06-29 07:47:31.622 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::withGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:31.622 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String, java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::<init>(bool, bool, java/lang/String[], com/maciejwalkowiak/paseq/Exec): void: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::validate(): void: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::hasGoals(): bool: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::hasCommand(): bool: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::isWait(): bool: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::getExec(): com/maciejwalkowiak/paseq/Exec: null
+2026-06-29 07:47:31.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::getGoals(): java/lang/String[]: null
+2026-06-29 07:47:31.624 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::isAsync(): bool: null
+2026-06-29 07:47:31.624 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::toLoggableString(): java/lang/String: null
+2026-06-29 07:47:31.624 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/Task::toString(): java/lang/String: null
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::<init>(): void processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::withGoals(java/lang/String[]): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::withCommand(java/lang/String, java/lang/String): com/maciejwalkowiak/paseq/TaskBuilder processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::<init>(bool, bool, java/lang/String[], com/maciejwalkowiak/paseq/Exec): void processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::validate(): void processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::hasGoals(): bool processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::hasCommand(): bool processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::isWait(): bool processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::getExec(): com/maciejwalkowiak/paseq/Exec processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::getGoals(): java/lang/String[] processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::isAsync(): bool processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::toLoggableString(): java/lang/String processing is finished normally
+2026-06-29 07:47:31.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/Task::toString(): java/lang/String processing is finished normally
+2026-06-29 07:47:31.642 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::<init>(): void
+2026-06-29 07:47:31.642 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 07:47:31.644 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.644 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.644 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::<init>(): void: null
+2026-06-29 07:47:31.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::<init>(java/util/List, org/apache/maven/shared/invoker/Invoker): void
+2026-06-29 07:47:31.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::<init>(java/util/List, org/apache/maven/shared/invoker/Invoker): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = new com/maciejwalkowiak/paseq/Task[0]
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = interface arg$0.toArray(%1)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = (com/maciejwalkowiak/paseq/Task[]) %3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.tasks = %5
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.invoker = arg$1
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return
+2026-06-29 07:47:31.645 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.645 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.645 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::<init>(java/util/List, org/apache/maven/shared/invoker/Invoker): void: null
+2026-06-29 07:47:31.645 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::execute(): void
+2026-06-29 07:47:31.646 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::execute(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.tasks
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = static Arrays.stream(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(com/maciejwalkowiak/paseq/Task): void)), HandleBsmArgument(handle=@com/maciejwalkowiak/paseq/Task::validate(): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	interface %4.forEach(%5)
+	goto %goto0
+
+%catch0: 	//catches from %bb2, %bb0, %bb1, %bb3
+	%12 = catch com/maciejwalkowiak/paseq/InvalidTaskDefinitionException
+goto %label0
+
+%label0: 	//predecessors %catch0
+	%10 = virtual this.getLog()
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%11 = virtual %12.getMessage()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	interface %10.error(%11)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	throw %12
+
+%goto0: 	//predecessors %bb3
+	%48 = new java/util/ArrayList
+	special %48.<init>()
+	goto %label1
+
+%label1: 	//predecessors %goto0
+	%24 = this.tasks
+	goto %bb7
+
+%bb7: 	//predecessors %label1
+	%21 = %24.length
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %label2
+
+%label2: 	//predecessors %bb8, %goto1
+	%46 = phi {%bb8 -> 0; %goto1 -> %47}
+	%23 = (%46 >= %21)
+	if (%23) goto %if.then2 else %if.else0
+
+%if.else0: 	//predecessors %label2
+	%45 = %24[%46]
+	goto %label3
+
+%label3: 	//predecessors %if.else0
+	%29 = virtual %45.isAsync()
+	goto %bb9
+
+%bb9: 	//predecessors %label3
+	%31 = (%29 == false)
+	if (%31) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb9
+	%34 = invokeDynamic (com/maciejwalkowiak/paseq/ExecMojo, com/maciejwalkowiak/paseq/Task): java/lang/Runnable @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)), HandleBsmArgument(handle=@com/maciejwalkowiak/paseq/ExecMojo::lambda$execute$0(com/maciejwalkowiak/paseq/Task): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): void)))
+	goto %bb10
+
+%bb10: 	//predecessors %if.else1
+	%37 = static CompletableFuture.runAsync(%34)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%38 = interface %48.add(%37)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	goto %goto1
+
+%if.then0: 	//predecessors %bb9
+	%41 = virtual %45.isWait()
+	goto %bb13
+
+%bb13: 	//predecessors %if.then0
+	%43 = (%41 == false)
+	if (%43) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb13
+	virtual this.waitAndClear(%48)
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb13, %if.else2
+	virtual this.runAndLog(%45)
+	goto %goto1
+
+%goto1: 	//predecessors %bb12, %if.then1
+	%47 = %46 + 1
+	goto %label2
+
+%if.then2: 	//predecessors %label2
+	virtual this.waitAndClear(%48)
+	goto %bb14
+
+%bb14: 	//predecessors %if.then2
+	return
+2026-06-29 07:47:31.646 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.646 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.646 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::execute(): void: null
+2026-06-29 07:47:31.647 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::runAndLog(com/maciejwalkowiak/paseq/Task): void
+2026-06-29 07:47:31.647 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::runAndLog(com/maciejwalkowiak/paseq/Task): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = virtual this.getLog()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = virtual arg$0.toLoggableString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Started invocation of "))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	interface %4.info(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual this.run(arg$0)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%10 = virtual this.getLog()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%8 = virtual arg$0.toLoggableString()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%11 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Finished invocation of "))
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	interface %10.info(%11)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	return
+2026-06-29 07:47:31.647 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.647 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.647 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::runAndLog(com/maciejwalkowiak/paseq/Task): void: null
+2026-06-29 07:47:31.647 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::run(com/maciejwalkowiak/paseq/Task): void
+2026-06-29 07:47:31.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::run(com/maciejwalkowiak/paseq/Task): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.hasGoals()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = static ExecMojo.toInvocationRequest(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	virtual this.invoke(%5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	%7 = virtual arg$0.getExec()
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%9 = (%7 == null)
+	if (%9) goto %if.then3 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%11 = virtual arg$0.hasCommand()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%13 = (%11 == false)
+	if (%13) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%36 = new java/lang/ProcessBuilder
+	%17 = new java/lang/String[0]
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	special %36.<init>(%17)
+	goto %label0
+
+%label0: 	//predecessors %bb6
+	%32 = virtual arg$0.getExec()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%21 = virtual %32.getDirectory()
+	goto %bb7
+
+%bb7: 	//predecessors %label1
+	%23 = (%21 == null)
+	if (%23) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb7
+	%30 = new java/io/File
+	%28 = virtual %32.getDirectory()
+	goto %bb8
+
+%bb8: 	//predecessors %if.else3
+	special %30.<init>(%28)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%31 = virtual %36.directory(%30)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb7, %bb10
+	%34 = virtual %32.getCommand()
+	goto %bb11
+
+%bb11: 	//predecessors %if.then1
+	%37 = virtual %34.split(" ")
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%39 = virtual %36.command(%37)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%41 = virtual %39.inheritIO()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%45 = virtual %41.start()
+	goto %label2
+
+%label2: 	//predecessors %bb14
+	%52 = virtual %45.waitFor()
+	goto %label3
+
+%label3: 	//predecessors %label2
+	virtual %45.destroy()
+	goto %bb15
+
+%bb15: 	//predecessors %label3
+	%48 = (%52 == 0)
+	if (%48) goto %if.then2 else %if.else4
+
+%if.else4: 	//predecessors %bb15
+	%56 = new org/apache/maven/plugin/MojoExecutionException
+	%51 = static String.valueOf(arg$0)
+	goto %bb16
+
+%bb16: 	//predecessors %if.else4
+	%55 = invokeDynamic (java/lang/String, int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Running task  finished with a exit code "))
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	special %56.<init>(%55)
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	throw %56
+
+%if.then2: 	//predecessors %bb15
+	goto %goto0
+
+%catch0: 	//catches from %label2, %if.else4, %bb14, %bb10, %bb9, %label1, %bb6, %bb17, %bb18, %label0, %bb8, %if.else2, %if.then1, %if.else3, %bb13, %bb16, %bb11, %bb12, %bb15, %bb7, %label3
+	%60 = catch java/lang/InterruptedException
+goto %label4
+
+%label4: 	//predecessors %catch0
+	%61 = new java/lang/RuntimeException
+	special %61.<init>(%60)
+	goto %bb19
+
+%bb19: 	//predecessors %label4
+	throw %61
+
+%if.then3: 	//predecessors %bb4, %bb5
+	%64 = new java/lang/RuntimeException
+	special %64.<init>("either goals or command has to be set")
+	goto %bb20
+
+%bb20: 	//predecessors %if.then3
+	throw %64
+
+%goto0: 	//predecessors %bb3, %if.then2
+	return
+2026-06-29 07:47:31.648 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.648 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.648 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::run(com/maciejwalkowiak/paseq/Task): void: null
+2026-06-29 07:47:31.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::waitAndClear(java/util/List): void
+2026-06-29 07:47:31.648 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::waitAndClear(java/util/List): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$0.isEmpty()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then2 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%10 = interface arg$0.iterator()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	goto %label0
+
+%label0: 	//predecessors %bb2, %goto0
+	%7 = interface %10.hasNext()
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%9 = (%7 == false)
+	if (%9) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%12 = interface %10.next()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%14 = (java/util/concurrent/CompletableFuture) %12
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %label1
+
+%label1: 	//predecessors %bb5
+	%15 = virtual %14.join()
+	goto %bb6
+
+%bb6: 	//predecessors %label1
+	goto %goto0
+
+%catch0: 	//catches from %label1, %bb6
+	%31 = catch java/util/concurrent/CompletionException
+goto %label2
+
+%label2: 	//predecessors %catch0
+	%19 = virtual %31.getCause()
+	goto %bb7
+
+%bb7: 	//predecessors %label2
+	%21 = %19 instanceOf org/apache/maven/plugin/MojoExecutionException
+	%23 = (%21 == false)
+	if (%23) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb7
+	%26 = virtual %31.getCause()
+	goto %bb8
+
+%bb8: 	//predecessors %if.else2
+	%28 = (org/apache/maven/plugin/MojoExecutionException) %26
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	throw %28
+
+%if.then0: 	//predecessors %bb7
+	%32 = new java/lang/RuntimeException
+	special %32.<init>(%31)
+	goto %bb10
+
+%bb10: 	//predecessors %if.then0
+	throw %32
+
+%goto0: 	//predecessors %bb6
+	goto %label0
+
+%if.then1: 	//predecessors %bb3
+	interface arg$0.clear()
+	goto %if.then2
+
+%if.then2: 	//predecessors %bb1, %if.then1
+	return
+2026-06-29 07:47:31.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::waitAndClear(java/util/List): void: null
+2026-06-29 07:47:31.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::invoke(org/apache/maven/shared/invoker/InvocationRequest): void
+2026-06-29 07:47:31.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::invoke(org/apache/maven/shared/invoker/InvocationRequest): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.invoker
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%14 = interface %1.execute(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = interface %14.getExitCode()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%7 = (%5 != 0)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%10 = interface %14.getExecutionException()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%12 = (%10 == null)
+	if (%12) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb3
+	%18 = new org/apache/maven/plugin/MojoExecutionException
+	%17 = interface %14.getExecutionException()
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	special %18.<init>(%17)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	throw %18
+
+%if.then1: 	//predecessors %bb3
+	goto %goto0
+
+%catch0: 	//catches from %bb0, %bb1, %if.then0, %bb5, %label0, %if.else0, %bb4, %bb2, %bb3
+	%22 = catch org/apache/maven/shared/invoker/MavenInvocationException
+goto %label1
+
+%label1: 	//predecessors %catch0
+	%23 = new org/apache/maven/plugin/MojoExecutionException
+	special %23.<init>(%22)
+	goto %bb6
+
+%bb6: 	//predecessors %label1
+	throw %23
+
+%goto0: 	//predecessors %if.then1
+	return
+2026-06-29 07:47:31.649 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.650 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.650 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::invoke(org/apache/maven/shared/invoker/InvocationRequest): void: null
+2026-06-29 07:47:31.650 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/maciejwalkowiak/paseq/ExecMojo::toInvocationRequest(com/maciejwalkowiak/paseq/Task): org/apache/maven/shared/invoker/InvocationRequest
+2026-06-29 07:47:31.650 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/maciejwalkowiak/paseq/ExecMojo::toInvocationRequest(com/maciejwalkowiak/paseq/Task): org/apache/maven/shared/invoker/InvocationRequest
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%8 = new org/apache/maven/shared/invoker/DefaultInvocationRequest
+	special %8.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = virtual arg$0.getGoals()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%6 = static Arrays.asList(%3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = interface %8.setGoals(%6)
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	return %8
+2026-06-29 07:47:31.650 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.651 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/apache/maven/plugin/AbstractMojo
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-06-29 07:47:31.651 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/maciejwalkowiak/paseq/ExecMojo::toInvocationRequest(com/maciejwalkowiak/paseq/Task): org/apache/maven/shared/invoker/InvocationRequest: null
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::<init>(): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::<init>(java/util/List, org/apache/maven/shared/invoker/Invoker): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::execute(): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::runAndLog(com/maciejwalkowiak/paseq/Task): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::run(com/maciejwalkowiak/paseq/Task): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::waitAndClear(java/util/List): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::invoke(org/apache/maven/shared/invoker/InvocationRequest): void processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/maciejwalkowiak/paseq/ExecMojo::toInvocationRequest(com/maciejwalkowiak/paseq/Task): org/apache/maven/shared/invoker/InvocationRequest processing is finished normally
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-29 07:47:31.651 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

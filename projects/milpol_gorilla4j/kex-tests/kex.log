@@ -1,0 +1,2396 @@
+2026-06-29 02:14:08.780 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/projects/milpol_gorilla4j/target/classes
+2026-06-29 02:14:08.866 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 02:14:08.938 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/rt-11.jar
+2026-06-29 02:14:09.743 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-06-29 02:14:10.313 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/jarslab/ts/*
+2026-06-29 02:14:10.314 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-06-29 02:14:10.325 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/evosuite/projects/milpol_gorilla4j/target/classes
+/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-06-29 02:14:10.357 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/evosuite/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/evosuite/projects/milpol_gorilla4j/kex-tests --config /home/suelenfelix/TCC/teste/evosuite/kex/kex.ini --port 33085 --kfgClassPath /home/suelenfelix/TCC/teste/evosuite/projects/milpol_gorilla4j/target/classes:/home/suelenfelix/TCC/teste/evosuite/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/evosuite/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/evosuite/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-06-29 02:14:10.372 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-06-29 02:15:50.413 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::<init>(): void
+2026-06-29 02:15:50.414 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.position = 0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%2 = new java/util/BitSet
+	special %2.<init>()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.bitSet = %2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-06-29 02:15:50.867 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_init_7055746340
+2026-06-29 02:15:50.872 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::<init>(java/util/BitSet, int): void
+2026-06-29 02:15:50.872 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::<init>(java/util/BitSet, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.position = 0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%1 = (arg$1 >= 0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%11 = new java/lang/IllegalArgumentException
+	%7 = new java/lang/Object[1]
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%6 = static Integer.valueOf(arg$1)
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%7[0] = %6
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%10 = static String.format("Invalid position: `%d`.", %7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	special %11.<init>(%10)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	throw %11
+
+%if.then0: 	//predecessors %bb2
+	%13 = static Objects.requireNonNull(arg$0)
+	goto %bb7
+
+%bb7: 	//predecessors %if.then0
+	%15 = (java/util/BitSet) %13
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.bitSet = %15
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	this.position = arg$1
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	return
+2026-06-29 02:15:50.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_init_11940289931
+2026-06-29 02:15:50.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::skipBit(): void
+2026-06-29 02:15:50.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::skipBit(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.position
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = %1 + 1
+	this.position = %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-06-29 02:15:51.065 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_skipBit_6645861062
+2026-06-29 02:15:51.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::flipBit(): void
+2026-06-29 02:15:51.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::flipBit(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.bitSet
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.position
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual %2.flip(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = this.position
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7 = %5 + 1
+	this.position = %7
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-06-29 02:15:51.141 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_flipBit_11946715283
+2026-06-29 02:15:51.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::flipBits(int): void
+2026-06-29 02:15:51.142 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::flipBits(int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%5 = this.bitSet
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%6 = this.position
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = this.position
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = %3 + arg$0
+	virtual %5.flip(%6, %7)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = this.position
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = %9 + arg$0
+	this.position = %11
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return
+2026-06-29 02:15:51.206 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_flipBits_19794623494
+2026-06-29 02:15:51.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::write(long, int): void
+2026-06-29 02:15:51.207 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::write(long, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %bb5
+	%18 = phi {%bb0 -> 0; %bb5 -> %19}
+	%4 = (%18 >= arg$1)
+	if (%4) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%7 = static ByteUtils.getBit(arg$0, %18)
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%9 = (%7 == false)
+	if (%9) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%12 = this.bitSet
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	%13 = this.position
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %12.set(%13)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb3
+	%15 = this.position
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%17 = %15 + 1
+	this.position = %17
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%19 = %18 + 1
+	goto %label0
+
+%if.then1: 	//predecessors %label0
+	return
+2026-06-29 02:15:51.269 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_write_11290343775
+2026-06-29 02:15:51.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::getSize(): int
+2026-06-29 02:15:51.270 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::getSize(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.position
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 02:15:51.324 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_getSize_19416519096
+2026-06-29 02:15:51.324 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::toBytes(): byte[]
+2026-06-29 02:15:51.325 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::toBytes(): byte[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.bitSet
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.toByteArray()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-06-29 02:15:51.384 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_toBytes_2514212127
+2026-06-29 02:15:51.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBitSet::copy(): com/jarslab/ts/OutBit
+2026-06-29 02:15:51.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBitSet::copy(): com/jarslab/ts/OutBit
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%10 = new com/jarslab/ts/OutBitSet
+	%2 = this.bitSet
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = virtual %2.clone()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%8 = (java/util/BitSet) %4
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = this.position
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %10.<init>(%8, %9)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %10
+2026-06-29 02:15:51.466 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_copy_6158058568
+2026-06-29 02:15:51.517 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_init_7055746349
+2026-06-29 02:15:51.565 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_init_119402899310
+2026-06-29 02:15:51.621 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_skipBit_66458610611
+2026-06-29 02:15:51.664 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_flipBit_119467152812
+2026-06-29 02:15:51.723 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_flipBits_197946234913
+2026-06-29 02:15:51.766 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_write_112903437714
+2026-06-29 02:15:51.807 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_getSize_194165190915
+2026-06-29 02:15:51.846 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_toBytes_25142121216
+2026-06-29 02:15:51.885 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBitSet_copy_61580585617
+2026-06-29 02:15:51.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::<init>(): void: null
+2026-06-29 02:15:51.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::<init>(java/util/BitSet, int): void: null
+2026-06-29 02:15:51.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::skipBit(): void: null
+2026-06-29 02:15:51.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::flipBit(): void: null
+2026-06-29 02:15:51.886 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::flipBits(int): void: null
+2026-06-29 02:15:51.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::write(long, int): void: null
+2026-06-29 02:15:51.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::getSize(): int: null
+2026-06-29 02:15:51.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::toBytes(): byte[]: null
+2026-06-29 02:15:51.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBitSet::copy(): com/jarslab/ts/OutBit: null
+2026-06-29 02:15:51.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::<init>(): void processing is finished normally
+2026-06-29 02:15:51.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::<init>(java/util/BitSet, int): void processing is finished normally
+2026-06-29 02:15:51.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::skipBit(): void processing is finished normally
+2026-06-29 02:15:51.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::flipBit(): void processing is finished normally
+2026-06-29 02:15:51.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::flipBits(int): void processing is finished normally
+2026-06-29 02:15:51.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::write(long, int): void processing is finished normally
+2026-06-29 02:15:51.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::getSize(): int processing is finished normally
+2026-06-29 02:15:51.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::toBytes(): byte[] processing is finished normally
+2026-06-29 02:15:51.888 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBitSet::copy(): com/jarslab/ts/OutBit processing is finished normally
+2026-06-29 02:15:51.891 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBit::writeInt(int): void
+2026-06-29 02:15:51.891 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBit::writeInt(int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (long) arg$0
+	interface this.write(%1, 32)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 02:15:51.946 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBit_writeInt_3125312340
+2026-06-29 02:15:51.946 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/OutBit::writeLong(long): void
+2026-06-29 02:15:51.946 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/OutBit::writeLong(long): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	interface this.write(arg$0, 64)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 02:15:51.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBit_writeLong_15511550491
+2026-06-29 02:15:52.021 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBit_writeInt_3125312342
+2026-06-29 02:15:52.056 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.OutBit_writeLong_15511550493
+2026-06-29 02:15:52.057 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBit::writeInt(int): void: null
+2026-06-29 02:15:52.057 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/OutBit::writeLong(long): void: null
+2026-06-29 02:15:52.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBit::writeInt(int): void processing is finished normally
+2026-06-29 02:15:52.057 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/OutBit::writeLong(long): void processing is finished normally
+2026-06-29 02:15:52.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::<init>(long): void
+2026-06-29 02:15:52.075 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::<init>(long): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new com/jarslab/ts/OutBitSet
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>(arg$0, %2)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-06-29 02:15:52.113 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_init_11314697850
+2026-06-29 02:15:52.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::<init>(long, com/jarslab/ts/OutBit): void
+2026-06-29 02:15:52.114 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::<init>(long, com/jarslab/ts/OutBit): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = (arg$0 cmp 0)
+	%3 = (%1 >= 0)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%13 = new java/lang/IllegalArgumentException
+	%9 = new java/lang/Object[1]
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%8 = static Long.valueOf(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%9[0] = %8
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = static String.format("Invalid time value `%d`.", %9)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %13.<init>(%12)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	throw %13
+
+%if.then0: 	//predecessors %bb1
+	this.startTime = arg$0
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	%15 = static Objects.requireNonNull(arg$1)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%17 = (com/jarslab/ts/OutBit) %15
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.outBit = %17
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	return
+2026-06-29 02:15:52.159 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_init_7909439061
+2026-06-29 02:15:52.160 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::fromBytes(byte[]): com/jarslab/ts/TSG
+2026-06-29 02:15:52.160 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::fromBytes(byte[]): com/jarslab/ts/TSG
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%21 = static ByteBuffer.wrap(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%33 = virtual %21.getLong()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%36 = virtual %21.getLong()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%38 = virtual %21.getDouble()
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%40 = virtual %21.getInt()
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%42 = virtual %21.getInt()
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%44 = virtual %21.getInt()
+	goto %label6
+
+%label6: 	//predecessors %label5
+	%31 = virtual %21.getInt()
+	goto %label7
+
+%label7: 	//predecessors %label6
+	%17 = virtual %21.remaining()
+	goto %bb1
+
+%bb1: 	//predecessors %label7
+	%27 = new byte[%17]
+	goto %label8
+
+%label8: 	//predecessors %bb1
+	%23 = %27.length
+	goto %bb2
+
+%bb2: 	//predecessors %label8
+	%24 = virtual %21.get(%27, 0, %23)
+	goto %label9
+
+%label9: 	//predecessors %bb2
+	%45 = new com/jarslab/ts/TSG
+	%34 = new com/jarslab/ts/OutBitSet
+	goto %label10
+
+%label10: 	//predecessors %label9
+	%30 = static BitSet.valueOf(%27)
+	goto %bb3
+
+%bb3: 	//predecessors %label10
+	special %34.<init>(%30, %31)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %45.<init>(%33, %34)
+	goto %label11
+
+%label11: 	//predecessors %bb4
+	%45.time = %36
+	goto %bb5
+
+%bb5: 	//predecessors %label11
+	%45.value = %38
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%45.timeDelta = %40
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%45.leading = %42
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%45.trailing = %44
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	return %45
+2026-06-29 02:15:52.196 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_fromBytes_12373277062
+2026-06-29 02:15:52.197 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::close(): void
+2026-06-29 02:15:52.197 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::close(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.closed
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = this.outBit
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	interface %5.flipBits(36)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = this.outBit
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	interface %7.skipBit()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.closed = 1
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb5
+	return
+2026-06-29 02:15:52.246 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_close_5923253233
+2026-06-29 02:15:52.247 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::put(com/jarslab/ts/DataPoint): void
+2026-06-29 02:15:52.247 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::put(com/jarslab/ts/DataPoint): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = interface arg$0.getTime()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface arg$0.getValue()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual this.put(%2, %3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-06-29 02:15:52.291 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_put_20711983104
+2026-06-29 02:15:52.291 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::put(long, double): void
+2026-06-29 02:15:52.291 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::put(long, double): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.closed
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("Block already closed.")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%8 = this.time
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = (%8 cmp 0)
+	%12 = (%10 != 0)
+	if (%12) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%14 = this.startTime
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%16 = (arg$0 cmp %14)
+	%18 = (%16 >= 0)
+	if (%18) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%33 = new java/lang/IllegalArgumentException
+	%29 = new java/lang/Object[2]
+	goto %label0
+
+%label0: 	//predecessors %if.else2
+	%23 = static Long.valueOf(arg$0)
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	%29[0] = %23
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%25 = this.startTime
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%28 = static Long.valueOf(%25)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%29[1] = %28
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%32 = static String.format("Issued time: `%d` is out of block start time: `%d`.", %29)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	special %33.<init>(%32)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	throw %33
+
+%if.then1: 	//predecessors %bb4
+	virtual this.putInitialPoint(arg$0, arg$1)
+	goto %bb12
+
+%bb12: 	//predecessors %if.then1
+	goto %goto0
+
+%if.then2: 	//predecessors %bb3
+	%35 = this.time
+	goto %bb13
+
+%bb13: 	//predecessors %if.then2
+	%37 = (arg$0 cmp %35)
+	%39 = (%37 >= 0)
+	if (%39) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb13
+	%54 = new java/lang/IllegalArgumentException
+	%50 = new java/lang/Object[2]
+	goto %label1
+
+%label1: 	//predecessors %if.else3
+	%44 = static Long.valueOf(arg$0)
+	goto %bb14
+
+%bb14: 	//predecessors %label1
+	%50[0] = %44
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%46 = this.time
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%49 = static Long.valueOf(%46)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%50[1] = %49
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%53 = static String.format("Issued time: `%d` is before last inserted: `%d`.", %50)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	special %54.<init>(%53)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	throw %54
+
+%if.then3: 	//predecessors %bb13
+	virtual this.putTime(arg$0)
+	goto %bb21
+
+%bb21: 	//predecessors %if.then3
+	virtual this.putValue(arg$1)
+	goto %goto0
+
+%goto0: 	//predecessors %bb12, %bb21
+	return
+2026-06-29 02:15:52.335 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_put_16778836335
+2026-06-29 02:15:52.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::isClosed(): bool
+2026-06-29 02:15:52.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::isClosed(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.closed
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 02:15:52.380 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_isClosed_217228696
+2026-06-29 02:15:52.380 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::toBytes(): byte[]
+2026-06-29 02:15:52.381 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::toBytes(): byte[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.closed
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("Block already closed, dump data instead.")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%9 = static ByteBuffer.allocate(40)
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%10 = this.startTime
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%13 = virtual %9.putLong(%10)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%14 = this.time
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%17 = virtual %13.putLong(%14)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%18 = this.value
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%21 = virtual %17.putDouble(%18)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%22 = this.timeDelta
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%25 = virtual %21.putInt(%22)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%26 = this.leading
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%29 = virtual %25.putInt(%26)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%30 = this.trailing
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%35 = virtual %29.putInt(%30)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%33 = this.outBit
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%36 = interface %33.getSize()
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%38 = virtual %35.putInt(%36)
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%43 = virtual %38.array()
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%41 = this.outBit
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%44 = interface %41.toBytes()
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%46 = static ByteUtils.concat(%43, %44)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	return %46
+2026-06-29 02:15:52.426 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_toBytes_15856261217
+2026-06-29 02:15:52.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::getDataBytes(): byte[]
+2026-06-29 02:15:52.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::getDataBytes(): byte[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.closed
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("Block not sealed yet.")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%8 = this.outBit
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = interface %8.toBytes()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %10
+2026-06-29 02:15:52.490 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_getDataBytes_20438859028
+2026-06-29 02:15:52.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::toIterator(): com/jarslab/ts/TSGIterator
+2026-06-29 02:15:52.490 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::toIterator(): com/jarslab/ts/TSGIterator
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.closed
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%28 = new com/jarslab/ts/TSGIterator
+	%14 = new com/jarslab/ts/InBitSet
+	%7 = this.outBit
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%9 = interface %7.copy()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = interface %9.toBytes()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %14.<init>(%12)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	special %28.<init>(%14)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%16 = this.outBit
+	goto %bb7
+
+%bb7: 	//predecessors %if.then0
+	%22 = interface %16.copy()
+	goto %label0
+
+%label0: 	//predecessors %bb7
+	interface %22.flipBits(36)
+	goto %bb8
+
+%bb8: 	//predecessors %label0
+	interface %22.skipBit()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%29 = new com/jarslab/ts/TSGIterator
+	%27 = new com/jarslab/ts/InBitSet
+	%25 = interface %22.toBytes()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	special %27.<init>(%25)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	special %29.<init>(%27)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb6, %bb12
+	%retval1 = phi {%bb6 -> %28; %bb12 -> %29}
+	return %retval1
+2026-06-29 02:15:52.536 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_toIterator_12349699949
+2026-06-29 02:15:52.536 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::putInitialPoint(long, double): void
+2026-06-29 02:15:52.536 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::putInitialPoint(long, double): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.outBit
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.startTime
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	interface %2.writeLong(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.time = arg$0
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.value = arg$1
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%5 = this.startTime
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%7 = arg$0 - %5
+	%9 = (int) %7
+	this.timeDelta = %9
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%14 = this.outBit
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%12 = this.timeDelta
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%15 = (long) %12
+	interface %14.write(%15, 14)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%18 = this.outBit
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%19 = static Double.doubleToLongBits(arg$1)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	interface %18.writeLong(%19)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	return
+2026-06-29 02:15:52.575 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_putInitialPoint_203779385310
+2026-06-29 02:15:52.575 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::putTime(long): void
+2026-06-29 02:15:52.576 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::putTime(long): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.time
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = arg$0 - %1
+	%66 = (int) %3
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%7 = this.timeDelta
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%62 = %66 - %7
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%11 = (%62 != 0)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%13 = this.outBit
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	interface %13.skipBit()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %goto0
+
+%if.then0: 	//predecessors %label1
+	%16 = (-63 > %62)
+	if (%16) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%19 = (%62 > 64)
+	if (%19) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %if.else1
+	%21 = this.outBit
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	interface %21.flipBit()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%23 = this.outBit
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	interface %23.skipBit()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%27 = this.outBit
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%28 = (long) %62
+	interface %27.write(%28, 7)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto0
+
+%if.then1: 	//predecessors %if.then0, %if.else1
+	%31 = (-255 > %62)
+	if (%31) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %if.then1
+	%34 = (%62 > 256)
+	if (%34) goto %if.then2 else %if.else4
+
+%if.else4: 	//predecessors %if.else3
+	%36 = this.outBit
+	goto %bb11
+
+%bb11: 	//predecessors %if.else4
+	interface %36.flipBits(2)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%38 = this.outBit
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	interface %38.skipBit()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%42 = this.outBit
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%43 = (long) %62
+	interface %42.write(%43, 9)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	goto %goto0
+
+%if.then2: 	//predecessors %if.then1, %if.else3
+	%46 = (-2047 > %62)
+	if (%46) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %if.then2
+	%49 = (%62 > 2048)
+	if (%49) goto %if.then3 else %if.else6
+
+%if.else6: 	//predecessors %if.else5
+	%51 = this.outBit
+	goto %bb17
+
+%bb17: 	//predecessors %if.else6
+	interface %51.flipBits(3)
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%53 = this.outBit
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	interface %53.skipBit()
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%57 = this.outBit
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%58 = (long) %62
+	interface %57.write(%58, 12)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	goto %goto0
+
+%if.then3: 	//predecessors %if.then2, %if.else5
+	%60 = this.outBit
+	goto %bb23
+
+%bb23: 	//predecessors %if.then3
+	interface %60.flipBits(4)
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%64 = this.outBit
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%65 = (long) %62
+	interface %64.write(%65, 32)
+	goto %goto0
+
+%goto0: 	//predecessors %bb4, %bb10, %bb16, %bb22, %bb25
+	this.timeDelta = %66
+	goto %bb26
+
+%bb26: 	//predecessors %goto0
+	this.time = arg$0
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	return
+2026-06-29 02:15:52.611 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_putTime_71888852711
+2026-06-29 02:15:52.611 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSG::putValue(double): void
+2026-06-29 02:15:52.612 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSG::putValue(double): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = static Double.doubleToLongBits(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.value
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = static Double.doubleToLongBits(%2)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%77 = %4 ^ %5
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	%9 = (%77 cmp 0)
+	%11 = (%9 != 0)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%13 = this.outBit
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	interface %13.skipBit()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %goto0
+
+%if.then0: 	//predecessors %label0
+	%15 = this.outBit
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	interface %15.flipBit()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%18 = static Long.numberOfLeadingZeros(%77)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%53 = static Math.min(%18, 31)
+	goto %label1
+
+%label1: 	//predecessors %bb8
+	%54 = static Long.numberOfTrailingZeros(%77)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%23 = this.leading
+	goto %bb9
+
+%bb9: 	//predecessors %label2
+	%25 = (%23 == 31)
+	if (%25) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb9
+	%28 = this.leading
+	goto %bb10
+
+%bb10: 	//predecessors %if.else1
+	%30 = (%53 < %28)
+	if (%30) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb10
+	%33 = this.trailing
+	goto %bb11
+
+%bb11: 	//predecessors %if.else2
+	%35 = (%54 < %33)
+	if (%35) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb11
+	%37 = this.outBit
+	goto %bb12
+
+%bb12: 	//predecessors %if.else3
+	interface %37.skipBit()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%50 = this.outBit
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%41 = this.trailing
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%51 = %77 >> %41
+	%44 = this.leading
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%47 = 64 - %44
+	%48 = this.trailing
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%52 = %47 - %48
+	interface %50.write(%51, %52)
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	goto %goto0
+
+%if.then1: 	//predecessors %bb9, %bb10, %bb11
+	this.leading = %53
+	goto %bb19
+
+%bb19: 	//predecessors %if.then1
+	this.trailing = %54
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%56 = this.outBit
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	interface %56.flipBit()
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%61 = this.outBit
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%59 = this.leading
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%62 = (long) %59
+	interface %61.write(%62, 5)
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%64 = this.leading
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%67 = 64 - %64
+	%68 = this.trailing
+	goto %bb27
+
+%bb27: 	//predecessors %bb26
+	%82 = %67 - %68
+	goto %label3
+
+%label3: 	//predecessors %bb27
+	%73 = this.outBit
+	goto %bb28
+
+%bb28: 	//predecessors %label3
+	%74 = (long) %82
+	interface %73.write(%74, 6)
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%80 = this.outBit
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%78 = this.trailing
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%81 = %77 >> %78
+	interface %80.write(%81, %82)
+	goto %goto0
+
+%goto0: 	//predecessors %bb5, %bb18, %bb31
+	this.value = arg$0
+	goto %bb32
+
+%bb32: 	//predecessors %goto0
+	return
+2026-06-29 02:15:52.645 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_putValue_207886441012
+2026-06-29 02:15:52.676 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_init_113146978513
+2026-06-29 02:15:52.707 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_init_79094390614
+2026-06-29 02:15:52.742 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_fromBytes_123732770615
+2026-06-29 02:15:52.779 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_close_59232532316
+2026-06-29 02:15:52.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_put_207119831017
+2026-06-29 02:15:52.846 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_put_167788363318
+2026-06-29 02:15:52.877 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_isClosed_2172286919
+2026-06-29 02:15:52.910 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_toBytes_158562612120
+2026-06-29 02:15:52.943 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_getDataBytes_204388590221
+2026-06-29 02:15:52.975 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_toIterator_123496999422
+2026-06-29 02:15:53.007 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_putInitialPoint_203779385323
+2026-06-29 02:15:53.039 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_putTime_71888852724
+2026-06-29 02:15:53.074 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSG_putValue_207886441025
+2026-06-29 02:15:53.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::<init>(long): void: null
+2026-06-29 02:15:53.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::<init>(long, com/jarslab/ts/OutBit): void: null
+2026-06-29 02:15:53.074 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::fromBytes(byte[]): com/jarslab/ts/TSG: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::close(): void: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::put(com/jarslab/ts/DataPoint): void: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::put(long, double): void: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::isClosed(): bool: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::toBytes(): byte[]: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::getDataBytes(): byte[]: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::toIterator(): com/jarslab/ts/TSGIterator: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::putInitialPoint(long, double): void: null
+2026-06-29 02:15:53.075 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::putTime(long): void: null
+2026-06-29 02:15:53.076 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSG::putValue(double): void: null
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::<init>(long): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::<init>(long, com/jarslab/ts/OutBit): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::fromBytes(byte[]): com/jarslab/ts/TSG processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::close(): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::put(com/jarslab/ts/DataPoint): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::put(long, double): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::isClosed(): bool processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::toBytes(): byte[] processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::getDataBytes(): byte[] processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::toIterator(): com/jarslab/ts/TSGIterator processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::putInitialPoint(long, double): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::putTime(long): void processing is finished normally
+2026-06-29 02:15:53.076 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSG::putValue(double): void processing is finished normally
+2026-06-29 02:15:53.086 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSGIterator::<init>(com/jarslab/ts/InBit): void
+2026-06-29 02:15:53.087 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSGIterator::<init>(com/jarslab/ts/InBit): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = static Objects.requireNonNull(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = (com/jarslab/ts/InBit) %1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.inBit = %3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%19 = interface arg$0.readLong()
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	%6 = interface arg$0.readToInt(14)
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	this.timeDelta = %6
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%8 = this.timeDelta
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%11 = (long) %8
+	%13 = %19 + %11
+	this.time = %13
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%15 = interface arg$0.readLong()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%17 = static Double.longBitsToDouble(%15)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	this.value = %17
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%36 = new double[4]
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%22 = (double) %19
+	%36[0] = %22
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%24 = this.timeDelta
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%27 = (double) %24
+	%36[1] = %27
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%29 = this.time
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%32 = (double) %29
+	%36[2] = %32
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%35 = this.value
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%36[3] = %35
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%39 = static DoubleStream.of(%36)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%40 = invokeDynamic (): java/util/function/DoublePredicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(double): bool)), HandleBsmArgument(handle=@com/jarslab/ts/TSGIterator::lambda$new$0(double): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(double): bool)))
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%42 = interface %39.allMatch(%40)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	this.finished = %42
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	return
+2026-06-29 02:15:53.124 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_init_21422118790
+2026-06-29 02:15:53.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSGIterator::hasNext(): bool
+2026-06-29 02:15:53.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSGIterator::hasNext(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.finished
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %5
+2026-06-29 02:15:53.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_hasNext_7176284501
+2026-06-29 02:15:53.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSGIterator::next(): com/jarslab/ts/DataPoint
+2026-06-29 02:15:53.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSGIterator::next(): com/jarslab/ts/DataPoint
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.finished
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/util/NoSuchElementException
+	special %6.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%13 = new com/jarslab/ts/DefaultDataPoint
+	%11 = this.time
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%12 = this.value
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %13.<init>(%11, %12)
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	virtual this.nextAdvance()
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	return %13
+2026-06-29 02:15:53.192 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_next_18193623662
+2026-06-29 02:15:53.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/TSGIterator::nextAdvance(): void
+2026-06-29 02:15:53.193 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/TSGIterator::nextAdvance(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %label3
+	%23 = phi {%label0 -> 0; %label3 -> %20}
+	%21 = phi {%label0 -> 0; %label3 -> %22}
+	%6 = (%21 >= 4)
+	if (%6) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%9 = %23 << 1
+	%24 = (byte) %9
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%12 = this.inBit
+	goto %bb0
+
+%bb0: 	//predecessors %label2
+	%14 = interface %12.read()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%16 = (%14 != false)
+	if (%16) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	goto %if.then1
+
+%if.then0: 	//predecessors %bb1
+	%19 = %24 || 1
+	%20 = (byte) %19
+	goto %label3
+
+%label3: 	//predecessors %if.then0
+	%22 = %21 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %label1, %if.else1
+	%38 = phi {%label1 -> %23; %if.else1 -> %24}
+	goto %label4
+
+%label4: 	//predecessors %if.then1
+	%28 = (%38 != 0)
+	if (%28) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %label4
+	goto %goto0
+
+%if.then2: 	//predecessors %label4
+	%31 = (%38 != 2)
+	if (%31) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %if.then2
+	goto %goto0
+
+%if.then3: 	//predecessors %if.then2
+	%34 = (%38 != 6)
+	if (%34) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %if.then3
+	goto %goto0
+
+%if.then4: 	//predecessors %if.then3
+	%37 = (%38 != 14)
+	if (%37) goto %if.then5 else %if.else5
+
+%if.else5: 	//predecessors %if.then4
+	goto %goto0
+
+%if.then5: 	//predecessors %if.then4
+	%40 = (%38 != 15)
+	if (%40) goto %goto0 else %if.else6
+
+%if.else6: 	//predecessors %if.then5
+	%42 = this.inBit
+	goto %bb2
+
+%bb2: 	//predecessors %if.else6
+	%47 = interface %42.readInt()
+	goto %label5
+
+%label5: 	//predecessors %bb2
+	%46 = (%47 != -1)
+	if (%46) goto %if.then6 else %if.else7
+
+%if.else7: 	//predecessors %label5
+	this.finished = 1
+	goto %bb3
+
+%bb3: 	//predecessors %if.else7
+	goto %bb.return0
+
+%if.then6: 	//predecessors %label5
+	goto %goto0
+
+%goto0: 	//predecessors %if.else2, %if.else3, %if.else4, %if.else5, %if.then5, %if.then6
+	%73 = phi {%if.else2 -> 0; %if.else3 -> 0; %if.else4 -> 0; %if.else5 -> 0; %if.then5 -> 0; %if.then6 -> %47}
+	%65 = phi {%if.else2 -> 0; %if.else3 -> 7; %if.else4 -> 9; %if.else5 -> 12; %if.then5 -> 0; %if.then6 -> 0}
+	%52 = (%65 == 0)
+	if (%52) goto %if.then8 else %if.else8
+
+%if.else8: 	//predecessors %goto0
+	%54 = this.inBit
+	goto %bb4
+
+%bb4: 	//predecessors %if.else8
+	%70 = interface %54.readToInt(%65)
+	goto %label6
+
+%label6: 	//predecessors %bb4
+	%59 = %65 - 1
+	%62 = 1 << %59
+	%64 = (%70 <= %62)
+	if (%64) goto %if.then7 else %if.else9
+
+%if.else9: 	//predecessors %label6
+	%68 = 1 << %65
+	%71 = %70 - %68
+	goto %if.then7
+
+%if.then7: 	//predecessors %label6, %if.else9
+	%74 = phi {%label6 -> %70; %if.else9 -> %71}
+	goto %if.then8
+
+%if.then8: 	//predecessors %goto0, %if.then7
+	%78 = phi {%goto0 -> %73; %if.then7 -> %74}
+	%77 = this.timeDelta
+	goto %bb5
+
+%bb5: 	//predecessors %if.then8
+	%80 = %77 + %78
+	this.timeDelta = %80
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%85 = this.time
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%83 = this.timeDelta
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%86 = (long) %83
+	%88 = %85 + %86
+	this.time = %88
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%90 = this.inBit
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%92 = interface %90.read()
+	goto %label7
+
+%label7: 	//predecessors %bb10
+	%94 = (%92 == false)
+	if (%94) goto %if.then11 else %if.else10
+
+%if.else10: 	//predecessors %label7
+	%96 = this.inBit
+	goto %bb11
+
+%bb11: 	//predecessors %if.else10
+	%98 = interface %96.read()
+	goto %label8
+
+%label8: 	//predecessors %bb11
+	%100 = (%98 == false)
+	if (%100) goto %if.then10 else %if.else11
+
+%if.else11: 	//predecessors %label8
+	%102 = this.inBit
+	goto %bb12
+
+%bb12: 	//predecessors %if.else11
+	%104 = interface %102.readToInt(5)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	this.leading = %104
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%106 = this.inBit
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%111 = interface %106.readToInt(6)
+	goto %label9
+
+%label9: 	//predecessors %bb15
+	%110 = (%111 != 0)
+	if (%110) goto %if.then9 else %if.else12
+
+%if.else12: 	//predecessors %label9
+	goto %if.then9
+
+%if.then9: 	//predecessors %label9, %if.else12
+	%117 = phi {%label9 -> %111; %if.else12 -> 64}
+	%114 = this.leading
+	goto %bb16
+
+%bb16: 	//predecessors %if.then9
+	%116 = 64 - %114
+	%119 = %116 - %117
+	this.trailing = %119
+	goto %if.then10
+
+%if.then10: 	//predecessors %label8, %bb16
+	%121 = this.trailing
+	goto %bb17
+
+%bb17: 	//predecessors %if.then10
+	%124 = 64 - %121
+	%125 = this.leading
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%129 = %124 - %125
+	goto %label10
+
+%label10: 	//predecessors %bb18
+	%128 = this.inBit
+	goto %bb19
+
+%bb19: 	//predecessors %label10
+	%135 = interface %128.read(%129)
+	goto %label11
+
+%label11: 	//predecessors %bb19
+	%132 = this.value
+	goto %bb20
+
+%bb20: 	//predecessors %label11
+	%138 = static Double.doubleToLongBits(%132)
+	goto %label12
+
+%label12: 	//predecessors %bb20
+	%136 = this.trailing
+	goto %bb21
+
+%bb21: 	//predecessors %label12
+	%139 = %135 << %136
+	%141 = %138 ^ %139
+	goto %label13
+
+%label13: 	//predecessors %bb21
+	%143 = static Double.longBitsToDouble(%141)
+	goto %bb22
+
+%bb22: 	//predecessors %label13
+	this.value = %143
+	goto %if.then11
+
+%if.then11: 	//predecessors %label7, %bb22
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb3, %if.then11
+	return
+2026-06-29 02:15:53.224 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_nextAdvance_9412091723
+2026-06-29 02:15:53.254 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_init_21422118794
+2026-06-29 02:15:53.284 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_hasNext_7176284505
+2026-06-29 02:15:53.318 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_next_18193623666
+2026-06-29 02:15:53.349 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.TSGIterator_nextAdvance_9412091727
+2026-06-29 02:15:53.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSGIterator::<init>(com/jarslab/ts/InBit): void: null
+2026-06-29 02:15:53.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSGIterator::hasNext(): bool: null
+2026-06-29 02:15:53.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSGIterator::next(): com/jarslab/ts/DataPoint: null
+2026-06-29 02:15:53.350 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSGIterator::<init>(com/jarslab/ts/InBit): void processing is finished normally
+2026-06-29 02:15:53.350 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/TSGIterator::nextAdvance(): void: null
+2026-06-29 02:15:53.350 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSGIterator::hasNext(): bool processing is finished normally
+2026-06-29 02:15:53.350 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSGIterator::next(): com/jarslab/ts/DataPoint processing is finished normally
+2026-06-29 02:15:53.350 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/TSGIterator::nextAdvance(): void processing is finished normally
+2026-06-29 02:15:53.353 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBitSet::<init>(byte[]): void
+2026-06-29 02:15:53.353 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBitSet::<init>(byte[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static BitSet.valueOf(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-06-29 02:15:53.391 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_init_17653306910
+2026-06-29 02:15:53.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBitSet::<init>(java/util/BitSet): void
+2026-06-29 02:15:53.392 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBitSet::<init>(java/util/BitSet): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = static Objects.requireNonNull(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = (java/util/BitSet) %1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.bitSet = %3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-06-29 02:15:53.423 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_init_17756211681
+2026-06-29 02:15:53.424 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBitSet::read(): bool
+2026-06-29 02:15:53.424 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBitSet::read(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.bitSet
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.position
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = virtual %2.get(%3)
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%6 = this.position
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%8 = %6 + 1
+	this.position = %8
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %9
+2026-06-29 02:15:53.458 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_read_18466752132
+2026-06-29 02:15:53.459 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBitSet::read(int): long
+2026-06-29 02:15:53.459 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBitSet::read(int): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 <= 64)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%11 = new java/lang/IllegalArgumentException
+	%7 = new java/lang/Object[1]
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%6 = static Integer.valueOf(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%7[0] = %6
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%10 = static String.format("Over long read: `%d`.", %7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	special %11.<init>(%10)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	throw %11
+
+%if.then0: 	//predecessors %bb0
+	goto %label1
+
+%label1: 	//predecessors %if.then0
+	goto %label2
+
+%label2: 	//predecessors %label1, %bb9
+	%40 = phi {%label1 -> 0; %bb9 -> %33}
+	%38 = phi {%label1 -> 0; %bb9 -> %39}
+	%18 = (%38 >= arg$0)
+	if (%18) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	%21 = this.bitSet
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%22 = this.position
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%24 = virtual %21.get(%22)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%26 = (%24 == false)
+	if (%26) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb7
+	%29 = 1 << %38
+	goto %goto0
+
+%if.then1: 	//predecessors %bb7
+	goto %goto0
+
+%goto0: 	//predecessors %if.else2, %if.then1
+	%32 = phi {%if.else2 -> %29; %if.then1 -> 0}
+	%33 = %40 + %32
+	goto %label3
+
+%label3: 	//predecessors %goto0
+	%35 = this.position
+	goto %bb8
+
+%bb8: 	//predecessors %label3
+	%37 = %35 + 1
+	this.position = %37
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%39 = %38 + 1
+	goto %label2
+
+%if.then2: 	//predecessors %label2
+	return %40
+2026-06-29 02:15:53.492 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_read_18466732273
+2026-06-29 02:15:53.523 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_init_17653306914
+2026-06-29 02:15:53.554 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_init_17756211685
+2026-06-29 02:15:53.584 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_read_18466752136
+2026-06-29 02:15:53.615 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBitSet_read_18466732277
+2026-06-29 02:15:53.616 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBitSet::<init>(byte[]): void: null
+2026-06-29 02:15:53.616 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBitSet::<init>(java/util/BitSet): void: null
+2026-06-29 02:15:53.616 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBitSet::read(): bool: null
+2026-06-29 02:15:53.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBitSet::<init>(byte[]): void processing is finished normally
+2026-06-29 02:15:53.616 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBitSet::read(int): long: null
+2026-06-29 02:15:53.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBitSet::<init>(java/util/BitSet): void processing is finished normally
+2026-06-29 02:15:53.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBitSet::read(): bool processing is finished normally
+2026-06-29 02:15:53.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBitSet::read(int): long processing is finished normally
+2026-06-29 02:15:53.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBit::readInt(): int
+2026-06-29 02:15:53.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBit::readInt(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface this.readToInt(32)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 02:15:53.645 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBit_readInt_21339228880
+2026-06-29 02:15:53.646 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBit::readLong(): long
+2026-06-29 02:15:53.646 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBit::readLong(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface this.read(64)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 02:15:53.674 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBit_readLong_17053357271
+2026-06-29 02:15:53.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/InBit::readToInt(int): int
+2026-06-29 02:15:53.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/InBit::readToInt(int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface this.read(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (int) %1
+	return %3
+2026-06-29 02:15:53.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBit_readToInt_13804459512
+2026-06-29 02:15:53.734 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBit_readInt_21339228883
+2026-06-29 02:15:53.765 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBit_readLong_17053357274
+2026-06-29 02:15:53.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.InBit_readToInt_13804459515
+2026-06-29 02:15:53.794 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBit::readInt(): int: null
+2026-06-29 02:15:53.794 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBit::readLong(): long: null
+2026-06-29 02:15:53.795 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/InBit::readToInt(int): int: null
+2026-06-29 02:15:53.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBit::readInt(): int processing is finished normally
+2026-06-29 02:15:53.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBit::readLong(): long processing is finished normally
+2026-06-29 02:15:53.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/InBit::readToInt(int): int processing is finished normally
+2026-06-29 02:15:53.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/ByteUtils::<init>(): void
+2026-06-29 02:15:53.798 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/ByteUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-06-29 02:15:53.825 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.ByteUtils_init_7513364840
+2026-06-29 02:15:53.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/ByteUtils::getBit(long, int): bool
+2026-06-29 02:15:53.825 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/ByteUtils::getBit(long, int): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$1 < 64)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%11 = new java/lang/IllegalArgumentException
+	%7 = new java/lang/Object[1]
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%6 = static Integer.valueOf(arg$1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7[0] = %6
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%10 = static String.format("Position `%d` out of long range.", %7)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %11.<init>(%10)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	throw %11
+
+%if.then0: 	//predecessors %bb0
+	%13 = arg$0 >> arg$1
+	%15 = %13 && 1
+	%17 = (%15 cmp 1)
+	%19 = (%17 != 0)
+	if (%19) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	goto %goto0
+
+%if.then1: 	//predecessors %if.then0
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then1
+	%21 = phi {%if.else1 -> 1; %if.then1 -> 0}
+	return %21
+2026-06-29 02:15:53.852 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.ByteUtils_getBit_7403291951
+2026-06-29 02:15:53.853 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/ByteUtils::concat(byte[], byte[]): byte[]
+2026-06-29 02:15:53.853 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/ByteUtils::concat(byte[], byte[]): byte[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%0 = static Objects.requireNonNull(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%1 = static Objects.requireNonNull(arg$1)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%12 = arg$0.length
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%13 = arg$1.length
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%7 = %12 + %13
+	%14 = new byte[%7]
+	goto %label4
+
+%label4: 	//predecessors %label3
+	static System.arraycopy(arg$0, 0, %14, 0, %12)
+	goto %bb1
+
+%bb1: 	//predecessors %label4
+	static System.arraycopy(arg$1, 0, %14, %12, %13)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %14
+2026-06-29 02:15:53.879 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.ByteUtils_concat_10218746822
+2026-06-29 02:15:53.911 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.ByteUtils_init_7513364843
+2026-06-29 02:15:53.942 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.ByteUtils_getBit_7403291954
+2026-06-29 02:15:53.969 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.ByteUtils_concat_10218746825
+2026-06-29 02:15:53.970 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/ByteUtils::<init>(): void: null
+2026-06-29 02:15:53.970 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/ByteUtils::getBit(long, int): bool: null
+2026-06-29 02:15:53.970 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/ByteUtils::concat(byte[], byte[]): byte[]: null
+2026-06-29 02:15:53.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/ByteUtils::<init>(): void processing is finished normally
+2026-06-29 02:15:53.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/ByteUtils::getBit(long, int): bool processing is finished normally
+2026-06-29 02:15:53.970 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/ByteUtils::concat(byte[], byte[]): byte[] processing is finished normally
+2026-06-29 02:15:53.975 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/DefaultDataPoint::<init>(long, double): void
+2026-06-29 02:15:53.975 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/DefaultDataPoint::<init>(long, double): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = (arg$0 cmp 0)
+	%3 = (%1 >= 0)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%13 = new java/lang/IllegalArgumentException
+	%9 = new java/lang/Object[1]
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%8 = static Long.valueOf(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%9[0] = %8
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = static String.format("Invalid time value `%d`.", %9)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	special %13.<init>(%12)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	throw %13
+
+%if.then0: 	//predecessors %bb1
+	this.time = arg$0
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	this.value = arg$1
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return
+2026-06-29 02:15:54.005 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_init_17633780230
+2026-06-29 02:15:54.006 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/DefaultDataPoint::getTime(): long
+2026-06-29 02:15:54.006 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/DefaultDataPoint::getTime(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.time
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 02:15:54.035 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_getTime_15943003731
+2026-06-29 02:15:54.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/DefaultDataPoint::getValue(): double
+2026-06-29 02:15:54.036 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/DefaultDataPoint::getValue(): double
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.value
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-06-29 02:15:54.066 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_getValue_7144616622
+2026-06-29 02:15:54.067 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/DefaultDataPoint::equals(java/lang/Object): bool
+2026-06-29 02:15:54.067 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/DefaultDataPoint::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (this != arg$0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%6 = virtual this.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%7 = virtual arg$0.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %if.then0, %bb2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb2
+	%20 = (com/jarslab/ts/DefaultDataPoint) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	%14 = this.time
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%15 = %20.time
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%17 = (%14 cmp %15)
+	%19 = (%17 != 0)
+	if (%19) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%23 = %20.value
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	%24 = this.value
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%26 = static Double.compare(%23, %24)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%28 = (%26 != 0)
+	if (%28) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb7
+	goto %goto0
+
+%if.then3: 	//predecessors %bb4, %bb7
+	goto %goto0
+
+%goto0: 	//predecessors %if.else3, %if.then3
+	%30 = phi {%if.else3 -> 1; %if.then3 -> 0}
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %goto0
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %goto0 -> %30}
+	return %retval1
+2026-06-29 02:15:54.097 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_equals_14232199363
+2026-06-29 02:15:54.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/DefaultDataPoint::hashCode(): int
+2026-06-29 02:15:54.098 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/DefaultDataPoint::hashCode(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%11 = new java/lang/Object[2]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.time
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = static Long.valueOf(%2)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%11[0] = %5
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7 = this.value
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%10 = static Double.valueOf(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%11[1] = %10
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%13 = static Objects.hash(%11)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	return %13
+2026-06-29 02:15:54.125 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_hashCode_9745332614
+2026-06-29 02:15:54.126 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jarslab/ts/DefaultDataPoint::toString(): java/lang/String
+2026-06-29 02:15:54.126 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jarslab/ts/DefaultDataPoint::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.time
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.value
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (long, double): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="DefaultDataPoint{time=, value=}"))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-06-29 02:15:54.189 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_toString_4637735715
+2026-06-29 02:15:54.227 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_init_17633780236
+2026-06-29 02:15:54.265 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_getTime_15943003737
+2026-06-29 02:15:54.304 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_getValue_7144616628
+2026-06-29 02:15:54.334 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_equals_14232199369
+2026-06-29 02:15:54.362 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_hashCode_97453326110
+2026-06-29 02:15:54.390 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jarslab.ts.DefaultDataPoint_toString_46377357111
+2026-06-29 02:15:54.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/DefaultDataPoint::<init>(long, double): void: null
+2026-06-29 02:15:54.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/DefaultDataPoint::getTime(): long: null
+2026-06-29 02:15:54.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/DefaultDataPoint::getValue(): double: null
+2026-06-29 02:15:54.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/DefaultDataPoint::equals(java/lang/Object): bool: null
+2026-06-29 02:15:54.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/DefaultDataPoint::hashCode(): int: null
+2026-06-29 02:15:54.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jarslab/ts/DefaultDataPoint::toString(): java/lang/String: null
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/DefaultDataPoint::<init>(long, double): void processing is finished normally
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/DefaultDataPoint::getTime(): long processing is finished normally
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/DefaultDataPoint::getValue(): double processing is finished normally
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/DefaultDataPoint::equals(java/lang/Object): bool processing is finished normally
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/DefaultDataPoint::hashCode(): int processing is finished normally
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jarslab/ts/DefaultDataPoint::toString(): java/lang/String processing is finished normally
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-06-29 02:15:54.391 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

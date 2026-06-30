@@ -1,0 +1,66 @@
+package ru.smartup.timetracker.dto.profile.response;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static ru.smartup.timetracker.dto.profile.response.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.HashMap;
+import java.util.Map;
+import java.lang.Object;
+import java.util.Set;
+import java.util.Collection;
+import java.util.HashSet;
+
+public class ProfileDto_getLastName_6948397044 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term341;
+
+    public ProfileDto_getLastName_6948397044() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        HashMap term392 = new HashMap();
+        Set<Object> term453 =  ((Map) term392).keySet();
+        HashSet term391 = new HashSet((Collection<? extends Object>) term453);
+        HashMap term403 = new HashMap();
+        Set<Object> term454 =  ((Map) term403).keySet();
+        HashSet term402 = new HashSet((Collection<? extends Object>) term454);
+        term341 = newInstance(Class.forName("ru.smartup.timetracker.dto.profile.response.ProfileDto"));
+        setIntField(term341, term341.getClass(), "id", 391863371);
+        setField(term341, term341.getClass(), "firstName", "MxlszYVzRf");
+        setField(term341, term341.getClass(), "middleName", "LQFpaHEwXR");
+        setField(term341, term341.getClass(), "lastName", "oVcInYnLWB");
+        setField(term341, term341.getClass(), "email", "aJlieCFVtF");
+        setField(term341, term341.getClass(), "roles", term391);
+        setField(term341, term341.getClass(), "projectRoles", term402);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("ru.smartup.timetracker.dto.profile.response.ProfileDto");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getLastName", argTypes, term341, args);
+    }
+
+};
+
+

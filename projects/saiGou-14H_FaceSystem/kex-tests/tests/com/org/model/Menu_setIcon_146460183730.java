@@ -1,0 +1,57 @@
+package com.org.model;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.org.model.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class Menu_setIcon_146460183730 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term47310;
+
+    public Menu_setIcon_146460183730() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term47310 = newInstance(Class.forName("com.org.model.Menu"));
+        setField(term47310, term47310.getClass(), "id", null);
+        setField(term47310, term47310.getClass(), "name", null);
+        setField(term47310, term47310.getClass(), "path", null);
+        setField(term47310, term47310.getClass(), "parentId", null);
+        setField(term47310, term47310.getClass(), "icon", null);
+        setField(term47310, term47310.getClass(), "introduce", null);
+        setField(term47310, term47310.getClass(), "children", null);
+        setField(term47310, term47310.getClass(), "meta", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.org.model.Menu");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = null;
+        callMethod(klass, "setIcon", argTypes, term47310, args);
+    }
+
+};
+
+

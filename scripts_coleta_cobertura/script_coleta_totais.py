@@ -1,8 +1,9 @@
 import csv
 from pathlib import Path
 
-BASE_PATH = Path(__file__).resolve().parent
-PROJECTS_DIR = BASE_PATH / "projects"
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = SCRIPT_DIR.parent
+PROJECTS_DIR = ROOT_DIR / "projects"
 
 CSV_NAMES = [
     "coverage_native_evosuite_kex.csv",
@@ -179,7 +180,7 @@ def main():
     print(f"📁 {len(projects)} projeto(s) encontrado(s)")
 
     for csv_name in CSV_NAMES:
-        aggregate_csv(csv_name, projects, BASE_PATH)
+        aggregate_csv(csv_name, projects, ROOT_DIR)
 
     print("\n✅ Consolidação finalizada.")
 

@@ -2,7 +2,7 @@
 Este README traz as informações necessárias para a reprodução do experimento
 
 
-# Geração automática de testes
+## Geração automática de testes
 
 Para geração dos testes gerados pelo evosuite, é necessário executar o script:
 ```
@@ -17,7 +17,7 @@ script_geracao_Kex.py
 
 Ambos os processos podem demorar horas para serem finalizados, a depender de cada máquina.
 
-# Avaliação utilizando Safer
+## Avaliação utilizando Safer
 Aqui, vamos utilizar a ferramenta safer para avaliar se os testes de fato impactam a atualização de dependências. Com isso, utilizamos a versão do safer disponível em: https://github.com/lsi-ufcg/safer-reproduction-kit/tree/test-execution-support
 
 É necessário seguir as orientaçõe de execução descritas do README do safer, mas basicamente, é necessário rodar o script:
@@ -109,12 +109,12 @@ docker exec "$container_name" sh -lc "$CMD"
 
 Em seguida, vamos criar o script de execução na raíz do safer-reproduction-kit, o mesmo já está anexado neste repositório e pode ser replicado (execucao.sh)
 
-# Pontos de atenção para rodar o execucao.sh
+## Pontos de atenção para rodar o execucao.sh
 
 - É necessário ajustar o path de acordo com o que foi clonado localmente
 - Temos 8 combinações que serão descritas abaixo. Para que cada uma delas seja executada corretamente, é necessário ajustar a função `run_project()`.
 
-## Combinações analisadas:
+### Combinações analisadas:
 
 - Apenas testes nativos
 - testes nativos + testes kex 
@@ -125,6 +125,6 @@ Em seguida, vamos criar o script de execução na raíz do safer-reproduction-ki
 - Todos os testes (nativos, evosuite, kex)
 - Sem testes
 
-# Coleta de cobertura
+## Coleta de cobertura
 Caso tenha interesse, também adicionamos scripts para coleta de cobertura em cada projeto (os scripts estão dentro da pasta `scripts_coleta_cobertura`), de acordo com cada combinação. Todos eles criam CSVs unitário em cada projeto, com a cobertura daquela combinação, logo, quase todos podem ser executados idenpendente da ordem. Contudo, o último script a ser executado é o `script_coleta_totais.py`, que irá unificar os resultados de todos os projetos e criar um CSV específico, agrupando-os em sua respectiva combinação.
 

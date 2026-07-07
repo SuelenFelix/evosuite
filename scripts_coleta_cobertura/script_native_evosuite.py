@@ -15,13 +15,11 @@ JUNIT4_DEP = """
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13.2</version>
-    <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>org.junit.vintage</groupId>
     <artifactId>junit-vintage-engine</artifactId>
     <version>5.10.0</version>
-    <scope>test</scope>
 </dependency>
 """
 
@@ -30,7 +28,6 @@ EVOSUITE_DEP = """
     <groupId>org.evosuite</groupId>
     <artifactId>evosuite-standalone-runtime</artifactId>
     <version>1.1.0</version>
-    <scope>test</scope>
 </dependency>
 """
 

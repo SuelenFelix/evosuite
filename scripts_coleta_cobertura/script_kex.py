@@ -1,5 +1,7 @@
 import os
 import csv
+import re
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -11,13 +13,11 @@ JUNIT4_DEP = """
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13.2</version>
-    <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>org.junit.vintage</groupId>
     <artifactId>junit-vintage-engine</artifactId>
     <version>5.10.0</version>
-    <scope>test</scope>
 </dependency>
 """
 
@@ -43,6 +43,9 @@ JACOCO_PLUGIN = """
 </plugin>
 """
 
+TIMEOUT_SECONDS = 900
+
+
 def run(cmd, cwd=None, timeout=None):
     print("RUN:", cmd)
     return subprocess.run(
@@ -56,23 +59,157 @@ def run(cmd, cwd=None, timeout=None):
         timeout=timeout
     )
 
-def inject_assets_native_only(pom_path):
+
+def inject_assets_kex_only(pom_path):
     with open(pom_path, "r", encoding="utf-8") as f:
         text = f.read()
 
+    deps_to_add = ""
+
     if "<artifactId>junit</artifactId>" not in text:
-        if "<dependencies>" in text:
-            text = text.replace("<dependencies>", "<dependencies>\n" + JUNIT4_DEP)
+        deps_to_add += JUNIT4_DEP
+
+    if deps_to_add:
+        project_dependencies_pattern = re.compile(
+            r"(<project\b[^>]*>.*?)(<dependencies>)",
+            re.DOTALL
+        )
+
+        if project_dependencies_pattern.search(text):
+            text = project_dependencies_pattern.sub(
+                r"\1<dependencies>\n" + deps_to_add,
+                text,
+                count=1
+            )
         else:
-            text = text.replace("</project>", f"<dependencies>{JUNIT4_DEP}</dependencies>\n</project>")
+            text = re.sub(
+                r"</project>",
+                f"<dependencies>\n{deps_to_add}</dependencies>\n</project>",
+                text,
+                count=1
+            )
 
     if "jacoco-maven-plugin" not in text and "<plugins>" in text:
-        text = text.replace("<plugins>", "<plugins>\n" + JACOCO_PLUGIN)
+        text = text.replace("<plugins>", "<plugins>\n" + JACOCO_PLUGIN, 1)
 
     with open(pom_path, "w", encoding="utf-8") as f:
         f.write(text)
 
+
+def isolate_native_tests(project_path):
+    test_dir = Path(project_path) / "src/test/java"
+    backup_dir = Path(project_path) / "src/test/java_backup_native"
+
+    if not test_dir.exists():
+        return None, None
+
+    if backup_dir.exists():
+        shutil.rmtree(backup_dir)
+
+    shutil.move(str(test_dir), str(backup_dir))
+    print(f"📦 Testes nativos isolados: {test_dir} -> {backup_dir}")
+    return backup_dir, test_dir
+
+
+def restore_native_tests(backup_dir, original_dir):
+    if not backup_dir or not original_dir:
+        return
+
+    if backup_dir.exists():
+        if original_dir.exists():
+            shutil.rmtree(original_dir)
+        shutil.move(str(backup_dir), str(original_dir))
+        print(f"↩️ Testes nativos restaurados: {backup_dir} -> {original_dir}")
+
+
+def move_test_dir_to_src(project_path, folder_name):
+    original = Path(project_path) / folder_name
+    test_root = Path(project_path) / "src/test/java"
+    temp_dest = test_root / folder_name
+
+    if not original.exists():
+        print(f"ℹ️ Pasta {folder_name} não encontrada em {project_path}")
+        return None, None
+
+    test_root.mkdir(parents=True, exist_ok=True)
+
+    if temp_dest.exists():
+        raise RuntimeError(f"Destino já existe: {temp_dest}")
+
+    shutil.move(str(original), str(temp_dest))
+    print(f"📦 Movido temporariamente: {original} -> {temp_dest}")
+    return temp_dest, original
+
+
+def restore_test_dir(temp_path, original_path):
+    if not temp_path or not original_path:
+        return
+
+    if temp_path.exists():
+        if original_path.exists():
+            shutil.rmtree(original_path)
+        shutil.move(str(temp_path), str(original_path))
+        print(f"↩️ Restaurado: {temp_path} -> {original_path}")
+
+
+def discover_kex_test_classes(project_path):
+    """
+    Descobre dinamicamente os testes dentro de:
+      src/test/java/kex-tests
+    Retorna uma lista de nomes de classes para usar no -Dtest.
+    """
+    root = Path(project_path) / "src/test/java/kex-tests"
+    if not root.exists():
+        return []
+
+    class_names = []
+
+    for java_file in root.rglob("*.java"):
+        class_name = java_file.stem
+        class_names.append(class_name)
+
+    seen = set()
+    unique = []
+    for name in class_names:
+        if name not in seen:
+            seen.add(name)
+            unique.append(name)
+
+    return unique
+
+
+def build_dtest_argument(project_path):
+    class_names = discover_kex_test_classes(project_path)
+    if not class_names:
+        return None
+    return ",".join(class_names)
+
+
 def run_maven_in_container(project_path):
+    m2 = os.path.expanduser("~/.m2")
+    abs_path = os.path.abspath(project_path)
+    image = "maven:3.8.6-jdk-11"
+
+    dtest = build_dtest_argument(project_path)
+    if not dtest:
+        raise RuntimeError("Nenhuma classe de teste Kex encontrada para executar.")
+
+    return run(f"""
+docker run --rm \
+-v {abs_path}:/app \
+-v {m2}:/root/.m2 \
+-w /app \
+{image} \
+mvn clean test jacoco:report \
+-Dtest="{dtest}" \
+-DfailIfNoTests=false \
+-Dsurefire.failIfNoSpecifiedTests=false \
+-DtestFailureIgnore=true \
+-Dmaven.test.failure.ignore=true
+""", timeout=TIMEOUT_SECONDS)
+
+
+def try_generate_partial_jacoco_report(project_path):
     m2 = os.path.expanduser("~/.m2")
     abs_path = os.path.abspath(project_path)
     image = "maven:3.8.6-jdk-11"
@@ -83,12 +220,9 @@ docker run --rm \
 -v {m2}:/root/.m2 \
 -w /app \
 {image} \
-mvn clean test jacoco:report \
--Dtest="**/*Test,**/*Tests,**/*TestCase" \
--DfailIfNoTests=false \
--DtestFailureIgnore=true \
--Dmaven.test.failure.ignore=true
-""", timeout=900)
+mvn jacoco:report -DskipTests
+""", timeout=300)
+
 
 def parse_jacoco(csv_path):
     if not os.path.exists(csv_path):
@@ -147,20 +281,7 @@ def parse_jacoco(csv_path):
         "methods_missed": totals["method_missed"],
         "methods_total": totals["method_missed"] + totals["method_covered"],
     }
-    
-def try_generate_partial_jacoco_report(project_path):
-    m2 = os.path.expanduser("~/.m2")
-    abs_path = os.path.abspath(project_path)
-    image = "maven:3.8.6-jdk-11"
 
-    return run(f"""
-docker run --rm \
--v {abs_path}:/app \
--v {m2}:/root/.m2 \
--w /app \
-{image} \
-mvn jacoco:report -DskipTests
-""", timeout=300)    
 
 def save_result(csv_file, project_name, metrics=None, mode="", status="", details=""):
     metrics = metrics or {}
@@ -198,6 +319,7 @@ def save_result(csv_file, project_name, metrics=None, mode="", status="", detail
             details
         ])
 
+
 def list_projects(projects_dir):
     base = Path(projects_dir)
     projects = []
@@ -208,18 +330,46 @@ def list_projects(projects_dir):
 
     return projects
 
+
 def process_project(project_path):
     pom = project_path / "pom.xml"
     project_name = project_path.name
-    project_csv = project_path / "coverage_native.csv"
-    log_file = project_path / "coverage_native.log"
+    project_csv = project_path / "coverage_kex.csv"
+    log_file = project_path / "coverage_kex.log"
 
     print("=" * 80)
-    print(f"🚀 Processando apenas nativos: {project_name}")
+    print(f"🚀 Processando apenas Kex: {project_name}")
     print("=" * 80)
+
+    backup_native = None
+    original_test_dir = None
+    temp_kex = None
+    orig_kex = None
 
     try:
-        inject_assets_native_only(pom)
+        backup_native, original_test_dir = isolate_native_tests(project_path)
+
+        (project_path / "src/test/java").mkdir(parents=True, exist_ok=True)
+
+        temp_kex, orig_kex = move_test_dir_to_src(project_path, "kex-tests")
+
+        inject_assets_kex_only(pom)
+
+        selected_tests = discover_kex_test_classes(project_path)
+        if not selected_tests:
+            print("ℹ️ Nenhum teste Kex encontrado.")
+            save_result(
+                project_csv,
+                project_name,
+                None,
+                mode="kex",
+                status="no_generated_tests",
+                details="Nenhuma classe encontrada em kex-tests"
+            )
+            return
+
+        print(f"🧪 {len(selected_tests)} teste(s) Kex selecionado(s).")
+
         result = run_maven_in_container(project_path)
 
         with open(log_file, "w", encoding="utf-8") as f:
@@ -230,28 +380,31 @@ def process_project(project_path):
 
         if metrics:
             coverage = metrics["instruction_coverage"]
-            print(f"✅ Cobertura Nativa: {coverage}%")
+            print(f"✅ Cobertura Kex: {coverage}%")
 
             status = "success" if result.returncode == 0 else "build_with_test_issues"
-            details = f"maven_returncode={result.returncode}"
+            details = f"maven_returncode={result.returncode}; tests_selected={len(selected_tests)}"
 
             save_result(
                 project_csv,
                 project_name,
                 metrics,
-                mode="native",
+                mode="kex",
                 status=status,
                 details=details
             )
         else:
             print("❌ Erro: JaCoCo não gerou o CSV.")
+            details = f"maven_returncode={result.returncode}; tests_selected={len(selected_tests)}"
+            if result.stdout:
+                details += " | " + result.stdout[-800:].replace("\n", " ")
             save_result(
                 project_csv,
                 project_name,
                 None,
-                mode="native",
+                mode="kex",
                 status="no_jacoco_csv",
-                details=f"maven_returncode={result.returncode}"
+                details=details
             )
 
     except subprocess.TimeoutExpired as e:
@@ -280,7 +433,7 @@ def process_project(project_path):
                 project_csv,
                 project_name,
                 metrics,
-                mode="native",
+                mode="kex",
                 status="timeout_with_partial_coverage",
                 details="maven_timeout"
             )
@@ -289,7 +442,7 @@ def process_project(project_path):
                 project_csv,
                 project_name,
                 None,
-                mode="native",
+                mode="kex",
                 status="timeout",
                 details="maven_timeout"
             )
@@ -300,10 +453,15 @@ def process_project(project_path):
             project_csv,
             project_name,
             None,
-            mode="native",
+            mode="kex",
             status="exception",
             details=str(e)
         )
+
+    finally:
+        restore_test_dir(temp_kex, orig_kex)
+        restore_native_tests(backup_native, original_test_dir)
+
 
 def main():
     projects = list_projects(PROJECTS_DIR)
@@ -318,6 +476,7 @@ def main():
         process_project(project_path)
 
     print("\n✅ Processamento finalizado.")
+
 
 if __name__ == "__main__":
     main()

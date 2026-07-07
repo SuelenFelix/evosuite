@@ -113,6 +113,8 @@ Em seguida, vamos criar o script de execução na raíz do safer-reproduction-ki
 
 - É necessário ajustar o path de acordo com o que foi clonado localmente
 - Temos 8 combinações que serão descritas abaixo. Para que cada uma delas seja executada corretamente, é necessário ajustar a função `run_project()`.
+- Utilizar Java 11.
+- Utilizar Python 3.
 
 ### Combinações analisadas:
 

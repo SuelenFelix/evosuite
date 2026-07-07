@@ -6,20 +6,28 @@ import subprocess
 from pathlib import Path
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+
 PROJECTS_DIR = os.path.join(BASE_PATH, "projects")
+CSV_FILE = "coverage_native_evosuite_kex.csv"
 
 JUNIT4_DEP = """
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13.2</version>
-    <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>org.junit.vintage</groupId>
     <artifactId>junit-vintage-engine</artifactId>
     <version>5.10.0</version>
-    <scope>test</scope>
+</dependency>
+"""
+
+EVOSUITE_DEP = """
+<dependency>
+    <groupId>org.evosuite</groupId>
+    <artifactId>evosuite-standalone-runtime</artifactId>
+    <version>1.1.0</version>
 </dependency>
 """
 
@@ -45,8 +53,17 @@ JACOCO_PLUGIN = """
 </plugin>
 """
 
-TIMEOUT_SECONDS = 900
-
+SUREFIRE_PLUGIN = """
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.5</version>
+    <configuration>
+        <failIfNoTests>false</failIfNoTests>
+        <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
+</plugin>
+"""
 
 def run(cmd, cwd=None, timeout=None):
     print("RUN:", cmd)
@@ -61,8 +78,24 @@ def run(cmd, cwd=None, timeout=None):
         timeout=timeout
     )
 
+def inject_or_replace_surefire_plugin(text: str) -> str:
+    # Remove plugin existente do surefire, se houver
+    surefire_pattern = re.compile(
+        r"<plugin>\s*"
+        r"<groupId>\s*org\.apache\.maven\.plugins\s*</groupId>\s*"
+        r"<artifactId>\s*maven-surefire-plugin\s*</artifactId>.*?"
+        r"</plugin>",
+        re.DOTALL
+    )
+    text = surefire_pattern.sub("", text)
 
-def inject_assets_kex_only(pom_path):
+    # Insere plugin novo no primeiro bloco <plugins>
+    if "<plugins>" in text:
+        text = text.replace("<plugins>", "<plugins>\n" + SUREFIRE_PLUGIN, 1)
+
+    return text
+
+def inject_assets_general(pom_path):
     with open(pom_path, "r", encoding="utf-8") as f:
         text = f.read()
 
@@ -71,58 +104,21 @@ def inject_assets_kex_only(pom_path):
     if "<artifactId>junit</artifactId>" not in text:
         deps_to_add += JUNIT4_DEP
 
-    if deps_to_add:
-        project_dependencies_pattern = re.compile(
-            r"(<project\b[^>]*>.*?)(<dependencies>)",
-            re.DOTALL
-        )
+    if "evosuite-standalone-runtime" not in text:
+        deps_to_add += EVOSUITE_DEP
 
-        if project_dependencies_pattern.search(text):
-            text = project_dependencies_pattern.sub(
-                r"\1<dependencies>\n" + deps_to_add,
-                text,
-                count=1
-            )
+    if deps_to_add:
+        if "<dependencies>" in text:
+            text = text.replace("<dependencies>", "<dependencies>\n" + deps_to_add)
         else:
-            text = re.sub(
-                r"</project>",
-                f"<dependencies>\n{deps_to_add}</dependencies>\n</project>",
-                text,
-                count=1
-            )
+            text = text.replace("</project>", f"<dependencies>{deps_to_add}</dependencies>\n</project>")
 
     if "jacoco-maven-plugin" not in text and "<plugins>" in text:
         text = text.replace("<plugins>", "<plugins>\n" + JACOCO_PLUGIN, 1)
 
+
     with open(pom_path, "w", encoding="utf-8") as f:
         f.write(text)
-
-
-def isolate_native_tests(project_path):
-    test_dir = Path(project_path) / "src/test/java"
-    backup_dir = Path(project_path) / "src/test/java_backup_native"
-
-    if not test_dir.exists():
-        return None, None
-
-    if backup_dir.exists():
-        shutil.rmtree(backup_dir)
-
-    shutil.move(str(test_dir), str(backup_dir))
-    print(f"📦 Testes nativos isolados: {test_dir} -> {backup_dir}")
-    return backup_dir, test_dir
-
-
-def restore_native_tests(backup_dir, original_dir):
-    if not backup_dir or not original_dir:
-        return
-
-    if backup_dir.exists():
-        if original_dir.exists():
-            shutil.rmtree(original_dir)
-        shutil.move(str(backup_dir), str(original_dir))
-        print(f"↩️ Testes nativos restaurados: {backup_dir} -> {original_dir}")
-
 
 def move_test_dir_to_src(project_path, folder_name):
     original = Path(project_path) / folder_name
@@ -142,7 +138,6 @@ def move_test_dir_to_src(project_path, folder_name):
     print(f"📦 Movido temporariamente: {original} -> {temp_dest}")
     return temp_dest, original
 
-
 def restore_test_dir(temp_path, original_path):
     if not temp_path or not original_path:
         return
@@ -153,48 +148,24 @@ def restore_test_dir(temp_path, original_path):
         shutil.move(str(temp_path), str(original_path))
         print(f"↩️ Restaurado: {temp_path} -> {original_path}")
 
+def patch_evosuite_tests(project_path):
+    evosuite_dir = Path(project_path) / "src/test/java/evosuite-tests"
+    if not evosuite_dir.exists():
+        return
 
-def discover_kex_test_classes(project_path):
-    """
-    Descobre dinamicamente os testes dentro de:
-      src/test/java/kex-tests
-    Retorna uma lista de nomes de classes para usar no -Dtest.
-    """
-    root = Path(project_path) / "src/test/java/kex-tests"
-    if not root.exists():
-        return []
+    pattern = re.compile(r"separateClassLoader\s*=\s*true")
 
-    class_names = []
-
-    for java_file in root.rglob("*.java"):
-        class_name = java_file.stem
-        class_names.append(class_name)
-
-    seen = set()
-    unique = []
-    for name in class_names:
-        if name not in seen:
-            seen.add(name)
-            unique.append(name)
-
-    return unique
-
-
-def build_dtest_argument(project_path):
-    class_names = discover_kex_test_classes(project_path)
-    if not class_names:
-        return None
-    return ",".join(class_names)
-
+    for java_file in evosuite_dir.rglob("*.java"):
+        text = java_file.read_text(encoding="utf-8", errors="ignore")
+        new_text = pattern.sub("separateClassLoader = false", text)
+        if new_text != text:
+            java_file.write_text(new_text, encoding="utf-8")
+            print(f"PATCH EVO: {java_file}")
 
 def run_maven_in_container(project_path):
     m2 = os.path.expanduser("~/.m2")
     abs_path = os.path.abspath(project_path)
     image = "maven:3.8.6-jdk-11"
-
-    dtest = build_dtest_argument(project_path)
-    if not dtest:
-        raise RuntimeError("Nenhuma classe de teste Kex encontrada para executar.")
 
     return run(f"""
 docker run --rm \
@@ -203,28 +174,11 @@ docker run --rm \
 -w /app \
 {image} \
 mvn clean test jacoco:report \
--Dtest="{dtest}" \
+-Dtest="**/*Test,**/*Tests,**/*TestCase,**/*_ESTest,**/*_*" \
 -DfailIfNoTests=false \
--Dsurefire.failIfNoSpecifiedTests=false \
 -DtestFailureIgnore=true \
 -Dmaven.test.failure.ignore=true
-""", timeout=TIMEOUT_SECONDS)
-
-
-def try_generate_partial_jacoco_report(project_path):
-    m2 = os.path.expanduser("~/.m2")
-    abs_path = os.path.abspath(project_path)
-    image = "maven:3.8.6-jdk-11"
-
-    return run(f"""
-docker run --rm \
--v {abs_path}:/app \
--v {m2}:/root/.m2 \
--w /app \
-{image} \
-mvn jacoco:report -DskipTests
-""", timeout=300)
-
+""", timeout=1800)
 
 def parse_jacoco(csv_path):
     if not os.path.exists(csv_path):
@@ -249,41 +203,45 @@ def parse_jacoco(csv_path):
         for row in reader:
             totals["instruction_missed"] += int(row["INSTRUCTION_MISSED"])
             totals["instruction_covered"] += int(row["INSTRUCTION_COVERED"])
-
             totals["branch_missed"] += int(row["BRANCH_MISSED"])
             totals["branch_covered"] += int(row["BRANCH_COVERED"])
-
             totals["line_missed"] += int(row["LINE_MISSED"])
             totals["line_covered"] += int(row["LINE_COVERED"])
-
             totals["method_missed"] += int(row["METHOD_MISSED"])
             totals["method_covered"] += int(row["METHOD_COVERED"])
-
             totals["complexity_missed"] += int(row["COMPLEXITY_MISSED"])
             totals["complexity_covered"] += int(row["COMPLEXITY_COVERED"])
 
-    # Totais
     instruction_total = totals["instruction_missed"] + totals["instruction_covered"]
     branch_total = totals["branch_missed"] + totals["branch_covered"]
 
-    # Coberturas
     instruction_cov = (totals["instruction_covered"] / instruction_total * 100) if instruction_total else 0
     branch_cov = (totals["branch_covered"] / branch_total * 100) if branch_total else 0
 
     return {
         "instruction_coverage": round(instruction_cov, 2),
         "branch_coverage": round(branch_cov, 2),
-
         "complexity_missed": totals["complexity_missed"],
         "complexity_total": totals["complexity_missed"] + totals["complexity_covered"],
-
         "lines_missed": totals["line_missed"],
         "lines_total": totals["line_missed"] + totals["line_covered"],
-
         "methods_missed": totals["method_missed"],
         "methods_total": totals["method_missed"] + totals["method_covered"],
     }
 
+def try_generate_partial_jacoco_report(project_path):
+    m2 = os.path.expanduser("~/.m2")
+    abs_path = os.path.abspath(project_path)
+    image = "maven:3.8.6-jdk-11"
+
+    return run(f"""
+docker run --rm \
+-v {abs_path}:/app \
+-v {m2}:/root/.m2 \
+-w /app \
+{image} \
+mvn jacoco:report -DskipTests
+""", timeout=1800)
 
 def save_result(csv_file, project_name, metrics=None, mode="", status="", details=""):
     metrics = metrics or {}
@@ -321,92 +279,67 @@ def save_result(csv_file, project_name, metrics=None, mode="", status="", detail
             details
         ])
 
-
 def list_projects(projects_dir):
     base = Path(projects_dir)
     projects = []
 
-    for item in sorted(base.iterdir(), key=lambda p: p.name.lower()):
+    for item in sorted(base.iterdir()):
         if item.is_dir() and (item / "pom.xml").exists():
             projects.append(item)
 
     return projects
 
-
 def process_project(project_path):
     pom = project_path / "pom.xml"
     project_name = project_path.name
-    project_csv = project_path / "coverage_kex.csv"
-    log_file = project_path / "coverage_kex.log"
+    project_csv = project_path / "coverage_native_evosuite_kex.csv"
+    log_file = project_path / "coverage_native_evosuite_kex.log"
 
     print("=" * 80)
-    print(f"🚀 Processando apenas Kex: {project_name}")
+    print(f"🚀 Processando cobertura geral: {project_name}")
     print("=" * 80)
 
-    backup_native = None
-    original_test_dir = None
     temp_kex = None
     orig_kex = None
+    temp_evo = None
+    orig_evo = None
 
     try:
-        backup_native, original_test_dir = isolate_native_tests(project_path)
-
-        (project_path / "src/test/java").mkdir(parents=True, exist_ok=True)
-
         temp_kex, orig_kex = move_test_dir_to_src(project_path, "kex-tests")
+        temp_evo, orig_evo = move_test_dir_to_src(project_path, "evosuite-tests")
 
-        inject_assets_kex_only(pom)
-
-        selected_tests = discover_kex_test_classes(project_path)
-        if not selected_tests:
-            print("ℹ️ Nenhum teste Kex encontrado.")
-            save_result(
-                project_csv,
-                project_name,
-                None,
-                mode="kex",
-                status="no_generated_tests",
-                details="Nenhuma classe encontrada em kex-tests"
-            )
-            return
-
-        print(f"🧪 {len(selected_tests)} teste(s) Kex selecionado(s).")
+        inject_assets_general(pom)
+        patch_evosuite_tests(project_path)
 
         result = run_maven_in_container(project_path)
-
-        with open(log_file, "w", encoding="utf-8") as f:
-            f.write(result.stdout or "")
 
         csv_path = project_path / "target/site/jacoco/jacoco.csv"
         metrics = parse_jacoco(csv_path)
 
         if metrics:
             coverage = metrics["instruction_coverage"]
-            print(f"✅ Cobertura Kex: {coverage}%")
+            print(f"✅ Cobertura Geral: {coverage}%")
 
             status = "success" if result.returncode == 0 else "build_with_test_issues"
-            details = f"maven_returncode={result.returncode}; tests_selected={len(selected_tests)}"
+            details = f"maven_returncode={result.returncode}"
 
             save_result(
                 project_csv,
                 project_name,
                 metrics,
-                mode="kex",
+                mode="native+kex+evosuite",
                 status=status,
                 details=details
             )
         else:
             print("❌ Erro: JaCoCo não gerou o CSV.")
-            details = f"maven_returncode={result.returncode}; tests_selected={len(selected_tests)}"
-            if result.stdout:
-                details += " | " + result.stdout[-800:].replace("\n", " ")
             save_result(
                 project_csv,
                 project_name,
                 None,
-                mode="kex",
+                mode="native+kex+evosuite",
                 status="no_jacoco_csv",
-                details=details
+                details=f"maven_returncode={result.returncode}"
             )
 
     except subprocess.TimeoutExpired as e:
@@ -435,7 +368,7 @@ def process_project(project_path):
                 project_csv,
                 project_name,
                 metrics,
-                mode="kex",
+                mode="native+kex+evosuite",
                 status="timeout_with_partial_coverage",
                 details="maven_timeout"
             )
@@ -444,7 +377,7 @@ def process_project(project_path):
                 project_csv,
                 project_name,
                 None,
-                mode="kex",
+                mode="native+kex+evosuite",
                 status="timeout",
                 details="maven_timeout"
             )
@@ -455,15 +388,13 @@ def process_project(project_path):
             project_csv,
             project_name,
             None,
-            mode="kex",
+            mode="native+kex+evosuite",
             status="exception",
             details=str(e)
         )
-
     finally:
         restore_test_dir(temp_kex, orig_kex)
-        restore_native_tests(backup_native, original_test_dir)
-
+        restore_test_dir(temp_evo, orig_evo)
 
 def main():
     projects = list_projects(PROJECTS_DIR)
@@ -478,7 +409,6 @@ def main():
         process_project(project_path)
 
     print("\n✅ Processamento finalizado.")
-
 
 if __name__ == "__main__":
     main()

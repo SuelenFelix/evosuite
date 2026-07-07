@@ -115,6 +115,25 @@ Em seguida, vamos criar o script de execução na raíz do safer-reproduction-ki
 - Temos 8 combinações que serão descritas abaixo. Para que cada uma delas seja executada corretamente, é necessário ajustar a função `run_project()`.
 - Utilizar Java 11.
 - Utilizar Python 3.
+- Indicamos separar cada análise do safer em CSV separado por combinação, para isso, ajuste o script `run-experiment.sh` para que dataset_path seja atualizado ao fim de cada execução. Ex:
+
+```
+dataset_path="results/dataset_all_tests.csv"
+ou
+dataset_path="results/dataset_only_evosuite.csv"
+...
+```
+
+- Após CADA execução e CSV único gerado, também sugerimos ajustar o script disponível em `/seu_path/safer-reproduction-kit/post-processing/count-version-changes/src/script.js`, assim é possível coletar mais métricas, como o countMajor. Novamente, esse processo deve ser feito como o anterior para separar os CSV conforme combinação. Ex:
+
+```
+const inputFile = path.join(__dirname, "../../../results/dataset_all_tests.csv");
+const outputFile = path.join(__dirname, "../../../results/final_all_tests.csv");
+ou
+const inputFile = path.join(__dirname, "../../../results/dataset_only_evosuite.csv");
+const outputFile = path.join(__dirname, "../../../results/final_only_evosuite.csv");
+...
+```
 
 ### Combinações analisadas:
 

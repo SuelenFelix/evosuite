@@ -5,9 +5,10 @@ import shutil
 import subprocess
 from pathlib import Path
 
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR) 
 
-PROJECTS_DIR = os.path.join(BASE_PATH, "projects")
+PROJECTS_DIR = os.path.join(ROOT_DIR, "projects")
 CSV_FILE = "coverage_evosuite.csv"
 
 JUNIT4_DEP = """

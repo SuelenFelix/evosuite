@@ -4,9 +4,9 @@ import shutil
 import subprocess
 from pathlib import Path
 
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-
-PROJECTS_DIR = os.path.join(BASE_PATH, "projects")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR) 
+PROJECTS_DIR = os.path.join(ROOT_DIR, "projects")
 
 JUNIT4_DEP = """
 <dependency>

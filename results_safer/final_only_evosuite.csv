@@ -1,104 +1,108 @@
 id,Project Name,Number of dependencies with vulnerabilities (Before),Number of dependencies with vulnerabilities (After),Number of vulnerabilities (Before),Number of vulnerabilities (After),Low vulnerabilities (Before),Low vulnerabilities (After),Medium vulnerabilities (Before),Medium vulnerabilities (After),High vulnerabilities (Before),High vulnerabilities (After),Critical vulnerabilities (Before),Critical vulnerabilities (After),Build Tool,Tests,Project Type,Execution Time (s),Artifacts,Improved,javaVersion,countMajor,countMinor,countPatch,countPrerelease,countBuildmetadata
-4,alexandreaquiles_dibujo,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,128,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-2,AgMonk_merge-gf-assets,3,3,78,78,12,12,33,33,31,31,2,2,maven,true,open source,1173,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-5,amigoscode_springboot-twilio,3,3,252,191,14,13,64,57,137,99,37,22,maven,true,open source,1129,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,0,0,0
-1,abuijze_bike-rental-demo,9,7,343,104,36,16,143,34,152,44,12,10,maven,true,open source,1282,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,2,0,0,0
-7,artmcoder_Buysell,5,0,215,0,24,0,88,0,85,0,18,0,maven,true,open source,155,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-6,anicetkeric_aws-cognito-spring-auth-server,4,3,175,132,19,14,72,54,73,54,11,10,maven,true,open source,720,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,1,0,0
-14,bykowski_invoice-spring-mvc-example,4,0,170,0,20,0,60,0,72,0,18,0,maven,true,open source,154,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-12,basquiat78_interface-bbuljit,2,2,112,112,15,15,43,43,48,48,6,6,maven,true,open source,637,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-16,cxzero_CVE-2022-42889-text4shell,3,2,111,109,15,15,44,43,45,45,7,6,maven,true,open source,814,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,0,0,0
-17,DevUpgrade-online_season-2,8,1,240,5,24,0,100,3,96,2,20,0,maven,true,open source,449,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,7,0,1,0,0
-18,dr-mod_tidy-flappy-bird,1,1,13,2,0,0,3,0,7,2,3,0,maven,true,open source,141,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-13,bulinha_residencia-serratec-music-manager-api,10,10,305,257,31,30,105,76,137,120,32,31,maven,true,open source,1968,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-19,eBay_digital-signature-verification-ebay-api,7,3,127,97,15,10,56,44,50,37,6,6,maven,true,open source,526,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,1,1,0,0
-15,code-it-team_gotcha-be,14,8,528,253,39,18,179,84,237,116,73,35,maven,true,open source,2165,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,7,1,0,0,0
-21,ErgunAhmet_DataJpaYt,5,1,176,12,20,1,71,7,71,3,14,1,maven,true,open source,176,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-22,fatihhernn_spring-boot-ecommerce,4,1,178,1,19,0,75,0,73,1,11,0,maven,true,open source,171,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,1,0,0
-23,FENGYU-008_ERP,7,7,224,101,30,19,87,32,92,37,15,13,maven,true,open source,1011,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,1,0,0
-24,fireinrain_javbus-telegram-bot,8,4,34,16,4,4,16,8,14,4,0,0,maven,true,open source,1212,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,5,2,0,0
-26,francoiducat_springboot-minimal-graphql-client,4,0,247,0,24,0,103,0,105,0,15,0,maven,true,open source,164,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-20,eh3rrera_graphql-java-spring-boot-example,13,10,551,387,56,47,212,145,230,162,53,33,maven,true,open source,2192,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-27,gabrieldim_CSV-Export-Spring-Boot,3,0,169,0,19,0,67,0,65,0,18,0,maven,true,open source,146,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
-28,gabrieldim_Email-Sender-Spring-Boot,3,0,163,0,19,0,68,0,65,0,11,0,maven,true,open source,180,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
-29,gabrieldim_PDF-Generator-Spring-Boot,2,2,132,132,15,15,53,53,54,54,10,10,maven,true,open source,947,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-31,GCS-ZHN_movie-on-server,3,2,114,87,15,10,44,33,49,38,6,6,maven,true,open source,458,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,0,0,0
-30,gavinklfong_spring-investment-platform,6,5,351,214,36,28,157,100,147,83,11,3,maven,true,open source,1415,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,2,0,0,0
-25,folksdev_movie-api,12,10,389,368,38,38,161,152,161,152,29,26,maven,true,open source,2899,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,3,0,0,0
-32,GSMgeeth_medium-coffeeshop-sample,5,5,182,180,22,22,71,71,74,72,15,15,maven,true,open source,1093,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-36,hannotify_eleven-crazy-java-things,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,89,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-37,hhimanshu_spring-boot-liquibase,5,0,174,0,20,0,72,0,69,0,13,0,maven,true,open source,176,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-38,innoq_cookie-based-session-springboot-app,5,0,226,0,22,0,93,0,87,0,24,0,maven,true,open source,213,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-39,itsecurityco_CVE-2022-22965,3,0,159,0,19,0,55,0,71,0,14,0,maven,true,open source,149,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
-34,hamitmizrak_AllSpringBlogProject,14,9,490,355,41,32,167,117,214,149,68,57,maven,true,open source,1777,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,1,1,0,0
-35,hamitmizrak_SpringMvcSpringDataSpringRest,11,3,366,80,39,7,135,34,156,30,36,9,maven,true,open source,983,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,8,1,1,0,0
-42,janlely_jparser,1,0,1,0,0,0,1,0,0,0,0,0,maven,true,open source,170,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-40,ivanjakimovski_spring-boot-pdf-generator,2,1,134,99,15,10,54,38,55,42,10,9,maven,true,open source,441,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,0,0,0
-44,jonashackt_spring-boot-buildpack,2,0,98,0,13,0,44,0,40,0,1,0,maven,true,open source,147,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-43,jeonjeunghoon_Kculter,11,10,500,284,27,22,135,103,248,133,90,26,maven,true,open source,962,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,1,1,0,0
-45,jsalonl_interceptor-springboot,4,4,157,153,19,19,65,64,65,63,8,7,maven,true,open source,788,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-41,iwamih31_AccountBook,9,8,224,220,32,32,87,84,93,92,12,12,maven,true,open source,1570,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-50,kousen_questjpa,7,0,231,0,33,0,96,0,96,0,6,0,maven,true,open source,327,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,1,0,0,0
-51,koushikkothagal_ipl-dashboard,7,0,258,0,25,0,106,0,112,0,15,0,maven,true,open source,184,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,1,0,0,0
-52,koushikkothagal_spring-boot-security,3,0,226,0,17,0,71,0,110,0,28,0,maven,true,open source,116,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
-53,kriscfoster_spring-boot-testing-pyramid,2,0,128,0,13,0,54,0,52,0,9,0,maven,true,open source,120,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-48,Katibat_java-filmorate,6,3,168,139,23,19,64,53,74,61,7,6,maven,true,open source,1107,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,2,0,0,0
-49,kiberohrannik_webflux-log,4,3,204,118,24,16,86,43,85,55,9,4,maven,true,open source,1132,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-58,mariamihai_spring-security-amigoscode-tutorial,5,4,260,190,23,18,91,76,119,73,27,23,maven,true,open source,1145,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,1,0,0
-59,markbdsouza_hateoas-with-pagination,5,0,238,0,29,0,87,0,106,0,16,0,maven,true,open source,163,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-56,lyubenblagoev_postfix-rest-server,9,8,309,302,28,28,103,98,135,133,43,43,maven,true,open source,1759,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-60,martinachov_hexagonal-architecture-ddd-springboot,6,6,160,88,23,24,64,28,66,31,7,5,maven,true,open source,664,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-55,liuhongdi_ratelimiter,8,7,301,290,23,23,106,100,138,134,34,33,maven,true,open source,2529,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,0,0,0
-62,meteergin_medium-java-streams,2,0,65,0,9,0,30,0,24,0,2,0,maven,true,open source,119,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-64,MikeAScott_spring-todo-list,7,1,265,1,24,0,102,0,114,1,25,0,maven,true,open source,170,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,0,1,0,0
-65,milpol_gorilla4j,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,85,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-61,max-jang_korea-music-chart-api,4,4,162,162,15,15,70,70,66,66,11,11,maven,true,open source,854,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-66,mmarcosab_rabbitmq-example,6,1,262,1,25,0,114,0,107,1,16,0,maven,true,open source,147,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,0,0,0,0
-63,micw_tibber-pulse-reader,5,2,33,24,4,4,18,11,10,9,1,0,maven,true,open source,527,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,1,0,0
-67,mohaghighi_Covid19-Web-Application,6,1,218,38,20,2,92,17,90,16,16,3,maven,true,open source,163,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-72,olein_Java-AWS-RnD,3,3,152,96,19,21,57,27,66,40,10,8,maven,true,open source,500,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
-75,ozifirebrand_printHia,8,3,203,27,23,3,72,10,91,11,17,3,maven,true,open source,990,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,1,0,0
-77,ProgrammerZamanNow_belajar-jenkins-pipeline,2,0,65,0,9,0,30,0,24,0,2,0,maven,true,open source,183,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-78,ProgrammerZamanNow_belajar-spring-dasar,2,0,65,0,9,0,30,0,24,0,2,0,maven,true,open source,181,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-73,OmarAlHaj24_OnDriver,4,4,151,113,17,18,54,42,68,48,12,5,maven,true,open source,1535,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,3,0,0
-79,raffoulRicardo_movimento-qa-2023,5,0,159,0,20,0,56,0,74,0,9,0,maven,true,open source,208,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-80,rahul26021999_QrCode-JavaSpringBoot,4,4,185,52,20,12,73,12,73,19,19,9,maven,true,open source,462,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-76,paneladev_agenda-service,12,10,340,173,35,29,138,68,136,64,31,12,maven,true,open source,1596,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,7,1,0,0,0
-82,raviyasas_sample-room,7,0,235,0,25,0,95,0,98,0,17,0,maven,true,open source,220,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,1,0,0,0
-81,RaisaRS_java-filmorate,6,3,158,106,23,15,63,42,67,44,5,5,maven,true,open source,807,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,2,0,0,0
-86,sashinpivotal_spring-boot-tdd,5,0,209,0,21,0,89,0,85,0,14,0,maven,true,open source,201,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-83,reactive-learning-io_spring-boot-reactive-webclient,4,1,145,94,14,8,64,43,61,39,6,4,maven,true,open source,651,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-84,rmondejar_spring-boot-junit5-example,6,6,197,120,26,27,82,45,81,43,8,5,maven,true,open source,689,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,1,0,0,0
-88,SelimHorri_elastic-boot,4,1,233,4,21,0,109,2,91,2,12,0,maven,true,open source,206,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
-89,SelimHorri_embedded-mongo-playing-with-spring-boot,5,4,187,53,20,12,76,16,78,22,13,3,maven,true,open source,463,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
-87,schauder_talk-beyond,5,2,101,60,13,8,44,28,39,22,5,2,maven,true,open source,767,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-93,sofieneBK_Hands-on-ci-cd-for-springboot-apps,3,3,143,143,15,15,60,60,58,58,10,10,maven,true,open source,801,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-92,smartup-tech_Time-Tracker,12,10,286,130,39,32,116,47,108,37,23,14,maven,true,open source,2125,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,8,0,0,0,0
-98,SysObligatoriskOpgave22_BackendWebApp,7,6,219,201,23,23,81,78,99,87,16,13,maven,true,open source,1319,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,1,0,0
-101,Victor-Borisov_java-filmorate,6,0,183,0,27,0,73,0,77,0,6,0,maven,true,open source,305,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,1,0,0,0
-100,ValentinaBuddha_java-filmorate,5,3,155,131,23,19,63,53,63,53,6,6,maven,true,open source,890,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,0,0,0
-99,szerhusenBC_jwt-spring-security-demo,8,8,357,357,23,23,103,103,181,181,50,50,maven,true,open source,2317,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-102,wdrammeh_utg-student-dashboard,2,2,99,42,8,4,58,24,29,13,4,1,maven,true,open source,752,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,0,0,0
-103,WoMakersCode_bootcamp-java-starwars-restapi,8,7,218,149,20,21,90,57,87,58,21,13,maven,true,open source,771,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,1,0,0,0
-106,Youngerjesus_refactoring-2nd-edition,2,0,65,0,9,0,30,0,24,0,2,0,maven,true,open source,169,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,0,0,0,0
-105,yoandypv_todo-api,6,6,268,129,24,20,82,45,125,55,37,9,maven,true,open source,842,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,1,0,0,0
-104,xxuzhengg_eastmoney,5,5,221,210,23,23,90,86,89,82,19,19,maven,true,open source,1248,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-1,akhunovaa_customer-service,7,7,175,175,10,10,73,73,92,92,0,0,maven,true,open source,3304,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-2,alkemyTech_OT275-server,12,11,363,276,33,29,130,115,164,115,36,17,maven,true,open source,2189,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,0,0,0
-3,ashrawan_apache-poi-chart-sample,4,2,74,54,9,9,31,22,32,22,2,1,maven,true,open source,653,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,3,0,0,0
-4,awslabs_kinesis-kafka-connector,4,3,97,56,3,1,49,31,44,23,1,1,maven,true,open source,210,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,2,1,0,0
-5,aws-samples_amazon-appflow-custom-jdbc-connector,4,1,66,19,2,1,33,10,30,8,1,0,maven,true,open source,183,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-6,fatihhernn_spring-boot-ecommerce,4,4,178,178,19,19,75,75,73,73,11,11,maven,true,open source,943,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-7,GuillaumeFalourd_java-training-api,7,7,249,249,28,28,106,106,99,99,16,16,maven,true,open source,1682,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-8,kanajin_Aqua-docker,11,7,288,233,31,29,112,88,121,93,24,23,maven,true,open source,1757,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,2,0,0
-9,kyungseo_project-web-starter,39,35,798,597,81,67,304,229,336,250,77,51,maven,true,open source,3118,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,7,5,1,0,0
-10,maciejwalkowiak_paseq-maven-plugin,7,1,28,1,2,0,11,0,13,1,2,0,maven,true,open source,133,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,7,0,0,0
-11,mohaghighi_Covid19-Web-Application,6,6,218,218,20,20,92,92,90,90,16,16,maven,true,open source,1155,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-12,MrGraversen_minecraft-rcon,5,0,11,0,1,0,8,0,1,0,1,0,maven,true,open source,100,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,1,0,0
-13,MSmirnov2407_Filmorate,6,6,156,156,23,23,64,64,63,63,6,6,maven,true,open source,921,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-15,olein_Java-AWS-RnD,3,3,152,96,19,21,57,27,66,40,10,8,maven,true,open source,406,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
-16,saiGou-14H_FaceSystem,19,15,545,420,52,46,225,177,226,169,42,28,maven,true,open source,2336,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,3,0,0
-17,supaldubey_blog-server,11,11,324,324,13,13,137,137,150,150,24,24,maven,true,open source,8090,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
-18,xxuzhengg_eastmoney,5,4,221,209,23,23,90,85,89,82,19,19,maven,true,open source,1091,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
-19,yoandypv_todo-api,6,6,268,129,24,20,82,45,125,55,37,9,maven,true,open source,637,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,1,0,0,0
-1,NO-ob_LoliSnatcher,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,761,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,1,0,0,0
+2,FENGYU-008_ERP,7,7,229,106,35,24,87,32,92,37,15,13,maven,true,open source,867,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,1,0,0
+3,GCS-ZHN_movie-on-server,3,3,116,116,17,17,44,44,49,49,6,6,maven,true,open source,639,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+4,hamitmizrak_SpringMvcSpringDataSpringRest,11,11,373,361,46,46,135,133,156,149,36,33,maven,true,open source,2383,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+5,hannotify_eleven-crazy-java-things,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,81,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+6,hhimanshu_spring-boot-liquibase,5,5,178,178,24,24,72,72,69,69,13,13,maven,true,open source,1344,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+7,innoq_cookie-based-session-springboot-app,5,5,230,230,26,26,93,93,87,87,24,24,maven,true,open source,1427,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+8,itsecurityco_CVE-2022-22965,3,3,161,161,21,21,55,55,71,71,14,14,maven,true,open source,710,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+9,ivanjakimovski_spring-boot-pdf-generator,2,2,136,136,17,17,54,54,55,55,10,10,maven,true,open source,679,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+10,iwamih31_AccountBook,9,8,230,226,38,38,87,84,93,92,12,12,maven,true,open source,1514,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+11,janlely_jparser,1,0,1,0,0,0,1,0,0,0,0,0,maven,true,open source,90,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+12,jeonjeunghoon_Kculter,11,10,504,288,31,26,135,103,248,133,90,26,maven,true,open source,780,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,1,1,0,0
+13,jonashackt_spring-boot-buildpack,2,2,100,100,15,15,44,44,40,40,1,1,maven,true,open source,483,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+14,jsalonl_interceptor-springboot,4,4,159,155,21,21,65,64,65,63,8,7,maven,true,open source,712,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+15,juliengalet_reactor-flow,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,133,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+16,kanajin_Aqua-docker,11,7,292,237,35,33,112,88,121,93,24,23,maven,true,open source,2574,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,-,-,-,-,-,-
+17,Katibat_java-filmorate,6,4,172,167,27,27,64,63,74,71,7,6,maven,true,open source,1204,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,0,0,0
+18,kiberohrannik_webflux-log,4,3,206,120,26,18,86,43,85,55,9,4,maven,true,open source,981,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
+19,kousen_questjpa,7,7,236,236,38,38,96,96,96,96,6,6,maven,true,open source,1191,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+20,koushikkothagal_ipl-dashboard,7,7,262,262,29,29,106,106,112,112,15,15,maven,true,open source,1455,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+21,koushikkothagal_spring-boot-security,3,3,229,229,20,20,71,71,110,110,28,28,maven,true,open source,1039,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+22,kriscfoster_spring-boot-testing-pyramid,2,2,130,130,15,15,54,54,52,52,9,9,maven,true,open source,523,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+23,kyungseo_project-web-starter,39,35,813,609,96,81,304,229,336,249,77,50,maven,true,open source,4970,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,-,-,-,-,-,-
+24,liuhongdi_ratelimiter,8,7,305,294,27,27,106,100,138,134,34,33,maven,true,open source,2166,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,0,0,0
+25,lyubenblagoev_postfix-rest-server,9,8,314,307,33,33,103,98,135,133,43,43,maven,true,open source,1403,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+27,mariamihai_spring-security-amigoscode-tutorial,5,5,264,229,27,27,91,92,119,86,27,24,maven,true,open source,1091,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,1,0,0
+28,markbdsouza_hateoas-with-pagination,5,5,242,242,33,33,87,87,106,106,16,16,maven,true,open source,955,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+29,martinachov_hexagonal-architecture-ddd-springboot,6,6,164,92,27,28,64,28,66,31,7,5,maven,true,open source,558,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
+30,max-jang_korea-music-chart-api,4,4,164,164,17,17,70,70,66,66,11,11,maven,true,open source,754,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+31,meteergin_medium-java-streams,2,2,67,67,11,11,30,30,24,24,2,2,maven,true,open source,483,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+32,micw_tibber-pulse-reader,5,3,34,26,5,5,18,11,10,10,1,0,maven,true,open source,388,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,1,0,0
+33,MikeAScott_spring-todo-list,7,7,269,269,28,28,102,102,114,114,25,25,maven,true,open source,1643,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+34,milpol_gorilla4j,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,61,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+35,mmarcosab_rabbitmq-example,6,6,266,266,29,29,114,114,107,107,16,16,maven,true,open source,1275,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+36,mohaghighi_Covid19-Web-Application,6,6,221,221,23,23,92,92,90,90,16,16,maven,true,open source,1057,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+37,Mozenn_spring-boot-hibernate-search,6,5,187,186,27,27,67,67,79,78,14,14,maven,true,open source,1005,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,1,0,0
+38,MrGraversen_minecraft-rcon,5,0,11,0,1,0,8,0,1,0,1,0,maven,true,open source,106,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,1,0,0
+39,MSmirnov2407_Filmorate,6,6,160,160,27,27,64,64,63,63,6,6,maven,true,open source,964,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+40,NO-ob_LoliSnatcher,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,735,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,1,0,0,0
+41,olein_Java-AWS-RnD,3,3,154,98,21,23,57,27,66,40,10,8,maven,true,open source,430,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
+42,OmarAlHaj24_OnDriver,4,4,153,115,19,20,54,42,68,48,12,5,maven,true,open source,941,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,3,0,0
+43,Online-Job-Portal-CG_Backend,9,8,293,192,35,33,125,67,113,80,20,12,maven,true,open source,1065,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,0,0,0,0
+44,ozifirebrand_printHia,8,6,206,30,26,6,72,10,91,11,17,3,maven,true,open source,518,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,1,0,0
+45,paneladev_agenda-service,12,12,346,236,41,41,138,90,136,86,31,19,maven,true,open source,1705,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,1,0,0,0
+46,ProgrammerZamanNow_belajar-jenkins-pipeline,2,2,67,67,11,11,30,30,24,24,2,2,maven,true,open source,503,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+47,ProgrammerZamanNow_belajar-spring-dasar,2,2,67,67,11,11,30,30,24,24,2,2,maven,true,open source,497,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+48,raffoulRicardo_movimento-qa-2023,5,5,162,162,23,23,56,56,74,74,9,9,maven,true,open source,888,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+49,rahul26021999_QrCode-JavaSpringBoot,4,4,188,55,23,15,73,12,73,19,19,9,maven,true,open source,359,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
+50,RaisaRS_java-filmorate,6,6,162,162,27,27,63,63,67,67,5,5,maven,true,open source,999,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+51,raviyasas_sample-room,7,7,239,239,29,29,95,95,98,98,17,17,maven,true,open source,1387,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+52,reactive-learning-io_spring-boot-reactive-webclient,4,3,147,145,16,16,64,63,61,60,6,6,maven,true,open source,874,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,0,0,0
+53,rmondejar_spring-boot-junit5-example,6,6,201,124,30,31,82,45,81,43,8,5,maven,true,open source,550,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,1,0,0,0
+54,saiGou-14H_FaceSystem,19,15,553,428,59,53,226,178,226,169,42,28,maven,true,open source,2329,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,3,0,0
+55,sashinpivotal_spring-boot-tdd,5,5,213,213,25,25,89,89,85,85,14,14,maven,true,open source,1255,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+56,schauder_talk-beyond,5,4,104,102,16,16,44,44,39,37,5,5,maven,true,open source,900,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,0,0,0
+57,SelimHorri_elastic-boot,4,4,236,236,24,24,109,109,91,91,12,12,maven,true,open source,1113,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+58,SelimHorri_embedded-mongo-playing-with-spring-boot,5,5,190,63,23,15,76,18,78,27,13,3,maven,true,open source,587,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
+59,SelimHorri_hr-management-system,10,10,409,181,41,41,147,70,171,55,50,15,maven,true,open source,1053,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,7,1,0,0,0
+60,simplyi_NewSpringAuthorizationServer,5,5,235,235,24,24,86,86,94,94,31,31,maven,true,open source,1178,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+61,smartup-tech_Time-Tracker,12,12,293,185,46,46,116,66,108,55,23,18,maven,true,open source,1620,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,6,0,0,0,0
+62,sofieneBK_Hands-on-ci-cd-for-springboot-apps,3,3,145,145,17,17,60,60,58,58,10,10,maven,true,open source,684,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+63,souris-dev_samosac-jvm,2,0,2,0,0,0,0,0,1,0,1,0,maven,true,open source,288,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,4,0,0
+64,strategyengine_fsedistributionservice,18,16,508,464,58,54,220,199,186,170,44,41,maven,true,open source,2014,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,0,0,0
+65,supaldubey_blog-server,11,11,337,337,13,13,142,142,158,158,24,24,maven,true,open source,9185,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+66,syqu22_spring-boot-shop-sample,13,10,487,69,52,9,200,25,184,21,51,14,maven,true,open source,678,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,9,1,1,1,0
+67,SysObligatoriskOpgave22_BackendWebApp,7,6,222,204,26,26,81,78,99,87,16,13,maven,true,open source,1112,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,2,1,0,0
+68,szerhusenBC_jwt-spring-security-demo,8,8,361,361,27,27,103,103,181,181,50,50,maven,true,open source,2405,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+69,ValentinaBuddha_java-filmorate,5,5,159,159,27,27,63,63,63,63,6,6,maven,true,open source,902,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+70,Victor-Borisov_java-filmorate,6,6,188,188,32,32,73,73,77,77,6,6,maven,true,open source,1017,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+71,wdrammeh_utg-student-dashboard,2,2,99,42,8,4,58,24,29,13,4,1,maven,true,open source,610,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,0,0,0
+72,WoMakersCode_bootcamp-java-starwars-restapi,8,7,221,152,23,24,90,57,87,58,21,13,maven,true,open source,630,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,1,0,0,0
+73,xxuzhengg_eastmoney,5,5,225,214,27,27,90,86,89,82,19,19,maven,true,open source,1201,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+74,yoandypv_todo-api,6,6,271,132,27,23,82,45,125,55,37,9,maven,true,open source,705,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,1,0,0,0
+75,Youngerjesus_refactoring-2nd-edition,2,2,67,67,11,11,30,30,24,24,2,2,maven,true,open source,635,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+1,abuijze_bike-rental-demo,9,8,348,191,41,29,143,72,152,79,12,11,maven,true,open source,1128,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,2,0,0,0
+2,AgMonk_merge-gf-assets,3,3,80,80,14,14,33,33,31,31,2,2,maven,true,open source,801,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+3,akhunovaa_customer-service,7,7,175,175,10,10,73,73,92,92,0,0,maven,true,open source,3231,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+4,alexandreaquiles_dibujo,1,0,1,0,0,0,0,0,1,0,0,0,maven,true,open source,98,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+5,alkemyTech_OT275-server,12,12,368,281,38,34,130,115,164,115,36,17,maven,true,open source,2276,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,0,0,0
+6,amigoscode_springboot-twilio,3,3,254,193,16,15,64,57,137,99,37,22,maven,true,open source,866,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,0,0,0,0
+7,anicetkeric_aws-cognito-spring-auth-server,4,4,178,170,22,22,72,70,73,67,11,11,maven,true,open source,1009,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,1,0,0
+8,artmcoder_Buysell,5,5,219,219,28,28,88,88,85,85,18,18,maven,true,open source,1285,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+9,ashrawan_apache-poi-chart-sample,4,3,76,57,11,11,31,23,32,22,2,1,maven,true,open source,833,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,3,0,0,0
+10,awslabs_kinesis-kafka-connector,4,4,97,60,3,1,49,32,44,26,1,1,maven,true,open source,313,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,2,1,0,0
+11,aws-samples_amazon-appflow-custom-jdbc-connector,4,1,66,19,2,1,33,10,30,8,1,0,maven,true,open source,210,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+12,aws-samples_amazon-kinesis-data-analytics-flink-starter-kit,6,6,144,136,1,1,35,32,88,83,20,20,maven,true,open source,2279,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+13,basquiat78_interface-bbuljit,2,2,114,114,17,17,43,43,48,48,6,6,maven,true,open source,522,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+15,bykowski_invoice-spring-mvc-example,4,4,173,173,23,23,60,60,72,72,18,18,maven,true,open source,1003,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+16,code-it-team_gotcha-be,14,13,534,321,45,30,179,111,237,138,73,42,maven,true,open source,1915,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,1,0,0,0
+17,cxzero_CVE-2022-42889-text4shell,3,2,113,111,17,17,44,43,45,45,7,6,maven,true,open source,508,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,0,0,0,0
+18,DevUpgrade-online_season-2,8,6,244,94,28,13,100,38,96,34,20,9,maven,true,open source,921,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,1,0,0
+19,dr-mod_tidy-flappy-bird,1,1,13,2,0,0,3,0,7,2,3,0,maven,true,open source,89,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+20,eBay_digital-signature-verification-ebay-api,7,5,129,100,17,12,56,44,50,38,6,6,maven,true,open source,441,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,1,1,1,0,0
+21,eh3rrera_graphql-java-spring-boot-example,13,11,558,407,63,54,212,149,230,170,53,34,maven,true,open source,2508,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,4,0,0,0,0
+22,ErgunAhmet_DataJpaYt,5,5,179,179,23,23,71,71,71,71,14,14,maven,true,open source,909,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+23,fatihhernn_spring-boot-ecommerce,4,4,181,181,22,22,75,75,73,73,11,11,maven,true,open source,837,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+24,fireinrain_javbus-telegram-bot,8,4,35,17,5,5,16,8,14,4,0,0,maven,true,open source,841,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,5,2,0,0
+25,folksdev_movie-api,12,10,394,373,43,43,161,152,161,152,29,26,maven,true,open source,2070,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,3,0,0,0
+26,francoiducat_springboot-minimal-graphql-client,4,4,250,250,27,27,103,103,105,105,15,15,maven,true,open source,1113,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+27,gabrieldim_CSV-Export-Spring-Boot,3,3,172,172,22,22,67,67,65,65,18,18,maven,true,open source,712,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+28,gabrieldim_Email-Sender-Spring-Boot,3,3,166,3,22,3,68,0,65,0,11,0,maven,true,open source,120,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,0,0,0,0
+29,gabrieldim_PDF-Generator-Spring-Boot,2,2,134,134,17,17,53,53,54,54,10,10,maven,true,open source,591,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+30,gavinklfong_spring-investment-platform,6,5,355,203,40,31,157,91,147,79,11,2,maven,true,open source,747,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,3,2,0,0,0
+31,GSMgeeth_medium-coffeeshop-sample,5,5,185,183,25,25,71,71,74,72,15,15,maven,true,open source,872,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,1,0,0,0
+32,GuillaumeFalourd_java-training-api,7,7,254,254,33,33,106,106,99,99,16,16,maven,true,open source,1591,0cf6b8893b70d26378ead9d7c03472a10f975f9c,no improvement,11,0,0,0,0,0
+1,bulinha_residencia-serratec-music-manager-api,10,10,310,262,36,35,105,76,137,120,32,31,maven,true,open source,1247,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,5,0,0,0,0
+2,hamitmizrak_AllSpringBlogProject,14,13,497,447,48,48,167,148,214,188,68,63,maven,true,open source,1247,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,2,1,1,0,0
+1,maciejwalkowiak_paseq-maven-plugin,7,1,28,1,2,0,11,0,13,1,2,0,maven,true,open source,185,0cf6b8893b70d26378ead9d7c03472a10f975f9c,improvement,11,0,7,0,0,0

@@ -107,9 +107,9 @@ docker exec "$container_name" sh -lc "$CMD"
 
 ```
 
-Em seguida, vamos criar o script de execução na raíz do safer-reproduction-kit, o mesmo já está anexado neste repositório e pode ser replicado (execucao.sh)
+Em seguida, vamos criar o script de execução na raíz do safer-reproduction-kit, o mesmo já está anexado neste repositório e pode ser replicado (execucao_safer.sh)
 
-## Pontos de atenção para rodar o execucao.sh
+## Pontos de atenção para rodar o execucao_safer.sh
 
 - É necessário ajustar o path de acordo com o que foi clonado localmente
 - Temos 8 combinações que serão descritas abaixo. Para que cada uma delas seja executada corretamente, é necessário ajustar a função `run_project()`.

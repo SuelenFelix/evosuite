@@ -12,7 +12,7 @@ SEARCH_BUDGET = 60
 TIMEOUT_CMD = 600
 MAX_CLASSES_PER_PROJECT = 100 
 
-CSV_PATH = "projetos_final.csv"
+CSV_PATH = "projetos_selecionados.csv"
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
 BASE_DIR = os.path.join(BASE_PATH, "projects")

@@ -15,7 +15,7 @@ logs_path="results/logs.txt"
 touch "$logs_path"
 
 # Diretório de origem dos projetos
-source_dir="/home/suelenfelix/TCC/teste/evosuite/projects" # Ajuste para o seu path
+source_dir="/home/suelenfelix/TCC/analise-geracao-testes/projects" # Ajuste para o seu path
 # Diretório de destino
 dest_dir="/home/suelenfelix/TCC/teste/safer-reproduction-kit/workstation/maven" # Ajuste para o seu path
 

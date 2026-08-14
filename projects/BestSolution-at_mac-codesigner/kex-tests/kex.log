@@ -1,0 +1,2169 @@
+2026-08-12 12:04:03.341 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/BestSolution-at_mac-codesigner/target/classes
+2026-08-12 12:04:03.436 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:04:03.512 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 12:04:04.706 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 12:04:05.244 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package at/bestsolution/maccodesigner/*
+2026-08-12 12:04:05.245 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 12:04:05.256 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/BestSolution-at_mac-codesigner/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:04:05.286 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/BestSolution-at_mac-codesigner/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 41611 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/BestSolution-at_mac-codesigner/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 12:04:05.299 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 12:05:45.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult::<init>(): void
+2026-08-12 12:05:45.331 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:05:45.936 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.MacCodesignerMain_ProcessResult_init_17685495010
+2026-08-12 12:05:46.060 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.MacCodesignerMain_ProcessResult_init_17685495011
+2026-08-12 12:05:46.061 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult::<init>(): void: null
+2026-08-12 12:05:46.062 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult::<init>(): void processing is finished normally
+2026-08-12 12:05:46.063 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/NotarizationUpload::<init>(): void
+2026-08-12 12:05:46.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/NotarizationUpload::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:05:46.174 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.NotarizationUpload_init_19473985010
+2026-08-12 12:05:46.271 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.NotarizationUpload_init_19473985011
+2026-08-12 12:05:46.273 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/NotarizationUpload::<init>(): void: null
+2026-08-12 12:05:46.273 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/NotarizationUpload::<init>(): void processing is finished normally
+2026-08-12 12:05:46.274 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/NotarizationResult::<init>(): void
+2026-08-12 12:05:46.275 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/NotarizationResult::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:05:46.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.NotarizationResult_init_10233787430
+2026-08-12 12:05:46.424 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.NotarizationResult_init_10233787431
+2026-08-12 12:05:46.426 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/NotarizationResult::<init>(): void: null
+2026-08-12 12:05:46.426 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/NotarizationResult::<init>(): void processing is finished normally
+2026-08-12 12:05:46.427 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/NotarizationInfo::<init>(): void
+2026-08-12 12:05:46.427 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/NotarizationInfo::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:05:46.496 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.NotarizationInfo_init_4730458640
+2026-08-12 12:05:46.561 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test at.bestsolution.maccodesigner.NotarizationInfo_init_4730458641
+2026-08-12 12:05:46.563 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/NotarizationInfo::<init>(): void: null
+2026-08-12 12:05:46.563 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/NotarizationInfo::<init>(): void processing is finished normally
+2026-08-12 12:05:46.612 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::<init>(): void
+2026-08-12 12:05:46.612 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:05:46.615 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.615 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.616 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::<init>(): void: null
+2026-08-12 12:05:46.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::run(): void
+2026-08-12 12:05:46.617 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::run(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.applicationPath
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	static MacCodesignerMain.validateAppPath(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = this.applicationPath
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%73 = static MacCodesignerMain.duplicate(%3)
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	%6 = MacCodesignerMain.LOG
+	virtual %6.infof("Working copy at %s", %73)
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%9 = this.clearXAttr
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = (%9 == false)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	static MacCodesignerMain.clearXAttr(%73)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb5, %if.else0
+	%14 = this.withoutSign
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	%16 = (%14 != false)
+	if (%16) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb6
+	%18 = this.appCertificateKey
+	goto %bb7
+
+%bb7: 	//predecessors %if.else1
+	%19 = static Objects.requireNonNull(%18)
+	goto %label1
+
+%label1: 	//predecessors %bb7
+	%24 = this.appCertificateKey
+	goto %bb8
+
+%bb8: 	//predecessors %label1
+	%25 = this.entitlements
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%26 = this.standardEntitlements
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	static MacCodesignerMain.sign(%73, %24, %25, %26)
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb6, %bb10
+	%154 = new java/util/ArrayList
+	special %154.<init>()
+	goto %label2
+
+%label2: 	//predecessors %if.then1
+	%30 = this.withDmg
+	goto %bb11
+
+%bb11: 	//predecessors %label2
+	%32 = (%30 == false)
+	if (%32) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb11
+	%34 = this.outputDir
+	goto %bb12
+
+%bb12: 	//predecessors %if.else2
+	%36 = (%34 != null)
+	if (%36) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %bb12
+	%38 = this.applicationPath
+	goto %bb13
+
+%bb13: 	//predecessors %if.else3
+	%41 = interface %38.getParent()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	goto %goto0
+
+%if.then2: 	//predecessors %bb12
+	%42 = this.outputDir
+	goto %goto0
+
+%goto0: 	//predecessors %bb14, %if.then2
+	%45 = phi {%bb14 -> %41; %if.then2 -> %42}
+	%48 = static MacCodesignerMain.createDmg(%73, %45)
+	goto %label3
+
+%label3: 	//predecessors %goto0
+	%49 = interface %154.add(%48)
+	goto %bb15
+
+%bb15: 	//predecessors %label3
+	goto %if.then3
+
+%if.then3: 	//predecessors %bb11, %bb15
+	%51 = this.withPkg
+	goto %bb16
+
+%bb16: 	//predecessors %if.then3
+	%53 = (%51 == false)
+	if (%53) goto %if.then5 else %if.else4
+
+%if.else4: 	//predecessors %bb16
+	%55 = this.pkgIdentifier
+	goto %bb17
+
+%bb17: 	//predecessors %if.else4
+	%56 = static Objects.requireNonNull(%55)
+	goto %label4
+
+%label4: 	//predecessors %bb17
+	%58 = this.installerCertificateKey
+	goto %bb18
+
+%bb18: 	//predecessors %label4
+	%59 = static Objects.requireNonNull(%58)
+	goto %label5
+
+%label5: 	//predecessors %bb18
+	%61 = this.outputDir
+	goto %bb19
+
+%bb19: 	//predecessors %label5
+	%63 = (%61 != null)
+	if (%63) goto %if.then4 else %if.else5
+
+%if.else5: 	//predecessors %bb19
+	%65 = this.applicationPath
+	goto %bb20
+
+%bb20: 	//predecessors %if.else5
+	%68 = interface %65.getParent()
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	goto %goto1
+
+%if.then4: 	//predecessors %bb19
+	%69 = this.outputDir
+	goto %goto1
+
+%goto1: 	//predecessors %bb21, %if.then4
+	%74 = phi {%bb21 -> %68; %if.then4 -> %69}
+	%75 = this.pkgIdentifier
+	goto %bb22
+
+%bb22: 	//predecessors %goto1
+	%76 = this.installerCertificateKey
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%79 = static MacCodesignerMain.createPkg(%73, %74, %75, %76)
+	goto %label6
+
+%label6: 	//predecessors %bb23
+	%80 = interface %154.add(%79)
+	goto %bb24
+
+%bb24: 	//predecessors %label6
+	goto %if.then5
+
+%if.then5: 	//predecessors %bb16, %bb24
+	%82 = this.withNotarization
+	goto %bb25
+
+%bb25: 	//predecessors %if.then5
+	%84 = (%82 == false)
+	if (%84) goto %if.then9 else %if.else6
+
+%if.else6: 	//predecessors %bb25
+	%87 = interface %154.isEmpty()
+	goto %bb26
+
+%bb26: 	//predecessors %if.else6
+	%89 = (%87 != false)
+	if (%89) goto %if.then8 else %if.else7
+
+%if.else7: 	//predecessors %bb26
+	%91 = this.notarizationPrimaryBundleId
+	goto %bb27
+
+%bb27: 	//predecessors %if.else7
+	%92 = static Objects.requireNonNull(%91)
+	goto %label7
+
+%label7: 	//predecessors %bb27
+	%94 = this.notarizationUser
+	goto %bb28
+
+%bb28: 	//predecessors %label7
+	%95 = static Objects.requireNonNull(%94)
+	goto %label8
+
+%label8: 	//predecessors %bb28
+	%97 = this.notarizationPwd
+	goto %bb29
+
+%bb29: 	//predecessors %label8
+	%98 = static Objects.requireNonNull(%97)
+	goto %label9
+
+%label9: 	//predecessors %bb29
+	%102 = this.notarizationPrimaryBundleId
+	goto %bb30
+
+%bb30: 	//predecessors %label9
+	%103 = this.notarizationUser
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%104 = this.notarizationPwd
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%115 = static MacCodesignerMain.notarize(%102, %103, %104, %154)
+	goto %label10
+
+%label10: 	//predecessors %bb32
+	goto %label11
+
+%label11: 	//predecessors %label10, %goto2
+	%160 = phi {%label10 -> 0; %goto2 -> %161}
+	%112 = interface %115.size()
+	goto %bb33
+
+%bb33: 	//predecessors %label11
+	%114 = (%160 >= %112)
+	if (%114) goto %if.then7 else %if.else8
+
+%if.else8: 	//predecessors %bb33
+	%118 = interface %115.get(%160)
+	goto %bb34
+
+%bb34: 	//predecessors %if.else8
+	%135 = (at/bestsolution/maccodesigner/NotarizationInfo) %118
+	goto %label12
+
+%label12: 	//predecessors %bb34
+	%122 = %135.statusCode
+	goto %bb35
+
+%bb35: 	//predecessors %label12
+	%124 = virtual %122.intValue()
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%126 = (%124 == 0)
+	if (%126) goto %if.then6 else %if.else9
+
+%if.else9: 	//predecessors %bb36
+	%137 = MacCodesignerMain.LOG
+	%131 = interface %154.get(%160)
+	goto %bb37
+
+%bb37: 	//predecessors %if.else9
+	%133 = (java/nio/file/Path) %131
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	%138 = interface %133.getFileName()
+	goto %bb39
+
+%bb39: 	//predecessors %bb38
+	%139 = %135.logFileURL
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	virtual %137.errorf("Failed to notarize '%s' consult '%'", %138, %139)
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	goto %goto2
+
+%if.then6: 	//predecessors %bb36
+	%148 = MacCodesignerMain.LOG
+	%144 = interface %154.get(%160)
+	goto %bb42
+
+%bb42: 	//predecessors %if.then6
+	%146 = (java/nio/file/Path) %144
+	goto %bb43
+
+%bb43: 	//predecessors %bb42
+	%149 = interface %146.getFileName()
+	goto %bb44
+
+%bb44: 	//predecessors %bb43
+	virtual %148.infof("Successfully notarized '%s'", %149)
+	goto %bb45
+
+%bb45: 	//predecessors %bb44
+	%151 = this.withStaple
+	goto %bb46
+
+%bb46: 	//predecessors %bb45
+	%153 = (%151 == false)
+	if (%153) goto %goto2 else %if.else10
+
+%if.else10: 	//predecessors %bb46
+	%157 = interface %154.get(%160)
+	goto %bb47
+
+%bb47: 	//predecessors %if.else10
+	%159 = (java/nio/file/Path) %157
+	goto %bb48
+
+%bb48: 	//predecessors %bb47
+	static MacCodesignerMain.staple(%159)
+	goto %goto2
+
+%goto2: 	//predecessors %bb41, %bb46, %bb48
+	%161 = %160 + 1
+	goto %label11
+
+%if.then7: 	//predecessors %bb33
+	goto %if.then9
+
+%if.then8: 	//predecessors %bb26
+	%164 = new java/lang/IllegalStateException
+	special %164.<init>("No packages to notarize")
+	goto %bb49
+
+%bb49: 	//predecessors %if.then8
+	throw %164
+
+%if.then9: 	//predecessors %bb25, %if.then7
+	return
+2026-08-12 12:05:46.617 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.618 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.618 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::run(): void: null
+2026-08-12 12:05:46.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::duplicate(java/nio/file/Path): java/nio/file/Path
+2026-08-12 12:05:46.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::duplicate(java/nio/file/Path): java/nio/file/Path
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = new java/nio/file/attribute/FileAttribute[0]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%16 = static Files.createTempDirectory("mac-codesigner", %1)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%4 = interface arg$0.toAbsolutePath()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%10 = interface %4.toString()
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%8 = interface %16.toAbsolutePath()
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%11 = interface %8.toString()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%13 = static List.of("cp", "-a", %10, %11)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%14 = static MacCodesignerMain.executeCommand(%13)
+	goto %label2
+
+%label2: 	//predecessors %bb5
+	%17 = interface arg$0.getFileName()
+	goto %bb6
+
+%bb6: 	//predecessors %label2
+	%19 = interface %16.resolve(%17)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return %19
+
+%catch0: 	//catches from %bb2, %bb4, %bb1, %label2, %bb6, %bb3, %bb0, %label1, %label0, %bb5
+	%23 = catch java/io/IOException
+goto %label3
+
+%label3: 	//predecessors %catch0
+	%24 = new java/lang/IllegalStateException
+	special %24.<init>(%23)
+	goto %bb8
+
+%bb8: 	//predecessors %label3
+	throw %24
+2026-08-12 12:05:46.619 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.619 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.619 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::duplicate(java/nio/file/Path): java/nio/file/Path: null
+2026-08-12 12:05:46.619 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::clearXAttr(java/nio/file/Path): void
+2026-08-12 12:05:46.620 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::clearXAttr(java/nio/file/Path): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = MacCodesignerMain.LOG
+	virtual %1.infof("Clearing extended attributes of %s", arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface arg$0.toAbsolutePath()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = interface %3.toString()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = static List.of("xattr", "-cr", %5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%8 = static MacCodesignerMain.executeCommand(%7)
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	return
+2026-08-12 12:05:46.620 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.620 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.620 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::clearXAttr(java/nio/file/Path): void: null
+2026-08-12 12:05:46.620 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::sign(java/nio/file/Path, java/lang/String, java/nio/file/Path, bool): void
+2026-08-12 12:05:46.621 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::sign(java/nio/file/Path, java/lang/String, java/nio/file/Path, bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = MacCodesignerMain.LOG
+	virtual %1.infof("Sign application in %s", arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%49 = new java/util/ArrayList
+	special %49.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%8 = static List.of("codesign", "--strict", "--verbose=4", "--deep", "--force", "--options", "runtime", "--sign", %5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = interface %49.addAll(%8)
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%11 = (arg$2 == null)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%13 = interface %49.add("--entitlements")
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%15 = interface arg$2.toAbsolutePath()
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%18 = interface %15.toString()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%19 = interface %49.add(%18)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %goto0
+
+%if.then0: 	//predecessors %label1
+	%21 = (arg$3 == false)
+	if (%21) goto %goto0 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%23 = interface %49.add("--entitlements")
+	goto %bb7
+
+%bb7: 	//predecessors %if.else1
+	goto %label3
+
+%label3: 	//predecessors %bb7
+	%25 = new java/nio/file/attribute/FileAttribute[0]
+	goto %bb8
+
+%bb8: 	//predecessors %label3
+	%32 = static Files.createTempFile("entitlements", ".plist", %25)
+	goto %label4
+
+%label4: 	//predecessors %bb8
+	%33 = static MacCodesignerMain.standardEntitlements()
+	goto %bb9
+
+%bb9: 	//predecessors %label4
+	%34 = new java/nio/file/OpenOption[1]
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%31 = StandardOpenOption.TRUNCATE_EXISTING
+	%34[0] = %31
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%35 = static Files.writeString(%32, %33, %34)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	goto %label5
+
+%label5: 	//predecessors %bb12
+	goto %goto0
+
+%catch0: 	//catches from %bb11, %label3, %bb12, %bb8, %bb9, %bb10, %label4
+	%39 = catch java/io/IOException
+goto %label6
+
+%label6: 	//predecessors %catch0
+	%40 = new java/lang/IllegalStateException
+	special %40.<init>(%39)
+	goto %bb13
+
+%bb13: 	//predecessors %label6
+	throw %40
+
+%goto0: 	//predecessors %bb6, %if.then0, %label5
+	%42 = interface %49.add("--timestamp")
+	goto %label7
+
+%label7: 	//predecessors %goto0
+	%44 = interface arg$0.toAbsolutePath()
+	goto %bb14
+
+%bb14: 	//predecessors %label7
+	%47 = interface %44.toString()
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%48 = interface %49.add(%47)
+	goto %label8
+
+%label8: 	//predecessors %bb15
+	%50 = static MacCodesignerMain.executeCommand(%49)
+	goto %label9
+
+%label9: 	//predecessors %label8
+	return
+2026-08-12 12:05:46.621 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.621 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.621 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::sign(java/nio/file/Path, java/lang/String, java/nio/file/Path, bool): void: null
+2026-08-12 12:05:46.622 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::createDmg(java/nio/file/Path, java/nio/file/Path): java/nio/file/Path
+2026-08-12 12:05:46.622 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::createDmg(java/nio/file/Path, java/nio/file/Path): java/nio/file/Path
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$0.getFileName()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.toString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%19 = virtual %3.replace(".app", "")
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%7 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=".dmg"))
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%25 = interface arg$1.resolve(%7)
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%10 = MacCodesignerMain.LOG
+	virtual %10.infof("Creating dmg '%s'", %25)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%13 = interface arg$0.toAbsolutePath()
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%20 = interface %13.toString()
+	goto %label3
+
+%label3: 	//predecessors %bb4
+	%17 = interface %25.toAbsolutePath()
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%21 = interface %17.toString()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%23 = static List.of("hdiutil", "create", "-volname", %19, "-srcfolder", %20, "-ov", "-format", "UDZO", %21)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%24 = static MacCodesignerMain.executeCommand(%23)
+	goto %label4
+
+%label4: 	//predecessors %bb7
+	return %25
+2026-08-12 12:05:46.622 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.622 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.622 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::createDmg(java/nio/file/Path, java/nio/file/Path): java/nio/file/Path: null
+2026-08-12 12:05:46.623 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::createPkg(java/nio/file/Path, java/nio/file/Path, java/lang/String, java/lang/String): java/nio/file/Path
+2026-08-12 12:05:46.623 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::createPkg(java/nio/file/Path, java/nio/file/Path, java/lang/String, java/lang/String): java/nio/file/Path
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$0.getFileName()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.toString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%16 = virtual %3.replace(".app", "")
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%7 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=".pkg"))
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%45 = interface arg$1.resolve(%7)
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%10 = MacCodesignerMain.LOG
+	virtual %10.infof("Creating pkg '%s'", %45)
+	goto %bb4
+
+%bb4: 	//predecessors %label1
+	%13 = new java/nio/file/attribute/FileAttribute[0]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%15 = static Files.createTempDirectory("mac-codesigner-pkg", %13)
+	goto %label2
+
+%label2: 	//predecessors %bb5
+	%32 = interface %15.resolve(%16)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%23 = interface %32.resolve("Applications")
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%21 = interface arg$0.toAbsolutePath()
+	goto %bb6
+
+%bb6: 	//predecessors %label4
+	%27 = interface %21.toString()
+	goto %label5
+
+%label5: 	//predecessors %bb6
+	%25 = interface %23.toAbsolutePath()
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%28 = interface %25.toString()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%30 = static List.of("ditto", %27, %28)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%31 = static MacCodesignerMain.executeCommand(%30)
+	goto %label6
+
+%label6: 	//predecessors %bb9
+	%34 = interface %32.toAbsolutePath()
+	goto %bb10
+
+%bb10: 	//predecessors %label6
+	%40 = interface %34.toString()
+	goto %label7
+
+%label7: 	//predecessors %bb10
+	%38 = interface %45.toAbsolutePath()
+	goto %bb11
+
+%bb11: 	//predecessors %label7
+	%41 = interface %38.toString()
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%43 = static List.of("productbuild", "--identifier", arg$2, "--sign", arg$3, "--timestamp", "--root", %40, "/", %41)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%44 = static MacCodesignerMain.executeCommand(%43)
+	goto %label8
+
+%label8: 	//predecessors %bb13
+	goto %label9
+
+%label9: 	//predecessors %label8
+	return %45
+
+%catch0: 	//catches from %bb8, %label4, %label2, %bb12, %label5, %bb10, %bb4, %bb5, %label7, %bb7, %label6, %bb9, %bb6, %label8, %label3, %bb11, %bb13
+	%49 = catch java/io/IOException
+goto %label10
+
+%label10: 	//predecessors %catch0
+	%50 = new java/lang/IllegalStateException
+	special %50.<init>(%49)
+	goto %bb14
+
+%bb14: 	//predecessors %label10
+	throw %50
+2026-08-12 12:05:46.623 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.624 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.624 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::createPkg(java/nio/file/Path, java/nio/file/Path, java/lang/String, java/lang/String): java/nio/file/Path: null
+2026-08-12 12:05:46.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::notarize(java/lang/String, java/lang/String, java/lang/String, java/util/List): java/util/List
+2026-08-12 12:05:46.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::notarize(java/lang/String, java/lang/String, java/lang/String, java/util/List): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = MacCodesignerMain.LOG
+	virtual %1.infof("Notarize %s", arg$3)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%81 = static JsonbBuilder.create()
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%105 = new java/util/ArrayList
+	special %105.<init>()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%93 = new java/util/ArrayList
+	special %93.<init>()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%13 = interface arg$3.iterator()
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	goto %label3
+
+%label3: 	//predecessors %bb2, %bb26
+	%10 = interface %13.hasNext()
+	goto %bb3
+
+%bb3: 	//predecessors %label3
+	%12 = (%10 == false)
+	if (%12) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%15 = interface %13.next()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%58 = (java/nio/file/Path) %15
+	goto %label4
+
+%label4: 	//predecessors %bb4
+	%36 = new java/lang/String[13]
+	goto %bb5
+
+%bb5: 	//predecessors %label4
+	%36[0] = "xcrun"
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%36[1] = "altool"
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%36[2] = "--output-format"
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%36[3] = "json"
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%36[4] = "--notarize-app"
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%36[5] = "--primary-bundle-id"
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%36[6] = arg$0
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%36[7] = "--username"
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%36[8] = arg$1
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%36[9] = "--password"
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%36[10] = arg$2
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%36[11] = "--file"
+	goto %label5
+
+%label5: 	//predecessors %bb16
+	%32 = interface %58.toAbsolutePath()
+	goto %bb17
+
+%bb17: 	//predecessors %label5
+	%35 = interface %32.toString()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%36[12] = %35
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%38 = static List.of(%36)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%40 = static MacCodesignerMain.executeCommand(%38)
+	goto %label6
+
+%label6: 	//predecessors %bb20
+	%42 = %40.stdout
+	goto %bb21
+
+%bb21: 	//predecessors %label6
+	%45 = interface %42.toString()
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%47 = interface %81.fromJson(%45, at/bestsolution/maccodesigner/NotarizationResult.class)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%53 = (at/bestsolution/maccodesigner/NotarizationResult) %47
+	goto %label7
+
+%label7: 	//predecessors %bb23
+	%51 = interface %93.add(%53)
+	goto %label8
+
+%label8: 	//predecessors %label7
+	%57 = MacCodesignerMain.LOG
+	%55 = %53.notarizationUpload
+	goto %bb24
+
+%bb24: 	//predecessors %label8
+	%59 = %55.requestUUID
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	virtual %57.infof("Uploaded '%s' as '%s'", %58, %59)
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	goto %label3
+
+%if.then0: 	//predecessors %bb3, %goto0
+	%62 = interface %93.isEmpty()
+	goto %bb27
+
+%bb27: 	//predecessors %if.then0
+	%64 = (%62 != false)
+	if (%64) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb27
+	%67 = interface %93.get(0)
+	goto %bb28
+
+%bb28: 	//predecessors %if.else1
+	%69 = (at/bestsolution/maccodesigner/NotarizationResult) %67
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%71 = %69.notarizationUpload
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%102 = %71.requestUUID
+	goto %label9
+
+%label9: 	//predecessors %bb30
+	%75 = static List.of("xcrun", "altool", "--output-format", "json", "--notarization-info", %102, "--username", arg$1, "--password", arg$2)
+	goto %bb31
+
+%bb31: 	//predecessors %label9
+	%77 = static MacCodesignerMain.executeCommand(%75)
+	goto %label10
+
+%label10: 	//predecessors %bb31
+	%79 = %77.stdout
+	goto %bb32
+
+%bb32: 	//predecessors %label10
+	%82 = interface %79.toString()
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	%84 = interface %81.fromJson(%82, at/bestsolution/maccodesigner/NotarizationResult.class)
+	goto %bb34
+
+%bb34: 	//predecessors %bb33
+	%95 = (at/bestsolution/maccodesigner/NotarizationResult) %84
+	goto %label11
+
+%label11: 	//predecessors %bb34
+	%88 = %95.notarizationInfo
+	goto %bb35
+
+%bb35: 	//predecessors %label11
+	%90 = %88.statusCode
+	goto %bb36
+
+%bb36: 	//predecessors %bb35
+	%92 = (%90 == null)
+	if (%92) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb36
+	%94 = interface %93.remove(0)
+	goto %label12
+
+%label12: 	//predecessors %if.else2
+	%98 = %95.notarizationInfo
+	goto %bb37
+
+%bb37: 	//predecessors %label12
+	%99 = interface %105.add(%98)
+	goto %label13
+
+%label13: 	//predecessors %bb37
+	%101 = MacCodesignerMain.LOG
+	virtual %101.infof("Notarization of '%s' finished", %102)
+	goto %bb38
+
+%bb38: 	//predecessors %label13
+	goto %goto0
+
+%if.then1: 	//predecessors %bb36
+	static Thread.sleep(108000)
+	goto %bb39
+
+%bb39: 	//predecessors %if.then1
+	goto %goto0
+
+%catch0: 	//catches from %if.then1
+	%104 = catch java/lang/InterruptedException
+goto %label14
+
+%label14: 	//predecessors %catch0
+	virtual %104.printStackTrace()
+	goto %goto0
+
+%goto0: 	//predecessors %bb38, %bb39, %label14
+	goto %if.then0
+
+%if.then2: 	//predecessors %bb27
+	return %105
+2026-08-12 12:05:46.625 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.626 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.626 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::notarize(java/lang/String, java/lang/String, java/lang/String, java/util/List): java/util/List: null
+2026-08-12 12:05:46.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::staple(java/nio/file/Path): void
+2026-08-12 12:05:46.626 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::staple(java/nio/file/Path): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = MacCodesignerMain.LOG
+	virtual %1.infof("Staple '%s'", arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface arg$0.toAbsolutePath()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = interface %3.toString()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = static List.of("xcrun", "stapler", "staple", %5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%8 = static MacCodesignerMain.executeCommand(%7)
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	return
+2026-08-12 12:05:46.626 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.627 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.627 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::staple(java/nio/file/Path): void: null
+2026-08-12 12:05:46.627 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::executeCommand(java/util/List): at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult
+2026-08-12 12:05:46.627 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::executeCommand(java/util/List): at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new java/lang/ProcessBuilder
+	special %2.<init>(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%12 = virtual %2.start()
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%6 = invokeDynamic (java/lang/Process): java/util/function/Supplier @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/CharSequence)), HandleBsmArgument(handle=@at/bestsolution/maccodesigner/MacCodesignerMain::lambda$executeCommand$0(java/lang/Process): java/lang/CharSequence), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/Object)))
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%21 = static CompletableFuture.supplyAsync(%6)
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%10 = invokeDynamic (java/lang/Process): java/util/function/Supplier @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/CharSequence)), HandleBsmArgument(handle=@at/bestsolution/maccodesigner/MacCodesignerMain::lambda$executeCommand$1(java/lang/Process): java/lang/CharSequence), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/Object)))
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%27 = static CompletableFuture.supplyAsync(%10)
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%14 = virtual %12.waitFor()
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%16 = (%14 == 0)
+	if (%16) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	%18 = MacCodesignerMain.LOG
+	virtual %18.warn("process finished with an exit value != 0")
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb4, %if.else0
+	%33 = new at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult
+	special %33.<init>()
+	goto %label3
+
+%label3: 	//predecessors %if.then0
+	%23 = virtual %21.join()
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%26 = (java/lang/CharSequence) %23
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%33.stdout = %26
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%29 = virtual %27.join()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%32 = (java/lang/CharSequence) %29
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%33.stderr = %32
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %label4
+
+%label4: 	//predecessors %bb10
+	return %33
+
+%catch0: 	//catches from %label0, %if.then0, %bb8, %bb4, %bb6, %label2, %bb10, %bb5, %if.else0, %bb2, %label3, %bb3, %bb7, %bb1, %bb0, %label1, %bb9
+	%37 = catch java/io/IOException
+goto %label5
+
+%label5: 	//predecessors %catch0
+	%38 = new java/lang/IllegalStateException
+	special %38.<init>(%37)
+	goto %bb11
+
+%bb11: 	//predecessors %label5
+	throw %38
+
+%catch1: 	//catches from %label0, %if.then0, %bb8, %bb4, %bb6, %label2, %bb10, %bb5, %if.else0, %bb2, %label3, %bb3, %bb7, %bb1, %bb0, %label1, %bb9
+	%42 = catch java/lang/InterruptedException
+goto %label6
+
+%label6: 	//predecessors %catch1
+	%43 = new java/lang/IllegalStateException
+	special %43.<init>(%42)
+	goto %bb12
+
+%bb12: 	//predecessors %label6
+	throw %43
+2026-08-12 12:05:46.628 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.628 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.629 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::executeCommand(java/util/List): at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult: null
+2026-08-12 12:05:46.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::handleStream(java/io/InputStream): java/lang/CharSequence
+2026-08-12 12:05:46.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::handleStream(java/io/InputStream): java/lang/CharSequence
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = new java/io/BufferedReader
+	%4 = new java/io/InputStreamReader
+	special %4.<init>(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %7.<init>(%4)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%22 = new java/lang/StringBuilder
+	special %22.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %bb2, %bb3
+	%13 = virtual %7.readLine()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%11 = (%13 == null)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label2
+	%14 = virtual %22.append(%13)
+	goto %label3
+
+%label3: 	//predecessors %if.else0
+	%16 = virtual %22.append("
+")
+	goto %bb3
+
+%bb3: 	//predecessors %label3
+	goto %label1
+
+%if.then0: 	//predecessors %label2
+	goto %goto0
+
+%catch0: 	//catches from %if.else0, %label1, %label3, %bb3, %label2
+	%20 = catch java/io/IOException
+goto %label4
+
+%label4: 	//predecessors %catch0
+	%21 = new java/lang/IllegalStateException
+	special %21.<init>(%20)
+	goto %bb4
+
+%bb4: 	//predecessors %label4
+	throw %21
+
+%goto0: 	//predecessors %if.then0
+	return %22
+2026-08-12 12:05:46.630 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.630 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.630 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::handleStream(java/io/InputStream): java/lang/CharSequence: null
+2026-08-12 12:05:46.630 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::validateAppPath(java/nio/file/Path): void
+2026-08-12 12:05:46.630 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::validateAppPath(java/nio/file/Path): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$0.getFileName()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.toString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual %3.endsWith(".app")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = (%5 != false)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%15 = new java/lang/IllegalStateException
+	%11 = new java/lang/Object[1]
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%11[0] = arg$0
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%14 = static String.format("Path '%s' does not point to a valid Mac Application.", %11)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	special %15.<init>(%14)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	throw %15
+
+%if.then0: 	//predecessors %bb3
+	%17 = new java/nio/file/LinkOption[0]
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%19 = static Files.exists(arg$0, %17)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%21 = (%19 != false)
+	if (%21) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb9
+	%29 = new java/lang/IllegalStateException
+	%25 = new java/lang/Object[1]
+	goto %bb10
+
+%bb10: 	//predecessors %if.else1
+	%25[0] = arg$0
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%28 = static String.format("Path '%s' does not exist", %25)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	special %29.<init>(%28)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	throw %29
+
+%if.then1: 	//predecessors %bb9
+	%31 = new java/nio/file/LinkOption[0]
+	goto %bb14
+
+%bb14: 	//predecessors %if.then1
+	%33 = static Files.isDirectory(arg$0, %31)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%35 = (%33 != false)
+	if (%35) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb15
+	%43 = new java/lang/IllegalStateException
+	%39 = new java/lang/Object[1]
+	goto %bb16
+
+%bb16: 	//predecessors %if.else2
+	%39[0] = arg$0
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%42 = static String.format("Path '%s' is not a directory", %39)
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	special %43.<init>(%42)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	throw %43
+
+%if.then2: 	//predecessors %bb15
+	return
+2026-08-12 12:05:46.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.631 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::validateAppPath(java/nio/file/Path): void: null
+2026-08-12 12:05:46.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::run(java/lang/String[]): int
+2026-08-12 12:05:46.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::run(java/lang/String[]): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new picocli/CommandLine
+	%3 = this.factory
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %4.<init>(this, %3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = virtual %4.execute(arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %6
+2026-08-12 12:05:46.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.632 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::run(java/lang/String[]): int: null
+2026-08-12 12:05:46.632 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::main(java/lang/String[]): void
+2026-08-12 12:05:46.632 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	static Quarkus.run(at/bestsolution/maccodesigner/MacCodesignerMain.class, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:05:46.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.633 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::main(java/lang/String[]): void: null
+2026-08-12 12:05:46.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method at/bestsolution/maccodesigner/MacCodesignerMain::standardEntitlements(): java/lang/String
+2026-08-12 12:05:46.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - at/bestsolution/maccodesigner/MacCodesignerMain::standardEntitlements(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return "<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.security.cs.allow-jit</key>
+    <true/>
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <true/>
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
+    <key>com.apple.security.cs.allow-dyld-environment-variables</key>
+    <true/>
+    <key>com.apple.security.cs.debugger</key>
+    <true/>
+</dict>
+</plist>"
+2026-08-12 12:05:46.634 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.634 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io/quarkus/runtime/QuarkusApplication
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 12:05:46.634 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method at/bestsolution/maccodesigner/MacCodesignerMain::standardEntitlements(): java/lang/String: null
+2026-08-12 12:05:46.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::<init>(): void processing is finished normally
+2026-08-12 12:05:46.634 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::run(): void processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::duplicate(java/nio/file/Path): java/nio/file/Path processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::clearXAttr(java/nio/file/Path): void processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::sign(java/nio/file/Path, java/lang/String, java/nio/file/Path, bool): void processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::createDmg(java/nio/file/Path, java/nio/file/Path): java/nio/file/Path processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::createPkg(java/nio/file/Path, java/nio/file/Path, java/lang/String, java/lang/String): java/nio/file/Path processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::notarize(java/lang/String, java/lang/String, java/lang/String, java/util/List): java/util/List processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::staple(java/nio/file/Path): void processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::executeCommand(java/util/List): at/bestsolution/maccodesigner/MacCodesignerMain$ProcessResult processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::handleStream(java/io/InputStream): java/lang/CharSequence processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::validateAppPath(java/nio/file/Path): void processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::run(java/lang/String[]): int processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::main(java/lang/String[]): void processing is finished normally
+2026-08-12 12:05:46.635 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method at/bestsolution/maccodesigner/MacCodesignerMain::standardEntitlements(): java/lang/String processing is finished normally
+2026-08-12 12:05:46.636 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 12:05:46.636 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

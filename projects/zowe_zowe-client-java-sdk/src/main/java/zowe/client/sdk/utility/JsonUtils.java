@@ -1,0 +1,123 @@
+/*
+ * This program and the accompanying materials are made available under the terms of the
+ * Eclipse Public License v2.0 which accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-v20.html
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *
+ * Copyright Contributors to the Zowe Project.
+ */
+package zowe.client.sdk.utility;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import zowe.client.sdk.rest.exception.ZosmfRequestException;
+
+
+/**
+ * Utility class contains helper methods for JSON parse processing.
+ *
+ * @author Frank Giordano
+ * @version 7.0
+ */
+public final class JsonUtils {
+
+    private static final Logger LOG = LoggerFactory.getLogger(JsonUtils.class);
+    private static final ObjectMapper objectMapper = new ObjectMapper();
+    private static final String PARSE_ERROR_MSG = "json response parse error";
+
+    /**
+     * Private constructor defined to avoid instantiation of class
+     */
+    private JsonUtils() {
+        throw new IllegalStateException("Utility class");
+    }
+
+    /**
+     * Centralized JSON parsing for z/OSMF responses using Jackson.
+     * <p>
+     * The returned JsonNode may represent either a JSON object or a JSON array.
+     * Callers can inspect the node type as needed.
+     * </p>
+     *
+     * @param item JSON string representation
+     * @return JsonNode (ObjectNode, ArrayNode, etc.)
+     * @throws ZosmfRequestException if parsing fails
+     */
+    public static JsonNode parse(final String item) throws ZosmfRequestException {
+        try {
+            return objectMapper.readTree(item);
+        } catch (JsonProcessingException e) {
+            LOG.debug(PARSE_ERROR_MSG, e);
+            throw new ZosmfRequestException(e.getMessage(), e);
+        }
+    }
+
+    /**
+     * Retrieves a named JSON array field from a parsed JSON object.
+     * <p>
+     * This method validates that the specified field exists and is a JSON array.
+     * A {@link ZosmfRequestException} is thrown if the field is missing or is not a JSON array.
+     * </p>
+     *
+     * @param root  the parsed root JSON object
+     * @param field the name of the JSON array field to retrieve
+     * @return the JSON array as an ArrayNode
+     * @throws ZosmfRequestException if the specified field is missing or is not a JSON array
+     */
+    public static ArrayNode getArrayByField(final JsonNode root, final String field)
+            throws ZosmfRequestException {
+        JsonNode node = root.path(field);
+        if (!node.isArray()) {
+            throw new ZosmfRequestException("Expected JSON array field '" + field + "'");
+        }
+        return (ArrayNode) node;
+    }
+
+    /**
+     * Parse a JSON string into a specified POJO type.
+     *
+     * @param json    the JSON string to parse
+     * @param clazz   the target class type
+     * @param context the context for logging purposes
+     * @param <T>     the type parameter
+     * @return deserialized object of type T
+     * @throws ZosmfRequestException if parsing fails
+     */
+    public static <T> T parseResponse(final String json, final Class<T> clazz, final String context)
+            throws ZosmfRequestException {
+        try {
+            return objectMapper.readValue(json, clazz);
+        } catch (JsonProcessingException e) {
+            throw new ZosmfRequestException(
+                    "Failed to parse JSON response for [" + context +
+                            "] into " + clazz.getSimpleName(), e);
+
+        }
+    }
+
+    /**
+     * Serialize the given object as a JSON request body.
+     *
+     * @param body object to serialize (Map or POJO)
+     * @return JSON string
+     * @throws ZosmfRequestException if serialization fails
+     */
+    public static String asRequestBodyJson(final Object body) throws ZosmfRequestException {
+        if (body == null) {
+            return null;
+        }
+
+        try {
+            return objectMapper.writeValueAsString(body);
+        } catch (JsonProcessingException e) {
+            throw new ZosmfRequestException(
+                    "Failed to serialize request body to JSON", e);
+        }
+    }
+
+}

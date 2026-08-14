@@ -1,0 +1,466 @@
+2026-08-12 08:14:20.242 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sttp-book_code-examples/target/classes
+2026-08-12 08:14:20.346 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 08:14:20.406 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 08:14:21.317 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 08:14:21.796 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package tudelft/todo/*
+2026-08-12 08:14:21.797 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 08:14:21.816 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sttp-book_code-examples/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 08:14:21.847 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sttp-book_code-examples/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 33341 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/sttp-book_code-examples/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 08:14:21.859 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 08:16:01.895 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/CaesarShiftCipher::<init>(): void
+2026-08-12 08:16:01.896 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/CaesarShiftCipher::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:16:02.351 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.CaesarShiftCipher_init_2924341370
+2026-08-12 08:16:02.356 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/CaesarShiftCipher::CaesarShiftCipher(java/lang/String, int): java/lang/String
+2026-08-12 08:16:02.357 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/CaesarShiftCipher::CaesarShiftCipher(java/lang/String, int): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%59 = new java/lang/StringBuilder
+	special %59.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%7 = virtual arg$0.length()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%50 = arg$1 % 26
+	goto %label2
+
+%label2: 	//predecessors %label1
+	goto %label3
+
+%label3: 	//predecessors %label2, %label6
+	%57 = phi {%label2 -> 0; %label6 -> %58}
+	%9 = (%57 >= %7)
+	if (%9) goto %if.then3 else %if.else0
+
+%if.else0: 	//predecessors %label3
+	%46 = virtual arg$0.charAt(%57)
+	goto %label4
+
+%label4: 	//predecessors %if.else0
+	%14 = virtual %59.append(%46)
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%17 = (%46 > 122)
+	if (%17) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %label5
+	%20 = (%46 >= 97)
+	if (%20) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %label5, %if.else1
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.else1
+	%24 = %46 + %50
+	%26 = (char) %24
+	%28 = (%26 <= 122)
+	if (%28) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %if.then1
+	%31 = %46 - 26
+	%45 = (char) %31
+	goto %goto0
+
+%if.then2: 	//predecessors %if.then1
+	%36 = %46 + %50
+	%38 = (char) %36
+	%40 = (%38 >= 97)
+	if (%40) goto %goto0 else %if.else3
+
+%if.else3: 	//predecessors %if.then2
+	%43 = %46 + 26
+	%47 = (char) %43
+	goto %goto0
+
+%goto0: 	//predecessors %if.else2, %if.then2, %if.else3
+	%49 = phi {%if.else2 -> %45; %if.then2 -> %46; %if.else3 -> %47}
+	%52 = %49 + %50
+	%55 = (char) %52
+	%56 = virtual %59.append(%55)
+	goto %label6
+
+%label6: 	//predecessors %goto0
+	%58 = %57 + 1
+	goto %label3
+
+%if.then3: 	//predecessors %label3
+	%61 = virtual %59.toString()
+	goto %bb1
+
+%bb1: 	//predecessors %if.then3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %bb1
+	%retval1 = phi {%if.then0 -> "invalid"; %bb1 -> %61}
+	return %retval1
+2026-08-12 08:16:02.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.CaesarShiftCipher_CaesarShiftCipher_14326678031
+2026-08-12 08:16:02.552 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.CaesarShiftCipher_init_2924341372
+2026-08-12 08:16:02.626 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.CaesarShiftCipher_CaesarShiftCipher_14326678033
+2026-08-12 08:16:02.627 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/CaesarShiftCipher::<init>(): void: null
+2026-08-12 08:16:02.628 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/CaesarShiftCipher::CaesarShiftCipher(java/lang/String, int): java/lang/String: null
+2026-08-12 08:16:02.628 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/CaesarShiftCipher::<init>(): void processing is finished normally
+2026-08-12 08:16:02.628 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/CaesarShiftCipher::CaesarShiftCipher(java/lang/String, int): java/lang/String processing is finished normally
+2026-08-12 08:16:02.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/Mirror::<init>(): void
+2026-08-12 08:16:02.633 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/Mirror::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:16:02.707 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.Mirror_init_3001970360
+2026-08-12 08:16:02.708 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/Mirror::mirrorEnds(java/lang/String): java/lang/String
+2026-08-12 08:16:02.708 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/Mirror::mirrorEnds(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%1 = virtual arg$0.length()
+	goto %bb0
+
+%bb0: 	//predecessors %label0
+	%7 = %1 - 1
+	goto %label1
+
+%label1: 	//predecessors %bb0, %label2
+	%37 = phi {%bb0 -> ""; %label2 -> %28}
+	%33 = phi {%bb0 -> 0; %label2 -> %30}
+	%34 = phi {%bb0 -> %7; %label2 -> %32}
+	%13 = (%33 >= %34)
+	if (%13) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%18 = virtual arg$0.charAt(%33)
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%19 = virtual arg$0.charAt(%34)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%21 = (%18 != %19)
+	if (%21) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%24 = virtual arg$0.charAt(%34)
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	%27 = static String.valueOf(%24)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%28 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %label2
+
+%label2: 	//predecessors %bb4
+	%30 = %33 + 1
+	%32 = %34 + -1
+	goto %label1
+
+%if.then0: 	//predecessors %label1, %bb2
+	%36 = (%33 != %34)
+	if (%36) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %if.then0
+	goto %goto0
+
+%if.then1: 	//predecessors %if.then0
+	goto %goto0
+
+%goto0: 	//predecessors %if.else2, %if.then1
+	%39 = phi {%if.else2 -> arg$0; %if.then1 -> %37}
+	return %39
+2026-08-12 08:16:02.770 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.Mirror_mirrorEnds_6625193851
+2026-08-12 08:16:02.825 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.Mirror_init_3001970362
+2026-08-12 08:16:02.880 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.Mirror_mirrorEnds_6625193853
+2026-08-12 08:16:02.881 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/Mirror::<init>(): void: null
+2026-08-12 08:16:02.881 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/Mirror::<init>(): void processing is finished normally
+2026-08-12 08:16:02.882 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/Mirror::mirrorEnds(java/lang/String): java/lang/String: null
+2026-08-12 08:16:02.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/Mirror::mirrorEnds(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 08:16:02.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/TwoNumbersSum::<init>(): void
+2026-08-12 08:16:02.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/TwoNumbersSum::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:16:02.947 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.TwoNumbersSum_init_2957447900
+2026-08-12 08:16:02.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/TwoNumbersSum::addTwoNumbers(java/util/ArrayList, java/util/ArrayList): java/util/ArrayList
+2026-08-12 08:16:02.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/TwoNumbersSum::addTwoNumbers(java/util/ArrayList, java/util/ArrayList): java/util/ArrayList
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	static Collections.reverse(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	static Collections.reverse(arg$1)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%64 = new java/util/ArrayList
+	special %64.<init>()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	goto %label2
+
+%label2: 	//predecessors %label1, %bb14
+	%45 = phi {%label1 -> 0; %bb14 -> %52}
+	%61 = phi {%label1 -> 0; %bb14 -> %62}
+	%8 = virtual arg$0.size()
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	%9 = virtual arg$1.size()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = static Math.max(%8, %9)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%14 = (%61 >= %12)
+	if (%14) goto %if.then3 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	%17 = virtual arg$0.size()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else0
+	%19 = (%61 >= %17)
+	if (%19) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb5
+	%22 = virtual arg$0.get(%61)
+	goto %bb6
+
+%bb6: 	//predecessors %if.else1
+	%24 = (java/lang/Integer) %22
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%26 = virtual %24.intValue()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %goto0
+
+%if.then0: 	//predecessors %bb5
+	goto %goto0
+
+%goto0: 	//predecessors %bb8, %if.then0
+	%41 = phi {%bb8 -> %26; %if.then0 -> 0}
+	goto %label3
+
+%label3: 	//predecessors %goto0
+	%30 = virtual arg$1.size()
+	goto %bb9
+
+%bb9: 	//predecessors %label3
+	%32 = (%61 >= %30)
+	if (%32) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb9
+	%35 = virtual arg$1.get(%61)
+	goto %bb10
+
+%bb10: 	//predecessors %if.else2
+	%37 = (java/lang/Integer) %35
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%39 = virtual %37.intValue()
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	goto %goto1
+
+%if.then1: 	//predecessors %bb9
+	goto %goto1
+
+%goto1: 	//predecessors %bb12, %if.then1
+	%42 = phi {%bb12 -> %39; %if.then1 -> 0}
+	goto %label4
+
+%label4: 	//predecessors %goto1
+	%44 = %41 + %42
+	%53 = %44 + %45
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%49 = (%53 < 10)
+	if (%49) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %label5
+	goto %label6
+
+%label6: 	//predecessors %if.else3
+	%54 = %53 + -10
+	goto %if.then2
+
+%if.then2: 	//predecessors %label5, %label6
+	%52 = phi {%label5 -> 0; %label6 -> 1}
+	%56 = phi {%label5 -> %53; %label6 -> %54}
+	%60 = static Integer.valueOf(%56)
+	goto %bb13
+
+%bb13: 	//predecessors %if.then2
+	virtual %64.add(%61, %60)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%62 = %61 + 1
+	goto %label2
+
+%if.then3: 	//predecessors %bb4
+	static Collections.reverse(%64)
+	goto %bb15
+
+%bb15: 	//predecessors %if.then3
+	return %64
+2026-08-12 08:16:03.028 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.TwoNumbersSum_addTwoNumbers_16485019901
+2026-08-12 08:16:03.075 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.TwoNumbersSum_init_2957447902
+2026-08-12 08:16:03.131 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.TwoNumbersSum_addTwoNumbers_16485019903
+2026-08-12 08:16:03.132 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/TwoNumbersSum::<init>(): void: null
+2026-08-12 08:16:03.132 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/TwoNumbersSum::<init>(): void processing is finished normally
+2026-08-12 08:16:03.132 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/TwoNumbersSum::addTwoNumbers(java/util/ArrayList, java/util/ArrayList): java/util/ArrayList: null
+2026-08-12 08:16:03.132 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/TwoNumbersSum::addTwoNumbers(java/util/ArrayList, java/util/ArrayList): java/util/ArrayList processing is finished normally
+2026-08-12 08:16:03.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/GHappy::<init>(): void
+2026-08-12 08:16:03.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/GHappy::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:16:03.182 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.GHappy_init_20041952260
+2026-08-12 08:16:03.182 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method tudelft/todo/GHappy::gHappy(java/lang/String): bool
+2026-08-12 08:16:03.183 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - tudelft/todo/GHappy::gHappy(java/lang/String): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = GHappy.$assertionsDisabled
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%5 = (arg$0 != null)
+	if (%5) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %if.else0
+	%8 = new java/lang/AssertionError
+	special %8.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	throw %8
+
+%if.then0: 	//predecessors %bb0, %if.else0
+	goto %label0
+
+%label0: 	//predecessors %if.then0, %if.then3
+	%45 = phi {%if.then0 -> 0; %if.then3 -> %46}
+	%13 = virtual arg$0.length()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%15 = (%45 >= %13)
+	if (%15) goto %if.then4 else %if.else2
+
+%if.else2: 	//predecessors %bb2
+	%18 = virtual arg$0.charAt(%45)
+	goto %bb3
+
+%bb3: 	//predecessors %if.else2
+	%20 = (%18 != 103)
+	if (%20) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb3
+	%23 = (%45 < 0)
+	if (%23) goto %if.then1 else %if.else4
+
+%if.else4: 	//predecessors %if.else3
+	%26 = %45 - 1
+	%28 = virtual arg$0.charAt(%26)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else4
+	%30 = (%28 != 103)
+	if (%30) goto %if.then1 else %if.else5
+
+%if.else5: 	//predecessors %bb4
+	goto %if.then3
+
+%if.then1: 	//predecessors %if.else3, %bb4
+	%34 = %45 + 1
+	%35 = virtual arg$0.length()
+	goto %bb5
+
+%bb5: 	//predecessors %if.then1
+	%37 = (%34 >= %35)
+	if (%37) goto %if.then2 else %if.else6
+
+%if.else6: 	//predecessors %bb5
+	%40 = %45 + 1
+	%42 = virtual arg$0.charAt(%40)
+	goto %bb6
+
+%bb6: 	//predecessors %if.else6
+	%44 = (%42 != 103)
+	if (%44) goto %if.then2 else %if.else7
+
+%if.else7: 	//predecessors %bb6
+	goto %if.then3
+
+%if.then2: 	//predecessors %bb5, %bb6
+	goto %bb.return0
+
+%if.then3: 	//predecessors %bb3, %if.else5, %if.else7
+	%46 = %45 + 1
+	goto %label0
+
+%if.then4: 	//predecessors %bb2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then2, %if.then4
+	%retval1 = phi {%if.then2 -> 0; %if.then4 -> 1}
+	return %retval1
+2026-08-12 08:16:03.225 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.GHappy_gHappy_1088773661
+2026-08-12 08:16:03.280 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.GHappy_init_20041952262
+2026-08-12 08:16:03.325 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test tudelft.todo.GHappy_gHappy_1088773663
+2026-08-12 08:16:03.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/GHappy::<init>(): void: null
+2026-08-12 08:16:03.326 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method tudelft/todo/GHappy::gHappy(java/lang/String): bool: null
+2026-08-12 08:16:03.326 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/GHappy::<init>(): void processing is finished normally
+2026-08-12 08:16:03.326 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method tudelft/todo/GHappy::gHappy(java/lang/String): bool processing is finished normally
+2026-08-12 08:16:03.327 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 08:16:03.327 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -1,0 +1,235 @@
+2026-08-12 02:25:55.361 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_apache-flink-near-online-data-enrichment-patterns/target/classes
+2026-08-12 02:25:55.449 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 02:25:55.513 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 02:25:56.306 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 02:25:56.779 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/amazonaws/samples/stream/temperature/utils/*
+2026-08-12 02:25:56.780 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 02:25:56.790 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_apache-flink-near-online-data-enrichment-patterns/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 02:25:56.822 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_apache-flink-near-online-data-enrichment-patterns/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 34613 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/aws-samples_apache-flink-near-online-data-enrichment-patterns/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 02:25:56.834 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 02:27:36.870 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::<init>(): void
+2026-08-12 02:27:36.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 02:27:37.334 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.samples.stream.temperature.utils.ParameterToolUtils_init_14063659290
+2026-08-12 02:27:37.339 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::getParameters(java/lang/String[], org/apache/flink/streaming/api/environment/StreamExecutionEnvironment): org/apache/flink/api/java/utils/ParameterTool
+2026-08-12 02:27:37.340 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::getParameters(java/lang/String[], org/apache/flink/streaming/api/environment/StreamExecutionEnvironment): org/apache/flink/api/java/utils/ParameterTool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$1 instanceOf org/apache/flink/streaming/api/environment/LocalStreamEnvironment
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%18 = static ParameterTool.fromArgs(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	%6 = static KinesisAnalyticsRuntime.getApplicationProperties()
+	goto %label1
+
+%label1: 	//predecessors %if.then0
+	%8 = interface %6.get("FlinkApplicationProperties")
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%16 = (java/util/Properties) %8
+	goto %label2
+
+%label2: 	//predecessors %bb1
+	%12 = (%16 != null)
+	if (%12) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	%15 = new java/lang/RuntimeException
+	special %15.<init>("Unable to load FlinkApplicationProperties properties from the Kinesis Analytics Runtime.")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	throw %15
+
+%if.then1: 	//predecessors %label2
+	%19 = static ParameterToolUtils.fromApplicationProperties(%16)
+	goto %bb3
+
+%bb3: 	//predecessors %if.then1
+	goto %goto0
+
+%goto0: 	//predecessors %label0, %bb3
+	%21 = phi {%label0 -> %18; %bb3 -> %19}
+	return %21
+2026-08-12 02:27:37.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 02:27:37.341 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 02:27:37.342 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::getParameters(java/lang/String[], org/apache/flink/streaming/api/environment/StreamExecutionEnvironment): org/apache/flink/api/java/utils/ParameterTool: null
+2026-08-12 02:27:37.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
+2026-08-12 02:27:37.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = new java/util/HashMap
+	%3 = virtual arg$0.size()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %7.<init>(%3)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%6 = invokeDynamic (java/util/Map): java/util/function/BiConsumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object, java/lang/Object): void)), HandleBsmArgument(handle=@com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::lambda$fromApplicationProperties$0(java/util/Map, java/lang/Object, java/lang/Object): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object, java/lang/Object): void)))
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	virtual arg$0.forEach(%6)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = static ParameterTool.fromMap(%7)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %9
+2026-08-12 02:27:37.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/apache/flink/streaming/api/environment/StreamExecutionEnvironment
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 02:27:37.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/apache/flink/streaming/api/environment/StreamExecutionEnvironment
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 02:27:37.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool: null
+2026-08-12 02:27:37.443 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.amazonaws.samples.stream.temperature.utils.ParameterToolUtils_init_14063659291
+2026-08-12 02:27:37.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::getParameters(java/lang/String[], org/apache/flink/streaming/api/environment/StreamExecutionEnvironment): org/apache/flink/api/java/utils/ParameterTool processing is finished normally
+2026-08-12 02:27:37.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::fromApplicationProperties(java/util/Properties): org/apache/flink/api/java/utils/ParameterTool processing is finished normally
+2026-08-12 02:27:37.444 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::<init>(): void: null
+2026-08-12 02:27:37.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/amazonaws/samples/stream/temperature/utils/ParameterToolUtils::<init>(): void processing is finished normally
+2026-08-12 02:27:37.445 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 02:27:37.445 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

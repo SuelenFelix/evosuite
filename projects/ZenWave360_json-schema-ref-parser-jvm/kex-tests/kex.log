@@ -1,0 +1,1451 @@
+2026-08-12 08:47:22.157 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ZenWave360_json-schema-ref-parser-jvm/target/classes
+2026-08-12 08:47:22.257 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 08:47:22.320 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 08:47:23.081 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 08:47:23.664 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package io/zenwave360/jsonrefparser/resolver/*
+2026-08-12 08:47:23.665 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 08:47:23.685 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ZenWave360_json-schema-ref-parser-jvm/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 08:47:23.714 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ZenWave360_json-schema-ref-parser-jvm/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 46655 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ZenWave360_json-schema-ref-parser-jvm/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 08:47:23.726 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 08:49:03.761 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/FileResolver::<init>(): void
+2026-08-12 08:49:03.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/FileResolver::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:49:04.225 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.FileResolver_init_3842271160
+2026-08-12 08:49:04.231 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/FileResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String
+2026-08-12 08:49:04.232 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/FileResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%2 = FileResolver.log
+	%3 = virtual arg$0.getURI()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	interface %2.info("Resolving file: {}", %3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%28 = new java/lang/String
+	%6 = virtual arg$0.getURI()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = static Paths.get(%6)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%11 = static Files.readAllBytes(%8)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	special %28.<init>(%11)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %goto0
+
+%catch0: 	//catches from %bb5, %bb4, %label0, %bb2, %bb1, %bb3, %bb6
+	%21 = catch java/nio/file/NoSuchFileException
+goto %label1
+
+%label1: 	//predecessors %catch0
+	%22 = new io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException
+	%15 = virtual arg$0.getURI()
+	goto %bb7
+
+%bb7: 	//predecessors %label1
+	%17 = static String.valueOf(%15)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%20 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="File not found: "))
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	special %22.<init>(%20, %21)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	throw %22
+
+%catch1: 	//catches from %bb5, %bb4, %label0, %bb2, %bb1, %bb3, %bb6
+	%26 = catch java/lang/Exception
+goto %label2
+
+%label2: 	//predecessors %catch1
+	%27 = new java/lang/RuntimeException
+	special %27.<init>(%26)
+	goto %bb11
+
+%bb11: 	//predecessors %label2
+	throw %27
+
+%goto0: 	//predecessors %bb6
+	return %28
+2026-08-12 08:49:04.374 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.FileResolver_resolve_2454965041
+2026-08-12 08:49:04.458 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.FileResolver_init_3842271162
+2026-08-12 08:49:04.533 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.FileResolver_resolve_2454965043
+2026-08-12 08:49:04.534 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/FileResolver::<init>(): void: null
+2026-08-12 08:49:04.535 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/FileResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String: null
+2026-08-12 08:49:04.535 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/FileResolver::<init>(): void processing is finished normally
+2026-08-12 08:49:04.535 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/FileResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String processing is finished normally
+2026-08-12 08:49:04.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/RefFormat::values(): io/zenwave360/jsonrefparser/resolver/RefFormat[]
+2026-08-12 08:49:04.543 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/RefFormat::values(): io/zenwave360/jsonrefparser/resolver/RefFormat[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = RefFormat.$VALUES
+	%3 = virtual %1.clone()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = (io/zenwave360/jsonrefparser/resolver/RefFormat[]) %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-12 08:49:04.613 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_values_4478043830
+2026-08-12 08:49:04.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/RefFormat::valueOf(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat
+2026-08-12 08:49:04.614 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/RefFormat::valueOf(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Enum.valueOf(io/zenwave360/jsonrefparser/resolver/RefFormat.class, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (io/zenwave360/jsonrefparser/resolver/RefFormat) %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-12 08:49:04.673 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_valueOf_442260201
+2026-08-12 08:49:04.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/RefFormat::<init>(java/lang/String, int): void
+2026-08-12 08:49:04.674 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/RefFormat::<init>(java/lang/String, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:49:04.737 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_init_19568600492
+2026-08-12 08:49:04.738 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/RefFormat::of(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat
+2026-08-12 08:49:04.739 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/RefFormat::of(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.startsWith("file:")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%25 = RefFormat.FILE
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%6 = virtual arg$0.startsWith("classpath:")
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%8 = (%6 == false)
+	if (%8) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%26 = RefFormat.CLASSPATH
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb2
+	%11 = virtual arg$0.startsWith("http")
+	goto %bb3
+
+%bb3: 	//predecessors %if.then1
+	%13 = (%11 != false)
+	if (%13) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb3
+	%15 = virtual arg$0.startsWith("https")
+	goto %bb4
+
+%bb4: 	//predecessors %if.else2
+	%17 = (%15 == false)
+	if (%17) goto %if.then3 else %if.then2
+
+%if.then2: 	//predecessors %bb3, %bb4
+	%27 = RefFormat.URL
+	goto %bb.return0
+
+%if.then3: 	//predecessors %bb4
+	%20 = virtual arg$0.startsWith("#/")
+	goto %bb5
+
+%bb5: 	//predecessors %if.then3
+	%22 = (%20 == false)
+	if (%22) goto %if.then4 else %if.else3
+
+%if.else3: 	//predecessors %bb5
+	%28 = RefFormat.INTERNAL
+	goto %bb.return0
+
+%if.then4: 	//predecessors %bb5
+	%29 = RefFormat.RELATIVE
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else1, %if.then2, %if.else3, %if.then4
+	%retval1 = phi {%if.else0 -> %25; %if.else1 -> %26; %if.then2 -> %27; %if.else3 -> %28; %if.then4 -> %29}
+	return %retval1
+2026-08-12 08:49:04.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_of_8134944833
+2026-08-12 08:49:04.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/RefFormat::isAnExternalRefFormat(): bool
+2026-08-12 08:49:04.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/RefFormat::isAnExternalRefFormat(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = RefFormat.URL
+	%3 = (this == %1)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%5 = RefFormat.RELATIVE
+	%7 = (this == %5)
+	if (%7) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %if.else0
+	%9 = RefFormat.CLASSPATH
+	%11 = (this != %9)
+	if (%11) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb0, %if.else0, %if.else1
+	goto %goto0
+
+%if.then1: 	//predecessors %if.else1
+	goto %goto0
+
+%goto0: 	//predecessors %if.then0, %if.then1
+	%13 = phi {%if.then0 -> 1; %if.then1 -> 0}
+	return %13
+2026-08-12 08:49:04.879 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_isAnExternalRefFormat_21073467724
+2026-08-12 08:49:04.930 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_values_4478043835
+2026-08-12 08:49:04.987 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_valueOf_442260206
+2026-08-12 08:49:05.034 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_init_19568600497
+2026-08-12 08:49:05.089 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_of_8134944838
+2026-08-12 08:49:05.133 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.RefFormat_isAnExternalRefFormat_21073467729
+2026-08-12 08:49:05.133 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/RefFormat::values(): io/zenwave360/jsonrefparser/resolver/RefFormat[]: null
+2026-08-12 08:49:05.134 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/RefFormat::valueOf(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat: null
+2026-08-12 08:49:05.134 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/RefFormat::<init>(java/lang/String, int): void: null
+2026-08-12 08:49:05.134 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/RefFormat::of(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat: null
+2026-08-12 08:49:05.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/RefFormat::values(): io/zenwave360/jsonrefparser/resolver/RefFormat[] processing is finished normally
+2026-08-12 08:49:05.134 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/RefFormat::isAnExternalRefFormat(): bool: null
+2026-08-12 08:49:05.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/RefFormat::valueOf(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat processing is finished normally
+2026-08-12 08:49:05.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/RefFormat::<init>(java/lang/String, int): void processing is finished normally
+2026-08-12 08:49:05.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/RefFormat::of(java/lang/String): io/zenwave360/jsonrefparser/resolver/RefFormat processing is finished normally
+2026-08-12 08:49:05.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/RefFormat::isAnExternalRefFormat(): bool processing is finished normally
+2026-08-12 08:49:05.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver::<init>(): void
+2026-08-12 08:49:05.166 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = virtual this.createConnectionConfigurator()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.CONNECTION_CONFIGURATOR = %1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%4 = new java/util/ArrayList
+	special %4.<init>()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.authenticationValues = %4
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-08-12 08:49:05.212 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_init_10914865360
+2026-08-12 08:49:05.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/HttpResolver
+2026-08-12 08:49:05.213 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/HttpResolver
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.authenticationValues
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = interface %1.add(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	return this
+2026-08-12 08:49:05.264 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_withAuthentication_471824321
+2026-08-12 08:49:05.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String
+2026-08-12 08:49:05.265 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = HttpResolver.log
+	%3 = virtual arg$0.getURI()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	interface %2.trace("Resolving url: {}", %3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual arg$0.getURI()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = virtual %5.toString()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = this.authenticationValues
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = virtual this.downloadUrlToString(%8, %9)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %11
+
+%catch0: 	//catches from %bb5, %bb0, %bb2, %bb1, %bb3, %bb4
+	%21 = catch java/io/FileNotFoundException
+goto %label0
+
+%label0: 	//predecessors %catch0
+	%22 = new io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException
+	%15 = virtual arg$0.getURI()
+	goto %bb7
+
+%bb7: 	//predecessors %label0
+	%17 = static String.valueOf(%15)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%20 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="File not found: "))
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	special %22.<init>(%20, %21)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	throw %22
+
+%catch1: 	//catches from %bb5, %bb0, %bb2, %bb1, %bb3, %bb4
+	%29 = catch java/lang/Exception
+goto %label1
+
+%label1: 	//predecessors %catch1
+	%25 = HttpResolver.log
+	interface %25.error("Error resolving {}", arg$0, %29)
+	goto %bb11
+
+%bb11: 	//predecessors %label1
+	%30 = new java/lang/RuntimeException
+	special %30.<init>(%29)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	throw %30
+2026-08-12 08:49:05.316 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_resolve_17212101562
+2026-08-12 08:49:05.316 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver::downloadUrlToString(java/lang/String, java/util/List): java/lang/String
+2026-08-12 08:49:05.317 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver::downloadUrlToString(java/lang/String, java/util/List): java/lang/String
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	goto %label1
+
+%label1: 	//predecessors %label0, %bb44
+	%3 = phi {%label0 -> arg$0; %bb44 -> %167}
+	%135 = new java/net/URL
+	%6 = virtual this.cleanUrl(%3)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	special %135.<init>(%6)
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%72 = new java/util/ArrayList
+	special %72.<init>()
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%143 = new java/util/ArrayList
+	special %143.<init>()
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%12 = (arg$1 == null)
+	if (%12) goto %if.then2 else %if.else0
+
+%if.else0: 	//predecessors %label4
+	%14 = interface arg$1.size()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%16 = (%14 <= 0)
+	if (%16) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%23 = interface arg$1.iterator()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	goto %label5
+
+%label5: 	//predecessors %bb2, %if.then1
+	%20 = interface %23.hasNext()
+	goto %bb3
+
+%bb3: 	//predecessors %label5
+	%22 = (%20 == false)
+	if (%22) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb3
+	%25 = interface %23.next()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else2
+	%51 = (io/zenwave360/jsonrefparser/AuthenticationValue) %25
+	goto %label6
+
+%label6: 	//predecessors %bb4
+	%30 = virtual %51.matches(%135)
+	goto %bb5
+
+%bb5: 	//predecessors %label6
+	%32 = (%30 == false)
+	if (%32) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb5
+	%36 = AuthenticationValue$AuthenticationType.HEADER
+	%37 = virtual %51.getType()
+	goto %bb6
+
+%bb6: 	//predecessors %if.else3
+	%39 = (%36 != %37)
+	if (%39) goto %if.then0 else %if.else4
+
+%if.else4: 	//predecessors %bb6
+	%42 = interface %143.add(%51)
+	goto %bb7
+
+%bb7: 	//predecessors %if.else4
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb6, %bb7
+	%46 = AuthenticationValue$AuthenticationType.QUERY
+	%47 = virtual %51.getType()
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%49 = (%46 != %47)
+	if (%49) goto %if.then1 else %if.else5
+
+%if.else5: 	//predecessors %bb8
+	%52 = interface %72.add(%51)
+	goto %bb9
+
+%bb9: 	//predecessors %if.else5
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb5, %bb8, %bb9
+	goto %label5
+
+%if.then2: 	//predecessors %label4, %bb1, %bb3
+	%55 = interface %72.isEmpty()
+	goto %bb10
+
+%bb10: 	//predecessors %if.then2
+	%57 = (%55 != false)
+	if (%57) goto %if.then6 else %if.else6
+
+%if.else6: 	//predecessors %bb10
+	%123 = virtual %135.toURI()
+	goto %label7
+
+%label7: 	//predecessors %if.else6
+	%121 = new java/lang/StringBuilder
+	%63 = virtual %123.getQuery()
+	goto %bb11
+
+%bb11: 	//predecessors %label7
+	%65 = (%63 != null)
+	if (%65) goto %if.then3 else %if.else7
+
+%if.else7: 	//predecessors %bb11
+	goto %goto0
+
+%if.then3: 	//predecessors %bb11
+	%68 = virtual %123.getQuery()
+	goto %goto0
+
+%goto0: 	//predecessors %if.else7, %if.then3
+	%71 = phi {%if.else7 -> ""; %if.then3 -> %68}
+	special %121.<init>(%71)
+	goto %label8
+
+%label8: 	//predecessors %goto0
+	%79 = interface %72.iterator()
+	goto %bb12
+
+%bb12: 	//predecessors %label8
+	goto %label9
+
+%label9: 	//predecessors %bb12, %label12
+	%76 = interface %79.hasNext()
+	goto %bb13
+
+%bb13: 	//predecessors %label9
+	%78 = (%76 == false)
+	if (%78) goto %if.then5 else %if.else8
+
+%if.else8: 	//predecessors %bb13
+	%81 = interface %79.next()
+	goto %bb14
+
+%bb14: 	//predecessors %if.else8
+	%103 = (io/zenwave360/jsonrefparser/AuthenticationValue) %81
+	goto %label10
+
+%label10: 	//predecessors %bb14
+	%85 = virtual %121.length()
+	goto %bb15
+
+%bb15: 	//predecessors %label10
+	%87 = (%85 <= 0)
+	if (%87) goto %if.then4 else %if.else9
+
+%if.else9: 	//predecessors %bb15
+	%89 = virtual %121.append("&")
+	goto %bb16
+
+%bb16: 	//predecessors %if.else9
+	goto %if.then4
+
+%if.then4: 	//predecessors %bb15, %bb16
+	%95 = virtual %103.getKey()
+	goto %bb17
+
+%bb17: 	//predecessors %if.then4
+	%93 = StandardCharsets.UTF_8
+	%96 = virtual %93.name()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%99 = static URLEncoder.encode(%95, %96)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%101 = virtual %121.append(%99)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%111 = virtual %101.append("=")
+	goto %label11
+
+%label11: 	//predecessors %bb20
+	%108 = virtual %103.getValue()
+	goto %bb21
+
+%bb21: 	//predecessors %label11
+	%106 = StandardCharsets.UTF_8
+	%109 = virtual %106.name()
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%112 = static URLEncoder.encode(%108, %109)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%113 = virtual %111.append(%112)
+	goto %label12
+
+%label12: 	//predecessors %bb23
+	goto %label9
+
+%if.then5: 	//predecessors %bb13
+	%131 = new java/net/URI
+	%126 = virtual %123.getScheme()
+	goto %bb24
+
+%bb24: 	//predecessors %if.then5
+	%127 = virtual %123.getAuthority()
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	%128 = virtual %123.getPath()
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	%129 = virtual %121.toString()
+	goto %label13
+
+%label13: 	//predecessors %bb26
+	%130 = virtual %123.getFragment()
+	goto %bb27
+
+%bb27: 	//predecessors %label13
+	special %131.<init>(%126, %127, %128, %129, %130)
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	%133 = virtual %131.toURL()
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%137 = virtual %133.openConnection()
+	goto %label14
+
+%label14: 	//predecessors %bb29
+	goto %goto1
+
+%if.then6: 	//predecessors %bb10
+	%138 = virtual %135.openConnection()
+	goto %bb30
+
+%bb30: 	//predecessors %if.then6
+	goto %goto1
+
+%goto1: 	//predecessors %label14, %bb30
+	%175 = phi {%label14 -> %137; %bb30 -> %138}
+	%141 = this.CONNECTION_CONFIGURATOR
+	goto %bb31
+
+%bb31: 	//predecessors %goto1
+	interface %141.process(%175)
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%150 = interface %143.iterator()
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	goto %label15
+
+%label15: 	//predecessors %bb33, %bb38
+	%147 = interface %150.hasNext()
+	goto %bb34
+
+%bb34: 	//predecessors %label15
+	%149 = (%147 == false)
+	if (%149) goto %if.then7 else %if.else10
+
+%if.else10: 	//predecessors %bb34
+	%152 = interface %150.next()
+	goto %bb35
+
+%bb35: 	//predecessors %if.else10
+	%156 = (io/zenwave360/jsonrefparser/AuthenticationValue) %152
+	goto %label16
+
+%label16: 	//predecessors %bb35
+	%159 = virtual %156.getKey()
+	goto %bb36
+
+%bb36: 	//predecessors %label16
+	%160 = virtual %156.getValue()
+	goto %bb37
+
+%bb37: 	//predecessors %bb36
+	virtual %175.setRequestProperty(%159, %160)
+	goto %bb38
+
+%bb38: 	//predecessors %bb37
+	goto %label15
+
+%if.then7: 	//predecessors %bb34
+	virtual %175.setRequestProperty("Accept", "application/json, application/yaml, */*")
+	goto %bb39
+
+%bb39: 	//predecessors %if.then7
+	virtual %175.setRequestProperty("User-Agent", "Apache-HttpClient/$JSONSchemaRefParserJVM")
+	goto %bb40
+
+%bb40: 	//predecessors %bb39
+	virtual %175.connect()
+	goto %bb41
+
+%bb41: 	//predecessors %bb40
+	%166 = (java/net/HttpURLConnection) %175
+	goto %bb42
+
+%bb42: 	//predecessors %bb41
+	%167 = virtual %166.getHeaderField("Location")
+	goto %label17
+
+%label17: 	//predecessors %bb42
+	%170 = (java/net/HttpURLConnection) %175
+	goto %bb43
+
+%bb43: 	//predecessors %label17
+	%172 = virtual %170.getResponseCode()
+	goto %bb44
+
+%bb44: 	//predecessors %bb43
+	%174 = (301 == %172)
+	if (%174) goto %label1 else %if.else11
+
+%if.else11: 	//predecessors %bb44
+	%211 = virtual %175.getInputStream()
+	goto %label18
+
+%label18: 	//predecessors %if.else11
+	%212 = new java/lang/StringBuilder
+	special %212.<init>()
+	goto %label19
+
+%label19: 	//predecessors %label18
+	%209 = new java/io/BufferedReader
+	%186 = new java/io/InputStreamReader
+	%184 = StandardCharsets.UTF_8
+	special %186.<init>(%211, %184)
+	goto %bb45
+
+%bb45: 	//predecessors %label19
+	special %209.<init>(%186)
+	goto %label20
+
+%label20: 	//predecessors %bb45
+	goto %label21
+
+%label21: 	//predecessors %label20, %bb49
+	%199 = phi {%label20 -> 0; %bb49 -> %210}
+	%191 = (%199 == -1)
+	if (%191) goto %if.then10 else %if.else12
+
+%if.else12: 	//predecessors %label21
+	%204 = (char) %199
+	goto %label22
+
+%label22: 	//predecessors %if.else12
+	%196 = static Character.isISOControl(%204)
+	goto %bb46
+
+%bb46: 	//predecessors %label22
+	%198 = (%196 != false)
+	if (%198) goto %if.then8 else %if.else13
+
+%if.else13: 	//predecessors %bb46
+	%202 = (char) %199
+	%203 = virtual %212.append(%202)
+	goto %bb47
+
+%bb47: 	//predecessors %if.else13
+	goto %if.then8
+
+%if.then8: 	//predecessors %bb46, %bb47
+	%206 = (%204 != 10)
+	if (%206) goto %if.then9 else %if.else14
+
+%if.else14: 	//predecessors %if.then8
+	%208 = virtual %212.append(10)
+	goto %bb48
+
+%bb48: 	//predecessors %if.else14
+	goto %if.then9
+
+%if.then9: 	//predecessors %if.then8, %bb48
+	%210 = virtual %209.read()
+	goto %bb49
+
+%bb49: 	//predecessors %if.then9
+	goto %label21
+
+%if.then10: 	//predecessors %label21
+	virtual %211.close()
+	goto %bb50
+
+%bb50: 	//predecessors %if.then10
+	%218 = virtual %212.toString()
+	goto %bb51
+
+%bb51: 	//predecessors %bb50
+	goto %label23
+
+%label23: 	//predecessors %bb51
+	%215 = (null == null)
+	if (%215) goto %if.then11 else %if.else15
+
+%if.else15: 	//predecessors %label23
+	virtual null.close()
+	goto %if.then11
+
+%if.then11: 	//predecessors %label23, %if.else15
+	%217 = (null == null)
+	if (%217) goto %if.then12 else %if.else16
+
+%if.else16: 	//predecessors %if.then11
+	virtual null.close()
+	goto %if.then12
+
+%if.then12: 	//predecessors %if.then11, %if.else16
+	return %218
+
+%catch0: 	//catches from %label7, %bb4, %bb10, %bb35, %bb33, %bb24, %bb38, %if.else5, %bb0, %bb11, %bb36, %if.then0, %if.else12, %bb17, %bb20, %label8, %bb34, %if.else3, %bb1, %bb16, %if.else10, %label4, %if.then6, %bb49, %bb50, %bb6, %bb32, %if.then8, %bb21, %bb46, %label13, %label20, %bb47, %bb22, %if.else1, %bb18, %if.then5, %label16, %if.else4, %bb31, %label1, %if.else7, %label2, %bb12, %bb44, %if.else8, %if.then1, %if.else9, %bb45, %bb51, %if.else11, %if.then9, %bb40, %bb42, %label3, %goto1, %bb7, %bb14, %bb19, %label19, %bb15, %label18, %bb13, %goto0, %if.then4, %if.else14, %if.then2, %label11, %if.else2, %label22, %bb29, %label17, %bb23, %if.then7, %if.then3, %label12, %bb41, %bb5, %if.else0, %bb39, %label10, %bb2, %bb27, %label5, %bb9, %bb26, %bb43, %bb48, %bb3, %if.else6, %label15, %if.then10, %bb8, %bb30, %label9, %label14, %bb37, %label6, %label21, %bb25, %bb28, %if.else13
+	%227 = catch javax/net/ssl/SSLProtocolException
+goto %label24
+
+%label24: 	//predecessors %catch0
+	%221 = HttpResolver.log
+	interface %221.warn("there is a problem with the target SSL certificate")
+	goto %bb52
+
+%bb52: 	//predecessors %label24
+	%223 = HttpResolver.log
+	interface %223.warn("**** you may want to run with -Djsse.enableSNIExtension=false
+
+")
+	goto %bb53
+
+%bb53: 	//predecessors %bb52
+	%225 = HttpResolver.log
+	interface %225.error("unable to read", %227)
+	goto %bb54
+
+%bb54: 	//predecessors %bb53
+	throw %227
+
+%catch1: 	//catches from %label7, %bb4, %bb10, %bb35, %bb33, %bb24, %bb38, %if.else5, %bb0, %bb11, %bb36, %if.then0, %if.else12, %bb17, %bb20, %label8, %bb34, %if.else3, %bb1, %bb16, %if.else10, %label4, %if.then6, %bb49, %bb50, %bb6, %bb32, %if.then8, %bb21, %bb46, %label13, %label20, %bb47, %bb22, %if.else1, %bb18, %if.then5, %label16, %if.else4, %bb31, %label1, %if.else7, %label2, %bb12, %bb44, %if.else8, %if.then1, %if.else9, %bb45, %bb51, %if.else11, %if.then9, %bb40, %bb42, %label3, %goto1, %bb7, %bb14, %bb19, %label19, %bb15, %label18, %bb13, %goto0, %if.then4, %if.else14, %if.then2, %label11, %if.else2, %label22, %bb29, %label17, %bb23, %if.then7, %if.then3, %label12, %bb41, %bb5, %if.else0, %bb39, %label10, %bb2, %bb27, %label5, %bb9, %bb26, %bb43, %bb48, %bb3, %if.else6, %label15, %if.then10, %bb8, %bb30, %label9, %label14, %bb37, %label6, %label21, %bb25, %bb28, %if.else13
+	%239 = catch java/lang/Exception
+goto %label25
+
+%label25: 	//predecessors %catch1
+	%236 = HttpResolver.log
+	%232 = virtual %239.getClass()
+	goto %bb55
+
+%bb55: 	//predecessors %label25
+	%237 = virtual %232.getSimpleName()
+	goto %bb56
+
+%bb56: 	//predecessors %bb55
+	%238 = virtual %239.getMessage()
+	goto %bb57
+
+%bb57: 	//predecessors %bb56
+	interface %236.error("Unable to read url {} {}", %237, %238)
+	goto %bb58
+
+%bb58: 	//predecessors %bb57
+	throw %239
+
+%catch2: 	//catches from %label7, %bb4, %bb10, %bb35, %bb33, %bb24, %bb38, %if.else5, %bb0, %bb11, %bb36, %if.then0, %if.else12, %bb17, %bb20, %label8, %bb34, %catch0, %if.else3, %bb1, %bb16, %if.else10, %label4, %if.then6, %bb49, %bb50, %bb6, %bb32, %if.then8, %bb21, %bb46, %label13, %label20, %bb52, %bb54, %catch2, %bb47, %bb22, %if.else1, %bb18, %if.then5, %label16, %if.else4, %bb31, %label1, %if.else7, %label2, %bb12, %bb44, %if.else8, %bb55, %if.then1, %if.else9, %bb45, %bb51, %if.else11, %catch1, %if.then9, %bb40, %bb42, %label3, %goto1, %bb7, %bb14, %bb53, %bb19, %label19, %bb15, %label18, %bb13, %goto0, %if.then4, %if.else14, %bb56, %if.then2, %label11, %if.else2, %label22, %bb29, %label17, %bb23, %if.then7, %label24, %if.then3, %label12, %bb41, %bb5, %if.else0, %bb39, %label10, %bb2, %bb27, %label5, %bb9, %label25, %bb26, %bb43, %bb48, %bb3, %if.else6, %label15, %if.then10, %bb58, %bb8, %bb30, %label9, %label14, %bb37, %label6, %label21, %bb25, %bb28, %if.else13, %bb57
+	%245 = catch java/lang/Throwable
+goto %label26
+
+%label26: 	//predecessors %catch2
+	%242 = (null == null)
+	if (%242) goto %if.then13 else %if.else17
+
+%if.else17: 	//predecessors %label26
+	virtual null.close()
+	goto %if.then13
+
+%if.then13: 	//predecessors %label26, %if.else17
+	%244 = (null == null)
+	if (%244) goto %if.then14 else %if.else18
+
+%if.else18: 	//predecessors %if.then13
+	virtual null.close()
+	goto %if.then14
+
+%if.then14: 	//predecessors %if.then13, %if.else18
+	throw %245
+2026-08-12 08:49:05.361 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_downloadUrlToString_9584957113
+2026-08-12 08:49:05.361 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver::cleanUrl(java/lang/String): java/lang/String
+2026-08-12 08:49:05.362 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver::cleanUrl(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%1 = virtual arg$0.replaceAll("\{", "%7B")
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%3 = virtual %1.replaceAll("\}", "%7D")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%11 = virtual %3.replaceAll(" ", "%20")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	goto %goto0
+
+%catch0: 	//catches from %bb2, %bb3, %label0, %bb1
+	%12 = phi {%bb2 -> null; %bb3 -> %11; %label0 -> null; %bb1 -> null; %bb0 -> null}
+%10 = catch java/util/regex/PatternSyntaxException
+goto %label2
+
+%label2: 	//predecessors %catch0
+	%9 = HttpResolver.log
+	interface %9.debug("Pattern exception cleaning url", %10)
+	goto %goto0
+
+%goto0: 	//predecessors %label1, %label2
+	%14 = phi {%label1 -> %11; %label2 -> %12}
+	return %14
+2026-08-12 08:49:05.403 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_cleanUrl_11468685024
+2026-08-12 08:49:05.403 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver::createConnectionConfigurator(): io/zenwave360/jsonrefparser/resolver/HttpResolver$ConnectionConfigurator
+2026-08-12 08:49:05.404 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver::createConnectionConfigurator(): io/zenwave360/jsonrefparser/resolver/HttpResolver$ConnectionConfigurator
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = HttpResolver.TRUST_ALL
+	%3 = static System.getProperty(%1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = static Boolean.parseBoolean(%3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = (%5 == false)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%17 = new javax/net/ssl/TrustManager[1]
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%12 = new io/zenwave360/jsonrefparser/resolver/HttpResolver$1
+	special %12.<init>(this)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%17[0] = %12
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	%19 = static SSLContext.getInstance("SSL")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%18 = new java/security/SecureRandom
+	special %18.<init>()
+	goto %bb5
+
+%bb5: 	//predecessors %label1
+	virtual %19.init(null, %17, %18)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%25 = virtual %19.getSocketFactory()
+	goto %label2
+
+%label2: 	//predecessors %bb6
+	%26 = new io/zenwave360/jsonrefparser/resolver/HttpResolver$2
+	special %26.<init>(this)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%37 = new io/zenwave360/jsonrefparser/resolver/HttpResolver$3
+	special %37.<init>(this, %25, %26)
+	goto %bb7
+
+%bb7: 	//predecessors %label3
+	goto %bb.return0
+
+%catch0: 	//catches from %label0, %bb4, %bb6, %label2, %if.else0, %label1, %label3, %bb5, %bb3
+	%30 = catch java/security/NoSuchAlgorithmException
+goto %label4
+
+%label4: 	//predecessors %catch0
+	%29 = HttpResolver.log
+	interface %29.error("Not Supported", %30)
+	goto %bb8
+
+%bb8: 	//predecessors %label4
+	goto %if.then0
+
+%catch1: 	//catches from %label0, %bb4, %bb6, %label2, %if.else0, %label1, %label3, %bb5, %bb3
+	%34 = catch java/security/KeyManagementException
+goto %label5
+
+%label5: 	//predecessors %catch1
+	%33 = HttpResolver.log
+	interface %33.error("Not Supported", %34)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb8, %label5
+	%38 = new io/zenwave360/jsonrefparser/resolver/HttpResolver$4
+	special %38.<init>(this)
+	goto %bb9
+
+%bb9: 	//predecessors %if.then0
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb7, %bb9
+	%retval1 = phi {%bb7 -> %37; %bb9 -> %38}
+	%retval.casted1 = (io/zenwave360/jsonrefparser/resolver/HttpResolver$ConnectionConfigurator) %retval1
+	return %retval.casted1
+2026-08-12 08:49:05.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_createConnectionConfigurator_959301555
+2026-08-12 08:49:05.483 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_init_10914865366
+2026-08-12 08:49:05.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_withAuthentication_471824327
+2026-08-12 08:49:05.575 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_resolve_17212101568
+2026-08-12 08:49:05.625 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_downloadUrlToString_9584957119
+2026-08-12 08:49:05.674 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_cleanUrl_114686850210
+2026-08-12 08:49:05.727 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_createConnectionConfigurator_9593015511
+2026-08-12 08:49:05.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver::<init>(): void: null
+2026-08-12 08:49:05.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/HttpResolver: null
+2026-08-12 08:49:05.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String: null
+2026-08-12 08:49:05.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver::downloadUrlToString(java/lang/String, java/util/List): java/lang/String: null
+2026-08-12 08:49:05.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver::cleanUrl(java/lang/String): java/lang/String: null
+2026-08-12 08:49:05.728 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver::createConnectionConfigurator(): io/zenwave360/jsonrefparser/resolver/HttpResolver$ConnectionConfigurator: null
+2026-08-12 08:49:05.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver::<init>(): void processing is finished normally
+2026-08-12 08:49:05.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/HttpResolver processing is finished normally
+2026-08-12 08:49:05.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String processing is finished normally
+2026-08-12 08:49:05.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver::downloadUrlToString(java/lang/String, java/util/List): java/lang/String processing is finished normally
+2026-08-12 08:49:05.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver::cleanUrl(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 08:49:05.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver::createConnectionConfigurator(): io/zenwave360/jsonrefparser/resolver/HttpResolver$ConnectionConfigurator processing is finished normally
+2026-08-12 08:49:05.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/Resolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/Resolver
+2026-08-12 08:49:05.731 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/Resolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/Resolver
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return this
+2026-08-12 08:49:05.794 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.Resolver_withAuthentication_1277028800
+2026-08-12 08:49:05.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/Resolver::getBaseURL(java/net/URL): java/lang/String
+2026-08-12 08:49:05.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/Resolver::getBaseURL(java/net/URL): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%5 = virtual arg$0.toExternalForm()
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%6 = virtual %5.lastIndexOf(47)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%8 = virtual %5.substring(0, %6)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb2, %if.then0
+	%retval1 = phi {%bb2 -> %8; %if.then0 -> null}
+	return %retval1
+2026-08-12 08:49:05.851 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.Resolver_getBaseURL_8334652711
+2026-08-12 08:49:05.900 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.Resolver_withAuthentication_1277028802
+2026-08-12 08:49:05.958 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.Resolver_getBaseURL_8334652713
+2026-08-12 08:49:05.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/Resolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/Resolver: null
+2026-08-12 08:49:05.959 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/Resolver::getBaseURL(java/net/URL): java/lang/String: null
+2026-08-12 08:49:05.959 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/Resolver::withAuthentication(io/zenwave360/jsonrefparser/AuthenticationValue): io/zenwave360/jsonrefparser/resolver/Resolver processing is finished normally
+2026-08-12 08:49:05.959 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/Resolver::getBaseURL(java/net/URL): java/lang/String processing is finished normally
+2026-08-12 08:49:05.964 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::<init>(): void
+2026-08-12 08:49:05.964 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/ClasspathResolver::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = virtual this.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = virtual %1.getClassLoader()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.resourceClassLoader = %3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-12 08:49:06.021 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.ClasspathResolver_init_12329637590
+2026-08-12 08:49:06.022 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::withResourceClassLoader(java/lang/ClassLoader): io/zenwave360/jsonrefparser/resolver/ClasspathResolver
+2026-08-12 08:49:06.022 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/ClasspathResolver::withResourceClassLoader(java/lang/ClassLoader): io/zenwave360/jsonrefparser/resolver/ClasspathResolver
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	this.resourceClassLoader = arg$0
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb0, %if.else0
+	return this
+2026-08-12 08:49:06.126 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.ClasspathResolver_withResourceClassLoader_9262084471
+2026-08-12 08:49:06.127 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String
+2026-08-12 08:49:06.127 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/ClasspathResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%22 = virtual arg$0.getURI()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%3 = virtual %22.toString()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%5 = virtual %3.startsWith("classpath:")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = (%5 == false)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%10 = virtual %22.toString()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%12 = virtual %10.startsWith("classpath:/")
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%14 = (%12 != false)
+	if (%14) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%17 = virtual %22.toString()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%19 = virtual %17.replace("classpath:", "classpath:/")
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%23 = static URI.create(%19)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb4, %bb7
+	%37 = phi {%bb2 -> %22; %bb4 -> %22; %bb7 -> %23}
+	%30 = this.resourceClassLoader
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%28 = virtual %37.getPath()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%31 = virtual %28.replaceFirst("^/", "")
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%45 = virtual %30.getResourceAsStream(%31)
+	goto %label2
+
+%label2: 	//predecessors %bb10
+	%35 = (%45 != null)
+	if (%35) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %label2
+	%43 = new io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException
+	%39 = static String.valueOf(%37)
+	goto %bb11
+
+%bb11: 	//predecessors %if.else2
+	%42 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Resource not found: "))
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	special %43.<init>(%42, null)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	throw %43
+
+%if.then1: 	//predecessors %label2
+	%56 = new java/lang/String
+	%48 = virtual %45.readAllBytes()
+	goto %bb14
+
+%bb14: 	//predecessors %if.then1
+	special %56.<init>(%48)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	goto %goto0
+
+%catch0: 	//catches from %bb2, %bb12, %bb10, %bb5, %if.else2, %bb1, %if.then0, %if.then1, %bb7, %label1, %bb14, %if.else0, %if.else1, %bb9, %bb11, %bb3, %label0, %label2, %bb4, %bb6, %bb13, %bb8, %bb15
+	%50 = catch io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException
+goto %label3
+
+%label3: 	//predecessors %catch0
+	throw %50
+
+%catch1: 	//catches from %bb2, %bb12, %bb10, %bb5, %if.else2, %bb1, %if.then0, %if.then1, %bb7, %label1, %bb14, %if.else0, %if.else1, %bb9, %bb11, %bb3, %label0, %label2, %bb4, %bb6, %bb13, %bb8, %bb15
+	%54 = catch java/lang/Exception
+goto %label4
+
+%label4: 	//predecessors %catch1
+	%55 = new java/lang/RuntimeException
+	special %55.<init>(%54)
+	goto %bb16
+
+%bb16: 	//predecessors %label4
+	throw %55
+
+%goto0: 	//predecessors %bb15
+	return %56
+2026-08-12 08:49:06.212 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.ClasspathResolver_resolve_6032401392
+2026-08-12 08:49:06.248 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.ClasspathResolver_init_12329637593
+2026-08-12 08:49:06.283 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.ClasspathResolver_withResourceClassLoader_9262084474
+2026-08-12 08:49:06.319 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.ClasspathResolver_resolve_6032401395
+2026-08-12 08:49:06.320 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::<init>(): void: null
+2026-08-12 08:49:06.320 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::withResourceClassLoader(java/lang/ClassLoader): io/zenwave360/jsonrefparser/resolver/ClasspathResolver: null
+2026-08-12 08:49:06.320 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::<init>(): void processing is finished normally
+2026-08-12 08:49:06.320 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String: null
+2026-08-12 08:49:06.320 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::withResourceClassLoader(java/lang/ClassLoader): io/zenwave360/jsonrefparser/resolver/ClasspathResolver processing is finished normally
+2026-08-12 08:49:06.320 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/ClasspathResolver::resolve(io/zenwave360/jsonrefparser/$Ref): java/lang/String processing is finished normally
+2026-08-12 08:49:06.321 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException::<init>(java/lang/String, java/lang/Throwable): void
+2026-08-12 08:49:06.321 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException::<init>(java/lang/String, java/lang/Throwable): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 08:49:06.383 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.Resolver_MissingResourceException_init_21040456840
+2026-08-12 08:49:06.419 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.Resolver_MissingResourceException_init_21040456841
+2026-08-12 08:49:06.420 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException::<init>(java/lang/String, java/lang/Throwable): void: null
+2026-08-12 08:49:06.420 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/Resolver$MissingResourceException::<init>(java/lang/String, java/lang/Throwable): void processing is finished normally
+2026-08-12 08:49:06.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void
+2026-08-12 08:49:06.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$1::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.this$0 = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-12 08:49:06.459 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_init_20466388160
+2026-08-12 08:49:06.460 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::getAcceptedIssuers(): java/security/cert/X509Certificate[]
+2026-08-12 08:49:06.460 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$1::getAcceptedIssuers(): java/security/cert/X509Certificate[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return null
+2026-08-12 08:49:06.496 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_getAcceptedIssuers_291071421
+2026-08-12 08:49:06.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkClientTrusted(java/security/cert/X509Certificate[], java/lang/String): void
+2026-08-12 08:49:06.497 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkClientTrusted(java/security/cert/X509Certificate[], java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return
+2026-08-12 08:49:06.534 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_checkClientTrusted_6759868002
+2026-08-12 08:49:06.534 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkServerTrusted(java/security/cert/X509Certificate[], java/lang/String): void
+2026-08-12 08:49:06.534 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkServerTrusted(java/security/cert/X509Certificate[], java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return
+2026-08-12 08:49:06.569 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_checkServerTrusted_15054215603
+2026-08-12 08:49:06.607 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_init_20466388164
+2026-08-12 08:49:06.640 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_getAcceptedIssuers_291071425
+2026-08-12 08:49:06.673 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_checkClientTrusted_6759868006
+2026-08-12 08:49:06.717 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_1_checkServerTrusted_15054215607
+2026-08-12 08:49:06.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void: null
+2026-08-12 08:49:06.717 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::getAcceptedIssuers(): java/security/cert/X509Certificate[]: null
+2026-08-12 08:49:06.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkClientTrusted(java/security/cert/X509Certificate[], java/lang/String): void: null
+2026-08-12 08:49:06.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void processing is finished normally
+2026-08-12 08:49:06.718 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkServerTrusted(java/security/cert/X509Certificate[], java/lang/String): void: null
+2026-08-12 08:49:06.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::getAcceptedIssuers(): java/security/cert/X509Certificate[] processing is finished normally
+2026-08-12 08:49:06.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkClientTrusted(java/security/cert/X509Certificate[], java/lang/String): void processing is finished normally
+2026-08-12 08:49:06.718 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$1::checkServerTrusted(java/security/cert/X509Certificate[], java/lang/String): void processing is finished normally
+2026-08-12 08:49:06.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$2::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void
+2026-08-12 08:49:06.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$2::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.this$0 = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-12 08:49:06.762 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_2_init_20466388470
+2026-08-12 08:49:06.763 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$2::verify(java/lang/String, javax/net/ssl/SSLSession): bool
+2026-08-12 08:49:06.763 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$2::verify(java/lang/String, javax/net/ssl/SSLSession): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return 1
+2026-08-12 08:49:06.804 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_2_verify_2978072901
+2026-08-12 08:49:06.846 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_2_init_20466388472
+2026-08-12 08:49:06.886 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_2_verify_2978072903
+2026-08-12 08:49:06.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$2::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void: null
+2026-08-12 08:49:06.887 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$2::verify(java/lang/String, javax/net/ssl/SSLSession): bool: null
+2026-08-12 08:49:06.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$2::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void processing is finished normally
+2026-08-12 08:49:06.887 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$2::verify(java/lang/String, javax/net/ssl/SSLSession): bool processing is finished normally
+2026-08-12 08:49:06.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$3::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver, javax/net/ssl/SSLSocketFactory, javax/net/ssl/HostnameVerifier): void
+2026-08-12 08:49:06.889 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$3::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver, javax/net/ssl/SSLSocketFactory, javax/net/ssl/HostnameVerifier): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.this$0 = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.val$sf = arg$1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.val$trustAllNames = arg$2
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	special this.<init>()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-12 08:49:06.922 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_3_init_8030837760
+2026-08-12 08:49:06.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$3::process(java/net/URLConnection): void
+2026-08-12 08:49:06.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$3::process(java/net/URLConnection): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$0 instanceOf javax/net/ssl/HttpsURLConnection
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%9 = (javax/net/ssl/HttpsURLConnection) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%7 = this.val$sf
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	virtual %9.setSSLSocketFactory(%7)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%10 = this.val$trustAllNames
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %9.setHostnameVerifier(%10)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb0, %bb3
+	return
+2026-08-12 08:49:06.955 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_3_process_19603435621
+2026-08-12 08:49:06.987 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_3_init_8030837762
+2026-08-12 08:49:07.019 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_3_process_19603435623
+2026-08-12 08:49:07.020 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$3::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver, javax/net/ssl/SSLSocketFactory, javax/net/ssl/HostnameVerifier): void: null
+2026-08-12 08:49:07.020 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$3::process(java/net/URLConnection): void: null
+2026-08-12 08:49:07.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$3::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver, javax/net/ssl/SSLSocketFactory, javax/net/ssl/HostnameVerifier): void processing is finished normally
+2026-08-12 08:49:07.020 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$3::process(java/net/URLConnection): void processing is finished normally
+2026-08-12 08:49:07.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$4::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void
+2026-08-12 08:49:07.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$4::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.this$0 = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-12 08:49:07.058 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_4_init_20466389090
+2026-08-12 08:49:07.059 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method io/zenwave360/jsonrefparser/resolver/HttpResolver$4::process(java/net/URLConnection): void
+2026-08-12 08:49:07.059 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - io/zenwave360/jsonrefparser/resolver/HttpResolver$4::process(java/net/URLConnection): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	return
+2026-08-12 08:49:07.091 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_4_process_19603435931
+2026-08-12 08:49:07.129 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_4_init_20466389092
+2026-08-12 08:49:07.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test io.zenwave360.jsonrefparser.resolver.HttpResolver_4_process_19603435933
+2026-08-12 08:49:07.160 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$4::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void: null
+2026-08-12 08:49:07.160 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method io/zenwave360/jsonrefparser/resolver/HttpResolver$4::process(java/net/URLConnection): void: null
+2026-08-12 08:49:07.160 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$4::<init>(io/zenwave360/jsonrefparser/resolver/HttpResolver): void processing is finished normally
+2026-08-12 08:49:07.160 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method io/zenwave360/jsonrefparser/resolver/HttpResolver$4::process(java/net/URLConnection): void processing is finished normally
+2026-08-12 08:49:07.161 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 08:49:07.161 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

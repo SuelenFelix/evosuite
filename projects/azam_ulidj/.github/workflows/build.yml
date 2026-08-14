@@ -1,0 +1,77 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - main-v1
+      - develop-v1
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  schedule:
+    - cron: '0 9 * * 3'
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: test-${{matrix.name}}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          # LTS versions
+          - name: temurin-jdk11
+            version: 11
+            distribution: temurin
+          - name: temurin-jdk17
+            version: 17
+            distribution: temurin
+          - name: temurin-jdk21
+            version: 21
+            distribution: temurin
+          # Latest versions since last LTS
+          - name: temurin-jdk22
+            version: 22
+            distribution: temurin
+          - name: temurin-jdk23
+            version: 23
+            distribution: temurin
+          - name: temurin-jdk24
+            version: 24
+            distribution: temurin
+          # Latest LTS version for major JDKs
+          - name: oracle-jdk21
+            version: 21
+            distribution: oracle
+          - name: corretto-jdk21
+            version: 21
+            distribution: corretto
+          - name: zulu-jdk21
+            version: 21
+            distribution: zulu
+    steps:
+      - name: checkout-${{matrix.name}}
+        uses: actions/checkout@v4
+      - name: setup-toolchain-${{matrix.name}}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{matrix.version}}
+          distribution: ${{matrix.distribution}}
+          cache: maven
+      - name: verify-${{matrix.name}}
+        run: mvn clean verify --settings .settings.xml -Dgpg.skip -B -V
+      - name: verify-as-jdk11-${{matrix.name}}
+        if: ${{matrix.version>=11}}
+        run: mvn clean verify -Dmaven.compiler.source=11 -Dmaven.compiler.target=11 --settings .settings.xml -Dgpg.skip -B -V
+      - name: verify-as-jdk17-${{matrix.name}}
+        if: ${{matrix.version>=17}}
+        run: mvn clean verify -Dmaven.compiler.source=17 -Dmaven.compiler.target=17 --settings .settings.xml -Dgpg.skip -B -V
+      - name: verify-as-jdk21-${{matrix.name}}
+        if: ${{matrix.version>=21}}
+        run: mvn clean verify -Dmaven.compiler.source=21 -Dmaven.compiler.target=21 --settings .settings.xml -Dgpg.skip -B -V

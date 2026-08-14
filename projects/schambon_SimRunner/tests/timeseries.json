@@ -1,0 +1,88 @@
+{
+    "connectionString": "mongodb://localhost:27017",
+    "reportInterval": 10000,
+    "templates": [
+        {
+            "name": "metrics",
+            "database": "simrunner",
+            "collection": "timeseries",
+            "drop": true,
+            "createOptions": {
+                "timeseries": {
+                    "timeField": "ts",
+                    "metaField": "sensorId",
+                    "granularity": "minutes"
+                }
+            },
+            "template": {
+                "intensity": "%natural",
+                "voltage": "%natural"
+            },
+            "comment1": "Timeseries template should have only the metrics part - timeField and metaField are set in the workload. Alternatively, consider setting everything in the workload?",
+            "dictionaries": {
+                "sensors": { "type": "templateUnique", "size": 1000, "template": {"%natural": {"min": 0, "max": 1000000}}}
+            },
+            "comment2": "Define a dictionary for sensors. Alongside the usual dictionary options we have a new option, 'templateUnique' which creates a set of unique values based on a template"
+        }
+    ],
+    "workloads": [
+
+        {
+            "disabled": false,
+            "comment": "Insert historical data",
+            "name": "Insert",
+            "template": "metrics",
+            "op": "timeseries",
+            "threads": 1,
+            "batch": 10,
+            "pace": 0,
+            "comments": [
+                "Threads should always be 1 or absent for timeseries",
+                "Batch groups insert statements into insertMany",
+                "Pace will pause if needed between runs of the workload. Note that each run generates inserts for all configured series."
+            ],
+            "params": {
+                "meta": {
+                    "metaField": "sensorId",
+                    "dictionary": "sensors",
+                    "generate": {"random": 100},
+                    "comment": "At each iteration of the workload, take 10 random sensors"
+                },
+                "time": {
+                    "timeField": "ts",
+                    "start": {"$date": "2023-01-01"},
+                    "stop": {"$date": "2023-01-31"},
+                    "step": 300000,
+                    "comment": [
+                        "Increment a timer based on step / jitter. This is useful for backfilling history.",
+                        "For ongoing, use 'value': '%now' (or other template) instead of start/stop/step/jitter"
+                    ]
+                },
+                "workers": 2,
+                "comment": "Here we generate metrics for 100 series (generate), split them in batches of 10 (batch) and queue them. Finally we have 2 threads (workers) that pick batches from the queue and insert them in MongoDB."
+            }
+        },
+        {
+            "disabled": true,
+            "comment": "Insert new data",
+            "name": "Insert",
+            "template": "metrics",
+            "op": "timeseries",
+            "pace": 1000,
+            "params": {
+                "meta": {
+                    "metaField": "sensorId",
+                    "dictionary": "sensors",
+                    "generate": "all",
+                    "comment": "At each iteration of the workload, iterate over the full dictionary"
+                },
+                "time": {
+                    "timeField": "ts",
+                    "value": "%now"
+                },
+                "workers": 1000
+            }
+        }
+    ]
+    
+}

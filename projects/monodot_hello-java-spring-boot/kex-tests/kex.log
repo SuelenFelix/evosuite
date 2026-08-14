@@ -1,0 +1,77 @@
+2026-08-11 07:48:34.162 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/monodot_hello-java-spring-boot/target/classes
+2026-08-11 07:48:34.243 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 07:48:34.337 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 07:48:35.129 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 07:48:35.628 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/tutorialworks/hellojavaspringboot/*
+2026-08-11 07:48:35.629 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 07:48:35.639 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/monodot_hello-java-spring-boot/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 07:48:35.670 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/monodot_hello-java-spring-boot/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 33983 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/monodot_hello-java-spring-boot/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 07:48:35.683 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 07:50:15.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/tutorialworks/hellojavaspringboot/HelloJavaRestController::<init>(): void
+2026-08-11 07:50:15.715 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/tutorialworks/hellojavaspringboot/HelloJavaRestController::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 07:50:16.182 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaRestController_init_12862966300
+2026-08-11 07:50:16.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/tutorialworks/hellojavaspringboot/HelloJavaRestController::getFavouriteCheese(): java/lang/String
+2026-08-11 07:50:16.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/tutorialworks/hellojavaspringboot/HelloJavaRestController::getFavouriteCheese(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.favouriteCheese
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="My favourite cheese is:"))
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 07:50:16.295 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaRestController_getFavouriteCheese_15686476471
+2026-08-11 07:50:16.372 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaRestController_init_12862966302
+2026-08-11 07:50:16.445 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaRestController_getFavouriteCheese_15686476473
+2026-08-11 07:50:16.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/tutorialworks/hellojavaspringboot/HelloJavaRestController::<init>(): void: null
+2026-08-11 07:50:16.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/tutorialworks/hellojavaspringboot/HelloJavaRestController::getFavouriteCheese(): java/lang/String: null
+2026-08-11 07:50:16.446 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/tutorialworks/hellojavaspringboot/HelloJavaRestController::<init>(): void processing is finished normally
+2026-08-11 07:50:16.446 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/tutorialworks/hellojavaspringboot/HelloJavaRestController::getFavouriteCheese(): java/lang/String processing is finished normally
+2026-08-11 07:50:16.449 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::<init>(): void
+2026-08-11 07:50:16.449 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 07:50:16.521 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaSpringBootApplication_init_16356578110
+2026-08-11 07:50:16.522 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::main(java/lang/String[]): void
+2026-08-11 07:50:16.522 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%0 = static SpringApplication.run(com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication.class, arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	return
+2026-08-11 07:50:16.585 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaSpringBootApplication_main_12590948071
+2026-08-11 07:50:16.640 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaSpringBootApplication_init_16356578112
+2026-08-11 07:50:16.705 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.tutorialworks.hellojavaspringboot.HelloJavaSpringBootApplication_main_12590948073
+2026-08-11 07:50:16.706 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::<init>(): void: null
+2026-08-11 07:50:16.706 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::main(java/lang/String[]): void: null
+2026-08-11 07:50:16.706 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::<init>(): void processing is finished normally
+2026-08-11 07:50:16.707 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/tutorialworks/hellojavaspringboot/HelloJavaSpringBootApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 07:50:16.707 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 07:50:16.707 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

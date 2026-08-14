@@ -1,0 +1,63 @@
+package com.github.cuteluobo.livedanmuarchive.pojo;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.github.cuteluobo.livedanmuarchive.pojo.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Integer;
+
+public class DanMuData_convent_4457932314 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term2945;
+
+    public DanMuData_convent_4457932314() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term2946 = new Long(-8257434502486459194L);
+        Integer term2948 = new Integer(568599855);
+        Integer term2962 = new Integer(1162663216);
+        Integer term2964 = new Integer(1484323161);
+        Long term2966 = new Long(-8400487765614892086L);
+        term2945 = newInstance(Class.forName("com.github.cuteluobo.livedanmuarchive.model.DanMuDataModel"));
+        setField(term2945, term2945.getClass(), "id", term2946);
+        setField(term2945, term2945.getClass(), "userId", term2948);
+        setField(term2945, term2945.getClass(), "data", "ZkMALXpEAZ");
+        setField(term2945, term2945.getClass(), "format", term2962);
+        setField(term2945, term2945.getClass(), "type", term2964);
+        setField(term2945, term2945.getClass(), "createTime", term2966);
+        setField(term2945, term2945.getClass(), "createTimeText", "tXfQjSqDzN");
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.github.cuteluobo.livedanmuarchive.pojo.DanMuData");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("com.github.cuteluobo.livedanmuarchive.model.DanMuDataModel");
+        Object[] args = new Object[1];
+        args[0] = term2945;
+        callMethod(klass, "convent", argTypes, null, args);
+    }
+
+};
+
+

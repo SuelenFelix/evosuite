@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Overview</title>
+  </head>
+  <body>
+    <p>
+       This is the API specification for <strong>Performetrics</strong>.
+    </p>
+    <p>
+       <strong>Performetrics</strong> is a library that provides convenient
+       objects to process the elapsed time spent by the Java Virtual Machine
+       running your application code. It was carefully designed to offer great
+       value in terms of performance and usability, as well as the capability
+       to collect data from multiple time sources with a single method call.
+    </p>
+    <p>
+       The following counter types are supported:
+    </p>
+    <ul>
+       <li style="margin-bottom:6px">
+          <strong>Wall-clock time:</strong> the elapsed time experienced by
+          the user waiting for a task to complete (a metric to evaluate the
+          real user experience)
+       </li>
+       <li style="margin-bottom:6px">
+          <strong>CPU time:</strong> the total time spent using a CPU for the
+          current thread
+       </li>
+       <li style="margin-bottom:6px">
+          <strong>User time:</strong> the total CPU time that the current
+          thread has executed in user mode, i.e., the time spent running
+          current thread's code
+       </li>
+       <li>
+          <strong>System time:</strong> the time spent by the OS kernel to
+          execute all the basic/system-level operations on behalf of your
+          application, such as context switching, resource allocation, etc.
+       </li>
+    </ul>
+    <br>
+
+    <h1>Examples</h1>
+    <p>1. Using <code>Stopwatch</code>:</p>
+    <blockquote>
+    <pre>
+Stopwatch stopwatch = Stopwatch.createStarted();
+// Do your task
+stopwatch.stop();
+double d1 = stopwatch.elapsedTime(Counter.Type.WALL_CLOCK_TIME, TimeUnit.NANOSECONDS);
+double d2 = stopwatch.elapsedTime(Counter.Type.CPU_TIME, TimeUnit.NANOSECONDS);
+</pre>
+    </blockquote>
+
+    <p>2. Using <code>MonitoredRunnable</code>:</p>
+    <blockquote>
+    <pre>
+MonitoredRunnable operation = Performetrics.monitorOperation(() -&gt; myObject.doStuff());
+double d1 = operation.elapsedTime(Counter.Type.USER_TIME, TimeUnit.NANOSECONDS);
+double d2 = operation.elapsedTime(Counter.Type.SYSTEM_TIME, TimeUnit.NANOSECONDS);
+</pre>
+    </blockquote>
+  </body>
+</html>

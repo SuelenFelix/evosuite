@@ -1,0 +1,210 @@
+package com.scaleguard.server.http.router;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.scaleguard.server.http.router.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class SourceSystem_isAutoProcure_2755045357 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term3585;
+
+    public SourceSystem_isAutoProcure_2755045357() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Object term3748 = newInstance(Class.forName("com.scaleguard.server.http.cache.CachedResource"));
+        setField(term3748, term3748.getClass(), "pattern", null);
+        setField(term3748, term3748.getClass(), "method", null);
+        setBooleanField(term3748, term3748.getClass(), "cached", false);
+        setBooleanField(term3748, term3748.getClass(), "async", false);
+        setField(term3748, term3748.getClass(), "keyLookupType", null);
+        setField(term3748, term3748.getClass(), "keyLookupHeaders", null);
+        setField(term3748, term3748.getClass(), "keyLookupClass", null);
+        Object term3751 = newInstance(Class.forName("com.scaleguard.server.http.cache.CachedResource"));
+        setField(term3751, term3751.getClass(), "pattern", null);
+        setField(term3751, term3751.getClass(), "method", null);
+        setBooleanField(term3751, term3751.getClass(), "cached", false);
+        setBooleanField(term3751, term3751.getClass(), "async", false);
+        setField(term3751, term3751.getClass(), "keyLookupType", null);
+        setField(term3751, term3751.getClass(), "keyLookupHeaders", null);
+        setField(term3751, term3751.getClass(), "keyLookupClass", null);
+        ArrayList term3746 = new ArrayList();
+        ((ArrayList) term3746).add(term3748);
+        ((ArrayList) term3746).add(term3751);
+        Object term3758 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3758, term3758.getClass(), "id", null);
+        setField(term3758, term3758.getClass(), "host", null);
+        setField(term3758, term3758.getClass(), "port", null);
+        setField(term3758, term3758.getClass(), "health", null);
+        setField(term3758, term3758.getClass(), "scheme", null);
+        setIntField(term3758, term3758.getClass(), "priority", 1135664017);
+        setBooleanField(term3758, term3758.getClass(), "isActive", true);
+        setField(term3758, term3758.getClass(), "type", null);
+        setField(term3758, term3758.getClass(), "groupId", null);
+        setFloatField(term3758, term3758.getClass(), "loadFactor", 0.26441735F);
+        setBooleanField(term3758, term3758.getClass(), "isReachable", true);
+        Object term3763 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3763, term3763.getClass(), "id", null);
+        setField(term3763, term3763.getClass(), "host", null);
+        setField(term3763, term3763.getClass(), "port", null);
+        setField(term3763, term3763.getClass(), "health", null);
+        setField(term3763, term3763.getClass(), "scheme", null);
+        setIntField(term3763, term3763.getClass(), "priority", 590364439);
+        setBooleanField(term3763, term3763.getClass(), "isActive", true);
+        setField(term3763, term3763.getClass(), "type", null);
+        setField(term3763, term3763.getClass(), "groupId", null);
+        setFloatField(term3763, term3763.getClass(), "loadFactor", 0.13745493F);
+        setBooleanField(term3763, term3763.getClass(), "isReachable", true);
+        Object term3768 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3768, term3768.getClass(), "id", null);
+        setField(term3768, term3768.getClass(), "host", null);
+        setField(term3768, term3768.getClass(), "port", null);
+        setField(term3768, term3768.getClass(), "health", null);
+        setField(term3768, term3768.getClass(), "scheme", null);
+        setIntField(term3768, term3768.getClass(), "priority", 865208305);
+        setBooleanField(term3768, term3768.getClass(), "isActive", true);
+        setField(term3768, term3768.getClass(), "type", null);
+        setField(term3768, term3768.getClass(), "groupId", null);
+        setFloatField(term3768, term3768.getClass(), "loadFactor", 0.20144695F);
+        setBooleanField(term3768, term3768.getClass(), "isReachable", true);
+        Object term3773 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3773, term3773.getClass(), "id", null);
+        setField(term3773, term3773.getClass(), "host", null);
+        setField(term3773, term3773.getClass(), "port", null);
+        setField(term3773, term3773.getClass(), "health", null);
+        setField(term3773, term3773.getClass(), "scheme", null);
+        setIntField(term3773, term3773.getClass(), "priority", -1275173084);
+        setBooleanField(term3773, term3773.getClass(), "isActive", true);
+        setField(term3773, term3773.getClass(), "type", null);
+        setField(term3773, term3773.getClass(), "groupId", null);
+        setFloatField(term3773, term3773.getClass(), "loadFactor", 0.7031006F);
+        setBooleanField(term3773, term3773.getClass(), "isReachable", true);
+        Object term3778 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3778, term3778.getClass(), "id", null);
+        setField(term3778, term3778.getClass(), "host", null);
+        setField(term3778, term3778.getClass(), "port", null);
+        setField(term3778, term3778.getClass(), "health", null);
+        setField(term3778, term3778.getClass(), "scheme", null);
+        setIntField(term3778, term3778.getClass(), "priority", -244121226);
+        setBooleanField(term3778, term3778.getClass(), "isActive", true);
+        setField(term3778, term3778.getClass(), "type", null);
+        setField(term3778, term3778.getClass(), "groupId", null);
+        setFloatField(term3778, term3778.getClass(), "loadFactor", 0.9431611F);
+        setBooleanField(term3778, term3778.getClass(), "isReachable", true);
+        Object term3783 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3783, term3783.getClass(), "id", null);
+        setField(term3783, term3783.getClass(), "host", null);
+        setField(term3783, term3783.getClass(), "port", null);
+        setField(term3783, term3783.getClass(), "health", null);
+        setField(term3783, term3783.getClass(), "scheme", null);
+        setIntField(term3783, term3783.getClass(), "priority", -203030934);
+        setBooleanField(term3783, term3783.getClass(), "isActive", true);
+        setField(term3783, term3783.getClass(), "type", null);
+        setField(term3783, term3783.getClass(), "groupId", null);
+        setFloatField(term3783, term3783.getClass(), "loadFactor", 0.95272815F);
+        setBooleanField(term3783, term3783.getClass(), "isReachable", true);
+        Object term3788 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3788, term3788.getClass(), "id", null);
+        setField(term3788, term3788.getClass(), "host", null);
+        setField(term3788, term3788.getClass(), "port", null);
+        setField(term3788, term3788.getClass(), "health", null);
+        setField(term3788, term3788.getClass(), "scheme", null);
+        setIntField(term3788, term3788.getClass(), "priority", -1179120542);
+        setBooleanField(term3788, term3788.getClass(), "isActive", true);
+        setField(term3788, term3788.getClass(), "type", null);
+        setField(term3788, term3788.getClass(), "groupId", null);
+        setFloatField(term3788, term3788.getClass(), "loadFactor", 0.7254646F);
+        setBooleanField(term3788, term3788.getClass(), "isReachable", true);
+        Object term3793 = newInstance(Class.forName("com.scaleguard.server.http.router.HostGroup"));
+        setField(term3793, term3793.getClass(), "id", null);
+        setField(term3793, term3793.getClass(), "host", null);
+        setField(term3793, term3793.getClass(), "port", null);
+        setField(term3793, term3793.getClass(), "health", null);
+        setField(term3793, term3793.getClass(), "scheme", null);
+        setIntField(term3793, term3793.getClass(), "priority", -73683645);
+        setBooleanField(term3793, term3793.getClass(), "isActive", true);
+        setField(term3793, term3793.getClass(), "type", null);
+        setField(term3793, term3793.getClass(), "groupId", null);
+        setFloatField(term3793, term3793.getClass(), "loadFactor", 0.9828442F);
+        setBooleanField(term3793, term3793.getClass(), "isReachable", true);
+        ArrayList term3756 = new ArrayList();
+        ((ArrayList) term3756).add(term3758);
+        ((ArrayList) term3756).add(term3763);
+        ((ArrayList) term3756).add(term3768);
+        ((ArrayList) term3756).add(term3773);
+        ((ArrayList) term3756).add(term3778);
+        ((ArrayList) term3756).add(term3783);
+        ((ArrayList) term3756).add(term3788);
+        ((ArrayList) term3756).add(term3793);
+        HashMap term3896 = new HashMap();
+        HashMap term3901 = new HashMap();
+        HashMap term3919 = new HashMap();
+        term3585 = newInstance(Class.forName("com.scaleguard.server.http.router.SourceSystem"));
+        Object term3745 = newInstance(Class.forName("com.scaleguard.server.http.router.TargetSystem"));
+        setField(term3585, term3585.getClass(), "host", "BWxJSgKHRT");
+        setBooleanField(term3585, term3585.getClass(), "tunnel", false);
+        setField(term3585, term3585.getClass(), "port", "AGXoIndFnm");
+        setField(term3585, term3585.getClass(), "scheme", "mwmFMNEzkK");
+        setField(term3585, term3585.getClass(), "basePath", "kVAmKknVln");
+        setField(term3585, term3585.getClass(), "id", "MRFLbEGYKG");
+        setField(term3585, term3585.getClass(), "name", "BYrGukTyof");
+        setField(term3585, term3585.getClass(), "groupId", "jiCGTTzKGB");
+        setField(term3585, term3585.getClass(), "target", "MqICFYzDJj");
+        setBooleanField(term3585, term3585.getClass(), "async", false);
+        setField(term3585, term3585.getClass(), "asyncEngine", "YgQvdcBQKw");
+        setField(term3585, term3585.getClass(), "callbackId", "FiYYLuailz");
+        setField(term3585, term3585.getClass(), "jwtKeylookup", "XebAeSnCKZ");
+        setField(term3585, term3585.getClass(), "certificateId", "GeddnXjHGy");
+        setField(term3585, term3585.getClass(), "secappid", "vLTbaoAxBm");
+        setBooleanField(term3585, term3585.getClass(), "autoProcure", false);
+        setField(term3745, term3745.getClass(), "cachedResources", term3746);
+        setField(term3745, term3745.getClass(), "hostGroups", term3756);
+        setField(term3745, term3745.getClass(), "host", "WaEcyVlcIx");
+        setField(term3745, term3745.getClass(), "port", "ONcbPCQnHd");
+        setField(term3745, term3745.getClass(), "hostGroupId", "AobDaplFLl");
+        setField(term3745, term3745.getClass(), "scheme", "pDkMNnAGgv");
+        setField(term3745, term3745.getClass(), "basePath", "PaCpFXGzdX");
+        setField(term3745, term3745.getClass(), "id", "FftYCNbnks");
+        setField(term3745, term3745.getClass(), "name", "lJoltmsadS");
+        setField(term3745, term3745.getClass(), "groupId", "mvfDtZNEHr");
+        setField(term3745, term3745.getClass(), "includeHeaders", term3896);
+        setField(term3745, term3745.getClass(), "excludeHeaders", term3901);
+        setBooleanField(term3745, term3745.getClass(), "enableCache", true);
+        setField(term3585, term3585.getClass(), "targetSystem", term3745);
+        setField(term3585, term3585.getClass(), "headerLookup", "bvSgmFUDOU");
+        setField(term3585, term3585.getClass(), "keyLookupMap", term3919);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.scaleguard.server.http.router.SourceSystem");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "isAutoProcure", argTypes, term3585, args);
+    }
+
+};
+
+

@@ -1,0 +1,212 @@
+package mil.nga.geopackage.extension.nga.style;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static mil.nga.geopackage.extension.nga.style.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class IconTable_getNameColumn_15845131624 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term318;
+
+    public IconTable_getNameColumn_15845131624() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        ArrayList term339 = new ArrayList();
+        ((ArrayList) term339).add("");
+        ((ArrayList) term339).add("");
+        ((ArrayList) term339).add("");
+        Object term437 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term437, term437.getClass(), "index", 0);
+        setField(term437, term437.getClass(), "name", null);
+        setField(term437, term437.getClass(), "max", null);
+        setBooleanField(term437, term437.getClass(), "notNull", true);
+        setField(term437, term437.getClass(), "defaultValue", null);
+        setBooleanField(term437, term437.getClass(), "primaryKey", true);
+        setBooleanField(term437, term437.getClass(), "autoincrement", true);
+        setBooleanField(term437, term437.getClass(), "unique", false);
+        setField(term437, term437.getClass(), "type", null);
+        setField(term437, term437.getClass(), "dataType", null);
+        setField(term437, term437.getClass(), "constraints", null);
+        setField(term437, term437.getClass(), "schema", null);
+        Object term443 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term443, term443.getClass(), "index", 1);
+        setField(term443, term443.getClass(), "name", null);
+        setField(term443, term443.getClass(), "max", null);
+        setBooleanField(term443, term443.getClass(), "notNull", true);
+        setField(term443, term443.getClass(), "defaultValue", null);
+        setBooleanField(term443, term443.getClass(), "primaryKey", false);
+        setBooleanField(term443, term443.getClass(), "autoincrement", false);
+        setBooleanField(term443, term443.getClass(), "unique", false);
+        setField(term443, term443.getClass(), "type", null);
+        setField(term443, term443.getClass(), "dataType", null);
+        setField(term443, term443.getClass(), "constraints", null);
+        setField(term443, term443.getClass(), "schema", null);
+        Object term449 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term449, term449.getClass(), "index", 2);
+        setField(term449, term449.getClass(), "name", null);
+        setField(term449, term449.getClass(), "max", null);
+        setBooleanField(term449, term449.getClass(), "notNull", true);
+        setField(term449, term449.getClass(), "defaultValue", null);
+        setBooleanField(term449, term449.getClass(), "primaryKey", false);
+        setBooleanField(term449, term449.getClass(), "autoincrement", false);
+        setBooleanField(term449, term449.getClass(), "unique", false);
+        setField(term449, term449.getClass(), "type", null);
+        setField(term449, term449.getClass(), "dataType", null);
+        setField(term449, term449.getClass(), "constraints", null);
+        setField(term449, term449.getClass(), "schema", null);
+        Object term455 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term455, term455.getClass(), "index", 3);
+        setField(term455, term455.getClass(), "name", null);
+        setField(term455, term455.getClass(), "max", null);
+        setBooleanField(term455, term455.getClass(), "notNull", false);
+        setField(term455, term455.getClass(), "defaultValue", null);
+        setBooleanField(term455, term455.getClass(), "primaryKey", false);
+        setBooleanField(term455, term455.getClass(), "autoincrement", false);
+        setBooleanField(term455, term455.getClass(), "unique", false);
+        setField(term455, term455.getClass(), "type", null);
+        setField(term455, term455.getClass(), "dataType", null);
+        setField(term455, term455.getClass(), "constraints", null);
+        setField(term455, term455.getClass(), "schema", null);
+        Object term461 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term461, term461.getClass(), "index", 4);
+        setField(term461, term461.getClass(), "name", null);
+        setField(term461, term461.getClass(), "max", null);
+        setBooleanField(term461, term461.getClass(), "notNull", false);
+        setField(term461, term461.getClass(), "defaultValue", null);
+        setBooleanField(term461, term461.getClass(), "primaryKey", false);
+        setBooleanField(term461, term461.getClass(), "autoincrement", false);
+        setBooleanField(term461, term461.getClass(), "unique", false);
+        setField(term461, term461.getClass(), "type", null);
+        setField(term461, term461.getClass(), "dataType", null);
+        setField(term461, term461.getClass(), "constraints", null);
+        setField(term461, term461.getClass(), "schema", null);
+        Object term467 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term467, term467.getClass(), "index", 5);
+        setField(term467, term467.getClass(), "name", null);
+        setField(term467, term467.getClass(), "max", null);
+        setBooleanField(term467, term467.getClass(), "notNull", false);
+        setField(term467, term467.getClass(), "defaultValue", null);
+        setBooleanField(term467, term467.getClass(), "primaryKey", false);
+        setBooleanField(term467, term467.getClass(), "autoincrement", false);
+        setBooleanField(term467, term467.getClass(), "unique", false);
+        setField(term467, term467.getClass(), "type", null);
+        setField(term467, term467.getClass(), "dataType", null);
+        setField(term467, term467.getClass(), "constraints", null);
+        setField(term467, term467.getClass(), "schema", null);
+        Object term473 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term473, term473.getClass(), "index", 6);
+        setField(term473, term473.getClass(), "name", null);
+        setField(term473, term473.getClass(), "max", null);
+        setBooleanField(term473, term473.getClass(), "notNull", false);
+        setField(term473, term473.getClass(), "defaultValue", null);
+        setBooleanField(term473, term473.getClass(), "primaryKey", false);
+        setBooleanField(term473, term473.getClass(), "autoincrement", false);
+        setBooleanField(term473, term473.getClass(), "unique", false);
+        setField(term473, term473.getClass(), "type", null);
+        setField(term473, term473.getClass(), "dataType", null);
+        setField(term473, term473.getClass(), "constraints", null);
+        setField(term473, term473.getClass(), "schema", null);
+        Object term479 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term479, term479.getClass(), "index", 7);
+        setField(term479, term479.getClass(), "name", null);
+        setField(term479, term479.getClass(), "max", null);
+        setBooleanField(term479, term479.getClass(), "notNull", false);
+        setField(term479, term479.getClass(), "defaultValue", null);
+        setBooleanField(term479, term479.getClass(), "primaryKey", false);
+        setBooleanField(term479, term479.getClass(), "autoincrement", false);
+        setBooleanField(term479, term479.getClass(), "unique", false);
+        setField(term479, term479.getClass(), "type", null);
+        setField(term479, term479.getClass(), "dataType", null);
+        setField(term479, term479.getClass(), "constraints", null);
+        setField(term479, term479.getClass(), "schema", null);
+        Object term485 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumn"));
+        setIntField(term485, term485.getClass(), "index", 8);
+        setField(term485, term485.getClass(), "name", null);
+        setField(term485, term485.getClass(), "max", null);
+        setBooleanField(term485, term485.getClass(), "notNull", false);
+        setField(term485, term485.getClass(), "defaultValue", null);
+        setBooleanField(term485, term485.getClass(), "primaryKey", false);
+        setBooleanField(term485, term485.getClass(), "autoincrement", false);
+        setBooleanField(term485, term485.getClass(), "unique", false);
+        setField(term485, term485.getClass(), "type", null);
+        setField(term485, term485.getClass(), "dataType", null);
+        setField(term485, term485.getClass(), "constraints", null);
+        setField(term485, term485.getClass(), "schema", null);
+        ArrayList term435 = new ArrayList();
+        ((ArrayList) term435).add(term437);
+        ((ArrayList) term435).add(term443);
+        ((ArrayList) term435).add(term449);
+        ((ArrayList) term435).add(term455);
+        ((ArrayList) term435).add(term461);
+        ((ArrayList) term435).add(term467);
+        ((ArrayList) term435).add(term473);
+        ((ArrayList) term435).add(term479);
+        ((ArrayList) term435).add(term485);
+        HashMap term494 = new HashMap();
+        ArrayList term532 = new ArrayList();
+        HashMap term536 = new HashMap();
+        term318 = newInstance(Class.forName("mil.nga.geopackage.extension.nga.style.IconTable"));
+        Object term338 = newInstance(Class.forName("mil.nga.geopackage.user.custom.UserCustomColumns"));
+        Object[] term356 = (Object[]) newArray("java.lang.String", 9);
+        Object term531 = newInstance(Class.forName("mil.nga.geopackage.db.table.Constraints"));
+        setField(term318, term318.getClass(), "relationName", "media");
+        setField(term318, term318.getClass(), "dataType", "attributes");
+        setField(term338, term338.getClass(), "requiredColumns", term339);
+        setField(term338, term338.getClass(), "tableName", "nga_icon");
+        setElement(term356, 0, "id");
+        setElement(term356, 1, "data");
+        setElement(term356, 2, "content_type");
+        setElement(term356, 3, "name");
+        setElement(term356, 4, "description");
+        setElement(term356, 5, "width");
+        setElement(term356, 6, "height");
+        setElement(term356, 7, "anchor_u");
+        setElement(term356, 8, "anchor_v");
+        setField(term338, term338.getClass(), "columnNames", term356);
+        setField(term338, term338.getClass(), "columns", term435);
+        setBooleanField(term338, term338.getClass(), "custom", false);
+        setField(term338, term338.getClass(), "nameToIndex", term494);
+        setIntField(term338, term338.getClass(), "pkIndex", 0);
+        setBooleanField(term338, term338.getClass(), "pkModifiable", false);
+        setBooleanField(term338, term338.getClass(), "valueValidation", true);
+        setField(term318, term318.getClass(), "columns", term338);
+        setField(term531, term531.getClass(), "constraints", term532);
+        setField(term531, term531.getClass(), "typedContraints", term536);
+        setField(term318, term318.getClass(), "constraints", term531);
+        setField(term318, term318.getClass(), "contents", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("mil.nga.geopackage.extension.nga.style.IconTable");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getNameColumn", argTypes, term318, args);
+    }
+
+};
+
+

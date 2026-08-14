@@ -1,0 +1,215 @@
+package org.mozilla.universalchardet.prober;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.mozilla.universalchardet.prober.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.String;
+import java.lang.Object;
+import java.util.ArrayList;
+import java.lang.Integer;
+
+public class MBCSGroupProber_handleData_21111759714 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term308000;
+     Object term308115;
+     Object term308123;
+     Object term308125;
+
+    public MBCSGroupProber_handleData_21111759714() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term308128 = Class.forName((String) "org.mozilla.universalchardet.prober.CharsetProber$ProbingState");
+        Field term308127 = ((Class) term308128).getDeclaredField((String) "DETECTING");
+        ((Field) term308127).setAccessible(true);
+        Object enum40 = ((Field) term308127).get((Object) null);
+        Object term308016 = newInstance(Class.forName("org.mozilla.universalchardet.prober.GB18030Prober"));
+        Object term308017 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        Object term308021 = newInstance(Class.forName("org.mozilla.universalchardet.prober.distributionanalysis.GB2312DistributionAnalysis"));
+        byte[] term308025 = (byte[]) newByteArray(2);
+        setField(term308017, term308017.getClass(), "model", null);
+        setIntField(term308017, term308017.getClass(), "currentState", 0);
+        setIntField(term308017, term308017.getClass(), "currentCharLen", 0);
+        setIntField(term308017, term308017.getClass(), "currentBytePos", 0);
+        setField(term308016, term308016.getClass(), "codingSM", term308017);
+        setField(term308016, term308016.getClass(), "state", enum40);
+        setIntField(term308021, term308021.getClass(), "freqChars", 0);
+        setIntField(term308021, term308021.getClass(), "totalChars", 0);
+        setField(term308021, term308021.getClass(), "charToFreqOrder", null);
+        setFloatField(term308021, term308021.getClass(), "typicalDistributionRatio", 0.9F);
+        setField(term308016, term308016.getClass(), "distributionAnalyzer", term308021);
+        setField(term308016, term308016.getClass(), "lastChar", term308025);
+        setBooleanField(term308016, term308016.getClass(), "active", true);
+        Object term308029 = newInstance(Class.forName("org.mozilla.universalchardet.prober.UTF8Prober"));
+        Object term308030 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        setField(term308030, term308030.getClass(), "model", null);
+        setIntField(term308030, term308030.getClass(), "currentState", 0);
+        setIntField(term308030, term308030.getClass(), "currentCharLen", 0);
+        setIntField(term308030, term308030.getClass(), "currentBytePos", 0);
+        setField(term308029, term308029.getClass(), "codingSM", term308030);
+        setField(term308029, term308029.getClass(), "state", enum40);
+        setIntField(term308029, term308029.getClass(), "numOfMBChar", 0);
+        setBooleanField(term308029, term308029.getClass(), "active", true);
+        Object term308036 = newInstance(Class.forName("org.mozilla.universalchardet.prober.Big5Prober"));
+        Object term308037 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        Object term308041 = newInstance(Class.forName("org.mozilla.universalchardet.prober.distributionanalysis.Big5DistributionAnalysis"));
+        byte[] term308045 = (byte[]) newByteArray(2);
+        setField(term308037, term308037.getClass(), "model", null);
+        setIntField(term308037, term308037.getClass(), "currentState", 0);
+        setIntField(term308037, term308037.getClass(), "currentCharLen", 0);
+        setIntField(term308037, term308037.getClass(), "currentBytePos", 0);
+        setField(term308036, term308036.getClass(), "codingSM", term308037);
+        setField(term308036, term308036.getClass(), "state", enum40);
+        setIntField(term308041, term308041.getClass(), "freqChars", 0);
+        setIntField(term308041, term308041.getClass(), "totalChars", 0);
+        setField(term308041, term308041.getClass(), "charToFreqOrder", null);
+        setFloatField(term308041, term308041.getClass(), "typicalDistributionRatio", 0.75F);
+        setField(term308036, term308036.getClass(), "distributionAnalyzer", term308041);
+        setField(term308036, term308036.getClass(), "lastChar", term308045);
+        setBooleanField(term308036, term308036.getClass(), "active", true);
+        Object term308049 = newInstance(Class.forName("org.mozilla.universalchardet.prober.SJISProber"));
+        Object term308050 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        Object term308054 = newInstance(Class.forName("org.mozilla.universalchardet.prober.contextanalysis.SJISContextAnalysis"));
+        Object term308059 = newInstance(Class.forName("org.mozilla.universalchardet.prober.distributionanalysis.SJISDistributionAnalysis"));
+        byte[] term308063 = (byte[]) newByteArray(2);
+        setField(term308050, term308050.getClass(), "model", null);
+        setIntField(term308050, term308050.getClass(), "currentState", 0);
+        setIntField(term308050, term308050.getClass(), "currentCharLen", 0);
+        setIntField(term308050, term308050.getClass(), "currentBytePos", 0);
+        setField(term308049, term308049.getClass(), "codingSM", term308050);
+        setField(term308049, term308049.getClass(), "state", enum40);
+        setField(term308054, term308054.getClass(), "relSample", null);
+        setIntField(term308054, term308054.getClass(), "totalRel", 0);
+        setIntField(term308054, term308054.getClass(), "lastCharOrder", -1);
+        setIntField(term308054, term308054.getClass(), "needToSkipCharNum", 0);
+        setBooleanField(term308054, term308054.getClass(), "done", false);
+        setField(term308054, term308054.getClass(), "tmpOrder", null);
+        setField(term308049, term308049.getClass(), "contextAnalyzer", term308054);
+        setIntField(term308059, term308059.getClass(), "freqChars", 0);
+        setIntField(term308059, term308059.getClass(), "totalChars", 0);
+        setField(term308059, term308059.getClass(), "charToFreqOrder", null);
+        setFloatField(term308059, term308059.getClass(), "typicalDistributionRatio", 3.0F);
+        setField(term308049, term308049.getClass(), "distributionAnalyzer", term308059);
+        setField(term308049, term308049.getClass(), "lastChar", term308063);
+        setBooleanField(term308049, term308049.getClass(), "active", true);
+        Object term308067 = newInstance(Class.forName("org.mozilla.universalchardet.prober.EUCJPProber"));
+        Object term308068 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        Object term308072 = newInstance(Class.forName("org.mozilla.universalchardet.prober.contextanalysis.EUCJPContextAnalysis"));
+        Object term308077 = newInstance(Class.forName("org.mozilla.universalchardet.prober.distributionanalysis.EUCJPDistributionAnalysis"));
+        byte[] term308081 = (byte[]) newByteArray(2);
+        setField(term308068, term308068.getClass(), "model", null);
+        setIntField(term308068, term308068.getClass(), "currentState", 0);
+        setIntField(term308068, term308068.getClass(), "currentCharLen", 0);
+        setIntField(term308068, term308068.getClass(), "currentBytePos", 0);
+        setField(term308067, term308067.getClass(), "codingSM", term308068);
+        setField(term308067, term308067.getClass(), "state", enum40);
+        setField(term308072, term308072.getClass(), "relSample", null);
+        setIntField(term308072, term308072.getClass(), "totalRel", 0);
+        setIntField(term308072, term308072.getClass(), "lastCharOrder", -1);
+        setIntField(term308072, term308072.getClass(), "needToSkipCharNum", 0);
+        setBooleanField(term308072, term308072.getClass(), "done", false);
+        setField(term308072, term308072.getClass(), "tmpOrder", null);
+        setField(term308067, term308067.getClass(), "contextAnalyzer", term308072);
+        setIntField(term308077, term308077.getClass(), "freqChars", 0);
+        setIntField(term308077, term308077.getClass(), "totalChars", 0);
+        setField(term308077, term308077.getClass(), "charToFreqOrder", null);
+        setFloatField(term308077, term308077.getClass(), "typicalDistributionRatio", 3.0F);
+        setField(term308067, term308067.getClass(), "distributionAnalyzer", term308077);
+        setField(term308067, term308067.getClass(), "lastChar", term308081);
+        setBooleanField(term308067, term308067.getClass(), "active", true);
+        Object term308085 = newInstance(Class.forName("org.mozilla.universalchardet.prober.EUCKRProber"));
+        Object term308086 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        Object term308090 = newInstance(Class.forName("org.mozilla.universalchardet.prober.distributionanalysis.EUCKRDistributionAnalysis"));
+        byte[] term308094 = (byte[]) newByteArray(2);
+        setField(term308086, term308086.getClass(), "model", null);
+        setIntField(term308086, term308086.getClass(), "currentState", 0);
+        setIntField(term308086, term308086.getClass(), "currentCharLen", 0);
+        setIntField(term308086, term308086.getClass(), "currentBytePos", 0);
+        setField(term308085, term308085.getClass(), "codingSM", term308086);
+        setField(term308085, term308085.getClass(), "state", enum40);
+        setIntField(term308090, term308090.getClass(), "freqChars", 0);
+        setIntField(term308090, term308090.getClass(), "totalChars", 0);
+        setField(term308090, term308090.getClass(), "charToFreqOrder", null);
+        setFloatField(term308090, term308090.getClass(), "typicalDistributionRatio", 6.0F);
+        setField(term308085, term308085.getClass(), "distributionAnalyzer", term308090);
+        setField(term308085, term308085.getClass(), "lastChar", term308094);
+        setBooleanField(term308085, term308085.getClass(), "active", true);
+        Object term308098 = newInstance(Class.forName("org.mozilla.universalchardet.prober.EUCTWProber"));
+        Object term308099 = newInstance(Class.forName("org.mozilla.universalchardet.prober.statemachine.CodingStateMachine"));
+        Object term308103 = newInstance(Class.forName("org.mozilla.universalchardet.prober.distributionanalysis.EUCTWDistributionAnalysis"));
+        byte[] term308107 = (byte[]) newByteArray(2);
+        setField(term308099, term308099.getClass(), "model", null);
+        setIntField(term308099, term308099.getClass(), "currentState", 0);
+        setIntField(term308099, term308099.getClass(), "currentCharLen", 0);
+        setIntField(term308099, term308099.getClass(), "currentBytePos", 0);
+        setField(term308098, term308098.getClass(), "codingSM", term308099);
+        setField(term308098, term308098.getClass(), "state", enum40);
+        setIntField(term308103, term308103.getClass(), "freqChars", 0);
+        setIntField(term308103, term308103.getClass(), "totalChars", 0);
+        setField(term308103, term308103.getClass(), "charToFreqOrder", null);
+        setFloatField(term308103, term308103.getClass(), "typicalDistributionRatio", 0.75F);
+        setField(term308098, term308098.getClass(), "distributionAnalyzer", term308103);
+        setField(term308098, term308098.getClass(), "lastChar", term308107);
+        setBooleanField(term308098, term308098.getClass(), "active", true);
+        ArrayList term308014 = new ArrayList();
+        ((ArrayList) term308014).add(term308016);
+        ((ArrayList) term308014).add(term308029);
+        ((ArrayList) term308014).add(term308036);
+        ((ArrayList) term308014).add(term308049);
+        ((ArrayList) term308014).add(term308067);
+        ((ArrayList) term308014).add(term308085);
+        ((ArrayList) term308014).add(term308098);
+        term308000 = newInstance(Class.forName("org.mozilla.universalchardet.prober.MBCSGroupProber"));
+        setField(term308000, term308000.getClass(), "state", enum40);
+        setField(term308000, term308000.getClass(), "probers", term308014);
+        setField(term308000, term308000.getClass(), "bestGuess", null);
+        setIntField(term308000, term308000.getClass(), "activeNum", 7);
+        setBooleanField(term308000, term308000.getClass(), "active", true);
+        term308115 = (byte[]) newByteArray(7);
+        setByteElement(term308115, 0, (byte) -46);
+        setByteElement(term308115, 1, (byte) -128);
+        setByteElement(term308115, 2, (byte) 66);
+        setByteElement(term308115, 3, (byte) -112);
+        setByteElement(term308115, 4, (byte) 81);
+        setByteElement(term308115, 5, (byte) 65);
+        setByteElement(term308115, 6, (byte) -44);
+        term308123 = new Integer(1045657203);
+        term308125 = new Integer(1386130016);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.mozilla.universalchardet.prober.MBCSGroupProber");
+        Class<?>[] argTypes = new Class<?>[3];
+        argTypes[0] = Array.newInstance(byte.class, 0).getClass();
+        argTypes[1] = int.class;
+        argTypes[2] = int.class;
+        Object[] args = new Object[3];
+        args[0] = term308115;
+        args[1] = term308123;
+        args[2] = term308125;
+        callMethod(klass, "handleData", argTypes, term308000, args);
+    }
+
+};
+
+

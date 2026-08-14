@@ -1,0 +1,298 @@
+2026-08-11 04:46:42.922 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/cami-la_spring-security-full-course-amigoscode/target/classes
+2026-08-11 04:46:43.012 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 04:46:43.084 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 04:46:44.087 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 04:46:44.525 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/example/demo/student/model/*
+2026-08-11 04:46:44.526 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 04:46:44.553 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/cami-la_spring-security-full-course-amigoscode/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 04:46:44.583 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/cami-la_spring-security-full-course-amigoscode/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43635 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/cami-la_spring-security-full-course-amigoscode/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 04:46:44.597 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 04:48:24.637 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::getStudentId(): java/lang/Long
+2026-08-11 04:48:24.638 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::getStudentId(): java/lang/Long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.studentId
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 04:48:25.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_getStudentId_19384152890
+2026-08-11 04:48:25.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::getStudentName(): java/lang/String
+2026-08-11 04:48:25.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::getStudentName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.studentName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 04:48:25.203 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_getStudentName_4478755961
+2026-08-11 04:48:25.204 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::setStudentId(java/lang/Long): void
+2026-08-11 04:48:25.204 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::setStudentId(java/lang/Long): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.studentId = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 04:48:25.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_setStudentId_19053355352
+2026-08-11 04:48:25.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::setStudentName(java/lang/String): void
+2026-08-11 04:48:25.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::setStudentName(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.studentName = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 04:48:25.363 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_setStudentName_5509264123
+2026-08-11 04:48:25.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::equals(java/lang/Object): bool
+2026-08-11 04:48:25.364 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != this)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = arg$0 instanceOf com/example/demo/student/model/Student
+	%5 = (%3 != false)
+	if (%5) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.then0
+	%28 = (com/example/demo/student/model/Student) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then1
+	%9 = virtual %28.canEqual(this)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%11 = (%9 != false)
+	if (%11) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb1
+	%21 = virtual this.getStudentId()
+	goto %label1
+
+%label1: 	//predecessors %if.then2
+	%22 = virtual %28.getStudentId()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%17 = (%21 != null)
+	if (%17) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %label2
+	%20 = (%22 == null)
+	if (%20) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %if.else3
+	goto %goto0
+
+%if.then3: 	//predecessors %label2
+	%24 = virtual %21.equals(%22)
+	goto %bb2
+
+%bb2: 	//predecessors %if.then3
+	%26 = (%24 != false)
+	if (%26) goto %if.then4 else %goto0
+
+%goto0: 	//predecessors %if.else4, %bb2
+	goto %bb.return0
+
+%if.then4: 	//predecessors %if.else3, %bb2
+	%36 = virtual this.getStudentName()
+	goto %label3
+
+%label3: 	//predecessors %if.then4
+	%37 = virtual %28.getStudentName()
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%32 = (%36 != null)
+	if (%32) goto %if.then5 else %if.else5
+
+%if.else5: 	//predecessors %label4
+	%35 = (%37 == null)
+	if (%35) goto %if.then6 else %if.else6
+
+%if.else6: 	//predecessors %if.else5
+	goto %goto1
+
+%if.then5: 	//predecessors %label4
+	%39 = virtual %36.equals(%37)
+	goto %bb3
+
+%bb3: 	//predecessors %if.then5
+	%41 = (%39 != false)
+	if (%41) goto %if.then6 else %goto1
+
+%goto1: 	//predecessors %if.else6, %bb3
+	goto %bb.return0
+
+%if.then6: 	//predecessors %if.else5, %bb3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else1, %if.else2, %goto0, %goto1, %if.then6
+	%retval1 = phi {%if.else0 -> 1; %if.else1 -> 0; %if.else2 -> 0; %goto0 -> 0; %goto1 -> 0; %if.then6 -> 1}
+	return %retval1
+2026-08-11 04:48:25.436 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_equals_10908530294
+2026-08-11 04:48:25.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::canEqual(java/lang/Object): bool
+2026-08-11 04:48:25.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::canEqual(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$0 instanceOf com/example/demo/student/model/Student
+	return %1
+2026-08-11 04:48:25.506 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_canEqual_18950156585
+2026-08-11 04:48:25.507 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::hashCode(): int
+2026-08-11 04:48:25.507 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::hashCode(): int
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%5 = virtual this.getStudentId()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%9 = 1 * 59
+	%4 = (%5 != null)
+	if (%4) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	goto %goto0
+
+%if.then0: 	//predecessors %label1
+	%7 = virtual %5.hashCode()
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%10 = phi {%if.else0 -> 43; %if.then0 -> %7}
+	%13 = %9 + %10
+	%18 = virtual this.getStudentName()
+	goto %label2
+
+%label2: 	//predecessors %goto0
+	%22 = %13 * 59
+	%17 = (%18 != null)
+	if (%17) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	goto %goto1
+
+%if.then1: 	//predecessors %label2
+	%20 = virtual %18.hashCode()
+	goto %goto1
+
+%goto1: 	//predecessors %if.else1, %if.then1
+	%23 = phi {%if.else1 -> 43; %if.then1 -> %20}
+	%25 = %22 + %23
+	return %25
+2026-08-11 04:48:25.561 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_hashCode_6421663546
+2026-08-11 04:48:25.562 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::toString(): java/lang/String
+2026-08-11 04:48:25.562 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = virtual this.getStudentId()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual this.getStudentName()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (java/lang/Long, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Student(studentId=, studentName=)"))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-08-11 04:48:25.617 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_toString_1314066647
+2026-08-11 04:48:25.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::<init>(java/lang/Long, java/lang/String): void
+2026-08-11 04:48:25.618 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::<init>(java/lang/Long, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.studentId = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.studentName = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 04:48:25.672 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_init_14404261528
+2026-08-11 04:48:25.673 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/example/demo/student/model/Student::<init>(): void
+2026-08-11 04:48:25.673 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/example/demo/student/model/Student::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 04:48:25.751 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_init_4140491879
+2026-08-11 04:48:25.798 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_getStudentId_193841528910
+2026-08-11 04:48:25.848 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_getStudentName_44787559611
+2026-08-11 04:48:25.891 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_setStudentId_190533553512
+2026-08-11 04:48:25.931 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_setStudentName_55092641213
+2026-08-11 04:48:25.996 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_equals_109085302914
+2026-08-11 04:48:26.040 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_canEqual_189501565815
+2026-08-11 04:48:26.081 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_hashCode_64216635416
+2026-08-11 04:48:26.124 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_toString_13140666417
+2026-08-11 04:48:26.162 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_init_144042615218
+2026-08-11 04:48:26.196 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.example.demo.student.model.Student_init_41404918719
+2026-08-11 04:48:26.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::getStudentId(): java/lang/Long: null
+2026-08-11 04:48:26.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::getStudentName(): java/lang/String: null
+2026-08-11 04:48:26.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::setStudentId(java/lang/Long): void: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::setStudentName(java/lang/String): void: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::equals(java/lang/Object): bool: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::canEqual(java/lang/Object): bool: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::hashCode(): int: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::toString(): java/lang/String: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::<init>(java/lang/Long, java/lang/String): void: null
+2026-08-11 04:48:26.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/example/demo/student/model/Student::<init>(): void: null
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::getStudentId(): java/lang/Long processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::getStudentName(): java/lang/String processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::setStudentId(java/lang/Long): void processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::setStudentName(java/lang/String): void processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::canEqual(java/lang/Object): bool processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::hashCode(): int processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::toString(): java/lang/String processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::<init>(java/lang/Long, java/lang/String): void processing is finished normally
+2026-08-11 04:48:26.199 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/example/demo/student/model/Student::<init>(): void processing is finished normally
+2026-08-11 04:48:26.200 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 04:48:26.200 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

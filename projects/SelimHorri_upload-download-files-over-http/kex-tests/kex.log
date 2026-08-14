@@ -1,0 +1,392 @@
+2026-08-12 01:07:45.084 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_upload-download-files-over-http/target/classes
+2026-08-12 01:07:45.169 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 01:07:45.243 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 01:07:46.211 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 01:07:46.721 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/selimhorri/pack/util/*
+2026-08-12 01:07:46.722 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 01:07:46.745 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_upload-download-files-over-http/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 01:07:46.776 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_upload-download-files-over-http/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 38907 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/SelimHorri_upload-download-files-over-http/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 01:07:46.788 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 01:09:26.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/pack/util/FileHandlerUtilImpl::<init>(): void
+2026-08-12 01:09:26.821 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/pack/util/FileHandlerUtilImpl::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 01:09:26.825 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/selimhorri/pack/util/FileHandlerUtilImpl::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-12 01:09:26.826 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/selimhorri/pack/util/FileHandlerUtilImpl::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-12 01:09:26.826 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/pack/util/FileHandlerUtilImpl::<init>(): void: null
+2026-08-12 01:09:26.826 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/pack/util/FileHandlerUtilImpl::getByDirectoryAndFilename(java/lang/String, java/lang/String): java/nio/file/Path
+2026-08-12 01:09:26.826 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/pack/util/FileHandlerUtilImpl::getByDirectoryAndFilename(java/lang/String, java/lang/String): java/nio/file/Path
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = new java/lang/String[0]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static Paths.get(arg$0, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = interface %3.toAbsolutePath()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = interface %5.normalize()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = interface %7.resolve(arg$1)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %9
+2026-08-12 01:09:26.827 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/selimhorri/pack/util/FileHandlerUtilImpl::getByDirectoryAndFilename(java/lang/String, java/lang/String): java/nio/file/Path
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 01:09:26.827 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/selimhorri/pack/util/FileHandlerUtilImpl::getByDirectoryAndFilename(java/lang/String, java/lang/String): java/nio/file/Path
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 01:09:26.827 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/pack/util/FileHandlerUtilImpl::getByDirectoryAndFilename(java/lang/String, java/lang/String): java/nio/file/Path: null
+2026-08-12 01:09:26.827 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/pack/util/FileHandlerUtilImpl::getByPath(java/nio/file/Path): org/springframework/core/io/Resource
+2026-08-12 01:09:26.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/pack/util/FileHandlerUtilImpl::getByPath(java/nio/file/Path): org/springframework/core/io/Resource
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%8 = new org/springframework/core/io/UrlResource
+	%3 = interface arg$0.toUri()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	special %8.<init>(%3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	goto %goto0
+
+%catch0: 	//catches from %label0, %bb2, %bb1
+	%9 = phi {%label0 -> null; %bb2 -> %8; %bb1 -> null; %bb0 -> null}
+%7 = catch java/io/IOException
+goto %label2
+
+%label2: 	//predecessors %catch0
+	virtual %7.printStackTrace()
+	goto %goto0
+
+%goto0: 	//predecessors %label1, %label2
+	%11 = phi {%label1 -> %8; %label2 -> %9}
+	return %11
+2026-08-12 01:09:26.829 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/selimhorri/pack/util/FileHandlerUtilImpl::getByPath(java/nio/file/Path): org/springframework/core/io/Resource
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 01:09:26.829 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/selimhorri/pack/util/FileHandlerUtilImpl::getByPath(java/nio/file/Path): org/springframework/core/io/Resource
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 01:09:26.829 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/pack/util/FileHandlerUtilImpl::getByPath(java/nio/file/Path): org/springframework/core/io/Resource: null
+2026-08-12 01:09:26.830 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/selimhorri/pack/util/FileHandlerUtilImpl::getByResource(org/springframework/core/io/Resource): org/springframework/http/HttpHeaders
+2026-08-12 01:09:26.830 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/selimhorri/pack/util/FileHandlerUtilImpl::getByResource(org/springframework/core/io/Resource): org/springframework/http/HttpHeaders
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%10 = new org/springframework/http/HttpHeaders
+	special %10.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = interface arg$0.getFilename()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	virtual %10.add("File-Name", %4)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = interface arg$0.getFilename()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="attachment;File-Name="))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual %10.add("Content-Disposition", %9)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return %10
+2026-08-12 01:09:26.830 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 01:09:26.830 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.core.io.Resource
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 01:09:26.830 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/selimhorri/pack/util/FileHandlerUtilImpl::getByResource(org/springframework/core/io/Resource): org/springframework/http/HttpHeaders: null
+2026-08-12 01:09:26.830 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/pack/util/FileHandlerUtilImpl::<init>(): void processing is finished normally
+2026-08-12 01:09:26.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/pack/util/FileHandlerUtilImpl::getByDirectoryAndFilename(java/lang/String, java/lang/String): java/nio/file/Path processing is finished normally
+2026-08-12 01:09:26.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/pack/util/FileHandlerUtilImpl::getByPath(java/nio/file/Path): org/springframework/core/io/Resource processing is finished normally
+2026-08-12 01:09:26.831 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/selimhorri/pack/util/FileHandlerUtilImpl::getByResource(org/springframework/core/io/Resource): org/springframework/http/HttpHeaders processing is finished normally
+2026-08-12 01:09:26.831 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 01:09:26.831 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

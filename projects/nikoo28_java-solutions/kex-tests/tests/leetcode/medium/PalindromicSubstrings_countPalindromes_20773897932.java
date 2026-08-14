@@ -1,0 +1,58 @@
+package leetcode.medium;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static leetcode.medium.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Integer;
+
+public class PalindromicSubstrings_countPalindromes_20773897932 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1082;
+     Object term1095;
+     Object term1097;
+
+    public PalindromicSubstrings_countPalindromes_20773897932() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term1082 = newInstance(Class.forName("leetcode.medium.PalindromicSubstrings"));
+        term1095 = new Integer(147209682);
+        term1097 = new Integer(34470066);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("leetcode.medium.PalindromicSubstrings");
+        Class<?>[] argTypes = new Class<?>[3];
+        argTypes[0] = Class.forName("java.lang.String");
+        argTypes[1] = int.class;
+        argTypes[2] = int.class;
+        Object[] args = new Object[3];
+        args[0] = "oVcInYnLWB";
+        args[1] = term1095;
+        args[2] = term1097;
+        callMethod(klass, "countPalindromes", argTypes, term1082, args);
+    }
+
+};
+
+

@@ -1,0 +1,23 @@
+{
+    "name": "java-maven",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "jdkDistro": "tem",
+            "version": "11.0.26",
+            "mavenVersion": "3.9.9",
+            "installMaven": true
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.vscode-github-actions"
+            ],
+            "settings": {
+                "telemetry.telemetryLevel": "off",
+                "redhat.telemetry.enabled": false
+            }
+        }
+    }
+}

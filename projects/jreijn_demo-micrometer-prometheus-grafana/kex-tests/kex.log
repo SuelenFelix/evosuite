@@ -1,0 +1,199 @@
+2026-08-11 10:47:47.499 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jreijn_demo-micrometer-prometheus-grafana/target/classes
+2026-08-11 10:47:47.622 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 10:47:47.743 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 10:47:49.064 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 10:47:49.792 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/jeroenreijn/demomicrometerprometheusgrafana/*
+2026-08-11 10:47:49.794 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 10:47:49.820 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jreijn_demo-micrometer-prometheus-grafana/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 10:47:49.859 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jreijn_demo-micrometer-prometheus-grafana/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 42295 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jreijn_demo-micrometer-prometheus-grafana/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 10:47:49.877 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 10:49:29.905 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::<init>(): void
+2026-08-11 10:49:29.905 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 10:49:30.437 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.DemoMicrometerPrometheusGrafanaApplication_init_7592453820
+2026-08-11 10:49:30.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::main(java/lang/String[]): void
+2026-08-11 10:49:30.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%0 = static SpringApplication.run(com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication.class, arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	return
+2026-08-11 10:49:30.601 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.DemoMicrometerPrometheusGrafanaApplication_main_3826823781
+2026-08-11 10:49:30.703 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.DemoMicrometerPrometheusGrafanaApplication_init_7592453822
+2026-08-11 10:49:30.777 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.DemoMicrometerPrometheusGrafanaApplication_main_3826823783
+2026-08-11 10:49:30.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::<init>(): void: null
+2026-08-11 10:49:30.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::<init>(): void processing is finished normally
+2026-08-11 10:49:30.779 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::main(java/lang/String[]): void: null
+2026-08-11 10:49:30.779 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/DemoMicrometerPrometheusGrafanaApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 10:49:30.781 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::<init>(): void
+2026-08-11 10:49:30.782 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 10:49:30.863 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_init_4116467280
+2026-08-11 10:49:30.864 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::index(): org/springframework/http/ResponseEntity
+2026-08-11 10:49:30.864 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::index(): org/springframework/http/ResponseEntity
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message
+	special %2.<init>(this, "Hello World")
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = static ResponseEntity.ok(%2)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	return %4
+2026-08-11 10:49:30.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::index(): org/springframework/http/ResponseEntity
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/ResponseEntity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEntity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 10:49:30.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::index(): org/springframework/http/ResponseEntity
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/ResponseEntity
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.ResponseEntity
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 10:49:30.866 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::index(): org/springframework/http/ResponseEntity: null
+2026-08-11 10:49:30.948 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_init_4116467281
+2026-08-11 10:49:30.949 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::index(): org/springframework/http/ResponseEntity processing is finished normally
+2026-08-11 10:49:30.950 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::<init>(): void: null
+2026-08-11 10:49:30.950 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController::<init>(): void processing is finished normally
+2026-08-11 10:49:30.952 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::<init>(com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController, java/lang/String): void
+2026-08-11 10:49:30.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::<init>(com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.this$0 = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.text = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 10:49:31.020 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_Message_init_10211880930
+2026-08-11 10:49:31.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::getText(): java/lang/String
+2026-08-11 10:49:31.021 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::getText(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.text
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 10:49:31.090 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_Message_getText_1937616711
+2026-08-11 10:49:31.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::setText(java/lang/String): void
+2026-08-11 10:49:31.091 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::setText(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.text = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 10:49:31.179 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_Message_setText_19136382392
+2026-08-11 10:49:31.229 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_Message_init_10211880933
+2026-08-11 10:49:31.299 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_Message_getText_1937616714
+2026-08-11 10:49:31.368 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.jeroenreijn.demomicrometerprometheusgrafana.HelloWorldController_Message_setText_19136382395
+2026-08-11 10:49:31.369 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::<init>(com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController, java/lang/String): void: null
+2026-08-11 10:49:31.369 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::getText(): java/lang/String: null
+2026-08-11 10:49:31.369 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::<init>(com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController, java/lang/String): void processing is finished normally
+2026-08-11 10:49:31.370 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::getText(): java/lang/String processing is finished normally
+2026-08-11 10:49:31.370 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::setText(java/lang/String): void: null
+2026-08-11 10:49:31.370 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/jeroenreijn/demomicrometerprometheusgrafana/HelloWorldController$Message::setText(java/lang/String): void processing is finished normally
+2026-08-11 10:49:31.371 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 10:49:31.371 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

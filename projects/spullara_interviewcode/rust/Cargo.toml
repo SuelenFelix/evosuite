@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "unicode_test",
+    "benchmarks_system"
+]
+
+[profile.release]
+lto = true
+codegen-units = 1

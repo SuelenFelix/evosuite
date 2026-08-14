@@ -1,0 +1,93 @@
+package com.zxl.dailypractice.algorithm.Day7;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.zxl.dailypractice.algorithm.Day7.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Integer;
+
+public class Solution_floodFill_5777751971 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1;
+     Object term2;
+     Object term26;
+     Object term28;
+     Object term30;
+
+    public Solution_floodFill_5777751971() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term1 = newInstance(Class.forName("com.zxl.dailypractice.algorithm.Day7.Solution"));
+        term2 = (Object[]) newArray("[I", 5);
+        int[] term3 = (int[]) newIntArray(4);
+        int[] term8 = (int[]) newIntArray(3);
+        int[] term12 = (int[]) newIntArray(4);
+        int[] term17 = (int[]) newIntArray(1);
+        int[] term19 = (int[]) newIntArray(6);
+        setIntElement(term3, 0, 568599855);
+        setIntElement(term3, 1, 1162663216);
+        setIntElement(term3, 2, 1484323161);
+        setIntElement(term3, 3, 391863371);
+        setElement(term2, 0, term3);
+        setIntElement(term8, 0, -1922583790);
+        setIntElement(term8, 1, -616727354);
+        setIntElement(term8, 2, -1955890973);
+        setElement(term2, 1, term8);
+        setIntElement(term12, 0, -2038273078);
+        setIntElement(term12, 1, 1227103734);
+        setIntElement(term12, 2, -1339778481);
+        setIntElement(term12, 3, 1725571209);
+        setElement(term2, 2, term12);
+        setIntElement(term17, 0, -522618178);
+        setElement(term2, 3, term17);
+        setIntElement(term19, 0, 1134449235);
+        setIntElement(term19, 1, -883034806);
+        setIntElement(term19, 2, 1585847225);
+        setIntElement(term19, 3, 597278769);
+        setIntElement(term19, 4, -1685132342);
+        setIntElement(term19, 5, -1456670397);
+        setElement(term2, 4, term19);
+        term26 = new Integer(1622346318);
+        term28 = new Integer(1048535127);
+        term30 = new Integer(-655067527);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.zxl.dailypractice.algorithm.Day7.Solution");
+        Class<?>[] argTypes = new Class<?>[4];
+        argTypes[0] = Array.newInstance(Array.newInstance(int.class, 0).getClass(), 0).getClass();
+        argTypes[1] = int.class;
+        argTypes[2] = int.class;
+        argTypes[3] = int.class;
+        Object[] args = new Object[4];
+        args[0] = term2;
+        args[1] = term26;
+        args[2] = term28;
+        args[3] = term30;
+        callMethod(klass, "floodFill", argTypes, term1, args);
+    }
+
+};
+
+

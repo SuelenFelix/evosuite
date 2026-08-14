@@ -1,0 +1,213 @@
+package org.graph4j.spanning;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.spanning.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Double;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.Collection;
+import java.util.HashSet;
+
+public class WeightedSpanningTreeIterator_Part_init_12853705491 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term2426;
+     Object term2539;
+
+    public WeightedSpanningTreeIterator_Part_init_12853705491() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Double term2434 = new Double(0.40277819638118273);
+        Double term2436 = new Double(0.6124933411357613);
+        Double term2438 = new Double(0.4182992175150315);
+        Double term2440 = new Double(0.7838077946639819);
+        Double term2442 = new Double(0.09374048740922791);
+        Double term2449 = new Double(0.9494229461907108);
+        Double term2451 = new Double(0.31538328268378013);
+        Double term2453 = new Double(0.9888455907022821);
+        Double term2455 = new Double(0.7296354885225688);
+        Double term2457 = new Double(0.26197094142616373);
+        Double term2459 = new Double(0.42502044755210044);
+        Double term2461 = new Double(0.7794021169202232);
+        Double term2463 = new Double(0.17528851201626494);
+        Double term2465 = new Double(0.9832782789384902);
+        Double term2477 = new Double(0.6571101155689184);
+        Double term2479 = new Double(0.5070134415466635);
+        Double term2481 = new Double(0.9330567218798436);
+        Double term2483 = new Double(0.1452204834065195);
+        Double term2490 = new Double(0.04732617365922176);
+        Double term2492 = new Double(0.007179961925217526);
+        Double term2494 = new Double(0.2368712300344461);
+        Double term2496 = new Double(0.9377667036664316);
+        Double term2503 = new Double(0.8863099799682007);
+        Double term2505 = new Double(0.8361530707429777);
+        Double term2507 = new Double(0.5264336188208859);
+        Double term2509 = new Double(0.3803734512496052);
+        Double term2511 = new Double(0.4215991359766782);
+        Double term2513 = new Double(0.8485928043846015);
+        Double term2515 = new Double(0.3422470250555786);
+        Double term2517 = new Double(0.5174310198002574);
+        Double term2519 = new Double(0.15978842530590698);
+        Double term2526 = new Double(0.3938367676460294);
+        Double term2528 = new Double(0.8198571367447252);
+        Double term2530 = new Double(0.5077880926168821);
+        Double term2537 = new Double(0.8872393368594799);
+        term2426 = newInstance(Class.forName("org.graph4j.spanning.WeightedSpanningTreeIterator"));
+        Object[] term2428 = (Object[]) newArray("org.graph4j.Edge", 8);
+        Object term2429 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2433 = (Object[]) newArray("java.lang.Double", 5);
+        Object term2444 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2448 = (Object[]) newArray("java.lang.Double", 9);
+        Object term2467 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2471 = (Object[]) newArray("java.lang.Double", 0);
+        Object term2472 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2476 = (Object[]) newArray("java.lang.Double", 4);
+        Object term2485 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2489 = (Object[]) newArray("java.lang.Double", 4);
+        Object term2498 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2502 = (Object[]) newArray("java.lang.Double", 9);
+        Object term2521 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2525 = (Object[]) newArray("java.lang.Double", 3);
+        Object term2532 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2536 = (Object[]) newArray("java.lang.Double", 1);
+        setField(term2426, term2426.getClass(), "graph", null);
+        setIntField(term2426, term2426.getClass(), "numVertices", -380787857);
+        setBooleanField(term2429, term2429.getClass(), "directed", true);
+        setIntField(term2429, term2429.getClass(), "source", 319853052);
+        setIntField(term2429, term2429.getClass(), "target", -1097563716);
+        setElement(term2433, 0, term2434);
+        setElement(term2433, 1, term2436);
+        setElement(term2433, 2, term2438);
+        setElement(term2433, 3, term2440);
+        setElement(term2433, 4, term2442);
+        setField(term2429, term2429.getClass(), "data", term2433);
+        setField(term2429, term2429.getClass(), "label", null);
+        setElement(term2428, 0, term2429);
+        setBooleanField(term2444, term2444.getClass(), "directed", false);
+        setIntField(term2444, term2444.getClass(), "source", 1572907769);
+        setIntField(term2444, term2444.getClass(), "target", 1608016787);
+        setElement(term2448, 0, term2449);
+        setElement(term2448, 1, term2451);
+        setElement(term2448, 2, term2453);
+        setElement(term2448, 3, term2455);
+        setElement(term2448, 4, term2457);
+        setElement(term2448, 5, term2459);
+        setElement(term2448, 6, term2461);
+        setElement(term2448, 7, term2463);
+        setElement(term2448, 8, term2465);
+        setField(term2444, term2444.getClass(), "data", term2448);
+        setField(term2444, term2444.getClass(), "label", null);
+        setElement(term2428, 1, term2444);
+        setBooleanField(term2467, term2467.getClass(), "directed", false);
+        setIntField(term2467, term2467.getClass(), "source", -516303035);
+        setIntField(term2467, term2467.getClass(), "target", -2143043890);
+        setField(term2467, term2467.getClass(), "data", term2471);
+        setField(term2467, term2467.getClass(), "label", null);
+        setElement(term2428, 2, term2467);
+        setBooleanField(term2472, term2472.getClass(), "directed", true);
+        setIntField(term2472, term2472.getClass(), "source", -2138825831);
+        setIntField(term2472, term2472.getClass(), "target", 1454781562);
+        setElement(term2476, 0, term2477);
+        setElement(term2476, 1, term2479);
+        setElement(term2476, 2, term2481);
+        setElement(term2476, 3, term2483);
+        setField(term2472, term2472.getClass(), "data", term2476);
+        setField(term2472, term2472.getClass(), "label", null);
+        setElement(term2428, 3, term2472);
+        setBooleanField(term2485, term2485.getClass(), "directed", false);
+        setIntField(term2485, term2485.getClass(), "source", -27944011);
+        setIntField(term2485, term2485.getClass(), "target", -20614472);
+        setElement(term2489, 0, term2490);
+        setElement(term2489, 1, term2492);
+        setElement(term2489, 2, term2494);
+        setElement(term2489, 3, term2496);
+        setField(term2485, term2485.getClass(), "data", term2489);
+        setField(term2485, term2485.getClass(), "label", null);
+        setElement(term2428, 4, term2485);
+        setBooleanField(term2498, term2498.getClass(), "directed", false);
+        setIntField(term2498, term2498.getClass(), "source", 1126618861);
+        setIntField(term2498, term2498.getClass(), "target", 947449400);
+        setElement(term2502, 0, term2503);
+        setElement(term2502, 1, term2505);
+        setElement(term2502, 2, term2507);
+        setElement(term2502, 3, term2509);
+        setElement(term2502, 4, term2511);
+        setElement(term2502, 5, term2513);
+        setElement(term2502, 6, term2515);
+        setElement(term2502, 7, term2517);
+        setElement(term2502, 8, term2519);
+        setField(term2498, term2498.getClass(), "data", term2502);
+        setField(term2498, term2498.getClass(), "label", null);
+        setElement(term2428, 5, term2498);
+        setBooleanField(term2521, term2521.getClass(), "directed", true);
+        setIntField(term2521, term2521.getClass(), "source", -763799087);
+        setIntField(term2521, term2521.getClass(), "target", 1207142014);
+        setElement(term2525, 0, term2526);
+        setElement(term2525, 1, term2528);
+        setElement(term2525, 2, term2530);
+        setField(term2521, term2521.getClass(), "data", term2525);
+        setField(term2521, term2521.getClass(), "label", null);
+        setElement(term2428, 6, term2521);
+        setBooleanField(term2532, term2532.getClass(), "directed", true);
+        setIntField(term2532, term2532.getClass(), "source", -876426634);
+        setIntField(term2532, term2532.getClass(), "target", 213831054);
+        setElement(term2536, 0, term2537);
+        setField(term2532, term2532.getClass(), "data", term2536);
+        setField(term2532, term2532.getClass(), "label", null);
+        setElement(term2428, 7, term2532);
+        setField(term2426, term2426.getClass(), "edges", term2428);
+        setField(term2426, term2426.getClass(), "queue", null);
+        HashMap term2541 = new HashMap();
+        Set<Object> term2584 =  ((Map) term2541).keySet();
+        HashSet term2540 = new HashSet((Collection<? extends Object>) term2584);
+        HashMap term2554 = new HashMap();
+        Set<Object> term2585 =  ((Map) term2554).keySet();
+        HashSet term2553 = new HashSet((Collection<? extends Object>) term2585);
+        HashMap term2571 = new HashMap();
+        Set<Object> term2586 =  ((Map) term2571).keySet();
+        HashSet term2570 = new HashSet((Collection<? extends Object>) term2586);
+        term2539 = newInstance(Class.forName("org.graph4j.spanning.WeightedSpanningTreeIterator$Part"));
+        setField(term2539, term2539.getClass(), "included", term2540);
+        setField(term2539, term2539.getClass(), "excluded", term2553);
+        setField(term2539, term2539.getClass(), "mstEdges", term2570);
+        setDoubleField(term2539, term2539.getClass(), "mstWeight", 0.7559240768573477);
+        setField(term2539, term2539.getClass(), "this$0", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.spanning.WeightedSpanningTreeIterator$Part");
+        Class<?>[] argTypes = new Class<?>[2];
+        argTypes[0] = Class.forName("org.graph4j.spanning.WeightedSpanningTreeIterator");
+        argTypes[1] = Class.forName("org.graph4j.spanning.WeightedSpanningTreeIterator$Part");
+        Object[] args = new Object[2];
+        args[0] = term2426;
+        args[1] = term2539;
+        Object instance = callConstructor(klass, argTypes, args);
+    }
+
+};
+
+

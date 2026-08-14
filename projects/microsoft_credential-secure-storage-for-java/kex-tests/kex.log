@@ -1,0 +1,1017 @@
+2026-08-11 18:36:19.430 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/microsoft_credential-secure-storage-for-java/target/classes
+2026-08-11 18:36:19.556 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 18:36:19.614 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 18:36:20.672 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 18:36:21.232 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/microsoft/credentialstorage/model/*
+2026-08-11 18:36:21.234 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 18:36:21.253 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/microsoft_credential-secure-storage-for-java/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 18:36:21.283 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/microsoft_credential-secure-storage-for-java/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 39189 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/microsoft_credential-secure-storage-for-java/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 18:36:21.296 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 18:38:01.332 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredToken::<init>(char[], com/microsoft/credentialstorage/model/StoredTokenType): void
+2026-08-11 18:38:01.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredToken::<init>(char[], com/microsoft/credentialstorage/model/StoredTokenType): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%0 = static Objects.requireNonNull(arg$0, "The value parameter is null")
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%1 = static Objects.requireNonNull(arg$1, "The type parameter is null")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	this.type = arg$1
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%4 = new com/microsoft/credentialstorage/model/ClearableValue
+	special %4.<init>(arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.value = %4
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 18:38:01.811 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_init_17252432950
+2026-08-11 18:38:01.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredToken::getType(): com/microsoft/credentialstorage/model/StoredTokenType
+2026-08-11 18:38:01.816 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredToken::getType(): com/microsoft/credentialstorage/model/StoredTokenType
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.type
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 18:38:01.928 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_getType_18780321051
+2026-08-11 18:38:01.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredToken::getValue(): char[]
+2026-08-11 18:38:01.929 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredToken::getValue(): char[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.value
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.getValue()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 18:38:02.014 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_getValue_16074522842
+2026-08-11 18:38:02.015 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredToken::clear(): void
+2026-08-11 18:38:02.015 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredToken::clear(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.value
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	virtual %1.clear()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 18:38:02.092 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_clear_20155153503
+2026-08-11 18:38:02.093 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredToken::equals(java/lang/Object): bool
+2026-08-11 18:38:02.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredToken::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (this != arg$0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%6 = virtual this.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%7 = virtual arg$0.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %if.then0, %bb2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb2
+	%19 = (com/microsoft/credentialstorage/model/StoredToken) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	%14 = this.type
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%15 = %19.type
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%17 = (%14 != %15)
+	if (%17) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%21 = this.value
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	%22 = %19.value
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%24 = virtual %21.equals(%22)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%26 = (%24 == false)
+	if (%26) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb7
+	goto %goto0
+
+%if.then3: 	//predecessors %bb4, %bb7
+	goto %goto0
+
+%goto0: 	//predecessors %if.else3, %if.then3
+	%28 = phi {%if.else3 -> 1; %if.then3 -> 0}
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %goto0
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %goto0 -> %28}
+	return %retval1
+2026-08-11 18:38:02.162 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_equals_20703150954
+2026-08-11 18:38:02.163 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredToken::hashCode(): int
+2026-08-11 18:38:02.163 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredToken::hashCode(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = new java/lang/Object[2]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.type
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%6 = this.value
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7[1] = %6
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%9 = static Objects.hash(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %9
+2026-08-11 18:38:02.229 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_hashCode_16216284205
+2026-08-11 18:38:02.297 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_init_17252432956
+2026-08-11 18:38:02.380 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_getType_18780321057
+2026-08-11 18:38:02.433 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_getValue_16074522848
+2026-08-11 18:38:02.494 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_clear_20155153509
+2026-08-11 18:38:02.545 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_equals_207031509510
+2026-08-11 18:38:02.590 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredToken_hashCode_162162842011
+2026-08-11 18:38:02.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredToken::<init>(char[], com/microsoft/credentialstorage/model/StoredTokenType): void: null
+2026-08-11 18:38:02.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredToken::getType(): com/microsoft/credentialstorage/model/StoredTokenType: null
+2026-08-11 18:38:02.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredToken::getValue(): char[]: null
+2026-08-11 18:38:02.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredToken::clear(): void: null
+2026-08-11 18:38:02.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredToken::equals(java/lang/Object): bool: null
+2026-08-11 18:38:02.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredToken::hashCode(): int: null
+2026-08-11 18:38:02.592 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredToken::<init>(char[], com/microsoft/credentialstorage/model/StoredTokenType): void processing is finished normally
+2026-08-11 18:38:02.592 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredToken::getType(): com/microsoft/credentialstorage/model/StoredTokenType processing is finished normally
+2026-08-11 18:38:02.592 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredToken::getValue(): char[] processing is finished normally
+2026-08-11 18:38:02.592 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredToken::clear(): void processing is finished normally
+2026-08-11 18:38:02.592 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredToken::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 18:38:02.592 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredToken::hashCode(): int processing is finished normally
+2026-08-11 18:38:02.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenType::values(): com/microsoft/credentialstorage/model/StoredTokenType[]
+2026-08-11 18:38:02.600 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenType::values(): com/microsoft/credentialstorage/model/StoredTokenType[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = StoredTokenType.$VALUES
+	%3 = virtual %1.clone()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = (com/microsoft/credentialstorage/model/StoredTokenType[]) %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-11 18:38:02.656 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_values_6285755510
+2026-08-11 18:38:02.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenType::valueOf(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType
+2026-08-11 18:38:02.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenType::valueOf(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Enum.valueOf(com/microsoft/credentialstorage/model/StoredTokenType.class, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (com/microsoft/credentialstorage/model/StoredTokenType) %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 18:38:02.700 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_valueOf_1365451481
+2026-08-11 18:38:02.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenType::<init>(java/lang/String, int, java/lang/String): void
+2026-08-11 18:38:02.700 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenType::<init>(java/lang/String, int, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.description = arg$2
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 18:38:02.742 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_init_1323952832
+2026-08-11 18:38:02.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenType::fromDescription(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType
+2026-08-11 18:38:02.743 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenType::fromDescription(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = StoredTokenType.VALUE_MAP
+	%3 = StoredTokenType.PERSONAL
+	%5 = interface %2.getOrDefault(arg$0, %3)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%7 = (com/microsoft/credentialstorage/model/StoredTokenType) %5
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %7
+2026-08-11 18:38:02.788 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_fromDescription_7924256783
+2026-08-11 18:38:02.789 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenType::getDescription(): java/lang/String
+2026-08-11 18:38:02.789 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenType::getDescription(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.description
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 18:38:02.832 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_getDescription_14724997824
+2026-08-11 18:38:02.873 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_values_6285755515
+2026-08-11 18:38:02.916 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_valueOf_1365451486
+2026-08-11 18:38:02.960 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_init_1323952837
+2026-08-11 18:38:03.003 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_fromDescription_7924256788
+2026-08-11 18:38:03.051 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenType_getDescription_14724997829
+2026-08-11 18:38:03.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenType::values(): com/microsoft/credentialstorage/model/StoredTokenType[]: null
+2026-08-11 18:38:03.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenType::valueOf(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType: null
+2026-08-11 18:38:03.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenType::<init>(java/lang/String, int, java/lang/String): void: null
+2026-08-11 18:38:03.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenType::fromDescription(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType: null
+2026-08-11 18:38:03.052 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenType::getDescription(): java/lang/String: null
+2026-08-11 18:38:03.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenType::values(): com/microsoft/credentialstorage/model/StoredTokenType[] processing is finished normally
+2026-08-11 18:38:03.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenType::valueOf(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType processing is finished normally
+2026-08-11 18:38:03.052 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenType::<init>(java/lang/String, int, java/lang/String): void processing is finished normally
+2026-08-11 18:38:03.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenType::fromDescription(java/lang/String): com/microsoft/credentialstorage/model/StoredTokenType processing is finished normally
+2026-08-11 18:38:03.053 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenType::getDescription(): java/lang/String processing is finished normally
+2026-08-11 18:38:03.059 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredCredential::<init>(java/lang/String, char[]): void
+2026-08-11 18:38:03.060 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredCredential::<init>(java/lang/String, char[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%0 = static Objects.requireNonNull(arg$0, "The username parameter is null")
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%2 = virtual arg$0.length()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%4 = (%2 <= 511)
+	if (%4) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%14 = new java/lang/IllegalArgumentException
+	%10 = new java/lang/Object[1]
+	goto %label1
+
+%label1: 	//predecessors %if.else0
+	%9 = static Integer.valueOf(511)
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%10[0] = %9
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%13 = static String.format("The username parameter cannot be longer than %1$d characters.", %10)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	special %14.<init>(%13)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	throw %14
+
+%if.then0: 	//predecessors %bb2
+	this.username = arg$0
+	goto %bb7
+
+%bb7: 	//predecessors %if.then0
+	%15 = static Objects.requireNonNull(arg$1, "The password parameter is null")
+	goto %label2
+
+%label2: 	//predecessors %bb7
+	%17 = arg$1.length
+	goto %bb8
+
+%bb8: 	//predecessors %label2
+	%19 = (%17 <= 2047)
+	if (%19) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb8
+	%29 = new java/lang/IllegalArgumentException
+	%25 = new java/lang/Object[1]
+	goto %label3
+
+%label3: 	//predecessors %if.else1
+	%24 = static Integer.valueOf(2047)
+	goto %bb9
+
+%bb9: 	//predecessors %label3
+	%25[0] = %24
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%28 = static String.format("The password parameter cannot be longer than %1$d characters.", %25)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	special %29.<init>(%28)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	throw %29
+
+%if.then1: 	//predecessors %bb8
+	%32 = new com/microsoft/credentialstorage/model/ClearableValue
+	special %32.<init>(arg$1)
+	goto %bb13
+
+%bb13: 	//predecessors %if.then1
+	this.password = %32
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	return
+2026-08-11 18:38:03.111 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_init_20633402400
+2026-08-11 18:38:03.112 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredCredential::getUsername(): java/lang/String
+2026-08-11 18:38:03.112 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredCredential::getUsername(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.username
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 18:38:03.162 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_getUsername_9865667621
+2026-08-11 18:38:03.162 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredCredential::getPassword(): char[]
+2026-08-11 18:38:03.162 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredCredential::getPassword(): char[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.password
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.getValue()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 18:38:03.210 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_getPassword_413483742
+2026-08-11 18:38:03.211 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredCredential::clear(): void
+2026-08-11 18:38:03.211 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredCredential::clear(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.password
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	virtual %1.clear()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 18:38:03.260 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_clear_927094023
+2026-08-11 18:38:03.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredCredential::equals(java/lang/Object): bool
+2026-08-11 18:38:03.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredCredential::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (this != arg$0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%6 = virtual this.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%7 = virtual arg$0.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %if.then0, %bb2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb2
+	%21 = (com/microsoft/credentialstorage/model/StoredCredential) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	%14 = this.username
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%15 = %21.username
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%17 = virtual %14.equals(%15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%19 = (%17 == false)
+	if (%19) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%23 = this.password
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	%24 = %21.password
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%26 = virtual %23.equals(%24)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%28 = (%26 == false)
+	if (%28) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb8
+	goto %goto0
+
+%if.then3: 	//predecessors %bb5, %bb8
+	goto %goto0
+
+%goto0: 	//predecessors %if.else3, %if.then3
+	%30 = phi {%if.else3 -> 1; %if.then3 -> 0}
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %goto0
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %goto0 -> %30}
+	return %retval1
+2026-08-11 18:38:03.310 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_equals_3018462534
+2026-08-11 18:38:03.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredCredential::hashCode(): int
+2026-08-11 18:38:03.310 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredCredential::hashCode(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = new java/lang/Object[2]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.username
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%6 = this.password
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7[1] = %6
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%9 = static Objects.hash(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %9
+2026-08-11 18:38:03.359 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_hashCode_7505329285
+2026-08-11 18:38:03.407 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_init_20633402406
+2026-08-11 18:38:03.465 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_getUsername_9865667627
+2026-08-11 18:38:03.515 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_getPassword_413483748
+2026-08-11 18:38:03.554 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_clear_927094029
+2026-08-11 18:38:03.594 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_equals_30184625310
+2026-08-11 18:38:03.639 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredCredential_hashCode_75053292811
+2026-08-11 18:38:03.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredCredential::<init>(java/lang/String, char[]): void: null
+2026-08-11 18:38:03.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredCredential::getUsername(): java/lang/String: null
+2026-08-11 18:38:03.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredCredential::getPassword(): char[]: null
+2026-08-11 18:38:03.640 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredCredential::clear(): void: null
+2026-08-11 18:38:03.641 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredCredential::equals(java/lang/Object): bool: null
+2026-08-11 18:38:03.641 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredCredential::hashCode(): int: null
+2026-08-11 18:38:03.641 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredCredential::<init>(java/lang/String, char[]): void processing is finished normally
+2026-08-11 18:38:03.641 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredCredential::getUsername(): java/lang/String processing is finished normally
+2026-08-11 18:38:03.641 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredCredential::getPassword(): char[] processing is finished normally
+2026-08-11 18:38:03.641 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredCredential::clear(): void processing is finished normally
+2026-08-11 18:38:03.641 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredCredential::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 18:38:03.641 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredCredential::hashCode(): int processing is finished normally
+2026-08-11 18:38:03.646 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/ClearableValue::<init>(char[]): void
+2026-08-11 18:38:03.647 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/ClearableValue::<init>(char[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%0 = static Objects.requireNonNull(arg$0, "The value parameter is null")
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%2 = arg$0.length
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%4 = static Arrays.copyOf(arg$0, %2)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.value = %4
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 18:38:03.692 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_init_19664000610
+2026-08-11 18:38:03.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/ClearableValue::getValue(): char[]
+2026-08-11 18:38:03.693 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/ClearableValue::getValue(): char[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.value
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 18:38:03.728 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_getValue_2064660321
+2026-08-11 18:38:03.728 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/ClearableValue::clear(): void
+2026-08-11 18:38:03.729 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/ClearableValue::clear(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = ClearableValue.EMPTY
+	%3 = this.value
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = (%2 != %3)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%9 = this.value
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%8 = ClearableValue.EMPTY
+	this.value = %8
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	static Arrays.fill(%9, 0)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb3
+	return
+2026-08-11 18:38:03.765 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_clear_6145290982
+2026-08-11 18:38:03.766 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/ClearableValue::equals(java/lang/Object): bool
+2026-08-11 18:38:03.766 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/ClearableValue::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (this != arg$0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%6 = virtual this.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%7 = virtual arg$0.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %if.then0, %bb2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb2
+	%12 = (com/microsoft/credentialstorage/model/ClearableValue) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	%14 = this.value
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%15 = %12.value
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%17 = static Arrays.equals(%14, %15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %bb5
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %bb5 -> %17}
+	return %retval1
+2026-08-11 18:38:03.802 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_equals_8236659493
+2026-08-11 18:38:03.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/ClearableValue::hashCode(): int
+2026-08-11 18:38:03.803 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/ClearableValue::hashCode(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.value
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static Arrays.hashCode(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 18:38:03.837 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_hashCode_12723526244
+2026-08-11 18:38:03.872 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_init_19664000615
+2026-08-11 18:38:03.909 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_getValue_2064660326
+2026-08-11 18:38:03.942 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_clear_6145290987
+2026-08-11 18:38:03.977 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_equals_8236659498
+2026-08-11 18:38:04.010 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.ClearableValue_hashCode_12723526249
+2026-08-11 18:38:04.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/ClearableValue::<init>(char[]): void: null
+2026-08-11 18:38:04.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/ClearableValue::getValue(): char[]: null
+2026-08-11 18:38:04.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/ClearableValue::clear(): void: null
+2026-08-11 18:38:04.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/ClearableValue::equals(java/lang/Object): bool: null
+2026-08-11 18:38:04.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/ClearableValue::hashCode(): int: null
+2026-08-11 18:38:04.011 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/ClearableValue::<init>(char[]): void processing is finished normally
+2026-08-11 18:38:04.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/ClearableValue::getValue(): char[] processing is finished normally
+2026-08-11 18:38:04.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/ClearableValue::clear(): void processing is finished normally
+2026-08-11 18:38:04.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/ClearableValue::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 18:38:04.012 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/ClearableValue::hashCode(): int processing is finished normally
+2026-08-11 18:38:04.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(com/microsoft/credentialstorage/model/StoredToken, com/microsoft/credentialstorage/model/StoredToken): void
+2026-08-11 18:38:04.017 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::<init>(com/microsoft/credentialstorage/model/StoredToken, com/microsoft/credentialstorage/model/StoredToken): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%0 = static Objects.requireNonNull(arg$0, "The accessToken parameter is null")
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%1 = static Objects.requireNonNull(arg$1, "The refreshToken parameter is null")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	this.accessToken = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	this.refreshToken = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 18:38:04.061 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_init_15331960750
+2026-08-11 18:38:04.061 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[], java/util/Map): void
+2026-08-11 18:38:04.061 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[], java/util/Map): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%0 = static Objects.requireNonNull(arg$0, "The accessToken parameter is null")
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%1 = static Objects.requireNonNull(arg$1, "The refreshToken parameter is null")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%2 = static Objects.requireNonNull(arg$2, "The parameters parameter is null")
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%7 = new com/microsoft/credentialstorage/model/StoredToken
+	%6 = StoredTokenType.ACCESS
+	special %7.<init>(arg$0, %6)
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	this.accessToken = %7
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = new com/microsoft/credentialstorage/model/StoredToken
+	%11 = StoredTokenType.REFRESH
+	special %12.<init>(arg$1, %11)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.refreshToken = %12
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-08-11 18:38:04.099 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_init_1729226831
+2026-08-11 18:38:04.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[]): void
+2026-08-11 18:38:04.100 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Collections.emptyMap()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special this.<init>(arg$0, arg$1, %1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 18:38:04.136 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_init_3017757652
+2026-08-11 18:38:04.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::getAccessToken(): com/microsoft/credentialstorage/model/StoredToken
+2026-08-11 18:38:04.137 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::getAccessToken(): com/microsoft/credentialstorage/model/StoredToken
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.accessToken
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 18:38:04.196 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_getAccessToken_15572797803
+2026-08-11 18:38:04.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::getRefreshToken(): com/microsoft/credentialstorage/model/StoredToken
+2026-08-11 18:38:04.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::getRefreshToken(): com/microsoft/credentialstorage/model/StoredToken
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.refreshToken
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 18:38:04.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_getRefreshToken_9170215614
+2026-08-11 18:38:04.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::clear(): void
+2026-08-11 18:38:04.252 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::clear(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.accessToken
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	virtual %1.clear()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = this.refreshToken
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %3.clear()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 18:38:04.307 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_clear_20157850725
+2026-08-11 18:38:04.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::equals(java/lang/Object): bool
+2026-08-11 18:38:04.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::equals(java/lang/Object): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (this != arg$0)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %if.then0
+	%6 = virtual this.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%7 = virtual arg$0.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %if.then0, %bb2
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb2
+	%21 = (com/microsoft/credentialstorage/model/StoredTokenPair) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.then2
+	%14 = this.accessToken
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%15 = %21.accessToken
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%17 = virtual %14.equals(%15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%19 = (%17 == false)
+	if (%19) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%23 = this.refreshToken
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	%24 = %21.refreshToken
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%26 = virtual %23.equals(%24)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%28 = (%26 == false)
+	if (%28) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %bb8
+	goto %goto0
+
+%if.then3: 	//predecessors %bb5, %bb8
+	goto %goto0
+
+%goto0: 	//predecessors %if.else3, %if.then3
+	%30 = phi {%if.else3 -> 1; %if.then3 -> 0}
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then1, %goto0
+	%retval1 = phi {%if.else0 -> 1; %if.then1 -> 0; %goto0 -> %30}
+	return %retval1
+2026-08-11 18:38:04.358 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_equals_18066482216
+2026-08-11 18:38:04.359 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/microsoft/credentialstorage/model/StoredTokenPair::hashCode(): int
+2026-08-11 18:38:04.359 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/microsoft/credentialstorage/model/StoredTokenPair::hashCode(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = new java/lang/Object[2]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.accessToken
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%6 = this.refreshToken
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7[1] = %6
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%9 = static Objects.hash(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %9
+2026-08-11 18:38:04.409 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_hashCode_13579615467
+2026-08-11 18:38:04.451 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_init_15331960758
+2026-08-11 18:38:04.485 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_init_1729226839
+2026-08-11 18:38:04.530 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_init_30177576510
+2026-08-11 18:38:04.568 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_getAccessToken_155727978011
+2026-08-11 18:38:04.610 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_getRefreshToken_91702156112
+2026-08-11 18:38:04.646 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_clear_201578507213
+2026-08-11 18:38:04.692 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_equals_180664822114
+2026-08-11 18:38:04.735 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.microsoft.credentialstorage.model.StoredTokenPair_hashCode_135796154615
+2026-08-11 18:38:04.736 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(com/microsoft/credentialstorage/model/StoredToken, com/microsoft/credentialstorage/model/StoredToken): void: null
+2026-08-11 18:38:04.736 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[], java/util/Map): void: null
+2026-08-11 18:38:04.736 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[]): void: null
+2026-08-11 18:38:04.736 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::getAccessToken(): com/microsoft/credentialstorage/model/StoredToken: null
+2026-08-11 18:38:04.736 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::getRefreshToken(): com/microsoft/credentialstorage/model/StoredToken: null
+2026-08-11 18:38:04.737 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::clear(): void: null
+2026-08-11 18:38:04.737 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::equals(java/lang/Object): bool: null
+2026-08-11 18:38:04.737 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/microsoft/credentialstorage/model/StoredTokenPair::hashCode(): int: null
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(com/microsoft/credentialstorage/model/StoredToken, com/microsoft/credentialstorage/model/StoredToken): void processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[], java/util/Map): void processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::<init>(char[], char[]): void processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::getAccessToken(): com/microsoft/credentialstorage/model/StoredToken processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::getRefreshToken(): com/microsoft/credentialstorage/model/StoredToken processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::clear(): void processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::equals(java/lang/Object): bool processing is finished normally
+2026-08-11 18:38:04.737 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/microsoft/credentialstorage/model/StoredTokenPair::hashCode(): int processing is finished normally
+2026-08-11 18:38:04.738 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 18:38:04.738 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

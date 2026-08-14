@@ -1,0 +1,755 @@
+2026-08-11 15:47:51.202 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kegisa_TinkoffStockService/target/classes
+2026-08-11 15:47:51.404 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 15:47:51.530 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 15:47:53.170 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 15:47:54.288 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/victorlevin/TinkoffStockService/service/*
+2026-08-11 15:47:54.290 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 15:47:54.304 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kegisa_TinkoffStockService/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 15:47:54.354 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kegisa_TinkoffStockService/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 43827 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/kegisa_TinkoffStockService/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 15:47:54.375 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 15:49:34.430 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getMarketInstrumentTicker(java/lang/String): java/util/concurrent/CompletableFuture
+2026-08-11 15:49:34.431 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/victorlevin/TinkoffStockService/service/TinkoffStockService::getMarketInstrumentTicker(java/lang/String): java/util/concurrent/CompletableFuture
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TinkoffStockService.log
+	interface %1.info("Getting {} from Tinkoff", arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.api
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual %3.getMarketContext()
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%7 = interface %5.searchMarketInstrumentsByTicker(arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	return %7
+2026-08-11 15:49:34.440 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getMarketInstrumentTicker(java/lang/String): java/util/concurrent/CompletableFuture
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.441 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getMarketInstrumentTicker(java/lang/String): java/util/concurrent/CompletableFuture
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.441 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getMarketInstrumentTicker(java/lang/String): java/util/concurrent/CompletableFuture: null
+2026-08-11 15:49:34.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStockByTicker(java/lang/String): com/victorlevin/TinkoffStockService/model/Stock
+2026-08-11 15:49:34.441 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStockByTicker(java/lang/String): com/victorlevin/TinkoffStockService/model/Stock
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.getMarketInstrumentTicker(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = virtual %1.join()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = (ru/tinkoff/invest/openapi/model/rest/MarketInstrumentList) %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%20 = virtual %5.getInstruments()
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%9 = interface %20.isEmpty()
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%11 = (%9 == false)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%19 = new com/victorlevin/TinkoffStockService/exception/StockNotFoundException
+	%15 = new java/lang/Object[1]
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%15[0] = arg$0
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%18 = static String.format("Stock %S not found.", %15)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	special %19.<init>(%18)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	throw %19
+
+%if.then0: 	//predecessors %bb3
+	%22 = interface %20.get(0)
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%35 = (ru/tinkoff/invest/openapi/model/rest/MarketInstrument) %22
+	goto %label2
+
+%label2: 	//predecessors %bb8
+	%47 = new com/victorlevin/TinkoffStockService/model/Stock
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%42 = virtual %35.getTicker()
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%43 = virtual %35.getFigi()
+	goto %label5
+
+%label5: 	//predecessors %label4
+	%44 = virtual %35.getName()
+	goto %label6
+
+%label6: 	//predecessors %label5
+	%33 = virtual %35.getType()
+	goto %bb9
+
+%bb9: 	//predecessors %label6
+	%45 = virtual %33.getValue()
+	goto %label7
+
+%label7: 	//predecessors %bb9
+	%37 = virtual %35.getCurrency()
+	goto %bb10
+
+%bb10: 	//predecessors %label7
+	%39 = virtual %37.getValue()
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%46 = static Currency.valueOf(%39)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	special %47.<init>(%42, %43, %44, %45, %46, "TINKOFF")
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	return %47
+2026-08-11 15:49:34.442 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStockByTicker(java/lang/String): com/victorlevin/TinkoffStockService/model/Stock
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.443 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStockByTicker(java/lang/String): com/victorlevin/TinkoffStockService/model/Stock
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.443 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStockByTicker(java/lang/String): com/victorlevin/TinkoffStockService/model/Stock: null
+2026-08-11 15:49:34.443 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStocksByTickers(com/victorlevin/TinkoffStockService/dto/TickersDto): com/victorlevin/TinkoffStockService/dto/StocksDto
+2026-08-11 15:49:34.444 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStocksByTickers(com/victorlevin/TinkoffStockService/dto/TickersDto): com/victorlevin/TinkoffStockService/dto/StocksDto
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = new java/util/ArrayList
+	special %7.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%5 = virtual arg$0.getTickers()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%6 = invokeDynamic (com/victorlevin/TinkoffStockService/service/TinkoffStockService, java/util/List): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/String): void)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getStocksByTickers$0(java/util/List, java/lang/String): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	interface %5.forEach(%6)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%10 = interface %7.stream()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%11 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/util/concurrent/CompletableFuture): ru/tinkoff/invest/openapi/model/rest/MarketInstrumentList)), HandleBsmArgument(handle=@java/util/concurrent/CompletableFuture::join(): java/lang/Object), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%14 = interface %10.map(%11)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%15 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(ru/tinkoff/invest/openapi/model/rest/MarketInstrumentList): ru/tinkoff/invest/openapi/model/rest/MarketInstrument)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getStocksByTickers$1(ru/tinkoff/invest/openapi/model/rest/MarketInstrumentList): ru/tinkoff/invest/openapi/model/rest/MarketInstrument), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%18 = interface %14.map(%15)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%19 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(ru/tinkoff/invest/openapi/model/rest/MarketInstrument): bool)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getStocksByTickers$2(ru/tinkoff/invest/openapi/model/rest/MarketInstrument): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%22 = interface %18.filter(%19)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%23 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(ru/tinkoff/invest/openapi/model/rest/MarketInstrument): com/victorlevin/TinkoffStockService/model/Stock)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getStocksByTickers$3(ru/tinkoff/invest/openapi/model/rest/MarketInstrument): com/victorlevin/TinkoffStockService/model/Stock), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%26 = interface %22.map(%23)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%27 = static Collectors.toList()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%29 = interface %26.collect(%27)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%33 = (java/util/List) %29
+	goto %label1
+
+%label1: 	//predecessors %bb14
+	%34 = new com/victorlevin/TinkoffStockService/dto/StocksDto
+	special %34.<init>(%33)
+	goto %bb15
+
+%bb15: 	//predecessors %label1
+	return %34
+2026-08-11 15:49:34.444 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStocksByTickers(com/victorlevin/TinkoffStockService/dto/TickersDto): com/victorlevin/TinkoffStockService/dto/StocksDto
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.445 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStocksByTickers(com/victorlevin/TinkoffStockService/dto/TickersDto): com/victorlevin/TinkoffStockService/dto/StocksDto
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.445 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStocksByTickers(com/victorlevin/TinkoffStockService/dto/TickersDto): com/victorlevin/TinkoffStockService/dto/StocksDto: null
+2026-08-11 15:49:34.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getOrderBookByFigi(java/lang/String): java/util/concurrent/CompletableFuture
+2026-08-11 15:49:34.445 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/victorlevin/TinkoffStockService/service/TinkoffStockService::getOrderBookByFigi(java/lang/String): java/util/concurrent/CompletableFuture
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.api
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.getMarketContext()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = interface %3.getMarketOrderbook(arg$0, 0)
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%6 = TinkoffStockService.log
+	interface %6.info("Getting price {} from Tinkoff", arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	return %7
+2026-08-11 15:49:34.446 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getOrderBookByFigi(java/lang/String): java/util/concurrent/CompletableFuture
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.447 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getOrderBookByFigi(java/lang/String): java/util/concurrent/CompletableFuture
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.447 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getOrderBookByFigi(java/lang/String): java/util/concurrent/CompletableFuture: null
+2026-08-11 15:49:34.448 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getPricesStocksByFigies(com/victorlevin/TinkoffStockService/dto/FigiesDto): com/victorlevin/TinkoffStockService/dto/StocksPricesDto
+2026-08-11 15:49:34.448 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/victorlevin/TinkoffStockService/service/TinkoffStockService::getPricesStocksByFigies(com/victorlevin/TinkoffStockService/dto/FigiesDto): com/victorlevin/TinkoffStockService/dto/StocksPricesDto
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%31 = static System.currentTimeMillis()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%8 = new java/util/ArrayList
+	special %8.<init>()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%6 = virtual arg$0.getFigies()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%7 = invokeDynamic (com/victorlevin/TinkoffStockService/service/TinkoffStockService, java/util/List): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/String): void)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getPricesStocksByFigies$4(java/util/List, java/lang/String): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	interface %6.forEach(%7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%11 = interface %8.stream()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%12 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/util/concurrent/CompletableFuture): java/util/Optional)), HandleBsmArgument(handle=@java/util/concurrent/CompletableFuture::join(): java/lang/Object), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%15 = interface %11.map(%12)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%16 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/util/Optional): ru/tinkoff/invest/openapi/model/rest/Orderbook)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getPricesStocksByFigies$6(java/util/Optional): ru/tinkoff/invest/openapi/model/rest/Orderbook), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%19 = interface %15.map(%16)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%20 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(ru/tinkoff/invest/openapi/model/rest/Orderbook): com/victorlevin/TinkoffStockService/dto/StockPrice)), HandleBsmArgument(handle=@com/victorlevin/TinkoffStockService/service/TinkoffStockService::lambda$getPricesStocksByFigies$7(ru/tinkoff/invest/openapi/model/rest/Orderbook): com/victorlevin/TinkoffStockService/dto/StockPrice), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%23 = interface %19.map(%20)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%24 = static Collectors.toList()
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%26 = interface %23.collect(%24)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%39 = (java/util/List) %26
+	goto %label2
+
+%label2: 	//predecessors %bb12
+	%35 = TinkoffStockService.log
+	%30 = static System.currentTimeMillis()
+	goto %bb13
+
+%bb13: 	//predecessors %label2
+	%33 = %30 - %31
+	%36 = static Long.valueOf(%33)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	interface %35.info("Time getting prices - {}", %36)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%40 = new com/victorlevin/TinkoffStockService/dto/StocksPricesDto
+	special %40.<init>(%39)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	return %40
+2026-08-11 15:49:34.449 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getPricesStocksByFigies(com/victorlevin/TinkoffStockService/dto/FigiesDto): com/victorlevin/TinkoffStockService/dto/StocksPricesDto
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getPricesStocksByFigies(com/victorlevin/TinkoffStockService/dto/FigiesDto): com/victorlevin/TinkoffStockService/dto/StocksPricesDto
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: ru/tinkoff/invest/openapi/model/rest/Orderbook
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.model.rest.Orderbook
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 15:49:34.450 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getPricesStocksByFigies(com/victorlevin/TinkoffStockService/dto/FigiesDto): com/victorlevin/TinkoffStockService/dto/StocksPricesDto: null
+2026-08-11 15:49:34.450 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/victorlevin/TinkoffStockService/service/TinkoffStockService::<init>(ru/tinkoff/invest/openapi/OpenApi): void
+2026-08-11 15:49:34.451 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/victorlevin/TinkoffStockService/service/TinkoffStockService::<init>(ru/tinkoff/invest/openapi/OpenApi): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.api = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 15:49:34.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.OpenApi
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 15:49:34.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: ru.tinkoff.invest.openapi.OpenApi
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 15:49:34.451 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/victorlevin/TinkoffStockService/service/TinkoffStockService::<init>(ru/tinkoff/invest/openapi/OpenApi): void: null
+2026-08-11 15:49:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getMarketInstrumentTicker(java/lang/String): java/util/concurrent/CompletableFuture processing is finished normally
+2026-08-11 15:49:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStockByTicker(java/lang/String): com/victorlevin/TinkoffStockService/model/Stock processing is finished normally
+2026-08-11 15:49:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getStocksByTickers(com/victorlevin/TinkoffStockService/dto/TickersDto): com/victorlevin/TinkoffStockService/dto/StocksDto processing is finished normally
+2026-08-11 15:49:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getOrderBookByFigi(java/lang/String): java/util/concurrent/CompletableFuture processing is finished normally
+2026-08-11 15:49:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/victorlevin/TinkoffStockService/service/TinkoffStockService::getPricesStocksByFigies(com/victorlevin/TinkoffStockService/dto/FigiesDto): com/victorlevin/TinkoffStockService/dto/StocksPricesDto processing is finished normally
+2026-08-11 15:49:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/victorlevin/TinkoffStockService/service/TinkoffStockService::<init>(ru/tinkoff/invest/openapi/OpenApi): void processing is finished normally
+2026-08-11 15:49:34.457 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 15:49:34.457 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

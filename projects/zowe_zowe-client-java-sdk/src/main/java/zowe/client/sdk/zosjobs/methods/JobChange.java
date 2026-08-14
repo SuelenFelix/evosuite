@@ -1,0 +1,316 @@
+/*
+ * This program and the accompanying materials are made available under the terms of the
+ * Eclipse Public License v2.0 which accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-v20.html
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *
+ * Copyright Contributors to the Zowe Project.
+ */
+package zowe.client.sdk.zosjobs.methods;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import zowe.client.sdk.core.ZosConnection;
+import zowe.client.sdk.rest.PutJsonZosmfRequest;
+import zowe.client.sdk.rest.UrlConstants;
+import zowe.client.sdk.rest.ZosmfRequest;
+import zowe.client.sdk.rest.ZosmfRequestFactory;
+import zowe.client.sdk.rest.exception.ZosmfRequestException;
+import zowe.client.sdk.rest.type.ZosmfRequestType;
+import zowe.client.sdk.utility.JsonUtils;
+import zowe.client.sdk.utility.ValidateUtils;
+import zowe.client.sdk.zosjobs.JobsConstants;
+import zowe.client.sdk.zosjobs.input.JobModifyInputData;
+import zowe.client.sdk.zosjobs.model.Job;
+import zowe.client.sdk.zosjobs.response.JobFeedback;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * JobChange class for managing running jobs on z/OS.
+ * <p>
+ * Provides operations to modify a job’s attributes, including changing its job class,
+ * placing a job on hold, and releasing a held job.
+ * <p>
+ * <a href="https://www.ibm.com/docs/en/zos/3.2.0?topic=interface-change-job-class">z/OSMF REST API</a>
+ *
+ * @author Frank Giordano
+ * @version 7.0
+ */
+public class JobChange {
+
+    private static final Logger LOG = LoggerFactory.getLogger(JobChange.class);
+    private final ZosConnection connection;
+    private final ZosmfRequest request;
+
+    /**
+     * JobChange constructor.
+     *
+     * @param connection for connection information, see ZosConnection object
+     * @author Frank Giordano
+     */
+    public JobChange(final ZosConnection connection) {
+        ValidateUtils.checkNullParameter(connection, "connection");
+        this.connection = connection;
+        this.request = ZosmfRequestFactory.buildRequest(connection, ZosmfRequestType.PUT_JSON);
+    }
+
+    /**
+     * Alternative JobChange constructor with ZosmfRequest object.
+     * This is mainly used for internal unit testing with Mockito.
+     * <p>
+     * This constructor is package-private visibility.
+     *
+     * @param connection for connection information
+     * @param request    a {@link PutJsonZosmfRequest} implementation object
+     * @author Frank Giordano
+     */
+    JobChange(final ZosConnection connection, final ZosmfRequest request) {
+        ValidateUtils.checkNullParameter(connection, "connection");
+        ValidateUtils.checkNullParameter(request, "request");
+        this.connection = connection;
+        if (!(request instanceof PutJsonZosmfRequest)) {
+            throw new IllegalStateException("PUT_JSON request type required");
+        }
+        this.request = request;
+    }
+
+    /**
+     * Change the class of a job by job name and job id.
+     *
+     * @param jobName  job name
+     * @param jobId    job id
+     * @param jobClass new job class (for example, A, B, C)
+     * @param version  version number - 1.0 or 2.0
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback changeClass(final String jobName, final String jobId,
+                                   final String jobClass, final String version) throws ZosmfRequestException {
+        return this.changeClassCommon(
+                new JobModifyInputData.Builder(jobName, jobId)
+                        .jobClass(jobClass)
+                        .version(version)
+                        .build()
+        );
+    }
+
+    /**
+     * Change the class of a job using a Job object.
+     *
+     * @param job      job document
+     * @param jobClass new job class (for example, A, B, C)
+     * @param version  version number - 1.0 or 2.0
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback changeClassByJob(final Job job, final String jobClass, final String version)
+            throws ZosmfRequestException {
+        ValidateUtils.checkNullParameter(job, "job");
+
+        return this.changeClassCommon(
+                new JobModifyInputData.Builder(job.getJobName(), job.getJobId())
+                        .jobClass(jobClass)
+                        .version(version)
+                        .build()
+        );
+    }
+
+    /**
+     * Common change job class implementation.
+     *
+     * @param modifyInputData job modify parameters
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback changeClassCommon(final JobModifyInputData modifyInputData) throws ZosmfRequestException {
+        ValidateUtils.checkNullParameter(modifyInputData, "modifyInputData");
+        ValidateUtils.checkIllegalParameter(modifyInputData.getJobClass().isEmpty(), JobsConstants.JOB_CLASS_ILLEGAL_MSG);
+
+        final String url = getUrl(connection.getZosmfUrl(), modifyInputData);
+        final String version = getVersion(modifyInputData);
+
+        final Map<String, String> changeMap = new HashMap<>();
+        changeMap.put("class", modifyInputData.getJobClass().get());
+        changeMap.put("version", version);
+
+        request.setUrl(url);
+        request.setBody(JsonUtils.asRequestBodyJson(changeMap));
+
+        final String responsePhrase = request.executeRequest()
+                .getResponsePhrase()
+                .orElseThrow(() -> new IllegalStateException("no job change class response phrase"))
+                .toString();
+
+        final String context = "changeClassCommon";
+        return JsonUtils.parseResponse(String.valueOf(responsePhrase), JobFeedback.class, context);
+    }
+
+    /**
+     * Hold a job by job name and job id.
+     *
+     * @param jobName job name
+     * @param jobId   job id
+     * @param version version number - 1.0 or 2.0
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback hold(final String jobName, final String jobId, final String version)
+            throws ZosmfRequestException {
+        return this.holdCommon(
+                new JobModifyInputData.Builder(jobName, jobId)
+                        .version(version)
+                        .build()
+        );
+    }
+
+    /**
+     * Hold a job using a Job object.
+     *
+     * @param job     job document
+     * @param version version number - 1.0 or 2.0
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback holdByJob(final Job job, final String version)
+            throws ZosmfRequestException {
+        ValidateUtils.checkNullParameter(job, "job");
+
+        return this.holdCommon(
+                new JobModifyInputData.Builder(job.getJobName(), job.getJobId())
+                        .version(version)
+                        .build()
+        );
+    }
+
+    /**
+     * Common hold job implementation.
+     *
+     * @param modifyInputData job modify parameters
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback holdCommon(final JobModifyInputData modifyInputData) throws ZosmfRequestException {
+        ValidateUtils.checkNullParameter(modifyInputData, "modifyInputData");
+
+        final String url = getUrl(connection.getZosmfUrl(), modifyInputData);
+        final String version = getVersion(modifyInputData);
+
+        final Map<String, String> holdMap = new HashMap<>();
+        holdMap.put("request", "hold");
+        holdMap.put("version", version);
+
+        request.setUrl(url);
+        request.setBody(JsonUtils.asRequestBodyJson(holdMap));
+
+        final String responsePhrase = request.executeRequest()
+                .getResponsePhrase()
+                .orElseThrow(() -> new IllegalStateException("no job hold response phrase"))
+                .toString();
+
+        final String context = "holdCommon";
+        return JsonUtils.parseResponse(responsePhrase, JobFeedback.class, context);
+    }
+
+    /**
+     * Release a job by job name and job id.
+     *
+     * @param jobName job name
+     * @param jobId   job id
+     * @param version version number - 1.0 or 2.0
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback release(final String jobName, final String jobId, final String version)
+            throws ZosmfRequestException {
+        return this.releaseCommon(
+                new JobModifyInputData.Builder(jobName, jobId)
+                        .version(version)
+                        .build()
+        );
+    }
+
+    /**
+     * Release a job using a Job object.
+     *
+     * @param job     job document
+     * @param version version number - 1.0 or 2.0
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback releaseByJob(final Job job, final String version)
+            throws ZosmfRequestException {
+        ValidateUtils.checkNullParameter(job, "job");
+
+        return this.releaseCommon(
+                new JobModifyInputData.Builder(job.getJobName(), job.getJobId())
+                        .version(version)
+                        .build()
+        );
+    }
+
+    /**
+     * Common release job implementation.
+     *
+     * @param modifyInputData job modify parameters
+     * @return JobFeedback object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     */
+    public JobFeedback releaseCommon(final JobModifyInputData modifyInputData) throws ZosmfRequestException {
+        ValidateUtils.checkNullParameter(modifyInputData, "modifyInputData");
+
+        final String url = getUrl(connection.getZosmfUrl(), modifyInputData);
+        final String version = getVersion(modifyInputData);
+
+        final Map<String, String> releaseMap = new HashMap<>();
+        releaseMap.put("request", "release");
+        releaseMap.put("version", version);
+
+        request.setUrl(url);
+        request.setBody(JsonUtils.asRequestBodyJson(releaseMap));
+
+        final String responsePhrase = request.executeRequest()
+                .getResponsePhrase()
+                .orElseThrow(() -> new IllegalStateException("no job release response phrase"))
+                .toString();
+
+        final String context = "releaseCommon";
+        return JsonUtils.parseResponse(responsePhrase, JobFeedback.class, context);
+    }
+
+    private static String getUrl(final String zosmfUrl, final JobModifyInputData modifyInputData) {
+        ValidateUtils.checkIllegalParameter(modifyInputData.getJobName().isEmpty(), JobsConstants.JOB_NAME_ILLEGAL_MSG);
+        ValidateUtils.checkIllegalParameter(modifyInputData.getJobId().isEmpty(), JobsConstants.JOB_ID_ILLEGAL_MSG);
+        return zosmfUrl +
+                JobsConstants.RESOURCE +
+                UrlConstants.URL_PATH_DELIM +
+                modifyInputData.getJobName().get() +
+                UrlConstants.URL_PATH_DELIM +
+                modifyInputData.getJobId().get();
+    }
+
+    private static String getVersion(final JobModifyInputData modifyInputData) {
+        final String version = modifyInputData.getVersion().orElse(JobsConstants.DEFAULT_VERSION);
+
+        if ("1.0".equals(version)) {
+            LOG.debug("version 1.0 specified – asynchronous processing");
+        } else if ("2.0".equals(version)) {
+            LOG.debug("version 2.0 specified – synchronous processing");
+        } else {
+            throw new IllegalArgumentException("invalid version specified");
+        }
+        return version;
+    }
+
+}

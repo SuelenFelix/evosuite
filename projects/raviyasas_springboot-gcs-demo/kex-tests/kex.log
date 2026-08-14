@@ -1,0 +1,620 @@
+2026-08-12 07:32:18.282 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/raviyasas_springboot-gcs-demo/target/classes
+2026-08-12 07:32:18.375 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 07:32:18.444 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 07:32:19.246 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 07:32:19.751 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/app/util/*
+2026-08-12 07:32:19.752 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 07:32:19.762 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/raviyasas_springboot-gcs-demo/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 07:32:19.794 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/raviyasas_springboot-gcs-demo/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 40577 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/raviyasas_springboot-gcs-demo/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 07:32:19.806 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 07:33:59.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/app/util/DataBucketUtil::<init>(): void
+2026-08-12 07:33:59.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/app/util/DataBucketUtil::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 07:33:59.879 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/app/util/DataBucketUtil::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/auth/Credentials
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.auth.Credentials
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-12 07:33:59.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/app/util/DataBucketUtil::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/auth/Credentials
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.auth.Credentials
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-12 07:33:59.880 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/app/util/DataBucketUtil::<init>(): void: null
+2026-08-12 07:33:59.880 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/app/util/DataBucketUtil::uploadFile(org/springframework/web/multipart/MultipartFile, java/lang/String, java/lang/String): com/app/dto/FileDto
+2026-08-12 07:33:59.881 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/app/util/DataBucketUtil::uploadFile(org/springframework/web/multipart/MultipartFile, java/lang/String, java/lang/String): com/app/dto/FileDto
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = DataBucketUtil.LOGGER
+	interface %1.debug("Start file uploading process on GCS")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual this.convertFile(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%57 = static FileUtils.readFileToByteArray(%3)
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%9 = new org/springframework/core/io/ClassPathResource
+	%8 = this.gcpConfigFile
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	special %9.<init>(%8)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%18 = virtual %9.getInputStream()
+	goto %label1
+
+%label1: 	//predecessors %bb4
+	%13 = static StorageOptions.newBuilder()
+	goto %bb5
+
+%bb5: 	//predecessors %label1
+	%14 = this.gcpProjectId
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%16 = virtual %13.setProjectId(%14)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%20 = (com/google/cloud/storage/StorageOptions$Builder) %16
+	goto %label2
+
+%label2: 	//predecessors %bb7
+	%21 = static GoogleCredentials.fromStream(%18)
+	goto %bb8
+
+%bb8: 	//predecessors %label2
+	%23 = virtual %20.setCredentials(%21)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%25 = (com/google/cloud/storage/StorageOptions$Builder) %23
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%27 = virtual %25.build()
+	goto %label3
+
+%label3: 	//predecessors %bb10
+	%29 = virtual %27.getService()
+	goto %bb11
+
+%bb11: 	//predecessors %label3
+	%38 = (com/google/cloud/storage/Storage) %29
+	goto %label4
+
+%label4: 	//predecessors %bb11
+	%39 = this.gcpBucketId
+	goto %bb12
+
+%bb12: 	//predecessors %label4
+	%40 = new com/google/cloud/storage/Storage$BucketGetOption[1]
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%34 = new com/google/cloud/storage/Storage$BucketField[0]
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%37 = static Storage$BucketGetOption.fields(%34)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%40[0] = %37
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%55 = interface %38.get(%39, %40)
+	goto %label5
+
+%label5: 	//predecessors %bb16
+	%47 = new net/bytebuddy/utility/RandomString
+	%45 = static ThreadLocalRandom.current()
+	goto %bb17
+
+%bb17: 	//predecessors %label5
+	special %47.<init>(6, %45)
+	goto %label6
+
+%label6: 	//predecessors %bb17
+	%50 = this.gcpDirectoryName
+	goto %bb18
+
+%bb18: 	//predecessors %label6
+	%51 = virtual %47.nextString()
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%52 = virtual this.checkFileExtension(arg$1)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%56 = invokeDynamic (java/lang/String, java/lang/String, java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="/-"))
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%58 = new com/google/cloud/storage/Bucket$BlobTargetOption[0]
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%68 = virtual %55.create(%56, %57, arg$2, %58)
+	goto %label7
+
+%label7: 	//predecessors %bb22
+	%62 = (%68 == null)
+	if (%62) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label7
+	%64 = DataBucketUtil.LOGGER
+	interface %64.debug("File successfully uploaded to GCS")
+	goto %bb23
+
+%bb23: 	//predecessors %if.else0
+	%73 = new com/app/dto/FileDto
+	%71 = virtual %68.getName()
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	%72 = virtual %68.getMediaLink()
+	goto %bb25
+
+%bb25: 	//predecessors %bb24
+	special %73.<init>(%71, %72)
+	goto %bb26
+
+%bb26: 	//predecessors %bb25
+	return %73
+
+%if.then0: 	//predecessors %label7
+	goto %goto0
+
+%catch0: 	//catches from %bb11, %bb6, %label6, %bb19, %bb4, %bb16, %bb18, %bb8, %bb15, %label2, %bb0, %bb23, %label5, %label4, %bb1, %bb14, %bb7, %label0, %label7, %bb9, %bb10, %if.else0, %bb2, %bb20, %label1, %bb5, %bb21, %bb17, %bb24, %bb25, %label3, %bb3, %bb13, %bb22, %bb12
+	%77 = catch java/lang/Exception
+goto %label8
+
+%label8: 	//predecessors %catch0
+	%76 = DataBucketUtil.LOGGER
+	interface %76.error("An error occurred while uploading data. Exception: ", %77)
+	goto %bb27
+
+%bb27: 	//predecessors %label8
+	%80 = new com/app/exception/GCPFileUploadException
+	special %80.<init>("An error occurred while storing data to GCS")
+	goto %bb28
+
+%bb28: 	//predecessors %bb27
+	throw %80
+
+%goto0: 	//predecessors %if.then0
+	%83 = new com/app/exception/GCPFileUploadException
+	special %83.<init>("An error occurred while storing data to GCS")
+	goto %bb29
+
+%bb29: 	//predecessors %goto0
+	throw %83
+2026-08-12 07:33:59.881 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.web.multipart.MultipartFile
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:33:59.882 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.web.multipart.MultipartFile
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:33:59.882 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/app/util/DataBucketUtil::uploadFile(org/springframework/web/multipart/MultipartFile, java/lang/String, java/lang/String): com/app/dto/FileDto: null
+2026-08-12 07:33:59.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/app/util/DataBucketUtil::convertFile(org/springframework/web/multipart/MultipartFile): java/io/File
+2026-08-12 07:33:59.882 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/app/util/DataBucketUtil::convertFile(org/springframework/web/multipart/MultipartFile): java/io/File
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$0.getOriginalFilename()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new com/app/exception/BadRequestException
+	special %6.<init>("Original file name is null")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%21 = new java/io/File
+	%10 = interface arg$0.getOriginalFilename()
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	special %21.<init>(%10)
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	%17 = new java/io/FileOutputStream
+	special %17.<init>(%21)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%16 = interface arg$0.getBytes()
+	goto %bb4
+
+%bb4: 	//predecessors %label1
+	virtual %17.write(%16)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	virtual %17.close()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%19 = DataBucketUtil.LOGGER
+	interface %19.debug("Converting multipart file : {}", %21)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %label2
+
+%label2: 	//predecessors %bb7
+	return %21
+
+%catch0: 	//catches from %label1, %bb4, %bb2, %if.then0, %if.else0, %bb1, %bb5, %bb3, %bb7, %label0, %bb6, %bb0
+	%22 = catch java/lang/Exception
+goto %label3
+
+%label3: 	//predecessors %catch0
+	%25 = new com/app/exception/FileWriteException
+	special %25.<init>("An error has occurred while converting the file")
+	goto %bb8
+
+%bb8: 	//predecessors %label3
+	throw %25
+2026-08-12 07:33:59.882 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.web.multipart.MultipartFile
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:33:59.882 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.web.multipart.MultipartFile
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:33:59.883 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/app/util/DataBucketUtil::convertFile(org/springframework/web/multipart/MultipartFile): java/io/File: null
+2026-08-12 07:33:59.883 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/app/util/DataBucketUtil::checkFileExtension(java/lang/String): java/lang/String
+2026-08-12 07:33:59.883 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/app/util/DataBucketUtil::checkFileExtension(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = virtual arg$0.contains(".")
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%5 = (%3 == false)
+	if (%5) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%20 = new java/lang/String[5]
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	%20[0] = ".png"
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%20[1] = ".jpeg"
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%20[2] = ".pdf"
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%20[3] = ".doc"
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%20[4] = ".mp3"
+	goto %label0
+
+%label0: 	//predecessors %bb6
+	%17 = %20.length
+	goto %bb7
+
+%bb7: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %bb7, %if.then0
+	%32 = phi {%bb7 -> 0; %if.then0 -> %33}
+	%19 = (%32 >= %17)
+	if (%19) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %label1
+	%31 = %20[%32]
+	goto %label2
+
+%label2: 	//predecessors %if.else2
+	%25 = virtual arg$0.endsWith(%31)
+	goto %bb8
+
+%bb8: 	//predecessors %label2
+	%27 = (%25 == false)
+	if (%27) goto %if.then0 else %if.else3
+
+%if.else3: 	//predecessors %bb8
+	%29 = DataBucketUtil.LOGGER
+	interface %29.debug("Accepted file type : {}", %31)
+	goto %bb9
+
+%bb9: 	//predecessors %if.else3
+	return %31
+
+%if.then0: 	//predecessors %bb8
+	%33 = %32 + 1
+	goto %label1
+
+%if.then1: 	//predecessors %bb0, %bb1, %label1
+	%35 = DataBucketUtil.LOGGER
+	interface %35.error("Not a permitted file type")
+	goto %bb10
+
+%bb10: 	//predecessors %if.then1
+	%38 = new com/app/exception/InvalidFileTypeException
+	special %38.<init>("Not a permitted file type")
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	throw %38
+2026-08-12 07:33:59.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/app/util/DataBucketUtil::checkFileExtension(java/lang/String): java/lang/String
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/auth/Credentials
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.auth.Credentials
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:33:59.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/app/util/DataBucketUtil::checkFileExtension(java/lang/String): java/lang/String
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/auth/Credentials
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.auth.Credentials
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:33:59.884 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/app/util/DataBucketUtil::checkFileExtension(java/lang/String): java/lang/String: null
+2026-08-12 07:33:59.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/app/util/DataBucketUtil::<init>(): void processing is finished normally
+2026-08-12 07:33:59.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/app/util/DataBucketUtil::uploadFile(org/springframework/web/multipart/MultipartFile, java/lang/String, java/lang/String): com/app/dto/FileDto processing is finished normally
+2026-08-12 07:33:59.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/app/util/DataBucketUtil::convertFile(org/springframework/web/multipart/MultipartFile): java/io/File processing is finished normally
+2026-08-12 07:33:59.885 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/app/util/DataBucketUtil::checkFileExtension(java/lang/String): java/lang/String processing is finished normally
+2026-08-12 07:33:59.886 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 07:33:59.886 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

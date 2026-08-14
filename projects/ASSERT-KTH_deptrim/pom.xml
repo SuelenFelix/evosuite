@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  
+  <groupId>se.kth.castor</groupId>
+  <artifactId>deptrim-maven-plugin</artifactId>
+  <version>0.1.2</version>
+  <packaging>maven-plugin</packaging>
+
+  
+  <name>DepTrim</name>
+  <description>DepTrim automatically specializes dependencies in Maven projects.</description>
+  <url>https://github.com/castor-software/deptrim</url>
+
+  
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/castor-software/deptrim/issues</url>
+  </issueManagement>
+
+  
+  <scm>
+    <url>https://github.com/castor-software/deptrim/</url>
+    <connection>scm:git:git:github.com/castor-software/deptrim.git</connection>
+    <developerConnection>scm:git:git@github.com:castor-software/deptrim.git</developerConnection>
+  </scm>
+
+  
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  
+  <developers>
+    <developer>
+      <id>cesarsotovalero</id>
+      <name>César Soto Valero</name>
+      <email>cesarsotovalero@gmail.com</email>
+      <organization>Castor Software Research Centre</organization>
+      <organizationUrl>https://www.castor.kth.se/</organizationUrl>
+    </developer>
+  </developers>
+
+  
+  <properties>
+    
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <compiler.release>11</compiler.release>
+    <javadoc.source>11</javadoc.source>
+    
+    <jacoco.maven.plugin>0.8.10</jacoco.maven.plugin>
+    <coveralls.maven.plugin>4.3.0</coveralls.maven.plugin>
+    <surefire.plugin.version>3.0.0-M7</surefire.plugin.version>
+    <maven.compiler.plugin>3.11.0</maven.compiler.plugin>
+    <sonar.maven.plugin>3.9.1.2184</sonar.maven.plugin>
+    <maven.site.plugin>4.0.0-M3</maven.site.plugin>
+    <maven.project.info.reports.plugin>3.4.5</maven.project.info.reports.plugin>
+    <maven.checkstyle.plugin>3.3.0</maven.checkstyle.plugin>
+    
+    <lombok.version>1.18.28</lombok.version>
+    <slf4j-api.version>2.0.7</slf4j-api.version>
+    <slf4j-reload4j.version>2.0.5</slf4j-reload4j.version>
+    <junit5.version>5.9.3</junit5.version>
+    <mockito.core.version>4.11.0</mockito.core.version>
+  </properties>
+
+  
+  <dependencies>
+    
+    <dependency>
+      <groupId>se.kth.castor</groupId>
+      <artifactId>depclean-core</artifactId>
+      <version>2.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>se.kth.castor</groupId>
+      <artifactId>depclean-maven-plugin</artifactId>
+      <version>2.0.6</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j-api.version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit5.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit5.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.vintage</groupId>
+      <artifactId>junit-vintage-engine</artifactId>
+      <version>${junit5.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${junit5.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${mockito.core.version}</version>
+      <scope>test</scope>
+    </dependency>
+    
+    
+    <dependency>
+      <groupId>com.soebes.itf.jupiter.extension</groupId>
+      <artifactId>itf-extension-maven</artifactId>
+      <version>0.11.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.soebes.itf.jupiter.extension</groupId>
+      <artifactId>itf-assertj</artifactId>
+      <version>0.12.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.soebes.itf.jupiter.extension</groupId>
+      <artifactId>itf-jupiter-extension</artifactId>
+      <version>0.12.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.23.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+      <version>3.8.5</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>3.8.5</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-project</artifactId>
+      <version>3.0-alpha-2</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>3.9.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.shared</groupId>
+      <artifactId>maven-dependency-tree</artifactId>
+      <version>3.2.1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  
+  <build>
+    
+    <testResources>
+      <testResource>
+        <directory>src/test/resources</directory>
+        <filtering>false</filtering>
+      </testResource>
+      <testResource>
+        <directory>src/test/resources-its</directory>
+        <filtering>true</filtering>
+      </testResource>
+    </testResources>
+    <plugins>
+      <plugin>
+        <groupId>com.soebes.itf.jupiter.extension</groupId>
+        <artifactId>itf-maven-plugin</artifactId>
+        <version>0.11.0</version>
+        <executions>
+          <execution>
+            <id>installing</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+              <goal>install</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+          <includes>
+            <include>**/*IT.java</include>
+          </includes>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>integration-test</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-plugin-plugin</artifactId>
+        <version>3.9.0</version>
+        <executions>
+          <execution>
+            <id>default-descriptor</id>
+            <phase>process-classes</phase>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>${jacoco.maven.plugin}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>report</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>report</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.eluder.coveralls</groupId>
+        <artifactId>coveralls-maven-plugin</artifactId>
+        <version>${coveralls.maven.plugin}</version>
+        <dependencies>
+          <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <jacocoReports>
+            <jacocoReport>
+              ${project.basedir}/target/site/jacoco/jacoco.xml
+            </jacocoReport>
+            <jacocoReport>
+              ${project.basedir}/target/site/jacoco/jacoco.xml
+            </jacocoReport>
+          </jacocoReports>
+          <failOnServiceError>false</failOnServiceError>
+        </configuration>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>${sonar.maven.plugin}</version>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>${maven.checkstyle.plugin}</version>
+        <dependencies>
+          <dependency>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>8.41</version>
+          </dependency>
+        </dependencies>
+        <executions>
+          <execution>
+            <id>check for errors</id>
+            <configuration>
+              
+              <violationSeverity>error</violationSeverity>
+              <failsOnError>true</failsOnError>
+              
+              <configLocation>checkstyle.xml</configLocation>
+              <includeTestSourceDirectory>false</includeTestSourceDirectory>
+              <consoleOutput>true</consoleOutput>
+            </configuration>
+            <phase>validate</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>checkstyle report</id>
+            <configuration>
+              <failsOnError>true</failsOnError>
+              
+              <configLocation>checkstyle.xml</configLocation>
+              <consoleOutput>true</consoleOutput>
+            </configuration>
+            <phase>verify</phase>
+            <goals>
+              
+              <goal>checkstyle</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.plugin}</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>${maven.site.plugin}</version>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>${maven.project.info.reports.plugin}</version>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${surefire.plugin.version}</version>
+        <configuration>
+          <excludes>
+            <exclude>**/resources/**/*.java</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId><version>3.4.1</version><executions><execution><phase>package</phase><goals><goal>shade</goal></goals><configuration><descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs></configuration></execution></executions></plugin></plugins>
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <profiles>
+    
+    <profile>
+      <id>deploy</id>
+      <build>
+        <plugins>
+          
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.11.0</version>
+            <configuration>
+              <release>11</release>
+            </configuration>
+          </plugin>
+          
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>3.2.0</version>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.5.0</version>
+            <configuration>
+              <source>${javadoc.source}</source>
+              <doclint>none</doclint>
+            </configuration>
+            <executions>
+              <execution>
+                <id>attach-javadocs</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>3.1.0</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.13</version>
+            <extensions>true</extensions>
+            <configuration>
+              <serverId>ossrh</serverId>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+            </configuration>
+          </plugin>
+          
+          
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>3.0.1</version>
+            <configuration>
+              <autoVersionSubmodules>true</autoVersionSubmodules>
+              <useReleaseProfile>false</useReleaseProfile>
+              <releaseProfiles>release</releaseProfiles>
+              <goals>deploy</goals>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>

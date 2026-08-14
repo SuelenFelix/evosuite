@@ -1,0 +1,210 @@
+package org.graph4j.clique;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.clique.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayDeque;
+import java.lang.Object;
+
+public class DFSBoundedCliqueIterator_hasNext_20864042635 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term1631;
+
+    public DFSBoundedCliqueIterator_hasNext_20864042635() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Object term1638 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1639 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1642 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1639, term1639.getClass(), "posMap", null);
+        setField(term1639, term1639.getClass(), "graph", null);
+        setField(term1639, term1639.getClass(), "vertices", null);
+        setIntField(term1639, term1639.getClass(), "numVertices", 1077223540);
+        setIntField(term1639, term1639.getClass(), "first", -1823813592);
+        setField(term1639, term1639.getClass(), "bitset", null);
+        setField(term1638, term1638.getClass(), "clique", term1639);
+        setField(term1642, term1642.getClass(), "posMap", null);
+        setField(term1642, term1642.getClass(), "graph", null);
+        setField(term1642, term1642.getClass(), "vertices", null);
+        setIntField(term1642, term1642.getClass(), "numVertices", -1270258033);
+        setIntField(term1642, term1642.getClass(), "first", 1677994069);
+        setField(term1642, term1642.getClass(), "bitset", null);
+        setField(term1638, term1638.getClass(), "cand", term1642);
+        setDoubleField(term1638, term1638.getClass(), "weight", 0.7655020693602768);
+        setField(term1638, term1638.getClass(), "this$0", null);
+        Object term1646 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1647 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1650 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1647, term1647.getClass(), "posMap", null);
+        setField(term1647, term1647.getClass(), "graph", null);
+        setField(term1647, term1647.getClass(), "vertices", null);
+        setIntField(term1647, term1647.getClass(), "numVertices", -1261824381);
+        setIntField(term1647, term1647.getClass(), "first", 1594426218);
+        setField(term1647, term1647.getClass(), "bitset", null);
+        setField(term1646, term1646.getClass(), "clique", term1647);
+        setField(term1650, term1650.getClass(), "posMap", null);
+        setField(term1650, term1650.getClass(), "graph", null);
+        setField(term1650, term1650.getClass(), "vertices", null);
+        setIntField(term1650, term1650.getClass(), "numVertices", -1626074989);
+        setIntField(term1650, term1650.getClass(), "first", -552272253);
+        setField(term1650, term1650.getClass(), "bitset", null);
+        setField(term1646, term1646.getClass(), "cand", term1650);
+        setDoubleField(term1646, term1646.getClass(), "weight", 0.1374549299694151);
+        setField(term1646, term1646.getClass(), "this$0", null);
+        Object term1654 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1655 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1658 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1655, term1655.getClass(), "posMap", null);
+        setField(term1655, term1655.getClass(), "graph", null);
+        setField(term1655, term1655.getClass(), "vertices", null);
+        setIntField(term1655, term1655.getClass(), "numVertices", 388247095);
+        setIntField(term1655, term1655.getClass(), "first", -1320402633);
+        setField(term1655, term1655.getClass(), "bitset", null);
+        setField(term1654, term1654.getClass(), "clique", term1655);
+        setField(term1658, term1658.getClass(), "posMap", null);
+        setField(term1658, term1658.getClass(), "graph", null);
+        setField(term1658, term1658.getClass(), "vertices", null);
+        setIntField(term1658, term1658.getClass(), "numVertices", 1378805929);
+        setIntField(term1658, term1658.getClass(), "first", 695052304);
+        setField(term1658, term1658.getClass(), "bitset", null);
+        setField(term1654, term1654.getClass(), "cand", term1658);
+        setDoubleField(term1654, term1654.getClass(), "weight", 0.7031006357544823);
+        setField(term1654, term1654.getClass(), "this$0", null);
+        Object term1662 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1663 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1666 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1663, term1663.getClass(), "posMap", null);
+        setField(term1663, term1663.getClass(), "graph", null);
+        setField(term1663, term1663.getClass(), "vertices", null);
+        setIntField(term1663, term1663.getClass(), "numVertices", -1809928454);
+        setIntField(term1663, term1663.getClass(), "first", -191639503);
+        setField(term1663, term1663.getClass(), "bitset", null);
+        setField(term1662, term1662.getClass(), "clique", term1663);
+        setField(term1666, term1666.getClass(), "posMap", null);
+        setField(term1666, term1666.getClass(), "graph", null);
+        setField(term1666, term1666.getClass(), "vertices", null);
+        setIntField(term1666, term1666.getClass(), "numVertices", 0);
+        setIntField(term1666, term1666.getClass(), "first", 0);
+        setField(term1666, term1666.getClass(), "bitset", null);
+        setField(term1662, term1662.getClass(), "cand", term1666);
+        setDoubleField(term1662, term1662.getClass(), "weight", 0.9527281779865117);
+        setField(term1662, term1662.getClass(), "this$0", null);
+        Object term1670 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1671 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1674 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1671, term1671.getClass(), "posMap", null);
+        setField(term1671, term1671.getClass(), "graph", null);
+        setField(term1671, term1671.getClass(), "vertices", null);
+        setIntField(term1671, term1671.getClass(), "numVertices", 0);
+        setIntField(term1671, term1671.getClass(), "first", 0);
+        setField(term1671, term1671.getClass(), "bitset", null);
+        setField(term1670, term1670.getClass(), "clique", term1671);
+        setField(term1674, term1674.getClass(), "posMap", null);
+        setField(term1674, term1674.getClass(), "graph", null);
+        setField(term1674, term1674.getClass(), "vertices", null);
+        setIntField(term1674, term1674.getClass(), "numVertices", 0);
+        setIntField(term1674, term1674.getClass(), "first", 0);
+        setField(term1674, term1674.getClass(), "bitset", null);
+        setField(term1670, term1670.getClass(), "cand", term1674);
+        setDoubleField(term1670, term1670.getClass(), "weight", 0.9828442029246764);
+        setField(term1670, term1670.getClass(), "this$0", null);
+        Object term1678 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1679 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1682 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1679, term1679.getClass(), "posMap", null);
+        setField(term1679, term1679.getClass(), "graph", null);
+        setField(term1679, term1679.getClass(), "vertices", null);
+        setIntField(term1679, term1679.getClass(), "numVertices", 0);
+        setIntField(term1679, term1679.getClass(), "first", 0);
+        setField(term1679, term1679.getClass(), "bitset", null);
+        setField(term1678, term1678.getClass(), "clique", term1679);
+        setField(term1682, term1682.getClass(), "posMap", null);
+        setField(term1682, term1682.getClass(), "graph", null);
+        setField(term1682, term1682.getClass(), "vertices", null);
+        setIntField(term1682, term1682.getClass(), "numVertices", 0);
+        setIntField(term1682, term1682.getClass(), "first", 0);
+        setField(term1682, term1682.getClass(), "bitset", null);
+        setField(term1678, term1678.getClass(), "cand", term1682);
+        setDoubleField(term1678, term1678.getClass(), "weight", 0.2779719046761513);
+        setField(term1678, term1678.getClass(), "this$0", null);
+        Object term1686 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator$Node"));
+        Object term1687 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1690 = newInstance(Class.forName("org.graph4j.util.VertexSet"));
+        setField(term1687, term1687.getClass(), "posMap", null);
+        setField(term1687, term1687.getClass(), "graph", null);
+        setField(term1687, term1687.getClass(), "vertices", null);
+        setIntField(term1687, term1687.getClass(), "numVertices", 0);
+        setIntField(term1687, term1687.getClass(), "first", 0);
+        setField(term1687, term1687.getClass(), "bitset", null);
+        setField(term1686, term1686.getClass(), "clique", term1687);
+        setField(term1690, term1690.getClass(), "posMap", null);
+        setField(term1690, term1690.getClass(), "graph", null);
+        setField(term1690, term1690.getClass(), "vertices", null);
+        setIntField(term1690, term1690.getClass(), "numVertices", 0);
+        setIntField(term1690, term1690.getClass(), "first", 0);
+        setField(term1690, term1690.getClass(), "bitset", null);
+        setField(term1686, term1686.getClass(), "cand", term1690);
+        setDoubleField(term1686, term1686.getClass(), "weight", 0.6436713023569729);
+        setField(term1686, term1686.getClass(), "this$0", null);
+        ArrayDeque term1636 = new ArrayDeque();
+        ((ArrayDeque) term1636).add(term1638);
+        ((ArrayDeque) term1636).add(term1646);
+        ((ArrayDeque) term1636).add(term1654);
+        ((ArrayDeque) term1636).add(term1662);
+        ((ArrayDeque) term1636).add(term1670);
+        ((ArrayDeque) term1636).add(term1678);
+        ((ArrayDeque) term1636).add(term1686);
+        term1631 = newInstance(Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator"));
+        Object term1696 = newInstance(Class.forName("org.graph4j.util.Clique"));
+        Object term1697 = newInstance(Class.forName("org.graph4j.util.IntHashMap"));
+        Object[] term1698 = (Object[]) newArray("org.graph4j.util.IntHashMap$Entry", 20);
+        setIntField(term1631, term1631.getClass(), "minSize", 183531701);
+        setIntField(term1631, term1631.getClass(), "maxSize", -974923743);
+        setDoubleField(term1631, term1631.getClass(), "maxWeight", 0.5183269973490326);
+        setLongField(term1631, term1631.getClass(), "timeout", -8885298608300233488L);
+        setField(term1631, term1631.getClass(), "stack", term1636);
+        setField(term1697, term1697.getClass(), "table", term1698);
+        setIntField(term1697, term1697.getClass(), "count", 0);
+        setIntField(term1697, term1697.getClass(), "threshold", 15);
+        setFloatField(term1697, term1697.getClass(), "loadFactor", 0.75F);
+        setField(term1696, term1696.getClass(), "posMap", term1697);
+        setField(term1696, term1696.getClass(), "graph", null);
+        setField(term1696, term1696.getClass(), "vertices", null);
+        setIntField(term1696, term1696.getClass(), "numVertices", 0);
+        setIntField(term1696, term1696.getClass(), "first", 0);
+        setField(term1696, term1696.getClass(), "bitset", null);
+        setField(term1631, term1631.getClass(), "currentClique", term1696);
+        setField(term1631, term1631.getClass(), "graph", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.clique.DFSBoundedCliqueIterator");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "hasNext", argTypes, term1631, args);
+    }
+
+};
+
+

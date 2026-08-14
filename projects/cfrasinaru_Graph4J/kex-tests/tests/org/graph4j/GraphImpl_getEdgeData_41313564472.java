@@ -1,0 +1,215 @@
+package org.graph4j;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Integer;
+import java.util.HashMap;
+import java.lang.Double;
+
+public class GraphImpl_getEdgeData_41313564472 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term26527;
+     Object term26658;
+     Object term26660;
+     Object term26662;
+     Object term26664;
+
+    public GraphImpl_getEdgeData_41313564472() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Integer term26641 = new Integer(962840079);
+        HashMap term26643 = new HashMap();
+        HashMap term26648 = new HashMap();
+        term26527 = newInstance(Class.forName("org.graph4j.GraphImpl"));
+        int[] term26543 = (int[]) newIntArray(8);
+        int[] term26552 = (int[]) newIntArray(4);
+        Object[] term26557 = (Object[]) newArray("[I", 3);
+        int[] term26558 = (int[]) newIntArray(4);
+        int[] term26563 = (int[]) newIntArray(1);
+        int[] term26565 = (int[]) newIntArray(3);
+        Object[] term26569 = (Object[]) newArray("[I", 1);
+        int[] term26570 = (int[]) newIntArray(7);
+        double[] term26578 = (double[]) newDoubleArray(4);
+        Object[] term26584 = (Object[]) newArray("[[D", 1);
+        Object[] term26585 = (Object[]) newArray("[D", 7);
+        double[] term26586 = (double[]) newDoubleArray(8);
+        double[] term26595 = (double[]) newDoubleArray(6);
+        double[] term26602 = (double[]) newDoubleArray(0);
+        double[] term26603 = (double[]) newDoubleArray(7);
+        double[] term26611 = (double[]) newDoubleArray(6);
+        double[] term26618 = (double[]) newDoubleArray(0);
+        double[] term26619 = (double[]) newDoubleArray(5);
+        Object[] term26626 = (Object[]) newArray("java.lang.Object", 2);
+        Object term26627 = newInstance(Class.forName("java.lang.Object"));
+        Object term26628 = newInstance(Class.forName("java.lang.Object"));
+        Object[] term26629 = (Object[]) newObjectArray(Array.newInstance(Class.forName("java.lang.Object"), 0).getClass(), 1);
+        Object[] term26630 = (Object[]) newArray("java.lang.Object", 9);
+        Object term26631 = newInstance(Class.forName("java.lang.Object"));
+        Object term26632 = newInstance(Class.forName("java.lang.Object"));
+        Object term26633 = newInstance(Class.forName("java.lang.Object"));
+        Object term26634 = newInstance(Class.forName("java.lang.Object"));
+        Object term26635 = newInstance(Class.forName("java.lang.Object"));
+        Object term26636 = newInstance(Class.forName("java.lang.Object"));
+        Object term26637 = newInstance(Class.forName("java.lang.Object"));
+        Object term26638 = newInstance(Class.forName("java.lang.Object"));
+        Object[] term26639 = (Object[]) newArray("org.graph4j.AdjacencySet", 1);
+        Object[] term26640 = (Object[]) newArray("org.graph4j.AdjacencyMap", 9);
+        setField(term26527, term26527.getClass(), "name", "IgRJUzaCwW");
+        setIntField(term26527, term26527.getClass(), "maxVertices", -1377964851);
+        setIntField(term26527, term26527.getClass(), "numVertices", -1288314969);
+        setLongField(term26527, term26527.getClass(), "numEdges", -6723783499250797216L);
+        setIntElement(term26543, 0, -1625206430);
+        setIntElement(term26543, 1, 1599734340);
+        setIntElement(term26543, 2, 1262425699);
+        setIntElement(term26543, 3, -515051505);
+        setIntElement(term26543, 4, -1071258857);
+        setIntElement(term26543, 5, 1274665398);
+        setIntElement(term26543, 6, -1093564935);
+        setIntElement(term26543, 7, -1092739931);
+        setField(term26527, term26527.getClass(), "vertices", term26543);
+        setIntElement(term26552, 0, 859336834);
+        setIntElement(term26552, 1, -924154861);
+        setIntElement(term26552, 2, -1878694006);
+        setIntElement(term26552, 3, 1950167487);
+        setField(term26527, term26527.getClass(), "degree", term26552);
+        setIntElement(term26558, 0, 1031826708);
+        setIntElement(term26558, 1, -735726273);
+        setIntElement(term26558, 2, 1618278091);
+        setIntElement(term26558, 3, -548967985);
+        setElement(term26557, 0, term26558);
+        setIntElement(term26563, 0, -1923425156);
+        setElement(term26557, 1, term26563);
+        setIntElement(term26565, 0, 1237861885);
+        setIntElement(term26565, 1, 1433214025);
+        setIntElement(term26565, 2, 1424797105);
+        setElement(term26557, 2, term26565);
+        setField(term26527, term26527.getClass(), "adjList", term26557);
+        setIntElement(term26570, 0, 386281072);
+        setIntElement(term26570, 1, -782180775);
+        setIntElement(term26570, 2, -1971308334);
+        setIntElement(term26570, 3, -2070149565);
+        setIntElement(term26570, 4, 1682543276);
+        setIntElement(term26570, 5, 156914536);
+        setIntElement(term26570, 6, -1745894636);
+        setElement(term26569, 0, term26570);
+        setField(term26527, term26527.getClass(), "adjPos", term26569);
+        setDoubleElement(term26578, 0, 0.29625764006051514);
+        setDoubleElement(term26578, 1, 0.56191801289891);
+        setDoubleElement(term26578, 2, 0.28562274258141374);
+        setDoubleElement(term26578, 3, 0.6797046299124544);
+        setField(term26527, term26527.getClass(), "vertexWeight", term26578);
+        setIntField(term26527, term26527.getClass(), "vertexDataSize", 1);
+        setDoubleElement(term26586, 0, 0.36957418177537893);
+        setDoubleElement(term26586, 1, 0.3803640349482441);
+        setDoubleElement(term26586, 2, 0.6755465303860406);
+        setDoubleElement(term26586, 3, 0.8008123874385162);
+        setDoubleElement(term26586, 4, 0.0016751122690409348);
+        setDoubleElement(term26586, 5, 0.5969165711411364);
+        setDoubleElement(term26586, 6, 0.48850705031597386);
+        setDoubleElement(term26586, 7, 0.7077715060193484);
+        setElement(term26585, 0, term26586);
+        setDoubleElement(term26595, 0, 0.11923443071970952);
+        setDoubleElement(term26595, 1, 0.09996791770875058);
+        setDoubleElement(term26595, 2, 0.6131935961622813);
+        setDoubleElement(term26595, 3, 0.03523436565395721);
+        setDoubleElement(term26595, 4, 0.33055575305612606);
+        setDoubleElement(term26595, 5, 0.1313884393612268);
+        setElement(term26585, 1, term26595);
+        setElement(term26585, 2, term26602);
+        setDoubleElement(term26603, 0, 0.06469779663891606);
+        setDoubleElement(term26603, 1, 0.5595796553576419);
+        setDoubleElement(term26603, 2, 0.2706969783371306);
+        setDoubleElement(term26603, 3, 0.48117112205504686);
+        setDoubleElement(term26603, 4, 0.649873164656061);
+        setDoubleElement(term26603, 5, 0.8192337653568902);
+        setDoubleElement(term26603, 6, 0.6955619704935101);
+        setElement(term26585, 3, term26603);
+        setDoubleElement(term26611, 0, 0.6795861695128268);
+        setDoubleElement(term26611, 1, 0.9967281330472508);
+        setDoubleElement(term26611, 2, 0.8848001952563873);
+        setDoubleElement(term26611, 3, 0.8141259835188579);
+        setDoubleElement(term26611, 4, 0.8149277541589364);
+        setDoubleElement(term26611, 5, 0.787116736238083);
+        setElement(term26585, 4, term26611);
+        setElement(term26585, 5, term26618);
+        setDoubleElement(term26619, 0, 0.9173329037127856);
+        setDoubleElement(term26619, 1, 0.024718197477114567);
+        setDoubleElement(term26619, 2, 0.16450563610512492);
+        setDoubleElement(term26619, 3, 0.2868738097417044);
+        setDoubleElement(term26619, 4, 0.4157855548992315);
+        setElement(term26585, 6, term26619);
+        setElement(term26584, 0, term26585);
+        setField(term26527, term26527.getClass(), "edgeData", term26584);
+        setIntField(term26527, term26527.getClass(), "edgeDataSize", 1);
+        setElement(term26626, 0, term26627);
+        setElement(term26626, 1, term26628);
+        setField(term26527, term26527.getClass(), "vertexLabel", term26626);
+        setElement(term26630, 0, term26631);
+        setElement(term26630, 1, term26632);
+        setElement(term26630, 2, term26633);
+        setElement(term26630, 3, term26634);
+        setElement(term26630, 4, term26635);
+        setElement(term26630, 5, term26636);
+        setElement(term26630, 6, term26637);
+        setElement(term26630, 7, term26638);
+        setElement(term26630, 8, term26636);
+        setElement(term26629, 0, term26630);
+        setField(term26527, term26527.getClass(), "edgeLabel", term26629);
+        setField(term26527, term26527.getClass(), "vertexIndex", null);
+        setField(term26527, term26527.getClass(), "adjSet", term26639);
+        setField(term26527, term26527.getClass(), "adjMap", term26640);
+        setField(term26527, term26527.getClass(), "maxVertexNumber", term26641);
+        setField(term26527, term26527.getClass(), "labelVertexMap", term26643);
+        setField(term26527, term26527.getClass(), "labelEdgeMap", term26648);
+        setBooleanField(term26527, term26527.getClass(), "directed", true);
+        setBooleanField(term26527, term26527.getClass(), "allowingMultipleEdges", false);
+        setBooleanField(term26527, term26527.getClass(), "allowingSelfLoops", true);
+        setIntField(term26527, term26527.getClass(), "avgDegree", 571282234);
+        setBooleanField(term26527, term26527.getClass(), "safeMode", true);
+        term26658 = new Integer(1131350330);
+        term26660 = new Integer(-1463702476);
+        term26662 = new Integer(90151812);
+        term26664 = new Double(0.30429402857303867);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.GraphImpl");
+        Class<?>[] argTypes = new Class<?>[4];
+        argTypes[0] = int.class;
+        argTypes[1] = int.class;
+        argTypes[2] = int.class;
+        argTypes[3] = double.class;
+        Object[] args = new Object[4];
+        args[0] = term26658;
+        args[1] = term26660;
+        args[2] = term26662;
+        args[3] = term26664;
+        callMethod(klass, "getEdgeData", argTypes, term26527, args);
+    }
+
+};
+
+

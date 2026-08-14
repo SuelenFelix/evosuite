@@ -1,0 +1,24 @@
+name: QA
+on:
+  - merge_group
+  - push
+  - pull_request
+jobs:
+  spellcheck:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: crate-ci/typos@v1.48.0
+  nix-shell:
+    name: nix-shell works
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: cachix/install-nix-action@v31
+        with:
+          # Only used for "nix-build", "nix-shell" etc.
+          # Inside the files, I use pinned nixpkgs.
+          nix_path: nixpkgs=channel:nixos-unstable
+      - run: |
+          nix-shell --pure --run "mvn -B dependency:tree"

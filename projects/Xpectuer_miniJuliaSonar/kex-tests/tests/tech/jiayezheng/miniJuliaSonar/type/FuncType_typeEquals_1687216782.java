@@ -1,0 +1,55 @@
+package tech.jiayezheng.miniJuliaSonar.type;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static tech.jiayezheng.miniJuliaSonar.type.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class FuncType_typeEquals_1687216782 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term4810;
+
+    public FuncType_typeEquals_1687216782() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term4810 = newInstance(Class.forName("tech.jiayezheng.miniJuliaSonar.type.FuncType"));
+        setField(term4810, term4810.getClass(), "arrows", null);
+        setField(term4810, term4810.getClass(), "func", null);
+        setField(term4810, term4810.getClass(), "env", null);
+        setField(term4810, term4810.getClass(), "defaultTypes", null);
+        setField(term4810, term4810.getClass(), "table", null);
+        setField(term4810, term4810.getClass(), "file", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("tech.jiayezheng.miniJuliaSonar.type.FuncType");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.Object");
+        Object[] args = new Object[1];
+        args[0] = null;
+        callMethod(klass, "typeEquals", argTypes, term4810, args);
+    }
+
+};
+
+

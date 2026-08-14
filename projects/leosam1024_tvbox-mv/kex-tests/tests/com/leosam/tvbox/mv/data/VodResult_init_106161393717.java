@@ -1,0 +1,54 @@
+package com.leosam.tvbox.mv.data;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.leosam.tvbox.mv.data.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class VodResult_init_106161393717 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term4707;
+
+    public VodResult_init_106161393717() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term4707 = newInstance(Class.forName("com.leosam.tvbox.mv.data.VodResult"));
+        setIntField(term4707, term4707.getClass(), "code", 0);
+        setIntField(term4707, term4707.getClass(), "page", 0);
+        setIntField(term4707, term4707.getClass(), "pagecount", 0);
+        setIntField(term4707, term4707.getClass(), "limit", 0);
+        setIntField(term4707, term4707.getClass(), "total", 0);
+        setField(term4707, term4707.getClass(), "list", null);
+        setField(term4707, term4707.getClass(), "vodClassList", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.leosam.tvbox.mv.data.VodResult");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "init", argTypes, term4707, args);
+    }
+
+};
+
+

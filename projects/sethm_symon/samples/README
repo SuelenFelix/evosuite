@@ -1,0 +1,44 @@
+Sample Programs
+----------------
+
+1. hello.prg
+
+  When loaded at address $0300, this program will print "Hello, 6502 World!" in
+  infinite loop.
+
+2. echo_poll.prg
+
+  When loaded at address $0300, this program will echo back to the console
+  anything typed.
+
+Both hello.prg and echo_poll.prg were assembled with the Ophis assembler:
+
+   https://hkn.eecs.berkeley.edu/~mcmartin/ophis/
+
+3. echo_irq.rom
+
+  This is another echo program, and behaves identically to echo_poll.prg,
+  except it is interrupt-driven. This ROM can be loaded either through the
+  "File->Load ROM..." menu in Symon, or by specifying the path to
+  "echo_irq.rom" with the "-jar" command line option when running Symon,
+  for example: `java -jar symon-1.3.2.jar -rom samples/echo_irq.rom`
+
+4. ehbasic.rom
+
+   This is Lee Davison's Enhanced 6502 BASIC.
+
+   The EhBASIC ROM can be loaded either through the "File -> Load ROM..."
+   menu in Symon, or by specifying the path to "ehbasic.rom" with
+   the "-jar" command line option when running Symon, for example:
+   `java -jar symon-1.3.2.jar -rom samples/ehbasic.rom`
+
+   Click the "Run" button and EhBASIC should automatically start running.
+
+   Type 'C' to do a cold start.
+
+   Then, type '49152' (without the quotes) when prompted for the memory size.
+
+   More information can be found in the 'ehbasic' directory, and by visiting
+   the EhBASIC web page:
+
+   http://mycorner.no-ip.org/6502/ehbasic/index.html

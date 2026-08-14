@@ -1,0 +1,215 @@
+package dev.zevolution.netflixhexaarch.datasources.services.data.response;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static dev.zevolution.netflixhexaarch.datasources.services.data.response.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Integer;
+import java.lang.Boolean;
+import java.lang.Object;
+import java.util.ArrayList;
+
+public class GithubRepoResponse_getHtmlUrl_182808880817 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term57591;
+
+    public GithubRepoResponse_getHtmlUrl_182808880817() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Integer term57592 = new Integer(-370828664);
+        Boolean term57630 = new Boolean(true);
+        Integer term57645 = new Integer(1168633950);
+        Boolean term57827 = new Boolean(false);
+        Boolean term57853 = new Boolean(true);
+        Integer term58389 = new Integer(1607082164);
+        Integer term58391 = new Integer(1890399366);
+        Integer term58393 = new Integer(-1867239125);
+        Boolean term58407 = new Boolean(true);
+        Boolean term58409 = new Boolean(false);
+        Boolean term58411 = new Boolean(false);
+        Boolean term58413 = new Boolean(true);
+        Boolean term58415 = new Boolean(false);
+        Integer term58417 = new Integer(952869601);
+        Boolean term58419 = new Boolean(false);
+        Boolean term58421 = new Boolean(true);
+        Integer term58423 = new Integer(91958879);
+        Boolean term58486 = new Boolean(true);
+        Boolean term58488 = new Boolean(false);
+        ArrayList term58490 = new ArrayList();
+        Integer term58506 = new Integer(-645429025);
+        Integer term58508 = new Integer(-688213483);
+        Integer term58510 = new Integer(644154104);
+        Integer term58524 = new Integer(76650923);
+        Integer term58526 = new Integer(1003743923);
+        term57591 = newInstance(Class.forName("dev.zevolution.netflixhexaarch.datasources.services.data.response.GithubRepoResponse"));
+        Object term57632 = newInstance(Class.forName("dev.zevolution.netflixhexaarch.datasources.services.data.response.GithubOwnerResponse"));
+        Object term58299 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term58300 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term58304 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term58309 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term58310 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term58314 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term58319 = newInstance(Class.forName("java.time.LocalDateTime"));
+        Object term58320 = newInstance(Class.forName("java.time.LocalDate"));
+        Object term58324 = newInstance(Class.forName("java.time.LocalTime"));
+        Object term58425 = newInstance(Class.forName("dev.zevolution.netflixhexaarch.datasources.services.data.response.GithubLicenseResponse"));
+        setField(term57591, term57591.getClass(), "id", term57592);
+        setField(term57591, term57591.getClass(), "nodeId", "YaZCAiIUPe");
+        setField(term57591, term57591.getClass(), "name", "KsCWHUcJDd");
+        setField(term57591, term57591.getClass(), "fullName", "zkYsnzzwJu");
+        setField(term57591, term57591.getClass(), "_private", term57630);
+        setField(term57632, term57632.getClass(), "login", "hxHKgOYyQD");
+        setField(term57632, term57632.getClass(), "id", term57645);
+        setField(term57632, term57632.getClass(), "nodeId", "opEyNuSzgs");
+        setField(term57632, term57632.getClass(), "avatarUrl", "YTnlgdIqfA");
+        setField(term57632, term57632.getClass(), "gravatarId", "gcKmFclftu");
+        setField(term57632, term57632.getClass(), "url", "lfREOBPEuD");
+        setField(term57632, term57632.getClass(), "htmlUrl", "JAGjDlTwTa");
+        setField(term57632, term57632.getClass(), "followersUrl", "wIDeyLnekQ");
+        setField(term57632, term57632.getClass(), "followingUrl", "tOGPTIqSMm");
+        setField(term57632, term57632.getClass(), "gistsUrl", "cFwZnaLmLP");
+        setField(term57632, term57632.getClass(), "starredUrl", "cBtfnWBMkE");
+        setField(term57632, term57632.getClass(), "subscriptionsUrl", "sFixkFlMhw");
+        setField(term57632, term57632.getClass(), "organizationsUrl", "wNaCYPwDGZ");
+        setField(term57632, term57632.getClass(), "reposUrl", "CFojehEtAR");
+        setField(term57632, term57632.getClass(), "eventsUrl", "EYeLeoxDrM");
+        setField(term57632, term57632.getClass(), "receivedEventsUrl", "zIPJJJubgX");
+        setField(term57632, term57632.getClass(), "type", "WRbxmSFTaO");
+        setField(term57632, term57632.getClass(), "siteAdmin", term57827);
+        setField(term57591, term57591.getClass(), "owner", term57632);
+        setField(term57591, term57591.getClass(), "htmlUrl", "ZekQCuvPXT");
+        setField(term57591, term57591.getClass(), "description", "GUXdlpmVNQ");
+        setField(term57591, term57591.getClass(), "fork", term57853);
+        setField(term57591, term57591.getClass(), "url", "QxSwOpnogl");
+        setField(term57591, term57591.getClass(), "forksUrl", "wXeTrDfRqa");
+        setField(term57591, term57591.getClass(), "keysUrl", "QsFsmwqvwM");
+        setField(term57591, term57591.getClass(), "collaboratorsUrl", "pSDSdAjceB");
+        setField(term57591, term57591.getClass(), "teamsUrl", "TGMaCYOqml");
+        setField(term57591, term57591.getClass(), "hooksUrl", "btqCBRPcNd");
+        setField(term57591, term57591.getClass(), "issueEventsUrl", "LEbiLyVKDG");
+        setField(term57591, term57591.getClass(), "eventsUrl", "PzUzEwZhUT");
+        setField(term57591, term57591.getClass(), "assigneesUrl", "bJKvwEFeLG");
+        setField(term57591, term57591.getClass(), "branchesUrl", "MQzXbKeQIa");
+        setField(term57591, term57591.getClass(), "tagsUrl", "YHDwlXeRTi");
+        setField(term57591, term57591.getClass(), "blobsUrl", "WIJiLZqEqc");
+        setField(term57591, term57591.getClass(), "gitTagsUrl", "OuZMVgPpoE");
+        setField(term57591, term57591.getClass(), "gitRefsUrl", "nDUyFfanYp");
+        setField(term57591, term57591.getClass(), "treesUrl", "hYmQxPxTFd");
+        setField(term57591, term57591.getClass(), "statusesUrl", "Clkrygzvpw");
+        setField(term57591, term57591.getClass(), "languagesUrl", "TPzGOBNENK");
+        setField(term57591, term57591.getClass(), "stargazersUrl", "ADhlvQDtuh");
+        setField(term57591, term57591.getClass(), "contributorsUrl", "rvUfMhtNrD");
+        setField(term57591, term57591.getClass(), "subscribersUrl", "tVJNKfGPYg");
+        setField(term57591, term57591.getClass(), "subscriptionUrl", "AlAUNSOTmH");
+        setField(term57591, term57591.getClass(), "commitsUrl", "IeuSZGvhvH");
+        setField(term57591, term57591.getClass(), "gitCommitsUrl", "zCejWZdaIc");
+        setField(term57591, term57591.getClass(), "commentsUrl", "aCfzlsgXhB");
+        setField(term57591, term57591.getClass(), "issueCommentUrl", "HmhoMiUgEv");
+        setField(term57591, term57591.getClass(), "contentsUrl", "MuJvYyPzjX");
+        setField(term57591, term57591.getClass(), "compareUrl", "pEZeQhLjKN");
+        setField(term57591, term57591.getClass(), "mergesUrl", "saKRDpPnGD");
+        setField(term57591, term57591.getClass(), "archiveUrl", "UesGweYSco");
+        setField(term57591, term57591.getClass(), "downloadsUrl", "uVnPUUZHSY");
+        setField(term57591, term57591.getClass(), "issuesUrl", "LaWPqdDqyl");
+        setField(term57591, term57591.getClass(), "pullsUrl", "BGDjrSZTJY");
+        setField(term57591, term57591.getClass(), "milestonesUrl", "VUVCEVItic");
+        setField(term57591, term57591.getClass(), "notificationsUrl", "tloEDDASGy");
+        setField(term57591, term57591.getClass(), "labelsUrl", "CQMdMBIICe");
+        setField(term57591, term57591.getClass(), "releasesUrl", "rbJaIkrSnM");
+        setField(term57591, term57591.getClass(), "deploymentsUrl", "EAKcPFEKbX");
+        setIntField(term58300, term58300.getClass(), "year", 2026);
+        setShortField(term58300, term58300.getClass(), "month", (short) 10);
+        setShortField(term58300, term58300.getClass(), "day", (short) 19);
+        setField(term58299, term58299.getClass(), "date", term58300);
+        setByteField(term58304, term58304.getClass(), "hour", (byte) 7);
+        setByteField(term58304, term58304.getClass(), "minute", (byte) 22);
+        setByteField(term58304, term58304.getClass(), "second", (byte) 11);
+        setIntField(term58304, term58304.getClass(), "nano", 17846677);
+        setField(term58299, term58299.getClass(), "time", term58304);
+        setField(term57591, term57591.getClass(), "createdAt", term58299);
+        setIntField(term58310, term58310.getClass(), "year", 2018);
+        setShortField(term58310, term58310.getClass(), "month", (short) 10);
+        setShortField(term58310, term58310.getClass(), "day", (short) 17);
+        setField(term58309, term58309.getClass(), "date", term58310);
+        setByteField(term58314, term58314.getClass(), "hour", (byte) 5);
+        setByteField(term58314, term58314.getClass(), "minute", (byte) 10);
+        setByteField(term58314, term58314.getClass(), "second", (byte) 23);
+        setIntField(term58314, term58314.getClass(), "nano", 571520422);
+        setField(term58309, term58309.getClass(), "time", term58314);
+        setField(term57591, term57591.getClass(), "updatedAt", term58309);
+        setIntField(term58320, term58320.getClass(), "year", 2022);
+        setShortField(term58320, term58320.getClass(), "month", (short) 11);
+        setShortField(term58320, term58320.getClass(), "day", (short) 5);
+        setField(term58319, term58319.getClass(), "date", term58320);
+        setByteField(term58324, term58324.getClass(), "hour", (byte) 0);
+        setByteField(term58324, term58324.getClass(), "minute", (byte) 51);
+        setByteField(term58324, term58324.getClass(), "second", (byte) 23);
+        setIntField(term58324, term58324.getClass(), "nano", 1140962);
+        setField(term58319, term58319.getClass(), "time", term58324);
+        setField(term57591, term57591.getClass(), "pushedAt", term58319);
+        setField(term57591, term57591.getClass(), "gitUrl", "uPdAMNFhdG");
+        setField(term57591, term57591.getClass(), "sshUrl", "VjXPlvOnMK");
+        setField(term57591, term57591.getClass(), "cloneUrl", "VVfwcKWfYk");
+        setField(term57591, term57591.getClass(), "svnUrl", "tsYXZxQtLG");
+        setField(term57591, term57591.getClass(), "homepage", "JUAWRJdehl");
+        setField(term57591, term57591.getClass(), "size", term58389);
+        setField(term57591, term57591.getClass(), "stargazersCount", term58391);
+        setField(term57591, term57591.getClass(), "watchersCount", term58393);
+        setField(term57591, term57591.getClass(), "language", "fFslDwqqzQ");
+        setField(term57591, term57591.getClass(), "hasIssues", term58407);
+        setField(term57591, term57591.getClass(), "hasProjects", term58409);
+        setField(term57591, term57591.getClass(), "hasDownloads", term58411);
+        setField(term57591, term57591.getClass(), "hasWiki", term58413);
+        setField(term57591, term57591.getClass(), "hasPages", term58415);
+        setField(term57591, term57591.getClass(), "forksCount", term58417);
+        setField(term57591, term57591.getClass(), "archived", term58419);
+        setField(term57591, term57591.getClass(), "disabled", term58421);
+        setField(term57591, term57591.getClass(), "openIssuesCount", term58423);
+        setField(term58425, term58425.getClass(), "key", "oyTybTkTFd");
+        setField(term58425, term58425.getClass(), "name", "NNjMZLPIcc");
+        setField(term58425, term58425.getClass(), "spdxId", "fAcvTHLHOa");
+        setField(term58425, term58425.getClass(), "url", "QavvcNVesW");
+        setField(term58425, term58425.getClass(), "nodeId", "JmFxhkDeIA");
+        setField(term57591, term57591.getClass(), "license", term58425);
+        setField(term57591, term57591.getClass(), "allowForking", term58486);
+        setField(term57591, term57591.getClass(), "isTemplate", term58488);
+        setField(term57591, term57591.getClass(), "topics", term58490);
+        setField(term57591, term57591.getClass(), "visibility", "XcJqDBnnMZ");
+        setField(term57591, term57591.getClass(), "forks", term58506);
+        setField(term57591, term57591.getClass(), "openIssues", term58508);
+        setField(term57591, term57591.getClass(), "watchers", term58510);
+        setField(term57591, term57591.getClass(), "defaultBranch", "SchXFoqYFy");
+        setField(term57591, term57591.getClass(), "networkCount", term58524);
+        setField(term57591, term57591.getClass(), "subscribersCount", term58526);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("dev.zevolution.netflixhexaarch.datasources.services.data.response.GithubRepoResponse");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getHtmlUrl", argTypes, term57591, args);
+    }
+
+};
+
+

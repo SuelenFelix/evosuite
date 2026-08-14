@@ -1,0 +1,92 @@
+/*
+ * This program and the accompanying materials are made available under the terms of the
+ * Eclipse Public License v2.0 which accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-v20.html
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *
+ * Copyright Contributors to the Zowe Project.
+ */
+package zowe.client.sdk.teamconfig.service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import zowe.client.sdk.teamconfig.exception.TeamConfigException;
+import zowe.client.sdk.teamconfig.keytar.IKeyTar;
+import zowe.client.sdk.teamconfig.keytar.KeyTarConfig;
+
+import java.util.List;
+
+/**
+ * KeyTarService class that provides a service layer to perform KeyTar processing and retrieval of credentials and
+ * Zowe Global Team Configuration location information.
+ *
+ * @author Frank Giordano
+ * @version 7.0
+ */
+public class KeyTarService {
+
+    private static final Logger LOG = LoggerFactory.getLogger(KeyTarService.class);
+
+    /**
+     * List of service names used for KeyTar querying of OS credential store
+     */
+    private static final List<String> SERVICE_NAMES = List.of("Zowe", "Zowe-Plugin");
+
+    /**
+     * Account name used for KeyTar querying of OS credential store
+     */
+    private static final String ACCOUNT_NAME = "secure_config_props";
+
+    /**
+     * Duplicate Zowe credential store types found.
+     */
+    private static final String MULTIPLE_WARNING_MSG =
+            "Multiple OS credential stores found related to Zowe. Returning the first one on list.";
+
+    /**
+     * This service is not thread-safe. The injected IKeyTar instance
+     * is stateful and mutated during processing.
+     */
+    private final IKeyTar keyTar;
+
+    /**
+     * KeyTarService constructor
+     *
+     * @param keyTar IKeyTar implementation Object
+     * @author Frank Giordano
+     */
+    public KeyTarService(final IKeyTar keyTar) {
+        this.keyTar = keyTar;
+    }
+
+    /**
+     * Return KeyTarConfig containing team config location and OS credential information.
+     *
+     * @return KeyTarConfig object
+     * @throws TeamConfigException error processing team configuration
+     * @author Frank Giordano
+     */
+    public KeyTarConfig getKeyTarConfig() throws TeamConfigException {
+        keyTar.setAccountName(ACCOUNT_NAME);
+        for (final String serviceName : SERVICE_NAMES) {
+            keyTar.setServiceName(serviceName);
+            try {
+                keyTar.processKey();
+            } catch (TeamConfigException e) {
+                LOG.debug("KeyTar lookup failed for service {}", serviceName, e);
+                continue;
+            }
+            List<KeyTarConfig> keyTarConfigs = keyTar.getKeyConfigs();
+            if (!keyTarConfigs.isEmpty()) {
+                if (keyTarConfigs.size() > 1) {
+                    LOG.debug("{} Service={}", MULTIPLE_WARNING_MSG, serviceName);
+                }
+                return keyTarConfigs.get(0);
+            }
+        }
+
+        throw new TeamConfigException("No OS credential store related to Zowe found.");
+    }
+
+}

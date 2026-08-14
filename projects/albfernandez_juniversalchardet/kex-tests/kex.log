@@ -1,0 +1,779 @@
+2026-08-11 12:46:38.133 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/albfernandez_juniversalchardet/target/classes
+2026-08-11 12:46:38.372 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 12:46:38.426 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 12:46:39.440 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 12:46:40.100 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package org/mozilla/universalchardet/prober/statemachine/*
+2026-08-11 12:46:40.101 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 12:46:40.123 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/albfernandez_juniversalchardet/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 12:46:40.154 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/albfernandez_juniversalchardet/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 46849 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/albfernandez_juniversalchardet/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 12:46:40.167 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 12:48:20.209 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/HZSMModel::<init>(): void
+2026-08-11 12:48:20.210 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/HZSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = HZSMModel.hzsClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = HZSMModel.hzsStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = HZSMModel.hzsCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_HZ_GB_2312
+	special this.<init>(%10, 6, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:20.735 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.HZSMModel_init_21047706950
+2026-08-11 12:48:20.859 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.HZSMModel_init_21047706951
+2026-08-11 12:48:20.860 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/HZSMModel::<init>(): void: null
+2026-08-11 12:48:20.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/HZSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:20.873 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/EUCJPSMModel::<init>(): void
+2026-08-11 12:48:20.873 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/EUCJPSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = EUCJPSMModel.eucjpClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = EUCJPSMModel.eucjpStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = EUCJPSMModel.eucjpCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_EUC_JP
+	special this.<init>(%10, 6, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:21.013 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.EUCJPSMModel_init_19136973920
+2026-08-11 12:48:21.115 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.EUCJPSMModel_init_19136973921
+2026-08-11 12:48:21.117 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/EUCJPSMModel::<init>(): void: null
+2026-08-11 12:48:21.117 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/EUCJPSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:21.123 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::<init>(org/mozilla/universalchardet/prober/statemachine/SMModel): void
+2026-08-11 12:48:21.123 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::<init>(org/mozilla/universalchardet/prober/statemachine/SMModel): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.model = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.currentState = 0
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 12:48:21.244 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_init_11387833040
+2026-08-11 12:48:21.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::nextState(byte): int
+2026-08-11 12:48:21.245 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::nextState(byte): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.model
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%15 = virtual %1.getClass(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%4 = this.currentState
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%6 = (%4 != 0)
+	if (%6) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	this.currentBytePos = 0
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%8 = this.model
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%11 = virtual %8.getCharLen(%15)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.currentCharLen = %11
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb5
+	%14 = this.model
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	%16 = this.currentState
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%18 = virtual %14.getNextState(%15, %16)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.currentState = %18
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%20 = this.currentBytePos
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%22 = %20 + 1
+	this.currentBytePos = %22
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%24 = this.currentState
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	return %24
+2026-08-11 12:48:21.341 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_nextState_20523413521
+2026-08-11 12:48:21.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCurrentCharLen(): int
+2026-08-11 12:48:21.342 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCurrentCharLen(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.currentCharLen
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 12:48:21.428 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_getCurrentCharLen_3023236522
+2026-08-11 12:48:21.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::reset(): void
+2026-08-11 12:48:21.429 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::reset(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.currentState = 0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 12:48:21.522 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_reset_4063369893
+2026-08-11 12:48:21.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCodingStateMachine(): java/lang/String
+2026-08-11 12:48:21.523 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCodingStateMachine(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.model
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.getName()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 12:48:21.585 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_getCodingStateMachine_11162702134
+2026-08-11 12:48:21.652 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_init_11387833045
+2026-08-11 12:48:21.712 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_nextState_20523413526
+2026-08-11 12:48:21.789 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_getCurrentCharLen_3023236527
+2026-08-11 12:48:21.843 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_reset_4063369898
+2026-08-11 12:48:21.902 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.CodingStateMachine_getCodingStateMachine_11162702139
+2026-08-11 12:48:21.902 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::<init>(org/mozilla/universalchardet/prober/statemachine/SMModel): void: null
+2026-08-11 12:48:21.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::nextState(byte): int: null
+2026-08-11 12:48:21.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCurrentCharLen(): int: null
+2026-08-11 12:48:21.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::reset(): void: null
+2026-08-11 12:48:21.903 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCodingStateMachine(): java/lang/String: null
+2026-08-11 12:48:21.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::<init>(org/mozilla/universalchardet/prober/statemachine/SMModel): void processing is finished normally
+2026-08-11 12:48:21.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::nextState(byte): int processing is finished normally
+2026-08-11 12:48:21.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCurrentCharLen(): int processing is finished normally
+2026-08-11 12:48:21.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::reset(): void processing is finished normally
+2026-08-11 12:48:21.903 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/CodingStateMachine::getCodingStateMachine(): java/lang/String processing is finished normally
+2026-08-11 12:48:21.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/EUCKRSMModel::<init>(): void
+2026-08-11 12:48:21.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/EUCKRSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = EUCKRSMModel.euckrClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = EUCKRSMModel.euckrStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = EUCKRSMModel.euckrCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_EUC_KR
+	special this.<init>(%10, 4, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:21.964 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.EUCKRSMModel_init_18977250390
+2026-08-11 12:48:22.030 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.EUCKRSMModel_init_18977250391
+2026-08-11 12:48:22.031 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/EUCKRSMModel::<init>(): void: null
+2026-08-11 12:48:22.031 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/EUCKRSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/UTF8SMModel::<init>(): void
+2026-08-11 12:48:22.044 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/UTF8SMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = UTF8SMModel.utf8ClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = UTF8SMModel.utf8StateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = UTF8SMModel.utf8CharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_UTF_8
+	special this.<init>(%10, 16, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:22.111 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.UTF8SMModel_init_14485719740
+2026-08-11 12:48:22.170 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.UTF8SMModel_init_14485719741
+2026-08-11 12:48:22.171 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/UTF8SMModel::<init>(): void: null
+2026-08-11 12:48:22.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/UTF8SMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.179 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/ISO2022CNSMModel::<init>(): void
+2026-08-11 12:48:22.179 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/ISO2022CNSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = ISO2022CNSMModel.iso2022cnClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = ISO2022CNSMModel.iso2022cnStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = ISO2022CNSMModel.iso2022cnCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_ISO_2022_CN
+	special this.<init>(%10, 9, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:22.231 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.ISO2022CNSMModel_init_4397559310
+2026-08-11 12:48:22.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.ISO2022CNSMModel_init_4397559311
+2026-08-11 12:48:22.289 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/ISO2022CNSMModel::<init>(): void: null
+2026-08-11 12:48:22.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/ISO2022CNSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/ISO2022JPSMModel::<init>(): void
+2026-08-11 12:48:22.297 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/ISO2022JPSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = ISO2022JPSMModel.iso2022jpClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = ISO2022JPSMModel.iso2022jpStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = ISO2022JPSMModel.iso2022jpCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_ISO_2022_JP
+	special this.<init>(%10, 10, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:22.368 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.ISO2022JPSMModel_init_11352920960
+2026-08-11 12:48:22.430 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.ISO2022JPSMModel_init_11352920961
+2026-08-11 12:48:22.431 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/ISO2022JPSMModel::<init>(): void: null
+2026-08-11 12:48:22.432 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/ISO2022JPSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/Big5SMModel::<init>(): void
+2026-08-11 12:48:22.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/Big5SMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = Big5SMModel.big5ClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = Big5SMModel.big5StateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = Big5SMModel.big5CharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_BIG5
+	special this.<init>(%10, 5, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:22.500 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.Big5SMModel_init_11478548380
+2026-08-11 12:48:22.582 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.Big5SMModel_init_11478548381
+2026-08-11 12:48:22.583 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/Big5SMModel::<init>(): void: null
+2026-08-11 12:48:22.584 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/Big5SMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/SJISSMModel::<init>(): void
+2026-08-11 12:48:22.590 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/SJISSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = SJISSMModel.sjisClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = SJISSMModel.sjisStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = SJISSMModel.sjisCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_SHIFT_JIS
+	special this.<init>(%10, 6, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:22.668 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SJISSMModel_init_1661198180
+2026-08-11 12:48:22.712 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SJISSMModel_init_1661198181
+2026-08-11 12:48:22.713 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/SJISSMModel::<init>(): void: null
+2026-08-11 12:48:22.713 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/SJISSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.720 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/ISO2022KRSMModel::<init>(): void
+2026-08-11 12:48:22.720 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/ISO2022KRSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = ISO2022KRSMModel.iso2022krClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = ISO2022KRSMModel.iso2022krStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = ISO2022KRSMModel.iso2022krCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_ISO_2022_KR
+	special this.<init>(%10, 6, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:22.767 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.ISO2022KRSMModel_init_6517472310
+2026-08-11 12:48:22.813 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.ISO2022KRSMModel_init_6517472311
+2026-08-11 12:48:22.814 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/ISO2022KRSMModel::<init>(): void: null
+2026-08-11 12:48:22.814 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/ISO2022KRSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:22.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/PkgInt::<init>(int, int, int, int, int[]): void
+2026-08-11 12:48:22.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/PkgInt::<init>(int, int, int, int, int[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.indexShift = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.shiftMask = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.bitShift = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.unitMask = arg$3
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%1 = virtual arg$4.clone()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%3 = (int[]) %1
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	this.data = %3
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	return
+2026-08-11 12:48:22.892 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_init_14559610610
+2026-08-11 12:48:22.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack16bits(int, int): int
+2026-08-11 12:48:22.893 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/PkgInt::pack16bits(int, int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$1 << 16
+	%3 = %1 || arg$0
+	return %3
+2026-08-11 12:48:22.947 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_pack16bits_2283050891
+2026-08-11 12:48:22.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack8bits(int, int, int, int): int
+2026-08-11 12:48:22.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/PkgInt::pack8bits(int, int, int, int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$1 << 8
+	%6 = %1 || arg$0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = arg$3 << 8
+	%7 = %4 || arg$2
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%9 = static PkgInt.pack16bits(%6, %7)
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	return %9
+2026-08-11 12:48:22.997 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_pack8bits_7228663022
+2026-08-11 12:48:22.998 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack4bits(int, int, int, int, int, int, int, int): int
+2026-08-11 12:48:22.998 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/PkgInt::pack4bits(int, int, int, int, int, int, int, int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$1 << 4
+	%12 = %1 || arg$0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = arg$3 << 4
+	%13 = %4 || arg$2
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%7 = arg$5 << 4
+	%14 = %7 || arg$4
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%10 = arg$7 << 4
+	%15 = %10 || arg$6
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%17 = static PkgInt.pack8bits(%12, %13, %14, %15)
+	goto %bb1
+
+%bb1: 	//predecessors %label3
+	return %17
+2026-08-11 12:48:23.045 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_pack4bits_12747783663
+2026-08-11 12:48:23.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/PkgInt::unpack(int): int
+2026-08-11 12:48:23.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/PkgInt::unpack(int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = this.data
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.indexShift
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = arg$0 >> %2
+	%14 = %4[%5]
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8 = this.shiftMask
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%11 = arg$0 && %8
+	%12 = this.bitShift
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%15 = %11 << %12
+	%18 = %14 >> %15
+	%19 = this.unitMask
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%21 = %18 && %19
+	return %21
+2026-08-11 12:48:23.096 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_unpack_3660627694
+2026-08-11 12:48:23.146 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_init_14559610615
+2026-08-11 12:48:23.200 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_pack16bits_2283050896
+2026-08-11 12:48:23.251 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_pack8bits_7228663027
+2026-08-11 12:48:23.307 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_pack4bits_12747783668
+2026-08-11 12:48:23.364 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.PkgInt_unpack_3660627699
+2026-08-11 12:48:23.365 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/PkgInt::<init>(int, int, int, int, int[]): void: null
+2026-08-11 12:48:23.365 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack16bits(int, int): int: null
+2026-08-11 12:48:23.365 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack8bits(int, int, int, int): int: null
+2026-08-11 12:48:23.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack4bits(int, int, int, int, int, int, int, int): int: null
+2026-08-11 12:48:23.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/PkgInt::unpack(int): int: null
+2026-08-11 12:48:23.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/PkgInt::<init>(int, int, int, int, int[]): void processing is finished normally
+2026-08-11 12:48:23.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack16bits(int, int): int processing is finished normally
+2026-08-11 12:48:23.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack8bits(int, int, int, int): int processing is finished normally
+2026-08-11 12:48:23.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/PkgInt::pack4bits(int, int, int, int, int, int, int, int): int processing is finished normally
+2026-08-11 12:48:23.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/PkgInt::unpack(int): int processing is finished normally
+2026-08-11 12:48:23.371 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/UCS2BESMModel::<init>(): void
+2026-08-11 12:48:23.371 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/UCS2BESMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = UCS2BESMModel.ucs2beClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = UCS2BESMModel.ucs2beStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = UCS2BESMModel.ucs2beCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_UTF_16BE
+	special this.<init>(%10, 6, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:23.430 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.UCS2BESMModel_init_16586599090
+2026-08-11 12:48:23.477 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.UCS2BESMModel_init_16586599091
+2026-08-11 12:48:23.478 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/UCS2BESMModel::<init>(): void: null
+2026-08-11 12:48:23.478 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/UCS2BESMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:23.484 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/EUCTWSMModel::<init>(): void
+2026-08-11 12:48:23.484 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/EUCTWSMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = EUCTWSMModel.euctwClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = EUCTWSMModel.euctwStateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = EUCTWSMModel.euctwCharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_EUC_TW
+	special this.<init>(%10, 7, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:23.528 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.EUCTWSMModel_init_1812829890
+2026-08-11 12:48:23.582 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.EUCTWSMModel_init_1812829891
+2026-08-11 12:48:23.583 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/EUCTWSMModel::<init>(): void: null
+2026-08-11 12:48:23.583 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/EUCTWSMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:23.586 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/SMModel::getClass(byte): int
+2026-08-11 12:48:23.586 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/SMModel::getClass(byte): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = arg$0 && 255
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%2 = this.classTable
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = virtual %2.unpack(%3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-11 12:48:23.631 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getClass_11825966930
+2026-08-11 12:48:23.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/SMModel::getNextState(int, int): int
+2026-08-11 12:48:23.631 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/SMModel::getNextState(int, int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = this.stateTable
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = this.classFactor
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4 = arg$1 * %2
+	%7 = %4 + arg$0
+	%9 = virtual %6.unpack(%7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %9
+2026-08-11 12:48:23.681 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getNextState_363782951
+2026-08-11 12:48:23.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/SMModel::getCharLen(int): int
+2026-08-11 12:48:23.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/SMModel::getCharLen(int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.charLenTable
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = %1[arg$0]
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 12:48:23.726 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getCharLen_15378263742
+2026-08-11 12:48:23.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/SMModel::getName(): java/lang/String
+2026-08-11 12:48:23.726 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/SMModel::getName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.name
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 12:48:23.771 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getName_2180496753
+2026-08-11 12:48:23.812 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getClass_11825966934
+2026-08-11 12:48:23.854 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getNextState_363782955
+2026-08-11 12:48:23.897 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getCharLen_15378263746
+2026-08-11 12:48:23.937 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.SMModel_getName_2180496757
+2026-08-11 12:48:23.937 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/SMModel::getClass(byte): int: null
+2026-08-11 12:48:23.938 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/SMModel::getNextState(int, int): int: null
+2026-08-11 12:48:23.938 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/SMModel::getCharLen(int): int: null
+2026-08-11 12:48:23.938 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/SMModel::getName(): java/lang/String: null
+2026-08-11 12:48:23.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/SMModel::getClass(byte): int processing is finished normally
+2026-08-11 12:48:23.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/SMModel::getNextState(int, int): int processing is finished normally
+2026-08-11 12:48:23.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/SMModel::getCharLen(int): int processing is finished normally
+2026-08-11 12:48:23.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/SMModel::getName(): java/lang/String processing is finished normally
+2026-08-11 12:48:23.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/mozilla/universalchardet/prober/statemachine/GB18030SMModel::<init>(): void
+2026-08-11 12:48:23.942 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/mozilla/universalchardet/prober/statemachine/GB18030SMModel::<init>(): void
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%10 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%3 = GB18030SMModel.gb18030ClassTable
+	special %10.<init>(3, 7, 2, 15, %3)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%11 = new org/mozilla/universalchardet/prober/statemachine/PkgInt
+	%7 = GB18030SMModel.gb18030StateTable
+	special %11.<init>(3, 7, 2, 15, %7)
+	goto %bb0
+
+%bb0: 	//predecessors %label1
+	%12 = GB18030SMModel.gb18030CharLenTable
+	goto %label2
+
+%label2: 	//predecessors %bb0
+	%13 = Constants.CHARSET_GB18030
+	special this.<init>(%10, 7, %11, %12, %13)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	return
+2026-08-11 12:48:23.983 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.GB18030SMModel_init_2791221420
+2026-08-11 12:48:24.026 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.mozilla.universalchardet.prober.statemachine.GB18030SMModel_init_2791221421
+2026-08-11 12:48:24.027 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/mozilla/universalchardet/prober/statemachine/GB18030SMModel::<init>(): void: null
+2026-08-11 12:48:24.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/mozilla/universalchardet/prober/statemachine/GB18030SMModel::<init>(): void processing is finished normally
+2026-08-11 12:48:24.028 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 12:48:24.028 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

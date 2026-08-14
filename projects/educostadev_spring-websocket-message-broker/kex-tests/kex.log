@@ -1,0 +1,2172 @@
+2026-08-11 14:43:51.387 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/educostadev_spring-websocket-message-broker/target/classes
+2026-08-11 14:43:51.505 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 14:43:51.597 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 14:43:52.937 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 14:43:53.745 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package example/websocket/*
+2026-08-11 14:43:53.746 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 14:43:53.756 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/educostadev_spring-websocket-message-broker/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 14:43:53.799 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/educostadev_spring-websocket-message-broker/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 39977 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/educostadev_spring-websocket-message-broker/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 14:43:53.816 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 14:45:33.847 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketController::sendMessage(java/security/Principal, java/lang/String, java/lang/String, example/websocket/WebSocketController$WebSocketRequestMessage): java/lang/Boolean
+2026-08-11 14:45:33.848 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketController::sendMessage(java/security/Principal, java/lang/String, java/lang/String, example/websocket/WebSocketController$WebSocketRequestMessage): java/lang/Boolean
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = WebSocketController.log
+	%8 = new java/lang/Object[3]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = interface arg$0.getName()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%8[0] = %4
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%8[1] = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%8[2] = arg$1
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	interface %7.info("Send message from user {} to user {}. Auth key {}", %8)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%11 = this.webSocketService
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%12 = virtual arg$3.getMessageContent()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	virtual %11.notifyUser(arg$2, %12)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%14 = Boolean.TRUE
+	return %14
+2026-08-11 14:45:34.416 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_sendMessage_18117960090
+2026-08-11 14:45:34.421 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketController::<init>(): void
+2026-08-11 14:45:34.422 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketController::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:34.566 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_init_9113324011
+2026-08-11 14:45:34.672 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_sendMessage_18117960092
+2026-08-11 14:45:34.753 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_init_9113324013
+2026-08-11 14:45:34.755 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketController::sendMessage(java/security/Principal, java/lang/String, java/lang/String, example/websocket/WebSocketController$WebSocketRequestMessage): java/lang/Boolean: null
+2026-08-11 14:45:34.755 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketController::<init>(): void: null
+2026-08-11 14:45:34.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketController::sendMessage(java/security/Principal, java/lang/String, java/lang/String, example/websocket/WebSocketController$WebSocketRequestMessage): java/lang/Boolean processing is finished normally
+2026-08-11 14:45:34.755 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketController::<init>(): void processing is finished normally
+2026-08-11 14:45:34.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void
+2026-08-11 14:45:34.764 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:34.766 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.766 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.766 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void: null
+2026-08-11 14:45:34.767 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionConnectEvent): void
+2026-08-11 14:45:34.767 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionConnectEvent): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.readUser(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = static Optional.ofNullable(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (example/websocket/WebSocketConnectHandler, org/springframework/web/socket/messaging/SessionConnectEvent): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/security/Principal): void)), HandleBsmArgument(handle=@example/websocket/WebSocketConnectHandler::lambda$onApplicationEvent$0(org/springframework/web/socket/messaging/SessionConnectEvent, java/security/Principal): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %4.ifPresent(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 14:45:34.767 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.767 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.768 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionConnectEvent): void: null
+2026-08-11 14:45:34.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConnectHandler::log(org/springframework/web/socket/messaging/SessionConnectEvent, java/security/Principal): void
+2026-08-11 14:45:34.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConnectHandler::log(org/springframework/web/socket/messaging/SessionConnectEvent, java/security/Principal): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%5 = virtual this.readSessionId(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = WebSocketConnectHandler.log
+	%4 = interface arg$1.getName()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	interface %3.info("User {} connected to session id {}", %4, %5)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 14:45:34.768 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.768 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.768 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConnectHandler::log(org/springframework/web/socket/messaging/SessionConnectEvent, java/security/Principal): void: null
+2026-08-11 14:45:34.768 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConnectHandler::readSessionId(org/springframework/web/socket/messaging/SessionConnectEvent): java/lang/String
+2026-08-11 14:45:34.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConnectHandler::readSessionId(org/springframework/web/socket/messaging/SessionConnectEvent): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.getMessage()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.getHeaders()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = static SimpMessageHeaderAccessor.getSessionId(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-08-11 14:45:34.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.769 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConnectHandler::readSessionId(org/springframework/web/socket/messaging/SessionConnectEvent): java/lang/String: null
+2026-08-11 14:45:34.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConnectHandler::readUser(org/springframework/web/socket/messaging/SessionConnectEvent): java/security/Principal
+2026-08-11 14:45:34.769 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConnectHandler::readUser(org/springframework/web/socket/messaging/SessionConnectEvent): java/security/Principal
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.getMessage()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.getHeaders()
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = static SimpMessageHeaderAccessor.getUser(%3)
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	return %5
+2026-08-11 14:45:34.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.770 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConnectHandler::readUser(org/springframework/web/socket/messaging/SessionConnectEvent): java/security/Principal: null
+2026-08-11 14:45:34.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void processing is finished normally
+2026-08-11 14:45:34.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionConnectEvent): void processing is finished normally
+2026-08-11 14:45:34.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConnectHandler::log(org/springframework/web/socket/messaging/SessionConnectEvent, java/security/Principal): void processing is finished normally
+2026-08-11 14:45:34.770 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConnectHandler::readSessionId(org/springframework/web/socket/messaging/SessionConnectEvent): java/lang/String processing is finished normally
+2026-08-11 14:45:34.771 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConnectHandler::readUser(org/springframework/web/socket/messaging/SessionConnectEvent): java/security/Principal processing is finished normally
+2026-08-11 14:45:34.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketHandlersConfig::<init>(): void
+2026-08-11 14:45:34.773 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketHandlersConfig::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:34.852 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketHandlersConfig_init_18217955200
+2026-08-11 14:45:34.853 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketHandlersConfig::webSocketConnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketConnectHandler
+2026-08-11 14:45:34.853 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketHandlersConfig::webSocketConnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketConnectHandler
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new example/websocket/WebSocketConnectHandler
+	special %2.<init>(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-08-11 14:45:34.854 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessageSendingOperations
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.854 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessageSendingOperations
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.854 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketHandlersConfig::webSocketConnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketConnectHandler: null
+2026-08-11 14:45:34.854 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketHandlersConfig::webSocketDisconnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketDisconnectHandler
+2026-08-11 14:45:34.854 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketHandlersConfig::webSocketDisconnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketDisconnectHandler
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new example/websocket/WebSocketDisconnectHandler
+	special %2.<init>(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %2
+2026-08-11 14:45:34.854 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessageSendingOperations
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.854 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessageSendingOperations
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.854 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketHandlersConfig::webSocketDisconnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketDisconnectHandler: null
+2026-08-11 14:45:34.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketHandlersConfig_init_18217955201
+2026-08-11 14:45:34.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketHandlersConfig::webSocketConnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketConnectHandler processing is finished normally
+2026-08-11 14:45:34.938 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketHandlersConfig::webSocketDisconnectHandler(org/springframework/messaging/simp/SimpMessageSendingOperations): example/websocket/WebSocketDisconnectHandler processing is finished normally
+2026-08-11 14:45:34.939 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketHandlersConfig::<init>(): void: null
+2026-08-11 14:45:34.939 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketHandlersConfig::<init>(): void processing is finished normally
+2026-08-11 14:45:34.951 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::<init>(): void
+2026-08-11 14:45:34.951 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:34.952 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.952 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.952 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::<init>(): void: null
+2026-08-11 14:45:34.952 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::preSend(org/springframework/messaging/Message, org/springframework/messaging/MessageChannel): org/springframework/messaging/Message
+2026-08-11 14:45:34.952 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::preSend(org/springframework/messaging/Message, org/springframework/messaging/MessageChannel): org/springframework/messaging/Message
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%22 = virtual this.readHeaderAccessor(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = virtual %22.getCommand()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = StompCommand.CONNECT
+	%7 = (%4 != %5)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%29 = virtual this.readWebSocketIdHeader(%22)
+	goto %label1
+
+%label1: 	//predecessors %if.else0
+	%27 = virtual this.readAuthKeyHeader(%22)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%31 = virtual this.readSessionId(%22)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%32 = new org/springframework/security/authentication/UsernamePasswordAuthenticationToken
+	special %32.<init>(%29, null)
+	goto %label4
+
+%label4: 	//predecessors %label3
+	virtual %22.setUser(%32)
+	goto %bb2
+
+%bb2: 	//predecessors %label4
+	%20 = static LocalDateTime.now()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%23 = virtual %20.toString()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual %22.setHeader("connection-time", %23)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%36 = WebSocketChannelInterceptor.log
+	%37 = new java/lang/Object[4]
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%37[0] = %27
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%37[1] = %29
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%37[2] = %31
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%35 = virtual %32.toString()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%37[3] = %35
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	interface %36.info("User with authKey '{}', ws-id {} session {} make a WebSocket connection and generated the user {}", %37)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb11
+	return arg$0
+2026-08-11 14:45:34.953 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.953 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.953 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::preSend(org/springframework/messaging/Message, org/springframework/messaging/MessageChannel): org/springframework/messaging/Message: null
+2026-08-11 14:45:34.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::readHeaderAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor
+2026-08-11 14:45:34.953 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::readHeaderAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%7 = virtual this.getAccessor(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (%7 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%6 = new org/springframework/security/authentication/AuthenticationCredentialsNotFoundException
+	special %6.<init>("Fail to read headers.")
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %label0
+	return %7
+2026-08-11 14:45:34.954 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.954 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.954 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::readHeaderAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor: null
+2026-08-11 14:45:34.954 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::readSessionId(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String
+2026-08-11 14:45:34.954 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::readSessionId(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.getMessageHeaders()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.get("simpSessionId")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = static Optional.ofNullable(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = invokeDynamic (): java/util/function/Supplier @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): org/springframework/security/authentication/AuthenticationCredentialsNotFoundException)), HandleBsmArgument(handle=@example/websocket/WebSocketChannelInterceptor::lambda$readSessionId$0(): org/springframework/security/authentication/AuthenticationCredentialsNotFoundException), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/Object)))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = virtual %6.orElseThrow(%7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = virtual %9.toString()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %11
+2026-08-11 14:45:34.954 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.955 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.955 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::readSessionId(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String: null
+2026-08-11 14:45:34.955 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::readAuthKeyHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String
+2026-08-11 14:45:34.955 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::readAuthKeyHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%14 = virtual arg$0.getFirstNativeHeader("authKey")
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (%14 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%6 = virtual %14.trim()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%8 = virtual %6.isEmpty()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%10 = (%8 == false)
+	if (%10) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %label0, %bb2
+	%13 = new org/springframework/security/authentication/AuthenticationCredentialsNotFoundException
+	special %13.<init>("Auth Key Not Found")
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	throw %13
+
+%if.then1: 	//predecessors %bb2
+	return %14
+2026-08-11 14:45:34.955 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.955 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.956 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::readAuthKeyHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String: null
+2026-08-11 14:45:34.956 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::readWebSocketIdHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String
+2026-08-11 14:45:34.956 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::readWebSocketIdHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%14 = virtual arg$0.getFirstNativeHeader("ws-id")
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (%14 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%6 = virtual %14.trim()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%8 = virtual %6.isEmpty()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%10 = (%8 == false)
+	if (%10) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %label0, %bb2
+	%13 = new org/springframework/security/authentication/AuthenticationCredentialsNotFoundException
+	special %13.<init>("Web Socket ID Header not found")
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	throw %13
+
+%if.then1: 	//predecessors %bb2
+	return %14
+2026-08-11 14:45:34.956 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.956 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.956 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::readWebSocketIdHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String: null
+2026-08-11 14:45:34.956 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketChannelInterceptor::getAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor
+2026-08-11 14:45:34.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketChannelInterceptor::getAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static MessageHeaderAccessor.getAccessor(arg$0, org/springframework/messaging/simp/stomp/StompHeaderAccessor.class)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (org/springframework/messaging/simp/stomp/StompHeaderAccessor) %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 14:45:34.957 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.957 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/messaging/support/ChannelInterceptor
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:34.957 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketChannelInterceptor::getAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor: null
+2026-08-11 14:45:34.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::<init>(): void processing is finished normally
+2026-08-11 14:45:34.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::preSend(org/springframework/messaging/Message, org/springframework/messaging/MessageChannel): org/springframework/messaging/Message processing is finished normally
+2026-08-11 14:45:34.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::readHeaderAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor processing is finished normally
+2026-08-11 14:45:34.957 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::readSessionId(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String processing is finished normally
+2026-08-11 14:45:34.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::readAuthKeyHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String processing is finished normally
+2026-08-11 14:45:34.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::readWebSocketIdHeader(org/springframework/messaging/simp/stomp/StompHeaderAccessor): java/lang/String processing is finished normally
+2026-08-11 14:45:34.958 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketChannelInterceptor::getAccessor(org/springframework/messaging/Message): org/springframework/messaging/simp/stomp/StompHeaderAccessor processing is finished normally
+2026-08-11 14:45:34.964 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService$WebSocketResponseMessage::getContent(): java/lang/String
+2026-08-11 14:45:34.964 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService$WebSocketResponseMessage::getContent(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.content
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 14:45:35.063 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_getContent_16246713930
+2026-08-11 14:45:35.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService$WebSocketResponseMessage::setContent(java/lang/String): void
+2026-08-11 14:45:35.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService$WebSocketResponseMessage::setContent(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.content = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:35.158 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_setContent_18588148791
+2026-08-11 14:45:35.159 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService$WebSocketResponseMessage::<init>(java/lang/String): void
+2026-08-11 14:45:35.159 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService$WebSocketResponseMessage::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.content = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 14:45:35.254 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_init_1307265022
+2026-08-11 14:45:35.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService$WebSocketResponseMessage::<init>(): void
+2026-08-11 14:45:35.255 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService$WebSocketResponseMessage::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:35.330 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_init_215266213
+2026-08-11 14:45:35.397 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_getContent_16246713934
+2026-08-11 14:45:35.450 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_setContent_18588148795
+2026-08-11 14:45:35.500 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_init_1307265026
+2026-08-11 14:45:35.573 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_WebSocketResponseMessage_init_215266217
+2026-08-11 14:45:35.573 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService$WebSocketResponseMessage::getContent(): java/lang/String: null
+2026-08-11 14:45:35.573 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService$WebSocketResponseMessage::setContent(java/lang/String): void: null
+2026-08-11 14:45:35.574 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService$WebSocketResponseMessage::<init>(java/lang/String): void: null
+2026-08-11 14:45:35.574 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService$WebSocketResponseMessage::<init>(): void: null
+2026-08-11 14:45:35.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService$WebSocketResponseMessage::getContent(): java/lang/String processing is finished normally
+2026-08-11 14:45:35.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService$WebSocketResponseMessage::setContent(java/lang/String): void processing is finished normally
+2026-08-11 14:45:35.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService$WebSocketResponseMessage::<init>(java/lang/String): void processing is finished normally
+2026-08-11 14:45:35.574 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService$WebSocketResponseMessage::<init>(): void processing is finished normally
+2026-08-11 14:45:35.576 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketController$WebSocketRequestMessage::<init>(): void
+2026-08-11 14:45:35.576 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketController$WebSocketRequestMessage::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:35.623 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_WebSocketRequestMessage_init_19379741960
+2026-08-11 14:45:35.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketController$WebSocketRequestMessage::getMessageContent(): java/lang/String
+2026-08-11 14:45:35.624 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketController$WebSocketRequestMessage::getMessageContent(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.messageContent
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 14:45:35.674 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_WebSocketRequestMessage_getMessageContent_21260094991
+2026-08-11 14:45:35.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketController$WebSocketRequestMessage::setMessageContent(java/lang/String): void
+2026-08-11 14:45:35.675 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketController$WebSocketRequestMessage::setMessageContent(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.messageContent = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:35.721 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_WebSocketRequestMessage_setMessageContent_17781920132
+2026-08-11 14:45:35.768 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_WebSocketRequestMessage_init_19379741963
+2026-08-11 14:45:35.815 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_WebSocketRequestMessage_getMessageContent_21260094994
+2026-08-11 14:45:35.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketController_WebSocketRequestMessage_setMessageContent_17781920135
+2026-08-11 14:45:35.858 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketController$WebSocketRequestMessage::<init>(): void: null
+2026-08-11 14:45:35.858 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketController$WebSocketRequestMessage::getMessageContent(): java/lang/String: null
+2026-08-11 14:45:35.858 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketController$WebSocketRequestMessage::setMessageContent(java/lang/String): void: null
+2026-08-11 14:45:35.858 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketController$WebSocketRequestMessage::<init>(): void processing is finished normally
+2026-08-11 14:45:35.859 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketController$WebSocketRequestMessage::getMessageContent(): java/lang/String processing is finished normally
+2026-08-11 14:45:35.859 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketController$WebSocketRequestMessage::setMessageContent(java/lang/String): void processing is finished normally
+2026-08-11 14:45:35.862 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketDisconnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void
+2026-08-11 14:45:35.863 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketDisconnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:35.863 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:35.863 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:35.863 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketDisconnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void: null
+2026-08-11 14:45:35.864 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketDisconnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionDisconnectEvent): void
+2026-08-11 14:45:35.864 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketDisconnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionDisconnectEvent): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.getUser()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = static Optional.ofNullable(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (org/springframework/web/socket/messaging/SessionDisconnectEvent): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/security/Principal): void)), HandleBsmArgument(handle=@example/websocket/WebSocketDisconnectHandler::lambda$onApplicationEvent$0(org/springframework/web/socket/messaging/SessionDisconnectEvent, java/security/Principal): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	virtual %4.ifPresent(%5)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 14:45:35.864 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:35.864 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/context/ApplicationListener
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:35.864 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketDisconnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionDisconnectEvent): void: null
+2026-08-11 14:45:35.864 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketDisconnectHandler::<init>(org/springframework/messaging/simp/SimpMessageSendingOperations): void processing is finished normally
+2026-08-11 14:45:35.865 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketDisconnectHandler::onApplicationEvent(org/springframework/web/socket/messaging/SessionDisconnectEvent): void processing is finished normally
+2026-08-11 14:45:35.866 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/RestMesssageController::<init>(): void
+2026-08-11 14:45:35.867 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/RestMesssageController::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:35.911 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.RestMesssageController_init_1921011160
+2026-08-11 14:45:35.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/RestMesssageController::sendMessage(java/lang/String, java/lang/String): void
+2026-08-11 14:45:35.912 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/RestMesssageController::sendMessage(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = RestMesssageController.log
+	interface %1.info("Rest send message {} to user {}", arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.service
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual %3.notifyUser(arg$1, arg$0)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 14:45:35.962 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.RestMesssageController_sendMessage_11448068311
+2026-08-11 14:45:36.009 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.RestMesssageController_init_1921011162
+2026-08-11 14:45:36.011 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/RestMesssageController::<init>(): void: null
+2026-08-11 14:45:36.063 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.RestMesssageController_sendMessage_11448068313
+2026-08-11 14:45:36.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/RestMesssageController::<init>(): void processing is finished normally
+2026-08-11 14:45:36.064 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/RestMesssageController::sendMessage(java/lang/String, java/lang/String): void: null
+2026-08-11 14:45:36.064 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/RestMesssageController::sendMessage(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 14:45:36.069 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConfig::<init>(): void
+2026-08-11 14:45:36.069 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConfig::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:36.070 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.070 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.070 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConfig::<init>(): void: null
+2026-08-11 14:45:36.070 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConfig::registerStompEndpoints(org/springframework/web/socket/config/annotation/StompEndpointRegistry): void
+2026-08-11 14:45:36.070 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConfig::registerStompEndpoints(org/springframework/web/socket/config/annotation/StompEndpointRegistry): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new java/lang/String[1]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2[0] = "/ws-register"
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = interface arg$0.addEndpoint(%2)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = new java/lang/String[1]
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7[0] = "*"
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%9 = interface %6.setAllowedOriginPatterns(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%10 = interface %9.withSockJS()
+	goto %label0
+
+%label0: 	//predecessors %bb6
+	return
+2026-08-11 14:45:36.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConfig::registerStompEndpoints(org/springframework/web/socket/config/annotation/StompEndpointRegistry): void: null
+2026-08-11 14:45:36.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConfig::configureMessageBroker(org/springframework/messaging/simp/config/MessageBrokerRegistry): void
+2026-08-11 14:45:36.071 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConfig::configureMessageBroker(org/springframework/messaging/simp/config/MessageBrokerRegistry): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = new java/lang/String[2]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3[0] = "/queue"
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3[1] = "/topic"
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%6 = virtual arg$0.enableStompBrokerRelay(%3)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%7 = this.brokerHost
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%10 = virtual %6.setRelayHost(%7)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%11 = this.brokerPort
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%14 = virtual %10.setRelayPort(%11)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%15 = this.brokerUser
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%18 = virtual %14.setClientLogin(%15)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%19 = this.brokerPass
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%22 = virtual %18.setClientPasscode(%19)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%23 = this.brokerUser
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%26 = virtual %22.setSystemLogin(%23)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%27 = this.brokerPass
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%29 = virtual %26.setSystemPasscode(%27)
+	goto %label0
+
+%label0: 	//predecessors %bb15
+	%31 = virtual %29.setUserDestinationBroadcast("/topic/unresolved-user")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%32 = virtual %31.setUserRegistryBroadcast("/topic/log-user-registry")
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%35 = new java/lang/String[1]
+	goto %bb16
+
+%bb16: 	//predecessors %label2
+	%35[0] = "/app"
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%36 = virtual arg$0.setApplicationDestinationPrefixes(%35)
+	goto %label3
+
+%label3: 	//predecessors %bb17
+	return
+2026-08-11 14:45:36.071 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConfig::configureMessageBroker(org/springframework/messaging/simp/config/MessageBrokerRegistry): void: null
+2026-08-11 14:45:36.072 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketConfig::configureClientInboundChannel(org/springframework/messaging/simp/config/ChannelRegistration): void
+2026-08-11 14:45:36.072 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketConfig::configureClientInboundChannel(org/springframework/messaging/simp/config/ChannelRegistration): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new org/springframework/messaging/support/ChannelInterceptor[1]
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = this.channelInterceptor
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4[0] = %3
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = virtual arg$0.interceptors(%4)
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	return
+2026-08-11 14:45:36.072 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/web/socket/config/annotation/WebSocketMessageBrokerConfigurer
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.073 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketConfig::configureClientInboundChannel(org/springframework/messaging/simp/config/ChannelRegistration): void: null
+2026-08-11 14:45:36.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConfig::<init>(): void processing is finished normally
+2026-08-11 14:45:36.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConfig::registerStompEndpoints(org/springframework/web/socket/config/annotation/StompEndpointRegistry): void processing is finished normally
+2026-08-11 14:45:36.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConfig::configureMessageBroker(org/springframework/messaging/simp/config/MessageBrokerRegistry): void processing is finished normally
+2026-08-11 14:45:36.073 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketConfig::configureClientInboundChannel(org/springframework/messaging/simp/config/ChannelRegistration): void processing is finished normally
+2026-08-11 14:45:36.078 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService::notifyUser(java/lang/String, java/lang/String): void
+2026-08-11 14:45:36.078 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService::notifyUser(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	virtual this.send(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:36.133 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_notifyUser_3026082760
+2026-08-11 14:45:36.133 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService::send(java/lang/String, java/lang/String): void
+2026-08-11 14:45:36.134 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService::send(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new com/fasterxml/jackson/databind/ObjectMapper
+	special %4.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = new example/websocket/WebSocketService$WebSocketResponseMessage
+	special %5.<init>(arg$1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = virtual %4.writeValueAsString(%5)
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%8 = this.messagingTemplate
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	virtual %8.convertAndSendToUser(arg$0, "/topic/messages", %9)
+	goto %goto0
+
+%catch0: 	//catches from %bb2, %bb3, %bb1, %label0, %bb0
+	%11 = catch java/lang/Throwable
+goto %label1
+
+%label1: 	//predecessors %catch0
+	throw %11
+
+%goto0: 	//predecessors %bb3
+	return
+2026-08-11 14:45:36.184 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketService_send_15606293121
+2026-08-11 14:45:36.184 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketService::<init>(org/springframework/messaging/simp/SimpMessagingTemplate): void
+2026-08-11 14:45:36.184 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketService::<init>(org/springframework/messaging/simp/SimpMessagingTemplate): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.messagingTemplate = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 14:45:36.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessagingTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessagingTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService::<init>(org/springframework/messaging/simp/SimpMessagingTemplate): void: null
+2026-08-11 14:45:36.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lorg/springframework/messaging/simp/SimpMessagingTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessagingTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-11 14:45:36.185 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService::notifyUser(java/lang/String, java/lang/String): void: null
+2026-08-11 14:45:36.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lorg/springframework/messaging/simp/SimpMessagingTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.springframework.messaging.simp.SimpMessagingTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-11 14:45:36.186 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketService::send(java/lang/String, java/lang/String): void: null
+2026-08-11 14:45:36.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService::<init>(org/springframework/messaging/simp/SimpMessagingTemplate): void processing is finished normally
+2026-08-11 14:45:36.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService::notifyUser(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 14:45:36.186 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketService::send(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 14:45:36.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSecurityConfig::<init>(): void
+2026-08-11 14:45:36.188 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSecurityConfig::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:36.188 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSecurityConfig::<init>(): void: null
+2026-08-11 14:45:36.189 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
+2026-08-11 14:45:36.189 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = virtual arg$0.authorizeRequests()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = new java/lang/String[1]
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4[0] = "/*"
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%6 = virtual %3.antMatchers(%4)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%8 = (org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer$AuthorizedUrl) %6
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%10 = virtual %8.permitAll()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%12 = virtual %10.and()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%14 = (org/springframework/security/config/annotation/web/builders/HttpSecurity) %12
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%16 = virtual %14.csrf()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%17 = virtual %16.disable()
+	goto %label0
+
+%label0: 	//predecessors %bb9
+	return
+2026-08-11 14:45:36.189 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 14:45:36.190 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void: null
+2026-08-11 14:45:36.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSecurityConfig::<init>(): void processing is finished normally
+2026-08-11 14:45:36.190 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSecurityConfig::configure(org/springframework/security/config/annotation/web/builders/HttpSecurity): void processing is finished normally
+2026-08-11 14:45:36.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketApplication::<init>(): void
+2026-08-11 14:45:36.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketApplication::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 14:45:36.240 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketApplication_init_935155690
+2026-08-11 14:45:36.241 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method example/websocket/WebSocketApplication::main(java/lang/String[]): void
+2026-08-11 14:45:36.241 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - example/websocket/WebSocketApplication::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%0 = static SpringApplication.run(example/websocket/WebSocketApplication.class, arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	return
+2026-08-11 14:45:36.293 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketApplication_main_4700785731
+2026-08-11 14:45:36.340 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketApplication_init_935155692
+2026-08-11 14:45:36.390 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test example.websocket.WebSocketApplication_main_4700785733
+2026-08-11 14:45:36.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketApplication::<init>(): void: null
+2026-08-11 14:45:36.391 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method example/websocket/WebSocketApplication::main(java/lang/String[]): void: null
+2026-08-11 14:45:36.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketApplication::<init>(): void processing is finished normally
+2026-08-11 14:45:36.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method example/websocket/WebSocketApplication::main(java/lang/String[]): void processing is finished normally
+2026-08-11 14:45:36.391 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 14:45:36.391 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

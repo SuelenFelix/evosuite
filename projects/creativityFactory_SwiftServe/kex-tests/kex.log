@@ -1,0 +1,2542 @@
+2026-08-10 20:53:28.055 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/creativityFactory_SwiftServe/target/classes
+2026-08-10 20:53:28.159 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 20:53:28.220 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-10 20:53:29.137 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-10 20:53:29.571 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/creativityfactory/swiftserver/utils/*
+2026-08-10 20:53:29.572 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-10 20:53:29.619 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/creativityFactory_SwiftServe/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-10 20:53:29.647 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/creativityFactory_SwiftServe/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 37615 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/creativityFactory_SwiftServe/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-10 20:53:29.659 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-10 20:55:09.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/FieldUtils::<init>(): void
+2026-08-10 20:55:09.696 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/FieldUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-10 20:55:10.164 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.FieldUtils_init_11555814840
+2026-08-10 20:55:10.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/FieldUtils::getAllFields(java/lang/Class): java/util/List
+2026-08-10 20:55:10.171 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/FieldUtils::getAllFields(java/lang/Class): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.getDeclaredFields()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static Arrays.asList(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-10 20:55:10.283 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.FieldUtils_getAllFields_20650348101
+2026-08-10 20:55:10.284 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/FieldUtils::updateFields(java/lang/Object, java/lang/Object): java/lang/Object
+2026-08-10 20:55:10.285 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/FieldUtils::updateFields(java/lang/Object, java/lang/Object): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = virtual arg$0.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual arg$1.getClass()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (%2 == %3)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	%9 = virtual arg$0.getClass()
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%19 = virtual %9.getDeclaredFields()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%23 = static IdUtils.getIdField(%9)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%16 = %19.length
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	goto %label3
+
+%label3: 	//predecessors %bb3, %if.then2
+	%40 = phi {%bb3 -> 0; %if.then2 -> %41}
+	%18 = (%40 >= %16)
+	if (%18) goto %if.then3 else %if.else1
+
+%if.else1: 	//predecessors %label3
+	%36 = %19[%40]
+	goto %label4
+
+%label4: 	//predecessors %if.else1
+	%25 = virtual %36.equals(%23)
+	goto %bb4
+
+%bb4: 	//predecessors %label4
+	%27 = (%25 != false)
+	if (%27) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	virtual %36.setAccessible(1)
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	%31 = virtual %36.get(arg$1)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%33 = (%31 == null)
+	if (%33) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb6
+	%37 = virtual %36.get(arg$1)
+	goto %bb7
+
+%bb7: 	//predecessors %if.else3
+	virtual %36.set(arg$0, %37)
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb6, %bb7
+	goto %if.then2
+
+%catch0: 	//catches from %bb5, %if.else3, %bb6, %bb7, %if.else2
+	%39 = catch java/lang/Exception
+goto %label5
+
+%label5: 	//predecessors %catch0
+	virtual %39.printStackTrace()
+	goto %bb8
+
+%bb8: 	//predecessors %label5
+	goto %bb.return0
+
+%if.then2: 	//predecessors %bb4, %if.then1
+	%41 = %40 + 1
+	goto %label3
+
+%if.then3: 	//predecessors %label3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb8, %if.then3
+	%retval1 = phi {%if.else0 -> null; %bb8 -> null; %if.then3 -> arg$0}
+	return %retval1
+2026-08-10 20:55:10.377 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.FieldUtils_updateFields_19713277712
+2026-08-10 20:55:10.450 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.FieldUtils_init_11555814843
+2026-08-10 20:55:10.523 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.FieldUtils_getAllFields_20650348104
+2026-08-10 20:55:10.589 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.FieldUtils_updateFields_19713277715
+2026-08-10 20:55:10.590 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/FieldUtils::<init>(): void: null
+2026-08-10 20:55:10.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/FieldUtils::getAllFields(java/lang/Class): java/util/List: null
+2026-08-10 20:55:10.591 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/FieldUtils::updateFields(java/lang/Object, java/lang/Object): java/lang/Object: null
+2026-08-10 20:55:10.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/FieldUtils::<init>(): void processing is finished normally
+2026-08-10 20:55:10.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/FieldUtils::getAllFields(java/lang/Class): java/util/List processing is finished normally
+2026-08-10 20:55:10.591 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/FieldUtils::updateFields(java/lang/Object, java/lang/Object): java/lang/Object processing is finished normally
+2026-08-10 20:55:10.593 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils$1::<init>(): void
+2026-08-10 20:55:10.593 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils$1::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-10 20:55:10.595 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com/google/gson/reflect/TypeToken
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:99)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-10 20:55:10.595 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com/google/gson/reflect/TypeToken
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:200)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:170)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:107)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-10 20:55:10.595 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils$1::<init>(): void: null
+2026-08-10 20:55:10.595 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils$1::<init>(): void processing is finished normally
+2026-08-10 20:55:10.604 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::<init>(com/google/gson/Gson, java/lang/String, java/lang/String, java/lang/String): void
+2026-08-10 20:55:10.604 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyAdapterImpl::<init>(com/google/gson/Gson, java/lang/String, java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.gson = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.contentType = arg$2
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.encoding = arg$3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.body = arg$1
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%1 = (arg$2 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	this.jsonString = ""
+	goto %bb6
+
+%bb6: 	//predecessors %if.else0
+	this.urlEncodedString = ""
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %goto0
+
+%if.then0: 	//predecessors %bb5
+	%3 = virtual arg$2.equals("application/x-www-form-urlencoded")
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%5 = (%3 == false)
+	if (%5) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb8
+	this.urlEncodedString = arg$1
+	goto %bb9
+
+%bb9: 	//predecessors %if.else1
+	%7 = this.urlEncodedString
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%9 = static BodyParser.urlEncoded(%7, arg$3)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	this.formData = %9
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%11 = this.formData
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%13 = virtual arg$0.toJson(%11)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	this.jsonString = %13
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	goto %goto0
+
+%if.then1: 	//predecessors %bb8
+	%15 = virtual arg$2.equals("application/json")
+	goto %bb16
+
+%bb16: 	//predecessors %if.then1
+	%17 = (%15 == false)
+	if (%17) goto %goto0 else %if.else2
+
+%if.else2: 	//predecessors %bb16
+	this.jsonString = arg$1
+	goto %goto0
+
+%goto0: 	//predecessors %bb7, %bb15, %bb16, %if.else2
+	return
+2026-08-10 20:55:10.605 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-10 20:55:10.605 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-10 20:55:10.605 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::<init>(com/google/gson/Gson, java/lang/String, java/lang/String, java/lang/String): void: null
+2026-08-10 20:55:10.605 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::body(): java/lang/String
+2026-08-10 20:55:10.606 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyAdapterImpl::body(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.body
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-10 20:55:10.667 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyAdapterImpl_body_6347678990
+2026-08-10 20:55:10.667 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::formData(): java/util/Map
+2026-08-10 20:55:10.667 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyAdapterImpl::formData(): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.formData
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-10 20:55:10.729 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyAdapterImpl_formData_3877775341
+2026-08-10 20:55:10.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::jsonFormat(): java/lang/String
+2026-08-10 20:55:10.730 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyAdapterImpl::jsonFormat(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.jsonString
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-10 20:55:10.790 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyAdapterImpl_jsonFormat_12744254002
+2026-08-10 20:55:10.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::urlEncodedFormat(): java/lang/String
+2026-08-10 20:55:10.790 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyAdapterImpl::urlEncodedFormat(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.contentType
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.equals("application/x-www-form-urlencoded")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = (%3 == false)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%7 = this.urlEncodedString
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb3, %if.then0
+	%retval1 = phi {%bb3 -> %7; %if.then0 -> null}
+	return %retval1
+2026-08-10 20:55:10.861 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyAdapterImpl_urlEncodedFormat_7809410733
+2026-08-10 20:55:10.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::modelFormat(java/lang/Class): java/lang/Object
+2026-08-10 20:55:10.861 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyAdapterImpl::modelFormat(java/lang/Class): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.contentType
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%6 = this.gson
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%7 = this.jsonString
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%17 = virtual %6.fromJson(%7, arg$0)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %bb.return0
+
+%catch0: 	//catches from %if.then0, %bb2, %bb3
+	%11 = catch java/lang/Exception
+goto %label0
+
+%label0: 	//predecessors %catch0
+	%15 = System.out
+	%13 = virtual %11.getMessage()
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	%16 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="[modelFormat ]: "))
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	virtual %15.println(%16)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb4, %bb7
+	%retval1 = phi {%if.else0 -> null; %bb4 -> %17; %bb7 -> null}
+	return %retval1
+2026-08-10 20:55:10.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyAdapterImpl_modelFormat_2072287314
+2026-08-10 20:55:10.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::<init>(com/google/gson/Gson, java/lang/String, java/lang/String, java/lang/String): void processing is finished normally
+2026-08-10 20:55:10.909 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lcom/google/gson/Gson;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:10.909 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::body(): java/lang/String: null
+2026-08-10 20:55:10.909 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lcom/google/gson/Gson;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:10.909 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::formData(): java/util/Map: null
+2026-08-10 20:55:10.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lcom/google/gson/Gson;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:10.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::jsonFormat(): java/lang/String: null
+2026-08-10 20:55:10.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lcom/google/gson/Gson;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:10.910 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::urlEncodedFormat(): java/lang/String: null
+2026-08-10 20:55:10.911 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.NoClassDefFoundError: Lcom/google/gson/Gson;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3061)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2248)
+	at org.vorpal.research.kex.util.ReflectionKt.getAllFields(reflection.kt:128)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.object(converter.kt:201)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert(converter.kt:115)
+	at org.vorpal.research.kex.descriptor.Object2DescriptorConverter.convert$default(converter.kt:83)
+	at org.vorpal.research.kex.parameters.ParametersKt.getAsDescriptors(Parameters.kt:46)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.collectTraceFromAny(InstructionConcolicChecker.kt:148)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:133)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$initializeExecutionGraph(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$initializeExecutionGraph$1.invokeSuspend(InstructionConcolicChecker.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:10.911 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::modelFormat(java/lang/Class): java/lang/Object: null
+2026-08-10 20:55:10.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::body(): java/lang/String processing is finished normally
+2026-08-10 20:55:10.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::formData(): java/util/Map processing is finished normally
+2026-08-10 20:55:10.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::jsonFormat(): java/lang/String processing is finished normally
+2026-08-10 20:55:10.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::urlEncodedFormat(): java/lang/String processing is finished normally
+2026-08-10 20:55:10.911 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyAdapterImpl::modelFormat(java/lang/Class): java/lang/Object processing is finished normally
+2026-08-10 20:55:10.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/RouteUtils::<init>(): void
+2026-08-10 20:55:10.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/RouteUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-10 20:55:10.984 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_init_13164625330
+2026-08-10 20:55:10.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/RouteUtils::allSegment(java/lang/String): java/util/List
+2026-08-10 20:55:10.985 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/RouteUtils::allSegment(java/lang/String): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%31 = new java/util/ArrayList
+	special %31.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%15 = virtual arg$0.split("/")
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%32 = new java/util/ArrayList
+	special %32.<init>()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%12 = %15.length
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	goto %label2
+
+%label2: 	//predecessors %bb2, %if.then1
+	%29 = phi {%bb2 -> 0; %if.then1 -> %30}
+	%14 = (%29 >= %12)
+	if (%14) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	%27 = %15[%29]
+	goto %label3
+
+%label3: 	//predecessors %if.else1
+	%20 = (%27 == null)
+	if (%20) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %label3
+	%23 = virtual %27.equals("")
+	goto %bb3
+
+%bb3: 	//predecessors %if.else2
+	%25 = (%23 != false)
+	if (%25) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb3
+	%28 = interface %32.add(%27)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else3
+	goto %if.then1
+
+%if.then1: 	//predecessors %label3, %bb3, %bb4
+	%30 = %29 + 1
+	goto %label2
+
+%if.then2: 	//predecessors %label2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb1, %if.then2
+	%retval1 = phi {%bb1 -> %31; %if.then2 -> %32}
+	%retval.casted1 = (java/util/List) %retval1
+	return %retval.casted1
+2026-08-10 20:55:11.027 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_allSegment_12784039021
+2026-08-10 20:55:11.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/RouteUtils::isUrlPatternMatched(java/lang/String, java/lang/String): bool
+2026-08-10 20:55:11.027 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/RouteUtils::isUrlPatternMatched(java/lang/String, java/lang/String): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%33 = static RouteUtils.allSegment(arg$1)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%28 = static RouteUtils.allSegment(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%6 = interface %33.size()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%7 = interface %28.size()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%9 = (%6 == %7)
+	if (%9) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	goto %label2
+
+%label2: 	//predecessors %if.then0, %if.then1
+	%42 = phi {%if.then0 -> 0; %if.then1 -> %43}
+	%15 = interface %33.size()
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%17 = (%42 >= %15)
+	if (%17) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%21 = interface %28.get(%42)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%23 = (java/lang/String) %21
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%25 = virtual %23.charAt(0)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%27 = (%25 == 58)
+	if (%27) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb6
+	%31 = interface %28.get(%42)
+	goto %bb7
+
+%bb7: 	//predecessors %if.else2
+	%36 = (java/lang/String) %31
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%37 = interface %33.get(%42)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%39 = virtual %36.equals(%37)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%41 = (%39 != false)
+	if (%41) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb10
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb6, %bb10
+	%43 = %42 + 1
+	goto %label2
+
+%if.then2: 	//predecessors %bb3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else3, %if.then2
+	%retval1 = phi {%if.else0 -> 0; %if.else3 -> 0; %if.then2 -> 1}
+	return %retval1
+2026-08-10 20:55:11.065 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_isUrlPatternMatched_12616579062
+2026-08-10 20:55:11.065 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/RouteUtils::extractParams(java/lang/String, java/lang/String): java/util/Map
+2026-08-10 20:55:11.066 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/RouteUtils::extractParams(java/lang/String, java/lang/String): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%57 = new java/util/HashMap
+	special %57.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%38 = static RouteUtils.allSegment(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%43 = static RouteUtils.allSegment(arg$1)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	goto %label3
+
+%label3: 	//predecessors %label2, %goto0
+	%54 = phi {%label2 -> 0; %goto0 -> %55}
+	%9 = interface %43.size()
+	goto %bb1
+
+%bb1: 	//predecessors %label3
+	%11 = (%54 >= %9)
+	if (%11) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%15 = interface %38.get(%54)
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%17 = (java/lang/String) %15
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%19 = virtual %17.charAt(0)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%21 = (%19 != 58)
+	if (%21) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%25 = interface %38.get(%54)
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%27 = (java/lang/String) %25
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%35 = virtual %27.substring(1)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%32 = interface %43.get(%54)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%36 = (java/lang/String) %32
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%37 = interface %57.put(%35, %36)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto0
+
+%if.then0: 	//predecessors %bb4
+	%41 = interface %38.get(%54)
+	goto %bb11
+
+%bb11: 	//predecessors %if.then0
+	%46 = (java/lang/String) %41
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%47 = interface %43.get(%54)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%49 = virtual %46.equals(%47)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%51 = (%49 != false)
+	if (%51) goto %goto0 else %if.else2
+
+%if.else2: 	//predecessors %bb14
+	%56 = new java/util/HashMap
+	special %56.<init>()
+	goto %bb15
+
+%bb15: 	//predecessors %if.else2
+	goto %bb.return0
+
+%goto0: 	//predecessors %bb10, %bb14
+	%55 = %54 + 1
+	goto %label3
+
+%if.then1: 	//predecessors %bb1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb15, %if.then1
+	%retval1 = phi {%bb15 -> %56; %if.then1 -> %57}
+	%retval.casted1 = (java/util/Map) %retval1
+	return %retval.casted1
+2026-08-10 20:55:11.124 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_extractParams_8653411763
+2026-08-10 20:55:11.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/RouteUtils::extractQueries(java/lang/String): java/util/Map
+2026-08-10 20:55:11.125 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/RouteUtils::extractQueries(java/lang/String): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%60 = new java/util/HashMap
+	special %60.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%5 = virtual arg$0.isEmpty()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%7 = (%5 != false)
+	if (%7) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%17 = virtual arg$0.split("&")
+	goto %label1
+
+%label1: 	//predecessors %if.else1
+	%14 = %17.length
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	goto %label2
+
+%label2: 	//predecessors %bb2, %goto0
+	%58 = phi {%bb2 -> 0; %goto0 -> %59}
+	%16 = (%58 >= %14)
+	if (%16) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %label2
+	%20 = %17[%58]
+	goto %label3
+
+%label3: 	//predecessors %if.else2
+	%51 = virtual %20.split("=")
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%24 = %51.length
+	goto %bb3
+
+%bb3: 	//predecessors %label4
+	%26 = (%24 != 2)
+	if (%26) goto %if.then0 else %if.else3
+
+%if.else3: 	//predecessors %bb3
+	%29 = %51[0]
+	goto %bb4
+
+%bb4: 	//predecessors %if.else3
+	%31 = virtual %29.isEmpty()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%33 = (%31 != false)
+	if (%33) goto %if.then0 else %if.else4
+
+%if.else4: 	//predecessors %bb5
+	%36 = %51[0]
+	goto %bb6
+
+%bb6: 	//predecessors %if.else4
+	%43 = static URLDecoder.decode(%36)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%40 = %51[1]
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%44 = static URLDecoder.decode(%40)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%45 = interface %60.put(%43, %44)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto0
+
+%if.then0: 	//predecessors %bb3, %bb5
+	%48 = %51.length
+	goto %bb11
+
+%bb11: 	//predecessors %if.then0
+	%50 = (%48 != 1)
+	if (%50) goto %goto0 else %if.else5
+
+%if.else5: 	//predecessors %bb11
+	%53 = %51[0]
+	goto %bb12
+
+%bb12: 	//predecessors %if.else5
+	%56 = static URLDecoder.decode(%53)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%57 = interface %60.put(%56, "")
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	goto %goto0
+
+%goto0: 	//predecessors %bb10, %bb11, %bb14
+	%59 = %58 + 1
+	goto %label2
+
+%if.then1: 	//predecessors %label0, %bb1, %label2
+	return %60
+2026-08-10 20:55:11.167 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_extractQueries_725932354
+2026-08-10 20:55:11.208 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_init_13164625335
+2026-08-10 20:55:11.248 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_allSegment_12784039026
+2026-08-10 20:55:11.288 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_isUrlPatternMatched_12616579067
+2026-08-10 20:55:11.328 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_extractParams_8653411768
+2026-08-10 20:55:11.365 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.RouteUtils_extractQueries_725932359
+2026-08-10 20:55:11.365 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/RouteUtils::<init>(): void: null
+2026-08-10 20:55:11.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/RouteUtils::allSegment(java/lang/String): java/util/List: null
+2026-08-10 20:55:11.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/RouteUtils::isUrlPatternMatched(java/lang/String, java/lang/String): bool: null
+2026-08-10 20:55:11.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/RouteUtils::extractParams(java/lang/String, java/lang/String): java/util/Map: null
+2026-08-10 20:55:11.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/RouteUtils::<init>(): void processing is finished normally
+2026-08-10 20:55:11.366 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/RouteUtils::extractQueries(java/lang/String): java/util/Map: null
+2026-08-10 20:55:11.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/RouteUtils::allSegment(java/lang/String): java/util/List processing is finished normally
+2026-08-10 20:55:11.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/RouteUtils::isUrlPatternMatched(java/lang/String, java/lang/String): bool processing is finished normally
+2026-08-10 20:55:11.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/RouteUtils::extractParams(java/lang/String, java/lang/String): java/util/Map processing is finished normally
+2026-08-10 20:55:11.366 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/RouteUtils::extractQueries(java/lang/String): java/util/Map processing is finished normally
+2026-08-10 20:55:11.383 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::<init>(): void
+2026-08-10 20:55:11.384 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-10 20:55:11.385 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/creativityfactory/swiftserver/utils/IdUtils::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:11.385 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load constructor com/creativityfactory/swiftserver/utils/IdUtils::<init>(): void
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:238)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3342)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:236)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 25 common frames omitted
+2026-08-10 20:55:11.385 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::<init>(): void: null
+2026-08-10 20:55:11.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::extractIdValue(java/lang/Object): java/lang/Object
+2026-08-10 20:55:11.385 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::extractIdValue(java/lang/Object): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.getClass()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%26 = static FieldUtils.getAllFields(%1)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = interface %26.size()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%7 = (%5 != 0)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%64 = new java/lang/Exception
+	special %64.<init>("Cannot extract id from an empty class")
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb2
+	%12 = interface %26.get(0)
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%14 = (java/lang/reflect/Field) %12
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	virtual %14.setAccessible(1)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%17 = interface %26.get(0)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%19 = (java/lang/reflect/Field) %17
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%28 = virtual %19.get(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %bb8
+	%23 = interface %26.get(0)
+	goto %bb9
+
+%bb9: 	//predecessors %label1
+	%25 = (java/lang/reflect/Field) %23
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	virtual %25.setAccessible(0)
+	goto %label2
+
+%label2: 	//predecessors %bb10
+	%38 = interface %26.iterator()
+	goto %bb11
+
+%bb11: 	//predecessors %label2
+	goto %label3
+
+%label3: 	//predecessors %bb11, %if.then3
+	%65 = phi {%bb11 -> %28; %if.then3 -> %59}
+	%48 = phi {%bb11 -> 0; %if.then3 -> %60}
+	%35 = interface %38.hasNext()
+	goto %bb12
+
+%bb12: 	//predecessors %label3
+	%37 = (%35 == false)
+	if (%37) goto %if.then4 else %if.else1
+
+%if.else1: 	//predecessors %bb12
+	%40 = interface %38.next()
+	goto %bb13
+
+%bb13: 	//predecessors %if.else1
+	%63 = (java/lang/reflect/Field) %40
+	goto %label4
+
+%label4: 	//predecessors %bb13
+	%44 = virtual %63.canAccess(arg$0)
+	goto %bb14
+
+%bb14: 	//predecessors %label4
+	%46 = (%44 != false)
+	if (%46) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb14
+	virtual %63.setAccessible(1)
+	goto %bb15
+
+%bb15: 	//predecessors %if.else2
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb14, %bb15
+	%60 = phi {%bb14 -> %48; %bb15 -> 1}
+	%52 = virtual %63.isAnnotationPresent(com/creativityfactory/swiftserver/annotation/Id.class)
+	goto %bb16
+
+%bb16: 	//predecessors %if.then1
+	%54 = (%52 == false)
+	if (%54) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %bb16
+	%58 = virtual %63.get(arg$0)
+	goto %bb17
+
+%bb17: 	//predecessors %if.else3
+	goto %if.then2
+
+%if.then2: 	//predecessors %bb16, %bb17
+	%59 = phi {%bb16 -> %65; %bb17 -> %58}
+	%62 = (%60 == 0)
+	if (%62) goto %if.then3 else %if.else4
+
+%if.else4: 	//predecessors %if.then2
+	virtual %63.setAccessible(0)
+	goto %if.then3
+
+%if.then3: 	//predecessors %if.then2, %if.else4
+	goto %label3
+
+%if.then4: 	//predecessors %bb12
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb3, %if.then4
+	%retval1 = phi {%bb3 -> %64; %if.then4 -> %65}
+	return %retval1
+2026-08-10 20:55:11.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::extractIdValue(java/lang/Object): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::extractIdValue(java/lang/Object): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::extractIdValue(java/lang/Object): java/lang/Object: null
+2026-08-10 20:55:11.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::getIdTypeFromModel(java/lang/Class): java/lang/Class
+2026-08-10 20:55:11.386 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::getIdTypeFromModel(java/lang/Class): java/lang/Class
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = static IdUtils.getIdField(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (%4 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %label0
+	%6 = virtual %4.getType()
+	goto %bb1
+
+%bb1: 	//predecessors %if.then0
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %bb1
+	%retval1 = phi {%if.else0 -> null; %bb1 -> %6}
+	return %retval1
+2026-08-10 20:55:11.386 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::getIdTypeFromModel(java/lang/Class): java/lang/Class
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::getIdTypeFromModel(java/lang/Class): java/lang/Class
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::getIdTypeFromModel(java/lang/Class): java/lang/Class: null
+2026-08-10 20:55:11.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::getIdField(java/lang/Class): java/lang/reflect/Field
+2026-08-10 20:55:11.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::getIdField(java/lang/Class): java/lang/reflect/Field
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = static FieldUtils.getAllFields(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = new java/lang/reflect/Field[0]
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = interface %2.toArray(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%30 = (java/lang/reflect/Field[]) %5
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	%9 = %30.length
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%11 = (%9 != 0)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb4
+	%17 = %30.length
+	goto %bb5
+
+%bb5: 	//predecessors %if.then0
+	goto %label1
+
+%label1: 	//predecessors %bb5, %if.then1
+	%28 = phi {%bb5 -> 0; %if.then1 -> %29}
+	%19 = (%28 >= %17)
+	if (%19) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label1
+	%32 = %30[%28]
+	goto %label2
+
+%label2: 	//predecessors %if.else1
+	%25 = virtual %32.isAnnotationPresent(com/creativityfactory/swiftserver/annotation/Id.class)
+	goto %bb6
+
+%bb6: 	//predecessors %label2
+	%27 = (%25 == false)
+	if (%27) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb6
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb6
+	%29 = %28 + 1
+	goto %label1
+
+%if.then2: 	//predecessors %label1
+	%33 = %30[0]
+	goto %bb7
+
+%bb7: 	//predecessors %if.then2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.else2, %bb7
+	%retval1 = phi {%if.else0 -> null; %if.else2 -> %32; %bb7 -> %33}
+	return %retval1
+2026-08-10 20:55:11.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::getIdField(java/lang/Class): java/lang/reflect/Field
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::getIdField(java/lang/Class): java/lang/reflect/Field
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.387 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::getIdField(java/lang/Class): java/lang/reflect/Field: null
+2026-08-10 20:55:11.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::convertId(java/lang/Class, java/lang/String): java/lang/Object
+2026-08-10 20:55:11.387 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::convertId(java/lang/Class, java/lang/String): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = (arg$1 != null)
+	if (%3) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb0, %if.else0
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.else0
+	goto %label0
+
+%label0: 	//predecessors %if.then1
+	%5 = static IdUtils.getIdTypeFromModel(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%7 = (%5 != java/lang/Integer.class)
+	if (%7) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %label1
+	%9 = virtual arg$1.trim()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else1
+	%11 = static Integer.parseInt(%9)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%13 = static Integer.valueOf(%11)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %goto0
+
+%if.then2: 	//predecessors %label1
+	goto %goto0
+
+%goto0: 	//predecessors %bb3, %if.then2
+	%19 = phi {%bb3 -> %13; %if.then2 -> arg$1}
+	goto %goto1
+
+%catch0: 	//catches from %if.else1, %bb3, %if.then2, %bb1, %label0, %label1, %bb2
+	%15 = catch java/lang/NumberFormatException
+goto %label2
+
+%label2: 	//predecessors %catch0
+	%18 = new java/lang/NumberFormatException
+	special %18.<init>("Cannot convert the string to an integer.")
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	throw %18
+
+%goto1: 	//predecessors %goto0
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %goto1
+	%retval1 = phi {%if.then0 -> null; %goto1 -> %19}
+	return %retval1
+2026-08-10 20:55:11.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::convertId(java/lang/Class, java/lang/String): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::convertId(java/lang/Class, java/lang/String): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.388 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::convertId(java/lang/Class, java/lang/String): java/lang/Object: null
+2026-08-10 20:55:11.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::mapObjectToId(java/lang/String, java/lang/Class): java/lang/String
+2026-08-10 20:55:11.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::mapObjectToId(java/lang/String, java/lang/Class): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%97 = new com/google/gson/Gson
+	special %97.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%10 = static FieldUtils.getAllFields(arg$1)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%6 = new com/creativityfactory/swiftserver/utils/IdUtils$1
+	special %6.<init>()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%8 = virtual %97.fromJson(arg$0, %6)
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	%98 = (java/util/Map) %8
+	goto %label3
+
+%label3: 	//predecessors %bb1
+	%17 = interface %10.iterator()
+	goto %bb2
+
+%bb2: 	//predecessors %label3
+	goto %label4
+
+%label4: 	//predecessors %bb2, %if.then4
+	%14 = interface %17.hasNext()
+	goto %bb3
+
+%bb3: 	//predecessors %label4
+	%16 = (%14 == false)
+	if (%16) goto %if.then5 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%19 = interface %17.next()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%73 = (java/lang/reflect/Field) %19
+	goto %label5
+
+%label5: 	//predecessors %bb4
+	%23 = virtual %73.isAnnotationPresent(com/google/gson/annotations/SerializedName.class)
+	goto %bb5
+
+%bb5: 	//predecessors %label5
+	%25 = (%23 == false)
+	if (%25) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb5
+	%28 = virtual %73.getAnnotation(com/google/gson/annotations/SerializedName.class)
+	goto %bb6
+
+%bb6: 	//predecessors %if.else1
+	%30 = (com/google/gson/annotations/SerializedName) %28
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%34 = interface %30.value()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %goto0
+
+%if.then0: 	//predecessors %bb5
+	%35 = virtual %73.getName()
+	goto %goto0
+
+%goto0: 	//predecessors %bb8, %if.then0
+	%90 = phi {%bb8 -> %34; %if.then0 -> %35}
+	goto %label6
+
+%label6: 	//predecessors %goto0
+	%39 = virtual %73.getType()
+	goto %bb9
+
+%bb9: 	//predecessors %label6
+	%41 = (%39 == java/lang/Integer.class)
+	if (%41) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb9
+	%44 = virtual %73.getType()
+	goto %bb10
+
+%bb10: 	//predecessors %if.else2
+	%46 = static IdUtils.getIdTypeFromModel(%44)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%48 = (%46 != java/lang/Integer.class)
+	if (%48) goto %if.then2 else %if.then1
+
+%if.then1: 	//predecessors %bb9, %bb11
+	goto %label7
+
+%label7: 	//predecessors %if.then1
+	%52 = interface %98.containsKey(%90)
+	goto %bb12
+
+%bb12: 	//predecessors %label7
+	%54 = (%52 == false)
+	if (%54) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %bb12
+	%58 = interface %98.get(%90)
+	goto %bb13
+
+%bb13: 	//predecessors %if.else3
+	%60 = (java/lang/Double) %58
+	goto %label8
+
+%label8: 	//predecessors %bb13
+	%62 = virtual %60.intValue()
+	goto %bb14
+
+%bb14: 	//predecessors %label8
+	%66 = static Integer.valueOf(%62)
+	goto %label9
+
+%label9: 	//predecessors %bb14
+	%67 = interface %98.put(%90, %66)
+	goto %bb15
+
+%bb15: 	//predecessors %label9
+	goto %if.then2
+
+%if.then2: 	//predecessors %bb11, %bb12, %bb15
+	%70 = virtual %73.isAnnotationPresent(com/creativityfactory/swiftserver/annotation/BelongTo.class)
+	goto %bb16
+
+%bb16: 	//predecessors %if.then2
+	%72 = (%70 == false)
+	if (%72) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb16
+	%75 = virtual %73.getType()
+	goto %bb17
+
+%bb17: 	//predecessors %if.else4
+	%86 = static SingletonDataSource.getInstance(%75)
+	goto %label10
+
+%label10: 	//predecessors %bb17
+	%80 = interface %98.containsKey(%90)
+	goto %bb18
+
+%bb18: 	//predecessors %label10
+	%82 = (%80 == false)
+	if (%82) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %bb18
+	%87 = interface %98.get(%90)
+	goto %bb19
+
+%bb19: 	//predecessors %if.else5
+	%91 = interface %86.getById(%87)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%92 = interface %98.put(%90, %91)
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	goto %if.then3
+
+%if.then3: 	//predecessors %bb18, %bb21
+	goto %if.then4
+
+%catch0: 	//catches from %bb20, %bb17, %if.else4, %bb18, %bb19, %bb21, %label10, %if.else5
+	%96 = catch java/lang/Exception
+goto %label11
+
+%label11: 	//predecessors %catch0
+	%95 = System.out
+	virtual %95.println("[mapObjectToId ]: ")
+	goto %bb22
+
+%bb22: 	//predecessors %label11
+	virtual %96.printStackTrace()
+	goto %if.then4
+
+%if.then4: 	//predecessors %bb16, %if.then3, %bb22
+	goto %label4
+
+%if.then5: 	//predecessors %bb3
+	%100 = virtual %97.toJson(%98)
+	goto %bb23
+
+%bb23: 	//predecessors %if.then5
+	return %100
+2026-08-10 20:55:11.389 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::mapObjectToId(java/lang/String, java/lang/Class): java/lang/String
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.389 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::mapObjectToId(java/lang/String, java/lang/Class): java/lang/String
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.389 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::mapObjectToId(java/lang/String, java/lang/Class): java/lang/String: null
+2026-08-10 20:55:11.389 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IdUtils::mapIdToObject(java/lang/Object, java/lang/Class): java/util/Map
+2026-08-10 20:55:11.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IdUtils::mapIdToObject(java/lang/Object, java/lang/Class): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = new com/google/gson/Gson
+	special %3.<init>()
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%7 = static FieldUtils.getAllFields(arg$1)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%85 = new java/util/HashMap
+	special %85.<init>()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%16 = interface %7.iterator()
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	goto %label3
+
+%label3: 	//predecessors %bb1, %if.then4
+	%26 = phi {%bb1 -> 0; %if.then4 -> %81}
+	%13 = interface %16.hasNext()
+	goto %bb2
+
+%bb2: 	//predecessors %label3
+	%15 = (%13 == false)
+	if (%15) goto %if.then5 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%18 = interface %16.next()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	%84 = (java/lang/reflect/Field) %18
+	goto %label4
+
+%label4: 	//predecessors %bb3
+	%22 = virtual %84.canAccess(arg$0)
+	goto %bb4
+
+%bb4: 	//predecessors %label4
+	%24 = (%22 != false)
+	if (%24) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	virtual %84.setAccessible(1)
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb4, %bb5
+	%81 = phi {%bb4 -> %26; %bb5 -> 1}
+	%30 = virtual %84.isAnnotationPresent(com/google/gson/annotations/SerializedName.class)
+	goto %bb6
+
+%bb6: 	//predecessors %if.then1
+	%32 = (%30 == false)
+	if (%32) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %bb6
+	%35 = virtual %84.getAnnotation(com/google/gson/annotations/SerializedName.class)
+	goto %bb7
+
+%bb7: 	//predecessors %if.else3
+	%37 = (com/google/gson/annotations/SerializedName) %35
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%41 = interface %37.value()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %goto0
+
+%if.then2: 	//predecessors %bb6
+	%42 = virtual %84.getName()
+	goto %goto0
+
+%goto0: 	//predecessors %bb9, %if.then2
+	%70 = phi {%bb9 -> %41; %if.then2 -> %42}
+	goto %label5
+
+%label5: 	//predecessors %goto0
+	%46 = virtual %84.isAnnotationPresent(com/creativityfactory/swiftserver/annotation/BelongTo.class)
+	goto %bb10
+
+%bb10: 	//predecessors %label5
+	%48 = (%46 != false)
+	if (%48) goto %if.then3 else %if.else4
+
+%if.else4: 	//predecessors %bb10
+	%51 = virtual %84.isAnnotationPresent(com/creativityfactory/swiftserver/annotation/HasMany.class)
+	goto %bb11
+
+%bb11: 	//predecessors %if.else4
+	%53 = (%51 != false)
+	if (%53) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %bb11
+	%58 = virtual %84.get(arg$0)
+	goto %bb12
+
+%bb12: 	//predecessors %if.else5
+	%59 = interface %85.put(%70, %58)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %goto1
+
+%if.then3: 	//predecessors %bb10, %bb11
+	%62 = virtual %84.isAnnotationPresent(com/creativityfactory/swiftserver/annotation/BelongTo.class)
+	goto %bb14
+
+%bb14: 	//predecessors %if.then3
+	%64 = (%62 == false)
+	if (%64) goto %goto1 else %if.else6
+
+%if.else6: 	//predecessors %bb14
+	%67 = virtual %84.get(arg$0)
+	goto %bb15
+
+%bb15: 	//predecessors %if.else6
+	%71 = static IdUtils.extractIdValue(%67)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%72 = interface %85.put(%70, %71)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	goto %goto1
+
+%goto1: 	//predecessors %bb13, %bb14, %bb17
+	goto %goto2
+
+%catch0: 	//catches from %if.else6, %bb11, %label5, %bb10, %bb12, %if.else4, %bb13, %bb17, %bb14, %bb15, %if.else5, %if.then3, %bb16
+	%75 = catch java/lang/Exception
+goto %label6
+
+%label6: 	//predecessors %catch0
+	%79 = System.out
+	%77 = virtual %75.getMessage()
+	goto %bb18
+
+%bb18: 	//predecessors %label6
+	%80 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="[mapIdToObject ]: "))
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	virtual %79.println(%80)
+	goto %goto2
+
+%goto2: 	//predecessors %goto1, %bb19
+	%83 = (%81 == 0)
+	if (%83) goto %if.then4 else %if.else7
+
+%if.else7: 	//predecessors %goto2
+	virtual %84.setAccessible(0)
+	goto %if.then4
+
+%if.then4: 	//predecessors %goto2, %if.else7
+	goto %label3
+
+%if.then5: 	//predecessors %bb2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then5
+	%retval1 = phi {%if.else0 -> null; %if.then5 -> %85}
+	%retval.casted1 = (java/util/Map) %retval1
+	return %retval.casted1
+2026-08-10 20:55:11.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::mapIdToObject(java/lang/Object, java/lang/Class): java/util/Map
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method com/creativityfactory/swiftserver/utils/IdUtils::mapIdToObject(java/lang/Object, java/lang/Class): java/util/Map
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/reflect/TypeToken
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-10 20:55:11.390 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IdUtils::mapIdToObject(java/lang/Object, java/lang/Class): java/util/Map: null
+2026-08-10 20:55:11.390 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::<init>(): void processing is finished normally
+2026-08-10 20:55:11.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::extractIdValue(java/lang/Object): java/lang/Object processing is finished normally
+2026-08-10 20:55:11.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::getIdTypeFromModel(java/lang/Class): java/lang/Class processing is finished normally
+2026-08-10 20:55:11.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::getIdField(java/lang/Class): java/lang/reflect/Field processing is finished normally
+2026-08-10 20:55:11.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::convertId(java/lang/Class, java/lang/String): java/lang/Object processing is finished normally
+2026-08-10 20:55:11.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::mapObjectToId(java/lang/String, java/lang/Class): java/lang/String processing is finished normally
+2026-08-10 20:55:11.391 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IdUtils::mapIdToObject(java/lang/Object, java/lang/Class): java/util/Map processing is finished normally
+2026-08-10 20:55:11.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyParser::<init>(): void
+2026-08-10 20:55:11.395 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyParser::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-10 20:55:11.434 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyParser_init_13353131220
+2026-08-10 20:55:11.435 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/BodyParser::urlEncoded(java/lang/String, java/lang/String): java/util/Map
+2026-08-10 20:55:11.435 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/BodyParser::urlEncoded(java/lang/String, java/lang/String): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%50 = new java/util/HashMap
+	special %50.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%11 = virtual arg$0.split("&")
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%8 = %11.length
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	goto %label2
+
+%label2: 	//predecessors %bb1, %goto0
+	%40 = phi {%bb1 -> 0; %goto0 -> %41}
+	%10 = (%40 >= %8)
+	if (%10) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label2
+	%14 = %11[%40]
+	goto %label3
+
+%label3: 	//predecessors %if.else0
+	%33 = virtual %14.split("=")
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%18 = %33.length
+	goto %bb2
+
+%bb2: 	//predecessors %label4
+	%20 = (%18 != 2)
+	if (%20) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%23 = %33[0]
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	%30 = static URLDecoder.decode(%23, arg$1)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%27 = %33[1]
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%31 = static URLDecoder.decode(%27, arg$1)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%32 = interface %50.put(%30, %31)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %goto0
+
+%if.then0: 	//predecessors %bb2
+	%35 = %33[0]
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%38 = static URLDecoder.decode(%35, arg$1)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%39 = interface %50.put(%38, "")
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	goto %goto0
+
+%goto0: 	//predecessors %bb7, %bb10
+	%41 = %40 + 1
+	goto %label2
+
+%if.then1: 	//predecessors %label2
+	goto %label5
+
+%label5: 	//predecessors %if.then1
+	goto %bb.return0
+
+%catch0: 	//catches from %bb0, %if.else0, %bb9, %label1, %label3, %bb6, %if.then1, %bb4, %goto0, %bb8, %label2, %if.else1, %bb3, %bb5, %label4, %bb10, %label0, %bb2, %bb1, %if.then0, %bb7
+	%44 = catch java/io/UnsupportedEncodingException
+goto %label6
+
+%label6: 	//predecessors %catch0
+	%48 = System.out
+	%46 = virtual %44.getMessage()
+	goto %bb11
+
+%bb11: 	//predecessors %label6
+	%49 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="[BodyParser.urlEncoded ]: "))
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	virtual %48.println(%49)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %label5, %bb13
+	%retval1 = phi {%label5 -> %50; %bb13 -> null}
+	%retval.casted1 = (java/util/Map) %retval1
+	return %retval.casted1
+2026-08-10 20:55:11.471 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyParser_urlEncoded_14133214311
+2026-08-10 20:55:11.507 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyParser_init_13353131222
+2026-08-10 20:55:11.551 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.BodyParser_urlEncoded_14133214313
+2026-08-10 20:55:11.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyParser::<init>(): void: null
+2026-08-10 20:55:11.552 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/BodyParser::urlEncoded(java/lang/String, java/lang/String): java/util/Map: null
+2026-08-10 20:55:11.552 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyParser::<init>(): void processing is finished normally
+2026-08-10 20:55:11.552 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/BodyParser::urlEncoded(java/lang/String, java/lang/String): java/util/Map processing is finished normally
+2026-08-10 20:55:11.558 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IOUtils::<init>(): void
+2026-08-10 20:55:11.558 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IOUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-10 20:55:11.596 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_init_16812387800
+2026-08-10 20:55:11.597 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IOUtils::fromBufferToString(java/io/BufferedReader): java/lang/String
+2026-08-10 20:55:11.597 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IOUtils::fromBufferToString(java/io/BufferedReader): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = virtual arg$0.lines()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = invokeDynamic (): java/util/function/BinaryOperator @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/String, java/lang/String): java/lang/String)), HandleBsmArgument(handle=@com/creativityfactory/swiftserver/utils/IOUtils::lambda$fromBufferToString$0(java/lang/String, java/lang/String): java/lang/String), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object, java/lang/Object): java/lang/Object)))
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = interface %2.reduce("", %3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = (java/lang/String) %5
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %7
+2026-08-10 20:55:11.664 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_fromBufferToString_8912626031
+2026-08-10 20:55:11.664 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IOUtils::readFile(java/lang/String): java/lang/String
+2026-08-10 20:55:11.665 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IOUtils::readFile(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new java/io/File
+	special %6.<init>(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%21 = new java/io/BufferedReader
+	%12 = new java/io/InputStreamReader
+	%9 = new java/io/FileInputStream
+	special %9.<init>(%6)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%10 = StandardCharsets.UTF_8
+	special %12.<init>(%9, %10)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special %21.<init>(%12)
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%16 = virtual %21.lines()
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%17 = invokeDynamic (): java/util/function/BinaryOperator @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/String, java/lang/String): java/lang/String)), HandleBsmArgument(handle=@com/creativityfactory/swiftserver/utils/IOUtils::lambda$readFile$1(java/lang/String, java/lang/String): java/lang/String), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object, java/lang/Object): java/lang/Object)))
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%19 = interface %16.reduce("", %17)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%22 = (java/lang/String) %19
+	goto %label2
+
+%label2: 	//predecessors %bb5
+	virtual %21.close()
+	goto %bb6
+
+%bb6: 	//predecessors %label2
+	return %22
+2026-08-10 20:55:11.710 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_readFile_5832162782
+2026-08-10 20:55:11.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/creativityfactory/swiftserver/utils/IOUtils::saveDataToFile(java/lang/String, java/lang/String): void
+2026-08-10 20:55:11.710 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/creativityfactory/swiftserver/utils/IOUtils::saveDataToFile(java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%4 = new java/io/File
+	special %4.<init>(arg$1)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%6 = new java/io/FileWriter
+	special %6.<init>(%4, 0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	virtual %6.write(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	virtual %6.close()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-10 20:55:11.755 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_saveDataToFile_4750434803
+2026-08-10 20:55:11.800 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_init_16812387804
+2026-08-10 20:55:11.860 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_fromBufferToString_8912626035
+2026-08-10 20:55:11.913 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_readFile_5832162786
+2026-08-10 20:55:11.947 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.creativityfactory.swiftserver.utils.IOUtils_saveDataToFile_4750434807
+2026-08-10 20:55:11.948 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IOUtils::<init>(): void: null
+2026-08-10 20:55:11.948 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IOUtils::fromBufferToString(java/io/BufferedReader): java/lang/String: null
+2026-08-10 20:55:11.948 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IOUtils::readFile(java/lang/String): java/lang/String: null
+2026-08-10 20:55:11.948 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/creativityfactory/swiftserver/utils/IOUtils::saveDataToFile(java/lang/String, java/lang/String): void: null
+2026-08-10 20:55:11.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IOUtils::<init>(): void processing is finished normally
+2026-08-10 20:55:11.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IOUtils::fromBufferToString(java/io/BufferedReader): java/lang/String processing is finished normally
+2026-08-10 20:55:11.949 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IOUtils::readFile(java/lang/String): java/lang/String processing is finished normally
+2026-08-10 20:55:11.949 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/creativityfactory/swiftserver/utils/IOUtils::saveDataToFile(java/lang/String, java/lang/String): void processing is finished normally
+2026-08-10 20:55:11.949 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-10 20:55:11.949 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

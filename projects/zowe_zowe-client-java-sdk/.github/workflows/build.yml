@@ -1,0 +1,46 @@
+name: Maven Wrapper Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        java-version: [11, 17, 21]
+
+    steps:
+      # 1. Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Set up JDK
+      - name: Set up JDK ${{ matrix.java-version }}
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: ${{ matrix.java-version }}
+
+      # 3. Grant execute permission to Maven Wrapper
+      - name: Grant execute permission to mvnw
+        run: chmod +x ./mvnw
+
+      # 4. Cache Maven dependencies
+      - name: Cache Maven packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ matrix.java-version }}-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-${{ matrix.java-version }}-
+
+      # 5. Build with Maven Wrapper (for verbose for debugging add -X)
+      - name: Build with Maven Wrapper
+        run: ./mvnw clean package

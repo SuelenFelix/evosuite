@@ -1,0 +1,49 @@
+dist: focal
+language: java
+sudo: true
+install: true
+before_install:
+  - sudo apt-get install -y ca-certificates-java ca-certificates wget openjdk-11-jdk-headless  python3-pip ruby-full npm
+addons:
+  sonarcloud:
+    organization: "hack23"
+  apt:
+    packages:
+      - graphviz
+      - locales
+      - tzdata
+env:
+  global:
+    - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+    - PGPORT=5433
+    
+cache:
+  directories:
+  - $HOME/.m2
+
+before_script:
+  - "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
+  - export DEBIAN_FRONTEND=noninteractive
+  - sudo rm /etc/localtime
+  - sudo ln -s /usr/share/zoneinfo/Europe/Stockholm /etc/localtime 
+  - sudo dpkg-reconfigure -f noninteractive tzdata 
+  - sudo echo 'LANG=\"en_US.UTF-8\"' | sudo tee --append /etc/default/locale
+  - sudo locale-gen en_US.UTF-8 en_GB.UTF-8 sv_SE.UTF-8 
+  - sudo dpkg-reconfigure --frontend=noninteractive locales
+  - sudo gem install cfn-nag  
+  - sudo pip3 install cfn_flip
+  - sudo pip3 install checkov
+  - sudo npm install cloudformation-graph -g
+
+script:
+  - wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+  - tar xzvf apache-maven-3.8.6-bin.tar.gz
+  - export PATH=`pwd`/apache-maven-3.8.6/bin:$PATH
+  - mvn -v
+  - mvn clean install site -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dhttps.protocols=TLSv1.2
+  - mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dhttps.protocols=TLSv1.2
+ 
+after_success:
+  - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
+  - fossa init
+  - fossa analyze

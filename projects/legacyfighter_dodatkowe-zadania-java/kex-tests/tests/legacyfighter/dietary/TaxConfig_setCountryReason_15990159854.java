@@ -1,0 +1,212 @@
+package legacyfighter.dietary;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static legacyfighter.dietary.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+import java.lang.Object;
+import java.util.ArrayList;
+
+public class TaxConfig_setCountryReason_15990159854 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term19595;
+
+    public TaxConfig_setCountryReason_15990159854() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term19596 = new Long(8202413349907503373L);
+        Long term19654 = new Long(4715419421865334491L);
+        Long term19665 = new Long(6320559761926095887L);
+        Object term19653 = newInstance(Class.forName("legacyfighter.dietary.TaxRule"));
+        Object term19664 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        setField(term19653, term19653.getClass(), "id", term19654);
+        setField(term19653, term19653.getClass(), "taxCode", "");
+        setBooleanField(term19653, term19653.getClass(), "isLinear", false);
+        setIntField(term19653, term19653.getClass(), "aFactor", -147055177);
+        setIntField(term19653, term19653.getClass(), "bFactor", 1979044375);
+        setBooleanField(term19653, term19653.getClass(), "isSquare", true);
+        setIntField(term19653, term19653.getClass(), "aSquareFactor", 961252909);
+        setIntField(term19653, term19653.getClass(), "bSquareFactor", 1455842357);
+        setIntField(term19653, term19653.getClass(), "cSuqreFactor", 1349806561);
+        setField(term19664, term19664.getClass(), "id", term19665);
+        setField(term19664, term19664.getClass(), "description", null);
+        setField(term19664, term19664.getClass(), "countryReason", null);
+        setField(term19664, term19664.getClass(), "countryCode", null);
+        setField(term19664, term19664.getClass(), "lastModifiedDate", null);
+        setField(term19664, term19664.getClass(), "modifiedBy", null);
+        setIntField(term19664, term19664.getClass(), "currentRulesCount", 923905351);
+        setIntField(term19664, term19664.getClass(), "maxRulesCount", 428360161);
+        setField(term19664, term19664.getClass(), "taxRules", null);
+        setField(term19653, term19653.getClass(), "taxConfig", term19664);
+        Long term19670 = new Long(5067793047038594982L);
+        Long term19681 = new Long(-1572808624189549793L);
+        Object term19669 = newInstance(Class.forName("legacyfighter.dietary.TaxRule"));
+        Object term19680 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        setField(term19669, term19669.getClass(), "id", term19670);
+        setField(term19669, term19669.getClass(), "taxCode", "");
+        setBooleanField(term19669, term19669.getClass(), "isLinear", true);
+        setIntField(term19669, term19669.getClass(), "aFactor", 631528579);
+        setIntField(term19669, term19669.getClass(), "bFactor", -1652091834);
+        setBooleanField(term19669, term19669.getClass(), "isSquare", true);
+        setIntField(term19669, term19669.getClass(), "aSquareFactor", -282021579);
+        setIntField(term19669, term19669.getClass(), "bSquareFactor", -1652588127);
+        setIntField(term19669, term19669.getClass(), "cSuqreFactor", -1902823385);
+        setField(term19680, term19680.getClass(), "id", term19681);
+        setField(term19680, term19680.getClass(), "description", null);
+        setField(term19680, term19680.getClass(), "countryReason", null);
+        setField(term19680, term19680.getClass(), "countryCode", null);
+        setField(term19680, term19680.getClass(), "lastModifiedDate", null);
+        setField(term19680, term19680.getClass(), "modifiedBy", null);
+        setIntField(term19680, term19680.getClass(), "currentRulesCount", -784924879);
+        setIntField(term19680, term19680.getClass(), "maxRulesCount", -1062027102);
+        setField(term19680, term19680.getClass(), "taxRules", null);
+        setField(term19669, term19669.getClass(), "taxConfig", term19680);
+        Long term19686 = new Long(5255768275907389358L);
+        Object term19685 = newInstance(Class.forName("legacyfighter.dietary.TaxRule"));
+        Object term19696 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        setField(term19685, term19685.getClass(), "id", term19686);
+        setField(term19685, term19685.getClass(), "taxCode", "");
+        setBooleanField(term19685, term19685.getClass(), "isLinear", false);
+        setIntField(term19685, term19685.getClass(), "aFactor", 157300746);
+        setIntField(term19685, term19685.getClass(), "bFactor", -1600748613);
+        setBooleanField(term19685, term19685.getClass(), "isSquare", true);
+        setIntField(term19685, term19685.getClass(), "aSquareFactor", -1509192782);
+        setIntField(term19685, term19685.getClass(), "bSquareFactor", -867925573);
+        setIntField(term19685, term19685.getClass(), "cSuqreFactor", 478422495);
+        setField(term19696, term19696.getClass(), "id", null);
+        setField(term19696, term19696.getClass(), "description", null);
+        setField(term19696, term19696.getClass(), "countryReason", null);
+        setField(term19696, term19696.getClass(), "countryCode", null);
+        setField(term19696, term19696.getClass(), "lastModifiedDate", null);
+        setField(term19696, term19696.getClass(), "modifiedBy", null);
+        setIntField(term19696, term19696.getClass(), "currentRulesCount", 0);
+        setIntField(term19696, term19696.getClass(), "maxRulesCount", 0);
+        setField(term19696, term19696.getClass(), "taxRules", null);
+        setField(term19685, term19685.getClass(), "taxConfig", term19696);
+        Long term19700 = new Long(7048544371106200955L);
+        Long term19711 = new Long(2777168805269959396L);
+        Object term19699 = newInstance(Class.forName("legacyfighter.dietary.TaxRule"));
+        Object term19710 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        setField(term19699, term19699.getClass(), "id", term19700);
+        setField(term19699, term19699.getClass(), "taxCode", "");
+        setBooleanField(term19699, term19699.getClass(), "isLinear", false);
+        setIntField(term19699, term19699.getClass(), "aFactor", -1428947021);
+        setIntField(term19699, term19699.getClass(), "bFactor", -134324004);
+        setBooleanField(term19699, term19699.getClass(), "isSquare", false);
+        setIntField(term19699, term19699.getClass(), "aSquareFactor", -1813266173);
+        setIntField(term19699, term19699.getClass(), "bSquareFactor", -1201819537);
+        setIntField(term19699, term19699.getClass(), "cSuqreFactor", 2135922049);
+        setField(term19710, term19710.getClass(), "id", term19711);
+        setField(term19710, term19710.getClass(), "description", null);
+        setField(term19710, term19710.getClass(), "countryReason", null);
+        setField(term19710, term19710.getClass(), "countryCode", null);
+        setField(term19710, term19710.getClass(), "lastModifiedDate", null);
+        setField(term19710, term19710.getClass(), "modifiedBy", null);
+        setIntField(term19710, term19710.getClass(), "currentRulesCount", 1734630901);
+        setIntField(term19710, term19710.getClass(), "maxRulesCount", -703815246);
+        setField(term19710, term19710.getClass(), "taxRules", null);
+        setField(term19699, term19699.getClass(), "taxConfig", term19710);
+        Long term19716 = new Long(6174523862926526279L);
+        Long term19727 = new Long(4977537501907213732L);
+        Object term19715 = newInstance(Class.forName("legacyfighter.dietary.TaxRule"));
+        Object term19726 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        setField(term19715, term19715.getClass(), "id", term19716);
+        setField(term19715, term19715.getClass(), "taxCode", "");
+        setBooleanField(term19715, term19715.getClass(), "isLinear", true);
+        setIntField(term19715, term19715.getClass(), "aFactor", 765680355);
+        setIntField(term19715, term19715.getClass(), "bFactor", -1012090049);
+        setBooleanField(term19715, term19715.getClass(), "isSquare", true);
+        setIntField(term19715, term19715.getClass(), "aSquareFactor", -2025214553);
+        setIntField(term19715, term19715.getClass(), "bSquareFactor", -154750730);
+        setIntField(term19715, term19715.getClass(), "cSuqreFactor", -2047179134);
+        setField(term19726, term19726.getClass(), "id", term19727);
+        setField(term19726, term19726.getClass(), "description", null);
+        setField(term19726, term19726.getClass(), "countryReason", null);
+        setField(term19726, term19726.getClass(), "countryCode", null);
+        setField(term19726, term19726.getClass(), "lastModifiedDate", null);
+        setField(term19726, term19726.getClass(), "modifiedBy", null);
+        setIntField(term19726, term19726.getClass(), "currentRulesCount", 44908093);
+        setIntField(term19726, term19726.getClass(), "maxRulesCount", 887198203);
+        setField(term19726, term19726.getClass(), "taxRules", null);
+        setField(term19715, term19715.getClass(), "taxConfig", term19726);
+        Long term19732 = new Long(-2341942457089205755L);
+        Long term19743 = new Long(-7503147844796296300L);
+        Object term19731 = newInstance(Class.forName("legacyfighter.dietary.TaxRule"));
+        Object term19742 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        setField(term19731, term19731.getClass(), "id", term19732);
+        setField(term19731, term19731.getClass(), "taxCode", "");
+        setBooleanField(term19731, term19731.getClass(), "isLinear", false);
+        setIntField(term19731, term19731.getClass(), "aFactor", 12581312);
+        setIntField(term19731, term19731.getClass(), "bFactor", 2087383644);
+        setBooleanField(term19731, term19731.getClass(), "isSquare", false);
+        setIntField(term19731, term19731.getClass(), "aSquareFactor", 405527523);
+        setIntField(term19731, term19731.getClass(), "bSquareFactor", -1123526433);
+        setIntField(term19731, term19731.getClass(), "cSuqreFactor", 910269225);
+        setField(term19742, term19742.getClass(), "id", term19743);
+        setField(term19742, term19742.getClass(), "description", null);
+        setField(term19742, term19742.getClass(), "countryReason", null);
+        setField(term19742, term19742.getClass(), "countryCode", null);
+        setField(term19742, term19742.getClass(), "lastModifiedDate", null);
+        setField(term19742, term19742.getClass(), "modifiedBy", null);
+        setIntField(term19742, term19742.getClass(), "currentRulesCount", -298852874);
+        setIntField(term19742, term19742.getClass(), "maxRulesCount", 1094297953);
+        setField(term19742, term19742.getClass(), "taxRules", null);
+        setField(term19731, term19731.getClass(), "taxConfig", term19742);
+        ArrayList term19651 = new ArrayList();
+        ((ArrayList) term19651).add(term19653);
+        ((ArrayList) term19651).add(term19669);
+        ((ArrayList) term19651).add(term19685);
+        ((ArrayList) term19651).add(term19699);
+        ((ArrayList) term19651).add(term19699);
+        ((ArrayList) term19651).add(term19715);
+        ((ArrayList) term19651).add(term19731);
+        ((ArrayList) term19651).add(term19731);
+        ((ArrayList) term19651).add(term19669);
+        term19595 = newInstance(Class.forName("legacyfighter.dietary.TaxConfig"));
+        Object term19634 = newInstance(Class.forName("java.time.Instant"));
+        setField(term19595, term19595.getClass(), "id", term19596);
+        setField(term19595, term19595.getClass(), "description", "pxokrVaeMd");
+        setField(term19595, term19595.getClass(), "countryReason", "ujxmmZZcbT");
+        setField(term19595, term19595.getClass(), "countryCode", "BOvgwHfoHQ");
+        setLongField(term19634, term19634.getClass(), "seconds", 1838972963L);
+        setIntField(term19634, term19634.getClass(), "nanos", 174000000);
+        setField(term19595, term19595.getClass(), "lastModifiedDate", term19634);
+        setField(term19595, term19595.getClass(), "modifiedBy", "hPpFNeDBIb");
+        setIntField(term19595, term19595.getClass(), "currentRulesCount", -2077814162);
+        setIntField(term19595, term19595.getClass(), "maxRulesCount", 444514470);
+        setField(term19595, term19595.getClass(), "taxRules", term19651);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("legacyfighter.dietary.TaxConfig");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.String");
+        Object[] args = new Object[1];
+        args[0] = "HmEvTlmzXo";
+        callMethod(klass, "setCountryReason", argTypes, term19595, args);
+    }
+
+};
+
+

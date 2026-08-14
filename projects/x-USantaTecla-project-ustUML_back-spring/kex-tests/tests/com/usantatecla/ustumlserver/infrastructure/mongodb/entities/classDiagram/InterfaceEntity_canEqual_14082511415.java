@@ -1,0 +1,218 @@
+package com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+import java.lang.String;
+import java.lang.Object;
+
+public class InterfaceEntity_canEqual_14082511415 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term82580;
+     Object term82704;
+
+    public InterfaceEntity_canEqual_14082511415() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Class<? extends Object> term82706 = Class.forName((String) "com.usantatecla.ustumlserver.domain.model.classDiagram.Modifier");
+        Field term82705 = ((Class) term82706).getDeclaredField((String) "PUBLIC");
+        ((Field) term82705).setAccessible(true);
+        Object enum212 =  ((Field) term82705).get((Object) null);
+        Class<? extends Object> term83046 = Class.forName((String) "com.usantatecla.ustumlserver.domain.model.classDiagram.Modifier");
+        Field term83045 = ((Class) term83046).getDeclaredField((String) "ABSTRACT");
+        ((Field) term83045).setAccessible(true);
+        Object enum213 =  ((Field) term83045).get((Object) null);
+        Class<? extends Object> term83392 = Class.forName((String) "com.usantatecla.ustumlserver.domain.model.classDiagram.Modifier");
+        Field term83391 = ((Class) term83392).getDeclaredField((String) "STATIC");
+        ((Field) term83391).setAccessible(true);
+        Object enum214 =  ((Field) term83391).get((Object) null);
+        Class<? extends Object> term83732 = Class.forName((String) "com.usantatecla.ustumlserver.domain.model.classDiagram.Modifier");
+        Field term83731 = ((Class) term83732).getDeclaredField((String) "NULL");
+        ((Field) term83731).setAccessible(true);
+        Object enum215 =  ((Field) term83731).get((Object) null);
+        ArrayList term82581 = new ArrayList();
+        ((ArrayList) term82581).add(enum212);
+        ((ArrayList) term82581).add(enum213);
+        ((ArrayList) term82581).add(enum214);
+        ((ArrayList) term82581).add(enum215);
+        ((ArrayList) term82581).add(enum213);
+        ((ArrayList) term82581).add(enum213);
+        ((ArrayList) term82581).add(enum212);
+        ArrayList term82610 = new ArrayList();
+        ((ArrayList) term82610).add((Object)null);
+        ((ArrayList) term82610).add((Object)null);
+        ((ArrayList) term82610).add((Object)null);
+        ((ArrayList) term82610).add((Object)null);
+        ((ArrayList) term82610).add((Object)null);
+        Object term82607 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.AttributeEntity"));
+        setField(term82607, term82607.getClass(), "name", "");
+        setField(term82607, term82607.getClass(), "type", "");
+        setField(term82607, term82607.getClass(), "modifiers", term82610);
+        ArrayList term82616 = new ArrayList();
+        ((ArrayList) term82616).add((Object)null);
+        ((ArrayList) term82616).add((Object)null);
+        ((ArrayList) term82616).add((Object)null);
+        ((ArrayList) term82616).add((Object)null);
+        Object term82613 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.AttributeEntity"));
+        setField(term82613, term82613.getClass(), "name", "");
+        setField(term82613, term82613.getClass(), "type", "");
+        setField(term82613, term82613.getClass(), "modifiers", term82616);
+        ArrayList term82622 = new ArrayList();
+        ((ArrayList) term82622).add((Object)null);
+        ((ArrayList) term82622).add((Object)null);
+        ((ArrayList) term82622).add((Object)null);
+        ((ArrayList) term82622).add((Object)null);
+        Object term82619 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.AttributeEntity"));
+        setField(term82619, term82619.getClass(), "name", "");
+        setField(term82619, term82619.getClass(), "type", "");
+        setField(term82619, term82619.getClass(), "modifiers", term82622);
+        ArrayList term82605 = new ArrayList();
+        ((ArrayList) term82605).add(term82607);
+        ((ArrayList) term82605).add(term82613);
+        ((ArrayList) term82605).add(term82619);
+        ArrayList term82632 = new ArrayList();
+        ((ArrayList) term82632).add((Object)null);
+        ((ArrayList) term82632).add((Object)null);
+        ((ArrayList) term82632).add((Object)null);
+        ((ArrayList) term82632).add((Object)null);
+        ((ArrayList) term82632).add((Object)null);
+        ((ArrayList) term82632).add((Object)null);
+        ((ArrayList) term82632).add((Object)null);
+        ArrayList term82635 = new ArrayList();
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        ((ArrayList) term82635).add((Object)null);
+        Object term82629 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.MethodEntity"));
+        setField(term82629, term82629.getClass(), "name", "");
+        setField(term82629, term82629.getClass(), "type", "");
+        setField(term82629, term82629.getClass(), "modifiers", term82632);
+        setField(term82629, term82629.getClass(), "parametersEntities", term82635);
+        ArrayList term82641 = new ArrayList();
+        ((ArrayList) term82641).add((Object)null);
+        ArrayList term82644 = new ArrayList();
+        ((ArrayList) term82644).add((Object)null);
+        ((ArrayList) term82644).add((Object)null);
+        ((ArrayList) term82644).add((Object)null);
+        Object term82638 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.MethodEntity"));
+        setField(term82638, term82638.getClass(), "name", "");
+        setField(term82638, term82638.getClass(), "type", "");
+        setField(term82638, term82638.getClass(), "modifiers", term82641);
+        setField(term82638, term82638.getClass(), "parametersEntities", term82644);
+        ArrayList term82650 = new ArrayList();
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ((ArrayList) term82650).add((Object)null);
+        ArrayList term82653 = new ArrayList();
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        ((ArrayList) term82653).add((Object)null);
+        Object term82647 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.MethodEntity"));
+        setField(term82647, term82647.getClass(), "name", "");
+        setField(term82647, term82647.getClass(), "type", "");
+        setField(term82647, term82647.getClass(), "modifiers", term82650);
+        setField(term82647, term82647.getClass(), "parametersEntities", term82653);
+        ArrayList term82659 = new ArrayList();
+        ((ArrayList) term82659).add((Object)null);
+        ArrayList term82662 = new ArrayList();
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        ((ArrayList) term82662).add((Object)null);
+        Object term82656 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.MethodEntity"));
+        setField(term82656, term82656.getClass(), "name", "");
+        setField(term82656, term82656.getClass(), "type", "");
+        setField(term82656, term82656.getClass(), "modifiers", term82659);
+        setField(term82656, term82656.getClass(), "parametersEntities", term82662);
+        ArrayList term82668 = new ArrayList();
+        ((ArrayList) term82668).add((Object)null);
+        ((ArrayList) term82668).add((Object)null);
+        ArrayList term82671 = new ArrayList();
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        ((ArrayList) term82671).add((Object)null);
+        Object term82665 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.MethodEntity"));
+        setField(term82665, term82665.getClass(), "name", "");
+        setField(term82665, term82665.getClass(), "type", "");
+        setField(term82665, term82665.getClass(), "modifiers", term82668);
+        setField(term82665, term82665.getClass(), "parametersEntities", term82671);
+        ArrayList term82627 = new ArrayList();
+        ((ArrayList) term82627).add(term82629);
+        ((ArrayList) term82627).add(term82638);
+        ((ArrayList) term82627).add(term82647);
+        ((ArrayList) term82627).add(term82656);
+        ((ArrayList) term82627).add(term82665);
+        ArrayList term82700 = new ArrayList();
+        ((ArrayList) term82700).add((Object)null);
+        ((ArrayList) term82700).add((Object)null);
+        ((ArrayList) term82700).add((Object)null);
+        term82580 = newInstance(Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.InterfaceEntity"));
+        setField(term82580, term82580.getClass(), "modifiers", term82581);
+        setField(term82580, term82580.getClass(), "attributesEntities", term82605);
+        setField(term82580, term82580.getClass(), "methodsEntities", term82627);
+        setField(term82580, term82580.getClass(), "id", "sMiHxgXUuN");
+        setField(term82580, term82580.getClass(), "name", "oVChCWWDag");
+        setField(term82580, term82580.getClass(), "relationEntities", term82700);
+        term82704 = newInstance(Class.forName("java.lang.Object"));
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.usantatecla.ustumlserver.infrastructure.mongodb.entities.classDiagram.InterfaceEntity");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.lang.Object");
+        Object[] args = new Object[1];
+        args[0] = term82704;
+        callMethod(klass, "canEqual", argTypes, term82580, args);
+    }
+
+};
+
+

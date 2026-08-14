@@ -1,0 +1,212 @@
+package com.github.bhlangonijr.chesslib.game;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.github.bhlangonijr.chesslib.game.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.lang.String;
+
+public class Game_setTermination_3873699518 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term56066;
+     Object enum168;
+
+    public Game_setTermination_3873699518() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Object term56070 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Game"));
+        setField(term56070, term56070.getClass(), "round", null);
+        setField(term56070, term56070.getClass(), "gameId", null);
+        setField(term56070, term56070.getClass(), "date", null);
+        setField(term56070, term56070.getClass(), "time", null);
+        setField(term56070, term56070.getClass(), "termination", null);
+        setField(term56070, term56070.getClass(), "whitePlayer", null);
+        setField(term56070, term56070.getClass(), "blackPlayer", null);
+        setField(term56070, term56070.getClass(), "annotator", null);
+        setField(term56070, term56070.getClass(), "plyCount", null);
+        setField(term56070, term56070.getClass(), "result", null);
+        setField(term56070, term56070.getClass(), "halfMoves", null);
+        setField(term56070, term56070.getClass(), "variations", null);
+        setField(term56070, term56070.getClass(), "comments", null);
+        setField(term56070, term56070.getClass(), "nag", null);
+        setField(term56070, term56070.getClass(), "property", null);
+        setField(term56070, term56070.getClass(), "fen", null);
+        setField(term56070, term56070.getClass(), "board", null);
+        setIntField(term56070, term56070.getClass(), "position", 0);
+        setIntField(term56070, term56070.getClass(), "initialPosition", 0);
+        setField(term56070, term56070.getClass(), "currentMoveList", null);
+        setField(term56070, term56070.getClass(), "eco", null);
+        setField(term56070, term56070.getClass(), "moveText", null);
+        setField(term56070, term56070.getClass(), "opening", null);
+        setField(term56070, term56070.getClass(), "variation", null);
+        Object term56073 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Game"));
+        setField(term56073, term56073.getClass(), "round", null);
+        setField(term56073, term56073.getClass(), "gameId", null);
+        setField(term56073, term56073.getClass(), "date", null);
+        setField(term56073, term56073.getClass(), "time", null);
+        setField(term56073, term56073.getClass(), "termination", null);
+        setField(term56073, term56073.getClass(), "whitePlayer", null);
+        setField(term56073, term56073.getClass(), "blackPlayer", null);
+        setField(term56073, term56073.getClass(), "annotator", null);
+        setField(term56073, term56073.getClass(), "plyCount", null);
+        setField(term56073, term56073.getClass(), "result", null);
+        setField(term56073, term56073.getClass(), "halfMoves", null);
+        setField(term56073, term56073.getClass(), "variations", null);
+        setField(term56073, term56073.getClass(), "comments", null);
+        setField(term56073, term56073.getClass(), "nag", null);
+        setField(term56073, term56073.getClass(), "property", null);
+        setField(term56073, term56073.getClass(), "fen", null);
+        setField(term56073, term56073.getClass(), "board", null);
+        setIntField(term56073, term56073.getClass(), "position", 0);
+        setIntField(term56073, term56073.getClass(), "initialPosition", 0);
+        setField(term56073, term56073.getClass(), "currentMoveList", null);
+        setField(term56073, term56073.getClass(), "eco", null);
+        setField(term56073, term56073.getClass(), "moveText", null);
+        setField(term56073, term56073.getClass(), "opening", null);
+        setField(term56073, term56073.getClass(), "variation", null);
+        Object term56076 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Game"));
+        setField(term56076, term56076.getClass(), "round", null);
+        setField(term56076, term56076.getClass(), "gameId", null);
+        setField(term56076, term56076.getClass(), "date", null);
+        setField(term56076, term56076.getClass(), "time", null);
+        setField(term56076, term56076.getClass(), "termination", null);
+        setField(term56076, term56076.getClass(), "whitePlayer", null);
+        setField(term56076, term56076.getClass(), "blackPlayer", null);
+        setField(term56076, term56076.getClass(), "annotator", null);
+        setField(term56076, term56076.getClass(), "plyCount", null);
+        setField(term56076, term56076.getClass(), "result", null);
+        setField(term56076, term56076.getClass(), "halfMoves", null);
+        setField(term56076, term56076.getClass(), "variations", null);
+        setField(term56076, term56076.getClass(), "comments", null);
+        setField(term56076, term56076.getClass(), "nag", null);
+        setField(term56076, term56076.getClass(), "property", null);
+        setField(term56076, term56076.getClass(), "fen", null);
+        setField(term56076, term56076.getClass(), "board", null);
+        setIntField(term56076, term56076.getClass(), "position", 0);
+        setIntField(term56076, term56076.getClass(), "initialPosition", 0);
+        setField(term56076, term56076.getClass(), "currentMoveList", null);
+        setField(term56076, term56076.getClass(), "eco", null);
+        setField(term56076, term56076.getClass(), "moveText", null);
+        setField(term56076, term56076.getClass(), "opening", null);
+        setField(term56076, term56076.getClass(), "variation", null);
+        Object term56079 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Game"));
+        setField(term56079, term56079.getClass(), "round", null);
+        setField(term56079, term56079.getClass(), "gameId", null);
+        setField(term56079, term56079.getClass(), "date", null);
+        setField(term56079, term56079.getClass(), "time", null);
+        setField(term56079, term56079.getClass(), "termination", null);
+        setField(term56079, term56079.getClass(), "whitePlayer", null);
+        setField(term56079, term56079.getClass(), "blackPlayer", null);
+        setField(term56079, term56079.getClass(), "annotator", null);
+        setField(term56079, term56079.getClass(), "plyCount", null);
+        setField(term56079, term56079.getClass(), "result", null);
+        setField(term56079, term56079.getClass(), "halfMoves", null);
+        setField(term56079, term56079.getClass(), "variations", null);
+        setField(term56079, term56079.getClass(), "comments", null);
+        setField(term56079, term56079.getClass(), "nag", null);
+        setField(term56079, term56079.getClass(), "property", null);
+        setField(term56079, term56079.getClass(), "fen", null);
+        setField(term56079, term56079.getClass(), "board", null);
+        setIntField(term56079, term56079.getClass(), "position", 0);
+        setIntField(term56079, term56079.getClass(), "initialPosition", 0);
+        setField(term56079, term56079.getClass(), "currentMoveList", null);
+        setField(term56079, term56079.getClass(), "eco", null);
+        setField(term56079, term56079.getClass(), "moveText", null);
+        setField(term56079, term56079.getClass(), "opening", null);
+        setField(term56079, term56079.getClass(), "variation", null);
+        ArrayList term56068 = new ArrayList();
+        ((ArrayList) term56068).add(term56070);
+        ((ArrayList) term56068).add(term56073);
+        ((ArrayList) term56068).add(term56073);
+        ((ArrayList) term56068).add(term56076);
+        ((ArrayList) term56068).add(term56079);
+        ((ArrayList) term56068).add(term56079);
+        ((ArrayList) term56068).add(term56070);
+        HashMap term56085 = new HashMap();
+        Class<? extends Object> term56200 = Class.forName((String) "com.github.bhlangonijr.chesslib.game.Termination");
+        Field term56199 = ((Class) term56200).getDeclaredField((String) "TIME");
+        ((Field) term56199).setAccessible(true);
+        Object enum167 = ((Field) term56199).get((Object) null);
+        term56066 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Game"));
+        Object term56067 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Round"));
+        Object term56084 = newInstance(Class.forName("com.github.bhlangonijr.chesslib.game.Event"));
+        setField(term56067, term56067.getClass(), "game", term56068);
+        setField(term56084, term56084.getClass(), "round", term56085);
+        setField(term56084, term56084.getClass(), "id", null);
+        setField(term56084, term56084.getClass(), "name", null);
+        setField(term56084, term56084.getClass(), "eventType", null);
+        setField(term56084, term56084.getClass(), "startDate", null);
+        setField(term56084, term56084.getClass(), "endDate", null);
+        setField(term56084, term56084.getClass(), "site", null);
+        setLongField(term56084, term56084.getClass(), "timestamp", 0L);
+        setIntField(term56084, term56084.getClass(), "rounds", 0);
+        setField(term56084, term56084.getClass(), "timeControl", null);
+        setField(term56084, term56084.getClass(), "timeControl2", null);
+        setField(term56084, term56084.getClass(), "pgnHolder", null);
+        setField(term56067, term56067.getClass(), "event", term56084);
+        setIntField(term56067, term56067.getClass(), "number", -2131181468);
+        setField(term56066, term56066.getClass(), "round", term56067);
+        setField(term56066, term56066.getClass(), "gameId", "MnovcqFhCl");
+        setField(term56066, term56066.getClass(), "date", "qYtAeLzOhW");
+        setField(term56066, term56066.getClass(), "time", "tJzmOfcUnY");
+        setField(term56066, term56066.getClass(), "termination", enum167);
+        setField(term56066, term56066.getClass(), "whitePlayer", null);
+        setField(term56066, term56066.getClass(), "blackPlayer", null);
+        setField(term56066, term56066.getClass(), "annotator", null);
+        setField(term56066, term56066.getClass(), "plyCount", null);
+        setField(term56066, term56066.getClass(), "result", null);
+        setField(term56066, term56066.getClass(), "halfMoves", null);
+        setField(term56066, term56066.getClass(), "variations", null);
+        setField(term56066, term56066.getClass(), "comments", null);
+        setField(term56066, term56066.getClass(), "nag", null);
+        setField(term56066, term56066.getClass(), "property", null);
+        setField(term56066, term56066.getClass(), "fen", null);
+        setField(term56066, term56066.getClass(), "board", null);
+        setIntField(term56066, term56066.getClass(), "position", 0);
+        setIntField(term56066, term56066.getClass(), "initialPosition", 0);
+        setField(term56066, term56066.getClass(), "currentMoveList", null);
+        setField(term56066, term56066.getClass(), "eco", null);
+        setField(term56066, term56066.getClass(), "moveText", null);
+        setField(term56066, term56066.getClass(), "opening", null);
+        setField(term56066, term56066.getClass(), "variation", null);
+        Class<? extends Object> term56459 = Class.forName((String) "com.github.bhlangonijr.chesslib.game.Termination");
+        Field term56458 = ((Class) term56459).getDeclaredField((String) "EMERGENCY");
+        ((Field) term56458).setAccessible(true);
+        enum168 = ((Field) term56458).get((Object) null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.github.bhlangonijr.chesslib.game.Game");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("com.github.bhlangonijr.chesslib.game.Termination");
+        Object[] args = new Object[1];
+        args[0] = enum168;
+        callMethod(klass, "setTermination", argTypes, term56066, args);
+    }
+
+};
+
+

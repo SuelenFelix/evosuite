@@ -1,0 +1,1272 @@
+{
+    "check_type": "arm",
+    "results": {
+        "passed_checks": [
+            {
+                "check_id": "CKV_AZURE_11",
+                "bc_check_id": "BC_AZR_NETWORKING_4",
+                "check_name": "Ensure no SQL Databases allow ingress from 0.0.0.0/0 (ANY IP)",
+                "check_result": {
+                    "result": "PASSED",
+                    "evaluated_keys": []
+                },
+                "code_block": [
+                    [
+                        63,
+                        "        {\n"
+                    ],
+                    [
+                        64,
+                        "            \"type\": \"Microsoft.Sql/servers\",\n"
+                    ],
+                    [
+                        65,
+                        "            \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        66,
+                        "            \"name\": \"[parameters('serverName')]\",\n"
+                    ],
+                    [
+                        67,
+                        "            \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        68,
+                        "            \"identity\": \"[if(parameters('enableADS'), json('{\\\"type\\\":\\\"SystemAssigned\\\"}'), json('null'))]\",\n"
+                    ],
+                    [
+                        69,
+                        "            \"properties\": {\n"
+                    ],
+                    [
+                        70,
+                        "                \"administratorLogin\": \"[parameters('administratorLogin')]\",\n"
+                    ],
+                    [
+                        71,
+                        "                \"administratorLoginPassword\": \"[parameters('administratorLoginPassword')]\",\n"
+                    ],
+                    [
+                        72,
+                        "                \"version\": \"12.0\"\n"
+                    ],
+                    [
+                        73,
+                        "            },\n"
+                    ],
+                    [
+                        74,
+                        "            \"resources\": [\n"
+                    ],
+                    [
+                        75,
+                        "                {\n"
+                    ],
+                    [
+                        76,
+                        "                    \"condition\": \"[parameters('allowAzureIPs')]\",\n"
+                    ],
+                    [
+                        77,
+                        "                    \"type\": \"firewallRules\",\n"
+                    ],
+                    [
+                        78,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        79,
+                        "                    \"name\": \"AllowAllWindowsAzureIps\",\n"
+                    ],
+                    [
+                        80,
+                        "                    \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        81,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        82,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        83,
+                        "                    ],\n"
+                    ],
+                    [
+                        84,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        85,
+                        "                        \"endIpAddress\": \"0.0.0.0\",\n"
+                    ],
+                    [
+                        86,
+                        "                        \"startIpAddress\": \"0.0.0.0\"\n"
+                    ],
+                    [
+                        87,
+                        "                    }\n"
+                    ],
+                    [
+                        88,
+                        "                },\n"
+                    ],
+                    [
+                        89,
+                        "                {\n"
+                    ],
+                    [
+                        90,
+                        "                    \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        91,
+                        "                    \"type\": \"securityAlertPolicies\",\n"
+                    ],
+                    [
+                        92,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        93,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        94,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        95,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        96,
+                        "                    ],\n"
+                    ],
+                    [
+                        97,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        98,
+                        "                        \"state\": \"Enabled\",\n"
+                    ],
+                    [
+                        99,
+                        "                        \"emailAccountAdmins\": true\n"
+                    ],
+                    [
+                        100,
+                        "                    }\n"
+                    ],
+                    [
+                        101,
+                        "                },\n"
+                    ],
+                    [
+                        102,
+                        "                {\n"
+                    ],
+                    [
+                        103,
+                        "                    \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        104,
+                        "                    \"type\": \"vulnerabilityAssessments\",\n"
+                    ],
+                    [
+                        105,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        106,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        107,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        108,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\",\n"
+                    ],
+                    [
+                        109,
+                        "                        \"[resourceId('Microsoft.Sql/servers/securityAlertPolicies', parameters('serverName'), 'Default')]\",\n"
+                    ],
+                    [
+                        110,
+                        "                        \"[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]\"\n"
+                    ],
+                    [
+                        111,
+                        "                    ],\n"
+                    ],
+                    [
+                        112,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        113,
+                        "                        \"storageContainerPath\": \"[if(parameters('enableADS'), concat(reference(resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))).primaryEndpoints.blob, 'vulnerability-assessment'), json('null'))]\",\n"
+                    ],
+                    [
+                        114,
+                        "                        \"recurringScans\": {\n"
+                    ],
+                    [
+                        115,
+                        "                            \"isEnabled\": true,\n"
+                    ],
+                    [
+                        116,
+                        "                            \"emailSubscriptionAdmins\": true\n"
+                    ],
+                    [
+                        117,
+                        "                        }\n"
+                    ],
+                    [
+                        118,
+                        "                    }\n"
+                    ],
+                    [
+                        119,
+                        "                },\n"
+                    ],
+                    [
+                        120,
+                        "                {\n"
+                    ],
+                    [
+                        121,
+                        "                    \"type\": \"connectionPolicies\",\n"
+                    ],
+                    [
+                        122,
+                        "                    \"apiVersion\": \"2014-04-01\",\n"
+                    ],
+                    [
+                        123,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        124,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        125,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        126,
+                        "                    ],\n"
+                    ],
+                    [
+                        127,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        128,
+                        "                        \"connectionType\": \"[parameters('connectionType')]\"\n"
+                    ],
+                    [
+                        129,
+                        "                    }\n"
+                    ],
+                    [
+                        130,
+                        "                }\n"
+                    ],
+                    [
+                        131,
+                        "            ]\n"
+                    ],
+                    [
+                        132,
+                        "        },\n"
+                    ]
+                ],
+                "file_path": "src/test/resources/checkov/azuredeploy.json",
+                "file_abs_path": "/home/pether/git/sonar-cloudformation-plugin/src/test/resources/checkov/azuredeploy.json",
+                "repo_file_path": "/src/test/resources/checkov/azuredeploy.json",
+                "file_line_range": [
+                    63,
+                    132
+                ],
+                "resource": "Microsoft.Sql/servers.[uniqueString('sql', resourceGroup().id)]",
+                "evaluations": {},
+                "check_class": "checkov.arm.checks.resource.SQLServerNoPublicAccess",
+                "fixed_definition": null,
+                "entity_tags": {"Name": ["${var.application_name}-${var.rds_database_name}-aurora-sg"]},
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.bridgecrew.io/docs/bc_azr_networking_4",
+                "details": [],
+                "check_len": null
+            },
+            {
+                "check_id": "CKV_AZURE_3",
+                "bc_check_id": null,
+                "check_name": "Ensure that 'supportsHttpsTrafficOnly' is set to 'true'",
+                "check_result": {
+                    "result": "PASSED",
+                    "evaluated_keys": []
+                },
+                "code_block": [
+                    [
+                        133,
+                        "        {\n"
+                    ],
+                    [
+                        134,
+                        "            \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        135,
+                        "            \"type\": \"Microsoft.Storage/storageAccounts\",\n"
+                    ],
+                    [
+                        136,
+                        "            \"apiVersion\": \"2019-06-01\",\n"
+                    ],
+                    [
+                        137,
+                        "            \"name\": \"[variables('storageName')]\",\n"
+                    ],
+                    [
+                        138,
+                        "            \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        139,
+                        "            \"sku\": {\n"
+                    ],
+                    [
+                        140,
+                        "                \"name\": \"Standard_LRS\"\n"
+                    ],
+                    [
+                        141,
+                        "            },\n"
+                    ],
+                    [
+                        142,
+                        "            \"kind\": \"StorageV2\",\n"
+                    ],
+                    [
+                        143,
+                        "            \"properties\": {\n"
+                    ],
+                    [
+                        144,
+                        "                \"minimumTlsVersion\": \"TLS1_2\",\n"
+                    ],
+                    [
+                        145,
+                        "                \"supportsHttpsTrafficOnly\": \"true\",\n"
+                    ],
+                    [
+                        146,
+                        "                \"allowBlobPublicAccess\": \"false\"\n"
+                    ],
+                    [
+                        147,
+                        "            }\n"
+                    ],
+                    [
+                        148,
+                        "        },\n"
+                    ]
+                ],
+                "file_path": "src/test/resources/checkov/azuredeploy.json",
+                "file_abs_path": "/home/pether/git/sonar-cloudformation-plugin/src/test/resources/checkov/azuredeploy.json",
+                "repo_file_path": "/src/test/resources/checkov/azuredeploy.json",
+                "file_line_range": [
+                    133,
+                    148
+                ],
+                "resource": "Microsoft.Storage/storageAccounts.[tolower(concat('sqlva', variables('uniqueStorage')))]",
+                "evaluations": {},
+                "check_class": "checkov.arm.checks.resource.StorageAccountsTransportEncryption",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": null,
+                "details": [],
+                "check_len": null
+            }
+        ],
+        "failed_checks": [
+            {
+                "check_id": "CKV_AZURE_24",
+                "bc_check_id": "BC_AZR_LOGGING_3",
+                "check_name": "Ensure that 'Auditing' Retention is 'greater than 90 days' for SQL servers",
+                "check_result": {
+                    "result": "FAILED",
+                    "evaluated_keys": [
+                        "resources/[3]/type",
+                        "resources/[3]/properties/state",
+                        "resources/[3]/properties/retentionDays"
+                    ]
+                },
+                "code_block": [
+                    [
+                        63,
+                        "        {\n"
+                    ],
+                    [
+                        64,
+                        "            \"type\": \"Microsoft.Sql/servers\",\n"
+                    ],
+                    [
+                        65,
+                        "            \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        66,
+                        "            \"name\": \"[parameters('serverName')]\",\n"
+                    ],
+                    [
+                        67,
+                        "            \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        68,
+                        "            \"identity\": \"[if(parameters('enableADS'), json('{\\\"type\\\":\\\"SystemAssigned\\\"}'), json('null'))]\",\n"
+                    ],
+                    [
+                        69,
+                        "            \"properties\": {\n"
+                    ],
+                    [
+                        70,
+                        "                \"administratorLogin\": \"[parameters('administratorLogin')]\",\n"
+                    ],
+                    [
+                        71,
+                        "                \"administratorLoginPassword\": \"[parameters('administratorLoginPassword')]\",\n"
+                    ],
+                    [
+                        72,
+                        "                \"version\": \"12.0\"\n"
+                    ],
+                    [
+                        73,
+                        "            },\n"
+                    ],
+                    [
+                        74,
+                        "            \"resources\": [\n"
+                    ],
+                    [
+                        75,
+                        "                {\n"
+                    ],
+                    [
+                        76,
+                        "                    \"condition\": \"[parameters('allowAzureIPs')]\",\n"
+                    ],
+                    [
+                        77,
+                        "                    \"type\": \"firewallRules\",\n"
+                    ],
+                    [
+                        78,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        79,
+                        "                    \"name\": \"AllowAllWindowsAzureIps\",\n"
+                    ],
+                    [
+                        80,
+                        "                    \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        81,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        82,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        83,
+                        "                    ],\n"
+                    ],
+                    [
+                        84,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        85,
+                        "                        \"endIpAddress\": \"0.0.0.0\",\n"
+                    ],
+                    [
+                        86,
+                        "                        \"startIpAddress\": \"0.0.0.0\"\n"
+                    ],
+                    [
+                        87,
+                        "                    }\n"
+                    ],
+                    [
+                        88,
+                        "                },\n"
+                    ],
+                    [
+                        89,
+                        "                {\n"
+                    ],
+                    [
+                        90,
+                        "                    \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        91,
+                        "                    \"type\": \"securityAlertPolicies\",\n"
+                    ],
+                    [
+                        92,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        93,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        94,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        95,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        96,
+                        "                    ],\n"
+                    ],
+                    [
+                        97,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        98,
+                        "                        \"state\": \"Enabled\",\n"
+                    ],
+                    [
+                        99,
+                        "                        \"emailAccountAdmins\": true\n"
+                    ],
+                    [
+                        100,
+                        "                    }\n"
+                    ],
+                    [
+                        101,
+                        "                },\n"
+                    ],
+                    [
+                        102,
+                        "                {\n"
+                    ],
+                    [
+                        103,
+                        "                    \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        104,
+                        "                    \"type\": \"vulnerabilityAssessments\",\n"
+                    ],
+                    [
+                        105,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        106,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        107,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        108,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\",\n"
+                    ],
+                    [
+                        109,
+                        "                        \"[resourceId('Microsoft.Sql/servers/securityAlertPolicies', parameters('serverName'), 'Default')]\",\n"
+                    ],
+                    [
+                        110,
+                        "                        \"[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]\"\n"
+                    ],
+                    [
+                        111,
+                        "                    ],\n"
+                    ],
+                    [
+                        112,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        113,
+                        "                        \"storageContainerPath\": \"[if(parameters('enableADS'), concat(reference(resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))).primaryEndpoints.blob, 'vulnerability-assessment'), json('null'))]\",\n"
+                    ],
+                    [
+                        114,
+                        "                        \"recurringScans\": {\n"
+                    ],
+                    [
+                        115,
+                        "                            \"isEnabled\": true,\n"
+                    ],
+                    [
+                        116,
+                        "                            \"emailSubscriptionAdmins\": true\n"
+                    ],
+                    [
+                        117,
+                        "                        }\n"
+                    ],
+                    [
+                        118,
+                        "                    }\n"
+                    ],
+                    [
+                        119,
+                        "                },\n"
+                    ],
+                    [
+                        120,
+                        "                {\n"
+                    ],
+                    [
+                        121,
+                        "                    \"type\": \"connectionPolicies\",\n"
+                    ],
+                    [
+                        122,
+                        "                    \"apiVersion\": \"2014-04-01\",\n"
+                    ],
+                    [
+                        123,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        124,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        125,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        126,
+                        "                    ],\n"
+                    ],
+                    [
+                        127,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        128,
+                        "                        \"connectionType\": \"[parameters('connectionType')]\"\n"
+                    ],
+                    [
+                        129,
+                        "                    }\n"
+                    ],
+                    [
+                        130,
+                        "                }\n"
+                    ],
+                    [
+                        131,
+                        "            ]\n"
+                    ],
+                    [
+                        132,
+                        "        },\n"
+                    ]
+                ],
+                "file_path": "src/test/resources/checkov/azuredeploy.json",
+                "file_abs_path": "/home/pether/git/sonar-cloudformation-plugin/src/test/resources/checkov/azuredeploy.json",
+                "repo_file_path": "/src/test/resources/checkov/azuredeploy.json",
+                "file_line_range": [
+                    63,
+                    132
+                ],
+                "resource": "Microsoft.Sql/servers.[uniqueString('sql', resourceGroup().id)]",
+                "evaluations": {},
+                "check_class": "checkov.arm.checks.resource.SQLServerAuditingRetention90Days",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.bridgecrew.io/docs/bc_azr_logging_3",
+                "details": [],
+                "check_len": null
+            },
+            {
+                "check_id": "CKV_AZURE_23",
+                "bc_check_id": "BC_AZR_LOGGING_2",
+                "check_name": "Ensure that 'Auditing' is set to 'Enabled' for SQL servers",
+                "check_result": {
+                    "result": "FAILED",
+                    "evaluated_keys": []
+                },
+                "code_block": [
+                    [
+                        63,
+                        "        {\n"
+                    ],
+                    [
+                        64,
+                        "            \"type\": \"Microsoft.Sql/servers\",\n"
+                    ],
+                    [
+                        65,
+                        "            \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        66,
+                        "            \"name\": \"[parameters('serverName')]\",\n"
+                    ],
+                    [
+                        67,
+                        "            \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        68,
+                        "            \"identity\": \"[if(parameters('enableADS'), json('{\\\"type\\\":\\\"SystemAssigned\\\"}'), json('null'))]\",\n"
+                    ],
+                    [
+                        69,
+                        "            \"properties\": {\n"
+                    ],
+                    [
+                        70,
+                        "                \"administratorLogin\": \"[parameters('administratorLogin')]\",\n"
+                    ],
+                    [
+                        71,
+                        "                \"administratorLoginPassword\": \"[parameters('administratorLoginPassword')]\",\n"
+                    ],
+                    [
+                        72,
+                        "                \"version\": \"12.0\"\n"
+                    ],
+                    [
+                        73,
+                        "            },\n"
+                    ],
+                    [
+                        74,
+                        "            \"resources\": [\n"
+                    ],
+                    [
+                        75,
+                        "                {\n"
+                    ],
+                    [
+                        76,
+                        "                    \"condition\": \"[parameters('allowAzureIPs')]\",\n"
+                    ],
+                    [
+                        77,
+                        "                    \"type\": \"firewallRules\",\n"
+                    ],
+                    [
+                        78,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        79,
+                        "                    \"name\": \"AllowAllWindowsAzureIps\",\n"
+                    ],
+                    [
+                        80,
+                        "                    \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        81,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        82,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        83,
+                        "                    ],\n"
+                    ],
+                    [
+                        84,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        85,
+                        "                        \"endIpAddress\": \"0.0.0.0\",\n"
+                    ],
+                    [
+                        86,
+                        "                        \"startIpAddress\": \"0.0.0.0\"\n"
+                    ],
+                    [
+                        87,
+                        "                    }\n"
+                    ],
+                    [
+                        88,
+                        "                },\n"
+                    ],
+                    [
+                        89,
+                        "                {\n"
+                    ],
+                    [
+                        90,
+                        "                    \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        91,
+                        "                    \"type\": \"securityAlertPolicies\",\n"
+                    ],
+                    [
+                        92,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        93,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        94,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        95,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        96,
+                        "                    ],\n"
+                    ],
+                    [
+                        97,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        98,
+                        "                        \"state\": \"Enabled\",\n"
+                    ],
+                    [
+                        99,
+                        "                        \"emailAccountAdmins\": true\n"
+                    ],
+                    [
+                        100,
+                        "                    }\n"
+                    ],
+                    [
+                        101,
+                        "                },\n"
+                    ],
+                    [
+                        102,
+                        "                {\n"
+                    ],
+                    [
+                        103,
+                        "                    \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        104,
+                        "                    \"type\": \"vulnerabilityAssessments\",\n"
+                    ],
+                    [
+                        105,
+                        "                    \"apiVersion\": \"2020-02-02-preview\",\n"
+                    ],
+                    [
+                        106,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        107,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        108,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\",\n"
+                    ],
+                    [
+                        109,
+                        "                        \"[resourceId('Microsoft.Sql/servers/securityAlertPolicies', parameters('serverName'), 'Default')]\",\n"
+                    ],
+                    [
+                        110,
+                        "                        \"[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]\"\n"
+                    ],
+                    [
+                        111,
+                        "                    ],\n"
+                    ],
+                    [
+                        112,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        113,
+                        "                        \"storageContainerPath\": \"[if(parameters('enableADS'), concat(reference(resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))).primaryEndpoints.blob, 'vulnerability-assessment'), json('null'))]\",\n"
+                    ],
+                    [
+                        114,
+                        "                        \"recurringScans\": {\n"
+                    ],
+                    [
+                        115,
+                        "                            \"isEnabled\": true,\n"
+                    ],
+                    [
+                        116,
+                        "                            \"emailSubscriptionAdmins\": true\n"
+                    ],
+                    [
+                        117,
+                        "                        }\n"
+                    ],
+                    [
+                        118,
+                        "                    }\n"
+                    ],
+                    [
+                        119,
+                        "                },\n"
+                    ],
+                    [
+                        120,
+                        "                {\n"
+                    ],
+                    [
+                        121,
+                        "                    \"type\": \"connectionPolicies\",\n"
+                    ],
+                    [
+                        122,
+                        "                    \"apiVersion\": \"2014-04-01\",\n"
+                    ],
+                    [
+                        123,
+                        "                    \"name\": \"Default\",\n"
+                    ],
+                    [
+                        124,
+                        "                    \"dependsOn\": [\n"
+                    ],
+                    [
+                        125,
+                        "                        \"[resourceId('Microsoft.Sql/servers', parameters('serverName'))]\"\n"
+                    ],
+                    [
+                        126,
+                        "                    ],\n"
+                    ],
+                    [
+                        127,
+                        "                    \"properties\": {\n"
+                    ],
+                    [
+                        128,
+                        "                        \"connectionType\": \"[parameters('connectionType')]\"\n"
+                    ],
+                    [
+                        129,
+                        "                    }\n"
+                    ],
+                    [
+                        130,
+                        "                }\n"
+                    ],
+                    [
+                        131,
+                        "            ]\n"
+                    ],
+                    [
+                        132,
+                        "        },\n"
+                    ]
+                ],
+                "file_path": "src/test/resources/checkov/azuredeploy.json",
+                "file_abs_path": "/home/pether/git/sonar-cloudformation-plugin/src/test/resources/checkov/azuredeploy.json",
+                "repo_file_path": "/src/test/resources/checkov/azuredeploy.json",
+                "file_line_range": [
+                    63,
+                    132
+                ],
+                "resource": "Microsoft.Sql/servers.[uniqueString('sql', resourceGroup().id)]",
+                "evaluations": {},
+                "check_class": "checkov.arm.checks.resource.SQLServerAuditingEnabled",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.bridgecrew.io/docs/bc_azr_logging_2",
+                "details": [],
+                "check_len": null
+            },
+            {
+                "check_id": "CKV_AZURE_36",
+                "bc_check_id": "BC_AZR_NETWORKING_16",
+                "check_name": "Ensure 'Trusted Microsoft Services' is enabled for Storage Account access",
+                "check_result": {
+                    "result": "FAILED",
+                    "evaluated_keys": []
+                },
+                "code_block": [
+                    [
+                        133,
+                        "        {\n"
+                    ],
+                    [
+                        134,
+                        "            \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        135,
+                        "            \"type\": \"Microsoft.Storage/storageAccounts\",\n"
+                    ],
+                    [
+                        136,
+                        "            \"apiVersion\": \"2019-06-01\",\n"
+                    ],
+                    [
+                        137,
+                        "            \"name\": \"[variables('storageName')]\",\n"
+                    ],
+                    [
+                        138,
+                        "            \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        139,
+                        "            \"sku\": {\n"
+                    ],
+                    [
+                        140,
+                        "                \"name\": \"Standard_LRS\"\n"
+                    ],
+                    [
+                        141,
+                        "            },\n"
+                    ],
+                    [
+                        142,
+                        "            \"kind\": \"StorageV2\",\n"
+                    ],
+                    [
+                        143,
+                        "            \"properties\": {\n"
+                    ],
+                    [
+                        144,
+                        "                \"minimumTlsVersion\": \"TLS1_2\",\n"
+                    ],
+                    [
+                        145,
+                        "                \"supportsHttpsTrafficOnly\": \"true\",\n"
+                    ],
+                    [
+                        146,
+                        "                \"allowBlobPublicAccess\": \"false\"\n"
+                    ],
+                    [
+                        147,
+                        "            }\n"
+                    ],
+                    [
+                        148,
+                        "        },\n"
+                    ]
+                ],
+                "file_path": "src/test/resources/checkov/azuredeploy.json",
+                "file_abs_path": "/home/pether/git/sonar-cloudformation-plugin/src/test/resources/checkov/azuredeploy.json",
+                "repo_file_path": "/src/test/resources/checkov/azuredeploy.json",
+                "file_line_range": [
+                    133,
+                    148
+                ],
+                "resource": "Microsoft.Storage/storageAccounts.[tolower(concat('sqlva', variables('uniqueStorage')))]",
+                "evaluations": {},
+                "check_class": "checkov.arm.checks.resource.StorageAccountAzureServicesAccessEnabled",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.bridgecrew.io/docs/enable-trusted-microsoft-services-for-storage-account-access",
+                "details": [],
+                "check_len": null
+            },
+            {
+                "check_id": "CKV_AZURE_35",
+                "bc_check_id": "BC_AZR_NETWORKING_15",
+                "check_name": "Ensure default network access rule for Storage Accounts is set to deny",
+                "check_result": {
+                    "result": "FAILED",
+                    "evaluated_keys": []
+                },
+                "code_block": [
+                    [
+                        133,
+                        "        {\n"
+                    ],
+                    [
+                        134,
+                        "            \"condition\": \"[parameters('enableADS')]\",\n"
+                    ],
+                    [
+                        135,
+                        "            \"type\": \"Microsoft.Storage/storageAccounts\",\n"
+                    ],
+                    [
+                        136,
+                        "            \"apiVersion\": \"2019-06-01\",\n"
+                    ],
+                    [
+                        137,
+                        "            \"name\": \"[variables('storageName')]\",\n"
+                    ],
+                    [
+                        138,
+                        "            \"location\": \"[parameters('location')]\",\n"
+                    ],
+                    [
+                        139,
+                        "            \"sku\": {\n"
+                    ],
+                    [
+                        140,
+                        "                \"name\": \"Standard_LRS\"\n"
+                    ],
+                    [
+                        141,
+                        "            },\n"
+                    ],
+                    [
+                        142,
+                        "            \"kind\": \"StorageV2\",\n"
+                    ],
+                    [
+                        143,
+                        "            \"properties\": {\n"
+                    ],
+                    [
+                        144,
+                        "                \"minimumTlsVersion\": \"TLS1_2\",\n"
+                    ],
+                    [
+                        145,
+                        "                \"supportsHttpsTrafficOnly\": \"true\",\n"
+                    ],
+                    [
+                        146,
+                        "                \"allowBlobPublicAccess\": \"false\"\n"
+                    ],
+                    [
+                        147,
+                        "            }\n"
+                    ],
+                    [
+                        148,
+                        "        },\n"
+                    ]
+                ],
+                "file_path": "src/test/resources/checkov/azuredeploy.json",
+                "file_abs_path": "/home/pether/git/sonar-cloudformation-plugin/src/test/resources/checkov/azuredeploy.json",
+                "repo_file_path": "/src/test/resources/checkov/azuredeploy.json",
+                "file_line_range": [
+                    133,
+                    148
+                ],
+                "resource": "Microsoft.Storage/storageAccounts.[tolower(concat('sqlva', variables('uniqueStorage')))]",
+                "evaluations": {},
+                "check_class": "checkov.arm.checks.resource.StorageAccountDefaultNetworkAccessDeny",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.bridgecrew.io/docs/set-default-network-access-rule-for-storage-accounts-to-deny",
+                "details": [],
+                "check_len": null
+            }
+        ],
+        "skipped_checks": [],
+        "parsing_errors": []
+    },
+    "summary": {
+        "passed": 2,
+        "failed": 4,
+        "skipped": 0,
+        "parsing_errors": 0,
+        "resource_count": 7,
+        "checkov_version": "2.2.157"
+    },
+    "url": "Add an api key '--bc-api-key <api-key>' to see more detailed insights via https://bridgecrew.cloud"
+}

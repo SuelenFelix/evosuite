@@ -1,0 +1,2392 @@
+2026-08-11 02:30:07.981 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/leosam1024_tvbox-mv/target/classes
+2026-08-11 02:30:08.078 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 02:30:08.142 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 02:30:09.042 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 02:30:09.530 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/leosam/tvbox/mv/utils/*
+2026-08-11 02:30:09.531 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 02:30:09.552 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/leosam1024_tvbox-mv/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 02:30:09.605 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/leosam1024_tvbox-mv/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 45119 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/leosam1024_tvbox-mv/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 02:30:09.617 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 02:31:49.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::<init>(java/lang/String, long): void
+2026-08-11 02:31:49.649 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::<init>(java/lang/String, long): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.taskName = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.timeNanos = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 02:31:50.105 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_init_16430554820
+2026-08-11 02:31:50.110 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTaskName(): java/lang/String
+2026-08-11 02:31:50.110 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTaskName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.taskName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 02:31:50.218 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTaskName_13498861701
+2026-08-11 02:31:50.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeNanos(): long
+2026-08-11 02:31:50.219 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeNanos(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.timeNanos
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 02:31:50.308 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTimeNanos_4133130672
+2026-08-11 02:31:50.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeMillis(): long
+2026-08-11 02:31:50.309 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeMillis(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.timeNanos
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static StopWatch.nanosToMillis(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 02:31:50.387 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTimeMillis_8179585043
+2026-08-11 02:31:50.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeSeconds(): double
+2026-08-11 02:31:50.388 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeSeconds(): double
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.timeNanos
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static StopWatch.nanosToSeconds(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 02:31:50.457 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTimeSeconds_16907731804
+2026-08-11 02:31:50.517 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_init_16430554825
+2026-08-11 02:31:50.576 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTaskName_13498861706
+2026-08-11 02:31:50.634 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTimeNanos_4133130677
+2026-08-11 02:31:50.705 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTimeMillis_8179585048
+2026-08-11 02:31:50.782 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_TaskInfo_getTimeSeconds_16907731809
+2026-08-11 02:31:50.783 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::<init>(java/lang/String, long): void: null
+2026-08-11 02:31:50.784 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTaskName(): java/lang/String: null
+2026-08-11 02:31:50.784 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeNanos(): long: null
+2026-08-11 02:31:50.784 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeMillis(): long: null
+2026-08-11 02:31:50.784 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeSeconds(): double: null
+2026-08-11 02:31:50.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::<init>(java/lang/String, long): void processing is finished normally
+2026-08-11 02:31:50.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTaskName(): java/lang/String processing is finished normally
+2026-08-11 02:31:50.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeNanos(): long processing is finished normally
+2026-08-11 02:31:50.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeMillis(): long processing is finished normally
+2026-08-11 02:31:50.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch$TaskInfo::getTimeSeconds(): double processing is finished normally
+2026-08-11 02:31:50.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::<init>(): void
+2026-08-11 02:31:50.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>("")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:50.867 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_init_11329368300
+2026-08-11 02:31:50.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::<init>(java/lang/String): void
+2026-08-11 02:31:50.868 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.keepTaskList = 1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%2 = new java/util/ArrayList
+	special %2.<init>(1)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.taskList = %2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.id = arg$0
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-08-11 02:31:50.924 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_init_9806837071
+2026-08-11 02:31:50.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getId(): java/lang/String
+2026-08-11 02:31:50.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getId(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.id
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 02:31:50.971 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getId_1720031222
+2026-08-11 02:31:50.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::setKeepTaskList(bool): void
+2026-08-11 02:31:50.972 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::setKeepTaskList(bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	this.keepTaskList = arg$0
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:51.034 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_setKeepTaskList_21442461683
+2026-08-11 02:31:51.034 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::start(): void
+2026-08-11 02:31:51.034 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::start(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	virtual this.start("")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:51.079 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_start_930131024
+2026-08-11 02:31:51.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::start(java/lang/String): void
+2026-08-11 02:31:51.080 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::start(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.currentTaskName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("Can't start StopWatch: it's already running")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	this.currentTaskName = arg$0
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%8 = static System.nanoTime()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.startTimeNanos = %8
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-08-11 02:31:51.127 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_start_592400215
+2026-08-11 02:31:51.128 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::stop(): void
+2026-08-11 02:31:51.128 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::stop(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.currentTaskName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("Can't stop StopWatch: it's not running")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%9 = static System.nanoTime()
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = this.startTimeNanos
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%21 = %9 - %10
+	goto %label0
+
+%label0: 	//predecessors %bb4
+	%13 = this.totalTimeNanos
+	goto %bb5
+
+%bb5: 	//predecessors %label0
+	%16 = %13 + %21
+	this.totalTimeNanos = %16
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%22 = new com/leosam/tvbox/mv/utils/StopWatch$TaskInfo
+	%20 = this.currentTaskName
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	special %22.<init>(%20, %21)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.lastTaskInfo = %22
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%24 = this.keepTaskList
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%26 = (%24 == false)
+	if (%26) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb10
+	%29 = this.taskList
+	goto %bb11
+
+%bb11: 	//predecessors %if.else1
+	%30 = this.lastTaskInfo
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%31 = interface %29.add(%30)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb10, %bb13
+	%33 = this.taskCount
+	goto %bb14
+
+%bb14: 	//predecessors %if.then1
+	%35 = %33 + 1
+	this.taskCount = %35
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	this.currentTaskName = null
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	return
+2026-08-11 02:31:51.172 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_stop_10981294226
+2026-08-11 02:31:51.173 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::isRunning(): bool
+2026-08-11 02:31:51.173 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::isRunning(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.currentTaskName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %5
+2026-08-11 02:31:51.216 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_isRunning_11802616517
+2026-08-11 02:31:51.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::currentTaskName(): java/lang/String
+2026-08-11 02:31:51.216 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::currentTaskName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.currentTaskName
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 02:31:51.259 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_currentTaskName_16572646468
+2026-08-11 02:31:51.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeNanos(): long
+2026-08-11 02:31:51.260 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeNanos(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.lastTaskInfo
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("No tasks run: can't get last task interval")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%8 = this.lastTaskInfo
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = virtual %8.getTimeNanos()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %10
+2026-08-11 02:31:51.301 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskTimeNanos_5139013839
+2026-08-11 02:31:51.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeMillis(): long
+2026-08-11 02:31:51.302 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeMillis(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.lastTaskInfo
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("No tasks run: can't get last task interval")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%8 = this.lastTaskInfo
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = virtual %8.getTimeMillis()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %10
+2026-08-11 02:31:51.343 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskTimeMillis_151174880410
+2026-08-11 02:31:51.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskName(): java/lang/String
+2026-08-11 02:31:51.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getLastTaskName(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.lastTaskInfo
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("No tasks run: can't get last task name")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%8 = this.lastTaskInfo
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = virtual %8.getTaskName()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %10
+2026-08-11 02:31:51.397 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskName_62970159311
+2026-08-11 02:31:51.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo
+2026-08-11 02:31:51.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getLastTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.lastTaskInfo
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/IllegalStateException
+	special %6.<init>("No tasks run: can't get last task info")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%8 = this.lastTaskInfo
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	return %8
+2026-08-11 02:31:51.438 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskInfo_170589699912
+2026-08-11 02:31:51.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeNanos(): long
+2026-08-11 02:31:51.439 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeNanos(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.totalTimeNanos
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 02:31:51.482 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTotalTimeNanos_90005446013
+2026-08-11 02:31:51.482 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeMillis(): long
+2026-08-11 02:31:51.482 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeMillis(): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.totalTimeNanos
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static StopWatch.nanosToMillis(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 02:31:51.529 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTotalTimeMillis_62879063114
+2026-08-11 02:31:51.530 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeSeconds(): double
+2026-08-11 02:31:51.530 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeSeconds(): double
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.totalTimeNanos
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static StopWatch.nanosToSeconds(%1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 02:31:51.578 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTotalTimeSeconds_124509652515
+2026-08-11 02:31:51.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getTaskCount(): int
+2026-08-11 02:31:51.579 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getTaskCount(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.taskCount
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 02:31:51.628 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTaskCount_10280091616
+2026-08-11 02:31:51.628 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::getTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo[]
+2026-08-11 02:31:51.629 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::getTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.keepTaskList
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = new java/lang/UnsupportedOperationException
+	special %6.<init>("Task info is not being kept!")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	throw %6
+
+%if.then0: 	//predecessors %bb1
+	%9 = this.taskList
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%10 = new com/leosam/tvbox/mv/utils/StopWatch$TaskInfo[0]
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%12 = interface %9.toArray(%10)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%14 = (com/leosam/tvbox/mv/utils/StopWatch$TaskInfo[]) %12
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %14
+2026-08-11 02:31:51.688 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTaskInfo_149108632117
+2026-08-11 02:31:51.689 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::shortSummary(): java/lang/String
+2026-08-11 02:31:51.689 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::shortSummary(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = virtual this.getId()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual this.getTotalTimeNanos()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = invokeDynamic (java/lang/String, long): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="StopWatch '': running time =  ns"))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return %5
+2026-08-11 02:31:51.747 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_shortSummary_209597722318
+2026-08-11 02:31:51.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::prettyPrint(): java/lang/String
+2026-08-11 02:31:51.748 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::prettyPrint(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%73 = new java/lang/StringBuilder
+	%3 = virtual this.shortSummary()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %73.<init>(%3)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = virtual %73.append(10)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%7 = this.keepTaskList
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%9 = (%7 != false)
+	if (%9) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%11 = virtual %73.append("No task info kept")
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb2
+	%13 = virtual %73.append("---------------------------------------------
+")
+	goto %label2
+
+%label2: 	//predecessors %if.then0
+	%15 = virtual %73.append("ns         %     Task name
+")
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%17 = virtual %73.append("---------------------------------------------
+")
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%38 = static NumberFormat.getNumberInstance()
+	goto %label5
+
+%label5: 	//predecessors %label4
+	virtual %38.setMinimumIntegerDigits(9)
+	goto %bb4
+
+%bb4: 	//predecessors %label5
+	virtual %38.setGroupingUsed(0)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%56 = static NumberFormat.getPercentInstance()
+	goto %label6
+
+%label6: 	//predecessors %bb5
+	virtual %56.setMinimumIntegerDigits(3)
+	goto %bb6
+
+%bb6: 	//predecessors %label6
+	virtual %56.setGroupingUsed(0)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%33 = virtual this.getTaskInfo()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%30 = %33.length
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %label7
+
+%label7: 	//predecessors %bb9, %label11
+	%71 = phi {%bb9 -> 0; %label11 -> %72}
+	%32 = (%71 >= %30)
+	if (%32) goto %goto0 else %if.else1
+
+%if.else1: 	//predecessors %label7
+	%64 = %33[%71]
+	goto %label8
+
+%label8: 	//predecessors %if.else1
+	%39 = virtual %64.getTimeNanos()
+	goto %bb10
+
+%bb10: 	//predecessors %label8
+	%42 = virtual %38.format(%39)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%44 = virtual %73.append(%42)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%45 = virtual %44.append("  ")
+	goto %label9
+
+%label9: 	//predecessors %bb12
+	%48 = virtual %64.getTimeNanos()
+	goto %bb13
+
+%bb13: 	//predecessors %label9
+	%53 = (double) %48
+	%51 = virtual this.getTotalTimeNanos()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%54 = (double) %51
+	%57 = %53 / %54
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%60 = virtual %56.format(%57)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%62 = virtual %73.append(%60)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%63 = virtual %62.append("  ")
+	goto %label10
+
+%label10: 	//predecessors %bb17
+	%67 = virtual %64.getTaskName()
+	goto %bb18
+
+%bb18: 	//predecessors %label10
+	%69 = virtual %73.append(%67)
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%70 = virtual %69.append(10)
+	goto %label11
+
+%label11: 	//predecessors %bb19
+	%72 = %71 + 1
+	goto %label7
+
+%goto0: 	//predecessors %bb3, %label7
+	%75 = virtual %73.toString()
+	goto %bb20
+
+%bb20: 	//predecessors %goto0
+	return %75
+2026-08-11 02:31:51.786 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_prettyPrint_92130916419
+2026-08-11 02:31:51.786 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::toString(): java/lang/String
+2026-08-11 02:31:51.787 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::toString(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%61 = new java/lang/StringBuilder
+	%3 = virtual this.shortSummary()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %61.<init>(%3)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = this.keepTaskList
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%7 = (%5 == false)
+	if (%7) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%17 = virtual this.getTaskInfo()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%14 = %17.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %label1
+
+%label1: 	//predecessors %bb4, %label5
+	%57 = phi {%bb4 -> 0; %label5 -> %58}
+	%16 = (%57 >= %14)
+	if (%16) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %label1
+	%36 = %17[%57]
+	goto %label2
+
+%label2: 	//predecessors %if.else1
+	%24 = virtual %61.append("; [")
+	goto %bb5
+
+%bb5: 	//predecessors %label2
+	%25 = virtual %36.getTaskName()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%27 = virtual %24.append(%25)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%31 = virtual %27.append("] took ")
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%32 = virtual %36.getTimeNanos()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%34 = virtual %31.append(%32)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%35 = virtual %34.append(" ns")
+	goto %label3
+
+%label3: 	//predecessors %bb10
+	%38 = virtual %36.getTimeNanos()
+	goto %bb11
+
+%bb11: 	//predecessors %label3
+	%40 = (double) %38
+	%45 = 100.0 * %40
+	%43 = virtual this.getTotalTimeNanos()
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%46 = (double) %43
+	%48 = %45 / %46
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%53 = static Math.round(%48)
+	goto %label4
+
+%label4: 	//predecessors %bb13
+	%52 = virtual %61.append(" = ")
+	goto %bb14
+
+%bb14: 	//predecessors %label4
+	%55 = virtual %52.append(%53)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%56 = virtual %55.append(37)
+	goto %label5
+
+%label5: 	//predecessors %bb15
+	%58 = %57 + 1
+	goto %label1
+
+%if.then0: 	//predecessors %label1
+	goto %goto0
+
+%if.then1: 	//predecessors %bb2
+	%60 = virtual %61.append("; no task info kept")
+	goto %bb16
+
+%bb16: 	//predecessors %if.then1
+	goto %goto0
+
+%goto0: 	//predecessors %if.then0, %bb16
+	%63 = virtual %61.toString()
+	goto %bb17
+
+%bb17: 	//predecessors %goto0
+	return %63
+2026-08-11 02:31:51.822 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_toString_167839268120
+2026-08-11 02:31:51.822 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::nanosToMillis(long): long
+2026-08-11 02:31:51.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::nanosToMillis(long): long
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TimeUnit.NANOSECONDS
+	%3 = virtual %1.toMillis(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %3
+2026-08-11 02:31:51.855 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_nanosToMillis_211644636221
+2026-08-11 02:31:51.856 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StopWatch::nanosToSeconds(long): double
+2026-08-11 02:31:51.856 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StopWatch::nanosToSeconds(long): double
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (double) arg$0
+	%3 = %1 / 1.0E9
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %3
+2026-08-11 02:31:51.890 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_nanosToSeconds_44800996822
+2026-08-11 02:31:51.923 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_init_113293683023
+2026-08-11 02:31:51.956 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_init_98068370724
+2026-08-11 02:31:51.990 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getId_17200312225
+2026-08-11 02:31:52.027 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_setKeepTaskList_214424616826
+2026-08-11 02:31:52.061 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_start_9301310227
+2026-08-11 02:31:52.095 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_start_5924002128
+2026-08-11 02:31:52.129 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_stop_109812942229
+2026-08-11 02:31:52.164 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_isRunning_118026165130
+2026-08-11 02:31:52.199 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_currentTaskName_165726464631
+2026-08-11 02:31:52.238 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskTimeNanos_51390138332
+2026-08-11 02:31:52.280 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskTimeMillis_151174880433
+2026-08-11 02:31:52.314 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskName_62970159334
+2026-08-11 02:31:52.349 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getLastTaskInfo_170589699935
+2026-08-11 02:31:52.386 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTotalTimeNanos_90005446036
+2026-08-11 02:31:52.419 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTotalTimeMillis_62879063137
+2026-08-11 02:31:52.457 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTotalTimeSeconds_124509652538
+2026-08-11 02:31:52.488 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTaskCount_10280091639
+2026-08-11 02:31:52.522 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_getTaskInfo_149108632140
+2026-08-11 02:31:52.553 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_shortSummary_209597722341
+2026-08-11 02:31:52.585 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_prettyPrint_92130916442
+2026-08-11 02:31:52.616 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_toString_167839268143
+2026-08-11 02:31:52.647 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_nanosToMillis_211644636244
+2026-08-11 02:31:52.678 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StopWatch_nanosToSeconds_44800996845
+2026-08-11 02:31:52.679 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::<init>(): void: null
+2026-08-11 02:31:52.679 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::<init>(java/lang/String): void: null
+2026-08-11 02:31:52.679 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getId(): java/lang/String: null
+2026-08-11 02:31:52.679 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::setKeepTaskList(bool): void: null
+2026-08-11 02:31:52.679 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::start(): void: null
+2026-08-11 02:31:52.679 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::start(java/lang/String): void: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::stop(): void: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::isRunning(): bool: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::currentTaskName(): java/lang/String: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeNanos(): long: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeMillis(): long: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskName(): java/lang/String: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeNanos(): long: null
+2026-08-11 02:31:52.680 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeMillis(): long: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeSeconds(): double: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getTaskCount(): int: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::getTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo[]: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::shortSummary(): java/lang/String: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::prettyPrint(): java/lang/String: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::toString(): java/lang/String: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::nanosToMillis(long): long: null
+2026-08-11 02:31:52.681 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StopWatch::nanosToSeconds(long): double: null
+2026-08-11 02:31:52.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::<init>(): void processing is finished normally
+2026-08-11 02:31:52.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::<init>(java/lang/String): void processing is finished normally
+2026-08-11 02:31:52.681 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getId(): java/lang/String processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::setKeepTaskList(bool): void processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::start(): void processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::start(java/lang/String): void processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::stop(): void processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::isRunning(): bool processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::currentTaskName(): java/lang/String processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeNanos(): long processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskTimeMillis(): long processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskName(): java/lang/String processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getLastTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeNanos(): long processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeMillis(): long processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getTotalTimeSeconds(): double processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getTaskCount(): int processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::getTaskInfo(): com/leosam/tvbox/mv/utils/StopWatch$TaskInfo[] processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::shortSummary(): java/lang/String processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::prettyPrint(): java/lang/String processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::toString(): java/lang/String processing is finished normally
+2026-08-11 02:31:52.682 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::nanosToMillis(long): long processing is finished normally
+2026-08-11 02:31:52.683 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StopWatch::nanosToSeconds(long): double processing is finished normally
+2026-08-11 02:31:52.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/VertxUtils::<init>(): void
+2026-08-11 02:31:52.685 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/VertxUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:52.719 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.VertxUtils_init_14141094510
+2026-08-11 02:31:52.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/VertxUtils::queryParam(io/vertx/ext/web/RoutingContext, java/lang/String): java/lang/String
+2026-08-11 02:31:52.719 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/VertxUtils::queryParam(io/vertx/ext/web/RoutingContext, java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%9 = interface arg$0.queryParam(arg$1)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (%9 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%6 = interface %9.size()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%8 = (%6 <= 0)
+	if (%8) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%11 = interface %9.get(0)
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	%13 = (java/lang/String) %11
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then0: 	//predecessors %label0, %bb1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb3, %if.then0
+	%retval1 = phi {%bb3 -> %13; %if.then0 -> ""}
+	return %retval1
+2026-08-11 02:31:52.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io.vertx.ext.web.RoutingContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 02:31:52.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: io.vertx.ext.web.RoutingContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 02:31:52.721 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/VertxUtils::queryParam(io/vertx/ext/web/RoutingContext, java/lang/String): java/lang/String: null
+2026-08-11 02:31:52.748 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.VertxUtils_init_14141094511
+2026-08-11 02:31:52.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/VertxUtils::queryParam(io/vertx/ext/web/RoutingContext, java/lang/String): java/lang/String processing is finished normally
+2026-08-11 02:31:52.749 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/VertxUtils::<init>(): void: null
+2026-08-11 02:31:52.749 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/VertxUtils::<init>(): void processing is finished normally
+2026-08-11 02:31:52.762 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::<init>(): void
+2026-08-11 02:31:52.762 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:52.792 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_init_7016445900
+2026-08-11 02:31:52.792 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getDirectoryFiles(java/lang/String): java/util/Map
+2026-08-11 02:31:52.793 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getDirectoryFiles(java/lang/String): java/util/Map
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%71 = new java/util/LinkedHashMap
+	special %71.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = static StringUtils.isEmpty(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = (%3 != false)
+	if (%5) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%7 = virtual arg$0.startsWith("classpath:")
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%9 = (%7 == false)
+	if (%9) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb2
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb2
+	%40 = new java/io/File
+	special %40.<init>(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %if.then1
+	%14 = virtual %40.exists()
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%16 = (%14 == false)
+	if (%16) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%19 = virtual %40.isFile()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%21 = (%19 == false)
+	if (%21) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%27 = virtual %40.getCanonicalPath()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	%28 = virtual %40.getName()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%29 = interface %71.put(%27, %28)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %if.then2
+
+%if.then2: 	//predecessors %bb3, %bb4, %bb7
+	%32 = virtual %40.exists()
+	goto %bb8
+
+%bb8: 	//predecessors %if.then2
+	%34 = (%32 == false)
+	if (%34) goto %if.then4 else %if.else3
+
+%if.else3: 	//predecessors %bb8
+	%37 = virtual %40.isDirectory()
+	goto %bb9
+
+%bb9: 	//predecessors %if.else3
+	%39 = (%37 == false)
+	if (%39) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb9
+	%50 = virtual %40.listFiles()
+	goto %label2
+
+%label2: 	//predecessors %if.else4
+	%47 = %50.length
+	goto %bb10
+
+%bb10: 	//predecessors %label2
+	goto %label3
+
+%label3: 	//predecessors %bb10, %if.then3
+	%68 = phi {%bb10 -> 0; %if.then3 -> %69}
+	%49 = (%68 >= %47)
+	if (%49) goto %if.then4 else %if.else5
+
+%if.else5: 	//predecessors %label3
+	%62 = %50[%68]
+	goto %label4
+
+%label4: 	//predecessors %if.else5
+	%55 = virtual %62.isFile()
+	goto %bb11
+
+%bb11: 	//predecessors %label4
+	%57 = (%55 == false)
+	if (%57) goto %if.then3 else %if.else6
+
+%if.else6: 	//predecessors %bb11
+	%60 = virtual %62.getName()
+	goto %bb12
+
+%bb12: 	//predecessors %if.else6
+	%65 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%66 = virtual %62.getName()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%67 = interface %71.put(%65, %66)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	goto %if.then3
+
+%if.then3: 	//predecessors %bb11, %bb15
+	%69 = %68 + 1
+	goto %label3
+
+%if.then4: 	//predecessors %bb8, %bb9, %label3
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %if.then4
+	%retval1 = phi {%if.then0 -> %71; %if.then4 -> %71}
+	%retval.casted1 = (java/util/Map) %retval1
+	return %retval.casted1
+2026-08-11 02:31:52.823 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getDirectoryFiles_18613266231
+2026-08-11 02:31:52.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::extractFileNameWithoutExtension(java/lang/String): java/lang/String
+2026-08-11 02:31:52.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::extractFileNameWithoutExtension(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = virtual arg$0.replace("classpath:", "")
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = new java/lang/String[0]
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = static Paths.get(%2, %3)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%7 = interface %5.getFileName()
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%17 = interface %7.toString()
+	goto %label2
+
+%label2: 	//predecessors %bb2
+	%15 = virtual %17.lastIndexOf(".")
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%13 = (%15 != -1)
+	if (%13) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label3
+	goto %goto0
+
+%if.then0: 	//predecessors %label3
+	%18 = virtual %17.substring(0, %15)
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%20 = phi {%if.else0 -> %17; %if.then0 -> %18}
+	goto %label4
+
+%label4: 	//predecessors %goto0
+	return %20
+2026-08-11 02:31:52.854 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_extractFileNameWithoutExtension_2313642012
+2026-08-11 02:31:52.854 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::deleteAllFile(java/io/File): void
+2026-08-11 02:31:52.855 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::deleteAllFile(java/io/File): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb0
+	%3 = virtual arg$0.isFile()
+	goto %bb1
+
+%bb1: 	//predecessors %if.then0
+	%5 = (%3 == false)
+	if (%5) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb1
+	%6 = virtual arg$0.delete()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else1
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb1, %bb2
+	%8 = virtual arg$0.isDirectory()
+	goto %bb3
+
+%bb3: 	//predecessors %if.then1
+	%10 = (%8 == false)
+	if (%10) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb3
+	%20 = virtual arg$0.listFiles()
+	goto %label0
+
+%label0: 	//predecessors %if.else2
+	%17 = %20.length
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %bb4, %if.then2
+	%30 = phi {%bb4 -> 0; %if.then2 -> %31}
+	%19 = (%30 >= %17)
+	if (%19) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %label1
+	%28 = %20[%30]
+	goto %label2
+
+%label2: 	//predecessors %if.else3
+	%25 = virtual %28.isFile()
+	goto %bb5
+
+%bb5: 	//predecessors %label2
+	%27 = (%25 == false)
+	if (%27) goto %if.then2 else %if.else4
+
+%if.else4: 	//predecessors %bb5
+	%29 = virtual %28.delete()
+	goto %bb6
+
+%bb6: 	//predecessors %if.else4
+	goto %if.then2
+
+%if.then2: 	//predecessors %bb5, %bb6
+	%31 = %30 + 1
+	goto %label1
+
+%if.then3: 	//predecessors %bb3, %label1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.else0, %if.then3
+	return
+2026-08-11 02:31:52.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_deleteAllFile_13560678323
+2026-08-11 02:31:52.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getAllFileSize(java/util/Set): long
+2026-08-11 02:31:52.909 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getAllFileSize(java/util/Set): long
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%8 = interface arg$0.iterator()
+	goto %bb0
+
+%bb0: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %bb0, %goto0
+	%49 = phi {%bb0 -> 0; %goto0 -> %48}
+	%5 = interface %8.hasNext()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%7 = (%5 == false)
+	if (%7) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%10 = interface %8.next()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%28 = (java/lang/String) %10
+	goto %label2
+
+%label2: 	//predecessors %bb2
+	%14 = virtual %28.startsWith("classpath:")
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%16 = (%14 == false)
+	if (%16) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%19 = virtual %28.replace("classpath:", "")
+	goto %label3
+
+%label3: 	//predecessors %if.else1
+	%21 = static ClassPathReaderUtils.getClassPathFileSize(%19)
+	goto %bb4
+
+%bb4: 	//predecessors %label3
+	%24 = (long) %21
+	%44 = %49 + %24
+	goto %label4
+
+%label4: 	//predecessors %bb4
+	goto %goto0
+
+%if.then0: 	//predecessors %bb3
+	%39 = new java/io/File
+	special %39.<init>(%28)
+	goto %label5
+
+%label5: 	//predecessors %if.then0
+	%31 = virtual %39.exists()
+	goto %bb5
+
+%bb5: 	//predecessors %label5
+	%33 = (%31 == false)
+	if (%33) goto %goto0 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%36 = virtual %39.isFile()
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	%38 = (%36 == false)
+	if (%38) goto %goto0 else %if.else3
+
+%if.else3: 	//predecessors %bb6
+	%42 = virtual %39.length()
+	goto %bb7
+
+%bb7: 	//predecessors %if.else3
+	%47 = %49 + %42
+	goto %goto0
+
+%goto0: 	//predecessors %label4, %bb5, %bb6, %bb7
+	%48 = phi {%label4 -> %44; %bb5 -> %49; %bb6 -> %49; %bb7 -> %47}
+	goto %label1
+
+%if.then1: 	//predecessors %bb1
+	return %49
+2026-08-11 02:31:52.948 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getAllFileSize_16616476004
+2026-08-11 02:31:52.948 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getClassPathFileSize(java/lang/String): int
+2026-08-11 02:31:52.949 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getClassPathFileSize(java/lang/String): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource
+	special %2.<init>(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = virtual %2.getInputStream()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%6 = virtual %4.available()
+	goto %label2
+
+%label2: 	//predecessors %label1
+	goto %label3
+
+%label3: 	//predecessors %label2
+	return %6
+
+%catch0: 	//catches from %label1, %label0, %label2, %bb0
+	%10 = catch java/io/IOException
+goto %label4
+
+%label4: 	//predecessors %catch0
+	%11 = new java/lang/RuntimeException
+	special %11.<init>(%10)
+	goto %bb1
+
+%bb1: 	//predecessors %label4
+	throw %11
+2026-08-11 02:31:52.980 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getClassPathFileSize_8838010335
+2026-08-11 02:31:52.980 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getInputStreamReader(java/lang/String): java/io/InputStreamReader
+2026-08-11 02:31:52.981 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getInputStreamReader(java/lang/String): java/io/InputStreamReader
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = new com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource
+	special %3.<init>(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%9 = new java/io/InputStreamReader
+	%7 = virtual %3.getInputStream()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%8 = StandardCharsets.UTF_8
+	special %9.<init>(%7, %8)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	goto %label2
+
+%label2: 	//predecessors %label1
+	return %9
+
+%catch0: 	//catches from %label1, %label0, %bb1, %bb0
+	%13 = catch java/io/IOException
+goto %label3
+
+%label3: 	//predecessors %catch0
+	%14 = new java/lang/RuntimeException
+	special %14.<init>(%13)
+	goto %bb2
+
+%bb2: 	//predecessors %label3
+	throw %14
+2026-08-11 02:31:53.013 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getInputStreamReader_9467120516
+2026-08-11 02:31:53.014 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getBufferedReader(java/lang/String): java/io/BufferedReader
+2026-08-11 02:31:53.014 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getBufferedReader(java/lang/String): java/io/BufferedReader
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%1 = virtual arg$0.startsWith("classpath:")
+	goto %bb0
+
+%bb0: 	//predecessors %label0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%7 = virtual arg$0.replace("classpath:", "")
+	goto %label1
+
+%label1: 	//predecessors %if.else0
+	%9 = new com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource
+	special %9.<init>(%7)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%22 = new java/io/InputStreamReader
+	%13 = virtual %9.getInputStream()
+	goto %bb1
+
+%bb1: 	//predecessors %label2
+	%14 = StandardCharsets.UTF_8
+	special %22.<init>(%13, %14)
+	goto %label3
+
+%label3: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	%23 = new java/io/InputStreamReader
+	%20 = new java/io/FileInputStream
+	special %20.<init>(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%21 = StandardCharsets.UTF_8
+	special %23.<init>(%20, %21)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %goto0
+
+%goto0: 	//predecessors %label3, %bb3
+	%27 = phi {%label3 -> %22; %bb3 -> %23}
+	%28 = new java/io/BufferedReader
+	special %28.<init>(%27)
+	goto %label4
+
+%label4: 	//predecessors %goto0
+	goto %label5
+
+%label5: 	//predecessors %label4
+	return %28
+
+%catch0: 	//catches from %bb0, %bb2, %label2, %goto0, %if.then0, %label1, %bb3, %if.else0, %bb1, %label3, %label0, %label4
+	%32 = catch java/io/IOException
+goto %label6
+
+%label6: 	//predecessors %catch0
+	%33 = new java/lang/RuntimeException
+	special %33.<init>(%32)
+	goto %bb4
+
+%bb4: 	//predecessors %label6
+	throw %33
+2026-08-11 02:31:53.045 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getBufferedReader_9848436857
+2026-08-11 02:31:53.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getContent(java/lang/String): java/lang/String
+2026-08-11 02:31:53.046 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getContent(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%25 = new java/lang/StringBuilder
+	special %25.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%5 = new com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource
+	special %5.<init>(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%13 = new java/io/InputStreamReader
+	%9 = virtual %5.getInputStream()
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%10 = StandardCharsets.UTF_8
+	special %13.<init>(%9, %10)
+	goto %label2
+
+%label2: 	//predecessors %bb2
+	%24 = new java/io/BufferedReader
+	special %24.<init>(%13)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	goto %label4
+
+%label4: 	//predecessors %label3, %bb5
+	%20 = virtual %24.readLine()
+	goto %bb3
+
+%bb3: 	//predecessors %label4
+	%18 = (%20 == null)
+	if (%18) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%22 = virtual %25.append(%20)
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%23 = virtual %22.append("
+")
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %label4
+
+%if.then0: 	//predecessors %bb3
+	virtual %24.close()
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	%27 = virtual %25.toString()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return %27
+
+%catch0: 	//catches from %label1, %label4, %bb3, %if.then0, %label0, %bb5, %label3, %bb2, %bb6, %label2, %bb4, %if.else0
+	%31 = catch java/io/IOException
+goto %label5
+
+%label5: 	//predecessors %catch0
+	%32 = new java/lang/RuntimeException
+	special %32.<init>(%31)
+	goto %bb8
+
+%bb8: 	//predecessors %label5
+	throw %32
+2026-08-11 02:31:53.076 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getContent_10968065478
+2026-08-11 02:31:53.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::main(java/lang/String[]): void
+2026-08-11 02:31:53.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils::main(java/lang/String[]): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = static ClassPathReaderUtils.getContent("./tvbox/16wMV.txt")
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%2 = System.out
+	virtual %2.println(%3)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	return
+2026-08-11 02:31:53.112 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_main_3250815869
+2026-08-11 02:31:53.145 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_init_70164459010
+2026-08-11 02:31:53.183 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getDirectoryFiles_186132662311
+2026-08-11 02:31:53.220 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_extractFileNameWithoutExtension_23136420112
+2026-08-11 02:31:53.263 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_deleteAllFile_135606783213
+2026-08-11 02:31:53.317 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getAllFileSize_166164760014
+2026-08-11 02:31:53.349 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getClassPathFileSize_88380103315
+2026-08-11 02:31:53.379 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getInputStreamReader_94671205116
+2026-08-11 02:31:53.410 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getBufferedReader_98484368517
+2026-08-11 02:31:53.439 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_getContent_109680654718
+2026-08-11 02:31:53.468 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_main_32508158619
+2026-08-11 02:31:53.469 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::<init>(): void: null
+2026-08-11 02:31:53.469 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getDirectoryFiles(java/lang/String): java/util/Map: null
+2026-08-11 02:31:53.469 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::extractFileNameWithoutExtension(java/lang/String): java/lang/String: null
+2026-08-11 02:31:53.469 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::deleteAllFile(java/io/File): void: null
+2026-08-11 02:31:53.469 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getAllFileSize(java/util/Set): long: null
+2026-08-11 02:31:53.469 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getClassPathFileSize(java/lang/String): int: null
+2026-08-11 02:31:53.470 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getInputStreamReader(java/lang/String): java/io/InputStreamReader: null
+2026-08-11 02:31:53.470 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getBufferedReader(java/lang/String): java/io/BufferedReader: null
+2026-08-11 02:31:53.470 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getContent(java/lang/String): java/lang/String: null
+2026-08-11 02:31:53.470 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::main(java/lang/String[]): void: null
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::<init>(): void processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getDirectoryFiles(java/lang/String): java/util/Map processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::extractFileNameWithoutExtension(java/lang/String): java/lang/String processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::deleteAllFile(java/io/File): void processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getAllFileSize(java/util/Set): long processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getClassPathFileSize(java/lang/String): int processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getInputStreamReader(java/lang/String): java/io/InputStreamReader processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getBufferedReader(java/lang/String): java/io/BufferedReader processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::getContent(java/lang/String): java/lang/String processing is finished normally
+2026-08-11 02:31:53.470 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils::main(java/lang/String[]): void processing is finished normally
+2026-08-11 02:31:53.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::<init>(java/lang/String): void
+2026-08-11 02:31:53.474 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%1 = virtual arg$0.startsWith("classpath:")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%5 = virtual arg$0.replace("classpath:", "")
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb2, %bb3
+	%7 = phi {%bb2 -> arg$0; %bb3 -> %5}
+	this.path = %7
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%9 = static ClassPathReaderUtils$ClassPathResource.getDefaultClassLoader()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.classLoader = %9
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return
+2026-08-11 02:31:53.502 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_ClassPathResource_init_20578253080
+2026-08-11 02:31:53.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getInputStream(): java/io/InputStream
+2026-08-11 02:31:53.503 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getInputStream(): java/io/InputStream
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.classLoader
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%6 = this.classLoader
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = this.path
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = virtual %6.getResourceAsStream(%7)
+	goto %label0
+
+%label0: 	//predecessors %bb3
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	%10 = this.path
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	%13 = static ClassLoader.getSystemResourceAsStream(%10)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %goto0
+
+%goto0: 	//predecessors %label0, %bb5
+	%25 = phi {%label0 -> %12; %bb5 -> %13}
+	%17 = (%25 != null)
+	if (%17) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %goto0
+	%24 = new java/io/FileNotFoundException
+	%20 = this.path
+	goto %bb6
+
+%bb6: 	//predecessors %if.else1
+	%23 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=" cannot be opened because it does not exist"))
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	special %24.<init>(%23)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	throw %24
+
+%if.then1: 	//predecessors %goto0
+	return %25
+2026-08-11 02:31:53.532 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_ClassPathResource_getInputStream_16907671651
+2026-08-11 02:31:53.533 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getDefaultClassLoader(): java/lang/ClassLoader
+2026-08-11 02:31:53.533 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getDefaultClassLoader(): java/lang/ClassLoader
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%1 = static Thread.currentThread()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%6 = virtual %1.getContextClassLoader()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	goto %goto0
+
+%catch0: 	//catches from %bb2, %bb1, %label0
+	%7 = phi {%bb2 -> %6; %bb1 -> null; %label0 -> null; %bb0 -> null}
+%5 = catch java/lang/Throwable
+goto %goto0
+
+%goto0: 	//predecessors %label1, %catch0
+	%22 = phi {%label1 -> %6; %catch0 -> %7}
+	%11 = (%22 != null)
+	if (%11) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %goto0
+	%23 = virtual com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource.class.getClassLoader()
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%15 = (%23 != null)
+	if (%15) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %label2
+	%24 = static ClassLoader.getSystemClassLoader()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	goto %label3
+
+%label3: 	//predecessors %bb3
+	goto %if.then0
+
+%catch1: 	//catches from %if.else1, %bb3
+	%25 = phi {%if.else1 -> %23; %bb3 -> %24; %label2 -> %23}
+%21 = catch java/lang/Throwable
+goto %if.then0
+
+%if.then0: 	//predecessors %goto0, %label2, %label3, %catch1
+	%27 = phi {%goto0 -> %22; %label2 -> %23; %label3 -> %24; %catch1 -> %25}
+	return %27
+2026-08-11 02:31:53.561 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_ClassPathResource_getDefaultClassLoader_1602132402
+2026-08-11 02:31:53.592 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_ClassPathResource_init_20578253083
+2026-08-11 02:31:53.624 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_ClassPathResource_getInputStream_16907671654
+2026-08-11 02:31:53.654 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.ClassPathReaderUtils_ClassPathResource_getDefaultClassLoader_1602132405
+2026-08-11 02:31:53.655 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::<init>(java/lang/String): void: null
+2026-08-11 02:31:53.655 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getInputStream(): java/io/InputStream: null
+2026-08-11 02:31:53.655 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getDefaultClassLoader(): java/lang/ClassLoader: null
+2026-08-11 02:31:53.655 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::<init>(java/lang/String): void processing is finished normally
+2026-08-11 02:31:53.655 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getInputStream(): java/io/InputStream processing is finished normally
+2026-08-11 02:31:53.655 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/ClassPathReaderUtils$ClassPathResource::getDefaultClassLoader(): java/lang/ClassLoader processing is finished normally
+2026-08-11 02:31:53.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/NumberUtils::<init>(): void
+2026-08-11 02:31:53.657 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/NumberUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:53.688 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.NumberUtils_init_12737414690
+2026-08-11 02:31:53.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/NumberUtils::toInt(java/lang/String, int): int
+2026-08-11 02:31:53.688 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/NumberUtils::toInt(java/lang/String, int): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = virtual arg$0.length()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%5 = (%3 != 0)
+	if (%5) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb0, %bb1
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb1
+	%8 = static Integer.parseInt(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %if.then1
+	goto %bb.return0
+
+%catch0: 	//catches from %if.then1
+	%7 = catch java/lang/NumberFormatException
+goto %label0
+
+%label0: 	//predecessors %catch0
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %bb2, %label0
+	%retval1 = phi {%if.then0 -> arg$1; %bb2 -> %8; %label0 -> arg$1}
+	return %retval1
+2026-08-11 02:31:53.718 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.NumberUtils_toInt_20200938661
+2026-08-11 02:31:53.747 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.NumberUtils_init_12737414692
+2026-08-11 02:31:53.778 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.NumberUtils_toInt_20200938663
+2026-08-11 02:31:53.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/NumberUtils::<init>(): void: null
+2026-08-11 02:31:53.778 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/NumberUtils::toInt(java/lang/String, int): int: null
+2026-08-11 02:31:53.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/NumberUtils::<init>(): void processing is finished normally
+2026-08-11 02:31:53.778 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/NumberUtils::toInt(java/lang/String, int): int processing is finished normally
+2026-08-11 02:31:53.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::<init>(): void
+2026-08-11 02:31:53.785 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:53.812 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_init_20465618350
+2026-08-11 02:31:53.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::isNotEmpty(java/lang/CharSequence): bool
+2026-08-11 02:31:53.813 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::isNotEmpty(java/lang/CharSequence): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static StringUtils.isEmpty(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %5
+2026-08-11 02:31:53.842 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_isNotEmpty_20004631041
+2026-08-11 02:31:53.843 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::isEmpty(java/lang/CharSequence): bool
+2026-08-11 02:31:53.843 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::isEmpty(java/lang/CharSequence): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = interface arg$0.length()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%5 = (%3 != 0)
+	if (%5) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb0, %bb1
+	goto %goto0
+
+%if.then1: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.then0, %if.then1
+	%7 = phi {%if.then0 -> 1; %if.then1 -> 0}
+	return %7
+2026-08-11 02:31:53.874 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_isEmpty_7768627192
+2026-08-11 02:31:53.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::defaultIfEmpty(java/lang/String, java/lang/String): java/lang/String
+2026-08-11 02:31:53.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::defaultIfEmpty(java/lang/String, java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static StringUtils.isNotEmpty(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> arg$0; %if.then0 -> arg$1}
+	return %5
+2026-08-11 02:31:53.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_defaultIfEmpty_13341516233
+2026-08-11 02:31:53.908 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::trimToEmpty(java/lang/String): java/lang/String
+2026-08-11 02:31:53.909 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::trimToEmpty(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	%3 = virtual arg$0.trim()
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> ""; %if.then0 -> %3}
+	return %5
+2026-08-11 02:31:53.938 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_trimToEmpty_18908047274
+2026-08-11 02:31:53.939 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::reverseSplit(java/lang/String, java/lang/String, int): java/util/List
+2026-08-11 02:31:53.939 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::reverseSplit(java/lang/String, java/lang/String, int): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%41 = new java/util/ArrayList
+	special %41.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = (arg$0 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%5 = (arg$1 == null)
+	if (%5) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %if.else0
+	%7 = (arg$2 > 0)
+	if (%7) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %label0, %if.else0, %if.else1
+	goto %bb.return0
+
+%if.then1: 	//predecessors %if.else1
+	%13 = virtual arg$0.lastIndexOf(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %if.then1
+	goto %label1
+
+%label1: 	//predecessors %bb1, %label3
+	%39 = phi {%bb1 -> arg$0; %label3 -> %34}
+	%36 = phi {%bb1 -> arg$2; %label3 -> %37}
+	%32 = phi {%bb1 -> %13; %label3 -> %35}
+	%18 = (%36 <= 1)
+	if (%18) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %label1
+	%21 = (%32 == -1)
+	if (%21) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %if.else2
+	%24 = virtual arg$1.length()
+	goto %bb2
+
+%bb2: 	//predecessors %if.else3
+	%27 = %32 + %24
+	%30 = virtual %39.substring(%27)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	interface %41.add(0, %30)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%34 = virtual %39.substring(0, %32)
+	goto %label2
+
+%label2: 	//predecessors %bb4
+	%35 = virtual %34.lastIndexOf(arg$1)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%37 = %36 + -1
+	goto %label1
+
+%if.then2: 	//predecessors %label1, %if.else2
+	interface %41.add(0, %39)
+	goto %bb5
+
+%bb5: 	//predecessors %if.then2
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %bb5
+	%retval1 = phi {%if.then0 -> %41; %bb5 -> %41}
+	%retval.casted1 = (java/util/List) %retval1
+	return %retval.casted1
+2026-08-11 02:31:53.967 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_reverseSplit_10989637475
+2026-08-11 02:31:53.968 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/StringUtils::cleanString(java/lang/String): java/lang/String
+2026-08-11 02:31:53.969 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/StringUtils::cleanString(java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.contains("ç")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%5 = virtual arg$0.contains("å")
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%7 = (%5 != false)
+	if (%7) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	goto %label1
+
+%label1: 	//predecessors %if.else1
+	%9 = virtual arg$0.contains("ğ")
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%11 = (%9 != false)
+	if (%11) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb3
+	goto %label2
+
+%label2: 	//predecessors %if.else2
+	%13 = virtual arg$0.contains("è")
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%15 = (%13 != false)
+	if (%15) goto %if.then0 else %if.else3
+
+%if.else3: 	//predecessors %bb4
+	goto %label3
+
+%label3: 	//predecessors %if.else3
+	%17 = virtual arg$0.contains("â")
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%19 = (%17 != false)
+	if (%19) goto %if.then0 else %if.else4
+
+%if.else4: 	//predecessors %bb5
+	goto %label4
+
+%label4: 	//predecessors %if.else4
+	%21 = virtual arg$0.contains("Š")
+	goto %bb6
+
+%bb6: 	//predecessors %label4
+	%23 = (%21 != false)
+	if (%23) goto %if.then0 else %if.else5
+
+%if.else5: 	//predecessors %bb6
+	goto %label5
+
+%label5: 	//predecessors %if.else5
+	%25 = virtual arg$0.contains("ã")
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%27 = (%25 != false)
+	if (%27) goto %if.then0 else %if.else6
+
+%if.else6: 	//predecessors %bb7
+	goto %label6
+
+%label6: 	//predecessors %if.else6
+	%29 = virtual arg$0.contains("é")
+	goto %bb8
+
+%bb8: 	//predecessors %label6
+	%31 = (%29 != false)
+	if (%31) goto %if.then0 else %if.else7
+
+%if.else7: 	//predecessors %bb8
+	goto %label7
+
+%label7: 	//predecessors %if.else7
+	%33 = virtual arg$0.contains("æ")
+	goto %bb9
+
+%bb9: 	//predecessors %label7
+	%35 = (%33 != false)
+	if (%35) goto %if.then0 else %if.else8
+
+%if.else8: 	//predecessors %bb9
+	goto %label8
+
+%label8: 	//predecessors %if.else8
+	%37 = virtual arg$0.contains("§")
+	goto %bb10
+
+%bb10: 	//predecessors %label8
+	%39 = (%37 != false)
+	if (%39) goto %if.then0 else %if.else9
+
+%if.else9: 	//predecessors %bb10
+	goto %label9
+
+%label9: 	//predecessors %if.else9
+	%41 = virtual arg$0.contains("ï")
+	goto %bb11
+
+%bb11: 	//predecessors %label9
+	%43 = (%41 == false)
+	if (%43) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb1, %bb2, %bb3, %bb4, %bb5, %bb6, %bb7, %bb8, %bb9, %bb10, %bb11
+	%52 = new java/lang/String
+	%46 = StandardCharsets.ISO_8859_1
+	%50 = virtual arg$0.getBytes(%46)
+	goto %bb12
+
+%bb12: 	//predecessors %if.then0
+	%51 = StandardCharsets.UTF_8
+	special %52.<init>(%50, %51)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb11, %bb13
+	%54 = phi {%bb11 -> arg$0; %bb13 -> %52}
+	goto %label10
+
+%label10: 	//predecessors %if.then1
+	%56 = virtual %54.replace(65288, 32)
+	goto %label11
+
+%label11: 	//predecessors %label10
+	%58 = virtual %56.replace(65289, 32)
+	goto %label12
+
+%label12: 	//predecessors %label11
+	%60 = virtual %58.replace(40, 32)
+	goto %label13
+
+%label13: 	//predecessors %label12
+	%62 = virtual %60.replace(41, 32)
+	goto %label14
+
+%label14: 	//predecessors %label13
+	%64 = virtual %62.replace(47, 32)
+	goto %label15
+
+%label15: 	//predecessors %label14
+	%66 = virtual %64.replace(91, 32)
+	goto %label16
+
+%label16: 	//predecessors %label15
+	%68 = virtual %66.replace(93, 32)
+	goto %bb14
+
+%bb14: 	//predecessors %label16
+	%70 = virtual %68.trim()
+	goto %label17
+
+%label17: 	//predecessors %bb14
+	return %70
+2026-08-11 02:31:54.000 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_cleanString_3614853456
+2026-08-11 02:31:54.031 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_init_20465618357
+2026-08-11 02:31:54.060 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_isNotEmpty_20004631048
+2026-08-11 02:31:54.094 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_isEmpty_7768627199
+2026-08-11 02:31:54.136 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_defaultIfEmpty_133415162310
+2026-08-11 02:31:54.170 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_trimToEmpty_189080472711
+2026-08-11 02:31:54.198 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_reverseSplit_109896374712
+2026-08-11 02:31:54.226 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.StringUtils_cleanString_36148534513
+2026-08-11 02:31:54.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::<init>(): void: null
+2026-08-11 02:31:54.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::isNotEmpty(java/lang/CharSequence): bool: null
+2026-08-11 02:31:54.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::isEmpty(java/lang/CharSequence): bool: null
+2026-08-11 02:31:54.226 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::defaultIfEmpty(java/lang/String, java/lang/String): java/lang/String: null
+2026-08-11 02:31:54.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::trimToEmpty(java/lang/String): java/lang/String: null
+2026-08-11 02:31:54.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::reverseSplit(java/lang/String, java/lang/String, int): java/util/List: null
+2026-08-11 02:31:54.227 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/StringUtils::cleanString(java/lang/String): java/lang/String: null
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::<init>(): void processing is finished normally
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::isNotEmpty(java/lang/CharSequence): bool processing is finished normally
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::isEmpty(java/lang/CharSequence): bool processing is finished normally
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::defaultIfEmpty(java/lang/String, java/lang/String): java/lang/String processing is finished normally
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::trimToEmpty(java/lang/String): java/lang/String processing is finished normally
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::reverseSplit(java/lang/String, java/lang/String, int): java/util/List processing is finished normally
+2026-08-11 02:31:54.227 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/StringUtils::cleanString(java/lang/String): java/lang/String processing is finished normally
+2026-08-11 02:31:54.228 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/CollectionUtils::<init>(): void
+2026-08-11 02:31:54.229 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/CollectionUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 02:31:54.256 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.CollectionUtils_init_19557754960
+2026-08-11 02:31:54.257 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/CollectionUtils::isEmpty(java/util/Collection): bool
+2026-08-11 02:31:54.257 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/CollectionUtils::isEmpty(java/util/Collection): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$0 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = interface arg$0.isEmpty()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%5 = (%3 == false)
+	if (%5) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb0, %bb1
+	goto %goto0
+
+%if.then1: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.then0, %if.then1
+	%7 = phi {%if.then0 -> 1; %if.then1 -> 0}
+	return %7
+2026-08-11 02:31:54.259 [DEBUG][org.vorpal.research.kex.trace.runner.RandomRunnerKt] - Cannot invoke public static boolean com.leosam.tvbox.mv.utils.CollectionUtils.isEmpty(java.util.Collection)
+2026-08-11 02:31:54.259 [DEBUG][org.vorpal.research.kex.trace.runner.RandomRunnerKt] - Cause: Unable to next a random instance of type java.util.Collection<?>
+2026-08-11 02:31:54.286 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.CollectionUtils_isEmpty_16865064071
+2026-08-11 02:31:54.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/leosam/tvbox/mv/utils/CollectionUtils::isNotEmpty(java/util/Collection): bool
+2026-08-11 02:31:54.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/leosam/tvbox/mv/utils/CollectionUtils::isNotEmpty(java/util/Collection): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static CollectionUtils.isEmpty(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> 1; %if.then0 -> 0}
+	return %5
+2026-08-11 02:31:54.289 [DEBUG][org.vorpal.research.kex.trace.runner.RandomRunnerKt] - Cannot invoke public static boolean com.leosam.tvbox.mv.utils.CollectionUtils.isNotEmpty(java.util.Collection)
+2026-08-11 02:31:54.289 [DEBUG][org.vorpal.research.kex.trace.runner.RandomRunnerKt] - Cause: Unable to next a random instance of type java.util.Collection<?>
+2026-08-11 02:31:54.315 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.CollectionUtils_isNotEmpty_1688649342
+2026-08-11 02:31:54.342 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.leosam.tvbox.mv.utils.CollectionUtils_init_19557754963
+2026-08-11 02:31:54.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/CollectionUtils::isEmpty(java/util/Collection): bool: null
+2026-08-11 02:31:54.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/CollectionUtils::isNotEmpty(java/util/Collection): bool: null
+2026-08-11 02:31:54.343 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/leosam/tvbox/mv/utils/CollectionUtils::<init>(): void: null
+2026-08-11 02:31:54.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/CollectionUtils::isEmpty(java/util/Collection): bool processing is finished normally
+2026-08-11 02:31:54.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/CollectionUtils::isNotEmpty(java/util/Collection): bool processing is finished normally
+2026-08-11 02:31:54.343 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/leosam/tvbox/mv/utils/CollectionUtils::<init>(): void processing is finished normally
+2026-08-11 02:31:54.344 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 02:31:54.344 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

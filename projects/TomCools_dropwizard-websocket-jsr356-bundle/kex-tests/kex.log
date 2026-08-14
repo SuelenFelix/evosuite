@@ -1,0 +1,246 @@
+2026-08-11 09:50:20.451 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/TomCools_dropwizard-websocket-jsr356-bundle/target/classes
+2026-08-11 09:50:20.550 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 09:50:20.635 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 09:50:21.644 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 09:50:22.189 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package be/tomcools/dropwizard/websocket/registration/endpointtypes/*
+2026-08-11 09:50:22.190 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 09:50:22.209 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/TomCools_dropwizard-websocket-jsr356-bundle/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 09:50:22.239 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/TomCools_dropwizard-websocket-jsr356-bundle/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 36025 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/TomCools_dropwizard-websocket-jsr356-bundle/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 09:50:22.253 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 09:52:02.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::<init>(jakarta/websocket/server/ServerEndpointConfig): void
+2026-08-11 09:52:02.281 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::<init>(jakarta/websocket/server/ServerEndpointConfig): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%3 = interface arg$0.getEndpointClass()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = EndpointType.JAVA_PROGRAMMATIC_ENDPOINT
+	%5 = interface arg$0.getPath()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	special this.<init>(%3, %4, %5)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.config = arg$0
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 09:52:02.285 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: jakarta.websocket.server.ServerEndpointConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:101)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 09:52:02.286 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: jakarta.websocket.server.ServerEndpointConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getConstructor(reflection.kt:234)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:109)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-11 09:52:02.286 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::<init>(jakarta/websocket/server/ServerEndpointConfig): void: null
+2026-08-11 09:52:02.286 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::getConfig(): jakarta/websocket/server/ServerEndpointConfig
+2026-08-11 09:52:02.286 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::getConfig(): jakarta/websocket/server/ServerEndpointConfig
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.config
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-11 09:52:02.287 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::getConfig(): jakarta/websocket/server/ServerEndpointConfig
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: jakarta/websocket/server/ServerEndpointConfig
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.websocket.server.ServerEndpointConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 09:52:02.287 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::getConfig(): jakarta/websocket/server/ServerEndpointConfig
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: jakarta/websocket/server/ServerEndpointConfig
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: jakarta.websocket.server.ServerEndpointConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-11 09:52:02.287 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::getConfig(): jakarta/websocket/server/ServerEndpointConfig: null
+2026-08-11 09:52:02.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::<init>(jakarta/websocket/server/ServerEndpointConfig): void processing is finished normally
+2026-08-11 09:52:02.287 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointProgrammaticJava::getConfig(): jakarta/websocket/server/ServerEndpointConfig processing is finished normally
+2026-08-11 09:52:02.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointAnnotatedJava::<init>(java/lang/Class, java/lang/String): void
+2026-08-11 09:52:02.289 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointAnnotatedJava::<init>(java/lang/Class, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = EndpointType.JAVA_ANNOTATED_ENDPOINT
+	special this.<init>(arg$0, %1, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 09:52:02.848 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointAnnotatedJava_init_2325227060
+2026-08-11 09:52:03.002 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointAnnotatedJava_init_2325227061
+2026-08-11 09:52:03.003 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointAnnotatedJava::<init>(java/lang/Class, java/lang/String): void: null
+2026-08-11 09:52:03.003 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointAnnotatedJava::<init>(java/lang/Class, java/lang/String): void processing is finished normally
+2026-08-11 09:52:03.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::values(): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType[]
+2026-08-11 09:52:03.007 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::values(): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType[]
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = EndpointType.$VALUES
+	%3 = virtual %1.clone()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = (be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType[]) %3
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-11 09:52:03.098 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointType_values_16830168330
+2026-08-11 09:52:03.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::valueOf(java/lang/String): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType
+2026-08-11 09:52:03.099 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::valueOf(java/lang/String): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static Enum.valueOf(be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType.class, arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType) %1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-11 09:52:03.178 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointType_valueOf_21199200601
+2026-08-11 09:52:03.179 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::<init>(java/lang/String, int): void
+2026-08-11 09:52:03.179 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::<init>(java/lang/String, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-11 09:52:03.248 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointType_init_3758084602
+2026-08-11 09:52:03.348 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointType_values_16830168333
+2026-08-11 09:52:03.411 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointType_valueOf_21199200604
+2026-08-11 09:52:03.479 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test be.tomcools.dropwizard.websocket.registration.endpointtypes.EndpointType_init_3758084605
+2026-08-11 09:52:03.480 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::values(): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType[]: null
+2026-08-11 09:52:03.480 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::valueOf(java/lang/String): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType: null
+2026-08-11 09:52:03.480 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::values(): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType[] processing is finished normally
+2026-08-11 09:52:03.480 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::<init>(java/lang/String, int): void: null
+2026-08-11 09:52:03.480 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::valueOf(java/lang/String): be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType processing is finished normally
+2026-08-11 09:52:03.480 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method be/tomcools/dropwizard/websocket/registration/endpointtypes/EndpointType::<init>(java/lang/String, int): void processing is finished normally
+2026-08-11 09:52:03.481 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 09:52:03.481 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

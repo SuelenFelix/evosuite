@@ -1,0 +1,2200 @@
+2026-08-12 07:48:14.633 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/schambon_SimRunner/target/classes
+2026-08-12 07:48:14.788 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 07:48:14.842 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 07:48:15.609 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 07:48:16.085 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package org/schambon/loadsimrunner/template/*
+2026-08-12 07:48:16.086 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 07:48:16.104 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/schambon_SimRunner/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 07:48:16.132 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/schambon_SimRunner/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 45671 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/schambon_SimRunner/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 07:48:16.145 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 07:49:56.225 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::<init>(): void
+2026-08-12 07:49:56.226 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 07:49:56.908 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberUtil_init_598035100
+2026-08-12 07:49:56.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::parseRememberFields(java/util/List): java/util/List
+2026-08-12 07:49:56.916 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::parseRememberFields(java/util/List): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = interface arg$0.stream()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): org/schambon/loadsimrunner/template/RememberField)), HandleBsmArgument(handle=@org/schambon/loadsimrunner/template/RememberUtil::lambda$parseRememberFields$0(java/lang/Object): org/schambon/loadsimrunner/template/RememberField), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%6 = interface %2.map(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = static Collectors.toList()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = interface %6.collect(%7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%11 = (java/util/List) %9
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return %11
+2026-08-12 07:49:56.918 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/RememberUtil::parseRememberFields(java/util/List): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:56.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/RememberUtil::parseRememberFields(java/util/List): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:56.919 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::parseRememberFields(java/util/List): java/util/List: null
+2026-08-12 07:49:56.919 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::recurseUnwind(java/lang/Object): java/util/List
+2026-08-12 07:49:56.920 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::recurseUnwind(java/lang/Object): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = arg$0 instanceOf java/util/List
+	%3 = (%1 == false)
+	if (%3) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%7 = (java/util/List) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.else0
+	%22 = new java/util/ArrayList
+	special %22.<init>()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%14 = interface %7.iterator()
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	goto %label2
+
+%label2: 	//predecessors %bb1, %label4
+	%11 = interface %14.hasNext()
+	goto %bb2
+
+%bb2: 	//predecessors %label2
+	%13 = (%11 == false)
+	if (%13) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%16 = interface %14.next()
+	goto %label3
+
+%label3: 	//predecessors %if.else1
+	%19 = static RememberUtil.recurseUnwind(%16)
+	goto %bb3
+
+%bb3: 	//predecessors %label3
+	%20 = virtual %22.addAll(%19)
+	goto %label4
+
+%label4: 	//predecessors %bb3
+	goto %label2
+
+%if.then0: 	//predecessors %bb2
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb0
+	%23 = static Collections.singletonList(arg$0)
+	goto %bb4
+
+%bb4: 	//predecessors %if.then1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %bb4
+	%retval1 = phi {%if.then0 -> %22; %bb4 -> %23}
+	return %retval1
+2026-08-12 07:49:56.921 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/RememberUtil::recurseUnwind(java/lang/Object): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:56.921 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/RememberUtil::recurseUnwind(java/lang/Object): java/util/List
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:56.921 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::recurseUnwind(java/lang/Object): java/util/List: null
+2026-08-12 07:49:56.921 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::cartesian(org/bson/Document): java/util/List
+2026-08-12 07:49:56.921 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::cartesian(org/bson/Document): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%31 = new java/util/ArrayList
+	special %31.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = virtual arg$0.keySet()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = virtual %31.addAll(%4)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%10 = static RememberUtil._internalCartesian(arg$0, %31)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%48 = new java/util/ArrayList
+	special %48.<init>()
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%17 = interface %10.iterator()
+	goto %bb2
+
+%bb2: 	//predecessors %label3
+	goto %label4
+
+%label4: 	//predecessors %bb2, %label9
+	%14 = interface %17.hasNext()
+	goto %bb3
+
+%bb3: 	//predecessors %label4
+	%16 = (%14 == false)
+	if (%16) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%19 = interface %17.next()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%36 = (java/util/List) %19
+	goto %label5
+
+%label5: 	//predecessors %bb4
+	%46 = new org/bson/Document
+	special %46.<init>()
+	goto %label6
+
+%label6: 	//predecessors %label5
+	goto %label7
+
+%label7: 	//predecessors %label6, %label8
+	%43 = phi {%label6 -> 0; %label8 -> %44}
+	%28 = virtual %31.size()
+	goto %bb5
+
+%bb5: 	//predecessors %label7
+	%30 = (%43 >= %28)
+	if (%30) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb5
+	%34 = virtual %31.get(%43)
+	goto %bb6
+
+%bb6: 	//predecessors %if.else1
+	%40 = (java/lang/String) %34
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%41 = interface %36.get(%43)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%42 = virtual %46.append(%40, %41)
+	goto %label8
+
+%label8: 	//predecessors %bb8
+	%44 = %43 + 1
+	goto %label7
+
+%if.then0: 	//predecessors %bb5
+	%47 = virtual %48.add(%46)
+	goto %label9
+
+%label9: 	//predecessors %if.then0
+	goto %label4
+
+%if.then1: 	//predecessors %bb3
+	return %48
+2026-08-12 07:49:56.922 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.922 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.922 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::cartesian(org/bson/Document): java/util/List: null
+2026-08-12 07:49:56.922 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::_internalCartesian(org/bson/Document, java/util/List): java/util/List
+2026-08-12 07:49:56.922 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::_internalCartesian(org/bson/Document, java/util/List): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = interface arg$1.get(0)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%6 = (java/lang/String) %1
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%4 = interface arg$1.size()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%27 = interface arg$1.subList(1, %4)
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%29 = virtual arg$0.getList(%6, java/lang/Object.class)
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%10 = interface %27.size()
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	%12 = (%10 != 0)
+	if (%12) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%16 = interface %29.stream()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%17 = invokeDynamic (): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/util/List)), HandleBsmArgument(handle=@org/schambon/loadsimrunner/template/RememberUtil::lambda$_internalCartesian$1(java/lang/Object): java/util/List), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%20 = interface %16.map(%17)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%21 = static Collectors.toList()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%23 = interface %20.collect(%21)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%60 = (java/util/List) %23
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb3
+	%61 = new java/util/ArrayList
+	special %61.<init>()
+	goto %label3
+
+%label3: 	//predecessors %if.then0
+	%38 = static RememberUtil._internalCartesian(arg$0, %27)
+	goto %label4
+
+%label4: 	//predecessors %label3
+	%36 = interface %29.iterator()
+	goto %bb10
+
+%bb10: 	//predecessors %label4
+	goto %label5
+
+%label5: 	//predecessors %bb10, %if.then1
+	%33 = interface %36.hasNext()
+	goto %bb11
+
+%bb11: 	//predecessors %label5
+	%35 = (%33 == false)
+	if (%35) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb11
+	%52 = interface %36.next()
+	goto %label6
+
+%label6: 	//predecessors %if.else1
+	%45 = interface %38.iterator()
+	goto %bb12
+
+%bb12: 	//predecessors %label6
+	goto %label7
+
+%label7: 	//predecessors %bb12, %label12
+	%42 = interface %45.hasNext()
+	goto %bb13
+
+%bb13: 	//predecessors %label7
+	%44 = (%42 == false)
+	if (%44) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb13
+	%47 = interface %45.next()
+	goto %bb14
+
+%bb14: 	//predecessors %if.else2
+	%55 = (java/util/List) %47
+	goto %label8
+
+%label8: 	//predecessors %bb14
+	%58 = new java/util/ArrayList
+	special %58.<init>()
+	goto %label9
+
+%label9: 	//predecessors %label8
+	%53 = virtual %58.add(%52)
+	goto %label10
+
+%label10: 	//predecessors %label9
+	%56 = virtual %58.addAll(%55)
+	goto %label11
+
+%label11: 	//predecessors %label10
+	%59 = virtual %61.add(%58)
+	goto %label12
+
+%label12: 	//predecessors %label11
+	goto %label7
+
+%if.then1: 	//predecessors %bb13
+	goto %label5
+
+%if.then2: 	//predecessors %bb11
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb9, %if.then2
+	%retval1 = phi {%bb9 -> %60; %if.then2 -> %61}
+	return %retval1
+2026-08-12 07:49:56.922 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.923 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.923 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::_internalCartesian(org/bson/Document, java/util/List): java/util/List: null
+2026-08-12 07:49:56.923 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::extractRememberedValues(org/bson/Document, org/schambon/loadsimrunner/template/RememberField): java/util/List
+2026-08-12 07:49:56.924 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::extractRememberedValues(org/bson/Document, org/schambon/loadsimrunner/template/RememberField): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$1.isSimple()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%5 = arg$1.field
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%7 = virtual %5.contains(".")
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%9 = (%7 == false)
+	if (%9) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%11 = arg$1.field
+	goto %bb4
+
+%bb4: 	//predecessors %if.else1
+	%13 = virtual %11.split("\.")
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%15 = static Arrays.asList(%13)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%17 = static TemplateUtil.subdescend(arg$0, %15)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%72 = static RememberUtil.recurseUnwind(%17)
+	goto %label0
+
+%label0: 	//predecessors %bb7
+	goto %goto1
+
+%if.then0: 	//predecessors %bb3
+	%20 = arg$1.field
+	goto %bb8
+
+%bb8: 	//predecessors %if.then0
+	%22 = virtual arg$0.get(%20)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%73 = static RememberUtil.recurseUnwind(%22)
+	goto %label1
+
+%label1: 	//predecessors %bb9
+	goto %goto1
+
+%if.then1: 	//predecessors %bb1
+	%70 = new org/bson/Document
+	special %70.<init>()
+	goto %label2
+
+%label2: 	//predecessors %if.then1
+	%27 = arg$1.compound
+	goto %bb10
+
+%bb10: 	//predecessors %label2
+	%34 = interface %27.iterator()
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	goto %label3
+
+%label3: 	//predecessors %bb11, %goto0
+	%31 = interface %34.hasNext()
+	goto %bb12
+
+%bb12: 	//predecessors %label3
+	%33 = (%31 == false)
+	if (%33) goto %if.then3 else %if.else2
+
+%if.else2: 	//predecessors %bb12
+	%36 = interface %34.next()
+	goto %bb13
+
+%bb13: 	//predecessors %if.else2
+	%69 = (java/lang/String) %36
+	goto %label4
+
+%label4: 	//predecessors %bb13
+	%40 = virtual %69.split("\.")
+	goto %bb14
+
+%bb14: 	//predecessors %label4
+	%42 = static Arrays.asList(%40)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%44 = static TemplateUtil.subdescend(arg$0, %42)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	%46 = static RememberUtil.recurseUnwind(%44)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%49 = interface %46.stream()
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	%50 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)), HandleBsmArgument(handle=@org/schambon/loadsimrunner/template/RememberUtil::lambda$extractRememberedValues$2(java/lang/Object): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb19
+
+%bb19: 	//predecessors %bb18
+	%53 = interface %49.filter(%50)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%54 = static Collectors.toList()
+	goto %bb21
+
+%bb21: 	//predecessors %bb20
+	%56 = interface %53.collect(%54)
+	goto %bb22
+
+%bb22: 	//predecessors %bb21
+	%65 = (java/util/List) %56
+	goto %label5
+
+%label5: 	//predecessors %bb22
+	%60 = (%65 == null)
+	if (%60) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %label5
+	%64 = virtual %69.replace(46, 95)
+	goto %bb23
+
+%bb23: 	//predecessors %if.else3
+	%66 = virtual %70.append(%64, %65)
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	goto %goto0
+
+%if.then2: 	//predecessors %label5
+	%68 = RememberUtil.LOGGER
+	interface %68.debug("Key {} not found in document for extraction; skipping", %69)
+	goto %goto0
+
+%goto0: 	//predecessors %bb24, %if.then2
+	goto %label3
+
+%if.then3: 	//predecessors %bb12
+	%74 = static RememberUtil.cartesian(%70)
+	goto %bb25
+
+%bb25: 	//predecessors %if.then3
+	goto %goto1
+
+%goto1: 	//predecessors %label0, %label1, %bb25
+	%87 = phi {%label0 -> %72; %label1 -> %73; %bb25 -> %74}
+	%77 = RememberUtil.LOGGER
+	%79 = interface %77.isDebugEnabled()
+	goto %bb26
+
+%bb26: 	//predecessors %goto1
+	%81 = (%79 == false)
+	if (%81) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb26
+	%84 = RememberUtil.LOGGER
+	%85 = virtual arg$1.getDescription()
+	goto %bb27
+
+%bb27: 	//predecessors %if.else4
+	interface %84.debug("Extracted values for {}: {}", %85, %87)
+	goto %if.then4
+
+%if.then4: 	//predecessors %bb26, %bb27
+	%90 = interface %87.stream()
+	goto %bb28
+
+%bb28: 	//predecessors %if.then4
+	%91 = invokeDynamic (): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)), HandleBsmArgument(handle=@org/schambon/loadsimrunner/template/RememberUtil::lambda$extractRememberedValues$3(java/lang/Object): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb29
+
+%bb29: 	//predecessors %bb28
+	%94 = interface %90.filter(%91)
+	goto %bb30
+
+%bb30: 	//predecessors %bb29
+	%95 = static Collectors.toList()
+	goto %bb31
+
+%bb31: 	//predecessors %bb30
+	%97 = interface %94.collect(%95)
+	goto %bb32
+
+%bb32: 	//predecessors %bb31
+	%99 = (java/util/List) %97
+	goto %bb33
+
+%bb33: 	//predecessors %bb32
+	return %99
+2026-08-12 07:49:56.924 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.924 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.924 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::extractRememberedValues(org/bson/Document, org/schambon/loadsimrunner/template/RememberField): java/util/List: null
+2026-08-12 07:49:56.925 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::preloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List
+2026-08-12 07:49:56.925 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::preloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$0.isSimple()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 != false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%95 = static RememberUtil._slowPreloadValues(arg$0, arg$1)
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%42 = new java/util/ArrayList
+	special %42.<init>()
+	goto %label0
+
+%label0: 	//predecessors %if.then0
+	%20 = new org/bson/Document
+	%18 = new org/bson/Document
+	%13 = new java/lang/Object[1]
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%12 = arg$0.field
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%13[0] = %12
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%16 = static String.format("$%s", %13)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	special %18.<init>("_id", %16)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	special %20.<init>("$group", %18)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%21 = virtual %42.add(%20)
+	goto %label1
+
+%label1: 	//predecessors %bb8
+	%29 = new org/bson/Document
+	%24 = arg$0.number
+	goto %bb9
+
+%bb9: 	//predecessors %label1
+	%27 = static Integer.valueOf(%24)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	special %29.<init>("$limit", %27)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%30 = virtual %42.add(%29)
+	goto %label2
+
+%label2: 	//predecessors %bb11
+	%32 = RememberUtil.LOGGER
+	%34 = interface %32.isDebugEnabled()
+	goto %bb12
+
+%bb12: 	//predecessors %label2
+	%36 = (%34 == false)
+	if (%36) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb12
+	%38 = RememberUtil.LOGGER
+	interface %38.debug("Preload pipeline is {}", %42)
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb12, %if.else1
+	%96 = new java/util/ArrayList
+	special %96.<init>()
+	goto %label3
+
+%label3: 	//predecessors %if.then1
+	%45 = interface arg$1.aggregate(%42)
+	goto %bb13
+
+%bb13: 	//predecessors %label3
+	%46 = static Boolean.valueOf(1)
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%48 = interface %45.allowDiskUse(%46)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%55 = interface %48.iterator()
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	goto %label4
+
+%label4: 	//predecessors %bb16, %label6
+	%52 = interface %55.hasNext()
+	goto %bb17
+
+%bb17: 	//predecessors %label4
+	%54 = (%52 == false)
+	if (%54) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb17
+	%57 = interface %55.next()
+	goto %bb18
+
+%bb18: 	//predecessors %if.else2
+	%59 = (org/bson/Document) %57
+	goto %label5
+
+%label5: 	//predecessors %bb18
+	%61 = virtual %59.get("_id")
+	goto %bb19
+
+%bb19: 	//predecessors %label5
+	%64 = static RememberUtil.recurseUnwind(%61)
+	goto %bb20
+
+%bb20: 	//predecessors %bb19
+	%65 = virtual %96.addAll(%64)
+	goto %label6
+
+%label6: 	//predecessors %bb20
+	goto %label4
+
+%if.then2: 	//predecessors %bb17
+	%67 = RememberUtil.LOGGER
+	%69 = interface %67.isDebugEnabled()
+	goto %bb21
+
+%bb21: 	//predecessors %if.then2
+	%71 = (%69 == false)
+	if (%71) goto %if.then4 else %if.else3
+
+%if.else3: 	//predecessors %bb21
+	%74 = RememberUtil.LOGGER
+	%75 = arg$0.name
+	goto %bb22
+
+%bb22: 	//predecessors %if.else3
+	interface %74.debug("Preloaded values for {}:", %75)
+	goto %bb23
+
+%bb23: 	//predecessors %bb22
+	%83 = virtual %96.iterator()
+	goto %bb24
+
+%bb24: 	//predecessors %bb23
+	goto %label7
+
+%label7: 	//predecessors %bb24, %bb27
+	%80 = interface %83.hasNext()
+	goto %bb25
+
+%bb25: 	//predecessors %label7
+	%82 = (%80 == false)
+	if (%82) goto %if.then4 else %if.else4
+
+%if.else4: 	//predecessors %bb25
+	%89 = interface %83.next()
+	goto %label8
+
+%label8: 	//predecessors %if.else4
+	%93 = RememberUtil.LOGGER
+	%88 = (%89 == null)
+	if (%88) goto %if.then3 else %if.else5
+
+%if.else5: 	//predecessors %label8
+	%91 = virtual %89.toString()
+	goto %bb26
+
+%bb26: 	//predecessors %if.else5
+	goto %goto0
+
+%if.then3: 	//predecessors %label8
+	goto %goto0
+
+%goto0: 	//predecessors %bb26, %if.then3
+	%94 = phi {%bb26 -> %91; %if.then3 -> "null"}
+	interface %93.debug("-- {}", %94)
+	goto %bb27
+
+%bb27: 	//predecessors %goto0
+	goto %label7
+
+%if.then4: 	//predecessors %bb21, %bb25
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb2, %if.then4
+	%retval1 = phi {%bb2 -> %95; %if.then4 -> %96}
+	return %retval1
+2026-08-12 07:49:56.925 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com.mongodb.client.MongoCollection
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com.mongodb.client.MongoCollection
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::preloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List: null
+2026-08-12 07:49:56.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberUtil::_slowPreloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List
+2026-08-12 07:49:56.926 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberUtil::_slowPreloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%49 = new java/util/ArrayList
+	special %49.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%25 = new org/bson/Document
+	%5 = static Integer.valueOf(0)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	special %25.<init>("_id", %5)
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%7 = arg$0.compound
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%14 = interface %7.iterator()
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %label2
+
+%label2: 	//predecessors %bb3, %label4
+	%11 = interface %14.hasNext()
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%13 = (%11 == false)
+	if (%13) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	%16 = interface %14.next()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else0
+	%20 = (java/lang/String) %16
+	goto %label3
+
+%label3: 	//predecessors %bb5
+	%21 = static Integer.valueOf(1)
+	goto %bb6
+
+%bb6: 	//predecessors %label3
+	%22 = virtual %25.append(%20, %21)
+	goto %label4
+
+%label4: 	//predecessors %bb6
+	goto %label2
+
+%if.then0: 	//predecessors %bb4
+	%27 = new org/bson/Document
+	special %27.<init>("$project", %25)
+	goto %bb7
+
+%bb7: 	//predecessors %if.then0
+	%28 = virtual %49.add(%27)
+	goto %label5
+
+%label5: 	//predecessors %bb7
+	%36 = new org/bson/Document
+	%31 = arg$0.number
+	goto %bb8
+
+%bb8: 	//predecessors %label5
+	%34 = static Integer.valueOf(%31)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	special %36.<init>("$limit", %34)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%37 = virtual %49.add(%36)
+	goto %label6
+
+%label6: 	//predecessors %bb10
+	%39 = RememberUtil.LOGGER
+	%41 = interface %39.isDebugEnabled()
+	goto %bb11
+
+%bb11: 	//predecessors %label6
+	%43 = (%41 == false)
+	if (%43) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb11
+	%45 = RememberUtil.LOGGER
+	interface %45.debug("Slow preload pipeline is {}}", %49)
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb11, %if.else1
+	%67 = new java/util/ArrayList
+	special %67.<init>()
+	goto %label7
+
+%label7: 	//predecessors %if.then1
+	%51 = interface arg$1.aggregate(%49)
+	goto %bb12
+
+%bb12: 	//predecessors %label7
+	%58 = interface %51.iterator()
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %label8
+
+%label8: 	//predecessors %bb13, %label10
+	%55 = interface %58.hasNext()
+	goto %bb14
+
+%bb14: 	//predecessors %label8
+	%57 = (%55 == false)
+	if (%57) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb14
+	%60 = interface %58.next()
+	goto %bb15
+
+%bb15: 	//predecessors %if.else2
+	%62 = (org/bson/Document) %60
+	goto %label9
+
+%label9: 	//predecessors %bb15
+	%65 = static RememberUtil.extractRememberedValues(%62, arg$0)
+	goto %bb16
+
+%bb16: 	//predecessors %label9
+	%66 = virtual %67.addAll(%65)
+	goto %label10
+
+%label10: 	//predecessors %bb16
+	goto %label8
+
+%if.then2: 	//predecessors %bb14
+	return %67
+2026-08-12 07:49:56.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com.mongodb.client.MongoCollection
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: com.mongodb.client.MongoCollection
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:56.926 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::_slowPreloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List: null
+2026-08-12 07:49:57.081 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberUtil_init_598035101
+2026-08-12 07:49:57.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::parseRememberFields(java/util/List): java/util/List processing is finished normally
+2026-08-12 07:49:57.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::recurseUnwind(java/lang/Object): java/util/List processing is finished normally
+2026-08-12 07:49:57.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::cartesian(org/bson/Document): java/util/List processing is finished normally
+2026-08-12 07:49:57.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::_internalCartesian(org/bson/Document, java/util/List): java/util/List processing is finished normally
+2026-08-12 07:49:57.082 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::extractRememberedValues(org/bson/Document, org/schambon/loadsimrunner/template/RememberField): java/util/List processing is finished normally
+2026-08-12 07:49:57.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::preloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List processing is finished normally
+2026-08-12 07:49:57.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::_slowPreloadValues(org/schambon/loadsimrunner/template/RememberField, com/mongodb/client/MongoCollection): java/util/List processing is finished normally
+2026-08-12 07:49:57.083 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberUtil::<init>(): void: null
+2026-08-12 07:49:57.083 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberUtil::<init>(): void processing is finished normally
+2026-08-12 07:49:57.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::<init>(): void
+2026-08-12 07:49:57.092 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 07:49:57.190 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.TemplateUtil_init_17264347290
+2026-08-12 07:49:57.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::subdescend(org/bson/Document, java/util/List): java/lang/Object
+2026-08-12 07:49:57.191 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::subdescend(org/bson/Document, java/util/List): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static TemplateUtil._internalDescend(arg$0, arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-12 07:49:57.192 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:57.192 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.ReflectionKt.loadClass(reflection.kt:194)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:206)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-08-12 07:49:57.192 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::subdescend(org/bson/Document, java/util/List): java/lang/Object: null
+2026-08-12 07:49:57.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::_internalDescend(java/lang/Object, java/util/List): java/lang/Object
+2026-08-12 07:49:57.192 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::_internalDescend(java/lang/Object, java/util/List): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = (arg$1 == null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb0
+	%3 = interface arg$1.size()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%5 = (%3 != 0)
+	if (%5) goto %if.then1 else %if.then0
+
+%if.then0: 	//predecessors %bb0, %bb1
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb1
+	%7 = arg$0 instanceOf org/bson/Document
+	%9 = (%7 == false)
+	if (%9) goto %if.then4 else %if.else1
+
+%if.else1: 	//predecessors %if.then1
+	%17 = (org/bson/Document) arg$0
+	goto %label0
+
+%label0: 	//predecessors %if.else1
+	%12 = interface arg$1.get(0)
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%18 = (java/lang/String) %12
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%15 = interface arg$1.size()
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%42 = interface arg$1.subList(1, %15)
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%41 = virtual %17.get(%18)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%22 = (%41 != null)
+	if (%22) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %label3
+	goto %bb.return0
+
+%if.then2: 	//predecessors %label3
+	%25 = %41 instanceOf java/util/List
+	%27 = (%25 == false)
+	if (%27) goto %if.then3 else %if.else3
+
+%if.else3: 	//predecessors %if.then2
+	%30 = (java/util/List) %41
+	goto %bb4
+
+%bb4: 	//predecessors %if.else3
+	%34 = interface %30.stream()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%35 = invokeDynamic (java/util/List): java/util/function/Function @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)), HandleBsmArgument(handle=@org/schambon/loadsimrunner/template/TemplateUtil::lambda$_internalDescend$0(java/util/List, java/lang/Object): java/lang/Object), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): java/lang/Object)))
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%38 = interface %34.map(%35)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%39 = static Collectors.toList()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%44 = interface %38.collect(%39)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	goto %bb.return0
+
+%if.then3: 	//predecessors %if.then2
+	%45 = static TemplateUtil._internalDescend(%41, %42)
+	goto %bb10
+
+%bb10: 	//predecessors %if.then3
+	goto %bb.return0
+
+%if.then4: 	//predecessors %if.then1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then0, %if.else2, %bb9, %bb10, %if.then4
+	%retval1 = phi {%if.then0 -> arg$0; %if.else2 -> null; %bb9 -> %44; %bb10 -> %45; %if.then4 -> arg$0}
+	return %retval1
+2026-08-12 07:49:57.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::_internalDescend(java/lang/Object, java/util/List): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::_internalDescend(java/lang/Object, java/util/List): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.193 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::_internalDescend(java/lang/Object, java/util/List): java/lang/Object: null
+2026-08-12 07:49:57.193 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::oneOf(java/lang/Object[]): java/lang/Object
+2026-08-12 07:49:57.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::oneOf(java/lang/Object[]): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = static ThreadLocalRandom.current()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = arg$0.length
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual %2.nextInt(0, %3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = arg$0[%5]
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %7
+2026-08-12 07:49:57.194 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::oneOf(java/lang/Object[]): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.194 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::oneOf(java/lang/Object[]): java/lang/Object
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.194 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::oneOf(java/lang/Object[]): java/lang/Object: null
+2026-08-12 07:49:57.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::nameFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+2026-08-12 07:49:57.194 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::nameFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TemplateUtil.faker
+	%3 = virtual %1.name()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = static TemplateUtil.faker(%3, arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-12 07:49:57.195 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::nameFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.195 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::nameFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.195 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::nameFaker(java/lang/String): org/schambon/loadsimrunner/Generator: null
+2026-08-12 07:49:57.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::addressFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+2026-08-12 07:49:57.195 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::addressFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TemplateUtil.faker
+	%3 = virtual %1.address()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = static TemplateUtil.faker(%3, arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-12 07:49:57.195 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::addressFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.195 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::addressFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.195 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::addressFaker(java/lang/String): org/schambon/loadsimrunner/Generator: null
+2026-08-12 07:49:57.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::loremFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+2026-08-12 07:49:57.196 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::loremFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TemplateUtil.faker
+	%3 = virtual %1.lorem()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%5 = static TemplateUtil.faker(%3, arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %5
+2026-08-12 07:49:57.196 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::loremFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::loremFaker(java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.197 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::loremFaker(java/lang/String): org/schambon/loadsimrunner/Generator: null
+2026-08-12 07:49:57.197 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/TemplateUtil::faker(java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator
+2026-08-12 07:49:57.197 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/TemplateUtil::faker(java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = invokeDynamic (java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/Object)), HandleBsmArgument(handle=@org/schambon/loadsimrunner/template/TemplateUtil::lambda$faker$1(java/lang/Object, java/lang/String): java/lang/Object), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(): java/lang/Object)))
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-12 07:49:57.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::faker(java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateParameters(RandomRunner.kt:102)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getRandomTrace(InstructionConcolicChecker.kt:140)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:212)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Error while collecting random trace:
+java.lang.ClassNotFoundException: Could not load method org/schambon/loadsimrunner/template/TemplateUtil::faker(java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:210)
+	at org.vorpal.research.kex.trace.runner.RandomRunnerKt.generateDefaultParameters(RandomRunner.kt:110)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.getDefaultTrace(InstructionConcolicChecker.kt:132)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.initializeExecutionGraph(InstructionConcolicChecker.kt:214)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.processMethod(InstructionConcolicChecker.kt:228)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.access$processMethod(InstructionConcolicChecker.kt:70)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invokeSuspend(InstructionConcolicChecker.kt:127)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$start$2.invoke(InstructionConcolicChecker.kt)
+	at org.vorpal.research.kex.asm.analysis.util.ExtensionsKt.analyzeOrTimeout(extensions.kt:48)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker.start(InstructionConcolicChecker.kt:126)
+	at org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker$Companion$run$1$1$1$1.invokeSuspend(InstructionConcolicChecker.kt:117)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.vorpal.research.kex.util.MDCWrappedRunnable.run(MDCWrappedRunnable.kt:16)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NoClassDefFoundError: org/bson/Document
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+	at org.vorpal.research.kex.util.ReflectionKt.getMethod(reflection.kt:208)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.bson.Document
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at org.vorpal.research.kex.util.PathClassLoader.loadClass(PathClassLoader.kt:49)
+	... 24 common frames omitted
+2026-08-12 07:49:57.198 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::faker(java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator: null
+2026-08-12 07:49:57.306 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.TemplateUtil_init_17264347291
+2026-08-12 07:49:57.307 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::subdescend(org/bson/Document, java/util/List): java/lang/Object processing is finished normally
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::_internalDescend(java/lang/Object, java/util/List): java/lang/Object processing is finished normally
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::oneOf(java/lang/Object[]): java/lang/Object processing is finished normally
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::nameFaker(java/lang/String): org/schambon/loadsimrunner/Generator processing is finished normally
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::addressFaker(java/lang/String): org/schambon/loadsimrunner/Generator processing is finished normally
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::loremFaker(java/lang/String): org/schambon/loadsimrunner/Generator processing is finished normally
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::faker(java/lang/Object, java/lang/String): org/schambon/loadsimrunner/Generator processing is finished normally
+2026-08-12 07:49:57.308 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/TemplateUtil::<init>(): void: null
+2026-08-12 07:49:57.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/TemplateUtil::<init>(): void processing is finished normally
+2026-08-12 07:49:57.313 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberField::<init>(java/lang/String, java/util/List, java/lang/String, bool, int, int): void
+2026-08-12 07:49:57.313 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberField::<init>(java/lang/String, java/util/List, java/lang/String, bool, int, int): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.capped = -1
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.field = arg$0
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.preload = arg$3
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%1 = (arg$1 != null)
+	if (%1) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb4
+	%3 = static Collections.emptyList()
+	goto %bb5
+
+%bb5: 	//predecessors %if.else0
+	this.compound = %3
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %goto0
+
+%if.then0: 	//predecessors %bb4
+	this.compound = arg$1
+	goto %goto0
+
+%goto0: 	//predecessors %bb6, %if.then0
+	%5 = (arg$2 != null)
+	if (%5) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %goto0
+	%7 = virtual arg$0.replace(46, 95)
+	goto %bb7
+
+%bb7: 	//predecessors %if.else1
+	this.name = %7
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	goto %goto1
+
+%if.then1: 	//predecessors %goto0
+	this.name = arg$2
+	goto %goto1
+
+%goto1: 	//predecessors %bb8, %if.then1
+	this.number = arg$4
+	goto %bb9
+
+%bb9: 	//predecessors %goto1
+	this.capped = arg$5
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	return
+2026-08-12 07:49:57.454 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberField_init_8935815720
+2026-08-12 07:49:57.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberField::isSimple(): bool
+2026-08-12 07:49:57.455 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberField::isSimple(): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.compound
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.isEmpty()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-12 07:49:57.563 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberField_isSimple_17995974861
+2026-08-12 07:49:57.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method org/schambon/loadsimrunner/template/RememberField::getDescription(): java/lang/Object
+2026-08-12 07:49:57.564 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - org/schambon/loadsimrunner/template/RememberField::getDescription(): java/lang/Object
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.field
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == null)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%22 = this.field
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	goto %bb.return0
+
+%if.then0: 	//predecessors %bb1
+	%6 = this.compound
+	goto %bb3
+
+%bb3: 	//predecessors %if.then0
+	%8 = (%6 == null)
+	if (%8) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb3
+	%19 = new java/lang/StringBuilder
+	special %19.<init>("(")
+	goto %label0
+
+%label0: 	//predecessors %if.else1
+	%12 = this.compound
+	goto %bb4
+
+%bb4: 	//predecessors %label0
+	%15 = static String.join(", ", %12)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%16 = virtual %19.append(%15)
+	goto %label1
+
+%label1: 	//predecessors %bb5
+	%18 = virtual %19.append(")")
+	goto %label2
+
+%label2: 	//predecessors %label1
+	%23 = virtual %19.toString()
+	goto %bb6
+
+%bb6: 	//predecessors %label2
+	goto %bb.return0
+
+%if.then1: 	//predecessors %bb3
+	%24 = this.name
+	goto %bb7
+
+%bb7: 	//predecessors %if.then1
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %bb2, %bb6, %bb7
+	%retval1 = phi {%bb2 -> %22; %bb6 -> %23; %bb7 -> %24}
+	%retval.casted1 = (java/lang/Object) %retval1
+	return %retval.casted1
+2026-08-12 07:49:57.657 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberField_getDescription_6564729172
+2026-08-12 07:49:57.750 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberField_init_8935815723
+2026-08-12 07:49:57.809 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberField_isSimple_17995974864
+2026-08-12 07:49:57.874 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test org.schambon.loadsimrunner.template.RememberField_getDescription_6564729175
+2026-08-12 07:49:57.875 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberField::<init>(java/lang/String, java/util/List, java/lang/String, bool, int, int): void: null
+2026-08-12 07:49:57.875 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberField::isSimple(): bool: null
+2026-08-12 07:49:57.875 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method org/schambon/loadsimrunner/template/RememberField::getDescription(): java/lang/Object: null
+2026-08-12 07:49:57.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberField::<init>(java/lang/String, java/util/List, java/lang/String, bool, int, int): void processing is finished normally
+2026-08-12 07:49:57.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberField::isSimple(): bool processing is finished normally
+2026-08-12 07:49:57.875 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method org/schambon/loadsimrunner/template/RememberField::getDescription(): java/lang/Object processing is finished normally
+2026-08-12 07:49:57.876 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 07:49:57.876 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

@@ -1,0 +1,155 @@
+/*
+ * This program and the accompanying materials are made available under the terms of the
+ * Eclipse Public License v2.0 which accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-v20.html
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *
+ * Copyright Contributors to the Zowe Project.
+ */
+package zowe.client.sdk.zosfiles.uss.methods;
+
+import zowe.client.sdk.core.ZosConnection;
+import zowe.client.sdk.rest.*;
+import zowe.client.sdk.rest.exception.ZosmfRequestException;
+import zowe.client.sdk.rest.type.ZosmfRequestType;
+import zowe.client.sdk.utility.EncodeUtils;
+import zowe.client.sdk.utility.FileUtils;
+import zowe.client.sdk.utility.ValidateUtils;
+import zowe.client.sdk.zosfiles.ZosFilesConstants;
+import zowe.client.sdk.zosfiles.uss.input.UssGetInputData;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Provides Unix System Services (USS) read from object functionality
+ * <p>
+ * <a href="https://www.ibm.com/docs/en/zos/3.2.0?topic=interface-retrieve-contents-zos-unix-file">z/OSMF REST API</a>
+ *
+ * @author James Kostrewski
+ * @author Frank Giordano
+ * @version 7.0
+ */
+public class UssGet {
+
+    private final ZosConnection connection;
+    private ZosmfRequest request;
+
+    /**
+     * UssGet Constructor
+     *
+     * @param connection for connection information, see ZosConnection object
+     * @author Frank Giordano
+     * @author James Kostrewski
+     */
+    public UssGet(final ZosConnection connection) {
+        ValidateUtils.checkNullParameter(connection, "connection");
+        this.connection = connection;
+    }
+
+    /**
+     * Alternative UssGet constructor with ZoweRequest object. This is mainly used for internal code
+     * unit testing with Mockito, and it is not recommended to be used by the larger community.
+     * <p>
+     * This constructor is package-private visibility.
+     *
+     * @param connection for connection information, see ZosConnection object
+     * @param request    a {@link GetStreamZosmfRequest} or {@link GetTextZosmfRequest} implementation object
+     * @author Frank Giordano
+     * @author James Kostrewski
+     */
+    UssGet(final ZosConnection connection, final ZosmfRequest request) {
+        ValidateUtils.checkNullParameter(connection, "connection");
+        ValidateUtils.checkNullParameter(request, "request");
+        this.connection = connection;
+        // request type check deferred 
+        this.request = request;
+    }
+
+    /**
+     * Get the binary contents of a UNIX file
+     *
+     * @param fileNamePath UNIX path that resolves to the target file
+     * @return the byte array contents of the file
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     * @author James Kostrewski
+     */
+    public byte[] getBinary(final String fileNamePath) throws ZosmfRequestException {
+        UssGetInputData getInputData = new UssGetInputData.Builder().binary(true).build();
+        Response response = getCommon(fileNamePath, getInputData);
+        return (byte[]) response.getResponsePhrase().orElse(new byte[0]);
+    }
+
+    /**
+     * Get the text contents of a UNIX file
+     *
+     * @param fileNamePath UNIX path that resolves to the target file
+     * @return the text contents of a file
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     * @author James Kostrewski
+     */
+    public String getText(final String fileNamePath) throws ZosmfRequestException {
+        UssGetInputData getInputData = new UssGetInputData.Builder().build();
+        Response response = getCommon(fileNamePath, getInputData);
+        return (String) response.getResponsePhrase().orElse("");
+    }
+
+    /**
+     * Get the contents of a UNIX file driven by the UssGetInputData object settings
+     *
+     * @param fileNamePath UNIX path that resolves to the target
+     * @param getInputData UssGetInputData object to drive the request
+     * @return Response object
+     * @throws ZosmfRequestException request error state
+     * @author Frank Giordano
+     * @author James Kostrewski
+     */
+    public Response getCommon(final String fileNamePath, final UssGetInputData getInputData) throws ZosmfRequestException {
+        ValidateUtils.checkIllegalParameter(fileNamePath, "fileNamePath");
+        ValidateUtils.checkNullParameter(getInputData, "getInputData");
+
+        final StringBuilder url = new StringBuilder(connection.getZosmfUrl() + ZosFilesConstants.RESOURCE + ZosFilesConstants.RES_USS_FILES +
+                EncodeUtils.encodeURIComponent(FileUtils.validatePath(fileNamePath)));
+
+        getInputData.getSearch().ifPresent(str -> url.append("?search=").append(EncodeUtils.encodeURIComponent(str)));
+        getInputData.getResearch().ifPresent(str -> url.append("?research=").append(EncodeUtils.encodeURIComponent(str)));
+        if (!getInputData.isInsensitive()) {
+            if (getInputData.getQueryCount() > 1) {
+                url.append("&insensitive=false");
+            } else {
+                url.append("?insensitive=false");
+            }
+        }
+        getInputData.getMaxReturnSize().ifPresent(size -> {
+            if (getInputData.getQueryCount() > 1) {
+                url.append("&maxreturnsize=").append(size);
+            } else {
+                url.append("?maxreturnsize=").append(size);
+            }
+        });
+
+        final Map<String, String> headers = new HashMap<>();
+
+        if (getInputData.isBinary()) {
+            headers.put("X-IBM-Data-Type", "binary");
+            if (request == null || !(request instanceof GetStreamZosmfRequest)) {
+                request = ZosmfRequestFactory.buildRequest(connection, ZosmfRequestType.GET_STREAM);
+            }
+        } else {
+            headers.put("X-IBM-Data-Type", "text");
+            if (request == null || !(request instanceof GetTextZosmfRequest)) {
+                request = ZosmfRequestFactory.buildRequest(connection, ZosmfRequestType.GET_TEXT);
+            }
+        }
+        getInputData.getRecordsRange().ifPresent(range -> headers.put("X-IBM-Record-Range", range));
+
+        request.setHeaders(headers);
+        request.setUrl(url.toString());
+
+        return request.executeRequest();
+    }
+
+}

@@ -1,0 +1,259 @@
+2026-08-12 09:41:51.017 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jaggerwang_spring-boot-in-practice/target/classes
+2026-08-12 09:41:51.202 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:41:51.250 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 09:41:52.265 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 09:41:52.723 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package net/jaggerwang/sbip/util/generator/*
+2026-08-12 09:41:52.724 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 09:41:52.743 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jaggerwang_spring-boot-in-practice/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 09:41:52.772 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jaggerwang_spring-boot-in-practice/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 33465 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/jaggerwang_spring-boot-in-practice/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 09:41:52.784 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 09:43:32.823 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/RandomGenerator::<init>(): void
+2026-08-12 09:43:32.824 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/RandomGenerator::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 09:43:33.339 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_init_18069077390
+2026-08-12 09:43:33.344 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/RandomGenerator::randomString(int, java/lang/String): java/lang/String
+2026-08-12 09:43:33.345 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/RandomGenerator::randomString(int, java/lang/String): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%19 = new java/lang/StringBuilder
+	special %19.<init>(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	goto %label1
+
+%label1: 	//predecessors %label0, %label2
+	%17 = phi {%label0 -> 0; %label2 -> %18}
+	%6 = (%17 >= arg$0)
+	if (%6) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%9 = RandomGenerator.RANDOM
+	%10 = virtual arg$1.length()
+	goto %bb1
+
+%bb1: 	//predecessors %if.else0
+	%12 = virtual %9.nextInt(%10)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%15 = virtual arg$1.charAt(%12)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%16 = virtual %19.append(%15)
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%18 = %17 + 1
+	goto %label1
+
+%if.then0: 	//predecessors %label1
+	%21 = virtual %19.toString()
+	goto %bb4
+
+%bb4: 	//predecessors %if.then0
+	return %21
+2026-08-12 09:43:33.499 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_randomString_209706331
+2026-08-12 09:43:33.500 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/RandomGenerator::letterString(int, java/lang/Boolean): java/lang/String
+2026-08-12 09:43:33.500 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/RandomGenerator::letterString(int, java/lang/Boolean): java/lang/String
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%1 = (arg$1 == null)
+	if (%1) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%3 = virtual arg$1.booleanValue()
+	goto %bb0
+
+%bb0: 	//predecessors %if.else0
+	%5 = (%3 == false)
+	if (%5) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then0
+	%7 = phi {%if.else1 -> "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; %if.then0 -> "abcdefghijklmnopqrstuvwxyz"}
+	goto %if.then1
+
+%if.then1: 	//predecessors %label0, %goto0
+	%9 = phi {%label0 -> "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; %goto0 -> %7}
+	%11 = virtual this.randomString(arg$0, %9)
+	goto %bb1
+
+%bb1: 	//predecessors %if.then1
+	return %11
+2026-08-12 09:43:33.615 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_letterString_11299886372
+2026-08-12 09:43:33.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/RandomGenerator::letterNumberString(int, java/lang/Boolean): java/lang/String
+2026-08-12 09:43:33.616 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/RandomGenerator::letterNumberString(int, java/lang/Boolean): java/lang/String
+%entry0: 	//predecessors 
+	goto %label0
+
+%label0: 	//predecessors %entry0
+	%1 = (arg$1 == null)
+	if (%1) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%3 = virtual arg$1.booleanValue()
+	goto %bb0
+
+%bb0: 	//predecessors %if.else0
+	%5 = (%3 == false)
+	if (%5) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb0
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then0
+	%7 = phi {%if.else1 -> "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; %if.then0 -> "abcdefghijklmnopqrstuvwxyz"}
+	goto %if.then1
+
+%if.then1: 	//predecessors %label0, %goto0
+	%9 = phi {%label0 -> "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; %goto0 -> %7}
+	%11 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="0123456789"))
+	goto %label1
+
+%label1: 	//predecessors %if.then1
+	%13 = virtual this.randomString(arg$0, %11)
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	return %13
+2026-08-12 09:43:33.721 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_letterNumberString_20897556423
+2026-08-12 09:43:33.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/RandomGenerator::numberString(int): java/lang/String
+2026-08-12 09:43:33.722 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/RandomGenerator::numberString(int): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual this.randomString(arg$0, "0123456789")
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-12 09:43:33.817 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_numberString_13099577824
+2026-08-12 09:43:33.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/RandomGenerator::hexString(int, java/lang/Boolean): java/lang/String
+2026-08-12 09:43:33.818 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/RandomGenerator::hexString(int, java/lang/Boolean): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = virtual arg$1.booleanValue()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	goto %goto0
+
+%if.then0: 	//predecessors %bb1
+	goto %goto0
+
+%goto0: 	//predecessors %if.else0, %if.then0
+	%5 = phi {%if.else0 -> "0123456789ABCDEF"; %if.then0 -> "0123456789abcdef"}
+	goto %label0
+
+%label0: 	//predecessors %goto0
+	%7 = virtual this.randomString(arg$0, %5)
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	return %7
+2026-08-12 09:43:33.921 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_hexString_4952606545
+2026-08-12 09:43:33.996 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_init_18069077396
+2026-08-12 09:43:34.064 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_randomString_209706337
+2026-08-12 09:43:34.138 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_letterString_11299886378
+2026-08-12 09:43:34.209 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_letterNumberString_20897556429
+2026-08-12 09:43:34.270 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_numberString_130995778210
+2026-08-12 09:43:34.331 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.RandomGenerator_hexString_49526065411
+2026-08-12 09:43:34.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/RandomGenerator::<init>(): void: null
+2026-08-12 09:43:34.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/RandomGenerator::randomString(int, java/lang/String): java/lang/String: null
+2026-08-12 09:43:34.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/RandomGenerator::letterString(int, java/lang/Boolean): java/lang/String: null
+2026-08-12 09:43:34.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/RandomGenerator::letterNumberString(int, java/lang/Boolean): java/lang/String: null
+2026-08-12 09:43:34.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/RandomGenerator::numberString(int): java/lang/String: null
+2026-08-12 09:43:34.332 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/RandomGenerator::hexString(int, java/lang/Boolean): java/lang/String: null
+2026-08-12 09:43:34.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/RandomGenerator::<init>(): void processing is finished normally
+2026-08-12 09:43:34.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/RandomGenerator::randomString(int, java/lang/String): java/lang/String processing is finished normally
+2026-08-12 09:43:34.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/RandomGenerator::letterString(int, java/lang/Boolean): java/lang/String processing is finished normally
+2026-08-12 09:43:34.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/RandomGenerator::letterNumberString(int, java/lang/Boolean): java/lang/String processing is finished normally
+2026-08-12 09:43:34.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/RandomGenerator::numberString(int): java/lang/String processing is finished normally
+2026-08-12 09:43:34.333 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/RandomGenerator::hexString(int, java/lang/Boolean): java/lang/String processing is finished normally
+2026-08-12 09:43:34.335 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/IdGenerator::<init>(): void
+2026-08-12 09:43:34.336 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/IdGenerator::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 09:43:34.401 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.IdGenerator_init_16781622530
+2026-08-12 09:43:34.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/IdGenerator::objectId(): java/lang/String
+2026-08-12 09:43:34.401 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/IdGenerator::objectId(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = new org/bson/types/ObjectId
+	special %2.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = virtual %2.toHexString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %4
+2026-08-12 09:43:34.459 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.IdGenerator_objectId_18411396041
+2026-08-12 09:43:34.459 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method net/jaggerwang/sbip/util/generator/IdGenerator::uuid(): java/lang/String
+2026-08-12 09:43:34.459 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - net/jaggerwang/sbip/util/generator/IdGenerator::uuid(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = static UUID.randomUUID()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual %1.toString()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return %3
+2026-08-12 09:43:34.524 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.IdGenerator_uuid_5532424132
+2026-08-12 09:43:34.599 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.IdGenerator_init_16781622533
+2026-08-12 09:43:34.671 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.IdGenerator_objectId_18411396044
+2026-08-12 09:43:34.739 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test net.jaggerwang.sbip.util.generator.IdGenerator_uuid_5532424135
+2026-08-12 09:43:34.740 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/IdGenerator::<init>(): void: null
+2026-08-12 09:43:34.740 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/IdGenerator::objectId(): java/lang/String: null
+2026-08-12 09:43:34.740 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method net/jaggerwang/sbip/util/generator/IdGenerator::uuid(): java/lang/String: null
+2026-08-12 09:43:34.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/IdGenerator::<init>(): void processing is finished normally
+2026-08-12 09:43:34.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/IdGenerator::objectId(): java/lang/String processing is finished normally
+2026-08-12 09:43:34.740 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method net/jaggerwang/sbip/util/generator/IdGenerator::uuid(): java/lang/String processing is finished normally
+2026-08-12 09:43:34.741 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 09:43:34.741 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

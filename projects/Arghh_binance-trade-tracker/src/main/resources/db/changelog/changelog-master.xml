@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+	<changeSet author="Arghh" id="0001">
+		<createTable tableName="aggregated_trade">
+			<column autoIncrement="true" name="id" type="BIGINT">
+				<constraints primaryKey="true" />
+			</column>
+			<column name="buy" type="BIT(1)">
+				<constraints nullable="false" />
+			</column>
+			<column defaultValueComputed="NULL" name="binance_id" type="BIGINT" />
+			<column defaultValueComputed="NULL" name="fee" type="DECIMAL(13, 9)" />
+			<column name="fee_coin" type="VARCHAR(255)" />
+			<column defaultValueComputed="NULL" name="price" type="DECIMAL(13, 9)" />
+			<column defaultValueComputed="NULL" name="quantity" type="DECIMAL(13, 9)" />
+			<column name="symbol" type="VARCHAR(255)" />
+			<column defaultValueComputed="NULL" name="total" type="DECIMAL(13, 9)" />
+			<column defaultValueComputed="NULL" name="trade_time" type="datetime(6)" />
+			<column defaultValueComputed="NULL" name="profit_fk" type="BIGINT" />
+		</createTable>
+	</changeSet>
+
+	<changeSet author="Arghh" id="0002">
+		<createTable tableName="profit">
+			<column autoIncrement="true" name="id" type="BIGINT">
+				<constraints primaryKey="true" />
+			</column>
+			<column name="base_currency" type="VARCHAR(255)" />
+			<column defaultValueComputed="NULL" name="price_difference"
+				type="DECIMAL(13, 8)" />
+			<column defaultValueComputed="NULL" name="profit_value" type="DECIMAL(13, 8)" />
+			<column defaultValueComputed="NULL" name="quantity" type="DECIMAL(13, 8)" />
+			<column name="time_difference" type="BIGINT">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+
+	<changeSet author="Arghh" id="0003">
+		<createTable tableName="trade">
+			<column autoIncrement="true" name="id" type="BIGINT">
+				<constraints primaryKey="true" />
+			</column>
+			<column name="buy" type="BIT(1)">
+				<constraints nullable="false" />
+			</column>
+			<column defaultValueComputed="NULL" name="fee" type="DECIMAL(13, 9)" />
+			<column name="fee_coin" type="VARCHAR(255)" />
+			<column defaultValueComputed="NULL" name="price" type="DECIMAL(13, 9)" />
+			<column defaultValueComputed="NULL" name="quantity" type="DECIMAL(13, 9)" />
+			<column name="symbol" type="VARCHAR(255)" />
+			<column defaultValueComputed="NULL" name="total" type="DECIMAL(13, 9)" />
+			<column defaultValueComputed="NULL" name="trade_time" type="datetime(6)" />
+			<column defaultValueComputed="NULL" name="aggregated_trade_fk"
+				type="BIGINT" />
+		</createTable>
+	</changeSet>
+
+	<changeSet author="Argh" id="0004">
+		<createIndex indexName="idx_profit" tableName="aggregated_trade">
+			<column name="profit_fk" />
+		</createIndex>
+	</changeSet>
+
+	<changeSet author="Arghh" id="0005">
+		<addForeignKeyConstraint baseColumnNames="profit_fk"
+			baseTableName="aggregated_trade" constraintName="idx_profit"
+			deferrable="false" initiallyDeferred="false" onDelete="RESTRICT"
+			onUpdate="RESTRICT" referencedColumnNames="id" referencedTableName="profit" />
+	</changeSet>
+
+	<changeSet author="Arghh" id="0006">
+		<addColumn tableName="profit">
+			<column name="sell_time" type="datetime(6)" />
+		</addColumn>
+	</changeSet>
+
+	<changeSet author="Argh" id="0007">
+		<createIndex indexName="idx_aggregated_trade" tableName="trade">
+			<column name="aggregated_trade_fk" />
+		</createIndex>
+	</changeSet>
+
+	<changeSet author="Arghh" id="0008">
+		<addForeignKeyConstraint baseColumnNames="aggregated_trade_fk"
+			baseTableName="trade" constraintName="idx_aggregated_trade"
+			deferrable="false" initiallyDeferred="false" onDelete="RESTRICT"
+			onUpdate="RESTRICT" referencedColumnNames="id" referencedTableName="aggregated_trade" />
+	</changeSet>
+</databaseChangeLog>

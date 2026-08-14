@@ -1,0 +1,601 @@
+2026-08-11 15:54:47.942 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/PGSSoft_HttpClientMock/target/classes
+2026-08-11 15:54:48.083 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 15:54:48.193 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-11 15:54:49.893 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-11 15:54:50.813 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package com/pgssoft/httpclient/internal/rule/*
+2026-08-11 15:54:50.815 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-11 15:54:50.840 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/PGSSoft_HttpClientMock/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-11 15:54:50.878 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/PGSSoft_HttpClientMock/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 33379 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/PGSSoft_HttpClientMock/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-11 15:54:50.894 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-11 15:56:30.964 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String, java/lang/String, java/lang/String): void
+2026-08-11 15:56:30.965 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String, java/lang/String, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = new java/util/LinkedList
+	special %2.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.actionBundles = %2
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = new java/util/ArrayList
+	special %5.<init>()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.conditions = %5
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%7 = virtual arg$2.startsWith("/")
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%9 = (%7 == false)
+	if (%9) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb6
+	%11 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %bb7
+
+%bb7: 	//predecessors %if.else0
+	goto %goto0
+
+%if.then0: 	//predecessors %bb6
+	goto %goto0
+
+%goto0: 	//predecessors %bb7, %if.then0
+	%16 = phi {%bb7 -> %11; %if.then0 -> arg$2}
+	goto %label0
+
+%label0: 	//predecessors %goto0
+	%15 = new com/pgssoft/httpclient/internal/condition/MethodCondition
+	special %15.<init>(arg$0)
+	goto %bb8
+
+%bb8: 	//predecessors %label0
+	virtual this.addCondition(%15)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%18 = static UrlConditions.parse(%16)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	this.urlConditions = %18
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	return
+2026-08-11 15:56:31.788 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_init_19640993370
+2026-08-11 15:56:31.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String): void
+2026-08-11 15:56:31.795 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = new java/util/LinkedList
+	special %2.<init>()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.actionBundles = %2
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%5 = new java/util/ArrayList
+	special %5.<init>()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.conditions = %5
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%8 = new com/pgssoft/httpclient/internal/condition/MethodCondition
+	special %8.<init>(arg$0)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	virtual this.addCondition(%8)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%11 = new com/pgssoft/httpclient/internal/UrlConditions
+	special %11.<init>()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	this.urlConditions = %11
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	return
+2026-08-11 15:56:32.024 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_init_16196253031
+2026-08-11 15:56:32.025 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::addAction(com/pgssoft/httpclient/Action): void
+2026-08-11 15:56:32.026 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::addAction(com/pgssoft/httpclient/Action): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.actionBundles
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface %1.peekLast()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%14 = (com/pgssoft/httpclient/internal/action/ActionBundle) %3
+	goto %label0
+
+%label0: 	//predecessors %bb2
+	%7 = (%14 != null)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label0
+	%15 = new com/pgssoft/httpclient/internal/action/ActionBundle
+	special %15.<init>()
+	goto %label1
+
+%label1: 	//predecessors %if.else0
+	%11 = this.actionBundles
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%13 = interface %11.add(%15)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %if.then0
+
+%if.then0: 	//predecessors %label0, %bb4
+	%17 = phi {%label0 -> %14; %bb4 -> %15}
+	%18 = virtual %17.add(arg$0)
+	goto %label2
+
+%label2: 	//predecessors %if.then0
+	return
+2026-08-11 15:56:32.315 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addAction_8979995442
+2026-08-11 15:56:32.316 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::addActionBundle(com/pgssoft/httpclient/Action): void
+2026-08-11 15:56:32.316 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::addActionBundle(com/pgssoft/httpclient/Action): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = new com/pgssoft/httpclient/internal/action/ActionBundle
+	special %6.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = virtual %6.add(arg$0)
+	goto %label1
+
+%label1: 	//predecessors %label0
+	%5 = this.actionBundles
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	%7 = interface %5.add(%6)
+	goto %label2
+
+%label2: 	//predecessors %bb1
+	return
+2026-08-11 15:56:32.497 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addActionBundle_3620478983
+2026-08-11 15:56:32.498 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::addCondition(com/pgssoft/httpclient/Condition): void
+2026-08-11 15:56:32.499 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::addCondition(com/pgssoft/httpclient/Condition): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.conditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = interface %1.add(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	return
+2026-08-11 15:56:32.661 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addCondition_10424443204
+2026-08-11 15:56:32.662 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::setParameterCondition(java/lang/String, org/hamcrest/Matcher): void
+2026-08-11 15:56:32.663 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::setParameterCondition(java/lang/String, org/hamcrest/Matcher): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.urlConditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%6 = virtual %1.getParameterConditions()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%4 = static List.of(arg$1)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = static Matchers.containsInAnyOrder(%4)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	virtual %6.addParam(arg$0, %7)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	return
+2026-08-11 15:56:32.835 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_setParameterCondition_11026814385
+2026-08-11 15:56:32.836 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::setReferenceCondition(org/hamcrest/Matcher): void
+2026-08-11 15:56:32.836 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::setReferenceCondition(org/hamcrest/Matcher): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.urlConditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	virtual %1.setReferenceCondition(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 15:56:33.012 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_setReferenceCondition_9907211876
+2026-08-11 15:56:33.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::addHostCondition(java/lang/String): void
+2026-08-11 15:56:33.013 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::addHostCondition(java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.urlConditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = static Matchers.equalTo(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual %2.setHostCondition(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 15:56:33.230 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addHostCondition_18593058337
+2026-08-11 15:56:33.230 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::setPathCondition(org/hamcrest/Matcher): void
+2026-08-11 15:56:33.230 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::setPathCondition(org/hamcrest/Matcher): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.urlConditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	virtual %1.setPathCondition(arg$0)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-11 15:56:33.395 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_setPathCondition_6645007358
+2026-08-11 15:56:33.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/RuleBuilder::build(): com/pgssoft/httpclient/internal/rule/Rule
+2026-08-11 15:56:33.396 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/RuleBuilder::build(): com/pgssoft/httpclient/internal/rule/Rule
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%8 = new com/pgssoft/httpclient/internal/rule/Rule
+	%5 = this.urlConditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%6 = this.conditions
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = this.actionBundles
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	special %8.<init>(%5, %6, %7)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return %8
+2026-08-11 15:56:33.511 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_build_7663225069
+2026-08-11 15:56:33.604 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_init_196409933710
+2026-08-11 15:56:33.695 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_init_161962530311
+2026-08-11 15:56:33.795 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addAction_89799954412
+2026-08-11 15:56:33.915 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addActionBundle_36204789813
+2026-08-11 15:56:34.007 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addCondition_104244432014
+2026-08-11 15:56:34.085 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_setParameterCondition_110268143815
+2026-08-11 15:56:34.180 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_setReferenceCondition_99072118716
+2026-08-11 15:56:34.276 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_addHostCondition_185930583317
+2026-08-11 15:56:34.354 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_setPathCondition_66450073518
+2026-08-11 15:56:34.432 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.RuleBuilder_build_76632250619
+2026-08-11 15:56:34.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String, java/lang/String, java/lang/String): void: null
+2026-08-11 15:56:34.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String): void: null
+2026-08-11 15:56:34.434 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::addAction(com/pgssoft/httpclient/Action): void: null
+2026-08-11 15:56:34.435 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::addActionBundle(com/pgssoft/httpclient/Action): void: null
+2026-08-11 15:56:34.435 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::addCondition(com/pgssoft/httpclient/Condition): void: null
+2026-08-11 15:56:34.435 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::setParameterCondition(java/lang/String, org/hamcrest/Matcher): void: null
+2026-08-11 15:56:34.435 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::setReferenceCondition(org/hamcrest/Matcher): void: null
+2026-08-11 15:56:34.435 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::addHostCondition(java/lang/String): void: null
+2026-08-11 15:56:34.436 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::setPathCondition(org/hamcrest/Matcher): void: null
+2026-08-11 15:56:34.436 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/RuleBuilder::build(): com/pgssoft/httpclient/internal/rule/Rule: null
+2026-08-11 15:56:34.436 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String, java/lang/String, java/lang/String): void processing is finished normally
+2026-08-11 15:56:34.436 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::<init>(java/lang/String): void processing is finished normally
+2026-08-11 15:56:34.436 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::addAction(com/pgssoft/httpclient/Action): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::addActionBundle(com/pgssoft/httpclient/Action): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::addCondition(com/pgssoft/httpclient/Condition): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::setParameterCondition(java/lang/String, org/hamcrest/Matcher): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::setReferenceCondition(org/hamcrest/Matcher): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::addHostCondition(java/lang/String): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::setPathCondition(org/hamcrest/Matcher): void processing is finished normally
+2026-08-11 15:56:34.437 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/RuleBuilder::build(): com/pgssoft/httpclient/internal/rule/Rule processing is finished normally
+2026-08-11 15:56:34.453 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/Rule::<init>(com/pgssoft/httpclient/internal/UrlConditions, java/util/List, java/util/Queue): void
+2026-08-11 15:56:34.454 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/Rule::<init>(com/pgssoft/httpclient/internal/UrlConditions, java/util/List, java/util/Queue): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.urlConditions = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.conditions = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.actionBundles = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	return
+2026-08-11 15:56:34.559 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_init_15277144560
+2026-08-11 15:56:34.560 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/Rule::matches(java/net/http/HttpRequest): bool
+2026-08-11 15:56:34.560 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/Rule::matches(java/net/http/HttpRequest): bool
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = this.urlConditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = virtual arg$0.uri()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%5 = virtual %2.matches(%3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%7 = (%5 == false)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%9 = this.conditions
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%12 = interface %9.stream()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%13 = invokeDynamic (java/net/http/HttpRequest): java/util/function/Predicate @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(com/pgssoft/httpclient/Condition): bool)), HandleBsmArgument(handle=@com/pgssoft/httpclient/internal/rule/Rule::lambda$matches$0(java/net/http/HttpRequest, com/pgssoft/httpclient/Condition): bool), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): bool)))
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%15 = interface %12.allMatch(%13)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%17 = (%15 == false)
+	if (%17) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb7
+	goto %goto0
+
+%if.then0: 	//predecessors %bb3, %bb7
+	goto %goto0
+
+%goto0: 	//predecessors %if.else1, %if.then0
+	%19 = phi {%if.else1 -> 1; %if.then0 -> 0}
+	return %19
+2026-08-11 15:56:34.696 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_matches_13134544131
+2026-08-11 15:56:34.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/Rule::produceResponse(): com/pgssoft/httpclient/MockedServerResponse
+2026-08-11 15:56:34.697 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/Rule::produceResponse(): com/pgssoft/httpclient/MockedServerResponse
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%34 = new com/pgssoft/httpclient/MockedServerResponse$Builder
+	special %34.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = this.actionBundles
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = interface %3.size()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = (%5 <= 1)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%9 = this.actionBundles
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%11 = interface %9.poll()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%18 = (com/pgssoft/httpclient/internal/action/ActionBundle) %11
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	goto %goto0
+
+%if.then0: 	//predecessors %bb2
+	%14 = this.actionBundles
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	%16 = interface %14.peek()
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%19 = (com/pgssoft/httpclient/internal/action/ActionBundle) %16
+	goto %goto0
+
+%goto0: 	//predecessors %bb5, %bb7
+	%21 = phi {%bb5 -> %18; %bb7 -> %19}
+	goto %label1
+
+%label1: 	//predecessors %goto0
+	%28 = virtual %21.iterator()
+	goto %bb8
+
+%bb8: 	//predecessors %label1
+	goto %label2
+
+%label2: 	//predecessors %bb8, %bb11
+	%25 = interface %28.hasNext()
+	goto %bb9
+
+%bb9: 	//predecessors %label2
+	%27 = (%25 == false)
+	if (%27) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb9
+	%30 = interface %28.next()
+	goto %bb10
+
+%bb10: 	//predecessors %if.else1
+	%32 = (com/pgssoft/httpclient/Action) %30
+	goto %label3
+
+%label3: 	//predecessors %bb10
+	interface %32.enrichResponse(%34)
+	goto %bb11
+
+%bb11: 	//predecessors %label3
+	goto %label2
+
+%if.then1: 	//predecessors %bb9
+	%36 = virtual %34.build()
+	goto %bb12
+
+%bb12: 	//predecessors %if.then1
+	return %36
+2026-08-11 15:56:34.857 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_produceResponse_3042138722
+2026-08-11 15:56:34.858 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/Rule::debug(java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void
+2026-08-11 15:56:34.859 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/Rule::debug(java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.conditions
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%8 = interface %1.iterator()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	goto %label0
+
+%label0: 	//predecessors %bb2, %bb5
+	%5 = interface %8.hasNext()
+	goto %bb3
+
+%bb3: 	//predecessors %label0
+	%7 = (%5 == false)
+	if (%7) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%10 = interface %8.next()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%12 = (com/pgssoft/httpclient/Condition) %10
+	goto %label1
+
+%label1: 	//predecessors %bb4
+	virtual this.debugCondition(%12, arg$0, arg$1)
+	goto %bb5
+
+%bb5: 	//predecessors %label1
+	goto %label0
+
+%if.then0: 	//predecessors %bb3
+	%14 = this.urlConditions
+	goto %bb6
+
+%bb6: 	//predecessors %if.then0
+	virtual %14.debug(arg$0, arg$1)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return
+2026-08-11 15:56:34.944 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_debug_13327522953
+2026-08-11 15:56:34.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method com/pgssoft/httpclient/internal/rule/Rule::debugCondition(com/pgssoft/httpclient/Condition, java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void
+2026-08-11 15:56:34.945 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - com/pgssoft/httpclient/internal/rule/Rule::debugCondition(com/pgssoft/httpclient/Condition, java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = interface arg$0.matches(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = interface arg$0.getDebugMessage()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	virtual arg$2.message(%2, %3)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	return
+2026-08-11 15:56:35.026 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_debugCondition_3981084744
+2026-08-11 15:56:35.212 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_init_15277144565
+2026-08-11 15:56:35.305 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_matches_13134544136
+2026-08-11 15:56:35.385 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_produceResponse_3042138727
+2026-08-11 15:56:35.471 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_debug_13327522958
+2026-08-11 15:56:35.536 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test com.pgssoft.httpclient.internal.rule.Rule_debugCondition_3981084749
+2026-08-11 15:56:35.537 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/Rule::<init>(com/pgssoft/httpclient/internal/UrlConditions, java/util/List, java/util/Queue): void: null
+2026-08-11 15:56:35.537 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/Rule::matches(java/net/http/HttpRequest): bool: null
+2026-08-11 15:56:35.538 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/Rule::produceResponse(): com/pgssoft/httpclient/MockedServerResponse: null
+2026-08-11 15:56:35.538 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/Rule::debug(java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void: null
+2026-08-11 15:56:35.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/Rule::<init>(com/pgssoft/httpclient/internal/UrlConditions, java/util/List, java/util/Queue): void processing is finished normally
+2026-08-11 15:56:35.538 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/Rule::matches(java/net/http/HttpRequest): bool processing is finished normally
+2026-08-11 15:56:35.539 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method com/pgssoft/httpclient/internal/rule/Rule::debugCondition(com/pgssoft/httpclient/Condition, java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void: null
+2026-08-11 15:56:35.539 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/Rule::produceResponse(): com/pgssoft/httpclient/MockedServerResponse processing is finished normally
+2026-08-11 15:56:35.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/Rule::debug(java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void processing is finished normally
+2026-08-11 15:56:35.540 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method com/pgssoft/httpclient/internal/rule/Rule::debugCondition(com/pgssoft/httpclient/Condition, java/net/http/HttpRequest, com/pgssoft/httpclient/internal/debug/Debugger): void processing is finished normally
+2026-08-11 15:56:35.540 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-11 15:56:35.540 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

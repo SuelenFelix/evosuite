@@ -1,0 +1,212 @@
+package com.acme.types;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.acme.types.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Integer;
+import java.util.ArrayList;
+import java.lang.String;
+
+public class Book_getYearOfPublication_143179653912 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term14984;
+
+    public Book_getYearOfPublication_143179653912() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Integer term15058 = new Integer(-1146679443);
+        ArrayList term15078 = new ArrayList();
+        Object term15074 = newInstance(Class.forName("com.acme.types.Author"));
+        setField(term15074, term15074.getClass(), "id", "");
+        setField(term15074, term15074.getClass(), "fullName", "");
+        setField(term15074, term15074.getClass(), "about", "");
+        setField(term15074, term15074.getClass(), "books", term15078);
+        ArrayList term15085 = new ArrayList();
+        ((ArrayList) term15085).add((Object)null);
+        Object term15081 = newInstance(Class.forName("com.acme.types.Author"));
+        setField(term15081, term15081.getClass(), "id", "");
+        setField(term15081, term15081.getClass(), "fullName", "");
+        setField(term15081, term15081.getClass(), "about", "");
+        setField(term15081, term15081.getClass(), "books", term15085);
+        ArrayList term15092 = new ArrayList();
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        ((ArrayList) term15092).add((Object)null);
+        Object term15088 = newInstance(Class.forName("com.acme.types.Author"));
+        setField(term15088, term15088.getClass(), "id", "");
+        setField(term15088, term15088.getClass(), "fullName", "");
+        setField(term15088, term15088.getClass(), "about", "");
+        setField(term15088, term15088.getClass(), "books", term15092);
+        ArrayList term15099 = new ArrayList();
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        ((ArrayList) term15099).add((Object)null);
+        Object term15095 = newInstance(Class.forName("com.acme.types.Author"));
+        setField(term15095, term15095.getClass(), "id", "");
+        setField(term15095, term15095.getClass(), "fullName", "");
+        setField(term15095, term15095.getClass(), "about", "");
+        setField(term15095, term15095.getClass(), "books", term15099);
+        ArrayList term15106 = new ArrayList();
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        ((ArrayList) term15106).add((Object)null);
+        Object term15102 = newInstance(Class.forName("com.acme.types.Author"));
+        setField(term15102, term15102.getClass(), "id", "");
+        setField(term15102, term15102.getClass(), "fullName", "");
+        setField(term15102, term15102.getClass(), "about", "");
+        setField(term15102, term15102.getClass(), "books", term15106);
+        ArrayList term15113 = new ArrayList();
+        ((ArrayList) term15113).add((Object)null);
+        ((ArrayList) term15113).add((Object)null);
+        ((ArrayList) term15113).add((Object)null);
+        ((ArrayList) term15113).add((Object)null);
+        ((ArrayList) term15113).add((Object)null);
+        ((ArrayList) term15113).add((Object)null);
+        ((ArrayList) term15113).add((Object)null);
+        Object term15109 = newInstance(Class.forName("com.acme.types.Author"));
+        setField(term15109, term15109.getClass(), "id", "");
+        setField(term15109, term15109.getClass(), "fullName", "");
+        setField(term15109, term15109.getClass(), "about", "");
+        setField(term15109, term15109.getClass(), "books", term15113);
+        ArrayList term15072 = new ArrayList();
+        ((ArrayList) term15072).add(term15074);
+        ((ArrayList) term15072).add(term15081);
+        ((ArrayList) term15072).add(term15088);
+        ((ArrayList) term15072).add(term15095);
+        ((ArrayList) term15072).add(term15102);
+        ((ArrayList) term15072).add(term15109);
+        ((ArrayList) term15072).add(term15095);
+        ArrayList term15123 = new ArrayList();
+        ((ArrayList) term15123).add((Object)null);
+        ((ArrayList) term15123).add((Object)null);
+        ((ArrayList) term15123).add((Object)null);
+        ((ArrayList) term15123).add((Object)null);
+        ((ArrayList) term15123).add((Object)null);
+        Object term15120 = newInstance(Class.forName("com.acme.types.Publisher"));
+        setField(term15120, term15120.getClass(), "id", "");
+        setField(term15120, term15120.getClass(), "name", "");
+        setField(term15120, term15120.getClass(), "books", term15123);
+        ArrayList term15129 = new ArrayList();
+        ((ArrayList) term15129).add((Object)null);
+        ((ArrayList) term15129).add((Object)null);
+        ((ArrayList) term15129).add((Object)null);
+        ((ArrayList) term15129).add((Object)null);
+        ((ArrayList) term15129).add((Object)null);
+        ((ArrayList) term15129).add((Object)null);
+        ((ArrayList) term15129).add((Object)null);
+        Object term15126 = newInstance(Class.forName("com.acme.types.Publisher"));
+        setField(term15126, term15126.getClass(), "id", "");
+        setField(term15126, term15126.getClass(), "name", "");
+        setField(term15126, term15126.getClass(), "books", term15129);
+        ArrayList term15135 = new ArrayList();
+        ((ArrayList) term15135).add((Object)null);
+        ((ArrayList) term15135).add((Object)null);
+        Object term15132 = newInstance(Class.forName("com.acme.types.Publisher"));
+        setField(term15132, term15132.getClass(), "id", "");
+        setField(term15132, term15132.getClass(), "name", "");
+        setField(term15132, term15132.getClass(), "books", term15135);
+        ArrayList term15118 = new ArrayList();
+        ((ArrayList) term15118).add(term15120);
+        ((ArrayList) term15118).add(term15126);
+        ((ArrayList) term15118).add(term15120);
+        ((ArrayList) term15118).add(term15132);
+        Class<? extends Object> term15406 = Class.forName((String) "com.acme.types.AwardName");
+        Field term15405 = ((Class) term15406).getDeclaredField((String) "DYLAN_PRIZE");
+        ((Field) term15405).setAccessible(true);
+        Object enum38 = ((Field) term15405).get((Object) null);
+        Object term15241 = newInstance(Class.forName("com.acme.types.Award"));
+        setField(term15241, term15241.getClass(), "id", "");
+        setField(term15241, term15241.getClass(), "awardName", enum38);
+        setField(term15241, term15241.getClass(), "category", "");
+        setIntField(term15241, term15241.getClass(), "year", -130649791);
+        Class<? extends Object> term15566 = Class.forName((String) "com.acme.types.AwardName");
+        Field term15565 = ((Class) term15566).getDeclaredField((String) "ORWELL_PRIZE");
+        ((Field) term15565).setAccessible(true);
+        Object enum39 = ((Field) term15565).get((Object) null);
+        Object term15247 = newInstance(Class.forName("com.acme.types.Award"));
+        setField(term15247, term15247.getClass(), "id", "");
+        setField(term15247, term15247.getClass(), "awardName", enum39);
+        setField(term15247, term15247.getClass(), "category", "");
+        setIntField(term15247, term15247.getClass(), "year", -1692331299);
+        ArrayList term15239 = new ArrayList();
+        ((ArrayList) term15239).add(term15241);
+        ((ArrayList) term15239).add(term15247);
+        ((ArrayList) term15239).add(term15241);
+        ((ArrayList) term15239).add(term15241);
+        term14984 = newInstance(Class.forName("com.acme.types.Book"));
+        Object term15033 = newInstance(Class.forName("com.acme.types.Genre"));
+        Object term15140 = newInstance(Class.forName("com.acme.types.Lang"));
+        Object term15165 = newInstance(Class.forName("com.acme.types.PublishingFormat"));
+        Object term15190 = newInstance(Class.forName("com.acme.types.Cover"));
+        setField(term14984, term14984.getClass(), "id", "xlERWkGbKr");
+        setField(term14984, term14984.getClass(), "title", "QvJNEroCUL");
+        setField(term14984, term14984.getClass(), "isbn13", "CpfLVqPiil");
+        setField(term14984, term14984.getClass(), "isbn10", "LmFOclAgbf");
+        setField(term15033, term15033.getClass(), "id", "nYfzbXugsB");
+        setField(term15033, term15033.getClass(), "name", "qRQNawdehr");
+        setField(term14984, term14984.getClass(), "genre", term15033);
+        setField(term14984, term14984.getClass(), "yearOfPublication", term15058);
+        setField(term14984, term14984.getClass(), "blurb", "SQzxKDMlfO");
+        setField(term14984, term14984.getClass(), "authors", term15072);
+        setField(term14984, term14984.getClass(), "publishers", term15118);
+        setField(term15140, term15140.getClass(), "id", "Nmrdnhkhse");
+        setField(term15140, term15140.getClass(), "name", "NUcoviagVt");
+        setField(term14984, term14984.getClass(), "lang", term15140);
+        setField(term15165, term15165.getClass(), "id", "LfJIjYgLRK");
+        setField(term15165, term15165.getClass(), "formatName", "ctTLYxopUg");
+        setField(term14984, term14984.getClass(), "publishingFormat", term15165);
+        setField(term15190, term15190.getClass(), "id", "tccghjUmdc");
+        setField(term15190, term15190.getClass(), "smallUrl", "iCaFATAsAC");
+        setField(term15190, term15190.getClass(), "mediumUrl", "HPWJMPlVFI");
+        setField(term15190, term15190.getClass(), "largeUrl", "ChicGOdcQQ");
+        setField(term14984, term14984.getClass(), "cover", term15190);
+        setField(term14984, term14984.getClass(), "awards", term15239);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.acme.types.Book");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getYearOfPublication", argTypes, term14984, args);
+    }
+
+};
+
+

@@ -1,0 +1,33 @@
+# coding: utf-8
+
+{{> _helper_header }}
+
+{{#with parameter}}
+{{#if refInfo}}
+    {{#if imports}}
+
+    {{/if}}
+{{> _helper_imports }}
+{{jsonPathPiece.pascalCase}} = {{refInfo.refModule}}.{{refInfo.refClass}}
+{{else}}
+from {{packageName}}.shared_imports.header_imports import *  # pyright: ignore [reportWildcardImportFromLibrary]
+    {{#if schema}}
+
+        {{#with schema}}
+from . import {{jsonPathPiece.snakeCase}}
+        {{/with}}
+    {{else}}
+        {{#if content}}
+
+            {{#each content}}
+                {{#with schema}}
+from .content.{{../@key.snakeCase}} import {{jsonPathPiece.snakeCase}} as {{../@key.snakeCase}}_{{jsonPathPiece.snakeCase}}
+                {{/with}}
+            {{/each}}
+        {{/if}}
+    {{/if}}
+
+
+{{> components/_helper_param_or_header_instance }}
+{{/if}}
+{{/with}}

@@ -1,0 +1,58 @@
+package legacyfighter.dietary;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static legacyfighter.dietary.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Long;
+
+public class TaxRuleDto_getbSquareFactor_197885045511 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term509;
+
+    public TaxRuleDto_getbSquareFactor_197885045511() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Long term522 = new Long(8059786003080744426L);
+        term509 = newInstance(Class.forName("legacyfighter.dietary.TaxRuleDto"));
+        setField(term509, term509.getClass(), "formattedTaxCode", "wSQxaModmm");
+        setField(term509, term509.getClass(), "id", term522);
+        setBooleanField(term509, term509.getClass(), "isLinear", false);
+        setIntField(term509, term509.getClass(), "aFactor", 444029505);
+        setIntField(term509, term509.getClass(), "bFactor", -1034506028);
+        setBooleanField(term509, term509.getClass(), "isSquare", true);
+        setIntField(term509, term509.getClass(), "aSquareFactor", -1263114719);
+        setIntField(term509, term509.getClass(), "bSquareFactor", -894662986);
+        setIntField(term509, term509.getClass(), "cSquareFactor", 304775596);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("legacyfighter.dietary.TaxRuleDto");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getbSquareFactor", argTypes, term509, args);
+    }
+
+};
+
+

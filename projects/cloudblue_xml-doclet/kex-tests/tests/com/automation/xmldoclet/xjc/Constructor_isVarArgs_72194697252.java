@@ -1,0 +1,62 @@
+package com.automation.xmldoclet.xjc;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static com.automation.xmldoclet.xjc.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class Constructor_isVarArgs_72194697252 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term6034;
+
+    public Constructor_isVarArgs_72194697252() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term6034 = newInstance(Class.forName("com.automation.xmldoclet.xjc.Constructor"));
+        setField(term6034, term6034.getClass(), "comment", null);
+        setField(term6034, term6034.getClass(), "tag", null);
+        setField(term6034, term6034.getClass(), "parameter", null);
+        setField(term6034, term6034.getClass(), "exception", null);
+        setField(term6034, term6034.getClass(), "annotation", null);
+        setField(term6034, term6034.getClass(), "name", null);
+        setField(term6034, term6034.getClass(), "signature", null);
+        setField(term6034, term6034.getClass(), "qualified", null);
+        setField(term6034, term6034.getClass(), "scope", null);
+        setField(term6034, term6034.getClass(), "_final", null);
+        setField(term6034, term6034.getClass(), "included", null);
+        setField(term6034, term6034.getClass(), "_native", null);
+        setField(term6034, term6034.getClass(), "_synchronized", null);
+        setField(term6034, term6034.getClass(), "_static", null);
+        setField(term6034, term6034.getClass(), "varArgs", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("com.automation.xmldoclet.xjc.Constructor");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "isVarArgs", argTypes, term6034, args);
+    }
+
+};
+
+

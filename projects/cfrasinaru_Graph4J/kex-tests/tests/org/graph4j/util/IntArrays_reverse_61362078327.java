@@ -1,0 +1,55 @@
+package org.graph4j.util;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.util.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class IntArrays_reverse_61362078327 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term9293;
+
+    public IntArrays_reverse_61362078327() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term9293 = (int[]) newIntArray(6);
+        setIntElement(term9293, 0, 1071163503);
+        setIntElement(term9293, 1, -1507726422);
+        setIntElement(term9293, 2, 171429081);
+        setIntElement(term9293, 3, 1552107519);
+        setIntElement(term9293, 4, -1952294830);
+        setIntElement(term9293, 5, -1756012081);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.util.IntArrays");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Array.newInstance(int.class, 0).getClass();
+        Object[] args = new Object[1];
+        args[0] = term9293;
+        callMethod(klass, "reverse", argTypes, null, args);
+    }
+
+};
+
+

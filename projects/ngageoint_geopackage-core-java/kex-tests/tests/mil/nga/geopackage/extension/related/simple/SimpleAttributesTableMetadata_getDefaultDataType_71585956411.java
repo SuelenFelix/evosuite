@@ -1,0 +1,58 @@
+package mil.nga.geopackage.extension.related.simple;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static mil.nga.geopackage.extension.related.simple.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.util.ArrayList;
+
+public class SimpleAttributesTableMetadata_getDefaultDataType_71585956411 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term13837;
+
+    public SimpleAttributesTableMetadata_getDefaultDataType_71585956411() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        ArrayList term13899 = new ArrayList();
+        ArrayList term13903 = new ArrayList();
+        term13837 = newInstance(Class.forName("mil.nga.geopackage.extension.related.simple.SimpleAttributesTableMetadata"));
+        setField(term13837, term13837.getClass(), "tableName", "YfkhviKZwl");
+        setField(term13837, term13837.getClass(), "dataType", "DcOhhAfJTI");
+        setField(term13837, term13837.getClass(), "identifier", "gYTIkBFOoS");
+        setField(term13837, term13837.getClass(), "description", "xmzSoVgiED");
+        setField(term13837, term13837.getClass(), "idColumnName", "pdSvedKgPq");
+        setBooleanField(term13837, term13837.getClass(), "autoincrement", true);
+        setField(term13837, term13837.getClass(), "additionalColumns", term13899);
+        setField(term13837, term13837.getClass(), "columns", term13903);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("mil.nga.geopackage.extension.related.simple.SimpleAttributesTableMetadata");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getDefaultDataType", argTypes, term13837, args);
+    }
+
+};
+
+

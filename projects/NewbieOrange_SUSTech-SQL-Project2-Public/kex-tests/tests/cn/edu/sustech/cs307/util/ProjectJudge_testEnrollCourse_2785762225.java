@@ -1,0 +1,214 @@
+package cn.edu.sustech.cs307.util;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static cn.edu.sustech.cs307.util.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.lang.Integer;
+
+public class ProjectJudge_testEnrollCourse_2785762225 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term913;
+     Object term1057;
+
+    public ProjectJudge_testEnrollCourse_2785762225() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        HashMap term915 = new HashMap();
+        HashMap term927 = new HashMap();
+        HashMap term939 = new HashMap();
+        HashMap term951 = new HashMap();
+        HashMap term963 = new HashMap();
+        HashSet term985 = new HashSet();
+        ArrayList term986 = new ArrayList();
+        ((ArrayList) term986).add((Object)null);
+        ((ArrayList) term986).add((Object)null);
+        ((ArrayList) term986).add((Object)null);
+        ((ArrayList) term986).add((Object)null);
+        ((ArrayList) term986).add((Object)null);
+        Object term977 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSearchEntry"));
+        Object term978 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.Course"));
+        Object term981 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSection"));
+        setField(term978, term978.getClass(), "id", null);
+        setField(term978, term978.getClass(), "name", null);
+        setIntField(term978, term978.getClass(), "credit", 2095798786);
+        setIntField(term978, term978.getClass(), "classHour", -1565502840);
+        setField(term978, term978.getClass(), "grading", null);
+        setField(term977, term977.getClass(), "course", term978);
+        setIntField(term981, term981.getClass(), "id", 344323424);
+        setField(term981, term981.getClass(), "name", null);
+        setIntField(term981, term981.getClass(), "totalCapacity", 9726679);
+        setIntField(term981, term981.getClass(), "leftCapacity", -25637976);
+        setField(term977, term977.getClass(), "section", term981);
+        setField(term977, term977.getClass(), "sectionClasses", term985);
+        setField(term977, term977.getClass(), "conflictCourseNames", term986);
+        HashSet term997 = new HashSet();
+        ArrayList term998 = new ArrayList();
+        ((ArrayList) term998).add((Object)null);
+        ((ArrayList) term998).add((Object)null);
+        ((ArrayList) term998).add((Object)null);
+        ((ArrayList) term998).add((Object)null);
+        ((ArrayList) term998).add((Object)null);
+        Object term989 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSearchEntry"));
+        Object term990 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.Course"));
+        Object term993 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSection"));
+        setField(term990, term990.getClass(), "id", null);
+        setField(term990, term990.getClass(), "name", null);
+        setIntField(term990, term990.getClass(), "credit", -1498296052);
+        setIntField(term990, term990.getClass(), "classHour", 2098647989);
+        setField(term990, term990.getClass(), "grading", null);
+        setField(term989, term989.getClass(), "course", term990);
+        setIntField(term993, term993.getClass(), "id", 1598895173);
+        setField(term993, term993.getClass(), "name", null);
+        setIntField(term993, term993.getClass(), "totalCapacity", 1830648570);
+        setIntField(term993, term993.getClass(), "leftCapacity", -227365013);
+        setField(term989, term989.getClass(), "section", term993);
+        setField(term989, term989.getClass(), "sectionClasses", term997);
+        setField(term989, term989.getClass(), "conflictCourseNames", term998);
+        HashSet term1009 = new HashSet();
+        ArrayList term1010 = new ArrayList();
+        ((ArrayList) term1010).add((Object)null);
+        ((ArrayList) term1010).add((Object)null);
+        ((ArrayList) term1010).add((Object)null);
+        ((ArrayList) term1010).add((Object)null);
+        Object term1001 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSearchEntry"));
+        Object term1002 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.Course"));
+        Object term1005 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSection"));
+        setField(term1002, term1002.getClass(), "id", null);
+        setField(term1002, term1002.getClass(), "name", null);
+        setIntField(term1002, term1002.getClass(), "credit", -523949691);
+        setIntField(term1002, term1002.getClass(), "classHour", 1398204340);
+        setField(term1002, term1002.getClass(), "grading", null);
+        setField(term1001, term1001.getClass(), "course", term1002);
+        setIntField(term1005, term1005.getClass(), "id", 229204365);
+        setField(term1005, term1005.getClass(), "name", null);
+        setIntField(term1005, term1005.getClass(), "totalCapacity", -461771056);
+        setIntField(term1005, term1005.getClass(), "leftCapacity", -243422082);
+        setField(term1001, term1001.getClass(), "section", term1005);
+        setField(term1001, term1001.getClass(), "sectionClasses", term1009);
+        setField(term1001, term1001.getClass(), "conflictCourseNames", term1010);
+        HashSet term1021 = new HashSet();
+        ArrayList term1022 = new ArrayList();
+        Object term1013 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSearchEntry"));
+        Object term1014 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.Course"));
+        Object term1017 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSection"));
+        setField(term1014, term1014.getClass(), "id", null);
+        setField(term1014, term1014.getClass(), "name", null);
+        setIntField(term1014, term1014.getClass(), "credit", 1384592638);
+        setIntField(term1014, term1014.getClass(), "classHour", -1002370457);
+        setField(term1014, term1014.getClass(), "grading", null);
+        setField(term1013, term1013.getClass(), "course", term1014);
+        setIntField(term1017, term1017.getClass(), "id", -2014576105);
+        setField(term1017, term1017.getClass(), "name", null);
+        setIntField(term1017, term1017.getClass(), "totalCapacity", 1296895584);
+        setIntField(term1017, term1017.getClass(), "leftCapacity", 628918458);
+        setField(term1013, term1013.getClass(), "section", term1017);
+        setField(term1013, term1013.getClass(), "sectionClasses", term1021);
+        setField(term1013, term1013.getClass(), "conflictCourseNames", term1022);
+        HashSet term1033 = new HashSet();
+        ArrayList term1034 = new ArrayList();
+        ((ArrayList) term1034).add((Object)null);
+        Object term1025 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSearchEntry"));
+        Object term1026 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.Course"));
+        Object term1029 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSection"));
+        setField(term1026, term1026.getClass(), "id", null);
+        setField(term1026, term1026.getClass(), "name", null);
+        setIntField(term1026, term1026.getClass(), "credit", -1274456137);
+        setIntField(term1026, term1026.getClass(), "classHour", 1041916673);
+        setField(term1026, term1026.getClass(), "grading", null);
+        setField(term1025, term1025.getClass(), "course", term1026);
+        setIntField(term1029, term1029.getClass(), "id", -601863069);
+        setField(term1029, term1029.getClass(), "name", null);
+        setIntField(term1029, term1029.getClass(), "totalCapacity", 663292551);
+        setIntField(term1029, term1029.getClass(), "leftCapacity", -1885090354);
+        setField(term1025, term1025.getClass(), "section", term1029);
+        setField(term1025, term1025.getClass(), "sectionClasses", term1033);
+        setField(term1025, term1025.getClass(), "conflictCourseNames", term1034);
+        HashSet term1045 = new HashSet();
+        ArrayList term1046 = new ArrayList();
+        ((ArrayList) term1046).add((Object)null);
+        Object term1037 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSearchEntry"));
+        Object term1038 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.Course"));
+        Object term1041 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseSection"));
+        setField(term1038, term1038.getClass(), "id", null);
+        setField(term1038, term1038.getClass(), "name", null);
+        setIntField(term1038, term1038.getClass(), "credit", -2066804303);
+        setIntField(term1038, term1038.getClass(), "classHour", -1731761810);
+        setField(term1038, term1038.getClass(), "grading", null);
+        setField(term1037, term1037.getClass(), "course", term1038);
+        setIntField(term1041, term1041.getClass(), "id", 197109649);
+        setField(term1041, term1041.getClass(), "name", null);
+        setIntField(term1041, term1041.getClass(), "totalCapacity", -1239406390);
+        setIntField(term1041, term1041.getClass(), "leftCapacity", 1557431527);
+        setField(term1037, term1037.getClass(), "section", term1041);
+        setField(term1037, term1037.getClass(), "sectionClasses", term1045);
+        setField(term1037, term1037.getClass(), "conflictCourseNames", term1046);
+        ArrayList term975 = new ArrayList();
+        ((ArrayList) term975).add(term977);
+        ((ArrayList) term975).add(term989);
+        ((ArrayList) term975).add(term1001);
+        ((ArrayList) term975).add(term1013);
+        ((ArrayList) term975).add(term1025);
+        ((ArrayList) term975).add(term1037);
+        HashMap term1052 = new HashMap();
+        term913 = newInstance(Class.forName("cn.edu.sustech.cs307.util.ProjectJudge"));
+        Object term914 = newInstance(Class.forName("cn.edu.sustech.cs307.util.DataImporter"));
+        Object term1051 = newInstance(Class.forName("cn.edu.sustech.cs307.dto.CourseTable"));
+        setField(term913, term913.getClass(), "serviceFactory", null);
+        setField(term913, term913.getClass(), "courseService", null);
+        setField(term913, term913.getClass(), "departmentService", null);
+        setField(term913, term913.getClass(), "semesterService", null);
+        setField(term913, term913.getClass(), "studentService", null);
+        setField(term913, term913.getClass(), "userService", null);
+        setField(term914, term914.getClass(), "serviceFactory", null);
+        setField(term914, term914.getClass(), "sectionIdMap", term915);
+        setField(term914, term914.getClass(), "classIdMap", term927);
+        setField(term914, term914.getClass(), "semesterIdMap", term939);
+        setField(term914, term914.getClass(), "departmentIdMap", term951);
+        setField(term914, term914.getClass(), "majorIdMap", term963);
+        setField(term913, term913.getClass(), "importer", term914);
+        setField(term913, term913.getClass(), "errorCourseList", term975);
+        setField(term1051, term1051.getClass(), "table", term1052);
+        setField(term913, term913.getClass(), "errorTable", term1051);
+        Integer term1060 = new Integer(1632125673);
+        term1057 = new LinkedList();
+        ((LinkedList) term1057).add(term1060);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("cn.edu.sustech.cs307.util.ProjectJudge");
+        Class<?>[] argTypes = new Class<?>[1];
+        argTypes[0] = Class.forName("java.util.List");
+        Object[] args = new Object[1];
+        args[0] = term1057;
+        callMethod(klass, "testEnrollCourse", argTypes, term913, args);
+    }
+
+};
+
+

@@ -1,0 +1,29 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=54bfcc551acd0d01d09173e2aa492dca237dcfccbf4b3a7d6c984494e2805d1c
+cache:
+  directories:
+  - $HOME/.m2
+
+language: node_js
+
+node_js:
+  - "10.16.2"
+
+before_install:
+  - ./ngapp-setup.sh
+
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
+script:
+  - mvn clean verify
+
+jdk:
+  - oraclejdk11
+
+after_script:
+  - JACOCO_SOURCE_PATH=src/main/java ./cc-test-reporter format-coverage target/site/jacoco/jacoco.xml --input-type jacoco
+  - ./cc-test-reporter upload-coverage

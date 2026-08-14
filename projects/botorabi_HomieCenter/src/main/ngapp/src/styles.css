@@ -1,0 +1,108 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+  height: 99%;
+  width: 95%;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.center{
+  text-align: center;
+}
+
+.btn-back {
+  text-align: left;
+}
+
+.btn-back-float {
+  float: left;
+}
+
+.mat-mini-fab {
+  background-color: #3f51b5 !important;
+}
+
+.footer-username {
+  width: 100%;
+  text-align: right;
+}
+
+.audit-card {
+  margin: auto;
+  width: 90%;
+}
+
+.warn-text {
+  font-size: larger;
+  font-weight: bold;
+  color: red;
+}
+.mat-form-field {
+  width: 80% !important;
+}
+.input-form {
+  margin: auto;
+}
+
+.input-form-buttons {
+  display: flex;
+}
+.input-form-buttons > button {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.device-container {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.device-item {
+  flex-shrink: 1;
+  margin: 10px;
+  min-width: 220px;
+}
+
+.spin-box {
+  font-size: smaller !important;
+  text-align: center;
+  border: 1px solid #3f51b5;
+  padding: 4px 6px;
+}
+.spin-box-handle-right {
+  cursor: pointer;
+  color: white;
+  background-color: #3f51b5;
+  border-radius: 0px 5px 5px 0px;
+}
+.spin-box-handle-left {
+  cursor: pointer;
+  color: white;
+  background-color: #3f51b5;
+  border-radius: 5px 0px 0px 5px;
+}
+.spin-box-value {
+  border-left-width: 0;
+  border-right-width: 0;
+}
+.spin-box-value-input {
+  font-weight: bold;
+  max-width: 2em !important;
+}
+.button-spacer {
+  flex: 1 0;
+}
+.title-small {
+  font-size: 0.7em;
+  cursor: pointer;
+}
+.title-normal {
+  font-size: 1.0em;
+  cursor: pointer;
+}

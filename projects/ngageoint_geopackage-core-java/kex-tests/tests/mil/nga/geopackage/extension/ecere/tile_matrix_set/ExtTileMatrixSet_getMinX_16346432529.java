@@ -1,0 +1,57 @@
+package mil.nga.geopackage.extension.ecere.tile_matrix_set;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static mil.nga.geopackage.extension.ecere.tile_matrix_set.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class ExtTileMatrixSet_getMinX_16346432529 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term6764;
+
+    public ExtTileMatrixSet_getMinX_16346432529() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term6764 = newInstance(Class.forName("mil.nga.geopackage.extension.ecere.tile_matrix_set.ExtTileMatrixSet"));
+        setLongField(term6764, term6764.getClass(), "id", 0L);
+        setField(term6764, term6764.getClass(), "tms", null);
+        setField(term6764, term6764.getClass(), "description", null);
+        setField(term6764, term6764.getClass(), "uri", null);
+        setField(term6764, term6764.getClass(), "minX", null);
+        setField(term6764, term6764.getClass(), "minY", null);
+        setField(term6764, term6764.getClass(), "maxX", null);
+        setField(term6764, term6764.getClass(), "maxY", null);
+        setField(term6764, term6764.getClass(), "srs", null);
+        setField(term6764, term6764.getClass(), "srsId", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("mil.nga.geopackage.extension.ecere.tile_matrix_set.ExtTileMatrixSet");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getMinX", argTypes, term6764, args);
+    }
+
+};
+
+

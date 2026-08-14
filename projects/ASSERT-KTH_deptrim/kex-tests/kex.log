@@ -1,0 +1,1278 @@
+2026-08-12 12:11:07.732 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ASSERT-KTH_deptrim/target/classes
+2026-08-12 12:11:07.826 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:11:07.894 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/rt-11.jar
+2026-08-12 12:11:08.809 [INFO ][org.vorpal.research.kex.launcher.KexAnalysisLauncherKt] - Preparing /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-intrinsics-0.1.2.jar
+2026-08-12 12:11:09.226 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Target: package se/kth/deptrim/util/*
+2026-08-12 12:11:09.227 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Access level: private
+2026-08-12 12:11:09.266 [DEBUG][org.vorpal.research.kex.launcher.KexAnalysisLauncher] - Running with class path:
+/home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ASSERT-KTH_deptrim/target/classes
+/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar
+2026-08-12 12:11:09.295 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Starting executor master process with command: '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.security.manager -Djava.security.policy==/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.policy -Dlogback.statusListenerClass=ch.qos.logback.core.status.NopStatusListener --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.module.invoke=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/sun.reflect.generics.repository=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.stream=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.math=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/sun.security.provider=ALL-UNNAMED --add-opens java.base/sun.net.util=ALL-UNNAMED --add-opens java.base/sun.net.fs=ALL-UNNAMED --add-opens java.base/jdk.internal.event=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage=ALL-UNNAMED --add-opens java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED --add-opens java.base/jdk.internal.jmod=ALL-UNNAMED --add-opens java.base/jdk.internal.jtrfs=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.logger=ALL-UNNAMED --add-opens java.base/jdk.internal.math=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.module=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.commons=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.signature=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.tree.analysis=ALL-UNNAMED --add-opens java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax=ALL-UNNAMED --add-opens java.base/jdk.internal.org.xml.sax.helpers=ALL-UNNAMED --add-opens java.base/jdk.internal.perf=ALL-UNNAMED --add-opens java.base/jdk.internal.platform=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/jdk.internal.util=ALL-UNNAMED --add-opens java.base/jdk.internal.util.jar=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml=ALL-UNNAMED --add-opens java.base/jdk.internal.util.xml.impl=ALL-UNNAMED --add-opens java.base/jdk.internal.vm=ALL-UNNAMED --add-opens java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-opens java.logging/java.util.logging=ALL-UNNAMED --illegal-access=warn -Xmx2g -classpath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar org.vorpal.research.kex.launcher.MasterLauncherKt --output /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ASSERT-KTH_deptrim/kex-tests --config /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex.ini --port 34349 --kfgClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/projects/ASSERT-KTH_deptrim/target/classes:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/runtime-deps/lib/kex-rt-0.0.1.jar --workerClassPath /home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-executor/target/kex-executor-0.0.11-jar-with-dependencies.jar:/home/suelenfelix/TCC/teste/analise-geracao-testes/kex/kex-runner/target/kex-runner-0.0.11-jar-with-dependencies.jar --numOfWorkers 1'
+2026-08-12 12:11:09.306 [DEBUG][org.vorpal.research.kex.trace.symbolic.protocol.ControllerProtocolSocketHandler$init$2] - Controller is waiting for command from master
+2026-08-12 12:12:49.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/TimeUtils::<init>(): void
+2026-08-12 12:12:49.338 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/TimeUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return
+2026-08-12 12:12:49.806 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.TimeUtils_init_15267330590
+2026-08-12 12:12:49.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/TimeUtils::toHumanReadableTime(long): java/lang/String
+2026-08-12 12:12:49.811 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/TimeUtils::toHumanReadableTime(long): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = TimeUnit.MILLISECONDS
+	%9 = virtual %1.toMinutes(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%4 = TimeUnit.MILLISECONDS
+	%6 = virtual %4.toSeconds(arg$0)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%13 = %6 % 60
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%17 = new java/lang/Object[2]
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%12 = static Long.valueOf(%9)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%17[0] = %12
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%16 = static Long.valueOf(%13)
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%17[1] = %16
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%19 = static String.format("%smin %ss", %17)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	return %19
+2026-08-12 12:12:49.921 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.TimeUtils_toHumanReadableTime_18995649471
+2026-08-12 12:12:50.002 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.TimeUtils_init_15267330592
+2026-08-12 12:12:50.075 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.TimeUtils_toHumanReadableTime_18995649473
+2026-08-12 12:12:50.076 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/TimeUtils::<init>(): void: null
+2026-08-12 12:12:50.076 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/TimeUtils::toHumanReadableTime(long): java/lang/String: null
+2026-08-12 12:12:50.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/TimeUtils::<init>(): void processing is finished normally
+2026-08-12 12:12:50.077 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/TimeUtils::toHumanReadableTime(long): java/lang/String processing is finished normally
+2026-08-12 12:12:50.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/FileUtils::<init>(): void
+2026-08-12 12:12:50.094 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/FileUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.deletedDirectories = 0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	return
+2026-08-12 12:12:50.160 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.FileUtils_init_17598555020
+2026-08-12 12:12:50.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/FileUtils::deleteEmptyDirectories(java/io/File): int
+2026-08-12 12:12:50.161 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/FileUtils::deleteEmptyDirectories(java/io/File): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%26 = new java/util/ArrayList
+	special %26.<init>()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%3 = virtual arg$0.listFiles()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%5 = static Objects.requireNonNull(%3)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%15 = (java/io/File[]) %5
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%12 = %15.length
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	goto %label1
+
+%label1: 	//predecessors %bb4, %label3
+	%21 = phi {%bb4 -> 0; %label3 -> %22}
+	%14 = (%21 >= %12)
+	if (%14) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%19 = %15[%21]
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	%20 = interface %26.add(%19)
+	goto %label3
+
+%label3: 	//predecessors %label2
+	%22 = %21 + 1
+	goto %label1
+
+%if.then0: 	//predecessors %label1
+	interface %26.sort(null)
+	goto %bb5
+
+%bb5: 	//predecessors %if.then0
+	%58 = new java/util/ArrayList
+	special %58.<init>()
+	goto %label4
+
+%label4: 	//predecessors %bb5
+	%33 = interface %26.iterator()
+	goto %bb6
+
+%bb6: 	//predecessors %label4
+	goto %label5
+
+%label5: 	//predecessors %bb6, %if.then1
+	%30 = interface %33.hasNext()
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	%32 = (%30 == false)
+	if (%32) goto %if.then2 else %if.else1
+
+%if.else1: 	//predecessors %bb7
+	%35 = interface %33.next()
+	goto %bb8
+
+%bb8: 	//predecessors %if.else1
+	%53 = (java/io/File) %35
+	goto %label6
+
+%label6: 	//predecessors %bb8
+	%39 = virtual %53.isDirectory()
+	goto %bb9
+
+%bb9: 	//predecessors %label6
+	%41 = (%39 == false)
+	if (%41) goto %if.then1 else %if.else2
+
+%if.else2: 	//predecessors %bb9
+	%44 = virtual %53.listFiles()
+	goto %bb10
+
+%bb10: 	//predecessors %if.else2
+	%48 = %44.length
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%49 = virtual this.deleteEmptyDirectories(%53)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%51 = (%48 != %49)
+	if (%51) goto %if.then1 else %if.else3
+
+%if.else3: 	//predecessors %bb12
+	%54 = interface %58.add(%53)
+	goto %bb13
+
+%bb13: 	//predecessors %if.else3
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb9, %bb12, %bb13
+	goto %label5
+
+%if.then2: 	//predecessors %bb7
+	%60 = interface %58.size()
+	goto %label7
+
+%label7: 	//predecessors %if.then2
+	%59 = invokeDynamic (se/kth/deptrim/util/FileUtils): java/util/function/Consumer @java/lang/invoke/LambdaMetafactory::metafactory(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/invoke/MethodType, java/lang/invoke/MethodHandle, java/lang/invoke/MethodType): java/lang/invoke/CallSite(TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/io/File): void)), HandleBsmArgument(handle=@se/kth/deptrim/util/FileUtils::lambda$deleteEmptyDirectories$0(java/io/File): void), TypeBsmArgument(typeHolder=MethodDescriptorHolder(desc=(java/lang/Object): void)))
+	goto %bb14
+
+%bb14: 	//predecessors %label7
+	interface %58.forEach(%59)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	return %60
+2026-08-12 12:12:50.250 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.FileUtils_deleteEmptyDirectories_3909804791
+2026-08-12 12:12:50.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/FileUtils::getDeletedDirectories(): int
+2026-08-12 12:12:50.251 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/FileUtils::getDeletedDirectories(): int
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.deletedDirectories
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	return %1
+2026-08-12 12:12:50.306 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.FileUtils_getDeletedDirectories_2413637002
+2026-08-12 12:12:50.369 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.FileUtils_init_17598555023
+2026-08-12 12:12:50.426 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.FileUtils_deleteEmptyDirectories_3909804794
+2026-08-12 12:12:50.480 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.FileUtils_getDeletedDirectories_2413637005
+2026-08-12 12:12:50.481 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/FileUtils::<init>(): void: null
+2026-08-12 12:12:50.481 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/FileUtils::deleteEmptyDirectories(java/io/File): int: null
+2026-08-12 12:12:50.481 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/FileUtils::<init>(): void processing is finished normally
+2026-08-12 12:12:50.481 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/FileUtils::getDeletedDirectories(): int: null
+2026-08-12 12:12:50.481 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/FileUtils::deleteEmptyDirectories(java/io/File): int processing is finished normally
+2026-08-12 12:12:50.481 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/FileUtils::getDeletedDirectories(): int processing is finished normally
+2026-08-12 12:12:50.511 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::<init>(java/util/Set, java/lang/String, bool, bool, bool): void
+2026-08-12 12:12:50.511 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::<init>(java/util/Set, java/lang/String, bool, bool, bool): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	this.specializedDependencies = arg$0
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	this.debloatedPomPath = arg$1
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	this.createSinglePomSpecialized = arg$2
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	this.createDependencySpecializedPerPom = arg$3
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	this.createAllPomSpecialized = arg$4
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	return
+2026-08-12 12:12:50.568 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_init_5565257970
+2026-08-12 12:12:50.569 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::createPoms(): void
+2026-08-12 12:12:50.569 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::createPoms(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.createAllPomSpecialized
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%3 = (%1 == false)
+	if (%3) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	virtual this.createAllCombinationsOfSpecializedPoms()
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb1, %if.else0
+	%5 = this.createSinglePomSpecialized
+	goto %bb2
+
+%bb2: 	//predecessors %if.then0
+	%7 = (%5 == false)
+	if (%7) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb2
+	%8 = virtual this.createSinglePomSpecialized()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else1
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb2, %bb3
+	%10 = this.createDependencySpecializedPerPom
+	goto %bb4
+
+%bb4: 	//predecessors %if.then1
+	%12 = (%10 == false)
+	if (%12) goto %if.then2 else %if.else2
+
+%if.else2: 	//predecessors %bb4
+	%14 = PomUtils.log
+	interface %14.info("Creating specialized pom files for each dependency.")
+	goto %bb5
+
+%bb5: 	//predecessors %if.else2
+	virtual this.createDependencySpecializedPerPom()
+	goto %if.then2
+
+%if.then2: 	//predecessors %bb4, %bb5
+	return
+2026-08-12 12:12:50.618 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createPoms_3370632171
+2026-08-12 12:12:50.619 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(): void
+2026-08-12 12:12:50.619 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%6 = PomUtils.log
+	%2 = this.specializedDependencies
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%4 = interface %2.size()
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%7 = invokeDynamic (int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Number of specialized poms: "))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	interface %6.info(%7)
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%9 = this.specializedDependencies
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	virtual this.createDependencySpecializedPerPom(%9)
+	goto %goto0
+
+%catch0: 	//catches from %bb4, %bb5
+	%13 = catch java/lang/Exception
+goto %label0
+
+%label0: 	//predecessors %catch0
+	%14 = new java/lang/RuntimeException
+	special %14.<init>(%13)
+	goto %bb6
+
+%bb6: 	//predecessors %label0
+	throw %14
+
+%goto0: 	//predecessors %bb5
+	return
+2026-08-12 12:12:50.671 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createDependencySpecializedPerPom_14658835852
+2026-08-12 12:12:50.671 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(java/util/Set): void
+2026-08-12 12:12:50.672 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(java/util/Set): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%37 = interface arg$0.size()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%9 = interface arg$0.iterator()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	goto %label1
+
+%label1: 	//predecessors %bb1, %label9
+	%54 = phi {%bb1 -> 1; %label9 -> %55}
+	%6 = interface %9.hasNext()
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	%8 = (%6 == false)
+	if (%8) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb2
+	%11 = interface %9.next()
+	goto %bb3
+
+%bb3: 	//predecessors %if.else0
+	%31 = (se/kth/deptrim/core/SpecializedDependency) %11
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%15 = static DocumentBuilderFactory.newInstance()
+	goto %label3
+
+%label3: 	//predecessors %label2
+	virtual %15.setFeature("http://apache.org/xml/features/disallow-doctype-decl", 1)
+	goto %bb4
+
+%bb4: 	//predecessors %label3
+	%21 = virtual %15.newDocumentBuilder()
+	goto %label4
+
+%label4: 	//predecessors %bb4
+	%22 = new java/io/File
+	%20 = this.debloatedPomPath
+	goto %bb5
+
+%bb5: 	//predecessors %label4
+	special %22.<init>(%20)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%52 = virtual %21.parse(%22)
+	goto %label5
+
+%label5: 	//predecessors %bb6
+	%26 = interface %52.getDocumentElement()
+	goto %bb7
+
+%bb7: 	//predecessors %label5
+	interface %26.normalize()
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	%29 = interface %52.getDocumentElement()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%32 = interface %29.getElementsByTagName("dependency")
+	goto %label6
+
+%label6: 	//predecessors %bb9
+	virtual this.replaceDependencyInPom(%31, %32)
+	goto %bb10
+
+%bb10: 	//predecessors %label6
+	%34 = this.debloatedPomPath
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%39 = virtual %34.replace("-debloated.xml", "-specialized.xml")
+	goto %label7
+
+%label7: 	//predecessors %bb11
+	%40 = invokeDynamic (int, int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="-specialized__.xml"))
+	goto %bb12
+
+%bb12: 	//predecessors %label7
+	%53 = virtual %39.replace("-specialized.xml", %40)
+	goto %label8
+
+%label8: 	//predecessors %bb12
+	%50 = PomUtils.log
+	%46 = new java/io/File
+	special %46.<init>(%53)
+	goto %bb13
+
+%bb13: 	//predecessors %label8
+	%48 = virtual %46.getName()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%51 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Created "))
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	interface %50.info(%51)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	virtual this.saveUpdatedDomInANewPom(%52, %53)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%55 = %54 + 1
+	goto %label9
+
+%label9: 	//predecessors %bb17
+	goto %label1
+
+%if.then0: 	//predecessors %bb2
+	return
+2026-08-12 12:12:50.716 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createDependencySpecializedPerPom_13363204173
+2026-08-12 12:12:50.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::replaceDependencyInPom(se/kth/deptrim/core/SpecializedDependency, org/w3c/dom/NodeList): void
+2026-08-12 12:12:50.717 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::replaceDependencyInPom(se/kth/deptrim/core/SpecializedDependency, org/w3c/dom/NodeList): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0, %if.then0
+	%50 = phi {%bb0 -> 0; %if.then0 -> %51}
+	%4 = interface arg$1.getLength()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%6 = (%50 >= %4)
+	if (%6) goto %if.then1 else %if.else0
+
+%if.else0: 	//predecessors %bb1
+	%9 = interface arg$1.item(%50)
+	goto %bb2
+
+%bb2: 	//predecessors %if.else0
+	%37 = (org/w3c/dom/Element) %9
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%13 = interface %37.getElementsByTagName("groupId")
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%42 = interface %13.item(0)
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%17 = interface %37.getElementsByTagName("artifactId")
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%45 = interface %17.item(0)
+	goto %label3
+
+%label3: 	//predecessors %bb4
+	%22 = interface %42.getTextContent()
+	goto %bb5
+
+%bb5: 	//predecessors %label3
+	%23 = virtual arg$0.getOriginalGroupId()
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	%25 = virtual %22.equals(%23)
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	%27 = (%25 == false)
+	if (%27) goto %if.then0 else %if.else1
+
+%if.else1: 	//predecessors %bb7
+	goto %label4
+
+%label4: 	//predecessors %if.else1
+	%31 = interface %45.getTextContent()
+	goto %bb8
+
+%bb8: 	//predecessors %label4
+	%32 = virtual arg$0.getOriginalArtifactId()
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	%34 = virtual %31.equals(%32)
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%36 = (%34 == false)
+	if (%36) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb10
+	%39 = interface %37.getElementsByTagName("version")
+	goto %bb11
+
+%bb11: 	//predecessors %if.else2
+	%48 = interface %39.item(0)
+	goto %label5
+
+%label5: 	//predecessors %bb11
+	%43 = virtual arg$0.getSpecializedGroupId()
+	goto %bb12
+
+%bb12: 	//predecessors %label5
+	interface %42.setTextContent(%43)
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	%46 = virtual arg$0.getSpecializedArtifactId()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	interface %45.setTextContent(%46)
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%49 = virtual arg$0.getSpecializedVersion()
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	interface %48.setTextContent(%49)
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb7, %bb10, %bb16
+	%51 = %50 + 1
+	goto %label0
+
+%if.then1: 	//predecessors %bb1
+	return
+2026-08-12 12:12:50.779 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_replaceDependencyInPom_15651034314
+2026-08-12 12:12:50.780 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::createSinglePomSpecialized(): java/lang/String
+2026-08-12 12:12:50.780 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::createSinglePomSpecialized(): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%2 = this.specializedDependencies
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%3 = static Integer.valueOf(1)
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%28 = virtual this.createSpecializedPomFromDebloatedPom(%2, %3)
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%13 = PomUtils.log
+	%9 = new java/io/File
+	special %9.<init>(%28)
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%11 = virtual %9.getName()
+	goto %bb4
+
+%bb4: 	//predecessors %bb3
+	%14 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Created "))
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	interface %13.info(%14)
+	goto %bb6
+
+%bb6: 	//predecessors %bb5
+	goto %goto0
+
+%catch0: 	//catches from %label0, %bb4, %bb2, %bb3, %bb1, %label1, %bb5
+	%29 = phi {%label1 -> %28; %label0 -> ""; %bb4 -> %28; %bb2 -> ""; %bb3 -> %28; %bb1 -> ""; %bb5 -> %28; %bb0 -> ""}
+%22 = catch java/lang/Exception
+goto %label2
+
+%label2: 	//predecessors %catch0
+	%26 = PomUtils.log
+	%24 = virtual %22.getMessage()
+	goto %bb7
+
+%bb7: 	//predecessors %label2
+	%27 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Error creating specialized pom file: "))
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	interface %26.error(%27)
+	goto %goto0
+
+%goto0: 	//predecessors %bb6, %bb8
+	%31 = phi {%bb6 -> %28; %bb8 -> %29}
+	return %31
+2026-08-12 12:12:50.827 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createSinglePomSpecialized_17620946265
+2026-08-12 12:12:50.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::createAllCombinationsOfSpecializedPoms(): void
+2026-08-12 12:12:50.828 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::createAllCombinationsOfSpecializedPoms(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%1 = this.specializedDependencies
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%10 = static Sets.powerSet(%1)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%8 = PomUtils.log
+	%6 = interface %10.size()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%9 = invokeDynamic (int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Number of specialized poms: "))
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	interface %8.info(%9)
+	goto %label1
+
+%label1: 	//predecessors %bb3
+	%19 = interface %10.iterator()
+	goto %bb4
+
+%bb4: 	//predecessors %label1
+	goto %label2
+
+%label2: 	//predecessors %bb4, %goto0
+	%47 = phi {%bb4 -> 1; %goto0 -> %54}
+	%16 = interface %19.hasNext()
+	goto %bb5
+
+%bb5: 	//predecessors %label2
+	%18 = (%16 == false)
+	if (%18) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb5
+	%21 = interface %19.next()
+	goto %bb6
+
+%bb6: 	//predecessors %if.else0
+	%25 = (java/util/Set) %21
+	goto %bb7
+
+%bb7: 	//predecessors %bb6
+	goto %label3
+
+%label3: 	//predecessors %bb7
+	%26 = static Integer.valueOf(%47)
+	goto %bb8
+
+%bb8: 	//predecessors %label3
+	%31 = virtual this.createSpecializedPomFromDebloatedPom(%25, %26)
+	goto %label4
+
+%label4: 	//predecessors %bb8
+	%36 = PomUtils.log
+	%32 = new java/io/File
+	special %32.<init>(%31)
+	goto %bb9
+
+%bb9: 	//predecessors %label4
+	%34 = virtual %32.getName()
+	goto %bb10
+
+%bb10: 	//predecessors %bb9
+	%37 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="Created "))
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	interface %36.info(%37)
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%52 = %47 + 1
+	goto %label5
+
+%label5: 	//predecessors %bb12
+	goto %goto0
+
+%catch0: 	//catches from %label4, %bb9, %label3, %bb8, %bb12, %bb11, %bb10
+	%53 = phi {%label4 -> %47; %bb9 -> %47; %label3 -> %47; %bb8 -> %47; %bb12 -> %52; %bb11 -> %47; %bb10 -> %47; %bb7 -> %47}
+%49 = catch java/lang/Exception
+goto %label6
+
+%label6: 	//predecessors %catch0
+	%51 = PomUtils.log
+	interface %51.error("Error creating specialized POM.")
+	goto %goto0
+
+%goto0: 	//predecessors %label5, %label6
+	%54 = phi {%label5 -> %52; %label6 -> %53}
+	goto %label2
+
+%if.then0: 	//predecessors %bb5
+	return
+2026-08-12 12:12:50.870 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createAllCombinationsOfSpecializedPoms_14357234846
+2026-08-12 12:12:50.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::createSpecializedPomFromDebloatedPom(java/util/Set, java/lang/Integer): java/lang/String
+2026-08-12 12:12:50.871 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::createSpecializedPomFromDebloatedPom(java/util/Set, java/lang/Integer): java/lang/String
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%2 = static DocumentBuilderFactory.newInstance()
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	virtual %2.setFeature("http://apache.org/xml/features/disallow-doctype-decl", 1)
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%8 = virtual %2.newDocumentBuilder()
+	goto %label1
+
+%label1: 	//predecessors %bb1
+	%9 = new java/io/File
+	%7 = this.debloatedPomPath
+	goto %bb2
+
+%bb2: 	//predecessors %label1
+	special %9.<init>(%7)
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	%60 = virtual %8.parse(%9)
+	goto %label2
+
+%label2: 	//predecessors %bb3
+	%13 = interface %60.getDocumentElement()
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	interface %13.normalize()
+	goto %bb5
+
+%bb5: 	//predecessors %bb4
+	%52 = interface arg$0.size()
+	goto %label3
+
+%label3: 	//predecessors %bb5
+	%17 = interface %60.getDocumentElement()
+	goto %bb6
+
+%bb6: 	//predecessors %label3
+	%30 = interface %17.getElementsByTagName("dependency")
+	goto %label4
+
+%label4: 	//predecessors %bb6
+	%25 = interface arg$0.iterator()
+	goto %bb7
+
+%bb7: 	//predecessors %label4
+	goto %label5
+
+%label5: 	//predecessors %bb7, %bb10
+	%22 = interface %25.hasNext()
+	goto %bb8
+
+%bb8: 	//predecessors %label5
+	%24 = (%22 == false)
+	if (%24) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %bb8
+	%27 = interface %25.next()
+	goto %bb9
+
+%bb9: 	//predecessors %if.else0
+	%29 = (se/kth/deptrim/core/SpecializedDependency) %27
+	goto %label6
+
+%label6: 	//predecessors %bb9
+	virtual this.replaceDependencyInPom(%29, %30)
+	goto %bb10
+
+%bb10: 	//predecessors %label6
+	goto %label5
+
+%if.then0: 	//predecessors %bb8
+	%32 = this.debloatedPomPath
+	goto %bb11
+
+%bb11: 	//predecessors %if.then0
+	%57 = virtual %32.replace("-debloated.xml", "-specialized.xml")
+	goto %label7
+
+%label7: 	//predecessors %bb11
+	%35 = this.createAllPomSpecialized
+	goto %bb12
+
+%bb12: 	//predecessors %label7
+	%37 = (%35 == false)
+	if (%37) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb12
+	%39 = this.specializedDependencies
+	goto %bb13
+
+%bb13: 	//predecessors %if.else1
+	%42 = interface %39.size()
+	goto %bb14
+
+%bb14: 	//predecessors %bb13
+	%45 = invokeDynamic (java/lang/Integer, int, int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="-specialized___.xml"))
+	goto %bb15
+
+%bb15: 	//predecessors %bb14
+	%58 = virtual %57.replace("-specialized.xml", %45)
+	goto %label8
+
+%label8: 	//predecessors %bb15
+	%55 = PomUtils.log
+	%49 = this.specializedDependencies
+	goto %bb16
+
+%bb16: 	//predecessors %label8
+	%53 = interface %49.size()
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%56 = invokeDynamic (java/lang/String, java/lang/Integer, int, int): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="POM number:     "))
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	interface %55.debug(%56)
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb12, %bb18
+	%62 = phi {%bb12 -> %57; %bb18 -> %58}
+	virtual this.saveUpdatedDomInANewPom(%60, %62)
+	goto %bb19
+
+%bb19: 	//predecessors %if.then1
+	return %62
+2026-08-12 12:12:50.919 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createSpecializedPomFromDebloatedPom_19190024067
+2026-08-12 12:12:50.920 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/PomUtils::saveUpdatedDomInANewPom(org/w3c/dom/Document, java/lang/String): void
+2026-08-12 12:12:50.920 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/PomUtils::saveUpdatedDomInANewPom(org/w3c/dom/Document, java/lang/String): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%13 = new javax/xml/transform/dom/DOMSource
+	special %13.<init>(arg$0)
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%5 = static TransformerFactory.newInstance()
+	goto %label1
+
+%label1: 	//predecessors %label0
+	virtual %5.setAttribute("http://javax.xml.XMLConstants/property/accessExternalDTD", "")
+	goto %bb1
+
+%bb1: 	//predecessors %label1
+	virtual %5.setAttribute("http://javax.xml.XMLConstants/property/accessExternalStylesheet", "")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%12 = virtual %5.newTransformer()
+	goto %label2
+
+%label2: 	//predecessors %bb2
+	%14 = new javax/xml/transform/stream/StreamResult
+	%11 = new java/io/File
+	special %11.<init>(arg$1)
+	goto %bb3
+
+%bb3: 	//predecessors %label2
+	special %14.<init>(%11)
+	goto %label3
+
+%label3: 	//predecessors %bb3
+	virtual %12.transform(%13, %14)
+	goto %bb4
+
+%bb4: 	//predecessors %label3
+	return
+2026-08-12 12:12:50.963 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_saveUpdatedDomInANewPom_15777926508
+2026-08-12 12:12:50.999 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_init_5565257979
+2026-08-12 12:12:51.035 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createPoms_33706321710
+2026-08-12 12:12:51.071 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createDependencySpecializedPerPom_146588358511
+2026-08-12 12:12:51.105 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createDependencySpecializedPerPom_133632041712
+2026-08-12 12:12:51.151 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_replaceDependencyInPom_156510343113
+2026-08-12 12:12:51.184 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createSinglePomSpecialized_176209462614
+2026-08-12 12:12:51.218 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createAllCombinationsOfSpecializedPoms_143572348415
+2026-08-12 12:12:51.257 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_createSpecializedPomFromDebloatedPom_191900240616
+2026-08-12 12:12:51.298 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.PomUtils_saveUpdatedDomInANewPom_157779265017
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::<init>(java/util/Set, java/lang/String, bool, bool, bool): void: null
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::createPoms(): void: null
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(): void: null
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(java/util/Set): void: null
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::replaceDependencyInPom(se/kth/deptrim/core/SpecializedDependency, org/w3c/dom/NodeList): void: null
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::createSinglePomSpecialized(): java/lang/String: null
+2026-08-12 12:12:51.299 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::createAllCombinationsOfSpecializedPoms(): void: null
+2026-08-12 12:12:51.300 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::createSpecializedPomFromDebloatedPom(java/util/Set, java/lang/Integer): java/lang/String: null
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::<init>(java/util/Set, java/lang/String, bool, bool, bool): void processing is finished normally
+2026-08-12 12:12:51.300 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/PomUtils::saveUpdatedDomInANewPom(org/w3c/dom/Document, java/lang/String): void: null
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::createPoms(): void processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(): void processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::createDependencySpecializedPerPom(java/util/Set): void processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::replaceDependencyInPom(se/kth/deptrim/core/SpecializedDependency, org/w3c/dom/NodeList): void processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::createSinglePomSpecialized(): java/lang/String processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::createAllCombinationsOfSpecializedPoms(): void processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::createSpecializedPomFromDebloatedPom(java/util/Set, java/lang/Integer): java/lang/String processing is finished normally
+2026-08-12 12:12:51.300 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/PomUtils::saveUpdatedDomInANewPom(org/w3c/dom/Document, java/lang/String): void processing is finished normally
+2026-08-12 12:12:51.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/JarUtils::<init>(): void
+2026-08-12 12:12:51.308 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/JarUtils::<init>(): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	special this.<init>()
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	%2 = new java/lang/IllegalStateException
+	special %2.<init>("Utility class.")
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	throw %2
+2026-08-12 12:12:51.350 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.JarUtils_init_11283353730
+2026-08-12 12:12:51.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/JarUtils::createJarFromDirectory(java/io/File, java/io/File): void
+2026-08-12 12:12:51.351 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/JarUtils::createJarFromDirectory(java/io/File, java/io/File): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	%21 = new java/util/jar/JarOutputStream
+	%4 = new java/io/FileOutputStream
+	special %4.<init>(arg$1)
+	goto %bb1
+
+%bb1: 	//predecessors %bb0
+	special %21.<init>(%4)
+	goto %label0
+
+%label0: 	//predecessors %bb1
+	%14 = virtual arg$0.listFiles()
+	goto %bb2
+
+%bb2: 	//predecessors %label0
+	%11 = %14.length
+	goto %bb3
+
+%bb3: 	//predecessors %bb2
+	goto %label1
+
+%label1: 	//predecessors %bb3, %bb4
+	%19 = phi {%bb3 -> 0; %bb4 -> %20}
+	%13 = (%19 >= %11)
+	if (%13) goto %if.then0 else %if.else0
+
+%if.else0: 	//predecessors %label1
+	%17 = %14[%19]
+	goto %label2
+
+%label2: 	//predecessors %if.else0
+	static JarUtils.addFile("", %17, %21)
+	goto %bb4
+
+%bb4: 	//predecessors %label2
+	%20 = %19 + 1
+	goto %label1
+
+%if.then0: 	//predecessors %label1
+	virtual %21.close()
+	goto %bb5
+
+%bb5: 	//predecessors %if.then0
+	return
+2026-08-12 12:12:51.398 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.JarUtils_createJarFromDirectory_13623631351
+2026-08-12 12:12:51.398 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Processing method se/kth/deptrim/util/JarUtils::addFile(java/lang/String, java/io/File, java/util/jar/JarOutputStream): void
+2026-08-12 12:12:51.399 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - se/kth/deptrim/util/JarUtils::addFile(java/lang/String, java/io/File, java/util/jar/JarOutputStream): void
+%entry0: 	//predecessors 
+	goto %bb0
+
+%bb0: 	//predecessors %entry0
+	goto %label0
+
+%label0: 	//predecessors %bb0
+	%1 = virtual arg$1.getName()
+	goto %bb1
+
+%bb1: 	//predecessors %label0
+	%3 = invokeDynamic (java/lang/String, java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string=""))
+	goto %bb2
+
+%bb2: 	//predecessors %bb1
+	%58 = virtual %3.replace("\", "/")
+	goto %label1
+
+%label1: 	//predecessors %bb2
+	%6 = virtual arg$1.isDirectory()
+	goto %bb3
+
+%bb3: 	//predecessors %label1
+	%8 = (%6 == false)
+	if (%8) goto %if.then4 else %if.else0
+
+%if.else0: 	//predecessors %bb3
+	%11 = virtual %58.isEmpty()
+	goto %bb4
+
+%bb4: 	//predecessors %if.else0
+	%13 = (%11 != false)
+	if (%13) goto %if.then1 else %if.else1
+
+%if.else1: 	//predecessors %bb4
+	%16 = virtual %58.endsWith("/")
+	goto %bb5
+
+%bb5: 	//predecessors %if.else1
+	%18 = (%16 != false)
+	if (%18) goto %if.then0 else %if.else2
+
+%if.else2: 	//predecessors %bb5
+	%22 = invokeDynamic (java/lang/String): java/lang/String @java/lang/invoke/StringConcatFactory::makeConcatWithConstants(java/lang/invoke/MethodHandles$Lookup, java/lang/String, java/lang/invoke/MethodType, java/lang/String, java/lang/Object[]): java/lang/invoke/CallSite(StringBsmArgument(string="/"))
+	goto %bb6
+
+%bb6: 	//predecessors %if.else2
+	goto %if.then0
+
+%if.then0: 	//predecessors %bb5, %bb6
+	%32 = phi {%bb5 -> %58; %bb6 -> %22}
+	%30 = new java/util/jar/JarEntry
+	special %30.<init>(%32)
+	goto %label2
+
+%label2: 	//predecessors %if.then0
+	%29 = virtual arg$1.lastModified()
+	goto %bb7
+
+%bb7: 	//predecessors %label2
+	virtual %30.setTime(%29)
+	goto %bb8
+
+%bb8: 	//predecessors %bb7
+	virtual arg$2.putNextEntry(%30)
+	goto %bb9
+
+%bb9: 	//predecessors %bb8
+	virtual arg$2.closeEntry()
+	goto %if.then1
+
+%if.then1: 	//predecessors %bb4, %bb9
+	%50 = phi {%bb4 -> %58; %bb9 -> %32}
+	%35 = virtual arg$1.listFiles()
+	goto %bb10
+
+%bb10: 	//predecessors %if.then1
+	%37 = static Objects.requireNonNull(%35)
+	goto %bb11
+
+%bb11: 	//predecessors %bb10
+	%47 = (java/io/File[]) %37
+	goto %bb12
+
+%bb12: 	//predecessors %bb11
+	%44 = %47.length
+	goto %bb13
+
+%bb13: 	//predecessors %bb12
+	goto %label3
+
+%label3: 	//predecessors %bb13, %bb14
+	%52 = phi {%bb13 -> 0; %bb14 -> %53}
+	%46 = (%52 >= %44)
+	if (%46) goto %if.then2 else %if.else3
+
+%if.else3: 	//predecessors %label3
+	%51 = %47[%52]
+	goto %label4
+
+%label4: 	//predecessors %if.else3
+	static JarUtils.addFile(%50, %51, arg$2)
+	goto %bb14
+
+%bb14: 	//predecessors %label4
+	%53 = %52 + 1
+	goto %label3
+
+%if.then2: 	//predecessors %label3
+	%55 = (null == null)
+	if (%55) goto %if.then3 else %if.else4
+
+%if.else4: 	//predecessors %if.then2
+	virtual null.close()
+	goto %if.then3
+
+%if.then3: 	//predecessors %if.then2, %if.else4
+	goto %bb.return0
+
+%if.then4: 	//predecessors %bb3
+	%62 = new java/util/jar/JarEntry
+	special %62.<init>(%58)
+	goto %label5
+
+%label5: 	//predecessors %if.then4
+	%61 = virtual arg$1.lastModified()
+	goto %bb15
+
+%bb15: 	//predecessors %label5
+	virtual %62.setTime(%61)
+	goto %bb16
+
+%bb16: 	//predecessors %bb15
+	virtual arg$2.putNextEntry(%62)
+	goto %bb17
+
+%bb17: 	//predecessors %bb16
+	%88 = new java/io/BufferedInputStream
+	%67 = new java/io/FileInputStream
+	special %67.<init>(arg$1)
+	goto %bb18
+
+%bb18: 	//predecessors %bb17
+	special %88.<init>(%67)
+	goto %label6
+
+%label6: 	//predecessors %bb18
+	%75 = new byte[1024]
+	goto %bb19
+
+%bb19: 	//predecessors %label6
+	goto %label7
+
+%label7: 	//predecessors %bb19, %bb20
+	%76 = virtual %88.read(%75)
+	goto %label8
+
+%label8: 	//predecessors %label7
+	%74 = (%76 != -1)
+	if (%74) goto %if.then5 else %if.else5
+
+%if.else5: 	//predecessors %label8
+	goto %goto0
+
+%if.then5: 	//predecessors %label8
+	virtual arg$2.write(%75, 0, %76)
+	goto %bb20
+
+%bb20: 	//predecessors %if.then5
+	goto %label7
+
+%goto0: 	//predecessors %if.else5
+	virtual arg$2.closeEntry()
+	goto %bb21
+
+%bb21: 	//predecessors %goto0
+	%79 = (%88 == null)
+	if (%79) goto %if.then7 else %if.else6
+
+%if.else6: 	//predecessors %bb21
+	virtual %88.close()
+	goto %bb22
+
+%bb22: 	//predecessors %if.else6
+	goto %if.then7
+
+%catch0: 	//catches from %label2, %bb6, %goto0, %label0, %bb2, %bb9, %bb16, %bb1, %if.then1, %bb18, %label4, %bb3, %bb11, %bb12, %if.else0, %bb14, %if.else2, %bb13, %label1, %bb19, %bb4, %label8, %label7, %bb20, %if.else1, %bb17, %if.else5, %bb8, %if.then5, %if.else3, %if.then4, %catch0, %label5, %label3, %bb5, %if.then0, %bb7, %bb10, %label6, %bb15
+	%95 = phi {%label2 -> null; %bb6 -> null; %goto0 -> %88; %label0 -> null; %label4 -> null; %bb2 -> null; %bb9 -> null; %bb16 -> null; %bb1 -> null; %if.then1 -> null; %bb18 -> null; %bb3 -> null; %bb11 -> null; %bb12 -> null; %if.else0 -> null; %label1 -> null; %bb14 -> null; %if.else2 -> null; %label6 -> %88; %bb13 -> null; %label8 -> %88; %bb19 -> %88; %bb4 -> null; %label7 -> %88; %bb20 -> %88; %if.else1 -> null; %bb17 -> null; %if.else5 -> %88; %bb8 -> null; %if.then5 -> %88; %if.else3 -> null; %if.then4 -> null; %catch0 -> %95; %label5 -> null; %label3 -> null; %bb5 -> null; %if.then0 -> null; %bb7 -> null; %bb10 -> null; %bb15 -> null; %bb0 -> null}
+%96 = catch java/lang/Throwable
+goto %label9
+
+%label9: 	//predecessors %catch0
+	%94 = (%95 == null)
+	if (%94) goto %if.then6 else %if.else7
+
+%if.else7: 	//predecessors %label9
+	virtual %95.close()
+	goto %if.then6
+
+%if.then6: 	//predecessors %label9, %if.else7
+	throw %96
+
+%if.then7: 	//predecessors %bb21, %bb22
+	goto %bb.return0
+
+%bb.return0: 	//predecessors %if.then3, %if.then7
+	return
+2026-08-12 12:12:51.493 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.493 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.493 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.493 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.493 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.493 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.494 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.494 [WARN ][org.vorpal.research.kex.reanimator.actionsequence.generator.UnknownGenerator] - Field extraAttributes: int is not found in class java/util/zip/ZipEntry
+2026-08-12 12:12:51.568 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.JarUtils_addFile_18173758772
+2026-08-12 12:12:51.602 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.JarUtils_init_11283353733
+2026-08-12 12:12:51.636 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.JarUtils_createJarFromDirectory_13623631354
+2026-08-12 12:12:51.667 [DEBUG][org.vorpal.research.kex.trace.runner.SymbolicExternalTracingRunner] - Executing test se.kth.deptrim.util.JarUtils_addFile_18173758775
+2026-08-12 12:12:51.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/JarUtils::<init>(): void: null
+2026-08-12 12:12:51.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/JarUtils::createJarFromDirectory(java/io/File, java/io/File): void: null
+2026-08-12 12:12:51.668 [WARN ][org.vorpal.research.kex.asm.analysis.concolic.InstructionConcolicChecker] - Failed to generate random trace for method se/kth/deptrim/util/JarUtils::addFile(java/lang/String, java/io/File, java/util/jar/JarOutputStream): void: null
+2026-08-12 12:12:51.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/JarUtils::<init>(): void processing is finished normally
+2026-08-12 12:12:51.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/JarUtils::createJarFromDirectory(java/io/File, java/io/File): void processing is finished normally
+2026-08-12 12:12:51.668 [DEBUG][org.vorpal.research.kex.asm.analysis.util.ExtensionsKt] - Method se/kth/deptrim/util/JarUtils::addFile(java/lang/String, java/io/File, java/util/jar/JarOutputStream): void processing is finished normally
+2026-08-12 12:12:51.669 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Terminating executor controller process
+2026-08-12 12:12:51.669 [DEBUG][org.vorpal.research.kex.trace.runner.ExecutorMasterController] - Executor controller terminated: false

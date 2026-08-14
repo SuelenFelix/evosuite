@@ -1,0 +1,213 @@
+package org.graph4j.spanning;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static org.graph4j.spanning.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+import java.lang.Object;
+import java.lang.Double;
+
+public class ParallelFilterKruskal_getEdges_17736861987 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term2137;
+
+    public ParallelFilterKruskal_getEdges_17736861987() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        Double term2157 = new Double(0.9252082867478522);
+        Double term2159 = new Double(0.9497134088791012);
+        Double term2161 = new Double(0.16146812433558666);
+        Double term2163 = new Double(0.26579782661001083);
+        Double term2165 = new Double(0.18486152840004733);
+        Double term2167 = new Double(0.5203027258462796);
+        Double term2169 = new Double(0.3060932006026843);
+        Double term2176 = new Double(0.07426901108168338);
+        Double term2178 = new Double(0.14479972505921546);
+        Double term2180 = new Double(0.4846786969921817);
+        Double term2182 = new Double(0.8988977247873451);
+        Double term2184 = new Double(0.12770018571966624);
+        Double term2186 = new Double(0.4007990803440893);
+        Double term2193 = new Double(0.291814792946269);
+        Double term2195 = new Double(0.6259114447412901);
+        Double term2197 = new Double(0.5795537811016872);
+        Double term2199 = new Double(0.36659032749875975);
+        Double term2201 = new Double(0.70650233569157);
+        Double term2208 = new Double(0.8415518857467591);
+        Double term2210 = new Double(0.2722999517593325);
+        Double term2217 = new Double(0.3940760506335459);
+        Double term2219 = new Double(0.6257789340937572);
+        Double term2236 = new Double(0.2876331964157256);
+        Double term2238 = new Double(0.3334570821940357);
+        Double term2240 = new Double(0.15849110617799977);
+        Double term2242 = new Double(0.9687791556617598);
+        Double term2244 = new Double(0.48315612207780667);
+        Double term2251 = new Double(0.40335832912344194);
+        Double term2253 = new Double(0.5940588918649367);
+        Double term2255 = new Double(0.638695515317724);
+        Double term2257 = new Double(0.2877172243103391);
+        Double term2259 = new Double(0.558273893048355);
+        Double term2261 = new Double(0.9518298975908273);
+        term2137 = newInstance(Class.forName("org.graph4j.spanning.ParallelFilterKruskal"));
+        Object term2138 = newInstance(Class.forName("org.graph4j.util.UnionFind"));
+        int[] term2141 = (int[]) newIntArray(8);
+        Object[] term2151 = (Object[]) newArray("org.graph4j.Edge", 9);
+        Object term2152 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2156 = (Object[]) newArray("java.lang.Double", 7);
+        Object term2171 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2175 = (Object[]) newArray("java.lang.Double", 6);
+        Object term2188 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2192 = (Object[]) newArray("java.lang.Double", 5);
+        Object term2203 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2207 = (Object[]) newArray("java.lang.Double", 2);
+        Object term2212 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2216 = (Object[]) newArray("java.lang.Double", 2);
+        Object term2221 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2225 = (Object[]) newArray("java.lang.Double", 0);
+        Object term2226 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2230 = (Object[]) newArray("java.lang.Double", 0);
+        Object term2231 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2235 = (Object[]) newArray("java.lang.Double", 5);
+        Object term2246 = newInstance(Class.forName("org.graph4j.Edge"));
+        Object[] term2250 = (Object[]) newArray("java.lang.Double", 6);
+        Object term2264 = newInstance(Class.forName("org.graph4j.spanning.ParallelFilterKruskal$MutableDouble"));
+        setField(term2137, term2137.getClass(), "tree", null);
+        setIntField(term2138, term2138.getClass(), "numVertices", -525570815);
+        setBooleanField(term2138, term2138.getClass(), "pathCompression", true);
+        setIntElement(term2141, 0, 754055848);
+        setIntElement(term2141, 1, -19246901);
+        setIntElement(term2141, 2, -370828664);
+        setIntElement(term2141, 3, 1168633950);
+        setIntElement(term2141, 4, 1607082164);
+        setIntElement(term2141, 5, 1890399366);
+        setIntElement(term2141, 6, -1867239125);
+        setIntElement(term2141, 7, 952869601);
+        setField(term2138, term2138.getClass(), "parent", term2141);
+        setIntField(term2138, term2138.getClass(), "numSets", 91958879);
+        setField(term2137, term2137.getClass(), "unionFind", term2138);
+        setBooleanField(term2152, term2152.getClass(), "directed", true);
+        setIntField(term2152, term2152.getClass(), "source", -645429025);
+        setIntField(term2152, term2152.getClass(), "target", -688213483);
+        setElement(term2156, 0, term2157);
+        setElement(term2156, 1, term2159);
+        setElement(term2156, 2, term2161);
+        setElement(term2156, 3, term2163);
+        setElement(term2156, 4, term2165);
+        setElement(term2156, 5, term2167);
+        setElement(term2156, 6, term2169);
+        setField(term2152, term2152.getClass(), "data", term2156);
+        setField(term2152, term2152.getClass(), "label", null);
+        setElement(term2151, 0, term2152);
+        setBooleanField(term2171, term2171.getClass(), "directed", true);
+        setIntField(term2171, term2171.getClass(), "source", 644154104);
+        setIntField(term2171, term2171.getClass(), "target", 76650923);
+        setElement(term2175, 0, term2176);
+        setElement(term2175, 1, term2178);
+        setElement(term2175, 2, term2180);
+        setElement(term2175, 3, term2182);
+        setElement(term2175, 4, term2184);
+        setElement(term2175, 5, term2186);
+        setField(term2171, term2171.getClass(), "data", term2175);
+        setField(term2171, term2171.getClass(), "label", null);
+        setElement(term2151, 1, term2171);
+        setBooleanField(term2188, term2188.getClass(), "directed", true);
+        setIntField(term2188, term2188.getClass(), "source", 1003743923);
+        setIntField(term2188, term2188.getClass(), "target", 1887772522);
+        setElement(term2192, 0, term2193);
+        setElement(term2192, 1, term2195);
+        setElement(term2192, 2, term2197);
+        setElement(term2192, 3, term2199);
+        setElement(term2192, 4, term2201);
+        setField(term2188, term2188.getClass(), "data", term2192);
+        setField(term2188, term2188.getClass(), "label", null);
+        setElement(term2151, 2, term2188);
+        setBooleanField(term2203, term2203.getClass(), "directed", false);
+        setIntField(term2203, term2203.getClass(), "source", 354196060);
+        setIntField(term2203, term2203.getClass(), "target", -1840305774);
+        setElement(term2207, 0, term2208);
+        setElement(term2207, 1, term2210);
+        setField(term2203, term2203.getClass(), "data", term2207);
+        setField(term2203, term2203.getClass(), "label", null);
+        setElement(term2151, 3, term2203);
+        setBooleanField(term2212, term2212.getClass(), "directed", false);
+        setIntField(term2212, term2212.getClass(), "source", 1365087144);
+        setIntField(term2212, term2212.getClass(), "target", -1537255112);
+        setElement(term2216, 0, term2217);
+        setElement(term2216, 1, term2219);
+        setField(term2212, term2212.getClass(), "data", term2216);
+        setField(term2212, term2212.getClass(), "label", null);
+        setElement(term2151, 4, term2212);
+        setBooleanField(term2221, term2221.getClass(), "directed", false);
+        setIntField(term2221, term2221.getClass(), "source", 934477462);
+        setIntField(term2221, term2221.getClass(), "target", 4900410);
+        setField(term2221, term2221.getClass(), "data", term2225);
+        setField(term2221, term2221.getClass(), "label", null);
+        setElement(term2151, 5, term2221);
+        setBooleanField(term2226, term2226.getClass(), "directed", false);
+        setIntField(term2226, term2226.getClass(), "source", -1252345779);
+        setIntField(term2226, term2226.getClass(), "target", -2063365430);
+        setField(term2226, term2226.getClass(), "data", term2230);
+        setField(term2226, term2226.getClass(), "label", null);
+        setElement(term2151, 6, term2226);
+        setBooleanField(term2231, term2231.getClass(), "directed", false);
+        setIntField(term2231, term2231.getClass(), "source", 812570053);
+        setIntField(term2231, term2231.getClass(), "target", -1488938905);
+        setElement(term2235, 0, term2236);
+        setElement(term2235, 1, term2238);
+        setElement(term2235, 2, term2240);
+        setElement(term2235, 3, term2242);
+        setElement(term2235, 4, term2244);
+        setField(term2231, term2231.getClass(), "data", term2235);
+        setField(term2231, term2231.getClass(), "label", null);
+        setElement(term2151, 7, term2231);
+        setBooleanField(term2246, term2246.getClass(), "directed", true);
+        setIntField(term2246, term2246.getClass(), "source", 1916544127);
+        setIntField(term2246, term2246.getClass(), "target", -1133405894);
+        setElement(term2250, 0, term2251);
+        setElement(term2250, 1, term2253);
+        setElement(term2250, 2, term2255);
+        setElement(term2250, 3, term2257);
+        setElement(term2250, 4, term2259);
+        setElement(term2250, 5, term2261);
+        setField(term2246, term2246.getClass(), "data", term2250);
+        setField(term2246, term2246.getClass(), "label", null);
+        setElement(term2151, 8, term2246);
+        setField(term2137, term2137.getClass(), "edges", term2151);
+        setLongField(term2137, term2137.getClass(), "finalNrOfEdges", 6967924379644551255L);
+        setDoubleField(term2264, term2264.getClass(), "value", 0.7332741045694002);
+        setField(term2264, term2264.getClass(), "this$0", null);
+        setField(term2137, term2137.getClass(), "totalWeight", term2264);
+        setBooleanField(term2137, term2137.getClass(), "calculated", true);
+        setField(term2137, term2137.getClass(), "graph", null);
+        setBooleanField(term2137, term2137.getClass(), "directed", true);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("org.graph4j.spanning.ParallelFilterKruskal");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "getEdges", argTypes, term2137, args);
+    }
+
+};
+
+

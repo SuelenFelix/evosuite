@@ -1,0 +1,50 @@
+package io.zenwave360.jsonrefparser;
+
+import java.lang.Throwable;
+import java.lang.IllegalStateException;
+import org.junit.Test;
+import org.junit.Rule;
+import org.junit.rules.Timeout;
+import java.util.concurrent.TimeUnit;
+import org.junit.Before;
+import java.lang.Class;
+import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import static io.zenwave360.jsonrefparser.ReflectionUtils.*;
+import static org.junit.Assert.assertTrue;
+
+public class _RefParser_AllOfObject_buildAllOfObject_6510825193 {
+    @Rule public Timeout globalTimeout = new Timeout(10, TimeUnit.SECONDS);
+     Object term4294;
+
+    public _RefParser_AllOfObject_buildAllOfObject_6510825193() {
+    }
+
+    public <T> T unknown() {
+        throw new IllegalStateException();
+    }
+
+    @Before
+    public void setup() throws Throwable {
+        term4294 = newInstance(Class.forName("io.zenwave360.jsonrefparser.$RefParser$AllOfObject"));
+        setField(term4294, term4294.getClass(), "allOf", null);
+        setField(term4294, term4294.getClass(), "properties", null);
+        setField(term4294, term4294.getClass(), "required", null);
+    }
+
+    @Test
+    public void test() throws Throwable, Throwable {
+        Class<?> klass = Class.forName("io.zenwave360.jsonrefparser.$RefParser$AllOfObject");
+        Class<?>[] argTypes = new Class<?>[0];
+        Object[] args = new Object[0];
+        callMethod(klass, "buildAllOfObject", argTypes, term4294, args);
+    }
+
+};
+
+
